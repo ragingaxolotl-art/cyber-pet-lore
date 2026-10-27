@@ -1,3 +1,4 @@
+import {GitHubBackup} from './github-backup.mjs';
 import {STORAGE_KEY,emptyState,validateState,mergeStates,highlightIntervals,clipContext} from './records.mjs';
 const $=id=>document.getElementById(id);
 const ERA_NAMES={'-3':'Borrowed Thought','-2':'Shelter','-1':'Becoming',0:'Great Flourishing',1:'Echoes',2:'Great Reduction',3:'Small Lives',4:'Reopening'};
@@ -17,12 +18,13 @@ function save(){
   if(raw){const previous=validateState(JSON.parse(raw));state=mergeStates(state,previous);try{localStorage.setItem(STORAGE_KEY+'.previous',raw);}catch{}}
   localStorage.setItem(STORAGE_KEY,JSON.stringify(state));$('reader-save').textContent='Saved in this browser';$('save-alert').hidden=true;lastWrite=Date.now();saved=true;
  }catch{alertSave('Browser storage is unavailable or full. Your latest changes are in this open page only. Download a reading backup before leaving.');}
- updateProgress();return saved;
+ queueGitHubBackup();updateProgress();return saved;
 }
 let confirmationTimer;
 $('save-reading').onclick=()=>{
  clearTimeout(confirmationTimer);
  const saved=save();
+ if(github)void backUpGitHub();
  $('save-confirmation').textContent=saved?'✓ Saved — your reading progress, highlights, and notes are saved in this browser.':'Could not save. See the storage warning above.';
  $('save-confirmation').hidden=false;
  confirmationTimer=setTimeout(()=>{$('save-confirmation').hidden=true;},6000);
@@ -147,3 +149,31 @@ window.addEventListener('hashchange',route);window.addEventListener('storage',e=
 document.addEventListener('keydown',e=>{if(e.key==='Escape')hideSelection();});
 async function init(){try{const response=await fetch('catalog.json');if(!response.ok)throw Error();catalog=await response.json();entries=Array.isArray(catalog)?catalog:catalog.entries;byId=new Map(entries.map(e=>[e.id,e]));for(let era=-3;era<=4;era++)$('era-filter').add(new Option(eraName(era),String(era)));fillSelect('character-filter',[...new Set(entries.flatMap(e=>e.characters||[]))].sort(),'All characters');fillSelect('place-filter',[...new Set(entries.flatMap(e=>e.places||[]))].sort(),'All places');for(let era=-3;era<=4;era++){const b=node('button','Era '+String(era).replace('-','−'));b.dataset.era=String(era);b.title=eraName(era);b.onclick=()=>{$('era-filter').value=$('era-filter').value===String(era)?'':String(era);page=0;renderLibrary();};$('era-strip').append(b);}const sources=$('sources-list');for(const source of catalog.sources||[]){const div=node('div'),a=node('a',source.title||source.name);if(source.url||source.documentId){a.href=source.url||'https://docs.google.com/document/d/'+source.documentId+'/edit';a.target='_blank';a.rel='noopener';}div.append(a);if(source.empty)div.append(node('span','Empty source — no reading text','source-detail'));if(source.note)div.append(node('span',source.note,'source-detail'));sources.append(div);}$('snapshot-date').textContent='Archive snapshot: '+(catalog.generatedAt||catalog.generated||'October 27, 2026')+'. Reading records stay separate from the source texts.';appearance();route();}catch{alertSave('The archive could not load. Check your connection and refresh. Your reading records have not been changed.');}}
 init();
+
+// Credentials remain in memory only. Browser data continues saving independently.
+let github=null,githubTimer,githubBusy=false,githubPending=false;
+function githubStatus(message){$('github-status').textContent=message;$('github-summary').textContent=message;}
+function githubControls(){for(const id of ['github-save','github-restore','github-disconnect'])$(id).disabled=!github||githubBusy;$('github-connect').disabled=githubBusy;}
+function queueGitHubBackup(){if(!github)return;clearTimeout(githubTimer);githubStatus('Changes waiting for GitHub backup…');githubTimer=setTimeout(()=>void backUpGitHub(),5000);}
+async function backUpGitHub(){
+ clearTimeout(githubTimer);if(!github)return;if(githubBusy){githubPending=true;return;}
+ githubBusy=true;githubControls();const snapshot=JSON.stringify(state);githubStatus('Backing up to GitHub…');
+ try{await github.save(JSON.parse(snapshot));githubStatus('Backed up to GitHub at '+new Date().toLocaleTimeString()+'.');}
+ catch(error){githubStatus(error.message||'GitHub unavailable. Download a backup before closing.');}
+ finally{githubBusy=false;githubControls();if(githubPending||JSON.stringify(state)!==snapshot){githubPending=false;queueGitHubBackup();}}
+}
+async function connectGitHub(){
+ if(githubBusy)return;clearTimeout(githubTimer);githubBusy=true;githubControls();
+ const token=$('github-token').value.trim();$('github-token').value='';
+ const connection=token?new GitHubBackup(token):github;
+ try{if(!connection)throw Error('Enter a repository-limited token to connect.');if(storageCorrupt)throw Error('Recover the existing browser data before connecting.');githubStatus('Checking private backup and merging records…');const remote=await connection.load();
+ if(remote){beforeImport=structuredClone(state);try{localStorage.setItem(STORAGE_KEY+'.before-import',JSON.stringify(beforeImport));}catch{}$('download-before-import').hidden=false;state=mergeStates(state,remote);}
+ if(github&&github!==connection)github.disconnect();github=connection;save();appearance();route();githubPending=false;
+ }catch(error){githubStatus(error.message||'Could not connect to GitHub.');connection?.disconnect();github=null;}
+ finally{githubBusy=false;githubControls();}
+ if(github)await backUpGitHub();
+}
+$('github-connect').onclick=connectGitHub;
+$('github-restore').onclick=connectGitHub;
+$('github-save').onclick=()=>void backUpGitHub();
+$('github-disconnect').onclick=()=>{clearTimeout(githubTimer);github?.disconnect();github=null;githubPending=false;githubControls();githubStatus('Disconnected. Browser records and the GitHub backup are preserved.');};

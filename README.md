@@ -16,7 +16,7 @@ Location sections include multiple treatments of the same place: the atlas descr
 
 Choose a collection, era, character, place, or reading status. Search titles, summaries and topic metadata. Open a reading, check **Mark as read**, select text to highlight it or add a note, and write in the margins. **My notebook** brings annotations together. Personal tags can be used to filter the library.
 
-Click **Save** in the top navigation for an immediate save confirmation. Automatic saving also remains enabled. Reading records save automatically in localStorage in the same browser, device, and website origin. They do not sync through GitHub or an account. Clearing website data removes them. **Backups → Download reading backup** exports a portable JSON copy. Import merges records; the most recently updated record wins per reading. A pre-import snapshot can be downloaded. Storage errors show a visible warning rather than silently claiming success. Backups contain your notes; keep them private.
+Click **Save** in the top navigation for an immediate save confirmation. Automatic saving also remains enabled. Reading records save automatically in localStorage in the same browser, device, and website origin. Use **Backups → Connect and back up** to enable private GitHub backups for the current page session. Clearing website data removes them. **Backups → Download reading backup** exports a portable JSON copy. Import merges records; the most recently updated record wins per reading. A pre-import snapshot can be downloaded. Storage errors show a visible warning rather than silently claiming success. Backups contain your notes; keep them private.
 
 ## Develop and verify
 
@@ -39,3 +39,13 @@ Content belongs to the project author(s); publication does not grant a new reuse
 Select a passage and choose **Clip**, add optional notes, review the detected character names, and click **Clip** in the dialog. Existing highlights have a Clip action too, which preserves their notes and anchors. Each clip stores a sequential number, the story title and ID, era/context, exact selected text, characters, and notes. A clear era section can narrow the era of a passage in a story spanning several eras; uncertain context retains the story's era range. Character detection matches explicit names; review the editable list for pronouns or shortened names.
 
 Clips remain highlighted in the story. **My notebook → Show only clips** collects them with editable notes, a **Return to passage** link, and **Copy passage** for preparing teasers. Copying does not publish anything. The existing Save button, automatic browser saving, and JSON backups include clips. Imported clip number collisions are assigned the next available number while local numbers remain stable. Numbers are personal to the browser's reading collection, not a public global numbering system. Earlier reading backups remain supported.
+
+## Private GitHub backup
+
+Backups connects directly to `ragingaxolotl-art/cyber-pet-lore-backup` using a user-entered fine-grained token restricted to that repository with Contents read/write permission. The token is retained only in page memory, never in browser storage, downloads, or source control. Reconnect after refreshing or closing. No server credential is bundled in this public website.
+
+Connection checks repository privacy, reads and validates `reading-backup.json`, merges existing records, and saves the collection. Changes back up after five idle seconds while connected; Save and Back up now request immediate backup. Status is visible above the page and in Backups. GitHub failures leave browser data intact. Wait for confirmation before closing. Backups over 900 KB require JSON download instead.
+
+Merge latest GitHub backup merges other-device updates; newer whole-reading records win, as for file imports. Prior local records can be downloaded from Backups after a merge. Concurrent GitHub changes stop writes until reconnect/merge, avoiding blind overwrites. GitHub commits retain previous versions. Connecting an empty browser restores existing records. The feature cannot access records from another browser/device; connect from the browser holding the notes.
+
+API reference: https://docs.github.com/en/rest/repos/contents
