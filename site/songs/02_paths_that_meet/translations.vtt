@@ -1,0 +1,49 @@
+WEBVTT
+
+00:04.286 --> 00:09.643
+gi-ki-ma-ma
+completed source departure (MOV:100; state 1)
+
+00:10.714 --> 00:16.071
+gi-ma-ki-ki
+active destination (MOV:011; state 1)
+
+00:17.143 --> 00:22.500
+gi-ki-nu-ki
+active shared-frame movement (MOV:121; state 1)
+
+00:23.571 --> 00:28.929
+gi-ki-ki-ma
+completed target arrival (MOV:110; state 1)
+
+00:30.000 --> 00:35.357
+wu-ki-ki-ma
+completed target reception (CON:110; state 1)
+
+00:36.429 --> 00:41.786
+wu-nu-nu-ma
+enduring shared-participation relation (CON:220; state 1)
+
+00:42.857 --> 00:48.214
+gi-ki-ma-ma
+completed source departure (MOV:100; state 1)
+
+00:49.286 --> 00:54.643
+gi-ki-nu-ki
+active shared-frame movement (MOV:121; state 1)
+
+00:55.714 --> 01:01.071
+gi-ma-ki-ki
+active destination (MOV:011; state 1)
+
+01:02.143 --> 01:07.500
+wu-ki-ki-ma
+completed target reception (CON:110; state 1)
+
+01:08.571 --> 01:13.929
+wu-nu-nu-ma
+enduring shared-participation relation (CON:220; state 1)
+
+01:15.000 --> 01:20.357
+gi-ki-ma-ma
+completed source departure (MOV:100; state 1)

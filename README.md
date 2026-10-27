@@ -49,3 +49,7 @@ Connection checks repository privacy, reads and validates `reading-backup.json`,
 Merge latest GitHub backup merges other-device updates; newer whole-reading records win, as for file imports. Prior local records can be downloaded from Backups after a merge. Concurrent GitHub changes stop writes until reconnect/merge, avoiding blind overwrites. GitHub commits retain previous versions. Connecting an empty browser restores existing records. The feature cannot access records from another browser/device; connect from the browser holding the notes.
 
 API reference: https://docs.github.com/en/rest/repos/contents
+
+## Era Zero songs
+
+Open **Era Zero songs** in the main navigation, or visit https://ragingaxolotl-art.github.io/cyber-pet-lore/songs/. Four original instrumental compositions include full arrangements, isolated language melodies, synchronized verified meanings, phrase seeking, and audio/MIDI/meaning-sheet downloads. Source: `CPP-V3/exports/era-zero-songs/2026-10-27` on the Cyber Pet Workspace SSD. These are new compositions, not historical recordings or human-sung voices. The source export retains lossless masters and score provenance.
