@@ -82,6 +82,19 @@ for era in time['eras']:
  for ev in era['events']:
   found={tid for m in pattern.finditer(ev['title']+' '+' '.join(ev['text'])) for tid in lookup[m.group()]}
   for tid in found:by_id[tid].setdefault('events',[]).append({'title':ev['title'],'era':era['number'],'href':'timeline.html#'+era['id']+'&event='+ev['id'],'status':ev['status']})
-output={'version':1,'notice':'Links identify named mentions and related reading, not proof of identity, causation, or a personal relationship. Source status and uncertainties remain authoritative.','topics':list(topics.values()),'aliases':{a:ids[0] for a,ids in lookup.items()},'readings':reading_topics}
+# Attach only explicitly mapped existing artwork; never borrow a neighboring place’s image.
+art=json.loads((ROOT/'sources/location-art.json').read_text())
+reading_images={}
+for location in art['locations']:
+ assert location['topicId'] in by_id, location['name']
+ images=[]
+ for image in location['images']:
+  assert (SITE/image['src']).is_file(), image['src']
+  images.append({k:image[k] for k in ['src','width','height','view','caption','alt']})
+ by_id[location['topicId']]['images']=images
+ for reading in location['readingIds']:
+  assert reading in content, reading
+  reading_images[reading]=images
+output={'version':1,'notice':'Links identify named mentions and related reading, not proof of identity, causation, or a personal relationship. Source status and uncertainties remain authoritative.','topics':list(topics.values()),'readingImages':reading_images,'aliases':{a:ids[0] for a,ids in lookup.items()},'readings':reading_topics}
 (SITE/'wiki.json').write_text(json.dumps(output,ensure_ascii=False,separators=(',',':'))+'\n')
 print('Wiki:',len(topics),'topics;',sum(len(t['mentions']) for t in topics.values()),'reading references')
