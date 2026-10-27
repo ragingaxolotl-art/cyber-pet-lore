@@ -1,5 +1,5 @@
 import {renderLocationArt} from './location-art.mjs';
-import {loadWiki,appendWiki,readingConnections} from './wiki-links.mjs';
+import {loadWiki,appendWiki,readingConnections} from './wiki-links.mjs?v=location-art-1';
 import {GitHubBackup} from './github-backup.mjs';
 import {STORAGE_KEY,emptyState,validateState,mergeStates,highlightIntervals,clipContext} from './records.mjs';
 const $=id=>document.getElementById(id);

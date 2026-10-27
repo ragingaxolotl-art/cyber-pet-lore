@@ -1,5 +1,5 @@
 import {renderLocationArt} from './location-art.mjs';
-import {loadWiki,appendWiki} from './wiki-links.mjs';
+import {loadWiki,appendWiki} from './wiki-links.mjs?v=location-art-1';
 const node=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;};
 const link=(text,href)=>{const a=node('a',text);a.href=href;return a;};
 let data;
