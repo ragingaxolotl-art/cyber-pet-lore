@@ -127,3 +127,6 @@ print(json.dumps({'entries':len(catalog),'counts':counts,'integrity':conservatio
 import runpy
 runpy.run_path(str(ROOT/"tools/build_timeline.py"))
 runpy.run_path(str(ROOT/"tools/build_wiki.py"))
+
+# Keep the multi-voice player’s display in sync with its score and backstories.
+runpy.run_path(str(ROOT/"tools/build_song_player.py"))
