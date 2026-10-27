@@ -100,6 +100,12 @@ for item in cycle['entries']:
  blocks=[{'id':sid+'-p'+str(i).zfill(3),'text':text,'style':'HEADING_1' if i==0 else 'NORMAL_TEXT'} for i,text in enumerate([item['title']]+item['paragraphs'])]
  (CONTENT/(sid+'.json')).write_text(json.dumps({'id':sid,'blocks':blocks,'outline':[{'id':blocks[0]['id'],'title':item['title'],'level':1}]},ensure_ascii=False))
  catalog.append({'id':sid,'title':item['title'],'kind':item['kind'],'era':[0],'timeLabel':'Era Zero · new song-cycle fiction','timeOrder':20000+len(catalog),'status':'new addition','characters':item['characters'],'places':item['places'],'topics':['music','ordinary life','song cycle'],'source':{'title':cycle['title'],'url':''},'summary':item['summary'],'wordCount':sum(len(b['text'].split()) for b in blocks),'explicitLinks':item['links'],**({'song':item['song']} if 'song' in item else {})})
+# A reviewed chat story is kept separately and explicitly labeled as a draft.
+draft=json.loads((INPUT/'chapel-pilgrim-draft.json').read_text())
+parts=[draft['title']]+draft['text'].split('\n\n')
+d={'title':'Reviewed chapel story draft','paragraphs':[{'text':t,'tabId':'chapel-draft','namedStyleType':'HEADING_1' if i==0 else 'NORMAL_TEXT'} for i,t in enumerate(parts)]}
+add('chapel-pilgrim-draft',d,0,len(parts),draft['title']+' — draft','Draft',{'eras':draft['era'],'timeLabel':draft['timeLabel'],'status':'draft','summary':draft['summary'],'variant':'Reviewed chat draft'})
+sources.append({'key':'chapel-pilgrim-draft','title':draft['title'],'note':draft['provenance']})
 # Place facets use exact named-place mentions, not inferred geography.
 place_names={'Listening Alcove'}
 for entry in catalog:
@@ -116,3 +122,8 @@ exec(compile((ROOT/'tools/build_connections.py').read_text(), 'build_connections
 counts={k:sum(e['kind']==k for e in catalog) for k in sorted(set(e['kind'] for e in catalog))}
 (OUT/'catalog.json').write_text(json.dumps({'version':1,'entries':catalog,'sources':sources,'counts':counts,'storyCounts':research['counts'],'integrity':conservation,'notes':['Paragraph indexes are zero-based source array indexes.','Character facets mean characters mentioned, not asserted relationships.','Era order is established; within-era source order is used where dates are unknown.','CPP Lore alternate story copies and local atlas guides are retained as separately labeled references.','Empty game tabs and duplicate game_stories genre list are intentionally omitted.']},ensure_ascii=False,indent=2))
 print(json.dumps({'entries':len(catalog),'counts':counts,'integrity':conservation},indent=2))
+
+# Rebuild derived chronology with the same source and internal reading IDs.
+import runpy
+runpy.run_path(str(ROOT/"tools/build_timeline.py"))
+runpy.run_path(str(ROOT/"tools/build_wiki.py"))

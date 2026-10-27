@@ -24931,6 +24931,33 @@
           "label": "Song-cycle connection"
         }
       ]
+    },
+    {
+      "id": "chapel-pilgrim-draft-p00000",
+      "title": "What the Pillar Carried — draft",
+      "kind": "Draft",
+      "era": [
+        0,
+        1,
+        2
+      ],
+      "timeLabel": "Early Era Two, before the final withdrawal; memories of Era Zero and Era One",
+      "timeOrder": 0,
+      "status": "draft",
+      "characters": [],
+      "places": [],
+      "topics": [],
+      "source": {
+        "title": "Reviewed chapel story draft",
+        "url": "",
+        "tabId": "chapel-draft",
+        "startParagraph": 0,
+        "endParagraphExclusive": 148
+      },
+      "summary": "A pilgrim returns to the Maintenance Chapel to reclaim an old offering. Chat draft; the former human interface is a proposed addition to the chapel history.",
+      "wordCount": 1557,
+      "variant": "Reviewed chat draft",
+      "connections": []
     }
   ],
   "sources": [
@@ -24989,10 +25016,15 @@
       "key": "song-cycle",
       "title": "Era Zero song cycle — new supporting lore, October 2026",
       "note": "Newly authored supporting fiction; source archive text is unchanged."
+    },
+    {
+      "key": "chapel-pilgrim-draft",
+      "title": "What the Pillar Carried",
+      "note": "Reviewed October 27, 2026 from the October 20 chapel discussion. Preserved as a draft, not promoted to established canon."
     }
   ],
   "counts": {
-    "Draft": 19,
+    "Draft": 20,
     "Language": 119,
     "Locations": 206,
     "People": 98,

@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {makeMatcher,linkedParts} from '../site/wiki-links.mjs';
+const read=p=>JSON.parse(fs.readFileSync(new URL('../site/'+p,import.meta.url),'utf8'));
+const wiki=read('wiki.json'), timeline=read('timeline.json'),catalog=read('catalog.json');
+const topics=new Map(wiki.topics.map(t=>[t.id,t])),readings=new Set(catalog.entries.map(r=>r.id));
+test('wiki references resolve to internal readings, paragraphs and timeline events',()=>{assert.equal(topics.size,wiki.topics.length);for(const topic of wiki.topics){for(const ref of [...topic.targets,...topic.mentions]){assert.ok(ref.href.startsWith('index.html#read='));const p=new URLSearchParams(ref.href.split('#')[1]);assert.ok(readings.has(p.get('read')));if(p.has('block'))assert.ok(read('content/'+p.get('read')+'.json').blocks.some(b=>b.id===p.get('block')),ref.href);}for(const ref of topic.events||[]){assert.ok(ref.href.startsWith('timeline.html#era-'));const [era,event]=ref.href.split('#')[1].split('&');assert.ok(timeline.eras.find(e=>e.id===era)?.events.some(e=>e.id===new URLSearchParams(event).get('event')),ref.href);}for(const choice of topic.choices||[])assert.ok(topics.has(choice.id));}for(const id of Object.values(wiki.aliases))assert.ok(topics.has(id));for(const ids of Object.values(wiki.readings))for(const id of ids)assert.ok(topics.has(id));});
+test('ambiguous person names open a chooser',()=>{for(const name of ['Vey','Pell']){const topic=topics.get(wiki.aliases[name]);assert.ok(topic.choices.length>=2);assert.equal(topic.kinds[0],'Ambiguous name');}});
+test('inline connections preserve exact passage text and match complete longest names',()=>{const aliases={'Bell':'bell','Keeper Eren':'eren','Eren':'short','A+B':'symbol'};const text='“Keeper Eren” met Bell, not Bellflower or éBell. A+B <tag>.';const parts=linkedParts(text,aliases,makeMatcher(aliases));assert.equal(parts.map(p=>p.text).join(''),text);assert.deepEqual(parts.filter(p=>p.id).map(p=>p.id),['eren','bell','symbol']);});

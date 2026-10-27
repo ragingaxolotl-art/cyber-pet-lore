@@ -4,10 +4,10 @@ The separate Cyber Pet reading archive: https://ragingaxolotl-art.github.io/cybe
 
 ## Collection
 
-484 indexed readings from the Cyberpath Stories Archive, CPP Lore, DBA Era 0 Language, Cyberpath Locations Atlas, the Game Lorebook additions, and two local reference guides. This is an October 27, 2026 source snapshot, not automatic synchronization with Google Docs.
+485 indexed readings from the Cyberpath Stories Archive, CPP Lore, DBA Era 0 Language, Cyberpath Locations Atlas, the Game Lorebook additions, and two local reference guides. This is an October 27, 2026 source snapshot, not automatic synchronization with Google Docs.
 
 - 14 primary stories (13 complete; The Corrected Child is unfinished)
-- 19 earlier drafts and alternate copies
+- 20 earlier drafts and alternate copies (including the reviewed chapel draft)
 - 18 timeline sections, 98 people sections, 206 location sections, 119 language sections, 4 song backstories, and 6 reference readings
 
 Location sections include multiple treatments of the same place: the atlas describes 106 numbered locations. The Quiet One’s Human is one work with its eleven installments in the reader outline. Unknown dates are left unspecified. Within-era ordering follows source order where precise dates are unavailable. Character/place filters represent mentions, not claims about participation or geographical relationships.
@@ -50,6 +50,16 @@ Merge latest GitHub backup merges other-device updates; newer whole-reading reco
 
 API reference: https://docs.github.com/en/rest/repos/contents
 
+## Era timeline
+
+Open `timeline.html` from the main navigation. Eight clickable eras (−3 through 4) contain 103 sourced history entries, era summaries, human-world context, adjacent disputes, and links to the site reader. Weather links open the relevant era section. The current 14 primary stories are placed using the existing archive metadata; exact dates and intra-era ordering are not invented.
+
+`tools/build_timeline.py` rebuilds `site/timeline.json` after the catalog. It uses stable reading/block IDs and preserved source passages. It separates established canon, expanded history, reconstruction, draft fiction, and six hypothetical Era Four continuations. The new chapel draft is preserved in `sources/chapel-pilgrim-draft.json` and indexed separately; existing story IDs, paragraph anchors, and reading records are unchanged.
+
+Research coverage: the expanded CPP Lore chronology, primary story metadata, language history, and ten turns of the October 20 chapel discussion were reviewed. The current thread tools did not surface the older ChatGPT lore discussions; this is **not** a complete all-chat audit. The archived Real World Relationship Guide is empty. No human calendar dates or fixed Codex/human time conversion were found in the reviewed sources. Dates remain explicitly unestablished, with relative human-world context shown for each era. Future source evidence can refine these fields.
+
+Validation: timeline and reading tests cover existing reading/clip/backup behavior, all era order and deep links, every internal story/history anchor, full primary-story coverage, multi-era Weather anchors, uncertainty placement, speculative-history separation, and exact preservation of event excerpts.
+
 ## Era Zero songs
 
 Open **Era Zero songs** in the main navigation, or visit https://ragingaxolotl-art.github.io/cyber-pet-lore/songs/. Four original instrumental compositions include full arrangements, isolated language melodies, synchronized verified meanings, phrase seeking, and audio/MIDI/meaning-sheet downloads. Source: `CPP-V3/exports/era-zero-songs/2026-10-27` on the Cyber Pet Workspace SSD. These are new compositions, not historical recordings or human-sung voices. The source export retains lossless masters and score provenance.
@@ -61,3 +71,9 @@ Each song now has an original Era Zero backstory and a supporting performer prof
 The reader’s **Follow the connections** section links named places, people/groups, related readings, and songs in both directions. A shortcut appears in the reader outline. Exact named mentions are distinguished from authored song-cycle connections; links do not assert identity or geographical relationships. Place/person links also open a library-wide list of mentions. `tools/build_connections.py` rebuilds these references and verifies targets. Song links select the correct track directly.
 
 **DBA translator** in the main navigation and song player opens https://ragingaxolotl-art.github.io/era-zero-translator/. Language and song readings also offer this link.
+
+## Wiki connections
+
+Open **Connections** (`wiki.html`) to search 348 indexed people, places, stories, events, and ideas. Names in readings and timeline passages link to internal topic pages, with dossier links, “Mentioned in” passages, and direct timeline-event links. Each reading also includes related topics and eras. Vey and Pell have explicit disambiguation pages. Links indicate named mentions; they do not establish identity or causal relationships. Draft and proposed source labels remain visible.
+
+`tools/build_wiki.py` rebuilds the index from published archive content after the timeline build. Automated checks validate every reading/block/event destination, ambiguous-name choices, and exact passage-text preservation for highlights and clips. Original-document provenance remains in the library Sources dialog; connected reading links stay on this site.

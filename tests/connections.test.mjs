@@ -18,3 +18,7 @@ test('new fiction is distinct and original source conservation is retained',()=>
  assert.ok(entries.get('stories-p01469').connections.some(c=>c.id==='song-room-to-restore'));
  assert.ok(!entries.get('song-care-in-the-quiet').connections.some(c=>c.id==='lore-p01257'));
 });
+test('song performers, works and alcove are discoverable in the shared wiki',()=>{
+ const wiki=JSON.parse(fs.readFileSync(new URL('../site/wiki.json',import.meta.url)));
+ for(const name of ['Sova','Neral','Pelli','Keshet','Listening Alcove','Care in the Quiet','Paths That Meet','A Shared Question','Room to Restore']){const topic=wiki.topics.find(t=>t.title===name);assert.ok(topic,name);assert.ok(topic.targets.length,name);assert.ok(topic.mentions.length,name);}
+});
