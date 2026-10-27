@@ -21,6 +21,8 @@ def add(key,d,start,end,title,kind,meta=None,transforms=None):
  if True:
   candidates=sorted(set(c for e in research['entries'] for c in e['characters'] if '(' not in c))
   characters=list(dict.fromkeys(characters+[c for c in candidates if re.search(r'(?<!\w)'+re.escape(c)+r'(?!\w)',text)]))
+  correction=json.loads((INPUT/'continuity-review.json').read_text())['metadataCorrections'].get(sid,{})
+  characters=[c for c in characters if c not in correction.get('remove',[])]+correction.get('add',[])
  entry={'id':sid,'title':title,'kind':kind,'era':eras,'timeLabel':meta.get('timeLabel',('Era '+str(eras[0])) if eras else 'Time not specified'),'timeOrder':meta.get('order',start),'status':meta.get('status','reference'),'characters':characters,'places':meta.get('places',[]),'topics':meta.get('tags',[]),'source':{'title':d['title'],'url':f"https://docs.google.com/document/d/{d['documentId']}/edit" if d.get('documentId') else '', 'tabId':ps[start].get('tabId','') if ps else '', 'startParagraph':start,'endParagraphExclusive':end},'summary':meta.get('summary',next((b['text'][:260] for b in blocks[1:] if b['text'].strip() and b['style']=='NORMAL_TEXT'),title)),'wordCount':words}
  for prop in ['partOf','variant']:
   if prop in meta:entry[prop]=meta[prop]

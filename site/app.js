@@ -1,5 +1,6 @@
+import {renderContinuityNotes} from './profiles.mjs';
 import {renderLocationArt} from './location-art.mjs';
-import {loadWiki,appendWiki,readingConnections} from './wiki-links.mjs?v=location-art-1';
+import {loadWiki,appendWiki,readingConnections} from './wiki-links.mjs?v=profiles-1';
 import {GitHubBackup} from './github-backup.mjs';
 import {STORAGE_KEY,emptyState,validateState,mergeStates,highlightIntervals,clipContext} from './records.mjs';
 const $=id=>document.getElementById(id);
@@ -73,7 +74,7 @@ function renderBlocks(){
   let tag='p';const style=String(block.style||'');if(/TITLE|HEADING_1|^h1$|^h2$/i.test(style))tag='h2';else if(/HEADING_2|^h3$/i.test(style))tag='h3';else if(/HEADING_[3-6]|^h4$/i.test(style))tag='h4';else if(/^>/.test(block.text))tag='blockquote';
   const el=node(tag,undefined,'reading-block');el.dataset.block=block.id;el.id='block-'+block.id;
   if(/^[-—*_]{3,}$/.test(block.text.trim()))el.classList.add('divider');
-  for(const part of highlightIntervals(block.text,block.id,r.highlights)){if(part.id){const m=node('mark',part.text);m.dataset.color=part.color;m.dataset.highlight=part.id;const highlighted=r.highlights.find(h=>h.id===part.id);m.title=highlighted?.clip?'Clip #'+highlighted.clip.number+(highlighted.note?' — '+highlighted.note:''):(highlighted?.note||'Highlighted passage');m.onclick=()=>{const card=document.getElementById('highlight-'+part.id);card?.scrollIntoView({block:'center'});card?.querySelector('textarea')?.focus({preventScroll:true});};el.append(m);}else appendWiki(el,part.text);}
+  for(const part of highlightIntervals(block.text,block.id,r.highlights)){if(part.id){const m=node('mark',part.text);m.dataset.color=part.color;m.dataset.highlight=part.id;const highlighted=r.highlights.find(h=>h.id===part.id);m.title=highlighted?.clip?'Clip #'+highlighted.clip.number+(highlighted.note?' — '+highlighted.note:''):(highlighted?.note||'Highlighted passage');m.onclick=()=>{const card=document.getElementById('highlight-'+part.id);card?.scrollIntoView({block:'center'});card?.querySelector('textarea')?.focus({preventScroll:true});};el.append(m);}else appendWiki(el,part.text,{readingId:current.id});}
   parent.append(el);
  }
 }
@@ -106,6 +107,7 @@ function renderHighlights(){
 async function openReading(id,anchor=null){
  const seq=++routeSequence,e=byId.get(id);if(!e){location.hash='';return;}hideSelection();current=e;$('library').hidden=true;$('notebook').hidden=true;$('reader').hidden=false;$('reader-title').textContent=e.title;$('reader-kind').textContent=e.kind;$('reader-summary').textContent=e.summary||'';$('reading-text').replaceChildren(node('p','Opening this reading…','loading'));$('reader-meta').replaceChildren();for(const value of [e.timeLabel,e.status,`${(e.wordCount||0).toLocaleString()} words`].filter(Boolean))$('reader-meta').append(node('span',value));$('reader-read').checked=record(id).read;$('finish-read').textContent=record(id).read?'✓ Read':'✓ Mark as read';$('reading-note').value=record(id).note;$('reading-tags').value=record(id).tags.join(', ');$('original-source').href=e.source?.url||'#';$('original-source').hidden=true;
  renderConnections(e);
+ renderContinuityNotes($('reader-continuity'),wikiData?.readingNotes?.[e.id]||[]);
  renderLocationArt($('reader-art'),wikiData?.readingImages?.[e.id]||[]);
  window.scrollTo({top:0,behavior:'instant'});
  try{let content=contentCache.get(id);if(!content){const response=await fetch('content/'+encodeURIComponent(id)+'.json');if(!response.ok)throw Error('Reading unavailable');content=await response.json();contentCache.set(id,content);}if(seq!==routeSequence)return;currentContent=content;renderBlocks();renderHighlights();renderWikiConnections();const outline=$('outline');outline.replaceChildren();for(const b of content.blocks.filter(b=>/HEADING|TITLE|^h[1-4]$/i.test(b.style||''))){const a=node('a',b.text);a.href='#block-'+b.id;a.onclick=ev=>{ev.preventDefault();scrollToBlock(b.id);};outline.append(a);}if(!outline.children.length)outline.append(node('p','A continuous reading.'));const connectionsLink=node('a','People, places & related readings ↓');connectionsLink.href='#reading-connections';connectionsLink.onclick=ev=>{ev.preventDefault();$('reading-connections').scrollIntoView({block:'start'});};outline.append(connectionsLink);state.lastReading=id;save();requestAnimationFrame(()=>{if(seq===routeSequence&&(anchor||record(id).position))scrollToBlock(anchor||record(id).position.block);});}catch{if(seq===routeSequence)$('reading-text').replaceChildren(node('p','This reading could not load. Check your connection and reopen it. Your notes are still saved.'));}

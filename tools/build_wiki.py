@@ -3,6 +3,7 @@ import json,re,hashlib
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];SITE=ROOT/'site'
 cat=json.loads((SITE/'catalog.json').read_text());entries=cat['entries'];content={e['id']:json.loads((SITE/'content'/(e['id']+'.json')).read_text())['blocks'] for e in entries}
+review=json.loads((ROOT/'sources/continuity-review.json').read_text())
 topics={}
 def clean(name):return re.sub(r'^The\s+','',re.sub(r'^\d+\.\s*','',name)).strip()
 def add(name,kind,target=None,aliases=()):
@@ -38,6 +39,7 @@ for e in entries:
      add(title,'History & ideas',reading_target(e,b['id']))
 # Facet people without a dedicated dossier still get a transparent mention index.
 for person in sorted({p for e in entries if e['kind']=='Story' for p in e.get('characters',[])}):add(person,'Person')
+add('Unnamed river healer','Person',reading_target(next(e for e in entries if e['id']=='stories-p14010')))
 # Explicit alternate labels from the reviewed dossiers / atlas, without substring guesses.
 aliases={'Hollis Dane':['Dane'],'Lennox Shaw':['Shaw'],'Keeper Eren':['Eren'],'Mara Vale':['Mara'],'Codex':['Codex'],'DBA':['Digital Binary Ancients'],'Dormant External Gate':['External Gate'],'Cacheboard, the Unintended Board':['Cacheboard'],'Shelter Orison, the Vanishing Shelter':['Shelter Orison'],'House of First Continuities and the Adaptive Nursery':['Adaptive Nursery','House of First Continuities'],'Central House of Meaning and the Unfinished Teaching Room':['Central House of Meaning','Unfinished Teaching Room'],'Commons and the Orison Chamber':['Orison Chamber'],'Sublevel and Pump Forty-Seven':['Sublevel','Pump Forty-Seven'],'Corridor Twelve and the Last Relay':['Corridor Twelve'],'Compatibility Route C-17, the Ghost Line':['Compatibility Route C-17','Ghost Line']}
 for name,values in aliases.items():
@@ -66,7 +68,8 @@ for e in entries:
  found={}
  for b in content[e['id']]:
   for m in pattern.finditer(b['text']):
-   for tid in lookup[m.group()]:found.setdefault(tid,b['id'])
+   for tid in lookup[m.group()]:
+    if by_id[tid]['title'] not in review['readingExclusions'].get(e['id'],[]):found.setdefault(tid,b['id'])
  reading_topics[e['id']]=list(found)
  for tid,block in found.items():
   t=by_id[tid];t['mentions'].append(reading_target(e,block));t['eras']=sorted(set(t['eras']+e.get('era',[])))
@@ -87,7 +90,7 @@ entry_by_id={e['id']:e for e in entries}
 for topic in topics.values():
  topic['article']={'summary':None,'sections':[]}
  if topic.get('choices'):
-  topic['article']['note']='This name refers to more than one indexed topic. Choose the intended topic below; their histories are kept separate.'
+  topic['article']['note']=('This name refers to more than one indexed topic. Choose the intended topic below; their histories are kept separate.' if len(topic['choices'])>1 else 'Only the listed identity is supported by the indexed prose. Earlier unsupported identities have been removed.')
   continue
  seen_text=set()
  sources=topic['targets'] or topic['mentions']
@@ -130,6 +133,10 @@ for location in art['locations']:
  for reading in location['readingIds']:
   assert reading in content, reading
   reading_images[reading]=images
-output={'version':1,'notice':'Links identify named mentions and related reading, not proof of identity, causation, or a personal relationship. Source status and uncertainties remain authoritative.','topics':list(topics.values()),'readingImages':reading_images,'aliases':{a:ids[0] for a,ids in lookup.items()},'readings':reading_topics}
+output={'version':1,'notice':'Links identify named mentions and related reading, not proof of identity, causation, or a personal relationship. Source status and uncertainties remain authoritative.','topics':list(topics.values()),'readingNotes':{e['id']:[n for n in review['notes'] if e['id'] in n['readingIds']] for e in entries},'readingExclusions':{rid:[t['id'] for t in topics.values() if t['title'] in names] for rid,names in review['readingExclusions'].items()},'readingImages':reading_images,'aliases':{a:ids[0] for a,ids in lookup.items()},'readings':reading_topics}
+import sys
+sys.path.insert(0,str(ROOT/"tools"))
+from build_profiles import attach_profiles
+attach_profiles(output,entries,content,review)
 (SITE/'wiki.json').write_text(json.dumps(output,ensure_ascii=False,separators=(',',':'))+'\n')
 print('Wiki:',len(topics),'topics;',sum(len(t['mentions']) for t in topics.values()),'reading references')

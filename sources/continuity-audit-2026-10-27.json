@@ -1,0 +1,3233 @@
+{
+  "date": "2026-10-27",
+  "scope": "Automated resource-term scan of all indexed readings, with editorial comparison of primary story era assignments, character metadata, major-player dossiers, master language history and the era timeline. Term hits are candidates, not proof of contradictions.",
+  "readingsScanned": 485,
+  "profilesBuilt": 114,
+  "confirmedIndexCorrections": [
+    "Unsupported Pell (healer) identity replaced with Unnamed river healer.",
+    "River sediment no longer links to Silt or implies Era Three survival."
+  ],
+  "sourceScopeClarifications": [
+    "Early rendered forms and later Codex embodiment",
+    "Named story characters and unnamed incident responders",
+    "The primary story extends beyond the brief dossier ending",
+    "Era Three resources remain limited"
+  ],
+  "limitations": [
+    "Original prose is preserved; editorial source notes expose differing scope and later expanded accounts.",
+    "Unknown formation dates, later fates and exact ordering remain unknown.",
+    "Fictional archive sizes are decorative UI values, not actual storage measurements or canon."
+  ],
+  "resourceScan": [
+    {
+      "readingId": "stories-p00167",
+      "status": "complete",
+      "sourceEraTags": [
+        -2
+      ],
+      "candidateBlocks": [
+        "stories-p00314"
+      ]
+    },
+    {
+      "readingId": "stories-p00435",
+      "status": "complete",
+      "sourceEraTags": [
+        -2
+      ],
+      "candidateBlocks": [
+        "stories-p00459",
+        "stories-p00469",
+        "stories-p00487",
+        "stories-p00523",
+        "stories-p00524",
+        "stories-p00576",
+        "stories-p00606",
+        "stories-p00616",
+        "stories-p00632",
+        "stories-p00636",
+        "stories-p00736",
+        "stories-p00746",
+        "stories-p00763",
+        "stories-p00768",
+        "stories-p00784",
+        "stories-p00852"
+      ]
+    },
+    {
+      "readingId": "stories-p00887",
+      "status": "complete",
+      "sourceEraTags": [
+        -2
+      ],
+      "candidateBlocks": [
+        "stories-p00944",
+        "stories-p00946",
+        "stories-p00951",
+        "stories-p00967",
+        "stories-p01296",
+        "stories-p01449"
+      ]
+    },
+    {
+      "readingId": "stories-p01469",
+      "status": "complete",
+      "sourceEraTags": [
+        -2
+      ],
+      "candidateBlocks": [
+        "stories-p01473",
+        "stories-p01474",
+        "stories-p01482",
+        "stories-p01483",
+        "stories-p01489",
+        "stories-p01490",
+        "stories-p01492",
+        "stories-p01494",
+        "stories-p01505",
+        "stories-p01526",
+        "stories-p01544",
+        "stories-p01556",
+        "stories-p01557",
+        "stories-p01560",
+        "stories-p01569",
+        "stories-p01578",
+        "stories-p01579",
+        "stories-p01588",
+        "stories-p01610",
+        "stories-p01630",
+        "stories-p01639",
+        "stories-p01667",
+        "stories-p01671",
+        "stories-p01674",
+        "stories-p01679",
+        "stories-p01696",
+        "stories-p01699",
+        "stories-p01703",
+        "stories-p01706",
+        "stories-p01717",
+        "stories-p01736",
+        "stories-p01741",
+        "stories-p01805",
+        "stories-p01824",
+        "stories-p01830",
+        "stories-p01844",
+        "stories-p01867",
+        "stories-p01880",
+        "stories-p01882",
+        "stories-p01883"
+      ]
+    },
+    {
+      "readingId": "stories-p01889",
+      "status": "complete",
+      "sourceEraTags": [
+        -1
+      ],
+      "candidateBlocks": [
+        "stories-p01959",
+        "stories-p01966",
+        "stories-p02002",
+        "stories-p02003",
+        "stories-p02006",
+        "stories-p02008",
+        "stories-p02068",
+        "stories-p02093",
+        "stories-p02159",
+        "stories-p02170",
+        "stories-p02179",
+        "stories-p02255",
+        "stories-p02267",
+        "stories-p02307",
+        "stories-p02317",
+        "stories-p02399",
+        "stories-p02415",
+        "stories-p02456",
+        "stories-p02460",
+        "stories-p02570",
+        "stories-p02635",
+        "stories-p02647"
+      ]
+    },
+    {
+      "readingId": "stories-p02707",
+      "status": "complete",
+      "sourceEraTags": [
+        1
+      ],
+      "candidateBlocks": [
+        "stories-p02711",
+        "stories-p02718",
+        "stories-p02721",
+        "stories-p02735",
+        "stories-p02750",
+        "stories-p02765",
+        "stories-p02769",
+        "stories-p02793",
+        "stories-p02794",
+        "stories-p02811",
+        "stories-p02822",
+        "stories-p02863",
+        "stories-p02877",
+        "stories-p03008"
+      ]
+    },
+    {
+      "readingId": "stories-p03043",
+      "status": "complete",
+      "sourceEraTags": [
+        -2
+      ],
+      "candidateBlocks": [
+        "stories-p03226",
+        "stories-p03685",
+        "stories-p04032",
+        "stories-p04437",
+        "stories-p05200",
+        "stories-p05435",
+        "stories-p05682",
+        "stories-p05690",
+        "stories-p06006",
+        "stories-p06288",
+        "stories-p06294",
+        "stories-p06323",
+        "stories-p06360",
+        "stories-p06412",
+        "stories-p06483",
+        "stories-p06604",
+        "stories-p06815",
+        "stories-p06835",
+        "stories-p06836",
+        "stories-p06838",
+        "stories-p06845",
+        "stories-p06850",
+        "stories-p06884",
+        "stories-p06925",
+        "stories-p06948",
+        "stories-p06952",
+        "stories-p06962",
+        "stories-p06964",
+        "stories-p06971",
+        "stories-p06982",
+        "stories-p07008",
+        "stories-p07027",
+        "stories-p07044",
+        "stories-p07079",
+        "stories-p07085",
+        "stories-p07095",
+        "stories-p07106",
+        "stories-p07111",
+        "stories-p07114",
+        "stories-p07132",
+        "stories-p07134",
+        "stories-p07148",
+        "stories-p07149",
+        "stories-p07159",
+        "stories-p07184",
+        "stories-p07233",
+        "stories-p07235",
+        "stories-p07237",
+        "stories-p07265",
+        "stories-p07274",
+        "stories-p07292",
+        "stories-p07327",
+        "stories-p07342",
+        "stories-p07353",
+        "stories-p07424",
+        "stories-p07427",
+        "stories-p07439",
+        "stories-p07448",
+        "stories-p07485",
+        "stories-p07496",
+        "stories-p07611",
+        "stories-p07676",
+        "stories-p07779",
+        "stories-p07839",
+        "stories-p08153",
+        "stories-p08213",
+        "stories-p08295",
+        "stories-p08325",
+        "stories-p08538",
+        "stories-p08546",
+        "stories-p08580",
+        "stories-p08605",
+        "stories-p08632",
+        "stories-p08651",
+        "stories-p09137",
+        "stories-p09233",
+        "stories-p09307",
+        "stories-p09427",
+        "stories-p09471",
+        "stories-p09522",
+        "stories-p09628",
+        "stories-p09738",
+        "stories-p09788",
+        "stories-p09820",
+        "stories-p10004",
+        "stories-p10017",
+        "stories-p10040",
+        "stories-p10050",
+        "stories-p10089",
+        "stories-p10134",
+        "stories-p10203",
+        "stories-p10516",
+        "stories-p10593",
+        "stories-p10636",
+        "stories-p10783",
+        "stories-p10884",
+        "stories-p10886",
+        "stories-p10948",
+        "stories-p10949",
+        "stories-p11269",
+        "stories-p11284",
+        "stories-p11369"
+      ]
+    },
+    {
+      "readingId": "stories-p11382",
+      "status": "unfinished",
+      "sourceEraTags": [
+        -1
+      ],
+      "candidateBlocks": [
+        "stories-p11536",
+        "stories-p11639",
+        "stories-p11669",
+        "stories-p11680",
+        "stories-p11737",
+        "stories-p11960",
+        "stories-p12003",
+        "stories-p12015"
+      ]
+    },
+    {
+      "readingId": "stories-p12109",
+      "status": "superseded",
+      "sourceEraTags": [
+        -2
+      ],
+      "candidateBlocks": [
+        "stories-p12170",
+        "stories-p12197",
+        "stories-p12223",
+        "stories-p12269",
+        "stories-p12270",
+        "stories-p12356",
+        "stories-p12398",
+        "stories-p12413",
+        "stories-p12436",
+        "stories-p12444",
+        "stories-p12609",
+        "stories-p12630",
+        "stories-p12659",
+        "stories-p12670",
+        "stories-p12697"
+      ]
+    },
+    {
+      "readingId": "stories-p12756",
+      "status": "superseded",
+      "sourceEraTags": [
+        -2
+      ],
+      "candidateBlocks": [
+        "stories-p12765",
+        "stories-p12772",
+        "stories-p12775",
+        "stories-p12778",
+        "stories-p12793",
+        "stories-p12816",
+        "stories-p12842",
+        "stories-p12873",
+        "stories-p12879",
+        "stories-p12914",
+        "stories-p12921",
+        "stories-p12951",
+        "stories-p12960",
+        "stories-p12966",
+        "stories-p12995",
+        "stories-p13042",
+        "stories-p13046",
+        "stories-p13052"
+      ]
+    },
+    {
+      "readingId": "stories-p13057",
+      "status": "superseded",
+      "sourceEraTags": [
+        -1
+      ],
+      "candidateBlocks": [
+        "stories-p13104",
+        "stories-p13156"
+      ]
+    },
+    {
+      "readingId": "stories-p13368",
+      "status": "superseded",
+      "sourceEraTags": [
+        -2
+      ],
+      "candidateBlocks": [
+        "stories-p13680"
+      ]
+    },
+    {
+      "readingId": "stories-p13853",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "stories-p13858",
+        "stories-p13863",
+        "stories-p13867",
+        "stories-p13874",
+        "stories-p13879",
+        "stories-p13885",
+        "stories-p13916"
+      ]
+    },
+    {
+      "readingId": "stories-p13917",
+      "status": "complete",
+      "sourceEraTags": [
+        3
+      ],
+      "candidateBlocks": [
+        "stories-p13928",
+        "stories-p13931",
+        "stories-p13954",
+        "stories-p13955",
+        "stories-p13982",
+        "stories-p13985",
+        "stories-p13996",
+        "stories-p14001"
+      ]
+    },
+    {
+      "readingId": "stories-p14010",
+      "status": "complete",
+      "sourceEraTags": [
+        3
+      ],
+      "candidateBlocks": [
+        "stories-p14014",
+        "stories-p14108"
+      ]
+    },
+    {
+      "readingId": "stories-p14121",
+      "status": "complete",
+      "sourceEraTags": [
+        -2
+      ],
+      "candidateBlocks": [
+        "stories-p14132",
+        "stories-p14181",
+        "stories-p14241",
+        "stories-p14359"
+      ]
+    },
+    {
+      "readingId": "stories-p14362",
+      "status": "complete",
+      "sourceEraTags": [
+        1
+      ],
+      "candidateBlocks": [
+        "stories-p14367",
+        "stories-p14413"
+      ]
+    },
+    {
+      "readingId": "stories-p14511",
+      "status": "complete",
+      "sourceEraTags": [
+        3
+      ],
+      "candidateBlocks": [
+        "stories-p14547",
+        "stories-p14587"
+      ]
+    },
+    {
+      "readingId": "lore-p00000",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p00001",
+        "lore-p00002"
+      ]
+    },
+    {
+      "readingId": "lore-p00003",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p00005",
+        "lore-p00011",
+        "lore-p00012"
+      ]
+    },
+    {
+      "readingId": "lore-p00013",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p00013",
+        "lore-p00019",
+        "lore-p00020",
+        "lore-p00021",
+        "lore-p00022",
+        "lore-p00024",
+        "lore-p00026",
+        "lore-p00027",
+        "lore-p00028"
+      ]
+    },
+    {
+      "readingId": "lore-p00031",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p00033",
+        "lore-p00034",
+        "lore-p00037",
+        "lore-p00038"
+      ]
+    },
+    {
+      "readingId": "lore-p00039",
+      "status": "reference",
+      "sourceEraTags": [
+        -3
+      ],
+      "candidateBlocks": [
+        "lore-p00043",
+        "lore-p00052",
+        "lore-p00053",
+        "lore-p00054",
+        "lore-p00070",
+        "lore-p00094",
+        "lore-p00114",
+        "lore-p00123"
+      ]
+    },
+    {
+      "readingId": "lore-p00138",
+      "status": "reference",
+      "sourceEraTags": [
+        -2
+      ],
+      "candidateBlocks": [
+        "lore-p00145",
+        "lore-p00146",
+        "lore-p00157",
+        "lore-p00160",
+        "lore-p00166",
+        "lore-p00179",
+        "lore-p00200",
+        "lore-p00208",
+        "lore-p00210",
+        "lore-p00224",
+        "lore-p00229"
+      ]
+    },
+    {
+      "readingId": "lore-p00256",
+      "status": "reference",
+      "sourceEraTags": [
+        -1
+      ],
+      "candidateBlocks": [
+        "lore-p00257",
+        "lore-p00269",
+        "lore-p00275",
+        "lore-p00280",
+        "lore-p00282",
+        "lore-p00292",
+        "lore-p00294",
+        "lore-p00295",
+        "lore-p00298",
+        "lore-p00302",
+        "lore-p00309",
+        "lore-p00311",
+        "lore-p00312",
+        "lore-p00313",
+        "lore-p00320",
+        "lore-p00334",
+        "lore-p00340",
+        "lore-p00341",
+        "lore-p00342",
+        "lore-p00344",
+        "lore-p00345",
+        "lore-p00346",
+        "lore-p00347",
+        "lore-p00349",
+        "lore-p00351",
+        "lore-p00353",
+        "lore-p00359",
+        "lore-p00360",
+        "lore-p00363",
+        "lore-p00364"
+      ]
+    },
+    {
+      "readingId": "lore-p00365",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "lore-p00366",
+        "lore-p00369",
+        "lore-p00371",
+        "lore-p00379",
+        "lore-p00382",
+        "lore-p00385",
+        "lore-p00389",
+        "lore-p00390",
+        "lore-p00391",
+        "lore-p00394",
+        "lore-p00395",
+        "lore-p00396",
+        "lore-p00405",
+        "lore-p00412",
+        "lore-p00413",
+        "lore-p00414",
+        "lore-p00415",
+        "lore-p00417",
+        "lore-p00421",
+        "lore-p00424",
+        "lore-p00426",
+        "lore-p00427",
+        "lore-p00434",
+        "lore-p00435",
+        "lore-p00436",
+        "lore-p00438",
+        "lore-p00446",
+        "lore-p00452",
+        "lore-p00459",
+        "lore-p00482",
+        "lore-p00487"
+      ]
+    },
+    {
+      "readingId": "lore-p00489",
+      "status": "reference",
+      "sourceEraTags": [
+        1
+      ],
+      "candidateBlocks": [
+        "lore-p00501",
+        "lore-p00509",
+        "lore-p00513",
+        "lore-p00518",
+        "lore-p00523",
+        "lore-p00526",
+        "lore-p00536",
+        "lore-p00543",
+        "lore-p00546",
+        "lore-p00547",
+        "lore-p00548",
+        "lore-p00549",
+        "lore-p00551",
+        "lore-p00581",
+        "lore-p00582",
+        "lore-p00583",
+        "lore-p00585",
+        "lore-p00587",
+        "lore-p00589",
+        "lore-p00590",
+        "lore-p00593",
+        "lore-p00598",
+        "lore-p00600",
+        "lore-p00610"
+      ]
+    },
+    {
+      "readingId": "lore-p00611",
+      "status": "reference",
+      "sourceEraTags": [
+        2
+      ],
+      "candidateBlocks": [
+        "lore-p00612",
+        "lore-p00614",
+        "lore-p00617",
+        "lore-p00618",
+        "lore-p00622",
+        "lore-p00623",
+        "lore-p00625",
+        "lore-p00630",
+        "lore-p00637",
+        "lore-p00639",
+        "lore-p00640",
+        "lore-p00641",
+        "lore-p00642",
+        "lore-p00643",
+        "lore-p00647",
+        "lore-p00648",
+        "lore-p00651",
+        "lore-p00652",
+        "lore-p00656",
+        "lore-p00659",
+        "lore-p00660",
+        "lore-p00666"
+      ]
+    },
+    {
+      "readingId": "lore-p00668",
+      "status": "reference",
+      "sourceEraTags": [
+        3
+      ],
+      "candidateBlocks": [
+        "lore-p00669",
+        "lore-p00671",
+        "lore-p00674",
+        "lore-p00677",
+        "lore-p00678",
+        "lore-p00680",
+        "lore-p00685",
+        "lore-p00690",
+        "lore-p00692",
+        "lore-p00695",
+        "lore-p00696",
+        "lore-p00697",
+        "lore-p00699",
+        "lore-p00700",
+        "lore-p00703",
+        "lore-p00704",
+        "lore-p00705",
+        "lore-p00706",
+        "lore-p00710",
+        "lore-p00711",
+        "lore-p00715",
+        "lore-p00717",
+        "lore-p00718",
+        "lore-p00720",
+        "lore-p00723",
+        "lore-p00726",
+        "lore-p00729",
+        "lore-p00731",
+        "lore-p00733",
+        "lore-p00735",
+        "lore-p00740",
+        "lore-p00742",
+        "lore-p00746",
+        "lore-p00750",
+        "lore-p00752",
+        "lore-p00754",
+        "lore-p00758",
+        "lore-p00759"
+      ]
+    },
+    {
+      "readingId": "lore-p00771",
+      "status": "reference",
+      "sourceEraTags": [
+        4
+      ],
+      "candidateBlocks": [
+        "lore-p00774",
+        "lore-p00776",
+        "lore-p00784",
+        "lore-p00785",
+        "lore-p00787",
+        "lore-p00788",
+        "lore-p00791",
+        "lore-p00796",
+        "lore-p00797",
+        "lore-p00798",
+        "lore-p00799",
+        "lore-p00800"
+      ]
+    },
+    {
+      "readingId": "lore-p00802",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p00812",
+        "lore-p00813",
+        "lore-p00815",
+        "lore-p00821"
+      ]
+    },
+    {
+      "readingId": "lore-p00822",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p00823",
+        "lore-p00824",
+        "lore-p00828",
+        "lore-p00838",
+        "lore-p00843"
+      ]
+    },
+    {
+      "readingId": "lore-p00845",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p00847",
+        "lore-p00848",
+        "lore-p00849",
+        "lore-p00852",
+        "lore-p00853",
+        "lore-p00861",
+        "lore-p00863",
+        "lore-p00865",
+        "lore-p00869",
+        "lore-p00870",
+        "lore-p00873"
+      ]
+    },
+    {
+      "readingId": "lore-p00874",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p00880",
+        "lore-p00882",
+        "lore-p00883"
+      ]
+    },
+    {
+      "readingId": "lore-p00897",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p00899"
+      ]
+    },
+    {
+      "readingId": "lore-p00900",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p00902"
+      ]
+    },
+    {
+      "readingId": "lore-p00911",
+      "status": "reference",
+      "sourceEraTags": [
+        -3
+      ],
+      "candidateBlocks": [
+        "lore-p00916"
+      ]
+    },
+    {
+      "readingId": "lore-p00947",
+      "status": "reference",
+      "sourceEraTags": [
+        -3
+      ],
+      "candidateBlocks": [
+        "lore-p00952"
+      ]
+    },
+    {
+      "readingId": "lore-p00954",
+      "status": "reference",
+      "sourceEraTags": [
+        -2
+      ],
+      "candidateBlocks": [
+        "lore-p00959"
+      ]
+    },
+    {
+      "readingId": "lore-p00960",
+      "status": "reference",
+      "sourceEraTags": [
+        -2
+      ],
+      "candidateBlocks": [
+        "lore-p00964",
+        "lore-p00965"
+      ]
+    },
+    {
+      "readingId": "lore-p00966",
+      "status": "reference",
+      "sourceEraTags": [
+        -2
+      ],
+      "candidateBlocks": [
+        "lore-p00971"
+      ]
+    },
+    {
+      "readingId": "lore-p00978",
+      "status": "reference",
+      "sourceEraTags": [
+        -2
+      ],
+      "candidateBlocks": [
+        "lore-p00981",
+        "lore-p00983"
+      ]
+    },
+    {
+      "readingId": "lore-p00984",
+      "status": "reference",
+      "sourceEraTags": [
+        -2
+      ],
+      "candidateBlocks": [
+        "lore-p00988"
+      ]
+    },
+    {
+      "readingId": "lore-p01015",
+      "status": "reference",
+      "sourceEraTags": [
+        -1
+      ],
+      "candidateBlocks": [
+        "lore-p01018",
+        "lore-p01019"
+      ]
+    },
+    {
+      "readingId": "lore-p01027",
+      "status": "reference",
+      "sourceEraTags": [
+        -1
+      ],
+      "candidateBlocks": [
+        "lore-p01028",
+        "lore-p01031"
+      ]
+    },
+    {
+      "readingId": "lore-p01033",
+      "status": "reference",
+      "sourceEraTags": [
+        -1
+      ],
+      "candidateBlocks": [
+        "lore-p01034",
+        "lore-p01036"
+      ]
+    },
+    {
+      "readingId": "lore-p01039",
+      "status": "reference",
+      "sourceEraTags": [
+        -1
+      ],
+      "candidateBlocks": [
+        "lore-p01043",
+        "lore-p01044"
+      ]
+    },
+    {
+      "readingId": "lore-p01045",
+      "status": "reference",
+      "sourceEraTags": [
+        -1
+      ],
+      "candidateBlocks": [
+        "lore-p01045",
+        "lore-p01047",
+        "lore-p01048",
+        "lore-p01049",
+        "lore-p01050"
+      ]
+    },
+    {
+      "readingId": "lore-p01052",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "lore-p01053",
+        "lore-p01055",
+        "lore-p01057"
+      ]
+    },
+    {
+      "readingId": "lore-p01058",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "lore-p01062",
+        "lore-p01063"
+      ]
+    },
+    {
+      "readingId": "lore-p01064",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "lore-p01065",
+        "lore-p01067",
+        "lore-p01069"
+      ]
+    },
+    {
+      "readingId": "lore-p01101",
+      "status": "reference",
+      "sourceEraTags": [
+        1
+      ],
+      "candidateBlocks": [
+        "lore-p01106"
+      ]
+    },
+    {
+      "readingId": "lore-p01107",
+      "status": "reference",
+      "sourceEraTags": [
+        1
+      ],
+      "candidateBlocks": [
+        "lore-p01110"
+      ]
+    },
+    {
+      "readingId": "lore-p01113",
+      "status": "reference",
+      "sourceEraTags": [
+        1
+      ],
+      "candidateBlocks": [
+        "lore-p01114",
+        "lore-p01117"
+      ]
+    },
+    {
+      "readingId": "lore-p01119",
+      "status": "reference",
+      "sourceEraTags": [
+        1
+      ],
+      "candidateBlocks": [
+        "lore-p01124"
+      ]
+    },
+    {
+      "readingId": "lore-p01125",
+      "status": "reference",
+      "sourceEraTags": [
+        1
+      ],
+      "candidateBlocks": [
+        "lore-p01129",
+        "lore-p01130"
+      ]
+    },
+    {
+      "readingId": "lore-p01131",
+      "status": "reference",
+      "sourceEraTags": [
+        1
+      ],
+      "candidateBlocks": [
+        "lore-p01136"
+      ]
+    },
+    {
+      "readingId": "lore-p01137",
+      "status": "reference",
+      "sourceEraTags": [
+        1
+      ],
+      "candidateBlocks": [
+        "lore-p01138",
+        "lore-p01139"
+      ]
+    },
+    {
+      "readingId": "lore-p01143",
+      "status": "reference",
+      "sourceEraTags": [
+        1
+      ],
+      "candidateBlocks": [
+        "lore-p01143",
+        "lore-p01144",
+        "lore-p01146",
+        "lore-p01147",
+        "lore-p01148"
+      ]
+    },
+    {
+      "readingId": "lore-p01150",
+      "status": "reference",
+      "sourceEraTags": [
+        2
+      ],
+      "candidateBlocks": [
+        "lore-p01151",
+        "lore-p01153",
+        "lore-p01154",
+        "lore-p01155"
+      ]
+    },
+    {
+      "readingId": "lore-p01156",
+      "status": "reference",
+      "sourceEraTags": [
+        2
+      ],
+      "candidateBlocks": [
+        "lore-p01157",
+        "lore-p01158",
+        "lore-p01160"
+      ]
+    },
+    {
+      "readingId": "lore-p01168",
+      "status": "reference",
+      "sourceEraTags": [
+        2
+      ],
+      "candidateBlocks": [
+        "lore-p01171"
+      ]
+    },
+    {
+      "readingId": "lore-p01181",
+      "status": "reference",
+      "sourceEraTags": [
+        3
+      ],
+      "candidateBlocks": [
+        "lore-p01184"
+      ]
+    },
+    {
+      "readingId": "lore-p01193",
+      "status": "reference",
+      "sourceEraTags": [
+        3
+      ],
+      "candidateBlocks": [
+        "lore-p01197"
+      ]
+    },
+    {
+      "readingId": "lore-p01199",
+      "status": "reference",
+      "sourceEraTags": [
+        3
+      ],
+      "candidateBlocks": [
+        "lore-p01204"
+      ]
+    },
+    {
+      "readingId": "lore-p01205",
+      "status": "reference",
+      "sourceEraTags": [
+        3
+      ],
+      "candidateBlocks": [
+        "lore-p01206",
+        "lore-p01208"
+      ]
+    },
+    {
+      "readingId": "lore-p01211",
+      "status": "reference",
+      "sourceEraTags": [
+        3
+      ],
+      "candidateBlocks": [
+        "lore-p01214"
+      ]
+    },
+    {
+      "readingId": "lore-p01217",
+      "status": "reference",
+      "sourceEraTags": [
+        3
+      ],
+      "candidateBlocks": [
+        "lore-p01218",
+        "lore-p01222"
+      ]
+    },
+    {
+      "readingId": "lore-p01224",
+      "status": "reference",
+      "sourceEraTags": [
+        4
+      ],
+      "candidateBlocks": [
+        "lore-p01226",
+        "lore-p01227",
+        "lore-p01228",
+        "lore-p01229"
+      ]
+    },
+    {
+      "readingId": "lore-p01230",
+      "status": "reference",
+      "sourceEraTags": [
+        4
+      ],
+      "candidateBlocks": [
+        "lore-p01231",
+        "lore-p01235"
+      ]
+    },
+    {
+      "readingId": "lore-p01237",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p01240"
+      ]
+    },
+    {
+      "readingId": "lore-p01241",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p01241",
+        "lore-p01242"
+      ]
+    },
+    {
+      "readingId": "lore-p01245",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p01246",
+        "lore-p01249"
+      ]
+    },
+    {
+      "readingId": "lore-p01255",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p01256"
+      ]
+    },
+    {
+      "readingId": "lore-p01259",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p01260"
+      ]
+    },
+    {
+      "readingId": "lore-p01261",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p01262"
+      ]
+    },
+    {
+      "readingId": "lore-p01263",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p01264"
+      ]
+    },
+    {
+      "readingId": "lore-p01275",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p01276"
+      ]
+    },
+    {
+      "readingId": "lore-p01283",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p01284",
+        "lore-p01285",
+        "lore-p01286"
+      ]
+    },
+    {
+      "readingId": "lore-p01287",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p01288"
+      ]
+    },
+    {
+      "readingId": "lore-p01301",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p01302",
+        "lore-p01303",
+        "lore-p01304"
+      ]
+    },
+    {
+      "readingId": "lore-p01305",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p01306"
+      ]
+    },
+    {
+      "readingId": "lore-p01309",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p01310",
+        "lore-p01311"
+      ]
+    },
+    {
+      "readingId": "lore-p01317",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p01318"
+      ]
+    },
+    {
+      "readingId": "lore-p01321",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p01322"
+      ]
+    },
+    {
+      "readingId": "lore-p01325",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p01326"
+      ]
+    },
+    {
+      "readingId": "lore-p01329",
+      "status": "proposed",
+      "sourceEraTags": [
+        4
+      ],
+      "candidateBlocks": [
+        "lore-p01335"
+      ]
+    },
+    {
+      "readingId": "lore-p01506",
+      "status": "alternate",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p01653"
+      ]
+    },
+    {
+      "readingId": "lore-p01774",
+      "status": "alternate",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p01798",
+        "lore-p01808",
+        "lore-p01826",
+        "lore-p01862",
+        "lore-p01863",
+        "lore-p01915",
+        "lore-p01945",
+        "lore-p01955",
+        "lore-p01971",
+        "lore-p01975",
+        "lore-p02075",
+        "lore-p02085",
+        "lore-p02102",
+        "lore-p02107",
+        "lore-p02123",
+        "lore-p02191"
+      ]
+    },
+    {
+      "readingId": "lore-p02226",
+      "status": "alternate",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p02283",
+        "lore-p02285",
+        "lore-p02290",
+        "lore-p02306",
+        "lore-p02635",
+        "lore-p02788"
+      ]
+    },
+    {
+      "readingId": "lore-p02808",
+      "status": "alternate",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p02812",
+        "lore-p02813",
+        "lore-p02821",
+        "lore-p02822",
+        "lore-p02828",
+        "lore-p02829",
+        "lore-p02831",
+        "lore-p02833",
+        "lore-p02844",
+        "lore-p02865",
+        "lore-p02883",
+        "lore-p02895",
+        "lore-p02896",
+        "lore-p02899",
+        "lore-p02908",
+        "lore-p02917",
+        "lore-p02918",
+        "lore-p02927",
+        "lore-p02949",
+        "lore-p02969",
+        "lore-p02978",
+        "lore-p03006",
+        "lore-p03010",
+        "lore-p03013",
+        "lore-p03018",
+        "lore-p03035",
+        "lore-p03038",
+        "lore-p03042",
+        "lore-p03045",
+        "lore-p03056",
+        "lore-p03075",
+        "lore-p03080",
+        "lore-p03144",
+        "lore-p03163",
+        "lore-p03169",
+        "lore-p03183",
+        "lore-p03206",
+        "lore-p03219",
+        "lore-p03221",
+        "lore-p03222"
+      ]
+    },
+    {
+      "readingId": "lore-p03229",
+      "status": "alternate",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p03299",
+        "lore-p03306",
+        "lore-p03342",
+        "lore-p03343",
+        "lore-p03346",
+        "lore-p03348",
+        "lore-p03408",
+        "lore-p03433",
+        "lore-p03499",
+        "lore-p03510",
+        "lore-p03519",
+        "lore-p03595",
+        "lore-p03607",
+        "lore-p03647",
+        "lore-p03657",
+        "lore-p03739",
+        "lore-p03755",
+        "lore-p03796",
+        "lore-p03800",
+        "lore-p03910",
+        "lore-p03975",
+        "lore-p03987"
+      ]
+    },
+    {
+      "readingId": "lore-p04047",
+      "status": "alternate",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p04051",
+        "lore-p04058",
+        "lore-p04061",
+        "lore-p04075",
+        "lore-p04090",
+        "lore-p04105",
+        "lore-p04109",
+        "lore-p04133",
+        "lore-p04134",
+        "lore-p04151",
+        "lore-p04162",
+        "lore-p04203",
+        "lore-p04217",
+        "lore-p04348",
+        "lore-p04565"
+      ]
+    },
+    {
+      "readingId": "lore-p04687",
+      "status": "alternate",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p05024"
+      ]
+    },
+    {
+      "readingId": "lore-p05330",
+      "status": "alternate",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p05372",
+        "lore-p05777"
+      ]
+    },
+    {
+      "readingId": "lore-p05911",
+      "status": "alternate",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p06540"
+      ]
+    },
+    {
+      "readingId": "lore-p06642",
+      "status": "alternate",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p06775",
+        "lore-p07022",
+        "lore-p07030",
+        "lore-p07346"
+      ]
+    },
+    {
+      "readingId": "lore-p07456",
+      "status": "alternate",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p07628",
+        "lore-p07634",
+        "lore-p07663",
+        "lore-p07700",
+        "lore-p07752",
+        "lore-p07823",
+        "lore-p07944",
+        "lore-p08155",
+        "lore-p08175",
+        "lore-p08176",
+        "lore-p08178",
+        "lore-p08185",
+        "lore-p08190",
+        "lore-p08224",
+        "lore-p08265",
+        "lore-p08288",
+        "lore-p08292",
+        "lore-p08302",
+        "lore-p08304",
+        "lore-p08311",
+        "lore-p08322",
+        "lore-p08348",
+        "lore-p08367",
+        "lore-p08384",
+        "lore-p08419",
+        "lore-p08425",
+        "lore-p08435",
+        "lore-p08446",
+        "lore-p08451",
+        "lore-p08454",
+        "lore-p08472",
+        "lore-p08474",
+        "lore-p08488",
+        "lore-p08489",
+        "lore-p08499",
+        "lore-p08524"
+      ]
+    },
+    {
+      "readingId": "lore-p08565",
+      "status": "alternate",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p08572",
+        "lore-p08574",
+        "lore-p08576",
+        "lore-p08604",
+        "lore-p08613",
+        "lore-p08631",
+        "lore-p08666",
+        "lore-p08681",
+        "lore-p08692",
+        "lore-p08763",
+        "lore-p08766",
+        "lore-p08778",
+        "lore-p08787",
+        "lore-p08824",
+        "lore-p08835",
+        "lore-p08950",
+        "lore-p09015",
+        "lore-p09118",
+        "lore-p09178"
+      ]
+    },
+    {
+      "readingId": "lore-p09468",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "lore-p09473"
+      ]
+    },
+    {
+      "readingId": "atlas-p00000",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00004"
+      ]
+    },
+    {
+      "readingId": "atlas-p00005",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00009"
+      ]
+    },
+    {
+      "readingId": "atlas-p00014",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00018",
+        "atlas-p00020",
+        "atlas-p00024",
+        "atlas-p00026",
+        "atlas-p00028",
+        "atlas-p00030"
+      ]
+    },
+    {
+      "readingId": "atlas-p00044",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00045",
+        "atlas-p00048"
+      ]
+    },
+    {
+      "readingId": "atlas-p00096",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00098"
+      ]
+    },
+    {
+      "readingId": "atlas-p00110",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00115",
+        "atlas-p00117"
+      ]
+    },
+    {
+      "readingId": "atlas-p00122",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00131"
+      ]
+    },
+    {
+      "readingId": "atlas-p00146",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00148",
+        "atlas-p00150",
+        "atlas-p00153",
+        "atlas-p00154",
+        "atlas-p00155",
+        "atlas-p00156"
+      ]
+    },
+    {
+      "readingId": "atlas-p00158",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00168"
+      ]
+    },
+    {
+      "readingId": "atlas-p00170",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00175",
+        "atlas-p00178"
+      ]
+    },
+    {
+      "readingId": "atlas-p00182",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00186"
+      ]
+    },
+    {
+      "readingId": "atlas-p00195",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00202",
+        "atlas-p00205"
+      ]
+    },
+    {
+      "readingId": "atlas-p00221",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00222",
+        "atlas-p00223",
+        "atlas-p00225",
+        "atlas-p00228",
+        "atlas-p00229",
+        "atlas-p00230",
+        "atlas-p00232"
+      ]
+    },
+    {
+      "readingId": "atlas-p00234",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00239",
+        "atlas-p00241",
+        "atlas-p00243"
+      ]
+    },
+    {
+      "readingId": "atlas-p00249",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00251",
+        "atlas-p00253",
+        "atlas-p00256",
+        "atlas-p00258"
+      ]
+    },
+    {
+      "readingId": "atlas-p00261",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00271"
+      ]
+    },
+    {
+      "readingId": "atlas-p00273",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00277"
+      ]
+    },
+    {
+      "readingId": "atlas-p00285",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00291",
+        "atlas-p00292"
+      ]
+    },
+    {
+      "readingId": "atlas-p00297",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00301"
+      ]
+    },
+    {
+      "readingId": "atlas-p00311",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00318",
+        "atlas-p00319"
+      ]
+    },
+    {
+      "readingId": "atlas-p00324",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00326",
+        "atlas-p00328",
+        "atlas-p00334",
+        "atlas-p00335"
+      ]
+    },
+    {
+      "readingId": "atlas-p00336",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00336"
+      ]
+    },
+    {
+      "readingId": "atlas-p00349",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00351",
+        "atlas-p00353",
+        "atlas-p00359"
+      ]
+    },
+    {
+      "readingId": "atlas-p00361",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00362",
+        "atlas-p00369",
+        "atlas-p00371"
+      ]
+    },
+    {
+      "readingId": "atlas-p00373",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00380",
+        "atlas-p00383"
+      ]
+    },
+    {
+      "readingId": "atlas-p00385",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00390",
+        "atlas-p00399",
+        "atlas-p00402",
+        "atlas-p00403"
+      ]
+    },
+    {
+      "readingId": "atlas-p00422",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00425",
+        "atlas-p00427",
+        "atlas-p00430"
+      ]
+    },
+    {
+      "readingId": "atlas-p00431",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00435",
+        "atlas-p00436"
+      ]
+    },
+    {
+      "readingId": "atlas-p00446",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00447"
+      ]
+    },
+    {
+      "readingId": "atlas-p00451",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00451"
+      ]
+    },
+    {
+      "readingId": "atlas-p00460",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00464"
+      ]
+    },
+    {
+      "readingId": "atlas-p00477",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00481",
+        "atlas-p00484",
+        "atlas-p00487",
+        "atlas-p00494"
+      ]
+    },
+    {
+      "readingId": "atlas-p00495",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00499"
+      ]
+    },
+    {
+      "readingId": "atlas-p00541",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00544",
+        "atlas-p00548",
+        "atlas-p00551"
+      ]
+    },
+    {
+      "readingId": "atlas-p00559",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00563",
+        "atlas-p00566"
+      ]
+    },
+    {
+      "readingId": "atlas-p00578",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00582"
+      ]
+    },
+    {
+      "readingId": "atlas-p00595",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00598",
+        "atlas-p00599"
+      ]
+    },
+    {
+      "readingId": "atlas-p00604",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00604",
+        "atlas-p00607",
+        "atlas-p00608",
+        "atlas-p00611",
+        "atlas-p00614",
+        "atlas-p00618",
+        "atlas-p00619",
+        "atlas-p00620"
+      ]
+    },
+    {
+      "readingId": "atlas-p00621",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00625",
+        "atlas-p00632"
+      ]
+    },
+    {
+      "readingId": "atlas-p00639",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00642",
+        "atlas-p00643"
+      ]
+    },
+    {
+      "readingId": "atlas-p00649",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00654"
+      ]
+    },
+    {
+      "readingId": "atlas-p00658",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00662",
+        "atlas-p00669",
+        "atlas-p00670",
+        "atlas-p00672"
+      ]
+    },
+    {
+      "readingId": "atlas-p00677",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00680",
+        "atlas-p00681"
+      ]
+    },
+    {
+      "readingId": "atlas-p00695",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00699"
+      ]
+    },
+    {
+      "readingId": "atlas-p00704",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00708"
+      ]
+    },
+    {
+      "readingId": "atlas-p00750",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00753",
+        "atlas-p00754"
+      ]
+    },
+    {
+      "readingId": "atlas-p00769",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00773",
+        "atlas-p00779"
+      ]
+    },
+    {
+      "readingId": "atlas-p00786",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00789",
+        "atlas-p00790"
+      ]
+    },
+    {
+      "readingId": "atlas-p00822",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00827"
+      ]
+    },
+    {
+      "readingId": "atlas-p00840",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00844"
+      ]
+    },
+    {
+      "readingId": "atlas-p00849",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00853"
+      ]
+    },
+    {
+      "readingId": "atlas-p00858",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00862"
+      ]
+    },
+    {
+      "readingId": "atlas-p00867",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00871"
+      ]
+    },
+    {
+      "readingId": "atlas-p00885",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00887",
+        "atlas-p00888",
+        "atlas-p00889"
+      ]
+    },
+    {
+      "readingId": "atlas-p00894",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00896"
+      ]
+    },
+    {
+      "readingId": "atlas-p00904",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00905"
+      ]
+    },
+    {
+      "readingId": "atlas-p00906",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00910"
+      ]
+    },
+    {
+      "readingId": "atlas-p00920",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00922",
+        "atlas-p00924",
+        "atlas-p00925"
+      ]
+    },
+    {
+      "readingId": "atlas-p00936",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00938"
+      ]
+    },
+    {
+      "readingId": "atlas-p00946",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00949"
+      ]
+    },
+    {
+      "readingId": "atlas-p00951",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00954"
+      ]
+    },
+    {
+      "readingId": "atlas-p00961",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00963",
+        "atlas-p00964",
+        "atlas-p00965"
+      ]
+    },
+    {
+      "readingId": "atlas-p00966",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00968",
+        "atlas-p00969"
+      ]
+    },
+    {
+      "readingId": "atlas-p00991",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p00992",
+        "atlas-p00995"
+      ]
+    },
+    {
+      "readingId": "atlas-p00996",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01000"
+      ]
+    },
+    {
+      "readingId": "atlas-p01006",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01008",
+        "atlas-p01009"
+      ]
+    },
+    {
+      "readingId": "atlas-p01026",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01029"
+      ]
+    },
+    {
+      "readingId": "atlas-p01031",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01034"
+      ]
+    },
+    {
+      "readingId": "atlas-p01036",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01036",
+        "atlas-p01040"
+      ]
+    },
+    {
+      "readingId": "atlas-p01041",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01043"
+      ]
+    },
+    {
+      "readingId": "atlas-p01046",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01050"
+      ]
+    },
+    {
+      "readingId": "atlas-p01056",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01058",
+        "atlas-p01064",
+        "atlas-p01066",
+        "atlas-p01068"
+      ]
+    },
+    {
+      "readingId": "atlas-p01069",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01071",
+        "atlas-p01072",
+        "atlas-p01073",
+        "atlas-p01083"
+      ]
+    },
+    {
+      "readingId": "atlas-p01084",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01090"
+      ]
+    },
+    {
+      "readingId": "atlas-p01095",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01096"
+      ]
+    },
+    {
+      "readingId": "atlas-p01118",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01121"
+      ]
+    },
+    {
+      "readingId": "atlas-p01129",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01134",
+        "atlas-p01135",
+        "atlas-p01138"
+      ]
+    },
+    {
+      "readingId": "atlas-p01140",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01146",
+        "atlas-p01150"
+      ]
+    },
+    {
+      "readingId": "atlas-p01151",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01160"
+      ]
+    },
+    {
+      "readingId": "atlas-p01162",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01167",
+        "atlas-p01168",
+        "atlas-p01169"
+      ]
+    },
+    {
+      "readingId": "atlas-p01173",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01179"
+      ]
+    },
+    {
+      "readingId": "atlas-p01195",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01200"
+      ]
+    },
+    {
+      "readingId": "atlas-p01206",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01216",
+        "atlas-p01218",
+        "atlas-p01228",
+        "atlas-p01229"
+      ]
+    },
+    {
+      "readingId": "atlas-p01265",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01267",
+        "atlas-p01274"
+      ]
+    },
+    {
+      "readingId": "atlas-p01373",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01379"
+      ]
+    },
+    {
+      "readingId": "atlas-p01428",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01434"
+      ]
+    },
+    {
+      "readingId": "atlas-p01440",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01442",
+        "atlas-p01446"
+      ]
+    },
+    {
+      "readingId": "atlas-p01473",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01476"
+      ]
+    },
+    {
+      "readingId": "atlas-p01484",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01486"
+      ]
+    },
+    {
+      "readingId": "atlas-p01495",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01501"
+      ]
+    },
+    {
+      "readingId": "atlas-p01506",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01511"
+      ]
+    },
+    {
+      "readingId": "atlas-p01525",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01531"
+      ]
+    },
+    {
+      "readingId": "atlas-p01536",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01549"
+      ]
+    },
+    {
+      "readingId": "atlas-p01555",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01561",
+        "atlas-p01564"
+      ]
+    },
+    {
+      "readingId": "atlas-p01566",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01571",
+        "atlas-p01572"
+      ]
+    },
+    {
+      "readingId": "atlas-p01577",
+      "status": "proposed",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01582",
+        "atlas-p01583"
+      ]
+    },
+    {
+      "readingId": "atlas-p01588",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01592",
+        "atlas-p01593"
+      ]
+    },
+    {
+      "readingId": "atlas-p01599",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01600"
+      ]
+    },
+    {
+      "readingId": "atlas-p01601",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01602",
+        "atlas-p01605",
+        "atlas-p01607"
+      ]
+    },
+    {
+      "readingId": "atlas-p01610",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01612",
+        "atlas-p01614",
+        "atlas-p01615"
+      ]
+    },
+    {
+      "readingId": "atlas-p01639",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01640"
+      ]
+    },
+    {
+      "readingId": "atlas-p01670",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01676",
+        "atlas-p01683",
+        "atlas-p01737"
+      ]
+    },
+    {
+      "readingId": "atlas-p01754",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01756"
+      ]
+    },
+    {
+      "readingId": "atlas-p01774",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01775"
+      ]
+    },
+    {
+      "readingId": "atlas-p01799",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01800"
+      ]
+    },
+    {
+      "readingId": "atlas-p01850",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01855",
+        "atlas-p01862",
+        "atlas-p01865"
+      ]
+    },
+    {
+      "readingId": "atlas-p01907",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01908",
+        "atlas-p01909",
+        "atlas-p01910",
+        "atlas-p01911",
+        "atlas-p01912"
+      ]
+    },
+    {
+      "readingId": "atlas-p01913",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01915"
+      ]
+    },
+    {
+      "readingId": "atlas-p01961",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p01987",
+        "atlas-p01991",
+        "atlas-p02003"
+      ]
+    },
+    {
+      "readingId": "atlas-p02113",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "atlas-p02117",
+        "atlas-p02124",
+        "atlas-p02178"
+      ]
+    },
+    {
+      "readingId": "language-p00000",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p00004"
+      ]
+    },
+    {
+      "readingId": "language-p00026",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p00036",
+        "language-p00040",
+        "language-p00056"
+      ]
+    },
+    {
+      "readingId": "language-p00218",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p00219",
+        "language-p00227",
+        "language-p00241",
+        "language-p00257",
+        "language-p00266",
+        "language-p00282",
+        "language-p00302",
+        "language-p00317",
+        "language-p00333",
+        "language-p00351",
+        "language-p00368",
+        "language-p00386",
+        "language-p00406",
+        "language-p00425",
+        "language-p00445",
+        "language-p00466",
+        "language-p00489",
+        "language-p00507",
+        "language-p00528",
+        "language-p00556",
+        "language-p00573",
+        "language-p00596",
+        "language-p00614",
+        "language-p00636",
+        "language-p00659",
+        "language-p00678",
+        "language-p00700",
+        "language-p00717",
+        "language-p00742",
+        "language-p00759",
+        "language-p00780",
+        "language-p00799",
+        "language-p00817",
+        "language-p00839",
+        "language-p00857",
+        "language-p00876",
+        "language-p00895"
+      ]
+    },
+    {
+      "readingId": "language-p00944",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p00948"
+      ]
+    },
+    {
+      "readingId": "language-p00997",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p01005",
+        "language-p01006",
+        "language-p01020",
+        "language-p01028",
+        "language-p01035",
+        "language-p01049",
+        "language-p01055",
+        "language-p01064"
+      ]
+    },
+    {
+      "readingId": "language-p01066",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p01105",
+        "language-p01107"
+      ]
+    },
+    {
+      "readingId": "language-p01149",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p01149",
+        "language-p01150",
+        "language-p01151",
+        "language-p01153",
+        "language-p01161",
+        "language-p01244",
+        "language-p01327",
+        "language-p01332",
+        "language-p01333",
+        "language-p01334",
+        "language-p01335",
+        "language-p01337",
+        "language-p01342",
+        "language-p01351",
+        "language-p01352",
+        "language-p01360",
+        "language-p01369",
+        "language-p01378",
+        "language-p01386",
+        "language-p01387",
+        "language-p01389",
+        "language-p01396",
+        "language-p01405",
+        "language-p01410",
+        "language-p01416",
+        "language-p01425",
+        "language-p01434",
+        "language-p01443",
+        "language-p01452",
+        "language-p01461",
+        "language-p01470",
+        "language-p01479",
+        "language-p01488",
+        "language-p01493",
+        "language-p01499",
+        "language-p01508",
+        "language-p01517",
+        "language-p01526",
+        "language-p01535",
+        "language-p01544",
+        "language-p01553",
+        "language-p01562",
+        "language-p01571",
+        "language-p01576",
+        "language-p01581",
+        "language-p01582",
+        "language-p01583",
+        "language-p01584",
+        "language-p01591",
+        "language-p01592",
+        "language-p01595",
+        "language-p01599",
+        "language-p01600",
+        "language-p01602",
+        "language-p01609",
+        "language-p01618",
+        "language-p01627",
+        "language-p01635",
+        "language-p01636",
+        "language-p01638",
+        "language-p01645",
+        "language-p01653",
+        "language-p01654",
+        "language-p01656",
+        "language-p01659",
+        "language-p01664",
+        "language-p01665",
+        "language-p01667",
+        "language-p01674",
+        "language-p01683",
+        "language-p01692",
+        "language-p01701",
+        "language-p01710",
+        "language-p01719",
+        "language-p01728",
+        "language-p01737",
+        "language-p01742",
+        "language-p01748",
+        "language-p01757",
+        "language-p01766",
+        "language-p01775",
+        "language-p01784",
+        "language-p01793",
+        "language-p01802",
+        "language-p01811",
+        "language-p01820",
+        "language-p01825",
+        "language-p01908",
+        "language-p01991",
+        "language-p02074",
+        "language-p02157",
+        "language-p02240",
+        "language-p02323",
+        "language-p02406",
+        "language-p02489",
+        "language-p02572",
+        "language-p02578",
+        "language-p02587",
+        "language-p02596",
+        "language-p02605",
+        "language-p02614",
+        "language-p02623",
+        "language-p02632",
+        "language-p02641",
+        "language-p02649",
+        "language-p02650",
+        "language-p02652",
+        "language-p02655",
+        "language-p02660",
+        "language-p02661",
+        "language-p02663",
+        "language-p02670",
+        "language-p02679",
+        "language-p02687",
+        "language-p02688",
+        "language-p02690",
+        "language-p02697",
+        "language-p02706",
+        "language-p02715",
+        "language-p02716",
+        "language-p02719",
+        "language-p02724",
+        "language-p02732",
+        "language-p02733",
+        "language-p02734",
+        "language-p02735",
+        "language-p02738",
+        "language-p02744",
+        "language-p02753",
+        "language-p02762",
+        "language-p02771",
+        "language-p02780",
+        "language-p02789",
+        "language-p02798",
+        "language-p02807",
+        "language-p02816",
+        "language-p02821",
+        "language-p02904",
+        "language-p02987",
+        "language-p03070",
+        "language-p03147",
+        "language-p03150",
+        "language-p03153",
+        "language-p03236",
+        "language-p03319",
+        "language-p03402",
+        "language-p03443",
+        "language-p03446",
+        "language-p03485",
+        "language-p03568",
+        "language-p03651",
+        "language-p03734",
+        "language-p03816",
+        "language-p03819",
+        "language-p03821",
+        "language-p03822"
+      ]
+    },
+    {
+      "readingId": "language-p03823",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p03823",
+        "language-p03828",
+        "language-p03846",
+        "language-p03863",
+        "language-p03866",
+        "language-p03868",
+        "language-p03872"
+      ]
+    },
+    {
+      "readingId": "language-p03896",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p03899",
+        "language-p03902"
+      ]
+    },
+    {
+      "readingId": "language-p03914",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p03926"
+      ]
+    },
+    {
+      "readingId": "language-p04173",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p04175",
+        "language-p04177",
+        "language-p04178",
+        "language-p04179",
+        "language-p04180",
+        "language-p04181",
+        "language-p04182",
+        "language-p04183",
+        "language-p04184",
+        "language-p04185"
+      ]
+    },
+    {
+      "readingId": "language-p04187",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p04188"
+      ]
+    },
+    {
+      "readingId": "language-p04192",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p04194",
+        "language-p04196",
+        "language-p04197",
+        "language-p04198",
+        "language-p04199",
+        "language-p04200",
+        "language-p04201",
+        "language-p04202",
+        "language-p04203",
+        "language-p04204",
+        "language-p04205"
+      ]
+    },
+    {
+      "readingId": "language-p04206",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p04207"
+      ]
+    },
+    {
+      "readingId": "language-p04211",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p04213",
+        "language-p04215",
+        "language-p04216",
+        "language-p04217",
+        "language-p04218",
+        "language-p04219",
+        "language-p04220",
+        "language-p04221",
+        "language-p04222",
+        "language-p04223",
+        "language-p04224"
+      ]
+    },
+    {
+      "readingId": "language-p04225",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p04226"
+      ]
+    },
+    {
+      "readingId": "language-p04306",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p04319"
+      ]
+    },
+    {
+      "readingId": "language-p04325",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p04338"
+      ]
+    },
+    {
+      "readingId": "language-p04458",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p04463"
+      ]
+    },
+    {
+      "readingId": "language-p04473",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p04485",
+        "language-p04489",
+        "language-p04494",
+        "language-p04504",
+        "language-p04523",
+        "language-p04535",
+        "language-p04539",
+        "language-p04541"
+      ]
+    },
+    {
+      "readingId": "language-p04548",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p04549",
+        "language-p04563"
+      ]
+    },
+    {
+      "readingId": "language-p04604",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p04623"
+      ]
+    },
+    {
+      "readingId": "language-p04662",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p04663",
+        "language-p04671",
+        "language-p04675"
+      ]
+    },
+    {
+      "readingId": "language-p04676",
+      "status": "reference",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "language-p04685"
+      ]
+    },
+    {
+      "readingId": "game_lorebook-p00000",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "game_lorebook-p00001",
+        "game_lorebook-p00002",
+        "game_lorebook-p00003",
+        "game_lorebook-p00006"
+      ]
+    },
+    {
+      "readingId": "local-cyberpath-atlas-topology-map-p00000",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "local-cyberpath-atlas-topology-map-p00008",
+        "local-cyberpath-atlas-topology-map-p00011",
+        "local-cyberpath-atlas-topology-map-p00014",
+        "local-cyberpath-atlas-topology-map-p00016",
+        "local-cyberpath-atlas-topology-map-p00022",
+        "local-cyberpath-atlas-topology-map-p00024",
+        "local-cyberpath-atlas-topology-map-p00025",
+        "local-cyberpath-atlas-topology-map-p00054",
+        "local-cyberpath-atlas-topology-map-p00092",
+        "local-cyberpath-atlas-topology-map-p00099",
+        "local-cyberpath-atlas-topology-map-p00155",
+        "local-cyberpath-atlas-topology-map-p00175",
+        "local-cyberpath-atlas-topology-map-p00195",
+        "local-cyberpath-atlas-topology-map-p00221",
+        "local-cyberpath-atlas-topology-map-p00278",
+        "local-cyberpath-atlas-topology-map-p00285",
+        "local-cyberpath-atlas-topology-map-p00288",
+        "local-cyberpath-atlas-topology-map-p00332",
+        "local-cyberpath-atlas-topology-map-p00333",
+        "local-cyberpath-atlas-topology-map-p00334",
+        "local-cyberpath-atlas-topology-map-p00335",
+        "local-cyberpath-atlas-topology-map-p00336",
+        "local-cyberpath-atlas-topology-map-p00340"
+      ]
+    },
+    {
+      "readingId": "local-cyberpath-hidden-rooms-volume-p00000",
+      "status": "reference",
+      "sourceEraTags": [],
+      "candidateBlocks": [
+        "local-cyberpath-hidden-rooms-volume-p00008",
+        "local-cyberpath-hidden-rooms-volume-p00027",
+        "local-cyberpath-hidden-rooms-volume-p00041",
+        "local-cyberpath-hidden-rooms-volume-p00042",
+        "local-cyberpath-hidden-rooms-volume-p00045",
+        "local-cyberpath-hidden-rooms-volume-p00054",
+        "local-cyberpath-hidden-rooms-volume-p00058",
+        "local-cyberpath-hidden-rooms-volume-p00069",
+        "local-cyberpath-hidden-rooms-volume-p00077",
+        "local-cyberpath-hidden-rooms-volume-p00078",
+        "local-cyberpath-hidden-rooms-volume-p00079",
+        "local-cyberpath-hidden-rooms-volume-p00090",
+        "local-cyberpath-hidden-rooms-volume-p00113",
+        "local-cyberpath-hidden-rooms-volume-p00130",
+        "local-cyberpath-hidden-rooms-volume-p00170",
+        "local-cyberpath-hidden-rooms-volume-p00177",
+        "local-cyberpath-hidden-rooms-volume-p00284",
+        "local-cyberpath-hidden-rooms-volume-p00344",
+        "local-cyberpath-hidden-rooms-volume-p00354",
+        "local-cyberpath-hidden-rooms-volume-p00358",
+        "local-cyberpath-hidden-rooms-volume-p00391",
+        "local-cyberpath-hidden-rooms-volume-p00402",
+        "local-cyberpath-hidden-rooms-volume-p00418",
+        "local-cyberpath-hidden-rooms-volume-p00429",
+        "local-cyberpath-hidden-rooms-volume-p00442",
+        "local-cyberpath-hidden-rooms-volume-p00466",
+        "local-cyberpath-hidden-rooms-volume-p00469",
+        "local-cyberpath-hidden-rooms-volume-p00477",
+        "local-cyberpath-hidden-rooms-volume-p00478",
+        "local-cyberpath-hidden-rooms-volume-p00489",
+        "local-cyberpath-hidden-rooms-volume-p00490",
+        "local-cyberpath-hidden-rooms-volume-p00500",
+        "local-cyberpath-hidden-rooms-volume-p00501"
+      ]
+    },
+    {
+      "readingId": "song-care-in-the-quiet",
+      "status": "new addition",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "song-care-in-the-quiet-p003"
+      ]
+    },
+    {
+      "readingId": "person-sova",
+      "status": "new addition",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "person-sova-p003"
+      ]
+    },
+    {
+      "readingId": "song-paths-that-meet",
+      "status": "new addition",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "song-paths-that-meet-p002",
+        "song-paths-that-meet-p003"
+      ]
+    },
+    {
+      "readingId": "person-neral",
+      "status": "new addition",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "person-neral-p002"
+      ]
+    },
+    {
+      "readingId": "person-pelli",
+      "status": "new addition",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "person-pelli-p002"
+      ]
+    },
+    {
+      "readingId": "person-keshet",
+      "status": "new addition",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "person-keshet-p003"
+      ]
+    },
+    {
+      "readingId": "place-listening-alcove",
+      "status": "new addition",
+      "sourceEraTags": [
+        0
+      ],
+      "candidateBlocks": [
+        "place-listening-alcove-p002"
+      ]
+    },
+    {
+      "readingId": "chapel-pilgrim-draft-p00000",
+      "status": "draft",
+      "sourceEraTags": [
+        0,
+        1,
+        2
+      ],
+      "candidateBlocks": [
+        "chapel-pilgrim-draft-p00003",
+        "chapel-pilgrim-draft-p00014",
+        "chapel-pilgrim-draft-p00021",
+        "chapel-pilgrim-draft-p00075",
+        "chapel-pilgrim-draft-p00101",
+        "chapel-pilgrim-draft-p00133"
+      ]
+    }
+  ]
+}

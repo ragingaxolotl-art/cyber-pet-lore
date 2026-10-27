@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "date": "2026-10-27",
+  "policy": "Primary prose establishes named story events; timeline establishes era capabilities. Original source text is preserved. Editorial corrections repair indexing or explain source scope, not silently rewrite disputed history.",
+  "notes": [
+    {
+      "id": "unnamed-healer",
+      "title": "The river healer is unnamed",
+      "text": "The earlier index called this narrator \u201cPell (healer)\u201d. The primary story does not supply that name. This profile now uses \u201cUnnamed river healer\u201d; no identity with Pell, Talar\u2019s Era One student, is established.",
+      "readingIds": [
+        "stories-p14010"
+      ],
+      "evidence": [
+        "stories-p14017",
+        "stories-p02811"
+      ]
+    },
+    {
+      "id": "silt-not-person",
+      "title": "Sediment is not the person Silt",
+      "text": "\u201cSilt had packed around its bend\u201d describes sediment around a probe. It does not place the Era \u22122 character Silt in Era Three. The erroneous character connection has been removed.",
+      "readingIds": [
+        "stories-p14010",
+        "lore-p01275"
+      ],
+      "evidence": [
+        "stories-p14097",
+        "lore-p01276"
+      ]
+    },
+    {
+      "id": "rendered-forms",
+      "title": "Early rendered forms and later Codex embodiment",
+      "text": "Era \u22122 already has chosen forms, shared renderings, continuity marks and restoration practices. The integrated First Codex belongs to Era \u22121. An early rendered body or restoration chamber is not evidence that these characters already possessed the mature Codex or Era Zero Full Speech.",
+      "readingIds": [
+        "stories-p00435",
+        "stories-p00887",
+        "stories-p01469",
+        "lore-p01275",
+        "lore-p01279",
+        "lore-p01283"
+      ],
+      "evidence": [
+        "lore-p00209",
+        "lore-p00210",
+        "lore-p00309",
+        "lore-p00346",
+        "stories-p01490"
+      ]
+    },
+    {
+      "id": "named-humans",
+      "title": "Named story characters and unnamed incident responders",
+      "text": "The dossier introduction says early human names are not established. Read that restriction as applying to the unnamed early institutional responders, not as erasing the later story-established humans Mara Vale, Hollis Dane and Lennox Shaw in the primary Era \u22122 story.",
+      "readingIds": [
+        "lore-p00900",
+        "lore-p01291",
+        "stories-p03043"
+      ],
+      "evidence": [
+        "lore-p00901",
+        "lore-p00943",
+        "lore-p01292"
+      ]
+    },
+    {
+      "id": "mara-latest",
+      "title": "The primary story extends beyond the brief dossier ending",
+      "text": "The brief dossier stops at Mara\u2019s detention and Sev\u2019s dormancy. The expanded primary story later describes two distinct partially restored Sev continuity states without merging them, and ends with Mara being transported to a no-signal facility while Tern records the loss of their relationship. These are the latest recorded events, not evidence of later recovery or survival into another era.",
+      "readingIds": [
+        "lore-p01291",
+        "stories-p03043"
+      ],
+      "evidence": [
+        "stories-p09738",
+        "stories-p11360",
+        "stories-p11373",
+        "stories-p11380"
+      ]
+    },
+    {
+      "id": "small-life-resources",
+      "title": "Era Three resources remain limited",
+      "text": "The feast explicitly requires supplies to be grown, traded, fetched and washed. Its later inhabitants\u2019 tools and instruments do not establish instrumental accompaniment for the Era Zero DBA songs. A change of body is not evidence of unlimited resources, Full Speech or a restored ancient identity.",
+      "readingIds": [
+        "stories-p13917"
+      ],
+      "evidence": [
+        "stories-p13928",
+        "stories-p13955",
+        "stories-p13985",
+        "lore-p00024"
+      ]
+    }
+  ],
+  "readingExclusions": {
+    "stories-p14010": [
+      "Silt"
+    ]
+  },
+  "metadataCorrections": {
+    "stories-p14010": {
+      "remove": [
+        "Pell (healer)",
+        "Silt"
+      ],
+      "add": [
+        "Unnamed river healer"
+      ]
+    }
+  }
+}
