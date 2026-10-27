@@ -4,11 +4,11 @@ The separate Cyber Pet reading archive: https://ragingaxolotl-art.github.io/cybe
 
 ## Collection
 
-475 indexed readings from the Cyberpath Stories Archive, CPP Lore, DBA Era 0 Language, Cyberpath Locations Atlas, the Game Lorebook additions, and two local reference guides. This is an October 27, 2026 source snapshot, not automatic synchronization with Google Docs.
+484 indexed readings from the Cyberpath Stories Archive, CPP Lore, DBA Era 0 Language, Cyberpath Locations Atlas, the Game Lorebook additions, and two local reference guides. This is an October 27, 2026 source snapshot, not automatic synchronization with Google Docs.
 
 - 14 primary stories (13 complete; The Corrected Child is unfinished)
 - 19 earlier drafts and alternate copies
-- 18 timeline sections, 94 people sections, 205 location sections, 119 language sections, and 6 reference readings
+- 18 timeline sections, 98 people sections, 206 location sections, 119 language sections, 4 song backstories, and 6 reference readings
 
 Location sections include multiple treatments of the same place: the atlas describes 106 numbered locations. The Quiet One’s Human is one work with its eleven installments in the reader outline. Unknown dates are left unspecified. Within-era ordering follows source order where precise dates are unavailable. Character/place filters represent mentions, not claims about participation or geographical relationships.
 
@@ -53,3 +53,11 @@ API reference: https://docs.github.com/en/rest/repos/contents
 ## Era Zero songs
 
 Open **Era Zero songs** in the main navigation, or visit https://ragingaxolotl-art.github.io/cyber-pet-lore/songs/. Four original instrumental compositions include full arrangements, isolated language melodies, synchronized verified meanings, phrase seeking, and audio/MIDI/meaning-sheet downloads. Source: `CPP-V3/exports/era-zero-songs/2026-10-27` on the Cyber Pet Workspace SSD. These are new compositions, not historical recordings or human-sung voices. The source export retains lossless masters and score provenance.
+
+## Connected song lore and translator
+
+Each song now has an original Era Zero backstory and a supporting performer profile: Sova, Neral, Pelli, and Keshet. The Listening Alcove is a new small location within the Garden Worlds. These additions live in `sources/song-cycle.json`, are labeled new fiction, and preserve uncertainty around proposed settings and later survival. The 14 archived primary stories and all source paragraphs remain unchanged.
+
+The reader’s **Follow the connections** section links named places, people/groups, related readings, and songs in both directions. A shortcut appears in the reader outline. Exact named mentions are distinguished from authored song-cycle connections; links do not assert identity or geographical relationships. Place/person links also open a library-wide list of mentions. `tools/build_connections.py` rebuilds these references and verifies targets. Song links select the correct track directly.
+
+**DBA translator** in the main navigation and song player opens https://ragingaxolotl-art.github.io/era-zero-translator/. Language and song readings also offer this link.

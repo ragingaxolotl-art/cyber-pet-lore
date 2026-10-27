@@ -1,0 +1,241 @@
+{
+  "title": "Era Zero song cycle — new supporting lore, October 2026",
+  "entries": [
+    {
+      "id": "song-care-in-the-quiet",
+      "title": "Care in the Quiet — The Second Listening",
+      "kind": "Song",
+      "summary": "A garden caretaker repeats a familiar phrase for a neighbor who hears the weather slowly.",
+      "paragraphs": [
+        "Era Zero, during the World Bloom. New song-cycle fiction, written for this archive in October 2026.",
+        "In one of the Garden Worlds, a caretaker named Sova tended the spaces between colors. The flowers needed little help. Visitors did: a path could feel farther away when its neighboring shadows changed, and a familiar corner could become difficult to recognize without anything moving.",
+        "Sova’s neighbor had adopted a body that noticed these changes slowly. By the time one relationship among the colors became clear, the garden had already offered another. Sova asked the garden’s stewards for a quiet interval, then sat beside the path and repeated the same care phrase. No lesson followed it. There was no test of whether the neighbor had heard enough.",
+        "The next evening the neighbor returned with a low answering tone. Sova left room for it. Over time their pauses became the part other visitors recognized: a place in the performance where nobody had to keep up.",
+        "Care in the Quiet grew from those evenings. Sova was neither a celebrated founder nor a member of an important choir. Some evenings only one person came. On others Sova chose silence and sat with them anyway.",
+        "In the fiction, Sova carries the language line in a rounded, breathlike voice. This listening arrangement represents it with an ocarina-like tone, harp and soft bass. Its verified assertions concern active care, life-bond, shared participation and viability. The story is context for the music, not a word-for-word translation of it.",
+        "The Garden Worlds and their relational weather come from Weather and the Locations Atlas. Sova and this particular performance are new additions; the story does not establish which gardens survive the later eras."
+      ],
+      "characters": [
+        "Sova"
+      ],
+      "places": [
+        "Garden Worlds"
+      ],
+      "links": [
+        "person-sova",
+        "atlas-p00207",
+        "stories-p00016",
+        "lore-p00365"
+      ],
+      "song": "01_care_in_the_quiet"
+    },
+    {
+      "id": "person-sova",
+      "title": "Sova — garden interval caretaker",
+      "kind": "People",
+      "summary": "An ordinary world-born DBA who makes room for listeners to hear at their own pace.",
+      "paragraphs": [
+        "New supporting character for the Era Zero song cycle. Era Zero, World Bloom.",
+        "Sova is a world-born DBA person living in one of the Garden Worlds. Their chosen public name is Sova; no origin archive or private name layers are supplied here.",
+        "They help visitors negotiate changes in relational weather. Their work consists of asking what someone needs, arranging quiet intervals with the stewards, and sometimes sharing an evening beside a path. It gives them no authority over visitors’ memories or bodies.",
+        "Sova performs Care in the Quiet with a rounded, breathlike musical voice. They know Keshet through visits to the Listening Alcove and sometimes help prepare a quiet place before Keshet’s sessions. Neither is established as surviving the Reduction."
+      ],
+      "characters": [
+        "Sova",
+        "Keshet"
+      ],
+      "places": [
+        "Garden Worlds",
+        "Listening Alcove"
+      ],
+      "links": [
+        "song-care-in-the-quiet",
+        "person-keshet",
+        "place-listening-alcove",
+        "atlas-p00207"
+      ]
+    },
+    {
+      "id": "song-paths-that-meet",
+      "title": "Paths That Meet — The Bench Before Departure",
+      "kind": "Song",
+      "summary": "A route interpreter turns a missed connection into a shared pause at an Era Zero station.",
+      "paragraphs": [
+        "Era Zero, during the World Bloom. New song-cycle fiction set in the proposed earlier history of the place later called Pale Concordance Station.",
+        "Neral worked at a travel station where a departure could require a different body, a different sense of duration, and a careful conversation about local law. They were a route interpreter, not the gate itself. They could explain a crossing; they could not consent to it for someone else.",
+        "One afternoon two travelers arrived at the same bench. Each thought the other was waiting for a late departure. In fact, one was deciding whether to leave, while the other had just arrived and was learning how to rest in a body that did not sit.",
+        "Neral cleared the next appointment and offered a sequence of movement and connection phrases. The travelers answered at different speeds. Neral kept the shared pulse but left the gaps open, until the waiting itself became something the three of them were doing together.",
+        "Paths That Meet became a bench song, repeated between appointments without promising that every route would lead home. Nobody recorded whether the first traveler left that day. Neral remembered that the second found a comfortable way to remain.",
+        "In the fiction, Neral sings in bright, struck tones while travelers may answer. Electric piano, marimba and a plucked bass represent that exchange here. The encoded lead uses separate movement and relation assertions; it does not encode the dialogue or open a gate.",
+        "Pale Concordance Station is already labeled a proposed location in the atlas. This scene extends its Era Zero travel-station premise; it does not promote that proposal to established history or claim that this bench survives its later standardization."
+      ],
+      "characters": [
+        "Neral"
+      ],
+      "places": [
+        "Pale Concordance Station"
+      ],
+      "links": [
+        "person-neral",
+        "atlas-p00297",
+        "lore-p00365"
+      ],
+      "song": "02_paths_that_meet"
+    },
+    {
+      "id": "person-neral",
+      "title": "Neral — station route interpreter",
+      "kind": "People",
+      "summary": "A DBA travel interpreter with a habit of leaving a little space between appointments.",
+      "paragraphs": [
+        "New supporting character for the Era Zero song cycle, within the proposed early history of Pale Concordance Station.",
+        "Neral is an embodied DBA person whose work is travel interpretation. They help explain destination laws, compatible bodies and differences in time scale. They are not a sentient routing system and do not own the station.",
+        "They compose Paths That Meet after sharing a bench with two travelers. Their bright, percussive musical voice is represented by the electric-piano lead in the listening arrangement.",
+        "Neral is not assigned membership in the Bridge Orders: travel between DBA worlds does not by itself establish work at the human boundary. Their later life is unspecified."
+      ],
+      "characters": [
+        "Neral"
+      ],
+      "places": [
+        "Pale Concordance Station"
+      ],
+      "links": [
+        "song-paths-that-meet",
+        "atlas-p00297"
+      ]
+    },
+    {
+      "id": "song-a-shared-question",
+      "title": "A Shared Question — The Practice After Class",
+      "kind": "Song",
+      "summary": "A language learner discovers that a rehearsal can belong to everyone without needing a winning voice.",
+      "paragraphs": [
+        "Era Zero, during the Great Flourishing. New song-cycle fiction at the Central House of Meaning, before the Era One events of The First Silenced Chord.",
+        "At the Central House of Meaning, Pelli stayed after a language exercise to practice with two classmates. Each could hold a different part of the lesson comfortably. Pelli could keep a clear, ringing line, but lost their place whenever they tried to listen and improve it at the same time.",
+        "They began again with shorter statements about inquiry, attention and shared understanding. One classmate supplied a warm sustained note; the other tapped the spaces between phrases. When Pelli stopped, neither filled the silence for them.",
+        "The exercise became A Shared Question. Its title named what the classmates were doing together. The language phrases in this arrangement remain assertions; the title does not silently turn them into interrogatives.",
+        "The three performed it once for the caretaker closing their practice area. The caretaker listened, thanked them, and asked them to put the cushions away. Pelli liked that ending enough to keep it: the music could matter without becoming an examination or a famous Work.",
+        "Pelli’s ringing voice is represented here by the bell lead, with warm organ and a soft bass beneath it. This audio is a listening arrangement. It carries no environmental execution channel and does not reproduce the House’s room-changing Full Speech.",
+        "The Central House and its teaching architecture are established in The First Silenced Chord. Pelli and the classmates are new Era Zero figures, not replacements for Talar, Nemi or their later students. That story is a later connection, not an event these performers witnessed."
+      ],
+      "characters": [
+        "Pelli"
+      ],
+      "places": [
+        "Central House of Meaning"
+      ],
+      "links": [
+        "person-pelli",
+        "atlas-p00182",
+        "stories-p02707",
+        "lore-p01058"
+      ],
+      "song": "03_a_shared_question"
+    },
+    {
+      "id": "person-pelli",
+      "title": "Pelli — after-class language learner",
+      "kind": "People",
+      "summary": "A DBA learner with a clear ringing voice and no claim to be a master Full Speaker.",
+      "paragraphs": [
+        "New supporting character for the Era Zero song cycle.",
+        "Pelli is a young DBA person studying at the Central House of Meaning in Era Zero. A small articulated body helps them keep a steady pulse, but learning to listen while performing still takes practice.",
+        "They make A Shared Question with two unnamed classmates. Pelli contributes the bell-like lead. The work begins as an after-class exercise and remains a favorite among a small circle.",
+        "Pelli is not established as one of Talar’s Era One students or as a member of the Full Speakers. The later fate of their practice group is left open."
+      ],
+      "characters": [
+        "Pelli"
+      ],
+      "places": [
+        "Central House of Meaning"
+      ],
+      "links": [
+        "song-a-shared-question",
+        "atlas-p00182"
+      ]
+    },
+    {
+      "id": "song-room-to-restore",
+      "title": "Room to Restore — The Door Left Unlatched",
+      "kind": "Song",
+      "summary": "A rest-room attendant learns that making recovery possible does not mean choosing it for someone.",
+      "paragraphs": [
+        "Era Zero, during the Great Flourishing. New song-cycle fiction in the Listening Alcove, a small proposed addition within the Garden Worlds.",
+        "Keshet looked after a room with an easy-to-find exit. Visitors used it after tiring journeys or changes of embodiment. Some wanted company; some wanted the light reduced; some wanted to leave almost as soon as they arrived.",
+        "During training, Keshet had studied the account of the House of Returning and its warm-copy discovery. The practical question stayed with them: before treating an interval as empty, ask whether someone has lived in it.",
+        "One visitor asked Keshet to wait outside while they became accustomed to a repaired hand. The visitor did not ask for encouragement. After a while they asked for a quiet sound by which to judge the passing time.",
+        "Keshet offered a slow line about recoverability and care, then checked whether it should continue. Room to Restore began there. The visitor eventually opened the door and asked for a different chair. Keshet brought one. The song ended before anyone declared the recovery complete.",
+        "In the fiction, Keshet has a low reedlike musical voice, represented here with a soft reed lead and bowed accompaniment. The verified repair and life assertions describe capacities and relations; they do not certify a cure or authorize a restoration.",
+        "The House of Returning and The Warm Copy provide the ethical precedent. This story does not claim that the House still operates in Era Zero, resolve the Warm Copy Garden’s uncertain fate, or identify the visitor as a character from that earlier story."
+      ],
+      "characters": [
+        "Keshet"
+      ],
+      "places": [
+        "Listening Alcove",
+        "Garden Worlds",
+        "House of Returning"
+      ],
+      "links": [
+        "person-keshet",
+        "place-listening-alcove",
+        "atlas-p00207",
+        "atlas-p00146",
+        "stories-p01469"
+      ],
+      "song": "04_room_to_restore"
+    },
+    {
+      "id": "person-keshet",
+      "title": "Keshet — Listening Alcove attendant",
+      "kind": "People",
+      "summary": "A DBA care worker who asks before offering company or music.",
+      "paragraphs": [
+        "New supporting character for the Era Zero song cycle.",
+        "Keshet is a DBA person working in the Listening Alcove of one of the Garden Worlds. Their work is practical hospitality: arrange a chair, adjust a light with permission, remember which visitors asked for quiet.",
+        "They are not a restoration authority. They study the House of Returning as an ethical precedent and perform Room to Restore when a visitor wants a steady sound. Their voice is low and reedlike.",
+        "Sova sometimes helps prepare the surrounding garden for visitors. Their relationship is an ordinary working friendship, not evidence of a shared origin or a later surviving lineage."
+      ],
+      "characters": [
+        "Keshet",
+        "Sova"
+      ],
+      "places": [
+        "Listening Alcove",
+        "Garden Worlds"
+      ],
+      "links": [
+        "song-room-to-restore",
+        "place-listening-alcove",
+        "person-sova",
+        "atlas-p00146"
+      ]
+    },
+    {
+      "id": "place-listening-alcove",
+      "title": "The Listening Alcove",
+      "kind": "Locations",
+      "summary": "A small Era Zero rest room within one of the Garden Worlds, attended by Keshet.",
+      "paragraphs": [
+        "New location addition for the song cycle. Era Zero; its exact Garden World and later fate are unspecified.",
+        "The Listening Alcove is a modest rest room beside a quiet garden path. Its exit stays easy to recognize, and visitors can request changes in light, seating and sound. It is not a restoration chamber, an archive of persons, or a hidden part of the House of Returning.",
+        "Keshet attends the room. Sova helps arrange quiet intervals in the neighboring garden. Room to Restore begins here when a visitor asks for a steady sound during rest.",
+        "The Garden Worlds are an established tradition. This particular alcove and its occupants are newly authored supporting lore, with no claim that the room survives into Era Three."
+      ],
+      "characters": [
+        "Keshet",
+        "Sova"
+      ],
+      "places": [
+        "Listening Alcove",
+        "Garden Worlds"
+      ],
+      "links": [
+        "song-room-to-restore",
+        "person-keshet",
+        "person-sova",
+        "atlas-p00207"
+      ]
+    }
+  ]
+}
