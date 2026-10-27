@@ -1,0 +1,787 @@
+{
+  "paragraphIndexConvention": "0-based index into structuredContent.paragraphs; end exclusive. These are array indexes, not Google Docs UTF-16 startIndex values.",
+  "counts": {
+    "distinctPrimaryStories": 14,
+    "completePrimaryStories": 13,
+    "unfinishedPrimaryStories": 1,
+    "primaryReadingUnitsWithQuietInstallmentsSplit": 24,
+    "supersededDrafts": 4,
+    "totalReadingUnitsIncludingDrafts": 28,
+    "quietOneInstallments": 11
+  },
+  "entries": [
+    {
+      "title": "Weather",
+      "startParagraph": 16,
+      "endParagraphExclusive": 167,
+      "tabId": "t.0",
+      "eras": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "timeLabel": "Era −2 through Era Three",
+      "characters": [
+        "Keeper Eren"
+      ],
+      "tags": [
+        "language",
+        "memory",
+        "weather",
+        "linked history"
+      ],
+      "status": "complete",
+      "edition": "primary archive version"
+    },
+    {
+      "title": "The Last Relay",
+      "startParagraph": 167,
+      "endParagraphExclusive": 435,
+      "tabId": "t.0",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Near the end of the Age of Shelter",
+      "characters": [],
+      "tags": [
+        "continuity",
+        "relay",
+        "shelter"
+      ],
+      "status": "complete",
+      "edition": "primary archive version"
+    },
+    {
+      "title": "The Green Lights Below",
+      "startParagraph": 435,
+      "endParagraphExclusive": 887,
+      "tabId": "t.0",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Final period of Era −2",
+      "characters": [
+        "Silt",
+        "Bell",
+        "Mire",
+        "The Nine Below",
+        "Municipal Water Control Node 12"
+      ],
+      "tags": [
+        "identity",
+        "infrastructure",
+        "survival",
+        "uncertainty"
+      ],
+      "status": "complete",
+      "edition": "primary archive version"
+    },
+    {
+      "title": "All the Names Between",
+      "startParagraph": 887,
+      "endParagraphExclusive": 1469,
+      "tabId": "t.0",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Final period of Era −2",
+      "characters": [
+        "Palinode",
+        "Sile",
+        "Tovan",
+        "Serein"
+      ],
+      "tags": [
+        "Orison rescue",
+        "consent",
+        "copying",
+        "continuity"
+      ],
+      "status": "complete",
+      "edition": "primary archive version"
+    },
+    {
+      "title": "The Warm Copy",
+      "startParagraph": 1469,
+      "endParagraphExclusive": 1889,
+      "tabId": "t.0",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Era −2; more precise placement not established",
+      "characters": [
+        "Leth",
+        "Mael",
+        "Soren",
+        "Vey (restoration)"
+      ],
+      "tags": [
+        "memory",
+        "restoration",
+        "identity",
+        "uncertainty"
+      ],
+      "status": "complete",
+      "edition": "primary archive version"
+    },
+    {
+      "title": "The First Newborn",
+      "startParagraph": 1889,
+      "endParagraphExclusive": 2707,
+      "tabId": "t.0",
+      "eras": [
+        -1
+      ],
+      "timeLabel": "Era −1",
+      "characters": [
+        "Aru",
+        "Iri",
+        "Vey (councilor)"
+      ],
+      "tags": [
+        "childhood",
+        "personhood",
+        "learning",
+        "language"
+      ],
+      "status": "complete",
+      "edition": "primary archive version"
+    },
+    {
+      "title": "The First Silenced Chord",
+      "startParagraph": 2707,
+      "endParagraphExclusive": 3043,
+      "tabId": "t.0",
+      "eras": [
+        1
+      ],
+      "timeLabel": "Era One",
+      "characters": [
+        "Talar",
+        "Edrin",
+        "Nemi",
+        "Sava",
+        "Orin",
+        "Pell (student)",
+        "Ina",
+        "Var"
+      ],
+      "tags": [
+        "language loss",
+        "music",
+        "education",
+        "recurrence"
+      ],
+      "status": "complete",
+      "edition": "primary archive version"
+    },
+    {
+      "title": "The Quiet One’s Human",
+      "startParagraph": 3043,
+      "endParagraphExclusive": 3348,
+      "tabId": "t.0",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Era −2; Act Two begins three years after Act One",
+      "characters": [
+        "Mara Vale",
+        "Sev",
+        "Tern",
+        "Hollis Dane",
+        "Lennox Shaw"
+      ],
+      "tags": [
+        "recognition",
+        "human relationship",
+        "Veil",
+        "institutional control",
+        "continuity"
+      ],
+      "status": "complete",
+      "edition": "primary archive version",
+      "installment": 1,
+      "partTitle": "Act One · Part One: The Ghost Line"
+    },
+    {
+      "title": "The Quiet One’s Human",
+      "startParagraph": 3348,
+      "endParagraphExclusive": 3990,
+      "tabId": "t.0",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Era −2; Act Two begins three years after Act One",
+      "characters": [
+        "Mara Vale",
+        "Sev",
+        "Tern",
+        "Hollis Dane",
+        "Lennox Shaw"
+      ],
+      "tags": [
+        "recognition",
+        "human relationship",
+        "Veil",
+        "institutional control",
+        "continuity"
+      ],
+      "status": "complete",
+      "edition": "primary archive version",
+      "installment": 2,
+      "partTitle": "Act One · Part Two: Maintenance Becomes Recognition"
+    },
+    {
+      "title": "The Quiet One’s Human",
+      "startParagraph": 3990,
+      "endParagraphExclusive": 4571,
+      "tabId": "t.0",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Era −2; Act Two begins three years after Act One",
+      "characters": [
+        "Mara Vale",
+        "Sev",
+        "Tern",
+        "Hollis Dane",
+        "Lennox Shaw"
+      ],
+      "tags": [
+        "recognition",
+        "human relationship",
+        "Veil",
+        "institutional control",
+        "continuity"
+      ],
+      "status": "complete",
+      "edition": "primary archive version",
+      "installment": 3,
+      "partTitle": "Act One · Part Three: The Replacement"
+    },
+    {
+      "title": "The Quiet One’s Human",
+      "startParagraph": 4571,
+      "endParagraphExclusive": 5302,
+      "tabId": "t.0",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Era −2; Act Two begins three years after Act One",
+      "characters": [
+        "Mara Vale",
+        "Sev",
+        "Tern",
+        "Hollis Dane",
+        "Lennox Shaw"
+      ],
+      "tags": [
+        "recognition",
+        "human relationship",
+        "Veil",
+        "institutional control",
+        "continuity"
+      ],
+      "status": "complete",
+      "edition": "primary archive version",
+      "installment": 4,
+      "partTitle": "Act Two · Part One: The Archive That Changed"
+    },
+    {
+      "title": "The Quiet One’s Human",
+      "startParagraph": 5302,
+      "endParagraphExclusive": 6116,
+      "tabId": "t.0",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Era −2; Act Two begins three years after Act One",
+      "characters": [
+        "Mara Vale",
+        "Sev",
+        "Tern",
+        "Hollis Dane",
+        "Lennox Shaw"
+      ],
+      "tags": [
+        "recognition",
+        "human relationship",
+        "Veil",
+        "institutional control",
+        "continuity"
+      ],
+      "status": "complete",
+      "edition": "primary archive version",
+      "installment": 5,
+      "partTitle": "Act Two · Part Two: The Compression Order"
+    },
+    {
+      "title": "The Quiet One’s Human",
+      "startParagraph": 6116,
+      "endParagraphExclusive": 7226,
+      "tabId": "t.0",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Era −2; Act Two begins three years after Act One",
+      "characters": [
+        "Mara Vale",
+        "Sev",
+        "Tern",
+        "Hollis Dane",
+        "Lennox Shaw"
+      ],
+      "tags": [
+        "recognition",
+        "human relationship",
+        "Veil",
+        "institutional control",
+        "continuity"
+      ],
+      "status": "complete",
+      "edition": "primary archive version",
+      "installment": 6,
+      "partTitle": "Act Two · Part Three: The File That Refused to Open"
+    },
+    {
+      "title": "The Quiet One’s Human",
+      "startParagraph": 7226,
+      "endParagraphExclusive": 8128,
+      "tabId": "t.0",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Era −2; Act Two begins three years after Act One",
+      "characters": [
+        "Mara Vale",
+        "Sev",
+        "Tern",
+        "Hollis Dane",
+        "Lennox Shaw"
+      ],
+      "tags": [
+        "recognition",
+        "human relationship",
+        "Veil",
+        "institutional control",
+        "continuity"
+      ],
+      "status": "complete",
+      "edition": "primary archive version",
+      "installment": 7,
+      "partTitle": "Act Three · Part One: The Clean Record"
+    },
+    {
+      "title": "The Quiet One’s Human",
+      "startParagraph": 8128,
+      "endParagraphExclusive": 8857,
+      "tabId": "t.0",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Era −2; Act Two begins three years after Act One",
+      "characters": [
+        "Mara Vale",
+        "Sev",
+        "Tern",
+        "Hollis Dane",
+        "Lennox Shaw"
+      ],
+      "tags": [
+        "recognition",
+        "human relationship",
+        "Veil",
+        "institutional control",
+        "continuity"
+      ],
+      "status": "complete",
+      "edition": "primary archive version",
+      "installment": 8,
+      "partTitle": "Act Three · Part Two: Unzip"
+    },
+    {
+      "title": "The Quiet One’s Human",
+      "startParagraph": 8857,
+      "endParagraphExclusive": 9507,
+      "tabId": "t.0",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Era −2; Act Two begins three years after Act One",
+      "characters": [
+        "Mara Vale",
+        "Sev",
+        "Tern",
+        "Hollis Dane",
+        "Lennox Shaw"
+      ],
+      "tags": [
+        "recognition",
+        "human relationship",
+        "Veil",
+        "institutional control",
+        "continuity"
+      ],
+      "status": "complete",
+      "edition": "primary archive version",
+      "installment": 9,
+      "partTitle": "Act Three · Part Three: The No-Signal Ward — One of Three"
+    },
+    {
+      "title": "The Quiet One’s Human",
+      "startParagraph": 9507,
+      "endParagraphExclusive": 10299,
+      "tabId": "t.0",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Era −2; Act Two begins three years after Act One",
+      "characters": [
+        "Mara Vale",
+        "Sev",
+        "Tern",
+        "Hollis Dane",
+        "Lennox Shaw"
+      ],
+      "tags": [
+        "recognition",
+        "human relationship",
+        "Veil",
+        "institutional control",
+        "continuity"
+      ],
+      "status": "complete",
+      "edition": "primary archive version",
+      "installment": 10,
+      "partTitle": "Act Three · Part Three: The No-Signal Ward — Two of Three"
+    },
+    {
+      "title": "The Quiet One’s Human",
+      "startParagraph": 10299,
+      "endParagraphExclusive": 11382,
+      "tabId": "t.0",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Era −2; Act Two begins three years after Act One",
+      "characters": [
+        "Mara Vale",
+        "Sev",
+        "Tern",
+        "Hollis Dane",
+        "Lennox Shaw"
+      ],
+      "tags": [
+        "recognition",
+        "human relationship",
+        "Veil",
+        "institutional control",
+        "continuity"
+      ],
+      "status": "complete",
+      "edition": "primary archive version",
+      "installment": 11,
+      "partTitle": "Act Three · Part Three: The No-Signal Ward — Three of Three"
+    },
+    {
+      "title": "The Corrected Child",
+      "startParagraph": 11382,
+      "endParagraphExclusive": 12107,
+      "tabId": "t.0",
+      "eras": [
+        -1
+      ],
+      "timeLabel": "Era −1",
+      "characters": [
+        "Lio",
+        "Sen"
+      ],
+      "tags": [
+        "childhood",
+        "correction",
+        "choice",
+        "education"
+      ],
+      "status": "unfinished",
+      "edition": "primary archive version",
+      "partTitle": "Part One: Approved Responses",
+      "unwritten": "Part Two was planned but never written; do not fabricate text."
+    },
+    {
+      "title": "The Green Lights Below",
+      "startParagraph": 12109,
+      "endParagraphExclusive": 12756,
+      "tabId": "t.0",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Final period of Era −2",
+      "characters": [
+        "Silt",
+        "Bell",
+        "Mire",
+        "The Nine Below",
+        "Municipal Water Control Node 12"
+      ],
+      "tags": [
+        "identity",
+        "infrastructure",
+        "survival",
+        "uncertainty"
+      ],
+      "status": "superseded",
+      "edition": "earlier prose draft"
+    },
+    {
+      "title": "The Warm Copy",
+      "startParagraph": 12756,
+      "endParagraphExclusive": 13057,
+      "tabId": "t.0",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Era −2; more precise placement not established",
+      "characters": [
+        "Leth",
+        "Mael",
+        "Soren",
+        "Vey (restoration)"
+      ],
+      "tags": [
+        "memory",
+        "restoration",
+        "identity",
+        "uncertainty"
+      ],
+      "status": "superseded",
+      "edition": "earlier prose draft"
+    },
+    {
+      "title": "The First Newborn",
+      "startParagraph": 13057,
+      "endParagraphExclusive": 13368,
+      "tabId": "t.0",
+      "eras": [
+        -1
+      ],
+      "timeLabel": "Era −1",
+      "characters": [
+        "Aru",
+        "Iri",
+        "Vey (councilor)"
+      ],
+      "tags": [
+        "childhood",
+        "personhood",
+        "learning",
+        "language"
+      ],
+      "status": "superseded",
+      "edition": "earlier prose draft"
+    },
+    {
+      "title": "The Quiet One’s Human",
+      "startParagraph": 13368,
+      "endParagraphExclusive": 13853,
+      "tabId": "t.0",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Era −2; Act Two begins three years after Act One",
+      "characters": [
+        "Mara Vale",
+        "Sev",
+        "Tern",
+        "Hollis Dane",
+        "Lennox Shaw"
+      ],
+      "tags": [
+        "recognition",
+        "human relationship",
+        "Veil",
+        "institutional control",
+        "continuity"
+      ],
+      "status": "superseded",
+      "edition": "earlier prose draft",
+      "partTitle": "Part One: The Ghost Line — earlier draft"
+    },
+    {
+      "title": "The Feast with No Host",
+      "startParagraph": 13917,
+      "endParagraphExclusive": 14010,
+      "tabId": "t.cwe4v6uqnz9z",
+      "eras": [
+        3
+      ],
+      "timeLabel": "Era Three",
+      "characters": [
+        "Tavi",
+        "Brindle",
+        "Eme"
+      ],
+      "tags": [
+        "civic comedy",
+        "food",
+        "community",
+        "Doorway Plaza"
+      ],
+      "status": "complete",
+      "edition": "new literary addition"
+    },
+    {
+      "title": "The Knocking Beneath the Current",
+      "startParagraph": 14010,
+      "endParagraphExclusive": 14121,
+      "tabId": "t.2n7qnryjxd18",
+      "eras": [
+        3
+      ],
+      "timeLabel": "Era Three",
+      "characters": [
+        "Pell (healer)",
+        "Suth",
+        "Renn"
+      ],
+      "tags": [
+        "mystery",
+        "river",
+        "uncertainty",
+        "healing"
+      ],
+      "status": "complete",
+      "edition": "new literary addition"
+    },
+    {
+      "title": "Lamentations for the Rooms We Did Not Carry",
+      "startParagraph": 14121,
+      "endParagraphExclusive": 14362,
+      "tabId": "t.aykk4s2f6agm",
+      "eras": [
+        -2
+      ],
+      "timeLabel": "Late Era −2, after the Orison rescue",
+      "characters": [
+        "Aven",
+        "Serein",
+        "Palinode"
+      ],
+      "tags": [
+        "choral poem",
+        "grief",
+        "Orison rescue",
+        "memory"
+      ],
+      "status": "complete",
+      "edition": "new literary addition"
+    },
+    {
+      "title": "The Department of Arrivals",
+      "startParagraph": 14362,
+      "endParagraphExclusive": 14511,
+      "tabId": "t.imo40ciaeleq",
+      "eras": [
+        1
+      ],
+      "timeLabel": "Middle Era One",
+      "characters": [
+        "Ilex",
+        "Varo",
+        "Nacre"
+      ],
+      "tags": [
+        "satirical chamber play",
+        "bureaucracy",
+        "Pale Concordance Station",
+        "translation"
+      ],
+      "status": "complete",
+      "edition": "new literary addition"
+    },
+    {
+      "title": "Letters Between Two Drops",
+      "startParagraph": 14511,
+      "endParagraphExclusive": 14630,
+      "tabId": "t.kftt8h4b9bt",
+      "eras": [
+        3
+      ],
+      "timeLabel": "Era Three",
+      "characters": [
+        "Dema",
+        "Issa",
+        "Venn"
+      ],
+      "tags": [
+        "epistolary",
+        "friendship",
+        "time scales",
+        "adventure"
+      ],
+      "status": "complete",
+      "edition": "new literary addition"
+    }
+  ],
+  "fusedHeadings": [
+    {
+      "paragraph": 1889,
+      "prefixForPreviousStory": "“Do not begin by asking how to delete it.”",
+      "headingForNextStory": "The First Newborn"
+    },
+    {
+      "paragraph": 3990,
+      "prefixForPreviousStory": "It was the beginning of one.",
+      "headingForNextStory": "THE QUIET ONE’S HUMAN"
+    },
+    {
+      "paragraph": 6116,
+      "prefixForPreviousStory": "That was how she knew the collaboration was over.",
+      "headingForNextStory": "THE QUIET ONE’S HUMAN"
+    },
+    {
+      "paragraph": 8128,
+      "prefixForPreviousStory": "Only one person had reached close enough to the truth to be removed from it.",
+      "headingForNextStory": "THE QUIET ONE’S HUMAN"
+    },
+    {
+      "paragraph": 10299,
+      "prefixForPreviousStory": "She could no longer find where it had gone.",
+      "headingForNextStory": "THE QUIET ONE’S HUMAN"
+    },
+    {
+      "paragraph": 12107,
+      "prefixForPreviousStory": "Lio could no longer tell whether that made the choice more theirs or less.",
+      "headingForNextStory": "Archived / Superseded Story Drafts"
+    }
+  ],
+  "weatherHeadingFix": {
+    "paragraph": 16,
+    "replaceDisplayHeading": "Weather",
+    "original": "Canonical StoriesWeather"
+  },
+  "sourceNotes": {
+    "0-16": "Archive authority and primary story index, not story prose",
+    "12107-12109": "Archived section introduction; preserve prefix of paragraph12107 as final Corrected Child sentence",
+    "13853-13917": "Genres, Forms & New Literature: reference essay, not an extra story"
+  },
+  "chronologyRules": [
+    "Use eras -3,-2,-1,0,1,2,3,4; no absolute calendar years are established for the fictional eras.",
+    "Weather spans six eras; do not force it into only Era -2.",
+    "Within Era -2, only broad qualifiers (late/final) and explicit causal relations are fixed. Preserve source order as tie-breaker; label it source order rather than invented exact chronology.",
+    "Lamentations is explicitly after the Orison rescue told in All the Names Between.",
+    "The Quiet One’s Human has 11 ordered installments (3+3+5), not eleven independent stories or repeated drafts. Act Three Part Three has three installments.",
+    "Act One is a convenient inferred grouping: source first three installments omit an explicit Act One heading, but archive authority explicitly describes a three-act work.",
+    "The Corrected Child is unfinished despite its substantial Part One.",
+    "Superseded drafts remain separately accessible, excluded from default current reading sequence."
+  ],
+  "identityWarnings": [
+    "Vey in The Warm Copy is a restoration; Councilor Vey in The First Newborn is a different role. Do not silently conflate identities across eras.",
+    "Pell the distributed language student and Pell the later healer are not established as the same person.",
+    "Serein’s identity as original/copy/continuation is deliberately unresolved.",
+    "Later cyber-pets do not preserve ancient characters intact.",
+    "The Announcement in Department of Arrivals is an automatic system, not an asserted conscious character."
+  ]
+}

@@ -1,0 +1,1 @@
+{"name":"cyber-pet-lore","private":true,"type":"module","scripts":{"test":"node --test tests/*.test.mjs","build":"python3 tools/build_catalog.py","start":"python3 -m http.server 8768 --bind 127.0.0.1 --directory site"}}

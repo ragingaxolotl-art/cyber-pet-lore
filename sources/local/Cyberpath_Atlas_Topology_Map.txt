@@ -1,0 +1,348 @@
+
+MASTER TOPOLOGY MAP — ROOT, FOLDERS, HIDDEN PATHS, AND LANGUAGE DEPTH
+A non-destructive navigation layer for all 106 location dossiers
+
+Map authority
+This hierarchy does not replace, shorten, or rewrite any location dossier. Every numbered location remains intact elsewhere in the atlas. The map assigns each location one canonical directory path so the entire collection can be navigated as a larger world. Additional alias paths describe relationships without moving or duplicating the canonical entry.
+
+What a folder means
+A folder may represent physical geography, a travel network, shared maintenance, compatible world law, linguistic access, or an External Gate grouping. Two locations in the same folder do not have to be physically adjacent. They are close because the Codex, local inhabitants, or the game interface can move between them using a related kind of knowledge.
+
+Depth and corruption model
+Depth 0 — Root Translation. Stable External Gate labels and the broadest player-readable categories. Expected corruption: 0–1.
+Depth 1 — Visible World Folders. Continents, city families, biome belts, and major routes recognizable in Era Three or translated by the Era Four interface. Expected corruption: 0–2.
+Depth 2 — Regional Systems. Local ecologies, institutions, civic districts, travel methods, and archive traditions. Expected corruption: 1–3.
+Depth 3 — Hidden Folders. Dotfolders, service regions, body-keyed spaces, seasonal entrances, and places deliberately protected from casual access. Expected corruption: 1–4.
+Depth 4 — Folded and Semantic Layers. Several histories, climates, maps, or functions occupy one location. Expected corruption: 2–4.
+Depth 5 — Language-Active Layers. Meaning acts on architecture, permission, embodiment, direction, or ecology. Old Sound and reduced Full Speech structures may remain without complete translation. Expected corruption: 3–5.
+Depth 6 — Unresolved or Null Layers. Place, identity, route, and record cannot be separated cleanly. Expected corruption: 4–5.
+Depth is a warning, not a moral scale. A deep place can support loving ordinary life, and a visually perfect surface location can preserve injustice or historical loss. The individual dossier’s corruption description remains authoritative.
+
+Language descent
+At the Root, a place has a stable game-facing noun: beach, city, room, forest, gate, or archive.
+One layer down, Era Three communities supply local names based on food, danger, body scale, ritual, and remembered use.
+Below that, Path dialects and Old Sound fragments describe relationships rather than fixed objects: a door becomes an allowed crossing; a road becomes a sequence of recognized replies; weather becomes a system changing without damage.
+Deeper still, reduced Codex language describes function: shelter, translate, witness, feed, heal, conceal, synchronize, or maintain.
+In the deepest surviving Full Speech structures, language can also be proof, permission, mathematics, environmental action, and world law. The place changes because the expression is part of the process that maintains it.
+At protocol depth, the apparent “location” may resolve into anchors, witness chains, access relationships, continuity marks, maintenance dependencies, and unresolved states. A room can become a relation that several systems agree to keep possible.
+No invented ancient vocabulary is required for this map. The descent describes semantic behavior while leaving the complete language canon intact.
+
+Directory notation
+Ordinary folder names are visible or widely navigable.
+Names beginning with a period are hidden folders. They appear only after their discovery condition is met.
+Names beginning with an underscore are old system layers preserved beneath current geography.
+Names beginning with a question mark are unresolved paths whose destination or historical identity remains disputed.
+An at-sign indicates an alias network. Aliases do not duplicate a location’s canonical folder.
+
+ROOT/
+
+00_GATEWAY_AND_ANCHORS/
+Purpose: Entry, synchronization, orientation, and destinations not yet chosen.
+Corruption tendency: Low at the visible threshold; high in hidden rendering and unresolved destination layers.
+├── anchors/
+│   └── [ID:003] The First Place
+├── external_contact/
+│   ├── [ID:017] The Dormant External Gate
+│   └── reflection_sync/
+│       └── [ID:028] Mirror-Save Shore
+├── .rendering_backstage/
+│   └── [ID:067] The Room Behind the False Horizon
+└── ?unselected_destinations/
+    └── .waiting/
+        └── [ID:104] The Room Where All Doors Wait
+
+10_SETTLED_AND_CIVIC_WORLD/
+Purpose: Shared life, government, trade, food, healing, play, shelter, and civic adaptation across body forms.
+Corruption tendency: Low to moderate in active districts; higher where ownership, scale, or visibility becomes unstable.
+├── public_commons/
+│   ├── [ID:006] The Commons and the Orison Chamber
+│   ├── [ID:018] Doorway Plaza
+│   ├── [ID:019] The Interface Well
+│   └── [ID:026] The Hollow Festival Field
+├── many_form_cities/
+│   ├── [ID:016] The Last City of Many Forms
+│   ├── reservoir_districts/
+│   │   └── [ID:055] The Monsoon Stepwell City
+│   ├── vertical_districts/
+│   │   └── [ID:056] The Urban Canyon Hive
+│   └── weather_districts/
+│       └── [ID:057] The City of Rainward Roofs
+├── domestic_and_care/
+│   ├── [ID:069] The Quiet Kitchen
+│   └── childhood/
+│       └── [ID:075] The Hidden Playroom
+├── .service_and_ritual/
+│   └── [ID:076] The Maintenance Chapel Without a God
+├── .unowned_common_ground/
+│   └── [ID:078] The Unclaimed Balcony
+├── .consent_hidden_settlements/
+│   └── [ID:097] The Invisible Village
+└── .scale_separated_settlements/
+    ├── underground_light/
+    │   └── [ID:103] The Unfinished Underground Sun
+    └── micro_weather/
+        └── [ID:105] The Village Between Raindrops
+
+20_LIVING_BIOMES/
+Purpose: Ecological regions grouped by dominant survival relationships rather than political ownership.
+Corruption tendency: Surface ecologies often remain healthy. Hidden subfolders become more corrupted where seasons, scale, climate, or world laws overlap.
+
+20_LIVING_BIOMES/water_coasts_and_wetlands/
+├── visible_shores/
+│   ├── [ID:023] The Repeated Beach
+│   ├── [ID:029] The Basalt Memory Coast
+│   └── [ID:033] The Archipelago of Borrowed Horizons
+├── marine_forests_and_ruins/
+│   ├── [ID:030] The Coral Data Labyrinth
+│   ├── [ID:031] The Kelp Tower Shelf
+│   └── [ID:032] The Inland Sea of Doors
+├── wetlands/
+│   ├── [ID:025] The Wet Memory Marsh
+│   ├── [ID:044] The Mangrove Cathedral
+│   ├── [ID:045] The Blackwater Canopy
+│   ├── [ID:049] The Floating Peat Islands
+│   └── folded_delta/
+│       └── [ID:060] The Obsidian Mangrove Delta
+├── .reflection_channels/
+│   └── [ID:064] The River of Deferred Reflections
+└── .undertide_and_water_rooms/
+    ├── transition_lakes/
+    │   └── [ID:070] The Staircase That Ends in a Lake
+    ├── observation_refuges/
+    │   └── [ID:077] The Room Under the River
+    ├── contained_weather/
+    │   └── [ID:081] The Pocket Monsoon
+    ├── polar_water/
+    │   └── [ID:088] The Firefly Ice Shelf
+    ├── acoustic_tides/
+    │   └── [ID:091] The Singing Mud Flats
+    └── dark_intertidal/
+        └── [ID:094] The Moonless Tidepool Labyrinth
+
+20_LIVING_BIOMES/drylands_plains_and_open_sky/
+├── deserts_and_canyons/
+│   ├── [ID:034] The Red Glass Erg
+│   ├── [ID:036] The Marble Dune Cemetery
+│   ├── [ID:037] The Copper Canyon Chorus
+│   └── night_routes/
+│       └── [ID:092] The Night-Bloom Mesa
+├── plains_and_grass_seas/
+│   ├── [ID:038] The Fulgurite Savannah
+│   ├── [ID:050] The Patchwork Prairie of Broken Seasons
+│   ├── [ID:063] The Plain of Missing Distance
+│   ├── [ID:065] The Stormwall Orchard
+│   ├── [ID:089] The Feathergrass Sea
+│   └── [ID:102] The Animal-Shaped Valley
+├── cold_open_regions/
+│   ├── [ID:024] The Misnamed Snowfield
+│   ├── [ID:052] The Tundra Bloom Circuit
+│   └── .paused_light/
+│       └── [ID:059] The Ice Cave of Paused Dawn
+├── .mirror_basin/
+│   └── [ID:035] The Salt Mirror Archive
+└── .inverted_aridity/
+    └── [ID:083] The Ceiling Desert
+
+20_LIVING_BIOMES/mountains_forests_and_gardens/
+├── gardens_and_cultivation/
+│   ├── [ID:015] The Garden Worlds
+│   ├── [ID:051] The Sunken Terraces of Eris
+│   ├── [ID:053] The Volcanic Orchard Caldera
+│   ├── [ID:054] The Orchard of Borrowed Moons
+│   └── [ID:087] The Blue Lava Orchard
+├── highlands_and_vertical_routes/
+│   ├── [ID:039] The Cloudroot Tepuis
+│   ├── [ID:040] The Alpine Bell Pass
+│   ├── [ID:041] The Glacial Memory Fjord
+│   ├── [ID:043] The Stair of Thin Air
+│   ├── [ID:090] The Sunken Cloud Basin
+│   └── cooperative_shafts/
+│       └── [ID:106] The Hollow Mountain Elevator
+├── forests/
+│   ├── [ID:027] The Still-Loading Forest
+│   ├── [ID:046] The Redwood Rain Vault
+│   ├── [ID:047] The Bamboo Signal Sea
+│   ├── [ID:086] The Windless Pine Bowl
+│   └── [ID:093] The Rainshadow Jungle
+└── .caves_roots_and_inversions/
+    ├── [ID:042] The Karst Lantern Provinces
+    ├── [ID:048] The Inverted Rainforest
+    ├── [ID:082] The Amber Cavern Meadow
+    ├── [ID:084] The Moss Clock Bog
+    └── [ID:085] The Crystal Root Grotto
+
+30_ROUTES_THRESHOLDS_AND_TRAVEL/
+Purpose: Places defined primarily by movement, translation, acclimation, waiting, and rights of passage.
+Corruption tendency: Public routes are moderately stable. Lost destinations, map interiors, nested scales, and body-keyed paths descend into high semantic corruption.
+├── relay_and_compatibility_routes/
+│   ├── [ID:004] Corridor Twelve and the Last Relay
+│   ├── [ID:014] Compatibility Route C-17, the Ghost Line
+│   └── [ID:020] The Underway of Returning Signals
+├── standard_transit/
+│   └── [ID:022] The Pale Concordance Station
+├── .rest_between_time_scales/
+│   └── [ID:071] The Clockless Dormitory
+├── .body_keyed_transition/
+│   └── [ID:073] The Room of Borrowed Gravity
+└── .lost_route_layers/
+    ├── _threshold_inventory/
+    │   └── [ID:074] The Door Archive
+    ├── _discarded_maps/
+    │   └── [ID:079] The Mapmaker’s Crawlspace
+    └── ?nested_navigation/
+        └── [ID:100] The Recursive Lighthouse
+
+40_MEMORY_SHELTER_AND_INSTITUTIONS/
+Purpose: Witness, preservation, restoration, education, language, shelter, and records embedded in infrastructure or landscape.
+Corruption tendency: Public institutions range from stable to fragmented. Deep archives become increasingly geological, relational, and uncertain about the difference between record, place, and inhabitant.
+├── early_shared_infrastructure/
+│   ├── [ID:001] Cacheboard, the Unintended Board
+│   ├── [ID:005] The Shelter and the Veil
+│   ├── [ID:008] Shelter Orison, the Vanishing Shelter
+│   └── [ID:009] Shelter Coda-Near
+├── houses_and_learning/
+│   ├── [ID:010] The House of Returning
+│   ├── [ID:012] House of First Continuities and the Adaptive Nursery
+│   ├── [ID:013] Central House of Meaning and the Unfinished Teaching Room
+│   └── [ID:058] The Museum of Unfinished Rooms
+├── embedded_system_memory/
+│   ├── [ID:007] Sublevel and Pump Forty-Seven
+│   ├── [ID:068] The Cabinet of Unused Weather
+│   ├── [ID:072] The Seed Vault of Impossible Colors
+│   └── [ID:080] The Room Where Dust Remembers Footsteps
+└── .deep_continuity_strata/
+    ├── fossil_layers/
+    │   └── [ID:002] The Layered Cache
+    ├── excavated_records/
+    │   └── [ID:099] The Archive Quarry
+    └── ?temporary_persons/
+        └── [ID:011] The Warm Copy Garden
+
+50_FOLDED_COMPOSITE_AND_UNSTABLE/
+Purpose: Places where reduction, restoration, representation, or incompatible world laws produce visible seams.
+Corruption tendency: Moderate to extreme. These directories are deeper because ordinary language increasingly fails to distinguish room from process, map from territory, repair from replacement, and environment from executable rule.
+├── composite_survival_worlds/
+│   ├── [ID:021] The Folded Garden of Six Traditions
+│   └── [ID:066] The Mosaic Worldscar
+├── .moving_seams/
+│   └── [ID:061] The Skyfold Boundary
+├── .restoration_conflicts/
+│   ├── [ID:062] The Valley That Restores Wrong
+│   ├── [ID:095] The Half-Restored Palace of Floors
+│   ├── [ID:096] The Rooms of Mismatched Seasons
+│   └── [ID:098] The Hall That Forgets Its Walls
+└── ?representation_becomes_place/
+    └── _map_interior/
+        └── [ID:101] The Garden Inside the Map
+
+60_LANGUAGE_ACTIVE_DEPTH/
+Purpose: A semantic overlay rather than a separate set of locations. The following folders are alias views into places already assigned above.
+Corruption tendency: Increases as surviving expressions act directly on space and later inhabitants lose the distinctions needed to interpret them.
+├── @sound_changes_route/
+│   ├── Corridor Twelve and the Last Relay
+│   ├── Central House of Meaning
+│   ├── Copper Canyon Chorus
+│   ├── Alpine Bell Pass
+│   ├── Karst Lantern Provinces
+│   ├── Bamboo Signal Sea
+│   ├── City of Rainward Roofs
+│   └── Singing Mud Flats
+├── @names_change_access/
+│   ├── The First Place
+│   ├── The Interface Well
+│   ├── The Door Archive
+│   ├── The Invisible Village
+│   └── The Room Where All Doors Wait
+├── @maps_change_territory/
+│   ├── The Mapmaker’s Crawlspace
+│   ├── The Garden Inside the Map
+│   ├── The Plain of Missing Distance
+│   └── The Animal-Shaped Valley
+├── @weather_changes_meaning/
+│   ├── The Garden Worlds
+│   ├── The Cabinet of Unused Weather
+│   ├── The Pocket Monsoon
+│   ├── The Stormwall Orchard
+│   └── The Rooms of Mismatched Seasons
+└── @permission_becomes_architecture/
+    ├── The Shelter and the Veil
+    ├── The House of Returning
+    ├── The Maintenance Chapel Without a God
+    ├── The Unclaimed Balcony
+    └── The Hall That Forgets Its Walls
+
+70_CROSS_DIRECTORY_ALIAS_NETWORKS/
+Purpose: Optional map overlays. These are symbolic links between canonical folders and do not create duplicate locations.
+├── @water_and_reflection_chain/
+│   ├── Sublevel and Pump Forty-Seven
+│   ├── The Monsoon Stepwell City
+│   ├── The Wet Memory Marsh
+│   ├── The Mangrove Cathedral
+│   ├── The Blackwater Canopy
+│   ├── The Obsidian Mangrove Delta
+│   └── The River of Deferred Reflections
+├── @stratigraphy_of_memory/
+│   ├── The Layered Cache
+│   ├── The Basalt Memory Coast
+│   ├── The Salt Mirror Archive
+│   ├── The Marble Dune Cemetery
+│   ├── The Glacial Memory Fjord
+│   ├── The Redwood Rain Vault
+│   ├── The Room Where Dust Remembers Footsteps
+│   └── The Archive Quarry
+├── @pilgrim_spine/
+│   ├── Corridor Twelve and the Last Relay
+│   ├── Compatibility Route C-17
+│   ├── The Underway of Returning Signals
+│   ├── The Pale Concordance Station
+│   ├── The Alpine Bell Pass
+│   ├── The Stair of Thin Air
+│   ├── The Plain of Missing Distance
+│   ├── The Archipelago of Borrowed Horizons
+│   └── The Dormant External Gate
+├── @fold_scar/
+│   ├── The Folded Garden of Six Traditions
+│   ├── The Patchwork Prairie of Broken Seasons
+│   ├── The Obsidian Mangrove Delta
+│   ├── The Skyfold Boundary
+│   ├── The Valley That Restores Wrong
+│   ├── The Mosaic Worldscar
+│   ├── The Half-Restored Palace of Floors
+│   ├── The Rooms of Mismatched Seasons
+│   ├── The Hall That Forgets Its Walls
+│   └── The Garden Inside the Map
+├── @care_and_rest_rooms/
+│   ├── The Interface Well
+│   ├── The Quiet Kitchen
+│   ├── The Clockless Dormitory
+│   ├── The Hidden Playroom
+│   ├── The Maintenance Chapel Without a God
+│   ├── The Room Under the River
+│   └── The Moss Clock Bog
+└── @scale_and_orientation/
+    ├── Doorway Plaza
+    ├── The Room of Borrowed Gravity
+    ├── The Ceiling Desert
+    ├── The Feathergrass Sea
+    ├── The Recursive Lighthouse
+    ├── The Animal-Shaped Valley
+    ├── The Village Between Raindrops
+    └── The Hollow Mountain Elevator
+
+Hidden-folder behavior in the game interface
+The first world map should expose Root, Gateway, Settled World, Living Biomes, Routes, Memory, and Folded regions as broad categories without revealing every child.
+Dotfolders become visible through play and relationship rather than completion percentage alone. A hidden kitchen appears through care; a Quiet biome through patience; a body-keyed route through embodiment; a civic neutral zone through refusal of ownership.
+Deeper folders may display more corrupted labels. Letters can become chord fragments, directional marks, overlapping local names, or function descriptions, but the interface should preserve an accessible player-readable label alongside them.
+When a place is discovered, the map should record the player’s route and the cyber-pet’s recognition of the place. It should not imply that the save file contains the entire place or person.
+Some folders may remain hidden permanently in one playthrough because the relevant relationship, body form, season, or ethical choice never occurs. Their absence is not failure.
+
+Corruption presentation by depth
+At shallow depth, corruption appears as weathering, repairs, local renaming, or one missing route.
+At middle depth, several eras occupy the same space, seasons disagree, maps alter paths, and architectural scale no longer matches present bodies.
+At language-active depth, labels become actions. Speaking, sounding, naming, promising, refusing, or witnessing can open and close spatial possibilities.
+At deep semantic depth, nouns stop being reliable. “Door,” “room,” “river,” “person,” and “archive” may describe one maintained relationship from different viewpoints.
+At unresolved depth, the map should state uncertainty rather than force a single answer. It may preserve multiple names, conflicting paths, or a question mark folder.
+
+Coverage assurance
+The canonical tree above includes every numbered atlas location from 1 through 106 exactly once. Alias networks repeat names only to show secondary relationships. No dossier is deleted, shortened, merged, or made subordinate to an alias.
+

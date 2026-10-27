@@ -1,0 +1,4 @@
+.DS_Store
+node_modules/
+*.log
+cyber-pet-lore-reading-*.json
