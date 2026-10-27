@@ -6,18 +6,27 @@ let state=emptyState(),catalog,entries=[],byId=new Map(),kind='Story',page=0,fil
 const contentCache=new Map();
 function node(tag,text,className){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(className)n.className=className;return n;}
 function alertSave(text){$('save-alert').textContent=text;$('save-alert').hidden=false;$('reader-save').textContent='Not saved — download a backup';}
-try{const raw=localStorage.getItem(STORAGE_KEY);if(raw)state=validateState(JSON.parse(raw));}catch{alertSave('Your saved reading data could not be opened. It has not been overwritten. Use Saved reading to export your current work.');}
+try{const raw=localStorage.getItem(STORAGE_KEY);if(raw)state=validateState(JSON.parse(raw));}catch{alertSave('Your saved reading data could not be opened. It has not been overwritten. Use Backups to export your current work.');}
 let storageCorrupt=false;try{const raw=localStorage.getItem(STORAGE_KEY);if(raw)validateState(JSON.parse(raw));}catch{storageCorrupt=true;}
 function record(id){return state.readings[id]??{read:false,readAt:null,note:'',tags:[],highlights:[],updatedAt:0,position:null};}
 function save(){
+ let saved=false;
  try{
   if(storageCorrupt)throw Error('Existing data needs recovery');
   const raw=localStorage.getItem(STORAGE_KEY);
   if(raw){const previous=validateState(JSON.parse(raw));state=mergeStates(state,previous);try{localStorage.setItem(STORAGE_KEY+'.previous',raw);}catch{}}
-  localStorage.setItem(STORAGE_KEY,JSON.stringify(state));$('reader-save').textContent='Saved in this browser';$('save-alert').hidden=true;lastWrite=Date.now();
+  localStorage.setItem(STORAGE_KEY,JSON.stringify(state));$('reader-save').textContent='Saved in this browser';$('save-alert').hidden=true;lastWrite=Date.now();saved=true;
  }catch{alertSave('Browser storage is unavailable or full. Your latest changes are in this open page only. Download a reading backup before leaving.');}
- updateProgress();
+ updateProgress();return saved;
 }
+let confirmationTimer;
+$('save-reading').onclick=()=>{
+ clearTimeout(confirmationTimer);
+ const saved=save();
+ $('save-confirmation').textContent=saved?'✓ Saved — your reading progress, highlights, and notes are saved in this browser.':'Could not save. See the storage warning above.';
+ $('save-confirmation').hidden=false;
+ confirmationTimer=setTimeout(()=>{$('save-confirmation').hidden=true;},6000);
+};
 function updateRecord(id,changes){state.readings[id]={...record(id),...changes,updatedAt:Math.max(Date.now(),record(id).updatedAt+1)};save();}
 function setRead(id,checked){updateRecord(id,{read:checked,readAt:checked?Date.now():null});if(current?.id===id){$('reader-read').checked=checked;$('finish-read').textContent=checked?'✓ Read':'✓ Mark as read';}renderLibrary();}
 function updateProgress(){
