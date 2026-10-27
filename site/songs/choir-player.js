@@ -27,6 +27,10 @@ function loadSong(){
   const name=element('h3',voice.name),audibility=element('p'),carrier=element('p'),gloss=element('strong'),definition=element('p'),source=element('small');
   audibility.className='audibility';carrier.className='carrier';root.append(name,audibility,carrier,gloss,definition,source);panel.append(root);return {root,audibility,carrier,gloss,definition,source};
  });
+ const place=current.location,locationPanel=$('song-location');locationPanel.replaceChildren(element('h2','Where this song comes from'));
+ const loreLink=element('a',place.name+' — explore the lore →');loreLink.href='../wiki.html#'+place.topicId;locationPanel.append(loreLink,element('p',place.note));
+ for(const art of place.images){const figure=element('figure'),link=element('a'),image=element('img');link.href='../wiki.html#'+place.artTopicId;link.setAttribute('aria-label','Explore '+place.artName+' lore');image.src='../'+art.src;image.alt=art.alt;image.width=art.width;image.height=art.height;image.loading='lazy';link.append(image);figure.append(link,element('figcaption',art.caption));locationPanel.append(figure);}
+ const files=element('a','Location image file labels (CSV)');files.href='../images/locations/location-files.csv';locationPanel.append(files);
  $('audio-download').href=base()+'song.m4a';$('midi-download').href=base()+'arrangement.mid';$('text-download').href=base()+'meanings.txt';
  $('story-summary').textContent=current.summary;$('story-link').href='../#read='+current.story;
  const list=$('transcript');list.replaceChildren();

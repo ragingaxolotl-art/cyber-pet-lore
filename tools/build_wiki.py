@@ -82,6 +82,41 @@ for era in time['eras']:
  for ev in era['events']:
   found={tid for m in pattern.finditer(ev['title']+' '+' '.join(ev['text'])) for tid in lookup[m.group()]}
   for tid in found:by_id[tid].setdefault('events',[]).append({'title':ev['title'],'era':era['number'],'href':'timeline.html#'+era['id']+'&event='+ev['id'],'status':ev['status']})
+# Wiki articles reproduce existing prose, retaining source status and block links.
+entry_by_id={e['id']:e for e in entries}
+for topic in topics.values():
+ topic['article']={'summary':None,'sections':[]}
+ if topic.get('choices'):
+  topic['article']['note']='This name refers to more than one indexed topic. Choose the intended topic below; their histories are kept separate.'
+  continue
+ seen_text=set()
+ sources=topic['targets'] or topic['mentions']
+ sources=sorted(sources,key=lambda x:(x['status'] in ['alternate','superseded'],x['kind'] in ['Draft','Reference']))
+ for source in sources:
+  blocks=content[source['readingId']]
+  anchor=source['href'].split('&block=')[-1] if '&block=' in source['href'] else None
+  if topic['targets']:
+   if anchor:
+    start=next((i for i,b in enumerate(blocks) if b['id']==anchor),0)
+    level=blocks[start]['style'];end=len(blocks)
+    if level.startswith('HEADING'):
+     end=next((i for i in range(start+1,len(blocks)) if blocks[i]['style'].startswith('HEADING') and blocks[i]['style']<=level),len(blocks))
+    blocks=blocks[start:end]
+   selected=[b for b in blocks if not b['style'].startswith('HEADING') and len(b['text'].strip())>35]
+  else:
+   selected=[b for b in blocks if not b['style'].startswith('HEADING') and len(b['text'].strip())>35 and (any(topic['id'] in lookup[m.group()] for m in pattern.finditer(b['text'])) or (topic['title'] in entry_by_id[source['readingId']].get('characters',[]) and re.search(r'(?<!\w)'+re.escape(topic['title'].split(' (')[0])+r'(?!\w)',b['text'])))]
+  selected=[b for b in selected if b['text'] not in seen_text][:12 if topic['targets'] else 3]
+  if not selected:continue
+  # The overview is an unaltered informative paragraph, not a generated assertion.
+  if topic['article']['summary'] is None:
+   overview=next((b for b in selected if len(b['text'])>80 and not b['text'].startswith(('Status:','Era ','New location','New supporting'))),selected[0])
+   topic['article']['summary']={'text':overview['text'],'href':'index.html#read='+source['readingId']+'&block='+overview['id'],'title':source['title'],'status':source['status'],'readingId':source['readingId'],'blockId':overview['id']}
+  paragraphs=[{'text':b['text'],'blockId':b['id'],'href':'index.html#read='+source['readingId']+'&block='+b['id']} for b in selected]
+  topic['article']['sections'].append({'title':source['title'],'status':source['status'],'readingId':source['readingId'],'paragraphs':paragraphs})
+  seen_text.update(b['text'] for b in selected)
+  if len(topic['article']['sections'])>=3:break
+ topic['article']['note']=('Overview and details use the existing source wording. Proposed, alternate and newly added material keep their source labels.' if topic['targets'] else 'No dedicated article is recorded for this topic. The overview and details below are the available source passages; a fuller history is not established.')
+ if topic['article']['summary'] is None:topic['article']['note']='The archive indexes this name, but no substantive descriptive passage is available. No history or identity has been inferred.'
 # Attach only explicitly mapped existing artwork; never borrow a neighboring place’s image.
 art=json.loads((ROOT/'sources/location-art.json').read_text())
 reading_images={}

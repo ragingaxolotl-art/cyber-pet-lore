@@ -25,7 +25,8 @@ for loc in config['locations']:
  topic=matches[0];images=[]
  for view,(rendering,relative,file) in candidates.items():
   suffix=re.sub(r'[^a-z0-9]+','-',view.lower()).strip('-') or 'main'
-  name=f"{loc['id']}-{suffix}.webp"
+  slug=re.sub(r'[^a-z0-9]+','-',loc['name'].lower()).strip('-')
+  name=f"{loc['id']}-{slug}-{suffix}.webp"
   with Image.open(file) as im:
    im=im.convert('RGB');width,height=im.size
    im.save(output/name,'WEBP',quality=90,method=5)

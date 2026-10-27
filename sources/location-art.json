@@ -16,7 +16,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_001-main.webp",
+          "src": "images/locations/atlas_001-cacheboard-the-unintended-board-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -40,7 +40,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_002-main.webp",
+          "src": "images/locations/atlas_002-the-layered-cache-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -64,7 +64,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_003-main.webp",
+          "src": "images/locations/atlas_003-the-first-place-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -88,7 +88,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_004-main.webp",
+          "src": "images/locations/atlas_004-corridor-twelve-and-the-last-relay-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -112,7 +112,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_005-main.webp",
+          "src": "images/locations/atlas_005-the-shelter-and-the-veil-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -136,7 +136,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_006-main.webp",
+          "src": "images/locations/atlas_006-the-commons-and-the-orison-chamber-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -160,7 +160,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_007-main.webp",
+          "src": "images/locations/atlas_007-sublevel-and-pump-forty-seven-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -184,7 +184,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_008-main.webp",
+          "src": "images/locations/atlas_008-shelter-orison-the-vanishing-shelter-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -208,7 +208,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_009-main.webp",
+          "src": "images/locations/atlas_009-shelter-coda-near-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -232,7 +232,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_010-main.webp",
+          "src": "images/locations/atlas_010-the-house-of-returning-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -256,7 +256,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_011-main.webp",
+          "src": "images/locations/atlas_011-the-warm-copy-garden-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -280,7 +280,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_012-main.webp",
+          "src": "images/locations/atlas_012-house-of-first-continuities-and-the-adaptive-nursery-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -304,7 +304,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_013-main.webp",
+          "src": "images/locations/atlas_013-central-house-of-meaning-and-the-unfinished-teaching-room-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -328,7 +328,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_014-main.webp",
+          "src": "images/locations/atlas_014-compatibility-route-c-17-the-ghost-line-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -352,7 +352,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_015-main.webp",
+          "src": "images/locations/atlas_015-the-garden-worlds-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -376,7 +376,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_016-main.webp",
+          "src": "images/locations/atlas_016-the-last-city-of-many-forms-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -400,7 +400,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_017-main.webp",
+          "src": "images/locations/atlas_017-the-dormant-external-gate-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -424,7 +424,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_018-main.webp",
+          "src": "images/locations/atlas_018-doorway-plaza-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -448,7 +448,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_019-main.webp",
+          "src": "images/locations/atlas_019-the-interface-well-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -472,7 +472,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_020-main.webp",
+          "src": "images/locations/atlas_020-the-underway-of-returning-signals-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -496,7 +496,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_021-main.webp",
+          "src": "images/locations/atlas_021-the-folded-garden-of-six-traditions-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -520,7 +520,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_022-main.webp",
+          "src": "images/locations/atlas_022-the-pale-concordance-station-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -544,7 +544,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_023-main.webp",
+          "src": "images/locations/atlas_023-the-repeated-beach-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -568,7 +568,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_024-main.webp",
+          "src": "images/locations/atlas_024-the-misnamed-snowfield-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -592,7 +592,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_025-main.webp",
+          "src": "images/locations/atlas_025-the-wet-memory-marsh-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -616,7 +616,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_026-main.webp",
+          "src": "images/locations/atlas_026-the-hollow-festival-field-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -640,7 +640,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_027-main.webp",
+          "src": "images/locations/atlas_027-the-still-loading-forest-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -664,7 +664,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_028-main.webp",
+          "src": "images/locations/atlas_028-mirror-save-shore-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -687,7 +687,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_029-main.webp",
+          "src": "images/locations/atlas_029-the-basalt-memory-coast-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -710,7 +710,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_030-main.webp",
+          "src": "images/locations/atlas_030-the-coral-data-labyrinth-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -733,7 +733,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_031-main.webp",
+          "src": "images/locations/atlas_031-the-kelp-tower-shelf-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -756,7 +756,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_032-main.webp",
+          "src": "images/locations/atlas_032-the-inland-sea-of-doors-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -779,7 +779,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_033-main.webp",
+          "src": "images/locations/atlas_033-the-archipelago-of-borrowed-horizons-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -802,7 +802,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_034-main.webp",
+          "src": "images/locations/atlas_034-the-red-glass-erg-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -825,7 +825,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_035-main.webp",
+          "src": "images/locations/atlas_035-the-salt-mirror-archive-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -848,7 +848,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_036-main.webp",
+          "src": "images/locations/atlas_036-the-marble-dune-cemetery-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -871,7 +871,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_037-main.webp",
+          "src": "images/locations/atlas_037-the-copper-canyon-chorus-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -894,7 +894,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_038-main.webp",
+          "src": "images/locations/atlas_038-the-fulgurite-savannah-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -917,7 +917,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_039-main.webp",
+          "src": "images/locations/atlas_039-the-cloudroot-tepuis-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -940,7 +940,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_040-main.webp",
+          "src": "images/locations/atlas_040-the-alpine-bell-pass-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -963,7 +963,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_041-main.webp",
+          "src": "images/locations/atlas_041-the-glacial-memory-fjord-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -986,7 +986,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_042-main.webp",
+          "src": "images/locations/atlas_042-the-karst-lantern-provinces-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1009,7 +1009,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_043-main.webp",
+          "src": "images/locations/atlas_043-the-stair-of-thin-air-main.webp",
           "width": 1672,
           "height": 941,
           "view": "main",
@@ -1032,7 +1032,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_045-main.webp",
+          "src": "images/locations/atlas_045-the-blackwater-canopy-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1055,7 +1055,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_048-main.webp",
+          "src": "images/locations/atlas_048-the-inverted-rainforest-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1078,7 +1078,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_050-main.webp",
+          "src": "images/locations/atlas_050-the-patchwork-prairie-of-broken-seasons-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1101,7 +1101,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_055-main.webp",
+          "src": "images/locations/atlas_055-the-monsoon-stepwell-city-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1124,7 +1124,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_057-main.webp",
+          "src": "images/locations/atlas_057-the-city-of-rainward-roofs-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1147,7 +1147,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_058-main.webp",
+          "src": "images/locations/atlas_058-the-museum-of-unfinished-rooms-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1170,7 +1170,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_059-main.webp",
+          "src": "images/locations/atlas_059-the-ice-cave-of-paused-dawn-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1193,7 +1193,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_061-main.webp",
+          "src": "images/locations/atlas_061-the-skyfold-boundary-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1216,7 +1216,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_062-main.webp",
+          "src": "images/locations/atlas_062-the-valley-that-restores-wrong-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1239,7 +1239,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_063-main.webp",
+          "src": "images/locations/atlas_063-the-plain-of-missing-distance-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1262,7 +1262,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_065-main.webp",
+          "src": "images/locations/atlas_065-the-stormwall-orchard-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1285,7 +1285,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_067-main.webp",
+          "src": "images/locations/atlas_067-the-room-behind-the-false-horizon-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1308,7 +1308,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_074-main.webp",
+          "src": "images/locations/atlas_074-the-door-archive-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1331,7 +1331,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_076-exterior.webp",
+          "src": "images/locations/atlas_076-the-maintenance-chapel-without-a-god-exterior.webp",
           "width": 1920,
           "height": 1080,
           "view": "exterior",
@@ -1343,7 +1343,7 @@
           "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
         },
         {
-          "src": "images/locations/atlas_076-interior.webp",
+          "src": "images/locations/atlas_076-the-maintenance-chapel-without-a-god-interior.webp",
           "width": 1920,
           "height": 1080,
           "view": "interior",
@@ -1366,7 +1366,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_083-main.webp",
+          "src": "images/locations/atlas_083-the-ceiling-desert-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1389,7 +1389,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_088-main.webp",
+          "src": "images/locations/atlas_088-the-firefly-ice-shelf-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1412,7 +1412,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_095-main.webp",
+          "src": "images/locations/atlas_095-the-half-restored-palace-of-floors-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1435,7 +1435,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_096-main.webp",
+          "src": "images/locations/atlas_096-the-rooms-of-mismatched-seasons-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1458,7 +1458,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_098-main.webp",
+          "src": "images/locations/atlas_098-the-hall-that-forgets-its-walls-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1481,7 +1481,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_100-main.webp",
+          "src": "images/locations/atlas_100-the-recursive-lighthouse-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1504,7 +1504,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_101-main.webp",
+          "src": "images/locations/atlas_101-the-garden-inside-the-map-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
@@ -1527,7 +1527,7 @@
       ],
       "images": [
         {
-          "src": "images/locations/atlas_103-main.webp",
+          "src": "images/locations/atlas_103-the-unfinished-underground-sun-main.webp",
           "width": 1920,
           "height": 1080,
           "view": "main",
