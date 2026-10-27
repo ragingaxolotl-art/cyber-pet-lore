@@ -63,3 +63,9 @@ Validation: timeline and reading tests cover existing reading/clip/backup behavi
 ## Era Zero songs
 
 Open **Era Zero songs** in the main navigation, or visit https://ragingaxolotl-art.github.io/cyber-pet-lore/songs/. Four original instrumental compositions include full arrangements, isolated language melodies, synchronized verified meanings, phrase seeking, and audio/MIDI/meaning-sheet downloads. Source: `CPP-V3/exports/era-zero-songs/2026-10-27` on the Cyber Pet Workspace SSD. These are new compositions, not historical recordings or human-sung voices. The source export retains lossless masters and score provenance.
+
+## Wiki connections
+
+Open **Connections** (`wiki.html`) to search 348 indexed people, places, stories, events, and ideas. Names in readings and timeline passages link to internal topic pages, with dossier links, “Mentioned in” passages, and direct timeline-event links. Each reading also includes related topics and eras. Vey and Pell have explicit disambiguation pages. Links indicate named mentions; they do not establish identity or causal relationships. Draft and proposed source labels remain visible.
+
+`tools/build_wiki.py` rebuilds the index from published archive content after the timeline build. Automated checks validate every reading/block/event destination, ambiguous-name choices, and exact passage-text preservation for highlights and clips. Original-document provenance remains in the library Sources dialog; connected reading links stay on this site.

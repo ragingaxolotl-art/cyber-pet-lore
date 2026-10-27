@@ -117,3 +117,4 @@ print(json.dumps({'entries':len(catalog),'counts':counts,'integrity':conservatio
 # Rebuild derived chronology with the same source and internal reading IDs.
 import runpy
 runpy.run_path(str(ROOT/"tools/build_timeline.py"))
+runpy.run_path(str(ROOT/"tools/build_wiki.py"))
