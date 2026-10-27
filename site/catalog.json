@@ -11963,6 +11963,32 @@
       "summary": "Preserved local reference; content may overlap the expanded Locations Atlas.",
       "wordCount": 7713,
       "variant": "Local reference copy"
+    },
+    {
+      "id": "chapel-pilgrim-draft-p00000",
+      "title": "What the Pillar Carried — draft",
+      "kind": "Draft",
+      "era": [
+        0,
+        1,
+        2
+      ],
+      "timeLabel": "Early Era Two, before the final withdrawal; memories of Era Zero and Era One",
+      "timeOrder": 0,
+      "status": "draft",
+      "characters": [],
+      "places": [],
+      "topics": [],
+      "source": {
+        "title": "Reviewed chapel story draft",
+        "url": "",
+        "tabId": "chapel-draft",
+        "startParagraph": 0,
+        "endParagraphExclusive": 148
+      },
+      "summary": "A pilgrim returns to the Maintenance Chapel to reclaim an old offering. Chat draft; the former human interface is a proposed addition to the chapel history.",
+      "wordCount": 1557,
+      "variant": "Reviewed chat draft"
     }
   ],
   "sources": [
@@ -12016,10 +12042,15 @@
       "localPath": "sources/local/Cyberpath_Real_World_Relationship_Guide.txt",
       "characters": 0,
       "empty": true
+    },
+    {
+      "key": "chapel-pilgrim-draft",
+      "title": "What the Pillar Carried",
+      "note": "Reviewed October 27, 2026 from the October 20 chapel discussion. Preserved as a draft, not promoted to established canon."
     }
   ],
   "counts": {
-    "Draft": 19,
+    "Draft": 20,
     "Language": 119,
     "Locations": 205,
     "People": 94,

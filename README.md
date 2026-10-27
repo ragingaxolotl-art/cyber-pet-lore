@@ -4,10 +4,10 @@ The separate Cyber Pet reading archive: https://ragingaxolotl-art.github.io/cybe
 
 ## Collection
 
-475 indexed readings from the Cyberpath Stories Archive, CPP Lore, DBA Era 0 Language, Cyberpath Locations Atlas, the Game Lorebook additions, and two local reference guides. This is an October 27, 2026 source snapshot, not automatic synchronization with Google Docs.
+476 indexed readings from the Cyberpath Stories Archive, CPP Lore, DBA Era 0 Language, Cyberpath Locations Atlas, the Game Lorebook additions, and two local reference guides. This is an October 27, 2026 source snapshot, not automatic synchronization with Google Docs.
 
 - 14 primary stories (13 complete; The Corrected Child is unfinished)
-- 19 earlier drafts and alternate copies
+- 20 earlier drafts and alternate copies (including the reviewed chapel draft)
 - 18 timeline sections, 94 people sections, 205 location sections, 119 language sections, and 6 reference readings
 
 Location sections include multiple treatments of the same place: the atlas describes 106 numbered locations. The Quiet One’s Human is one work with its eleven installments in the reader outline. Unknown dates are left unspecified. Within-era ordering follows source order where precise dates are unavailable. Character/place filters represent mentions, not claims about participation or geographical relationships.
@@ -49,3 +49,13 @@ Connection checks repository privacy, reads and validates `reading-backup.json`,
 Merge latest GitHub backup merges other-device updates; newer whole-reading records win, as for file imports. Prior local records can be downloaded from Backups after a merge. Concurrent GitHub changes stop writes until reconnect/merge, avoiding blind overwrites. GitHub commits retain previous versions. Connecting an empty browser restores existing records. The feature cannot access records from another browser/device; connect from the browser holding the notes.
 
 API reference: https://docs.github.com/en/rest/repos/contents
+
+## Era timeline
+
+Open `timeline.html` from the main navigation. Eight clickable eras (−3 through 4) contain 103 sourced history entries, era summaries, human-world context, adjacent disputes, and links to the site reader. Weather links open the relevant era section. The current 14 primary stories are placed using the existing archive metadata; exact dates and intra-era ordering are not invented.
+
+`tools/build_timeline.py` rebuilds `site/timeline.json` after the catalog. It uses stable reading/block IDs and preserved source passages. It separates established canon, expanded history, reconstruction, draft fiction, and six hypothetical Era Four continuations. The new chapel draft is preserved in `sources/chapel-pilgrim-draft.json` and indexed separately; existing story IDs, paragraph anchors, and reading records are unchanged.
+
+Research coverage: the expanded CPP Lore chronology, primary story metadata, language history, and ten turns of the October 20 chapel discussion were reviewed. The current thread tools did not surface the older ChatGPT lore discussions; this is **not** a complete all-chat audit. The archived Real World Relationship Guide is empty. No human calendar dates or fixed Codex/human time conversion were found in the reviewed sources. Dates remain explicitly unestablished, with relative human-world context shown for each era. Future source evidence can refine these fields.
+
+Validation: 28 tests cover existing reading/clip/backup behavior, all era order and deep links, every internal story/history anchor, full primary-story coverage, multi-era Weather anchors, uncertainty placement, speculative-history separation, and exact preservation of event excerpts.

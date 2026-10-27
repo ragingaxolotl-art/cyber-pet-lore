@@ -92,6 +92,12 @@ for file in sorted(local.glob('*.txt')):
  d={'title':file.stem,'paragraphs':[{'text':line,'tabId':'local','namedStyleType':'NORMAL_TEXT'} for line in lines]}
  add(key,d,0,len(lines),file.stem.replace('_',' '),'Reference',{'variant':'Local reference copy','summary':'Preserved local reference; content may overlap the expanded Locations Atlas.'})
  conservation[key]={'characters':len(text),'sha256':hashlib.sha256(text.encode()).hexdigest(),'exactTextConserved':True}
+# A reviewed chat story is kept separately and explicitly labeled as a draft.
+draft=json.loads((INPUT/'chapel-pilgrim-draft.json').read_text())
+parts=[draft['title']]+draft['text'].split('\n\n')
+d={'title':'Reviewed chapel story draft','paragraphs':[{'text':t,'tabId':'chapel-draft','namedStyleType':'HEADING_1' if i==0 else 'NORMAL_TEXT'} for i,t in enumerate(parts)]}
+add('chapel-pilgrim-draft',d,0,len(parts),draft['title']+' — draft','Draft',{'eras':draft['era'],'timeLabel':draft['timeLabel'],'status':'draft','summary':draft['summary'],'variant':'Reviewed chat draft'})
+sources.append({'key':'chapel-pilgrim-draft','title':draft['title'],'note':draft['provenance']})
 # Place facets use exact named-place mentions, not inferred geography.
 place_names=set()
 for entry in catalog:
@@ -107,3 +113,7 @@ for entry in catalog:
 counts={k:sum(e['kind']==k for e in catalog) for k in sorted(set(e['kind'] for e in catalog))}
 (OUT/'catalog.json').write_text(json.dumps({'version':1,'entries':catalog,'sources':sources,'counts':counts,'storyCounts':research['counts'],'integrity':conservation,'notes':['Paragraph indexes are zero-based source array indexes.','Character facets mean characters mentioned, not asserted relationships.','Era order is established; within-era source order is used where dates are unknown.','CPP Lore alternate story copies and local atlas guides are retained as separately labeled references.','Empty game tabs and duplicate game_stories genre list are intentionally omitted.']},ensure_ascii=False,indent=2))
 print(json.dumps({'entries':len(catalog),'counts':counts,'integrity':conservation},indent=2))
+
+# Rebuild derived chronology with the same source and internal reading IDs.
+import runpy
+runpy.run_path(str(ROOT/"tools/build_timeline.py"))
