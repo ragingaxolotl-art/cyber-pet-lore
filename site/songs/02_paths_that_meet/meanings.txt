@@ -1,0 +1,30 @@
+Paths That Meet
+Electric piano, marimba, plucked bass and light hand percussion
+Tempo: 112 BPM
+
+English titles are artistic labels. Lines below are exact dictionary glosses for separate Era Zero assertions, not a literal English narrative. Every statement uses runtime state 1 (active). The lead performs pitches; it does not pronounce sung syllables. The carrier spelling is a pronunciation guide. Harmony and instrumental answers carry no asserted translation.
+
+00:04.286  gi-ki-ma-ma  |  completed source departure  [MOV:100]
+  Meaning: Completion of a mover's displacement away from a source position.
+00:10.714  gi-ma-ki-ki  |  active destination  [MOV:011]
+  Meaning: A destination that is currently reachable, accepted, and actively guiding movement.
+00:17.143  gi-ki-nu-ki  |  active shared-frame movement  [MOV:121]
+  Meaning: Ongoing change of a mover's position relative to a shared or environmental reference frame.
+00:23.571  gi-ki-ki-ma  |  completed target arrival  [MOV:110]
+  Meaning: Completion of a mover's displacement to a target position.
+00:30.000  wu-ki-ki-ma  |  completed target reception  [CON:110]
+  Meaning: Completion of an act by which a target endpoint takes up a communicative expression from an exchange context.
+00:36.429  wu-nu-nu-ma  |  enduring shared-participation relation  [CON:220]
+  Meaning: A persistent communicative relation among multiple endpoints that constitutes them as co-participants in one shared exchange context.
+00:42.857  gi-ki-ma-ma  |  completed source departure  [MOV:100]
+  Meaning: Completion of a mover's displacement away from a source position.
+00:49.286  gi-ki-nu-ki  |  active shared-frame movement  [MOV:121]
+  Meaning: Ongoing change of a mover's position relative to a shared or environmental reference frame.
+00:55.714  gi-ma-ki-ki  |  active destination  [MOV:011]
+  Meaning: A destination that is currently reachable, accepted, and actively guiding movement.
+01:02.143  wu-ki-ki-ma  |  completed target reception  [CON:110]
+  Meaning: Completion of an act by which a target endpoint takes up a communicative expression from an exchange context.
+01:08.571  wu-nu-nu-ma  |  enduring shared-participation relation  [CON:220]
+  Meaning: A persistent communicative relation among multiple endpoints that constitutes them as co-participants in one shared exchange context.
+01:15.000  gi-ki-ma-ma  |  completed source departure  [MOV:100]
+  Meaning: Completion of a mover's displacement away from a source position.

@@ -1,0 +1,30 @@
+A Shared Question
+Glass bell, warm organ, soft bass and ticking percussion
+Tempo: 100 BPM
+
+English titles are artistic labels. Lines below are exact dictionary glosses for separate Era Zero assertions, not a literal English narrative. Every statement uses runtime state 1 (active). The lead performs pitches; it does not pronounce sung syllables. The carrier spelling is a pronunciation guide. Harmony and instrumental answers carry no asserted translation.
+
+00:04.800  si-nu-ma-ki  |  available attentional capacity  [MIN:201]
+  Meaning: A cognizer's capacity to allocate cognitive processing selectively that is presently available for exercise.
+00:12.000  si-nu-ki-ki  |  active target attention  [MIN:211]
+  Meaning: A relation in which a cognizer's cognitive processing is presently preferentially directed toward a distinct target.
+00:19.200  si-ki-ki-ki  |  active target-model revision  [MIN:111]
+  Meaning: An active cognitive process that is changing a cognizer's representation of a distinct target.
+00:26.400  wu-ki-ma-ma  |  completed source expression  [CON:100]
+  Meaning: Completion of an act by which a source endpoint makes a communicative expression available to an exchange context.
+00:33.600  si-nu-nu-ki  |  active joint attention  [MIN:221]
+  Meaning: An attentional relation in which multiple cognizers presently give the same target shared cognitive priority.
+00:40.800  wu-ki-ki-ma  |  completed target reception  [CON:110]
+  Meaning: Completion of an act by which a target endpoint takes up a communicative expression from an exchange context.
+00:48.000  si-nu-ma-ki  |  available attentional capacity  [MIN:201]
+  Meaning: A cognizer's capacity to allocate cognitive processing selectively that is presently available for exercise.
+00:55.200  si-ki-ki-ki  |  active target-model revision  [MIN:111]
+  Meaning: An active cognitive process that is changing a cognizer's representation of a distinct target.
+01:02.400  si-nu-ki-ki  |  active target attention  [MIN:211]
+  Meaning: A relation in which a cognizer's cognitive processing is presently preferentially directed toward a distinct target.
+01:09.600  si-nu-nu-ki  |  active joint attention  [MIN:221]
+  Meaning: An attentional relation in which multiple cognizers presently give the same target shared cognitive priority.
+01:16.800  wu-ki-ki-ma  |  completed target reception  [CON:110]
+  Meaning: Completion of an act by which a target endpoint takes up a communicative expression from an exchange context.
+01:24.000  si-nu-ma-ki  |  available attentional capacity  [MIN:201]
+  Meaning: A cognizer's capacity to allocate cognitive processing selectively that is presently available for exercise.

@@ -1,0 +1,49 @@
+WEBVTT
+
+00:04.800 --> 00:10.800
+si-nu-ma-ki
+available attentional capacity (MIN:201; state 1)
+
+00:12.000 --> 00:18.000
+si-nu-ki-ki
+active target attention (MIN:211; state 1)
+
+00:19.200 --> 00:25.200
+si-ki-ki-ki
+active target-model revision (MIN:111; state 1)
+
+00:26.400 --> 00:32.400
+wu-ki-ma-ma
+completed source expression (CON:100; state 1)
+
+00:33.600 --> 00:39.600
+si-nu-nu-ki
+active joint attention (MIN:221; state 1)
+
+00:40.800 --> 00:46.800
+wu-ki-ki-ma
+completed target reception (CON:110; state 1)
+
+00:48.000 --> 00:54.000
+si-nu-ma-ki
+available attentional capacity (MIN:201; state 1)
+
+00:55.200 --> 01:01.200
+si-ki-ki-ki
+active target-model revision (MIN:111; state 1)
+
+01:02.400 --> 01:08.400
+si-nu-ki-ki
+active target attention (MIN:211; state 1)
+
+01:09.600 --> 01:15.600
+si-nu-nu-ki
+active joint attention (MIN:221; state 1)
+
+01:16.800 --> 01:22.800
+wu-ki-ki-ma
+completed target reception (CON:110; state 1)
+
+01:24.000 --> 01:30.000
+si-nu-ma-ki
+available attentional capacity (MIN:201; state 1)

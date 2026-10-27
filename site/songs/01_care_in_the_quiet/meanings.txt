@@ -1,0 +1,30 @@
+Care in the Quiet
+Ocarina, plucked harp, soft bass and brushed shaker
+Tempo: 86 BPM
+
+English titles are artistic labels. Lines below are exact dictionary glosses for separate Era Zero assertions, not a literal English narrative. Every statement uses runtime state 1 (active). The lead performs pitches; it does not pronounce sung syllables. The carrier spelling is a pronunciation guide. Harmony and instrumental answers carry no asserted translation.
+
+00:05.581  ni-nu-ki-ki  |  active care  [LIF:211]
+  Meaning: The active use of one being’s life-capacity to protect, support, nurture, or sustain another being.
+00:13.953  ni-nu-ki-ma  |  established life-bond  [LIF:210]
+  Meaning: A stable relationship through which two living identities recognize one another as connected.
+00:22.326  wu-nu-nu-ma  |  enduring shared-participation relation  [CON:220]
+  Meaning: A persistent communicative relation among multiple endpoints that constitutes them as co-participants in one shared exchange context.
+00:30.698  ni-nu-ma-ma  |  stable viability  [LIF:200]
+  Meaning: The stable capacity of a being to remain alive and continue functioning.
+00:39.070  ni-nu-ki-ki  |  active care  [LIF:211]
+  Meaning: The active use of one being’s life-capacity to protect, support, nurture, or sustain another being.
+00:47.442  wu-nu-ki-ki  |  operative directed communication relation  [CON:211]
+  Meaning: A directed relation from a reference endpoint to a distinct target that is presently operative as a participant link for communicative exchange.
+00:55.814  ni-nu-ki-ki  |  active care  [LIF:211]
+  Meaning: The active use of one being’s life-capacity to protect, support, nurture, or sustain another being.
+01:04.186  wu-nu-nu-ma  |  enduring shared-participation relation  [CON:220]
+  Meaning: A persistent communicative relation among multiple endpoints that constitutes them as co-participants in one shared exchange context.
+01:12.558  ni-nu-ki-ma  |  established life-bond  [LIF:210]
+  Meaning: A stable relationship through which two living identities recognize one another as connected.
+01:20.930  ni-nu-ki-ki  |  active care  [LIF:211]
+  Meaning: The active use of one being’s life-capacity to protect, support, nurture, or sustain another being.
+01:29.302  wu-nu-ki-ki  |  operative directed communication relation  [CON:211]
+  Meaning: A directed relation from a reference endpoint to a distinct target that is presently operative as a participant link for communicative exchange.
+01:37.674  ni-nu-ki-ki  |  active care  [LIF:211]
+  Meaning: The active use of one being’s life-capacity to protect, support, nurture, or sustain another being.

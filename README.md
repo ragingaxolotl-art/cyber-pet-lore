@@ -58,4 +58,8 @@ Open `timeline.html` from the main navigation. Eight clickable eras (−3 throug
 
 Research coverage: the expanded CPP Lore chronology, primary story metadata, language history, and ten turns of the October 20 chapel discussion were reviewed. The current thread tools did not surface the older ChatGPT lore discussions; this is **not** a complete all-chat audit. The archived Real World Relationship Guide is empty. No human calendar dates or fixed Codex/human time conversion were found in the reviewed sources. Dates remain explicitly unestablished, with relative human-world context shown for each era. Future source evidence can refine these fields.
 
-Validation: 28 tests cover existing reading/clip/backup behavior, all era order and deep links, every internal story/history anchor, full primary-story coverage, multi-era Weather anchors, uncertainty placement, speculative-history separation, and exact preservation of event excerpts.
+Validation: timeline and reading tests cover existing reading/clip/backup behavior, all era order and deep links, every internal story/history anchor, full primary-story coverage, multi-era Weather anchors, uncertainty placement, speculative-history separation, and exact preservation of event excerpts.
+
+## Era Zero songs
+
+Open **Era Zero songs** in the main navigation, or visit https://ragingaxolotl-art.github.io/cyber-pet-lore/songs/. Four original instrumental compositions include full arrangements, isolated language melodies, synchronized verified meanings, phrase seeking, and audio/MIDI/meaning-sheet downloads. Source: `CPP-V3/exports/era-zero-songs/2026-10-27` on the Cyber Pet Workspace SSD. These are new compositions, not historical recordings or human-sung voices. The source export retains lossless masters and score provenance.

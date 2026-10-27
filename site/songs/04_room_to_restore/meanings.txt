@@ -1,0 +1,30 @@
+Room to Restore
+Soft reed, bowed-string pad, cello-like bass and distant chimes
+Tempo: 76 BPM
+
+English titles are artistic labels. Lines below are exact dictionary glosses for separate Era Zero assertions, not a literal English narrative. Every statement uses runtime state 1 (active). The lead performs pitches; it does not pronounce sung syllables. The carrier spelling is a pronunciation guide. Harmony and instrumental answers carry no asserted translation.
+
+00:06.316  ya-nu-ma-ma  |  persistent internal recoverability  [REP:200]
+  Meaning: A persistent capacity of one reference entity to undergo internally originating restoration under qualifying conditions, independently of whether that capacity is presently operative.
+00:15.789  ya-ki-ma-ki  |  active internal restoration  [REP:101]
+  Meaning: An ongoing restorative transformation originating within one reference entity by which that entity is entering its applicable internal restoration condition.
+00:25.263  ya-nu-ki-ki  |  operative source-target restorative relation  [REP:211]
+  Meaning: A restorative applicability relation between one distinct source and one reference target that presently enables that source to cause target restoration under the applicable conditions.
+00:34.737  ya-ki-ki-ma  |  completed target restoration  [REP:110]
+  Meaning: Completion of a restorative transformation by which one distinct source causes one reference target to enter its applicable target restoration condition.
+00:44.211  ni-nu-ma-ma  |  stable viability  [LIF:200]
+  Meaning: The stable capacity of a being to remain alive and continue functioning.
+00:53.684  ni-nu-ki-ma  |  established life-bond  [LIF:210]
+  Meaning: A stable relationship through which two living identities recognize one another as connected.
+01:03.158  ya-nu-ma-ma  |  persistent internal recoverability  [REP:200]
+  Meaning: A persistent capacity of one reference entity to undergo internally originating restoration under qualifying conditions, independently of whether that capacity is presently operative.
+01:12.632  ya-nu-ki-ki  |  operative source-target restorative relation  [REP:211]
+  Meaning: A restorative applicability relation between one distinct source and one reference target that presently enables that source to cause target restoration under the applicable conditions.
+01:22.105  ya-ki-ma-ki  |  active internal restoration  [REP:101]
+  Meaning: An ongoing restorative transformation originating within one reference entity by which that entity is entering its applicable internal restoration condition.
+01:31.579  ni-nu-ma-ma  |  stable viability  [LIF:200]
+  Meaning: The stable capacity of a being to remain alive and continue functioning.
+01:41.053  ni-nu-ki-ma  |  established life-bond  [LIF:210]
+  Meaning: A stable relationship through which two living identities recognize one another as connected.
+01:50.526  ya-nu-ma-ma  |  persistent internal recoverability  [REP:200]
+  Meaning: A persistent capacity of one reference entity to undergo internally originating restoration under qualifying conditions, independently of whether that capacity is presently operative.
