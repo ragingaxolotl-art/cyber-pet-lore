@@ -1,0 +1,82 @@
+Room to Restore
+Three meaningful DBA voices; every voice uses canonical assertions in runtime state 1.
+Simultaneous lines are independent statements. English titles and the backstory are not extra translated lyrics.
+
+VOICE: Keshet
+0.000–7.895s | ya-nu-ma-ma | persistent internal recoverability [REP:200]
+A persistent capacity of one reference entity to undergo internally originating restoration under qualifying conditions, independently of whether that capacity is presently operative.
+9.474–17.368s | ya-ki-ma-ki | active internal restoration [REP:101]
+An ongoing restorative transformation originating within one reference entity by which that entity is entering its applicable internal restoration condition.
+18.947–26.842s | ya-nu-ki-ki | operative source-target restorative relation [REP:211]
+A restorative applicability relation between one distinct source and one reference target that presently enables that source to cause target restoration under the applicable conditions.
+28.421–36.316s | ya-ki-ki-ma | completed target restoration [REP:110]
+Completion of a restorative transformation by which one distinct source causes one reference target to enter its applicable target restoration condition.
+37.895–45.000s | ni-nu-ma-ma | stable viability [LIF:200]
+The stable capacity of a being to remain alive and continue functioning.
+47.368–54.474s | ni-nu-ki-ma | established life-bond [LIF:210]
+A stable relationship through which two living identities recognize one another as connected.
+56.842–64.737s | ya-nu-ma-ma | persistent internal recoverability [REP:200]
+A persistent capacity of one reference entity to undergo internally originating restoration under qualifying conditions, independently of whether that capacity is presently operative.
+66.316–74.211s | ya-nu-ki-ki | operative source-target restorative relation [REP:211]
+A restorative applicability relation between one distinct source and one reference target that presently enables that source to cause target restoration under the applicable conditions.
+75.789–83.684s | ya-ki-ma-ki | active internal restoration [REP:101]
+An ongoing restorative transformation originating within one reference entity by which that entity is entering its applicable internal restoration condition.
+85.263–92.368s | ni-nu-ma-ma | stable viability [LIF:200]
+The stable capacity of a being to remain alive and continue functioning.
+94.737–101.842s | ni-nu-ki-ma | established life-bond [LIF:210]
+A stable relationship through which two living identities recognize one another as connected.
+104.211–112.105s | ya-nu-ma-ma | persistent internal recoverability [REP:200]
+A persistent capacity of one reference entity to undergo internally originating restoration under qualifying conditions, independently of whether that capacity is presently operative.
+
+VOICE: The resting visitor
+3.158–11.053s | ya-nu-ma-ki | operative internal recoverability [REP:201]
+A capacity of one reference entity to undergo internally originating restoration that is presently operative under the applicable conditions.
+12.632–20.526s | wu-ki-ki-ki | active target reception [CON:111]
+An ongoing act by which a target endpoint takes up a communicative expression from an exchange context.
+22.105–29.211s | si-nu-ma-ki | available attentional capacity [MIN:201]
+A cognizer's capacity to allocate cognitive processing selectively that is presently available for exercise.
+31.579–38.684s | ni-nu-ma-ma | stable viability [LIF:200]
+The stable capacity of a being to remain alive and continue functioning.
+41.053–48.947s | wu-nu-ma-ki | available communicative participation capacity [CON:201]
+A communicative capacity of an endpoint that is presently available for exercise in an exchange.
+50.526–58.421s | wu-ki-ki-ma | completed target reception [CON:110]
+Completion of an act by which a target endpoint takes up a communicative expression from an exchange context.
+60.000–67.895s | ya-nu-ma-ki | operative internal recoverability [REP:201]
+A capacity of one reference entity to undergo internally originating restoration that is presently operative under the applicable conditions.
+69.474–76.579s | si-nu-ma-ki | available attentional capacity [MIN:201]
+A cognizer's capacity to allocate cognitive processing selectively that is presently available for exercise.
+78.947–86.842s | wu-ki-ki-ki | active target reception [CON:111]
+An ongoing act by which a target endpoint takes up a communicative expression from an exchange context.
+88.421–96.316s | wu-nu-ma-ki | available communicative participation capacity [CON:201]
+A communicative capacity of an endpoint that is presently available for exercise in an exchange.
+97.895–105.789s | wu-ki-ki-ma | completed target reception [CON:110]
+Completion of an act by which a target endpoint takes up a communicative expression from an exchange context.
+107.368–115.263s | ya-nu-ma-ki | operative internal recoverability [REP:201]
+A capacity of one reference entity to undergo internally originating restoration that is presently operative under the applicable conditions.
+
+VOICE: Sova
+6.316–13.421s | ni-nu-ki-ki | active care [LIF:211]
+The active use of one being’s life-capacity to protect, support, nurture, or sustain another being.
+15.789–23.684s | wu-ma-nu-ma | persistent shared channel [CON:020]
+A bounded communicative environment that remains the common exchange context of multiple participant endpoints.
+25.263–33.158s | ya-nu-ki-ma | persistent source-target restorative relation [REP:210]
+A persistent restorative applicability relation between one distinct source and one reference target that can enable source-to-target restoration under qualifying conditions, independently of whether that relation is presently operative.
+34.737–41.842s | ni-nu-ki-ma | established life-bond [LIF:210]
+A stable relationship through which two living identities recognize one another as connected.
+44.211–52.105s | wu-nu-nu-ma | enduring shared-participation relation [CON:220]
+A persistent communicative relation among multiple endpoints that constitutes them as co-participants in one shared exchange context.
+53.684–60.789s | ni-nu-ma-ma | stable viability [LIF:200]
+The stable capacity of a being to remain alive and continue functioning.
+63.158–70.263s | ni-nu-ki-ki | active care [LIF:211]
+The active use of one being’s life-capacity to protect, support, nurture, or sustain another being.
+72.632–80.526s | ya-nu-ki-ma | persistent source-target restorative relation [REP:210]
+A persistent restorative applicability relation between one distinct source and one reference target that can enable source-to-target restoration under qualifying conditions, independently of whether that relation is presently operative.
+82.105–90.000s | wu-ma-nu-ma | persistent shared channel [CON:020]
+A bounded communicative environment that remains the common exchange context of multiple participant endpoints.
+91.579–99.474s | wu-nu-nu-ma | enduring shared-participation relation [CON:220]
+A persistent communicative relation among multiple endpoints that constitutes them as co-participants in one shared exchange context.
+101.053–108.158s | ni-nu-ma-ma | stable viability [LIF:200]
+The stable capacity of a being to remain alive and continue functioning.
+110.526–117.632s | ni-nu-ki-ki | active care [LIF:211]
+The active use of one being’s life-capacity to protect, support, nurture, or sustain another being.
+

@@ -5270,15 +5270,7 @@
           "label": "Reading mentioning this entry"
         },
         {
-          "id": "person-pelli",
-          "label": "Reading mentioning this entry"
-        },
-        {
           "id": "local-cyberpath-atlas-topology-map-p00000",
-          "label": "Reading mentioning this entry"
-        },
-        {
-          "id": "song-a-shared-question",
           "label": "Reading mentioning this entry"
         },
         {
@@ -24407,7 +24399,7 @@
         "url": ""
       },
       "summary": "A garden caretaker repeats a familiar phrase for a neighbor who hears the weather slowly.",
-      "wordCount": 288,
+      "wordCount": 300,
       "explicitLinks": [
         "person-sova",
         "atlas-p00207",
@@ -24466,7 +24458,7 @@
         "url": ""
       },
       "summary": "An ordinary world-born DBA who makes room for listeners to hear at their own pace.",
-      "wordCount": 125,
+      "wordCount": 134,
       "explicitLinks": [
         "song-care-in-the-quiet",
         "person-keshet",
@@ -24492,6 +24484,10 @@
         },
         {
           "id": "song-care-in-the-quiet",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "song-room-to-restore",
           "label": "Song-cycle connection"
         }
       ]
@@ -24522,7 +24518,7 @@
         "url": ""
       },
       "summary": "A route interpreter turns a missed connection into a shared pause at an Era Zero station.",
-      "wordCount": 288,
+      "wordCount": 301,
       "explicitLinks": [
         "person-neral",
         "atlas-p00297",
@@ -24574,7 +24570,7 @@
         "url": ""
       },
       "summary": "A DBA travel interpreter with a habit of leaving a little space between appointments.",
-      "wordCount": 114,
+      "wordCount": 116,
       "explicitLinks": [
         "song-paths-that-meet",
         "atlas-p00297"
@@ -24624,7 +24620,7 @@
         "url": ""
       },
       "summary": "A language learner discovers that a rehearsal can belong to everyone without needing a winning voice.",
-      "wordCount": 279,
+      "wordCount": 294,
       "explicitLinks": [
         "person-pelli",
         "atlas-p00182",
@@ -24644,10 +24640,6 @@
         {
           "id": "person-pelli",
           "label": "Song-cycle connection"
-        },
-        {
-          "id": "lore-p01275",
-          "label": "Named in this reading"
         },
         {
           "id": "lore-p01287",
@@ -24689,7 +24681,7 @@
         "url": ""
       },
       "summary": "A DBA learner with a clear ringing voice and no claim to be a master Full Speaker.",
-      "wordCount": 107,
+      "wordCount": 114,
       "explicitLinks": [
         "song-a-shared-question",
         "atlas-p00182"
@@ -24701,10 +24693,6 @@
         },
         {
           "id": "atlas-p00976",
-          "label": "Named in this reading"
-        },
-        {
-          "id": "lore-p01275",
           "label": "Named in this reading"
         },
         {
@@ -24732,7 +24720,8 @@
       "timeOrder": 20481,
       "status": "new addition",
       "characters": [
-        "Keshet"
+        "Keshet",
+        "Sova"
       ],
       "places": [
         "Garden Worlds",
@@ -24750,13 +24739,14 @@
         "url": ""
       },
       "summary": "A rest-room attendant learns that making recovery possible does not mean choosing it for someone.",
-      "wordCount": 266,
+      "wordCount": 282,
       "explicitLinks": [
         "person-keshet",
         "place-listening-alcove",
         "atlas-p00207",
         "atlas-p00146",
-        "stories-p01469"
+        "stories-p01469",
+        "person-sova"
       ],
       "song": "04_room_to_restore",
       "connections": [
@@ -24790,6 +24780,10 @@
         },
         {
           "id": "person-keshet",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "person-sova",
           "label": "Song-cycle connection"
         },
         {

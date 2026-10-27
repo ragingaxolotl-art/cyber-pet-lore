@@ -1,0 +1,7 @@
+{
+  "result": "PASS",
+  "voices": 12,
+  "phrases": 144,
+  "notes": 1508,
+  "method": "Every exported solo MIDI note-on/off and pitch matches the canonical engine exactly, with only phrase start and global tempo changed. No unassigned accompaniment notes."
+}

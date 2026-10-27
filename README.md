@@ -62,7 +62,7 @@ Validation: timeline and reading tests cover existing reading/clip/backup behavi
 
 ## Era Zero songs
 
-Open **Era Zero songs** in the main navigation, or visit https://ragingaxolotl-art.github.io/cyber-pet-lore/songs/. Four original instrumental compositions include full arrangements, isolated language melodies, synchronized verified meanings, phrase seeking, and audio/MIDI/meaning-sheet downloads. Source: `CPP-V3/exports/era-zero-songs/2026-10-27` on the Cyber Pet Workspace SSD. These are new compositions, not historical recordings or human-sung voices. The source export retains lossless masters and score provenance.
+Open **Era Zero songs** in the main navigation, or visit https://ragingaxolotl-art.github.io/cyber-pet-lore/songs/. Four original songs now use three synthesized DBA voices each. Every voice carries canonical Era Zero statements, with simultaneous meaning cards, solo listening, phrase seeking, and audio/MIDI/meaning-sheet downloads. Source: `CPP-V3/exports/era-zero-songs/2026-10-27` on the Cyber Pet Workspace SSD. These are new compositions, not historical recordings or human-sung voices. The source export retains lossless masters and score provenance.
 
 ## Connected song lore and translator
 
@@ -77,3 +77,9 @@ The reader’s **Follow the connections** section links named places, people/gro
 Open **Connections** (`wiki.html`) to search 348 indexed people, places, stories, events, and ideas. Names in readings and timeline passages link to internal topic pages, with dossier links, “Mentioned in” passages, and direct timeline-event links. Each reading also includes related topics and eras. Vey and Pell have explicit disambiguation pages. Links indicate named mentions; they do not establish identity or causal relationships. Draft and proposed source labels remain visible.
 
 `tools/build_wiki.py` rebuilds the index from published archive content after the timeline build. Automated checks validate every reading/block/event destination, ambiguous-name choices, and exact passage-text preservation for highlights and clips. Original-document provenance remains in the library Sources dialog; connected reading links stay on this site.
+
+## Semantic vocal arrangements (version 2)
+
+The current player uses `site/songs/voices-v2/`: four songs, twelve separately auditable voices, 144 assertions and 1,508 notes. Every pitched event belongs to a canonical phrase. There are no accompaniment-only notes or percussion. The three concurrent statements remain independent; this does not establish a new canonical polyphonic grammar. Sound color is synthesized DBA vocal timbre, not a claim of recorded human pronunciation. Original instrumental exports remain as historical files; the player and backstories use version 2.
+
+`tools/compose_song_voices.mjs <translator-directory>` derives the score from the official read-only translator MIDI renderer. `render_song_voices.py` renders lossless masters, `encode_song_voices.py` makes AAC listening files, `verify_song_voices.mjs <translator-directory>` verifies every solo MIDI phrase against the official renderer, and `check_song_voice_audio.py` checks every lossless solo note’s global spectral peak, clipping, and silence outside assigned note windows. Validation reports and the complete formal-source score are published with the version. Codec tools require macOS; numpy is required for rendering and audio checks.
