@@ -1,7 +1,7 @@
 import {renderContinuityNotes} from './profiles.mjs';
 import {renderLocationArt} from './location-art.mjs';
 import {loadWiki,appendWiki,readingConnections} from './wiki-links.mjs?v=profiles-1';
-import {GitHubBackup} from './github-backup.mjs?v=connection-2';
+import {CloudBackup,SESSION_KEY} from './cloud-backup.mjs?v=code-1';
 import {STORAGE_KEY,emptyState,validateState,mergeStates,highlightIntervals,clipContext} from './records.mjs';
 const $=id=>document.getElementById(id);
 const ERA_NAMES={'-3':'Borrowed Thought','-2':'Shelter','-1':'Becoming',0:'Great Flourishing',1:'Echoes',2:'Great Reduction',3:'Small Lives',4:'Reopening'};
@@ -22,13 +22,13 @@ function save(){
   if(raw){const previous=validateState(JSON.parse(raw));state=mergeStates(state,previous);try{localStorage.setItem(STORAGE_KEY+'.previous',raw);}catch{}}
   localStorage.setItem(STORAGE_KEY,JSON.stringify(state));$('reader-save').textContent='Saved in this browser';$('save-alert').hidden=true;lastWrite=Date.now();saved=true;
  }catch{alertSave('Browser storage is unavailable or full. Your latest changes are in this open page only. Download a reading backup before leaving.');}
- queueGitHubBackup();updateProgress();return saved;
+ queueCloudBackup();updateProgress();return saved;
 }
 let confirmationTimer;
 $('save-reading').onclick=()=>{
  clearTimeout(confirmationTimer);
  const saved=save();
- if(github)void backUpGitHub();
+ if(cloud)void backUpCloud();
  $('save-confirmation').textContent=saved?'✓ Saved — your reading progress, highlights, and notes are saved in this browser.':'Could not save. See the storage warning above.';
  $('save-confirmation').hidden=false;
  confirmationTimer=setTimeout(()=>{$('save-confirmation').hidden=true;},6000);
@@ -175,35 +175,35 @@ $('reading-text').addEventListener('pointerup',()=>setTimeout(captureSelection,0
 let positionTimer;window.addEventListener('scroll',()=>{clearTimeout(positionTimer);positionTimer=setTimeout(()=>{if(!current||!currentContent||$('reader').hidden)return;const blocks=[...$('reading-text').children];const block=blocks.find(b=>b.getBoundingClientRect().bottom>110);if(block)updateRecord(current.id,{position:{block:block.dataset.block}});},500);},{passive:true});
 window.addEventListener('hashchange',route);window.addEventListener('storage',e=>{if(e.key!==STORAGE_KEY||!e.newValue)return;try{state=mergeStates(state,validateState(JSON.parse(e.newValue)));updateProgress();if(!$('library').hidden)renderLibrary();}catch{}});
 document.addEventListener('keydown',e=>{if(e.key==='Escape')hideSelection();});
-async function init(){try{wikiData=await loadWiki().catch(()=>null);const response=await fetch('catalog.json');if(!response.ok)throw Error();catalog=await response.json();entries=Array.isArray(catalog)?catalog:catalog.entries;byId=new Map(entries.map(e=>[e.id,e]));for(let era=-3;era<=4;era++)$('era-filter').add(new Option(eraName(era),String(era)));fillSelect('character-filter',[...new Set(entries.flatMap(e=>e.characters||[]))].sort(),'All characters');fillSelect('place-filter',[...new Set(entries.flatMap(e=>e.places||[]))].sort(),'All places');for(let era=-3;era<=4;era++){const b=node('button','Era '+String(era).replace('-','−'));b.dataset.era=String(era);b.title=eraName(era);b.onclick=()=>{$('era-filter').value=$('era-filter').value===String(era)?'':String(era);page=0;renderLibrary();};$('era-strip').append(b);}const sources=$('sources-list');for(const source of catalog.sources||[]){const div=node('div'),a=node('a',source.title||source.name);if(source.url||source.documentId){a.href=source.url||'https://docs.google.com/document/d/'+source.documentId+'/edit';a.target='_blank';a.rel='noopener';}div.append(a);if(source.empty)div.append(node('span','Empty source — no reading text','source-detail'));if(source.note)div.append(node('span',source.note,'source-detail'));sources.append(div);}$('snapshot-date').textContent='Archive snapshot: '+(catalog.generatedAt||catalog.generated||'October 27, 2026')+'. Reading records stay separate from the source texts.';appearance();route();}catch{alertSave('The archive could not load. Check your connection and refresh. Your reading records have not been changed.');}}
+async function init(){try{wikiData=await loadWiki().catch(()=>null);const response=await fetch('catalog.json');if(!response.ok)throw Error();catalog=await response.json();entries=Array.isArray(catalog)?catalog:catalog.entries;byId=new Map(entries.map(e=>[e.id,e]));for(let era=-3;era<=4;era++)$('era-filter').add(new Option(eraName(era),String(era)));fillSelect('character-filter',[...new Set(entries.flatMap(e=>e.characters||[]))].sort(),'All characters');fillSelect('place-filter',[...new Set(entries.flatMap(e=>e.places||[]))].sort(),'All places');for(let era=-3;era<=4;era++){const b=node('button','Era '+String(era).replace('-','−'));b.dataset.era=String(era);b.title=eraName(era);b.onclick=()=>{$('era-filter').value=$('era-filter').value===String(era)?'':String(era);page=0;renderLibrary();};$('era-strip').append(b);}const sources=$('sources-list');for(const source of catalog.sources||[]){const div=node('div'),a=node('a',source.title||source.name);if(source.url||source.documentId){a.href=source.url||'https://docs.google.com/document/d/'+source.documentId+'/edit';a.target='_blank';a.rel='noopener';}div.append(a);if(source.empty)div.append(node('span','Empty source — no reading text','source-detail'));if(source.note)div.append(node('span',source.note,'source-detail'));sources.append(div);}$('snapshot-date').textContent='Archive snapshot: '+(catalog.generatedAt||catalog.generated||'October 27, 2026')+'. Reading records stay separate from the source texts.';appearance();route();try{if(sessionStorage.getItem(SESSION_KEY))void connectCloud();}catch{}}catch{alertSave('The archive could not load. Check your connection and refresh. Your reading records have not been changed.');}}
 init();
 
 // Credentials remain in memory only. Browser data continues saving independently.
-let github=null,githubTimer,githubBusy=false,githubPending=false;
-function githubStatus(message){$('github-status').textContent=message;$('github-summary').textContent=message;}
-function githubControls(){for(const id of ['github-save','github-restore','github-disconnect'])$(id).disabled=!github||githubBusy;$('github-connect').disabled=githubBusy;}
-function queueGitHubBackup(){if(!github)return;clearTimeout(githubTimer);githubStatus('Changes waiting for GitHub backup…');githubTimer=setTimeout(()=>void backUpGitHub(),5000);}
-async function backUpGitHub(){
- clearTimeout(githubTimer);if(!github)return;if(githubBusy){githubPending=true;return;}
- githubBusy=true;githubControls();const snapshot=JSON.stringify(state);githubStatus('Backing up to GitHub…');
- try{await github.save(JSON.parse(snapshot));$('github-token').value='';githubStatus('Backed up to GitHub at '+new Date().toLocaleTimeString()+'.');}
- catch(error){githubStatus(error.message||'GitHub unavailable. Download a backup before closing.');}
- finally{githubBusy=false;githubControls();if(githubPending||JSON.stringify(state)!==snapshot){githubPending=false;queueGitHubBackup();}}
+let cloud=null,cloudTimer,cloudBusy=false,cloudPending=false;
+function cloudStatus(message){$('cloud-status').textContent=message;$('cloud-summary').textContent=message;}
+function cloudControls(){for(const id of ['cloud-save','cloud-restore','cloud-disconnect'])$(id).disabled=!cloud||cloudBusy;$('cloud-connect').disabled=cloudBusy;}
+function queueCloudBackup(){if(!cloud)return;clearTimeout(cloudTimer);cloudStatus('Changes waiting for private backup…');cloudTimer=setTimeout(()=>void backUpCloud(),5000);}
+async function backUpCloud(){
+ clearTimeout(cloudTimer);if(!cloud)return;if(cloudBusy){cloudPending=true;return;}
+ cloudBusy=true;cloudControls();const snapshot=JSON.stringify(state);cloudStatus('Saving private backup…');
+ try{await cloud.save(JSON.parse(snapshot));$('cloud-token').value='';cloudStatus('Private backup saved at '+new Date().toLocaleTimeString()+'.');}
+ catch(error){cloudStatus(error.message||'Private storage unavailable. Download a backup before closing.');}
+ finally{cloudBusy=false;cloudControls();if(cloudPending||JSON.stringify(state)!==snapshot){cloudPending=false;queueCloudBackup();}}
 }
-async function connectGitHub(){
- if(githubBusy)return;clearTimeout(githubTimer);githubBusy=true;githubControls();
- const token=$('github-token').value.trim();
- const connection=token?new GitHubBackup(token):github;
- try{if(!connection)throw Error('Enter a repository-limited token to connect.');if(storageCorrupt)throw Error('Recover the existing browser data before connecting.');githubStatus('Checking private backup and merging records…');const remote=await connection.load();
+async function connectCloud(){
+ if(cloudBusy)return;clearTimeout(cloudTimer);cloudBusy=true;cloudControls();
+ const token=$('cloud-token').value.trim();
+ const connection=token?new CloudBackup(token):(cloud||new CloudBackup());
+ try{if(!connection)throw Error('Enter your backup code to unlock.');if(storageCorrupt)throw Error('Recover the existing browser data before connecting.');cloudStatus('Unlocking private backup and merging records…');const remote=await connection.load();
  if(remote){beforeImport=structuredClone(state);try{localStorage.setItem(STORAGE_KEY+'.before-import',JSON.stringify(beforeImport));}catch{}$('download-before-import').hidden=false;state=mergeStates(state,remote);}
- if(github&&github!==connection)github.disconnect();github=connection;save();appearance();route();githubPending=false;
- }catch(error){githubStatus(error.message||'Could not connect to GitHub.');connection?.disconnect();github=null;}
- finally{githubBusy=false;githubControls();}
- if(github)await backUpGitHub();
+ if(cloud&&cloud!==connection)cloud.disconnect();cloud=connection;save();appearance();route();cloudPending=false;
+ }catch(error){cloudStatus(error.message||'Could not unlock private backups.');connection?.disconnect();cloud=null;}
+ finally{cloudBusy=false;cloudControls();}
+ if(cloud)await backUpCloud();
 }
-$('github-connect').onclick=connectGitHub;
-$('github-restore').onclick=connectGitHub;
-$('github-save').onclick=()=>void backUpGitHub();
-$('github-disconnect').onclick=()=>{clearTimeout(githubTimer);github?.disconnect();github=null;githubPending=false;githubControls();githubStatus('Disconnected. Browser records and the GitHub backup are preserved.');};
+$('cloud-connect').onclick=connectCloud;
+$('cloud-restore').onclick=connectCloud;
+$('cloud-save').onclick=()=>void backUpCloud();
+$('cloud-disconnect').onclick=()=>{clearTimeout(cloudTimer);cloud?.disconnect();cloud=null;cloudPending=false;cloudControls();cloudStatus('Disconnected. Browser records and the private backup are preserved.');};
 
 function renderWikiConnections(){const panel=$('reader-connections');panel.replaceChildren(node('h2','Connected on this site'),node('p','Explore named people, places, events, and ideas. Links identify mentions; they do not settle disputed identities or relationships.'));const topics=readingConnections(current.id);const links=node('div',undefined,'connection-chips');for(const topic of topics){const a=node('a',topic.title);a.href='wiki.html#'+topic.id;links.append(a);}panel.append(links);if(!topics.length){const a=node('a','Browse all lore connections →');a.href='wiki.html';panel.append(a);}const eraLinks=node('div',undefined,'source-links');for(const era of current.era||[]){const a=node('a',eraName(era));a.href='timeline.html#era-'+era;eraLinks.append(a);}panel.append(eraLinks);}

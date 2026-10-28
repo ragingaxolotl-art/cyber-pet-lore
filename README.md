@@ -40,15 +40,13 @@ Select a passage and choose **Clip**, add optional notes, review the detected ch
 
 Clips remain highlighted in the story. **My notebook → Show only clips** collects them with editable notes, a **Return to passage** link, and **Copy passage** for preparing teasers. Copying does not publish anything. The existing Save button, automatic browser saving, and JSON backups include clips. Imported clip number collisions are assigned the next available number while local numbers remain stable. Numbers are personal to the browser's reading collection, not a public global numbering system. Earlier reading backups remain supported.
 
-## Private GitHub backup
+## Private code-based backup
 
-Backups connects directly to `ragingaxolotl-art/cyber-pet-lore-backup` using a user-entered fine-grained token restricted to that repository with Contents read/write permission. The token is retained only in page memory, never in browser storage, downloads, or source control. Reconnect after refreshing or closing. No server credential is bundled in this public website.
+Open Backups, enter your backup code, and choose Unlock and back up. The site merges remote reading records, preserves a pre-merge browser copy, then saves notes, clips, highlights, tags, and progress after five idle seconds. Save and Back up now save immediately. Online records use the existing Cyber Pet service at `/lore-backups`, in separate lore tables; they are not written to either GitHub repository or student storage.
 
-Connection checks repository privacy, reads and validates `reading-backup.json`, merges existing records, and saves the collection. Changes back up after five idle seconds while connected; Save and Back up now request immediate backup. Status is visible above the page and in Backups. GitHub failures leave browser data intact. Wait for confirmation before closing. Backups over 900 KB require JSON download instead.
+The server-only `LORE_ACCESS_CODE` secret authorizes an independent 12-hour session. Only its opaque session token is kept in this tab's session storage; the code is not persisted or bundled. Refresh resumes the session. Lock revokes it. Local reading data remains on the device after locking. Anyone with the shared code has access to the online notebook.
 
-Merge latest GitHub backup merges other-device updates; newer whole-reading records win, as for file imports. Prior local records can be downloaded from Backups after a merge. Concurrent GitHub changes stop writes until reconnect/merge, avoiding blind overwrites. GitHub commits retain previous versions. Connecting an empty browser restores existing records. The feature cannot access records from another browser/device; connect from the browser holding the notes.
-
-API reference: https://docs.github.com/en/rest/repos/contents
+Server checks enforce allowed origins, login throttling, a 900 KB request limit, validated reading data, and atomic revision comparisons. Prior versions remain in private storage. A conflicting save stops and requests Merge latest backup; newer whole-reading records win on merge. Download/import remain available. Existing private GitHub backups are not deleted; download their JSON and import it if needed. The GitHub client module remains for compatibility tests, but the main website no longer asks for a GitHub token.
 
 ## Era timeline
 
