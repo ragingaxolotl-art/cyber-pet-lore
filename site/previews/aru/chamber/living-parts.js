@@ -38,7 +38,7 @@ function ringSegments(t){const a=t/12*TAU,out=[];for(let ring=0;ring<2;ring++){
  }return out;
 }
 export function livingLayers(t,variant=0){const a=t/12*TAU,items=shards.map(p=>{const angle=p.phase+a*p.speed+.13*Math.sin(a*3+p.seed);return meshItem(p.mesh,[Math.cos(angle)*p.radius,25+Math.sin(angle)*p.height,55*Math.sin(angle+p.seed*.3)],[a*(1+p.seed%3),a*(p.seed%2?-2:3)+p.phase,a*(p.seed%3-1)+p.phase],.85);});
- items.push(...handItems(t,-1),...handItems(t,1),...wingItems(t),{...meshItem(head,[0,-135+2*Math.sin(a),0],[.12*Math.sin(a*2),a,.08*Math.sin(a)],.65),body:true},...ringSegments(t),...bodyItems(t,variant));
+ items.push(...handItems(t,-1),...handItems(t,1),...ringSegments(t));
  return glitchLayers(items,t,variant).sort((a,b)=>a.z-b.z);
 }
 export function drawLivingLayer(c,item){if(!item.ring){drawMesh(c,item);return;}c.save();const project=v=>[960+v[0]*900/(900-v[2]),500+v[1]*900/(900-v[2])];c.strokeStyle=item.color;c.globalAlpha=item.z<0?.52:.94;c.lineWidth=item.bright?2.6:1.5;c.shadowColor=item.color;c.shadowBlur=item.bright?8:3;c.beginPath();c.moveTo(...project(item.points[0]));c.lineTo(...project(item.points[1]));c.stroke();c.restore();}
