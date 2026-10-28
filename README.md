@@ -76,6 +76,12 @@ Open **Connections** (`wiki.html`) to search 348 indexed people, places, stories
 
 `tools/build_wiki.py` rebuilds the index from published archive content after the timeline build. Automated checks validate every reading/block/event destination, ambiguous-name choices, and exact passage-text preservation for highlights and clips. Original-document provenance remains in the library Sources dialog; connected reading links stay on this site.
 
+
+## Illness field guide
+
+The **Illnesses** directory contains 46 named conditions: 15 random category variants and 31 location-specific trademarks restricted to corruption 4–5. Every entry includes an animated native Godot preview on anonymous sample artwork, a frame sheet, treatment information, and a clearly hypothetical future story hook. Filters cover category, location/name, and trademark status. The original stories and existing reading anchors are preserved.
+
+Artwork includes 14 reviewed transparent PixelLab sprites, seven eight-frame loops, and native Godot echo, orbit, heat, and pulse effects. Reduced-motion preferences show still previews. The downloadable ZIP groups each illness with its description and frame sheet. Google Drive and CPP Lore/Locations Atlas tabs link to the same field guide. Runtime balance remains authored in CPP-V3/config/scenery_profiles.json.
 ## Semantic vocal arrangements (version 2)
 
 The current player uses `site/songs/voices-v2/`: four songs, twelve separately auditable voices, 144 assertions and 1,508 notes. Every pitched event belongs to a canonical phrase. There are no accompaniment-only notes or percussion. The three concurrent statements remain independent; this does not establish a new canonical polyphonic grammar. Sound color is synthesized DBA vocal timbre, not a claim of recorded human pronunciation. Original instrumental exports remain as historical files; the player and backstories use version 2.

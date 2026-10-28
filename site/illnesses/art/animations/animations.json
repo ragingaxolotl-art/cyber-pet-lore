@@ -1,0 +1,38 @@
+{
+  "fps": 6,
+  "frames": 8,
+  "frame_size": [
+    128,
+    128
+  ],
+  "sources": [
+    {
+      "id": "infection_crystal_rash",
+      "job": "56ccaa68-2c6f-45f8-a96e-1b03c23242c5"
+    },
+    {
+      "id": "glitch_fever",
+      "job": "100054d2-28ed-44fd-b703-8fdc3a160d97"
+    },
+    {
+      "id": "parasite_moss_crown",
+      "job": "dd1d985d-1e38-4552-a62c-5d7a719fc2bd"
+    },
+    {
+      "id": "parasite_spore_fan",
+      "job": "75ce98ec-b535-4659-bce2-eedf015bb8e7"
+    },
+    {
+      "id": "static_mites",
+      "job": "4575f7c7-ba03-4446-8227-4af830fcf8cc"
+    },
+    {
+      "id": "stress_tangle",
+      "job": "ceb2d64e-8fac-4353-95d6-aab978641187"
+    },
+    {
+      "id": "queasy_bubbles",
+      "job": "307d3f34-ca31-4142-a0f6-09cd793ccc8e"
+    }
+  ]
+}
