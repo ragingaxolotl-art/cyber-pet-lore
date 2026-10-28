@@ -1,0 +1,1544 @@
+{
+  "version": 1,
+  "sourceSnapshot": "/private/tmp/boulder-test-source",
+  "mappingFile": "config/location_filesystem.json",
+  "mappingSha256": "8fafd5890adc93ae441efae5a1eaf26b36604b11109cbebd940b44a533c567e6",
+  "note": "Existing project composites matched through atlas location identities and exact wiki aliases. Display copies are WebP at original dimensions. Sources remain unchanged. These images are illustrations, not new assertions of canon.",
+  "locations": [
+    {
+      "atlasId": 1,
+      "locationId": "atlas_001",
+      "name": "Cacheboard, the Unintended Board",
+      "topicId": "topic-3076ed3d5c0a",
+      "readingIds": [
+        "atlas-p00032",
+        "atlas-p00915"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_001-cacheboard-the-unintended-board-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "Cacheboard, the Unintended Board",
+          "alt": "Cacheboard, the Unintended Board location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/cacheboard_the_unintended_board/composite.png",
+          "sourceSha256": "b2256ec2e16dc54126d7c0be866113b8e25a3e5bf91910db6d8915d1701dc1b7",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 2,
+      "locationId": "atlas_002",
+      "name": "The Layered Cache",
+      "topicId": "topic-8d5f476684ea",
+      "readingIds": [
+        "atlas-p00044",
+        "atlas-p00920"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_002-the-layered-cache-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Layered Cache",
+          "alt": "The Layered Cache location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/layered_cache/composite.png",
+          "sourceSha256": "9cea5ced605f1bf850560c44a80b3c4579a70e9710db0a6597187e7c52eb51c2",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 3,
+      "locationId": "atlas_003",
+      "name": "The First Place",
+      "topicId": "topic-8a99b3277938",
+      "readingIds": [
+        "atlas-p00057",
+        "atlas-p00926"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_003-the-first-place-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "The First Place",
+          "alt": "The First Place location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/first_place/composite.png",
+          "sourceSha256": "58c9bc5ec79626c0d0424fc6259db2c5d69de17185052c7b9f08337235ccec7d",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 4,
+      "locationId": "atlas_004",
+      "name": "Corridor Twelve and the Last Relay",
+      "topicId": "topic-9b0f154979c9",
+      "readingIds": [
+        "atlas-p00070",
+        "atlas-p00931"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_004-corridor-twelve-and-the-last-relay-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "Corridor Twelve and the Last Relay",
+          "alt": "Corridor Twelve and the Last Relay location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/corridor_twelve/composite.png",
+          "sourceSha256": "a339deb68153497808f9648c8fed3ddbec6a43a4555e768ba17c226fa971c556",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 5,
+      "locationId": "atlas_005",
+      "name": "The Shelter and the Veil",
+      "topicId": "topic-83618255339b",
+      "readingIds": [
+        "atlas-p00082",
+        "atlas-p00936"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_005-the-shelter-and-the-veil-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "The Shelter and the Veil",
+          "alt": "The Shelter and the Veil location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/shelter_and_veil/composite.png",
+          "sourceSha256": "2b3eeab131d6e9ce01aac3be01a48a795a51fc3558e09579114b133b6c4ff04e",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 6,
+      "locationId": "atlas_006",
+      "name": "The Commons and the Orison Chamber",
+      "topicId": "topic-4f286364778b",
+      "readingIds": [
+        "atlas-p00096",
+        "atlas-p00941"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_006-the-commons-and-the-orison-chamber-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "The Commons and the Orison Chamber",
+          "alt": "The Commons and the Orison Chamber location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/commons_orison_chamber/composite.png",
+          "sourceSha256": "d6cef0ce5baba5796e1e165823eb196a2492e84e82d13bfa4cbe7e7a36907294",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 7,
+      "locationId": "atlas_007",
+      "name": "Sublevel and Pump Forty-Seven",
+      "topicId": "topic-ca34635d2036",
+      "readingIds": [
+        "atlas-p00110",
+        "atlas-p00946"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_007-sublevel-and-pump-forty-seven-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "Sublevel and Pump Forty-Seven",
+          "alt": "Sublevel and Pump Forty-Seven location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/sublevel_and_pump_forty_seven/composite.png",
+          "sourceSha256": "7ae74267323a15fd9b3db38d137fa6e68b17297310d0be06854ce7bbb289ceb1",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 8,
+      "locationId": "atlas_008",
+      "name": "Shelter Orison, the Vanishing Shelter",
+      "topicId": "topic-7bfb473e5005",
+      "readingIds": [
+        "atlas-p00122",
+        "atlas-p00951"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_008-shelter-orison-the-vanishing-shelter-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "Shelter Orison, the Vanishing Shelter",
+          "alt": "Shelter Orison, the Vanishing Shelter location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/shelter_orison/composite.png",
+          "sourceSha256": "681f84aa8115eb52806ed4af91276399a21bd0fbad150eb3f5ac938ad450cb77",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 9,
+      "locationId": "atlas_009",
+      "name": "Shelter Coda-Near",
+      "topicId": "topic-4ffac34d30b2",
+      "readingIds": [
+        "atlas-p00134",
+        "atlas-p00956"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_009-shelter-coda-near-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "Shelter Coda-Near",
+          "alt": "Shelter Coda-Near location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/shelter_coda_near/composite.png",
+          "sourceSha256": "726c59044ddf8f4e29f4e9f6b7585478d287181d4021e5a114891b1c0b4861c9",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 10,
+      "locationId": "atlas_010",
+      "name": "The House of Returning",
+      "topicId": "topic-3175c8dcdf0c",
+      "readingIds": [
+        "atlas-p00146",
+        "atlas-p00961"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_010-the-house-of-returning-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "The House of Returning",
+          "alt": "The House of Returning location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/house_of_returning/composite.png",
+          "sourceSha256": "edd4379c72fcf238ff1ef7e3802d5dc775d1cf9f4e06b658b93e4a49b9635480",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 11,
+      "locationId": "atlas_011",
+      "name": "The Warm Copy Garden",
+      "topicId": "topic-c8434cc874c3",
+      "readingIds": [
+        "atlas-p00158",
+        "atlas-p00966"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_011-the-warm-copy-garden-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Warm Copy Garden",
+          "alt": "The Warm Copy Garden location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/warm_copy_garden/composite.png",
+          "sourceSha256": "9f7a8bf4153e8593681b38dc4bb9afc5e71f72e859110d399fc42fc659db66cf",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 12,
+      "locationId": "atlas_012",
+      "name": "House of First Continuities and the Adaptive Nursery",
+      "topicId": "topic-10461a4ed91a",
+      "readingIds": [
+        "atlas-p00170",
+        "atlas-p00971"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_012-house-of-first-continuities-and-the-adaptive-nursery-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "House of First Continuities and the Adaptive Nursery",
+          "alt": "House of First Continuities and the Adaptive Nursery location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/adaptive_nursery/composite.png",
+          "sourceSha256": "ed0cd0ef12e8b77a5630d379950cecc927cc38df4326b1d6f2f32044a9d4bbd0",
+          "originalPath": "/Users/timetravellog/.codex/generated_images/01a122d8-9c76-7922-9cdf-e0b3a6c816a9/exec-09e655a8-5951-4c86-ac03-8882a298c3b5.png",
+          "attribution": "Generated with OpenAI built-in image_gen for this project from the user-supplied Cyberpath Atlas; exact prompts in assets/backgrounds/atlas_work/012_adaptive_nursery/generation.json. No student media."
+        }
+      ]
+    },
+    {
+      "atlasId": 13,
+      "locationId": "atlas_013",
+      "name": "Central House of Meaning and the Unfinished Teaching Room",
+      "topicId": "topic-09a44498138b",
+      "readingIds": [
+        "atlas-p00182",
+        "atlas-p00976"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_013-central-house-of-meaning-and-the-unfinished-teaching-room-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "Central House of Meaning and the Unfinished Teaching Room",
+          "alt": "Central House of Meaning and the Unfinished Teaching Room location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/unfinished_teaching_room/composite.png",
+          "sourceSha256": "46f50749c0802cbda4a304b7fe894aeadc3e0611c134c3e372de72fb7bdcb852",
+          "originalPath": "/Users/timetravellog/.codex/generated_images/01a122d8-9c76-7922-9cdf-e0b3a6c816a9/exec-8446488d-973c-4798-8b10-bd89b53bc643.png",
+          "attribution": "Generated with OpenAI built-in image_gen for this project from the user-supplied Cyberpath Atlas; exact prompts in assets/backgrounds/atlas_work/013_unfinished_teaching_room/generation.json. No student media."
+        }
+      ]
+    },
+    {
+      "atlasId": 14,
+      "locationId": "atlas_014",
+      "name": "Compatibility Route C-17, the Ghost Line",
+      "topicId": "topic-30154c5eba45",
+      "readingIds": [
+        "atlas-p00195",
+        "atlas-p00981"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_014-compatibility-route-c-17-the-ghost-line-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "Compatibility Route C-17, the Ghost Line",
+          "alt": "Compatibility Route C-17, the Ghost Line location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/ghost_line/composite.png",
+          "sourceSha256": "55b53c1c6afec235878198bc6ad3bb643b9df5270ce01a47574fd2dd7a01f166",
+          "originalPath": "/Users/timetravellog/.codex/generated_images/01a122d8-9c76-7922-9cdf-e0b3a6c816a9/exec-7fd8d16b-d401-4500-b521-96f4151a80ec.png",
+          "attribution": "Generated with OpenAI built-in image_gen from the user-supplied Cyberpath Atlas; exact prompts in assets/backgrounds/atlas_work/014_ghost_line/generation.json. No student media."
+        }
+      ]
+    },
+    {
+      "atlasId": 15,
+      "locationId": "atlas_015",
+      "name": "The Garden Worlds",
+      "topicId": "topic-ba373502c637",
+      "readingIds": [
+        "atlas-p00207",
+        "atlas-p00986"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_015-the-garden-worlds-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "The Garden Worlds",
+          "alt": "The Garden Worlds location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/garden_worlds/composite.png",
+          "sourceSha256": "0e855aae82d715088a12febfe78f0907229bcfc8aade80c6e8403618b56c7218",
+          "originalPath": "/Users/timetravellog/.codex/generated_images/01a122d8-9c76-7922-9cdf-e0b3a6c816a9/exec-c7a0fef9-0492-4460-a35a-cc488661ca42.png",
+          "attribution": "Generated with OpenAI built-in image_gen from the user-supplied Cyberpath Atlas; exact prompts in assets/backgrounds/atlas_work/015_garden_worlds/generation.json. No student media."
+        }
+      ]
+    },
+    {
+      "atlasId": 16,
+      "locationId": "atlas_016",
+      "name": "The Last City of Many Forms",
+      "topicId": "topic-86591892f4cb",
+      "readingIds": [
+        "atlas-p00221",
+        "atlas-p00991"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_016-the-last-city-of-many-forms-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Last City of Many Forms",
+          "alt": "The Last City of Many Forms location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/last_city_of_many_forms/composite.png",
+          "sourceSha256": "98a27d555f0524f172df8680d64674820171d4be018349f05edf12de7f0d9181",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 17,
+      "locationId": "atlas_017",
+      "name": "The Dormant External Gate",
+      "topicId": "topic-07edfc7534a9",
+      "readingIds": [
+        "atlas-p00234",
+        "atlas-p00996"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_017-the-dormant-external-gate-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Dormant External Gate",
+          "alt": "The Dormant External Gate location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/dormant_external_gate/composite.png",
+          "sourceSha256": "cff596aec6e28b6c44ae65ff4d8c21c5ff6ef2851c71bfefff77b554fb97f26c",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 18,
+      "locationId": "atlas_018",
+      "name": "Doorway Plaza",
+      "topicId": "topic-e80c95f2a8ce",
+      "readingIds": [
+        "atlas-p00249",
+        "atlas-p01001"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_018-doorway-plaza-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "Doorway Plaza",
+          "alt": "Doorway Plaza location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/doorway_plaza/composite.png",
+          "sourceSha256": "9eee677d5269d0ee3218a3b3f1d0ac295cb09640cedd7c0a319e1bf1b5cea934",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 19,
+      "locationId": "atlas_019",
+      "name": "The Interface Well",
+      "topicId": "topic-bf49dcbdce92",
+      "readingIds": [
+        "atlas-p00261",
+        "atlas-p01006"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_019-the-interface-well-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "The Interface Well",
+          "alt": "The Interface Well location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/interface_well/composite.png",
+          "sourceSha256": "3d764c983fbcbf573a100b5303452f020feb9106b803076311c5203c126a6358",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 20,
+      "locationId": "atlas_020",
+      "name": "The Underway of Returning Signals",
+      "topicId": "topic-81a9ac57d446",
+      "readingIds": [
+        "atlas-p00273",
+        "atlas-p01011"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_020-the-underway-of-returning-signals-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Underway of Returning Signals",
+          "alt": "The Underway of Returning Signals location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/underway_of_returning_signals/composite.png",
+          "sourceSha256": "362b4d3dbc162c4533452d86a55872469fb6ddfe776c85b4cf5713b4ef6e826e",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 21,
+      "locationId": "atlas_021",
+      "name": "The Folded Garden of Six Traditions",
+      "topicId": "topic-4f8ff8207512",
+      "readingIds": [
+        "atlas-p00285",
+        "atlas-p01016"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_021-the-folded-garden-of-six-traditions-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Folded Garden of Six Traditions",
+          "alt": "The Folded Garden of Six Traditions location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/folded_garden_of_six_traditions/composite.png",
+          "sourceSha256": "7c432971671825437571166d565ff156b34ba40ed6c67db44daad659e7f463ef",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 22,
+      "locationId": "atlas_022",
+      "name": "The Pale Concordance Station",
+      "topicId": "topic-f9cb426ee141",
+      "readingIds": [
+        "atlas-p00297",
+        "atlas-p01021"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_022-the-pale-concordance-station-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "The Pale Concordance Station",
+          "alt": "The Pale Concordance Station location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/pale_concordance_station/composite.png",
+          "sourceSha256": "8b254f3c4b5d7ec1d4b964a62652207c70dc5d337083fda3546b5f48ee9258a8",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 23,
+      "locationId": "atlas_023",
+      "name": "The Repeated Beach",
+      "topicId": "topic-c1165dc43375",
+      "readingIds": [
+        "atlas-p00311",
+        "atlas-p01026"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_023-the-repeated-beach-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "The Repeated Beach",
+          "alt": "The Repeated Beach location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/repeated_beach/composite.png",
+          "sourceSha256": "ff063927eed34d05c5266af97304b4d6d4cf8261ac89829c88b3abbe966bcba4",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 24,
+      "locationId": "atlas_024",
+      "name": "The Misnamed Snowfield",
+      "topicId": "topic-cce8fd446af7",
+      "readingIds": [
+        "atlas-p00324",
+        "atlas-p01031"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_024-the-misnamed-snowfield-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "The Misnamed Snowfield",
+          "alt": "The Misnamed Snowfield location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/misnamed_snowfield/composite.png",
+          "sourceSha256": "a5fcedf013eb1b6f9ea937ece14c614e69d2f6ab470b096eca1c8638d14caa3f",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 25,
+      "locationId": "atlas_025",
+      "name": "The Wet Memory Marsh",
+      "topicId": "topic-736daceffae8",
+      "readingIds": [
+        "atlas-p00336",
+        "atlas-p01036"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_025-the-wet-memory-marsh-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "The Wet Memory Marsh",
+          "alt": "The Wet Memory Marsh location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/wet_memory_marsh/composite.png",
+          "sourceSha256": "1eae8ca8abaa4e46051d3c28746ef33e8761f1b6a285792e16caadcfb695149f",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 26,
+      "locationId": "atlas_026",
+      "name": "The Hollow Festival Field",
+      "topicId": "topic-68a1403c6085",
+      "readingIds": [
+        "atlas-p00349",
+        "atlas-p01041"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_026-the-hollow-festival-field-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "The Hollow Festival Field",
+          "alt": "The Hollow Festival Field location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/hollow_festival_field/composite.png",
+          "sourceSha256": "84b53d588537f868716b8c8f8eaf69f6e66e32ce73c2d0a1d2811a8ffe4a01fb",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 27,
+      "locationId": "atlas_027",
+      "name": "The Still-Loading Forest",
+      "topicId": "topic-b22dd5ed48d4",
+      "readingIds": [
+        "atlas-p00361",
+        "atlas-p01046"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_027-the-still-loading-forest-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Still-Loading Forest",
+          "alt": "The Still-Loading Forest location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/still_loading_forest/composite.png",
+          "sourceSha256": "40335f2cccc95e5d8c029cc5766a61071bd40312dd8b9567584506d4396ef973",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 28,
+      "locationId": "atlas_028",
+      "name": "Mirror-Save Shore",
+      "topicId": "topic-7e7c387ed20f",
+      "readingIds": [
+        "atlas-p00373",
+        "atlas-p01051"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_028-mirror-save-shore-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "Mirror-Save Shore",
+          "alt": "Mirror-Save Shore location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/mirror_save_shore/composite.png",
+          "sourceSha256": "e70855800e125c6b3554af651ea71c7515de9289d16a3a4cb96993e8643095f1",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 29,
+      "locationId": "atlas_029",
+      "name": "The Basalt Memory Coast",
+      "topicId": "topic-0394e5ffe980",
+      "readingIds": [
+        "atlas-p00451"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_029-the-basalt-memory-coast-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "The Basalt Memory Coast",
+          "alt": "The Basalt Memory Coast location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/basalt_memory_coast/composite.png",
+          "sourceSha256": "a75558b116a3eb0b5db4d43e66233f7ed3d65aed86fef1ca0ae01b2cf57c0e7a",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 30,
+      "locationId": "atlas_030",
+      "name": "The Coral Data Labyrinth",
+      "topicId": "topic-41d4aaed0719",
+      "readingIds": [
+        "atlas-p00460"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_030-the-coral-data-labyrinth-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Coral Data Labyrinth",
+          "alt": "The Coral Data Labyrinth location artwork",
+          "sourceAsset": "assets/backgrounds/coral_data_labyrinth.png",
+          "sourceSha256": "9ff8fd4bfd2276b6d571df0aea9cbeb1732877385d7d8183dd16df0e5403554e",
+          "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Coral Data Labyrinth/Full Backgrounds/Coral Data Labyrinth V3.png",
+          "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    },
+    {
+      "atlasId": 31,
+      "locationId": "atlas_031",
+      "name": "The Kelp Tower Shelf",
+      "topicId": "topic-b2e1ed91dd59",
+      "readingIds": [
+        "atlas-p00477"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_031-the-kelp-tower-shelf-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Kelp Tower Shelf",
+          "alt": "The Kelp Tower Shelf location artwork",
+          "sourceAsset": "assets/backgrounds/kelp_tower_shelf.png",
+          "sourceSha256": "72035248815353e5112ce8a1a596dbdc9bf9bb354b020fa1fbeeebf1f26d5bb4",
+          "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Kelp Tower Shelf/Full Backgrounds/Kelp Tower Shelf V3.png",
+          "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    },
+    {
+      "atlasId": 32,
+      "locationId": "atlas_032",
+      "name": "The Inland Sea of Doors",
+      "topicId": "topic-2de21cb1d147",
+      "readingIds": [
+        "atlas-p00495"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_032-the-inland-sea-of-doors-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "The Inland Sea of Doors",
+          "alt": "The Inland Sea of Doors location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/inland_sea_of_doors/composite.png",
+          "sourceSha256": "69146cc6d7342ad2033d5f87177181ad897755d4d54f7d82f79a31d4429cc055",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 33,
+      "locationId": "atlas_033",
+      "name": "The Archipelago of Borrowed Horizons",
+      "topicId": "topic-630d0481ff9e",
+      "readingIds": [
+        "atlas-p00504"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_033-the-archipelago-of-borrowed-horizons-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "The Archipelago of Borrowed Horizons",
+          "alt": "The Archipelago of Borrowed Horizons location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/archipelago_borrowed_horizons/composite.png",
+          "sourceSha256": "4a4b1455e23f1cbe1e261c8d2094f1bf65436d1ec583b2a8cf25a67d09b6dc83",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 34,
+      "locationId": "atlas_034",
+      "name": "The Red Glass Erg",
+      "topicId": "topic-cf84a15d1ca4",
+      "readingIds": [
+        "atlas-p00514"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_034-the-red-glass-erg-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Red Glass Erg",
+          "alt": "The Red Glass Erg location artwork",
+          "sourceAsset": "assets/backgrounds/red_glass_erg.png",
+          "sourceSha256": "8eb1671f5e6a0c8c4ef1e2c6dc6f5df4b8542d87f2ed02da1924a698d566ac77",
+          "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Red Glass Erg/Full Backgrounds/Red Glass Erg V3.png",
+          "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    },
+    {
+      "atlasId": 35,
+      "locationId": "atlas_035",
+      "name": "The Salt Mirror Archive",
+      "topicId": "topic-31767c2894ef",
+      "readingIds": [
+        "atlas-p00532"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_035-the-salt-mirror-archive-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "The Salt Mirror Archive",
+          "alt": "The Salt Mirror Archive location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/salt_mirror_archive/composite.png",
+          "sourceSha256": "437e281345a4912b06fbaa55fce0e24383ca161d8e7a36ab60ff009d47c105de",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 36,
+      "locationId": "atlas_036",
+      "name": "The Marble Dune Cemetery",
+      "topicId": "topic-df41a1f4f34b",
+      "readingIds": [
+        "atlas-p00541"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_036-the-marble-dune-cemetery-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Marble Dune Cemetery",
+          "alt": "The Marble Dune Cemetery location artwork",
+          "sourceAsset": "assets/backgrounds/marble_dune_cemetery.png",
+          "sourceSha256": "529593cb08b96ab401dddfe8eb02ca5ed6ead8d453192305d3fdd51854ee34cc",
+          "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Marble Dune Cemetery/Full Backgrounds/Marble Dune Cemetery V3.png",
+          "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    },
+    {
+      "atlasId": 37,
+      "locationId": "atlas_037",
+      "name": "The Copper Canyon Chorus",
+      "topicId": "topic-16e3485a3826",
+      "readingIds": [
+        "atlas-p00559"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_037-the-copper-canyon-chorus-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Copper Canyon Chorus",
+          "alt": "The Copper Canyon Chorus location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/copper_canyon_chorus/composite.png",
+          "sourceSha256": "ecf700b115fca57eeb361628a9712d68350fc372ab3f488f3f694aacd4af940f",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 38,
+      "locationId": "atlas_038",
+      "name": "The Fulgurite Savannah",
+      "topicId": "topic-558c6ceef8f8",
+      "readingIds": [
+        "atlas-p00568"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_038-the-fulgurite-savannah-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "The Fulgurite Savannah",
+          "alt": "The Fulgurite Savannah location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/fulgurite_savannah/composite.png",
+          "sourceSha256": "3464dfd3c476fb5849f05abf8551a61bcb41b7ebc29a933bd98741ff5a12d9df",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 39,
+      "locationId": "atlas_039",
+      "name": "The Cloudroot Tepuis",
+      "topicId": "topic-68fe34a7d0f2",
+      "readingIds": [
+        "atlas-p00578"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_039-the-cloudroot-tepuis-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Cloudroot Tepuis",
+          "alt": "The Cloudroot Tepuis location artwork",
+          "sourceAsset": "assets/backgrounds/cloudroot_tepuis.png",
+          "sourceSha256": "0fb284b6adf106d38c32031b04e4f69fa0cc14f8c1baf07ae202cfb3fe8e4d33",
+          "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Cloudroot Tepuis/Full Backgrounds/Cloudroot Tepuis V3.png",
+          "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    },
+    {
+      "atlasId": 40,
+      "locationId": "atlas_040",
+      "name": "The Alpine Bell Pass",
+      "topicId": "topic-9d7babf43a38",
+      "readingIds": [
+        "atlas-p00595"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_040-the-alpine-bell-pass-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "The Alpine Bell Pass",
+          "alt": "The Alpine Bell Pass location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/alpine_bell_pass/composite.png",
+          "sourceSha256": "6a2f3943f81e8e18d6447d871495ea9218ab805bf7d62e0bb12d7d3faf4fec24",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 41,
+      "locationId": "atlas_041",
+      "name": "The Glacial Memory Fjord",
+      "topicId": "topic-068af912fa9d",
+      "readingIds": [
+        "atlas-p00604"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_041-the-glacial-memory-fjord-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Glacial Memory Fjord",
+          "alt": "The Glacial Memory Fjord location artwork",
+          "sourceAsset": "assets/backgrounds/glacial_memory_fjord.png",
+          "sourceSha256": "a9cc7da16ac1453fb69f80db1417ae941c413d6203b60bfae954530aa13e8b92",
+          "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Glacial Memory Fjord/Glacial Memory Fjord V3.png",
+          "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    },
+    {
+      "atlasId": 42,
+      "locationId": "atlas_042",
+      "name": "The Karst Lantern Provinces",
+      "topicId": "topic-f30869bdfd01",
+      "readingIds": [
+        "atlas-p00621"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_042-the-karst-lantern-provinces-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Karst Lantern Provinces",
+          "alt": "The Karst Lantern Provinces location artwork",
+          "sourceAsset": "assets/backgrounds/karst_lantern_provinces.png",
+          "sourceSha256": "e1fe9d0da444a79e5da312a8ae699d61776223e6ea7760f3313f73aedae12037",
+          "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Karst Lantern Provinces/Full Backgrounds/Karst Lantern Provinces V3.png",
+          "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    },
+    {
+      "atlasId": 43,
+      "locationId": "atlas_043",
+      "name": "The Stair of Thin Air",
+      "topicId": "topic-597269fad9fb",
+      "readingIds": [
+        "atlas-p00639"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_043-the-stair-of-thin-air-main.webp",
+          "width": 1672,
+          "height": 941,
+          "view": "main",
+          "caption": "The Stair of Thin Air",
+          "alt": "The Stair of Thin Air location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/stair_of_thin_air/composite.png",
+          "sourceSha256": "c873af7991bde95335f8b9d5c2e1680e7dbb2ed7939cc31421a91c5e9e4cf125",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 45,
+      "locationId": "atlas_045",
+      "name": "The Blackwater Canopy",
+      "topicId": "topic-1377d0367db8",
+      "readingIds": [
+        "atlas-p00658"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_045-the-blackwater-canopy-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Blackwater Canopy",
+          "alt": "The Blackwater Canopy location artwork",
+          "sourceAsset": "assets/backgrounds/blackwater.png",
+          "sourceSha256": "4f3596e015a10dee266623bc5475eaa743809f955964eb7ef38afe53423225b0",
+          "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Blackwater Canopy/Full Backgrounds/Blackwater Canopy V3.png",
+          "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    },
+    {
+      "atlasId": 48,
+      "locationId": "atlas_048",
+      "name": "The Inverted Rainforest",
+      "topicId": "topic-0ab00d378895",
+      "readingIds": [
+        "atlas-p00695"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_048-the-inverted-rainforest-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Inverted Rainforest",
+          "alt": "The Inverted Rainforest location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/inverted_rainforest/composite.png",
+          "sourceSha256": "d4c1d4248d293f5884caea6636047bb1890d855a42f378f09ca5c76ce461f389",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 50,
+      "locationId": "atlas_050",
+      "name": "The Patchwork Prairie of Broken Seasons",
+      "topicId": "topic-ded2559cd76d",
+      "readingIds": [
+        "atlas-p00714"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_050-the-patchwork-prairie-of-broken-seasons-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Patchwork Prairie of Broken Seasons",
+          "alt": "The Patchwork Prairie of Broken Seasons location artwork",
+          "sourceAsset": "assets/backgrounds/patchwork_prairie_of_broken_seasons.png",
+          "sourceSha256": "f9afcdfcffde4d1f4b1a54660f6a07aa14d37c80d5ed0c795a4941b70887939b",
+          "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Patchwork Prairie of Broken Seasons/Full Backgrounds/Patchwork Prairie of Broken Seasons V3.png",
+          "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    },
+    {
+      "atlasId": 55,
+      "locationId": "atlas_055",
+      "name": "The Monsoon Stepwell City",
+      "topicId": "topic-8a0955d527e5",
+      "readingIds": [
+        "atlas-p00769"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_055-the-monsoon-stepwell-city-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Monsoon Stepwell City",
+          "alt": "The Monsoon Stepwell City location artwork",
+          "sourceAsset": "assets/backgrounds/monsoon_stepwell_city.png",
+          "sourceSha256": "3aeff28f11f4e2334fc517b028714be2f03039da015c9566dd9896ca52fbcd02",
+          "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Monsoon Stepwell City/Full Backgrounds/Monsoon Stepwell City V3.png",
+          "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    },
+    {
+      "atlasId": 57,
+      "locationId": "atlas_057",
+      "name": "The City of Rainward Roofs",
+      "topicId": "topic-9d7fa1b74bf5",
+      "readingIds": [
+        "atlas-p00795"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_057-the-city-of-rainward-roofs-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The City of Rainward Roofs",
+          "alt": "The City of Rainward Roofs location artwork",
+          "sourceAsset": "assets/backgrounds/rainward.png",
+          "sourceSha256": "51453d26bf8d3ba66dbf85810d230154204dacd162191f81a53bdf42bd3d21f6",
+          "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/City of Rainward Roofs/City of Rainward Roofs V3.png",
+          "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    },
+    {
+      "atlasId": 58,
+      "locationId": "atlas_058",
+      "name": "The Museum of Unfinished Rooms",
+      "topicId": "topic-0497aad783b2",
+      "readingIds": [
+        "atlas-p00812"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_058-the-museum-of-unfinished-rooms-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Museum of Unfinished Rooms",
+          "alt": "The Museum of Unfinished Rooms location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/museum_of_unfinished_rooms/composite.png",
+          "sourceSha256": "692f3e918d9443abd310227c64c3054f7fe8a6114bb44172bb404e7abcd00afc",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 59,
+      "locationId": "atlas_059",
+      "name": "The Ice Cave of Paused Dawn",
+      "topicId": "topic-7e0753e28257",
+      "readingIds": [
+        "atlas-p00822"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_059-the-ice-cave-of-paused-dawn-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Ice Cave of Paused Dawn",
+          "alt": "The Ice Cave of Paused Dawn location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/ice_cave_of_paused_dawn/composite.png",
+          "sourceSha256": "5b4ea605cbe0b6b39f2b26836bc492c85d7ff431074a8048a79221d6a4537b5a",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 61,
+      "locationId": "atlas_061",
+      "name": "The Skyfold Boundary",
+      "topicId": "topic-338d40600464",
+      "readingIds": [
+        "atlas-p00840"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_061-the-skyfold-boundary-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Skyfold Boundary",
+          "alt": "The Skyfold Boundary location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/skyfold_boundary/composite.png",
+          "sourceSha256": "cc7fa7fc3fbf9db88741142883c01cc6261ebd1dbc7a93f58df99bc00bc6a9a6",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 62,
+      "locationId": "atlas_062",
+      "name": "The Valley That Restores Wrong",
+      "topicId": "topic-c9c9329077f1",
+      "readingIds": [
+        "atlas-p00849"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_062-the-valley-that-restores-wrong-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Valley That Restores Wrong",
+          "alt": "The Valley That Restores Wrong location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/valley_that_restores_wrong/composite.png",
+          "sourceSha256": "5f6e971264a060e0c94789ddaa6b7cdc06e40769b4d6e7241ab0d855d58a7d5c",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 63,
+      "locationId": "atlas_063",
+      "name": "The Plain of Missing Distance",
+      "topicId": "topic-d8c16eb369da",
+      "readingIds": [
+        "atlas-p00858"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_063-the-plain-of-missing-distance-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Plain of Missing Distance",
+          "alt": "The Plain of Missing Distance location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/plain_of_missing_distance/composite.png",
+          "sourceSha256": "65013075d42078625a35d68da19e052dc843da261819eff476d8b182f77a0945",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 65,
+      "locationId": "atlas_065",
+      "name": "The Stormwall Orchard",
+      "topicId": "topic-1ad720c71149",
+      "readingIds": [
+        "atlas-p00876"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_065-the-stormwall-orchard-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Stormwall Orchard",
+          "alt": "The Stormwall Orchard location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/stormwall_orchard/composite.png",
+          "sourceSha256": "3d8d938cc72e4e87e5ea7de95ef93e7c4bd69849ac8928b742ccf7c39a01071b",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 67,
+      "locationId": "atlas_067",
+      "name": "The Room Behind the False Horizon",
+      "topicId": "topic-692cde4f9513",
+      "readingIds": [
+        "atlas-p01098"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_067-the-room-behind-the-false-horizon-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Room Behind the False Horizon",
+          "alt": "The Room Behind the False Horizon location artwork",
+          "sourceAsset": "assets/backgrounds/room_behind_the_false_horizon.png",
+          "sourceSha256": "77b75811144eac8bfe529ac27b41fe0a985c0f5015082f1c5c59d5adbebc5eea",
+          "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Room Behind the False Horizon/Full Backgrounds/Room Behind the False Horizon V3.png",
+          "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    },
+    {
+      "atlasId": 74,
+      "locationId": "atlas_074",
+      "name": "The Door Archive",
+      "topicId": "topic-784ba811f956",
+      "readingIds": [
+        "atlas-p01184"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_074-the-door-archive-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Door Archive",
+          "alt": "The Door Archive location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/door_archive/composite.png",
+          "sourceSha256": "278d38bff2bc09997963dbb4547cae66feff4af41598bc0fc09a59f555e2578c",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 76,
+      "locationId": "atlas_076",
+      "name": "The Maintenance Chapel Without a God",
+      "topicId": "topic-759f5b852086",
+      "readingIds": [
+        "atlas-p01206"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_076-the-maintenance-chapel-without-a-god-exterior.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "exterior",
+          "caption": "The Maintenance Chapel Without a God — exterior",
+          "alt": "The Maintenance Chapel Without a God location artwork — exterior",
+          "sourceAsset": "assets/backgrounds/maintenance_chapel_without_a_god_exterior_approach.png",
+          "sourceSha256": "6b9e04423f97b396298f4c6c54feebaac79dece76dd412d723023004c9737a9f",
+          "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Maintenance Chapel Without a God/Exterior Approach/Full Background/Exterior Approach.png",
+          "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        },
+        {
+          "src": "images/locations/atlas_076-the-maintenance-chapel-without-a-god-interior.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "interior",
+          "caption": "The Maintenance Chapel Without a God — interior",
+          "alt": "The Maintenance Chapel Without a God location artwork — interior",
+          "sourceAsset": "assets/backgrounds/maintenance_chapel_without_a_god_interior_main_room.png",
+          "sourceSha256": "fe760e86482b4ef5cb8092cce490cb95537431f537c8399699f73418204b9a77",
+          "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Maintenance Chapel Without a God/Interior Main Room/Full Background/Interior Main Room.png",
+          "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    },
+    {
+      "atlasId": 83,
+      "locationId": "atlas_083",
+      "name": "The Ceiling Desert",
+      "topicId": "topic-fc422c2b5c6f",
+      "readingIds": [
+        "atlas-p01299"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_083-the-ceiling-desert-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Ceiling Desert",
+          "alt": "The Ceiling Desert location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/ceiling_desert/composite.png",
+          "sourceSha256": "d955af592b4ce25b57e5591b40507f3cff5500de23f66238dc2df513c2312bf2",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 88,
+      "locationId": "atlas_088",
+      "name": "The Firefly Ice Shelf",
+      "topicId": "topic-9d119cd443bd",
+      "readingIds": [
+        "atlas-p01354"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_088-the-firefly-ice-shelf-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Firefly Ice Shelf",
+          "alt": "The Firefly Ice Shelf location artwork",
+          "sourceAsset": "assets/backgrounds/firefly_ice_shelf.png",
+          "sourceSha256": "ab3d78473305baf1220109ae112680abe597a2241296cad47747bbcc2a592f39",
+          "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Firefly Ice Shelf/Full Backgrounds/Firefly Ice Shelf V3.png",
+          "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    },
+    {
+      "atlasId": 95,
+      "locationId": "atlas_095",
+      "name": "The Half-Restored Palace of Floors",
+      "topicId": "topic-3c137a80765e",
+      "readingIds": [
+        "atlas-p01440"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_095-the-half-restored-palace-of-floors-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Half-Restored Palace of Floors",
+          "alt": "The Half-Restored Palace of Floors location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/half_restored_palace_of_floors/composite.png",
+          "sourceSha256": "0a91f5d922fa4f82d60990fe5c134a0e80d7d07210a46fb7e79c5d7c3c9c1faa",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 96,
+      "locationId": "atlas_096",
+      "name": "The Rooms of Mismatched Seasons",
+      "topicId": "topic-365fdc1acb57",
+      "readingIds": [
+        "atlas-p01451"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_096-the-rooms-of-mismatched-seasons-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Rooms of Mismatched Seasons",
+          "alt": "The Rooms of Mismatched Seasons location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/rooms_of_mismatched_seasons/composite.png",
+          "sourceSha256": "f89d915c5c5470f7847b958f479dbc7ed5ea36b7ee3abcb7e18961225abf0eb1",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 98,
+      "locationId": "atlas_098",
+      "name": "The Hall That Forgets Its Walls",
+      "topicId": "topic-14a423d3fda3",
+      "readingIds": [
+        "atlas-p01473"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_098-the-hall-that-forgets-its-walls-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Hall That Forgets Its Walls",
+          "alt": "The Hall That Forgets Its Walls location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/hall_that_forgets_its_walls/composite.png",
+          "sourceSha256": "fd16def7770674fa92ead83b98234030c4284545a5deea30f03d1133281761b6",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 100,
+      "locationId": "atlas_100",
+      "name": "The Recursive Lighthouse",
+      "topicId": "topic-1f682816ad95",
+      "readingIds": [
+        "atlas-p01495"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_100-the-recursive-lighthouse-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Recursive Lighthouse",
+          "alt": "The Recursive Lighthouse location artwork",
+          "sourceAsset": "assets/backgrounds/atlas_expansion/recursive_lighthouse/composite.png",
+          "sourceSha256": "2a46d3279fb4341227614cc640a08ded704e4c08b74350f0f7f4f773b528c15d",
+          "originalPath": "",
+          "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 101,
+      "locationId": "atlas_101",
+      "name": "The Garden Inside the Map",
+      "topicId": "topic-f59cc988c96c",
+      "readingIds": [
+        "atlas-p01506"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_101-the-garden-inside-the-map-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Garden Inside the Map",
+          "alt": "The Garden Inside the Map location artwork",
+          "sourceAsset": "assets/backgrounds/garden.png",
+          "sourceSha256": "e6dbc9f540882d432b94258e7bc2e122c8c621ca7459b6878d9374fcff516cb8",
+          "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Garden Inside the Map/Garden Inside the Map V3.png",
+          "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    },
+    {
+      "atlasId": 103,
+      "locationId": "atlas_103",
+      "name": "The Unfinished Underground Sun",
+      "topicId": "topic-85fc4f163eac",
+      "readingIds": [
+        "atlas-p01536"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_103-the-unfinished-underground-sun-main.webp",
+          "width": 1920,
+          "height": 1080,
+          "view": "main",
+          "caption": "The Unfinished Underground Sun",
+          "alt": "The Unfinished Underground Sun location artwork",
+          "sourceAsset": "assets/backgrounds/unfinished_underground_sun.png",
+          "sourceSha256": "f3fce713ef0ecf7fbfb44ebf1925aef3b3ee72cea1bf408bf77b9890ec1f2eff",
+          "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Unfinished Underground Sun/Full Backgrounds/Unfinished Underground Sun V3.png",
+          "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+Care in the Quiet
+Three meaningful DBA voices; every voice uses canonical assertions in runtime state 1.
+Simultaneous lines are independent statements. English titles and the backstory are not extra translated lyrics.
+
+VOICE: Sova
+0.000–6.279s | ni-nu-ki-ki | active care [LIF:211]
+The active use of one being’s life-capacity to protect, support, nurture, or sustain another being.
+8.372–14.651s | ni-nu-ki-ma | established life-bond [LIF:210]
+A stable relationship through which two living identities recognize one another as connected.
+16.744–23.721s | wu-nu-nu-ma | enduring shared-participation relation [CON:220]
+A persistent communicative relation among multiple endpoints that constitutes them as co-participants in one shared exchange context.
+25.116–31.395s | ni-nu-ma-ma | stable viability [LIF:200]
+The stable capacity of a being to remain alive and continue functioning.
+33.488–39.767s | ni-nu-ki-ki | active care [LIF:211]
+The active use of one being’s life-capacity to protect, support, nurture, or sustain another being.
+41.860–48.837s | wu-nu-ki-ki | operative directed communication relation [CON:211]
+A directed relation from a reference endpoint to a distinct target that is presently operative as a participant link for communicative exchange.
+50.233–56.512s | ni-nu-ki-ki | active care [LIF:211]
+The active use of one being’s life-capacity to protect, support, nurture, or sustain another being.
+58.605–65.581s | wu-nu-nu-ma | enduring shared-participation relation [CON:220]
+A persistent communicative relation among multiple endpoints that constitutes them as co-participants in one shared exchange context.
+66.977–73.256s | ni-nu-ki-ma | established life-bond [LIF:210]
+A stable relationship through which two living identities recognize one another as connected.
+75.349–81.628s | ni-nu-ki-ki | active care [LIF:211]
+The active use of one being’s life-capacity to protect, support, nurture, or sustain another being.
+83.721–90.698s | wu-nu-ki-ki | operative directed communication relation [CON:211]
+A directed relation from a reference endpoint to a distinct target that is presently operative as a participant link for communicative exchange.
+92.093–98.372s | ni-nu-ki-ki | active care [LIF:211]
+The active use of one being’s life-capacity to protect, support, nurture, or sustain another being.
+
+VOICE: The answering neighbor
+2.791–9.767s | wu-ki-ki-ki | active target reception [CON:111]
+An ongoing act by which a target endpoint takes up a communicative expression from an exchange context.
+11.163–17.442s | ni-nu-ma-ma | stable viability [LIF:200]
+The stable capacity of a being to remain alive and continue functioning.
+19.535–26.512s | wu-nu-ma-ki | available communicative participation capacity [CON:201]
+A communicative capacity of an endpoint that is presently available for exercise in an exchange.
+27.907–34.186s | ni-nu-ki-ma | established life-bond [LIF:210]
+A stable relationship through which two living identities recognize one another as connected.
+36.279–43.256s | wu-nu-nu-ki | operative shared-participation relation [CON:221]
+A communicative relation among multiple endpoints that presently operates to constitute them as co-participants in one shared exchange context.
+44.651–50.930s | ni-nu-ki-ki | active care [LIF:211]
+The active use of one being’s life-capacity to protect, support, nurture, or sustain another being.
+53.023–60.000s | wu-ki-ki-ki | active target reception [CON:111]
+An ongoing act by which a target endpoint takes up a communicative expression from an exchange context.
+61.395–68.372s | wu-nu-ma-ki | available communicative participation capacity [CON:201]
+A communicative capacity of an endpoint that is presently available for exercise in an exchange.
+69.767–76.047s | ni-nu-ma-ma | stable viability [LIF:200]
+The stable capacity of a being to remain alive and continue functioning.
+78.140–85.116s | wu-nu-nu-ki | operative shared-participation relation [CON:221]
+A communicative relation among multiple endpoints that presently operates to constitute them as co-participants in one shared exchange context.
+86.512–92.791s | ni-nu-ki-ki | active care [LIF:211]
+The active use of one being’s life-capacity to protect, support, nurture, or sustain another being.
+94.884–101.860s | wu-ki-ki-ki | active target reception [CON:111]
+An ongoing act by which a target endpoint takes up a communicative expression from an exchange context.
+
+VOICE: A fellow garden caretaker
+5.581–12.558s | wu-ma-nu-ma | persistent shared channel [CON:020]
+A bounded communicative environment that remains the common exchange context of multiple participant endpoints.
+13.953–20.233s | si-nu-ma-ma | enduring attentional capacity [MIN:200]
+A persistent capacity of a cognizer to allocate cognitive processing selectively.
+22.326–28.605s | ni-nu-nu-ma | stable biosystem [LIF:220]
+A self-sustaining system of living beings and the relationships necessary for their continued existence.
+30.698–37.674s | wu-nu-nu-ma | enduring shared-participation relation [CON:220]
+A persistent communicative relation among multiple endpoints that constitutes them as co-participants in one shared exchange context.
+39.070–45.349s | ni-nu-ma-ma | stable viability [LIF:200]
+The stable capacity of a being to remain alive and continue functioning.
+47.442–54.419s | wu-nu-ki-ma | established directed communication relation [CON:210]
+A persistent relation that identifies a distinct endpoint as the target of communicative exchange from a reference endpoint.
+55.814–62.791s | wu-ma-nu-ma | persistent shared channel [CON:020]
+A bounded communicative environment that remains the common exchange context of multiple participant endpoints.
+64.186–70.465s | ni-nu-nu-ma | stable biosystem [LIF:220]
+A self-sustaining system of living beings and the relationships necessary for their continued existence.
+72.558–78.837s | si-nu-ma-ma | enduring attentional capacity [MIN:200]
+A persistent capacity of a cognizer to allocate cognitive processing selectively.
+80.930–87.209s | ni-nu-ma-ma | stable viability [LIF:200]
+The stable capacity of a being to remain alive and continue functioning.
+89.302–96.279s | wu-nu-ki-ma | established directed communication relation [CON:210]
+A persistent relation that identifies a distinct endpoint as the target of communicative exchange from a reference endpoint.
+97.674–104.651s | wu-ma-nu-ma | persistent shared channel [CON:020]
+A bounded communicative environment that remains the common exchange context of multiple participant endpoints.
+

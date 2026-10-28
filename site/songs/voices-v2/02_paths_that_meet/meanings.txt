@@ -1,0 +1,82 @@
+Paths That Meet
+Three meaningful DBA voices; every voice uses canonical assertions in runtime state 1.
+Simultaneous lines are independent statements. English titles and the backstory are not extra translated lyrics.
+
+VOICE: Neral
+0.000–4.821s | gi-ki-ma-ma | completed source departure [MOV:100]
+Completion of a mover's displacement away from a source position.
+6.429–11.250s | gi-ma-ki-ki | active destination [MOV:011]
+A destination that is currently reachable, accepted, and actively guiding movement.
+12.857–17.679s | gi-ki-nu-ki | active shared-frame movement [MOV:121]
+Ongoing change of a mover's position relative to a shared or environmental reference frame.
+19.286–24.107s | gi-ki-ki-ma | completed target arrival [MOV:110]
+Completion of a mover's displacement to a target position.
+25.714–31.071s | wu-ki-ki-ma | completed target reception [CON:110]
+Completion of an act by which a target endpoint takes up a communicative expression from an exchange context.
+32.143–37.500s | wu-nu-nu-ma | enduring shared-participation relation [CON:220]
+A persistent communicative relation among multiple endpoints that constitutes them as co-participants in one shared exchange context.
+38.571–43.393s | gi-ki-ma-ma | completed source departure [MOV:100]
+Completion of a mover's displacement away from a source position.
+45.000–49.821s | gi-ki-nu-ki | active shared-frame movement [MOV:121]
+Ongoing change of a mover's position relative to a shared or environmental reference frame.
+51.429–56.250s | gi-ma-ki-ki | active destination [MOV:011]
+A destination that is currently reachable, accepted, and actively guiding movement.
+57.857–63.214s | wu-ki-ki-ma | completed target reception [CON:110]
+Completion of an act by which a target endpoint takes up a communicative expression from an exchange context.
+64.286–69.643s | wu-nu-nu-ma | enduring shared-participation relation [CON:220]
+A persistent communicative relation among multiple endpoints that constitutes them as co-participants in one shared exchange context.
+70.714–75.536s | gi-ki-ma-ma | completed source departure [MOV:100]
+Completion of a mover's displacement away from a source position.
+
+VOICE: The arriving traveler
+2.143–6.964s | gi-ki-ki-ma | completed target arrival [MOV:110]
+Completion of a mover's displacement to a target position.
+8.571–13.929s | wu-ki-ki-ki | active target reception [CON:111]
+An ongoing act by which a target endpoint takes up a communicative expression from an exchange context.
+15.000–19.821s | gi-ma-ma-ki | present position [MOV:001]
+The position currently occupied by an entity, signal, process, or point of attention.
+21.429–26.786s | wu-nu-ma-ki | available communicative participation capacity [CON:201]
+A communicative capacity of an endpoint that is presently available for exercise in an exchange.
+27.857–32.679s | gi-nu-ki-ki | live target-relative position [MOV:211]
+A positional relation of a mover to a target position that is currently maintained or updated.
+34.286–39.643s | wu-nu-nu-ki | operative shared-participation relation [CON:221]
+A communicative relation among multiple endpoints that presently operates to constitute them as co-participants in one shared exchange context.
+40.714–45.536s | gi-ki-ki-ma | completed target arrival [MOV:110]
+Completion of a mover's displacement to a target position.
+47.143–51.964s | gi-ma-ma-ki | present position [MOV:001]
+The position currently occupied by an entity, signal, process, or point of attention.
+53.571–58.929s | wu-ki-ki-ki | active target reception [CON:111]
+An ongoing act by which a target endpoint takes up a communicative expression from an exchange context.
+60.000–64.821s | gi-nu-ki-ki | live target-relative position [MOV:211]
+A positional relation of a mover to a target position that is currently maintained or updated.
+66.429–71.786s | wu-nu-nu-ki | operative shared-participation relation [CON:221]
+A communicative relation among multiple endpoints that presently operates to constitute them as co-participants in one shared exchange context.
+72.857–77.679s | gi-ki-ki-ma | completed target arrival [MOV:110]
+Completion of a mover's displacement to a target position.
+
+VOICE: The waiting traveler
+4.286–9.107s | gi-nu-ma-ma | enduring self-mobility [MOV:200]
+An enduring capacity of a mover to change its own position.
+10.714–15.536s | gi-ma-ki-nu | pending destination [MOV:012]
+A destination that remains defined but cannot yet be reached, confirmed, or entered.
+17.143–22.500s | wu-nu-ma-ki | available communicative participation capacity [CON:201]
+A communicative capacity of an endpoint that is presently available for exercise in an exchange.
+23.571–28.393s | gi-nu-nu-ma | established shared-frame configuration [MOV:220]
+An established positional configuration among loci within a shared reference frame.
+30.000–35.357s | wu-nu-ki-ma | established directed communication relation [CON:210]
+A persistent relation that identifies a distinct endpoint as the target of communicative exchange from a reference endpoint.
+36.429–41.250s | gi-ma-nu-ma | established route [MOV:020]
+A stable sequence of positions connecting one location to another.
+42.857–47.679s | gi-nu-ma-ma | enduring self-mobility [MOV:200]
+An enduring capacity of a mover to change its own position.
+49.286–54.643s | wu-nu-ma-ki | available communicative participation capacity [CON:201]
+A communicative capacity of an endpoint that is presently available for exercise in an exchange.
+55.714–60.536s | gi-ma-ki-nu | pending destination [MOV:012]
+A destination that remains defined but cannot yet be reached, confirmed, or entered.
+62.143–67.500s | wu-nu-ki-ma | established directed communication relation [CON:210]
+A persistent relation that identifies a distinct endpoint as the target of communicative exchange from a reference endpoint.
+68.571–73.393s | gi-ma-nu-ma | established route [MOV:020]
+A stable sequence of positions connecting one location to another.
+75.000–79.821s | gi-nu-ma-ma | enduring self-mobility [MOV:200]
+An enduring capacity of a mover to change its own position.
+

@@ -4,11 +4,11 @@ The separate Cyber Pet reading archive: https://ragingaxolotl-art.github.io/cybe
 
 ## Collection
 
-476 indexed readings from the Cyberpath Stories Archive, CPP Lore, DBA Era 0 Language, Cyberpath Locations Atlas, the Game Lorebook additions, and two local reference guides. This is an October 27, 2026 source snapshot, not automatic synchronization with Google Docs.
+485 indexed readings from the Cyberpath Stories Archive, CPP Lore, DBA Era 0 Language, Cyberpath Locations Atlas, the Game Lorebook additions, and two local reference guides. This is an October 27, 2026 source snapshot, not automatic synchronization with Google Docs.
 
 - 14 primary stories (13 complete; The Corrected Child is unfinished)
 - 20 earlier drafts and alternate copies (including the reviewed chapel draft)
-- 18 timeline sections, 94 people sections, 205 location sections, 119 language sections, and 6 reference readings
+- 18 timeline sections, 98 people sections, 206 location sections, 119 language sections, 4 song backstories, and 6 reference readings
 
 Location sections include multiple treatments of the same place: the atlas describes 106 numbered locations. The Quiet One’s Human is one work with its eleven installments in the reader outline. Unknown dates are left unspecified. Within-era ordering follows source order where precise dates are unavailable. Character/place filters represent mentions, not claims about participation or geographical relationships.
 
@@ -30,7 +30,7 @@ npm start
 
 Open http://127.0.0.1:8768. GitHub Actions rebuilds, tests, and deploys `site/` to GitHub Pages.
 
-`source-data` is stored in `sources/`: only the requested fiction/reference source text and provenance, with no student profiles, game saves, credentials, or reader annotations. `tools/story-segmentation.json` records story boundaries and metadata. `tools/build_catalog.py` verifies every source paragraph and the exact concatenated source text, including text originally fused to adjacent headings. Stable paragraph IDs anchor highlights, and quote verification prevents silently moving a highlight onto changed text. When refreshing sources, preserve IDs or provide an explicit migration; paragraph insertions can otherwise invalidate old anchors. Original images and rich document layouts are not reproduced; source links remain available.
+`source-data` is stored in `sources/`: only the requested fiction/reference source text and provenance, with no student profiles, game saves, credentials, or reader annotations. `tools/story-segmentation.json` records story boundaries and metadata. `tools/build_catalog.py` verifies every source paragraph and the exact concatenated source text, including text originally fused to adjacent headings. Stable paragraph IDs anchor highlights, and quote verification prevents silently moving a highlight onto changed text. When refreshing sources, preserve IDs or provide an explicit migration; paragraph insertions can otherwise invalidate old anchors. Original rich document layouts are not reproduced; mapped project location artwork is shown separately from source paragraphs. Source links remain available.
 
 Content belongs to the project author(s); publication does not grant a new reuse license. Public source links may still require permission to open the original Google Docs.
 
@@ -62,10 +62,34 @@ Validation: timeline and reading tests cover existing reading/clip/backup behavi
 
 ## Era Zero songs
 
-Open **Era Zero songs** in the main navigation, or visit https://ragingaxolotl-art.github.io/cyber-pet-lore/songs/. Four original instrumental compositions include full arrangements, isolated language melodies, synchronized verified meanings, phrase seeking, and audio/MIDI/meaning-sheet downloads. Source: `CPP-V3/exports/era-zero-songs/2026-10-27` on the Cyber Pet Workspace SSD. These are new compositions, not historical recordings or human-sung voices. The source export retains lossless masters and score provenance.
+Open **Era Zero songs** in the main navigation, or visit https://ragingaxolotl-art.github.io/cyber-pet-lore/songs/. Four original songs now use three synthesized DBA voices each. Every voice carries canonical Era Zero statements, with simultaneous meaning cards, solo listening, phrase seeking, and audio/MIDI/meaning-sheet downloads. Source: `CPP-V3/exports/era-zero-songs/2026-10-27` on the Cyber Pet Workspace SSD. These are new compositions, not historical recordings or human-sung voices. The source export retains lossless masters and score provenance.
+
+## Connected song lore and translator
+
+Each song now has an original Era Zero backstory and a supporting performer profile: Sova, Neral, Pelli, and Keshet. The Listening Alcove is a new small location within the Garden Worlds. These additions live in `sources/song-cycle.json`, are labeled new fiction, and preserve uncertainty around proposed settings and later survival. The 14 archived primary stories and all source paragraphs remain unchanged.
+
+The reader’s **Follow the connections** section links named places, people/groups, related readings, and songs in both directions. A shortcut appears in the reader outline. Exact named mentions are distinguished from authored song-cycle connections; links do not assert identity or geographical relationships. Place/person links also open a library-wide list of mentions. `tools/build_connections.py` rebuilds these references and verifies targets. Song links select the correct track directly.
+
+**DBA translator** in the main navigation and song player opens https://ragingaxolotl-art.github.io/era-zero-translator/. Language and song readings also offer this link.
 
 ## Wiki connections
 
 Open **Connections** (`wiki.html`) to search 348 indexed people, places, stories, events, and ideas. Names in readings and timeline passages link to internal topic pages, with dossier links, “Mentioned in” passages, and direct timeline-event links. Each reading also includes related topics and eras. Vey and Pell have explicit disambiguation pages. Links indicate named mentions; they do not establish identity or causal relationships. Draft and proposed source labels remain visible.
 
 `tools/build_wiki.py` rebuilds the index from published archive content after the timeline build. Automated checks validate every reading/block/event destination, ambiguous-name choices, and exact passage-text preservation for highlights and clips. Original-document provenance remains in the library Sources dialog; connected reading links stay on this site.
+
+## Semantic vocal arrangements (version 2)
+
+The current player uses `site/songs/voices-v2/`: four songs, twelve separately auditable voices, 144 assertions and 1,508 notes. Every pitched event belongs to a canonical phrase. There are no accompaniment-only notes or percussion. The three concurrent statements remain independent; this does not establish a new canonical polyphonic grammar. Sound color is synthesized DBA vocal timbre, not a claim of recorded human pronunciation. Original instrumental exports remain as historical files; the player and backstories use version 2.
+
+`tools/compose_song_voices.mjs <translator-directory>` derives the score from the official read-only translator MIDI renderer. `render_song_voices.py` renders lossless masters, `encode_song_voices.py` makes AAC listening files, `verify_song_voices.mjs <translator-directory>` verifies every solo MIDI phrase against the official renderer, and `check_song_voice_audio.py` checks every lossless solo note’s global spectral peak, clipping, and silence outside assigned note windows. Validation reports and the complete formal-source score are published with the version. Codec tools require macOS; numpy is required for rendering and audio checks.
+
+## Location artwork
+
+Existing location composites appear on matching **Connections** place pages and their location readings. `sources/location-art.json` records atlas IDs, exact wiki-topic/readings mappings, original asset paths, attribution and SHA-256 hashes. Display copies preserve the source dimensions and use WebP compression. The import source is the available October 26 project staging snapshot at `/private/tmp/boulder-test-source`; the SSD workspace volume was unavailable during this update. No student media or saves are included. The 65 mapped places include 66 views (the chapel has an exterior and interior). Places without available images remain text-only; no neighboring artwork is substituted.
+
+`tools/import_location_art.py <project-source-directory>` imports already existing composites using `config/location_filesystem.json`; it does not generate art. `tools/build_wiki.py` attaches checked image references to the wiki and location readings. Images remain outside source text blocks so annotations and clips retain their original anchors.
+
+Song location cards link artwork to the exact origin topic; the Listening Alcove uses explicitly labeled Garden Worlds context art. Image filenames include place names, and `site/images/locations/location-files.csv` maps every view to its original project asset and lore page. Wiki overviews and details reproduce source paragraphs with block-level citations; ambiguous identities remain separate.
+
+Character profiles and era timelines use verbatim source passages. `sources/continuity-review.json` holds reviewed indexing corrections and source-scope notes, surfaced on the wiki and readings. `sources/continuity-audit-2026-10-27.json` records audit coverage and limits. Profile appearance eras are not birth dates or proof of survival; archive allocations are explicitly fictional decoration.

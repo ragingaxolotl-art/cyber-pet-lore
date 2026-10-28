@@ -1,10 +1,23 @@
-import {loadWiki,appendWiki} from './wiki-links.mjs';
+import {renderProfile,renderLifeTimeline,renderContinuityNotes} from './profiles.mjs';
+import {renderLocationArt} from './location-art.mjs';
+import {loadWiki,appendWiki} from './wiki-links.mjs?v=profiles-1';
 const node=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;};
 const link=(text,href)=>{const a=node('a',text);a.href=href;return a;};
 let data;
 function index(){const search=document.getElementById('wiki-search').value.trim().toLocaleLowerCase();const matches=data.topics.filter(t=>[t.title,...t.aliases,...t.kinds].join(' ').toLocaleLowerCase().includes(search)).sort((a,b)=>a.title.localeCompare(b.title));const nav=document.getElementById('wiki-index');nav.replaceChildren();document.getElementById('wiki-count').textContent=matches.length+' topics';for(const t of matches){const a=link(t.title,'#'+t.id);if(location.hash==='#'+t.id)a.setAttribute('aria-current','page');nav.append(a);}if(!matches.length)nav.append(node('p','No matching topics. Try a shorter name.'));}
 function render(){const parent=document.getElementById('wiki-content');parent.replaceChildren();const topic=data.byId.get(location.hash.slice(1));index();if(!topic){parent.append(node('p','A CONNECTED READING ARCHIVE','eyebrow'),node('h1',location.hash?'Topic not found':'People, places & ideas'),node('p','Choose a topic to read its dossier, find its place in history, and jump to the stories that mention it.'),node('p',data.notice,'connection-note'));return;}document.title=topic.title+' — Cyber Pet Lore';parent.append(node('p',topic.kinds.join(' · '),'eyebrow'),node('h1',topic.title),node('p',data.notice,'connection-note'));
- if(topic.choices){const section=node('section',undefined,'wiki-ambiguity');section.append(node('h2','This name needs context'),node('p','These are separate possible matches. The archive does not identify every unqualified mention.'));for(const choice of topic.choices)section.append(link(choice.title,'#'+choice.id));parent.append(section);}
+ renderProfile(parent,topic.profile);
+ const reviewPanel=node('section');renderContinuityNotes(reviewPanel,topic.continuityNotes||[]);parent.append(reviewPanel);
+ let detailsPanel;const article=topic.article;
+ if(article){const overview=node('section',undefined,'wiki-overview');overview.append(node('h2','Overview'));
+ if(article.summary){const text=node('p');appendWiki(text,article.summary.text,{exclude:topic.id,readingId:article.summary.readingId});overview.append(text,link('Source: '+article.summary.title+' · '+article.summary.status,article.summary.href));}
+ overview.append(node('p',article.note,'small-note'));parent.append(overview);
+ const details=node('section',undefined,'wiki-details');details.append(node('h2','Details from the lore'));
+ for(const section of article.sections){const group=node('article',undefined,'wiki-source-section');group.append(node('h3',section.title),node('span',section.status,'status-pill'));
+ for(const paragraph of section.paragraphs){if(paragraph.text===article.summary?.text)continue;const p=node('p');appendWiki(p,paragraph.text,{exclude:topic.id,readingId:section.readingId});group.append(p,link('Read source passage →',paragraph.href));}details.append(group);}
+ if(article.sections.length)detailsPanel=details;}
+ const artwork=node('section',undefined,'location-gallery');artwork.setAttribute('aria-label','Location artwork');renderLocationArt(artwork,topic.images||[]);parent.append(artwork);renderLifeTimeline(parent,topic.profile);if(detailsPanel)parent.append(detailsPanel);
+ if(topic.choices){const section=node('section',undefined,'wiki-ambiguity');section.append(node('h2','This name needs context'),node('p',topic.choices.length>1?'These are separate possible matches. The archive does not identify every unqualified mention.':'This is the identity supported by the indexed prose.'));for(const choice of topic.choices)section.append(link(choice.title,'#'+choice.id));parent.append(section);}
  if(topic.alternatives?.length){const section=node('section',undefined,'wiki-ambiguity');section.append(node('h2','Also indexed under this name'));for(const id of topic.alternatives)section.append(link(data.byId.get(id).title,'#'+id));parent.append(section);}
  const targets=node('section');targets.append(node('h2','Read about this topic'));if(!topic.targets.length)targets.append(node('p','No separate dossier is indexed yet. The passages below are the available evidence; no biography has been inferred.'));for(const t of topic.targets){const card=node('article',undefined,'connection-card');card.append(link(t.title+' →',t.href),node('span',t.kind+' · '+t.status,'status-pill'));targets.append(card);}parent.append(targets);
  if(topic.events?.length){const section=node('section');section.append(node('h2','On the timeline'));for(const event of topic.events){const card=node('article',undefined,'connection-card');card.append(link('Era '+String(event.era).replace('-','−')+' · '+event.title+' →',event.href),node('span',event.status,'status-pill'));section.append(card);}parent.append(section);}
