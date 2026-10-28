@@ -1,3 +1,4 @@
+import {renderLocationIllnesses} from './location-illnesses.mjs';
 import {attachTagSuggestions} from './tag-suggestions.mjs';
 import {paintHighlights} from './highlight-dom.mjs';
 import {renderContinuityNotes} from './profiles.mjs';
@@ -125,6 +126,7 @@ async function openReading(id,anchor=null){
  renderConnections(e);
  renderContinuityNotes($('reader-continuity'),wikiData?.readingNotes?.[e.id]||[]);
  renderLocationArt($('reader-art'),wikiData?.readingImages?.[e.id]||[]);
+ renderLocationIllnesses($('reader-illnesses'),wikiData?.readingIllnesses?.[e.id]||[]);
  window.scrollTo({top:0,behavior:'instant'});
  try{let content=contentCache.get(id);if(!content){const response=await fetch('content/'+encodeURIComponent(id)+'.json');if(!response.ok)throw Error('Reading unavailable');content=await response.json();contentCache.set(id,content);}if(seq!==routeSequence)return;currentContent=content;renderBlocks();renderHighlights();renderWikiConnections();const outline=$('outline');outline.replaceChildren();for(const b of content.blocks.filter(b=>/HEADING|TITLE|^h[1-4]$/i.test(b.style||''))){const a=node('a',b.text);a.href='#block-'+b.id;a.onclick=ev=>{ev.preventDefault();scrollToBlock(b.id);};outline.append(a);}if(!outline.children.length)outline.append(node('p','A continuous reading.'));const connectionsLink=node('a','People, places & related readings ↓');connectionsLink.href='#reading-connections';connectionsLink.onclick=ev=>{ev.preventDefault();$('reading-connections').scrollIntoView({block:'start'});};outline.append(connectionsLink);state.lastReading=id;save();requestAnimationFrame(()=>{if(seq===routeSequence&&(anchor||record(id).position))scrollToBlock(anchor||record(id).position.block);});}catch{if(seq===routeSequence)$('reading-text').replaceChildren(node('p','This reading could not load. Check your connection and reopen it. Your notes are still saved.'));}
 }

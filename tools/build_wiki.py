@@ -187,5 +187,7 @@ import sys
 sys.path.insert(0,str(ROOT/"tools"))
 from build_profiles import attach_profiles
 attach_profiles(output,entries,content,review)
+from build_illness_links import attach_illnesses
+attach_illnesses(output,entries)
 (SITE/'wiki.json').write_text(json.dumps(output,ensure_ascii=False,separators=(',',':'))+'\n')
 print('Wiki:',len(topics),'topics;',sum(len(t['mentions']) for t in topics.values()),'reading references')

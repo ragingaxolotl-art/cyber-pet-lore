@@ -1,3 +1,4 @@
+import {renderLocationIllnesses} from './location-illnesses.mjs';
 import {mountArticleNotes} from './article-notes.mjs';
 import {renderProfile,renderLifeTimeline,renderContinuityNotes} from './profiles.mjs';
 import {renderLocationArt} from './location-art.mjs';
@@ -21,6 +22,7 @@ function render(){const parent=document.getElementById('wiki-content');parent.re
  for(const section of article.sections){const group=node('article',undefined,'wiki-source-section');group.append(node('h3',section.title),node('span',section.status,'status-pill'));
  for(const paragraph of section.paragraphs){if(paragraph.text===article.summary?.text)continue;const p=node('p');appendWiki(p,paragraph.text,{exclude:topic.id,readingId:section.readingId});group.append(p,link('Read source passage →',paragraph.href));}details.append(group);}
  if(article.sections.length)detailsPanel=details;}
+ const illnessPanel=node('section');renderLocationIllnesses(illnessPanel,topic.illnesses||[]);parent.append(illnessPanel);
  const artwork=node('section',undefined,'location-gallery');artwork.setAttribute('aria-label','Location artwork');renderLocationArt(artwork,topic.images||[]);parent.append(artwork);renderLifeTimeline(parent,topic.profile);if(detailsPanel)parent.append(detailsPanel);
  if(topic.choices){const section=node('section',undefined,'wiki-ambiguity');section.append(node('h2','This name needs context'),node('p',topic.choices.length>1?'These are separate possible matches. The archive does not identify every unqualified mention.':'This is the identity supported by the indexed prose.'));for(const choice of topic.choices)section.append(link(choice.title,'#'+choice.id));parent.append(section);}
  if(topic.alternatives?.length){const section=node('section',undefined,'wiki-ambiguity');section.append(node('h2','Also indexed under this name'));for(const id of topic.alternatives)section.append(link(data.byId.get(id).title,'#'+id));parent.append(section);}

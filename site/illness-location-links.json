@@ -1,0 +1,291 @@
+[
+  {
+    "illnessId": "trademark_001",
+    "illnessHref": "illnesses/index.html#trademark_001",
+    "locationTopicId": "topic-3076ed3d5c0a",
+    "locationHref": "wiki.html#topic-3076ed3d5c0a",
+    "readingIds": [
+      "atlas-p00032",
+      "atlas-p00915"
+    ]
+  },
+  {
+    "illnessId": "trademark_006",
+    "illnessHref": "illnesses/index.html#trademark_006",
+    "locationTopicId": "topic-4f286364778b",
+    "locationHref": "wiki.html#topic-4f286364778b",
+    "readingIds": [
+      "atlas-p00096",
+      "atlas-p00941"
+    ]
+  },
+  {
+    "illnessId": "trademark_007",
+    "illnessHref": "illnesses/index.html#trademark_007",
+    "locationTopicId": "topic-ca34635d2036",
+    "locationHref": "wiki.html#topic-ca34635d2036",
+    "readingIds": [
+      "atlas-p00110",
+      "atlas-p00946"
+    ]
+  },
+  {
+    "illnessId": "trademark_008",
+    "illnessHref": "illnesses/index.html#trademark_008",
+    "locationTopicId": "topic-7bfb473e5005",
+    "locationHref": "wiki.html#topic-7bfb473e5005",
+    "readingIds": [
+      "atlas-p00122",
+      "atlas-p00951"
+    ]
+  },
+  {
+    "illnessId": "trademark_011",
+    "illnessHref": "illnesses/index.html#trademark_011",
+    "locationTopicId": "topic-c8434cc874c3",
+    "locationHref": "wiki.html#topic-c8434cc874c3",
+    "readingIds": [
+      "atlas-p00158",
+      "atlas-p00966"
+    ]
+  },
+  {
+    "illnessId": "trademark_016",
+    "illnessHref": "illnesses/index.html#trademark_016",
+    "locationTopicId": "topic-86591892f4cb",
+    "locationHref": "wiki.html#topic-86591892f4cb",
+    "readingIds": [
+      "atlas-p00221",
+      "atlas-p00991"
+    ]
+  },
+  {
+    "illnessId": "trademark_020",
+    "illnessHref": "illnesses/index.html#trademark_020",
+    "locationTopicId": "topic-81a9ac57d446",
+    "locationHref": "wiki.html#topic-81a9ac57d446",
+    "readingIds": [
+      "atlas-p00273",
+      "atlas-p01011"
+    ]
+  },
+  {
+    "illnessId": "trademark_021",
+    "illnessHref": "illnesses/index.html#trademark_021",
+    "locationTopicId": "topic-4f8ff8207512",
+    "locationHref": "wiki.html#topic-4f8ff8207512",
+    "readingIds": [
+      "atlas-p00285",
+      "atlas-p01016"
+    ]
+  },
+  {
+    "illnessId": "trademark_023",
+    "illnessHref": "illnesses/index.html#trademark_023",
+    "locationTopicId": "topic-c1165dc43375",
+    "locationHref": "wiki.html#topic-c1165dc43375",
+    "readingIds": [
+      "atlas-p00311",
+      "atlas-p01026"
+    ]
+  },
+  {
+    "illnessId": "trademark_025",
+    "illnessHref": "illnesses/index.html#trademark_025",
+    "locationTopicId": "topic-736daceffae8",
+    "locationHref": "wiki.html#topic-736daceffae8",
+    "readingIds": [
+      "atlas-p00336",
+      "atlas-p01036"
+    ]
+  },
+  {
+    "illnessId": "trademark_030",
+    "illnessHref": "illnesses/index.html#trademark_030",
+    "locationTopicId": "topic-41d4aaed0719",
+    "locationHref": "wiki.html#topic-41d4aaed0719",
+    "readingIds": [
+      "atlas-p00460"
+    ]
+  },
+  {
+    "illnessId": "trademark_032",
+    "illnessHref": "illnesses/index.html#trademark_032",
+    "locationTopicId": "topic-2de21cb1d147",
+    "locationHref": "wiki.html#topic-2de21cb1d147",
+    "readingIds": [
+      "atlas-p00495"
+    ]
+  },
+  {
+    "illnessId": "trademark_041",
+    "illnessHref": "illnesses/index.html#trademark_041",
+    "locationTopicId": "topic-068af912fa9d",
+    "locationHref": "wiki.html#topic-068af912fa9d",
+    "readingIds": [
+      "atlas-p00604"
+    ]
+  },
+  {
+    "illnessId": "trademark_050",
+    "illnessHref": "illnesses/index.html#trademark_050",
+    "locationTopicId": "topic-ded2559cd76d",
+    "locationHref": "wiki.html#topic-ded2559cd76d",
+    "readingIds": [
+      "atlas-p00714"
+    ]
+  },
+  {
+    "illnessId": "trademark_054",
+    "illnessHref": "illnesses/index.html#trademark_054",
+    "locationTopicId": "topic-dc86c4b5c710",
+    "locationHref": "wiki.html#topic-dc86c4b5c710",
+    "readingIds": [
+      "atlas-p00759"
+    ]
+  },
+  {
+    "illnessId": "trademark_055",
+    "illnessHref": "illnesses/index.html#trademark_055",
+    "locationTopicId": "topic-8a0955d527e5",
+    "locationHref": "wiki.html#topic-8a0955d527e5",
+    "readingIds": [
+      "atlas-p00769"
+    ]
+  },
+  {
+    "illnessId": "trademark_058",
+    "illnessHref": "illnesses/index.html#trademark_058",
+    "locationTopicId": "topic-0497aad783b2",
+    "locationHref": "wiki.html#topic-0497aad783b2",
+    "readingIds": [
+      "atlas-p00812"
+    ]
+  },
+  {
+    "illnessId": "trademark_059",
+    "illnessHref": "illnesses/index.html#trademark_059",
+    "locationTopicId": "topic-7e0753e28257",
+    "locationHref": "wiki.html#topic-7e0753e28257",
+    "readingIds": [
+      "atlas-p00822"
+    ]
+  },
+  {
+    "illnessId": "trademark_061",
+    "illnessHref": "illnesses/index.html#trademark_061",
+    "locationTopicId": "topic-338d40600464",
+    "locationHref": "wiki.html#topic-338d40600464",
+    "readingIds": [
+      "atlas-p00840"
+    ]
+  },
+  {
+    "illnessId": "trademark_062",
+    "illnessHref": "illnesses/index.html#trademark_062",
+    "locationTopicId": "topic-c9c9329077f1",
+    "locationHref": "wiki.html#topic-c9c9329077f1",
+    "readingIds": [
+      "atlas-p00849"
+    ]
+  },
+  {
+    "illnessId": "trademark_063",
+    "illnessHref": "illnesses/index.html#trademark_063",
+    "locationTopicId": "topic-d8c16eb369da",
+    "locationHref": "wiki.html#topic-d8c16eb369da",
+    "readingIds": [
+      "atlas-p00858"
+    ]
+  },
+  {
+    "illnessId": "trademark_064",
+    "illnessHref": "illnesses/index.html#trademark_064",
+    "locationTopicId": "topic-1a02c40ac502",
+    "locationHref": "wiki.html#topic-1a02c40ac502",
+    "readingIds": [
+      "atlas-p00867"
+    ]
+  },
+  {
+    "illnessId": "trademark_065",
+    "illnessHref": "illnesses/index.html#trademark_065",
+    "locationTopicId": "topic-1ad720c71149",
+    "locationHref": "wiki.html#topic-1ad720c71149",
+    "readingIds": [
+      "atlas-p00876"
+    ]
+  },
+  {
+    "illnessId": "trademark_066",
+    "illnessHref": "illnesses/index.html#trademark_066",
+    "locationTopicId": "topic-e1b351531bcf",
+    "locationHref": "wiki.html#topic-e1b351531bcf",
+    "readingIds": [
+      "atlas-p00885"
+    ]
+  },
+  {
+    "illnessId": "trademark_073",
+    "illnessHref": "illnesses/index.html#trademark_073",
+    "locationTopicId": "topic-d17d92a1e452",
+    "locationHref": "wiki.html#topic-d17d92a1e452",
+    "readingIds": [
+      "atlas-p01173"
+    ]
+  },
+  {
+    "illnessId": "trademark_074",
+    "illnessHref": "illnesses/index.html#trademark_074",
+    "locationTopicId": "topic-784ba811f956",
+    "locationHref": "wiki.html#topic-784ba811f956",
+    "readingIds": [
+      "atlas-p01184"
+    ]
+  },
+  {
+    "illnessId": "trademark_079",
+    "illnessHref": "illnesses/index.html#trademark_079",
+    "locationTopicId": "topic-2f339c327e71",
+    "locationHref": "wiki.html#topic-2f339c327e71",
+    "readingIds": [
+      "atlas-p01254"
+    ]
+  },
+  {
+    "illnessId": "trademark_095",
+    "illnessHref": "illnesses/index.html#trademark_095",
+    "locationTopicId": "topic-3c137a80765e",
+    "locationHref": "wiki.html#topic-3c137a80765e",
+    "readingIds": [
+      "atlas-p01440"
+    ]
+  },
+  {
+    "illnessId": "trademark_096",
+    "illnessHref": "illnesses/index.html#trademark_096",
+    "locationTopicId": "topic-365fdc1acb57",
+    "locationHref": "wiki.html#topic-365fdc1acb57",
+    "readingIds": [
+      "atlas-p01451"
+    ]
+  },
+  {
+    "illnessId": "trademark_100",
+    "illnessHref": "illnesses/index.html#trademark_100",
+    "locationTopicId": "topic-1f682816ad95",
+    "locationHref": "wiki.html#topic-1f682816ad95",
+    "readingIds": [
+      "atlas-p01495"
+    ]
+  },
+  {
+    "illnessId": "trademark_101",
+    "illnessHref": "illnesses/index.html#trademark_101",
+    "locationTopicId": "topic-f59cc988c96c",
+    "locationHref": "wiki.html#topic-f59cc988c96c",
+    "readingIds": [
+      "atlas-p01506"
+    ]
+  }
+]
