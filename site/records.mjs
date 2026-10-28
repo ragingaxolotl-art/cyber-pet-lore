@@ -12,9 +12,11 @@ export function validateState(value){
   for(const h of r.highlights??[]){
    if(!object(h)||!string(h.id,100)||!string(h.note??'')||!Array.isArray(h.segments)||!h.segments.length||h.segments.length>500||!['gold','blue','rose'].includes(h.color))throw Error('A highlight is invalid. Nothing was imported.');
    for(const s of h.segments)if(!object(s)||!string(s.block,200)||!Number.isInteger(s.start)||!Number.isInteger(s.end)||s.start<0||s.end<=s.start||!string(s.quote,100000)||s.quote.length!==s.end-s.start)throw Error('A highlight location is invalid. Nothing was imported.');
+   if(h.tags!==undefined&&(!Array.isArray(h.tags)||h.tags.length>30||h.tags.some(t=>!string(t,70))))throw Error('Highlight tags are invalid. Nothing was imported.');
+   if(h.context!==undefined&&(!object(h.context)||!string(h.context.storyTitle,300)||!Array.isArray(h.context.era)||h.context.era.some(e=>!Number.isInteger(e)||e< -3||e>4)))throw Error('Highlight context is invalid. Nothing was imported.');
    let clip;
    if(h.clip!==undefined){const c=h.clip;if(!object(c)||!Number.isSafeInteger(c.number)||c.number<1||!string(c.storyId,150)||!string(c.storyTitle,300)||!string(c.timeLabel,500)||!Array.isArray(c.era)||c.era.some(e=>!Number.isInteger(e)||e< -3||e>4)||!Array.isArray(c.characters)||c.characters.length>100||c.characters.some(n=>!string(n,150)))throw Error('A clip is invalid. Nothing was imported.');clip={number:c.number,storyId:c.storyId,storyTitle:c.storyTitle,timeLabel:c.timeLabel,era:[...c.era],characters:[...c.characters]};}
-   highlights.push({...(clip?{clip}:{}),id:h.id,color:h.color,note:h.note??'',segments:h.segments.map(s=>({...s})),createdAt:Number(h.createdAt)||0});
+   highlights.push({...(h.tags!==undefined?{tags:[...h.tags]}:{}),...(h.context?{context:{storyTitle:h.context.storyTitle,era:[...h.context.era]}}:{}),...(clip?{clip}:{}),id:h.id,color:h.color,note:h.note??'',segments:h.segments.map(s=>({...s})),createdAt:Number(h.createdAt)||0});
   }
   result.readings[id]={read:r.read===true,readAt:Number(r.readAt)||null,note:r.note??'',tags:Array.isArray(r.tags)?r.tags.filter(t=>string(t,70)).slice(0,30):[],highlights,updatedAt:r.updatedAt,position:object(r.position)&&string(r.position.block,200)?{block:r.position.block}:null};
  }

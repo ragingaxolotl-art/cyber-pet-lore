@@ -38,7 +38,7 @@ function setRead(id,checked){updateRecord(id,{read:checked,readAt:checked?Date.n
 function updateProgress(){
  if(!entries.length)return;
  const count=entries.filter(e=>record(e.id).read).length;$('entry-count').textContent=entries.length;$('progress-count').textContent=count;$('progress-fill').style.width=`${count/entries.length*100}%`;
- $('note-count').textContent=Object.values(state.readings).filter(r=>r.note||r.highlights.length).length;
+ $('note-count').textContent=Object.values(state.readings).reduce((total,r)=>total+r.highlights.length,0);
  const recent=byId.get(state.lastReading);$('resume').hidden=!recent;if(recent){$('resume').href='#read='+encodeURIComponent(recent.id);$('resume').replaceChildren(node('span','Continue: '+recent.title),node('span','→'));}
 }
 function fillSelect(id,values,label){const s=$(id);s.replaceChildren(new Option(label,''));for(const v of values)s.add(new Option(v,v));}
@@ -100,9 +100,22 @@ function renderConnections(entry){
  }else panel.append(node('p','No direct reading connections have been indexed yet. Browse the library for more context.'));
 }
 function scrollToBlock(id){document.getElementById('block-'+id)?.scrollIntoView({block:'start',behavior:'instant'});}
+function highlightHeading(card,id,h){
+ const entry=byId.get(id),context=h.clip||h.context;
+ const heading=node('h3'),link=node('a',context?.storyTitle||entry?.title||'Reading no longer in this snapshot');
+ if(entry)link.href='#read='+encodeURIComponent(id);heading.append(link);card.append(heading);
+ const eras=context?.era||entry?.era||[];
+ const date=h.createdAt>0&&Number.isFinite(new Date(h.createdAt).getTime())?new Date(h.createdAt).toLocaleDateString(undefined,{year:'numeric',month:'short',day:'numeric'}):'Date not recorded';
+ card.append(node('p',date+' · '+(eras.length?eras.map(eraName).join(' / '):'Era unspecified'),'row-meta'));
+}
+function highlightTags(id,h){
+ const label=node('label','Tags for this highlight'),input=node('input');input.type='text';input.value=(h.tags||[]).join(', ');input.placeholder='e.g. mystery, character, revisit';input.maxLength=2100;
+ input.oninput=()=>{const tags=[...new Set(input.value.split(',').map(t=>t.trim().slice(0,70)).filter(Boolean))].slice(0,30);updateRecord(id,{highlights:record(id).highlights.map(item=>item.id===h.id?{...item,tags}:item)});};
+ label.className='highlight-tags';label.append(input,node('span','Separate tags with commas.','small-note'));return label;
+}
 function renderHighlights(){
  const r=record(current.id);$('highlight-count').textContent=r.highlights.length;const list=$('highlights-list');list.replaceChildren();
- for(const h of r.highlights){const card=node('div',undefined,'highlight-card');card.id='highlight-'+h.id;if(h.clip){card.append(node('strong','Clip #'+h.clip.number,'clip-label'),node('p',h.clip.timeLabel+' · '+(h.clip.characters.join(', ')||'No characters identified'),'small-note'));}const quote=node('blockquote',h.segments.map(s=>s.quote).join('\n'));quote.style.borderColor={gold:'#d5aa46',blue:'#68aaca',rose:'#c77c8a'}[h.color];const note=node('textarea');note.rows=3;note.maxLength=30000;note.value=h.note;note.placeholder='Add a note to this passage…';note.setAttribute('aria-label','Note for highlighted passage');note.oninput=()=>{const highlights=record(current.id).highlights.map(x=>x.id===h.id?{...x,note:note.value}:x);updateRecord(current.id,{highlights});};const actions=node('div',undefined,'highlight-actions');const go=node('button','Go to passage');go.onclick=()=>scrollToBlock(h.segments[0].block);const remove=node('button','Remove');remove.onclick=()=>{updateRecord(current.id,{highlights:record(current.id).highlights.filter(x=>x.id!==h.id)});renderBlocks();renderHighlights();};if(!h.clip){const clip=node('button','Clip');clip.onclick=()=>prepareClip(h.segments,h);actions.append(clip);}actions.append(go,remove);if(h.clip){const copy=node('button','Copy passage');copy.onclick=()=>copyPassage(h,copy);actions.append(copy);}card.append(quote,note,actions);list.append(card);}
+ for(const h of r.highlights){const card=node('div',undefined,'highlight-card');card.id='highlight-'+h.id;highlightHeading(card,current.id,h);if(h.clip){card.append(node('strong','Clip #'+h.clip.number,'clip-label'),node('p',h.clip.timeLabel+' · '+(h.clip.characters.join(', ')||'No characters identified'),'small-note'));}const quote=node('blockquote',h.segments.map(s=>s.quote).join('\n'));quote.style.borderColor={gold:'#d5aa46',blue:'#68aaca',rose:'#c77c8a'}[h.color];const note=node('textarea');note.rows=3;note.maxLength=30000;note.value=h.note;note.placeholder='Add a note to this passage…';note.setAttribute('aria-label','Note for highlighted passage');note.oninput=()=>{const highlights=record(current.id).highlights.map(x=>x.id===h.id?{...x,note:note.value}:x);updateRecord(current.id,{highlights});};const actions=node('div',undefined,'highlight-actions');const go=node('button','Go to passage');go.onclick=()=>scrollToBlock(h.segments[0].block);const remove=node('button','Remove');remove.onclick=()=>{updateRecord(current.id,{highlights:record(current.id).highlights.filter(x=>x.id!==h.id)});renderBlocks();renderHighlights();};if(!h.clip){const clip=node('button','Clip');clip.onclick=()=>prepareClip(h.segments,h);actions.append(clip);}actions.append(go,remove);if(h.clip){const copy=node('button','Copy passage');copy.onclick=()=>copyPassage(h,copy);actions.append(copy);}card.append(quote,note,highlightTags(current.id,h),actions);list.append(card);}
 }
 async function openReading(id,anchor=null){
  const seq=++routeSequence,e=byId.get(id);if(!e){location.hash='';return;}hideSelection();current=e;$('library').hidden=true;$('notebook').hidden=true;$('reader').hidden=false;$('reader-title').textContent=e.title;$('reader-kind').textContent=e.kind;$('reader-summary').textContent=e.summary||'';$('reading-text').replaceChildren(node('p','Opening this reading…','loading'));$('reader-meta').replaceChildren();for(const value of [e.timeLabel,e.status,`${(e.wordCount||0).toLocaleString()} words`].filter(Boolean))$('reader-meta').append(node('span',value));$('reader-read').checked=record(id).read;$('finish-read').textContent=record(id).read?'✓ Read':'✓ Mark as read';$('reading-note').value=record(id).note;$('reading-tags').value=record(id).tags.join(', ');$('original-source').href=e.source?.url||'#';$('original-source').hidden=true;
@@ -118,11 +131,11 @@ function captureSelection(){
  const segments=[];for(const el of container.children){if(!range.intersectsNode(el))continue;const text=el.textContent;let start=0,end=text.length;if(el.contains(range.startContainer)){const before=document.createRange();before.selectNodeContents(el);before.setEnd(range.startContainer,range.startOffset);start=before.toString().length;}if(el.contains(range.endContainer)){const before=document.createRange();before.selectNodeContents(el);before.setEnd(range.endContainer,range.endOffset);end=before.toString().length;}if(end>start)segments.push({block:el.dataset.block,start,end,quote:text.slice(start,end)});}
  if(!segments.length)return hideSelection();selection=segments;$('selection-toolbar').hidden=false;
 }
-function addHighlight(withNote){if(!selection.length||!current)return;const h={id:crypto.randomUUID(),color:$('highlight-color').value,note:'',segments:structuredClone(selection),createdAt:Date.now()};updateRecord(current.id,{highlights:[...record(current.id).highlights,h]});window.getSelection()?.removeAllRanges();hideSelection();renderBlocks();renderHighlights();if(withNote){const note=$('highlight-'+h.id)?.querySelector('textarea');note?.scrollIntoView({block:'center'});note?.focus({preventScroll:true});}}
+function addHighlight(withNote){if(!selection.length||!current)return;const h={id:crypto.randomUUID(),color:$('highlight-color').value,note:'',tags:[],context:clipContext(current,currentContent.blocks,selection),segments:structuredClone(selection),createdAt:Date.now()};updateRecord(current.id,{highlights:[...record(current.id).highlights,h]});window.getSelection()?.removeAllRanges();hideSelection();renderBlocks();renderHighlights();if(withNote){const note=$('highlight-'+h.id)?.querySelector('textarea');note?.scrollIntoView({block:'center'});note?.focus({preventScroll:true});}}
 let pendingClip=null;
 function prepareClip(segments,existing=null){
  if(!current||!segments.length)return;
- pendingClip={readingId:current.id,segments:structuredClone(segments),existingId:existing?.id,context:clipContext(current,currentContent.blocks,segments),color:existing?.color||$('highlight-color').value};
+ pendingClip={readingId:current.id,segments:structuredClone(segments),existingId:existing?.id,createdAt:existing?.createdAt,tags:existing?.tags||[],context:clipContext(current,currentContent.blocks,segments),color:existing?.color||$('highlight-color').value};
  $('clip-context').textContent=pendingClip.context.storyTitle+' · '+pendingClip.context.timeLabel;
  $('clip-quote').textContent=segments.map(s=>s.quote).join('\n');
  $('clip-characters').value=pendingClip.context.characters.join(', ');$('clip-note').value=existing?.note||'';
@@ -134,7 +147,7 @@ $('confirm-clip').onclick=()=>{
  // Refresh the shared browser counter before assigning a number.
  try{const raw=localStorage.getItem(STORAGE_KEY);if(raw)state=mergeStates(state,validateState(JSON.parse(raw)));}catch{}
  const number=state.nextClipNumber++;
- const h={id:p.existingId||crypto.randomUUID(),color:p.color,note:$('clip-note').value,segments:p.segments,createdAt:Date.now(),clip:{...p.context,number,characters:[...new Set($('clip-characters').value.split(',').map(x=>x.trim().slice(0,150)).filter(Boolean))].slice(0,100)}};
+ const h={id:p.existingId||crypto.randomUUID(),color:p.color,note:$('clip-note').value,segments:p.segments,tags:p.tags,createdAt:p.createdAt??Date.now(),clip:{...p.context,number,characters:[...new Set($('clip-characters').value.split(',').map(x=>x.trim().slice(0,150)).filter(Boolean))].slice(0,100)}};
  updateRecord(p.readingId,{highlights:[...record(p.readingId).highlights.filter(x=>x.id!==h.id),h]});
  $('clip-dialog').close();pendingClip=null;window.getSelection()?.removeAllRanges();renderBlocks();renderHighlights();
  const card=$('highlight-'+h.id);card?.scrollIntoView({block:'nearest'});
@@ -142,16 +155,22 @@ $('confirm-clip').onclick=()=>{
 async function copyPassage(h,button){try{await navigator.clipboard.writeText(h.segments.map(s=>s.quote).join('\n'));button.textContent='Copied';}catch{button.textContent='Select the quote to copy';}}
 function renderNotebook(){
  ++routeSequence;hideSelection();current=null;$('library').hidden=true;$('reader').hidden=true;$('notebook').hidden=false;const list=$('notebook-list');list.replaceChildren();const onlyClips=$('clips-only').checked;
- for(const [id,r] of Object.entries(state.readings).filter(([,r])=>onlyClips?r.highlights.some(h=>h.clip):r.note||r.highlights.length||r.tags.length).sort((a,b)=>b[1].updatedAt-a[1].updatedAt)){
-  const e=byId.get(id),card=node('article',undefined,'notebook-entry'),heading=node('h2'),a=node('a',e?.title||'Reading no longer in this snapshot');if(e)a.href='#read='+encodeURIComponent(id);heading.append(a);card.append(heading,node('div',[e?.timeLabel,r.read?'✓ Read':'Not yet read',...r.tags].filter(Boolean).join(' · '),'row-meta'));if(r.note&&!onlyClips)card.append(node('p',r.note,'entry-note'));
-  for(const item of r.highlights.filter(h=>!onlyClips||h.clip)){
-   const section=node('section',undefined,'notebook-passage');
-   if(item.clip)section.append(node('h3','Clip #'+item.clip.number),node('p',item.clip.storyTitle+' · '+item.clip.timeLabel+' · Characters: '+(item.clip.characters.join(', ')||'None identified'),'row-meta'));
-   section.append(node('blockquote',item.segments.map(s=>s.quote).join('\n')));
-   const label=node('label',item.clip?'Clip notes':'Passage notes'),note=node('textarea');note.rows=3;note.maxLength=30000;note.value=item.note;label.append(note);note.oninput=()=>updateRecord(id,{highlights:record(id).highlights.map(h=>h.id===item.id?{...h,note:note.value}:h)});section.append(label);
-   if(e){const go=node('a','Return to passage →');go.href='#read='+encodeURIComponent(id)+'&block='+encodeURIComponent(item.segments[0].block);section.append(go);}
-   if(item.clip){const copy=node('button','Copy passage');copy.onclick=()=>copyPassage(item,copy);section.append(copy);}card.append(section);
-  }list.append(card);
+ const highlights=Object.entries(state.readings).flatMap(([id,r])=>r.highlights.filter(h=>!onlyClips||h.clip).map(h=>({id,h}))).sort((a,b)=>b.h.createdAt-a.h.createdAt);
+ for(const {id,h:item} of highlights){
+  const card=node('article',undefined,'notebook-entry notebook-passage');highlightHeading(card,id,item);
+  if(item.clip)card.append(node('p','Clip #'+item.clip.number,'clip-label'));
+  card.append(node('blockquote',item.segments.map(s=>s.quote).join('\n')));
+  const label=node('label','Your note (optional)'),note=node('textarea');note.rows=3;note.maxLength=30000;note.value=item.note;label.append(note);
+  note.oninput=()=>updateRecord(id,{highlights:record(id).highlights.map(h=>h.id===item.id?{...h,note:note.value}:h)});
+  card.append(label,highlightTags(id,item));
+  if(byId.has(id)){const go=node('a','Return to passage →');go.href='#read='+encodeURIComponent(id)+'&block='+encodeURIComponent(item.segments[0].block);card.append(go);}
+  const copy=node('button','Copy passage');copy.onclick=()=>copyPassage(item,copy);card.append(copy);list.append(card);
+ }
+ if(!onlyClips){
+  const legacy=Object.entries(state.readings).filter(([,r])=>r.note||r.tags.length);
+  if(legacy.length){const details=node('details');details.append(node('summary','Article notes and tags ('+legacy.length+')'));
+   for(const [id,r] of legacy){const card=node('article',undefined,'notebook-entry');card.append(node('h3',byId.get(id)?.title||'Reading no longer in this snapshot'),node('p',r.note,'entry-note'),node('p',r.tags.join(', '),'row-meta'));details.append(card);}list.append(details);
+  }
  }
  if(!list.children.length)list.append(node('p',onlyClips?'No clips yet. Select a passage in a reading and choose Clip.':'Your notebook is waiting. Open a reading, select a passage, and add your first note.'));window.scrollTo({top:0,behavior:'instant'});
 }
