@@ -18,7 +18,7 @@ function drawMesh(c,item){const {mesh,center,rotation,alpha,scale}=item,vertices
  c.restore();
 }
 function handItems(t,side){const a=t/12*TAU,root=[side*(125+25*Math.sin(a*2+side)),120+35*Math.sin(a+side),40*Math.sin(a*2+side)],rotation=[a*(side===1?1:-2)+.4,a*(side===1?-2:1),side*.6+.35*Math.sin(a*3)],out=[];
- const place=(mesh,local,r,scale=1)=>out.push({...meshItem(mesh,add(root,rotate(local,rotation)),r,.9,scale),parentRotation:rotation});
+ const place=(mesh,local,r,scale=1)=>out.push({...meshItem(mesh,add(root,rotate(local,rotation)),r,.6,scale),parentRotation:rotation,body:true});
  place(palm,[0,0,0],[0,0,0]);place(forearm,[0,70,0],[.15*Math.sin(a*2),0,0]);
  // Each digit has three independently positioned phalanges; curl changes their joint angles.
  for(let f=0;f<5;f++){const thumb=f===0,base=[thumb?-24:-15+(f-1)*10,thumb?0:-20,0],spread=(f-2)*.13+(thumb?-.65:0),curl=.15+(.5+.5*Math.sin(a*(side===1?2:3)+f*.3+side))*1.55;let joint=base;
@@ -28,8 +28,8 @@ function handItems(t,side){const a=t/12*TAU,root=[side*(125+25*Math.sin(a*2+side
 }
 function wingItems(t){const a=t/12*TAU,out=[];for(let w=0;w<8;w++){
  const cycle=(t+(w*1.713))%[3,4,2,6][w%4],burst=cycle<.46?Math.sin(cycle/.46*Math.PI):0;if(!burst)continue;
- const direction=w*TAU/8+.2,extent=135,root=[Math.cos(direction)*extent,Math.sin(direction)*extent, -60],rotation=[.35*Math.sin(a*2+w),.5*Math.sin(a+w),direction+Math.PI/2];
- for(let j=0;j<7;j++){if((Math.floor(t*13)+w+j)%7===0)continue;const offset=rotate([(j-3)*11,-28-j*13,8*Math.sin(a*3+j)],rotation),breakoff=j>3?1+.07*Math.sin(a*4+j):1;out.push(meshItem(featherMeshes[w][j],add(root,offset.map(x=>x*breakoff)),rotation.map((v,k)=>v+(j>3?.08*Math.sin(a*3+j+k):0)),burst*(.33+j*.055)));}
+ const direction=w*TAU/8+.2,extent=135,root=[Math.cos(direction)*extent,Math.sin(direction)*extent, -60],rotation=[.12*Math.sin(w),.18*Math.cos(w),direction+Math.PI/2];
+ for(let j=0;j<7;j++){if((Math.floor(t*13)+w+j)%7===0)continue;const offset=rotate([(j-3)*11,-28-j*13,8*Math.sin(j)],rotation),breakoff=j>3?1.04:1;out.push({...meshItem(featherMeshes[w][j],add(root,offset.map(x=>x*breakoff)),rotation,burst*(.33+j*.055)),anchored:true});}
  }return out;
 }
 function ringSegments(t){const a=t/12*TAU,out=[];for(let ring=0;ring<2;ring++){
@@ -37,10 +37,42 @@ function ringSegments(t){const a=t/12*TAU,out=[];for(let ring=0;ring<2;ring++){
  for(let j=0;j<96;j++){const points=[j,j+1].map(k=>rotate([Math.cos(k*TAU/96)*radius,Math.sin(k*TAU/96)*radius,0],rotation));out.push({ring:true,points,z:(points[0][2]+points[1][2])/2,color:ring?'#aaf2ff':'#ffda86',bright:j%12===0});}
  }return out;
 }
-export function livingLayers(t){const a=t/12*TAU,items=shards.map(p=>{const angle=p.phase+a*p.speed+.13*Math.sin(a*3+p.seed);return meshItem(p.mesh,[Math.cos(angle)*p.radius,25+Math.sin(angle)*p.height,55*Math.sin(angle+p.seed*.3)],[a*(1+p.seed%3),a*(p.seed%2?-2:3)+p.phase,a*(p.seed%3-1)+p.phase],.85);});
- items.push(...handItems(t,-1),...handItems(t,1),...wingItems(t),meshItem(head,[0,-135+2*Math.sin(a),0],[.12*Math.sin(a*2),a,.08*Math.sin(a)],.9),...ringSegments(t));return items.sort((a,b)=>a.z-b.z);
+export function livingLayers(t,variant=0){const a=t/12*TAU,items=shards.map(p=>{const angle=p.phase+a*p.speed+.13*Math.sin(a*3+p.seed);return meshItem(p.mesh,[Math.cos(angle)*p.radius,25+Math.sin(angle)*p.height,55*Math.sin(angle+p.seed*.3)],[a*(1+p.seed%3),a*(p.seed%2?-2:3)+p.phase,a*(p.seed%3-1)+p.phase],.85);});
+ items.push(...handItems(t,-1),...handItems(t,1),...wingItems(t),{...meshItem(head,[0,-135+2*Math.sin(a),0],[.12*Math.sin(a*2),a,.08*Math.sin(a)],.65),body:true},...ringSegments(t),...bodyItems(t,variant));
+ return glitchLayers(items,t,variant).sort((a,b)=>a.z-b.z);
 }
 export function drawLivingLayer(c,item){if(!item.ring){drawMesh(c,item);return;}c.save();const project=v=>[960+v[0]*900/(900-v[2]),500+v[1]*900/(900-v[2])];c.strokeStyle=item.color;c.globalAlpha=item.z<0?.52:.94;c.lineWidth=item.bright?2.6:1.5;c.shadowColor=item.color;c.shadowBlur=item.bright?8:3;c.beginPath();c.moveTo(...project(item.points[0]));c.lineTo(...project(item.points[1]));c.stroke();c.restore();}
 
 export function drawLivingHeart(c,t){const a=t/12*TAU,pulse=1+.07*Math.sin(a*3);c.save();c.translate(960,500);c.scale(pulse,pulse);c.globalCompositeOperation='lighter';const halo=c.createRadialGradient(0,0,0,0,0,42);halo.addColorStop(0,'rgba(255,243,193,.9)');halo.addColorStop(.22,'rgba(255,193,65,.7)');halo.addColorStop(.5,'rgba(255,134,45,.16)');halo.addColorStop(1,'rgba(255,155,35,0)');c.fillStyle=halo;c.fillRect(-42,-42,84,84);const core=c.createRadialGradient(-3,-4,1,0,0,13);core.addColorStop(0,'#ffffee');core.addColorStop(.3,'#fff5ac');core.addColorStop(.75,'#ffb938');core.addColorStop(1,'rgba(255,131,37,.1)');c.fillStyle=core;c.beginPath();c.arc(0,0,13,0,TAU);c.fill();
  for(let k=0;k<5;k++){c.save();c.rotate(a*(k%2?1:-1)+k);c.strokeStyle=k%2?'rgba(255,248,203,.75)':'rgba(255,171,54,.65)';c.lineWidth=.8;c.beginPath();c.ellipse(0,0,15+k,5+k*.7,0,0,TAU);c.stroke();c.restore();}c.restore();}
+
+// Three arrangements share the same parts and fixed wing anchors.
+export const bodyVersions=[
+ {name:'Echo',description:'A near-aligned body with soft cyan and violet echoes.',offset:7,spread:1,opacity:.48,beat:3},
+ {name:'Fracture',description:'More separated body sections with sharper sideways slips.',offset:14,spread:1.15,opacity:.42,beat:5},
+ {name:'Phase',description:'A faint body that returns in waves with layered rainbow afterimages.',offset:10,spread:.94,opacity:.31,beat:2}
+];
+const bodyDefinitions=[
+ // Separate shoulder, chest and rib fragments surround the open heart.
+ [-48,-77,42,24,9], [48,-77,42,24,9],[-30,-48,48,22,10],[30,-48,48,22,10],
+ [-48,-10,36,13,7],[48,-10,36,13,7],[-41,27,32,12,7],[41,27,32,12,7],
+ [-26,67,30,14,7],[26,67,30,14,7],[-69,-32,48,13,9],[69,-32,48,13,9],
+ [-80,35,43,12,8],[80,35,43,12,8],
+ // Large gaps remain in the pelvis and legs; these are disconnected remnants.
+ [-26,105,28,16,8],[26,105,28,16,8],[-37,151,45,15,9],
+ [-40,243,43,13,8],[40,224,38,13,8],[-43,281,29,18,8],[43,266,29,18,8]
+].map(([x,y,length,width,depth],i)=>({mesh:makeShard(300+i,length,width,depth),x,y,i}));
+function bodyItems(t,version){const a=t/12*TAU,cfg=bodyVersions[version];return bodyDefinitions.map(p=>{
+ const wave=.5+.5*Math.sin(a*cfg.beat+p.i*.7),drop=(Math.floor(t*8)+p.i*5)%29<4,hip=p.i===14||p.i===15;
+ const alpha=hip?(wave>.93?.18:0):cfg.opacity*(drop?.08:.35+.65*wave);
+ return{...meshItem(p.mesh,[p.x*cfg.spread+7*Math.sin(a*2+p.i),p.y+5*Math.cos(a*3+p.i),-12+15*Math.sin(a+p.i)], [.16*Math.sin(a*2+p.i),.35*Math.sin(a+p.i),.14*Math.sin(a*3+p.i)],alpha),body:true};
+ });}
+function glitchLayers(items,t,version){const a=t/12*TAU,cfg=bodyVersions[version],dx=3*Math.sin(a*2)+2*Math.sin(a*5),dy=2*Math.cos(a*3),out=[];
+ for(const original of items){if(original.anchored){out.push(original);continue;}
+ if(original.ring){const points=original.points.map(p=>[p[0]+dx,p[1]+dy,p[2]]);out.push({...original,points});continue;}
+ const item={...original,center:[original.center[0]+dx,original.center[1]+dy,original.center[2]]};
+ if(item.body){const phase=Math.sin(a*cfg.beat+item.center[1]*.031),slip=cfg.offset*phase;item.center=[item.center[0]+slip*.35,item.center[1],item.center[2]];
+ for(const side of [-1,1]){const alpha=item.alpha*(version===2?.36:.24)*(.5+.5*Math.sin(a*4+side+item.center[1]*.02));out.push({...item,mesh:{...item.mesh,color:side<0?[127,239,255]:[239,157,255]},center:[item.center[0]+side*cfg.offset+slip,item.center[1]+side*2,item.center[2]-2],alpha,z:item.z-2});}
+ }
+ out.push(item);
+ }return out;}
