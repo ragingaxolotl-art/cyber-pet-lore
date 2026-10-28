@@ -534,7 +534,11 @@
       "characters": [
         "Lio",
         "Sen",
-        "Aru"
+        "Aru",
+        "Valei",
+        "Pei",
+        "Arven",
+        "Vey (student)"
       ],
       "places": [],
       "topics": [
@@ -581,6 +585,10 @@
         {
           "id": "world-shared-simulation",
           "label": "World-development context"
+        },
+        {
+          "id": "corrected-child-register",
+          "label": "Character and place identification"
         },
         {
           "id": "world-physics-tests",
@@ -5251,6 +5259,10 @@
           "label": "Named in this reading"
         },
         {
+          "id": "corrected-child-register",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "stories-p11382",
           "label": "Reading mentioning this entry"
         },
@@ -5486,6 +5498,10 @@
         },
         {
           "id": "lore-p01271",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "corrected-child-register",
           "label": "Reading mentioning this entry"
         },
         {
@@ -25780,6 +25796,10 @@
         {
           "id": "lore-p01283",
           "label": "Named in this reading"
+        },
+        {
+          "id": "corrected-child-register",
+          "label": "Character and place identification"
         }
       ]
     },
@@ -35266,6 +35286,53 @@
           "label": "Named in this reading"
         }
       ]
+    },
+    {
+      "id": "corrected-child-register",
+      "title": "The Corrected Child — Characters and places to identify",
+      "kind": "Reference",
+      "era": [
+        -1
+      ],
+      "timeLabel": "Era −1 · editorial reference",
+      "timeOrder": 11384,
+      "status": "reference",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "identification",
+        "characters",
+        "places"
+      ],
+      "source": {
+        "title": "The Corrected Child — Characters and places to identify",
+        "url": "#read=corrected-child-register"
+      },
+      "summary": "Evidence-linked identification gaps in both parts: seven characters, seven settings, and the limits of real-world identification.",
+      "wordCount": 681,
+      "explicitLinks": [
+        "stories-p11382",
+        "corrected-child-part-two-p00000"
+      ],
+      "connectionLabel": "Character and place identification",
+      "connections": [
+        {
+          "id": "lore-p01271",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01283",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "stories-p11382",
+          "label": "Character and place identification"
+        },
+        {
+          "id": "corrected-child-part-two-p00000",
+          "label": "Character and place identification"
+        }
+      ]
     }
   ],
   "sources": [
@@ -35354,6 +35421,11 @@
       "key": "reference-illnesses",
       "title": "Illness field guide — complete collection",
       "note": "Illustrated reference cards with stable reading and paragraph IDs; notes use the existing logbook records and backups."
+    },
+    {
+      "key": "corrected-child-register",
+      "title": "The Corrected Child — Characters and places to identify",
+      "note": "Editorial reference derived from the two published stories; source prose is unchanged."
     }
   ],
   "counts": {
@@ -35362,7 +35434,7 @@
     "Language": 119,
     "Locations": 206,
     "People": 100,
-    "Reference": 10,
+    "Reference": 11,
     "Remedies": 34,
     "Ribbons": 161,
     "Song": 4,

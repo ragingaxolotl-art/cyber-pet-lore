@@ -126,6 +126,8 @@ sources.append({'key':'corrected-child-part-two','title':continuation['title'],'
 research['counts']=dict(research['counts'],completePrimaryStories=14,unfinishedPrimaryStories=0,primaryReadingUnitsWithQuietInstallmentsSplit=25,totalReadingUnitsIncludingDrafts=29)
 from build_reference_readings import add_reference_readings
 add_reference_readings(ROOT,catalog,sources)
+from build_corrected_child_register import add_corrected_child_register
+add_corrected_child_register(ROOT,catalog,sources)
 
 # Place facets use exact named-place mentions, not inferred geography.
 place_names={'Listening Alcove'}
