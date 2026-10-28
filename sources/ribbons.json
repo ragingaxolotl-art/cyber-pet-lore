@@ -1,0 +1,12 @@
+{
+  "updated": "2026-10-28",
+  "scope": "Published game awards, battle honours, all 80 reserved PixelLab library assets, and all 11 Foundling designs plus the miniature placement.",
+  "catalog": "../site/ribbons/directory.json",
+  "entries": 160,
+  "main_release": "2026-10-28-foundling",
+  "status_counts": {
+    "In use": 109,
+    "Not used yet": 42,
+    "Archived concept": 9
+  }
+}

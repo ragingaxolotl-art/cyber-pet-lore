@@ -1,0 +1,1603 @@
+CYBER PET LORE — RIBBONS & HONOURS
+Saved 2026-10-28
+Artwork variants are not separate unlocks unless marked In use.
+
+Foundling · animated sunburst [In use]
+Medal · Foundling
+Definition: Recognizes the first cohort that helped start the Cyber Pet world. Characters first uploaded on or before November 14, 2026 are Foundlings, including board-only uploads. The cohort is Quarter 1 of school year 2026–2027. Preserve an exact upload date when known; otherwise display the school term without inventing a date.
+Placement: Character profile sheet, beside Character Profile and Care.
+Reward: Commemorative only; no XP, currency or stat bonus.
+Animation: 56 frames at 10 fps (5.6 seconds). Inner rings rotate counterclockwise / clockwise / counterclockwise. Ribbons share a wave anchored at the mount; the long center tail remains fully visible. Reduced motion holds the first frame.
+Notes: Hover: “founding ribbon for starting the world”. Same approved artwork in two placements. No decoration on character browsing.
+Artwork: art/ui/foundling_medal/atlas.png
+Source: {"creator": "PixelLab, generated at the user’s request", "gallery_id": "e06e77f8-697e-4b48-bd86-4bfdd870a6be", "drawing_id": "4ea694d8-22c7-4a7b-b5cf-bb887c460274", "recipe": "art/ui/foundling_medal/recipe.json"}
+
+Foundling · miniature board medal [In use]
+Medal · Foundling
+Definition: Recognizes the first cohort that helped start the Cyber Pet world. Characters first uploaded on or before November 14, 2026 are Foundlings, including board-only uploads. The cohort is Quarter 1 of school year 2026–2027. Preserve an exact upload date when known; otherwise display the school term without inventing a date.
+Placement: Immediately beside a character’s name on the classroom board.
+Reward: Commemorative only; no XP, currency or stat bonus.
+Animation: 56 frames at 10 fps (5.6 seconds). Inner rings rotate counterclockwise / clockwise / counterclockwise. Ribbons share a wave anchored at the mount; the long center tail remains fully visible. Reduced motion holds the first frame.
+Notes: Hover: “founding ribbon for starting the world”. Same approved artwork in two placements. No decoration on character browsing.
+Artwork: art/ui/foundling_medal/atlas.png
+Source: {"creator": "PixelLab, generated at the user’s request", "gallery_id": "e06e77f8-697e-4b48-bd86-4bfdd870a6be", "drawing_id": "4ea694d8-22c7-4a7b-b5cf-bb887c460274", "recipe": "art/ui/foundling_medal/recipe.json"}
+
+Foundling · illuminated scroll [In use]
+Scroll · Foundling
+Definition: Recognizes the first cohort that helped start the Cyber Pet world. Characters first uploaded on or before November 14, 2026 are Foundlings, including board-only uploads. The cohort is Quarter 1 of school year 2026–2027. Preserve an exact upload date when known; otherwise display the school term without inventing a date.
+Placement: On the profile sheet, beneath the portrait; not in character browsing or beneath board names.
+Reward: Commemorative only; no XP, currency or stat bonus.
+Animation: Nine sparkle frames, 0.18 seconds each (1.62-second loop). FOUNDLING lettering is rendered over the artwork. Reduced motion holds the first frame.
+Notes: Hover: “founding ribbon for starting the world”. “Foundling” is the chosen award label; “founding” remains in the requested hover sentence.
+Artwork: art/ui/foundling/frame_00.png
+Source: {"creator": "PixelLab, generated at the user’s request", "image_job": "412d26ed-3015-41ff-98b3-d6cd39a116bf", "animation_job": "48bfe605-98dc-4126-a632-5d40563f47c9", "gallery_id": "60be6eb5-1ea9-50db-8508-01e69028b2c3"}
+
+Foundling · long center-tail master [Archived concept]
+Medal · Foundling
+Definition: The selected sunburst with a single long center ribbon beneath the shorter curled tails. Static source used to build the approved animation.
+Placement: Not used as a separate award. Preserved for reference and future reuse.
+Reward: No separate unlock condition or reward.
+Animation: Still artwork.
+Notes: Original size: 192 × 400. Intended meaning: the first cohort that helped start the world. This card does not create a new achievement.
+Artwork: art/concepts/894a4380-3af4-5ab9-b927-b47aa7a61d28.png
+Source: {"creator": "PixelLab, generated at the user’s request", "gallery_id": "894a4380-3af4-5ab9-b927-b47aa7a61d28", "created": "2026-10-28"}
+
+Foundling · ornate draped tails [Archived concept]
+Medal · Foundling
+Definition: The selected metallic sunburst with longer, curled hanging ribbons, before the extra center tail was added.
+Placement: Not used as a separate award. Preserved for reference and future reuse.
+Reward: No separate unlock condition or reward.
+Animation: Still artwork.
+Notes: Original size: 192 × 320. Intended meaning: the first cohort that helped start the world. This card does not create a new achievement.
+Artwork: art/concepts/acc63325-25d3-56a4-ba52-335758072cb4.png
+Source: {"creator": "PixelLab, generated at the user’s request", "gallery_id": "acc63325-25d3-56a4-ba52-335758072cb4", "created": "2026-10-28"}
+
+Foundling · mixed-metal sunburst concept [Archived concept]
+Medal · Foundling
+Definition: Gold, bronze and silver-toned radial rays with a circular gold center and two short tails. Selected design direction, developed into the final medal.
+Placement: Not used as a separate award. Preserved for reference and future reuse.
+Reward: No separate unlock condition or reward.
+Animation: Still artwork.
+Notes: Original size: 192 × 224. Intended meaning: the first cohort that helped start the world. This card does not create a new achievement.
+Artwork: art/concepts/c974b050-bb50-5cf7-a8d2-af86b4674d80.png
+Source: {"creator": "PixelLab, generated at the user’s request", "gallery_id": "c974b050-bb50-5cf7-a8d2-af86b4674d80", "created": "2026-10-28"}
+
+Foundling · silver-star concept [Archived concept]
+Medal · Foundling
+Definition: A silver-toned star inside ornate gold scrollwork with two gold tails. Alternative design; not selected.
+Placement: Not used as a separate award. Preserved for reference and future reuse.
+Reward: No separate unlock condition or reward.
+Animation: Still artwork.
+Notes: Original size: 192 × 224. Intended meaning: the first cohort that helped start the world. This card does not create a new achievement.
+Artwork: art/concepts/49a89ee8-1121-56b8-91ef-cae39bbf5f1a.png
+Source: {"creator": "PixelLab, generated at the user’s request", "gallery_id": "49a89ee8-1121-56b8-91ef-cae39bbf5f1a", "created": "2026-10-28"}
+
+Foundling · golden cameo concept [Archived concept]
+Medal · Foundling
+Definition: A polished oval gold center, ornamental edging and two short gold tails. Alternative design; not selected.
+Placement: Not used as a separate award. Preserved for reference and future reuse.
+Reward: No separate unlock condition or reward.
+Animation: Still artwork.
+Notes: Original size: 192 × 224. Intended meaning: the first cohort that helped start the world. This card does not create a new achievement.
+Artwork: art/concepts/b8cc9c80-bf02-5fa2-834f-cc210bc71015.png
+Source: {"creator": "PixelLab, generated at the user’s request", "gallery_id": "b8cc9c80-bf02-5fa2-834f-cc210bc71015", "created": "2026-10-28"}
+
+Foundling · teal rosette study [Archived concept]
+Medal · Foundling
+Definition: Teal pleated rosette with a gold center and teal-and-gold tails. Early option; not selected.
+Placement: Not used as a separate award. Preserved for reference and future reuse.
+Reward: No separate unlock condition or reward.
+Animation: Still artwork.
+Notes: Original size: 96 × 128. Intended meaning: the first cohort that helped start the world. This card does not create a new achievement.
+Artwork: art/concepts/67499188-8241-5da8-8cbb-8afb362a55f9.png
+Source: {"creator": "PixelLab, generated at the user’s request", "gallery_id": "67499188-8241-5da8-8cbb-8afb362a55f9", "created": "2026-10-28"}
+
+Foundling · teal gem study [Archived concept]
+Medal · Foundling
+Definition: Faceted teal center inside a gold sunburst, with teal-and-gold tails. Early option; not selected.
+Placement: Not used as a separate award. Preserved for reference and future reuse.
+Reward: No separate unlock condition or reward.
+Animation: Still artwork.
+Notes: Original size: 96 × 128. Intended meaning: the first cohort that helped start the world. This card does not create a new achievement.
+Artwork: art/concepts/56a51a3e-e6f4-5278-8b19-c2f4e8e4cac8.png
+Source: {"creator": "PixelLab, generated at the user’s request", "gallery_id": "56a51a3e-e6f4-5278-8b19-c2f4e8e4cac8", "created": "2026-10-28"}
+
+Foundling · laurel-star study [Archived concept]
+Medal · Foundling
+Definition: Gold star, circular laurel-style surround, and teal tails. Early option; not selected.
+Placement: Not used as a separate award. Preserved for reference and future reuse.
+Reward: No separate unlock condition or reward.
+Animation: Still artwork.
+Notes: Original size: 96 × 128. Intended meaning: the first cohort that helped start the world. This card does not create a new achievement.
+Artwork: art/concepts/c495524c-a08b-5867-b42c-2fd24a7b8219.png
+Source: {"creator": "PixelLab, generated at the user’s request", "gallery_id": "c495524c-a08b-5867-b42c-2fd24a7b8219", "created": "2026-10-28"}
+
+Foundling · blank scroll master [Archived concept]
+Scroll · Foundling
+Definition: Unlettered golden ceremonial scroll used as the source for the sparkle animation and the FOUNDLING profile label.
+Placement: Not used as a separate award. Preserved for reference and future reuse.
+Reward: No separate unlock condition or reward.
+Animation: Still artwork.
+Notes: Original size: 256 × 128. Intended meaning: the first cohort that helped start the world. This card does not create a new achievement.
+Artwork: art/concepts/ee57c755-9905-52df-b72b-c7fd89984937.png
+Source: {"creator": "PixelLab, generated at the user’s request", "gallery_id": "ee57c755-9905-52df-b72b-c7fd89984937", "created": "2026-10-28"}
+
+First Run [In use]
+Ribbon · Running
+Definition: Starting the Running game for the first time.
+Placement: Main game · Awards book
+Reward: Speed +5 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/running_first_run.png
+Source: {"project_path": "assets/ui/awards/running_first_run.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+First Leap [In use]
+Ribbon · Running
+Definition: Clearing the first hurdle.
+Placement: Main game · Awards book
+Reward: Stamina +5 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/running_first_leap.png
+Source: {"project_path": "assets/ui/awards/running_first_leap.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Five Hurdles [In use]
+Ribbon · Running
+Definition: Clearing 5 hurdles in one Running game.
+Placement: Main game · Awards book
+Reward: Speed +8 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/running_five_hurdles.png
+Source: {"project_path": "assets/ui/awards/running_five_hurdles.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Hurdle Hero [In use]
+Ribbon · Running
+Definition: Clearing 10 hurdles in one Running game.
+Placement: Main game · Awards book
+Reward: Stamina +8 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/running_hurdle_hero.png
+Source: {"project_path": "assets/ui/awards/running_hurdle_hero.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Clean Landing [In use]
+Ribbon · Running
+Definition: Clearing 10 hurdles without a collision. Earned as soon as the threshold is reached; you may stop and rest.
+Placement: Main game · Awards book
+Reward: Speed +10 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/running_clean_landing.png
+Source: {"project_path": "assets/ui/awards/running_clean_landing.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Pace Keeper [In use]
+Ribbon · Running
+Definition: Running for at least 30 seconds in one game.
+Placement: Main game · Awards book
+Reward: Stamina +10 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/running_pace_keeper.png
+Source: {"project_path": "assets/ui/awards/running_pace_keeper.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Quick Circuit [In use]
+Ribbon · Running
+Definition: Clearing 15 hurdles in one Running game.
+Placement: Main game · Awards book
+Reward: Speed +12 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/running_quick_circuit.png
+Source: {"project_path": "assets/ui/awards/running_quick_circuit.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Swift Feet [In use]
+Ribbon · Running
+Definition: Clearing 20 hurdles in one Running game.
+Placement: Main game · Awards book
+Reward: Stamina +12 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/running_swift_feet.png
+Source: {"project_path": "assets/ui/awards/running_swift_feet.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Record Chaser [In use]
+Ribbon · Running
+Definition: Beating the Running personal best three times.
+Placement: Main game · Awards book
+Reward: Speed +15 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/running_record_chaser.png
+Source: {"project_path": "assets/ui/awards/running_record_chaser.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Track Regular [In use]
+Ribbon · Running
+Definition: Completing 10 Running games.
+Placement: Main game · Awards book
+Reward: Speed and Stamina +15 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/running_track_regular.png
+Source: {"project_path": "assets/ui/awards/running_track_regular.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+First Smash [In use]
+Ribbon · Strength
+Definition: Starting the Strength game for the first time.
+Placement: Main game · Awards book
+Reward: Strength +5 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/strength_first_smash.png
+Source: {"project_path": "assets/ui/awards/strength_first_smash.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+First Punch [In use]
+Ribbon · Strength
+Definition: Completing your first three-circle, four-arrow Strength attempt.
+Placement: Main game · Awards book
+Reward: Stamina +5 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/strength_first_punch.png
+Source: {"project_path": "assets/ui/awards/strength_first_punch.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Power 100 [In use]
+Ribbon · Strength
+Definition: Scoring at least 100 Power.
+Placement: Main game · Awards book
+Reward: Strength +8 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/strength_power_100.png
+Source: {"project_path": "assets/ui/awards/strength_power_100.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Power 200 [In use]
+Ribbon · Strength
+Definition: Scoring at least 200 Power.
+Placement: Main game · Awards book
+Reward: Stamina +8 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/strength_power_200.png
+Source: {"project_path": "assets/ui/awards/strength_power_200.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Great Charge [In use]
+Ribbon · Strength
+Definition: Scoring at least 75 on one circle in a completed Strength attempt.
+Placement: Main game · Awards book
+Reward: Strength +10 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/strength_great_charge.png
+Source: {"project_path": "assets/ui/awards/strength_great_charge.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Double Charge [In use]
+Ribbon · Strength
+Definition: Scoring at least 75 on two circles in one completed Strength attempt.
+Placement: Main game · Awards book
+Reward: Stamina +10 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/strength_double_charge.png
+Source: {"project_path": "assets/ui/awards/strength_double_charge.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Perfect Flash [In use]
+Ribbon · Strength
+Definition: Perfectly aligning one circle (100 accuracy) in a completed Strength attempt.
+Placement: Main game · Awards book
+Reward: Strength +12 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/strength_perfect_flash.png
+Source: {"project_path": "assets/ui/awards/strength_perfect_flash.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Center Strike [In use]
+Ribbon · Strength
+Definition: Perfectly aligning all four arrows (100 accuracy each) in one completed Strength attempt.
+Placement: Main game · Awards book
+Reward: Stamina +12 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/strength_center_strike.png
+Source: {"project_path": "assets/ui/awards/strength_center_strike.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Mighty Mitt [In use]
+Ribbon · Strength
+Definition: Scoring at least 300 Power.
+Placement: Main game · Awards book
+Reward: Strength +15 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/strength_mighty_mitt.png
+Source: {"project_path": "assets/ui/awards/strength_mighty_mitt.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Smash Regular [In use]
+Ribbon · Strength
+Definition: Completing 10 Strength games.
+Placement: Main game · Awards book
+Reward: Strength and Stamina +15 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/strength_smash_regular.png
+Source: {"project_path": "assets/ui/awards/strength_smash_regular.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+First Pair [In use]
+Ribbon · Intelligence
+Definition: Finding the first matching pair in Memory.
+Placement: Main game · Awards book
+Reward: Intelligence +5 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/intelligence_first_pair.png
+Source: {"project_path": "assets/ui/awards/intelligence_first_pair.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Easy Clear [In use]
+Ribbon · Intelligence
+Definition: Completing Easy Memory.
+Placement: Main game · Awards book
+Reward: Intelligence +6 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/intelligence_easy_clear.png
+Source: {"project_path": "assets/ui/awards/intelligence_easy_clear.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Easy Focus [In use]
+Ribbon · Intelligence
+Definition: Completing Easy Memory with 3 or fewer misses.
+Placement: Main game · Awards book
+Reward: Intelligence +8 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/intelligence_easy_focus.png
+Source: {"project_path": "assets/ui/awards/intelligence_easy_focus.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Medium Clear [In use]
+Ribbon · Intelligence
+Definition: Completing Medium Memory.
+Placement: Main game · Awards book
+Reward: Intelligence +10 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/intelligence_medium_clear.png
+Source: {"project_path": "assets/ui/awards/intelligence_medium_clear.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Medium Focus [In use]
+Ribbon · Intelligence
+Definition: Completing Medium Memory with 5 or fewer misses.
+Placement: Main game · Awards book
+Reward: Intelligence +12 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/intelligence_medium_focus.png
+Source: {"project_path": "assets/ui/awards/intelligence_medium_focus.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Pair Streak 5 [In use]
+Ribbon · Intelligence
+Definition: Finding 5 pairs in a row without a miss.
+Placement: Main game · Awards book
+Reward: Intelligence +12 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/intelligence_pair_streak_5.png
+Source: {"project_path": "assets/ui/awards/intelligence_pair_streak_5.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Pair Streak 10 [In use]
+Ribbon · Intelligence
+Definition: Finding 10 pairs in a row without a miss.
+Placement: Main game · Awards book
+Reward: Intelligence +15 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/intelligence_pair_streak_10.png
+Source: {"project_path": "assets/ui/awards/intelligence_pair_streak_10.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Easy Record [In use]
+Ribbon · Intelligence
+Definition: Setting or matching a Easy Memory personal best.
+Placement: Main game · Awards book
+Reward: Intelligence +15 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/intelligence_easy_record.png
+Source: {"project_path": "assets/ui/awards/intelligence_easy_record.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Medium Record [In use]
+Ribbon · Intelligence
+Definition: Setting or matching a Medium Memory personal best.
+Placement: Main game · Awards book
+Reward: Intelligence +18 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/intelligence_medium_record.png
+Source: {"project_path": "assets/ui/awards/intelligence_medium_record.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Hard Clear [In use]
+Ribbon · Intelligence
+Definition: Completing Hard Memory within its normal miss limit.
+Placement: Main game · Awards book
+Reward: Intelligence +20 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/intelligence_hard_clear.png
+Source: {"project_path": "assets/ui/awards/intelligence_hard_clear.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+First Show [In use]
+Ribbon · Charisma
+Definition: Starting the Charisma game for the first time.
+Placement: Main game · Awards book
+Reward: Charisma +5 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/charisma_first_show.png
+Source: {"project_path": "assets/ui/awards/charisma_first_show.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+First Great [In use]
+Ribbon · Charisma
+Definition: Landing the first Great note.
+Placement: Main game · Awards book
+Reward: Charisma +6 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/charisma_first_great.png
+Source: {"project_path": "assets/ui/awards/charisma_first_great.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+First Perfect [In use]
+Ribbon · Charisma
+Definition: Landing the first Perfect note.
+Placement: Main game · Awards book
+Reward: Charisma +8 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/charisma_first_perfect.png
+Source: {"project_path": "assets/ui/awards/charisma_first_perfect.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Perfect 5 [In use]
+Ribbon · Charisma
+Definition: Landing 5 Perfect notes in one performance.
+Placement: Main game · Awards book
+Reward: Charisma +10 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/charisma_perfect_5.png
+Source: {"project_path": "assets/ui/awards/charisma_perfect_5.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Rhythm Star [In use]
+Ribbon · Charisma
+Definition: Landing 10 Perfect notes in one performance.
+Placement: Main game · Awards book
+Reward: Charisma +12 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/charisma_rhythm_star.png
+Source: {"project_path": "assets/ui/awards/charisma_rhythm_star.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Perfect 15 [In use]
+Ribbon · Charisma
+Definition: Landing 15 Perfect notes in one performance.
+Placement: Main game · Awards book
+Reward: Charisma +12 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/charisma_perfect_15.png
+Source: {"project_path": "assets/ui/awards/charisma_perfect_15.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Clean Combo [In use]
+Ribbon · Charisma
+Definition: Landing 10 notes in a row without a miss.
+Placement: Main game · Awards book
+Reward: Charisma +15 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/charisma_clean_combo.png
+Source: {"project_path": "assets/ui/awards/charisma_clean_combo.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Perfect 20 [In use]
+Ribbon · Charisma
+Definition: Landing 20 Perfect notes in one performance.
+Placement: Main game · Awards book
+Reward: Charisma +15 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/charisma_perfect_20.png
+Source: {"project_path": "assets/ui/awards/charisma_perfect_20.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Steady Show [In use]
+Ribbon · Charisma
+Definition: Finishing a performance with 2 or fewer misses.
+Placement: Main game · Awards book
+Reward: Charisma +18 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/charisma_steady_show.png
+Source: {"project_path": "assets/ui/awards/charisma_steady_show.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Show Regular [In use]
+Ribbon · Charisma
+Definition: Complete 10 Dance performances. Failed or abandoned performances do not count.
+Placement: Main game · Awards book
+Reward: Charisma +20 EXP.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/charisma_show_regular.png
+Source: {"project_path": "assets/ui/awards/charisma_show_regular.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Track Star [In use]
+Trophy · Running
+Definition: Clearing 25 hurdles in one Running game.
+Placement: Main game · Awards book
+Reward: Running-game Speed and Stamina EXP +8%.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_copper.png
+Source: {"project_path": "assets/ui/awards/trophies_copper.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Block Breaker [In use]
+Trophy · Strength
+Definition: Scoring 500 or more Power in one Strength game.
+Placement: Main game · Awards book
+Reward: Strength-game skill EXP +8%.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_copper.png
+Source: {"project_path": "assets/ui/awards/trophies_copper.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Clean Recall [In use]
+Trophy · Intelligence
+Definition: Completing Medium Memory with zero misses.
+Placement: Main game · Awards book
+Reward: Intelligence EXP from Memory +8%.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_copper.png
+Source: {"project_path": "assets/ui/awards/trophies_copper.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Stage Ready [In use]
+Trophy · Charisma
+Definition: Landing 25 Perfect notes in one Charisma performance.
+Placement: Main game · Awards book
+Reward: Charisma EXP +8%.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_copper.png
+Source: {"project_path": "assets/ui/awards/trophies_copper.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Untouchable Runner [In use]
+Trophy · Running
+Definition: Clearing 40 hurdles without a collision. Earned as soon as the threshold is reached; you may stop and rest.
+Placement: Main game · Awards book
+Reward: Running-game EXP +12% and crash losses -10%.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_silver.png
+Source: {"project_path": "assets/ui/awards/trophies_silver.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Perfect Charge [In use]
+Trophy · Strength
+Definition: Perfectly aligning all three circles (100 accuracy each) in one completed Strength attempt.
+Placement: Main game · Awards book
+Reward: Strength-game skill EXP +12% and Energy cost -10%.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_silver.png
+Source: {"project_path": "assets/ui/awards/trophies_silver.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Hardwired Recall [In use]
+Trophy · Intelligence
+Definition: Completing Hard Memory with three or fewer misses.
+Placement: Main game · Awards book
+Reward: Intelligence EXP +12% and Memory-game Energy cost -10%.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_silver.png
+Source: {"project_path": "assets/ui/awards/trophies_silver.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Clean Routine [In use]
+Trophy · Charisma
+Definition: Finishing with at least 35 Perfect notes and zero misses.
+Placement: Main game · Awards book
+Reward: Charisma EXP +12% and Charisma-game Energy drain -10%.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_silver.png
+Source: {"project_path": "assets/ui/awards/trophies_silver.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Marathon Circuit [In use]
+Trophy · Running
+Definition: Clearing 75 hurdles in one Running game.
+Placement: Main game · Awards book
+Reward: Running-game EXP +16% and Silver +10%.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_gold.png
+Source: {"project_path": "assets/ui/awards/trophies_gold.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Maximum Impact [In use]
+Trophy · Strength
+Definition: Reaching 2,400 Power with all three circle accuracy scores at 75 or higher.
+Placement: Main game · Awards book
+Reward: Strength-game skill EXP +16% and Silver +10%.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_gold.png
+Source: {"project_path": "assets/ui/awards/trophies_gold.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Flawless Recall [In use]
+Trophy · Intelligence
+Definition: Completing Hard Memory with zero misses.
+Placement: Main game · Awards book
+Reward: Intelligence EXP +16% and Memory-game Silver +10%.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_gold.png
+Source: {"project_path": "assets/ui/awards/trophies_gold.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Perfect Performance [In use]
+Trophy · Charisma
+Definition: Finishing with at least 40 Perfect notes, zero Greats, zero Goods, and zero misses.
+Placement: Main game · Awards book
+Reward: Charisma EXP +16% and Charisma-game Silver +10%.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_gold.png
+Source: {"project_path": "assets/ui/awards/trophies_gold.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Century Runner [In use]
+Trophy · Running
+Definition: Clearing 100 hurdles in one Running game.
+Placement: Main game · Awards book
+Reward: Running-game EXP +20%, Silver +15%, and crash penalties -25%.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_platinum.png
+Source: {"project_path": "assets/ui/awards/trophies_platinum.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Impact Streak [In use]
+Trophy · Strength
+Definition: Reach at least 2,400 Power with all three circles at 75 or higher in five completed Strength attempts in a row. Rest is allowed.
+Placement: Main game · Awards book
+Reward: Strength-game EXP +20%, Silver +15%, and circle accuracy used for Power +5 (capped at 100). Perfect awards still require unassisted 100 accuracy.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_platinum.png
+Source: {"project_path": "assets/ui/awards/trophies_platinum.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Triple Record [In use]
+Trophy · Intelligence
+Definition: Setting or matching a personal best score in Easy, Medium, and Hard Memory.
+Placement: Main game · Awards book
+Reward: Intelligence EXP +20%, Silver +15%, and preview time +0.5 seconds.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_platinum.png
+Source: {"project_path": "assets/ui/awards/trophies_platinum.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Electric Encore [In use]
+Trophy · Charisma
+Definition: Finishing with at least 50 Perfect notes and zero misses.
+Placement: Main game · Awards book
+Reward: Charisma EXP +20%, Silver +15%, and the Perfect timing window +10%.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_platinum.png
+Source: {"project_path": "assets/ui/awards/trophies_platinum.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Unbroken Circuit [In use]
+Trophy · Running
+Definition: Clearing 100 hurdles in one Running game without a collision. Earned as soon as the threshold is reached; you may stop and rest.
+Placement: Main game · Awards book
+Reward: Running EXP +25%, Silver +20%, Energy drain -20%, and crash penalties -50%.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_diamond.png
+Source: {"project_path": "assets/ui/awards/trophies_diamond.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+World Breaker [In use]
+Trophy · Strength
+Definition: Reaching 3,000 Power with perfect alignment on all three circles and all four arrows.
+Placement: Main game · Awards book
+Reward: Strength-game EXP +25%, Silver +20%, Energy cost -20%, and final Power +5%.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_diamond.png
+Source: {"project_path": "assets/ui/awards/trophies_diamond.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Perfect Archive [In use]
+Trophy · Intelligence
+Definition: Completing Easy, Medium, and Hard Memory with zero misses on each difficulty.
+Placement: Main game · Awards book
+Reward: Intelligence EXP +25%, Silver +20%, Energy cost -20%, and preview time +1 second.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_diamond.png
+Source: {"project_path": "assets/ui/awards/trophies_diamond.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Rhythm Legend [In use]
+Trophy · Charisma
+Definition: Finishing with at least 50 Perfect notes, zero Greats, zero Goods, and zero misses.
+Placement: Main game · Awards book
+Reward: Charisma EXP +25%, Silver +20%, Energy drain -20%, and the Perfect timing window +20%.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_diamond.png
+Source: {"project_path": "assets/ui/awards/trophies_diamond.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Cyber Grandmaster [In use]
+Trophy · Mastery
+Definition: Earning all 20 category trophy achievements.
+Placement: Main game · Awards book
+Reward: All minigame EXP and Silver +10%, Energy drain -10%, and Happiness +5 after every completed minigame.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/trophies_rainbow.png
+Source: {"project_path": "assets/ui/awards/trophies_rainbow.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Cyber Legend [In use]
+Mastery medal · Mastery
+Definition: Earn all 40 game ribbons.
+Placement: Main game · Awards book
+Reward: All minigame skill EXP +5%.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/cyber_legend.svg
+Source: {"project_path": "assets/ui/awards/cyber_legend.svg", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+First Spark [In use]
+Care medal · Care
+Definition: Starting your journey with a CyberPet.
+Placement: Main game · Awards book
+Reward: Permanent care milestone; no XP or stat bonus.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/first_spark.svg
+Source: {"project_path": "assets/ui/awards/first_spark.svg", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Full Charge [In use]
+Care medal · Care
+Definition: Restoring your pet's Energy to 100.
+Placement: Main game · Awards book
+Reward: Permanent care milestone; no XP or stat bonus.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/full_charge.svg
+Source: {"project_path": "assets/ui/awards/full_charge.svg", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Five-Star Care [In use]
+Care medal · Care
+Definition: Bringing all five care stats to 90 or higher at once.
+Placement: Main game · Awards book
+Reward: Permanent care milestone; no XP or stat bonus.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/five_star_care.svg
+Source: {"project_path": "assets/ui/awards/five_star_care.svg", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Heart Link [In use]
+Care medal · Care
+Definition: Reaching 100 Love with your CyberPet.
+Placement: Main game · Awards book
+Reward: Permanent care milestone; no XP or stat bonus.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/heart_link.svg
+Source: {"project_path": "assets/ui/awards/heart_link.svg", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Clean Sweep [In use]
+Care medal · Care
+Definition: Cleaning a dirty pet until it is completely spotless.
+Placement: Main game · Awards book
+Reward: Permanent care milestone; no XP or stat bonus.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/clean_sweep.svg
+Source: {"project_path": "assets/ui/awards/clean_sweep.svg", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Snack Scholar [In use]
+Care medal · Care
+Definition: Discovering and feeding your pet a favorite food.
+Placement: Main game · Awards book
+Reward: Permanent care milestone; no XP or stat bonus.
+Animation: Still artwork.
+Notes: Original game award. Existing unlock requirements are preserved.
+Artwork: art/ui/awards/snack_scholar.svg
+Source: {"project_path": "assets/ui/awards/snack_scholar.svg", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."}
+
+Sure Footed [In use]
+Ribbon · Milestones
+Definition: Finish a Running game with at least 8 hurdles and no collisions.
+Placement: Main game · Awards book
+Reward: Speed +5 XP once
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/ribbon_01.png
+Source: {"project_path": "assets/awards/pixellab/ribbon_01.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "30abd366-e16a-4c3c-8083-9dc7bd626637", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/30abd366-e16a-4c3c-8083-9dc7bd626637/rotations/unknown.png"}
+
+Thirty in Stride [In use]
+Ribbon · Milestones
+Definition: Clear 30 hurdles in one Running game.
+Placement: Main game · Awards book
+Reward: Speed +10 XP once
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/ribbon_02.png
+Source: {"project_path": "assets/awards/pixellab/ribbon_02.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "1bf08b76-00eb-4c16-bac0-8dd1655e2353", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/1bf08b76-00eb-4c16-bac0-8dd1655e2353/rotations/unknown.png"}
+
+Finding a Pace [In use]
+Ribbon · Milestones
+Definition: Finish 5 Running games.
+Placement: Main game · Awards book
+Reward: Speed +15 XP once
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/ribbon_03.png
+Source: {"project_path": "assets/awards/pixellab/ribbon_03.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "b56adb63-8ec1-4076-aabc-81a1f4fe07b0", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/b56adb63-8ec1-4076-aabc-81a1f4fe07b0/rotations/unknown.png"}
+
+Trail Cup [In use]
+Trophy · Milestones
+Definition: Earn Sure Footed, Thirty in Stride, Finding a Pace.
+Placement: Main game · Awards book
+Reward: Speed +20 XP once
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/trophy_01.png
+Source: {"project_path": "assets/awards/pixellab/trophy_01.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "8a60e5da-2b34-4781-89e8-3660a997a620", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/8a60e5da-2b34-4781-89e8-3660a997a620/rotations/unknown.png"}
+
+Controlled Power [In use]
+Ribbon · Milestones
+Definition: Complete a Strength attempt with all three circles at 75 accuracy or higher.
+Placement: Main game · Awards book
+Reward: Strength +5 XP once
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/ribbon_04.png
+Source: {"project_path": "assets/awards/pixellab/ribbon_04.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "8a71eeba-8882-4fbc-b10e-7a6c6caa8d08", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/8a71eeba-8882-4fbc-b10e-7a6c6caa8d08/rotations/unknown.png"}
+
+Rising Force [In use]
+Ribbon · Milestones
+Definition: Score at least 1,200 Power in a completed Strength attempt.
+Placement: Main game · Awards book
+Reward: Strength +10 XP once
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/ribbon_05.png
+Source: {"project_path": "assets/awards/pixellab/ribbon_05.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "17b8baf2-d279-4bcc-bfe3-5c08f67162d2", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/17b8baf2-d279-4bcc-bfe3-5c08f67162d2/rotations/unknown.png"}
+
+Patient Practice [In use]
+Ribbon · Milestones
+Definition: Complete 25 Strength attempts, across as many sessions as needed.
+Placement: Main game · Awards book
+Reward: Strength +15 XP once
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/ribbon_06.png
+Source: {"project_path": "assets/awards/pixellab/ribbon_06.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "650ed021-862b-48ed-8e20-dbc7bcef7f00", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/650ed021-862b-48ed-8e20-dbc7bcef7f00/rotations/unknown.png"}
+
+Forge Cup [In use]
+Trophy · Milestones
+Definition: Earn Controlled Power, Rising Force, Patient Practice.
+Placement: Main game · Awards book
+Reward: Strength +20 XP once
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/trophy_02.png
+Source: {"project_path": "assets/awards/pixellab/trophy_02.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "ac22a1b6-c62b-4ec1-985e-f563b6418ce1", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/ac22a1b6-c62b-4ec1-985e-f563b6418ce1/rotations/unknown.png"}
+
+Hard Won [In use]
+Ribbon · Milestones
+Definition: Complete Hard Memory, including any earned extra misses.
+Placement: Main game · Awards book
+Reward: Intelligence +5 XP once
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/ribbon_07.png
+Source: {"project_path": "assets/awards/pixellab/ribbon_07.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "f7439885-dec0-41fa-abba-833ff87890e8", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f7439885-dec0-41fa-abba-833ff87890e8/rotations/unknown.png"}
+
+Every Shelf [In use]
+Ribbon · Milestones
+Definition: Complete Easy, Medium and Hard Memory at least once each.
+Placement: Main game · Awards book
+Reward: Intelligence +10 XP once
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/ribbon_08.png
+Source: {"project_path": "assets/awards/pixellab/ribbon_08.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "b013a4cc-529f-4b9a-bc31-8eca58582e2b", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/b013a4cc-529f-4b9a-bc31-8eca58582e2b/rotations/unknown.png"}
+
+Returning Reader [In use]
+Ribbon · Milestones
+Definition: Complete 10 Memory boards across any difficulties.
+Placement: Main game · Awards book
+Reward: Intelligence +15 XP once
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/ribbon_09.png
+Source: {"project_path": "assets/awards/pixellab/ribbon_09.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "59f0f934-de4d-4f87-905c-715aa8b66294", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/59f0f934-de4d-4f87-905c-715aa8b66294/rotations/unknown.png"}
+
+Archive Cup [In use]
+Trophy · Milestones
+Definition: Earn Hard Won, Every Shelf, Returning Reader.
+Placement: Main game · Awards book
+Reward: Intelligence +20 XP once
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/trophy_03.png
+Source: {"project_path": "assets/awards/pixellab/trophy_03.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "c7369169-8c42-4cc9-955d-46bcc3f8ad3b", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/c7369169-8c42-4cc9-955d-46bcc3f8ad3b/rotations/unknown.png"}
+
+Curtain Call [In use]
+Ribbon · Milestones
+Definition: Reach the end of one Dance performance without running out of Flow.
+Placement: Main game · Awards book
+Reward: Charisma +5 XP once
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/ribbon_10.png
+Source: {"project_path": "assets/awards/pixellab/ribbon_10.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "24d721d6-c513-4199-ab3a-1b2ac9a62d20", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/24d721d6-c513-4199-ab3a-1b2ac9a62d20/rotations/unknown.png"}
+
+In the Groove [In use]
+Ribbon · Milestones
+Definition: Reach a 20-note combo in Dance.
+Placement: Main game · Awards book
+Reward: Charisma +10 XP once
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/ribbon_11.png
+Source: {"project_path": "assets/awards/pixellab/ribbon_11.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "115d9552-b6d1-4011-97e0-8e542b563277", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/115d9552-b6d1-4011-97e0-8e542b563277/rotations/unknown.png"}
+
+Encore Artist [In use]
+Ribbon · Milestones
+Definition: Complete 5 Dance performances without running out of Flow.
+Placement: Main game · Awards book
+Reward: Charisma +15 XP once
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/ribbon_12.png
+Source: {"project_path": "assets/awards/pixellab/ribbon_12.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "63ff44d3-6fe5-4790-b55b-c7e83ecdb276", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/63ff44d3-6fe5-4790-b55b-c7e83ecdb276/rotations/unknown.png"}
+
+Stage Cup [In use]
+Trophy · Milestones
+Definition: Earn Curtain Call, In the Groove, Encore Artist.
+Placement: Main game · Awards book
+Reward: Charisma +20 XP once
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/trophy_04.png
+Source: {"project_path": "assets/awards/pixellab/trophy_04.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "84b2e268-a948-4bd5-bf3d-44dc4fe67ec1", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/84b2e268-a948-4bd5-bf3d-44dc4fe67ec1/rotations/unknown.png"}
+
+Bamboo Balance [In use]
+Ribbon · Training
+Definition: Keep the Easy slab balanced for the full 45 seconds.
+Placement: Main game · Awards book
+Reward: Collectible honour; no stat or currency bonus.
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/contest_ribbon_01.png
+Source: {"project_path": "assets/awards/pixellab/contest_ribbon_01.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "090f5068-aae6-42f2-aec4-cd3f6fdc70c3", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/090f5068-aae6-42f2-aec4-cd3f6fdc70c3/rotations/unknown.png"}
+
+Concrete Calm [In use]
+Ribbon · Training
+Definition: Keep the Medium slab balanced for the full 45 seconds.
+Placement: Main game · Awards book
+Reward: Collectible honour; no stat or currency bonus.
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/contest_ribbon_02.png
+Source: {"project_path": "assets/awards/pixellab/contest_ribbon_02.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "47217e2b-2789-4669-bdb2-d25dbfab7dd1", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/47217e2b-2789-4669-bdb2-d25dbfab7dd1/rotations/unknown.png"}
+
+Basalt Balance [In use]
+Ribbon · Training
+Definition: Keep the Hard slab balanced for the full 45 seconds.
+Placement: Main game · Awards book
+Reward: Collectible honour; no stat or currency bonus.
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/contest_ribbon_03.png
+Source: {"project_path": "assets/awards/pixellab/contest_ribbon_03.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "fe483440-596b-4b3c-af14-2e255f09e993", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/fe483440-596b-4b3c-af14-2e255f09e993/rotations/unknown.png"}
+
+Steady Hands [In use]
+Ribbon · Training
+Definition: Complete any Balance round with at least 30 seconds inside the steady zone.
+Placement: Main game · Awards book
+Reward: Collectible honour; no stat or currency bonus.
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/contest_ribbon_04.png
+Source: {"project_path": "assets/awards/pixellab/contest_ribbon_04.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "ae4c87ee-133d-456c-b9a0-17bfca17ae45", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/ae4c87ee-133d-456c-b9a0-17bfca17ae45/rotations/unknown.png"}
+
+First Ascent [In use]
+Ribbon · Training
+Definition: Reach 25% of the Boulder hill in one naturally finished round.
+Placement: Main game · Awards book
+Reward: Collectible honour; no stat or currency bonus.
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/contest_ribbon_05.png
+Source: {"project_path": "assets/awards/pixellab/contest_ribbon_05.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "b9d7fbe6-3082-40c2-ab3b-257a47fe3164", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/b9d7fbe6-3082-40c2-ab3b-257a47fe3164/rotations/unknown.png"}
+
+Halfway Hero [In use]
+Ribbon · Training
+Definition: Reach 50% of the Boulder hill in one naturally finished round.
+Placement: Main game · Awards book
+Reward: Collectible honour; no stat or currency bonus.
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/contest_ribbon_06.png
+Source: {"project_path": "assets/awards/pixellab/contest_ribbon_06.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "44bd7b2b-d602-4894-9750-f4ea20275cb9", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/44bd7b2b-d602-4894-9750-f4ea20275cb9/rotations/unknown.png"}
+
+At the Summit [In use]
+Ribbon · Training
+Definition: Reach the top of the Boulder hill.
+Placement: Main game · Awards book
+Reward: Collectible honour; no stat or currency bonus.
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/contest_ribbon_07.png
+Source: {"project_path": "assets/awards/pixellab/contest_ribbon_07.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "04d448f0-b7a6-4a84-93c8-eee5e9a455e0", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/04d448f0-b7a6-4a84-93c8-eee5e9a455e0/rotations/unknown.png"}
+
+Summit Cup [In use]
+Trophy · Training
+Definition: Complete all three Balance difficulties.
+Placement: Main game · Awards book
+Reward: Collectible honour; no stat or currency bonus.
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/trophy_05.png
+Source: {"project_path": "assets/awards/pixellab/trophy_05.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "6885b53b-7230-443b-899f-fae922d00264", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/6885b53b-7230-443b-899f-fae922d00264/rotations/unknown.png"}
+
+Climber Cup [In use]
+Trophy · Training
+Definition: Earn all three Boulder ascent ribbons.
+Placement: Main game · Awards book
+Reward: Collectible honour; no stat or currency bonus.
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/trophy_06.png
+Source: {"project_path": "assets/awards/pixellab/trophy_06.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "8f7c9af0-e3b0-47dc-a5b5-4009d66bd4f1", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/8f7c9af0-e3b0-47dc-a5b5-4009d66bd4f1/rotations/unknown.png"}
+
+Part of the Class [In use]
+Ribbon · Board
+Definition: Collect a teacher-issued Board participation receipt in this pet's game.
+Placement: Main game · Awards book
+Reward: Collectible honour; no stat or currency bonus.
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/ribbon_15.png
+Source: {"project_path": "assets/awards/pixellab/ribbon_15.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "59397122-9b18-4220-897e-8711c6451f13", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/59397122-9b18-4220-897e-8711c6451f13/rotations/unknown.png"}
+
+Sharing Spirit [In use]
+Ribbon · Board
+Definition: Collect a teacher-issued Board sharing receipt in this pet's game.
+Placement: Main game · Awards book
+Reward: Collectible honour; no stat or currency bonus.
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/ribbon_16.png
+Source: {"project_path": "assets/awards/pixellab/ribbon_16.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "631c8f06-5032-46f0-8c39-8f4d50af6509", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/631c8f06-5032-46f0-8c39-8f4d50af6509/rotations/unknown.png"}
+
+Classmate Cup [In use]
+Trophy · Board
+Definition: Collect both Board ribbons. Ambient screen time alone does not count.
+Placement: Main game · Awards book
+Reward: Collectible honour; no stat or currency bonus.
+Animation: Still artwork.
+Notes: Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.
+Artwork: art/awards/pixellab/trophy_07.png
+Source: {"project_path": "assets/awards/pixellab/trophy_07.png", "definition_source": "CPP-V3/config/award_catalog.json", "published_release": "2026-10-28-foundling", "creator": "PixelLab user library", "pixellab_id": "f181df53-49e1-4646-92c3-8da02cc45309", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f181df53-49e1-4646-92c3-8da02cc45309/rotations/unknown.png"}
+
+First Bell [In use]
+Ribbon · Battle
+Definition: Complete one computer sparring round.
+Placement: Battle site · Honours cabinet
+Reward: Cosmetic only; no training XP, skill points, currency or combat bonus.
+Animation: Still artwork.
+Notes: Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.
+Artwork: art/awards/pixellab/contest_ribbon_08.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "ceaa0cb7-6302-4ec2-b113-e716189490be", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/ceaa0cb7-6302-4ec2-b113-e716189490be/rotations/unknown.png", "definition_source": "cyber-pet-battle/site/achievements.js"}
+
+First Victory [In use]
+Ribbon · Battle
+Definition: Win one computer sparring round.
+Placement: Battle site · Honours cabinet
+Reward: Cosmetic only; no training XP, skill points, currency or combat bonus.
+Animation: Still artwork.
+Notes: Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.
+Artwork: art/awards/pixellab/contest_ribbon_09.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "15133f5d-ec52-4479-bd5d-8e9d49ff1718", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/15133f5d-ec52-4479-bd5d-8e9d49ff1718/rotations/unknown.png", "definition_source": "cyber-pet-battle/site/achievements.js"}
+
+Finding Form [In use]
+Ribbon · Battle
+Definition: Win three sparring rounds in total.
+Placement: Battle site · Honours cabinet
+Reward: Cosmetic only; no training XP, skill points, currency or combat bonus.
+Animation: Still artwork.
+Notes: Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.
+Artwork: art/awards/pixellab/contest_ribbon_10.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "5792f122-6b3c-47fc-8d5f-8724e2b65bc7", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/5792f122-6b3c-47fc-8d5f-8724e2b65bc7/rotations/unknown.png", "definition_source": "cyber-pet-battle/site/achievements.js"}
+
+Good Sport [In use]
+Ribbon · Battle
+Definition: Complete ten sparring rounds, win or lose.
+Placement: Battle site · Honours cabinet
+Reward: Cosmetic only; no training XP, skill points, currency or combat bonus.
+Animation: Still artwork.
+Notes: Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.
+Artwork: art/awards/pixellab/contest_ribbon_11.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "c4970eec-73d6-4511-9304-ca736c7c4123", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/c4970eec-73d6-4511-9304-ca736c7c4123/rotations/unknown.png", "definition_source": "cyber-pet-battle/site/achievements.js"}
+
+Steady Guard [In use]
+Ribbon · Battle
+Definition: Block five incoming hits across completed sparring rounds.
+Placement: Battle site · Honours cabinet
+Reward: Cosmetic only; no training XP, skill points, currency or combat bonus.
+Animation: Still artwork.
+Notes: Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.
+Artwork: art/awards/pixellab/contest_ribbon_12.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "4ff1bfd0-00f5-457a-9409-d7d3fc64ec17", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/4ff1bfd0-00f5-457a-9409-d7d3fc64ec17/rotations/unknown.png", "definition_source": "cyber-pet-battle/site/achievements.js"}
+
+Light Footed [In use]
+Ribbon · Battle
+Definition: Evade three incoming hits across completed sparring rounds.
+Placement: Battle site · Honours cabinet
+Reward: Cosmetic only; no training XP, skill points, currency or combat bonus.
+Animation: Still artwork.
+Notes: Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.
+Artwork: art/awards/pixellab/contest_ribbon_13.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "1d26e223-42ed-416c-9ee0-91a0d55f6c90", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/1d26e223-42ed-416c-9ee0-91a0d55f6c90/rotations/unknown.png", "definition_source": "cyber-pet-battle/site/achievements.js"}
+
+Mixed Technique [In use]
+Ribbon · Battle
+Definition: Land three different damaging attacks in one completed sparring round.
+Placement: Battle site · Honours cabinet
+Reward: Cosmetic only; no training XP, skill points, currency or combat bonus.
+Animation: Still artwork.
+Notes: Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.
+Artwork: art/awards/pixellab/contest_ribbon_14.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "34bed287-d063-4642-9e97-ed95058de67e", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/34bed287-d063-4642-9e97-ed95058de67e/rotations/unknown.png", "definition_source": "cyber-pet-battle/site/achievements.js"}
+
+Sparring Cup [In use]
+Trophy · Battle
+Definition: Win five sparring rounds in total.
+Placement: Battle site · Honours cabinet
+Reward: Cosmetic only; no training XP, skill points, currency or combat bonus.
+Animation: Still artwork.
+Notes: Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.
+Artwork: art/awards/pixellab/trophy_08.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "4cd5c708-6121-4a65-96a8-0b4a5b8e8772", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/4cd5c708-6121-4a65-96a8-0b4a5b8e8772/rotations/unknown.png", "definition_source": "cyber-pet-battle/site/achievements.js"}
+
+Dojo Cup [In use]
+Trophy · Battle
+Definition: Complete twenty sparring rounds, win or lose.
+Placement: Battle site · Honours cabinet
+Reward: Cosmetic only; no training XP, skill points, currency or combat bonus.
+Animation: Still artwork.
+Notes: Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.
+Artwork: art/awards/pixellab/trophy_09.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "104d322f-7b32-41be-a7af-aa434482bb89", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/104d322f-7b32-41be-a7af-aa434482bb89/rotations/unknown.png", "definition_source": "cyber-pet-battle/site/achievements.js"}
+
+Balanced Fighter [In use]
+Trophy · Battle
+Definition: Earn First Victory, Steady Guard and Light Footed.
+Placement: Battle site · Honours cabinet
+Reward: Cosmetic only; no training XP, skill points, currency or combat bonus.
+Animation: Still artwork.
+Notes: Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.
+Artwork: art/awards/pixellab/trophy_10.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "11df0552-7c98-4bb0-bb4a-1333288317fa", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/11df0552-7c98-4bb0-bb4a-1333288317fa/rotations/unknown.png", "definition_source": "cyber-pet-battle/site/achievements.js"}
+
+Ribbon 13 [Not used yet]
+Ribbon · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/ribbon_13.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "fc45592e-4c3e-4bba-8dd3-f30fc66e357d", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/fc45592e-4c3e-4bba-8dd3-f30fc66e357d/rotations/unknown.png", "imported": "2026-10-18"}
+
+Ribbon 14 [Not used yet]
+Ribbon · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/ribbon_14.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "c2b80efe-88e5-4ecb-b987-d08e5a39bc38", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/c2b80efe-88e5-4ecb-b987-d08e5a39bc38/rotations/unknown.png", "imported": "2026-10-18"}
+
+Medal 01 [Not used yet]
+Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/medal_01.png
+Source: {"creator": "PixelLab user library; saved review candidate unchanged", "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_0.png", "imported": "2026-10-18"}
+
+Medal 02 [Not used yet]
+Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/medal_02.png
+Source: {"creator": "PixelLab user library; saved review candidate unchanged", "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_1.png", "imported": "2026-10-18"}
+
+Medal 03 [Not used yet]
+Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/medal_03.png
+Source: {"creator": "PixelLab user library; saved review candidate unchanged", "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_2.png", "imported": "2026-10-18"}
+
+Medal 04 [Not used yet]
+Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/medal_04.png
+Source: {"creator": "PixelLab user library; saved review candidate unchanged", "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_3.png", "imported": "2026-10-18"}
+
+Medal 05 [Not used yet]
+Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/medal_05.png
+Source: {"creator": "PixelLab user library; saved review candidate unchanged", "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_4.png", "imported": "2026-10-18"}
+
+Medal 06 [Not used yet]
+Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/medal_06.png
+Source: {"creator": "PixelLab user library; saved review candidate unchanged", "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_5.png", "imported": "2026-10-18"}
+
+Medal 07 [Not used yet]
+Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/medal_07.png
+Source: {"creator": "PixelLab user library; saved review candidate unchanged", "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_6.png", "imported": "2026-10-18"}
+
+Medal 08 [Not used yet]
+Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/medal_08.png
+Source: {"creator": "PixelLab user library; saved review candidate unchanged", "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_7.png", "imported": "2026-10-18"}
+
+Medal 09 [Not used yet]
+Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/medal_09.png
+Source: {"creator": "PixelLab user library; saved review candidate unchanged", "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_8.png", "imported": "2026-10-18"}
+
+Medal 10 [Not used yet]
+Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/medal_10.png
+Source: {"creator": "PixelLab user library; saved review candidate unchanged", "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_9.png", "imported": "2026-10-18"}
+
+Medal 11 [Not used yet]
+Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/medal_11.png
+Source: {"creator": "PixelLab user library; saved review candidate unchanged", "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_10.png", "imported": "2026-10-18"}
+
+Medal 12 [Not used yet]
+Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/medal_12.png
+Source: {"creator": "PixelLab user library; saved review candidate unchanged", "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_11.png", "imported": "2026-10-18"}
+
+Medal 13 [Not used yet]
+Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/medal_13.png
+Source: {"creator": "PixelLab user library; saved review candidate unchanged", "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_12.png", "imported": "2026-10-18"}
+
+Medal 14 [Not used yet]
+Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/medal_14.png
+Source: {"creator": "PixelLab user library; saved review candidate unchanged", "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_13.png", "imported": "2026-10-18"}
+
+Medal 15 [Not used yet]
+Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/medal_15.png
+Source: {"creator": "PixelLab user library; saved review candidate unchanged", "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_14.png", "imported": "2026-10-18"}
+
+Medal 16 [Not used yet]
+Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/medal_16.png
+Source: {"creator": "PixelLab user library; saved review candidate unchanged", "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_15.png", "imported": "2026-10-18"}
+
+Contest Ribbon 15 [Not used yet]
+Contest Ribbon · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/contest_ribbon_15.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "52defb6c-0b28-4a36-a0f7-87faf3e00de3", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/52defb6c-0b28-4a36-a0f7-87faf3e00de3/rotations/unknown.png", "imported": "2026-10-18"}
+
+Contest Ribbon 16 [Not used yet]
+Contest Ribbon · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/contest_ribbon_16.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "512f9215-4ab2-4cc8-ba5b-7e34b5136c21", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/512f9215-4ab2-4cc8-ba5b-7e34b5136c21/rotations/unknown.png", "imported": "2026-10-18"}
+
+Trophy 11 [Not used yet]
+Trophy · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/trophy_11.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "af4e0cd1-bb9f-4b32-8fa8-54a91809b84f", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/af4e0cd1-bb9f-4b32-8fa8-54a91809b84f/rotations/unknown.png", "imported": "2026-10-18"}
+
+Trophy 12 [Not used yet]
+Trophy · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/trophy_12.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "6676470f-e2d5-4346-aab8-871a33269c2f", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/6676470f-e2d5-4346-aab8-871a33269c2f/rotations/unknown.png", "imported": "2026-10-18"}
+
+Trophy 13 [Not used yet]
+Trophy · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/trophy_13.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "1b5f9cb3-15c6-4190-b3d7-0f20f3a1a729", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/1b5f9cb3-15c6-4190-b3d7-0f20f3a1a729/rotations/unknown.png", "imported": "2026-10-18"}
+
+Trophy 14 [Not used yet]
+Trophy · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/trophy_14.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "08182357-6bd4-4e39-ab2c-63d4eed2d84c", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/08182357-6bd4-4e39-ab2c-63d4eed2d84c/rotations/unknown.png", "imported": "2026-10-18"}
+
+Trophy 15 [Not used yet]
+Trophy · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/trophy_15.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "0d6c1ecd-e1db-4de6-b06e-487a370c6bbe", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/0d6c1ecd-e1db-4de6-b06e-487a370c6bbe/rotations/unknown.png", "imported": "2026-10-18"}
+
+Trophy 16 [Not used yet]
+Trophy · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/trophy_16.png
+Source: {"creator": "PixelLab user library", "pixellab_id": "f1297c61-7dbb-4a26-801b-ea083c33ca6f", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f1297c61-7dbb-4a26-801b-ea083c33ca6f/rotations/unknown.png", "imported": "2026-10-18"}
+
+Military Medal 01 [Not used yet]
+Military Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/military_medal_01.png
+Source: {"creator": "PixelLab user library; original title: a slew of milarty metals", "pixellab_id": "b8ac73f4-820a-4967-87c2-e37e61b7ebdd", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/b8ac73f4-820a-4967-87c2-e37e61b7ebdd/rotations/unknown.png", "imported": "2026-10-18"}
+
+Military Medal 02 [Not used yet]
+Military Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/military_medal_02.png
+Source: {"creator": "PixelLab user library; original title: a slew of milarty metals", "pixellab_id": "7798787a-f2a5-4812-b835-cb15414324be", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/7798787a-f2a5-4812-b835-cb15414324be/rotations/unknown.png", "imported": "2026-10-18"}
+
+Military Medal 03 [Not used yet]
+Military Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/military_medal_03.png
+Source: {"creator": "PixelLab user library; original title: a slew of milarty metals", "pixellab_id": "fd11e9db-73c2-4aad-bdc8-712cb35df7a0", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/fd11e9db-73c2-4aad-bdc8-712cb35df7a0/rotations/unknown.png", "imported": "2026-10-18"}
+
+Military Medal 04 [Not used yet]
+Military Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/military_medal_04.png
+Source: {"creator": "PixelLab user library; original title: a slew of milarty metals", "pixellab_id": "b9b1b861-cae0-4581-a8fd-180f30e03f3e", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/b9b1b861-cae0-4581-a8fd-180f30e03f3e/rotations/unknown.png", "imported": "2026-10-18"}
+
+Military Medal 05 [Not used yet]
+Military Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/military_medal_05.png
+Source: {"creator": "PixelLab user library; original title: a slew of milarty metals", "pixellab_id": "8f5a6a29-ed6f-49b3-9c53-707d5b5e5133", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/8f5a6a29-ed6f-49b3-9c53-707d5b5e5133/rotations/unknown.png", "imported": "2026-10-18"}
+
+Military Medal 06 [Not used yet]
+Military Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/military_medal_06.png
+Source: {"creator": "PixelLab user library; original title: a slew of milarty metals", "pixellab_id": "53363fcf-13a2-47ce-b645-5104746dd8a0", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/53363fcf-13a2-47ce-b645-5104746dd8a0/rotations/unknown.png", "imported": "2026-10-18"}
+
+Military Medal 07 [Not used yet]
+Military Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/military_medal_07.png
+Source: {"creator": "PixelLab user library; original title: a slew of milarty metals", "pixellab_id": "93e60e0b-408f-479c-be55-dd445d1f936c", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/93e60e0b-408f-479c-be55-dd445d1f936c/rotations/unknown.png", "imported": "2026-10-18"}
+
+Military Medal 08 [Not used yet]
+Military Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/military_medal_08.png
+Source: {"creator": "PixelLab user library; original title: a slew of milarty metals", "pixellab_id": "5efa78d3-6479-49be-9c39-49d293f31d84", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/5efa78d3-6479-49be-9c39-49d293f31d84/rotations/unknown.png", "imported": "2026-10-18"}
+
+Military Medal 09 [Not used yet]
+Military Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/military_medal_09.png
+Source: {"creator": "PixelLab user library; original title: a slew of milarty metals", "pixellab_id": "b0a6272b-cd6a-4851-b5aa-777a1b02808b", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/b0a6272b-cd6a-4851-b5aa-777a1b02808b/rotations/unknown.png", "imported": "2026-10-18"}
+
+Military Medal 10 [Not used yet]
+Military Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/military_medal_10.png
+Source: {"creator": "PixelLab user library; original title: a slew of milarty metals", "pixellab_id": "ec7f07dc-e1e7-4a66-89e5-e03ad9f555a8", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/ec7f07dc-e1e7-4a66-89e5-e03ad9f555a8/rotations/unknown.png", "imported": "2026-10-18"}
+
+Military Medal 11 [Not used yet]
+Military Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/military_medal_11.png
+Source: {"creator": "PixelLab user library; original title: a slew of milarty metals", "pixellab_id": "64e5ca3e-2a38-4f51-bc49-cd6d5749bb02", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/64e5ca3e-2a38-4f51-bc49-cd6d5749bb02/rotations/unknown.png", "imported": "2026-10-18"}
+
+Military Medal 12 [Not used yet]
+Military Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/military_medal_12.png
+Source: {"creator": "PixelLab user library; original title: a slew of milarty metals", "pixellab_id": "91cf78c9-80a3-4f34-a50f-63d8bfea60a9", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/91cf78c9-80a3-4f34-a50f-63d8bfea60a9/rotations/unknown.png", "imported": "2026-10-18"}
+
+Military Medal 13 [Not used yet]
+Military Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/military_medal_13.png
+Source: {"creator": "PixelLab user library; original title: a slew of milarty metals", "pixellab_id": "63789d18-f8c1-4edd-81c7-8e0d3f1f5174", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/63789d18-f8c1-4edd-81c7-8e0d3f1f5174/rotations/unknown.png", "imported": "2026-10-18"}
+
+Military Medal 14 [Not used yet]
+Military Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/military_medal_14.png
+Source: {"creator": "PixelLab user library; original title: a slew of milarty metals", "pixellab_id": "80917d62-a3e5-42d2-b6f4-bb61c8aa67b7", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/80917d62-a3e5-42d2-b6f4-bb61c8aa67b7/rotations/unknown.png", "imported": "2026-10-18"}
+
+Military Medal 15 [Not used yet]
+Military Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/military_medal_15.png
+Source: {"creator": "PixelLab user library; original title: a slew of milarty metals", "pixellab_id": "6887df00-eec4-42e9-8afd-429c5212bec5", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/6887df00-eec4-42e9-8afd-429c5212bec5/rotations/unknown.png", "imported": "2026-10-18"}
+
+Military Medal 16 [Not used yet]
+Military Medal · Reserved library
+Definition: Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.
+Placement: Saved design library only.
+Reward: No reward assigned.
+Animation: Still artwork.
+Notes: Working filename is a reference label, not an approved award name. Available for future assignment.
+Artwork: art/awards/pixellab/military_medal_16.png
+Source: {"creator": "PixelLab user library; original title: a slew of milarty metals", "pixellab_id": "51452fcd-61ee-450d-b811-7c44ab9244fa", "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/51452fcd-61ee-450d-b811-7c44ab9244fa/rotations/unknown.png", "imported": "2026-10-18"}

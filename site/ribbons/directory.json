@@ -1,0 +1,3936 @@
+{
+  "updated": "2026-10-28",
+  "title": "Ribbons & honours",
+  "entries": [
+    {
+      "id": "foundling-medal",
+      "name": "Foundling · animated sunburst",
+      "kind": "Medal",
+      "category": "Foundling",
+      "status": "In use",
+      "definition": "Recognizes the first cohort that helped start the Cyber Pet world. Characters first uploaded on or before November 14, 2026 are Foundlings, including board-only uploads. The cohort is Quarter 1 of school year 2026–2027. Preserve an exact upload date when known; otherwise display the school term without inventing a date.",
+      "where": "Character profile sheet, beside Character Profile and Care.",
+      "reward": "Commemorative only; no XP, currency or stat bonus.",
+      "art": "art/ui/foundling_medal/atlas.png",
+      "render": {
+        "mode": "medal",
+        "columns": 8,
+        "count": 56,
+        "seconds": 0.1,
+        "width": 256,
+        "height": 448,
+        "mini": false
+      },
+      "animation": "56 frames at 10 fps (5.6 seconds). Inner rings rotate counterclockwise / clockwise / counterclockwise. Ribbons share a wave anchored at the mount; the long center tail remains fully visible. Reduced motion holds the first frame.",
+      "notes": "Hover: “founding ribbon for starting the world”. Same approved artwork in two placements. No decoration on character browsing.",
+      "source": {
+        "creator": "PixelLab, generated at the user’s request",
+        "gallery_id": "e06e77f8-697e-4b48-bd86-4bfdd870a6be",
+        "drawing_id": "4ea694d8-22c7-4a7b-b5cf-bb887c460274",
+        "recipe": "art/ui/foundling_medal/recipe.json"
+      }
+    },
+    {
+      "id": "foundling-mini",
+      "name": "Foundling · miniature board medal",
+      "kind": "Medal",
+      "category": "Foundling",
+      "status": "In use",
+      "definition": "Recognizes the first cohort that helped start the Cyber Pet world. Characters first uploaded on or before November 14, 2026 are Foundlings, including board-only uploads. The cohort is Quarter 1 of school year 2026–2027. Preserve an exact upload date when known; otherwise display the school term without inventing a date.",
+      "where": "Immediately beside a character’s name on the classroom board.",
+      "reward": "Commemorative only; no XP, currency or stat bonus.",
+      "art": "art/ui/foundling_medal/atlas.png",
+      "render": {
+        "mode": "medal",
+        "columns": 8,
+        "count": 56,
+        "seconds": 0.1,
+        "width": 256,
+        "height": 448,
+        "mini": true
+      },
+      "animation": "56 frames at 10 fps (5.6 seconds). Inner rings rotate counterclockwise / clockwise / counterclockwise. Ribbons share a wave anchored at the mount; the long center tail remains fully visible. Reduced motion holds the first frame.",
+      "notes": "Hover: “founding ribbon for starting the world”. Same approved artwork in two placements. No decoration on character browsing.",
+      "source": {
+        "creator": "PixelLab, generated at the user’s request",
+        "gallery_id": "e06e77f8-697e-4b48-bd86-4bfdd870a6be",
+        "drawing_id": "4ea694d8-22c7-4a7b-b5cf-bb887c460274",
+        "recipe": "art/ui/foundling_medal/recipe.json"
+      }
+    },
+    {
+      "id": "foundling-scroll",
+      "name": "Foundling · illuminated scroll",
+      "kind": "Scroll",
+      "category": "Foundling",
+      "status": "In use",
+      "definition": "Recognizes the first cohort that helped start the Cyber Pet world. Characters first uploaded on or before November 14, 2026 are Foundlings, including board-only uploads. The cohort is Quarter 1 of school year 2026–2027. Preserve an exact upload date when known; otherwise display the school term without inventing a date.",
+      "where": "On the profile sheet, beneath the portrait; not in character browsing or beneath board names.",
+      "reward": "Commemorative only; no XP, currency or stat bonus.",
+      "art": "art/ui/foundling/frame_00.png",
+      "render": {
+        "mode": "scroll",
+        "frames": [
+          "art/ui/foundling/frame_00.png",
+          "art/ui/foundling/frame_01.png",
+          "art/ui/foundling/frame_02.png",
+          "art/ui/foundling/frame_03.png",
+          "art/ui/foundling/frame_04.png",
+          "art/ui/foundling/frame_05.png",
+          "art/ui/foundling/frame_06.png",
+          "art/ui/foundling/frame_07.png",
+          "art/ui/foundling/frame_08.png"
+        ],
+        "seconds": 0.18
+      },
+      "animation": "Nine sparkle frames, 0.18 seconds each (1.62-second loop). FOUNDLING lettering is rendered over the artwork. Reduced motion holds the first frame.",
+      "notes": "Hover: “founding ribbon for starting the world”. “Foundling” is the chosen award label; “founding” remains in the requested hover sentence.",
+      "source": {
+        "creator": "PixelLab, generated at the user’s request",
+        "image_job": "412d26ed-3015-41ff-98b3-d6cd39a116bf",
+        "animation_job": "48bfe605-98dc-4126-a632-5d40563f47c9",
+        "gallery_id": "60be6eb5-1ea9-50db-8508-01e69028b2c3"
+      }
+    },
+    {
+      "id": "concept-894a4380-3af4-5ab9-b927-b47aa7a61d28",
+      "name": "Foundling · long center-tail master",
+      "kind": "Medal",
+      "category": "Foundling",
+      "status": "Archived concept",
+      "definition": "The selected sunburst with a single long center ribbon beneath the shorter curled tails. Static source used to build the approved animation.",
+      "where": "Not used as a separate award. Preserved for reference and future reuse.",
+      "reward": "No separate unlock condition or reward.",
+      "art": "art/concepts/894a4380-3af4-5ab9-b927-b47aa7a61d28.png",
+      "notes": "Original size: 192 × 400. Intended meaning: the first cohort that helped start the world. This card does not create a new achievement.",
+      "source": {
+        "creator": "PixelLab, generated at the user’s request",
+        "gallery_id": "894a4380-3af4-5ab9-b927-b47aa7a61d28",
+        "created": "2026-10-28"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "concept-acc63325-25d3-56a4-ba52-335758072cb4",
+      "name": "Foundling · ornate draped tails",
+      "kind": "Medal",
+      "category": "Foundling",
+      "status": "Archived concept",
+      "definition": "The selected metallic sunburst with longer, curled hanging ribbons, before the extra center tail was added.",
+      "where": "Not used as a separate award. Preserved for reference and future reuse.",
+      "reward": "No separate unlock condition or reward.",
+      "art": "art/concepts/acc63325-25d3-56a4-ba52-335758072cb4.png",
+      "notes": "Original size: 192 × 320. Intended meaning: the first cohort that helped start the world. This card does not create a new achievement.",
+      "source": {
+        "creator": "PixelLab, generated at the user’s request",
+        "gallery_id": "acc63325-25d3-56a4-ba52-335758072cb4",
+        "created": "2026-10-28"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "concept-c974b050-bb50-5cf7-a8d2-af86b4674d80",
+      "name": "Foundling · mixed-metal sunburst concept",
+      "kind": "Medal",
+      "category": "Foundling",
+      "status": "Archived concept",
+      "definition": "Gold, bronze and silver-toned radial rays with a circular gold center and two short tails. Selected design direction, developed into the final medal.",
+      "where": "Not used as a separate award. Preserved for reference and future reuse.",
+      "reward": "No separate unlock condition or reward.",
+      "art": "art/concepts/c974b050-bb50-5cf7-a8d2-af86b4674d80.png",
+      "notes": "Original size: 192 × 224. Intended meaning: the first cohort that helped start the world. This card does not create a new achievement.",
+      "source": {
+        "creator": "PixelLab, generated at the user’s request",
+        "gallery_id": "c974b050-bb50-5cf7-a8d2-af86b4674d80",
+        "created": "2026-10-28"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "concept-49a89ee8-1121-56b8-91ef-cae39bbf5f1a",
+      "name": "Foundling · silver-star concept",
+      "kind": "Medal",
+      "category": "Foundling",
+      "status": "Archived concept",
+      "definition": "A silver-toned star inside ornate gold scrollwork with two gold tails. Alternative design; not selected.",
+      "where": "Not used as a separate award. Preserved for reference and future reuse.",
+      "reward": "No separate unlock condition or reward.",
+      "art": "art/concepts/49a89ee8-1121-56b8-91ef-cae39bbf5f1a.png",
+      "notes": "Original size: 192 × 224. Intended meaning: the first cohort that helped start the world. This card does not create a new achievement.",
+      "source": {
+        "creator": "PixelLab, generated at the user’s request",
+        "gallery_id": "49a89ee8-1121-56b8-91ef-cae39bbf5f1a",
+        "created": "2026-10-28"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "concept-b8cc9c80-bf02-5fa2-834f-cc210bc71015",
+      "name": "Foundling · golden cameo concept",
+      "kind": "Medal",
+      "category": "Foundling",
+      "status": "Archived concept",
+      "definition": "A polished oval gold center, ornamental edging and two short gold tails. Alternative design; not selected.",
+      "where": "Not used as a separate award. Preserved for reference and future reuse.",
+      "reward": "No separate unlock condition or reward.",
+      "art": "art/concepts/b8cc9c80-bf02-5fa2-834f-cc210bc71015.png",
+      "notes": "Original size: 192 × 224. Intended meaning: the first cohort that helped start the world. This card does not create a new achievement.",
+      "source": {
+        "creator": "PixelLab, generated at the user’s request",
+        "gallery_id": "b8cc9c80-bf02-5fa2-834f-cc210bc71015",
+        "created": "2026-10-28"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "concept-67499188-8241-5da8-8cbb-8afb362a55f9",
+      "name": "Foundling · teal rosette study",
+      "kind": "Medal",
+      "category": "Foundling",
+      "status": "Archived concept",
+      "definition": "Teal pleated rosette with a gold center and teal-and-gold tails. Early option; not selected.",
+      "where": "Not used as a separate award. Preserved for reference and future reuse.",
+      "reward": "No separate unlock condition or reward.",
+      "art": "art/concepts/67499188-8241-5da8-8cbb-8afb362a55f9.png",
+      "notes": "Original size: 96 × 128. Intended meaning: the first cohort that helped start the world. This card does not create a new achievement.",
+      "source": {
+        "creator": "PixelLab, generated at the user’s request",
+        "gallery_id": "67499188-8241-5da8-8cbb-8afb362a55f9",
+        "created": "2026-10-28"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "concept-56a51a3e-e6f4-5278-8b19-c2f4e8e4cac8",
+      "name": "Foundling · teal gem study",
+      "kind": "Medal",
+      "category": "Foundling",
+      "status": "Archived concept",
+      "definition": "Faceted teal center inside a gold sunburst, with teal-and-gold tails. Early option; not selected.",
+      "where": "Not used as a separate award. Preserved for reference and future reuse.",
+      "reward": "No separate unlock condition or reward.",
+      "art": "art/concepts/56a51a3e-e6f4-5278-8b19-c2f4e8e4cac8.png",
+      "notes": "Original size: 96 × 128. Intended meaning: the first cohort that helped start the world. This card does not create a new achievement.",
+      "source": {
+        "creator": "PixelLab, generated at the user’s request",
+        "gallery_id": "56a51a3e-e6f4-5278-8b19-c2f4e8e4cac8",
+        "created": "2026-10-28"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "concept-c495524c-a08b-5867-b42c-2fd24a7b8219",
+      "name": "Foundling · laurel-star study",
+      "kind": "Medal",
+      "category": "Foundling",
+      "status": "Archived concept",
+      "definition": "Gold star, circular laurel-style surround, and teal tails. Early option; not selected.",
+      "where": "Not used as a separate award. Preserved for reference and future reuse.",
+      "reward": "No separate unlock condition or reward.",
+      "art": "art/concepts/c495524c-a08b-5867-b42c-2fd24a7b8219.png",
+      "notes": "Original size: 96 × 128. Intended meaning: the first cohort that helped start the world. This card does not create a new achievement.",
+      "source": {
+        "creator": "PixelLab, generated at the user’s request",
+        "gallery_id": "c495524c-a08b-5867-b42c-2fd24a7b8219",
+        "created": "2026-10-28"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "concept-ee57c755-9905-52df-b72b-c7fd89984937",
+      "name": "Foundling · blank scroll master",
+      "kind": "Scroll",
+      "category": "Foundling",
+      "status": "Archived concept",
+      "definition": "Unlettered golden ceremonial scroll used as the source for the sparkle animation and the FOUNDLING profile label.",
+      "where": "Not used as a separate award. Preserved for reference and future reuse.",
+      "reward": "No separate unlock condition or reward.",
+      "art": "art/concepts/ee57c755-9905-52df-b72b-c7fd89984937.png",
+      "notes": "Original size: 256 × 128. Intended meaning: the first cohort that helped start the world. This card does not create a new achievement.",
+      "source": {
+        "creator": "PixelLab, generated at the user’s request",
+        "gallery_id": "ee57c755-9905-52df-b72b-c7fd89984937",
+        "created": "2026-10-28"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "running_first_run",
+      "name": "First Run",
+      "kind": "Ribbon",
+      "category": "Running",
+      "status": "In use",
+      "definition": "Starting the Running game for the first time.",
+      "where": "Main game · Awards book",
+      "reward": "Speed +5 EXP.",
+      "art": "art/ui/awards/running_first_run.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/running_first_run.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "running_first_leap",
+      "name": "First Leap",
+      "kind": "Ribbon",
+      "category": "Running",
+      "status": "In use",
+      "definition": "Clearing the first hurdle.",
+      "where": "Main game · Awards book",
+      "reward": "Stamina +5 EXP.",
+      "art": "art/ui/awards/running_first_leap.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/running_first_leap.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "running_five_hurdles",
+      "name": "Five Hurdles",
+      "kind": "Ribbon",
+      "category": "Running",
+      "status": "In use",
+      "definition": "Clearing 5 hurdles in one Running game.",
+      "where": "Main game · Awards book",
+      "reward": "Speed +8 EXP.",
+      "art": "art/ui/awards/running_five_hurdles.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/running_five_hurdles.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "running_hurdle_hero",
+      "name": "Hurdle Hero",
+      "kind": "Ribbon",
+      "category": "Running",
+      "status": "In use",
+      "definition": "Clearing 10 hurdles in one Running game.",
+      "where": "Main game · Awards book",
+      "reward": "Stamina +8 EXP.",
+      "art": "art/ui/awards/running_hurdle_hero.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/running_hurdle_hero.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "running_clean_landing",
+      "name": "Clean Landing",
+      "kind": "Ribbon",
+      "category": "Running",
+      "status": "In use",
+      "definition": "Clearing 10 hurdles without a collision. Earned as soon as the threshold is reached; you may stop and rest.",
+      "where": "Main game · Awards book",
+      "reward": "Speed +10 EXP.",
+      "art": "art/ui/awards/running_clean_landing.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/running_clean_landing.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "running_pace_keeper",
+      "name": "Pace Keeper",
+      "kind": "Ribbon",
+      "category": "Running",
+      "status": "In use",
+      "definition": "Running for at least 30 seconds in one game.",
+      "where": "Main game · Awards book",
+      "reward": "Stamina +10 EXP.",
+      "art": "art/ui/awards/running_pace_keeper.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/running_pace_keeper.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "running_quick_circuit",
+      "name": "Quick Circuit",
+      "kind": "Ribbon",
+      "category": "Running",
+      "status": "In use",
+      "definition": "Clearing 15 hurdles in one Running game.",
+      "where": "Main game · Awards book",
+      "reward": "Speed +12 EXP.",
+      "art": "art/ui/awards/running_quick_circuit.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/running_quick_circuit.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "running_swift_feet",
+      "name": "Swift Feet",
+      "kind": "Ribbon",
+      "category": "Running",
+      "status": "In use",
+      "definition": "Clearing 20 hurdles in one Running game.",
+      "where": "Main game · Awards book",
+      "reward": "Stamina +12 EXP.",
+      "art": "art/ui/awards/running_swift_feet.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/running_swift_feet.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "running_record_chaser",
+      "name": "Record Chaser",
+      "kind": "Ribbon",
+      "category": "Running",
+      "status": "In use",
+      "definition": "Beating the Running personal best three times.",
+      "where": "Main game · Awards book",
+      "reward": "Speed +15 EXP.",
+      "art": "art/ui/awards/running_record_chaser.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/running_record_chaser.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "running_track_regular",
+      "name": "Track Regular",
+      "kind": "Ribbon",
+      "category": "Running",
+      "status": "In use",
+      "definition": "Completing 10 Running games.",
+      "where": "Main game · Awards book",
+      "reward": "Speed and Stamina +15 EXP.",
+      "art": "art/ui/awards/running_track_regular.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/running_track_regular.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "strength_first_smash",
+      "name": "First Smash",
+      "kind": "Ribbon",
+      "category": "Strength",
+      "status": "In use",
+      "definition": "Starting the Strength game for the first time.",
+      "where": "Main game · Awards book",
+      "reward": "Strength +5 EXP.",
+      "art": "art/ui/awards/strength_first_smash.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/strength_first_smash.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "strength_first_punch",
+      "name": "First Punch",
+      "kind": "Ribbon",
+      "category": "Strength",
+      "status": "In use",
+      "definition": "Completing your first three-circle, four-arrow Strength attempt.",
+      "where": "Main game · Awards book",
+      "reward": "Stamina +5 EXP.",
+      "art": "art/ui/awards/strength_first_punch.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/strength_first_punch.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "strength_power_100",
+      "name": "Power 100",
+      "kind": "Ribbon",
+      "category": "Strength",
+      "status": "In use",
+      "definition": "Scoring at least 100 Power.",
+      "where": "Main game · Awards book",
+      "reward": "Strength +8 EXP.",
+      "art": "art/ui/awards/strength_power_100.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/strength_power_100.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "strength_power_200",
+      "name": "Power 200",
+      "kind": "Ribbon",
+      "category": "Strength",
+      "status": "In use",
+      "definition": "Scoring at least 200 Power.",
+      "where": "Main game · Awards book",
+      "reward": "Stamina +8 EXP.",
+      "art": "art/ui/awards/strength_power_200.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/strength_power_200.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "strength_great_charge",
+      "name": "Great Charge",
+      "kind": "Ribbon",
+      "category": "Strength",
+      "status": "In use",
+      "definition": "Scoring at least 75 on one circle in a completed Strength attempt.",
+      "where": "Main game · Awards book",
+      "reward": "Strength +10 EXP.",
+      "art": "art/ui/awards/strength_great_charge.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/strength_great_charge.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "strength_double_charge",
+      "name": "Double Charge",
+      "kind": "Ribbon",
+      "category": "Strength",
+      "status": "In use",
+      "definition": "Scoring at least 75 on two circles in one completed Strength attempt.",
+      "where": "Main game · Awards book",
+      "reward": "Stamina +10 EXP.",
+      "art": "art/ui/awards/strength_double_charge.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/strength_double_charge.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "strength_perfect_flash",
+      "name": "Perfect Flash",
+      "kind": "Ribbon",
+      "category": "Strength",
+      "status": "In use",
+      "definition": "Perfectly aligning one circle (100 accuracy) in a completed Strength attempt.",
+      "where": "Main game · Awards book",
+      "reward": "Strength +12 EXP.",
+      "art": "art/ui/awards/strength_perfect_flash.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/strength_perfect_flash.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "strength_center_strike",
+      "name": "Center Strike",
+      "kind": "Ribbon",
+      "category": "Strength",
+      "status": "In use",
+      "definition": "Perfectly aligning all four arrows (100 accuracy each) in one completed Strength attempt.",
+      "where": "Main game · Awards book",
+      "reward": "Stamina +12 EXP.",
+      "art": "art/ui/awards/strength_center_strike.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/strength_center_strike.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "strength_mighty_mitt",
+      "name": "Mighty Mitt",
+      "kind": "Ribbon",
+      "category": "Strength",
+      "status": "In use",
+      "definition": "Scoring at least 300 Power.",
+      "where": "Main game · Awards book",
+      "reward": "Strength +15 EXP.",
+      "art": "art/ui/awards/strength_mighty_mitt.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/strength_mighty_mitt.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "strength_smash_regular",
+      "name": "Smash Regular",
+      "kind": "Ribbon",
+      "category": "Strength",
+      "status": "In use",
+      "definition": "Completing 10 Strength games.",
+      "where": "Main game · Awards book",
+      "reward": "Strength and Stamina +15 EXP.",
+      "art": "art/ui/awards/strength_smash_regular.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/strength_smash_regular.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "intelligence_first_pair",
+      "name": "First Pair",
+      "kind": "Ribbon",
+      "category": "Intelligence",
+      "status": "In use",
+      "definition": "Finding the first matching pair in Memory.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence +5 EXP.",
+      "art": "art/ui/awards/intelligence_first_pair.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/intelligence_first_pair.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "intelligence_easy_clear",
+      "name": "Easy Clear",
+      "kind": "Ribbon",
+      "category": "Intelligence",
+      "status": "In use",
+      "definition": "Completing Easy Memory.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence +6 EXP.",
+      "art": "art/ui/awards/intelligence_easy_clear.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/intelligence_easy_clear.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "intelligence_easy_focus",
+      "name": "Easy Focus",
+      "kind": "Ribbon",
+      "category": "Intelligence",
+      "status": "In use",
+      "definition": "Completing Easy Memory with 3 or fewer misses.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence +8 EXP.",
+      "art": "art/ui/awards/intelligence_easy_focus.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/intelligence_easy_focus.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "intelligence_medium_clear",
+      "name": "Medium Clear",
+      "kind": "Ribbon",
+      "category": "Intelligence",
+      "status": "In use",
+      "definition": "Completing Medium Memory.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence +10 EXP.",
+      "art": "art/ui/awards/intelligence_medium_clear.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/intelligence_medium_clear.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "intelligence_medium_focus",
+      "name": "Medium Focus",
+      "kind": "Ribbon",
+      "category": "Intelligence",
+      "status": "In use",
+      "definition": "Completing Medium Memory with 5 or fewer misses.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence +12 EXP.",
+      "art": "art/ui/awards/intelligence_medium_focus.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/intelligence_medium_focus.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "intelligence_pair_streak_5",
+      "name": "Pair Streak 5",
+      "kind": "Ribbon",
+      "category": "Intelligence",
+      "status": "In use",
+      "definition": "Finding 5 pairs in a row without a miss.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence +12 EXP.",
+      "art": "art/ui/awards/intelligence_pair_streak_5.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/intelligence_pair_streak_5.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "intelligence_pair_streak_10",
+      "name": "Pair Streak 10",
+      "kind": "Ribbon",
+      "category": "Intelligence",
+      "status": "In use",
+      "definition": "Finding 10 pairs in a row without a miss.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence +15 EXP.",
+      "art": "art/ui/awards/intelligence_pair_streak_10.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/intelligence_pair_streak_10.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "intelligence_easy_record",
+      "name": "Easy Record",
+      "kind": "Ribbon",
+      "category": "Intelligence",
+      "status": "In use",
+      "definition": "Setting or matching a Easy Memory personal best.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence +15 EXP.",
+      "art": "art/ui/awards/intelligence_easy_record.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/intelligence_easy_record.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "intelligence_medium_record",
+      "name": "Medium Record",
+      "kind": "Ribbon",
+      "category": "Intelligence",
+      "status": "In use",
+      "definition": "Setting or matching a Medium Memory personal best.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence +18 EXP.",
+      "art": "art/ui/awards/intelligence_medium_record.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/intelligence_medium_record.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "intelligence_hard_clear",
+      "name": "Hard Clear",
+      "kind": "Ribbon",
+      "category": "Intelligence",
+      "status": "In use",
+      "definition": "Completing Hard Memory within its normal miss limit.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence +20 EXP.",
+      "art": "art/ui/awards/intelligence_hard_clear.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/intelligence_hard_clear.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "charisma_first_show",
+      "name": "First Show",
+      "kind": "Ribbon",
+      "category": "Charisma",
+      "status": "In use",
+      "definition": "Starting the Charisma game for the first time.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma +5 EXP.",
+      "art": "art/ui/awards/charisma_first_show.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/charisma_first_show.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "charisma_first_great",
+      "name": "First Great",
+      "kind": "Ribbon",
+      "category": "Charisma",
+      "status": "In use",
+      "definition": "Landing the first Great note.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma +6 EXP.",
+      "art": "art/ui/awards/charisma_first_great.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/charisma_first_great.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "charisma_first_perfect",
+      "name": "First Perfect",
+      "kind": "Ribbon",
+      "category": "Charisma",
+      "status": "In use",
+      "definition": "Landing the first Perfect note.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma +8 EXP.",
+      "art": "art/ui/awards/charisma_first_perfect.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/charisma_first_perfect.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "charisma_perfect_5",
+      "name": "Perfect 5",
+      "kind": "Ribbon",
+      "category": "Charisma",
+      "status": "In use",
+      "definition": "Landing 5 Perfect notes in one performance.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma +10 EXP.",
+      "art": "art/ui/awards/charisma_perfect_5.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/charisma_perfect_5.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "charisma_rhythm_star",
+      "name": "Rhythm Star",
+      "kind": "Ribbon",
+      "category": "Charisma",
+      "status": "In use",
+      "definition": "Landing 10 Perfect notes in one performance.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma +12 EXP.",
+      "art": "art/ui/awards/charisma_rhythm_star.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/charisma_rhythm_star.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "charisma_perfect_15",
+      "name": "Perfect 15",
+      "kind": "Ribbon",
+      "category": "Charisma",
+      "status": "In use",
+      "definition": "Landing 15 Perfect notes in one performance.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma +12 EXP.",
+      "art": "art/ui/awards/charisma_perfect_15.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/charisma_perfect_15.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "charisma_clean_combo",
+      "name": "Clean Combo",
+      "kind": "Ribbon",
+      "category": "Charisma",
+      "status": "In use",
+      "definition": "Landing 10 notes in a row without a miss.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma +15 EXP.",
+      "art": "art/ui/awards/charisma_clean_combo.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/charisma_clean_combo.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "charisma_perfect_20",
+      "name": "Perfect 20",
+      "kind": "Ribbon",
+      "category": "Charisma",
+      "status": "In use",
+      "definition": "Landing 20 Perfect notes in one performance.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma +15 EXP.",
+      "art": "art/ui/awards/charisma_perfect_20.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/charisma_perfect_20.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "charisma_steady_show",
+      "name": "Steady Show",
+      "kind": "Ribbon",
+      "category": "Charisma",
+      "status": "In use",
+      "definition": "Finishing a performance with 2 or fewer misses.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma +18 EXP.",
+      "art": "art/ui/awards/charisma_steady_show.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/charisma_steady_show.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "charisma_show_regular",
+      "name": "Show Regular",
+      "kind": "Ribbon",
+      "category": "Charisma",
+      "status": "In use",
+      "definition": "Complete 10 Dance performances. Failed or abandoned performances do not count.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma +20 EXP.",
+      "art": "art/ui/awards/charisma_show_regular.png",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/charisma_show_regular.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "track_star",
+      "name": "Track Star",
+      "kind": "Trophy",
+      "category": "Running",
+      "status": "In use",
+      "definition": "Clearing 25 hurdles in one Running game.",
+      "where": "Main game · Awards book",
+      "reward": "Running-game Speed and Stamina EXP +8%.",
+      "art": "art/ui/awards/trophies_copper.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 0,
+        "base": "art/ui/awards/bases_running.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_copper.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "block_breaker",
+      "name": "Block Breaker",
+      "kind": "Trophy",
+      "category": "Strength",
+      "status": "In use",
+      "definition": "Scoring 500 or more Power in one Strength game.",
+      "where": "Main game · Awards book",
+      "reward": "Strength-game skill EXP +8%.",
+      "art": "art/ui/awards/trophies_copper.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 1,
+        "base": "art/ui/awards/bases_strength.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_copper.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "clean_recall",
+      "name": "Clean Recall",
+      "kind": "Trophy",
+      "category": "Intelligence",
+      "status": "In use",
+      "definition": "Completing Medium Memory with zero misses.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence EXP from Memory +8%.",
+      "art": "art/ui/awards/trophies_copper.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 2,
+        "base": "art/ui/awards/bases_intelligence.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_copper.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "stage_ready",
+      "name": "Stage Ready",
+      "kind": "Trophy",
+      "category": "Charisma",
+      "status": "In use",
+      "definition": "Landing 25 Perfect notes in one Charisma performance.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma EXP +8%.",
+      "art": "art/ui/awards/trophies_copper.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 3,
+        "base": "art/ui/awards/bases_charisma.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_copper.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "untouchable_runner",
+      "name": "Untouchable Runner",
+      "kind": "Trophy",
+      "category": "Running",
+      "status": "In use",
+      "definition": "Clearing 40 hurdles without a collision. Earned as soon as the threshold is reached; you may stop and rest.",
+      "where": "Main game · Awards book",
+      "reward": "Running-game EXP +12% and crash losses -10%.",
+      "art": "art/ui/awards/trophies_silver.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 4,
+        "base": "art/ui/awards/bases_running.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_silver.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "perfect_charge",
+      "name": "Perfect Charge",
+      "kind": "Trophy",
+      "category": "Strength",
+      "status": "In use",
+      "definition": "Perfectly aligning all three circles (100 accuracy each) in one completed Strength attempt.",
+      "where": "Main game · Awards book",
+      "reward": "Strength-game skill EXP +12% and Energy cost -10%.",
+      "art": "art/ui/awards/trophies_silver.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 5,
+        "base": "art/ui/awards/bases_strength.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_silver.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "hardwired_recall",
+      "name": "Hardwired Recall",
+      "kind": "Trophy",
+      "category": "Intelligence",
+      "status": "In use",
+      "definition": "Completing Hard Memory with three or fewer misses.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence EXP +12% and Memory-game Energy cost -10%.",
+      "art": "art/ui/awards/trophies_silver.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 6,
+        "base": "art/ui/awards/bases_intelligence.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_silver.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "clean_routine",
+      "name": "Clean Routine",
+      "kind": "Trophy",
+      "category": "Charisma",
+      "status": "In use",
+      "definition": "Finishing with at least 35 Perfect notes and zero misses.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma EXP +12% and Charisma-game Energy drain -10%.",
+      "art": "art/ui/awards/trophies_silver.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 7,
+        "base": "art/ui/awards/bases_charisma.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_silver.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "marathon_circuit",
+      "name": "Marathon Circuit",
+      "kind": "Trophy",
+      "category": "Running",
+      "status": "In use",
+      "definition": "Clearing 75 hurdles in one Running game.",
+      "where": "Main game · Awards book",
+      "reward": "Running-game EXP +16% and Silver +10%.",
+      "art": "art/ui/awards/trophies_gold.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 8,
+        "base": "art/ui/awards/bases_running.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_gold.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "maximum_impact",
+      "name": "Maximum Impact",
+      "kind": "Trophy",
+      "category": "Strength",
+      "status": "In use",
+      "definition": "Reaching 2,400 Power with all three circle accuracy scores at 75 or higher.",
+      "where": "Main game · Awards book",
+      "reward": "Strength-game skill EXP +16% and Silver +10%.",
+      "art": "art/ui/awards/trophies_gold.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 9,
+        "base": "art/ui/awards/bases_strength.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_gold.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "flawless_recall",
+      "name": "Flawless Recall",
+      "kind": "Trophy",
+      "category": "Intelligence",
+      "status": "In use",
+      "definition": "Completing Hard Memory with zero misses.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence EXP +16% and Memory-game Silver +10%.",
+      "art": "art/ui/awards/trophies_gold.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 10,
+        "base": "art/ui/awards/bases_intelligence.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_gold.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "perfect_performance",
+      "name": "Perfect Performance",
+      "kind": "Trophy",
+      "category": "Charisma",
+      "status": "In use",
+      "definition": "Finishing with at least 40 Perfect notes, zero Greats, zero Goods, and zero misses.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma EXP +16% and Charisma-game Silver +10%.",
+      "art": "art/ui/awards/trophies_gold.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 11,
+        "base": "art/ui/awards/bases_charisma.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_gold.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "century_runner",
+      "name": "Century Runner",
+      "kind": "Trophy",
+      "category": "Running",
+      "status": "In use",
+      "definition": "Clearing 100 hurdles in one Running game.",
+      "where": "Main game · Awards book",
+      "reward": "Running-game EXP +20%, Silver +15%, and crash penalties -25%.",
+      "art": "art/ui/awards/trophies_platinum.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 12,
+        "base": "art/ui/awards/bases_running.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_platinum.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "impact_streak",
+      "name": "Impact Streak",
+      "kind": "Trophy",
+      "category": "Strength",
+      "status": "In use",
+      "definition": "Reach at least 2,400 Power with all three circles at 75 or higher in five completed Strength attempts in a row. Rest is allowed.",
+      "where": "Main game · Awards book",
+      "reward": "Strength-game EXP +20%, Silver +15%, and circle accuracy used for Power +5 (capped at 100). Perfect awards still require unassisted 100 accuracy.",
+      "art": "art/ui/awards/trophies_platinum.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 13,
+        "base": "art/ui/awards/bases_strength.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_platinum.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "triple_record",
+      "name": "Triple Record",
+      "kind": "Trophy",
+      "category": "Intelligence",
+      "status": "In use",
+      "definition": "Setting or matching a personal best score in Easy, Medium, and Hard Memory.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence EXP +20%, Silver +15%, and preview time +0.5 seconds.",
+      "art": "art/ui/awards/trophies_platinum.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 14,
+        "base": "art/ui/awards/bases_intelligence.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_platinum.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "electric_encore",
+      "name": "Electric Encore",
+      "kind": "Trophy",
+      "category": "Charisma",
+      "status": "In use",
+      "definition": "Finishing with at least 50 Perfect notes and zero misses.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma EXP +20%, Silver +15%, and the Perfect timing window +10%.",
+      "art": "art/ui/awards/trophies_platinum.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 15,
+        "base": "art/ui/awards/bases_charisma.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_platinum.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "unbroken_circuit",
+      "name": "Unbroken Circuit",
+      "kind": "Trophy",
+      "category": "Running",
+      "status": "In use",
+      "definition": "Clearing 100 hurdles in one Running game without a collision. Earned as soon as the threshold is reached; you may stop and rest.",
+      "where": "Main game · Awards book",
+      "reward": "Running EXP +25%, Silver +20%, Energy drain -20%, and crash penalties -50%.",
+      "art": "art/ui/awards/trophies_diamond.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 16,
+        "base": "art/ui/awards/bases_running.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_diamond.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "world_breaker",
+      "name": "World Breaker",
+      "kind": "Trophy",
+      "category": "Strength",
+      "status": "In use",
+      "definition": "Reaching 3,000 Power with perfect alignment on all three circles and all four arrows.",
+      "where": "Main game · Awards book",
+      "reward": "Strength-game EXP +25%, Silver +20%, Energy cost -20%, and final Power +5%.",
+      "art": "art/ui/awards/trophies_diamond.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 17,
+        "base": "art/ui/awards/bases_strength.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_diamond.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "perfect_archive",
+      "name": "Perfect Archive",
+      "kind": "Trophy",
+      "category": "Intelligence",
+      "status": "In use",
+      "definition": "Completing Easy, Medium, and Hard Memory with zero misses on each difficulty.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence EXP +25%, Silver +20%, Energy cost -20%, and preview time +1 second.",
+      "art": "art/ui/awards/trophies_diamond.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 18,
+        "base": "art/ui/awards/bases_intelligence.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_diamond.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "rhythm_legend",
+      "name": "Rhythm Legend",
+      "kind": "Trophy",
+      "category": "Charisma",
+      "status": "In use",
+      "definition": "Finishing with at least 50 Perfect notes, zero Greats, zero Goods, and zero misses.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma EXP +25%, Silver +20%, Energy drain -20%, and the Perfect timing window +20%.",
+      "art": "art/ui/awards/trophies_diamond.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 19,
+        "base": "art/ui/awards/bases_charisma.png"
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_diamond.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "cyber_grandmaster",
+      "name": "Cyber Grandmaster",
+      "kind": "Trophy",
+      "category": "Mastery",
+      "status": "In use",
+      "definition": "Earning all 20 category trophy achievements.",
+      "where": "Main game · Awards book",
+      "reward": "All minigame EXP and Silver +10%, Energy drain -10%, and Happiness +5 after every completed minigame.",
+      "art": "art/ui/awards/trophies_rainbow.png",
+      "render": {
+        "mode": "trophy",
+        "slot": 20
+      },
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/trophies_rainbow.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "cyber_legend",
+      "name": "Cyber Legend",
+      "kind": "Mastery medal",
+      "category": "Mastery",
+      "status": "In use",
+      "definition": "Earn all 40 game ribbons.",
+      "where": "Main game · Awards book",
+      "reward": "All minigame skill EXP +5%.",
+      "art": "art/ui/awards/cyber_legend.svg",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/cyber_legend.svg",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "first_spark",
+      "name": "First Spark",
+      "kind": "Care medal",
+      "category": "Care",
+      "status": "In use",
+      "definition": "Starting your journey with a CyberPet.",
+      "where": "Main game · Awards book",
+      "reward": "Permanent care milestone; no XP or stat bonus.",
+      "art": "art/ui/awards/first_spark.svg",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/first_spark.svg",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "full_charge",
+      "name": "Full Charge",
+      "kind": "Care medal",
+      "category": "Care",
+      "status": "In use",
+      "definition": "Restoring your pet's Energy to 100.",
+      "where": "Main game · Awards book",
+      "reward": "Permanent care milestone; no XP or stat bonus.",
+      "art": "art/ui/awards/full_charge.svg",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/full_charge.svg",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "five_star_care",
+      "name": "Five-Star Care",
+      "kind": "Care medal",
+      "category": "Care",
+      "status": "In use",
+      "definition": "Bringing all five care stats to 90 or higher at once.",
+      "where": "Main game · Awards book",
+      "reward": "Permanent care milestone; no XP or stat bonus.",
+      "art": "art/ui/awards/five_star_care.svg",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/five_star_care.svg",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "heart_link",
+      "name": "Heart Link",
+      "kind": "Care medal",
+      "category": "Care",
+      "status": "In use",
+      "definition": "Reaching 100 Love with your CyberPet.",
+      "where": "Main game · Awards book",
+      "reward": "Permanent care milestone; no XP or stat bonus.",
+      "art": "art/ui/awards/heart_link.svg",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/heart_link.svg",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "clean_sweep",
+      "name": "Clean Sweep",
+      "kind": "Care medal",
+      "category": "Care",
+      "status": "In use",
+      "definition": "Cleaning a dirty pet until it is completely spotless.",
+      "where": "Main game · Awards book",
+      "reward": "Permanent care milestone; no XP or stat bonus.",
+      "art": "art/ui/awards/clean_sweep.svg",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/clean_sweep.svg",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "snack_scholar",
+      "name": "Snack Scholar",
+      "kind": "Care medal",
+      "category": "Care",
+      "status": "In use",
+      "definition": "Discovering and feeding your pet a favorite food.",
+      "where": "Main game · Awards book",
+      "reward": "Permanent care milestone; no XP or stat bonus.",
+      "art": "art/ui/awards/snack_scholar.svg",
+      "render": {},
+      "notes": "Original game award. Existing unlock requirements are preserved.",
+      "source": {
+        "project_path": "assets/ui/awards/snack_scholar.svg",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "Existing Cyber Pet game artwork; original provenance retained in CPP-V3/assets/manifest.json."
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "trail_clean_eight",
+      "name": "Sure Footed",
+      "kind": "Ribbon",
+      "category": "Milestones",
+      "status": "In use",
+      "definition": "Finish a Running game with at least 8 hurdles and no collisions.",
+      "where": "Main game · Awards book",
+      "reward": "Speed +5 XP once",
+      "art": "art/awards/pixellab/ribbon_01.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/ribbon_01.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "30abd366-e16a-4c3c-8083-9dc7bd626637",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/30abd366-e16a-4c3c-8083-9dc7bd626637/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "trail_thirty",
+      "name": "Thirty in Stride",
+      "kind": "Ribbon",
+      "category": "Milestones",
+      "status": "In use",
+      "definition": "Clear 30 hurdles in one Running game.",
+      "where": "Main game · Awards book",
+      "reward": "Speed +10 XP once",
+      "art": "art/awards/pixellab/ribbon_02.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/ribbon_02.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "1bf08b76-00eb-4c16-bac0-8dd1655e2353",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/1bf08b76-00eb-4c16-bac0-8dd1655e2353/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "trail_five",
+      "name": "Finding a Pace",
+      "kind": "Ribbon",
+      "category": "Milestones",
+      "status": "In use",
+      "definition": "Finish 5 Running games.",
+      "where": "Main game · Awards book",
+      "reward": "Speed +15 XP once",
+      "art": "art/awards/pixellab/ribbon_03.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/ribbon_03.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "b56adb63-8ec1-4076-aabc-81a1f4fe07b0",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/b56adb63-8ec1-4076-aabc-81a1f4fe07b0/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "trail_cup",
+      "name": "Trail Cup",
+      "kind": "Trophy",
+      "category": "Milestones",
+      "status": "In use",
+      "definition": "Earn Sure Footed, Thirty in Stride, Finding a Pace.",
+      "where": "Main game · Awards book",
+      "reward": "Speed +20 XP once",
+      "art": "art/awards/pixellab/trophy_01.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/trophy_01.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "8a60e5da-2b34-4781-89e8-3660a997a620",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/8a60e5da-2b34-4781-89e8-3660a997a620/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "forge_control",
+      "name": "Controlled Power",
+      "kind": "Ribbon",
+      "category": "Milestones",
+      "status": "In use",
+      "definition": "Complete a Strength attempt with all three circles at 75 accuracy or higher.",
+      "where": "Main game · Awards book",
+      "reward": "Strength +5 XP once",
+      "art": "art/awards/pixellab/ribbon_04.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/ribbon_04.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "8a71eeba-8882-4fbc-b10e-7a6c6caa8d08",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/8a71eeba-8882-4fbc-b10e-7a6c6caa8d08/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "forge_1200",
+      "name": "Rising Force",
+      "kind": "Ribbon",
+      "category": "Milestones",
+      "status": "In use",
+      "definition": "Score at least 1,200 Power in a completed Strength attempt.",
+      "where": "Main game · Awards book",
+      "reward": "Strength +10 XP once",
+      "art": "art/awards/pixellab/ribbon_05.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/ribbon_05.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "17b8baf2-d279-4bcc-bfe3-5c08f67162d2",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/17b8baf2-d279-4bcc-bfe3-5c08f67162d2/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "forge_25",
+      "name": "Patient Practice",
+      "kind": "Ribbon",
+      "category": "Milestones",
+      "status": "In use",
+      "definition": "Complete 25 Strength attempts, across as many sessions as needed.",
+      "where": "Main game · Awards book",
+      "reward": "Strength +15 XP once",
+      "art": "art/awards/pixellab/ribbon_06.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/ribbon_06.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "650ed021-862b-48ed-8e20-dbc7bcef7f00",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/650ed021-862b-48ed-8e20-dbc7bcef7f00/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "forge_cup",
+      "name": "Forge Cup",
+      "kind": "Trophy",
+      "category": "Milestones",
+      "status": "In use",
+      "definition": "Earn Controlled Power, Rising Force, Patient Practice.",
+      "where": "Main game · Awards book",
+      "reward": "Strength +20 XP once",
+      "art": "art/awards/pixellab/trophy_02.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/trophy_02.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "ac22a1b6-c62b-4ec1-985e-f563b6418ce1",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/ac22a1b6-c62b-4ec1-985e-f563b6418ce1/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "archive_hard",
+      "name": "Hard Won",
+      "kind": "Ribbon",
+      "category": "Milestones",
+      "status": "In use",
+      "definition": "Complete Hard Memory, including any earned extra misses.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence +5 XP once",
+      "art": "art/awards/pixellab/ribbon_07.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/ribbon_07.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "f7439885-dec0-41fa-abba-833ff87890e8",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f7439885-dec0-41fa-abba-833ff87890e8/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "archive_three",
+      "name": "Every Shelf",
+      "kind": "Ribbon",
+      "category": "Milestones",
+      "status": "In use",
+      "definition": "Complete Easy, Medium and Hard Memory at least once each.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence +10 XP once",
+      "art": "art/awards/pixellab/ribbon_08.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/ribbon_08.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "b013a4cc-529f-4b9a-bc31-8eca58582e2b",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/b013a4cc-529f-4b9a-bc31-8eca58582e2b/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "archive_ten",
+      "name": "Returning Reader",
+      "kind": "Ribbon",
+      "category": "Milestones",
+      "status": "In use",
+      "definition": "Complete 10 Memory boards across any difficulties.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence +15 XP once",
+      "art": "art/awards/pixellab/ribbon_09.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/ribbon_09.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "59f0f934-de4d-4f87-905c-715aa8b66294",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/59f0f934-de4d-4f87-905c-715aa8b66294/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "archive_cup",
+      "name": "Archive Cup",
+      "kind": "Trophy",
+      "category": "Milestones",
+      "status": "In use",
+      "definition": "Earn Hard Won, Every Shelf, Returning Reader.",
+      "where": "Main game · Awards book",
+      "reward": "Intelligence +20 XP once",
+      "art": "art/awards/pixellab/trophy_03.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/trophy_03.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "c7369169-8c42-4cc9-955d-46bcc3f8ad3b",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/c7369169-8c42-4cc9-955d-46bcc3f8ad3b/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "stage_finish",
+      "name": "Curtain Call",
+      "kind": "Ribbon",
+      "category": "Milestones",
+      "status": "In use",
+      "definition": "Reach the end of one Dance performance without running out of Flow.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma +5 XP once",
+      "art": "art/awards/pixellab/ribbon_10.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/ribbon_10.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "24d721d6-c513-4199-ab3a-1b2ac9a62d20",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/24d721d6-c513-4199-ab3a-1b2ac9a62d20/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "stage_combo",
+      "name": "In the Groove",
+      "kind": "Ribbon",
+      "category": "Milestones",
+      "status": "In use",
+      "definition": "Reach a 20-note combo in Dance.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma +10 XP once",
+      "art": "art/awards/pixellab/ribbon_11.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/ribbon_11.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "115d9552-b6d1-4011-97e0-8e542b563277",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/115d9552-b6d1-4011-97e0-8e542b563277/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "stage_five",
+      "name": "Encore Artist",
+      "kind": "Ribbon",
+      "category": "Milestones",
+      "status": "In use",
+      "definition": "Complete 5 Dance performances without running out of Flow.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma +15 XP once",
+      "art": "art/awards/pixellab/ribbon_12.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/ribbon_12.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "63ff44d3-6fe5-4790-b55b-c7e83ecdb276",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/63ff44d3-6fe5-4790-b55b-c7e83ecdb276/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "stage_cup",
+      "name": "Stage Cup",
+      "kind": "Trophy",
+      "category": "Milestones",
+      "status": "In use",
+      "definition": "Earn Curtain Call, In the Groove, Encore Artist.",
+      "where": "Main game · Awards book",
+      "reward": "Charisma +20 XP once",
+      "art": "art/awards/pixellab/trophy_04.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/trophy_04.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "84b2e268-a948-4bd5-bf3d-44dc4fe67ec1",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/84b2e268-a948-4bd5-bf3d-44dc4fe67ec1/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "summit_easy",
+      "name": "Bamboo Balance",
+      "kind": "Ribbon",
+      "category": "Training",
+      "status": "In use",
+      "definition": "Keep the Easy slab balanced for the full 45 seconds.",
+      "where": "Main game · Awards book",
+      "reward": "Collectible honour; no stat or currency bonus.",
+      "art": "art/awards/pixellab/contest_ribbon_01.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/contest_ribbon_01.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "090f5068-aae6-42f2-aec4-cd3f6fdc70c3",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/090f5068-aae6-42f2-aec4-cd3f6fdc70c3/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "summit_medium",
+      "name": "Concrete Calm",
+      "kind": "Ribbon",
+      "category": "Training",
+      "status": "In use",
+      "definition": "Keep the Medium slab balanced for the full 45 seconds.",
+      "where": "Main game · Awards book",
+      "reward": "Collectible honour; no stat or currency bonus.",
+      "art": "art/awards/pixellab/contest_ribbon_02.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/contest_ribbon_02.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "47217e2b-2789-4669-bdb2-d25dbfab7dd1",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/47217e2b-2789-4669-bdb2-d25dbfab7dd1/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "summit_hard",
+      "name": "Basalt Balance",
+      "kind": "Ribbon",
+      "category": "Training",
+      "status": "In use",
+      "definition": "Keep the Hard slab balanced for the full 45 seconds.",
+      "where": "Main game · Awards book",
+      "reward": "Collectible honour; no stat or currency bonus.",
+      "art": "art/awards/pixellab/contest_ribbon_03.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/contest_ribbon_03.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "fe483440-596b-4b3c-af14-2e255f09e993",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/fe483440-596b-4b3c-af14-2e255f09e993/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "summit_steady",
+      "name": "Steady Hands",
+      "kind": "Ribbon",
+      "category": "Training",
+      "status": "In use",
+      "definition": "Complete any Balance round with at least 30 seconds inside the steady zone.",
+      "where": "Main game · Awards book",
+      "reward": "Collectible honour; no stat or currency bonus.",
+      "art": "art/awards/pixellab/contest_ribbon_04.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/contest_ribbon_04.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "ae4c87ee-133d-456c-b9a0-17bfca17ae45",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/ae4c87ee-133d-456c-b9a0-17bfca17ae45/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "boulder_quarter",
+      "name": "First Ascent",
+      "kind": "Ribbon",
+      "category": "Training",
+      "status": "In use",
+      "definition": "Reach 25% of the Boulder hill in one naturally finished round.",
+      "where": "Main game · Awards book",
+      "reward": "Collectible honour; no stat or currency bonus.",
+      "art": "art/awards/pixellab/contest_ribbon_05.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/contest_ribbon_05.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "b9d7fbe6-3082-40c2-ab3b-257a47fe3164",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/b9d7fbe6-3082-40c2-ab3b-257a47fe3164/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "boulder_half",
+      "name": "Halfway Hero",
+      "kind": "Ribbon",
+      "category": "Training",
+      "status": "In use",
+      "definition": "Reach 50% of the Boulder hill in one naturally finished round.",
+      "where": "Main game · Awards book",
+      "reward": "Collectible honour; no stat or currency bonus.",
+      "art": "art/awards/pixellab/contest_ribbon_06.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/contest_ribbon_06.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "44bd7b2b-d602-4894-9750-f4ea20275cb9",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/44bd7b2b-d602-4894-9750-f4ea20275cb9/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "boulder_peak",
+      "name": "At the Summit",
+      "kind": "Ribbon",
+      "category": "Training",
+      "status": "In use",
+      "definition": "Reach the top of the Boulder hill.",
+      "where": "Main game · Awards book",
+      "reward": "Collectible honour; no stat or currency bonus.",
+      "art": "art/awards/pixellab/contest_ribbon_07.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/contest_ribbon_07.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "04d448f0-b7a6-4a84-93c8-eee5e9a455e0",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/04d448f0-b7a6-4a84-93c8-eee5e9a455e0/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "summit_cup",
+      "name": "Summit Cup",
+      "kind": "Trophy",
+      "category": "Training",
+      "status": "In use",
+      "definition": "Complete all three Balance difficulties.",
+      "where": "Main game · Awards book",
+      "reward": "Collectible honour; no stat or currency bonus.",
+      "art": "art/awards/pixellab/trophy_05.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/trophy_05.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "6885b53b-7230-443b-899f-fae922d00264",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/6885b53b-7230-443b-899f-fae922d00264/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "boulder_cup",
+      "name": "Climber Cup",
+      "kind": "Trophy",
+      "category": "Training",
+      "status": "In use",
+      "definition": "Earn all three Boulder ascent ribbons.",
+      "where": "Main game · Awards book",
+      "reward": "Collectible honour; no stat or currency bonus.",
+      "art": "art/awards/pixellab/trophy_06.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/trophy_06.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "8f7c9af0-e3b0-47dc-a5b5-4009d66bd4f1",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/8f7c9af0-e3b0-47dc-a5b5-4009d66bd4f1/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "board_present",
+      "name": "Part of the Class",
+      "kind": "Ribbon",
+      "category": "Board",
+      "status": "In use",
+      "definition": "Collect a teacher-issued Board participation receipt in this pet's game.",
+      "where": "Main game · Awards book",
+      "reward": "Collectible honour; no stat or currency bonus.",
+      "art": "art/awards/pixellab/ribbon_15.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/ribbon_15.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "59397122-9b18-4220-897e-8711c6451f13",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/59397122-9b18-4220-897e-8711c6451f13/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "board_sharing",
+      "name": "Sharing Spirit",
+      "kind": "Ribbon",
+      "category": "Board",
+      "status": "In use",
+      "definition": "Collect a teacher-issued Board sharing receipt in this pet's game.",
+      "where": "Main game · Awards book",
+      "reward": "Collectible honour; no stat or currency bonus.",
+      "art": "art/awards/pixellab/ribbon_16.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/ribbon_16.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "631c8f06-5032-46f0-8c39-8f4d50af6509",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/631c8f06-5032-46f0-8c39-8f4d50af6509/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "board_cup",
+      "name": "Classmate Cup",
+      "kind": "Trophy",
+      "category": "Board",
+      "status": "In use",
+      "definition": "Collect both Board ribbons. Ambient screen time alone does not count.",
+      "where": "Main game · Awards book",
+      "reward": "Collectible honour; no stat or currency bonus.",
+      "art": "art/awards/pixellab/trophy_07.png",
+      "render": {},
+      "notes": "Expansion achievement; does not change the original 40-ribbon / 20-trophy mastery targets.",
+      "source": {
+        "project_path": "assets/awards/pixellab/trophy_07.png",
+        "definition_source": "CPP-V3/config/award_catalog.json",
+        "published_release": "2026-10-28-foundling",
+        "creator": "PixelLab user library",
+        "pixellab_id": "f181df53-49e1-4646-92c3-8da02cc45309",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f181df53-49e1-4646-92c3-8da02cc45309/rotations/unknown.png"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "arena_first",
+      "name": "First Bell",
+      "kind": "Ribbon",
+      "category": "Battle",
+      "status": "In use",
+      "definition": "Complete one computer sparring round.",
+      "where": "Battle site · Honours cabinet",
+      "reward": "Cosmetic only; no training XP, skill points, currency or combat bonus.",
+      "art": "art/awards/pixellab/contest_ribbon_08.png",
+      "notes": "Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "ceaa0cb7-6302-4ec2-b113-e716189490be",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/ceaa0cb7-6302-4ec2-b113-e716189490be/rotations/unknown.png",
+        "definition_source": "cyber-pet-battle/site/achievements.js"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "arena_win",
+      "name": "First Victory",
+      "kind": "Ribbon",
+      "category": "Battle",
+      "status": "In use",
+      "definition": "Win one computer sparring round.",
+      "where": "Battle site · Honours cabinet",
+      "reward": "Cosmetic only; no training XP, skill points, currency or combat bonus.",
+      "art": "art/awards/pixellab/contest_ribbon_09.png",
+      "notes": "Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "15133f5d-ec52-4479-bd5d-8e9d49ff1718",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/15133f5d-ec52-4479-bd5d-8e9d49ff1718/rotations/unknown.png",
+        "definition_source": "cyber-pet-battle/site/achievements.js"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "arena_three",
+      "name": "Finding Form",
+      "kind": "Ribbon",
+      "category": "Battle",
+      "status": "In use",
+      "definition": "Win three sparring rounds in total.",
+      "where": "Battle site · Honours cabinet",
+      "reward": "Cosmetic only; no training XP, skill points, currency or combat bonus.",
+      "art": "art/awards/pixellab/contest_ribbon_10.png",
+      "notes": "Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "5792f122-6b3c-47fc-8d5f-8724e2b65bc7",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/5792f122-6b3c-47fc-8d5f-8724e2b65bc7/rotations/unknown.png",
+        "definition_source": "cyber-pet-battle/site/achievements.js"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "arena_ten",
+      "name": "Good Sport",
+      "kind": "Ribbon",
+      "category": "Battle",
+      "status": "In use",
+      "definition": "Complete ten sparring rounds, win or lose.",
+      "where": "Battle site · Honours cabinet",
+      "reward": "Cosmetic only; no training XP, skill points, currency or combat bonus.",
+      "art": "art/awards/pixellab/contest_ribbon_11.png",
+      "notes": "Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "c4970eec-73d6-4511-9304-ca736c7c4123",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/c4970eec-73d6-4511-9304-ca736c7c4123/rotations/unknown.png",
+        "definition_source": "cyber-pet-battle/site/achievements.js"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "arena_guard",
+      "name": "Steady Guard",
+      "kind": "Ribbon",
+      "category": "Battle",
+      "status": "In use",
+      "definition": "Block five incoming hits across completed sparring rounds.",
+      "where": "Battle site · Honours cabinet",
+      "reward": "Cosmetic only; no training XP, skill points, currency or combat bonus.",
+      "art": "art/awards/pixellab/contest_ribbon_12.png",
+      "notes": "Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "4ff1bfd0-00f5-457a-9409-d7d3fc64ec17",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/4ff1bfd0-00f5-457a-9409-d7d3fc64ec17/rotations/unknown.png",
+        "definition_source": "cyber-pet-battle/site/achievements.js"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "arena_dodge",
+      "name": "Light Footed",
+      "kind": "Ribbon",
+      "category": "Battle",
+      "status": "In use",
+      "definition": "Evade three incoming hits across completed sparring rounds.",
+      "where": "Battle site · Honours cabinet",
+      "reward": "Cosmetic only; no training XP, skill points, currency or combat bonus.",
+      "art": "art/awards/pixellab/contest_ribbon_13.png",
+      "notes": "Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "1d26e223-42ed-416c-9ee0-91a0d55f6c90",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/1d26e223-42ed-416c-9ee0-91a0d55f6c90/rotations/unknown.png",
+        "definition_source": "cyber-pet-battle/site/achievements.js"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "arena_variety",
+      "name": "Mixed Technique",
+      "kind": "Ribbon",
+      "category": "Battle",
+      "status": "In use",
+      "definition": "Land three different damaging attacks in one completed sparring round.",
+      "where": "Battle site · Honours cabinet",
+      "reward": "Cosmetic only; no training XP, skill points, currency or combat bonus.",
+      "art": "art/awards/pixellab/contest_ribbon_14.png",
+      "notes": "Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "34bed287-d063-4642-9e97-ed95058de67e",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/34bed287-d063-4642-9e97-ed95058de67e/rotations/unknown.png",
+        "definition_source": "cyber-pet-battle/site/achievements.js"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "arena_cup",
+      "name": "Sparring Cup",
+      "kind": "Trophy",
+      "category": "Battle",
+      "status": "In use",
+      "definition": "Win five sparring rounds in total.",
+      "where": "Battle site · Honours cabinet",
+      "reward": "Cosmetic only; no training XP, skill points, currency or combat bonus.",
+      "art": "art/awards/pixellab/trophy_08.png",
+      "notes": "Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "4cd5c708-6121-4a65-96a8-0b4a5b8e8772",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/4cd5c708-6121-4a65-96a8-0b4a5b8e8772/rotations/unknown.png",
+        "definition_source": "cyber-pet-battle/site/achievements.js"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "arena_regular",
+      "name": "Dojo Cup",
+      "kind": "Trophy",
+      "category": "Battle",
+      "status": "In use",
+      "definition": "Complete twenty sparring rounds, win or lose.",
+      "where": "Battle site · Honours cabinet",
+      "reward": "Cosmetic only; no training XP, skill points, currency or combat bonus.",
+      "art": "art/awards/pixellab/trophy_09.png",
+      "notes": "Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "104d322f-7b32-41be-a7af-aa434482bb89",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/104d322f-7b32-41be-a7af-aa434482bb89/rotations/unknown.png",
+        "definition_source": "cyber-pet-battle/site/achievements.js"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "arena_complete",
+      "name": "Balanced Fighter",
+      "kind": "Trophy",
+      "category": "Battle",
+      "status": "In use",
+      "definition": "Earn First Victory, Steady Guard and Light Footed.",
+      "where": "Battle site · Honours cabinet",
+      "reward": "Cosmetic only; no training XP, skill points, currency or combat bonus.",
+      "art": "art/awards/pixellab/trophy_10.png",
+      "notes": "Completed computer sparring rounds with a connected pet. Practice, sample fighters and dummy tests do not count. Saved per pet in this browser; export preserves a copy.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "11df0552-7c98-4bb0-bb4a-1333288317fa",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/11df0552-7c98-4bb0-bb4a-1333288317fa/rotations/unknown.png",
+        "definition_source": "cyber-pet-battle/site/achievements.js"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-ribbon_13",
+      "name": "Ribbon 13",
+      "kind": "Ribbon",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/ribbon_13.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "fc45592e-4c3e-4bba-8dd3-f30fc66e357d",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/fc45592e-4c3e-4bba-8dd3-f30fc66e357d/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-ribbon_14",
+      "name": "Ribbon 14",
+      "kind": "Ribbon",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/ribbon_14.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "c2b80efe-88e5-4ecb-b987-d08e5a39bc38",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/c2b80efe-88e5-4ecb-b987-d08e5a39bc38/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-medal_01",
+      "name": "Medal 01",
+      "kind": "Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/medal_01.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; saved review candidate unchanged",
+        "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_0.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-medal_02",
+      "name": "Medal 02",
+      "kind": "Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/medal_02.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; saved review candidate unchanged",
+        "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_1.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-medal_03",
+      "name": "Medal 03",
+      "kind": "Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/medal_03.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; saved review candidate unchanged",
+        "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_2.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-medal_04",
+      "name": "Medal 04",
+      "kind": "Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/medal_04.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; saved review candidate unchanged",
+        "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_3.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-medal_05",
+      "name": "Medal 05",
+      "kind": "Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/medal_05.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; saved review candidate unchanged",
+        "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_4.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-medal_06",
+      "name": "Medal 06",
+      "kind": "Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/medal_06.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; saved review candidate unchanged",
+        "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_5.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-medal_07",
+      "name": "Medal 07",
+      "kind": "Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/medal_07.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; saved review candidate unchanged",
+        "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_6.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-medal_08",
+      "name": "Medal 08",
+      "kind": "Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/medal_08.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; saved review candidate unchanged",
+        "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_7.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-medal_09",
+      "name": "Medal 09",
+      "kind": "Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/medal_09.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; saved review candidate unchanged",
+        "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_8.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-medal_10",
+      "name": "Medal 10",
+      "kind": "Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/medal_10.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; saved review candidate unchanged",
+        "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_9.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-medal_11",
+      "name": "Medal 11",
+      "kind": "Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/medal_11.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; saved review candidate unchanged",
+        "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_10.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-medal_12",
+      "name": "Medal 12",
+      "kind": "Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/medal_12.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; saved review candidate unchanged",
+        "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_11.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-medal_13",
+      "name": "Medal 13",
+      "kind": "Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/medal_13.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; saved review candidate unchanged",
+        "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_12.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-medal_14",
+      "name": "Medal 14",
+      "kind": "Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/medal_14.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; saved review candidate unchanged",
+        "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_13.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-medal_15",
+      "name": "Medal 15",
+      "kind": "Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/medal_15.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; saved review candidate unchanged",
+        "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_14.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-medal_16",
+      "name": "Medal 16",
+      "kind": "Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/medal_16.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; saved review candidate unchanged",
+        "pixellab_id": "f4477038-f418-4f11-9296-590ce9d97c27",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f4477038-f418-4f11-9296-590ce9d97c27/rotations/frame_15.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-contest_ribbon_15",
+      "name": "Contest Ribbon 15",
+      "kind": "Contest Ribbon",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/contest_ribbon_15.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "52defb6c-0b28-4a36-a0f7-87faf3e00de3",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/52defb6c-0b28-4a36-a0f7-87faf3e00de3/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-contest_ribbon_16",
+      "name": "Contest Ribbon 16",
+      "kind": "Contest Ribbon",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/contest_ribbon_16.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "512f9215-4ab2-4cc8-ba5b-7e34b5136c21",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/512f9215-4ab2-4cc8-ba5b-7e34b5136c21/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-trophy_11",
+      "name": "Trophy 11",
+      "kind": "Trophy",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/trophy_11.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "af4e0cd1-bb9f-4b32-8fa8-54a91809b84f",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/af4e0cd1-bb9f-4b32-8fa8-54a91809b84f/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-trophy_12",
+      "name": "Trophy 12",
+      "kind": "Trophy",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/trophy_12.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "6676470f-e2d5-4346-aab8-871a33269c2f",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/6676470f-e2d5-4346-aab8-871a33269c2f/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-trophy_13",
+      "name": "Trophy 13",
+      "kind": "Trophy",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/trophy_13.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "1b5f9cb3-15c6-4190-b3d7-0f20f3a1a729",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/1b5f9cb3-15c6-4190-b3d7-0f20f3a1a729/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-trophy_14",
+      "name": "Trophy 14",
+      "kind": "Trophy",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/trophy_14.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "08182357-6bd4-4e39-ab2c-63d4eed2d84c",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/08182357-6bd4-4e39-ab2c-63d4eed2d84c/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-trophy_15",
+      "name": "Trophy 15",
+      "kind": "Trophy",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/trophy_15.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "0d6c1ecd-e1db-4de6-b06e-487a370c6bbe",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/0d6c1ecd-e1db-4de6-b06e-487a370c6bbe/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-trophy_16",
+      "name": "Trophy 16",
+      "kind": "Trophy",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/trophy_16.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library",
+        "pixellab_id": "f1297c61-7dbb-4a26-801b-ea083c33ca6f",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/f1297c61-7dbb-4a26-801b-ea083c33ca6f/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-military_medal_01",
+      "name": "Military Medal 01",
+      "kind": "Military Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/military_medal_01.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; original title: a slew of milarty metals",
+        "pixellab_id": "b8ac73f4-820a-4967-87c2-e37e61b7ebdd",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/b8ac73f4-820a-4967-87c2-e37e61b7ebdd/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-military_medal_02",
+      "name": "Military Medal 02",
+      "kind": "Military Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/military_medal_02.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; original title: a slew of milarty metals",
+        "pixellab_id": "7798787a-f2a5-4812-b835-cb15414324be",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/7798787a-f2a5-4812-b835-cb15414324be/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-military_medal_03",
+      "name": "Military Medal 03",
+      "kind": "Military Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/military_medal_03.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; original title: a slew of milarty metals",
+        "pixellab_id": "fd11e9db-73c2-4aad-bdc8-712cb35df7a0",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/fd11e9db-73c2-4aad-bdc8-712cb35df7a0/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-military_medal_04",
+      "name": "Military Medal 04",
+      "kind": "Military Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/military_medal_04.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; original title: a slew of milarty metals",
+        "pixellab_id": "b9b1b861-cae0-4581-a8fd-180f30e03f3e",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/b9b1b861-cae0-4581-a8fd-180f30e03f3e/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-military_medal_05",
+      "name": "Military Medal 05",
+      "kind": "Military Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/military_medal_05.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; original title: a slew of milarty metals",
+        "pixellab_id": "8f5a6a29-ed6f-49b3-9c53-707d5b5e5133",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/8f5a6a29-ed6f-49b3-9c53-707d5b5e5133/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-military_medal_06",
+      "name": "Military Medal 06",
+      "kind": "Military Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/military_medal_06.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; original title: a slew of milarty metals",
+        "pixellab_id": "53363fcf-13a2-47ce-b645-5104746dd8a0",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/53363fcf-13a2-47ce-b645-5104746dd8a0/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-military_medal_07",
+      "name": "Military Medal 07",
+      "kind": "Military Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/military_medal_07.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; original title: a slew of milarty metals",
+        "pixellab_id": "93e60e0b-408f-479c-be55-dd445d1f936c",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/93e60e0b-408f-479c-be55-dd445d1f936c/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-military_medal_08",
+      "name": "Military Medal 08",
+      "kind": "Military Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/military_medal_08.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; original title: a slew of milarty metals",
+        "pixellab_id": "5efa78d3-6479-49be-9c39-49d293f31d84",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/5efa78d3-6479-49be-9c39-49d293f31d84/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-military_medal_09",
+      "name": "Military Medal 09",
+      "kind": "Military Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/military_medal_09.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; original title: a slew of milarty metals",
+        "pixellab_id": "b0a6272b-cd6a-4851-b5aa-777a1b02808b",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/b0a6272b-cd6a-4851-b5aa-777a1b02808b/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-military_medal_10",
+      "name": "Military Medal 10",
+      "kind": "Military Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/military_medal_10.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; original title: a slew of milarty metals",
+        "pixellab_id": "ec7f07dc-e1e7-4a66-89e5-e03ad9f555a8",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/ec7f07dc-e1e7-4a66-89e5-e03ad9f555a8/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-military_medal_11",
+      "name": "Military Medal 11",
+      "kind": "Military Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/military_medal_11.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; original title: a slew of milarty metals",
+        "pixellab_id": "64e5ca3e-2a38-4f51-bc49-cd6d5749bb02",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/64e5ca3e-2a38-4f51-bc49-cd6d5749bb02/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-military_medal_12",
+      "name": "Military Medal 12",
+      "kind": "Military Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/military_medal_12.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; original title: a slew of milarty metals",
+        "pixellab_id": "91cf78c9-80a3-4f34-a50f-63d8bfea60a9",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/91cf78c9-80a3-4f34-a50f-63d8bfea60a9/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-military_medal_13",
+      "name": "Military Medal 13",
+      "kind": "Military Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/military_medal_13.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; original title: a slew of milarty metals",
+        "pixellab_id": "63789d18-f8c1-4edd-81c7-8e0d3f1f5174",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/63789d18-f8c1-4edd-81c7-8e0d3f1f5174/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-military_medal_14",
+      "name": "Military Medal 14",
+      "kind": "Military Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/military_medal_14.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; original title: a slew of milarty metals",
+        "pixellab_id": "80917d62-a3e5-42d2-b6f4-bb61c8aa67b7",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/80917d62-a3e5-42d2-b6f4-bb61c8aa67b7/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-military_medal_15",
+      "name": "Military Medal 15",
+      "kind": "Military Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/military_medal_15.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; original title: a slew of milarty metals",
+        "pixellab_id": "6887df00-eec4-42e9-8afd-429c5212bec5",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/6887df00-eec4-42e9-8afd-429c5212bec5/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    },
+    {
+      "id": "reserved-military_medal_16",
+      "name": "Military Medal 16",
+      "kind": "Military Medal",
+      "category": "Reserved library",
+      "status": "Not used yet",
+      "definition": "Reserved artwork. No gameplay meaning or award requirement has been assigned in the published main-game or battle catalogs.",
+      "where": "Saved design library only.",
+      "reward": "No reward assigned.",
+      "art": "art/awards/pixellab/military_medal_16.png",
+      "notes": "Working filename is a reference label, not an approved award name. Available for future assignment.",
+      "source": {
+        "creator": "PixelLab user library; original title: a slew of milarty metals",
+        "pixellab_id": "51452fcd-61ee-450d-b811-7c44ab9244fa",
+        "url": "https://backblaze.pixellab.ai/file/pixellab-characters/objects/99289ede-ba7f-42ba-80fe-fbc9a8582335/51452fcd-61ee-450d-b811-7c44ab9244fa/rotations/unknown.png",
+        "imported": "2026-10-18"
+      },
+      "animation": "Still artwork."
+    }
+  ],
+  "files": {
+    "art/ui/foundling_medal/atlas.png": {
+      "sha256": "6c397c620afc4b8337319d72b2eceec035dde8937dd9fb4b1f09638effaad490",
+      "bytes": 812133
+    },
+    "art/ui/foundling_medal/recipe.json": {
+      "sha256": "2afe1e8525b1be1d2e68c9e1f8c60233b92bd489e4d87b20f5193d9f3d190fc6",
+      "bytes": 90581
+    },
+    "art/ui/foundling/frame_00.png": {
+      "sha256": "5889072d53c34e16a94e063aad88a2bf751a87fe44dad1f29acf39c9e5df7bbf",
+      "bytes": 14933
+    },
+    "art/ui/foundling/frame_01.png": {
+      "sha256": "2e0d733e7766c065280ecca959194be40e580c973cd6d7a25b1bb0d265ac0649",
+      "bytes": 14656
+    },
+    "art/ui/foundling/frame_02.png": {
+      "sha256": "13ffb0a155aad1cab62f6a053938e110c1c0d85341fa52b590864fc453794824",
+      "bytes": 14844
+    },
+    "art/ui/foundling/frame_03.png": {
+      "sha256": "3176167af098dc5674e967bac9fdced8ac09ac70249c23356b21ad970a37df46",
+      "bytes": 14617
+    },
+    "art/ui/foundling/frame_04.png": {
+      "sha256": "779ceddc8acda4d37b0f96007bf76063ec660d712bf61ad3d4eda6c4d38f69bc",
+      "bytes": 14777
+    },
+    "art/ui/foundling/frame_05.png": {
+      "sha256": "bb8ba728bcfd191202ec421c6bf30dd71ec0d18fd8fc672d95a62271d409f8dc",
+      "bytes": 14693
+    },
+    "art/ui/foundling/frame_06.png": {
+      "sha256": "354b3dd453a90b8e3fe8ce24131188ece139765a6d97ad1e156a136b94b64dad",
+      "bytes": 14491
+    },
+    "art/ui/foundling/frame_07.png": {
+      "sha256": "c4428d3d6976a655af795a8a53db1cf1fa884c4aaa5ccbf1c6af9c51fe267547",
+      "bytes": 14498
+    },
+    "art/ui/foundling/frame_08.png": {
+      "sha256": "56bd568099d4cbf1c83576e476c3078b94272836ce34e2c09aa76d85e04ceaf4",
+      "bytes": 14444
+    },
+    "art/concepts/894a4380-3af4-5ab9-b927-b47aa7a61d28.png": {
+      "sha256": "a5facd31e934836e374eff282a4c4d77fcf85db830ff75d4d7defdba11ca4c5d",
+      "bytes": 47862
+    },
+    "art/concepts/acc63325-25d3-56a4-ba52-335758072cb4.png": {
+      "sha256": "3cab5ef81daabd62a1f42e64778ac80a666cb0ee0a4e804c1c9012c63d4a3bb0",
+      "bytes": 43801
+    },
+    "art/concepts/c974b050-bb50-5cf7-a8d2-af86b4674d80.png": {
+      "sha256": "dcf32360ee2660f024318f2628ae3b1fb9d622324f0d1d45aca5430543f11c6a",
+      "bytes": 38524
+    },
+    "art/concepts/49a89ee8-1121-56b8-91ef-cae39bbf5f1a.png": {
+      "sha256": "84f2906af49c2264ea0dcfb994b864d05b31f0c465a259616fbac5cb4e6a70ff",
+      "bytes": 35526
+    },
+    "art/concepts/b8cc9c80-bf02-5fa2-834f-cc210bc71015.png": {
+      "sha256": "ff9205c8ea8ed9c1021740f150954ddfbd87e5fe0a355d42ded04d5bc85cfcad",
+      "bytes": 32430
+    },
+    "art/concepts/67499188-8241-5da8-8cbb-8afb362a55f9.png": {
+      "sha256": "9aa9352c6e19c2ef67b64a7720c5c0ea6681b3e780f932b26a217092b8b52c16",
+      "bytes": 9203
+    },
+    "art/concepts/56a51a3e-e6f4-5278-8b19-c2f4e8e4cac8.png": {
+      "sha256": "3337fcb3fa8b2c02b3cc1628a3fe00e953ec96fefd84afd7795e509a6795f01b",
+      "bytes": 8259
+    },
+    "art/concepts/c495524c-a08b-5867-b42c-2fd24a7b8219.png": {
+      "sha256": "6dac5d41f8cf8aa5808577e0ff230c00067a4c4cc7ef3c5fc5db49a9f048a99d",
+      "bytes": 9954
+    },
+    "art/concepts/ee57c755-9905-52df-b72b-c7fd89984937.png": {
+      "sha256": "5889072d53c34e16a94e063aad88a2bf751a87fe44dad1f29acf39c9e5df7bbf",
+      "bytes": 14933
+    },
+    "art/ui/awards/running_first_run.png": {
+      "sha256": "e8f56d004ed019819bb3f5c23cbbfc8cba9fe35de110216bb846793950e8b2d9",
+      "bytes": 85940
+    },
+    "art/ui/awards/running_first_leap.png": {
+      "sha256": "844f1f7b1d8ca4b84fdfb7434f36ef5f65a5f7aa8f0759155d5d13ef1d5c1deb",
+      "bytes": 77981
+    },
+    "art/ui/awards/running_five_hurdles.png": {
+      "sha256": "0cca3b40b7f940d8fa3b98b44ff3290d3527c8347d058ee2e0a26944a38b2f42",
+      "bytes": 72693
+    },
+    "art/ui/awards/running_hurdle_hero.png": {
+      "sha256": "15c84ad1bb410d7ed6b769a703f555870558c1757b14da57dbb4742b1ebf6620",
+      "bytes": 77007
+    },
+    "art/ui/awards/running_clean_landing.png": {
+      "sha256": "63f4c0b2167372d50ee8ee23f89596532e12ac497158898c3bb444388b6264f2",
+      "bytes": 75154
+    },
+    "art/ui/awards/running_pace_keeper.png": {
+      "sha256": "9f52b793122632a81c77c87f93c4802d82f71500b0dbc5cbcbc9508162b02481",
+      "bytes": 82114
+    },
+    "art/ui/awards/running_quick_circuit.png": {
+      "sha256": "3ab85003dd4bb80aa8060ec3852f1481899b21312ef60a2c45b020daed7e3928",
+      "bytes": 71485
+    },
+    "art/ui/awards/running_swift_feet.png": {
+      "sha256": "83e427956c679ca1e6b6f5936d627ad06bc3b5b6389d37992d9fd4a3ac00f3f7",
+      "bytes": 78607
+    },
+    "art/ui/awards/running_record_chaser.png": {
+      "sha256": "d14255a5ad4174146e57099ab041f887fbd858fbebe5ffe8088af4bece9fc739",
+      "bytes": 80879
+    },
+    "art/ui/awards/running_track_regular.png": {
+      "sha256": "5e9d10ad56f15a70a9fcd279177e01b7fb9ea1a9ed88a28e76b69b097d90045d",
+      "bytes": 83197
+    },
+    "art/ui/awards/strength_first_smash.png": {
+      "sha256": "a2e9083214523cd0d0120bdcfea3d350564344db58044bb102c38c47ac05207a",
+      "bytes": 86835
+    },
+    "art/ui/awards/strength_first_punch.png": {
+      "sha256": "ba36ea053bee09310a4f1d0f7c6dce413a7e47600ccefef0ce32c0f5e900962e",
+      "bytes": 76300
+    },
+    "art/ui/awards/strength_power_100.png": {
+      "sha256": "c9bb77ced44a535fb224e1164781b0ee56a0bfcb0183485577a7a41da1546837",
+      "bytes": 75428
+    },
+    "art/ui/awards/strength_power_200.png": {
+      "sha256": "68eaabd15fc504d4824f19688f6fb0ddbbfaa8876c7c6d5ec0c12e13dceb977a",
+      "bytes": 77066
+    },
+    "art/ui/awards/strength_great_charge.png": {
+      "sha256": "99b5dadb2db4104097c626152165a336b7d993e66f8141647811a36a8954515a",
+      "bytes": 73812
+    },
+    "art/ui/awards/strength_double_charge.png": {
+      "sha256": "3409cb210b4964c6e8439ff880f36867e3b1a4542f3b371e09a0d304e3cfa92a",
+      "bytes": 78362
+    },
+    "art/ui/awards/strength_perfect_flash.png": {
+      "sha256": "b5792c7e8298fb0e0440b2740d19d2b769fd4a03142a8a3942747c7c7b1b5978",
+      "bytes": 67876
+    },
+    "art/ui/awards/strength_center_strike.png": {
+      "sha256": "dcea941c7a8e92615a350a71a8d03953f01fc9629ca49a7dc0e30fae0e1e7f04",
+      "bytes": 83351
+    },
+    "art/ui/awards/strength_mighty_mitt.png": {
+      "sha256": "d052853e241174b8aa8cc641e21cdaf000193e6e3deb263323c6785f323242ac",
+      "bytes": 78825
+    },
+    "art/ui/awards/strength_smash_regular.png": {
+      "sha256": "e457851e042fa32650c21f867c2d7928363cb37e812ff533a149103f34c27ba4",
+      "bytes": 80507
+    },
+    "art/ui/awards/intelligence_first_pair.png": {
+      "sha256": "3ea4f1130130edb965612e607f6f153d90bf84f5b898eaef13c7e38cd5db6cc1",
+      "bytes": 88701
+    },
+    "art/ui/awards/intelligence_easy_clear.png": {
+      "sha256": "3cdcbfe8d0f0c76ac7b221d5868ec9ea242cfc0dfb116fe4177e650bc556884c",
+      "bytes": 77530
+    },
+    "art/ui/awards/intelligence_easy_focus.png": {
+      "sha256": "9282c798c38607a94c4b06cfe2fd63aa436f8a1f6f90167c855e966e73399994",
+      "bytes": 71482
+    },
+    "art/ui/awards/intelligence_medium_clear.png": {
+      "sha256": "1226aff60a5c8b274863688bb06628f473a6a627f0e8abd0a06d0caad74dda61",
+      "bytes": 78270
+    },
+    "art/ui/awards/intelligence_medium_focus.png": {
+      "sha256": "f1c0afbdfa9b277729855619bdac58353d968594ea55944f7407f38cc9f7351e",
+      "bytes": 61060
+    },
+    "art/ui/awards/intelligence_pair_streak_5.png": {
+      "sha256": "4d871af6b59c6442dccce7bd16f2070e75d5c7a97054f651f7bcf3b62e171d81",
+      "bytes": 67300
+    },
+    "art/ui/awards/intelligence_pair_streak_10.png": {
+      "sha256": "ed080da6136ed5e90c8d71c480a5680367dd49e67fc08ae0ae781f191a544d5c",
+      "bytes": 74085
+    },
+    "art/ui/awards/intelligence_easy_record.png": {
+      "sha256": "7a94bbac8a71fc5038611abd7758b647c28bbadb0a91cd0cb12321226ee797f8",
+      "bytes": 76401
+    },
+    "art/ui/awards/intelligence_medium_record.png": {
+      "sha256": "4f9c371f5cd07a831dc6aafce60bf05138cd15c2fe1f24434edc98ab215270d8",
+      "bytes": 82199
+    },
+    "art/ui/awards/intelligence_hard_clear.png": {
+      "sha256": "7a19e38148e2da33df9562df1b1eb1f9a6ea61cb608a37b7fe6242d2934b5e7b",
+      "bytes": 83498
+    },
+    "art/ui/awards/charisma_first_show.png": {
+      "sha256": "ee5cd3e85f5482f296580d6e13e1ffd6cffc55572850b21abc68da5268150a4e",
+      "bytes": 88607
+    },
+    "art/ui/awards/charisma_first_great.png": {
+      "sha256": "7f268b6df7f8444deea39b987d34b453b0bb0d4ab700640203327bd690c6e819",
+      "bytes": 78663
+    },
+    "art/ui/awards/charisma_first_perfect.png": {
+      "sha256": "5d3a53ae5dc42a6afa826c90bbc9d555fcbcdc04fc0ee0c7cbc877582843063c",
+      "bytes": 73929
+    },
+    "art/ui/awards/charisma_perfect_5.png": {
+      "sha256": "1e1c4347f4e57665dbd05cdb923c2cc6fa128b98e4ca79713568a4b2e57dde48",
+      "bytes": 79196
+    },
+    "art/ui/awards/charisma_rhythm_star.png": {
+      "sha256": "ab779a66904aa1f81550e0a33fcbf581cf532cb07408b77a07c2aa090cbb15f5",
+      "bytes": 76878
+    },
+    "art/ui/awards/charisma_perfect_15.png": {
+      "sha256": "1b656652f06e3316ab2ea3a295971384244883154544f13a21146440a60695c2",
+      "bytes": 82489
+    },
+    "art/ui/awards/charisma_clean_combo.png": {
+      "sha256": "57b51465967b6f75c0a15aa92d43de118cbbea2af8a6209e8e3fcb850dd6f284",
+      "bytes": 72612
+    },
+    "art/ui/awards/charisma_perfect_20.png": {
+      "sha256": "0c269ceffaf0a801a591f14d5608683556d86932d9b4c31938114acfc9b70f47",
+      "bytes": 83193
+    },
+    "art/ui/awards/charisma_steady_show.png": {
+      "sha256": "923da02a95e3a3b317bf67a83ade08471b095039cd6e453eb8476d6f374dfd22",
+      "bytes": 82039
+    },
+    "art/ui/awards/charisma_show_regular.png": {
+      "sha256": "7f251390503ac00f36fabb4d0fe1315c99758ab9c719a3d33773086d38aa0934",
+      "bytes": 83758
+    },
+    "art/ui/awards/trophies_copper.png": {
+      "sha256": "ae969f4d8a3d029e6621ed7023c628265d9ccdf87b9822627949dac8e9e18692",
+      "bytes": 112092
+    },
+    "art/ui/awards/bases_running.png": {
+      "sha256": "c7db09cc70161428b7911b18be02813929fe5afbf2b7ffe139fa5068d228b3ca",
+      "bytes": 16412
+    },
+    "art/ui/awards/bases_strength.png": {
+      "sha256": "535f595fc2f0e23c2ccf31370a12e2900f5e0b310f1eee963767434c108ef18b",
+      "bytes": 16980
+    },
+    "art/ui/awards/bases_intelligence.png": {
+      "sha256": "4c62b2f94fd8477405d5e198f9092a55988a6d608c9de7b32b48d646870bc3e0",
+      "bytes": 19827
+    },
+    "art/ui/awards/bases_charisma.png": {
+      "sha256": "40dc9b1646015ccd076eab652d942f87a879d9597e1f7d2bdefdc738435a5335",
+      "bytes": 19630
+    },
+    "art/ui/awards/trophies_silver.png": {
+      "sha256": "145c4f7acb9e64aea120f9087c381e5c67f1b923a55b7e16ebcdac282f415151",
+      "bytes": 105229
+    },
+    "art/ui/awards/trophies_gold.png": {
+      "sha256": "3f840af5cc5d1ce339f4e442e4fc7e6de12b4d3ca9f78e93f36a06a1ada06bb4",
+      "bytes": 35016
+    },
+    "art/ui/awards/trophies_platinum.png": {
+      "sha256": "93eb7f539b93384da002522fb19091fcea4e44025fd95dce27395d203f5680a0",
+      "bytes": 104285
+    },
+    "art/ui/awards/trophies_diamond.png": {
+      "sha256": "f1c8b03d9498a0b6f41d229a9a3fbfbfedbe2059dfa97830567bb9d4a750f239",
+      "bytes": 109937
+    },
+    "art/ui/awards/trophies_rainbow.png": {
+      "sha256": "fa068dc112b61fb5029a4d80b14e8b2af878d879c8c2af8b9f562c593a1fc1c3",
+      "bytes": 120220
+    },
+    "art/ui/awards/cyber_legend.svg": {
+      "sha256": "dba37aee918822b99e1cb832ef0792a557a093a375f1b7bc8494dd7ccce4824b",
+      "bytes": 356
+    },
+    "art/ui/awards/first_spark.svg": {
+      "sha256": "bb452ceb35221631cc6f8fd2bca2523e64b6383d4b876a6c5f24f00062fd237a",
+      "bytes": 431
+    },
+    "art/ui/awards/full_charge.svg": {
+      "sha256": "20376afe880ebe5a9a1ecddc112bd2c407af7b84a8548778f3a67f4bd4ff58d1",
+      "bytes": 551
+    },
+    "art/ui/awards/five_star_care.svg": {
+      "sha256": "377fb01ec506ce86ccb4e78462deea4297c316e388976d96692aad365b67f997",
+      "bytes": 447
+    },
+    "art/ui/awards/heart_link.svg": {
+      "sha256": "a18c91459b2161d7b840e417b843c4e2af72140024f3e8b82e20c583730700b6",
+      "bytes": 506
+    },
+    "art/ui/awards/clean_sweep.svg": {
+      "sha256": "a64e5b7ba32c00b492aa7c4ac41560baa0c58d009fef1af0ac530714000a7783",
+      "bytes": 451
+    },
+    "art/ui/awards/snack_scholar.svg": {
+      "sha256": "ecfac00aeb5975401f1e65d5753dd198929145e0985502576b2631813216850d",
+      "bytes": 518
+    },
+    "art/awards/pixellab/ribbon_01.png": {
+      "sha256": "5a149e24fa6358a469c7b4f255b578ddfc21ad3dbbbd54565de9f55161cdc153",
+      "bytes": 1979
+    },
+    "art/awards/pixellab/ribbon_02.png": {
+      "sha256": "e0a5f03b2a695f4319c97ede591ce63fe4d65b98dfb796dea6ef90e030475be6",
+      "bytes": 1594
+    },
+    "art/awards/pixellab/ribbon_03.png": {
+      "sha256": "b79b52cafe19cf0250cad69c04e4a5a29190e54b85f3a6634333af5aa5dcaaef",
+      "bytes": 1792
+    },
+    "art/awards/pixellab/trophy_01.png": {
+      "sha256": "0f0fa380c935ab014494f4a6a20ac05378354f9041c0e6d1231f5b764affb880",
+      "bytes": 1762
+    },
+    "art/awards/pixellab/ribbon_04.png": {
+      "sha256": "b3e4bb2993014350cb0928eff137b87d54cf8c17aac4adb2c81ef9feb607cac1",
+      "bytes": 2205
+    },
+    "art/awards/pixellab/ribbon_05.png": {
+      "sha256": "08aced2c1fa5c0278a8694d352396f0ada7261f80fe6a531a9620ebc7033c294",
+      "bytes": 2293
+    },
+    "art/awards/pixellab/ribbon_06.png": {
+      "sha256": "6c552ce623eb50784c96f87979f494419122d72b21b380f4a8f121aa6bd67026",
+      "bytes": 1888
+    },
+    "art/awards/pixellab/trophy_02.png": {
+      "sha256": "730d79a0a5a89ff282b4c687550a68b69a16b1ec46b10bcb6374e1ff04506e2d",
+      "bytes": 1166
+    },
+    "art/awards/pixellab/ribbon_07.png": {
+      "sha256": "30495e3a6eb38aa5f43c6a6b25e8c40f8595dcbbb081497c4ec2c337caa671e0",
+      "bytes": 1527
+    },
+    "art/awards/pixellab/ribbon_08.png": {
+      "sha256": "93508bbe9d0987fd5dab7094e1bb11f9bfb2faf11a2fd634c1d3893c7410205a",
+      "bytes": 2075
+    },
+    "art/awards/pixellab/ribbon_09.png": {
+      "sha256": "1f3838133141d19dbc7b2aafc6761b0d2b38a27c68ffa1609f862af000990f9e",
+      "bytes": 1518
+    },
+    "art/awards/pixellab/trophy_03.png": {
+      "sha256": "f7d2b3f376d2406c1193643bd2d1d3ac9c61e19d7dde32caf5d5623411bb34a5",
+      "bytes": 1511
+    },
+    "art/awards/pixellab/ribbon_10.png": {
+      "sha256": "7704aca0f13914883b2619b5d0f1345442677aef671c3976d4bb088ba9ebc17f",
+      "bytes": 1640
+    },
+    "art/awards/pixellab/ribbon_11.png": {
+      "sha256": "8f69325a403555769139ce24bfd7b6fb2730f2c7365cc406954f3e585991a4c7",
+      "bytes": 2032
+    },
+    "art/awards/pixellab/ribbon_12.png": {
+      "sha256": "465c4e63464d4f80bced04375f8c7615b2c0b207782475b8cb842aa5eea1f200",
+      "bytes": 2483
+    },
+    "art/awards/pixellab/trophy_04.png": {
+      "sha256": "60311c55ba97e4c80b4a401cff49cf9b3bc4bdbc1cccb81f9e14fb3b0f72ce99",
+      "bytes": 1208
+    },
+    "art/awards/pixellab/contest_ribbon_01.png": {
+      "sha256": "129d672478f293744ed48e9d25098db56e579ab064d01cc17f05c332455bc30f",
+      "bytes": 1616
+    },
+    "art/awards/pixellab/contest_ribbon_02.png": {
+      "sha256": "80bce3f98f7da0b14f5f6ba3c33629e2bd57aecc2ac511d5aa05795f1f91c4e2",
+      "bytes": 1887
+    },
+    "art/awards/pixellab/contest_ribbon_03.png": {
+      "sha256": "a9200fdc864d39c1a11492130bbe3163ef195fb7fe41513f05de158bac376621",
+      "bytes": 2028
+    },
+    "art/awards/pixellab/contest_ribbon_04.png": {
+      "sha256": "59e02f73904adb589d9918ee98bb1ad7097a4544b37043e8b3bd2c8c83d57e43",
+      "bytes": 1679
+    },
+    "art/awards/pixellab/contest_ribbon_05.png": {
+      "sha256": "3745d649e4842db3f941c4f39d827754d58598f4864d2905b4123e886989e125",
+      "bytes": 2083
+    },
+    "art/awards/pixellab/contest_ribbon_06.png": {
+      "sha256": "edbbace1f7df799533987fd1f31f85a441f090d4c9a3431690f31be34324fe96",
+      "bytes": 2034
+    },
+    "art/awards/pixellab/contest_ribbon_07.png": {
+      "sha256": "4496cbc95f058c69c540437701524c68e70c1a81154aaaf0aa09d1daf589d7f2",
+      "bytes": 1907
+    },
+    "art/awards/pixellab/trophy_05.png": {
+      "sha256": "91284c9962cb5fd08a793348280d3f929c018e21df78b985cd3eec11f36ebc57",
+      "bytes": 2077
+    },
+    "art/awards/pixellab/trophy_06.png": {
+      "sha256": "331559dc28863242b003f54e8a5d2b507aaa67f3a56599a783bde262f108f617",
+      "bytes": 1456
+    },
+    "art/awards/pixellab/ribbon_15.png": {
+      "sha256": "ca6ad66d20a0a0b7222b608a5f2425ad5814ddb2119013addf9d1a0441125ded",
+      "bytes": 2009
+    },
+    "art/awards/pixellab/ribbon_16.png": {
+      "sha256": "662355bdc6f776400604f61070cb007bd3801cdc9a32c955d6a8b76547082c96",
+      "bytes": 1981
+    },
+    "art/awards/pixellab/trophy_07.png": {
+      "sha256": "46f644ab022e1541cbdedf1996fdf51e5c87fe69c4f7b59ab8843f8c5a051891",
+      "bytes": 1545
+    },
+    "art/awards/pixellab/contest_ribbon_08.png": {
+      "sha256": "a16c69705e508236ac303bf144a5cd6d1e6da0cca9bdd8d718aabbfebde69d19",
+      "bytes": 2023
+    },
+    "art/awards/pixellab/contest_ribbon_09.png": {
+      "sha256": "792caa2e37b07195b7ef4f34d6e84d1379f322cad15d2e589121f692eb3820f1",
+      "bytes": 1787
+    },
+    "art/awards/pixellab/contest_ribbon_10.png": {
+      "sha256": "534c1df75b01967a90775a8a55b6f6e14048b2adef4ce6dba61be79c5a7a3288",
+      "bytes": 1647
+    },
+    "art/awards/pixellab/contest_ribbon_11.png": {
+      "sha256": "26f7a2406bc4c2180f98ea4397f6101a0707b16dd7b581006dbd3b7cd60aa085",
+      "bytes": 1853
+    },
+    "art/awards/pixellab/contest_ribbon_12.png": {
+      "sha256": "4d1f1949bbda8d6260bfe101a280213cfb27baf401afdee84717c525946de79b",
+      "bytes": 1734
+    },
+    "art/awards/pixellab/contest_ribbon_13.png": {
+      "sha256": "294a3f02d1ef320a9c48ebac959613e12cd579b704832de949c3a5cc6c1b0cc0",
+      "bytes": 1557
+    },
+    "art/awards/pixellab/contest_ribbon_14.png": {
+      "sha256": "bca9d5be1d50ef407f4a16ad131d9aa23e078b645a3b701b45d9978602e480c0",
+      "bytes": 1928
+    },
+    "art/awards/pixellab/trophy_08.png": {
+      "sha256": "091fc9518f625dee6efc3440e0fd35ce10abd77f963f92f8998de8e05fae5fad",
+      "bytes": 1463
+    },
+    "art/awards/pixellab/trophy_09.png": {
+      "sha256": "6ff74b0d9c29b1a7388d2d6729f19d3afe9ee558fcff2acc5a6c54f4ccbef438",
+      "bytes": 2005
+    },
+    "art/awards/pixellab/trophy_10.png": {
+      "sha256": "16168c4eb2169e5de784a59bb2a32717e7fe4d9d60f090acc647d528c615008b",
+      "bytes": 1683
+    },
+    "art/awards/pixellab/ribbon_13.png": {
+      "sha256": "bf4415c5311d989d2f641909e96282b0d25580eeb9c8e5d170738f0bdf6af356",
+      "bytes": 1409
+    },
+    "art/awards/pixellab/ribbon_14.png": {
+      "sha256": "fdf5705f904587268ba5e51a332ea7a126121804c8307859132a55bc0e7c4613",
+      "bytes": 1729
+    },
+    "art/awards/pixellab/medal_01.png": {
+      "sha256": "06bdf67ed35fbe1adb15e609add2ae3e4df9ff61bf3e7ce98ce37b32533ef17e",
+      "bytes": 1769
+    },
+    "art/awards/pixellab/medal_02.png": {
+      "sha256": "2a4cd6e4d5b69454529656f46bdb7ddee7bb8378624b77d4caea8adea7facd7a",
+      "bytes": 1457
+    },
+    "art/awards/pixellab/medal_03.png": {
+      "sha256": "37363bd14211692b4b0aead23379c6f120adee952ca1f23af670a9126b1b4e3e",
+      "bytes": 1476
+    },
+    "art/awards/pixellab/medal_04.png": {
+      "sha256": "3c64725059b5ece103d59e9d971cfd9314c36649020f18d146b1bf594e36c428",
+      "bytes": 1401
+    },
+    "art/awards/pixellab/medal_05.png": {
+      "sha256": "3a5e55230bef9aaafeae992cf4ce83e674e84b22061413f05556301ee7ecac19",
+      "bytes": 1647
+    },
+    "art/awards/pixellab/medal_06.png": {
+      "sha256": "afd8343080bc79abbf15013750b0138023facc590e2d96eed8cec46f77f0b77a",
+      "bytes": 1533
+    },
+    "art/awards/pixellab/medal_07.png": {
+      "sha256": "bced7fc1ca6d8145ee157a958ad6182ec95e364dcd7448440969f26562d657de",
+      "bytes": 1812
+    },
+    "art/awards/pixellab/medal_08.png": {
+      "sha256": "720e4f692b86af137ebff90f20843291070d6d4b96dea2a5542f7325ddcf23af",
+      "bytes": 941
+    },
+    "art/awards/pixellab/medal_09.png": {
+      "sha256": "f09b817b0dc6ae42ac24754c8d845c72aa6ddb0cb8ed9068929bf234014a456a",
+      "bytes": 1615
+    },
+    "art/awards/pixellab/medal_10.png": {
+      "sha256": "d701648dde680896188036440c8e83c03497ebf2dfbf4df4ca0265f20631b695",
+      "bytes": 1799
+    },
+    "art/awards/pixellab/medal_11.png": {
+      "sha256": "52607920de08c84e825ce779bf8cd2cd3548c99c1230086adbb71599ea2ed70f",
+      "bytes": 1620
+    },
+    "art/awards/pixellab/medal_12.png": {
+      "sha256": "6df70e90b24d78fb9d3f7ab77f0410d3ccbf056d9a287af3ce68b92fac387346",
+      "bytes": 1881
+    },
+    "art/awards/pixellab/medal_13.png": {
+      "sha256": "f9bbbf52402aa2fffb76db2b22265e44616e5726d4949cc4ef4d010a16f747d7",
+      "bytes": 1706
+    },
+    "art/awards/pixellab/medal_14.png": {
+      "sha256": "78e21582c61bbcae8ed1f9cde649a4c0bf85267d385f086edbe9e5fb870c22a8",
+      "bytes": 1790
+    },
+    "art/awards/pixellab/medal_15.png": {
+      "sha256": "30382e205dfa9f257336ce28fc3f9c8404fc8d17d7676bbc7295150780a70e9e",
+      "bytes": 1786
+    },
+    "art/awards/pixellab/medal_16.png": {
+      "sha256": "56979588ec0b2f582daf475ddb16f96b08bfce5e4765d36f1c6caff566206647",
+      "bytes": 1440
+    },
+    "art/awards/pixellab/contest_ribbon_15.png": {
+      "sha256": "a546c7bf5e6a38e7ae45127147b2cc3fed8314cbc1b944c9ac3a36d47760df64",
+      "bytes": 1541
+    },
+    "art/awards/pixellab/contest_ribbon_16.png": {
+      "sha256": "d7b55317244504d8cc001cf567ce338dbdc6565f4cf7b8407b145f3a7e07f4d5",
+      "bytes": 1726
+    },
+    "art/awards/pixellab/trophy_11.png": {
+      "sha256": "ab09a12907914bd83447d19ef163fc095465bb2d318ea1a1627eee8692460e35",
+      "bytes": 1754
+    },
+    "art/awards/pixellab/trophy_12.png": {
+      "sha256": "c67981abc2e14668b3cd19dd0aa782b8dc13561d3167ee8561f2db245f4fbb56",
+      "bytes": 1764
+    },
+    "art/awards/pixellab/trophy_13.png": {
+      "sha256": "ef5a48c77e0d245f68c88de6a8a03d036cb87848ab10f0eaa0c34cdb1d3b5e53",
+      "bytes": 1559
+    },
+    "art/awards/pixellab/trophy_14.png": {
+      "sha256": "553f2b39cbb3a415a4128300df154b0aaa554a62a3768a182adde4902628188b",
+      "bytes": 1914
+    },
+    "art/awards/pixellab/trophy_15.png": {
+      "sha256": "8d72be7f38ac8a68252a6fe92c769d0384341b05e5d5c15131c881631e85d8e5",
+      "bytes": 1369
+    },
+    "art/awards/pixellab/trophy_16.png": {
+      "sha256": "4bcc4ed3e837de5610a95a509124ff0e721fc2990ad774422ffb594a3484fb45",
+      "bytes": 2443
+    },
+    "art/awards/pixellab/military_medal_01.png": {
+      "sha256": "b22917567972ed6c6ddf5fdebe706f6149868b2ee26067117eac6531232a57ef",
+      "bytes": 937
+    },
+    "art/awards/pixellab/military_medal_02.png": {
+      "sha256": "f9e383a9e5a393bd346dc50ede5a454a69d215cf1ec04499e0daedca4585e8e1",
+      "bytes": 583
+    },
+    "art/awards/pixellab/military_medal_03.png": {
+      "sha256": "48c4930f52952f66eed5a45df5ad9a28651b7ded2c85e132edbe80d643eb4f53",
+      "bytes": 933
+    },
+    "art/awards/pixellab/military_medal_04.png": {
+      "sha256": "280da0610141020c333e18d1d51fecf3c5decbb3f16e23e7b253a52348770fef",
+      "bytes": 1459
+    },
+    "art/awards/pixellab/military_medal_05.png": {
+      "sha256": "80c8f408589f792888162169794b19be965e9d1ceeeb22a1080b4238886e2fda",
+      "bytes": 946
+    },
+    "art/awards/pixellab/military_medal_06.png": {
+      "sha256": "2c73eaf0b11cd606caf2bd65daee66f3c3d6bd3677f933a90231bd9affe085dd",
+      "bytes": 784
+    },
+    "art/awards/pixellab/military_medal_07.png": {
+      "sha256": "94376269fc8d942aa30e090963bc30a80b01a35506bfb41d5050bb29a3085072",
+      "bytes": 740
+    },
+    "art/awards/pixellab/military_medal_08.png": {
+      "sha256": "ba3283b8136c6353f0d7f3413486b5d9f77ac5164fc54ba641e94135278f765e",
+      "bytes": 729
+    },
+    "art/awards/pixellab/military_medal_09.png": {
+      "sha256": "7dd34e5bad9ab60a8a90ff50c20b6ad851299efcde5921a58f0d62424c4aedf7",
+      "bytes": 722
+    },
+    "art/awards/pixellab/military_medal_10.png": {
+      "sha256": "45447b40540cc489afe5c4622e24fb4c79025b973f64be32e809479a326ffcfb",
+      "bytes": 1252
+    },
+    "art/awards/pixellab/military_medal_11.png": {
+      "sha256": "ff4af48933a4a7ad390e05248c15e92a6a036d7234d8075e4c6bea3d1e05be98",
+      "bytes": 1147
+    },
+    "art/awards/pixellab/military_medal_12.png": {
+      "sha256": "8eeee6d7f5b29e87608fd7b606832997fbc401c78f5217194a90f4f83f44da16",
+      "bytes": 1050
+    },
+    "art/awards/pixellab/military_medal_13.png": {
+      "sha256": "c5bfe79b5b509abd6222070595080f7fea311d57bfe42485b9a9cf3e782bfd95",
+      "bytes": 1082
+    },
+    "art/awards/pixellab/military_medal_14.png": {
+      "sha256": "6c6daf28ab279af6714b7b2b3e1799349aee008998928c44c0f3e7feab3d9ea6",
+      "bytes": 1062
+    },
+    "art/awards/pixellab/military_medal_15.png": {
+      "sha256": "19d3139e4110b23ed94233a02735cd63b8a5fd599edd3c514e8593fa2d0548c0",
+      "bytes": 869
+    },
+    "art/awards/pixellab/military_medal_16.png": {
+      "sha256": "1bc0fccf5b8b01ef98a750ca1309c8dcb8eff76b1affb91158bfc1f2d01dd335",
+      "bytes": 989
+    }
+  },
+  "scope": "Published game awards, battle honours, all 80 reserved PixelLab library assets, and all 11 Foundling designs plus the miniature placement."
+}
