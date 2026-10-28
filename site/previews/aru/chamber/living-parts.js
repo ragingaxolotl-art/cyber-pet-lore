@@ -37,8 +37,13 @@ function ringSegments(t){const a=t/12*TAU,out=[];for(let ring=0;ring<2;ring++){
  for(let j=0;j<96;j++){const points=[j,j+1].map(k=>rotate([Math.cos(k*TAU/96)*radius,Math.sin(k*TAU/96)*radius,0],rotation));out.push({ring:true,points,z:(points[0][2]+points[1][2])/2,color:ring?'#aaf2ff':'#ffda86',bright:j%12===0});}
  }return out;
 }
-export function livingLayers(t,variant=0){const a=t/12*TAU,items=shards.map(p=>{const angle=p.phase+a*p.speed+.13*Math.sin(a*3+p.seed);return meshItem(p.mesh,[Math.cos(angle)*p.radius,25+Math.sin(angle)*p.height,55*Math.sin(angle+p.seed*.3)],[a*(1+p.seed%3),a*(p.seed%2?-2:3)+p.phase,a*(p.seed%3-1)+p.phase],.85);});
- items.push(...handItems(t,-1),...handItems(t,1),...ringSegments(t));
+export function livingLayers(t,variant=0,mix={body:"painted",head:"painted",wings:"painted",hands:"mixed"}){const a=t/12*TAU,items=shards.map(p=>{const angle=p.phase+a*p.speed+.13*Math.sin(a*3+p.seed);return meshItem(p.mesh,[Math.cos(angle)*p.radius,25+Math.sin(angle)*p.height,55*Math.sin(angle+p.seed*.3)],[a*(1+p.seed%3),a*(p.seed%2?-2:3)+p.phase,a*(p.seed%3-1)+p.phase],.85);});
+ const uses=key=>['faceted','mixed'].includes(mix[key]);
+ if(uses('hands'))items.push(...handItems(t,-1),...handItems(t,1));
+ if(uses('body'))items.push(...bodyItems(t,variant));
+ if(uses('head'))items.push({...meshItem(head,[0,-135+2*Math.sin(a),0],[.12*Math.sin(a*2),a,.08*Math.sin(a)],.65),body:true});
+ if(uses('wings'))items.push(...wingItems(t));
+ items.push(...ringSegments(t));
  return glitchLayers(items,t,variant).sort((a,b)=>a.z-b.z);
 }
 export function drawLivingLayer(c,item){if(!item.ring){drawMesh(c,item);return;}c.save();const project=v=>[960+v[0]*900/(900-v[2]),500+v[1]*900/(900-v[2])];c.strokeStyle=item.color;c.globalAlpha=item.z<0?.52:.94;c.lineWidth=item.bright?2.6:1.5;c.shadowColor=item.color;c.shadowBlur=item.bright?8:3;c.beginPath();c.moveTo(...project(item.points[0]));c.lineTo(...project(item.points[1]));c.stroke();c.restore();}

@@ -1,10 +1,12 @@
-import {loadArtwork,artworkLayers,drawArtwork} from './art-layers.js?v=1';
-import {livingLayers,drawLivingLayer,drawLivingHeart,bodyVersions} from './living-parts.js?v=painted-4';
+import {loadArtwork,artworkLayers,drawArtwork} from './art-layers.js?v=mix-1';
+import {livingLayers,drawLivingLayer,drawLivingHeart,bodyVersions} from './living-parts.js?v=mix-1';
 const canvas=document.querySelector('#scene'),ctx=canvas.getContext('2d');
 const status=document.querySelector('#status'),play=document.querySelector('#play');
 const TAU=Math.PI*2,DURATION=12,W=1920,H=1080,CX=960,CY=500,SCALE=.40;
 let bodyVersion=Math.max(0,Math.min(2,Number(new URLSearchParams(location.search).get('version'))||0));
 let chamberMode=new URLSearchParams(location.search).get('view')==='chamber';
+const mix={body:'painted',head:'painted',wings:'painted',hands:'mixed'};
+for(const key of Object.keys(mix)){const value=new URLSearchParams(location.search).get(key);if(['painted','faceted','mixed','off'].includes(value))mix[key]=value;}
 let running=true,started=performance.now(),frozen=0,ready=false;
 function loadImage(src){return new Promise((resolve,reject)=>{const i=new Image();i.onload=()=>resolve(i);i.onerror=reject;i.src=src;});}
 const [background,artwork]=await Promise.all([loadImage('chamber-background.png'),loadArtwork()]);
@@ -31,7 +33,7 @@ function drawDust(c,t,front){const a=t/DURATION*TAU;c.save();c.globalCompositeOp
 export function paint(target,t,width=1280,height=720){t=((t%DURATION)+DURATION)%DURATION;target.save();target.setTransform(width/W,0,0,height/H,0,0);target.clearRect(0,0,W,H);if(chamberMode)target.drawImage(background,0,0,W,H);
  const a=t/DURATION*TAU;if(chamberMode){target.save();target.translate(CX,895);target.scale(1,.13);let floor=target.createRadialGradient(0,0,0,0,0,110);floor.addColorStop(0,'rgba(255,195,91,.18)');floor.addColorStop(.5,'rgba(105,206,234,.06)');floor.addColorStop(1,'rgba(255,195,91,0)');target.fillStyle=floor;target.fillRect(-112,-112,224,224);target.restore();}
  target.save();if(chamberMode){target.translate(CX,CY);target.scale(.78,.78);target.translate(-CX,-CY);}
- const layers=[...livingLayers(t,bodyVersion),...artworkLayers(artwork,t,bodyVersion)].sort((a,b)=>a.z-b.z);
+ const layers=[...livingLayers(t,bodyVersion,mix),...artworkLayers(artwork,t,bodyVersion,mix)].sort((a,b)=>a.z-b.z);
  const drawLayer=layer=>layer.part?drawArtwork(target,layer):drawLivingLayer(target,layer);
  drawDust(target,t,false);
  for(const layer of layers)if(layer.z<0)drawLayer(layer);
@@ -59,3 +61,30 @@ for(const b of viewButtons)b.onclick=()=>setView(b.dataset.view==='chamber');set
 const versionButtons=[...document.querySelectorAll('[data-version]')];
 function setVersion(value){bodyVersion=value;for(const b of versionButtons)b.setAttribute('aria-pressed',String(Number(b.dataset.version)===value));document.querySelector('#version-description').textContent=bodyVersions[value].description;paint(ctx,time(),canvas.width,canvas.height);const url=new URL(location.href);url.searchParams.set('version',String(value));history.replaceState(null,'',url);}
 for(const b of versionButtons)b.onclick=()=>setVersion(Number(b.dataset.version));setVersion(bodyVersion);
+
+const mixSelectors=[...document.querySelectorAll('[data-part]')];
+for(const select of mixSelectors){select.value=mix[select.dataset.part];select.onchange=()=>{mix[select.dataset.part]=select.value;const url=new URL(location.href);for(const [key,value]of Object.entries(mix))url.searchParams.set(key,value);history.replaceState(null,'',url);paint(ctx,time(),canvas.width,canvas.height);document.querySelector('#sheet-status').textContent='Mix changed. Generate a new sheet to capture this combination.';};}
+const scrub=document.querySelector('#frame-scrub');
+function seekFrame(frame){running=false;frozen=frame*DURATION/48;play.textContent='Play animation';scrub.value=frame;document.querySelector('#frame-label').textContent=`Frame ${frame+1} of 48 · ${frozen.toFixed(2)} s`;paint(ctx,frozen,canvas.width,canvas.height);}
+scrub.oninput=()=>seekFrame(Number(scrub.value));
+let sheetResult=null;
+document.querySelector('#build-sheet').onclick=async()=>{
+ const button=document.querySelector('#build-sheet'),sheetStatus=document.querySelector('#sheet-status'),grid=document.querySelector('#frame-grid');
+ const config={version:bodyVersions[bodyVersion].name,background:chamberMode?'chamber':'transparent',mix:{...mix}},count=48,columns=8,fw=chamberMode?320:256,fh=chamberMode?180:256;
+ const locked=[...document.querySelectorAll('button,select,input')];locked.forEach(e=>e.disabled=true);frozen=time();running=false;play.textContent='Play animation';
+ const sheet=document.createElement('canvas');sheet.width=columns*fw;sheet.height=Math.ceil(count/columns)*fh;const sc=sheet.getContext('2d'),frame=document.createElement('canvas');frame.width=960;frame.height=540;const fc=frame.getContext('2d'),frames=[];grid.replaceChildren();
+ try{for(let i=0;i<count;i++){paint(fc,i*DURATION/count,960,540);const x=i%columns*fw,y=Math.floor(i/columns)*fh;
+ if(chamberMode)sc.drawImage(frame,0,0,960,540,x,y,fw,fh);else sc.drawImage(frame,280,50,400,400,x,y,fw,fh);
+ const tile=document.createElement('button');tile.className='frame-tile';tile.type='button';tile.title=`Inspect frame ${i+1}`;const thumb=document.createElement('canvas');thumb.width=fw;thumb.height=fh;thumb.className='transparent';thumb.getContext('2d').drawImage(sheet,x,y,fw,fh,0,0,fw,fh);const label=document.createElement('span');label.textContent=`${String(i+1).padStart(2,'0')} · ${(i*DURATION/count).toFixed(2)} s`;tile.append(thumb,label);tile.onclick=()=>{seekFrame(i);canvas.scrollIntoView({block:'center',behavior:'smooth'});};grid.append(tile);
+ frames.push({frame:i+1,x,y,width:fw,height:fh,timeSeconds:i*DURATION/count,durationMs:250});sheetStatus.textContent=`Rendering frame ${i+1} of ${count}…`;if(i%4===3)await new Promise(requestAnimationFrame);}
+ sheetResult={sheet,metadata:{...config,columns,rows:6,frameCount:count,framesPerSecond:4,durationSeconds:12,sheetWidth:sheet.width,sheetHeight:sheet.height,frames}};
+ sheetStatus.textContent=`${config.version} · ${count} frames · ${fw} × ${fh} per frame · ${config.background}. Click a numbered frame to inspect it.`;
+ }catch(error){sheetStatus.textContent='Could not finish the sheet. Try generating it again.';console.error(error);}finally{locked.forEach(e=>e.disabled=false);document.querySelector('#sheet-png').disabled=!sheetResult;document.querySelector('#sheet-json').disabled=!sheetResult;document.querySelector('#sheet-csv').disabled=!sheetResult;}
+};
+document.querySelector('#sheet-png').onclick=()=>{if(sheetResult)sheetResult.sheet.toBlob(blob=>download(blob,`aru-${sheetResult.metadata.version.toLowerCase()}-sprite-sheet.png`),'image/png');};
+document.querySelector('#sheet-json').onclick=()=>{if(sheetResult)download(new Blob([JSON.stringify(sheetResult.metadata,null,2)],{type:'application/json'}),'aru-frame-data.json');};
+document.querySelector('#sheet-csv').onclick=()=>{if(!sheetResult)return;const m=sheetResult.metadata,header='frame,x,y,width,height,time_seconds,duration_ms,version,background,body,head,wings,hands';const rows=m.frames.map(f=>[f.frame,f.x,f.y,f.width,f.height,f.timeSeconds,f.durationMs,m.version,m.background,m.mix.body,m.mix.head,m.mix.wings,m.mix.hands].join(','));download(new Blob([[header,...rows].join('\n')],{type:'text/csv'}),'aru-frame-spreadsheet.csv');};
+// Prevent a displayed/exported sheet from silently belonging to an older mix.
+function invalidateSheet(){sheetResult=null;document.querySelector('#frame-grid').replaceChildren();for(const id of ['sheet-png','sheet-json','sheet-csv'])document.getElementById(id).disabled=true;document.querySelector('#sheet-status').textContent='Selection changed. Generate a sheet for this mix.';}
+for(const control of document.querySelectorAll('[data-part]'))control.addEventListener('change',invalidateSheet);
+for(const control of document.querySelectorAll('[data-view],[data-version]'))control.addEventListener('click',invalidateSheet);
