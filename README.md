@@ -77,3 +77,10 @@ The reader’s **Follow the connections** section links named places, people/gro
 Open **Connections** (`wiki.html`) to search 348 indexed people, places, stories, events, and ideas. Names in readings and timeline passages link to internal topic pages, with dossier links, “Mentioned in” passages, and direct timeline-event links. Each reading also includes related topics and eras. Vey and Pell have explicit disambiguation pages. Links indicate named mentions; they do not establish identity or causal relationships. Draft and proposed source labels remain visible.
 
 `tools/build_wiki.py` rebuilds the index from published archive content after the timeline build. Automated checks validate every reading/block/event destination, ambiguous-name choices, and exact passage-text preservation for highlights and clips. Original-document provenance remains in the library Sources dialog; connected reading links stay on this site.
+
+
+## Illness field guide
+
+The **Illnesses** directory contains 46 named conditions: 15 random category variants and 31 location-specific trademarks restricted to corruption 4–5. Every entry includes an animated native Godot preview on anonymous sample artwork, a frame sheet, treatment information, and a clearly hypothetical future story hook. Filters cover category, location/name, and trademark status. The original stories and existing reading anchors are preserved.
+
+Artwork includes 14 reviewed transparent PixelLab sprites, seven eight-frame loops, and native Godot echo, orbit, heat, and pulse effects. Reduced-motion preferences show still previews. The downloadable ZIP groups each illness with its description and frame sheet. Google Drive and CPP Lore/Locations Atlas tabs link to the same field guide. Runtime balance remains authored in CPP-V3/config/scenery_profiles.json.
