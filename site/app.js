@@ -21,7 +21,7 @@ function save(){
   const raw=localStorage.getItem(STORAGE_KEY);
   if(raw){const previous=validateState(JSON.parse(raw));state=mergeStates(state,previous);try{localStorage.setItem(STORAGE_KEY+'.previous',raw);}catch{}}
   localStorage.setItem(STORAGE_KEY,JSON.stringify(state));$('reader-save').textContent='Saved in this browser';$('save-alert').hidden=true;lastWrite=Date.now();saved=true;
- }catch{alertSave('Browser storage is unavailable or full. Your latest changes are in this open page only. Download a reading backup before leaving.');}
+ }catch{$('reader-save').textContent='Not saved in this browser — use Backups';}
  queueCloudBackup();updateProgress();return saved;
 }
 let confirmationTimer;
@@ -29,7 +29,7 @@ $('save-reading').onclick=()=>{
  clearTimeout(confirmationTimer);
  const saved=save();
  if(cloud)void backUpCloud();
- $('save-confirmation').textContent=saved?'✓ Saved — your reading progress, highlights, and notes are saved in this browser.':'Could not save. See the storage warning above.';
+ $('save-confirmation').textContent=saved?'✓ Saved — your reading progress, highlights, and notes are saved in this browser.':'Could not save in this browser. Open Backups to download your reading data before leaving.';
  $('save-confirmation').hidden=false;
  confirmationTimer=setTimeout(()=>{$('save-confirmation').hidden=true;},6000);
 };
