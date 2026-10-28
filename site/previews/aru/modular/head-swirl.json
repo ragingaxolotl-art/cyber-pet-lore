@@ -1,0 +1,248 @@
+{
+  "id": "head",
+  "group": "body",
+  "variant": "swirl",
+  "width": 160,
+  "height": 160,
+  "frames": 32,
+  "duration_ms": 80,
+  "columns": 8,
+  "pivot": [
+    80,
+    80
+  ],
+  "source_anchor": [
+    155,
+    122
+  ],
+  "sheet": "head-swirl.png",
+  "gif": "head-swirl.gif",
+  "webp": "head-swirl.webp",
+  "source": "https://api.pixellab.ai/mcp/pixel-tools/3185fa3c-9d15-4561-885c-0eb77aa13dab/assets/head/full.png",
+  "frame_rectangles": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 320,
+      "y": 0,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 480,
+      "y": 0,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 640,
+      "y": 0,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 800,
+      "y": 0,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 960,
+      "y": 0,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 1120,
+      "y": 0,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 0,
+      "y": 160,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 160,
+      "y": 160,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 320,
+      "y": 160,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 480,
+      "y": 160,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 640,
+      "y": 160,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 800,
+      "y": 160,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 960,
+      "y": 160,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 1120,
+      "y": 160,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 0,
+      "y": 320,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 160,
+      "y": 320,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 320,
+      "y": 320,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 480,
+      "y": 320,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 640,
+      "y": 320,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 800,
+      "y": 320,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 960,
+      "y": 320,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 1120,
+      "y": 320,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 0,
+      "y": 480,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 160,
+      "y": 480,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 320,
+      "y": 480,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 480,
+      "y": 480,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 640,
+      "y": 480,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 800,
+      "y": 480,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 960,
+      "y": 480,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 1120,
+      "y": 480,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "id": "leg-right",
+  "group": "body",
+  "variant": "neon",
+  "width": 160,
+  "height": 160,
+  "frames": 32,
+  "duration_ms": 80,
+  "columns": 8,
+  "pivot": [
+    80,
+    80
+  ],
+  "source_anchor": [
+    161,
+    227
+  ],
+  "sheet": "leg-right-neon.png",
+  "gif": "leg-right-neon.gif",
+  "webp": "leg-right-neon.webp",
+  "source": "https://api.pixellab.ai/mcp/pixel-tools/29bb4174-dd37-490f-a902-1811d1e60568/assets/leg-right/full.png",
+  "frame_rectangles": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 320,
+      "y": 0,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 480,
+      "y": 0,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 640,
+      "y": 0,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 800,
+      "y": 0,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 960,
+      "y": 0,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 1120,
+      "y": 0,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 0,
+      "y": 160,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 160,
+      "y": 160,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 320,
+      "y": 160,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 480,
+      "y": 160,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 640,
+      "y": 160,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 800,
+      "y": 160,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 960,
+      "y": 160,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 1120,
+      "y": 160,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 0,
+      "y": 320,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 160,
+      "y": 320,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 320,
+      "y": 320,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 480,
+      "y": 320,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 640,
+      "y": 320,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 800,
+      "y": 320,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 960,
+      "y": 320,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 1120,
+      "y": 320,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 0,
+      "y": 480,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 160,
+      "y": 480,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 320,
+      "y": 480,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 480,
+      "y": 480,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 640,
+      "y": 480,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 800,
+      "y": 480,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 960,
+      "y": 480,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    },
+    {
+      "x": 1120,
+      "y": 480,
+      "width": 160,
+      "height": 160,
+      "duration_ms": 80
+    }
+  ]
+}

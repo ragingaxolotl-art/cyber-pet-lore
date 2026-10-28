@@ -1,0 +1,248 @@
+{
+  "id": "dust-04",
+  "group": "particles",
+  "variant": "neon",
+  "width": 80,
+  "height": 80,
+  "frames": 32,
+  "duration_ms": 80,
+  "columns": 8,
+  "pivot": [
+    40,
+    40
+  ],
+  "source_anchor": [
+    84,
+    141
+  ],
+  "sheet": "dust-04-neon.png",
+  "gif": "dust-04-neon.gif",
+  "webp": "dust-04-neon.webp",
+  "source": "https://api.pixellab.ai/mcp/pixel-tools/98d5e453-f490-4b0c-929e-5c087240973f/assets/dust-04/full.png",
+  "frame_rectangles": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 80,
+      "y": 0,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 240,
+      "y": 0,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 320,
+      "y": 0,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 400,
+      "y": 0,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 480,
+      "y": 0,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 560,
+      "y": 0,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 0,
+      "y": 80,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 80,
+      "y": 80,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 160,
+      "y": 80,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 240,
+      "y": 80,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 320,
+      "y": 80,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 400,
+      "y": 80,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 480,
+      "y": 80,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 560,
+      "y": 80,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 0,
+      "y": 160,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 80,
+      "y": 160,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 160,
+      "y": 160,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 240,
+      "y": 160,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 320,
+      "y": 160,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 400,
+      "y": 160,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 480,
+      "y": 160,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 560,
+      "y": 160,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 0,
+      "y": 240,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 80,
+      "y": 240,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 160,
+      "y": 240,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 240,
+      "y": 240,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 320,
+      "y": 240,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 400,
+      "y": 240,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 480,
+      "y": 240,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    },
+    {
+      "x": 560,
+      "y": 240,
+      "width": 80,
+      "height": 80,
+      "duration_ms": 80
+    }
+  ]
+}

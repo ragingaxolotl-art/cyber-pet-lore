@@ -1,0 +1,1982 @@
+[
+  {
+    "id": "wing-left-upper",
+    "group": "wings",
+    "variant": "drift",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      133,
+      101
+    ],
+    "sheet": "wing-left-upper-drift.png",
+    "gif": "wing-left-upper-drift.gif",
+    "webp": "wing-left-upper-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/802b11ea-7c27-41d8-8615-ffdc225353aa/assets/wing-left-upper/full.png"
+  },
+  {
+    "id": "wing-left-diagonal",
+    "group": "wings",
+    "variant": "drift",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      110,
+      111
+    ],
+    "sheet": "wing-left-diagonal-drift.png",
+    "gif": "wing-left-diagonal-drift.gif",
+    "webp": "wing-left-diagonal-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/802b11ea-7c27-41d8-8615-ffdc225353aa/assets/wing-left-diagonal/full.png"
+  },
+  {
+    "id": "wing-left-middle",
+    "group": "wings",
+    "variant": "drift",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      92,
+      157
+    ],
+    "sheet": "wing-left-middle-drift.png",
+    "gif": "wing-left-middle-drift.gif",
+    "webp": "wing-left-middle-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/802b11ea-7c27-41d8-8615-ffdc225353aa/assets/wing-left-middle/full.png"
+  },
+  {
+    "id": "wing-left-lower",
+    "group": "wings",
+    "variant": "drift",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      108,
+      205
+    ],
+    "sheet": "wing-left-lower-drift.png",
+    "gif": "wing-left-lower-drift.gif",
+    "webp": "wing-left-lower-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/802b11ea-7c27-41d8-8615-ffdc225353aa/assets/wing-left-lower/full.png"
+  },
+  {
+    "id": "wing-right-upper",
+    "group": "wings",
+    "variant": "drift",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      187,
+      100
+    ],
+    "sheet": "wing-right-upper-drift.png",
+    "gif": "wing-right-upper-drift.gif",
+    "webp": "wing-right-upper-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/802b11ea-7c27-41d8-8615-ffdc225353aa/assets/wing-right-upper/full.png"
+  },
+  {
+    "id": "wing-right-diagonal",
+    "group": "wings",
+    "variant": "drift",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      207,
+      111
+    ],
+    "sheet": "wing-right-diagonal-drift.png",
+    "gif": "wing-right-diagonal-drift.gif",
+    "webp": "wing-right-diagonal-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/802b11ea-7c27-41d8-8615-ffdc225353aa/assets/wing-right-diagonal/full.png"
+  },
+  {
+    "id": "wing-right-middle",
+    "group": "wings",
+    "variant": "drift",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      221,
+      157
+    ],
+    "sheet": "wing-right-middle-drift.png",
+    "gif": "wing-right-middle-drift.gif",
+    "webp": "wing-right-middle-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/802b11ea-7c27-41d8-8615-ffdc225353aa/assets/wing-right-middle/full.png"
+  },
+  {
+    "id": "wing-right-lower",
+    "group": "wings",
+    "variant": "drift",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      205,
+      206
+    ],
+    "sheet": "wing-right-lower-drift.png",
+    "gif": "wing-right-lower-drift.gif",
+    "webp": "wing-right-lower-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/802b11ea-7c27-41d8-8615-ffdc225353aa/assets/wing-right-lower/full.png"
+  },
+  {
+    "id": "wing-left-upper",
+    "group": "wings",
+    "variant": "neon",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      133,
+      101
+    ],
+    "sheet": "wing-left-upper-neon.png",
+    "gif": "wing-left-upper-neon.gif",
+    "webp": "wing-left-upper-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/e7bf5337-9a19-4844-bd59-72f48e9d2f3e/assets/wing-left-upper/full.png"
+  },
+  {
+    "id": "wing-left-diagonal",
+    "group": "wings",
+    "variant": "neon",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      110,
+      111
+    ],
+    "sheet": "wing-left-diagonal-neon.png",
+    "gif": "wing-left-diagonal-neon.gif",
+    "webp": "wing-left-diagonal-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/e7bf5337-9a19-4844-bd59-72f48e9d2f3e/assets/wing-left-diagonal/full.png"
+  },
+  {
+    "id": "wing-left-middle",
+    "group": "wings",
+    "variant": "neon",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      92,
+      157
+    ],
+    "sheet": "wing-left-middle-neon.png",
+    "gif": "wing-left-middle-neon.gif",
+    "webp": "wing-left-middle-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/e7bf5337-9a19-4844-bd59-72f48e9d2f3e/assets/wing-left-middle/full.png"
+  },
+  {
+    "id": "wing-left-lower",
+    "group": "wings",
+    "variant": "neon",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      108,
+      205
+    ],
+    "sheet": "wing-left-lower-neon.png",
+    "gif": "wing-left-lower-neon.gif",
+    "webp": "wing-left-lower-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/e7bf5337-9a19-4844-bd59-72f48e9d2f3e/assets/wing-left-lower/full.png"
+  },
+  {
+    "id": "wing-right-upper",
+    "group": "wings",
+    "variant": "neon",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      187,
+      100
+    ],
+    "sheet": "wing-right-upper-neon.png",
+    "gif": "wing-right-upper-neon.gif",
+    "webp": "wing-right-upper-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/e7bf5337-9a19-4844-bd59-72f48e9d2f3e/assets/wing-right-upper/full.png"
+  },
+  {
+    "id": "wing-right-diagonal",
+    "group": "wings",
+    "variant": "neon",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      207,
+      111
+    ],
+    "sheet": "wing-right-diagonal-neon.png",
+    "gif": "wing-right-diagonal-neon.gif",
+    "webp": "wing-right-diagonal-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/e7bf5337-9a19-4844-bd59-72f48e9d2f3e/assets/wing-right-diagonal/full.png"
+  },
+  {
+    "id": "wing-right-middle",
+    "group": "wings",
+    "variant": "neon",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      221,
+      157
+    ],
+    "sheet": "wing-right-middle-neon.png",
+    "gif": "wing-right-middle-neon.gif",
+    "webp": "wing-right-middle-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/e7bf5337-9a19-4844-bd59-72f48e9d2f3e/assets/wing-right-middle/full.png"
+  },
+  {
+    "id": "wing-right-lower",
+    "group": "wings",
+    "variant": "neon",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      205,
+      206
+    ],
+    "sheet": "wing-right-lower-neon.png",
+    "gif": "wing-right-lower-neon.gif",
+    "webp": "wing-right-lower-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/e7bf5337-9a19-4844-bd59-72f48e9d2f3e/assets/wing-right-lower/full.png"
+  },
+  {
+    "id": "wing-left-upper",
+    "group": "wings",
+    "variant": "swirl",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      133,
+      101
+    ],
+    "sheet": "wing-left-upper-swirl.png",
+    "gif": "wing-left-upper-swirl.gif",
+    "webp": "wing-left-upper-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/7837a2e9-da72-4194-82d7-4acb93cb347c/assets/wing-left-upper/full.png"
+  },
+  {
+    "id": "wing-left-diagonal",
+    "group": "wings",
+    "variant": "swirl",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      110,
+      111
+    ],
+    "sheet": "wing-left-diagonal-swirl.png",
+    "gif": "wing-left-diagonal-swirl.gif",
+    "webp": "wing-left-diagonal-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/7837a2e9-da72-4194-82d7-4acb93cb347c/assets/wing-left-diagonal/full.png"
+  },
+  {
+    "id": "wing-left-middle",
+    "group": "wings",
+    "variant": "swirl",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      92,
+      157
+    ],
+    "sheet": "wing-left-middle-swirl.png",
+    "gif": "wing-left-middle-swirl.gif",
+    "webp": "wing-left-middle-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/7837a2e9-da72-4194-82d7-4acb93cb347c/assets/wing-left-middle/full.png"
+  },
+  {
+    "id": "wing-left-lower",
+    "group": "wings",
+    "variant": "swirl",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      108,
+      205
+    ],
+    "sheet": "wing-left-lower-swirl.png",
+    "gif": "wing-left-lower-swirl.gif",
+    "webp": "wing-left-lower-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/7837a2e9-da72-4194-82d7-4acb93cb347c/assets/wing-left-lower/full.png"
+  },
+  {
+    "id": "wing-right-upper",
+    "group": "wings",
+    "variant": "swirl",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      187,
+      100
+    ],
+    "sheet": "wing-right-upper-swirl.png",
+    "gif": "wing-right-upper-swirl.gif",
+    "webp": "wing-right-upper-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/7837a2e9-da72-4194-82d7-4acb93cb347c/assets/wing-right-upper/full.png"
+  },
+  {
+    "id": "wing-right-diagonal",
+    "group": "wings",
+    "variant": "swirl",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      207,
+      111
+    ],
+    "sheet": "wing-right-diagonal-swirl.png",
+    "gif": "wing-right-diagonal-swirl.gif",
+    "webp": "wing-right-diagonal-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/7837a2e9-da72-4194-82d7-4acb93cb347c/assets/wing-right-diagonal/full.png"
+  },
+  {
+    "id": "wing-right-middle",
+    "group": "wings",
+    "variant": "swirl",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      221,
+      157
+    ],
+    "sheet": "wing-right-middle-swirl.png",
+    "gif": "wing-right-middle-swirl.gif",
+    "webp": "wing-right-middle-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/7837a2e9-da72-4194-82d7-4acb93cb347c/assets/wing-right-middle/full.png"
+  },
+  {
+    "id": "wing-right-lower",
+    "group": "wings",
+    "variant": "swirl",
+    "width": 128,
+    "height": 128,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      64,
+      64
+    ],
+    "source_anchor": [
+      205,
+      206
+    ],
+    "sheet": "wing-right-lower-swirl.png",
+    "gif": "wing-right-lower-swirl.gif",
+    "webp": "wing-right-lower-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/7837a2e9-da72-4194-82d7-4acb93cb347c/assets/wing-right-lower/full.png"
+  },
+  {
+    "id": "head",
+    "group": "body",
+    "variant": "drift",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      155,
+      122
+    ],
+    "sheet": "head-drift.png",
+    "gif": "head-drift.gif",
+    "webp": "head-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/b635c521-2510-464a-9fb6-964b8e2bfb6e/assets/head/full.png"
+  },
+  {
+    "id": "torso",
+    "group": "body",
+    "variant": "drift",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      154,
+      161
+    ],
+    "sheet": "torso-drift.png",
+    "gif": "torso-drift.gif",
+    "webp": "torso-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/b635c521-2510-464a-9fb6-964b8e2bfb6e/assets/torso/full.png"
+  },
+  {
+    "id": "pelvis",
+    "group": "body",
+    "variant": "drift",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      154,
+      197
+    ],
+    "sheet": "pelvis-drift.png",
+    "gif": "pelvis-drift.gif",
+    "webp": "pelvis-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/b635c521-2510-464a-9fb6-964b8e2bfb6e/assets/pelvis/full.png"
+  },
+  {
+    "id": "arm-left",
+    "group": "body",
+    "variant": "drift",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      134,
+      166
+    ],
+    "sheet": "arm-left-drift.png",
+    "gif": "arm-left-drift.gif",
+    "webp": "arm-left-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/b635c521-2510-464a-9fb6-964b8e2bfb6e/assets/arm-left/full.png"
+  },
+  {
+    "id": "arm-right",
+    "group": "body",
+    "variant": "drift",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      177,
+      182
+    ],
+    "sheet": "arm-right-drift.png",
+    "gif": "arm-right-drift.gif",
+    "webp": "arm-right-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/b635c521-2510-464a-9fb6-964b8e2bfb6e/assets/arm-right/full.png"
+  },
+  {
+    "id": "leg-left",
+    "group": "body",
+    "variant": "drift",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      145,
+      228
+    ],
+    "sheet": "leg-left-drift.png",
+    "gif": "leg-left-drift.gif",
+    "webp": "leg-left-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/b635c521-2510-464a-9fb6-964b8e2bfb6e/assets/leg-left/full.png"
+  },
+  {
+    "id": "leg-right",
+    "group": "body",
+    "variant": "drift",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      161,
+      227
+    ],
+    "sheet": "leg-right-drift.png",
+    "gif": "leg-right-drift.gif",
+    "webp": "leg-right-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/b635c521-2510-464a-9fb6-964b8e2bfb6e/assets/leg-right/full.png"
+  },
+  {
+    "id": "heart",
+    "group": "body",
+    "variant": "drift",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      153,
+      150
+    ],
+    "sheet": "heart-drift.png",
+    "gif": "heart-drift.gif",
+    "webp": "heart-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/b635c521-2510-464a-9fb6-964b8e2bfb6e/assets/heart/full.png"
+  },
+  {
+    "id": "head",
+    "group": "body",
+    "variant": "neon",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      155,
+      122
+    ],
+    "sheet": "head-neon.png",
+    "gif": "head-neon.gif",
+    "webp": "head-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/29bb4174-dd37-490f-a902-1811d1e60568/assets/head/full.png"
+  },
+  {
+    "id": "torso",
+    "group": "body",
+    "variant": "neon",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      154,
+      161
+    ],
+    "sheet": "torso-neon.png",
+    "gif": "torso-neon.gif",
+    "webp": "torso-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/29bb4174-dd37-490f-a902-1811d1e60568/assets/torso/full.png"
+  },
+  {
+    "id": "pelvis",
+    "group": "body",
+    "variant": "neon",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      154,
+      197
+    ],
+    "sheet": "pelvis-neon.png",
+    "gif": "pelvis-neon.gif",
+    "webp": "pelvis-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/29bb4174-dd37-490f-a902-1811d1e60568/assets/pelvis/full.png"
+  },
+  {
+    "id": "arm-left",
+    "group": "body",
+    "variant": "neon",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      134,
+      166
+    ],
+    "sheet": "arm-left-neon.png",
+    "gif": "arm-left-neon.gif",
+    "webp": "arm-left-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/29bb4174-dd37-490f-a902-1811d1e60568/assets/arm-left/full.png"
+  },
+  {
+    "id": "arm-right",
+    "group": "body",
+    "variant": "neon",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      177,
+      182
+    ],
+    "sheet": "arm-right-neon.png",
+    "gif": "arm-right-neon.gif",
+    "webp": "arm-right-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/29bb4174-dd37-490f-a902-1811d1e60568/assets/arm-right/full.png"
+  },
+  {
+    "id": "leg-left",
+    "group": "body",
+    "variant": "neon",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      145,
+      228
+    ],
+    "sheet": "leg-left-neon.png",
+    "gif": "leg-left-neon.gif",
+    "webp": "leg-left-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/29bb4174-dd37-490f-a902-1811d1e60568/assets/leg-left/full.png"
+  },
+  {
+    "id": "leg-right",
+    "group": "body",
+    "variant": "neon",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      161,
+      227
+    ],
+    "sheet": "leg-right-neon.png",
+    "gif": "leg-right-neon.gif",
+    "webp": "leg-right-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/29bb4174-dd37-490f-a902-1811d1e60568/assets/leg-right/full.png"
+  },
+  {
+    "id": "heart",
+    "group": "body",
+    "variant": "neon",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      153,
+      150
+    ],
+    "sheet": "heart-neon.png",
+    "gif": "heart-neon.gif",
+    "webp": "heart-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/29bb4174-dd37-490f-a902-1811d1e60568/assets/heart/full.png"
+  },
+  {
+    "id": "head",
+    "group": "body",
+    "variant": "swirl",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      155,
+      122
+    ],
+    "sheet": "head-swirl.png",
+    "gif": "head-swirl.gif",
+    "webp": "head-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/3185fa3c-9d15-4561-885c-0eb77aa13dab/assets/head/full.png"
+  },
+  {
+    "id": "torso",
+    "group": "body",
+    "variant": "swirl",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      154,
+      161
+    ],
+    "sheet": "torso-swirl.png",
+    "gif": "torso-swirl.gif",
+    "webp": "torso-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/3185fa3c-9d15-4561-885c-0eb77aa13dab/assets/torso/full.png"
+  },
+  {
+    "id": "pelvis",
+    "group": "body",
+    "variant": "swirl",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      154,
+      197
+    ],
+    "sheet": "pelvis-swirl.png",
+    "gif": "pelvis-swirl.gif",
+    "webp": "pelvis-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/3185fa3c-9d15-4561-885c-0eb77aa13dab/assets/pelvis/full.png"
+  },
+  {
+    "id": "arm-left",
+    "group": "body",
+    "variant": "swirl",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      134,
+      166
+    ],
+    "sheet": "arm-left-swirl.png",
+    "gif": "arm-left-swirl.gif",
+    "webp": "arm-left-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/3185fa3c-9d15-4561-885c-0eb77aa13dab/assets/arm-left/full.png"
+  },
+  {
+    "id": "arm-right",
+    "group": "body",
+    "variant": "swirl",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      177,
+      182
+    ],
+    "sheet": "arm-right-swirl.png",
+    "gif": "arm-right-swirl.gif",
+    "webp": "arm-right-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/3185fa3c-9d15-4561-885c-0eb77aa13dab/assets/arm-right/full.png"
+  },
+  {
+    "id": "leg-left",
+    "group": "body",
+    "variant": "swirl",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      145,
+      228
+    ],
+    "sheet": "leg-left-swirl.png",
+    "gif": "leg-left-swirl.gif",
+    "webp": "leg-left-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/3185fa3c-9d15-4561-885c-0eb77aa13dab/assets/leg-left/full.png"
+  },
+  {
+    "id": "leg-right",
+    "group": "body",
+    "variant": "swirl",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      161,
+      227
+    ],
+    "sheet": "leg-right-swirl.png",
+    "gif": "leg-right-swirl.gif",
+    "webp": "leg-right-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/3185fa3c-9d15-4561-885c-0eb77aa13dab/assets/leg-right/full.png"
+  },
+  {
+    "id": "heart",
+    "group": "body",
+    "variant": "swirl",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      153,
+      150
+    ],
+    "sheet": "heart-swirl.png",
+    "gif": "heart-swirl.gif",
+    "webp": "heart-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/3185fa3c-9d15-4561-885c-0eb77aa13dab/assets/heart/full.png"
+  },
+  {
+    "id": "ring-cyan",
+    "group": "body",
+    "variant": "drift",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      153,
+      150
+    ],
+    "sheet": "ring-cyan-drift.png",
+    "gif": "ring-cyan-drift.gif",
+    "webp": "ring-cyan-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/28e84add-c5b8-4b8f-b44a-352570e38ee1/assets/ring-cyan/full.png"
+  },
+  {
+    "id": "ring-pink",
+    "group": "body",
+    "variant": "drift",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      153,
+      150
+    ],
+    "sheet": "ring-pink-drift.png",
+    "gif": "ring-pink-drift.gif",
+    "webp": "ring-pink-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/28e84add-c5b8-4b8f-b44a-352570e38ee1/assets/ring-pink/full.png"
+  },
+  {
+    "id": "ring-cyan",
+    "group": "body",
+    "variant": "neon",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      153,
+      150
+    ],
+    "sheet": "ring-cyan-neon.png",
+    "gif": "ring-cyan-neon.gif",
+    "webp": "ring-cyan-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/794b6f5b-2ad2-4098-b228-77d0cbf4d287/assets/ring-cyan/full.png"
+  },
+  {
+    "id": "ring-pink",
+    "group": "body",
+    "variant": "neon",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      153,
+      150
+    ],
+    "sheet": "ring-pink-neon.png",
+    "gif": "ring-pink-neon.gif",
+    "webp": "ring-pink-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/794b6f5b-2ad2-4098-b228-77d0cbf4d287/assets/ring-pink/full.png"
+  },
+  {
+    "id": "ring-cyan",
+    "group": "body",
+    "variant": "swirl",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      153,
+      150
+    ],
+    "sheet": "ring-cyan-swirl.png",
+    "gif": "ring-cyan-swirl.gif",
+    "webp": "ring-cyan-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/c4e3cd5f-6e76-4efc-bcf6-407da6077df2/assets/ring-cyan/full.png"
+  },
+  {
+    "id": "ring-pink",
+    "group": "body",
+    "variant": "swirl",
+    "width": 160,
+    "height": 160,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      80,
+      80
+    ],
+    "source_anchor": [
+      153,
+      150
+    ],
+    "sheet": "ring-pink-swirl.png",
+    "gif": "ring-pink-swirl.gif",
+    "webp": "ring-pink-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/c4e3cd5f-6e76-4efc-bcf6-407da6077df2/assets/ring-pink/full.png"
+  },
+  {
+    "id": "shard-01",
+    "group": "particles",
+    "variant": "drift",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      41,
+      89
+    ],
+    "sheet": "shard-01-drift.png",
+    "gif": "shard-01-drift.gif",
+    "webp": "shard-01-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/daf3a9b9-c379-4c61-9a5d-176c2a496c45/assets/shard-01/full.png"
+  },
+  {
+    "id": "shard-02",
+    "group": "particles",
+    "variant": "drift",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      200,
+      74
+    ],
+    "sheet": "shard-02-drift.png",
+    "gif": "shard-02-drift.gif",
+    "webp": "shard-02-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/daf3a9b9-c379-4c61-9a5d-176c2a496c45/assets/shard-02/full.png"
+  },
+  {
+    "id": "shard-03",
+    "group": "particles",
+    "variant": "drift",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      177,
+      9
+    ],
+    "sheet": "shard-03-drift.png",
+    "gif": "shard-03-drift.gif",
+    "webp": "shard-03-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/daf3a9b9-c379-4c61-9a5d-176c2a496c45/assets/shard-03/full.png"
+  },
+  {
+    "id": "shard-04",
+    "group": "particles",
+    "variant": "drift",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      223,
+      102
+    ],
+    "sheet": "shard-04-drift.png",
+    "gif": "shard-04-drift.gif",
+    "webp": "shard-04-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/daf3a9b9-c379-4c61-9a5d-176c2a496c45/assets/shard-04/full.png"
+  },
+  {
+    "id": "shard-05",
+    "group": "particles",
+    "variant": "drift",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      50,
+      67
+    ],
+    "sheet": "shard-05-drift.png",
+    "gif": "shard-05-drift.gif",
+    "webp": "shard-05-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/daf3a9b9-c379-4c61-9a5d-176c2a496c45/assets/shard-05/full.png"
+  },
+  {
+    "id": "shard-06",
+    "group": "particles",
+    "variant": "drift",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      132,
+      135
+    ],
+    "sheet": "shard-06-drift.png",
+    "gif": "shard-06-drift.gif",
+    "webp": "shard-06-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/daf3a9b9-c379-4c61-9a5d-176c2a496c45/assets/shard-06/full.png"
+  },
+  {
+    "id": "shard-07",
+    "group": "particles",
+    "variant": "drift",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      59,
+      118
+    ],
+    "sheet": "shard-07-drift.png",
+    "gif": "shard-07-drift.gif",
+    "webp": "shard-07-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/daf3a9b9-c379-4c61-9a5d-176c2a496c45/assets/shard-07/full.png"
+  },
+  {
+    "id": "shard-08",
+    "group": "particles",
+    "variant": "drift",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      235,
+      80
+    ],
+    "sheet": "shard-08-drift.png",
+    "gif": "shard-08-drift.gif",
+    "webp": "shard-08-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/daf3a9b9-c379-4c61-9a5d-176c2a496c45/assets/shard-08/full.png"
+  },
+  {
+    "id": "shard-01",
+    "group": "particles",
+    "variant": "neon",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      41,
+      89
+    ],
+    "sheet": "shard-01-neon.png",
+    "gif": "shard-01-neon.gif",
+    "webp": "shard-01-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/231a8be5-1a3b-4882-bf6b-72301929e56d/assets/shard-01/full.png"
+  },
+  {
+    "id": "shard-02",
+    "group": "particles",
+    "variant": "neon",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      200,
+      74
+    ],
+    "sheet": "shard-02-neon.png",
+    "gif": "shard-02-neon.gif",
+    "webp": "shard-02-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/231a8be5-1a3b-4882-bf6b-72301929e56d/assets/shard-02/full.png"
+  },
+  {
+    "id": "shard-03",
+    "group": "particles",
+    "variant": "neon",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      177,
+      9
+    ],
+    "sheet": "shard-03-neon.png",
+    "gif": "shard-03-neon.gif",
+    "webp": "shard-03-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/231a8be5-1a3b-4882-bf6b-72301929e56d/assets/shard-03/full.png"
+  },
+  {
+    "id": "shard-04",
+    "group": "particles",
+    "variant": "neon",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      223,
+      102
+    ],
+    "sheet": "shard-04-neon.png",
+    "gif": "shard-04-neon.gif",
+    "webp": "shard-04-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/231a8be5-1a3b-4882-bf6b-72301929e56d/assets/shard-04/full.png"
+  },
+  {
+    "id": "shard-05",
+    "group": "particles",
+    "variant": "neon",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      50,
+      67
+    ],
+    "sheet": "shard-05-neon.png",
+    "gif": "shard-05-neon.gif",
+    "webp": "shard-05-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/231a8be5-1a3b-4882-bf6b-72301929e56d/assets/shard-05/full.png"
+  },
+  {
+    "id": "shard-06",
+    "group": "particles",
+    "variant": "neon",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      132,
+      135
+    ],
+    "sheet": "shard-06-neon.png",
+    "gif": "shard-06-neon.gif",
+    "webp": "shard-06-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/231a8be5-1a3b-4882-bf6b-72301929e56d/assets/shard-06/full.png"
+  },
+  {
+    "id": "shard-07",
+    "group": "particles",
+    "variant": "neon",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      59,
+      118
+    ],
+    "sheet": "shard-07-neon.png",
+    "gif": "shard-07-neon.gif",
+    "webp": "shard-07-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/231a8be5-1a3b-4882-bf6b-72301929e56d/assets/shard-07/full.png"
+  },
+  {
+    "id": "shard-08",
+    "group": "particles",
+    "variant": "neon",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      235,
+      80
+    ],
+    "sheet": "shard-08-neon.png",
+    "gif": "shard-08-neon.gif",
+    "webp": "shard-08-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/231a8be5-1a3b-4882-bf6b-72301929e56d/assets/shard-08/full.png"
+  },
+  {
+    "id": "shard-01",
+    "group": "particles",
+    "variant": "swirl",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      41,
+      89
+    ],
+    "sheet": "shard-01-swirl.png",
+    "gif": "shard-01-swirl.gif",
+    "webp": "shard-01-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/98c0a471-816b-4a37-87b8-32555fdec71f/assets/shard-01/full.png"
+  },
+  {
+    "id": "shard-02",
+    "group": "particles",
+    "variant": "swirl",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      200,
+      74
+    ],
+    "sheet": "shard-02-swirl.png",
+    "gif": "shard-02-swirl.gif",
+    "webp": "shard-02-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/98c0a471-816b-4a37-87b8-32555fdec71f/assets/shard-02/full.png"
+  },
+  {
+    "id": "shard-03",
+    "group": "particles",
+    "variant": "swirl",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      177,
+      9
+    ],
+    "sheet": "shard-03-swirl.png",
+    "gif": "shard-03-swirl.gif",
+    "webp": "shard-03-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/98c0a471-816b-4a37-87b8-32555fdec71f/assets/shard-03/full.png"
+  },
+  {
+    "id": "shard-04",
+    "group": "particles",
+    "variant": "swirl",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      223,
+      102
+    ],
+    "sheet": "shard-04-swirl.png",
+    "gif": "shard-04-swirl.gif",
+    "webp": "shard-04-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/98c0a471-816b-4a37-87b8-32555fdec71f/assets/shard-04/full.png"
+  },
+  {
+    "id": "shard-05",
+    "group": "particles",
+    "variant": "swirl",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      50,
+      67
+    ],
+    "sheet": "shard-05-swirl.png",
+    "gif": "shard-05-swirl.gif",
+    "webp": "shard-05-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/98c0a471-816b-4a37-87b8-32555fdec71f/assets/shard-05/full.png"
+  },
+  {
+    "id": "shard-06",
+    "group": "particles",
+    "variant": "swirl",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      132,
+      135
+    ],
+    "sheet": "shard-06-swirl.png",
+    "gif": "shard-06-swirl.gif",
+    "webp": "shard-06-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/98c0a471-816b-4a37-87b8-32555fdec71f/assets/shard-06/full.png"
+  },
+  {
+    "id": "shard-07",
+    "group": "particles",
+    "variant": "swirl",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      59,
+      118
+    ],
+    "sheet": "shard-07-swirl.png",
+    "gif": "shard-07-swirl.gif",
+    "webp": "shard-07-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/98c0a471-816b-4a37-87b8-32555fdec71f/assets/shard-07/full.png"
+  },
+  {
+    "id": "shard-08",
+    "group": "particles",
+    "variant": "swirl",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      235,
+      80
+    ],
+    "sheet": "shard-08-swirl.png",
+    "gif": "shard-08-swirl.gif",
+    "webp": "shard-08-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/98c0a471-816b-4a37-87b8-32555fdec71f/assets/shard-08/full.png"
+  },
+  {
+    "id": "dust-01",
+    "group": "particles",
+    "variant": "drift",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      93,
+      8
+    ],
+    "sheet": "dust-01-drift.png",
+    "gif": "dust-01-drift.gif",
+    "webp": "dust-01-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/32cbfe67-eb58-4320-a635-c37e100c57ba/assets/dust-01/full.png"
+  },
+  {
+    "id": "dust-02",
+    "group": "particles",
+    "variant": "drift",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      150,
+      59
+    ],
+    "sheet": "dust-02-drift.png",
+    "gif": "dust-02-drift.gif",
+    "webp": "dust-02-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/32cbfe67-eb58-4320-a635-c37e100c57ba/assets/dust-02/full.png"
+  },
+  {
+    "id": "dust-03",
+    "group": "particles",
+    "variant": "drift",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      20,
+      96
+    ],
+    "sheet": "dust-03-drift.png",
+    "gif": "dust-03-drift.gif",
+    "webp": "dust-03-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/32cbfe67-eb58-4320-a635-c37e100c57ba/assets/dust-03/full.png"
+  },
+  {
+    "id": "dust-04",
+    "group": "particles",
+    "variant": "drift",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      84,
+      141
+    ],
+    "sheet": "dust-04-drift.png",
+    "gif": "dust-04-drift.gif",
+    "webp": "dust-04-drift.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/32cbfe67-eb58-4320-a635-c37e100c57ba/assets/dust-04/full.png"
+  },
+  {
+    "id": "dust-01",
+    "group": "particles",
+    "variant": "neon",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      93,
+      8
+    ],
+    "sheet": "dust-01-neon.png",
+    "gif": "dust-01-neon.gif",
+    "webp": "dust-01-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/98d5e453-f490-4b0c-929e-5c087240973f/assets/dust-01/full.png"
+  },
+  {
+    "id": "dust-02",
+    "group": "particles",
+    "variant": "neon",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      150,
+      59
+    ],
+    "sheet": "dust-02-neon.png",
+    "gif": "dust-02-neon.gif",
+    "webp": "dust-02-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/98d5e453-f490-4b0c-929e-5c087240973f/assets/dust-02/full.png"
+  },
+  {
+    "id": "dust-03",
+    "group": "particles",
+    "variant": "neon",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      20,
+      96
+    ],
+    "sheet": "dust-03-neon.png",
+    "gif": "dust-03-neon.gif",
+    "webp": "dust-03-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/98d5e453-f490-4b0c-929e-5c087240973f/assets/dust-03/full.png"
+  },
+  {
+    "id": "dust-04",
+    "group": "particles",
+    "variant": "neon",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      84,
+      141
+    ],
+    "sheet": "dust-04-neon.png",
+    "gif": "dust-04-neon.gif",
+    "webp": "dust-04-neon.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/98d5e453-f490-4b0c-929e-5c087240973f/assets/dust-04/full.png"
+  },
+  {
+    "id": "dust-01",
+    "group": "particles",
+    "variant": "swirl",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      93,
+      8
+    ],
+    "sheet": "dust-01-swirl.png",
+    "gif": "dust-01-swirl.gif",
+    "webp": "dust-01-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/be550b50-40f9-410e-993b-48a2c01a2d68/assets/dust-01/full.png"
+  },
+  {
+    "id": "dust-02",
+    "group": "particles",
+    "variant": "swirl",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      150,
+      59
+    ],
+    "sheet": "dust-02-swirl.png",
+    "gif": "dust-02-swirl.gif",
+    "webp": "dust-02-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/be550b50-40f9-410e-993b-48a2c01a2d68/assets/dust-02/full.png"
+  },
+  {
+    "id": "dust-03",
+    "group": "particles",
+    "variant": "swirl",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      20,
+      96
+    ],
+    "sheet": "dust-03-swirl.png",
+    "gif": "dust-03-swirl.gif",
+    "webp": "dust-03-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/be550b50-40f9-410e-993b-48a2c01a2d68/assets/dust-03/full.png"
+  },
+  {
+    "id": "dust-04",
+    "group": "particles",
+    "variant": "swirl",
+    "width": 80,
+    "height": 80,
+    "frames": 32,
+    "duration_ms": 80,
+    "columns": 8,
+    "pivot": [
+      40,
+      40
+    ],
+    "source_anchor": [
+      84,
+      141
+    ],
+    "sheet": "dust-04-swirl.png",
+    "gif": "dust-04-swirl.gif",
+    "webp": "dust-04-swirl.webp",
+    "source": "https://api.pixellab.ai/mcp/pixel-tools/be550b50-40f9-410e-993b-48a2c01a2d68/assets/dust-04/full.png"
+  }
+]

@@ -1,0 +1,248 @@
+{
+  "id": "wing-left-middle",
+  "group": "wings",
+  "variant": "drift",
+  "width": 128,
+  "height": 128,
+  "frames": 32,
+  "duration_ms": 80,
+  "columns": 8,
+  "pivot": [
+    64,
+    64
+  ],
+  "source_anchor": [
+    92,
+    157
+  ],
+  "sheet": "wing-left-middle-drift.png",
+  "gif": "wing-left-middle-drift.gif",
+  "webp": "wing-left-middle-drift.webp",
+  "source": "https://api.pixellab.ai/mcp/pixel-tools/802b11ea-7c27-41d8-8615-ffdc225353aa/assets/wing-left-middle/full.png",
+  "frame_rectangles": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 384,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 512,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 640,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 768,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 896,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 0,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 128,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 256,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 384,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 512,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 640,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 768,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 896,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 0,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 128,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 256,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 384,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 512,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 640,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 768,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 896,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 0,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 128,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 256,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 384,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 512,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 640,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 768,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    },
+    {
+      "x": 896,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "duration_ms": 80
+    }
+  ]
+}
