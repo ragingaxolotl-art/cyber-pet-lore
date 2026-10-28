@@ -86,7 +86,7 @@ function renderConnections(entry){
  const panel=$('reading-connections');panel.replaceChildren(node('h2','Follow the connections'));
  if(entry.song){const listen=node('a','Listen to '+entry.title.split(' — ')[0]+' →','primary');listen.href='songs/#song='+encodeURIComponent(entry.song);panel.append(listen);}
  if(entry.kind==='Language'||entry.kind==='Song'){
-  const translator=node('a','Open DBA translator ↗');translator.href='https://ragingaxolotl-art.github.io/era-zero-translator/';translator.target='_blank';translator.rel='noopener';panel.append(node('p','Explore the language in the translator.'),translator);
+  const translator=node('a','Open DBA translator');translator.href='translator/';panel.append(node('p','Explore the language in the translator.'),translator);
  }
  const facets=node('div',undefined,'connection-facets');
  for(const [key,values] of [['character',entry.characters||[]],['place',entry.places||[]]])for(const value of values){
@@ -183,7 +183,11 @@ function renderNotebook(){
 $('clips-only').onchange=renderNotebook;
 function route(){if(!catalog)return;const hash=location.hash.slice(1);if(hash.startsWith('read=')){const params=new URLSearchParams(hash);openReading(params.get('read'),params.get('block'));}else if(hash==='notebook')renderNotebook();else{++routeSequence;hideSelection();current=null;$('library').hidden=false;$('reader').hidden=true;$('notebook').hidden=true;if(hash.startsWith('place=')||hash.startsWith('character=')){const params=new URLSearchParams(hash);kind='';page=0;tagFilter='';$('search').value='';for(const id of ['era-filter','character-filter','place-filter','read-filter'])$(id).value='';for(const key of ['place','character'])if(params.has(key))$(key+'-filter').value=params.get(key);}renderLibrary();}}
 function download(data,name){const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=node('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
-$('backup-open').onclick=()=>{$('backup-stats').textContent=`${Object.values(state.readings).filter(r=>r.read).length} read · ${Object.values(state.readings).reduce((n,r)=>n+r.highlights.length,0)} highlights · ${Object.values(state.readings).filter(r=>r.note).length} reading notes`;$('backup-dialog').showModal();};
+$('backup-open').onclick=()=>{$('backup-stats').textContent=`${Object.values(state.readings).filter(r=>r.read).length} read · ${Object.values(state.readings).reduce((n,r)=>n+r.highlights.length,0)} highlights · ${Object.values(state.readings).filter(r=>r.note).length} reading notes · ${state.conceptQueue?.proposals.length||0} DBA proposals`;$('backup-dialog').showModal();};
+
+function openLinkedDialog(){if(location.hash==='#backups')$('backup-open').click();if(location.hash==='#notebook')$('notebook-open').click();}
+window.addEventListener('hashchange',openLinkedDialog);openLinkedDialog();
+
 $('export-backup').onclick=()=>download({...state,exportedAt:new Date().toISOString()},'cyber-pet-lore-reading-'+new Date().toISOString().slice(0,10)+'.json');
 $('import-backup').onchange=async ev=>{const file=ev.target.files[0];if(!file)return;try{if(file.size>15*1024*1024)throw Error('Choose a reading backup smaller than 15 MB.');const incoming=validateState(JSON.parse(await file.text()));beforeImport=structuredClone(state);try{localStorage.setItem(STORAGE_KEY+'.before-import',JSON.stringify(beforeImport));}catch{}state=mergeStates(state,incoming);save();$('download-before-import').hidden=false;$('import-status').textContent='Backup imported. Reading records merged.';route();}catch(err){$('import-status').textContent=err.message||'Could not import this file. Nothing changed.';}ev.target.value='';};
 $('download-before-import').onclick=()=>{if(beforeImport)download(beforeImport,'cyber-pet-lore-before-import.json');};

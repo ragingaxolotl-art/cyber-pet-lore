@@ -1,3 +1,4 @@
+import {validateConceptQueue,mergeConceptQueues} from './concept-records.mjs';
 export const STORAGE_KEY='cyber-pet-lore.reading.v1';
 export const safeArticleHref=value=>typeof value==='string'&&/^(?:wiki\.html|terms\.html|timeline\.html|illnesses\/index\.html)(?:[?#][^\s]*)?$/.test(value);
 export const emptyState=()=>({format:'cyber-pet-lore-reading',version:1,readings:{},preferences:{fontSize:19,warm:false},lastReading:null,nextClipNumber:1});
@@ -7,6 +8,7 @@ export function validateState(value){
  if(!object(value)||value.format!=='cyber-pet-lore-reading'||value.version!==1||!object(value.readings))throw Error('This is not a Cyber Pet Lore reading backup.');
  if(Object.keys(value.readings).length>10000)throw Error('This backup has too many reading records.');
  const result=emptyState();
+ if(value.conceptQueue!==undefined)result.conceptQueue=validateConceptQueue(value.conceptQueue);
  for(const [id,r] of Object.entries(value.readings)){
   if(!/^[a-zA-Z0-9_-]{1,150}$/.test(id)||!object(r)||!string(r.note??'')||!Number.isFinite(r.updatedAt)||!Array.isArray(r.highlights??[])||(r.highlights??[]).length>1500)throw Error('A reading record is invalid. Nothing was imported.');
   const highlights=[];
@@ -29,6 +31,7 @@ export function validateState(value){
 }
 export function mergeStates(current,incoming){
  const result=validateState(current),other=validateState(incoming);
+ if(other.conceptQueue)result.conceptQueue=result.conceptQueue?mergeConceptQueues(result.conceptQueue,other.conceptQueue):other.conceptQueue;
  for(const [id,r] of Object.entries(other.readings))if(!result.readings[id]||r.updatedAt>result.readings[id].updatedAt)result.readings[id]=r;
  result.nextClipNumber=Math.max(result.nextClipNumber,other.nextClipNumber);
  // Keep local clip numbers stable; renumber an imported collision once.
