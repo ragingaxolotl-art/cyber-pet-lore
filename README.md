@@ -30,7 +30,7 @@ npm start
 
 Open http://127.0.0.1:8768. GitHub Actions rebuilds, tests, and deploys `site/` to GitHub Pages.
 
-`source-data` is stored in `sources/`: only the requested fiction/reference source text and provenance, with no student profiles, game saves, credentials, or reader annotations. `tools/story-segmentation.json` records story boundaries and metadata. `tools/build_catalog.py` verifies every source paragraph and the exact concatenated source text, including text originally fused to adjacent headings. Stable paragraph IDs anchor highlights, and quote verification prevents silently moving a highlight onto changed text. When refreshing sources, preserve IDs or provide an explicit migration; paragraph insertions can otherwise invalidate old anchors. Original images and rich document layouts are not reproduced; source links remain available.
+`source-data` is stored in `sources/`: only the requested fiction/reference source text and provenance, with no student profiles, game saves, credentials, or reader annotations. `tools/story-segmentation.json` records story boundaries and metadata. `tools/build_catalog.py` verifies every source paragraph and the exact concatenated source text, including text originally fused to adjacent headings. Stable paragraph IDs anchor highlights, and quote verification prevents silently moving a highlight onto changed text. When refreshing sources, preserve IDs or provide an explicit migration; paragraph insertions can otherwise invalidate old anchors. Original rich document layouts are not reproduced; mapped project location artwork is shown separately from source paragraphs. Source links remain available.
 
 Content belongs to the project author(s); publication does not grant a new reuse license. Public source links may still require permission to open the original Google Docs.
 
@@ -40,15 +40,13 @@ Select a passage and choose **Clip**, add optional notes, review the detected ch
 
 Clips remain highlighted in the story. **My notebook → Show only clips** collects them with editable notes, a **Return to passage** link, and **Copy passage** for preparing teasers. Copying does not publish anything. The existing Save button, automatic browser saving, and JSON backups include clips. Imported clip number collisions are assigned the next available number while local numbers remain stable. Numbers are personal to the browser's reading collection, not a public global numbering system. Earlier reading backups remain supported.
 
-## Private GitHub backup
+## Private code-based backup
 
-Backups connects directly to `ragingaxolotl-art/cyber-pet-lore-backup` using a user-entered fine-grained token restricted to that repository with Contents read/write permission. The token is retained only in page memory, never in browser storage, downloads, or source control. Reconnect after refreshing or closing. No server credential is bundled in this public website.
+Open Backups, enter your backup code, and choose Unlock and back up. The site merges remote reading records, preserves a pre-merge browser copy, then saves notes, clips, highlights, tags, and progress after five idle seconds. Save and Back up now save immediately. Online records use the existing Cyber Pet service at `/lore-backups`, in separate lore tables; they are not written to either GitHub repository or student storage.
 
-Connection checks repository privacy, reads and validates `reading-backup.json`, merges existing records, and saves the collection. Changes back up after five idle seconds while connected; Save and Back up now request immediate backup. Status is visible above the page and in Backups. GitHub failures leave browser data intact. Wait for confirmation before closing. Backups over 900 KB require JSON download instead.
+The server-only `LORE_ACCESS_CODE` secret authorizes an independent 12-hour session. Only its opaque session token is kept in this tab's session storage; the code is not persisted or bundled. Refresh resumes the session. Lock revokes it. Local reading data remains on the device after locking. Anyone with the shared code has access to the online notebook.
 
-Merge latest GitHub backup merges other-device updates; newer whole-reading records win, as for file imports. Prior local records can be downloaded from Backups after a merge. Concurrent GitHub changes stop writes until reconnect/merge, avoiding blind overwrites. GitHub commits retain previous versions. Connecting an empty browser restores existing records. The feature cannot access records from another browser/device; connect from the browser holding the notes.
-
-API reference: https://docs.github.com/en/rest/repos/contents
+Server checks enforce allowed origins, login throttling, a 900 KB request limit, validated reading data, and atomic revision comparisons. Prior versions remain in private storage. A conflicting save stops and requests Merge latest backup; newer whole-reading records win on merge. Download/import remain available. Existing private GitHub backups are not deleted; download their JSON and import it if needed. The GitHub client module remains for compatibility tests, but the main website no longer asks for a GitHub token.
 
 ## Era timeline
 
@@ -62,7 +60,7 @@ Validation: timeline and reading tests cover existing reading/clip/backup behavi
 
 ## Era Zero songs
 
-Open **Era Zero songs** in the main navigation, or visit https://ragingaxolotl-art.github.io/cyber-pet-lore/songs/. Four original instrumental compositions include full arrangements, isolated language melodies, synchronized verified meanings, phrase seeking, and audio/MIDI/meaning-sheet downloads. Source: `CPP-V3/exports/era-zero-songs/2026-10-27` on the Cyber Pet Workspace SSD. These are new compositions, not historical recordings or human-sung voices. The source export retains lossless masters and score provenance.
+Open **Era Zero songs** in the main navigation, or visit https://ragingaxolotl-art.github.io/cyber-pet-lore/songs/. Four original songs now use three synthesized DBA voices each. Every voice carries canonical Era Zero statements, with simultaneous meaning cards, solo listening, phrase seeking, and audio/MIDI/meaning-sheet downloads. Source: `CPP-V3/exports/era-zero-songs/2026-10-27` on the Cyber Pet Workspace SSD. These are new compositions, not historical recordings or human-sung voices. The source export retains lossless masters and score provenance.
 
 ## Connected song lore and translator
 
@@ -84,3 +82,18 @@ Open **Connections** (`wiki.html`) to search 348 indexed people, places, stories
 The **Illnesses** directory contains 46 named conditions: 15 random category variants and 31 location-specific trademarks restricted to corruption 4–5. Every entry includes an animated native Godot preview on anonymous sample artwork, a frame sheet, treatment information, and a clearly hypothetical future story hook. Filters cover category, location/name, and trademark status. The original stories and existing reading anchors are preserved.
 
 Artwork includes 14 reviewed transparent PixelLab sprites, seven eight-frame loops, and native Godot echo, orbit, heat, and pulse effects. Reduced-motion preferences show still previews. The downloadable ZIP groups each illness with its description and frame sheet. Google Drive and CPP Lore/Locations Atlas tabs link to the same field guide. Runtime balance remains authored in CPP-V3/config/scenery_profiles.json.
+## Semantic vocal arrangements (version 2)
+
+The current player uses `site/songs/voices-v2/`: four songs, twelve separately auditable voices, 144 assertions and 1,508 notes. Every pitched event belongs to a canonical phrase. There are no accompaniment-only notes or percussion. The three concurrent statements remain independent; this does not establish a new canonical polyphonic grammar. Sound color is synthesized DBA vocal timbre, not a claim of recorded human pronunciation. Original instrumental exports remain as historical files; the player and backstories use version 2.
+
+`tools/compose_song_voices.mjs <translator-directory>` derives the score from the official read-only translator MIDI renderer. `render_song_voices.py` renders lossless masters, `encode_song_voices.py` makes AAC listening files, `verify_song_voices.mjs <translator-directory>` verifies every solo MIDI phrase against the official renderer, and `check_song_voice_audio.py` checks every lossless solo note’s global spectral peak, clipping, and silence outside assigned note windows. Validation reports and the complete formal-source score are published with the version. Codec tools require macOS; numpy is required for rendering and audio checks.
+
+## Location artwork
+
+Existing location composites appear on matching **Connections** place pages and their location readings. `sources/location-art.json` records atlas IDs, exact wiki-topic/readings mappings, original asset paths, attribution and SHA-256 hashes. Display copies preserve the source dimensions and use WebP compression. The import source is the available October 26 project staging snapshot at `/private/tmp/boulder-test-source`; the SSD workspace volume was unavailable during this update. No student media or saves are included. The 65 mapped places include 66 views (the chapel has an exterior and interior). Places without available images remain text-only; no neighboring artwork is substituted.
+
+`tools/import_location_art.py <project-source-directory>` imports already existing composites using `config/location_filesystem.json`; it does not generate art. `tools/build_wiki.py` attaches checked image references to the wiki and location readings. Images remain outside source text blocks so annotations and clips retain their original anchors.
+
+Song location cards link artwork to the exact origin topic; the Listening Alcove uses explicitly labeled Garden Worlds context art. Image filenames include place names, and `site/images/locations/location-files.csv` maps every view to its original project asset and lore page. Wiki overviews and details reproduce source paragraphs with block-level citations; ambiguous identities remain separate.
+
+Character profiles and era timelines use verbatim source passages. `sources/continuity-review.json` holds reviewed indexing corrections and source-scope notes, surfaced on the wiki and readings. `sources/continuity-audit-2026-10-27.json` records audit coverage and limits. Profile appearance eras are not birth dates or proof of survival; archive allocations are explicitly fictional decoration.

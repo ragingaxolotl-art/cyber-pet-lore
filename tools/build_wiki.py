@@ -3,6 +3,7 @@ import json,re,hashlib
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];SITE=ROOT/'site'
 cat=json.loads((SITE/'catalog.json').read_text());entries=cat['entries'];content={e['id']:json.loads((SITE/'content'/(e['id']+'.json')).read_text())['blocks'] for e in entries}
+review=json.loads((ROOT/'sources/continuity-review.json').read_text())
 topics={}
 def clean(name):return re.sub(r'^The\s+','',re.sub(r'^\d+\.\s*','',name)).strip()
 def add(name,kind,target=None,aliases=()):
@@ -38,6 +39,7 @@ for e in entries:
      add(title,'History & ideas',reading_target(e,b['id']))
 # Facet people without a dedicated dossier still get a transparent mention index.
 for person in sorted({p for e in entries if e['kind']=='Story' for p in e.get('characters',[])}):add(person,'Person')
+add('Unnamed river healer','Person',reading_target(next(e for e in entries if e['id']=='stories-p14010')))
 # Explicit alternate labels from the reviewed dossiers / atlas, without substring guesses.
 aliases={'Hollis Dane':['Dane'],'Lennox Shaw':['Shaw'],'Keeper Eren':['Eren'],'Mara Vale':['Mara'],'Codex':['Codex'],'DBA':['Digital Binary Ancients'],'Dormant External Gate':['External Gate'],'Cacheboard, the Unintended Board':['Cacheboard'],'Shelter Orison, the Vanishing Shelter':['Shelter Orison'],'House of First Continuities and the Adaptive Nursery':['Adaptive Nursery','House of First Continuities'],'Central House of Meaning and the Unfinished Teaching Room':['Central House of Meaning','Unfinished Teaching Room'],'Commons and the Orison Chamber':['Orison Chamber'],'Sublevel and Pump Forty-Seven':['Sublevel','Pump Forty-Seven'],'Corridor Twelve and the Last Relay':['Corridor Twelve'],'Compatibility Route C-17, the Ghost Line':['Compatibility Route C-17','Ghost Line']}
 for name,values in aliases.items():
@@ -66,7 +68,8 @@ for e in entries:
  found={}
  for b in content[e['id']]:
   for m in pattern.finditer(b['text']):
-   for tid in lookup[m.group()]:found.setdefault(tid,b['id'])
+   for tid in lookup[m.group()]:
+    if by_id[tid]['title'] not in review['readingExclusions'].get(e['id'],[]):found.setdefault(tid,b['id'])
  reading_topics[e['id']]=list(found)
  for tid,block in found.items():
   t=by_id[tid];t['mentions'].append(reading_target(e,block));t['eras']=sorted(set(t['eras']+e.get('era',[])))
@@ -82,6 +85,58 @@ for era in time['eras']:
  for ev in era['events']:
   found={tid for m in pattern.finditer(ev['title']+' '+' '.join(ev['text'])) for tid in lookup[m.group()]}
   for tid in found:by_id[tid].setdefault('events',[]).append({'title':ev['title'],'era':era['number'],'href':'timeline.html#'+era['id']+'&event='+ev['id'],'status':ev['status']})
-output={'version':1,'notice':'Links identify named mentions and related reading, not proof of identity, causation, or a personal relationship. Source status and uncertainties remain authoritative.','topics':list(topics.values()),'aliases':{a:ids[0] for a,ids in lookup.items()},'readings':reading_topics}
+# Wiki articles reproduce existing prose, retaining source status and block links.
+entry_by_id={e['id']:e for e in entries}
+for topic in topics.values():
+ topic['article']={'summary':None,'sections':[]}
+ if topic.get('choices'):
+  topic['article']['note']=('This name refers to more than one indexed topic. Choose the intended topic below; their histories are kept separate.' if len(topic['choices'])>1 else 'Only the listed identity is supported by the indexed prose. Earlier unsupported identities have been removed.')
+  continue
+ seen_text=set()
+ sources=topic['targets'] or topic['mentions']
+ sources=sorted(sources,key=lambda x:(x['status'] in ['alternate','superseded'],x['kind'] in ['Draft','Reference']))
+ for source in sources:
+  blocks=content[source['readingId']]
+  anchor=source['href'].split('&block=')[-1] if '&block=' in source['href'] else None
+  if topic['targets']:
+   if anchor:
+    start=next((i for i,b in enumerate(blocks) if b['id']==anchor),0)
+    level=blocks[start]['style'];end=len(blocks)
+    if level.startswith('HEADING'):
+     end=next((i for i in range(start+1,len(blocks)) if blocks[i]['style'].startswith('HEADING') and blocks[i]['style']<=level),len(blocks))
+    blocks=blocks[start:end]
+   selected=[b for b in blocks if not b['style'].startswith('HEADING') and len(b['text'].strip())>35]
+  else:
+   selected=[b for b in blocks if not b['style'].startswith('HEADING') and len(b['text'].strip())>35 and (any(topic['id'] in lookup[m.group()] for m in pattern.finditer(b['text'])) or (topic['title'] in entry_by_id[source['readingId']].get('characters',[]) and re.search(r'(?<!\w)'+re.escape(topic['title'].split(' (')[0])+r'(?!\w)',b['text'])))]
+  selected=[b for b in selected if b['text'] not in seen_text][:12 if topic['targets'] else 3]
+  if not selected:continue
+  # The overview is an unaltered informative paragraph, not a generated assertion.
+  if topic['article']['summary'] is None:
+   overview=next((b for b in selected if len(b['text'])>80 and not b['text'].startswith(('Status:','Era ','New location','New supporting'))),selected[0])
+   topic['article']['summary']={'text':overview['text'],'href':'index.html#read='+source['readingId']+'&block='+overview['id'],'title':source['title'],'status':source['status'],'readingId':source['readingId'],'blockId':overview['id']}
+  paragraphs=[{'text':b['text'],'blockId':b['id'],'href':'index.html#read='+source['readingId']+'&block='+b['id']} for b in selected]
+  topic['article']['sections'].append({'title':source['title'],'status':source['status'],'readingId':source['readingId'],'paragraphs':paragraphs})
+  seen_text.update(b['text'] for b in selected)
+  if len(topic['article']['sections'])>=3:break
+ topic['article']['note']=('Overview and details use the existing source wording. Proposed, alternate and newly added material keep their source labels.' if topic['targets'] else 'No dedicated article is recorded for this topic. The overview and details below are the available source passages; a fuller history is not established.')
+ if topic['article']['summary'] is None:topic['article']['note']='The archive indexes this name, but no substantive descriptive passage is available. No history or identity has been inferred.'
+# Attach only explicitly mapped existing artwork; never borrow a neighboring place’s image.
+art=json.loads((ROOT/'sources/location-art.json').read_text())
+reading_images={}
+for location in art['locations']:
+ assert location['topicId'] in by_id, location['name']
+ images=[]
+ for image in location['images']:
+  assert (SITE/image['src']).is_file(), image['src']
+  images.append({k:image[k] for k in ['src','width','height','view','caption','alt']})
+ by_id[location['topicId']]['images']=images
+ for reading in location['readingIds']:
+  assert reading in content, reading
+  reading_images[reading]=images
+output={'version':1,'notice':'Links identify named mentions and related reading, not proof of identity, causation, or a personal relationship. Source status and uncertainties remain authoritative.','topics':list(topics.values()),'readingNotes':{e['id']:[n for n in review['notes'] if e['id'] in n['readingIds']] for e in entries},'readingExclusions':{rid:[t['id'] for t in topics.values() if t['title'] in names] for rid,names in review['readingExclusions'].items()},'readingImages':reading_images,'aliases':{a:ids[0] for a,ids in lookup.items()},'readings':reading_topics}
+import sys
+sys.path.insert(0,str(ROOT/"tools"))
+from build_profiles import attach_profiles
+attach_profiles(output,entries,content,review)
 (SITE/'wiki.json').write_text(json.dumps(output,ensure_ascii=False,separators=(',',':'))+'\n')
 print('Wiki:',len(topics),'topics;',sum(len(t['mentions']) for t in topics.values()),'reading references')
