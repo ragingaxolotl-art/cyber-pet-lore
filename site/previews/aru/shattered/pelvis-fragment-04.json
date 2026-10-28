@@ -1,0 +1,216 @@
+{
+  "id": "pelvis-fragment-04",
+  "parent": "pelvis",
+  "detached": true,
+  "source_origin": [
+    159,
+    206
+  ],
+  "width": 80,
+  "height": 80,
+  "frames": 32,
+  "duration_ms": 80,
+  "columns": 8,
+  "pivot": [
+    40,
+    40
+  ],
+  "sheet": "pelvis-fragment-04.png",
+  "gif": "pelvis-fragment-04.gif",
+  "webp": "pelvis-fragment-04.webp",
+  "drawing_id": "0dfc2fd2-b79b-45e7-b470-4e7c34b05d0f",
+  "rectangles": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 80,
+      "y": 0,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 240,
+      "y": 0,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 320,
+      "y": 0,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 400,
+      "y": 0,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 480,
+      "y": 0,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 560,
+      "y": 0,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 0,
+      "y": 80,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 80,
+      "y": 80,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 160,
+      "y": 80,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 240,
+      "y": 80,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 320,
+      "y": 80,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 400,
+      "y": 80,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 480,
+      "y": 80,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 560,
+      "y": 80,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 0,
+      "y": 160,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 80,
+      "y": 160,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 160,
+      "y": 160,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 240,
+      "y": 160,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 320,
+      "y": 160,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 400,
+      "y": 160,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 480,
+      "y": 160,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 560,
+      "y": 160,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 0,
+      "y": 240,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 80,
+      "y": 240,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 160,
+      "y": 240,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 240,
+      "y": 240,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 320,
+      "y": 240,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 400,
+      "y": 240,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 480,
+      "y": 240,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "x": 560,
+      "y": 240,
+      "width": 80,
+      "height": 80
+    }
+  ]
+}
