@@ -2,6 +2,8 @@
 import json
 
 def add_reference_readings(root,catalog,sources):
+ from build_potion_readings import add_potion_readings
+ add_potion_readings(root,catalog,sources)
  out=root/'site';content=out/'content'
  def write(id,title,kind,blocks,summary,url,status='reference',links=None):
   outline=[{'id':b['id'],'title':b['text'],'level':2} for b in blocks if b['style']=='HEADING_2']

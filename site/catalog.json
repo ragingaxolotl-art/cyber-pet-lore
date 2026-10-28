@@ -5354,6 +5354,14 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "remedy-immune_serum",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "ribbon-arena_first",
           "label": "Reading mentioning this entry"
         },
@@ -25776,12 +25784,1370 @@
       ]
     },
     {
+      "id": "remedy-red_heart",
+      "title": "Threadshell",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34492,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Mending has survived more clearly than the explanations once attached to it. Threadshell compresses the idea of holding a damaged pattern together into a small shell and one releasable knot; its everyday name describes what an Era Four caretaker can hold.",
+      "wordCount": 120,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-black_moon",
+      "title": "Windseed",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34493,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Windseed carries the old temptation to borrow effort from the next quiet interval. Its wound center gives the object an ordinary name, while its retained cost to an already strained pet belongs in the instructions, not in a reassuring color.",
+      "wordCount": 159,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-blue_hexagon",
+      "title": "Doorfold",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34494,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Doorfold makes room by opening a little space within itself. It echoes the world’s shelters and nested spaces without containing a person, a memory archive, or a passage to another world.",
+      "wordCount": 133,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-black_heart",
+      "title": "Echoshell",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34495,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Echoshell keeps the form of a listening vessel after the larger customs around it have compressed. Its care function survives in a shell and a pearl. The familiar shape does not remove its drawback for an already distressed pet.",
+      "wordCount": 157,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-pink_droplet",
+      "title": "Rainleaf",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34496,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Rainleaf preserves a small act of keeping something gentle for later. A caretaker need not know a long account of the weather to recognize a leaf holding a drop; learning what that drop does remains part of care.",
+      "wordCount": 123,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-pink_heart",
+      "title": "Lamphouse",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34497,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Lamphouse reduces the welcome of an inhabited place to a window and a light. The object recalls ordinary shelter and company rather than a lost ruler or a fragment of an ancient person.",
+      "wordCount": 128,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-white_moon",
+      "title": "Hushshell",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34498,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Hushshell gives a quiet interval a portable form. Its overlapping plates preserve a simple opening gesture, while accounts of why quiet matters belong beside the object in the lore book.",
+      "wordCount": 121,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-yellow_long_diamond",
+      "title": "Joyfold",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34499,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Joyfold carries the folded form of shared celebration into everyday care. What once required a room, preparation, and many hands now appears as a small tied decoration; its value still comes from use in a living relationship.",
+      "wordCount": 128,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-yellow_round",
+      "title": "Jinglepod",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34500,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Jinglepod retains sound and play more readily than the whole occasion that once held them. Its loose beads give it an ordinary name. Cheerfulness is not a guarantee that the object suits every condition.",
+      "wordCount": 144,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-blue_droplet",
+      "title": "Cloudstone",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34501,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Cloudstone holds a little weather between brackets. The name is a practical Era Four compound for an object whose older environmental associations are larger than its present care function.",
+      "wordCount": 121,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-green_long_diamond",
+      "title": "Rootgate",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34502,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Rootgate joins two familiar shapes, a root and a gate. Its woven screen suggests filtering and passage, but its exact care behavior is the surviving usable rule, not a promise to guard against every danger.",
+      "wordCount": 127,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-green_droplet",
+      "title": "Fernbud",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34503,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Fernbud is the compact continuation of tending a living thing in a made vessel. Its cradle and folded frond keep the gesture legible after the surrounding knowledge has simplified.",
+      "wordCount": 119,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-orange_droplet",
+      "title": "Emberbowl",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34504,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Emberbowl keeps the memory of preparing a small warm portion in the shape of a bowl and a curl. It is an everyday care object, not an invitation to infer its effects from heat or color alone.",
+      "wordCount": 129,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-orange_vial",
+      "title": "Tramspool",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34505,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Tramspool recalls movement along shared routes in the compact form of a wound mechanism. The little wings and turning center survive as a useful object; the name does not establish a particular lost tram line as historical fact.",
+      "wordCount": 128,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-red_diamond",
+      "title": "Mendspool",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34506,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Mendspool preserves the tools and repeated gestures of repair. Its simple name can outlive a detailed explanation of the material being mended, while the caretaker still reads which kind of injury it helps.",
+      "wordCount": 121,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-red_long_diamon",
+      "title": "Knotfork",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34507,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Knotfork keeps a knot under tension between uneven prongs. It echoes small practical repairs made with what remained available. The bent form is part of its identity rather than evidence that the object is broken.",
+      "wordCount": 129,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-red_moon",
+      "title": "Hearthpod",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34508,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Hearthpod carries the quiet warmth of a used room in a small lidded form. Its opening is a domestic gesture, a reminder that ordinary care remains valuable even when older worlds and institutions have contracted.",
+      "wordCount": 134,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-white_diamond",
+      "title": "Tidecomb",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34509,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Tidecomb gathers a shell and a comb into one ordinary word. The object suggests a remnant returned by water; its use does not restore a complete ancient identity or recover a person from an archive.",
+      "wordCount": 106,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-white_droplet",
+      "title": "Rainshutter",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34510,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Rainshutter preserves the act of opening a surface after passing weather. A window-like frame and gathered beads make the shortened name natural, while the written instructions retain its particular care function.",
+      "wordCount": 126,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-white_pyramid",
+      "title": "Leafbook",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34511,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Leafbook carries a folded leaf inside thick pages. It is a compact care object, not a readable copy of the Codex. Its form lets an everyday name coexist with a longer account in the lore book.",
+      "wordCount": 112,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-yellow_droplet",
+      "title": "Daybud",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34512,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Daybud joins the opening of a day with the opening of a small made flower. A new interval does not erase what a pet has lived through; it offers a modest practical aid within continuing care.",
+      "wordCount": 128,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-yellow_pyramid",
+      "title": "Threering",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34513,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Threering carries three unlike pieces around one knot. Its compact form recalls shared support without claiming that any three-part object represents the entire Codex or the whole history of the world.",
+      "wordCount": 123,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-vita_patch",
+      "title": "Lightweave",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34514,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Lightweave compresses the old work of joining light and cloth into a patch a caretaker can unfold. By Era Four, the ordinary name and the practical gesture survive more readily than the explanations behind its stitched pattern.",
+      "wordCount": 139,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-field_bandage",
+      "title": "Wrapwheel",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34515,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Wrapwheel keeps the rhythm of winding, carrying and wrapping in one small reel. Its everyday name comes from the motion a caretaker sees; the lore book preserves the longer connection between making cloth and tending damage.",
+      "wordCount": 115,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-emergency_medkit",
+      "title": "Helpbox",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34516,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Helpbox carries the idea of bringing several useful things to a difficult moment. Its folding compartments condense the larger work of preparation into an ordinary portable object, without making it a cure for every condition.",
+      "wordCount": 125,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-antiseptic_wipes",
+      "title": "Sweepfold",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34517,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Sweepfold preserves a familiar household gesture: opening a cloth and clearing a surface. The compressed Era Four object joins that gesture to care, while its written instructions retain the exact limits of its use.",
+      "wordCount": 113,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-broad_spectrum_antibiotics",
+      "title": "Beadpress",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34518,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Beadpress reduces a once more elaborate preparation to a lever and a few counted beads. The form remembers measuring and dispensing; the game keeps its name simple and asks the caretaker to read what the dose treats.",
+      "wordCount": 113,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-immune_serum",
+      "title": "Dewbell",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34519,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Dewbell keeps the shape of gathering and releasing a small stored portion. Its pull ring makes use an ordinary physical act, even after the language around the earlier practice has become compressed.",
+      "wordCount": 110,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "lore-p01275",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-detox_antidote",
+      "title": "Siftstone",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34520,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Siftstone preserves the work of separating and letting something pass through. Its shutters and sieve suggest that history without promising that it can remove every problem from a pet.",
+      "wordCount": 106,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-antiseptic_pack",
+      "title": "Washwing",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34521,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Washwing joins a fan's folding gesture to the act of washing. By Era Four, those once separate tools have compounded into one small care object with a short name and a specific use.",
+      "wordCount": 108,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-rapid_painkillers",
+      "title": "Easekey",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34522,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Easekey keeps the idea of releasing a held tension in a key, wheel and coil. Its name describes an everyday hope; its effects still have to be read rather than assumed.",
+      "wordCount": 119,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-sterile_bandage",
+      "title": "Sealroll",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34523,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Sealroll remembers the practical care of keeping a wrap closed until it is needed. Its small seal and wound strip carry that habit into Era Four without requiring a ceremonial title.",
+      "wordCount": 111,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "remedy-antirad_injector",
+      "title": "Clickthorn",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34524,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "Clickthorn compresses a release mechanism into a seedlike shell. Its smooth applicator and opening gesture belong to the made objects of everyday care; the name does not turn it into a plant or grant it protection beyond its recorded effects.",
+      "wordCount": 116,
+      "explicitLinks": [
+        "reference-era-four-remedies"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "reference-era-four-remedies",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
+      "id": "reference-era-four-remedies",
+      "title": "Era Four remedies — illustrated collection",
+      "kind": "Remedies",
+      "era": [
+        4
+      ],
+      "timeLabel": "Era Four · everyday care",
+      "timeOrder": 34525,
+      "status": "new gameplay lore",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "remedies",
+        "Era Four"
+      ],
+      "source": {
+        "title": "Era Four remedies",
+        "url": "#read=reference-era-four-remedies"
+      },
+      "summary": "By Era Four, older practices, meanings, and mechanisms have simplified, compounded, and compressed into objects used in ordinary life. The game keeps short English compound names and precise effects. This lore book holds the fuller context; the objects do not require elaborate ceremonial names.",
+      "wordCount": 4189,
+      "explicitLinks": [
+        "remedy-red_heart",
+        "remedy-black_moon",
+        "remedy-blue_hexagon",
+        "remedy-black_heart",
+        "remedy-pink_droplet",
+        "remedy-pink_heart",
+        "remedy-white_moon",
+        "remedy-yellow_long_diamond",
+        "remedy-yellow_round",
+        "remedy-blue_droplet",
+        "remedy-green_long_diamond",
+        "remedy-green_droplet",
+        "remedy-orange_droplet",
+        "remedy-orange_vial",
+        "remedy-red_diamond",
+        "remedy-red_long_diamon",
+        "remedy-red_moon",
+        "remedy-white_diamond",
+        "remedy-white_droplet",
+        "remedy-white_pyramid",
+        "remedy-yellow_droplet",
+        "remedy-yellow_pyramid",
+        "remedy-vita_patch",
+        "remedy-field_bandage",
+        "remedy-emergency_medkit",
+        "remedy-antiseptic_wipes",
+        "remedy-broad_spectrum_antibiotics",
+        "remedy-immune_serum",
+        "remedy-detox_antidote",
+        "remedy-antiseptic_pack",
+        "remedy-rapid_painkillers",
+        "remedy-sterile_bandage",
+        "remedy-antirad_injector"
+      ],
+      "connectionLabel": "Remedy collection",
+      "connections": [
+        {
+          "id": "lore-p01275",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "remedy-broad_spectrum_antibiotics",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-antirad_injector",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-blue_droplet",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-yellow_droplet",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-immune_serum",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-blue_hexagon",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-rapid_painkillers",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-black_heart",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-orange_droplet",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-green_droplet",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-red_moon",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-emergency_medkit",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-white_moon",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-yellow_round",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-yellow_long_diamond",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-red_long_diamon",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-pink_heart",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-white_pyramid",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-vita_patch",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-red_diamond",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-pink_droplet",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-white_droplet",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-green_long_diamond",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-sterile_bandage",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-detox_antidote",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-antiseptic_wipes",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-red_heart",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-yellow_pyramid",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-white_diamond",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-orange_vial",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-antiseptic_pack",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-black_moon",
+          "label": "Remedy collection"
+        },
+        {
+          "id": "remedy-field_bandage",
+          "label": "Remedy collection"
+        }
+      ]
+    },
+    {
       "id": "ribbon-foundling-medal",
       "title": "Foundling · animated sunburst",
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30492,
+      "timeOrder": 30526,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -25814,7 +27180,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30493,
+      "timeOrder": 30527,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -25847,7 +27213,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30494,
+      "timeOrder": 30528,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -25880,7 +27246,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30495,
+      "timeOrder": 30529,
       "status": "Archived concept",
       "characters": [],
       "places": [],
@@ -25913,7 +27279,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30496,
+      "timeOrder": 30530,
       "status": "Archived concept",
       "characters": [],
       "places": [],
@@ -25946,7 +27312,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30497,
+      "timeOrder": 30531,
       "status": "Archived concept",
       "characters": [],
       "places": [],
@@ -25979,7 +27345,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30498,
+      "timeOrder": 30532,
       "status": "Archived concept",
       "characters": [],
       "places": [],
@@ -26012,7 +27378,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30499,
+      "timeOrder": 30533,
       "status": "Archived concept",
       "characters": [],
       "places": [],
@@ -26045,7 +27411,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30500,
+      "timeOrder": 30534,
       "status": "Archived concept",
       "characters": [],
       "places": [],
@@ -26078,7 +27444,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30501,
+      "timeOrder": 30535,
       "status": "Archived concept",
       "characters": [],
       "places": [],
@@ -26111,7 +27477,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30502,
+      "timeOrder": 30536,
       "status": "Archived concept",
       "characters": [],
       "places": [],
@@ -26144,7 +27510,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30503,
+      "timeOrder": 30537,
       "status": "Archived concept",
       "characters": [],
       "places": [],
@@ -26177,7 +27543,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30504,
+      "timeOrder": 30538,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26210,7 +27576,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30505,
+      "timeOrder": 30539,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26243,7 +27609,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30506,
+      "timeOrder": 30540,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26276,7 +27642,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30507,
+      "timeOrder": 30541,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26309,7 +27675,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30508,
+      "timeOrder": 30542,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26342,7 +27708,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30509,
+      "timeOrder": 30543,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26375,7 +27741,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30510,
+      "timeOrder": 30544,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26408,7 +27774,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30511,
+      "timeOrder": 30545,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26441,7 +27807,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30512,
+      "timeOrder": 30546,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26474,7 +27840,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30513,
+      "timeOrder": 30547,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26507,7 +27873,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30514,
+      "timeOrder": 30548,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26540,7 +27906,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30515,
+      "timeOrder": 30549,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26573,7 +27939,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30516,
+      "timeOrder": 30550,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26606,7 +27972,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30517,
+      "timeOrder": 30551,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26639,7 +28005,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30518,
+      "timeOrder": 30552,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26672,7 +28038,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30519,
+      "timeOrder": 30553,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26705,7 +28071,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30520,
+      "timeOrder": 30554,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26738,7 +28104,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30521,
+      "timeOrder": 30555,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26771,7 +28137,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30522,
+      "timeOrder": 30556,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26804,7 +28170,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30523,
+      "timeOrder": 30557,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26837,7 +28203,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30524,
+      "timeOrder": 30558,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26870,7 +28236,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30525,
+      "timeOrder": 30559,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26903,7 +28269,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30526,
+      "timeOrder": 30560,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26936,7 +28302,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30527,
+      "timeOrder": 30561,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -26969,7 +28335,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30528,
+      "timeOrder": 30562,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27002,7 +28368,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30529,
+      "timeOrder": 30563,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27035,7 +28401,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30530,
+      "timeOrder": 30564,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27068,7 +28434,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30531,
+      "timeOrder": 30565,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27101,7 +28467,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30532,
+      "timeOrder": 30566,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27134,7 +28500,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30533,
+      "timeOrder": 30567,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27167,7 +28533,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30534,
+      "timeOrder": 30568,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27200,7 +28566,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30535,
+      "timeOrder": 30569,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27233,7 +28599,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30536,
+      "timeOrder": 30570,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27266,7 +28632,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30537,
+      "timeOrder": 30571,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27299,7 +28665,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30538,
+      "timeOrder": 30572,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27332,7 +28698,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30539,
+      "timeOrder": 30573,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27365,7 +28731,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30540,
+      "timeOrder": 30574,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27398,7 +28764,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30541,
+      "timeOrder": 30575,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27431,7 +28797,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30542,
+      "timeOrder": 30576,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27464,7 +28830,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30543,
+      "timeOrder": 30577,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27497,7 +28863,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30544,
+      "timeOrder": 30578,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27530,7 +28896,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30545,
+      "timeOrder": 30579,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27563,7 +28929,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30546,
+      "timeOrder": 30580,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27596,7 +28962,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30547,
+      "timeOrder": 30581,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27629,7 +28995,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30548,
+      "timeOrder": 30582,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27662,7 +29028,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30549,
+      "timeOrder": 30583,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27695,7 +29061,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30550,
+      "timeOrder": 30584,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27728,7 +29094,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30551,
+      "timeOrder": 30585,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27761,7 +29127,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30552,
+      "timeOrder": 30586,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27794,7 +29160,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30553,
+      "timeOrder": 30587,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27827,7 +29193,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30554,
+      "timeOrder": 30588,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27860,7 +29226,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30555,
+      "timeOrder": 30589,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27893,7 +29259,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30556,
+      "timeOrder": 30590,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27926,7 +29292,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30557,
+      "timeOrder": 30591,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27959,7 +29325,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30558,
+      "timeOrder": 30592,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27992,7 +29358,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30559,
+      "timeOrder": 30593,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28025,7 +29391,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30560,
+      "timeOrder": 30594,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28058,7 +29424,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30561,
+      "timeOrder": 30595,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28091,7 +29457,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30562,
+      "timeOrder": 30596,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28124,7 +29490,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30563,
+      "timeOrder": 30597,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28157,7 +29523,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30564,
+      "timeOrder": 30598,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28190,7 +29556,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30565,
+      "timeOrder": 30599,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28223,7 +29589,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30566,
+      "timeOrder": 30600,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28256,7 +29622,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30567,
+      "timeOrder": 30601,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28289,7 +29655,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30568,
+      "timeOrder": 30602,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28322,7 +29688,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30569,
+      "timeOrder": 30603,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28355,7 +29721,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30570,
+      "timeOrder": 30604,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28388,7 +29754,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30571,
+      "timeOrder": 30605,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28421,7 +29787,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30572,
+      "timeOrder": 30606,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28454,7 +29820,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30573,
+      "timeOrder": 30607,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28487,7 +29853,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30574,
+      "timeOrder": 30608,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28520,7 +29886,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30575,
+      "timeOrder": 30609,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28553,7 +29919,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30576,
+      "timeOrder": 30610,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28586,7 +29952,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30577,
+      "timeOrder": 30611,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28619,7 +29985,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30578,
+      "timeOrder": 30612,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28652,7 +30018,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30579,
+      "timeOrder": 30613,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28685,7 +30051,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30580,
+      "timeOrder": 30614,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28718,7 +30084,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30581,
+      "timeOrder": 30615,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28751,7 +30117,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30582,
+      "timeOrder": 30616,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28784,7 +30150,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30583,
+      "timeOrder": 30617,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28817,7 +30183,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30584,
+      "timeOrder": 30618,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28850,7 +30216,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30585,
+      "timeOrder": 30619,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28883,7 +30249,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30586,
+      "timeOrder": 30620,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28916,7 +30282,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30587,
+      "timeOrder": 30621,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28949,7 +30315,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30588,
+      "timeOrder": 30622,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28982,7 +30348,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30589,
+      "timeOrder": 30623,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29015,7 +30381,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30590,
+      "timeOrder": 30624,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29048,7 +30414,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30591,
+      "timeOrder": 30625,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29081,7 +30447,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30592,
+      "timeOrder": 30626,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29114,7 +30480,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30593,
+      "timeOrder": 30627,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29147,7 +30513,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30594,
+      "timeOrder": 30628,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29180,7 +30546,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30595,
+      "timeOrder": 30629,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29213,7 +30579,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30596,
+      "timeOrder": 30630,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29246,7 +30612,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30597,
+      "timeOrder": 30631,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29279,7 +30645,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30598,
+      "timeOrder": 30632,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29312,7 +30678,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30599,
+      "timeOrder": 30633,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29345,7 +30711,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30600,
+      "timeOrder": 30634,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29382,7 +30748,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30601,
+      "timeOrder": 30635,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29415,7 +30781,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30602,
+      "timeOrder": 30636,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29448,7 +30814,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30603,
+      "timeOrder": 30637,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29481,7 +30847,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30604,
+      "timeOrder": 30638,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29514,7 +30880,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30605,
+      "timeOrder": 30639,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29547,7 +30913,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30606,
+      "timeOrder": 30640,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29580,7 +30946,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30607,
+      "timeOrder": 30641,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29613,7 +30979,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30608,
+      "timeOrder": 30642,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29646,7 +31012,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30609,
+      "timeOrder": 30643,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29679,7 +31045,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30610,
+      "timeOrder": 30644,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -29712,7 +31078,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30611,
+      "timeOrder": 30645,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -29745,7 +31111,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30612,
+      "timeOrder": 30646,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -29778,7 +31144,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30613,
+      "timeOrder": 30647,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -29811,7 +31177,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30614,
+      "timeOrder": 30648,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -29844,7 +31210,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30615,
+      "timeOrder": 30649,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -29877,7 +31243,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30616,
+      "timeOrder": 30650,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -29910,7 +31276,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30617,
+      "timeOrder": 30651,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -29943,7 +31309,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30618,
+      "timeOrder": 30652,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -29976,7 +31342,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30619,
+      "timeOrder": 30653,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30009,7 +31375,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30620,
+      "timeOrder": 30654,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30042,7 +31408,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30621,
+      "timeOrder": 30655,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30075,7 +31441,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30622,
+      "timeOrder": 30656,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30108,7 +31474,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30623,
+      "timeOrder": 30657,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30141,7 +31507,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30624,
+      "timeOrder": 30658,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30174,7 +31540,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30625,
+      "timeOrder": 30659,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30207,7 +31573,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30626,
+      "timeOrder": 30660,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30240,7 +31606,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30627,
+      "timeOrder": 30661,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30273,7 +31639,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30628,
+      "timeOrder": 30662,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30306,7 +31672,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30629,
+      "timeOrder": 30663,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30339,7 +31705,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30630,
+      "timeOrder": 30664,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30372,7 +31738,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30631,
+      "timeOrder": 30665,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30405,7 +31771,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30632,
+      "timeOrder": 30666,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30438,7 +31804,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30633,
+      "timeOrder": 30667,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30471,7 +31837,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30634,
+      "timeOrder": 30668,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30504,7 +31870,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30635,
+      "timeOrder": 30669,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30537,7 +31903,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30636,
+      "timeOrder": 30670,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30570,7 +31936,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30637,
+      "timeOrder": 30671,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30603,7 +31969,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30638,
+      "timeOrder": 30672,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30636,7 +32002,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30639,
+      "timeOrder": 30673,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30669,7 +32035,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30640,
+      "timeOrder": 30674,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30702,7 +32068,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30641,
+      "timeOrder": 30675,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30735,7 +32101,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30642,
+      "timeOrder": 30676,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30768,7 +32134,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30643,
+      "timeOrder": 30677,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30801,7 +32167,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30644,
+      "timeOrder": 30678,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30834,7 +32200,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30645,
+      "timeOrder": 30679,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30867,7 +32233,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30646,
+      "timeOrder": 30680,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30900,7 +32266,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30647,
+      "timeOrder": 30681,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30933,7 +32299,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30648,
+      "timeOrder": 30682,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30966,7 +32332,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30649,
+      "timeOrder": 30683,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -30999,7 +32365,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30650,
+      "timeOrder": 30684,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31032,7 +32398,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30651,
+      "timeOrder": 30685,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31065,7 +32431,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30652,
+      "timeOrder": 30686,
       "status": "reference",
       "characters": [],
       "places": [],
@@ -31736,7 +33102,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30653,
+      "timeOrder": 30687,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -31769,7 +33135,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30654,
+      "timeOrder": 30688,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -31802,7 +33168,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30655,
+      "timeOrder": 30689,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -31835,7 +33201,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30656,
+      "timeOrder": 30690,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -31868,7 +33234,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30657,
+      "timeOrder": 30691,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -31901,7 +33267,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30658,
+      "timeOrder": 30692,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -31934,7 +33300,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30659,
+      "timeOrder": 30693,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -31967,7 +33333,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30660,
+      "timeOrder": 30694,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -32000,7 +33366,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30661,
+      "timeOrder": 30695,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -32033,7 +33399,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30662,
+      "timeOrder": 30696,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -32066,7 +33432,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30663,
+      "timeOrder": 30697,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -32099,7 +33465,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30664,
+      "timeOrder": 30698,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -32132,7 +33498,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30665,
+      "timeOrder": 30699,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -32165,7 +33531,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30666,
+      "timeOrder": 30700,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -32198,7 +33564,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30667,
+      "timeOrder": 30701,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -32231,7 +33597,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30668,
+      "timeOrder": 30702,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -32278,7 +33644,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30669,
+      "timeOrder": 30703,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -32322,7 +33688,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30670,
+      "timeOrder": 30704,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -32366,7 +33732,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30671,
+      "timeOrder": 30705,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -32409,7 +33775,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30672,
+      "timeOrder": 30706,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -32452,7 +33818,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30673,
+      "timeOrder": 30707,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -32495,7 +33861,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30674,
+      "timeOrder": 30708,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -32538,7 +33904,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30675,
+      "timeOrder": 30709,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -32581,7 +33947,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30676,
+      "timeOrder": 30710,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -32624,7 +33990,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30677,
+      "timeOrder": 30711,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -32667,7 +34033,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30678,
+      "timeOrder": 30712,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -32706,7 +34072,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30679,
+      "timeOrder": 30713,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -32745,7 +34111,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30680,
+      "timeOrder": 30714,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -32784,7 +34150,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30681,
+      "timeOrder": 30715,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -32823,7 +34189,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30682,
+      "timeOrder": 30716,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -32862,7 +34228,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30683,
+      "timeOrder": 30717,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -32905,7 +34271,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30684,
+      "timeOrder": 30718,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -32944,7 +34310,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30685,
+      "timeOrder": 30719,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -32983,7 +34349,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30686,
+      "timeOrder": 30720,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33022,7 +34388,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30687,
+      "timeOrder": 30721,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33061,7 +34427,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30688,
+      "timeOrder": 30722,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33100,7 +34466,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30689,
+      "timeOrder": 30723,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33139,7 +34505,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30690,
+      "timeOrder": 30724,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33178,7 +34544,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30691,
+      "timeOrder": 30725,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33217,7 +34583,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30692,
+      "timeOrder": 30726,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33256,7 +34622,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30693,
+      "timeOrder": 30727,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33295,7 +34661,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30694,
+      "timeOrder": 30728,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33334,7 +34700,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30695,
+      "timeOrder": 30729,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33373,7 +34739,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30696,
+      "timeOrder": 30730,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33412,7 +34778,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30697,
+      "timeOrder": 30731,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33451,7 +34817,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30698,
+      "timeOrder": 30732,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33490,7 +34856,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30699,
+      "timeOrder": 30733,
       "status": "reference",
       "characters": [],
       "places": [
@@ -33975,6 +35341,11 @@
       "note": "Completed chat continuation approved for publication by the user. Original planning records remain separately preserved."
     },
     {
+      "key": "reference-era-four-remedies",
+      "title": "Era Four remedies",
+      "note": "Original game items; short compound names in the game, fuller context in the lore book. New gameplay lore, October 28, 2026."
+    },
+    {
       "key": "reference-ribbons",
       "title": "Ribbons & honours — complete collection",
       "note": "Illustrated reference cards with stable reading and paragraph IDs; notes use the existing logbook records and backups."
@@ -33992,6 +35363,7 @@
     "Locations": 206,
     "People": 100,
     "Reference": 10,
+    "Remedies": 34,
     "Ribbons": 161,
     "Song": 4,
     "Story": 15,
