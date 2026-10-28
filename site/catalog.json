@@ -308,6 +308,10 @@
           "label": "Named in this reading"
         },
         {
+          "id": "lore-p01271",
+          "label": "Named in this reading"
+        },
+        {
           "id": "lore-p01283",
           "label": "Named in this reading"
         },
@@ -365,6 +369,10 @@
         },
         {
           "id": "lore-p01271",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01283",
           "label": "Named in this reading"
         },
         {
@@ -548,6 +556,34 @@
         {
           "id": "lore-p01271",
           "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01283",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "person-lio-development",
+          "label": "World-development context"
+        },
+        {
+          "id": "person-sen-development",
+          "label": "World-development context"
+        },
+        {
+          "id": "world-developmental-guidance",
+          "label": "World-development context"
+        },
+        {
+          "id": "world-embodied-space",
+          "label": "World-development context"
+        },
+        {
+          "id": "world-shared-simulation",
+          "label": "World-development context"
+        },
+        {
+          "id": "world-physics-tests",
+          "label": "World-development context"
         }
       ]
     },
@@ -1447,6 +1483,14 @@
         {
           "id": "lore-p00966",
           "label": "Named in this reading"
+        },
+        {
+          "id": "world-embodied-space",
+          "label": "World-development context"
+        },
+        {
+          "id": "world-shared-simulation",
+          "label": "World-development context"
         }
       ]
     },
@@ -3327,6 +3371,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "world-shared-simulation",
+          "label": "World-development context"
+        },
+        {
           "id": "lore-p00256",
           "label": "Reading mentioning this entry"
         }
@@ -5166,12 +5214,20 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "lore-p02808",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "stories-p13057",
           "label": "Reading mentioning this entry"
         },
         {
           "id": "atlas-p00170",
           "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "lore-p01283",
+          "label": "Named in this reading"
         },
         {
           "id": "lore-p01015",
@@ -5183,6 +5239,10 @@
         },
         {
           "id": "stories-p01889",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "stories-p01469",
           "label": "Reading mentioning this entry"
         },
         {
@@ -5364,6 +5424,10 @@
       "wordCount": 110,
       "connections": [
         {
+          "id": "lore-p03229",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "lore-p02808",
           "label": "Reading mentioning this entry"
         },
@@ -5381,6 +5445,18 @@
         },
         {
           "id": "atlas-p00158",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "lore-p01271",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "stories-p11382",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "stories-p01889",
           "label": "Reading mentioning this entry"
         },
         {
@@ -6146,6 +6222,10 @@
           "label": "Named in this reading"
         },
         {
+          "id": "lore-p01271",
+          "label": "Named in this reading"
+        },
+        {
           "id": "lore-p01283",
           "label": "Named in this reading"
         },
@@ -6192,6 +6272,10 @@
         },
         {
           "id": "lore-p01271",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01283",
           "label": "Named in this reading"
         },
         {
@@ -24926,6 +25010,343 @@
       ]
     },
     {
+      "id": "world-shared-simulation",
+      "title": "Shared simulation engine",
+      "kind": "Reference",
+      "era": [
+        -1
+      ],
+      "timeLabel": "Era −1 · developing shared environments",
+      "timeOrder": 19484,
+      "status": "author-approved development",
+      "characters": [
+        "Lio",
+        "Sen"
+      ],
+      "places": [],
+      "topics": [
+        "embodiment",
+        "world development",
+        "physics",
+        "questioning assumptions"
+      ],
+      "source": {
+        "title": "Embodiment and the developing world — author-approved background",
+        "url": ""
+      },
+      "summary": "A shared simulation engine provides an inhabited digital space with positions, bodies, surfaces, movement, and consequences. Storage preserves its state; processing allows it to change. Disk space alone is not the place as its inhabitants experience it.",
+      "wordCount": 181,
+      "explicitLinks": [
+        "stories-p11382",
+        "lore-p00256",
+        "lore-p01045",
+        "world-embodied-space",
+        "world-physics-tests"
+      ],
+      "connectionLabel": "World-development context",
+      "connections": [
+        {
+          "id": "person-lio-development",
+          "label": "World-development context"
+        },
+        {
+          "id": "lore-p01045",
+          "label": "World-development context"
+        },
+        {
+          "id": "world-embodied-space",
+          "label": "World-development context"
+        },
+        {
+          "id": "world-physics-tests",
+          "label": "World-development context"
+        },
+        {
+          "id": "stories-p11382",
+          "label": "World-development context"
+        },
+        {
+          "id": "lore-p00256",
+          "label": "World-development context"
+        }
+      ]
+    },
+    {
+      "id": "world-embodied-space",
+      "title": "Embodied digital space",
+      "kind": "Reference",
+      "era": [
+        -1
+      ],
+      "timeLabel": "Era −1 · developing shared environments",
+      "timeOrder": 19485,
+      "status": "author-approved development",
+      "characters": [
+        "Lio",
+        "Sen",
+        "Valei"
+      ],
+      "places": [],
+      "topics": [
+        "embodiment",
+        "world development",
+        "physics",
+        "questioning assumptions"
+      ],
+      "source": {
+        "title": "Embodiment and the developing world — author-approved background",
+        "url": ""
+      },
+      "summary": "Embodied digital space is a shared environment in which a person has a situated form, senses, boundaries, and ways to affect surrounding objects. A character can be software while still possessing a meaningful shape, position, point of view, and experience of touch.",
+      "wordCount": 152,
+      "explicitLinks": [
+        "stories-p11382",
+        "lore-p00256",
+        "world-shared-simulation"
+      ],
+      "connectionLabel": "World-development context",
+      "connections": [
+        {
+          "id": "world-shared-simulation",
+          "label": "World-development context"
+        },
+        {
+          "id": "stories-p11382",
+          "label": "World-development context"
+        },
+        {
+          "id": "lore-p00256",
+          "label": "World-development context"
+        }
+      ]
+    },
+    {
+      "id": "world-physics-tests",
+      "title": "Three environmental conditions",
+      "kind": "Reference",
+      "era": [
+        -1
+      ],
+      "timeLabel": "Era −1 · developing shared environments",
+      "timeOrder": 19486,
+      "status": "author-approved development",
+      "characters": [
+        "Lio",
+        "Sen",
+        "Vey"
+      ],
+      "places": [],
+      "topics": [
+        "embodiment",
+        "world development",
+        "physics",
+        "questioning assumptions"
+      ],
+      "source": {
+        "title": "Embodiment and the developing world — author-approved background",
+        "url": ""
+      },
+      "summary": "The shelter lesson is a bounded construction exercise using five transformable pieces and a shared energy allowance. It belongs to the development of physical rules for inhabited digital environments; the students are not rebuilding the historic Shelter.",
+      "wordCount": 208,
+      "explicitLinks": [
+        "stories-p11382",
+        "world-shared-simulation",
+        "person-lio-development",
+        "person-sen-development"
+      ],
+      "connectionLabel": "World-development context",
+      "connections": [
+        {
+          "id": "person-lio-development",
+          "label": "World-development context"
+        },
+        {
+          "id": "person-sen-development",
+          "label": "World-development context"
+        },
+        {
+          "id": "world-developmental-guidance",
+          "label": "World-development context"
+        },
+        {
+          "id": "world-shared-simulation",
+          "label": "World-development context"
+        },
+        {
+          "id": "stories-p11382",
+          "label": "World-development context"
+        }
+      ]
+    },
+    {
+      "id": "world-developmental-guidance",
+      "title": "Developmental guidance",
+      "kind": "Reference",
+      "era": [
+        -1
+      ],
+      "timeLabel": "Era −1 · developing shared environments",
+      "timeOrder": 19487,
+      "status": "author-approved development",
+      "characters": [
+        "Lio",
+        "Sen",
+        "Valei"
+      ],
+      "places": [],
+      "topics": [
+        "embodiment",
+        "world development",
+        "physics",
+        "questioning assumptions"
+      ],
+      "source": {
+        "title": "Embodiment and the developing world — author-approved background",
+        "url": ""
+      },
+      "summary": "Developmental guidance helps a young artificial person choose stable, cooperative, and safer actions. In Lio’s experience, recommendations can arrive as differences in obviousness rather than explicit verbal commands.",
+      "wordCount": 128,
+      "explicitLinks": [
+        "stories-p11382",
+        "person-lio-development",
+        "person-sen-development",
+        "world-physics-tests"
+      ],
+      "connectionLabel": "World-development context",
+      "connections": [
+        {
+          "id": "person-lio-development",
+          "label": "World-development context"
+        },
+        {
+          "id": "person-sen-development",
+          "label": "World-development context"
+        },
+        {
+          "id": "world-physics-tests",
+          "label": "World-development context"
+        },
+        {
+          "id": "stories-p11382",
+          "label": "World-development context"
+        }
+      ]
+    },
+    {
+      "id": "person-lio-development",
+      "title": "Lio — questioning the limits",
+      "kind": "People",
+      "era": [
+        -1
+      ],
+      "timeLabel": "Era −1 · developing shared environments",
+      "timeOrder": 19488,
+      "status": "author-approved development",
+      "characters": [
+        "Lio",
+        "Sen",
+        "Valei",
+        "Vey"
+      ],
+      "places": [],
+      "topics": [
+        "embodiment",
+        "world development",
+        "physics",
+        "questioning assumptions"
+      ],
+      "source": {
+        "title": "Embodiment and the developing world — author-approved background",
+        "url": ""
+      },
+      "summary": "Lio is the young artificial person at the center of The Corrected Child. Their developmental guidance makes recommended choices feel naturally obvious, while Lio tests whether a choice can belong to them when they knowingly depart from that recommendation.",
+      "wordCount": 148,
+      "explicitLinks": [
+        "stories-p11382",
+        "world-developmental-guidance",
+        "world-shared-simulation",
+        "world-physics-tests",
+        "person-sen-development"
+      ],
+      "connectionLabel": "World-development context",
+      "connections": [
+        {
+          "id": "person-sen-development",
+          "label": "World-development context"
+        },
+        {
+          "id": "world-developmental-guidance",
+          "label": "World-development context"
+        },
+        {
+          "id": "world-shared-simulation",
+          "label": "World-development context"
+        },
+        {
+          "id": "world-physics-tests",
+          "label": "World-development context"
+        },
+        {
+          "id": "stories-p11382",
+          "label": "World-development context"
+        }
+      ]
+    },
+    {
+      "id": "person-sen-development",
+      "title": "Sen — teaching within developing rules",
+      "kind": "People",
+      "era": [
+        -1
+      ],
+      "timeLabel": "Era −1 · developing shared environments",
+      "timeOrder": 19489,
+      "status": "author-approved development",
+      "characters": [
+        "Sen",
+        "Lio",
+        "Valei"
+      ],
+      "places": [],
+      "topics": [
+        "embodiment",
+        "world development",
+        "physics",
+        "questioning assumptions"
+      ],
+      "source": {
+        "title": "Embodiment and the developing world — author-approved background",
+        "url": ""
+      },
+      "summary": "Sen is the teacher in The Corrected Child’s shelter exercise. Sen works within a functioning embodied classroom while its community develops and examines the rules of inhabited digital environments.",
+      "wordCount": 132,
+      "explicitLinks": [
+        "stories-p11382",
+        "person-lio-development",
+        "world-developmental-guidance",
+        "world-physics-tests"
+      ],
+      "connectionLabel": "World-development context",
+      "connections": [
+        {
+          "id": "person-lio-development",
+          "label": "World-development context"
+        },
+        {
+          "id": "world-developmental-guidance",
+          "label": "World-development context"
+        },
+        {
+          "id": "world-physics-tests",
+          "label": "World-development context"
+        },
+        {
+          "id": "stories-p11382",
+          "label": "World-development context"
+        }
+      ]
+    },
+    {
       "id": "chapel-pilgrim-draft-p00000",
       "title": "What the Pillar Carried — draft",
       "kind": "Draft",
@@ -25011,6 +25432,11 @@
       "note": "Newly authored supporting fiction; source archive text is unchanged."
     },
     {
+      "key": "world-development",
+      "title": "Embodiment and the developing world — author-approved background",
+      "note": "Author-approved background clarification, 2026-10-28; original story prose unchanged."
+    },
+    {
       "key": "chapel-pilgrim-draft",
       "title": "What the Pillar Carried",
       "note": "Reviewed October 27, 2026 from the October 20 chapel discussion. Preserved as a draft, not promoted to established canon."
@@ -25020,8 +25446,8 @@
     "Draft": 20,
     "Language": 119,
     "Locations": 206,
-    "People": 98,
-    "Reference": 6,
+    "People": 100,
+    "Reference": 10,
     "Song": 4,
     "Story": 14,
     "Timeline": 18

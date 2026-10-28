@@ -9,7 +9,7 @@ def connect(a,b,label,reverse):
  links[a].setdefault(b,label);links[b].setdefault(a,reverse)
 # Authored links explicitly establish context, including thematic/earlier-story links.
 for e in catalog:
- for target in e.get('explicitLinks',[]):connect(e['id'],target,'Song-cycle connection','Song-cycle connection')
+ for target in e.get('explicitLinks',[]):connect(e['id'],target,e.get('connectionLabel','Song-cycle connection'),e.get('connectionLabel','Song-cycle connection'))
 # Exact named mentions link to existing location/people profiles, not inferred geography.
 profiles=[]
 character_names=set(c for e in catalog for c in e['characters'])

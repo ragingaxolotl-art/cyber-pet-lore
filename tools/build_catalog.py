@@ -102,6 +102,14 @@ for item in cycle['entries']:
  blocks=[{'id':sid+'-p'+str(i).zfill(3),'text':text,'style':'HEADING_1' if i==0 else 'NORMAL_TEXT'} for i,text in enumerate([item['title']]+item['paragraphs'])]
  (CONTENT/(sid+'.json')).write_text(json.dumps({'id':sid,'blocks':blocks,'outline':[{'id':blocks[0]['id'],'title':item['title'],'level':1}]},ensure_ascii=False))
  catalog.append({'id':sid,'title':item['title'],'kind':item['kind'],'era':[0],'timeLabel':'Era Zero · new song-cycle fiction','timeOrder':20000+len(catalog),'status':'new addition','characters':item['characters'],'places':item['places'],'topics':['music','ordinary life','song cycle'],'source':{'title':cycle['title'],'url':''},'summary':item['summary'],'wordCount':sum(len(b['text'].split()) for b in blocks),'explicitLinks':item['links'],**({'song':item['song']} if 'song' in item else {})})
+# Author-approved background is separate from conserved story snapshots.
+development=json.loads((INPUT/'world-development.json').read_text())
+sources.append({'key':'world-development','title':development['title'],'note':'Author-approved background clarification, '+development['date']+'; original story prose unchanged.'})
+for item in development['entries']:
+ sid=item['id']
+ blocks=[{'id':sid+'-p'+str(i).zfill(3),'text':text,'style':'HEADING_1' if i==0 else 'NORMAL_TEXT'} for i,text in enumerate([item['title']]+item['paragraphs'])]
+ (CONTENT/(sid+'.json')).write_text(json.dumps({'id':sid,'blocks':blocks,'outline':[{'id':blocks[0]['id'],'title':item['title'],'level':1}]},ensure_ascii=False))
+ catalog.append({'id':sid,'title':item['title'],'kind':item['kind'],'era':[-1],'timeLabel':'Era −1 · developing shared environments','timeOrder':19000+len(catalog),'status':development['status'],'characters':item['characters'],'places':[],'topics':['embodiment','world development','physics','questioning assumptions'],'source':{'title':development['title'],'url':''},'summary':item['paragraphs'][0],'wordCount':sum(len(b['text'].split()) for b in blocks),'explicitLinks':item['links'],'connectionLabel':'World-development context'})
 # A reviewed chat story is kept separately and explicitly labeled as a draft.
 draft=json.loads((INPUT/'chapel-pilgrim-draft.json').read_text())
 parts=[draft['title']]+draft['text'].split('\n\n')

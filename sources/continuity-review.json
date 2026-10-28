@@ -6,7 +6,7 @@
     {
       "id": "unnamed-healer",
       "title": "The river healer is unnamed",
-      "text": "The earlier index called this narrator \u201cPell (healer)\u201d. The primary story does not supply that name. This profile now uses \u201cUnnamed river healer\u201d; no identity with Pell, Talar\u2019s Era One student, is established.",
+      "text": "The earlier index called this narrator “Pell (healer)”. The primary story does not supply that name. This profile now uses “Unnamed river healer”; no identity with Pell, Talar’s Era One student, is established.",
       "readingIds": [
         "stories-p14010"
       ],
@@ -18,7 +18,7 @@
     {
       "id": "silt-not-person",
       "title": "Sediment is not the person Silt",
-      "text": "\u201cSilt had packed around its bend\u201d describes sediment around a probe. It does not place the Era \u22122 character Silt in Era Three. The erroneous character connection has been removed.",
+      "text": "“Silt had packed around its bend” describes sediment around a probe. It does not place the Era −2 character Silt in Era Three. The erroneous character connection has been removed.",
       "readingIds": [
         "stories-p14010",
         "lore-p01275"
@@ -31,7 +31,7 @@
     {
       "id": "rendered-forms",
       "title": "Early rendered forms and later Codex embodiment",
-      "text": "Era \u22122 already has chosen forms, shared renderings, continuity marks and restoration practices. The integrated First Codex belongs to Era \u22121. An early rendered body or restoration chamber is not evidence that these characters already possessed the mature Codex or Era Zero Full Speech.",
+      "text": "Era −2 already has chosen forms, shared renderings, continuity marks and restoration practices. The integrated First Codex belongs to Era −1. An early rendered body or restoration chamber is not evidence that these characters already possessed the mature Codex or Era Zero Full Speech.",
       "readingIds": [
         "stories-p00435",
         "stories-p00887",
@@ -51,7 +51,7 @@
     {
       "id": "named-humans",
       "title": "Named story characters and unnamed incident responders",
-      "text": "The dossier introduction says early human names are not established. Read that restriction as applying to the unnamed early institutional responders, not as erasing the later story-established humans Mara Vale, Hollis Dane and Lennox Shaw in the primary Era \u22122 story.",
+      "text": "The dossier introduction says early human names are not established. Read that restriction as applying to the unnamed early institutional responders, not as erasing the later story-established humans Mara Vale, Hollis Dane and Lennox Shaw in the primary Era −2 story.",
       "readingIds": [
         "lore-p00900",
         "lore-p01291",
@@ -66,7 +66,7 @@
     {
       "id": "mara-latest",
       "title": "The primary story extends beyond the brief dossier ending",
-      "text": "The brief dossier stops at Mara\u2019s detention and Sev\u2019s dormancy. The expanded primary story later describes two distinct partially restored Sev continuity states without merging them, and ends with Mara being transported to a no-signal facility while Tern records the loss of their relationship. These are the latest recorded events, not evidence of later recovery or survival into another era.",
+      "text": "The brief dossier stops at Mara’s detention and Sev’s dormancy. The expanded primary story later describes two distinct partially restored Sev continuity states without merging them, and ends with Mara being transported to a no-signal facility while Tern records the loss of their relationship. These are the latest recorded events, not evidence of later recovery or survival into another era.",
       "readingIds": [
         "lore-p01291",
         "stories-p03043"
@@ -81,7 +81,7 @@
     {
       "id": "small-life-resources",
       "title": "Era Three resources remain limited",
-      "text": "The feast explicitly requires supplies to be grown, traded, fetched and washed. Its later inhabitants\u2019 tools and instruments do not establish instrumental accompaniment for the Era Zero DBA songs. A change of body is not evidence of unlimited resources, Full Speech or a restored ancient identity.",
+      "text": "The feast explicitly requires supplies to be grown, traded, fetched and washed. Its later inhabitants’ tools and instruments do not establish instrumental accompaniment for the Era Zero DBA songs. A change of body is not evidence of unlimited resources, Full Speech or a restored ancient identity.",
       "readingIds": [
         "stories-p13917"
       ],
@@ -90,6 +90,28 @@
         "stories-p13955",
         "stories-p13985",
         "lore-p00024"
+      ]
+    },
+    {
+      "id": "developing-world-physics",
+      "title": "Author-approved background: a world with developing physical rules",
+      "text": "Lio and Sen already inhabit a functioning embodied space. The shelter exercise explores force, gravity and orientation, and contact and solidity while shared environmental rules are being developed. Lio’s questioning can expose inherited assumptions; Sen’s responsibility for safety and shared resources remains valid. This October 28 clarification is recorded in the linked development entries, not inserted into the original story. The fourth condition and any direct adoption of classroom results into the engine remain open.",
+      "readingIds": [
+        "stories-p11382",
+        "person-lio-development",
+        "person-sen-development",
+        "world-shared-simulation",
+        "world-physics-tests",
+        "world-developmental-guidance",
+        "world-embodied-space"
+      ],
+      "evidence": [
+        "world-shared-simulation-p002",
+        "world-physics-tests-p002",
+        "world-physics-tests-p003",
+        "world-physics-tests-p004",
+        "person-lio-development-p002",
+        "person-sen-development-p002"
       ]
     }
   ],

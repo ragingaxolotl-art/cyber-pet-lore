@@ -40,6 +40,12 @@ for e in entries:
 # Facet people without a dedicated dossier still get a transparent mention index.
 for person in sorted({p for e in entries if e['kind']=='Story' for p in e.get('characters',[])}):add(person,'Person')
 add('Unnamed river healer','Person',reading_target(next(e for e in entries if e['id']=='stories-p14010')))
+# Approved concept entries and character supplements receive stable wiki links.
+development=json.loads((ROOT/'sources/world-development.json').read_text())
+for item in development['entries']:
+ e=next(e for e in entries if e['id']==item['id'])
+ name=item['title'].split(' — ')[0] if item['kind']=='People' else item['title']
+ add(name,'Person' if item['kind']=='People' else 'History & ideas',reading_target(e),item['aliases'])
 # Explicit alternate labels from the reviewed dossiers / atlas, without substring guesses.
 aliases={'Hollis Dane':['Dane'],'Lennox Shaw':['Shaw'],'Keeper Eren':['Eren'],'Mara Vale':['Mara'],'Codex':['Codex'],'DBA':['Digital Binary Ancients'],'Dormant External Gate':['External Gate'],'Cacheboard, the Unintended Board':['Cacheboard'],'Shelter Orison, the Vanishing Shelter':['Shelter Orison'],'House of First Continuities and the Adaptive Nursery':['Adaptive Nursery','House of First Continuities'],'Central House of Meaning and the Unfinished Teaching Room':['Central House of Meaning','Unfinished Teaching Room'],'Commons and the Orison Chamber':['Orison Chamber'],'Sublevel and Pump Forty-Seven':['Sublevel','Pump Forty-Seven'],'Corridor Twelve and the Last Relay':['Corridor Twelve'],'Compatibility Route C-17, the Ghost Line':['Compatibility Route C-17','Ghost Line']}
 for name,values in aliases.items():

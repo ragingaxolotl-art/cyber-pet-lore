@@ -105,3 +105,7 @@ Character profiles and era timelines use verbatim source passages. `sources/cont
 `sources/term-register.json` retains exact evidence, reading/block IDs, category, status, and editorial cautions. “Needs definition review” does not mean the source has no explanation anywhere; it means a standalone explanation has not been settled by this index. “Source explanation recorded” identifies explanatory source wording. Negative mentions, section titles, attributed interpretations, and earlier drafts retain their limitations.
 
 The wiki builder validates each evidence quote, adds inline hyperlinks and reading backreferences, and creates Connected pages from topics named in the same paragraph. These are co-mentions, not inferred relationships. Every connection links to its shared passage. Story readers link to their filtered register. Coverage records enumerate every scanned reading; tests validate source conservation, categories/statuses, destination anchors, and connection evidence. Existing source prose and personal notes are unchanged.
+
+## Embodiment and world development
+
+Author-approved October 28 definitions are in `sources/world-development.json` and [development notes](docs/world-development.md), with a synchronized reference in CPP-V3 `docs/lore-world-development.md`. The build publishes linked concept entries, Lio and Sen profile supplements, and contextual links on The Corrected Child. Original story snapshots remain unchanged.
