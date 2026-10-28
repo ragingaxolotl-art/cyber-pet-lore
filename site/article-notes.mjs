@@ -1,3 +1,4 @@
+import {attachTagSuggestions} from './tag-suggestions.mjs';
 import {STORAGE_KEY,emptyState,validateState,mergeStates} from './records.mjs';
 import {paintHighlights} from './highlight-dom.mjs';
 
@@ -27,7 +28,7 @@ function setup(){
  dialog=node('dialog');dialog.className='article-note-dialog';const close=node('button','Close');close.className='article-note-close';close.onclick=()=>dialog.close();
  const title=node('h2','Highlight note');title.id='article-note-heading';dialog.setAttribute('aria-labelledby',title.id);quote=node('blockquote');
  const noteLabel=node('label','Your note (optional)');noteInput=node('textarea');noteInput.rows=4;noteInput.maxLength=30000;noteLabel.append(noteInput);
- const tagLabel=node('label','Tags for this highlight');tagsInput=node('input');tagsInput.type='text';tagsInput.maxLength=2100;tagsInput.placeholder='e.g. mystery, character, revisit';tagLabel.append(tagsInput);
+ const tagLabel=node('label','Tags for this highlight');tagsInput=node('input');tagsInput.type='text';tagsInput.maxLength=2100;tagsInput.placeholder='e.g. mystery, character, revisit';tagLabel.append(tagsInput);attachTagSuggestions(tagsInput,()=>state);
  const save=node('button','Save note & tags');save.onclick=()=>{const {mount,id}=dialog.edit;persist(mount.id,items=>items.map(h=>h.id===id?{...h,note:noteInput.value,tags:parseTags(tagsInput.value)}:h));mount.renderNotes();dialog.close();};
  dialog.append(close,title,quote,noteLabel,tagLabel,node('p','Separate tags with commas.'),save);document.body.append(dialog);
  status=node('span',storageDamaged?'Saved data could not be opened — use Backups':'Highlights save in this browser');status.setAttribute('role','status');

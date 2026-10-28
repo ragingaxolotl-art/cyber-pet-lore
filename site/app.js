@@ -1,3 +1,4 @@
+import {attachTagSuggestions} from './tag-suggestions.mjs';
 import {paintHighlights} from './highlight-dom.mjs';
 import {renderContinuityNotes} from './profiles.mjs';
 import {renderLocationArt} from './location-art.mjs';
@@ -113,7 +114,7 @@ function highlightHeading(card,id,h){
 function highlightTags(id,h){
  const label=node('label','Tags for this highlight'),input=node('input');input.type='text';input.value=(h.tags||[]).join(', ');input.placeholder='e.g. mystery, character, revisit';input.maxLength=2100;
  input.oninput=()=>{const tags=[...new Set(input.value.split(',').map(t=>t.trim().slice(0,70)).filter(Boolean))].slice(0,30);updateRecord(id,{highlights:record(id).highlights.map(item=>item.id===h.id?{...item,tags}:item)});};
- label.className='highlight-tags';label.append(input,node('span','Separate tags with commas.','small-note'));return label;
+ label.className='highlight-tags';label.append(input,node('span','Separate tags with commas.','small-note'));attachTagSuggestions(input,()=>state);return label;
 }
 function renderHighlights(){
  const r=record(current.id);$('highlight-count').textContent=r.highlights.length;const list=$('highlights-list');list.replaceChildren();
@@ -186,6 +187,7 @@ $('import-backup').onchange=async ev=>{const file=ev.target.files[0];if(!file)re
 $('download-before-import').onclick=()=>{if(beforeImport)download(beforeImport,'cyber-pet-lore-before-import.json');};
 $('notebook-open').onclick=()=>location.hash='notebook';$('back-library').onclick=$('notebook-back').onclick=()=>location.hash='';$('sources-open').onclick=()=>$('sources-dialog').showModal();
 $('reader-read').onchange=()=>setRead(current.id,$('reader-read').checked);$('finish-read').onclick=()=>setRead(current.id,!record(current.id).read);
+attachTagSuggestions($('reading-tags'),()=>state);
 $('reading-note').oninput=()=>{if(current)updateRecord(current.id,{note:$('reading-note').value});};$('reading-tags').oninput=()=>{if(current)updateRecord(current.id,{tags:[...new Set($('reading-tags').value.split(',').map(s=>s.trim().slice(0,70)).filter(Boolean))].slice(0,30)});};
 $('next-reading').onclick=()=>{const list=filtered.length?filtered:entries,index=list.findIndex(e=>e.id===current.id);const next=list[index+1];if(next)location.hash='read='+encodeURIComponent(next.id);else location.hash='';};
 function appearance(){document.documentElement.style.setProperty('--read-size',state.preferences.fontSize+'px');document.body.classList.toggle('warm-reader',state.preferences.warm);}

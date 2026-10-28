@@ -11,7 +11,7 @@ test('heading displays title date and era; editing tags only updates that highli
  const s=sample();s.readings.story.highlights.push({...structuredClone(highlight),id:'h2',tags:['other']});
  const node=(tag,text='',className='')=>({tag,textContent:text,className,children:[],append(...items){this.children.push(...items);}});
  const code=fs.readFileSync(new URL('../site/app.js',import.meta.url),'utf8');
- const context={node,byId:new Map([['story',{title:'Catalog title',era:[0]}]]),eraName:e=>'Era '+e,Date,Number,Set,record:id=>s.readings[id],updateRecord(id,changes){Object.assign(s.readings[id],changes);}};
+ const context={node,attachTagSuggestions(){},byId:new Map([['story',{title:'Catalog title',era:[0]}]]),eraName:e=>'Era '+e,Date,Number,Set,record:id=>s.readings[id],updateRecord(id,changes){Object.assign(s.readings[id],changes);}};
  vm.runInNewContext(code.slice(code.indexOf('function highlightHeading'),code.indexOf('function renderHighlights')),context);
  const card=node('article');context.highlightHeading(card,'story',highlight);assert.equal(card.children[0].children[0].textContent,'A Story');assert.match(card.children[1].textContent,/2023.*Era -2/);
  const field=context.highlightTags('story',highlight),input=field.children[0];input.value='favorite, mystery, favorite';input.oninput();assert.deepEqual(Array.from(s.readings.story.highlights[0].tags),['favorite','mystery']);assert.deepEqual(s.readings.story.highlights[1].tags,['other']);assert.equal(s.readings.story.highlights[0].createdAt,highlight.createdAt);
