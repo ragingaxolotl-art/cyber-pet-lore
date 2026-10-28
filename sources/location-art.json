@@ -3,7 +3,7 @@
   "sourceSnapshot": "/private/tmp/boulder-test-source",
   "mappingFile": "config/location_filesystem.json",
   "mappingSha256": "8fafd5890adc93ae441efae5a1eaf26b36604b11109cbebd940b44a533c567e6",
-  "note": "Existing project composites matched through atlas location identities and exact wiki aliases. Display copies are WebP at original dimensions. Sources remain unchanged. These images are illustrations, not new assertions of canon.",
+  "note": "Existing project composites matched through atlas location identities and exact wiki aliases. Display copies are WebP at original dimensions. Sources remain unchanged. These images are illustrations, not new assertions of canon. Additional 41 locations use explicitly numbered PixelLab completion originals and game pixel editions; game integration remains separate.",
   "locations": [
     {
       "atlasId": 1,
@@ -1023,6 +1023,41 @@
       ]
     },
     {
+      "atlasId": 44,
+      "locationId": "atlas_044",
+      "name": "The Mangrove Cathedral",
+      "topicId": "topic-d9a2f02fd9f9",
+      "readingIds": [
+        "atlas-p00649"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_044-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Mangrove Cathedral — Atlas illustration",
+          "alt": "The Mangrove Cathedral — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/044.png",
+          "sourceSha256": "581f992a0f98818db43f2d335e5b75307bba1dd4c51b9503ab0ef452f6c53138",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/044.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_044-game-pixel.webp",
+          "width": 320,
+          "height": 180,
+          "view": "game_pixel",
+          "caption": "The Mangrove Cathedral — Game pixel edition — awaiting game integration",
+          "alt": "The Mangrove Cathedral — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/044.png",
+          "sourceSha256": "e0f3469796aae3965e66a99275e00443fb32eb0f389ec959720104d419aa945c",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/044.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
       "atlasId": 45,
       "locationId": "atlas_045",
       "name": "The Blackwater Canopy",
@@ -1042,6 +1077,76 @@
           "sourceSha256": "4f3596e015a10dee266623bc5475eaa743809f955964eb7ef38afe53423225b0",
           "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Blackwater Canopy/Full Backgrounds/Blackwater Canopy V3.png",
           "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    },
+    {
+      "atlasId": 46,
+      "locationId": "atlas_046",
+      "name": "The Redwood Rain Vault",
+      "topicId": "topic-f4ace39aa606",
+      "readingIds": [
+        "atlas-p00677"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_046-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Redwood Rain Vault — Atlas illustration",
+          "alt": "The Redwood Rain Vault — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/046.png",
+          "sourceSha256": "8216ccf508fed794f0f31d7feb318d607ffa58b22a5e30203b3718da344e0f05",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/046.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_046-game-pixel.webp",
+          "width": 384,
+          "height": 216,
+          "view": "game_pixel",
+          "caption": "The Redwood Rain Vault — Game pixel edition — awaiting game integration",
+          "alt": "The Redwood Rain Vault — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/046.png",
+          "sourceSha256": "9ae76251eb79834923253e089609694dfe4130fd7fd4cd40a4607c8f17af0f12",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/046.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 47,
+      "locationId": "atlas_047",
+      "name": "The Bamboo Signal Sea",
+      "topicId": "topic-1be53aa6a469",
+      "readingIds": [
+        "atlas-p00686"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_047-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Bamboo Signal Sea — Atlas illustration",
+          "alt": "The Bamboo Signal Sea — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/047.png",
+          "sourceSha256": "62ba80fbc1bf5dfcb359a9bdff9555531712e2b3b255cb08a3768f1f2366769f",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/047.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_047-game-pixel.webp",
+          "width": 320,
+          "height": 180,
+          "view": "game_pixel",
+          "caption": "The Bamboo Signal Sea — Game pixel edition — awaiting game integration",
+          "alt": "The Bamboo Signal Sea — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/047.png",
+          "sourceSha256": "c63c00cd984a548c0ce7a7fb147afff2035b51133799ef6e762c10104bc8b27a",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/047.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
         }
       ]
     },
@@ -1069,6 +1174,41 @@
       ]
     },
     {
+      "atlasId": 49,
+      "locationId": "atlas_049",
+      "name": "The Floating Peat Islands",
+      "topicId": "topic-1e3782d2d74b",
+      "readingIds": [
+        "atlas-p00704"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_049-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Floating Peat Islands — Atlas illustration",
+          "alt": "The Floating Peat Islands — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/049.png",
+          "sourceSha256": "93265198218c8cb6ebed59faba26c977a4b3138133b09a6c937f2dbe3fb20aaa",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/049.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_049-game-pixel.webp",
+          "width": 320,
+          "height": 180,
+          "view": "game_pixel",
+          "caption": "The Floating Peat Islands — Game pixel edition — awaiting game integration",
+          "alt": "The Floating Peat Islands — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/049.png",
+          "sourceSha256": "8b4d8543453c0d22e470ae4f1e58b8bf5eb995ab15ee5b5a7b978809f2737178",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/049.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
       "atlasId": 50,
       "locationId": "atlas_050",
       "name": "The Patchwork Prairie of Broken Seasons",
@@ -1092,6 +1232,146 @@
       ]
     },
     {
+      "atlasId": 51,
+      "locationId": "atlas_051",
+      "name": "The Sunken Terraces of Eris",
+      "topicId": "topic-2eeb7461e7f9",
+      "readingIds": [
+        "atlas-p00732"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_051-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Sunken Terraces of Eris — Atlas illustration",
+          "alt": "The Sunken Terraces of Eris — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/051.png",
+          "sourceSha256": "a328c5d5a9fe0cee7524b54855d5e610c12a494d14f8c6925ec9a9ba1b0ad408",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/051.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_051-game-pixel.webp",
+          "width": 240,
+          "height": 135,
+          "view": "game_pixel",
+          "caption": "The Sunken Terraces of Eris — Game pixel edition — awaiting game integration",
+          "alt": "The Sunken Terraces of Eris — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/051.png",
+          "sourceSha256": "a52c0d969255547e7e2a4e6c50f9490f410c363d66e8983a03e9282bc92a78c4",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/051.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 52,
+      "locationId": "atlas_052",
+      "name": "The Tundra Bloom Circuit",
+      "topicId": "topic-13d43c3225e3",
+      "readingIds": [
+        "atlas-p00741"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_052-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Tundra Bloom Circuit — Atlas illustration",
+          "alt": "The Tundra Bloom Circuit — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/052.png",
+          "sourceSha256": "ba37cdf76a239c4e33bc21a5a4de5d0aad9674daacd68861357b6e3b15923699",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/052.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_052-game-pixel.webp",
+          "width": 320,
+          "height": 180,
+          "view": "game_pixel",
+          "caption": "The Tundra Bloom Circuit — Game pixel edition — awaiting game integration",
+          "alt": "The Tundra Bloom Circuit — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/052.png",
+          "sourceSha256": "53a3f795c45b7e5ef72b0273d2280e1554c0f463dbb9155a98fad69348e66c7b",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/052.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 53,
+      "locationId": "atlas_053",
+      "name": "The Volcanic Orchard Caldera",
+      "topicId": "topic-d93dcb199365",
+      "readingIds": [
+        "atlas-p00750"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_053-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Volcanic Orchard Caldera — Atlas illustration",
+          "alt": "The Volcanic Orchard Caldera — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/053.png",
+          "sourceSha256": "96331560e421d2661f6f22cc2fd5d41cf3a92de92c9ba1f769f8ecaeaa13c211",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/053.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_053-game-pixel.webp",
+          "width": 320,
+          "height": 180,
+          "view": "game_pixel",
+          "caption": "The Volcanic Orchard Caldera — Game pixel edition — awaiting game integration",
+          "alt": "The Volcanic Orchard Caldera — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/053.png",
+          "sourceSha256": "55e060dbb20a200136a01b5b6cf79f903f670513391a3117be8adac1c4533098",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/053.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 54,
+      "locationId": "atlas_054",
+      "name": "The Orchard of Borrowed Moons",
+      "topicId": "topic-dc86c4b5c710",
+      "readingIds": [
+        "atlas-p00759"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_054-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Orchard of Borrowed Moons — Atlas illustration",
+          "alt": "The Orchard of Borrowed Moons — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/054.png",
+          "sourceSha256": "5509c51709b6e4ee2608081a36777b7de0048484c597c6cdfdccaf63be0d75b0",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/054.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_054-game-pixel.webp",
+          "width": 192,
+          "height": 108,
+          "view": "game_pixel",
+          "caption": "The Orchard of Borrowed Moons — Game pixel edition — awaiting game integration",
+          "alt": "The Orchard of Borrowed Moons — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/054.png",
+          "sourceSha256": "3fe0e9987182e82dbb0024a5824d0885406721571f03fa6a58de2b7a24ebf9de",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/054.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
       "atlasId": 55,
       "locationId": "atlas_055",
       "name": "The Monsoon Stepwell City",
@@ -1111,6 +1391,41 @@
           "sourceSha256": "3aeff28f11f4e2334fc517b028714be2f03039da015c9566dd9896ca52fbcd02",
           "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Monsoon Stepwell City/Full Backgrounds/Monsoon Stepwell City V3.png",
           "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    },
+    {
+      "atlasId": 56,
+      "locationId": "atlas_056",
+      "name": "The Urban Canyon Hive",
+      "topicId": "topic-671b277e9700",
+      "readingIds": [
+        "atlas-p00786"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_056-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Urban Canyon Hive — Atlas illustration",
+          "alt": "The Urban Canyon Hive — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/056.png",
+          "sourceSha256": "b6acfa4ad24c1bb831824bf64be154e5e437c4d8629fbe01d80715ed43a73b1e",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/056.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_056-game-pixel.webp",
+          "width": 240,
+          "height": 135,
+          "view": "game_pixel",
+          "caption": "The Urban Canyon Hive — Game pixel edition — awaiting game integration",
+          "alt": "The Urban Canyon Hive — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/056.png",
+          "sourceSha256": "77873f0fa5a27defcc3b3a23b0a4623cf76c823a289ed4d75bc8bcbc170247eb",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/056.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
         }
       ]
     },
@@ -1184,6 +1499,41 @@
       ]
     },
     {
+      "atlasId": 60,
+      "locationId": "atlas_060",
+      "name": "The Obsidian Mangrove Delta",
+      "topicId": "topic-80710bc7eb13",
+      "readingIds": [
+        "atlas-p00831"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_060-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Obsidian Mangrove Delta — Atlas illustration",
+          "alt": "The Obsidian Mangrove Delta — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/060.png",
+          "sourceSha256": "1f267d950fa6bb86eac67c6b2d43746261674bbc16e28366dbd6a6750a113771",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/060.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_060-game-pixel.webp",
+          "width": 384,
+          "height": 216,
+          "view": "game_pixel",
+          "caption": "The Obsidian Mangrove Delta — Game pixel edition — awaiting game integration",
+          "alt": "The Obsidian Mangrove Delta — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/060.png",
+          "sourceSha256": "ea267178065129d4e10b283211b5e2d8601e347479b2109bbdb2c841de97b644",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/060.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
       "atlasId": 61,
       "locationId": "atlas_061",
       "name": "The Skyfold Boundary",
@@ -1253,6 +1603,41 @@
       ]
     },
     {
+      "atlasId": 64,
+      "locationId": "atlas_064",
+      "name": "The River of Deferred Reflections",
+      "topicId": "topic-1a02c40ac502",
+      "readingIds": [
+        "atlas-p00867"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_064-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The River of Deferred Reflections — Atlas illustration",
+          "alt": "The River of Deferred Reflections — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/064.png",
+          "sourceSha256": "3bb77357add5a45ef79799ea4e1b66471542c74e969d23ceff795e527bb7eded",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/064.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_064-game-pixel.webp",
+          "width": 192,
+          "height": 108,
+          "view": "game_pixel",
+          "caption": "The River of Deferred Reflections — Game pixel edition — awaiting game integration",
+          "alt": "The River of Deferred Reflections — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/064.png",
+          "sourceSha256": "857c0b05c997f77563e5896825b9624d176057f7fdea60b19d96d6de429ce142",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/064.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
       "atlasId": 65,
       "locationId": "atlas_065",
       "name": "The Stormwall Orchard",
@@ -1272,6 +1657,41 @@
           "sourceSha256": "3d8d938cc72e4e87e5ea7de95ef93e7c4bd69849ac8928b742ccf7c39a01071b",
           "originalPath": "",
           "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 66,
+      "locationId": "atlas_066",
+      "name": "The Mosaic Worldscar",
+      "topicId": "topic-e1b351531bcf",
+      "readingIds": [
+        "atlas-p00885"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_066-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Mosaic Worldscar — Atlas illustration",
+          "alt": "The Mosaic Worldscar — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/066.png",
+          "sourceSha256": "5760fd9575ce4b002f20ae0060fccca31fa5c964b4cd82d3a3e112a2d00b84cd",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/066.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_066-game-pixel.webp",
+          "width": 192,
+          "height": 108,
+          "view": "game_pixel",
+          "caption": "The Mosaic Worldscar — Game pixel edition — awaiting game integration",
+          "alt": "The Mosaic Worldscar — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/066.png",
+          "sourceSha256": "96359e9e4d799bda7e098861a3ca28459b1eb1b0d2117b3405c4bc7a13c328ff",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/066.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
         }
       ]
     },
@@ -1299,6 +1719,216 @@
       ]
     },
     {
+      "atlasId": 68,
+      "locationId": "atlas_068",
+      "name": "The Cabinet of Unused Weather",
+      "topicId": "topic-797e4fee81a4",
+      "readingIds": [
+        "atlas-p01118"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_068-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Cabinet of Unused Weather — Atlas illustration",
+          "alt": "The Cabinet of Unused Weather — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/068.png",
+          "sourceSha256": "6d0d9a5abec07441dc84979078c8bda8ed3b31475166b61e585063a626cfcde6",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/068.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_068-game-pixel.webp",
+          "width": 240,
+          "height": 135,
+          "view": "game_pixel",
+          "caption": "The Cabinet of Unused Weather — Game pixel edition — awaiting game integration",
+          "alt": "The Cabinet of Unused Weather — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/068.png",
+          "sourceSha256": "ff6b14e3c3fdeee62cb9024aace2e927422451389f1f3226380ffea170238231",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/068.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 69,
+      "locationId": "atlas_069",
+      "name": "The Quiet Kitchen",
+      "topicId": "topic-8657cecfa736",
+      "readingIds": [
+        "atlas-p01129"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_069-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Quiet Kitchen — Atlas illustration",
+          "alt": "The Quiet Kitchen — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/069.png",
+          "sourceSha256": "d3300abf4a9dea01bf472b02544da1aa227477b4091c93a6b45fdf8905f92215",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/069.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_069-game-pixel.webp",
+          "width": 384,
+          "height": 216,
+          "view": "game_pixel",
+          "caption": "The Quiet Kitchen — Game pixel edition — awaiting game integration",
+          "alt": "The Quiet Kitchen — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/069.png",
+          "sourceSha256": "fe15cf7e03dfe34e310686ba64f5c19c71c0f6ac64a7a793accfe65558dd5a7e",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/069.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 70,
+      "locationId": "atlas_070",
+      "name": "The Staircase That Ends in a Lake",
+      "topicId": "topic-b0bd5c6b56d6",
+      "readingIds": [
+        "atlas-p01140"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_070-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Staircase That Ends in a Lake — Atlas illustration",
+          "alt": "The Staircase That Ends in a Lake — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/070.png",
+          "sourceSha256": "0f0e1d6d8ca4af3aff0c16217eb99b9ddf9f9b6fac4eed5f66c6fcc2f8632a8d",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/070.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_070-game-pixel.webp",
+          "width": 320,
+          "height": 180,
+          "view": "game_pixel",
+          "caption": "The Staircase That Ends in a Lake — Game pixel edition — awaiting game integration",
+          "alt": "The Staircase That Ends in a Lake — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/070.png",
+          "sourceSha256": "3e997cb3bc6bccfcbae413de0ead96f190ddb111ce089b61b1e8565862deb007",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/070.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 71,
+      "locationId": "atlas_071",
+      "name": "The Clockless Dormitory",
+      "topicId": "topic-e4ed05e616b2",
+      "readingIds": [
+        "atlas-p01151"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_071-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Clockless Dormitory — Atlas illustration",
+          "alt": "The Clockless Dormitory — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/071.png",
+          "sourceSha256": "79cfd5449462169a233c79c42aae880ba6f11562d778efff8918b545228fb651",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/071.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_071-game-pixel.webp",
+          "width": 320,
+          "height": 180,
+          "view": "game_pixel",
+          "caption": "The Clockless Dormitory — Game pixel edition — awaiting game integration",
+          "alt": "The Clockless Dormitory — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/071.png",
+          "sourceSha256": "c51374618a9953a654177ac1bb263cfe1fb3de9028ca089dba2cbe1624c4d219",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/071.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 72,
+      "locationId": "atlas_072",
+      "name": "The Seed Vault of Impossible Colors",
+      "topicId": "topic-759e9d68d255",
+      "readingIds": [
+        "atlas-p01162"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_072-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Seed Vault of Impossible Colors — Atlas illustration",
+          "alt": "The Seed Vault of Impossible Colors — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/072.png",
+          "sourceSha256": "75cac32944fb6ef993b78d3e61da00b606a87c99456cd03715a70d17ec563979",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/072.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_072-game-pixel.webp",
+          "width": 384,
+          "height": 216,
+          "view": "game_pixel",
+          "caption": "The Seed Vault of Impossible Colors — Game pixel edition — awaiting game integration",
+          "alt": "The Seed Vault of Impossible Colors — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/072.png",
+          "sourceSha256": "b02a72454a913c75a59bf71f44afb92b998ee718756d46897dd89e7434ff790a",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/072.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 73,
+      "locationId": "atlas_073",
+      "name": "The Room of Borrowed Gravity",
+      "topicId": "topic-d17d92a1e452",
+      "readingIds": [
+        "atlas-p01173"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_073-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Room of Borrowed Gravity — Atlas illustration",
+          "alt": "The Room of Borrowed Gravity — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/073.png",
+          "sourceSha256": "4d1bd79a84926ab67fd210558dce8ab4a5cb0aa28002e199b6b3ad20cfdc0088",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/073.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_073-game-pixel.webp",
+          "width": 192,
+          "height": 108,
+          "view": "game_pixel",
+          "caption": "The Room of Borrowed Gravity — Game pixel edition — awaiting game integration",
+          "alt": "The Room of Borrowed Gravity — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/073.png",
+          "sourceSha256": "8abac46e99cba88abbf12fc353e8f5bfbff6bc2ecbe682549fc2b0b918f5362e",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/073.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
       "atlasId": 74,
       "locationId": "atlas_074",
       "name": "The Door Archive",
@@ -1318,6 +1948,41 @@
           "sourceSha256": "278d38bff2bc09997963dbb4547cae66feff4af41598bc0fc09a59f555e2578c",
           "originalPath": "",
           "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 75,
+      "locationId": "atlas_075",
+      "name": "The Hidden Playroom",
+      "topicId": "topic-bf03a8769ba9",
+      "readingIds": [
+        "atlas-p01195"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_075-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Hidden Playroom — Atlas illustration",
+          "alt": "The Hidden Playroom — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/075.png",
+          "sourceSha256": "0be3fcb2f6e2d9a9a7c35167781028be134f9bd5b46e12cdc585660932025ca4",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/075.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_075-game-pixel.webp",
+          "width": 320,
+          "height": 180,
+          "view": "game_pixel",
+          "caption": "The Hidden Playroom — Game pixel edition — awaiting game integration",
+          "alt": "The Hidden Playroom — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/075.png",
+          "sourceSha256": "b701a81f357257fd58002c031a9ea0bfacd03530e034f8cff76cd02ef9c0067e",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/075.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
         }
       ]
     },
@@ -1357,6 +2022,216 @@
       ]
     },
     {
+      "atlasId": 77,
+      "locationId": "atlas_077",
+      "name": "The Room Under the River",
+      "topicId": "topic-558b15f16ba2",
+      "readingIds": [
+        "atlas-p01232"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_077-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Room Under the River — Atlas illustration",
+          "alt": "The Room Under the River — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/077.png",
+          "sourceSha256": "147a5a3e479b2b210bb4948d20e23ae7aad89cf6a26b69b87a314e13f38ba271",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/077.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_077-game-pixel.webp",
+          "width": 320,
+          "height": 180,
+          "view": "game_pixel",
+          "caption": "The Room Under the River — Game pixel edition — awaiting game integration",
+          "alt": "The Room Under the River — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/077.png",
+          "sourceSha256": "ac9562bee8e57f38510ff9e8e6afd7a08d3eaf71497fe15d82d2b9069bf6b398",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/077.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 78,
+      "locationId": "atlas_078",
+      "name": "The Unclaimed Balcony",
+      "topicId": "topic-9401648a6973",
+      "readingIds": [
+        "atlas-p01243"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_078-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Unclaimed Balcony — Atlas illustration",
+          "alt": "The Unclaimed Balcony — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/078.png",
+          "sourceSha256": "b9c0ae702f4fde697fe5b00d3dd603813f0124b44c2975bd8dca62a12e6ea7d8",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/078.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_078-game-pixel.webp",
+          "width": 320,
+          "height": 180,
+          "view": "game_pixel",
+          "caption": "The Unclaimed Balcony — Game pixel edition — awaiting game integration",
+          "alt": "The Unclaimed Balcony — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/078.png",
+          "sourceSha256": "6fecc3e6ff16fd5975fc7ceb3487c10ed4a0644bdf6d6ad285dc88c062387efd",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/078.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 79,
+      "locationId": "atlas_079",
+      "name": "The Mapmaker’s Crawlspace",
+      "topicId": "topic-2f339c327e71",
+      "readingIds": [
+        "atlas-p01254"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_079-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Mapmaker’s Crawlspace — Atlas illustration",
+          "alt": "The Mapmaker’s Crawlspace — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/079.png",
+          "sourceSha256": "9221600cfdc1570b7fd0575b8e68d8467d153d5826a2d2915b77d8f3e3f20ae0",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/079.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_079-game-pixel.webp",
+          "width": 192,
+          "height": 108,
+          "view": "game_pixel",
+          "caption": "The Mapmaker’s Crawlspace — Game pixel edition — awaiting game integration",
+          "alt": "The Mapmaker’s Crawlspace — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/079.png",
+          "sourceSha256": "8892cb13a8e844ee0498cff22a382642dd07ccf3d21a89671e3e02d5646ac532",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/079.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 80,
+      "locationId": "atlas_080",
+      "name": "The Room Where Dust Remembers Footsteps",
+      "topicId": "topic-bf67513ee392",
+      "readingIds": [
+        "atlas-p01265"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_080-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Room Where Dust Remembers Footsteps — Atlas illustration",
+          "alt": "The Room Where Dust Remembers Footsteps — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/080.png",
+          "sourceSha256": "e12fba327c5fa86cf95b1c28e2f56099e1982bfa95ad9bf7cf2fa98fba559621",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/080.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_080-game-pixel.webp",
+          "width": 384,
+          "height": 216,
+          "view": "game_pixel",
+          "caption": "The Room Where Dust Remembers Footsteps — Game pixel edition — awaiting game integration",
+          "alt": "The Room Where Dust Remembers Footsteps — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/080.png",
+          "sourceSha256": "543576a4085a259c0e6d28d0861baeaae034e56a85690ff46a966c799a6d73f7",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/080.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 81,
+      "locationId": "atlas_081",
+      "name": "The Pocket Monsoon",
+      "topicId": "topic-f603412be09b",
+      "readingIds": [
+        "atlas-p01277"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_081-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Pocket Monsoon — Atlas illustration",
+          "alt": "The Pocket Monsoon — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/081.png",
+          "sourceSha256": "57aabc048f85e2777b9f29d62b69d9433a7420b0acf9887fc590608cf9f6b8e7",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/081.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_081-game-pixel.webp",
+          "width": 384,
+          "height": 216,
+          "view": "game_pixel",
+          "caption": "The Pocket Monsoon — Game pixel edition — awaiting game integration",
+          "alt": "The Pocket Monsoon — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/081.png",
+          "sourceSha256": "a50888ec987b74a55cd71ed0c86cabe4088eb751526df8123c878423128f8799",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/081.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 82,
+      "locationId": "atlas_082",
+      "name": "The Amber Cavern Meadow",
+      "topicId": "topic-f6a4f9d27f0b",
+      "readingIds": [
+        "atlas-p01288"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_082-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Amber Cavern Meadow — Atlas illustration",
+          "alt": "The Amber Cavern Meadow — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/082.png",
+          "sourceSha256": "aab6ac5411c1c43ad3e5291a6a8d833d62a14e33f939d065d2a2b22e9a4e08df",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/082.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_082-game-pixel.webp",
+          "width": 384,
+          "height": 216,
+          "view": "game_pixel",
+          "caption": "The Amber Cavern Meadow — Game pixel edition — awaiting game integration",
+          "alt": "The Amber Cavern Meadow — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/082.png",
+          "sourceSha256": "c727974eee3d785c08fbd97db8366e257d54953e3f2278814bd8fd8f40ddd72a",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/082.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
       "atlasId": 83,
       "locationId": "atlas_083",
       "name": "The Ceiling Desert",
@@ -1380,6 +2255,146 @@
       ]
     },
     {
+      "atlasId": 84,
+      "locationId": "atlas_084",
+      "name": "The Moss Clock Bog",
+      "topicId": "topic-934fbddb6750",
+      "readingIds": [
+        "atlas-p01310"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_084-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Moss Clock Bog — Atlas illustration",
+          "alt": "The Moss Clock Bog — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/084.png",
+          "sourceSha256": "b23c1b9094c0b646d3264fbc0d49293ca626032f2a4842d714c3c7e5b3e7ba82",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/084.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_084-game-pixel.webp",
+          "width": 384,
+          "height": 216,
+          "view": "game_pixel",
+          "caption": "The Moss Clock Bog — Game pixel edition — awaiting game integration",
+          "alt": "The Moss Clock Bog — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/084.png",
+          "sourceSha256": "6353c2679c82fec152afb4044a3b6e4f80c4d4cc5f66ef369f15d0f2468ffeb6",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/084.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 85,
+      "locationId": "atlas_085",
+      "name": "The Crystal Root Grotto",
+      "topicId": "topic-ff81bb0bfb63",
+      "readingIds": [
+        "atlas-p01321"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_085-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Crystal Root Grotto — Atlas illustration",
+          "alt": "The Crystal Root Grotto — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/085.png",
+          "sourceSha256": "111b22d6e48c0df1ad4444d0ed61781f457b314a79d71153685e17cc547ebb97",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/085.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_085-game-pixel.webp",
+          "width": 320,
+          "height": 180,
+          "view": "game_pixel",
+          "caption": "The Crystal Root Grotto — Game pixel edition — awaiting game integration",
+          "alt": "The Crystal Root Grotto — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/085.png",
+          "sourceSha256": "399155bcf12e5b30a4bea61ee7844838119e2067707556c58d5197eaf131c32d",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/085.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 86,
+      "locationId": "atlas_086",
+      "name": "The Windless Pine Bowl",
+      "topicId": "topic-142b116402e7",
+      "readingIds": [
+        "atlas-p01332"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_086-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Windless Pine Bowl — Atlas illustration",
+          "alt": "The Windless Pine Bowl — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/086.png",
+          "sourceSha256": "894b25b13cfb33a71026a6e788ba12e6b860c8b0d07c5eb51687e33730f05b98",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/086.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_086-game-pixel.webp",
+          "width": 480,
+          "height": 270,
+          "view": "game_pixel",
+          "caption": "The Windless Pine Bowl — Game pixel edition — awaiting game integration",
+          "alt": "The Windless Pine Bowl — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/086.png",
+          "sourceSha256": "0386c70243251ea25f270ace6d250d62630d7463c815ba38480ca7a474ff811d",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/086.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 87,
+      "locationId": "atlas_087",
+      "name": "The Blue Lava Orchard",
+      "topicId": "topic-ca099a6c8533",
+      "readingIds": [
+        "atlas-p01343"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_087-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Blue Lava Orchard — Atlas illustration",
+          "alt": "The Blue Lava Orchard — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/087.png",
+          "sourceSha256": "ea5d8a51375b1364a9a3d985bff196e5301e6f5a69db8a13dc77d628ca02b3fe",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/087.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_087-game-pixel.webp",
+          "width": 384,
+          "height": 216,
+          "view": "game_pixel",
+          "caption": "The Blue Lava Orchard — Game pixel edition — awaiting game integration",
+          "alt": "The Blue Lava Orchard — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/087.png",
+          "sourceSha256": "7dd76da409eaaa0abc34085169c13ecdbed1ac7a9014c24db536ef26f35420ee",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/087.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
       "atlasId": 88,
       "locationId": "atlas_088",
       "name": "The Firefly Ice Shelf",
@@ -1399,6 +2414,216 @@
           "sourceSha256": "ab3d78473305baf1220109ae112680abe597a2241296cad47747bbcc2a592f39",
           "originalPath": "/Users/timetravellog/Desktop/DBA Language/Location Backgrounds/Firefly Ice Shelf/Full Backgrounds/Firefly Ice Shelf V3.png",
           "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
+        }
+      ]
+    },
+    {
+      "atlasId": 89,
+      "locationId": "atlas_089",
+      "name": "The Feathergrass Sea",
+      "topicId": "topic-d17fba9825cc",
+      "readingIds": [
+        "atlas-p01373"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_089-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Feathergrass Sea — Atlas illustration",
+          "alt": "The Feathergrass Sea — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/089.png",
+          "sourceSha256": "0ec350e28891c55bb806544ae5172ff3a28403bb28a151de81ea24bd10571532",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/089.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_089-game-pixel.webp",
+          "width": 320,
+          "height": 180,
+          "view": "game_pixel",
+          "caption": "The Feathergrass Sea — Game pixel edition — awaiting game integration",
+          "alt": "The Feathergrass Sea — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/089.png",
+          "sourceSha256": "5d4b343ec3522a1c11a7a76da739d58ef4334a47319549c8660348e2a302eb8d",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/089.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 90,
+      "locationId": "atlas_090",
+      "name": "The Sunken Cloud Basin",
+      "topicId": "topic-cd9db605f777",
+      "readingIds": [
+        "atlas-p01384"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_090-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Sunken Cloud Basin — Atlas illustration",
+          "alt": "The Sunken Cloud Basin — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/090.png",
+          "sourceSha256": "101803e166541ee297cde8ffda8a77ae7e0274f032ed789960f9e303fccee10c",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/090.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_090-game-pixel.webp",
+          "width": 240,
+          "height": 135,
+          "view": "game_pixel",
+          "caption": "The Sunken Cloud Basin — Game pixel edition — awaiting game integration",
+          "alt": "The Sunken Cloud Basin — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/090.png",
+          "sourceSha256": "4afc3d5daa2d8ecf28526304a4ce401b51aa191235c52a7f0969359821c26e02",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/090.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 91,
+      "locationId": "atlas_091",
+      "name": "The Singing Mud Flats",
+      "topicId": "topic-469b99a672fd",
+      "readingIds": [
+        "atlas-p01395"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_091-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Singing Mud Flats — Atlas illustration",
+          "alt": "The Singing Mud Flats — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/091.png",
+          "sourceSha256": "a56e42fc3350d32a59c641ee31cc9e711e9488359862ef0b2aed49c48b7e0c02",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/091.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_091-game-pixel.webp",
+          "width": 384,
+          "height": 216,
+          "view": "game_pixel",
+          "caption": "The Singing Mud Flats — Game pixel edition — awaiting game integration",
+          "alt": "The Singing Mud Flats — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/091.png",
+          "sourceSha256": "2c0bbe0f081a67ec4c5f38906590608b5dc8aee2e2b87ae93f52a176a0b6f088",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/091.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 92,
+      "locationId": "atlas_092",
+      "name": "The Night-Bloom Mesa",
+      "topicId": "topic-72968099a9fe",
+      "readingIds": [
+        "atlas-p01406"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_092-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Night-Bloom Mesa — Atlas illustration",
+          "alt": "The Night-Bloom Mesa — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/092.png",
+          "sourceSha256": "384c94dd89390b1983d5dc115e75cb0d1fc8f916db7948ba21103f2b516a2e44",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/092.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_092-game-pixel.webp",
+          "width": 384,
+          "height": 216,
+          "view": "game_pixel",
+          "caption": "The Night-Bloom Mesa — Game pixel edition — awaiting game integration",
+          "alt": "The Night-Bloom Mesa — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/092.png",
+          "sourceSha256": "8cca14bd69e444b3c4fa7e3d981f4b877a0c1e063734d6ce1cf20a943198ea9e",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/092.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 93,
+      "locationId": "atlas_093",
+      "name": "The Rainshadow Jungle",
+      "topicId": "topic-8c2af42aaa35",
+      "readingIds": [
+        "atlas-p01417"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_093-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Rainshadow Jungle — Atlas illustration",
+          "alt": "The Rainshadow Jungle — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/093.png",
+          "sourceSha256": "91c620fa236e4f8a13c9c90f191022a0175a5ef571577c2fe833822907197b28",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/093.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_093-game-pixel.webp",
+          "width": 384,
+          "height": 216,
+          "view": "game_pixel",
+          "caption": "The Rainshadow Jungle — Game pixel edition — awaiting game integration",
+          "alt": "The Rainshadow Jungle — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/093.png",
+          "sourceSha256": "8548f1ca65bdc285a2b2b52eacecb7fc520bfbcdd9c210df574824c5af4372f6",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/093.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 94,
+      "locationId": "atlas_094",
+      "name": "The Moonless Tidepool Labyrinth",
+      "topicId": "topic-c4b86d92e0bc",
+      "readingIds": [
+        "atlas-p01428"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_094-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Moonless Tidepool Labyrinth — Atlas illustration",
+          "alt": "The Moonless Tidepool Labyrinth — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/094.png",
+          "sourceSha256": "cf9a59679ffac6d36cd340e879c6d33d90fdac8140c48624923dbac1dcc46e6f",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/094.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_094-game-pixel.webp",
+          "width": 384,
+          "height": 216,
+          "view": "game_pixel",
+          "caption": "The Moonless Tidepool Labyrinth — Game pixel edition — awaiting game integration",
+          "alt": "The Moonless Tidepool Labyrinth — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/094.png",
+          "sourceSha256": "6eb1ccd06bf269455a672907babf9d7f64a4b70f081058091182435be7263177",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/094.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
         }
       ]
     },
@@ -1449,6 +2674,41 @@
       ]
     },
     {
+      "atlasId": 97,
+      "locationId": "atlas_097",
+      "name": "The Invisible Village",
+      "topicId": "topic-be2edd2215e7",
+      "readingIds": [
+        "atlas-p01462"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_097-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Invisible Village — Atlas illustration",
+          "alt": "The Invisible Village — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/097.png",
+          "sourceSha256": "49d4cd5a478c20317b92dcc5613bfbedbf1b44bfde5511b1ff0fac829f992e79",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/097.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_097-game-pixel.webp",
+          "width": 320,
+          "height": 180,
+          "view": "game_pixel",
+          "caption": "The Invisible Village — Game pixel edition — awaiting game integration",
+          "alt": "The Invisible Village — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/097.png",
+          "sourceSha256": "f2510099709a4008e86023ee3bc73a39e4535bea6073899d8d1676cee8a51557",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/097.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
       "atlasId": 98,
       "locationId": "atlas_098",
       "name": "The Hall That Forgets Its Walls",
@@ -1468,6 +2728,41 @@
           "sourceSha256": "fd16def7770674fa92ead83b98234030c4284545a5deea30f03d1133281761b6",
           "originalPath": "",
           "attribution": "Existing Cyber Pet project location artwork. Original creator or license not recorded in the available asset manifest; no new reuse license is granted."
+        }
+      ]
+    },
+    {
+      "atlasId": 99,
+      "locationId": "atlas_099",
+      "name": "The Archive Quarry",
+      "topicId": "topic-8d5caf262261",
+      "readingIds": [
+        "atlas-p01484"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_099-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Archive Quarry — Atlas illustration",
+          "alt": "The Archive Quarry — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/099.png",
+          "sourceSha256": "8156e1ae961b94b412be204ebe5ef8689891b6498e22156b7dd60c3cc1025dff",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/099.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_099-game-pixel.webp",
+          "width": 240,
+          "height": 135,
+          "view": "game_pixel",
+          "caption": "The Archive Quarry — Game pixel edition — awaiting game integration",
+          "alt": "The Archive Quarry — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/099.png",
+          "sourceSha256": "5b21c84ac75f7552d2002880d6dd8af41afedb92d67bd55c2ed06eebf5e26fca",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/099.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
         }
       ]
     },
@@ -1518,6 +2813,41 @@
       ]
     },
     {
+      "atlasId": 102,
+      "locationId": "atlas_102",
+      "name": "The Animal-Shaped Valley",
+      "topicId": "topic-c1256701e059",
+      "readingIds": [
+        "atlas-p01525"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_102-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Animal-Shaped Valley — Atlas illustration",
+          "alt": "The Animal-Shaped Valley — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/102.png",
+          "sourceSha256": "7fdb73fce8a5dbf9de0c4f26b5a4b86bf6a99f44d2d495efd1a1c4b8bd4344d7",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/102.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_102-game-pixel.webp",
+          "width": 320,
+          "height": 180,
+          "view": "game_pixel",
+          "caption": "The Animal-Shaped Valley — Game pixel edition — awaiting game integration",
+          "alt": "The Animal-Shaped Valley — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/102.png",
+          "sourceSha256": "c499ca35609c2e4fd3bb4ea240932bf98e97cd8189d33d96a4ff068ea3a72420",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/102.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
       "atlasId": 103,
       "locationId": "atlas_103",
       "name": "The Unfinished Underground Sun",
@@ -1539,6 +2869,112 @@
           "attribution": "User-provided Cyberpath location artwork saved in the local lore project; creator/tool attribution not independently established."
         }
       ]
+    },
+    {
+      "atlasId": 104,
+      "locationId": "atlas_104",
+      "name": "The Room Where All Doors Wait",
+      "topicId": "topic-a81a730c7d52",
+      "readingIds": [
+        "atlas-p01555"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_104-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Room Where All Doors Wait — Atlas illustration",
+          "alt": "The Room Where All Doors Wait — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/104.png",
+          "sourceSha256": "bd7d05e18b2136a2ed848fb5e8a409de50f08ad9bfa1e270b8a75305f29f654a",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/104.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_104-game-pixel.webp",
+          "width": 240,
+          "height": 135,
+          "view": "game_pixel",
+          "caption": "The Room Where All Doors Wait — Game pixel edition — awaiting game integration",
+          "alt": "The Room Where All Doors Wait — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/104.png",
+          "sourceSha256": "24f17e01d7a134f954f95b16699a60bbc7d1f2629bfa6fb6cdf7158d8f1b23f8",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/104.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 105,
+      "locationId": "atlas_105",
+      "name": "The Village Between Raindrops",
+      "topicId": "topic-235cddaa61e7",
+      "readingIds": [
+        "atlas-p01566"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_105-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Village Between Raindrops — Atlas illustration",
+          "alt": "The Village Between Raindrops — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/105.png",
+          "sourceSha256": "cbd17fc5b7d84a1329d8c5705d52cd1a1b093d35a91b43db91001e24285876ca",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/105.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_105-game-pixel.webp",
+          "width": 384,
+          "height": 216,
+          "view": "game_pixel",
+          "caption": "The Village Between Raindrops — Game pixel edition — awaiting game integration",
+          "alt": "The Village Between Raindrops — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/105.png",
+          "sourceSha256": "27f1ab8bb9c3cec32cd9b1cff16f49dea3bc98d9465839aa72d3f42c7560f998",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/105.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
+    },
+    {
+      "atlasId": 106,
+      "locationId": "atlas_106",
+      "name": "The Hollow Mountain Elevator",
+      "topicId": "topic-cb745588ec9b",
+      "readingIds": [
+        "atlas-p01577"
+      ],
+      "images": [
+        {
+          "src": "images/locations/atlas_106-atlas-illustration.webp",
+          "width": 384,
+          "height": 216,
+          "view": "atlas_illustration",
+          "caption": "The Hollow Mountain Elevator — Atlas illustration",
+          "alt": "The Hollow Mountain Elevator — Atlas illustration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/106.png",
+          "sourceSha256": "0e3e0ce5a37b9482e18c2fa51f723191d44ec9024f26f4f79f24f844383e1f92",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Atlas Illustrations 2026-10-28/106.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        },
+        {
+          "src": "images/locations/atlas_106-game-pixel.webp",
+          "width": 320,
+          "height": 180,
+          "view": "game_pixel",
+          "caption": "The Hollow Mountain Elevator — Game pixel edition — awaiting game integration",
+          "alt": "The Hollow Mountain Elevator — Game pixel edition — awaiting game integration",
+          "sourceAsset": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/106.png",
+          "sourceSha256": "d8a18d24c3af0f1a2aad46e39c97e3a153c87458b1adde6c4023db7165399ced",
+          "originalPath": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28/Game Pixel Editions/106.png",
+          "attribution": "PixelLab-generated Cyberpath artwork; source illustration and game pixel edition preserved in the SSD completion archive."
+        }
+      ]
     }
-  ]
+  ],
+  "completionArchive": "/Volumes/Cyber Pet Workspace/Cyberpath Atlas/PixelLab completion 2026-10-28"
 }
