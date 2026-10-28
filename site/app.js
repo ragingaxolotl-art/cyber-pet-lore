@@ -1,3 +1,4 @@
+import {paintHighlights} from './highlight-dom.mjs';
 import {renderContinuityNotes} from './profiles.mjs';
 import {renderLocationArt} from './location-art.mjs';
 import {loadWiki,appendWiki,readingConnections} from './wiki-links.mjs?v=profiles-1';
@@ -74,7 +75,8 @@ function renderBlocks(){
   let tag='p';const style=String(block.style||'');if(/TITLE|HEADING_1|^h1$|^h2$/i.test(style))tag='h2';else if(/HEADING_2|^h3$/i.test(style))tag='h3';else if(/HEADING_[3-6]|^h4$/i.test(style))tag='h4';else if(/^>/.test(block.text))tag='blockquote';
   const el=node(tag,undefined,'reading-block');el.dataset.block=block.id;el.id='block-'+block.id;
   if(/^[-—*_]{3,}$/.test(block.text.trim()))el.classList.add('divider');
-  for(const part of highlightIntervals(block.text,block.id,r.highlights)){if(part.id){const m=node('mark',part.text);m.dataset.color=part.color;m.dataset.highlight=part.id;const highlighted=r.highlights.find(h=>h.id===part.id);m.title=highlighted?.clip?'Clip #'+highlighted.clip.number+(highlighted.note?' — '+highlighted.note:''):(highlighted?.note||'Highlighted passage');m.onclick=()=>{const card=document.getElementById('highlight-'+part.id);card?.scrollIntoView({block:'center'});card?.querySelector('textarea')?.focus({preventScroll:true});};el.append(m);}else appendWiki(el,part.text,{readingId:current.id});}
+  appendWiki(el,block.text,{readingId:current.id});
+  paintHighlights(el,block.id,r.highlights,id=>{const card=document.getElementById('highlight-'+id);card?.scrollIntoView({block:'center'});card?.querySelector('textarea')?.focus({preventScroll:true});});
   parent.append(el);
  }
 }
@@ -103,7 +105,7 @@ function scrollToBlock(id){document.getElementById('block-'+id)?.scrollIntoView(
 function highlightHeading(card,id,h){
  const entry=byId.get(id),context=h.clip||h.context;
  const heading=node('h3'),link=node('a',context?.storyTitle||entry?.title||'Reading no longer in this snapshot');
- if(entry)link.href='#read='+encodeURIComponent(id);heading.append(link);card.append(heading);
+ if(entry)link.href='#read='+encodeURIComponent(id);else if(context?.href)link.href=context.href;heading.append(link);card.append(heading);
  const eras=context?.era||entry?.era||[];
  const date=h.createdAt>0&&Number.isFinite(new Date(h.createdAt).getTime())?new Date(h.createdAt).toLocaleDateString(undefined,{year:'numeric',month:'short',day:'numeric'}):'Date not recorded';
  card.append(node('p',date+' · '+(eras.length?eras.map(eraName).join(' / '):'Era unspecified'),'row-meta'));
@@ -154,6 +156,7 @@ $('confirm-clip').onclick=()=>{
 };
 async function copyPassage(h,button){try{await navigator.clipboard.writeText(h.segments.map(s=>s.quote).join('\n'));button.textContent='Copied';}catch{button.textContent='Select the quote to copy';}}
 function renderNotebook(){
+ updateProgress();
  ++routeSequence;hideSelection();current=null;$('library').hidden=true;$('reader').hidden=true;$('notebook').hidden=false;const list=$('notebook-list');list.replaceChildren();const onlyClips=$('clips-only').checked;
  const highlights=Object.entries(state.readings).flatMap(([id,r])=>r.highlights.filter(h=>!onlyClips||h.clip).map(h=>({id,h}))).sort((a,b)=>b.h.createdAt-a.h.createdAt);
  for(const {id,h:item} of highlights){
@@ -163,7 +166,7 @@ function renderNotebook(){
   const label=node('label','Your note (optional)'),note=node('textarea');note.rows=3;note.maxLength=30000;note.value=item.note;label.append(note);
   note.oninput=()=>updateRecord(id,{highlights:record(id).highlights.map(h=>h.id===item.id?{...h,note:note.value}:h)});
   card.append(label,highlightTags(id,item));
-  if(byId.has(id)){const go=node('a','Return to passage →');go.href='#read='+encodeURIComponent(id)+'&block='+encodeURIComponent(item.segments[0].block);card.append(go);}
+  if(byId.has(id)||item.context?.href){const go=node('a','Return to passage →');if(byId.has(id))go.href='#read='+encodeURIComponent(id)+'&block='+encodeURIComponent(item.segments[0].block);else{const url=new URL(item.context.href,location.href);url.searchParams.set('highlight',item.id);go.href=url.href;}card.append(go);}
   const copy=node('button','Copy passage');copy.onclick=()=>copyPassage(item,copy);card.append(copy);list.append(card);
  }
  if(!onlyClips){

@@ -1,4 +1,5 @@
 export const STORAGE_KEY='cyber-pet-lore.reading.v1';
+export const safeArticleHref=value=>typeof value==='string'&&/^(?:wiki\.html|terms\.html|timeline\.html|illnesses\/index\.html)(?:[?#][^\s]*)?$/.test(value);
 export const emptyState=()=>({format:'cyber-pet-lore-reading',version:1,readings:{},preferences:{fontSize:19,warm:false},lastReading:null,nextClipNumber:1});
 const object=v=>v&&typeof v==='object'&&!Array.isArray(v);
 const string=(v,max=30000)=>typeof v==='string'&&v.length<=max;
@@ -14,9 +15,10 @@ export function validateState(value){
    for(const s of h.segments)if(!object(s)||!string(s.block,200)||!Number.isInteger(s.start)||!Number.isInteger(s.end)||s.start<0||s.end<=s.start||!string(s.quote,100000)||s.quote.length!==s.end-s.start)throw Error('A highlight location is invalid. Nothing was imported.');
    if(h.tags!==undefined&&(!Array.isArray(h.tags)||h.tags.length>30||h.tags.some(t=>!string(t,70))))throw Error('Highlight tags are invalid. Nothing was imported.');
    if(h.context!==undefined&&(!object(h.context)||!string(h.context.storyTitle,300)||!Array.isArray(h.context.era)||h.context.era.some(e=>!Number.isInteger(e)||e< -3||e>4)))throw Error('Highlight context is invalid. Nothing was imported.');
+   if(h.context?.href!==undefined&&!safeArticleHref(h.context.href))throw Error('Highlight article link is invalid. Nothing was imported.');
    let clip;
    if(h.clip!==undefined){const c=h.clip;if(!object(c)||!Number.isSafeInteger(c.number)||c.number<1||!string(c.storyId,150)||!string(c.storyTitle,300)||!string(c.timeLabel,500)||!Array.isArray(c.era)||c.era.some(e=>!Number.isInteger(e)||e< -3||e>4)||!Array.isArray(c.characters)||c.characters.length>100||c.characters.some(n=>!string(n,150)))throw Error('A clip is invalid. Nothing was imported.');clip={number:c.number,storyId:c.storyId,storyTitle:c.storyTitle,timeLabel:c.timeLabel,era:[...c.era],characters:[...c.characters]};}
-   highlights.push({...(h.tags!==undefined?{tags:[...h.tags]}:{}),...(h.context?{context:{storyTitle:h.context.storyTitle,era:[...h.context.era]}}:{}),...(clip?{clip}:{}),id:h.id,color:h.color,note:h.note??'',segments:h.segments.map(s=>({...s})),createdAt:Number(h.createdAt)||0});
+   highlights.push({...(h.tags!==undefined?{tags:[...h.tags]}:{}),...(h.context?{context:{storyTitle:h.context.storyTitle,era:[...h.context.era],...(h.context.href?{href:h.context.href}:{})}}:{}),...(clip?{clip}:{}),id:h.id,color:h.color,note:h.note??'',segments:h.segments.map(s=>({...s})),createdAt:Number(h.createdAt)||0});
   }
   result.readings[id]={read:r.read===true,readAt:Number(r.readAt)||null,note:r.note??'',tags:Array.isArray(r.tags)?r.tags.filter(t=>string(t,70)).slice(0,30):[],highlights,updatedAt:r.updatedAt,position:object(r.position)&&string(r.position.block,200)?{block:r.position.block}:null};
  }

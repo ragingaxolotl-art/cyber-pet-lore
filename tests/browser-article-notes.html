@@ -1,0 +1,19 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Article highlight checks</title></head><body><h1>Article highlight checks</h1><pre id="result">Running…</pre><article id="sample"><h2>Sample article</h2><p id="prose">Meet <a href="#destination">Learning Keeper</a> and <em>Aru</em> today.</p></article><div id="destination">Link destination</div><script type="module">
+import {paintHighlights} from '../site/highlight-dom.mjs';
+import {mountArticleNotes} from '../site/article-notes.mjs';
+import {STORAGE_KEY,validateState} from '../site/records.mjs';
+const result=document.querySelector('#result'),p=document.querySelector('#prose'),a=p.querySelector('a'),text=p.textContent,checks=[];
+function check(value,label){if(!value)throw Error(label);checks.push(label);}
+try{
+ let opened=0;const h={id:'partial',color:'gold',note:'test',segments:[{block:'p',start:7,end:22,quote:text.slice(7,22)}]};
+ paintHighlights(p,'p',[h],()=>opened++);
+ check(p.textContent===text,'Exact text preserved');check(p.querySelector('a')===a&&a.textContent==='Learning Keeper','Original full hyperlink preserved across partial selection');check(a.querySelector('mark'),'Linked text highlighted');
+ a.querySelector('mark').click();check(opened===0&&location.hash==='#destination','Highlighted link navigates without opening the note');
+ const nested={id:'overlap',color:'blue',segments:[{block:'p',start:9,end:12,quote:text.slice(9,12)}]};paintHighlights(p,'p',[h,nested]);check(p.querySelector('a')===a&&p.textContent===text,'Overlapping highlights preserve links and text');
+ paintHighlights(p,'p',[]);check(p.querySelector('a')===a&&!p.querySelector('mark'),'Removing highlights preserves the hyperlink');
+ const mount=mountArticleNotes(document.querySelector('#sample'),{id:'article-test',title:'Sample article',era:[-1],href:'wiki.html#sample'});
+ const button=document.createElement('button');button.textContent='Select sample passage';button.onclick=()=>{const range=document.createRange();range.selectNodeContents(p);const sel=getSelection();sel.removeAllRanges();sel.addRange(range);};document.body.prepend(button);
+ check(mount.blocks.some(b=>b.el===p),'Article prose is selectable');result.textContent='PASS: '+checks.length+' browser checks\n'+checks.join('\n');
+ window.addEventListener('pagehide',()=>{});
+}catch(error){result.textContent='FAIL: '+error.stack;}
+</script></body></html>
