@@ -39,6 +39,9 @@ for key in ['stories','lore','atlas','language','game_lorebook']:
    title=e['title'];meta=dict(e)
    if e['status']=='superseded':title+=' — earlier draft';meta['variant']='Superseded draft'
    if e['status']=='unfinished':title+=' — Part One';meta['summary']='Unfinished story: Part One, Approved Responses. Part Two is planned but not written.'
+   if e['startParagraph']==11382:
+    title='The Corrected Child — Part One: Approved Responses'
+    meta.update(status='complete',partOf='The Corrected Child',summary='Part One of the completed two-part story. Continue with Part Two: The Right to Be Incorrect.')
    specs.append((e['startParagraph'],e['endParagraphExclusive'],title,'Draft' if e['status']=='superseded' else 'Story',meta))
   for fix in research['fusedHeadings']:
    i=fix['paragraph'];trans[i]=fix['headingForNextStory'];moved[i-1]=fix['prefixForPreviousStory']
@@ -116,6 +119,11 @@ parts=[draft['title']]+draft['text'].split('\n\n')
 d={'title':'Reviewed chapel story draft','paragraphs':[{'text':t,'tabId':'chapel-draft','namedStyleType':'HEADING_1' if i==0 else 'NORMAL_TEXT'} for i,t in enumerate(parts)]}
 add('chapel-pilgrim-draft',d,0,len(parts),draft['title']+' — draft','Draft',{'eras':draft['era'],'timeLabel':draft['timeLabel'],'status':'draft','summary':draft['summary'],'variant':'Reviewed chat draft'})
 sources.append({'key':'chapel-pilgrim-draft','title':draft['title'],'note':draft['provenance']})
+# User-approved continuation, preserved separately so Part One's anchors do not move.
+continuation=json.loads((INPUT/'corrected-child-part-two.json').read_text())
+add('corrected-child-part-two',continuation,0,len(continuation['paragraphs']),continuation['title'],'Story',{'eras':[-1],'status':'complete','partOf':'The Corrected Child','order':11383,'characters':['Lio','Valei','Sen','Iri','Aru','Vey (student)'],'summary':'Part Two of the completed story. During Lio’s developmental review, a supervised lesson tests whether guidance can become something they can recognize and refuse.'})
+sources.append({'key':'corrected-child-part-two','title':continuation['title'],'note':'Completed chat continuation approved for publication by the user. Original planning records remain separately preserved.'})
+research['counts']=dict(research['counts'],completePrimaryStories=14,unfinishedPrimaryStories=0,primaryReadingUnitsWithQuietInstallmentsSplit=25,totalReadingUnitsIncludingDrafts=29)
 from build_reference_readings import add_reference_readings
 add_reference_readings(ROOT,catalog,sources)
 

@@ -29,15 +29,15 @@ test('every proposal has provenance and a working generated local source page',(
  assert.equal(JSON.stringify(archive).includes('\ufffd'),false);
  assert.equal(archive.counts.groups,archive.groups.length);assert.equal(archive.counts.variants,variants.length);
 });
-test('unwritten sequel and incomplete source fragments are not presented as completed prose',()=>{
- const outline=variants.find(v=>v.id==='outline-91');assert.equal(outline.status,'Part Two unwritten');
+test('sequel publication status and incomplete source fragments remain distinct',()=>{
+ const outline=variants.find(v=>v.id==='outline-91');assert.equal(outline.status,'Both parts written');
  assert.match(outline.fields['Original planning text'],/Part Two — \*\*The Right to Be Incorrect/);
  assert.match(outline.note,/The Right to Be Incorrect/);
  assert.equal(variants.filter(v=>v.partial).length,2);
  for(const v of variants.filter(v=>v.partial))assert.equal(v.status,'Incomplete source fragment');
  for(const g of archive.groups.filter(g=>g.title.startsWith('The Quiet One’s Human')))assert.ok(g.reading);
  const catalog=JSON.parse(fs.readFileSync('site/catalog.json','utf8'));
- assert.equal(catalog.counts.Story,14);assert.equal(catalog.counts.Draft,20);
+ assert.equal(catalog.counts.Story,15);assert.equal(catalog.counts.Draft,20);
  assert.ok(!catalog.entries.some(e=>e.id.startsWith('outline-')));
 });
 test('generated internal reading links and illness anchors resolve',()=>{
