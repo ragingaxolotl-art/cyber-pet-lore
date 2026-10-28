@@ -3475,6 +3475,81 @@
           "quote": "These additions extend the existing Cerebral Bufferitis and Rhythmic Charismalgia conditions. Cyberpath's protected-memory, quiet-recovery and resonant-echo themes inform them; the new names are additions, not quotations from earlier stories."
         }
       ]
+    },
+    {
+      "name": "Shared simulation engine",
+      "category": "World development",
+      "aliases": [
+        "Shared simulation engine",
+        "simulation engine",
+        "shared simulation engine"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "note": "Author-approved development clarification, October 28, 2026; original story text is preserved.",
+      "evidence": [
+        {
+          "readingId": "world-shared-simulation",
+          "blockId": "world-shared-simulation-p000",
+          "quote": "Shared simulation engine"
+        }
+      ]
+    },
+    {
+      "name": "Embodied digital space",
+      "category": "World development",
+      "aliases": [
+        "Embodied digital space",
+        "embodied digital space",
+        "surface feedback",
+        "sensory opacity"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "note": "Author-approved development clarification, October 28, 2026; original story text is preserved.",
+      "evidence": [
+        {
+          "readingId": "world-embodied-space",
+          "blockId": "world-embodied-space-p000",
+          "quote": "Embodied digital space"
+        }
+      ]
+    },
+    {
+      "name": "Three environmental conditions",
+      "category": "World development",
+      "aliases": [
+        "Three environmental conditions",
+        "environmental condition",
+        "environmental conditions",
+        "simulated environmental changes"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "note": "Author-approved development clarification, October 28, 2026; original story text is preserved.",
+      "evidence": [
+        {
+          "readingId": "world-physics-tests",
+          "blockId": "world-physics-tests-p000",
+          "quote": "Three environmental conditions"
+        }
+      ]
+    },
+    {
+      "name": "Developmental guidance",
+      "category": "World development",
+      "aliases": [
+        "Developmental guidance",
+        "developmental guidance",
+        "integrated guidance",
+        "recommendation system"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "note": "Author-approved development clarification, October 28, 2026; original story text is preserved.",
+      "evidence": [
+        {
+          "readingId": "world-developmental-guidance",
+          "blockId": "world-developmental-guidance-p000",
+          "quote": "Developmental guidance"
+        }
+      ]
     }
   ]
 }
