@@ -11,6 +11,6 @@ export function renderProfileMedia(parent,media=[]){
   pause.onclick=()=>{playing=!playing;picture.src=playing?item.src:item.poster;pause.textContent=playing?'Pause animation':'Play animation';};
   const links=document.createElement('div');links.className='source-links';
   for(const entry of item.links){const link=document.createElement('a');link.textContent=entry.label;link.href=entry.href;links.append(link);}
-  section.append(heading,status,figure,pause,links);parent.append(section);
+  section.append(heading,status,figure);if(item.animated!==false)section.append(pause);section.append(links);parent.append(section);
  }
 }

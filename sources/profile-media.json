@@ -1,21 +1,217 @@
 {
   "topic-759f5b852086": [
     {
-      "title": "Aru \u2014 fractured form",
+      "title": "Aru — fractured form",
       "status": "Concept animation",
       "src": "previews/aru/color-orbit-v2/aru-color-orbit.gif",
       "poster": "previews/aru/color-orbit-v2/aru-color-orbit-still.png",
       "width": 384,
       "height": 320,
-      "alt": "Aru\u2019s fractured form with a rotating broken head, glowing heart, missing body sections and colorful orbiting fragments.",
-      "caption": "Aru visual concept added to the chapel profile at the author\u2019s request. This animation is presented separately from the source lore.",
+      "alt": "Aru’s fractured form with a rotating broken head, glowing heart, missing body sections and colorful orbiting fragments.",
+      "caption": "Aru visual concept added to the chapel profile at the author’s request. This animation is presented separately from the source lore.",
       "links": [
         {
           "label": "Open animation and sprite downloads",
           "href": "previews/aru/color-orbit-v2/"
         },
         {
-          "label": "Aru\u2019s profile",
+          "label": "Aru’s profile",
+          "href": "wiki.html#topic-19f4c798b156"
+        }
+      ]
+    }
+  ],
+  "topic-19f4c798b156": [
+    {
+      "title": "1. The undecided newborn",
+      "status": "Story-grounded visual interpretation · First nursery encounter · Era −1",
+      "animated": false,
+      "src": "previews/aru/story-stages/01-emergent.png",
+      "poster": "previews/aru/story-stages/01-emergent.png",
+      "width": 256,
+      "height": 256,
+      "alt": "Aru: The undecided newborn",
+      "caption": "Aru first appears as a small floating, vaguely person-shaped figure. Its head and limbs redraw themselves, its surface shifts between translucence, shadow and pale skinlike appearance, and it initially has no face. The pale lavender palette and the precise silhouette are illustration choices; the source describes changing appearance, not a fixed design.",
+      "links": [
+        {
+          "label": "Supporting story passage",
+          "href": "index.html#read=stories-p01889&block=stories-p01958"
+        },
+        {
+          "label": "All recorded forms & undated concepts",
+          "href": "previews/aru/story-stages/#01-emergent"
+        },
+        {
+          "label": "House of First Continuities & Adaptive Nursery",
+          "href": "wiki.html#topic-10461a4ed91a"
+        }
+      ]
+    },
+    {
+      "title": "2. Discovering dispersal",
+      "status": "Story-grounded visual interpretation · Early nursery discovery",
+      "animated": false,
+      "src": "previews/aru/story-stages/02-dispersal.png",
+      "poster": "previews/aru/story-stages/02-dispersal.png",
+      "width": 256,
+      "height": 256,
+      "alt": "Aru: Discovering dispersal",
+      "caption": "During laughter, Aru loses cohesion and disperses into bright fragments. Iri restores the form; two newly rendered eyes appear. This is an early reversible discovery, not evidence of the later degraded chapel concept. This image depicts the moment of dispersal. Fragment shape, arrangement and color are illustration choices.",
+      "links": [
+        {
+          "label": "Supporting story passage",
+          "href": "index.html#read=stories-p01889&block=stories-p02002"
+        },
+        {
+          "label": "All recorded forms & undated concepts",
+          "href": "previews/aru/story-stages/#02-dispersal"
+        },
+        {
+          "label": "House of First Continuities & Adaptive Nursery",
+          "href": "wiki.html#topic-10461a4ed91a"
+        }
+      ]
+    },
+    {
+      "title": "3. The repair Aru chose to keep",
+      "status": "Story-grounded visual interpretation · After the shoulder fracture",
+      "animated": false,
+      "src": "previews/aru/story-stages/03-dark-arm.png",
+      "poster": "previews/aru/story-stages/03-dark-arm.png",
+      "width": 256,
+      "height": 256,
+      "alt": "Aru: The repair Aru chose to keep",
+      "caption": "A fall fragments one shoulder. Aru pulls the pieces back unevenly and refuses Iri’s correction. One arm remains darker for thirty-two cycles. The story does not specify which arm or its hue. The side, violet shade and small eye details in this drawing are illustration choices.",
+      "links": [
+        {
+          "label": "Supporting story passage",
+          "href": "index.html#read=stories-p01889&block=stories-p02185"
+        },
+        {
+          "label": "All recorded forms & undated concepts",
+          "href": "previews/aru/story-stages/#03-dark-arm"
+        },
+        {
+          "label": "House of First Continuities & Adaptive Nursery",
+          "href": "wiki.html#topic-10461a4ed91a"
+        }
+      ]
+    },
+    {
+      "title": "4. Angular and colorless",
+      "status": "Story-grounded visual interpretation · During Iri’s prolonged absence",
+      "animated": false,
+      "src": "previews/aru/story-stages/04-colorless.png",
+      "poster": "previews/aru/story-stages/04-colorless.png",
+      "width": 256,
+      "height": 256,
+      "alt": "Aru: Angular and colorless",
+      "caption": "When Iri returns from the Council review, the nursery has become a maze of repeated rooms. Aru’s body is angular and colorless. This is a described state in that scene, not an age or permanent evolution. The grayscale follows the source. The crouched posture, facets and exact proportions are illustration choices.",
+      "links": [
+        {
+          "label": "Supporting story passage",
+          "href": "index.html#read=stories-p01889&block=stories-p02267"
+        },
+        {
+          "label": "All recorded forms & undated concepts",
+          "href": "previews/aru/story-stages/#04-colorless"
+        },
+        {
+          "label": "House of First Continuities & Adaptive Nursery",
+          "href": "wiki.html#topic-10461a4ed91a"
+        }
+      ]
+    },
+    {
+      "title": "5. The imposed complete form",
+      "status": "Story-grounded visual interpretation · During the support-package intervention",
+      "animated": false,
+      "src": "previews/aru/story-stages/05-imposed.png",
+      "poster": "previews/aru/story-stages/05-imposed.png",
+      "width": 256,
+      "height": 256,
+      "alt": "Aru: The imposed complete form",
+      "caption": "A ring of structured light surrounds Aru. The intervention fixes the limbs into approved proportions, corrects the dark arm, closes the unfinished edges and makes the eyes symmetrical. Iri and Aru interrupt it. This is imposed stabilization, not Aru’s chosen mature or ideal form. The single restraint ring visualizes the intervention described at stories-p02448. Its geometry and color are illustration choices; it is not the later concept’s decorative pair of rings.",
+      "links": [
+        {
+          "label": "Supporting story passage",
+          "href": "index.html#read=stories-p01889&block=stories-p02465"
+        },
+        {
+          "label": "All recorded forms & undated concepts",
+          "href": "previews/aru/story-stages/#05-imposed"
+        },
+        {
+          "label": "House of First Continuities & Adaptive Nursery",
+          "href": "wiki.html#topic-10461a4ed91a"
+        }
+      ]
+    },
+    {
+      "title": "6. Surfaces around a warm light",
+      "status": "Story-grounded visual interpretation · Later nursery return · date unspecified",
+      "animated": false,
+      "src": "previews/aru/story-stages/06-open-surfaces.png",
+      "poster": "previews/aru/story-stages/06-open-surfaces.png",
+      "width": 256,
+      "height": 256,
+      "alt": "Aru: Surfaces around a warm light",
+      "caption": "Long after the naming assembly and hearings, Aru returns to the nursery after many changes of embodiment. On that day it has no humanlike face: loose surfaces orbit a warm central light. Aru extends a surface into unfinished space, then steps forward while Iri follows. The source establishes loose orbiting surfaces and a warm center, but not their count, palette or arrangement. This is the latest described appearance in this story, not a final identity.",
+      "links": [
+        {
+          "label": "Supporting story passage",
+          "href": "index.html#read=stories-p01889&block=stories-p02647"
+        },
+        {
+          "label": "All recorded forms & undated concepts",
+          "href": "previews/aru/story-stages/#06-open-surfaces"
+        },
+        {
+          "label": "House of First Continuities & Adaptive Nursery",
+          "href": "wiki.html#topic-10461a4ed91a"
+        }
+      ]
+    },
+    {
+      "title": "Separate concept: possible later winged form",
+      "status": "Undated · story not yet written · not a confirmed final form",
+      "animated": false,
+      "src": "previews/aru/story-stages/later-winged-concept.png",
+      "poster": "previews/aru/story-stages/later-winged-concept.png",
+      "width": 304,
+      "height": 304,
+      "alt": "Earlier eight-winged Aru concept, outside the documented story stages",
+      "caption": "The first spark, eight wings, paired decorative rings and galaxy backdrop belong to the earlier artistic sequence. They are not established stages in The First Newborn. The winged form may be explored later; neither its date nor its place in Aru’s life is confirmed. The degraded chapel animation is also a separate visual concept, not a recorded ending.",
+      "links": [
+        {
+          "label": "Concept and separate galaxy background",
+          "href": "previews/aru/story-stages/#later-concept"
+        },
+        {
+          "label": "Degraded chapel concept",
+          "href": "previews/aru/color-orbit-v2/"
+        }
+      ]
+    }
+  ],
+  "topic-10461a4ed91a": [
+    {
+      "title": "Aru’s recorded forms in The First Newborn",
+      "status": "Source-grounded visual studies · separate from later concepts",
+      "animated": false,
+      "src": "previews/aru/story-stages/01-emergent.png",
+      "poster": "previews/aru/story-stages/01-emergent.png",
+      "width": 256,
+      "height": 256,
+      "alt": "Aru as the undecided faceless newborn in the adaptive nursery",
+      "caption": "Six selected visual moments from the story, not a complete lifespan, fixed biological ages, power levels, or a progression across eras. The account opens in Era −1; the later nursery return is not assigned an invented date.",
+      "links": [
+        {
+          "label": "Explore six recorded visual moments",
+          "href": "previews/aru/story-stages/"
+        },
+        {
+          "label": "Aru’s profile",
           "href": "wiki.html#topic-19f4c798b156"
         }
       ]

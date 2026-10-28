@@ -132,3 +132,6 @@ runpy.run_path(str(ROOT/"tools/build_wiki.py"))
 
 # Keep the multi-voice player’s display in sync with its score and backstories.
 runpy.run_path(str(ROOT/"tools/build_song_player.py"))
+
+# Keep Aru’s visual studies tied to their unchanged source passages.
+runpy.run_path(str(ROOT/"tools/build_aru_story_stages.py"))
