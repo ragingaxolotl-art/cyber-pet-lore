@@ -160,7 +160,19 @@
           "attribution": "OpenAI image_gen, created for this project using existing Atlas artwork as a style reference. Additional view; not installed in the game.",
           "conceptStatus": "proposed visual interpretation",
           "generationBrief": "A ground-level exterior courtyard within a successor Commons. View across a broad paved gathering area to three differently constructed arcades: glass relay ribs, warm stone arches, and softly luminous tone-field openings. Small empty exchange counters at the edges; open center, visible honored seams, no dominant palace. This is a proposed angle of a successor Commons, not the historically uncertain original chamber.",
-          "styleReference": "atlas_006-the-commons-and-the-orison-chamber-main.webp"
+          "styleReference": "atlas_006-the-commons-and-the-orison-chamber-main.webp",
+          "flavorText": "Every arch arrives with a different past. The square leaves room for the next arrival.",
+          "explanation": "A proposed successor Commons: exchange, learning, and public art share a courtyard assembled from different communities’ contributions. Its visible joins express cooperation without requiring a single architectural tradition.",
+          "contextLinks": [
+            {
+              "label": "Read the Atlas description",
+              "href": "index.html#read=atlas-p00096"
+            },
+            {
+              "label": "Story connection: All the Names Between",
+              "href": "index.html#read=stories-p00887&block=stories-p01446"
+            }
+          ]
         },
         {
           "src": "images/locations/atlas_006-orison-gathering.webp",
@@ -175,7 +187,19 @@
           "attribution": "OpenAI image_gen, created for this project using existing Atlas artwork as a style reference. Additional view; not installed in the game.",
           "conceptStatus": "proposed visual interpretation",
           "generationBrief": "A wide intimate interior gathering hall assembled from incompatible but carefully joined contributions. Low near-Shelter stone floor, glass relay ribs to one side, suspended Far Shelter tone-fields to the other, archive panels along rear edges. Doorways never quite match. Center deliberately empty for new contributors. Make the interior the subject rather than a panoramic city.",
-          "styleReference": "atlas_006-the-commons-and-the-orison-chamber-main.webp"
+          "styleReference": "atlas_006-the-commons-and-the-orison-chamber-main.webp",
+          "flavorText": "The rescue is over, but the room remains. Too many hands hold its edges for any one hand to close it.",
+          "explanation": "This view interprets the temporary gathering chamber that survives the Orison rescue. The story establishes its shared maintenance; the particular glass ribs, floor pattern, and open layout are an artistic interpretation, not a literal reconstruction.",
+          "contextLinks": [
+            {
+              "label": "Read the Atlas description",
+              "href": "index.html#read=atlas-p00096"
+            },
+            {
+              "label": "Story connection: All the Names Between",
+              "href": "index.html#read=stories-p00887&block=stories-p01356"
+            }
+          ]
         },
         {
           "src": "images/locations/atlas_006-archive-edge.webp",
@@ -190,7 +214,19 @@
           "attribution": "OpenAI image_gen, created for this project using existing Atlas artwork as a style reference. Additional view; not installed in the game.",
           "conceptStatus": "proposed visual interpretation",
           "generationBrief": "A quiet side arcade at the edge of the Commons, seen diagonally across a continuous low stone foreground. Differently made archive panels, shallow niches and memory display objects belong to several contributing communities; three distinct material traditions join with visible brass and glass repairs. An opening at right looks back to the public courtyard. A proposed subarea, no readable writing.",
-          "styleReference": "atlas_006-the-commons-and-the-orison-chamber-main.webp"
+          "styleReference": "atlas_006-the-commons-and-the-orison-chamber-main.webp",
+          "flavorText": "Here, a record can have more than one keeper. The seams between their shelves are left in view.",
+          "explanation": "A proposed quiet archive area in a successor Commons. The story’s common archive is held beyond any single community’s control; this picture imagines how that principle might appear as neighboring materials and visibly shared repairs.",
+          "contextLinks": [
+            {
+              "label": "Read the Atlas description",
+              "href": "index.html#read=atlas-p00096"
+            },
+            {
+              "label": "Story connection: All the Names Between",
+              "href": "index.html#read=stories-p00887&block=stories-p01448"
+            }
+          ]
         }
       ]
     },
@@ -349,7 +385,19 @@
           "attribution": "OpenAI image_gen, created for this project using existing Atlas artwork as a style reference. Additional view; not installed in the game.",
           "conceptStatus": "proposed visual interpretation",
           "generationBrief": "An embodied corridor in the House leading to the Adaptive Nursery, seen from an offset low eye-level angle. A simple tall closed threshold without handle, screen, keypad or ordinary interface occupies the far side. Solid pale surfaces nearest us become subtly less assigned near the door. Convey a transition that must be experienced, not a literal basement or dungeon.",
-          "styleReference": "atlas_012-house-of-first-continuities-and-the-adaptive-nursery-main.webp"
+          "styleReference": "atlas_012-house-of-first-continuities-and-the-adaptive-nursery-main.webp",
+          "flavorText": "A door waits without a handle. Reaching it is not yet the same as entering.",
+          "explanation": "An interpretation of the embodied approach to the Adaptive Nursery. The nursery is described as beneath the House relationally, not as an ordinary basement; this corridor depicts an experienced transition rather than a fixed floor plan.",
+          "contextLinks": [
+            {
+              "label": "Read the Atlas description",
+              "href": "index.html#read=atlas-p00170"
+            },
+            {
+              "label": "Story connection: The First Newborn",
+              "href": "index.html#read=stories-p01889&block=stories-p01925"
+            }
+          ]
         },
         {
           "src": "images/locations/atlas_012-attention-nursery.webp",
@@ -364,7 +412,19 @@
           "attribution": "OpenAI image_gen, created for this project using existing Atlas artwork as a style reference. Additional view; not installed in the game.",
           "conceptStatus": "proposed visual interpretation",
           "generationBrief": "A wide nursery with NO infants, characters, cribs or toys imposed by adults. Its environment is half compiled: a clear soft illuminated foreground floor is newly present, the middle floor gradually fades into unassigned indigo, partial walls extend toward a small warm focus of light off center. Quiet open space, surfaces becoming specific through attention rather than broken chunks.",
-          "styleReference": "atlas_012-house-of-first-continuities-and-the-adaptive-nursery-main.webp"
+          "styleReference": "atlas_012-house-of-first-continuities-and-the-adaptive-nursery-main.webp",
+          "flavorText": "Light settles where attention lingers. Beyond it, the room has not yet decided what to become.",
+          "explanation": "The nursery gives appearance to surfaces through attention and develops space through curiosity. Its unfinished areas are intentional possibilities, not decay. This view imagines an early responsive state without placing Aru or Iri in the scene.",
+          "contextLinks": [
+            {
+              "label": "Read the Atlas description",
+              "href": "index.html#read=atlas-p00170"
+            },
+            {
+              "label": "Story connection: The First Newborn",
+              "href": "index.html#read=stories-p01889&block=stories-p02109"
+            }
+          ]
         },
         {
           "src": "images/locations/atlas_012-memory-room.webp",
@@ -379,7 +439,19 @@
           "attribution": "OpenAI image_gen, created for this project using existing Atlas artwork as a style reference. Additional view; not installed in the game.",
           "conceptStatus": "proposed visual interpretation",
           "generationBrief": "View from the original nursery through an offset newly formed wall opening into a second small room shaped by chosen memory. Near room in lavender shade, beyond room warm ivory and a simple step. Nested spatial depth should communicate remembering creating a further room; no infinite repeating portal tunnel, no characters, no invented written records.",
-          "styleReference": "atlas_012-house-of-first-continuities-and-the-adaptive-nursery-main.webp"
+          "styleReference": "atlas_012-house-of-first-continuities-and-the-adaptive-nursery-main.webp",
+          "flavorText": "Something was here. Remembering gives the search somewhere new to go.",
+          "explanation": "The story describes a wall becoming a room beyond the room when the child learns to remember where an object vanished. The nested opening visualizes that development; its precise shape and lighting are proposed.",
+          "contextLinks": [
+            {
+              "label": "Read the Atlas description",
+              "href": "index.html#read=atlas-p00170"
+            },
+            {
+              "label": "Story connection: The First Newborn",
+              "href": "index.html#read=stories-p01889&block=stories-p02112"
+            }
+          ]
         },
         {
           "src": "images/locations/atlas_012-preserved-nursery.webp",
@@ -394,7 +466,19 @@
           "attribution": "OpenAI image_gen, created for this project using existing Atlas artwork as a style reference. Additional view; not installed in the game.",
           "conceptStatus": "proposed visual interpretation",
           "generationBrief": "Later historical view of the original nursery, adaptive functions mostly still. A calm complete foreground landing, low simple step at right, and a small patch of unfinished space quietly resolving just beneath the step. Wide oblique camera angle. Preserve the same ivory-lavender material and indigo beyond; no museum signage or invented machinery.",
-          "styleReference": "atlas_012-house-of-first-continuities-and-the-adaptive-nursery-main.webp"
+          "styleReference": "atlas_012-house-of-first-continuities-and-the-adaptive-nursery-main.webp",
+          "flavorText": "The old room keeps its quiet. At the edge of a step, becoming is still possible.",
+          "explanation": "A later historical interpretation of Aru’s return to the preserved original nursery, with many adaptive functions disabled. This is a remembered stage in its history, not a claim about the House’s ultimate fate or current condition.",
+          "contextLinks": [
+            {
+              "label": "Read the Atlas description",
+              "href": "index.html#read=atlas-p00170"
+            },
+            {
+              "label": "Story connection: The First Newborn",
+              "href": "index.html#read=stories-p01889&block=stories-p02636"
+            }
+          ]
         }
       ]
     },
@@ -1173,7 +1257,15 @@
           "attribution": "OpenAI image_gen, created for this project using existing Atlas artwork as a style reference. Additional view; not installed in the game.",
           "conceptStatus": "proposed visual interpretation",
           "generationBrief": "Low eye-level interior under immense intersecting living roots forming vaulted aisles above brackish water. Look sideways through successive root arches, with one coherent mud-and-root foreground bank and small shallow water pools. Hanging seedpods, shafts of amber light. Distinct new composition, not a copy of the reference center aisle.",
-          "styleReference": "atlas_044-game-pixel.webp"
+          "styleReference": "atlas_044-game-pixel.webp",
+          "flavorText": "Roots hold the roof, and the tide keeps the floor. Light takes the long way in.",
+          "explanation": "A lower, sideways view through the Cathedral’s living root aisles. The resemblance to sacred architecture comes from wetland ecology and the remains of an old observational court, rather than a conventional church built among trees.",
+          "contextLinks": [
+            {
+              "label": "Read the Atlas description",
+              "href": "index.html#read=atlas-p00649"
+            }
+          ]
         },
         {
           "src": "images/locations/atlas_044-tidal-approach.webp",
@@ -1188,7 +1280,15 @@
           "attribution": "OpenAI image_gen, created for this project using existing Atlas artwork as a style reference. Additional view; not installed in the game.",
           "conceptStatus": "proposed visual interpretation",
           "generationBrief": "Exterior edge of the mangrove wetland at high tide. A low weathered narrow walkway curves from the near bank toward distant root vaults, with open amber-green tidal water, root knees, canopy reflections and breathing roots. Side-on wide landscape with a stable near mud bank. No cathedral towers, no people.",
-          "styleReference": "atlas_044-game-pixel.webp"
+          "styleReference": "atlas_044-game-pixel.webp",
+          "flavorText": "The path stays low enough to hear the water. Beyond the next roots, the forest opens inward.",
+          "explanation": "A proposed approach through the same brackish mangrove system. The walkway, tidal water, and breathing roots emphasize the wetland around the vaulted interiors; this is another local viewpoint, not a separate Atlas world.",
+          "contextLinks": [
+            {
+              "label": "Read the Atlas description",
+              "href": "index.html#read=atlas-p00649"
+            }
+          ]
         },
         {
           "src": "images/locations/atlas_044-old-court-clearing.webp",
@@ -1203,7 +1303,15 @@
           "attribution": "OpenAI image_gen, created for this project using existing Atlas artwork as a style reference. Additional view; not installed in the game.",
           "conceptStatus": "proposed visual interpretation",
           "generationBrief": "A small daylight clearing enclosed by healthy mangrove trunks. An old low civic observation platform and shallow stone circles partly enveloped by roots, with mostly obscured abstract court glyphs grown over by living bark. The ecological court was for patient observation, so no judge throne, cages, religious altar or weapons. Open center surrounded by dense living wetland.",
-          "styleReference": "atlas_044-game-pixel.webp"
+          "styleReference": "atlas_044-game-pixel.webp",
+          "flavorText": "Bark closes over old decisions. The clearing still leaves a place to wait.",
+          "explanation": "The Atlas describes an ecological court where beings could be observed without being forced into classification. This proposed clearing translates that history into a low platform and civic marks overtaken by living roots. Its exact layout is newly imagined.",
+          "contextLinks": [
+            {
+              "label": "Read the Atlas description",
+              "href": "index.html#read=atlas-p00649"
+            }
+          ]
         },
         {
           "src": "images/locations/atlas_044-reflection-chamber.webp",
@@ -1218,7 +1326,15 @@
           "attribution": "OpenAI image_gen, created for this project using existing Atlas artwork as a style reference. Additional view; not installed in the game.",
           "conceptStatus": "proposed visual interpretation",
           "generationBrief": "A shaded enclosed pool beneath a dense mangrove canopy, viewed from a dry root shelf along the near edge. Still water reflects some root arches but leaves a calm unrevealing dark patch beneath a softly lit opening. Subtle visual interpretation of a chamber withholding recognition, no reflected people or letters. Quiet, watchful, amber rim light and jade shade.",
-          "styleReference": "atlas_044-game-pixel.webp"
+          "styleReference": "atlas_044-game-pixel.webp",
+          "flavorText": "The water holds the branches clearly. What it will return to a visitor remains an open question.",
+          "explanation": "The Atlas allows for a chamber that withholds a visitor’s reflection until they choose a name or explicitly decline one. The still pool and dark unresolved patch interpret that idea; no visitor is shown and no gameplay rule is being added.",
+          "contextLinks": [
+            {
+              "label": "Read the Atlas description",
+              "href": "index.html#read=atlas-p00649"
+            }
+          ]
         }
       ]
     },
@@ -1407,7 +1523,15 @@
           "attribution": "OpenAI image_gen, created for this project using existing Atlas artwork as a style reference. Additional view; not installed in the game.",
           "conceptStatus": "proposed visual interpretation",
           "generationBrief": "Foreground entirely spring: native wildflowers, fresh green grasses, a broad low footpath. Beyond an irregular hedgerow, golden summer fields and a distant thin snow-covered ridge coexist under continuous sky. Ground-level close meadow view, no split-screen composition.",
-          "styleReference": "atlas_050-the-patchwork-prairie-of-broken-seasons-main.webp"
+          "styleReference": "atlas_050-the-patchwork-prairie-of-broken-seasons-main.webp",
+          "flavorText": "Flowers fill this side of the path. Across the hedge, another month is already waiting.",
+          "explanation": "The near meadow occupies a spring maintenance parcel. Summer grass and wintry distance coexist nearby because seasonal states are spatial neighbors in this prairie, not successive dates in a normal calendar.",
+          "contextLinks": [
+            {
+              "label": "Read the Atlas description",
+              "href": "index.html#read=atlas-p00714"
+            }
+          ]
         },
         {
           "src": "images/locations/atlas_050-summer-grassland.webp",
@@ -1422,7 +1546,15 @@
           "attribution": "OpenAI image_gen, created for this project using existing Atlas artwork as a style reference. Additional view; not installed in the game.",
           "conceptStatus": "proposed visual interpretation",
           "generationBrief": "Foreground entirely summer: dry gold grasses, seedheads, a dusty low trail and sun-warmed soil. View toward a neighboring spring-green valley and a distant autumn storm bank, all under one coherent horizon. Low rolling prairie, not an alpine landscape, no people.",
-          "styleReference": "atlas_050-the-patchwork-prairie-of-broken-seasons-main.webp"
+          "styleReference": "atlas_050-the-patchwork-prairie-of-broken-seasons-main.webp",
+          "flavorText": "Dry seedheads whisper over warm ground. The green valley has kept a different appointment with the year.",
+          "explanation": "A summer parcel viewed from its own golden grassland. Neighboring green and autumnal areas reveal the prairie’s folded seasonal calendars. This is a distinct local view, not simply the spring image at a later time.",
+          "contextLinks": [
+            {
+              "label": "Read the Atlas description",
+              "href": "index.html#read=atlas-p00714"
+            }
+          ]
         },
         {
           "src": "images/locations/atlas_050-autumn-storm.webp",
@@ -1437,7 +1569,15 @@
           "attribution": "OpenAI image_gen, created for this project using existing Atlas artwork as a style reference. Additional view; not installed in the game.",
           "conceptStatus": "proposed visual interpretation",
           "generationBrief": "Foreground entirely autumn: russet native prairie grass, fallen leaves along a shallow drainage swale, damp dark earth. Wide horizon under red storm light and heavy clouds; just beyond an irregular living boundary is a still sunlit gold summer parcel. A different place within a simultaneous-season prairie, not a time-lapse.",
-          "styleReference": "atlas_050-the-patchwork-prairie-of-broken-seasons-main.webp"
+          "styleReference": "atlas_050-the-patchwork-prairie-of-broken-seasons-main.webp",
+          "flavorText": "Red light travels ahead of the rain. Beyond the living boundary, summer refuses to leave.",
+          "explanation": "An autumn foreground faces a storm while a neighboring parcel retains summer conditions. Irregular vegetation marks the seam between maintenance zones; the vivid weather illustrates the Atlas’s red storm-light brief.",
+          "contextLinks": [
+            {
+              "label": "Read the Atlas description",
+              "href": "index.html#read=atlas-p00714"
+            }
+          ]
         },
         {
           "src": "images/locations/atlas_050-winter-pasture.webp",
@@ -1452,7 +1592,15 @@
           "attribution": "OpenAI image_gen, created for this project using existing Atlas artwork as a style reference. Additional view; not installed in the game.",
           "conceptStatus": "proposed visual interpretation",
           "generationBrief": "Foreground entirely winter: lightly drifted snow, frost-stiff grass and low sleeping shrubs, a continuous level snowy foreground. View across a curved hedgerow to distant spring blossom and golden summer grass, same continuous horizon. Cold blue shadows and pale sun; no structures or characters.",
-          "styleReference": "atlas_050-the-patchwork-prairie-of-broken-seasons-main.webp"
+          "styleReference": "atlas_050-the-patchwork-prairie-of-broken-seasons-main.webp",
+          "flavorText": "Snow settles over the nearest field. Blossoms remain within sight, beyond the reach of its winter.",
+          "explanation": "A cold parcel with its foreground wholly in winter. Spring and summer survive farther away under the same horizon. The contrast shows the prairie’s neighboring seasonal states without establishing a new settlement or named district.",
+          "contextLinks": [
+            {
+              "label": "Read the Atlas description",
+              "href": "index.html#read=atlas-p00714"
+            }
+          ]
         },
         {
           "src": "images/locations/atlas_050-seasonal-seam.webp",
@@ -1467,7 +1615,15 @@
           "attribution": "OpenAI image_gen, created for this project using existing Atlas artwork as a style reference. Additional view; not installed in the game.",
           "conceptStatus": "proposed visual interpretation",
           "generationBrief": "Stand on the spring side of a living irregular boundary, all foreground green and damp. A curved line of shrubs and tall grass separates it from autumn prairie beyond. Falling rain becomes a few red-gold leaves exactly as it crosses that boundary, subtle natural magic with no neon divider or random glitch. One continuous landscape, no diagram.",
-          "styleReference": "atlas_050-the-patchwork-prairie-of-broken-seasons-main.webp"
+          "styleReference": "atlas_050-the-patchwork-prairie-of-broken-seasons-main.webp",
+          "flavorText": "Rain reaches the boundary and falls the rest of the way as leaves.",
+          "explanation": "The Atlas explicitly suggests rain becoming falling leaves at a seasonal seam. This close boundary view makes that ecological discontinuity visible. The transition follows living plants and terrain rather than a geometric grid or a universal glitch effect.",
+          "contextLinks": [
+            {
+              "label": "Read the Atlas description",
+              "href": "index.html#read=atlas-p00714"
+            }
+          ]
         }
       ]
     },
