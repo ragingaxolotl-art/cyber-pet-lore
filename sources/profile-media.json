@@ -1,0 +1,24 @@
+{
+  "topic-759f5b852086": [
+    {
+      "title": "Aru \u2014 fractured form",
+      "status": "Concept animation",
+      "src": "previews/aru/color-orbit-v2/aru-color-orbit.gif",
+      "poster": "previews/aru/color-orbit-v2/aru-color-orbit-still.png",
+      "width": 384,
+      "height": 320,
+      "alt": "Aru\u2019s fractured form with a rotating broken head, glowing heart, missing body sections and colorful orbiting fragments.",
+      "caption": "Aru visual concept added to the chapel profile at the author\u2019s request. This animation is presented separately from the source lore.",
+      "links": [
+        {
+          "label": "Open animation and sprite downloads",
+          "href": "previews/aru/color-orbit-v2/"
+        },
+        {
+          "label": "Aru\u2019s profile",
+          "href": "wiki.html#topic-19f4c798b156"
+        }
+      ]
+    }
+  ]
+}

@@ -174,6 +174,14 @@ for location in art['locations']:
  for reading in location['readingIds']:
   assert reading in content, reading
   reading_images[reading]=images
+# Author-selected profile media is separate from source lore and location artwork.
+profile_media=json.loads((ROOT/'sources/profile-media.json').read_text())
+for topic_id,media in profile_media.items():
+ assert topic_id in by_id, topic_id
+ for item in media:
+  assert (SITE/item['src']).is_file(), item['src']
+  assert (SITE/item['poster']).is_file(), item['poster']
+ by_id[topic_id]['media']=media
 output={'version':1,'termRegister':{'scope':register['scope'],'readingCount':len(entries),'blocksScanned':sum(len(b) for b in content.values()),'topicIds':list(registered),'coverage':coverage},'notice':'Links identify named mentions and related reading, not proof of identity, causation, or a personal relationship. Source status and uncertainties remain authoritative.','topics':list(topics.values()),'readingNotes':{e['id']:[n for n in review['notes'] if e['id'] in n['readingIds']] for e in entries},'readingExclusions':{rid:[t['id'] for t in topics.values() if t['title'] in names] for rid,names in review['readingExclusions'].items()},'readingImages':reading_images,'aliases':{a:ids[0] for a,ids in lookup.items()},'readings':reading_topics}
 import sys
 sys.path.insert(0,str(ROOT/"tools"))

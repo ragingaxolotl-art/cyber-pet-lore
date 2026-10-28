@@ -1,5 +1,6 @@
 import {renderProfile,renderLifeTimeline,renderContinuityNotes} from './profiles.mjs';
 import {renderLocationArt} from './location-art.mjs';
+import {renderProfileMedia} from './profile-media.mjs';
 import {loadWiki,appendWiki} from './wiki-links.mjs?v=profiles-1';
 const node=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;};
 const link=(text,href)=>{const a=node('a',text);a.href=href;return a;};
@@ -9,6 +10,7 @@ function render(){const parent=document.getElementById('wiki-content');parent.re
  if(topic.register){const r=topic.register,section=node('section',undefined,'term-record');section.append(node('h2','Term record'),node('p',r.category+' · '+r.definitionStatus),node('p',r.note||'Recorded from explicit source wording. A mention is preserved even when a standalone definition has not been reviewed.'),link('Browse terms in this category →','terms.html#category='+encodeURIComponent(r.category)));for(const e of r.evidence){section.append(node('blockquote',e.quote),link('Evidence: '+e.title+' · '+e.status,e.href));}parent.append(section);const connections=node('section');connections.append(node('h2','Connected pages'),node('p','These topics are named in the same source passage. This shows a reading connection; it does not establish identity, causation, or that two people met.','small-note'));for(const c of r.connections){const card=node('article',undefined,'connection-card');card.append(link(c.title,'wiki.html#'+c.topicId),link('See the shared passage →',c.source.href));connections.append(card);}if(!r.connections.length)connections.append(node('p','No other indexed topic is named in the same passage yet. See Mentioned in below for associated stories and readings.'));parent.append(connections);}
  if(!topic.register&&topic.relatedTerms?.length){const section=node('section');section.append(node('h2','Connected terms & unexplained lore'),node('p','Recorded terms named alongside this topic in a source passage.','small-note'));for(const c of topic.relatedTerms){const card=node('article',undefined,'connection-card');card.append(link(c.title,'wiki.html#'+c.topicId),link('See the shared passage →',c.source.href));section.append(card);}parent.append(section);}
  renderProfile(parent,topic.profile);
+ renderProfileMedia(parent,topic.media||[]);
  const reviewPanel=node('section');renderContinuityNotes(reviewPanel,topic.continuityNotes||[]);parent.append(reviewPanel);
  let detailsPanel;const article=topic.article;
  if(article){const overview=node('section',undefined,'wiki-overview');overview.append(node('h2','Overview'));
