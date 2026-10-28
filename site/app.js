@@ -84,6 +84,7 @@ function renderBlocks(){
 }
 function renderConnections(entry){
  const panel=$('reading-connections');panel.replaceChildren(node('h2','Follow the connections'));
+ if(entry.id==='stories-p11382'){const plan=node('a','Read the recovered two-part plan →','primary');plan.href='plans.html#the-corrected-child-complete-two-part-outline';panel.append(plan,node('p','Part Two, The Right to Be Incorrect, is outlined but has no prose in the reviewed archive.'));}
  if(entry.song){const listen=node('a','Listen to '+entry.title.split(' — ')[0]+' →','primary');listen.href='songs/#song='+encodeURIComponent(entry.song);panel.append(listen);}
  if(entry.kind==='Language'||entry.kind==='Song'){
   const translator=node('a','Open DBA translator');translator.href='translator/';panel.append(node('p','Explore the language in the translator.'),translator);
