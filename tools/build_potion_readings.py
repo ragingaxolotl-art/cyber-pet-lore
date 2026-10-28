@@ -1,7 +1,6 @@
 """Build only the new potion readings; preserve other logbook records and IDs."""
 import json,shutil,collections
 from pathlib import Path
-from PIL import Image
 
 def add_potion_readings(root,catalog,sources):
  source=root/'sources/era-four-remedies.json'
