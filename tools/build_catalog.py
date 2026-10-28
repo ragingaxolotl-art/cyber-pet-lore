@@ -116,6 +116,9 @@ parts=[draft['title']]+draft['text'].split('\n\n')
 d={'title':'Reviewed chapel story draft','paragraphs':[{'text':t,'tabId':'chapel-draft','namedStyleType':'HEADING_1' if i==0 else 'NORMAL_TEXT'} for i,t in enumerate(parts)]}
 add('chapel-pilgrim-draft',d,0,len(parts),draft['title']+' — draft','Draft',{'eras':draft['era'],'timeLabel':draft['timeLabel'],'status':'draft','summary':draft['summary'],'variant':'Reviewed chat draft'})
 sources.append({'key':'chapel-pilgrim-draft','title':draft['title'],'note':draft['provenance']})
+from build_reference_readings import add_reference_readings
+add_reference_readings(ROOT,catalog,sources)
+
 # Place facets use exact named-place mentions, not inferred geography.
 place_names={'Listening Alcove'}
 for entry in catalog:
