@@ -1,29 +1,30 @@
 {
   "topic-759f5b852086": [
     {
-      "title": "Aru within the maintenance chapel",
+      "title": "Aru inside the blue glass chamber",
       "status": "Undated visual concept · animated chapel scene",
-      "src": "previews/aru/chapel-motion/aru-chapel-motion.gif",
-      "poster": "previews/aru/chapel-motion/scene-poster.png",
-      "width": 640,
-      "height": 360,
+      "src": "previews/aru/chamber/aru-inside-chamber.png",
+      "poster": "previews/aru/chamber/aru-inside-chamber.png",
+      "width": 1920,
+      "height": 1080,
       "pixelated": false,
-      "alt": "Shattered opalescent Aru with orbiting fragments, a pulsing heart and intermittent wings inside the maintenance chapel.",
-      "caption": "A chapel-style visual concept with independently rotating fragments and flickering wing remnants. Separate from the documented story: no date, final form or ending is asserted.",
+      "alt": "Aru suspended inside the blue glass chamber with brass maintenance platforms surrounding it.",
+      "caption": "Corrected placement: Aru is inside the central blue glass chamber. Open the animation to switch between the chamber and transparent views. The close-up is an artistic interpretation, separate from written lore.",
       "links": [
         {
-          "label": "Open full-size live animation and downloads",
-          "href": "previews/aru/chapel-motion/"
+          "label": "Animate Aru alone — transparent background",
+          "href": "previews/aru/chamber/"
         },
         {
-          "label": "Aru’s profile",
-          "href": "wiki.html#topic-19f4c798b156"
+          "label": "Animate Aru inside the blue chamber",
+          "href": "previews/aru/chamber/?view=chamber"
         },
         {
-          "label": "Earlier pixel animation",
-          "href": "previews/aru/color-orbit-v2/"
+          "label": "The chapel’s lore",
+          "href": "wiki.html#topic-759f5b852086"
         }
-      ]
+      ],
+      "animated": false
     },
     {
       "title": "Aru — fractured form",
@@ -219,29 +220,30 @@
       ]
     },
     {
-      "title": "Aru within the maintenance chapel",
+      "title": "Aru inside the blue glass chamber",
       "status": "Undated visual concept · animated chapel scene",
-      "src": "previews/aru/chapel-motion/aru-chapel-motion.gif",
-      "poster": "previews/aru/chapel-motion/scene-poster.png",
-      "width": 640,
-      "height": 360,
+      "src": "previews/aru/chamber/aru-inside-chamber.png",
+      "poster": "previews/aru/chamber/aru-inside-chamber.png",
+      "width": 1920,
+      "height": 1080,
       "pixelated": false,
-      "alt": "Shattered opalescent Aru with orbiting fragments, a pulsing heart and intermittent wings inside the maintenance chapel.",
-      "caption": "A chapel-style visual concept with independently rotating fragments and flickering wing remnants. Separate from the documented story: no date, final form or ending is asserted.",
+      "alt": "Aru suspended inside the blue glass chamber with brass maintenance platforms surrounding it.",
+      "caption": "Corrected placement: Aru is inside the central blue glass chamber. Open the animation to switch between the chamber and transparent views. The close-up is an artistic interpretation, separate from written lore.",
       "links": [
         {
-          "label": "Open full-size live animation and downloads",
-          "href": "previews/aru/chapel-motion/"
+          "label": "Animate Aru alone — transparent background",
+          "href": "previews/aru/chamber/"
         },
         {
-          "label": "Aru’s profile",
-          "href": "wiki.html#topic-19f4c798b156"
+          "label": "Animate Aru inside the blue chamber",
+          "href": "previews/aru/chamber/?view=chamber"
         },
         {
-          "label": "Earlier pixel animation",
-          "href": "previews/aru/color-orbit-v2/"
+          "label": "The chapel’s lore",
+          "href": "wiki.html#topic-759f5b852086"
         }
-      ]
+      ],
+      "animated": false
     }
   ],
   "topic-10461a4ed91a": [
