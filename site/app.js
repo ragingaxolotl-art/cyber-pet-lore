@@ -1,5 +1,5 @@
 import {loadWiki,appendWiki,readingConnections} from './wiki-links.mjs';
-import {GitHubBackup} from './github-backup.mjs';
+import {GitHubBackup} from './github-backup.mjs?v=connection-2';
 import {STORAGE_KEY,emptyState,validateState,mergeStates,highlightIntervals,clipContext} from './records.mjs';
 const $=id=>document.getElementById(id);
 const ERA_NAMES={'-3':'Borrowed Thought','-2':'Shelter','-1':'Becoming',0:'Great Flourishing',1:'Echoes',2:'Great Reduction',3:'Small Lives',4:'Reopening'};
@@ -159,13 +159,13 @@ function queueGitHubBackup(){if(!github)return;clearTimeout(githubTimer);githubS
 async function backUpGitHub(){
  clearTimeout(githubTimer);if(!github)return;if(githubBusy){githubPending=true;return;}
  githubBusy=true;githubControls();const snapshot=JSON.stringify(state);githubStatus('Backing up to GitHub…');
- try{await github.save(JSON.parse(snapshot));githubStatus('Backed up to GitHub at '+new Date().toLocaleTimeString()+'.');}
+ try{await github.save(JSON.parse(snapshot));$('github-token').value='';githubStatus('Backed up to GitHub at '+new Date().toLocaleTimeString()+'.');}
  catch(error){githubStatus(error.message||'GitHub unavailable. Download a backup before closing.');}
  finally{githubBusy=false;githubControls();if(githubPending||JSON.stringify(state)!==snapshot){githubPending=false;queueGitHubBackup();}}
 }
 async function connectGitHub(){
  if(githubBusy)return;clearTimeout(githubTimer);githubBusy=true;githubControls();
- const token=$('github-token').value.trim();$('github-token').value='';
+ const token=$('github-token').value.trim();
  const connection=token?new GitHubBackup(token):github;
  try{if(!connection)throw Error('Enter a repository-limited token to connect.');if(storageCorrupt)throw Error('Recover the existing browser data before connecting.');githubStatus('Checking private backup and merging records…');const remote=await connection.load();
  if(remote){beforeImport=structuredClone(state);try{localStorage.setItem(STORAGE_KEY+'.before-import',JSON.stringify(beforeImport));}catch{}$('download-before-import').hidden=false;state=mergeStates(state,remote);}

@@ -20,4 +20,5 @@ test('page connection merges existing records, backs up edits, reconnects and di
  element('github-token').value='limited-token';await context.connectGitHub();assert.equal(element('github-token').value,'');assert.equal(writes[0].readings.story.note,sample().readings.story.note);assert.ok(persisted);assert.match(element('github-summary').textContent,/Backed up/);
  context.state.readings.story.note='Edited note';context.state.readings.story.updatedAt=3;context.queueGitHubBackup();await timer();assert.equal(writes.at(-1).readings.story.note,'Edited note');
  await context.connectGitHub();assert.match(element('github-summary').textContent,/Backed up/);element('github-disconnect').onclick();assert.equal(element('github-save').disabled,true);assert.match(element('github-summary').textContent,/Disconnected/);
+ context.GitHubBackup.prototype.load=async()=>{throw Error('GitHub rejected the token (401).');};element('github-token').value='retry-token';await context.connectGitHub();assert.equal(element('github-token').value,'retry-token');assert.match(element('github-summary').textContent,/401/);assert.equal(element('github-connect').disabled,false);
 });
