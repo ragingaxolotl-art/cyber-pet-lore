@@ -1,6 +1,31 @@
 {
   "topic-759f5b852086": [
     {
+      "title": "Aru within the maintenance chapel",
+      "status": "Undated visual concept · animated chapel scene",
+      "src": "previews/aru/chapel-motion/aru-chapel-motion.gif",
+      "poster": "previews/aru/chapel-motion/scene-poster.png",
+      "width": 640,
+      "height": 360,
+      "pixelated": false,
+      "alt": "Shattered opalescent Aru with orbiting fragments, a pulsing heart and intermittent wings inside the maintenance chapel.",
+      "caption": "A chapel-style visual concept with independently rotating fragments and flickering wing remnants. Separate from the documented story: no date, final form or ending is asserted.",
+      "links": [
+        {
+          "label": "Open full-size live animation and downloads",
+          "href": "previews/aru/chapel-motion/"
+        },
+        {
+          "label": "Aru’s profile",
+          "href": "wiki.html#topic-19f4c798b156"
+        },
+        {
+          "label": "Earlier pixel animation",
+          "href": "previews/aru/color-orbit-v2/"
+        }
+      ]
+    },
+    {
       "title": "Aru — fractured form",
       "status": "Concept animation",
       "src": "previews/aru/color-orbit-v2/aru-color-orbit.gif",
@@ -189,6 +214,31 @@
         },
         {
           "label": "Degraded chapel concept",
+          "href": "previews/aru/color-orbit-v2/"
+        }
+      ]
+    },
+    {
+      "title": "Aru within the maintenance chapel",
+      "status": "Undated visual concept · animated chapel scene",
+      "src": "previews/aru/chapel-motion/aru-chapel-motion.gif",
+      "poster": "previews/aru/chapel-motion/scene-poster.png",
+      "width": 640,
+      "height": 360,
+      "pixelated": false,
+      "alt": "Shattered opalescent Aru with orbiting fragments, a pulsing heart and intermittent wings inside the maintenance chapel.",
+      "caption": "A chapel-style visual concept with independently rotating fragments and flickering wing remnants. Separate from the documented story: no date, final form or ending is asserted.",
+      "links": [
+        {
+          "label": "Open full-size live animation and downloads",
+          "href": "previews/aru/chapel-motion/"
+        },
+        {
+          "label": "Aru’s profile",
+          "href": "wiki.html#topic-19f4c798b156"
+        },
+        {
+          "label": "Earlier pixel animation",
           "href": "previews/aru/color-orbit-v2/"
         }
       ]
