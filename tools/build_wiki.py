@@ -50,6 +50,25 @@ for name in ['Vey','Pell']:
  options=[t for t in topics.values() if t['title'].startswith(name+' (')]
  if options:
   t=add(name,'Ambiguous name');t['choices']=[{'title':x['title'],'id':x['id']} for x in options]
+# The editorial register records source-attested terms even without a definition.
+register=json.loads((ROOT/'sources/term-register.json').read_text())
+entry_lookup={e['id']:e for e in entries}
+for item in register['entries']:
+ for evidence in item['evidence']:
+  block=next(b for b in content[evidence['readingId']] if b['id']==evidence['blockId'])
+  assert block['text']==evidence['quote'],item['name']
+  assert any(re.search(r'(?<!\w)'+re.escape(alias)+r'(?!\w)',block['text']) for alias in item['aliases']),item['name']
+ t=add(item['name'],item['category'],aliases=item['aliases'])
+ # A matching source heading is an existing explanatory section, not a new definition.
+ for evidence in item['evidence']:
+  e=entry_lookup[evidence['readingId']]
+  b=next(b for b in content[e['id']] if b['id']==evidence['blockId'])
+  heading=re.sub(r'^(?:[IVX]+|\d+)\.\s*','',b['text']).removeprefix('The ').strip()
+  if b['style'].startswith('HEADING') and heading.casefold()==clean(item['name']).casefold():
+   target=reading_target(e,b['id'])
+   if target not in t['targets']:t['targets'].append(target)
+ t['register']={'category':item['category'],'definitionStatus':item['definitionStatus'],'note':item.get('note',''),'evidence':[dict(ev,href='index.html#read='+ev['readingId']+'&block='+ev['blockId'],title=entry_lookup[ev['readingId']]['title'],status=entry_lookup[ev['readingId']]['status']) for ev in item['evidence']]}
+
 # Case-sensitive boundaries preserve names such as Bell without linking bellflower.
 lookup={}
 for t in topics.values():
@@ -63,16 +82,38 @@ for alias,ids in list(lookup.items()):
   else:
    chooser=add(alias+' — choose a topic','Ambiguous term');chooser['choices']=[{'id':i,'title':next(t['title'] for t in topics.values() if t['id']==i)} for i in ids];lookup[alias]=[chooser['id']]
 by_id={t['id']:t for t in topics.values()};pattern=re.compile(r'(?<![\w])(?:'+ '|'.join(re.escape(x) for x in sorted(lookup,key=lambda x:(-len(x),x)))+r')(?![\w])')
-reading_topics={}
+reading_topics={};block_topics={}
 for e in entries:
  found={}
  for b in content[e['id']]:
+  block_topics[(e['id'],b['id'])]=set()
   for m in pattern.finditer(b['text']):
    for tid in lookup[m.group()]:
-    if by_id[tid]['title'] not in review['readingExclusions'].get(e['id'],[]):found.setdefault(tid,b['id'])
+    if by_id[tid]['title'] not in review['readingExclusions'].get(e['id'],[]):
+     found.setdefault(tid,b['id']);block_topics[(e['id'],b['id'])].add(tid)
  reading_topics[e['id']]=list(found)
  for tid,block in found.items():
   t=by_id[tid];t['mentions'].append(reading_target(e,block));t['eras']=sorted(set(t['eras']+e.get('era',[])))
+# Connections are backed by shared passages, never inferred personal relationships.
+registered={t['id']:t for t in topics.values() if t.get('register')}
+connections={tid:{} for tid in registered}
+coverage=[]
+for e in entries:
+ for b in content[e['id']]:
+  found=block_topics[(e['id'],b['id'])]
+  for tid in found & registered.keys():
+   for other in found-{tid}:
+    connections[tid].setdefault(other,reading_target(e,b['id']))
+ coverage.append({'readingId':e['id'],'title':e['title'],'kind':e['kind'],'blocksScanned':len(content[e['id']]),'termIds':[tid for tid in reading_topics[e['id']] if tid in registered]})
+for tid,t in registered.items():
+ t['register']['connections']=[{'topicId':other,'title':by_id[other]['title'],'basis':'Named in the same passage','source':source} for other,source in sorted(connections[tid].items(),key=lambda pair:by_id[pair[0]]['title'].casefold())]
+
+# Existing articles also link back to newly registered terms.
+for tid,t in registered.items():
+ for connection in t['register']['connections']:
+  other=by_id[connection['topicId']]
+  other.setdefault('relatedTerms',[]).append({'topicId':tid,'title':t['title'],'source':connection['source'],'basis':'Named in the same passage'})
+
 # Explicit character facets distinguish the two Veys/Pells where the source does.
 for e in entries:
  for person in e.get('characters',[]):
@@ -107,7 +148,7 @@ for topic in topics.values():
     blocks=blocks[start:end]
    selected=[b for b in blocks if not b['style'].startswith('HEADING') and len(b['text'].strip())>35]
   else:
-   selected=[b for b in blocks if not b['style'].startswith('HEADING') and len(b['text'].strip())>35 and (any(topic['id'] in lookup[m.group()] for m in pattern.finditer(b['text'])) or (topic['title'] in entry_by_id[source['readingId']].get('characters',[]) and re.search(r'(?<!\w)'+re.escape(topic['title'].split(' (')[0])+r'(?!\w)',b['text'])))]
+   selected=[b for b in blocks if not b['style'].startswith('HEADING') and len(b['text'].strip())>35 and (topic['id'] in block_topics[(source['readingId'],b['id'])] or (topic['title'] in entry_by_id[source['readingId']].get('characters',[]) and re.search(r'(?<!\w)'+re.escape(topic['title'].split(' (')[0])+r'(?!\w)',b['text'])))]
   selected=[b for b in selected if b['text'] not in seen_text][:12 if topic['targets'] else 3]
   if not selected:continue
   # The overview is an unaltered informative paragraph, not a generated assertion.
@@ -133,7 +174,7 @@ for location in art['locations']:
  for reading in location['readingIds']:
   assert reading in content, reading
   reading_images[reading]=images
-output={'version':1,'notice':'Links identify named mentions and related reading, not proof of identity, causation, or a personal relationship. Source status and uncertainties remain authoritative.','topics':list(topics.values()),'readingNotes':{e['id']:[n for n in review['notes'] if e['id'] in n['readingIds']] for e in entries},'readingExclusions':{rid:[t['id'] for t in topics.values() if t['title'] in names] for rid,names in review['readingExclusions'].items()},'readingImages':reading_images,'aliases':{a:ids[0] for a,ids in lookup.items()},'readings':reading_topics}
+output={'version':1,'termRegister':{'scope':register['scope'],'readingCount':len(entries),'blocksScanned':sum(len(b) for b in content.values()),'topicIds':list(registered),'coverage':coverage},'notice':'Links identify named mentions and related reading, not proof of identity, causation, or a personal relationship. Source status and uncertainties remain authoritative.','topics':list(topics.values()),'readingNotes':{e['id']:[n for n in review['notes'] if e['id'] in n['readingIds']] for e in entries},'readingExclusions':{rid:[t['id'] for t in topics.values() if t['title'] in names] for rid,names in review['readingExclusions'].items()},'readingImages':reading_images,'aliases':{a:ids[0] for a,ids in lookup.items()},'readings':reading_topics}
 import sys
 sys.path.insert(0,str(ROOT/"tools"))
 from build_profiles import attach_profiles

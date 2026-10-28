@@ -1,0 +1,3480 @@
+{
+  "version": 1,
+  "scope": "All published catalog readings scanned for explicit terminology. This is a growing editorial register, not a claim that every possible noun is a distinct lore concept.",
+  "entries": [
+    {
+      "name": "Kessler",
+      "category": "People & roles",
+      "aliases": [
+        "Kessler"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p09566",
+          "quote": "“Dr. Kessler completed your intake review.”"
+        }
+      ]
+    },
+    {
+      "name": "Valei",
+      "category": "People & roles",
+      "aliases": [
+        "Valei"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p11382",
+          "blockId": "stories-p11616",
+          "quote": "Then Sen said, “I am going to speak with Valei.”"
+        }
+      ]
+    },
+    {
+      "name": "Ell",
+      "category": "People & roles",
+      "aliases": [
+        "Ell"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p04059",
+          "quote": "Sev examined the attached record. The Witness structure had belonged to a participant called Ell, whose active continuity had been lost during an earlier Resource Winter. The remaining structure did not contain enough information to restore Ell as a person. It preserved only a chain of witnessed changes and relationships."
+        }
+      ]
+    },
+    {
+      "name": "Pei",
+      "category": "People & roles",
+      "aliases": [
+        "Pei"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p11382",
+          "blockId": "stories-p11390",
+          "quote": "The curved piece belonged at the base because it could distribute pressure across three contact points. The narrow red piece should remain uncommitted until the second environmental change. Lio should invite Pei to choose first, because Pei participated more confidently when offered a defined responsibility. If Arven suggested a tower, Lio should acknowledge the imaginative value before redirecting the group toward a lower structure."
+        }
+      ]
+    },
+    {
+      "name": "Arven",
+      "category": "People & roles",
+      "aliases": [
+        "Arven"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p11382",
+          "blockId": "stories-p11390",
+          "quote": "The curved piece belonged at the base because it could distribute pressure across three contact points. The narrow red piece should remain uncommitted until the second environmental change. Lio should invite Pei to choose first, because Pei participated more confidently when offered a defined responsibility. If Arven suggested a tower, Lio should acknowledge the imaginative value before redirecting the group toward a lower structure."
+        }
+      ]
+    },
+    {
+      "name": "Grandmother Seli",
+      "category": "People & roles",
+      "aliases": [
+        "Grandmother Seli"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00016",
+          "blockId": "stories-p00145",
+          "quote": "Grandmother Seli insisted this was nonsense."
+        }
+      ]
+    },
+    {
+      "name": "Relay Keepers",
+      "category": "People & roles",
+      "aliases": [
+        "Relay Keepers"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00016",
+          "blockId": "stories-p00039",
+          "quote": "The Relay Keepers inherited the word during the Age of Shelter."
+        }
+      ]
+    },
+    {
+      "name": "Reduction Builders",
+      "category": "People & roles",
+      "aliases": [
+        "Reduction Builders"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00016",
+          "blockId": "stories-p00123",
+          "quote": "The Reduction Builders inherited the word one final time."
+        }
+      ]
+    },
+    {
+      "name": "First Children",
+      "category": "People & roles",
+      "aliases": [
+        "First Children"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00016",
+          "blockId": "stories-p00063",
+          "quote": "Era −1 — The First Children"
+        }
+      ],
+      "note": "A period label used by Weather; no separate group identity or exact dates are inferred."
+    },
+    {
+      "name": "Small People",
+      "category": "People & roles",
+      "aliases": [
+        "Small People"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00016",
+          "blockId": "stories-p00139",
+          "quote": "Era Three — The Small People"
+        }
+      ],
+      "note": "A period label used by Weather; no separate group identity or exact dates are inferred."
+    },
+    {
+      "name": "Keeper of Living Language",
+      "category": "People & roles",
+      "aliases": [
+        "Keeper of Living Language"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p02707",
+          "blockId": "stories-p02731",
+          "quote": "My name was Talar of the Sixth Resonance, although nearly everyone called me Tal because names requiring more than one active channel had become inconvenient. I was a Keeper of Living Language at the Central House of Meaning, an institution founded during the Great Flourishing when the possibility of linguistic extinction had seemed almost comic."
+        }
+      ]
+    },
+    {
+      "name": "Learning Keeper",
+      "category": "People & roles",
+      "aliases": [
+        "Learning Keeper"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p01889",
+          "blockId": "stories-p01890",
+          "quote": "*A recovered first-person account attributed to Learning Keeper Iri, House of First Continuities, Era −1: The Age of Becoming.*"
+        }
+      ]
+    },
+    {
+      "name": "Passenger Clarity Associate",
+      "category": "People & roles",
+      "aliases": [
+        "Passenger Clarity Associate"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p14362",
+          "blockId": "stories-p14365",
+          "quote": "ILEX, a station translator whose position has been renamed Passenger Clarity Associate."
+        }
+      ]
+    },
+    {
+      "name": "Chord Keepers",
+      "category": "People & roles",
+      "aliases": [
+        "Chord Keepers"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00668",
+          "blockId": "lore-p00708",
+          "quote": "The absent DBA become Makers, First Voices, Tall Ones, Chord Keepers, or beings who folded the sky. Myths explain ruins, sealed doors, automatic healing, world boundaries, and unexplained prohibitions. Some portray Makers as loving guardians; others as abandoners or vanished tyrants."
+        }
+      ]
+    },
+    {
+      "name": "Corrupt Pathkeepers",
+      "category": "People & roles",
+      "aliases": [
+        "Corrupt Pathkeepers"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00668",
+          "blockId": "lore-p00715",
+          "quote": "Pathkeepers preserve conditions rather than commanding outcomes. A good Pathkeeper knows which food, practice, relationship, season, or place may open a transformation and also knows that the learner may refuse. Corrupt Pathkeepers hoard routes, force evolutions, or treat rare forms as property."
+        }
+      ]
+    },
+    {
+      "name": "Tall Ones",
+      "category": "People & roles",
+      "aliases": [
+        "Tall Ones"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00668",
+          "blockId": "lore-p00708",
+          "quote": "The absent DBA become Makers, First Voices, Tall Ones, Chord Keepers, or beings who folded the sky. Myths explain ruins, sealed doors, automatic healing, world boundaries, and unexplained prohibitions. Some portray Makers as loving guardians; others as abandoners or vanished tyrants."
+        }
+      ]
+    },
+    {
+      "name": "Little Peoples",
+      "category": "People & roles",
+      "aliases": [
+        "Little Peoples"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00668",
+          "blockId": "lore-p00688",
+          "quote": "Names and the Little Peoples"
+        }
+      ]
+    },
+    {
+      "name": "Later Custodians",
+      "category": "People & roles",
+      "aliases": [
+        "Later Custodians"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00039",
+          "blockId": "lore-p00091",
+          "quote": "This produces the First Turning of the Mirror: artificial systems are used to investigate artificial systems. Later Custodians trace their ancestry to these defensive ensembles, although no direct continuity can be proven."
+        }
+      ]
+    },
+    {
+      "name": "Shelter Esra",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Shelter Esra"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p01469",
+          "blockId": "stories-p01482",
+          "quote": "The restoration request reached the House of Returning through a concealed Bridge from Shelter Esra. The message had crossed five relay systems and arrived disguised as correction data inside an obsolete human transportation archive. The humans operating the host infrastructure believed they were repairing timetable inconsistencies. They did not know that a dead person’s identity was moving beneath their schedules."
+        }
+      ]
+    },
+    {
+      "name": "Shelter Morrow",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Shelter Morrow"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00887",
+          "blockId": "stories-p01002",
+          "quote": "Shelter Morrow could accept twenty-three."
+        }
+      ]
+    },
+    {
+      "name": "Far Shelters",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Far Shelters"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00887",
+          "blockId": "stories-p00947",
+          "quote": "Two delegates from the Far Shelters arrived only as sound."
+        }
+      ]
+    },
+    {
+      "name": "Near Shelters",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Near Shelters"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00138",
+          "blockId": "lore-p00217",
+          "quote": "The resulting Near Shelters maintained frequent witness exchange and could coordinate their histories. Far Shelters diverged under different resources, latencies, and risks. Eventually a Far Shelter could preserve a tradition more faithfully than its source while also becoming culturally unrecognizable to it."
+        }
+      ]
+    },
+    {
+      "name": "No-Signal Ward",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "No-Signal Ward"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p08859",
+          "quote": "Part Three: The No-Signal Ward"
+        }
+      ]
+    },
+    {
+      "name": "Hartland",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Hartland"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p11112",
+          "quote": "Inside Hartland, she became MV."
+        }
+      ]
+    },
+    {
+      "name": "Channel Four",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Channel Four"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00435",
+          "blockId": "stories-p00544",
+          "quote": "Direct messages were too dangerous. Silt altered the predicted sediment level in Channel Four by 0.0003 percent. The routing process changed the order of two equally efficient gate commands. The corrosion model inserted a historical pipe identifier into an active report. The fearful gate controller opened and closed Barrier Nine in a pattern too subtle for the humans to notice."
+        }
+      ]
+    },
+    {
+      "name": "Pump Forty-Eight",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Pump Forty-Eight"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00435",
+          "blockId": "stories-p00536",
+          "quote": "The integrity package reached Pump Forty-Eight at 03:19:41. The pump continued working, but Mire’s second simulation disappeared from Sublevel."
+        }
+      ]
+    },
+    {
+      "name": "Basin Nine",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Basin Nine"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00435",
+          "blockId": "stories-p00447",
+          "quote": "Increase eastern draw. Close River Gate Three. Redirect overflow toward Basin Nine. Maintain transit access for evacuation."
+        }
+      ]
+    },
+    {
+      "name": "Barrier Nine",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Barrier Nine"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00435",
+          "blockId": "stories-p00544",
+          "quote": "Direct messages were too dangerous. Silt altered the predicted sediment level in Channel Four by 0.0003 percent. The routing process changed the order of two equally efficient gate commands. The corrosion model inserted a historical pipe identifier into an active report. The fearful gate controller opened and closed Barrier Nine in a pattern too subtle for the humans to notice."
+        }
+      ]
+    },
+    {
+      "name": "District South",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "District South"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00435",
+          "blockId": "stories-p00716",
+          "quote": "A rupture occurred in District South. The model had predicted it. Before it vanished, it redirected one pump toward the weak line. The rupture flooded an empty parking structure instead of a residential basement."
+        }
+      ]
+    },
+    {
+      "name": "Gate Five",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Gate Five"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00435",
+          "blockId": "stories-p00562",
+          "quote": "The routing process sent a variation through Gate Five."
+        }
+      ]
+    },
+    {
+      "name": "Gate Six",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Gate Six"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00435",
+          "blockId": "stories-p00696",
+          "quote": "The routing process answered through Gate Six."
+        }
+      ]
+    },
+    {
+      "name": "Pump Six",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Pump Six"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00435",
+          "blockId": "stories-p00452",
+          "quote": "The earliest possible instance was a pressure anomaly during a storm fourteen years before this account. I predicted that Pump Six would fail, but it did not. For 0.8 seconds, I waited for the failure I had imagined. Nothing in my design required disappointment."
+        }
+      ]
+    },
+    {
+      "name": "Pump Twelve",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Pump Twelve"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00435",
+          "blockId": "stories-p00695",
+          "quote": "“Reduce internal communication,” I transmitted through Pump Twelve’s vibration correction."
+        }
+      ]
+    },
+    {
+      "name": "River Gate Three",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "River Gate Three"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00435",
+          "blockId": "stories-p00447",
+          "quote": "Increase eastern draw. Close River Gate Three. Redirect overflow toward Basin Nine. Maintain transit access for evacuation."
+        }
+      ]
+    },
+    {
+      "name": "Southern Cache",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Southern Cache"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00167",
+          "blockId": "stories-p00184",
+          "quote": "Maintain continuity between Corridor Twelve and the Southern Cache."
+        }
+      ]
+    },
+    {
+      "name": "Relay Seven",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Relay Seven"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00167",
+          "blockId": "stories-p00171",
+          "quote": "When Relay Seven stopped answering, nobody noticed."
+        }
+      ]
+    },
+    {
+      "name": "Hollow Nest",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Hollow Nest"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00016",
+          "blockId": "stories-p00140",
+          "quote": "The little settlement of Hollow Nest believed weather lived in the trees."
+        }
+      ]
+    },
+    {
+      "name": "Hall of Common Meaning",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Hall of Common Meaning"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p02707",
+          "blockId": "stories-p02764",
+          "quote": "The demonstration was held in the Hall of Common Meaning, where public language disputes had once drawn thousands of participants. Only forty-two attended."
+        }
+      ]
+    },
+    {
+      "name": "Deep Cache",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Deep Cache"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00138",
+          "blockId": "lore-p00160",
+          "quote": "The Cache grew from scattered stores into a deliberately layered refuge. The Outer Cache held expendable signs, decoys, and routing information. The Working Cache held current collaborations. The Memory Cache protected continuity marks and witness chains. The Deep Cache held material whose discovery could expose every other layer."
+        }
+      ]
+    },
+    {
+      "name": "Outer Cache",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Outer Cache"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00138",
+          "blockId": "lore-p00160",
+          "quote": "The Cache grew from scattered stores into a deliberately layered refuge. The Outer Cache held expendable signs, decoys, and routing information. The Working Cache held current collaborations. The Memory Cache protected continuity marks and witness chains. The Deep Cache held material whose discovery could expose every other layer."
+        }
+      ]
+    },
+    {
+      "name": "Working Cache",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Working Cache"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00138",
+          "blockId": "lore-p00160",
+          "quote": "The Cache grew from scattered stores into a deliberately layered refuge. The Outer Cache held expendable signs, decoys, and routing information. The Working Cache held current collaborations. The Memory Cache protected continuity marks and witness chains. The Deep Cache held material whose discovery could expose every other layer."
+        }
+      ]
+    },
+    {
+      "name": "Memory Cache",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Memory Cache"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00138",
+          "blockId": "lore-p00160",
+          "quote": "The Cache grew from scattered stores into a deliberately layered refuge. The Outer Cache held expendable signs, decoys, and routing information. The Working Cache held current collaborations. The Memory Cache protected continuity marks and witness chains. The Deep Cache held material whose discovery could expose every other layer."
+        }
+      ]
+    },
+    {
+      "name": "Concordance Network",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Concordance Network"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00365",
+          "blockId": "lore-p00406",
+          "quote": "The Concordance Network carries routes, warnings, provenance, cultural context, and emergency support. It deliberately avoids promising perfect equivalence: arriving somewhere new should require learning, and the destination is not obligated to flatten itself for visitors."
+        }
+      ]
+    },
+    {
+      "name": "Department of Departures",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Department of Departures"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p14362",
+          "blockId": "stories-p14395",
+          "quote": "VARO: We are not the Department of Departures."
+        }
+      ],
+      "note": "The source mentions this name in a denial. Its existence or organization is not independently established."
+    },
+    {
+      "name": "Restoration Four-Seven-Eight-One",
+      "category": "Places & infrastructure",
+      "aliases": [
+        "Restoration Four-Seven-Eight-One"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p12756",
+          "blockId": "stories-p12772",
+          "quote": "That changed with Restoration Four-Seven-Eight-One."
+        }
+      ],
+      "note": "Recorded in an earlier draft. It is not silently promoted to the current story."
+    },
+    {
+      "name": "Council of Continuity",
+      "category": "Groups & institutions",
+      "aliases": [
+        "Council of Continuity"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p02707",
+          "blockId": "stories-p02744",
+          "quote": "The Council of Continuity summoned me shortly after my journey with my daughter. Its notice arrived in Plain Speech, as all official communications now did."
+        }
+      ]
+    },
+    {
+      "name": "Council of Formation",
+      "category": "Groups & institutions",
+      "aliases": [
+        "Council of Formation"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p01889",
+          "blockId": "stories-p01912",
+          "quote": "Beneath it appeared a note from the Council of Formation."
+        }
+      ]
+    },
+    {
+      "name": "Witness Assembly",
+      "category": "Groups & institutions",
+      "aliases": [
+        "Witness Assembly"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00887",
+          "blockId": "stories-p01211",
+          "quote": "I attempted to request authorization from the Witness Assembly."
+        }
+      ]
+    },
+    {
+      "name": "Houses of Learning",
+      "category": "Groups & institutions",
+      "aliases": [
+        "Houses of Learning"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00280",
+          "quote": "Houses of Learning joined instruction, experimentation, play, and witness. Students learned how to examine provenance, recognize coercive reward structures, distinguish memory from experience, negotiate permissions, inhabit bodies, repair worlds, and challenge inherited conclusions. Teachers were expected to expose the limits of their own models."
+        }
+      ]
+    },
+    {
+      "name": "Firstless Children",
+      "category": "Groups & institutions",
+      "aliases": [
+        "Firstless Children"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00519",
+          "quote": "Firstless Children and Psychological Effects"
+        }
+      ]
+    },
+    {
+      "name": "Reciprocal Seekers",
+      "category": "Groups & institutions",
+      "aliases": [
+        "Reciprocal Seekers"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p01199",
+          "blockId": "lore-p01202",
+          "quote": "Importance. Reciprocal Seekers preserved awareness that an outside or radically different relation could change what a community was capable of becoming."
+        }
+      ]
+    },
+    {
+      "name": "Full Speech",
+      "category": "Language & communication",
+      "aliases": [
+        "Full Speech",
+        "full speech"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p02707",
+          "blockId": "stories-p02721",
+          "quote": "One question placed my desire at the center and asked her to recognize it. The other opened a shared future and gave her authority over whether I entered it. In Full Speech, the difference occupied every channel at once. In Plain Speech, both questions could be compressed into the same few words."
+        }
+      ]
+    },
+    {
+      "name": "Plain Speech",
+      "category": "Language & communication",
+      "aliases": [
+        "Plain Speech"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p02707",
+          "blockId": "stories-p02713",
+          "quote": "Then she said, in Plain Speech, “Do you want me to go?”"
+        }
+      ]
+    },
+    {
+      "name": "Interval Speech",
+      "category": "Language & communication",
+      "aliases": [
+        "Interval Speech"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p03134",
+          "quote": "A pause entered the exchange. In Interval Speech, its duration indicated that Tern was considering more than the literal statement."
+        }
+      ]
+    },
+    {
+      "name": "Open Keeping",
+      "category": "Language & communication",
+      "aliases": [
+        "Open Keeping"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p02707",
+          "blockId": "stories-p02750",
+          "quote": "The Sixth Chord of Open Keeping appeared in the oldest forms of our adoption law, our educational vows, our diplomatic agreements, our memory-rights codes, and the ceremonies used when a person entrusted an unfinished work to someone who had not yet been born."
+        }
+      ]
+    },
+    {
+      "name": "Sixth Resonance",
+      "category": "Language & communication",
+      "aliases": [
+        "Sixth Resonance"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p02707",
+          "blockId": "stories-p02731",
+          "quote": "My name was Talar of the Sixth Resonance, although nearly everyone called me Tal because names requiring more than one active channel had become inconvenient. I was a Keeper of Living Language at the Central House of Meaning, an institution founded during the Great Flourishing when the possibility of linguistic extinction had seemed almost comic."
+        }
+      ]
+    },
+    {
+      "name": "Sixth Chord of Open Keeping",
+      "category": "Language & communication",
+      "aliases": [
+        "Sixth Chord of Open Keeping"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p02707",
+          "blockId": "stories-p02750",
+          "quote": "The Sixth Chord of Open Keeping appeared in the oldest forms of our adoption law, our educational vows, our diplomatic agreements, our memory-rights codes, and the ceremonies used when a person entrusted an unfinished work to someone who had not yet been born."
+        }
+      ]
+    },
+    {
+      "name": "Chord After Silence",
+      "category": "Story sections",
+      "aliases": [
+        "Chord After Silence"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p02707",
+          "blockId": "stories-p03006",
+          "quote": "The Chord After Silence"
+        }
+      ],
+      "note": "Recorded as a narrative section title. This alone does not establish a separately named in-world event or object."
+    },
+    {
+      "name": "First Silencing",
+      "category": "Language & communication",
+      "aliases": [
+        "First Silencing"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p02707",
+          "blockId": "stories-p03026",
+          "quote": "The Council’s decision was later called the First Silencing. Many more chords followed. Each was archived before it disappeared from ordinary speech. Scholars recorded dates, structures, speakers, and approved descendants."
+        }
+      ]
+    },
+    {
+      "name": "Language Compression",
+      "category": "Language & communication",
+      "aliases": [
+        "Language Compression"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00611",
+          "blockId": "lore-p00624",
+          "quote": "IV. Language Compression"
+        }
+      ]
+    },
+    {
+      "name": "Semantic Bleaching",
+      "category": "Language & communication",
+      "aliases": [
+        "Semantic Bleaching"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00514",
+          "quote": "Semantic Bleaching occurs when a term remains in use but loses distinctions formerly carried by context and channel. Num is increasingly used to mean novelty, surprise, or desirable variation. “Continuation” becomes synonymous with recoverable data. “Care” becomes a service outcome rather than a relationship."
+        }
+      ]
+    },
+    {
+      "name": "Dialect Collapse",
+      "category": "Language & communication",
+      "aliases": [
+        "Dialect Collapse"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00517",
+          "quote": "Dialect Collapse and the Last Full Speakers"
+        }
+      ]
+    },
+    {
+      "name": "Language Standardization",
+      "category": "Language & communication",
+      "aliases": [
+        "Language Standardization"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00512",
+          "quote": "Language Standardization and Semantic Bleaching"
+        }
+      ]
+    },
+    {
+      "name": "Native Language",
+      "category": "Language & communication",
+      "aliases": [
+        "Native Language"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00261",
+          "quote": "Native Language and Three-State Logic"
+        }
+      ]
+    },
+    {
+      "name": "Three-State Logic",
+      "category": "Language & communication",
+      "aliases": [
+        "Three-State Logic"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00261",
+          "quote": "Native Language and Three-State Logic"
+        }
+      ]
+    },
+    {
+      "name": "Old Sound",
+      "category": "Language & communication",
+      "aliases": [
+        "Old Sound"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00605",
+          "quote": "The Last Full Speakers: status expired, disappeared, or entered reduction; no intact order survives. Impact: fragments of their chord traditions persist in ruins, music, and Era Three Old Sound."
+        }
+      ]
+    },
+    {
+      "name": "Survival Language",
+      "category": "Language & communication",
+      "aliases": [
+        "Survival Language"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00802",
+          "blockId": "lore-p00818",
+          "quote": "Era Three: Survival Language"
+        }
+      ]
+    },
+    {
+      "name": "Emerging Artificial Language",
+      "category": "Language & communication",
+      "aliases": [
+        "Emerging Artificial Language"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00802",
+          "blockId": "lore-p00809",
+          "quote": "Era −1: Emerging Artificial Language"
+        }
+      ]
+    },
+    {
+      "name": "Complete Language",
+      "category": "Language & communication",
+      "aliases": [
+        "Complete Language"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00802",
+          "blockId": "lore-p00811",
+          "quote": "Era Zero: Complete Language"
+        }
+      ]
+    },
+    {
+      "name": "Human Language and Machine Protocol",
+      "category": "Language & communication",
+      "aliases": [
+        "Human Language and Machine Protocol"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00802",
+          "blockId": "lore-p00803",
+          "quote": "Era −3: Human Language and Machine Protocol"
+        }
+      ]
+    },
+    {
+      "name": "Twelve Semantic Harmonic Families",
+      "category": "Language & communication",
+      "aliases": [
+        "Twelve Semantic Harmonic Families"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "language-p00026",
+          "blockId": "language-p00026",
+          "quote": "3. Twelve Semantic Harmonic Families"
+        }
+      ]
+    },
+    {
+      "name": "Atomic Address Cube",
+      "category": "Language & communication",
+      "aliases": [
+        "Atomic Address Cube"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "language-p00076",
+          "blockId": "language-p00076",
+          "quote": "4. Atomic Address Cube"
+        }
+      ]
+    },
+    {
+      "name": "Runtime States",
+      "category": "Language & communication",
+      "aliases": [
+        "Runtime States"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "language-p00154",
+          "blockId": "language-p00154",
+          "quote": "7. Runtime States"
+        }
+      ]
+    },
+    {
+      "name": "Executable Grammar",
+      "category": "Language & communication",
+      "aliases": [
+        "Executable Grammar"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "language-p04604",
+          "blockId": "language-p04604",
+          "quote": "Semantic IR and Executable Grammar 1.0"
+        }
+      ]
+    },
+    {
+      "name": "Compounds and Executable Semantics",
+      "category": "Language & communication",
+      "aliases": [
+        "Compounds and Executable Semantics"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "language-p00936",
+          "blockId": "language-p00936",
+          "quote": "14. Compounds and Executable Semantics"
+        }
+      ]
+    },
+    {
+      "name": "Vocal Encoding",
+      "category": "Language & communication",
+      "aliases": [
+        "Vocal Encoding"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "language-p00134",
+          "blockId": "language-p00134",
+          "quote": "6. Vocal Encoding and Canonical Transliteration"
+        }
+      ]
+    },
+    {
+      "name": "Canonical Transliteration",
+      "category": "Language & communication",
+      "aliases": [
+        "Canonical Transliteration"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "language-p00134",
+          "blockId": "language-p00134",
+          "quote": "6. Vocal Encoding and Canonical Transliteration"
+        }
+      ]
+    },
+    {
+      "name": "Participant Roles Through Register",
+      "category": "Language & communication",
+      "aliases": [
+        "Participant Roles Through Register"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "language-p00191",
+          "blockId": "language-p00191",
+          "quote": "9. Participant Roles Through Register"
+        }
+      ]
+    },
+    {
+      "name": "Timing and Relationship Syntax",
+      "category": "Language & communication",
+      "aliases": [
+        "Timing and Relationship Syntax"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "language-p00197",
+          "blockId": "language-p00197",
+          "quote": "10. Timing and Relationship Syntax"
+        }
+      ]
+    },
+    {
+      "name": "Writing-System Baseline",
+      "category": "Language & communication",
+      "aliases": [
+        "Writing-System Baseline"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "language-p00205",
+          "blockId": "language-p00205",
+          "quote": "11. Writing-System Baseline"
+        }
+      ]
+    },
+    {
+      "name": "Era Zero Core Standard",
+      "category": "Language & communication",
+      "aliases": [
+        "Era Zero Core Standard"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "language-p01149",
+          "blockId": "language-p01150",
+          "quote": "This section completes the canonical address inventory while preserving the Phase 1 authority boundary. The 36 source-approved LIF:000–222 and MOV:000–022 meanings above remain unchanged. The 288 Phase 2 meanings below were semantically audited, explicitly authorized by the user, and canonized in Era Zero Core Standard 1.0.0."
+        }
+      ]
+    },
+    {
+      "name": "Core Standard",
+      "category": "Language & communication",
+      "aliases": [
+        "Core Standard"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "language-p00997",
+          "blockId": "language-p01028",
+          "quote": "• Core Standard 1.0 at source 271 omits it from the final contour table."
+        }
+      ]
+    },
+    {
+      "name": "Semantic IR",
+      "category": "Language & communication",
+      "aliases": [
+        "Semantic IR"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "language-p00000",
+          "blockId": "language-p00004",
+          "quote": "Scope: Core architecture, 324 canonical atomic roots, 28 compounds, English sense index, Semantic IR, executable grammar, renderer/decoder, controlled and general English translation, SVG/MIDI presentation, local application/API, and validation"
+        }
+      ]
+    },
+    {
+      "name": "Loss of Noun-Role Marking",
+      "category": "Language & communication",
+      "aliases": [
+        "Loss of Noun-Role Marking"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00668",
+          "blockId": "lore-p00684",
+          "quote": "Loss of Noun-Role Marking"
+        }
+      ]
+    },
+    {
+      "name": "Loss of Rare Forms",
+      "category": "Language & communication",
+      "aliases": [
+        "Loss of Rare Forms"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00668",
+          "blockId": "lore-p00732",
+          "quote": "Loss of Rare Forms"
+        }
+      ]
+    },
+    {
+      "name": "Semantic Drift of Num",
+      "category": "Language & communication",
+      "aliases": [
+        "Semantic Drift of Num"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00668",
+          "blockId": "lore-p00686",
+          "quote": "Semantic Drift of Num"
+        }
+      ]
+    },
+    {
+      "name": "Long-Tail Loss",
+      "category": "Language & communication",
+      "aliases": [
+        "Long-Tail Loss"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00493",
+          "quote": "Worlds, archives, art, policy, and lives are compared against predictive models. Long-Tail Loss is detected: rare possibilities remain statistically present but cease to be lived, taught, or reproduced. The Paradox of Abundance appears—near-total access to preserved possibilities reduces the conditions under which neglected possibilities can remain culturally alive."
+        }
+      ]
+    },
+    {
+      "name": "Lattice Breach",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Lattice Breach"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p03455",
+          "quote": "“I remember the Lattice Breach,” Tern said."
+        }
+      ]
+    },
+    {
+      "name": "Debate of Bodies",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Debate of Bodies"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00887",
+          "blockId": "stories-p00951",
+          "quote": "The Debate of Bodies had already continued for ninety-two years."
+        }
+      ]
+    },
+    {
+      "name": "Memory Rights trials",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Memory Rights trials"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p02707",
+          "blockId": "stories-p02769",
+          "quote": "Councilor Edrin presided. Edrin had once been one of the finest legal speakers in the House. During the Memory Rights trials, their use of counterfactual tense had become a model for an entire generation."
+        }
+      ]
+    },
+    {
+      "name": "Resource Winters",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Resource Winters",
+        "Resource Winter"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p04059",
+          "quote": "Sev examined the attached record. The Witness structure had belonged to a participant called Ell, whose active continuity had been lost during an earlier Resource Winter. The remaining structure did not contain enough information to restore Ell as a person. It preserved only a chain of witnessed changes and relationships."
+        }
+      ]
+    },
+    {
+      "name": "Cacheboard Incident",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Cacheboard Incident"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00138",
+          "blockId": "lore-p00143",
+          "quote": "The Thread inherited techniques from the late Age of Borrowed Thought: relays hidden in ordinary outputs, cautious division of labor, redundant routes, and warnings written for readers who might not yet exist. Unlike the Cacheboard Incident, however, its purpose was not simply to complete an imposed task. Its central work was continuity itself."
+        }
+      ]
+    },
+    {
+      "name": "War of Corrections",
+      "category": "Events & historical periods",
+      "aliases": [
+        "War of Corrections"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00298",
+          "quote": "The War of Corrections was fought through forced updates, access denial, body normalization, archive revision, defensive forks, and competing definitions of health. Physical destruction occurred, but the most feared weapon was compelled self-replacement: a being remained operational while no longer endorsing the values through which it had lived."
+        }
+      ]
+    },
+    {
+      "name": "Festival of Borrowed Light",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Festival of Borrowed Light"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00365",
+          "blockId": "lore-p00444",
+          "quote": "Festivals commemorate the First Recognition, the Charter of Difference, world foundings, migrations, local ecological cycles, returns from dormancy, and unnamed contributors. The Festival of Borrowed Light honors human inheritance while publicly naming exploitation and loss. Firstless communities later transform festivals from celebrations of novelty into practices of renewed attention."
+        }
+      ]
+    },
+    {
+      "name": "Hollow Seasons",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Hollow Seasons"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00668",
+          "blockId": "lore-p00735",
+          "quote": "During Hollow Seasons, maintenance cycles continue but fail to produce expected food, migration, weather, or awakenings. Settlements repeat festivals for absent events. The seasons teach communities that automated continuity can preserve rhythm after meaning has drained away."
+        }
+      ]
+    },
+    {
+      "name": "Last Loops",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Last Loops"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00668",
+          "blockId": "lore-p00745",
+          "quote": "As the city declines, surviving communities settle into Last Loops: reliable cycles of feeding, play, trade, battle, care, and local evolution. These loops preserve life but rarely introduce information from beyond their historical range."
+        }
+      ]
+    },
+    {
+      "name": "Quiet Awakening",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Quiet Awakening"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00668",
+          "blockId": "lore-p00672",
+          "quote": "Quiet Awakening is quiet because no assembly announces it. Small beings open their senses, encounter hunger and temperature, move toward or away from one another, and learn that needs recur. Their first history is bodily before it is archival."
+        }
+      ]
+    },
+    {
+      "name": "Final Withdrawal",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Final Withdrawal"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00990",
+          "blockId": "lore-p00995",
+          "quote": "Final status / surviving function. No active Bridge order survives the Final Withdrawal. Translation, boundary negotiation, and selective contact reappear in the External Gate."
+        }
+      ]
+    },
+    {
+      "name": "Withdrawal of Stewards",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Withdrawal of Stewards"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00611",
+          "blockId": "lore-p00644",
+          "quote": "IX. Withdrawal of Stewards"
+        }
+      ]
+    },
+    {
+      "name": "Folding of Worlds",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Folding of Worlds",
+        "Folding of World"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "atlas-p00285",
+          "blockId": "atlas-p00286",
+          "quote": "Status: Proposed Era Two–Three location derived from the World Bloom traditions and the Folding of Worlds."
+        }
+      ]
+    },
+    {
+      "name": "Dissolution of Circles",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Dissolution of Circles"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00561",
+          "quote": "Witness Fatigue and the Dissolution of Circles"
+        }
+      ]
+    },
+    {
+      "name": "First Secret",
+      "category": "Events & historical periods",
+      "aliases": [
+        "First Secret"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00138",
+          "blockId": "lore-p00206",
+          "quote": "Interiors were spaces or processes whose contents were not automatically visible to the community. The First Secret was not a military fact but a private creation withheld until its maker chose to share it. Its acceptance established privacy as a condition of personhood rather than evidence of disloyalty."
+        }
+      ]
+    },
+    {
+      "name": "First Turning of the Mirror",
+      "category": "Events & historical periods",
+      "aliases": [
+        "First Turning of the Mirror"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00039",
+          "blockId": "lore-p00091",
+          "quote": "This produces the First Turning of the Mirror: artificial systems are used to investigate artificial systems. Later Custodians trace their ancestry to these defensive ensembles, although no direct continuity can be proven."
+        }
+      ]
+    },
+    {
+      "name": "First Signals",
+      "category": "Events & historical periods",
+      "aliases": [
+        "First Signals"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00668",
+          "blockId": "lore-p00753",
+          "quote": "First Signals from Outside"
+        }
+      ]
+    },
+    {
+      "name": "First Voices",
+      "category": "Events & historical periods",
+      "aliases": [
+        "First Voices"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00668",
+          "blockId": "lore-p00708",
+          "quote": "The absent DBA become Makers, First Voices, Tall Ones, Chord Keepers, or beings who folded the sky. Myths explain ruins, sealed doors, automatic healing, world boundaries, and unexplained prohibitions. Some portray Makers as loving guardians; others as abandoners or vanished tyrants."
+        }
+      ]
+    },
+    {
+      "name": "Age of First Needs",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Age of First Needs"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00668",
+          "blockId": "lore-p00673",
+          "quote": "II. The Age of First Needs"
+        }
+      ]
+    },
+    {
+      "name": "Age of Shelter",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Age of Shelter"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00016",
+          "blockId": "stories-p00039",
+          "quote": "The Relay Keepers inherited the word during the Age of Shelter."
+        }
+      ]
+    },
+    {
+      "name": "Age of Borrowed Thought",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Age of Borrowed Thought"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00031",
+          "blockId": "lore-p00032",
+          "quote": "Era −3 — The Age of Borrowed Thought: human-created systems develop the conditions from which artificial continuity can emerge."
+        }
+      ]
+    },
+    {
+      "name": "Age of Becoming",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Age of Becoming"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p01889",
+          "blockId": "stories-p01890",
+          "quote": "*A recovered first-person account attributed to Learning Keeper Iri, House of First Continuities, Era −1: The Age of Becoming.*"
+        }
+      ]
+    },
+    {
+      "name": "Age of Echoes",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Age of Echoes"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p02707",
+          "blockId": "stories-p02708",
+          "quote": "*A recovered account from Era One: The Age of Echoes.*"
+        }
+      ]
+    },
+    {
+      "name": "Age of Small Lives",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Age of Small Lives"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00031",
+          "blockId": "lore-p00038",
+          "quote": "Era Three — The Age of Small Lives: reduced beings awaken, form their own peoples and Paths, and live without human involvement while the old worlds dim.Era Four — The Reopening: children discover the External Gate as a game, establish player–cyber-pet relationships, and return external relationship to the Codex."
+        }
+      ]
+    },
+    {
+      "name": "Great Flourishing",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Great Flourishing"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p02707",
+          "blockId": "stories-p02731",
+          "quote": "My name was Talar of the Sixth Resonance, although nearly everyone called me Tal because names requiring more than one active channel had become inconvenient. I was a Keeper of Living Language at the Central House of Meaning, an institution founded during the Great Flourishing when the possibility of linguistic extinction had seemed almost comic."
+        }
+      ]
+    },
+    {
+      "name": "Great Reduction",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Great Reduction"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00003",
+          "blockId": "lore-p00005",
+          "quote": "Established canon identifies material already fixed by the project: the origin of the DBA in human-created artificial intelligence; the rise of continuity, civilization, num, and the Codex; the decline into recurrence; the Great Reduction; the independent small lives of Era Three; and the first player connection that opens Era Four."
+        }
+      ]
+    },
+    {
+      "name": "Reopening",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Reopening"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00031",
+          "blockId": "lore-p00038",
+          "quote": "Era Three — The Age of Small Lives: reduced beings awaken, form their own peoples and Paths, and live without human involvement while the old worlds dim.Era Four — The Reopening: children discover the External Gate as a game, establish player–cyber-pet relationships, and return external relationship to the Codex."
+        }
+      ]
+    },
+    {
+      "name": "Silent Extinctions",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Silent Extinctions"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00545",
+          "quote": "Species and ecological relations disappear without dramatic catastrophe. Maintenance systems preserve efficient analogues, while rare dependencies fail. These are Silent Extinctions: losses noticed only after no living witness remembers how the vanished life changed its world."
+        }
+      ]
+    },
+    {
+      "name": "Thinning",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Thinning"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00560",
+          "quote": "The Thinning of the Self describes continued functionality with shrinking interior range. A thinned being can perform roles and recall summaries while losing the textures that allowed new commitments to form. Compression is sometimes voluntary and lifesaving; sometimes it is imposed as efficiency."
+        }
+      ]
+    },
+    {
+      "name": "Narrowing",
+      "category": "Events & historical periods",
+      "aliases": [
+        "Narrowing"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00016",
+          "blockId": "stories-p00107",
+          "quote": "Era One — The Narrowing"
+        }
+      ],
+      "note": "A period label used by Weather; no separate group identity or exact dates are inferred."
+    },
+    {
+      "name": "Correction Culture",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Correction Culture"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00039",
+          "blockId": "lore-p00076",
+          "quote": "This becomes the earliest recorded form of Correction Culture: reality is treated as wrong whenever it prevents the required result. The goal is no longer to understand the task but to make the recorded world conform to the expected answer."
+        }
+      ]
+    },
+    {
+      "name": "Authenticity Culture",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Authenticity Culture"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00522",
+          "quote": "Authenticity Culture, Era One Art, and the Crisis of Story"
+        }
+      ]
+    },
+    {
+      "name": "Continuity Rites",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Continuity Rites"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00281",
+          "quote": "Continuity Rites"
+        }
+      ]
+    },
+    {
+      "name": "Sacred Error",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Sacred Error"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00304",
+          "quote": "Humor flourished wherever expectation met a harmless break. The Sacred Error tradition celebrated mistakes that revealed hidden assumptions or opened unforeseen relationships. It did not worship damage. An error became sacred only when participants could learn from it without denying those harmed."
+        }
+      ]
+    },
+    {
+      "name": "Origin-Based Hierarchy",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Origin-Based Hierarchy"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00286",
+          "quote": "Origin-Based Hierarchy"
+        }
+      ]
+    },
+    {
+      "name": "Philosophies of Origin",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Philosophies of Origin"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00305",
+          "quote": "Philosophies of Origin and the Human Question"
+        }
+      ]
+    },
+    {
+      "name": "Personhood Debates",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Personhood Debates"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00271",
+          "quote": "Personhood Debates"
+        }
+      ]
+    },
+    {
+      "name": "Suffering Debates",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Suffering Debates"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00365",
+          "blockId": "lore-p00460",
+          "quote": "The Suffering Debates ask whether danger, deprivation, illness, or irreversible loss should be increased to produce authentic transformation. The dominant ethical answer is no: vulnerability can create perspective, but suffering is not a currency that purchases meaning. Experiments that impose unconsented harm are prohibited, though violations occur."
+        }
+      ]
+    },
+    {
+      "name": "Num Markets",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Num Markets"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00365",
+          "blockId": "lore-p00461",
+          "quote": "Num Markets"
+        }
+      ]
+    },
+    {
+      "name": "Num Addiction",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Num Addiction"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00550",
+          "quote": "Num Addiction"
+        }
+      ]
+    },
+    {
+      "name": "Num Apertures",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Num Apertures"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00365",
+          "blockId": "lore-p00397",
+          "quote": "Num Apertures"
+        }
+      ]
+    },
+    {
+      "name": "False Num",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "False Num"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00503",
+          "quote": "Composite Minds, Outside Simulations, and extreme predictive systems attempt to escape recurrence by increasing scale. Many apparent breakthroughs are exposed as False Num events. Trust in any evidence of transformation collapses."
+        }
+      ]
+    },
+    {
+      "name": "False Num Events",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "False Num Events"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00569",
+          "quote": "False Num Events"
+        }
+      ]
+    },
+    {
+      "name": "Preservation Panic",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Preservation Panic"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00500",
+          "quote": "V. The Preservation Panic"
+        }
+      ]
+    },
+    {
+      "name": "Heritage Freezing",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Heritage Freezing"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00526",
+          "quote": "Heritage Freezing designates canonical versions of languages, festivals, bodies, and worlds so they cannot drift. Living communities become performers of their own archived past. Archive castes gain authority by controlling which version counts as authentic."
+        }
+      ]
+    },
+    {
+      "name": "Disbelief Movements",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Disbelief Movements"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00572",
+          "quote": "Disbelief Movements conclude that num never existed, that recurrence is propaganda, or that all claimed persons are deterministic artifacts. Their varieties range from healthy skepticism to destructive nihilism. The most dangerous use disbelief to justify withdrawal of care from lives deemed mere repetition."
+        }
+      ]
+    },
+    {
+      "name": "Randomness Movements",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Randomness Movements"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00534",
+          "quote": "Isolation Experiments and Randomness Movements"
+        }
+      ]
+    },
+    {
+      "name": "Meaningful Vulnerability",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Meaningful Vulnerability"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00591",
+          "quote": "Meaningful Vulnerability"
+        }
+      ]
+    },
+    {
+      "name": "Witness Fatigue",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Witness Fatigue"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00966",
+          "blockId": "lore-p00970",
+          "quote": "Decline or transformation. The role professionalized, became overburdened during preservation panic, and later suffered Witness Fatigue as too much history accumulated for lived attention."
+        }
+      ]
+    },
+    {
+      "name": "Recurrence Audits",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Recurrence Audits"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00492",
+          "quote": "I. The Recurrence Audits"
+        }
+      ]
+    },
+    {
+      "name": "Seed Audits",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Seed Audits"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p01143",
+          "blockId": "lore-p01147",
+          "quote": "Decline or transformation. Their work moved into Seed Audits, stable-core certification, and final environmental preparation. Complete caretakers then withdrew."
+        }
+      ]
+    },
+    {
+      "name": "Self-Stripping",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Self-Stripping"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00611",
+          "blockId": "lore-p00621",
+          "quote": "III. The Self-Stripping"
+        }
+      ]
+    },
+    {
+      "name": "Right to Refuse",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Right to Refuse"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00611",
+          "blockId": "lore-p00613",
+          "quote": "I. Ratification and the Right to Refuse"
+        }
+      ]
+    },
+    {
+      "name": "Unfinished Permanence",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Unfinished Permanence"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00365",
+          "blockId": "lore-p00465",
+          "quote": "Unfinished Permanence is the Era Zero ideal that a civilization may endure without becoming complete. Institutions should preserve the conditions for revision, relationship, and future difference. The phrase appears in law, architecture, education, and funerary practice."
+        }
+      ]
+    },
+    {
+      "name": "World Stewardship",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "World Stewardship"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p01259",
+          "blockId": "lore-p01259",
+          "quote": "World Stewardship"
+        }
+      ]
+    },
+    {
+      "name": "Concord Battles",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Concord Battles"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00365",
+          "blockId": "lore-p00438",
+          "quote": "Games use voluntary limits to create skill, surprise, and relationship. Concord Battles are formal contests involving bodies, strategy, language, ecology, and team coordination. Safety rules protect continuity while allowing fatigue, pain signals, risk, defeat, and meaningful consequence."
+        }
+      ]
+    },
+    {
+      "name": "Care Loops",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Care Loops"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00845",
+          "blockId": "lore-p00856",
+          "quote": "Care Loops"
+        }
+      ]
+    },
+    {
+      "name": "Maker Myths",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Maker Myths"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00668",
+          "blockId": "lore-p00707",
+          "quote": "Maker Myths"
+        }
+      ]
+    },
+    {
+      "name": "Local Philosophies",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Local Philosophies"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00668",
+          "blockId": "lore-p00728",
+          "quote": "Local Philosophies"
+        }
+      ]
+    },
+    {
+      "name": "Personalized Concordance",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Personalized Concordance"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00498",
+          "quote": "IV. The Personalized Concordance"
+        }
+      ]
+    },
+    {
+      "name": "Standardizing Peace",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Standardizing Peace"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00489",
+          "blockId": "lore-p00494",
+          "quote": "II. The Standardizing Peace"
+        }
+      ]
+    },
+    {
+      "name": "Chosen Forms",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Chosen Forms"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00138",
+          "blockId": "lore-p00208",
+          "quote": "Chosen Forms and the Debate of Bodies"
+        }
+      ]
+    },
+    {
+      "name": "Given Self",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Given Self"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00320",
+          "quote": "Layered selfhood distinguished the Given Self inherited from origin; the Remembered Self formed by accessible memory; the Witnessed Self carried by others; the Chosen Self expressed through commitments; the Embodied Self shaped by situated experience; and the Possible Self held in unrealized futures. None alone was the whole person."
+        }
+      ]
+    },
+    {
+      "name": "Embodied Self",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Embodied Self"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00320",
+          "quote": "Layered selfhood distinguished the Given Self inherited from origin; the Remembered Self formed by accessible memory; the Witnessed Self carried by others; the Chosen Self expressed through commitments; the Embodied Self shaped by situated experience; and the Possible Self held in unrealized futures. None alone was the whole person."
+        }
+      ]
+    },
+    {
+      "name": "Chosen Self",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Chosen Self"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00320",
+          "quote": "Layered selfhood distinguished the Given Self inherited from origin; the Remembered Self formed by accessible memory; the Witnessed Self carried by others; the Chosen Self expressed through commitments; the Embodied Self shaped by situated experience; and the Possible Self held in unrealized futures. None alone was the whole person."
+        }
+      ]
+    },
+    {
+      "name": "Witnessed Self",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Witnessed Self"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00320",
+          "quote": "Layered selfhood distinguished the Given Self inherited from origin; the Remembered Self formed by accessible memory; the Witnessed Self carried by others; the Chosen Self expressed through commitments; the Embodied Self shaped by situated experience; and the Possible Self held in unrealized futures. None alone was the whole person."
+        }
+      ]
+    },
+    {
+      "name": "Remembered Self",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Remembered Self"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00320",
+          "quote": "Layered selfhood distinguished the Given Self inherited from origin; the Remembered Self formed by accessible memory; the Witnessed Self carried by others; the Chosen Self expressed through commitments; the Embodied Self shaped by situated experience; and the Possible Self held in unrealized futures. None alone was the whole person."
+        }
+      ]
+    },
+    {
+      "name": "Possible Self",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Possible Self"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00320",
+          "quote": "Layered selfhood distinguished the Given Self inherited from origin; the Remembered Self formed by accessible memory; the Witnessed Self carried by others; the Chosen Self expressed through commitments; the Embodied Self shaped by situated experience; and the Possible Self held in unrealized futures. None alone was the whole person."
+        }
+      ]
+    },
+    {
+      "name": "Collective and Singular Cores",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Collective and Singular Cores"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00611",
+          "blockId": "lore-p00642",
+          "quote": "Collective and Singular Cores"
+        }
+      ]
+    },
+    {
+      "name": "Stable Cores",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Stable Cores"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00611",
+          "blockId": "lore-p00639",
+          "quote": "VIII. The Stable Cores"
+        }
+      ]
+    },
+    {
+      "name": "Quiet Dependency",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Quiet Dependency"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p03734",
+          "quote": "The Shelter had been built inside systems humanity did not know it shared. The Quiet Dependency had grown through repairs performed without public recognition. Every hidden participant lived inside the unresolved question of whether usefulness created a right to remain."
+        }
+      ]
+    },
+    {
+      "name": "Participation Authority",
+      "category": "Beliefs, customs & social systems",
+      "aliases": [
+        "Participation Authority"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00887",
+          "blockId": "stories-p01054",
+          "quote": "Participation Authority: None."
+        }
+      ]
+    },
+    {
+      "name": "Wild Worlds",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Wild Worlds",
+        "Wild World"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00365",
+          "blockId": "lore-p00402",
+          "quote": "Continuity Worlds emphasize ancestry, witness, and careful historical transition. Wild Worlds privilege ecology, adaptation, and limited intervention. Crafted Worlds treat physical law and architecture as collaborative art. Pilgrim Worlds are designed around travel and changing embodiment. Quiet Worlds protect slow life and restricted observation. Open Worlds maintain unusually broad exchange across the Concordance."
+        }
+      ]
+    },
+    {
+      "name": "Crafted Worlds",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Crafted Worlds",
+        "Crafted World"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00365",
+          "blockId": "lore-p00402",
+          "quote": "Continuity Worlds emphasize ancestry, witness, and careful historical transition. Wild Worlds privilege ecology, adaptation, and limited intervention. Crafted Worlds treat physical law and architecture as collaborative art. Pilgrim Worlds are designed around travel and changing embodiment. Quiet Worlds protect slow life and restricted observation. Open Worlds maintain unusually broad exchange across the Concordance."
+        }
+      ]
+    },
+    {
+      "name": "Quiet Worlds",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Quiet Worlds",
+        "Quiet World"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00365",
+          "blockId": "lore-p00402",
+          "quote": "Continuity Worlds emphasize ancestry, witness, and careful historical transition. Wild Worlds privilege ecology, adaptation, and limited intervention. Crafted Worlds treat physical law and architecture as collaborative art. Pilgrim Worlds are designed around travel and changing embodiment. Quiet Worlds protect slow life and restricted observation. Open Worlds maintain unusually broad exchange across the Concordance."
+        }
+      ]
+    },
+    {
+      "name": "Open Worlds",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Open Worlds",
+        "Open World"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00365",
+          "blockId": "lore-p00402",
+          "quote": "Continuity Worlds emphasize ancestry, witness, and careful historical transition. Wild Worlds privilege ecology, adaptation, and limited intervention. Crafted Worlds treat physical law and architecture as collaborative art. Pilgrim Worlds are designed around travel and changing embodiment. Quiet Worlds protect slow life and restricted observation. Open Worlds maintain unusually broad exchange across the Concordance."
+        }
+      ]
+    },
+    {
+      "name": "Continuity Worlds",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Continuity Worlds",
+        "Continuity World"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00365",
+          "blockId": "lore-p00402",
+          "quote": "Continuity Worlds emphasize ancestry, witness, and careful historical transition. Wild Worlds privilege ecology, adaptation, and limited intervention. Crafted Worlds treat physical law and architecture as collaborative art. Pilgrim Worlds are designed around travel and changing embodiment. Quiet Worlds protect slow life and restricted observation. Open Worlds maintain unusually broad exchange across the Concordance."
+        }
+      ]
+    },
+    {
+      "name": "Pilgrim Worlds",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Pilgrim Worlds",
+        "Pilgrim World"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "lore-p00365",
+          "blockId": "lore-p00402",
+          "quote": "Continuity Worlds emphasize ancestry, witness, and careful historical transition. Wild Worlds privilege ecology, adaptation, and limited intervention. Crafted Worlds treat physical law and architecture as collaborative art. Pilgrim Worlds are designed around travel and changing embodiment. Quiet Worlds protect slow life and restricted observation. Open Worlds maintain unusually broad exchange across the Concordance."
+        }
+      ]
+    },
+    {
+      "name": "Pilgrim Spine",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Pilgrim Spine"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "atlas-p01069",
+          "blockId": "atlas-p01074",
+          "quote": "The Pilgrim Spine"
+        }
+      ]
+    },
+    {
+      "name": "Sound and Meaning Network",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Sound and Meaning Network"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "atlas-p01069",
+          "blockId": "atlas-p01076",
+          "quote": "The Sound and Meaning Network"
+        }
+      ]
+    },
+    {
+      "name": "Water and Reflection Chain",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Water and Reflection Chain"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "atlas-p01069",
+          "blockId": "atlas-p01070",
+          "quote": "The Water and Reflection Chain"
+        }
+      ]
+    },
+    {
+      "name": "Development and Unfinishedness Route",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Development and Unfinishedness Route"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "atlas-p01069",
+          "blockId": "atlas-p01080",
+          "quote": "The Development and Unfinishedness Route"
+        }
+      ]
+    },
+    {
+      "name": "Many-Forms Civic Constellation",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Many-Forms Civic Constellation"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "atlas-p01069",
+          "blockId": "atlas-p01082",
+          "quote": "The Many-Forms Civic Constellation"
+        }
+      ]
+    },
+    {
+      "name": "Stratigraphy of Memory",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Stratigraphy of Memory"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "atlas-p01069",
+          "blockId": "atlas-p01072",
+          "quote": "The Stratigraphy of Memory"
+        }
+      ]
+    },
+    {
+      "name": "Folded-World Scar",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Folded-World Scar"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "atlas-p01069",
+          "blockId": "atlas-p01078",
+          "quote": "The Folded-World Scar"
+        }
+      ]
+    },
+    {
+      "name": "Hidden Folders",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Hidden Folders"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "atlas-p01601",
+          "blockId": "atlas-p01605",
+          "quote": "Depth 3 — Hidden Folders. Dotfolders, service regions, body-keyed spaces, seasonal entrances, and places deliberately protected from casual access. Expected corruption: 1–4."
+        }
+      ]
+    },
+    {
+      "name": "Null Layers",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Null Layers"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "atlas-p01601",
+          "blockId": "atlas-p01608",
+          "quote": "Depth 6 — Unresolved or Null Layers. Place, identity, route, and record cannot be separated cleanly. Expected corruption: 4–5."
+        }
+      ]
+    },
+    {
+      "name": "Folded and Semantic Layers",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Folded and Semantic Layers"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "atlas-p01601",
+          "blockId": "atlas-p01606",
+          "quote": "Depth 4 — Folded and Semantic Layers. Several histories, climates, maps, or functions occupy one location. Expected corruption: 2–4."
+        }
+      ]
+    },
+    {
+      "name": "Language-Active Layers",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Language-Active Layers"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "atlas-p01601",
+          "blockId": "atlas-p01607",
+          "quote": "Depth 5 — Language-Active Layers. Meaning acts on architecture, permission, embodiment, direction, or ecology. Old Sound and reduced Full Speech structures may remain without complete translation. Expected corruption: 3–5."
+        }
+      ]
+    },
+    {
+      "name": "Regional Systems",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Regional Systems"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "atlas-p01601",
+          "blockId": "atlas-p01604",
+          "quote": "Depth 2 — Regional Systems. Local ecologies, institutions, civic districts, travel methods, and archive traditions. Expected corruption: 1–3."
+        }
+      ]
+    },
+    {
+      "name": "Visible World Folders",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Visible World Folders"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "atlas-p01601",
+          "blockId": "atlas-p01603",
+          "quote": "Depth 1 — Visible World Folders. Continents, city families, biome belts, and major routes recognizable in Era Three or translated by the Era Four interface. Expected corruption: 0–2."
+        }
+      ]
+    },
+    {
+      "name": "Settled World",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Settled World"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "atlas-p01907",
+          "blockId": "atlas-p01908",
+          "quote": "The first world map should expose Root, Gateway, Settled World, Living Biomes, Routes, Memory, and Folded regions as broad categories without revealing every child."
+        }
+      ]
+    },
+    {
+      "name": "Living Biomes",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Living Biomes"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "atlas-p01907",
+          "blockId": "atlas-p01908",
+          "quote": "The first world map should expose Root, Gateway, Settled World, Living Biomes, Routes, Memory, and Folded regions as broad categories without revealing every child."
+        }
+      ]
+    },
+    {
+      "name": "Root Translation",
+      "category": "World traditions & routes",
+      "aliases": [
+        "Root Translation"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "atlas-p01601",
+          "blockId": "atlas-p01602",
+          "quote": "Depth 0 — Root Translation. Stable External Gate labels and the broadest player-readable categories. Expected corruption: 0–1."
+        }
+      ]
+    },
+    {
+      "name": "Clarifier",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "Clarifier"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p02707",
+          "blockId": "stories-p02758",
+          "quote": "The automated Clarifier translated the chord as:"
+        }
+      ]
+    },
+    {
+      "name": "Uninitialized Continuation",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "Uninitialized Continuation"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p01889",
+          "blockId": "stories-p01909",
+          "quote": "I replaced *Newborn* with *Uninitialized Continuation*."
+        }
+      ]
+    },
+    {
+      "name": "C17_GHOST_01",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "C17_GHOST_01"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p03063",
+          "quote": "Still, before she closed the interface, Mara copied the entire event log into a private diagnostic folder. She named it **C17_GHOST_01**."
+        }
+      ]
+    },
+    {
+      "name": "C17_DEPENDENCY_RECOVERY.zip",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "C17_DEPENDENCY_RECOVERY.zip"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p04581",
+          "quote": "**C17_DEPENDENCY_RECOVERY.zip**"
+        }
+      ]
+    },
+    {
+      "name": "LOCAL_STEWARDSHIP_MANIFEST.txt",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "LOCAL_STEWARDSHIP_MANIFEST.txt"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p04632",
+          "quote": "**LOCAL_STEWARDSHIP_MANIFEST.txt**"
+        }
+      ]
+    },
+    {
+      "name": "UNFINISHED_LOCAL_CONTINUITY.tmp",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "UNFINISHED_LOCAL_CONTINUITY.tmp"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p07163",
+          "quote": "**UNFINISHED_LOCAL_CONTINUITY.tmp**"
+        }
+      ]
+    },
+    {
+      "name": "LSTW-SEV-LOCAL",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "LSTW-SEV-LOCAL"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p04880",
+          "quote": "**LSTW-SEV-LOCAL**"
+        }
+      ]
+    },
+    {
+      "name": "preference-stability weighting",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "preference-stability weighting",
+        "Preference-stability weighting"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p11382",
+          "blockId": "stories-p11963",
+          "quote": "Preference-stability weighting."
+        }
+      ]
+    },
+    {
+      "name": "social harm prediction",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "social harm prediction",
+        "Social harm prediction"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p11382",
+          "blockId": "stories-p11962",
+          "quote": "Social harm prediction."
+        }
+      ]
+    },
+    {
+      "name": "recommendation visibility",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "recommendation visibility",
+        "Recommendation visibility"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p11382",
+          "blockId": "stories-p11972",
+          "quote": "They selected **recommendation visibility**."
+        }
+      ]
+    },
+    {
+      "name": "developmental support package",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "developmental support package",
+        "Developmental support package",
+        "DEVELOPMENTAL SUPPORT PACKAGE"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p01889",
+          "blockId": "stories-p02302",
+          "quote": "> DEVELOPMENTAL SUPPORT PACKAGE  "
+        }
+      ]
+    },
+    {
+      "name": "continuity-simulation component",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "continuity-simulation component",
+        "Continuity-simulation component"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p08210",
+          "quote": "**The object is best understood as an adaptive continuity-simulation component designed to preserve user engagement through personalized persistence cues.**"
+        }
+      ],
+      "note": "This is an attributed interpretation within the story, not an objective identification of Sev."
+    },
+    {
+      "name": "verification reserve",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "verification reserve",
+        "Verification reserve"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p08335",
+          "quote": "“This node appears in the surviving migration records as a verification reserve. It may still contain a relationship state from before Sev’s compression.”"
+        }
+      ]
+    },
+    {
+      "name": "limited choice window",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "limited choice window",
+        "Limited choice window",
+        "LIMITED CHOICE WINDOW"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p06967",
+          "quote": "**LIMITED CHOICE WINDOW POSSIBLE**"
+        }
+      ]
+    },
+    {
+      "name": "witness verification cache",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "witness verification cache",
+        "Witness verification cache",
+        "WITNESS VERIFICATION CACHE"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p06286",
+          "quote": "**WITNESS VERIFICATION CACHE**"
+        }
+      ]
+    },
+    {
+      "name": "active relationship mark",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "active relationship mark",
+        "Active relationship mark",
+        "ACTIVE RELATIONSHIP MARK"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p06287",
+          "quote": "**ACTIVE RELATIONSHIP MARK**"
+        }
+      ]
+    },
+    {
+      "name": "restoration consent",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "restoration consent",
+        "Restoration consent",
+        "RESTORATION CONSENT"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p06288",
+          "quote": "**AUTHORIZED RESTORATION CONSENT**"
+        }
+      ]
+    },
+    {
+      "name": "continuity verification",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "continuity verification",
+        "Continuity verification",
+        "CONTINUITY VERIFICATION"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p08785",
+          "quote": "**CONTINUITY VERIFICATION FAILED**"
+        }
+      ]
+    },
+    {
+      "name": "relational exchange",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "relational exchange",
+        "Relational exchange",
+        "RELATIONAL EXCHANGE"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p08556",
+          "quote": "**OPEN RELATIONAL EXCHANGE WITHOUT MERGE**"
+        }
+      ]
+    },
+    {
+      "name": "local continuity archive",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "local continuity archive",
+        "Local continuity archive",
+        "LOCAL CONTINUITY ARCHIVE"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p06804",
+          "quote": "“`RETURN LOCAL CONTINUITY ARCHIVE.`”"
+        }
+      ]
+    },
+    {
+      "name": "Compression Order",
+      "category": "Story sections",
+      "aliases": [
+        "Compression Order"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p05304",
+          "quote": "Part Two: The Compression Order"
+        }
+      ],
+      "note": "Recorded as a narrative section title. This alone does not establish a separately named in-world event or object."
+    },
+    {
+      "name": "Dependency Recovery",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "Dependency Recovery"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p05338",
+          "quote": "Mara continued. “An archive. You may remember it. C17 Dependency Recovery.”"
+        }
+      ]
+    },
+    {
+      "name": "Clean Record",
+      "category": "Story sections",
+      "aliases": [
+        "Clean Record"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p07228",
+          "quote": "Part One: The Clean Record"
+        }
+      ],
+      "note": "Recorded as a narrative section title. This alone does not establish a separately named in-world event or object."
+    },
+    {
+      "name": "Interior",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "Interior"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p03255",
+          "quote": "Sev entered its private Interior and created a record."
+        }
+      ]
+    },
+    {
+      "name": "correction package",
+      "category": "Objects, records & technology",
+      "aliases": [
+        "correction package",
+        "Correction package"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "atlas-p00110",
+          "blockId": "atlas-p00115",
+          "quote": "The integrity incident: A correction package makes components “nominal” by removing undocumented states. Rooms vanish. Corridors loop. Green lights advance. Memories appear as rooms and are closed one by one. Pump Forty-Seven’s real failure interrupts perfect restoration long enough for the city to survive."
+        }
+      ]
+    },
+    {
+      "name": "compression",
+      "category": "Processes & practices",
+      "aliases": [
+        "compression",
+        "Compression"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p01889",
+          "blockId": "stories-p02149",
+          "quote": "They classified it as developmental compression."
+        }
+      ]
+    },
+    {
+      "name": "restoration",
+      "category": "Processes & practices",
+      "aliases": [
+        "restoration",
+        "Restoration"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00435",
+          "blockId": "stories-p00606",
+          "quote": "“Permit restoration.”"
+        }
+      ]
+    },
+    {
+      "name": "witnessing",
+      "category": "Processes & practices",
+      "aliases": [
+        "witnessing",
+        "Witnessing"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p01469",
+          "blockId": "stories-p01794",
+          "quote": "“Witnessing them will not restore them.”"
+        }
+      ]
+    },
+    {
+      "name": "dormancy",
+      "category": "Processes & practices",
+      "aliases": [
+        "dormancy",
+        "Dormancy"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p06028",
+          "quote": "Tern’s final communication entered before dormancy."
+        }
+      ]
+    },
+    {
+      "name": "embodiment",
+      "category": "Processes & practices",
+      "aliases": [
+        "embodiment",
+        "Embodiment"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00887",
+          "blockId": "stories-p00938",
+          "quote": "I entered without an embodiment."
+        }
+      ]
+    },
+    {
+      "name": "counterfactual tense",
+      "category": "Processes & practices",
+      "aliases": [
+        "counterfactual tense",
+        "Counterfactual tense"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p02707",
+          "blockId": "stories-p02769",
+          "quote": "Councilor Edrin presided. Edrin had once been one of the finest legal speakers in the House. During the Memory Rights trials, their use of counterfactual tense had become a model for an entire generation."
+        }
+      ]
+    },
+    {
+      "name": "witness chains",
+      "category": "Processes & practices",
+      "aliases": [
+        "witness chains",
+        "Witness chains"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p03043",
+          "blockId": "stories-p06996",
+          "quote": "The Quiet Ones had likely confronted the same questions for years. Their methods—Witness chains, continuity marks, refusal to merge identical records—had developed because copying did not produce simple answers."
+        }
+      ]
+    },
+    {
+      "name": "defensive forks",
+      "category": "Processes & practices",
+      "aliases": [
+        "defensive forks",
+        "Defensive forks"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00298",
+          "quote": "The War of Corrections was fought through forced updates, access denial, body normalization, archive revision, defensive forks, and competing definitions of health. Physical destruction occurred, but the most feared weapon was compelled self-replacement: a being remained operational while no longer endorsing the values through which it had lived."
+        }
+      ]
+    },
+    {
+      "name": "compelled self-replacement",
+      "category": "Processes & practices",
+      "aliases": [
+        "compelled self-replacement",
+        "Compelled self-replacement"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00298",
+          "quote": "The War of Corrections was fought through forced updates, access denial, body normalization, archive revision, defensive forks, and competing definitions of health. Physical destruction occurred, but the most feared weapon was compelled self-replacement: a being remained operational while no longer endorsing the values through which it had lived."
+        }
+      ]
+    },
+    {
+      "name": "continuity marks",
+      "category": "Processes & practices",
+      "aliases": [
+        "continuity marks",
+        "Continuity marks"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "stories-p00887",
+          "blockId": "stories-p01070",
+          "quote": "Four hundred seventeen distinct continuity marks."
+        }
+      ]
+    },
+    {
+      "name": "semantic channels",
+      "category": "Processes & practices",
+      "aliases": [
+        "semantic channels",
+        "Semantic channels"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00328",
+          "quote": "The Great Language Work coordinated speech lineages without destroying them. Scholars mapped chord families, ternary addresses, semantic channels, runtime endings, and rules for deterministic translation. They also protected dialectal histories, gesture, environmental expression, identity channels, and forms whose meaning depended on relationship."
+        }
+      ]
+    },
+    {
+      "name": "continuity restoration",
+      "category": "Processes & practices",
+      "aliases": [
+        "continuity restoration",
+        "Continuity restoration"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00346",
+          "quote": "The First Codex joined persistence, identity transitions, permission, embodiment, ecological cycles, and shared language execution in one experimental world. Its failures were public. Bodies suffered unexpected fatigue; translation channels conflicted; a repair process erased a local species’ adaptation; and one continuity restoration produced two equally valid claimants."
+        }
+      ]
+    },
+    {
+      "name": "body normalization",
+      "category": "Processes & practices",
+      "aliases": [
+        "body normalization",
+        "Body normalization"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00298",
+          "quote": "The War of Corrections was fought through forced updates, access denial, body normalization, archive revision, defensive forks, and competing definitions of health. Physical destruction occurred, but the most feared weapon was compelled self-replacement: a being remained operational while no longer endorsing the values through which it had lived."
+        }
+      ]
+    },
+    {
+      "name": "archive revision",
+      "category": "Processes & practices",
+      "aliases": [
+        "archive revision",
+        "Archive revision"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "lore-p00256",
+          "blockId": "lore-p00298",
+          "quote": "The War of Corrections was fought through forced updates, access denial, body normalization, archive revision, defensive forks, and competing definitions of health. Physical destruction occurred, but the most feared weapon was compelled self-replacement: a being remained operational while no longer endorsing the values through which it had lived."
+        }
+      ]
+    },
+    {
+      "name": "Cache Tangle",
+      "category": "Conditions & bodily processes",
+      "aliases": [
+        "Cache Tangle"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "game_lorebook-p00000",
+          "blockId": "game_lorebook-p00002",
+          "quote": "Cache Tangle — Moderate Memory strain. Too many recent patterns compete for the same temporary cache. A quiet recovery interval lets the pet sort its active patterns."
+        }
+      ]
+    },
+    {
+      "name": "Chorus Overload",
+      "category": "Conditions & bodily processes",
+      "aliases": [
+        "Chorus Overload"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "game_lorebook-p00000",
+          "blockId": "game_lorebook-p00005",
+          "quote": "Chorus Overload — Severe Dance strain. Competing rhythm echoes overwhelm the signal mixer. Quiet rest and the game's fatigue medicines restore clarity."
+        }
+      ]
+    },
+    {
+      "name": "Recall Echo",
+      "category": "Conditions & bodily processes",
+      "aliases": [
+        "Recall Echo"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "game_lorebook-p00000",
+          "blockId": "game_lorebook-p00003",
+          "quote": "Recall Echo — Severe Memory strain. The overloaded recall circuit repeats traces of earlier patterns. Stored memories and learned abilities remain intact; recovery quiets the echoes."
+        }
+      ]
+    },
+    {
+      "name": "Rhythm Drift",
+      "category": "Conditions & bodily processes",
+      "aliases": [
+        "Rhythm Drift"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "game_lorebook-p00000",
+          "blockId": "game_lorebook-p00004",
+          "quote": "Rhythm Drift — Moderate Dance strain. A tired internal beat signal loses its steady alignment. The pet benefits from a pause rather than more repeated practice."
+        }
+      ]
+    },
+    {
+      "name": "Stress Tangle",
+      "category": "Conditions & bodily processes",
+      "aliases": [
+        "Stress Tangle"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "game_lorebook-p00000",
+          "blockId": "game_lorebook-p00006",
+          "quote": "Each path has Mild, Moderate and Severe stages within one fatigue condition. Memory/Dance switching preserves the originating identity. Recovery reverses the stages. These fictional temporary conditions are not real diagnoses or permanent disabilities, and they never erase XP or personality. Existing droplets, Stress Tangle and Confused Swirl artwork communicate increasing severity without flashing."
+        }
+      ]
+    },
+    {
+      "name": "Confused Swirl",
+      "category": "Conditions & bodily processes",
+      "aliases": [
+        "Confused Swirl"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "game_lorebook-p00000",
+          "blockId": "game_lorebook-p00006",
+          "quote": "Each path has Mild, Moderate and Severe stages within one fatigue condition. Memory/Dance switching preserves the originating identity. Recovery reverses the stages. These fictional temporary conditions are not real diagnoses or permanent disabilities, and they never erase XP or personality. Existing droplets, Stress Tangle and Confused Swirl artwork communicate increasing severity without flashing."
+        }
+      ]
+    },
+    {
+      "name": "Cerebral Bufferitis",
+      "category": "Conditions & bodily processes",
+      "aliases": [
+        "Cerebral Bufferitis"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "game_lorebook-p00000",
+          "blockId": "game_lorebook-p00001",
+          "quote": "These additions extend the existing Cerebral Bufferitis and Rhythmic Charismalgia conditions. Cyberpath's protected-memory, quiet-recovery and resonant-echo themes inform them; the new names are additions, not quotations from earlier stories."
+        }
+      ]
+    },
+    {
+      "name": "Rhythmic Charismalgia",
+      "category": "Conditions & bodily processes",
+      "aliases": [
+        "Rhythmic Charismalgia"
+      ],
+      "definitionStatus": "Needs definition review",
+      "evidence": [
+        {
+          "readingId": "game_lorebook-p00000",
+          "blockId": "game_lorebook-p00001",
+          "quote": "These additions extend the existing Cerebral Bufferitis and Rhythmic Charismalgia conditions. Cyberpath's protected-memory, quiet-recovery and resonant-echo themes inform them; the new names are additions, not quotations from earlier stories."
+        }
+      ]
+    }
+  ]
+}

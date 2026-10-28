@@ -2,3 +2,5 @@
 node_modules/
 *.log
 cyber-pet-lore-reading-*.json
+
+__pycache__/

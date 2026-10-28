@@ -91,3 +91,11 @@ Existing location composites appear on matching **Connections** place pages and 
 Song location cards link artwork to the exact origin topic; the Listening Alcove uses explicitly labeled Garden Worlds context art. Image filenames include place names, and `site/images/locations/location-files.csv` maps every view to its original project asset and lore page. Wiki overviews and details reproduce source paragraphs with block-level citations; ambiguous identities remain separate.
 
 Character profiles and era timelines use verbatim source passages. `sources/continuity-review.json` holds reviewed indexing corrections and source-scope notes, surfaced on the wiki and readings. `sources/continuity-audit-2026-10-27.json` records audit coverage and limits. Profile appearance eras are not birth dates or proof of survival; archive allocations are explicitly fictional decoration.
+
+## Terms and unexplained lore
+
+`terms.html` is the searchable register for source-attested concepts that may not have a dedicated definition. It filters by category, definition status, and associated reading. The initial pass scans all 485 catalog readings (32,137 text blocks) and records 228 terms across 11 categories. This is a growing editorial index, not a claim that every possible noun or concept has been found.
+
+`sources/term-register.json` retains exact evidence, reading/block IDs, category, status, and editorial cautions. “Needs definition review” does not mean the source has no explanation anywhere; it means a standalone explanation has not been settled by this index. “Source explanation recorded” identifies explanatory source wording. Negative mentions, section titles, attributed interpretations, and earlier drafts retain their limitations.
+
+The wiki builder validates each evidence quote, adds inline hyperlinks and reading backreferences, and creates Connected pages from topics named in the same paragraph. These are co-mentions, not inferred relationships. Every connection links to its shared passage. Story readers link to their filtered register. Coverage records enumerate every scanned reading; tests validate source conservation, categories/statuses, destination anchors, and connection evidence. Existing source prose and personal notes are unchanged.
