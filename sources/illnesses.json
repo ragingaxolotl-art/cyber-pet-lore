@@ -244,7 +244,7 @@
       "visual": "Godot draws three translucent copies of the current pet frame in different directions. Reduced motion holds them still.",
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: Established Era −3 location. Production details are an expanded reconstruction.",
       "risks": {
-        "infection": 0.09,
+        "infection": 0.1,
         "parasites": 0.152,
         "digestive": 0.214,
         "chronic": 0.276,
@@ -269,7 +269,7 @@
       "visual": "Small signal motifs orbit the pet at a slow, readable rate. Reduced motion holds their positions.",
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: The Commons is established canon. The multi-Shelter chamber is story-established in All the Names Between.",
       "risks": {
-        "infection": 0.09,
+        "infection": 0.1,
         "parasites": 0.152,
         "digestive": 0.214,
         "chronic": 0.276,
@@ -319,7 +319,7 @@
       "visual": "Godot draws three translucent copies of the current pet frame in different directions. Reduced motion holds them still.",
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: Story-established. Its internal geography is only partly recoverable.",
       "risks": {
-        "infection": 0.09,
+        "infection": 0.1,
         "parasites": 0.152,
         "digestive": 0.214,
         "chronic": 0.5,
@@ -344,7 +344,7 @@
       "visual": "Godot draws three translucent copies of the current pet frame in different directions. Reduced motion holds them still.",
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: Story-established, with uncertain ontology.",
       "risks": {
-        "infection": 0.09,
+        "infection": 0.1,
         "parasites": 0.152,
         "digestive": 0.214,
         "chronic": 0.5,
@@ -369,7 +369,7 @@
       "visual": "A detailed localized scuff or broken-pixel mark sits near the affected body region.",
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: Established Era Three location, possibly several places merged in memory.",
       "risks": {
-        "infection": 0.09,
+        "infection": 0.1,
         "parasites": 0.152,
         "digestive": 0.214,
         "chronic": 0.276,
@@ -395,7 +395,7 @@
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed Era Three transit location, derived from dormant transit corridors becoming dangerous underways and from Corridor/Relay history.",
       "risks": {
         "infection": 0.5,
-        "parasites": 0.09,
+        "parasites": 0.1,
         "digestive": 0.152,
         "chronic": 0.214,
         "injury": 0.276,
@@ -419,7 +419,7 @@
       "visual": "Small signal motifs orbit the pet at a slow, readable rate. Reduced motion holds their positions.",
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed Era Two–Three location derived from the World Bloom traditions and the Folding of Worlds.",
       "risks": {
-        "infection": 0.09,
+        "infection": 0.1,
         "parasites": 0.4,
         "digestive": 0.5,
         "chronic": 0.152,
@@ -444,7 +444,7 @@
       "visual": "Godot draws three translucent copies of the current pet frame in different directions. Reduced motion holds them still.",
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed game-background location derived from recurrence, Last Loops, and the game interface’s translation of deeper processes.",
       "risks": {
-        "infection": 0.09,
+        "infection": 0.1,
         "parasites": 0.4,
         "digestive": 0.152,
         "chronic": 0.214,
@@ -471,7 +471,7 @@
       "risks": {
         "infection": 0.4,
         "parasites": 0.5,
-        "digestive": 0.09,
+        "digestive": 0.1,
         "chronic": 0.152,
         "injury": 0.214,
         "fatigue": 0.276,
@@ -496,7 +496,7 @@
       "risks": {
         "infection": 0.5,
         "parasites": 0.4,
-        "digestive": 0.09,
+        "digestive": 0.1,
         "chronic": 0.152,
         "injury": 0.214,
         "fatigue": 0.276,
@@ -519,7 +519,7 @@
       "visual": "Godot draws three translucent copies of the current pet frame in different directions. Reduced motion holds them still.",
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
       "risks": {
-        "infection": 0.09,
+        "infection": 0.1,
         "parasites": 0.152,
         "digestive": 0.214,
         "chronic": 0.276,
@@ -546,7 +546,7 @@
       "risks": {
         "infection": 0.338,
         "parasites": 0.4,
-        "digestive": 0.09,
+        "digestive": 0.1,
         "chronic": 0.5,
         "injury": 0.152,
         "fatigue": 0.214,
@@ -569,7 +569,7 @@
       "visual": "Small signal motifs orbit the pet at a slow, readable rate. Reduced motion holds their positions.",
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
       "risks": {
-        "infection": 0.09,
+        "infection": 0.1,
         "parasites": 0.4,
         "digestive": 0.5,
         "chronic": 0.152,
@@ -594,7 +594,7 @@
       "visual": "Small signal motifs orbit the pet at a slow, readable rate. Reduced motion holds their positions.",
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
       "risks": {
-        "infection": 0.09,
+        "infection": 0.1,
         "parasites": 0.152,
         "digestive": 0.214,
         "chronic": 0.276,
@@ -621,7 +621,7 @@
       "risks": {
         "infection": 0.338,
         "parasites": 0.4,
-        "digestive": 0.09,
+        "digestive": 0.1,
         "chronic": 0.152,
         "injury": 0.5,
         "fatigue": 0.214,
@@ -644,7 +644,7 @@
       "visual": "A detailed localized scuff or broken-pixel mark sits near the affected body region.",
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
       "risks": {
-        "infection": 0.09,
+        "infection": 0.1,
         "parasites": 0.152,
         "digestive": 0.214,
         "chronic": 0.5,
@@ -694,7 +694,7 @@
       "visual": "A detailed localized scuff or broken-pixel mark sits near the affected body region.",
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
       "risks": {
-        "infection": 0.09,
+        "infection": 0.1,
         "parasites": 0.152,
         "digestive": 0.214,
         "chronic": 0.276,
@@ -771,7 +771,7 @@
       "risks": {
         "infection": 0.338,
         "parasites": 0.4,
-        "digestive": 0.09,
+        "digestive": 0.1,
         "chronic": 0.152,
         "injury": 0.214,
         "fatigue": 0.276,
@@ -796,7 +796,7 @@
       "risks": {
         "infection": 0.5,
         "parasites": 0.4,
-        "digestive": 0.09,
+        "digestive": 0.1,
         "chronic": 0.152,
         "injury": 0.214,
         "fatigue": 0.338,
@@ -819,7 +819,7 @@
       "visual": "A detailed localized scuff or broken-pixel mark sits near the affected body region.",
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
       "risks": {
-        "infection": 0.09,
+        "infection": 0.1,
         "parasites": 0.152,
         "digestive": 0.214,
         "chronic": 0.276,
@@ -844,7 +844,7 @@
       "visual": "Small signal motifs orbit the pet at a slow, readable rate. Reduced motion holds their positions.",
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.",
       "risks": {
-        "infection": 0.09,
+        "infection": 0.1,
         "parasites": 0.152,
         "digestive": 0.214,
         "chronic": 0.276,
@@ -870,7 +870,7 @@
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.",
       "risks": {
         "infection": 0.5,
-        "parasites": 0.09,
+        "parasites": 0.1,
         "digestive": 0.152,
         "chronic": 0.214,
         "injury": 0.276,
@@ -894,7 +894,7 @@
       "visual": "Godot draws three translucent copies of the current pet frame in different directions. Reduced motion holds them still.",
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.",
       "risks": {
-        "infection": 0.09,
+        "infection": 0.1,
         "parasites": 0.152,
         "digestive": 0.214,
         "chronic": 0.276,
@@ -944,7 +944,7 @@
       "visual": "Small signal motifs orbit the pet at a slow, readable rate. Reduced motion holds their positions.",
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.",
       "risks": {
-        "infection": 0.09,
+        "infection": 0.1,
         "parasites": 0.152,
         "digestive": 0.5,
         "chronic": 0.214,
@@ -994,7 +994,7 @@
       "visual": "A detailed PixelLab growth follows the pet’s visible head contour.",
       "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.",
       "risks": {
-        "infection": 0.09,
+        "infection": 0.1,
         "parasites": 0.5,
         "digestive": 0.152,
         "chronic": 0.214,
