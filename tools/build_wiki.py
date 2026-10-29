@@ -175,7 +175,7 @@ for location in art['locations']:
  images=[]
  for image in location['images']:
   assert (SITE/image['src']).is_file(), image['src']
-  images.append({k:image[k] for k in ['src','width','height','view','caption','alt']})
+  images.append({k:image[k] for k in ['src','width','height','view','caption','alt','flavorText','explanation','contextLinks'] if k in image})
  by_id[location['topicId']]['images']=images
  for reading in location['readingIds']:
   assert reading in content, reading

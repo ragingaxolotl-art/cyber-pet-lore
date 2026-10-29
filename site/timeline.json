@@ -807,10 +807,18 @@
         },
         {
           "id": "stories-p11382",
-          "title": "The Corrected Child — Part One",
+          "title": "The Corrected Child — Part One: Approved Responses",
           "href": "index.html#read=stories-p11382",
           "timeLabel": "Era −1",
-          "status": "unfinished",
+          "status": "complete",
+          "placement": "Era established; exact date and order within the era are not fixed."
+        },
+        {
+          "id": "corrected-child-part-two-p00000",
+          "title": "The Corrected Child — Part Two: The Right to Be Incorrect",
+          "href": "index.html#read=corrected-child-part-two-p00000",
+          "timeLabel": "Era -1",
+          "status": "complete",
           "placement": "Era established; exact date and order within the era are not fixed."
         }
       ],

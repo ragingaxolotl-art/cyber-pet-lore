@@ -7,7 +7,7 @@ export function renderLocationIllnesses(parent,illnesses=[]){
   const description=document.createElement('p');description.textContent=illness.description;
   const visual=document.createElement('p');visual.textContent='Appearance: '+illness.visual.replace('Godot draws three translucent copies of the current pet frame','Three translucent echoes of the pet appear').replaceAll('PixelLab ','');
   const care=document.createElement('p');care.textContent='Care: '+illness.treatment;
-  const link=document.createElement('a');link.href=illness.href;link.textContent='View '+illness.name+' in the illness guide →';
+  const link=document.createElement('a');link.href='index.html#read=illness-'+illness.id;link.textContent='View '+illness.name+' in the logbook →';
   const details=document.createElement('details'),summary=document.createElement('summary');summary.textContent='Story connection & possible future';
   const hook=document.createElement('p');hook.textContent=illness.story_hook;
   const status=document.createElement('p');status.className='small-note';status.textContent=illness.status;

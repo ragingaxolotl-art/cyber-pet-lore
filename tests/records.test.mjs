@@ -21,7 +21,7 @@ test('overlapping highlights preserve exact text and ignore stale anchors',()=>{
  assert.equal(parts.map(x=>x.text).join(''),'hello world');assert.equal(parts.find(x=>x.text==='lo').id,'b');assert.ok(parts.every(x=>x.id!=='old'));
 });
 test('all catalog readings have content, unique stable IDs and valid source anchors',()=>{
- const c=JSON.parse(fs.readFileSync(new URL('../site/catalog.json',import.meta.url)));assert.equal(c.entries.filter(e=>e.kind==='Story').length,14);assert.equal(new Set(c.entries.map(e=>e.id)).size,c.entries.length);assert.ok(c.entries.some(e=>e.places.length));
+ const c=JSON.parse(fs.readFileSync(new URL('../site/catalog.json',import.meta.url)));assert.equal(c.entries.filter(e=>e.kind==='Story').length,15);assert.equal(new Set(c.entries.map(e=>e.id)).size,c.entries.length);assert.ok(c.entries.some(e=>e.places.length));
  for(const e of c.entries){const doc=JSON.parse(fs.readFileSync(new URL('../site/content/'+e.id+'.json',import.meta.url)));assert.equal(doc.id,e.id);assert.ok(doc.blocks.length);assert.equal(new Set(doc.blocks.map(b=>b.id)).size,doc.blocks.length);for(const o of doc.outline)assert.ok(doc.blocks.some(b=>b.id===o.id));}
  assert.ok(Object.values(c.integrity).every(x=>x.exactTextConserved));
 });

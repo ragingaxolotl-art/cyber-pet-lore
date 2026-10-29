@@ -1,0 +1,132 @@
+{
+  "id": "corrected-child-register",
+  "title": "The Corrected Child — Characters and places to identify",
+  "entries": [
+    {
+      "key": "valei",
+      "name": "Valei",
+      "known": "Valei is Lio’s caregiver and participates in decisions about developmental support.",
+      "unknown": "Their exact family relationship, profession, and earlier life are not established.",
+      "readingId": "stories-p11382",
+      "blockId": "stories-p11633",
+      "quote": "Valei"
+    },
+    {
+      "key": "vey",
+      "name": "Vey (student)",
+      "known": "Vey is Lio’s classmate and construction partner.",
+      "unknown": "Their background remains undeveloped. Do not merge this student with other characters named Vey.",
+      "readingId": "stories-p11382",
+      "blockId": "stories-p11399",
+      "quote": "Vey"
+    },
+    {
+      "key": "pei",
+      "name": "Pei",
+      "known": "Pei is a classmate who participates more confidently with a defined responsibility.",
+      "unknown": "A fuller personal history and identity are not supplied.",
+      "readingId": "stories-p11382",
+      "blockId": "stories-p11390",
+      "quote": "Pei"
+    },
+    {
+      "key": "arven",
+      "name": "Arven",
+      "known": "Arven is a classmate associated with ambitious construction ideas.",
+      "unknown": "A fuller personal history and identity are not supplied.",
+      "readingId": "stories-p11382",
+      "blockId": "stories-p11390",
+      "quote": "Arven"
+    },
+    {
+      "key": "specialist-blue",
+      "name": "Developmental specialist with blue wrist bands",
+      "known": "One review specialist wears narrow blue wrist bands and speaks with careful precision.",
+      "unknown": "Their name is not reported to the reader; their affiliation and precise specialty remain unspecified. Both specialists introduce themselves, but Lio loses both names.",
+      "readingId": "corrected-child-part-two-p00000",
+      "blockId": "corrected-child-part-two-p00014",
+      "quote": "One wore narrow blue bands around their wrists"
+    },
+    {
+      "key": "specialist-diagrams",
+      "name": "Developmental specialist with diagrams",
+      "known": "The other review specialist brings a working surface covered in diagrams.",
+      "unknown": "Their name is not reported to the reader; their affiliation and precise specialty remain unspecified. Do not assume they are one of Lio’s original designers.",
+      "readingId": "corrected-child-part-two-p00000",
+      "blockId": "corrected-child-part-two-p00014",
+      "quote": "The other had brought a small working surface covered in diagrams"
+    },
+    {
+      "key": "advocate",
+      "name": "House advocate",
+      "known": "The advocate participates in the review and adjusts Lio’s chair to make the record easier to see.",
+      "unknown": "Their personal name and the full scope of their institutional role are not established.",
+      "readingId": "corrected-child-part-two-p00000",
+      "blockId": "corrected-child-part-two-p00014",
+      "quote": "House advocate"
+    },
+    {
+      "key": "house",
+      "name": "Lio’s House of Learning",
+      "known": "The House is the educational setting containing Lio’s lessons and review.",
+      "unknown": "A proper institutional name and city or region are not established. No existing atlas location should be assigned without further evidence.",
+      "readingId": "corrected-child-part-two-p00000",
+      "blockId": "corrected-child-part-two-p00003",
+      "quote": "the House"
+    },
+    {
+      "key": "classroom",
+      "name": "Sen’s classroom",
+      "known": "An adaptive learning space includes collaborative construction and sensory adjustments.",
+      "unknown": "Its formal room name and position within the wider institution are not specified.",
+      "readingId": "stories-p11382",
+      "blockId": "stories-p11407",
+      "quote": "classroom"
+    },
+    {
+      "key": "review",
+      "name": "Developmental review room",
+      "known": "The review takes place around a low oval table, with a shared record and a window overlooking the courtyard.",
+      "unknown": "The room has no established proper name or wider geographical location.",
+      "readingId": "corrected-child-part-two-p00000",
+      "blockId": "corrected-child-part-two-p00003",
+      "quote": "review room"
+    },
+    {
+      "key": "courtyard",
+      "name": "Central courtyard",
+      "known": "The stories describe a central courtyard; Part Two describes suspended shades beyond the review-room window.",
+      "unknown": "Its proper name and wider geography are not established.",
+      "readingId": "stories-p11382",
+      "blockId": "stories-p11939",
+      "quote": "central courtyard"
+    },
+    {
+      "key": "studio",
+      "name": "Unused sensory studio",
+      "known": "Lio enters a sensory studio whose walls remain blank until activated.",
+      "unknown": "The studio has no established proper name or mapped position.",
+      "readingId": "stories-p11382",
+      "blockId": "stories-p11939",
+      "quote": "unused sensory studio"
+    },
+    {
+      "key": "home",
+      "name": "Lio and Valei’s home",
+      "known": "The domestic setting includes a central room with adjustable stimulation, patterns, and projected scenery.",
+      "unknown": "Its address, settlement, and precise relation to the House are not established.",
+      "readingId": "stories-p11382",
+      "blockId": "stories-p11633",
+      "quote": "central room"
+    },
+    {
+      "key": "route",
+      "name": "Route to the House",
+      "known": "Lio and Valei walk to the House before the review.",
+      "unknown": "The route’s distance, landmarks, and geographical setting are not described.",
+      "readingId": "corrected-child-part-two-p00000",
+      "blockId": "corrected-child-part-two-p00003",
+      "quote": "walk to the House"
+    }
+  ]
+}

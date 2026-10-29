@@ -19,3 +19,7 @@
 .highlight-tags{display:block;margin:12px 0;font-size:12px}.highlight-tags input{display:block;width:100%;margin:6px 0}.highlight-tags .small-note{display:block}.highlight-card h3,.notebook-passage h3{margin:0 0 8px;line-height:1.4}.highlight-card h3{font-size:14px}.margin-notes details summary{font-size:12px;cursor:pointer}
 
 .location-illness{padding:20px;margin:24px 0;background:#f1f7fa;border:1px solid #bed2dc;border-radius:6px}.location-illness h2{font:normal 24px/1.3 Georgia,serif;margin:0 0 14px}.location-illness p{font-size:14px;line-height:1.7}.location-illness .small-note{font-size:11px}.location-illness details{margin-top:14px}.location-illness summary{cursor:pointer}
+
+/* Editorial identification links are separate from saved reader highlights. */
+.lore-identification { background: #f4d77a55; color: inherit; text-decoration: underline; text-decoration-color: #a67a12; text-underline-offset: .18em; border-radius: .12em; }
+.lore-identification:hover, .lore-identification:focus-visible { background: #f4d77a99; }
