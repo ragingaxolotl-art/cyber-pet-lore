@@ -201,5 +201,6 @@ from build_profiles import attach_profiles
 attach_profiles(output,entries,content,review)
 from build_illness_links import attach_illnesses
 attach_illnesses(output,entries)
+by_id['topic-3175c8dcdf0c']['featureArticle']={'title':'The House of Returning — comprehensive article','href':'house-of-returning.html','description':'History, restoration, the hidden Garden, supported interpretations, and unresolved questions — with existing artwork.'}
 (SITE/'wiki.json').write_text(json.dumps(output,ensure_ascii=False,separators=(',',':'))+'\n')
 print('Wiki:',len(topics),'topics;',sum(len(t['mentions']) for t in topics.values()),'reading references')
