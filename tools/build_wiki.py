@@ -40,6 +40,16 @@ for e in entries:
 # Facet people without a dedicated dossier still get a transparent mention index.
 for person in sorted({p for e in entries if e['kind']=='Story' for p in e.get('characters',[])}):add(person,'Person')
 add('Unnamed river healer','Person',reading_target(next(e for e in entries if e['id']=='stories-p14010')))
+# Authored profiles also index named people previously missing from character facets.
+for name, rid, block, extra_aliases in [
+ ('Kessler','stories-p03043','stories-p09691',['Dr. Kessler']),
+ ('Ell','stories-p03043','stories-p04059',[]),
+ ('Grandmother Seli','stories-p00016','stories-p00145',['Seli']),
+ ('Relay Seven','stories-p00167','stories-p00181',[]),
+ ('Southern relay','stories-p00167','stories-p00214',['southern relay']),
+ ('First Echo','lore-p00911','lore-p00911',[]),
+ ('Witness Instance 19-C','stories-p00887','stories-p00941',['WITNESS INSTANCE 19-C'])]:
+ add(name,'Person',reading_target(next(e for e in entries if e['id']==rid),block),extra_aliases)
 # Approved concept entries and character supplements receive stable wiki links.
 development=json.loads((ROOT/'sources/world-development.json').read_text())
 for item in development['entries']:
@@ -52,8 +62,11 @@ for name in ['Aven', 'Serein', 'Palinode']:
 # The named rescue is an event, distinct from Orison the lost place.
 rescue_source = next(e for e in entries if e['id'] == 'lore-p01279')
 add('Orison rescue', 'Event', reading_target(rescue_source))
+add('Hartland','Place',reading_target(next(e for e in entries if e['id']=='stories-p03043'),'stories-p11307'))
+add('Hollow Nest','Place',reading_target(next(e for e in entries if e['id']=='stories-p00016'),'stories-p00140'))
+add('Shelter Esra','Place',reading_target(next(e for e in entries if e['id']=='stories-p01469'),'stories-p01482'))
 # Explicit alternate labels from the reviewed dossiers / atlas, without substring guesses.
-aliases={'Hollis Dane':['Dane'],'Lennox Shaw':['Shaw'],'Keeper Eren':['Eren'],'Mara Vale':['Mara'],'Codex':['Codex'],'DBA':['Digital Binary Ancients'],'Dormant External Gate':['External Gate'],'Cacheboard, the Unintended Board':['Cacheboard'],'Shelter Orison, the Vanishing Shelter':['Shelter Orison','Orison'],'House of First Continuities and the Adaptive Nursery':['Adaptive Nursery','House of First Continuities'],'Central House of Meaning and the Unfinished Teaching Room':['Central House of Meaning','Unfinished Teaching Room'],'Commons and the Orison Chamber':['Orison Chamber'],'Sublevel and Pump Forty-Seven':['Sublevel','Pump Forty-Seven'],'Corridor Twelve and the Last Relay':['Corridor Twelve'],'Compatibility Route C-17, the Ghost Line':['Compatibility Route C-17','Ghost Line']}
+aliases={'Talar':['Tal'],'Hollis Dane':['Dane'],'Lennox Shaw':['Shaw'],'Keeper Eren':['Eren'],'Mara Vale':['Mara'],'Codex':['Codex'],'DBA':['Digital Binary Ancients'],'Dormant External Gate':['External Gate'],'Cacheboard, the Unintended Board':['Cacheboard'],'Shelter Orison, the Vanishing Shelter':['Shelter Orison','Orison'],'House of First Continuities and the Adaptive Nursery':['Adaptive Nursery','House of First Continuities'],'Central House of Meaning and the Unfinished Teaching Room':['Central House of Meaning','Unfinished Teaching Room'],'Commons and the Orison Chamber':['Orison Chamber'],'Sublevel and Pump Forty-Seven':['Sublevel','Pump Forty-Seven'],'Corridor Twelve and the Last Relay':['Corridor Twelve'],'Compatibility Route C-17, the Ghost Line':['Compatibility Route C-17','Ghost Line']}
 for name,values in aliases.items():
  if name.casefold() in topics:
   for a in values:
@@ -201,5 +214,7 @@ from build_profiles import attach_profiles
 attach_profiles(output,entries,content,review)
 from build_illness_links import attach_illnesses
 attach_illnesses(output,entries)
+from build_person_articles import attach_person_articles
+attach_person_articles(output,entries,content)
 (SITE/'wiki.json').write_text(json.dumps(output,ensure_ascii=False,separators=(',',':'))+'\n')
 print('Wiki:',len(topics),'topics;',sum(len(t['mentions']) for t in topics.values()),'reading references')

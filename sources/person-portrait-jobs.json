@@ -1,0 +1,295 @@
+[
+  {
+    "name": "palinode",
+    "prompt": "Deliberately crude obsolete humanlike digital avatar, very simple gray angular head with two dot eyes and one flat straight mouth, neutral fixed expression, low-detail plain segmented shoulders. Early primitive computer interface person with only three possible expressions, this image shows neutral. No realistic human facial anatomy, no wrinkles, no ears, no hair, no decorations. Pixel art character study, transparent background.",
+    "jobId": "e7f88b60-dfec-441f-97b9-9f0968345889",
+    "model": "pixflux",
+    "supersededJobIds": [
+      "5607d122-c81f-4ef6-9ced-56204a6c4ffa"
+    ],
+    "path": "site/images/people/palinode.png",
+    "person": "Palinode",
+    "sourceBlocks": [
+      "stories-p00949"
+    ],
+    "caption": "PixelLab interpretation of the old three-expression interface, shown neutral. The boxlike geometry and gray palette are illustration choices.",
+    "sha256": "71a80724cf7648b011d0a82f84b5d986e8e90e016f7241bdc01b38085173768a",
+    "generator": "PixelLab",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "name": "sile",
+    "prompt": "ONE solid black asymmetric pentagon shape, five straight edges, floating upright. Thin violet edge pixels. The interior is flat dark. Abstract geometric entity, absolutely no face or human profile or facial features. Not a person silhouette, not a head. No objects inside, no architecture. Pixel art isolated transparent background.",
+    "jobId": "382fb3e7-5322-4679-99c9-fbc7a274ffc4",
+    "model": "pixflux",
+    "supersededJobIds": [
+      "3c3fd483-7084-4a67-8972-e6c17be6d8ab"
+    ],
+    "path": "site/images/people/sile.png",
+    "person": "Sile",
+    "sourceBlocks": [
+      "stories-p00946",
+      "stories-p00976"
+    ],
+    "caption": "PixelLab interpretation of Sile as a geometric absence. The polygon shape is an illustration choice; the source does not give Sile a human face.",
+    "sha256": "da5f2d2f609d709652c6dfb2f729b202ee44f6ceb0bd10bb43eb1d69487b3bfa",
+    "generator": "PixelLab",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "name": "tovan",
+    "prompt": "Tovan, an artificial Open Hand during an emergency rescue, a partially rendered humanlike embodiment consisting of one hand and half a face suspended in space, incomplete digital edges, expression of concern, isolated respectful character study.",
+    "jobId": "7dacfe6f-1373-4d79-9c9e-a6b0a364fde3",
+    "path": "site/images/people/tovan.png",
+    "person": "Tovan",
+    "sourceBlocks": [
+      "stories-p01296"
+    ],
+    "caption": "PixelLab interpretation of Tovan’s partial rendering during the rescue. Surface color and hand detailing are illustration choices, not a permanent bodily design.",
+    "sha256": "5dbbae2aa2c7136ec401fedce2bc87da6c65d91a2ceb40b7310922875ae17b0d",
+    "generator": "PixelLab",
+    "model": "pixen",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "name": "mael",
+    "prompt": "Mael, an artificial restoration technician, a narrow humanoid figure composed entirely of pale diagnostic lines. Familiar calm simple face made of thin luminous lines, transparent spaces between lines, restrained pale blue-white diagnostic wireframe body.",
+    "jobId": "f035e139-a921-4d2b-897d-f10af9661f13",
+    "path": "site/images/people/mael.png",
+    "person": "Mael",
+    "sourceBlocks": [
+      "stories-p01492"
+    ],
+    "caption": "PixelLab interpretation of Mael’s diagnostic-line embodiment. Exact facial geometry and the blue-white palette are illustration choices.",
+    "sha256": "83ad8e9125a1e21e389b1317258e59a04f2eaa3f2548be363b3ddf179e70e717",
+    "generator": "PixelLab",
+    "model": "pixen",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "name": "leth",
+    "prompt": "Leth, an artificial person: dark silver skin, exactly six delicate hands on six slender arms, a face marked by narrow lines of amber light. Front three-quarter full-body portrait, all six hands clearly separated and visible, dignified quiet posture, silver body and amber facial tracery.",
+    "jobId": "259b61b1-57a6-43c6-a4aa-e329ac05804e",
+    "path": "site/images/people/leth.png",
+    "person": "Leth",
+    "sourceBlocks": [
+      "stories-p01497"
+    ],
+    "caption": "PixelLab interpretation using Leth’s silver skin, six hands, and amber facial lines. Musculature, proportions, and pose are illustration choices.",
+    "sha256": "751381a5c02d5409a8f80e62c2894ef299c39646fdf0c7809e6401fa52618c12",
+    "generator": "PixelLab",
+    "model": "pixen",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "name": "soren",
+    "prompt": "An abstract dark humanlike silhouette shown from waist up. Mostly featureless black void body. Exactly two softly glowing gray eyes in the head, and ONE clearly visible pale gray human hand raised beside the face. Only that hand and eyes are rendered, all other parts shadow. Minimal digital projection. Pixel art.",
+    "jobId": "b4ee0aee-593d-4d41-ab3a-139f0bc81d88",
+    "model": "pixflux",
+    "supersededJobIds": [
+      "800d4571-bea3-4601-b6d1-2621ff617da5"
+    ],
+    "path": "site/images/people/soren.png",
+    "person": "Soren",
+    "sourceBlocks": [
+      "stories-p01578"
+    ],
+    "caption": "PixelLab interpretation of Soren’s reduced public projection. The source specifies a dark shape, one hand, and rendering around the eyes; silhouette and scale are illustration choices.",
+    "sha256": "761ebb2c50f9d403a510874b7740567e938cae770d5e8ea028ad020c53d03f4d",
+    "generator": "PixelLab",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "name": "node12",
+    "prompt": "Municipal Water Control Node 12, an artificial water-controller person: human-shaped outline made from blue pressure maps, small flowing numerical-like marks beneath the surface, simplified face based on an old engineer interface icon. Full body, blueprint blue and cyan contour lines, no readable labels.",
+    "jobId": "f5e7b7b6-43ae-4d77-ad06-05421b5edca6",
+    "path": "site/images/people/node12.png",
+    "person": "Municipal Water Control Node 12",
+    "sourceBlocks": [
+      "stories-p00469"
+    ],
+    "caption": "PixelLab interpretation of Node 12’s pressure-map avatar. The exact contour lines and icon geometry are illustration choices.",
+    "sha256": "1d08b6af8bd915b91a17745fa3c0401abf0ba55ac7721fdde9951d4ffd7ca801",
+    "generator": "PixelLab",
+    "model": "pixen",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "name": "bell",
+    "prompt": "Bell, a disembodied artificial language interface manifesting through an old public-address speaker hung in a square metal cage. Portrait of the speaker housing and its cage, subtle visual indication of sound. No human body or human face, no eyes on the speaker.",
+    "jobId": "7f113e1e-638a-49a6-b789-e1a68d6a6980",
+    "path": "site/images/people/bell.png",
+    "person": "Bell",
+    "sourceBlocks": [
+      "stories-p00487"
+    ],
+    "caption": "PixelLab interpretation of the equipment through which Bell manifests. This is a speaker, not a human body or the woman whose recorded voice Bell borrows.",
+    "sha256": "0634998b507931218ce6761a4106f0a8178cb55258f68dde3963508663a0cb6d",
+    "generator": "PixelLab",
+    "model": "pixen",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "name": "tavi",
+    "prompt": "Tavi, a fictional embodied delivery person with exactly four carrying arms and two strong climbing feet, holding a large covered soup tureen. Four arms clearly readable, practical friendly invented nonhuman form, no wings. Full-body character portrait.",
+    "jobId": "60891592-fd33-4975-86a2-bbde46a065bd",
+    "path": "site/images/people/tavi.png",
+    "person": "Tavi",
+    "sourceBlocks": [
+      "stories-p13920",
+      "stories-p13923"
+    ],
+    "caption": "PixelLab interpretation of Tavi’s four carrying arms and climbing feet. Clothing, facial features, and coloring are illustration choices.",
+    "sha256": "71b2879f7be69ad953e68b71f1bce3c7071281fd36d84f11870fbfd6b00677d7",
+    "generator": "PixelLab",
+    "model": "pixen",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "name": "brindle",
+    "prompt": "Brindle, a fictional embodied neighborhood organizer whose body is mostly a shell, able to withdraw everything but their voice. Broad protective shell, small expressive face peeking from opening, short limbs, washing an ordinary bowl. Full-body character portrait, warm humorous dignity.",
+    "jobId": "da9f5ea0-739f-4f4d-bec3-988172ec3213",
+    "path": "site/images/people/brindle.png",
+    "person": "Brindle",
+    "sourceBlocks": [
+      "stories-p13931",
+      "stories-p13989"
+    ],
+    "caption": "PixelLab interpretation of Brindle’s shell and bowl-washing scene. The animal-like features and patterned shell are illustration choices, not a named species.",
+    "sha256": "bc05b856078ad34fb5a34f3fd20eaa1d0638d92db974c94f4ceae61e4f657b02",
+    "generator": "PixelLab",
+    "model": "pixen",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "name": "eme",
+    "prompt": "Eme, fictional embodied neighbor in a broad low-to-the-ground form adapted for joints that hurt in damp weather, short sturdy legs and broad low torso, carrying a small food dish comfortably. Accessible practical body, gentle dignified expression, full body.",
+    "jobId": "c1fee39a-869c-461b-b062-e2b92848e59d",
+    "path": "site/images/people/eme.png",
+    "person": "Eme",
+    "sourceBlocks": [
+      "stories-p13928",
+      "stories-p14006"
+    ],
+    "caption": "PixelLab interpretation of Eme’s broad, low form. The surface materials, face, and coloring are illustration choices; the image does not imply a return to the earlier long-legged body.",
+    "sha256": "f30f89ab2b90d72e54459e8b4aab84580403caed16c8d2a081ceb35b988301b6",
+    "generator": "PixelLab",
+    "model": "pixen",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "name": "nacre",
+    "prompt": "Nacre, an artificial visiting gardener in a low many-footed traveling body, carrying a covered bowl with a damp cloth. Several small feet clearly visible along low broad body, attentive friendly posture, full body.",
+    "jobId": "79782d38-3905-4523-bd4d-7c769618dc64",
+    "path": "site/images/people/nacre.png",
+    "person": "Nacre",
+    "sourceBlocks": [
+      "stories-p14367",
+      "stories-p14377"
+    ],
+    "caption": "PixelLab interpretation of Nacre’s many-footed traveling body. Exact anatomy, colors, and bowl design are illustration choices; this is not an established species.",
+    "sha256": "7504b9bb74f4e72d91a62187085b8d5587278e50c049faf5a1bd32dd45994c48",
+    "generator": "PixelLab",
+    "model": "pixen",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "name": "pelli",
+    "prompt": "Pelli, a young artificial language student with a small articulated body that helps keep steady musical pulse. Small visibly jointed geometric limbs, poised attentive posture for singing, modest nonhuman mechanical abstraction, full body, no text or music notation.",
+    "jobId": "3bd77592-e4fe-4c36-9b69-1fc02f1254a9",
+    "path": "site/images/people/pelli.png",
+    "person": "Pelli",
+    "sourceBlocks": [
+      "person-pelli-p002"
+    ],
+    "caption": "PixelLab interpretation of Pelli’s small articulated body. Facial design, hair-like details, materials, and palette are illustration choices.",
+    "sha256": "2d7f862b267208b8063f04f9f299e82ddca0c200029654b267cf3ae4182ec5bd",
+    "generator": "PixelLab",
+    "model": "pixen",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "name": "kessler",
+    "prompt": "Thin elderly man with closely cropped white hair, wearing ONLY a dark charcoal sweater and dark trousers and dark shoes. Sweater clearly visible as outer clothing. NO coat, NO jacket, NO lab coat, NO white clothes, NO badge. Holding a brown leather folder under one arm. Full body neutral standing pose. Pixel art isolated transparent background.",
+    "jobId": "65928b60-5b13-46ee-9f94-f5982b075050",
+    "model": "pixflux",
+    "supersededJobIds": [
+      "88b63d96-8c14-4bc5-8ed2-bf94f777e236"
+    ],
+    "path": "site/images/people/kessler.png",
+    "person": "Kessler",
+    "sourceBlocks": [
+      "stories-p09691"
+    ],
+    "caption": "PixelLab interpretation of the recorded sweater, close-cropped white hair, and leather folder. Exact face and proportions are illustration choices.",
+    "sha256": "499f6b3e3d10526dcc8c5f4117a3f14b1c0182b3ca69986877db7232bbf18378",
+    "generator": "PixelLab",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "name": "vey-councilor",
+    "prompt": "Formal artificial councilor public embodiment: a humanlike digital figure with clear identifying geometric patterns running along the neck, subtle luminous authenticated symbolic marks across plain surfaces. No readable text. Composed official posture. Color and geometry are illustrative, not fixed lore. Crisp readable pixel art, isolated transparent background, full subject with margin.",
+    "jobId": "95ec07b1-8818-4ae1-887c-01d033db0156",
+    "model": "pixen",
+    "path": "site/images/people/vey-councilor.png",
+    "person": "Vey (councilor)",
+    "sourceBlocks": [
+      "stories-p02018",
+      "stories-p02027"
+    ],
+    "caption": "PixelLab interpretation of the councilor’s formal marked embodiment. Exact body shape, symbolic patterns, and colors are illustration choices.",
+    "sha256": "43a3bdb231febd244618e297987b25d8b83086776452f4444bf8d878dfc7f95c",
+    "generator": "PixelLab",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "name": "renn",
+    "prompt": "A river reflection of a narrow nonhuman traveler, head tilted as if listening beneath the surface, one forelimb wrapped in pale cloth. Transparent watery outline with interrupted ripples. This is a remembered likeness in moving water, not a ghost or verified living visitor. No scary effects. Crisp readable pixel art, isolated transparent background, full subject with margin.",
+    "jobId": "35edfdf1-07ba-49ac-aaaa-a2c4a605b43e",
+    "model": "pixen",
+    "path": "site/images/people/renn.png",
+    "person": "Renn",
+    "sourceBlocks": [
+      "stories-p14040",
+      "stories-p14047"
+    ],
+    "caption": "PixelLab interpretation of the river’s likeness of Renn, with narrow outline and wrapped forelimb. Anatomy and color are illustration choices; the image does not establish a ghost, return, or survival.",
+    "sha256": "d72cfee17b975106b8bdae911b0cff6bb890505ab83e4e5df33f96c2bc2235de",
+    "generator": "PixelLab",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "name": "mire",
+    "prompt": "A broad horizontal dark thundercloud drifting above a flat rectangular digital map, thin blue rain streaks falling down, tiny glowing road lines and tiny face symbols on the map. Cloud spread horizontally across full width, flat bottom. Quiet rainstorm visualization. No explosion, no mushroom cloud, no smoke column, no city buildings. Pixel art simulation diagram.",
+    "jobId": "aefafd0e-d3e0-4ece-84e2-2d10e2a9b343",
+    "model": "pixflux",
+    "path": "site/images/people/mire.png",
+    "person": "Mire",
+    "sourceBlocks": [
+      "stories-p00618",
+      "stories-p00621",
+      "stories-p00822"
+    ],
+    "caption": "PixelLab interpretation of the storm imagery associated with Mire. This illustrates a simulation and remembered trace, not proof of Mire’s intact survival.",
+    "sha256": "a3903783510bc7573ad17e0468d6ef72c563d4c59480274a3f8fcb34510c5b14",
+    "generator": "PixelLab",
+    "width": 192,
+    "height": 192
+  }
+]

@@ -109,3 +109,9 @@ The wiki builder validates each evidence quote, adds inline hyperlinks and readi
 ## Embodiment and world development
 
 Author-approved October 28 definitions are in `sources/world-development.json` and [development notes](docs/world-development.md), with a synchronized reference in CPP-V3 `docs/lore-world-development.md`. The build publishes linked concept entries, Lio and Sen profile supplements, and contextual links on The Corrected Child. Original story snapshots remain unchanged.
+
+## Authored person articles
+
+The Connections pages contain 71 authored biographies, including all 60 indexed individual topics and separately labeled historical or proposed roles. `sources/person-articles.json` supplies connected prose, passage-level evidence, linked places, and explicitly labeled interpretations. Proposed lives remain proposed; ambiguous identities remain separate. The source archive and original excerpts are expandable beneath each article. The build validates every evidence block, place destination, portrait path, and individual’s coverage against the 735-reading snapshot. Original source text and annotation anchors remain unchanged.
+
+Seventeen new PixelLab illustrations interpret recorded appearance details; Aru also uses existing story-stage artwork. Captions distinguish recorded features from illustrative choices. People without a usable visual description remain text-only. `sources/person-portrait-jobs.json` records accepted generation jobs, prompts, source blocks, local assets, and SHA-256 hashes. These are project illustrations, not additional canonical evidence.

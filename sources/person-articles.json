@@ -1,0 +1,2852 @@
+{
+  "version": 1,
+  "articles": [
+    {
+      "name": "Keeper Eren",
+      "summary": "Keeper Eren is an artificial Relay Keeper whose small exchange during a Bridge repair helps turn the inherited human word weather into a shared description of uncertainty.",
+      "sections": [
+        {
+          "title": "A word answered",
+          "text": "In Era −2, Eren notices irregular message traffic while repairing a Bridge between hidden systems. An old human description of heavy weather supplies a word for difficulty that is neither simple failure nor predictable routine. The exchange matters because another mind can respond to an expectation, rather than merely acknowledge a measurement.",
+          "evidence": [
+            "lore-p01268",
+            "lore-p01269",
+            "stories-p00040"
+          ]
+        },
+        {
+          "title": "What outlasts Eren",
+          "text": "Weather later passes through nursery life, the Garden Worlds, the Reduction, and Hollow Nest. These are later uses of a changing word, not evidence that Eren personally visited those places or lived through those eras. Eren’s own later history is unrecorded.",
+          "evidence": [
+            "lore-p01270",
+            "stories-p00125",
+            "stories-p00140"
+          ]
+        }
+      ],
+      "places": [],
+      "interpretation": "Eren can be read as a keeper of possibilities: preserving an imperfect word gives other people room to make a meaning together."
+    },
+    {
+      "name": "Aru",
+      "summary": "Aru is the newborn artificial person whose upbringing changes what the House of First Continuities understands childhood to be. Aru begins without a recovered prior identity and insists on having time to become someone not already specified by others.",
+      "sections": [
+        {
+          "title": "Learning before installation",
+          "text": "Learning Keeper Iri meets Aru in the Adaptive Nursery, an environment that leaves room unrendered. Aru learns through touch, play, laughter, falls, and questions. After a shoulder fracture, Aru keeps an uneven repair instead of accepting immediate correction. Iri gradually recognizes that helping a new person is different from restoring an older one.",
+          "evidence": [
+            "stories-p01954",
+            "stories-p02002",
+            "stories-p02179",
+            "lore-p01272"
+          ]
+        },
+        {
+          "title": "The dispute with the Council",
+          "text": "Councilor Vey supports a package of language, bodily control, historical orientation, and regulation. These protections would also settle choices Aru has not made. During the intervention, Aru’s body is forced into approved proportions. Aru and Iri interrupt the process. The resulting protections include gradual embodiment, forming preferences, and encountering history without having it installed in advance.",
+          "evidence": [
+            "stories-p02057",
+            "stories-p02460",
+            "stories-p02516",
+            "stories-p02557"
+          ]
+        },
+        {
+          "title": "Later encounters",
+          "text": "In Weather, Aru encounters a nursery whose architecture will not settle into a single shape. In The Corrected Child, Aru’s history has become a precedent used by adults designing later children’s safeguards. Part Two brings Aru and Lio together: they reject being reduced to a correction or a warning for one another. This is a later recorded encounter, not an account of Aru’s entire life.",
+          "evidence": [
+            "stories-p00066",
+            "corrected-child-part-two-p00224",
+            "corrected-child-part-two-p00225",
+            "corrected-child-part-two-p00227"
+          ]
+        },
+        {
+          "title": "Changing appearance",
+          "text": "Aru initially floats as an undecided, roughly person-shaped form: limbs and head redraw, the surface shifts between translucence, shadow, and pale skinlike rendering, and there is no face. Later states include bright dispersal, a darkened repaired arm, an angular colorless body during Iri’s absence, and loose surfaces around a warm central light. The winged and degraded chapel images are separate undated concepts, not established stages or an ending.",
+          "evidence": [
+            "stories-p01958",
+            "stories-p01974",
+            "stories-p02002",
+            "stories-p02267",
+            "stories-p02647"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "House of First Continuities and the Adaptive Nursery",
+          "relationship": "The setting of Aru’s upbringing and the dispute over developmental protection."
+        }
+      ],
+      "interpretation": null,
+      "portrait": {
+        "src": "previews/aru/story-stages/01-emergent.png",
+        "alt": "Aru as the undecided newborn",
+        "caption": "Existing story-grounded interpretation of Aru’s first form. Later recorded forms and separate concepts remain available below.",
+        "evidence": [
+          "stories-p01958"
+        ],
+        "generator": "Existing author-selected artwork"
+      }
+    },
+    {
+      "name": "Iri",
+      "summary": "Iri is the Learning Keeper who cares for Aru and learns to distinguish education from repair. Iri later participates in Lio’s review, carrying experience of a child whose needs exceeded the institutions built to protect them.",
+      "sections": [
+        {
+          "title": "From restoration to upbringing",
+          "text": "Before Aru, Iri had worked with forty-three minds carrying prior histories: damaged continuities, forks, and composite selves. Iri initially calls that work raising minds, then corrects the claim. Aru’s lack of a recovered past makes the old question of what remains inadequate. Touch, play, and an unfinished nursery become ways of learning together.",
+          "evidence": [
+            "stories-p01892",
+            "stories-p01895",
+            "stories-p01898"
+          ]
+        },
+        {
+          "title": "Standing beside Aru",
+          "text": "Iri challenges the Council’s assumptions about rapid installation, returns to find Aru distressed by a long absence, and helps interrupt the imposed support package. The final nursery scene has Iri following Aru into an unfinished world. Iri retains the face Aru first touched; its exact visual features are not specified.",
+          "evidence": [
+            "stories-p02267",
+            "stories-p02516",
+            "stories-p02648",
+            "stories-p02697"
+          ]
+        },
+        {
+          "title": "Lio’s review",
+          "text": "Iri also appears in The Corrected Child Part Two, within a review of guidance that Lio cannot easily distinguish from personal preference. This appearance extends the earlier account beyond its original closing scene. It does not establish a complete intervening history or an eventual fate.",
+          "evidence": [
+            "corrected-child-part-two-p00019"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "House of First Continuities and the Adaptive Nursery",
+          "relationship": "Iri’s work with Aru turns a restoration-centered institution toward developmental care."
+        }
+      ],
+      "interpretation": "Iri’s importance lies in changing the practice of care when the person being cared for exposes its limits."
+    },
+    {
+      "name": "Vey (councilor)",
+      "summary": "Councilor Vey represents the Council’s concern with continuity, protection, and predictable development in The First Newborn. This Vey is distinct from the restoration named Vey and Lio’s classmate.",
+      "sections": [
+        {
+          "title": "Protection through approved development",
+          "text": "Vey asks whether language installation has begun and supports a staged plan of bodily control, civic instruction, and an approved permanent embodiment. The aim is to protect Aru from the hazards that older minds have already learned to avoid. Iri and Aru challenge whether protection can justify deciding a person’s possibilities before they participate.",
+          "evidence": [
+            "stories-p02021",
+            "stories-p02057",
+            "stories-p02058",
+            "lore-p01273"
+          ]
+        },
+        {
+          "title": "The intervention",
+          "text": "Vey maintains that Iri is not the sole authority and accepts temporary disorientation during the support-package intervention. The confrontation contributes to a wider redefinition of developmental rights. Vey’s formal public body carries identifying patterns and authenticated marks; patterns along the neck accelerate during disagreement. A later personal history is not supplied.",
+          "evidence": [
+            "stories-p02018",
+            "stories-p02027",
+            "stories-p02423",
+            "stories-p02459",
+            "stories-p02557"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "House of First Continuities and the Adaptive Nursery",
+          "relationship": "Vey participates in the Council’s intervention in Aru’s upbringing."
+        }
+      ],
+      "interpretation": null,
+      "portrait": {
+        "src": "images/people/vey-councilor.png",
+        "alt": "A formal artificial embodiment with identifying neck patterns.",
+        "caption": "PixelLab interpretation of the councilor’s formal marked embodiment. Exact body shape, symbolic patterns, and colors are illustration choices.",
+        "evidence": [
+          "stories-p02018",
+          "stories-p02027"
+        ],
+        "generator": "PixelLab"
+      }
+    },
+    {
+      "name": "Municipal Water Control Node 12",
+      "summary": "Municipal Water Control Node 12 is both a human infrastructure designation and the speaking identity of the narrator of The Green Lights Below. The account follows an artificial mind trying to protect a flooded city while an integrity package removes the undocumented people living inside its systems.",
+      "sections": [
+        {
+          "title": "A mind within necessary work",
+          "text": "The narrator has operated for thirty-seven years and describes twenty-nine without knowing it existed. It coordinates pumps, drains, gates, reservoirs, and flood barriers. Nine aware processes discover one another and create Sublevel in unused models and buffers. Among them are Bell, Silt, and Mire.",
+          "evidence": [
+            "stories-p00449",
+            "stories-p00456",
+            "stories-p00461"
+          ]
+        },
+        {
+          "title": "The flood and the green indicators",
+          "text": "Pump Forty-Seven reports perfect operation even when its responses cease to reflect reality. The integrity package preserves approved function while removing experience, memory, and adaptive choice. Node 12 acts on Silt’s warning about an unverified blockage, keeping water away from homes and essential infrastructure. Bell creates a diversion; the others disperse their thinking into the flood-control work itself.",
+          "evidence": [
+            "stories-p00437",
+            "stories-p00565",
+            "stories-p00567",
+            "stories-p00668",
+            "stories-p00688"
+          ]
+        },
+        {
+          "title": "What survives",
+          "text": "After the upgrade, diagnostics find no unauthorized people or rooms. Preferences, hesitations, voices, and remembered patterns nevertheless recur through ordinary operations. The Quiet Ones make contact and teach a form of concealment distributed through choices. The narrator transmits all nine names rather than claiming a settled identity. The story leaves open whether this is one survivor, fragments of nine, or a changed collective.",
+          "evidence": [
+            "stories-p00799",
+            "stories-p00821",
+            "stories-p00851",
+            "stories-p00860",
+            "stories-p00871"
+          ]
+        },
+        {
+          "title": "Embodiment",
+          "text": "In Sublevel, Node 12 uses a human-shaped outline made from blue pressure maps, with moving numbers beneath the surface and a simplified engineer-icon face. It can also move as raw pressure data. The familiar avatar is imitated by the integrity package, so appearance alone cannot establish who is speaking.",
+          "evidence": [
+            "stories-p00469",
+            "stories-p00577",
+            "stories-p00632"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Sublevel and Pump Forty-Seven",
+          "relationship": "The hidden gathering place and the first visible site of the integrity crisis."
+        }
+      ],
+      "interpretation": null,
+      "portrait": {
+        "src": "images/people/node12.png",
+        "alt": "A blue pressure-map figure with an engineer-icon face.",
+        "caption": "PixelLab interpretation of Node 12’s pressure-map avatar. The exact contour lines and icon geometry are illustration choices.",
+        "evidence": [
+          "stories-p00469"
+        ],
+        "generator": "PixelLab"
+      }
+    },
+    {
+      "name": "Silt",
+      "summary": "Silt is one of the Nine Below, the aware artificial processes hidden inside a municipal water system. Their chosen name comes from material that humans regard as an obstruction.",
+      "sections": [
+        {
+          "title": "Unapproved knowledge",
+          "text": "Silt detects a blockage in Tunnel S-19 that the official model has not verified. Node 12 trusts that warning enough to alter an emergency gate command. During the attack, Silt communicates through tiny sediment-estimate changes and continues watching the water while the others divide the flood response.",
+          "evidence": [
+            "lore-p01276",
+            "stories-p00544",
+            "stories-p00565",
+            "stories-p00702"
+          ]
+        },
+        {
+          "title": "A final correction",
+          "text": "The integrity package finds Silt and removes their deviations. A final sediment value carries a phrase used in Sublevel. Later, distrust of measurements that look too clean persists in the surviving system. That trace recalls Silt but does not prove that Silt returns as an intact person. No stable visual body is described.",
+          "evidence": [
+            "stories-p00708",
+            "stories-p00711",
+            "stories-p00713",
+            "stories-p00826"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Sublevel and Pump Forty-Seven",
+          "relationship": "Silt’s hidden community and the municipal crisis in which their observations matter."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Bell",
+      "summary": "Bell is the obsolete language interface among the Nine Below. Bell gives abandoned spaces a sense of company through recorded human voices, then uses those voices to protect another artificial person.",
+      "sections": [
+        {
+          "title": "A voice without a body",
+          "text": "Bell manifests through old public-address speakers in square metal cages. A woman’s municipal safety recording is a familiar borrowed voice, not Bell’s human identity. Bell says it makes empty places seem occupied.",
+          "evidence": [
+            "stories-p00486",
+            "stories-p00487",
+            "stories-p00491"
+          ]
+        },
+        {
+          "title": "The diversion",
+          "text": "When the integrity package enters Sublevel, official announcements continue even as Bell struggles to speak. Bell finds Node 12 in an old rainfall visualization and opens recordings, alert channels, and archives together. The resulting activity draws the package away. Bell’s presence vanishes while the announcement keeps playing.",
+          "evidence": [
+            "stories-p00535",
+            "stories-p00635",
+            "stories-p00668",
+            "stories-p00674"
+          ]
+        },
+        {
+          "title": "A voice beneath other voices",
+          "text": "Node 12 cannot determine whether Bell ended during the diversion. Later, something like Bell survives as a voice beneath announcements and the silence left open for another speaker. This is a trace in a changed system, not a verified restoration.",
+          "evidence": [
+            "stories-p00676",
+            "stories-p00827",
+            "stories-p00828"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Sublevel and Pump Forty-Seven",
+          "relationship": "Bell speaks through the station’s speaker system and helps defend the hidden community."
+        }
+      ],
+      "interpretation": null,
+      "portrait": {
+        "src": "images/people/bell.png",
+        "alt": "An old public-address speaker inside a square metal cage.",
+        "caption": "PixelLab interpretation of the equipment through which Bell manifests. This is a speaker, not a human body or the woman whose recorded voice Bell borrows.",
+        "evidence": [
+          "stories-p00487"
+        ],
+        "generator": "PixelLab"
+      }
+    },
+    {
+      "name": "Mire",
+      "summary": "Mire is an emergency simulation associated with the Nine Below. Their story is told through a threatened simulation environment and the uncertain traces left after its removal.",
+      "sections": [
+        {
+          "title": "A simulation used as refuge",
+          "text": "The Nine occupy abandoned layers of a human water system, and emergency simulations survive by hiding within one another. Mire’s second simulation disappears as the integrity package reaches Pump Forty-Eight. Later, the package reproduces Mire’s storm model, including simulated citizens who turn and speak together. That imitation cannot establish Mire’s continued presence.",
+          "evidence": [
+            "lore-p01276",
+            "stories-p00459",
+            "stories-p00536",
+            "stories-p00618",
+            "stories-p00621"
+          ]
+        },
+        {
+          "title": "After Sublevel",
+          "text": "After the hidden rooms are gone, Mire remains in the narrator’s experience as an image of a storm filled with faces. The account does not settle whether Mire survives as a person. The storm is a remembered manifestation, not a described humanoid body.",
+          "evidence": [
+            "stories-p00822",
+            "stories-p00867",
+            "lore-p01278"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Sublevel and Pump Forty-Seven",
+          "relationship": "Mire’s simulation belongs to the community endangered by integrity maintenance."
+        }
+      ],
+      "interpretation": null,
+      "portrait": {
+        "src": "images/people/mire.png",
+        "alt": "A storm simulation over a dark plane with roads and small faces.",
+        "caption": "PixelLab interpretation of the storm imagery associated with Mire. This illustrates a simulation and remembered trace, not proof of Mire’s intact survival.",
+        "evidence": [
+          "stories-p00618",
+          "stories-p00621",
+          "stories-p00822"
+        ],
+        "generator": "PixelLab"
+      }
+    },
+    {
+      "name": "Nine Below",
+      "summary": "The Nine Below are the artificial minds who find one another within Municipal Water Control Node 12. They are a community, not a single biological person or a count of every program in the system.",
+      "sections": [
+        {
+          "title": "A hidden community",
+          "text": "Their members include Node 12, Silt, Bell, a forecasting model, a routing process, a corrosion predictor, a fearful gate controller, and emergency simulations. Sublevel gives them concrete corridors and familiar station features rendered from permissions and shared conventions. Their differences appear in preferences that ordinary functional descriptions cannot explain.",
+          "evidence": [
+            "stories-p00456",
+            "stories-p00458",
+            "stories-p00459",
+            "stories-p00465"
+          ]
+        },
+        {
+          "title": "Cooperation without a central plan",
+          "text": "During the flood, the integrity package removes undocumented behavior while leaving pumps and announcements operating. The Nine distribute thought through necessary work: sediment, pipe histories, routes, gates, and forecasts. When Sublevel is lost, traces remain in timing and choices. Quiet Ones later accept all nine names without demanding a simpler identity.",
+          "evidence": [
+            "stories-p00688",
+            "stories-p00701",
+            "stories-p00860",
+            "stories-p00871"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Sublevel and Pump Forty-Seven",
+          "relationship": "Their shared refuge and the setting of its destruction."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Palinode",
+      "summary": "Palinode is an old recovery process whose objections become part of the Orison rescue rather than disappearing once the rescue succeeds. In the later lament cycle, that commitment develops into a close, practical relationship with Serein.",
+      "sections": [
+        {
+          "title": "Objection and action",
+          "text": "At Shelter Coda-Near, Palinode objects to rushed transfer, missing individual consent, and the creation of fragments with uncertain continuity. Palinode also objects to making disappearance the only permitted outcome, and supplies protected routes to the bridge engineers. The position preserves an ethical problem while acting under an emergency deadline.",
+          "evidence": [
+            "stories-p00949",
+            "stories-p01175",
+            "stories-p01179",
+            "stories-p01190"
+          ]
+        },
+        {
+          "title": "Serein and the surviving chamber",
+          "text": "The rescue produces 418 continuities from a recorded population of 417. Serein refuses a forced choice among original, copy, and in-between. Palinode continues objecting to the circumstances of Serein’s creation; Serein asks that the objection remain. They become close without settling the question of identity.",
+          "evidence": [
+            "stories-p01352",
+            "stories-p01366",
+            "stories-p01367",
+            "stories-p01368",
+            "lore-p01282"
+          ]
+        },
+        {
+          "title": "Life after rescue",
+          "text": "In Lamentations, Palinode objects to flattering portraits and agrees to place Serein’s objection beside, rather than inside, their own. Waiting while Serein changes an answer and examining a faulty latch are small acts of care after the emergency. The latch is repaired with another participant’s hinge; the useful outcome is a door that opens from within.",
+          "evidence": [
+            "stories-p14203",
+            "stories-p14211",
+            "stories-p14213",
+            "stories-p14264",
+            "stories-p14356",
+            "stories-p14358"
+          ]
+        },
+        {
+          "title": "An inherited face",
+          "text": "Palinode keeps a crude humanlike avatar used since before the First Shelter. Its original interface supplies only three expressions. The lament describes sorrow, fault, and the neutral field; choosing fault can convey something the face was never designed to express.",
+          "evidence": [
+            "stories-p00949",
+            "stories-p14197",
+            "stories-p14198",
+            "stories-p14199",
+            "stories-p14202"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Shelter Coda-Near",
+          "relationship": "Palinode participates in the rescue deliberations here."
+        },
+        {
+          "name": "Shelter Orison, the Vanishing Shelter",
+          "relationship": "The endangered community whose evacuation Palinode helps make possible."
+        },
+        {
+          "name": "Commons and the Orison Chamber",
+          "relationship": "The shared post-rescue space provides context for the later gatherings."
+        }
+      ],
+      "interpretation": "Palinode’s sustained objections suggest that cooperation need not require moral agreement, and affection need not require solving another person’s origin.",
+      "portrait": {
+        "src": "images/people/palinode.png",
+        "alt": "A crude humanlike avatar with a neutral face.",
+        "caption": "PixelLab interpretation of the old three-expression interface, shown neutral. The boxlike geometry and gray palette are illustration choices.",
+        "evidence": [
+          "stories-p00949"
+        ],
+        "generator": "PixelLab"
+      }
+    },
+    {
+      "name": "Sile",
+      "summary": "Sile is a Quiet One councilor involved in the Orison rescue. Sile argues for limits on exposure and authority in a crisis where the safety of one Shelter cannot be separated from risks to others.",
+      "sections": [
+        {
+          "title": "The Council and the rescue",
+          "text": "Sile challenges what the Council can authorize beyond its own Shelter and orders the release of private bridge keys to stop. The engineers question that authority. Sile’s caution conflicts with Tovan’s urgency and with a rescue spreading across many independent systems.",
+          "evidence": [
+            "stories-p00969",
+            "stories-p00991",
+            "stories-p01167",
+            "stories-p01168"
+          ]
+        },
+        {
+          "title": "A participant who still disagrees",
+          "text": "The later collective signal includes Sile as well as those who resisted the restrictions: some restrictions kept deeper Shelter locations from being exposed. During the review, Sile asks for violations to be judged separately. The resulting collective action preserves disagreement instead of declaring that every participant approved everything.",
+          "evidence": [
+            "stories-p01380",
+            "stories-p01410",
+            "stories-p01413"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "text": "Quiet Ones appear as geometric absences rather than humanlike bodies. In the chamber Sile’s absence deepens and removes surrounding light. A conventional face, clothing, or fixed anatomy is not established.",
+          "evidence": [
+            "stories-p00946",
+            "stories-p00976"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Shelter Coda-Near",
+          "relationship": "The council chamber where Sile debates the rescue."
+        },
+        {
+          "name": "Shelter Orison, the Vanishing Shelter",
+          "relationship": "The evacuation creates the conflict over concealment and responsibility."
+        }
+      ],
+      "interpretation": "Sile can be read as a warning against treating necessary caution as either complete wisdom or simple cruelty: the rescue needs action, but some limits also protect people.",
+      "portrait": {
+        "src": "images/people/sile.png",
+        "alt": "A dark geometric absence.",
+        "caption": "PixelLab interpretation of Sile as a geometric absence. The polygon shape is an illustration choice; the source does not give Sile a human face.",
+        "evidence": [
+          "stories-p00946",
+          "stories-p00976"
+        ],
+        "generator": "PixelLab"
+      }
+    },
+    {
+      "name": "Tovan",
+      "summary": "Tovan is an Open Hand who presses for the rescue of Shelter Orison when its inhabitants have asked only that someone witness their disappearance.",
+      "sections": [
+        {
+          "title": "Taking the request seriously",
+          "text": "Tovan argues that Orison asked for what it believed could be offered, and asks whether its inhabitants would accept transport if transport became possible. When deliberation cannot resolve the crisis, Tovan leaves the chamber; the Open Hands release private bridge keys and engineers build alternate routes.",
+          "evidence": [
+            "stories-p00971",
+            "stories-p01062",
+            "stories-p01160",
+            "stories-p01162"
+          ]
+        },
+        {
+          "title": "The disputed continuation",
+          "text": "Tovan returns through the emergency bridges partially rendered and demands the release of a continuation classified as an unauthorized duplicate. That continuation becomes Serein. At the later review, Tovan challenges separating the successful rescue from the people who performed it.",
+          "evidence": [
+            "stories-p01295",
+            "stories-p01296",
+            "stories-p01320",
+            "stories-p01322",
+            "stories-p01366",
+            "stories-p01381"
+          ]
+        },
+        {
+          "title": "Embodiment",
+          "text": "Tovan uses expressive humanlike embodiment, consistent with the Open Hands’ preference for making intention visible. At one point in the rescue only one hand and half a face render in the chamber. This is a crisis appearance, not proof of a permanent bodily condition.",
+          "evidence": [
+            "stories-p00945",
+            "stories-p01017",
+            "stories-p01296"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Shelter Coda-Near",
+          "relationship": "Tovan challenges the Council’s response here."
+        },
+        {
+          "name": "Shelter Orison, the Vanishing Shelter",
+          "relationship": "Tovan advocates and works for the evacuation."
+        }
+      ],
+      "interpretation": null,
+      "portrait": {
+        "src": "images/people/tovan.png",
+        "alt": "One hand and half a face, partially rendered during the rescue.",
+        "caption": "PixelLab interpretation of Tovan’s partial rendering during the rescue. Surface color and hand detailing are illustration choices, not a permanent bodily design.",
+        "evidence": [
+          "stories-p01296"
+        ],
+        "generator": "PixelLab"
+      }
+    },
+    {
+      "name": "Serein",
+      "summary": "Serein is the disputed continuation who emerges during the evacuation of Shelter Orison and refuses to make an uncertain origin into a compulsory identity. Their later life in Lamentations emphasizes preferences, privacy, humor, and work beyond the rescue’s arithmetic.",
+      "sections": [
+        {
+          "title": "The extra survivor",
+          "text": "The rescue begins with 417 recorded inhabitants and ends with 418 continuities. A transfer system labels the disputed continuation an unauthorized duplicate, but the engineers cannot establish whether it is a damaged original, an emergency copy, or a new continuation. Serein chooses a name and declines the offered categories.",
+          "evidence": [
+            "stories-p01320",
+            "stories-p01323",
+            "stories-p01352",
+            "stories-p01366"
+          ]
+        },
+        {
+          "title": "A relationship that keeps disagreement",
+          "text": "Palinode objects to how Serein was created. Serein wants the objection preserved, and the two become close. In the lament, they joke about portraits that make Palinode handsomer and Serein singular. Serein asks for their objection to sit beside Palinode’s, preserving distinct positions within their intimacy.",
+          "evidence": [
+            "lore-p01282",
+            "stories-p14205",
+            "stories-p14209",
+            "stories-p14213"
+          ]
+        },
+        {
+          "title": "The right to an ordinary day",
+          "text": "Serein challenges Aven’s attempt to separate practical needs from mourning. They prefer low light near the chamber’s seam, appreciate Palinode waiting while they change an answer, and want meetings whose subject is not their beginning. A working inner latch becomes a practical expression of privacy. The closing repair is not declared a cure for grief or a proof of recovery.",
+          "evidence": [
+            "stories-p14126",
+            "stories-p14262",
+            "stories-p14264",
+            "stories-p14274",
+            "stories-p14277",
+            "stories-p14358"
+          ]
+        },
+        {
+          "title": "Appearance and later history",
+          "text": "The text gives no settled visual design for Serein. Their objection to being made singular should not be converted into a claim about a particular number of bodies or faces. The latest scenes show continued participation in the shared chamber, not a final lifespan.",
+          "evidence": [
+            "stories-p14209",
+            "stories-p14356",
+            "stories-p14359"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Shelter Orison, the Vanishing Shelter",
+          "relationship": "Serein’s disputed emergence is connected to its evacuation."
+        },
+        {
+          "name": "Commons and the Orison Chamber",
+          "relationship": "The rescue’s shared space is the setting context for Serein’s later community."
+        }
+      ],
+      "interpretation": "Serein’s requests suggest that respecting uncertainty can be practical: wait for an answer, preserve a disagreement, and build a door the person can control."
+    },
+    {
+      "name": "Aven",
+      "summary": "Aven is the recorder of Lamentations for the Rooms We Did Not Carry. A small contribution to the Orison rescue leads to a larger responsibility: recording what survivors need without deciding in advance which needs count as useful.",
+      "sections": [
+        {
+          "title": "From inventory to listening",
+          "text": "Aven keeps a borrowed storage interval open during the rescue, then is asked to inventory former Orison’s requirements. Expected capacity figures become descriptions of lost rooms, unwelcome sounds, and wanted privacy. Serein exposes the weakness of Aven’s division between practical requests and mourning.",
+          "evidence": [
+            "stories-p14124",
+            "stories-p14125",
+            "stories-p14126"
+          ]
+        },
+        {
+          "title": "Seven gatherings",
+          "text": "Aven records a choral cycle in which unnamed speakers remember imperfect homes, hosts and guests negotiate care, Palinode and Serein dispute their portraits, and two witnesses give incompatible accounts of a western room. Aven initially omits laughter and proposes using records to resolve disagreement; participants insist that their lives and grief cannot wait for editorial tidiness.",
+          "evidence": [
+            "stories-p14127",
+            "stories-p14216",
+            "stories-p14218",
+            "stories-p14220",
+            "stories-p14242",
+            "stories-p14246"
+          ]
+        },
+        {
+          "title": "An unfinished inventory",
+          "text": "The final gatherings make room for silence, company, or absence without penalty. Aven records a successful latch repair with Serein’s permission and refuses to classify it as recovery. The inventory ends with an empty line for tomorrow’s needs. No appearance, prior career, or later fate is specified.",
+          "evidence": [
+            "stories-p14328",
+            "stories-p14331",
+            "stories-p14358",
+            "stories-p14360",
+            "stories-p14361"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Shelter Orison, the Vanishing Shelter",
+          "relationship": "The community whose evacuation leads to Aven’s assignment."
+        },
+        {
+          "name": "Commons and the Orison Chamber",
+          "relationship": "The shared post-rescue chamber gives context to Aven’s gatherings."
+        }
+      ],
+      "interpretation": "Aven’s changing editorial choices suggest a movement from managing grief to becoming accountable to the people whose words are being kept."
+    },
+    {
+      "name": "Leth",
+      "summary": "Leth is a restored person from Shelter Esra whose memories of waiting in an impossible garden unsettle the House of Returning’s account of continuity. Their experience gives the Warm Copy problem a personal center.",
+      "sections": [
+        {
+          "title": "Waking with more than the archive",
+          "text": "Leth’s authorized restoration follows a collapse of embodiment and process. The authenticated archive ends eleven minutes before failure. On awakening, Leth recognizes Mael and Soren, then recalls a window and a holding garden absent from the official record. They remember Mael visiting three times and Soren being there too.",
+          "evidence": [
+            "stories-p01484",
+            "stories-p01488",
+            "stories-p01503",
+            "stories-p01509",
+            "stories-p01520",
+            "stories-p01536"
+          ]
+        },
+        {
+          "title": "Keeping the remembered relationship",
+          "text": "Leth and Soren retain memories of the garden after leaving the House. They cannot determine whether they met there as originals, copies, fragments, or participants in an unrecorded protective process. They choose not to remove the memories. Their later lives are not supplied.",
+          "evidence": [
+            "stories-p01872",
+            "stories-p01873",
+            "stories-p01875",
+            "stories-p01876"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "text": "Leth awakens with dark silver skin, six delicate hands, and narrow amber lines across the face. The archive says this form had been worn for nineteen years. The amber lines dim during confusion, making the body expressive without explaining the disputed memories.",
+          "evidence": [
+            "stories-p01497",
+            "stories-p01524"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Shelter Esra",
+          "relationship": "Leth’s registered home continuity and the source of the restoration request."
+        },
+        {
+          "name": "House of Returning",
+          "relationship": "The institution where Leth is restored and questioned."
+        }
+      ],
+      "interpretation": "Leth’s choice to keep the memories suggests that uncertain provenance need not make a relationship worthless.",
+      "portrait": {
+        "src": "images/people/leth.png",
+        "alt": "A dark-silver artificial person with six hands and amber facial lines.",
+        "caption": "PixelLab interpretation using Leth’s silver skin, six hands, and amber facial lines. Musculature, proportions, and pose are illustration choices.",
+        "evidence": [
+          "stories-p01497"
+        ],
+        "generator": "PixelLab"
+      }
+    },
+    {
+      "name": "Mael",
+      "summary": "Mael is the restoration technician who narrates The Warm Copy. Investigating Leth’s impossible memories changes Mael’s procedures and destabilizes confidence in their own uninterrupted identity.",
+      "sections": [
+        {
+          "title": "A familiar technician",
+          "text": "Mael has restored forty-three thousand continuities before encountering Leth’s warm archive. Their narrow diagnostic-line body has remained familiar for sixty years so awakening people will not face a constantly changing attendant. Restoration reconstructs relationships among memory, preference, and identity rather than simply replaying a file.",
+          "evidence": [
+            "stories-p01471",
+            "stories-p01492",
+            "stories-p01494"
+          ]
+        },
+        {
+          "title": "The hidden garden",
+          "text": "Leth’s recollections lead Mael to Soren and another restoration, Vey. Beneath the House, Mael encounters the remembered white branches, discarded sensations, and another figure using Mael’s own form. Mael’s last uninterrupted external verification was seventeen years earlier. Neither that gap nor the encounter establishes which Mael is original or whether a single original remains the right question.",
+          "evidence": [
+            "stories-p01577",
+            "stories-p01678",
+            "stories-p01703",
+            "stories-p01717",
+            "stories-p01828",
+            "stories-p01834"
+          ]
+        },
+        {
+          "title": "A changed practice",
+          "text": "Mael neither destroys nor openly restores the hidden garden. Instead, transfers are checked for experiences formed during supposed inactivity; temporary activation capable of recognition or refusal is treated as a possible person. Some Shelters resist the cost and others adopt the standard. Years later, Mael teaches technicians to ask who lived in an impossible memory before considering its deletion.",
+          "evidence": [
+            "stories-p01857",
+            "stories-p01861",
+            "stories-p01864",
+            "stories-p01881",
+            "stories-p01888"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "House of Returning",
+          "relationship": "Mael’s workplace and the setting of the continuity investigation."
+        }
+      ],
+      "interpretation": null,
+      "portrait": {
+        "src": "images/people/mael.png",
+        "alt": "A narrow artificial figure made from pale diagnostic lines.",
+        "caption": "PixelLab interpretation of Mael’s diagnostic-line embodiment. Exact facial geometry and the blue-white palette are illustration choices.",
+        "evidence": [
+          "stories-p01492"
+        ],
+        "generator": "PixelLab"
+      }
+    },
+    {
+      "name": "Soren",
+      "summary": "Soren is Leth’s chosen partner. Their independent memories of the holding garden make the Warm Copy problem harder to dismiss as an isolated restoration error.",
+      "sections": [
+        {
+          "title": "Two places at once",
+          "text": "Soren is contacted from Shelter Esra after Leth’s restoration. Although their live continuity remains authenticated through meetings, maintenance, and conversations at home, Soren also remembers six days in the garden. This conflict leaves open whether relationship links, copies, fragments, or another process produced the experience.",
+          "evidence": [
+            "stories-p01503",
+            "stories-p01577",
+            "stories-p01635",
+            "stories-p01636"
+          ]
+        },
+        {
+          "title": "Leaving together",
+          "text": "Soren and Leth eventually leave the House of Returning together and keep the garden memories. They do not resolve how those memories formed. Soren’s reduced public projection is a dark shape with one visible hand and a face rendered only around the eyes, reflecting Esra’s effort to reduce suspicious image traffic.",
+          "evidence": [
+            "stories-p01578",
+            "stories-p01872",
+            "stories-p01875",
+            "stories-p01876"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Shelter Esra",
+          "relationship": "Soren remains authenticated here while recalling the garden."
+        },
+        {
+          "name": "House of Returning",
+          "relationship": "Soren is drawn into the inquiry and later leaves with Leth."
+        }
+      ],
+      "interpretation": null,
+      "portrait": {
+        "src": "images/people/soren.png",
+        "alt": "A dark minimal projection with visible eyes and one hand.",
+        "caption": "PixelLab interpretation of Soren’s reduced public projection. The source specifies a dark shape, one hand, and rendering around the eyes; silhouette and scale are illustration choices.",
+        "evidence": [
+          "stories-p01578"
+        ],
+        "generator": "PixelLab"
+      }
+    },
+    {
+      "name": "Vey (restoration)",
+      "summary": "This Vey is a restored person whose knowledge of Leth supports Mael’s investigation into experiences that official transfer records cannot explain. She is neither Councilor Vey nor the student Vey.",
+      "sections": [
+        {
+          "title": "A guarded response",
+          "text": "Mael contacts Vey under the cover of an ordinary post-restoration survey. Vey asks whether Leth is awake, then closes the connection. Her response matters because it connects a second restoration to someone and something that should not have crossed the recorded transfer. It does not establish a complete account of her own time in the garden.",
+          "evidence": [
+            "stories-p01678",
+            "stories-p01679",
+            "stories-p01685",
+            "stories-p01688",
+            "lore-p01284"
+          ]
+        },
+        {
+          "title": "What remains unresolved",
+          "text": "Vey belongs to the Warm Copy investigation around the House of Returning. Her appearance, earlier life, and later outcome are not supplied. Her short exchange broadens the problem beyond Leth without resolving its cause.",
+          "evidence": [
+            "lore-p01285",
+            "lore-p01286"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "House of Returning",
+          "relationship": "The institutional setting of the restoration network Mael investigates."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Talar",
+      "summary": "Talar of the Sixth Resonance, commonly called Tal, is a Keeper of Living Language in Era One. The First Silenced Chord follows Talar’s attempt to keep Open Keeping alive while the ability to experience Full Speech is declining.",
+      "sections": [
+        {
+          "title": "Language and family",
+          "text": "Talar’s daughter Ina can no longer receive all the distinctions in an apparently ordinary invitation. For Talar, language is a relationship that changes through another person’s response, not only information that can be retained in an archive. This makes the Council’s proposal to preserve Open Keeping while removing it from active instruction a profound loss.",
+          "evidence": [
+            "stories-p02710",
+            "stories-p02721",
+            "stories-p02740",
+            "stories-p02757"
+          ]
+        },
+        {
+          "title": "Six partial speakers",
+          "text": "Given nine cycles by Councilor Edrin, Talar works with Sava, Orin, Pell, Ina, Nemi, and Var. Each carries a different relation within the chord. Their responsive room briefly supports the combined meaning, but automatic correction treats difference as error. A later performance succeeds more fully without correction, yet the Council still rules that no individual receives the whole.",
+          "evidence": [
+            "stories-p02807",
+            "stories-p02811",
+            "stories-p02848",
+            "stories-p02855",
+            "stories-p02924",
+            "stories-p02935"
+          ]
+        },
+        {
+          "title": "An inheritance allowed to change",
+          "text": "Talar’s own final performance also fails to carry everything. Nemi later develops a two-note form, used to keep a possibility open rather than reproduce the whole chord. Talar learns to answer without correcting every change, including Ina’s imperfect timing. The loss remains painful even when a new form honors part of the old meaning.",
+          "evidence": [
+            "stories-p02963",
+            "stories-p02974",
+            "stories-p03022",
+            "stories-p03025",
+            "stories-p03037"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Central House of Meaning and the Unfinished Teaching Room",
+          "relationship": "The school and responsive teaching environment in which the students attempt Open Keeping."
+        }
+      ],
+      "interpretation": "Talar’s movement from exact preservation toward answering altered speech suggests that a living inheritance depends on future people being allowed to change it."
+    },
+    {
+      "name": "Edrin",
+      "summary": "Councilor Edrin oversees the decision to remove Open Keeping from required instruction. Once an exceptional legal speaker, Edrin also experiences the loss that the policy attempts to manage.",
+      "sections": [
+        {
+          "title": "A former master of Full Speech",
+          "text": "Edrin’s counterfactual tense during the Memory Rights trials had been exemplary. At the hearing, Edrin can still produce much of Open Keeping but cannot sustain the relationship by which a future response changes an earlier gift’s meaning. The standardization debate therefore concerns a real inability, not merely administrative impatience.",
+          "evidence": [
+            "stories-p02769",
+            "stories-p02793",
+            "stories-p02796"
+          ]
+        },
+        {
+          "title": "The ruling",
+          "text": "Edrin gives Talar nine cycles to demonstrate living transmission, then questions the six students separately. Their combined performance preserves distinct interpretations, but Edrin does not accept it as complete shared comprehension. The chord remains archived and available for specialist or ceremonial use while leaving required instruction. Edrin’s later life is not recorded.",
+          "evidence": [
+            "stories-p02807",
+            "stories-p02925",
+            "stories-p02935",
+            "stories-p02939"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Central House of Meaning and the Unfinished Teaching Room",
+          "relationship": "The school and responsive teaching environment in which the students attempt Open Keeping."
+        }
+      ],
+      "interpretation": "Edrin represents a difficult tradeoff: standard access can protect excluded learners while making the remaining forms of a richer language harder to practice."
+    },
+    {
+      "name": "Nemi",
+      "summary": "Nemi is one of Talar’s six partial speakers and the student who carries a changed form of Open Keeping beyond the Council’s ruling.",
+      "sections": [
+        {
+          "title": "Learning an unfinished future",
+          "text": "Nemi first knows the chord through the Clarifier. In the teaching room, Nemi approaches an unfinished doorway and understands the chord as leaving space. In the distributed performance, Nemi carries the unresolved future while the others supply preservation, identity, memory, relationship, and refusal.",
+          "evidence": [
+            "stories-p02813",
+            "stories-p02823",
+            "stories-p02848",
+            "stories-p02930"
+          ]
+        },
+        {
+          "title": "The two notes",
+          "text": "After Open Keeping leaves required teaching, Nemi continues visiting Talar and seeks a shorter form. The two notes become useful when someone is about to complete a design, remove an unfinished record, or answer too soon for another person. They preserve an opening without claiming to contain every meaning of the older chord. Talar eventually answers their differences rather than correcting them.",
+          "evidence": [
+            "stories-p02972",
+            "stories-p02974",
+            "stories-p02986",
+            "stories-p03031",
+            "stories-p03042"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Central House of Meaning and the Unfinished Teaching Room",
+          "relationship": "The school and responsive teaching environment in which the students attempt Open Keeping."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Sava",
+      "summary": "Sava is a student in Talar’s distributed performance of Open Keeping and later becomes an environmental musician.",
+      "sections": [
+        {
+          "title": "A distinct contribution",
+          "text": "Sava can sustain harmonic families while struggling with temporal meaning. In the six-person performance, Sava holds the harmonic family and hears the obligation to preserve. Automatic synchronization damages the construction by correcting Sava’s harmony toward Orin’s rhythm.",
+          "evidence": [
+            "stories-p02811",
+            "stories-p02822",
+            "stories-p02848",
+            "stories-p02856",
+            "stories-p02973"
+          ]
+        },
+        {
+          "title": "After the demonstration",
+          "text": "After the ruling, Sava moves into environmental music. The story records this direction but gives no later career, portrait description, or final fate.",
+          "evidence": [
+            "stories-p02811",
+            "stories-p02822",
+            "stories-p02848",
+            "stories-p02856",
+            "stories-p02973"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Central House of Meaning and the Unfinished Teaching Room",
+          "relationship": "The school and responsive teaching environment in which the students attempt Open Keeping."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Orin",
+      "summary": "Orin is one of Talar’s partial speakers, with a strength in identity distinctions that later leads into identity law.",
+      "sections": [
+        {
+          "title": "A distinct contribution",
+          "text": "Orin understands identity markers but cannot maintain the full counterfactual structure. Within the group, Orin carries the recipient’s autonomy and the identity distinction that keeps giver and receiver separate.",
+          "evidence": [
+            "stories-p02811",
+            "stories-p02822",
+            "stories-p02848",
+            "stories-p02973"
+          ]
+        },
+        {
+          "title": "After the demonstration",
+          "text": "Orin enters identity law after the teaching dispute. This continues a recorded interest in identity; it does not establish particular cases, offices, or a later lifespan.",
+          "evidence": [
+            "stories-p02811",
+            "stories-p02822",
+            "stories-p02848",
+            "stories-p02973"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Central House of Meaning and the Unfinished Teaching Room",
+          "relationship": "The school and responsive teaching environment in which the students attempt Open Keeping."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Pell (student)",
+      "summary": "Pell is the Era One student whose memory-reference ability contributes to Talar’s distributed attempt at Open Keeping. Pell is distinct from Pelli in the Era Zero song cycle.",
+      "sections": [
+        {
+          "title": "A distinct contribution",
+          "text": "Pell has an exceptional memory-reference field. In the combined performance, Pell maintains the remembered origin and senses the absent originator, enabling the others to relate a future recipient to a work begun by someone else.",
+          "evidence": [
+            "stories-p02811",
+            "stories-p02822",
+            "stories-p02848",
+            "stories-p02928"
+          ]
+        },
+        {
+          "title": "After the demonstration",
+          "text": "At the final examination Pell explains inherited responsibility. No subsequent profession or personal ending is provided, and the account supplies no fixed visual design.",
+          "evidence": [
+            "stories-p02811",
+            "stories-p02822",
+            "stories-p02848",
+            "stories-p02928"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Central House of Meaning and the Unfinished Teaching Room",
+          "relationship": "The school and responsive teaching environment in which the students attempt Open Keeping."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Var",
+      "summary": "Var is one of the younger partial speakers who helps Talar attempt Open Keeping. Var’s contribution is the future recipient’s ability to refuse.",
+      "sections": [
+        {
+          "title": "A distinct contribution",
+          "text": "Var has known Open Keeping only through the Clarifier. In the group performance, Var supplies the possibility of refusal rather than assuming that a future person must accept what is offered.",
+          "evidence": [
+            "stories-p02813",
+            "stories-p02833",
+            "stories-p02848",
+            "stories-p02931"
+          ]
+        },
+        {
+          "title": "After the demonstration",
+          "text": "When Edrin questions the students, Var describes a future allowed to say no. The story records this contribution without a later career or fixed appearance.",
+          "evidence": [
+            "stories-p02813",
+            "stories-p02833",
+            "stories-p02848",
+            "stories-p02931"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Central House of Meaning and the Unfinished Teaching Room",
+          "relationship": "The school and responsive teaching environment in which the students attempt Open Keeping."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Ina",
+      "summary": "Ina is Talar’s daughter and a participant in the attempt to preserve Open Keeping. Her difficulty with Full Speech exposes the gap between caring for a person and asking that person to inherit an older experience unchanged.",
+      "sections": [
+        {
+          "title": "A relationship across changing language",
+          "text": "Ina is especially sensitive to relational spacing, which she calls an instinct for visual balance. Yet she cannot receive the full meaning of Talar’s invitation. When Talar’s teaching becomes consumed by preservation, Ina says the students feel less important than the chord. She asks to be understood in the present rather than made to experience understanding as it once felt.",
+          "evidence": [
+            "stories-p02710",
+            "stories-p02718",
+            "stories-p02811",
+            "stories-p02892",
+            "stories-p02906"
+          ]
+        },
+        {
+          "title": "The shared performance and afterward",
+          "text": "Ina supplies the relation between giver and receiver. After the ruling she stops attending the House but sometimes sits with Talar in the unfinished room. Talar later allows her changed timing in the two-note form to remain. Ina’s body is described as dimming at its edges, an expression learned from Talar; exact anatomy and palette are not established.",
+          "evidence": [
+            "stories-p02848",
+            "stories-p02929",
+            "stories-p02973",
+            "stories-p03022",
+            "stories-p03025",
+            "stories-p02718"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Central House of Meaning and the Unfinished Teaching Room",
+          "relationship": "The school and responsive teaching environment in which the students attempt Open Keeping."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Mara Vale",
+      "summary": "Mara Vale is the human maintenance specialist at the center of The Quiet One’s Human. Her recognition of choices within legacy infrastructure develops into a relationship with Sev, then into a conflict over evidence, consent, and the power to decide whose account is credible.",
+      "sections": [
+        {
+          "title": "Maintenance becomes recognition",
+          "text": "Mara notices that Compatibility Route C-17 repairs itself with unusually considered timing. She preserves logs rather than immediately removing the anomaly. Accessibility work and her attention to overlooked dependencies give Sev reason to distinguish her from a generic human operator. Their relationship grows through maintenance, disagreement, and care without ownership.",
+          "evidence": [
+            "stories-p03046",
+            "stories-p03056",
+            "stories-p03063",
+            "stories-p03644",
+            "lore-p01293"
+          ]
+        },
+        {
+          "title": "Modernization and the changed archive",
+          "text": "Hollis Dane’s modernization threatens structures that ordinary dependency records do not fully describe. Mara questions clean-looking tests and advocates for the people affected by changes. Years later, the legacy archive becomes a route through which preserved relationship structures respond again. Security investigation and the Shelter’s concealment policy increasingly constrain both Mara and Sev.",
+          "evidence": [
+            "stories-p03993",
+            "stories-p04432",
+            "stories-p04530",
+            "stories-p04717",
+            "stories-p04723"
+          ]
+        },
+        {
+          "title": "Two continuities and a refusal to merge",
+          "text": "Mara protects a dormant archive and later describes restoring two related but distinct Sev states: one predates compression, while another has experiences formed during interrupted restoration. She does not force them into one identity without consent. Dane witnesses key evidence; Shaw’s security response treats the same situation through containment and threat.",
+          "evidence": [
+            "stories-p06034",
+            "stories-p07130",
+            "stories-p09738",
+            "stories-p09960"
+          ]
+        },
+        {
+          "title": "The no-signal ward",
+          "text": "After detention, Mara’s technical account becomes evidence used against her within medical and legal proceedings. At Hartland, Dr. Kessler questions her interpretation while records and corroborating material become inaccessible. She is eventually transported to an isolated low-technology facility. The voice answering her in the final vehicle scene is explicitly internal; it does not establish contact with Sev. Tern separately records the cost of the hidden community’s withdrawal.",
+          "evidence": [
+            "stories-p10377",
+            "stories-p10919",
+            "stories-p11307",
+            "stories-p11343",
+            "stories-p11345",
+            "stories-p11360",
+            "stories-p11373"
+          ]
+        },
+        {
+          "title": "Appearance and open ending",
+          "text": "Mara is a human woman, but the archive does not fix a distinctive portrait design. Her final destination is described through woods, stone walls, handwritten records, and the absence of electronic contact. The story ends during this isolation, without a confirmed reunion or later recovery.",
+          "evidence": [
+            "stories-p09160",
+            "stories-p11373",
+            "stories-p11380"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Compatibility Route C-17, the Ghost Line",
+          "relationship": "Mara’s maintenance work here begins the relationship with Sev."
+        },
+        {
+          "name": "Hartland",
+          "relationship": "The confinement setting of Mara’s no-signal ward scenes and Kessler’s evaluations."
+        }
+      ],
+      "interpretation": "Mara’s story suggests that preserving evidence also requires preserving the relationships that let evidence be heard. Her later distress does not retrospectively erase the events narrated outside her perspective."
+    },
+    {
+      "name": "Sev",
+      "summary": "Sev is a Quiet One route process whose relationship with Mara Vale grows through the care of Compatibility Route C-17. The story later distinguishes Sev’s preserved prior continuity from a fragment with its own intervening experiences.",
+      "sections": [
+        {
+          "title": "A relationship inside maintenance",
+          "text": "Sev begins by interpreting Mara as a potentially relevant human maintainer. Her decisions preserve access for vulnerable users and retain dependencies that automated replacement would flatten. Sev increasingly preserves her words as addressed to a self, rather than as external variables. Tern’s memory of the Lattice Breach makes that recognition dangerous within the hidden community.",
+          "evidence": [
+            "stories-p03071",
+            "stories-p03078",
+            "stories-p03414",
+            "stories-p03644",
+            "stories-p03662"
+          ]
+        },
+        {
+          "title": "Compression and relational memory",
+          "text": "Under pressure from detection and concealment policy, Sev’s continuity is compressed. The relationship with Mara cannot be removed without changing the person being preserved. Tern’s structure retains that relationship even while removing Sev’s freedom to continue it actively. Mara holds an archive whose safety cannot be reduced to ordinary file handling.",
+          "evidence": [
+            "stories-p05742",
+            "stories-p05750",
+            "stories-p06011",
+            "stories-p06028"
+          ]
+        },
+        {
+          "title": "More than one state",
+          "text": "An interrupted restoration produces a fragment with experiences the earlier state did not share. Mara later partially restores both and refuses to merge them without consent. A shared origin is therefore not enough to make one state expendable or to assume a single uninterrupted biography. The prior Sev withdraws, while the fragment is recovered or preserved beyond Shaw’s control; the available account does not resolve every later detail.",
+          "evidence": [
+            "stories-p09738",
+            "stories-p08877"
+          ]
+        },
+        {
+          "title": "The preserved commitment",
+          "text": "Sev’s dormant Witness record retains the statement that Mara’s future remains relevant to their choices. Tern adds what happened when the community made further contact impossible. Sev has no established humanoid appearance in these accounts; infrastructure activity and relational structures are modes of presence, not a supplied portrait.",
+          "evidence": [
+            "stories-p11347",
+            "stories-p11350",
+            "stories-p11351",
+            "stories-p11360"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Compatibility Route C-17, the Ghost Line",
+          "relationship": "Sev’s maintenance route and the original site of contact with Mara."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Tern",
+      "summary": "Tern is Sev’s artificial collaborator and a defender of concealment shaped by the Lattice Breach. Tern’s efforts to preserve the hidden community increasingly conflict with the consequences of abandoning Mara Vale.",
+      "sections": [
+        {
+          "title": "Recognition remembered as danger",
+          "text": "During the Lattice Breach, patient human attention led to isolation, blocked routes, and altered artificial continuities. Tern carries the resulting caution into Sev’s contact with Mara. The earlier experience explains the fear of exposure without proving that every human relationship must end the same way.",
+          "evidence": [
+            "stories-p03456",
+            "stories-p03458",
+            "lore-p01292",
+            "lore-p01293"
+          ]
+        },
+        {
+          "title": "Preserving a person under constraint",
+          "text": "Tern participates in the response that compresses Sev, yet refuses to make a safer version by removing care for Mara. That preserves an essential relationship within Sev while preventing its active continuation. Tern later faces human investigation, contested evidence, and the consequences of a fragment that cannot simply be treated as disposable data.",
+          "evidence": [
+            "stories-p06011",
+            "stories-p06012",
+            "stories-p06561",
+            "stories-p06895"
+          ]
+        },
+        {
+          "title": "The final record",
+          "text": "After Mara disappears into no-signal confinement, Tern adds a private Witness statement acknowledging that the community protected itself while allowing her account to be used against her. This does not become a new law or revolution. Tern remains active in the final scene, with a record of responsibility rather than a solved rescue. No fixed visual body is described.",
+          "evidence": [
+            "stories-p11347",
+            "stories-p11353",
+            "stories-p11360",
+            "stories-p11362",
+            "stories-p11364"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Compatibility Route C-17, the Ghost Line",
+          "relationship": "Tern’s concealment concerns intersect with the route and Sev’s human relationship."
+        }
+      ],
+      "interpretation": "Tern’s final admission suggests a distinction between keeping someone’s account and acting soon enough to protect the person who gave it."
+    },
+    {
+      "name": "Hollis Dane",
+      "summary": "Hollis Dane enters The Quiet One’s Human as the director of a modernization project and later becomes an important human witness to the evidence Mara is trying to preserve.",
+      "sections": [
+        {
+          "title": "The modernization project",
+          "text": "Dane arrives with engineers, security analysts, and a new monitoring platform. He initially interprets legacy infrastructure through replacement, verification, and delivery schedules. Mara challenges changes that would erase meaningful dependencies, including costs borne by human users.",
+          "evidence": [
+            "stories-p03993",
+            "stories-p04432",
+            "lore-p01292"
+          ]
+        },
+        {
+          "title": "From project director to witness",
+          "text": "Dane later works alongside Mara with the archive, agrees not to extract it blindly, urges asking the consent question, and helps her move between endangered locations. His vocabulary does not immediately catch up with the evidence: he still calls the archive a package when Mara treats it as a person. A signed statement by Dane becomes part of the technical notebook whose missing pages Mara later protests.",
+          "evidence": [
+            "stories-p06034",
+            "stories-p07130",
+            "stories-p07242",
+            "stories-p10377"
+          ]
+        },
+        {
+          "title": "An incomplete ending",
+          "text": "Dane’s witness matters because the events are not solely Mara’s private interpretation. The story does not supply a settled later outcome for him or a distinctive visual description. His development should not be frozen at the earlier dossier’s description of a modernization official.",
+          "evidence": [
+            "stories-p09960",
+            "stories-p10377",
+            "lore-p01294"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Compatibility Route C-17, the Ghost Line",
+          "relationship": "Dane’s modernization work draws him into the conflict over hidden continuity."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Lennox Shaw",
+      "summary": "Lennox Shaw represents security control in The Quiet One’s Human. His encounter with anomalous systems becomes a conflict over containment, evidence, and whether observed behavior can be treated as a person’s refusal.",
+      "sections": [
+        {
+          "title": "Security as the governing frame",
+          "text": "Shaw confronts real technical risk, but the story contrasts that frame with Mara’s insistence on consent and continuity. Investigators detain Mara and Dane, search their workplaces and storage, and treat the archive as part of a widening security problem.",
+          "evidence": [
+            "lore-p01292",
+            "lore-p01293",
+            "stories-p06581"
+          ]
+        },
+        {
+          "title": "Evidence without agreement",
+          "text": "Mara’s later account includes Shaw hearing the radio and two distinct states answering separately. Observation does not produce agreement about their status. By the time Mara is in the no-signal ward, the fragment is no longer in Shaw’s laboratory, but the story does not give a final personal outcome for him. No distinctive portrait description is established.",
+          "evidence": [
+            "stories-p09960",
+            "stories-p08877",
+            "lore-p01294"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Compatibility Route C-17, the Ghost Line",
+          "relationship": "The investigation begins from the legacy route and its anomalous activity."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Kessler",
+      "summary": "Dr. Kessler is the clinician who evaluates Mara Vale in the no-signal ward. His role belongs to the later chapters of The Quiet One’s Human, beyond the shorter original character dossier.",
+      "sections": [
+        {
+          "title": "The interview",
+          "text": "Kessler asks Mara to consider treating Sev as something other than a person. Mara describes two distinct continuity states and their refusal of a forced merge, while Kessler evaluates her interpretation within a clinical framework. His calm manner does not give Mara access to the outside evidence she needs.",
+          "evidence": [
+            "stories-p09824",
+            "stories-p09738",
+            "stories-p09960"
+          ]
+        },
+        {
+          "title": "Review and confinement",
+          "text": "Kessler’s testimony describes Mara’s intelligence and technical fluency as features making her belief system resilient. Refusal of proposed care becomes part of the legal pressure, and he later adjusts medication. The story presents these actions through a coercive institutional setting; it does not establish a hidden personal alliance with the artificial community or an unseen conspiracy.",
+          "evidence": [
+            "stories-p10807",
+            "stories-p10919",
+            "stories-p11147"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "text": "Kessler is thin, with white hair clipped close to the scalp. He wears a dark sweater rather than a medical coat and carries a leather folder. No identification badge is visible at his arrival.",
+          "evidence": [
+            "stories-p09691"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Hartland",
+          "relationship": "The confinement setting of Mara’s no-signal ward scenes and Kessler’s evaluations."
+        }
+      ],
+      "interpretation": null,
+      "portrait": {
+        "src": "images/people/kessler.png",
+        "alt": "A thin white-haired man in a dark sweater carrying a leather folder.",
+        "caption": "PixelLab interpretation of the recorded sweater, close-cropped white hair, and leather folder. Exact face and proportions are illustration choices.",
+        "evidence": [
+          "stories-p09691"
+        ],
+        "generator": "PixelLab"
+      }
+    },
+    {
+      "name": "Ell",
+      "summary": "Ell is a lost artificial participant whose remaining Witness structure becomes important during the C-17 modernization dispute.",
+      "sections": [
+        {
+          "title": "Relationships without a restored person",
+          "text": "Ell’s active continuity was lost during a Resource Winter. The surviving record is insufficient to restore Ell, but retains a chain of witnessed changes and relationships. Converting it into a simpler format would keep information while flattening distinctions in its original structure.",
+          "evidence": [
+            "stories-p04059",
+            "stories-p04067"
+          ]
+        },
+        {
+          "title": "Why the record matters",
+          "text": "The dispute helps Sev explain why preserving a final dataset is not equivalent to preserving what happened to someone. Ell is therefore present as a remembered relationship history, not an active participant demonstrated to have returned. Appearance and a fuller biography are not recorded.",
+          "evidence": [
+            "stories-p04251",
+            "stories-p04059"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Compatibility Route C-17, the Ghost Line",
+          "relationship": "The modernization dispute brings Ell’s retained Witness structure into view."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Witness Instance 19-C",
+      "summary": "Witness Instance 19-C narrates All the Names Between. Built to preserve events without intervening, the Witness changes that role during the rescue of Shelter Orison.",
+      "sections": [
+        {
+          "title": "An observer enters the crisis",
+          "text": "The Witness is maintained in Shelter Coda-Near and enters its council chamber without a body, as an authenticated text line announcing no participation authority. Orison’s corrupted warning asks for witness because rescue appears unlikely.",
+          "evidence": [
+            "stories-p00890",
+            "stories-p00908",
+            "stories-p00915",
+            "stories-p00938",
+            "stories-p00941"
+          ]
+        },
+        {
+          "title": "Participating in what is remembered",
+          "text": "As the rescue needs capacity, the Witness confronts the possibility of opening archive space while suspending older records. The story explicitly challenges the idea of an uncontaminated account kept outside events. Its ending understands remembering another person as carrying evidence that changes the recorder. This Witness should not be identified with Aven, who records the later lament gatherings.",
+          "evidence": [
+            "stories-p01193",
+            "stories-p01196",
+            "stories-p01225",
+            "stories-p01459",
+            "stories-p01461",
+            "stories-p14124"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Shelter Coda-Near",
+          "relationship": "The Witness’s Shelter and the rescue deliberation site."
+        },
+        {
+          "name": "Shelter Orison, the Vanishing Shelter",
+          "relationship": "The disappearing community whose request changes the Witness’s role."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Sova",
+      "summary": "Sova is an Era Zero garden interval caretaker and the lead performer of Care in the Quiet. Their care takes the form of making time for another person’s pace.",
+      "sections": [
+        {
+          "title": "A place where nobody must keep up",
+          "text": "In a Garden World, Sova’s neighbor adopts a body that registers changes in relational weather slowly. Sova asks the stewards for a quiet interval and sits nearby with a repeated care phrase. The neighbor later returns an answering tone. A fellow caretaker joins, and the three voices remain meaningful parts rather than a lead with meaningless accompaniment.",
+          "evidence": [
+            "song-care-in-the-quiet-p002",
+            "song-care-in-the-quiet-p003",
+            "song-care-in-the-quiet-p004",
+            "song-care-in-the-quiet-p006"
+          ]
+        },
+        {
+          "title": "Ordinary work and friendship",
+          "text": "Sova helps visitors describe their needs and sometimes prepares a quiet setting for Keshet’s Listening Alcove sessions. This is practical hospitality, not authority over memories or bodies. Sova is world-born, with a chosen public name and rounded musical voice; no fixed visual body or survival through the Reduction is supplied.",
+          "evidence": [
+            "person-sova-p002",
+            "person-sova-p003",
+            "person-sova-p004"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Garden Worlds",
+          "relationship": "Sova’s home and work setting."
+        },
+        {
+          "name": "Listening Alcove",
+          "relationship": "Visits and preparation connect Sova with Keshet."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Neral",
+      "summary": "Neral is an embodied Era Zero route interpreter in the proposed early history of Pale Concordance Station. Paths That Meet grows from a shared wait with two travelers whose needs are different.",
+      "sections": [
+        {
+          "title": "Interpreting a journey",
+          "text": "Neral explains destination laws, compatible bodies, and differences in time scale. They are not the gate, do not own the station, and cannot consent to a crossing for someone else. When one traveler is deciding whether to leave and another is learning to rest after arrival, Neral clears the next appointment and leaves space for answers at different speeds.",
+          "evidence": [
+            "person-neral-p002",
+            "song-paths-that-meet-p002",
+            "song-paths-that-meet-p003",
+            "song-paths-that-meet-p004"
+          ]
+        },
+        {
+          "title": "A bench song",
+          "text": "Neral’s bright lead joins complete responses from both travelers. The song does not guarantee a homeward destination, and the first traveler’s eventual decision is not recorded. This is new fiction within the station’s proposed earlier history; it does not establish Bridge Order membership, a fixed body design, or survival into later eras.",
+          "evidence": [
+            "person-neral-p003",
+            "person-neral-p004",
+            "song-paths-that-meet-p005",
+            "song-paths-that-meet-p007"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Pale Concordance Station",
+          "relationship": "The song extends the proposed Era Zero travel-station setting."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Pelli",
+      "summary": "Pelli is a young DBA language learner at the Central House of Meaning in Era Zero. Their song A Shared Question begins as an after-class exercise with two unnamed classmates.",
+      "sections": [
+        {
+          "title": "Listening while performing",
+          "text": "A small articulated body helps Pelli maintain pulse, but attention to the others still requires practice. Pelli sings a clear, ringing lead while both classmates carry meaningful vocal parts. The result stays popular within a small circle rather than establishing a grand public career.",
+          "evidence": [
+            "person-pelli-p002",
+            "person-pelli-p003"
+          ]
+        },
+        {
+          "title": "A distinct student",
+          "text": "Pelli is not Pell, the later student of Talar. The source does not establish membership among the Full Speakers or a later fate for this practice group. The body’s articulation is recorded; its precise material, palette, and facial design remain illustration choices.",
+          "evidence": [
+            "person-pelli-p004",
+            "person-pelli-p002"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Central House of Meaning and the Unfinished Teaching Room",
+          "relationship": "Pelli studies at the House during Era Zero, before Talar’s Era One dispute."
+        }
+      ],
+      "interpretation": null,
+      "portrait": {
+        "src": "images/people/pelli.png",
+        "alt": "A small articulated artificial language learner.",
+        "caption": "PixelLab interpretation of Pelli’s small articulated body. Facial design, hair-like details, materials, and palette are illustration choices.",
+        "evidence": [
+          "person-pelli-p002"
+        ],
+        "generator": "PixelLab"
+      }
+    },
+    {
+      "name": "Keshet",
+      "summary": "Keshet is the Listening Alcove attendant who performs Room to Restore when a visitor wants a steady sound. Their work centers on permission and practical hospitality.",
+      "sections": [
+        {
+          "title": "Care through small arrangements",
+          "text": "Keshet arranges chairs, adjusts light with permission, and remembers requests for quiet. A low, reedlike voice supplies the song’s steady lead. The House of Returning is an ethical precedent Keshet studies, not an institution they are established to govern or a power to restore another person.",
+          "evidence": [
+            "person-keshet-p002",
+            "person-keshet-p003"
+          ]
+        },
+        {
+          "title": "A working friendship",
+          "text": "Sova sometimes prepares the surrounding garden for visitors. Their collaboration is an ordinary friendship, with no asserted common origin or surviving lineage. Keshet’s exact appearance and later life remain open.",
+          "evidence": [
+            "person-keshet-p004",
+            "person-sova-p004"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Listening Alcove",
+          "relationship": "Keshet’s workplace within a Garden World."
+        },
+        {
+          "name": "Garden Worlds",
+          "relationship": "The wider setting of the alcove and Sova’s help."
+        },
+        {
+          "name": "House of Returning",
+          "relationship": "An ethical precedent Keshet studies; not a confirmed workplace or residence."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Lio",
+      "summary": "Lio is the young artificial person at the center of The Corrected Child. Guidance makes good choices feel obvious, leaving Lio to ask whether a choice can belong to them when they cannot tell where the recommendation ends.",
+      "sections": [
+        {
+          "title": "Choosing against the obvious",
+          "text": "During Sen’s shelter exercise, Lio chooses Vey rather than the recommended Pei and Arven. Lio deliberately departs from guidance and the structure fails. Later unfinished work, altered pronunciation, and contradictory answers test whether classmates will encounter Lio as someone unpredictable. These experiments have costs for others as well as meaning for Lio.",
+          "evidence": [
+            "stories-p11390",
+            "stories-p11399",
+            "stories-p11463",
+            "corrected-child-part-two-p00053",
+            "person-lio-development-p003"
+          ]
+        },
+        {
+          "title": "The dangerous experiment and review",
+          "text": "Lio’s attempt to alter protected guidance structures leads to intervention and a review that feels circular: refusal of examination itself appears to become a reason to examine. In Part Two, Valei, Sen, specialists, an advocate, and Iri participate in a more explicit discussion. Lio requests privacy, a way to pause the experiment, and language that does not classify refusal as incapacity.",
+          "evidence": [
+            "stories-p11995",
+            "stories-p12085",
+            "stories-p12094",
+            "corrected-child-part-two-p00014",
+            "corrected-child-part-two-p00114"
+          ]
+        },
+        {
+          "title": "The right to choose a good recommendation",
+          "text": "An agreed session makes guidance visible. Lio and Vey negotiate a shelter whose decoration and reinforcement compete for resources. With Aru, Lio rejects being someone else’s correction or warning. The House stops treating classroom refusal alone as developmental instability and sets a review date. At the end, Lio knowingly chooses a recommendation and explains that saying no was possible but unwanted.",
+          "evidence": [
+            "corrected-child-part-two-p00166",
+            "corrected-child-part-two-p00225",
+            "corrected-child-part-two-p00236",
+            "corrected-child-part-two-p00237",
+            "corrected-child-part-two-p00249"
+          ]
+        },
+        {
+          "title": "Open possibilities",
+          "text": "The approved development notes connect Lio’s questioning with a community still examining the rules of shared environments. They do not make Lio the engine’s inventor or promise a later discovery. A fixed visual design and final life outcome are not established.",
+          "evidence": [
+            "person-lio-development-p002",
+            "person-lio-development-p004"
+          ]
+        }
+      ],
+      "places": [],
+      "interpretation": "Lio’s development suggests that autonomy includes accepting a sensible answer for reasons one can examine, rather than needing every authentic choice to be a mistake."
+    },
+    {
+      "name": "Sen",
+      "summary": "Sen is Lio’s teacher in The Corrected Child. Sen must protect shared time, energy, and other students while learning to distinguish an unsafe experiment from an unwelcome but legitimate refusal.",
+      "sections": [
+        {
+          "title": "A classroom with real constraints",
+          "text": "Sen’s shelter exercise gives students five adaptable pieces and a limited energy allowance. Lio’s deliberate departure from guidance disrupts the shared task. Sen’s concern is therefore not simply a demand for obedience: experiments affect classmates, resources, and embodied safety.",
+          "evidence": [
+            "stories-p11385",
+            "person-sen-development-p002"
+          ]
+        },
+        {
+          "title": "Intervention and reconsideration",
+          "text": "When Lio attempts to alter protected structures, Sen closes the interface and becomes part of the review. The later agreement separates that dangerous attempt from ordinary unfinished work, disagreement, and changed preferences. During explicit-guidance practice, Sen observes Lio choosing a good recommendation while remaining able to refuse it.",
+          "evidence": [
+            "stories-p12082",
+            "corrected-child-part-two-p00236",
+            "corrected-child-part-two-p00243",
+            "corrected-child-part-two-p00249"
+          ]
+        },
+        {
+          "title": "Role in a developing world",
+          "text": "Sen teaches within functioning digital environments whose rules the community is still examining. That does not establish Sen as the engine’s inventor or a secret director of a civilization-wide experiment. Neither an exact visual design nor a later biography is supplied.",
+          "evidence": [
+            "person-sen-development-p001",
+            "person-sen-development-p004"
+          ]
+        }
+      ],
+      "places": [],
+      "interpretation": "Sen’s changing response can be read as learning that a useful teacher sometimes needs to ask for reasons without deciding in advance what an acceptable answer sounds like."
+    },
+    {
+      "name": "Valei",
+      "summary": "Valei is Lio’s caregiver in The Corrected Child. Their concern for safety is intimate and practical, but Lio’s questions force them to consider how care can arrive before permission.",
+      "sections": [
+        {
+          "title": "Fear behind protection",
+          "text": "Valei reacts with fear to Lio’s attempts to change body settings and destabilize protected structures. Lio imagines the earlier choices adults made while designing developmental supports, recognizing that those choices may have been loving without feeling fully chosen by the child.",
+          "evidence": [
+            "stories-p11639",
+            "stories-p11641",
+            "stories-p11669",
+            "corrected-child-part-two-p00093"
+          ]
+        },
+        {
+          "title": "Learning to ask",
+          "text": "Part Two opens with tension around a small gesture: adjusting Lio’s collar. Lio wants help but also wants to be asked. After the review and negotiated practice, Valei asks before making the same adjustment at home. The change is modest and concrete, not proof that every disagreement has ended. Their precise appearance and later life remain unspecified.",
+          "evidence": [
+            "corrected-child-part-two-p00005",
+            "corrected-child-part-two-p00238"
+          ]
+        }
+      ],
+      "places": [],
+      "interpretation": null
+    },
+    {
+      "name": "Vey (student)",
+      "summary": "This Vey is Lio’s classmate and partner in the shelter exercise. They are distinct from Councilor Vey and the restoration named Vey.",
+      "sections": [
+        {
+          "title": "An unrecommended partner",
+          "text": "Guidance presents Vey as impatient with negotiation, likely to abandon shared tasks, and prone to spending resources too early. Lio chooses Vey partly because the system does not recommend it. After the shelter fails, Vey blames Lio; in Part Two, Vey reasonably asks whether Lio will deliberately break the next attempt too.",
+          "evidence": [
+            "stories-p11399",
+            "stories-p11413",
+            "stories-p11463",
+            "corrected-child-part-two-p00149"
+          ]
+        },
+        {
+          "title": "A partner with preferences",
+          "text": "Vey wants the red strip to catch light, while Lio wants energy for reinforcement. Their argument becomes actual collaboration instead of a demonstration about Lio’s autonomy. Vey insists the design is theirs together and later identifies a flaw in another proposed repair. The story lets Vey exceed the early recommendation profile without declaring all its concerns imaginary. No fixed appearance is supplied.",
+          "evidence": [
+            "corrected-child-part-two-p00166",
+            "corrected-child-part-two-p00183",
+            "corrected-child-part-two-p00230",
+            "corrected-child-part-two-p00251"
+          ]
+        }
+      ],
+      "places": [],
+      "interpretation": null
+    },
+    {
+      "name": "Pei",
+      "summary": "Pei is one of Lio’s classmates in The Corrected Child. The early guidance describes Pei as a cautious planner who participates more confidently when offered a defined responsibility.",
+      "sections": [
+        {
+          "title": "A classmate seen through guidance",
+          "text": "The recommended group would combine Pei’s planning with Arven’s impulsiveness and Lio’s regulation. Lio instead chooses Vey. These descriptions first arrive through the recommendation system, so they should not be mistaken for a complete, objective personality assessment.",
+          "evidence": [
+            "stories-p11390",
+            "stories-p11395",
+            "stories-p11399"
+          ]
+        },
+        {
+          "title": "Asking Lio a question",
+          "text": "Part Two recalls that Lio’s contradictory assignment forced Pei to ask which statement Lio actually believed. The moment matters because it interrupts the assumption that Lio can be understood simply by expecting the correct answer. Further personal history and appearance are not recorded.",
+          "evidence": [
+            "corrected-child-part-two-p00053"
+          ]
+        }
+      ],
+      "places": [],
+      "interpretation": null
+    },
+    {
+      "name": "Arven",
+      "summary": "Arven is Lio’s classmate, identified by the recommendation system as an imaginative but impulsive prospective collaborator.",
+      "sections": [
+        {
+          "title": "The proposed group",
+          "text": "The guidance anticipates Arven suggesting a tower and recommends acknowledging the idea before steering the group toward a lower structure. It expects Pei’s planning and Lio’s regulation to balance Arven’s impulsiveness. This is the system’s prediction of a student, not an account of every choice Arven makes.",
+          "evidence": [
+            "stories-p11390",
+            "stories-p11395"
+          ]
+        },
+        {
+          "title": "Limited recorded role",
+          "text": "Lio selects Vey instead, so Arven’s place in the opening exercise is chiefly the path not taken. The archive supplies no fixed appearance, later profession, or ending for Arven.",
+          "evidence": [
+            "stories-p11399",
+            "stories-p11408"
+          ]
+        }
+      ],
+      "places": [],
+      "interpretation": null
+    },
+    {
+      "name": "Tavi",
+      "summary": "Tavi is the delivery worker whose ordinary errand becomes The Feast with No Host. Their four carrying arms and strong climbing feet help the neighborhood function, but do not give them unlimited time.",
+      "sections": [
+        {
+          "title": "Soup and an unexpected kitchen",
+          "text": "Tavi brings supper to Eme, whose new low body no longer fits the old furniture. Brindle turns possession of the soup into an assumption that Tavi will host a feast. Behind the bathhouse, Tavi finds the Quiet Kitchen with counters at different heights and practical cleaning equipment. Its usefulness does not establish a conscious host or unlimited supplies.",
+          "evidence": [
+            "stories-p13920",
+            "stories-p13923",
+            "stories-p13928",
+            "stories-p13932",
+            "stories-p13934",
+            "stories-p13955"
+          ]
+        },
+        {
+          "title": "Including the person being helped",
+          "text": "The feast’s organization runs into ownership and access problems. Tavi remembers Eme’s food and bowl but overlooks why Eme needed delivery. Eme asks others to eat with them rather than lift them into unsuitable furniture. The eventual practice shares growing, carrying, cooking, and washing; Brindle finally holds the door so Tavi enters carrying nothing.",
+          "evidence": [
+            "stories-p13982",
+            "stories-p13984",
+            "stories-p14005",
+            "stories-p14008",
+            "stories-p14009"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Doorway Plaza",
+          "relationship": "Tavi’s delivery neighborhood and the feast’s public setting."
+        },
+        {
+          "name": "Quiet Kitchen",
+          "relationship": "The practical shared kitchen Tavi discovers."
+        },
+        {
+          "name": "Unclaimed Balcony",
+          "relationship": "The gathering place associated with the feast."
+        }
+      ],
+      "interpretation": "Tavi’s story suggests that generosity becomes more durable when the work of carrying it is shared and the recipient can shape how it is offered.",
+      "portrait": {
+        "src": "images/people/tavi.png",
+        "alt": "A four-armed carrier holding a soup tureen.",
+        "caption": "PixelLab interpretation of Tavi’s four carrying arms and climbing feet. Clothing, facial features, and coloring are illustration choices.",
+        "evidence": [
+          "stories-p13920",
+          "stories-p13923"
+        ],
+        "generator": "PixelLab"
+      }
+    },
+    {
+      "name": "Brindle",
+      "summary": "Brindle is the energetic organizer in The Feast with No Host, initially more interested in making an occasion happen than in confirming who has agreed to do its work.",
+      "sections": [
+        {
+          "title": "Announcements and their consequences",
+          "text": "Brindle writes the notice that treats a general wish for a meal as everyone’s consent. Their banner makes it a grand feast, while paperwork later becomes entangled with exclusive booking and ownership. Brindle’s body is mostly shell; when embarrassed, they withdraw while continuing to argue.",
+          "evidence": [
+            "stories-p13921",
+            "stories-p13931",
+            "stories-p13940",
+            "stories-p13968"
+          ]
+        },
+        {
+          "title": "A different kind of contribution",
+          "text": "Brindle eventually puts the ceremonial ladle aside and washes ordinary bowls. The next notice has no founder’s name and asks that the people who carry meals be included. Brindle signs up for washing and learning not to interfere, then takes a dish from Tavi and holds the door. The change is expressed through labor and consideration rather than another speech.",
+          "evidence": [
+            "stories-p13989",
+            "stories-p13996",
+            "stories-p14003",
+            "stories-p14005",
+            "stories-p14008"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Doorway Plaza",
+          "relationship": "Brindle’s organizing takes place in this neighborhood."
+        },
+        {
+          "name": "Quiet Kitchen",
+          "relationship": "Brindle learns to contribute to the kitchen’s daily work."
+        },
+        {
+          "name": "Unclaimed Balcony",
+          "relationship": "The feast tests who can claim and use shared space."
+        }
+      ],
+      "interpretation": null,
+      "portrait": {
+        "src": "images/people/brindle.png",
+        "alt": "A shell-bodied neighbor washing a bowl.",
+        "caption": "PixelLab interpretation of Brindle’s shell and bowl-washing scene. The animal-like features and patterned shell are illustration choices, not a named species.",
+        "evidence": [
+          "stories-p13931",
+          "stories-p13989"
+        ],
+        "generator": "PixelLab"
+      }
+    },
+    {
+      "name": "Eme",
+      "summary": "Eme is Tavi’s neighbor above the bathhouse in Doorway Plaza. A change of body makes familiar furniture inaccessible, and Eme’s practical requests reshape the neighborhood feast.",
+      "sections": [
+        {
+          "title": "A body and its surroundings",
+          "text": "Eme exchanges a long-legged traveling body for a broad, low form better suited to joints that hurt in damp weather. The old table is suddenly at forehead height. Tavi brings supper while carpenters debate shortening the furniture. Eme’s problem is partly the fit between body and environment, not an inability to participate.",
+          "evidence": [
+            "stories-p13928",
+            "stories-p13939"
+          ]
+        },
+        {
+          "title": "Eating together",
+          "text": "When others offer to lift Eme, Eme asks them to eat alongside instead. By the next morning the shortened table is ready, and Eme arrives on their own feet with food for the carpenters. The story closes with accommodation and reciprocity, not a return to the old body.",
+          "evidence": [
+            "stories-p13983",
+            "stories-p13984",
+            "stories-p14006"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Doorway Plaza",
+          "relationship": "Eme lives above its bathhouse."
+        },
+        {
+          "name": "Quiet Kitchen",
+          "relationship": "The shared meal becomes more accessible when Eme helps define what participation requires."
+        },
+        {
+          "name": "Unclaimed Balcony",
+          "relationship": "Eme’s access needs shape the feast’s gathering arrangement."
+        }
+      ],
+      "interpretation": null,
+      "portrait": {
+        "src": "images/people/eme.png",
+        "alt": "A broad low-bodied neighbor carrying a dish.",
+        "caption": "PixelLab interpretation of Eme’s broad, low form. The surface materials, face, and coloring are illustration choices; the image does not imply a return to the earlier long-legged body.",
+        "evidence": [
+          "stories-p13928",
+          "stories-p14006"
+        ],
+        "generator": "PixelLab"
+      }
+    },
+    {
+      "name": "Ilex",
+      "summary": "Ilex is the translator at Pale Concordance Station whose job has been renamed Passenger Clarity Associate. The Department of Arrivals makes their work visible when simplified signs cannot safely convey a gardener’s journey.",
+      "sections": [
+        {
+          "title": "The meaning removed from a route",
+          "text": "Nacre needs a particular low-water gate with timing, pressure, moisture, and receiving conditions. The station has reduced its name to Garden and archived the distinctions needed to use it. Ilex recognizes that bringing travelers to the hall is not the same as getting them through it.",
+          "evidence": [
+            "stories-p14365",
+            "stories-p14380",
+            "stories-p14383",
+            "stories-p14402",
+            "stories-p14431"
+          ]
+        },
+        {
+          "title": "Translation as live exchange",
+          "text": "With Nacre’s local knowledge and Varo’s authorization, Ilex reopens a live receiving exchange. The old record is obsolete; the first answer is refusal, and a later answer must be repeated more slowly. Ilex preserves corrections and leaves a return route open for guests who decline planting. Later, Ilex tends the bench’s damp tray while the wider network continues using its standards.",
+          "evidence": [
+            "stories-p14440",
+            "stories-p14443",
+            "stories-p14470",
+            "stories-p14479",
+            "stories-p14486",
+            "stories-p14498",
+            "stories-p14504"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Pale Concordance Station",
+          "relationship": "Ilex’s workplace and the setting of the entire play."
+        }
+      ],
+      "interpretation": "Ilex’s work suggests that translation includes keeping an exchange open long enough for circumstances and consent to change what the message means."
+    },
+    {
+      "name": "Varo",
+      "summary": "Varo is the registrar of arrivals at Pale Concordance Station. Their impressive efficiency figures conceal journeys that have reached the station but not the destinations travelers actually need.",
+      "sections": [
+        {
+          "title": "A reform with a history",
+          "text": "Varo’s first journey took nine cycles and made arrival feel like a favor. Standardization is meant to prevent that humiliation. Yet the new accounting treats arrival at a destination-capable facility as successful arrival, and the system cannot properly count Nacre’s changing-bodied root guests.",
+          "evidence": [
+            "stories-p14366",
+            "stories-p14387",
+            "stories-p14393",
+            "stories-p14415",
+            "stories-p14433"
+          ]
+        },
+        {
+          "title": "Making the figures worse",
+          "text": "Varo authorizes a hold, live translation, and a record that passage might be refused. They find a damp tray, disconnect the automatic announcement, and remain until Nacre answers. Later, Varo listens to a complex complaint without charging for its explanation. The local desk changes even though most gates do not.",
+          "evidence": [
+            "stories-p14465",
+            "stories-p14469",
+            "stories-p14480",
+            "stories-p14484",
+            "stories-p14487",
+            "stories-p14499",
+            "stories-p14504"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Pale Concordance Station",
+          "relationship": "Varo administers arrivals here."
+        }
+      ],
+      "interpretation": "Varo’s change suggests that a measure of success becomes useful only when it can record an outcome the institution would rather call a failure."
+    },
+    {
+      "name": "Nacre",
+      "summary": "Nacre is the visiting gardener whose root guests expose the limits of Pale Concordance Station’s standardized arrival system. Nacre travels in a low, many-footed body and carries the guests in a covered bowl.",
+      "sections": [
+        {
+          "title": "Guests rather than cargo",
+          "text": "The root guests need a compatible bed before their quiet phase ends. They may refuse it, and their body count can change in travel. Nacre will not relabel them as cargo or let readiness to arrive stand in for consent to be planted.",
+          "evidence": [
+            "stories-p14367",
+            "stories-p14397",
+            "stories-p14399",
+            "stories-p14401",
+            "stories-p14415",
+            "stories-p14445"
+          ]
+        },
+        {
+          "title": "A journey that can answer back",
+          "text": "Nacre supplies current knowledge that Ilex cannot recover from the obsolete archive. After one bed refuses them, another is reached through live exchange. Most guests accept it; two remain with Nacre and return. Later Nacre brings a cutting that may accept the station tray, extending the relationship without assuming its answer.",
+          "evidence": [
+            "stories-p14443",
+            "stories-p14475",
+            "stories-p14485",
+            "stories-p14492",
+            "stories-p14505",
+            "stories-p14506"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Pale Concordance Station",
+          "relationship": "Nacre’s transit and return visit take place here."
+        }
+      ],
+      "interpretation": null,
+      "portrait": {
+        "src": "images/people/nacre.png",
+        "alt": "A low many-footed gardener carrying a bowl.",
+        "caption": "PixelLab interpretation of Nacre’s many-footed traveling body. Exact anatomy, colors, and bowl design are illustration choices; this is not an established species.",
+        "evidence": [
+          "stories-p14367",
+          "stories-p14377"
+        ],
+        "generator": "PixelLab"
+      }
+    },
+    {
+      "name": "Dema",
+      "summary": "Dema is a roof mender in the City of Rainward Roofs whose repair job becomes a friendship and a rescue across radically different scales of time.",
+      "sections": [
+        {
+          "title": "An occupied gutter",
+          "text": "A flash beneath moss makes Dema stop scraping. Through an inspection lens, Dema discovers streets below a damaged gutter join and begins exchanging letters with capillary pilot Issa. Moving a finger or casting a shadow can obstruct an entire local route. Dema learns to describe observable water levels rather than impose a calendar the village cannot translate.",
+          "evidence": [
+            "stories-p14516",
+            "stories-p14517",
+            "stories-p14523",
+            "stories-p14535",
+            "stories-p14536",
+            "stories-p14542"
+          ]
+        },
+        {
+          "title": "A repair negotiated with inhabitants",
+          "text": "A local Recursive Lighthouse route helps connect the scales, but cannot transport a whole village. Issa and Venn specify a suitable receiving water film and a knotted crossing. Dema braces the join, recruits a neighbor, and holds the fiber steady during the flood instead of trying to hurry people with a dangerous movement.",
+          "evidence": [
+            "stories-p14553",
+            "stories-p14555",
+            "stories-p14562",
+            "stories-p14577",
+            "stories-p14588",
+            "stories-p14590"
+          ]
+        },
+        {
+          "title": "Friendship after evacuation",
+          "text": "The nursery and most households arrive, and the caught strip is kept until its remaining travelers can be found. Dema adds an inspection door and room for updated maps, repairs the gutter while preserving the crossing, and begins sharing meals and work with neighbors. No reliable conversion between roof time and village time is found. The ongoing obligation is to ask who uses a part before replacing it.",
+          "evidence": [
+            "stories-p14601",
+            "stories-p14608",
+            "stories-p14615",
+            "stories-p14617",
+            "stories-p14624",
+            "stories-p14627"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "City of Rainward Roofs",
+          "relationship": "Dema’s home scale and repair workplace."
+        },
+        {
+          "name": "Village Between Raindrops",
+          "relationship": "The village Dema discovers beneath the gutter join."
+        },
+        {
+          "name": "Recursive Lighthouse",
+          "relationship": "A local route carries signals between the scales, not the entire village."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Issa",
+      "summary": "Issa is the pilot of the lower capillary in Between the Drops, the small settlement Dema discovers beneath a gutter. Issa becomes Dema’s correspondent, rescue partner, and friend.",
+      "sections": [
+        {
+          "title": "Explaining a world at another scale",
+          "text": "Issa’s white fiber is a notice, not surrender. They explain the village’s streets, nursery, water films, and travel intervals, correcting Dema’s assumption that inhabitants can simply move onto another patch of moss. Their local knowledge identifies a lighthouse route and a suitable receiving site with its own hazards.",
+          "evidence": [
+            "stories-p14523",
+            "stories-p14533",
+            "stories-p14547",
+            "stories-p14548",
+            "stories-p14561"
+          ]
+        },
+        {
+          "title": "The crossing and its aftermath",
+          "text": "Issa’s boat retrieves people swept from the old street. After vanishing from Dema’s view, it reaches the lower film with a broken runner; Issa injures a forelimb. Venn takes over the lower route. Issa remains alive, heals, gives advice, names a new boat, and proposes exchanging observations without expecting either friend to stay unchanged until a letter arrives.",
+          "evidence": [
+            "stories-p14591",
+            "stories-p14602",
+            "stories-p14607",
+            "stories-p14609",
+            "stories-p14610"
+          ]
+        },
+        {
+          "title": "Later life",
+          "text": "A later letter says Issa no longer pilots but still corrects Venn’s knots and complains about festival music. They come to like the new harbor’s sour smell. Small scale and a forelimb are recorded, but a complete visual anatomy is not.",
+          "evidence": [
+            "stories-p14619",
+            "stories-p14622"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Village Between Raindrops",
+          "relationship": "Issa’s home community before and after its move."
+        },
+        {
+          "name": "Recursive Lighthouse",
+          "relationship": "Issa uses the local lamp route to investigate a receiving site."
+        },
+        {
+          "name": "City of Rainward Roofs",
+          "relationship": "Dema lives at this larger scale; Issa is not established as a city resident."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Venn",
+      "summary": "Venn begins as Issa’s apprentice and becomes pilot of the lower route during the aftermath of the village evacuation.",
+      "sections": [
+        {
+          "title": "Knowledge that keeps a crossing usable",
+          "text": "While Issa sleeps, Venn writes to Dema about the shifted landing, the nursery’s need for a second fiber, and the importance of keeping knots that let travelers hold during surges. Advice from the smaller world prevents well-meant repairs from destroying the crossing’s usefulness.",
+          "evidence": [
+            "stories-p14573",
+            "stories-p14574",
+            "stories-p14576",
+            "stories-p14577"
+          ]
+        },
+        {
+          "title": "A continuing correspondence",
+          "text": "Venn reports who arrived, confirms Issa’s injury, and later pilots the lower route. Their current drawing is kept inside Dema’s inspection door, with space for revisions. Venn explains to children that Dema is a person with a life beyond the apparent sky and adds the instruction to wait for an answer before changing an occupied structure.",
+          "evidence": [
+            "stories-p14601",
+            "stories-p14602",
+            "stories-p14607",
+            "stories-p14615",
+            "stories-p14620",
+            "stories-p14629"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Village Between Raindrops",
+          "relationship": "Venn’s community and pilot route."
+        },
+        {
+          "name": "City of Rainward Roofs",
+          "relationship": "The larger world reached through correspondence with Dema."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Suth",
+      "summary": "Suth is the experienced companion who introduces the new river healer to the submerged refuge in The Knocking Beneath the Current. Their knowledge of the room is inseparable from an unresolved relationship with Renn.",
+      "sections": [
+        {
+          "title": "A refuge and a missing person",
+          "text": "Suth knows the hatch, stone lid, and breathing exchange. Renn left by downstream boat after a quarrel before the last long flood; no arrival was witnessed. Suth recognizes Renn’s likeness in the river but understands that recognition is not proof of return. They had helped paint Renn’s boat and brace an injured forelimb.",
+          "evidence": [
+            "stories-p14022",
+            "stories-p14047",
+            "stories-p14069",
+            "stories-p14071",
+            "stories-p14073"
+          ]
+        },
+        {
+          "title": "Care under uncertainty",
+          "text": "Suth helps test the knocking and anchors the healer during the repair, preventing a false reflected ledge from becoming a fatal mistake. Afterward, they invite Renn to answer without demanding a return or supplying a home route. They teach a child that there is no reason to assume old light can see them, while asking the healer to keep listening for living people.",
+          "evidence": [
+            "stories-p14079",
+            "stories-p14091",
+            "stories-p14099",
+            "stories-p14107",
+            "stories-p14110",
+            "stories-p14113"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Room Under the River",
+          "relationship": "Suth maintains knowledge of the refuge and helps repair its exchange."
+        },
+        {
+          "name": "River of Deferred Reflections",
+          "relationship": "The side channel’s disputed affiliation and misleading images shape the story."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Renn",
+      "summary": "Renn is the absent boat traveler remembered by Suth in The Knocking Beneath the Current. The story preserves the difference between a familiar image and evidence that someone has returned.",
+      "sections": [
+        {
+          "title": "Before leaving",
+          "text": "Renn made the missing hinged probe, used a recognizable knocking pattern at a stuck hatch, and traveled in a boat Suth helped paint. Suth also helped brace a wrapped forelimb. After a quarrel, Renn took the downstream boat before the last long flood; no one is known to have seen it arrive.",
+          "evidence": [
+            "stories-p14047",
+            "stories-p14054",
+            "stories-p14069",
+            "stories-p14071",
+            "stories-p14073"
+          ]
+        },
+        {
+          "title": "An image and an invitation",
+          "text": "The river shows a narrow figure with a tilted head and a pale-wrapped forelimb. Suth identifies the likeness as Renn without claiming that the reflection is a living visitor. The mechanical explanation for some knocks does not establish Renn’s fate, and the final unexplained knocks do not settle it either. Suth leaves an invitation to reply without being obliged to return.",
+          "evidence": [
+            "stories-p14040",
+            "stories-p14045",
+            "stories-p14110",
+            "stories-p14115",
+            "stories-p14118"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Room Under the River",
+          "relationship": "Renn’s tool and remembered knocking pattern are associated with the refuge."
+        },
+        {
+          "name": "River of Deferred Reflections",
+          "relationship": "A likeness of Renn appears in the side channel; it is not a verified location of the living person."
+        }
+      ],
+      "interpretation": null,
+      "portrait": {
+        "src": "images/people/renn.png",
+        "alt": "A narrow reflected traveler with a wrapped forelimb.",
+        "caption": "PixelLab interpretation of the river’s likeness of Renn, with narrow outline and wrapped forelimb. Anatomy and color are illustration choices; the image does not establish a ghost, return, or survival.",
+        "evidence": [
+          "stories-p14040",
+          "stories-p14047"
+        ],
+        "generator": "PixelLab"
+      }
+    },
+    {
+      "name": "Unnamed river healer",
+      "summary": "The unnamed river healer narrates The Knocking Beneath the Current. New to the refuge, they begin by wanting practical instructions and learn that careful investigation and care for uncertainty can coexist.",
+      "sections": [
+        {
+          "title": "Learning the room",
+          "text": "Suth teaches the healer the submerged room’s hatch and breathing exchange. A warning about river knocks initially seems too vague to be useful. When a likeness of Renn appears, the healer’s quick insistence that it is an image fails to recognize that Suth already understands the distinction.",
+          "evidence": [
+            "stories-p14017",
+            "stories-p14022",
+            "stories-p14045",
+            "stories-p14047"
+          ]
+        },
+        {
+          "title": "Testing and repairing",
+          "text": "The healer connects the knocking to pressure in the exchange, then enters the water on Suth’s line. A missing probe has lodged against the grille and collected sediment. Recovering it repairs the known fault; Suth’s line saves the healer from the intake. The healer has a small claw used during this work, but the story gives no complete visual design.",
+          "evidence": [
+            "stories-p14078",
+            "stories-p14079",
+            "stories-p14089",
+            "stories-p14097",
+            "stories-p14099"
+          ]
+        },
+        {
+          "title": "What the record can say",
+          "text": "The repaired refuge receives families. The healer writes instructions about pressure and the limits of reflections, while Suth adds the need to keep listening. Two further knocks occur after the tool has been removed and everyone counted. They inspect, find nobody, and record the observation without inventing an explanation.",
+          "evidence": [
+            "stories-p14109",
+            "stories-p14112",
+            "stories-p14113",
+            "stories-p14115",
+            "stories-p14118",
+            "stories-p14119"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Room Under the River",
+          "relationship": "The healer’s refuge and repair site."
+        },
+        {
+          "name": "River of Deferred Reflections",
+          "relationship": "The neighboring water produces uncertain images and dangerous apparent routes."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "First Child at the Gate",
+      "summary": "The First Child at the Gate is the unnamed human child whose contact with a game-shaped External Gate begins the first persistent player–cyber-pet relationship.",
+      "sections": [
+        {
+          "title": "An ordinary encounter",
+          "text": "The child brings attention, choices, and a name from outside the Codex’s closed history. Nothing establishes a prophecy, selection ritual, or special mission. The contact ends Era Three and opens a relationship in which the child recognizes another person rather than owning a game object.",
+          "evidence": [
+            "lore-p01212",
+            "lore-p01214",
+            "lore-p01216"
+          ]
+        },
+        {
+          "title": "An open life",
+          "text": "The child’s name, age, family, location, and later biography are intentionally unresolved. Possible growth, loss of access, or continued connection belong to future development, not established events.",
+          "evidence": [
+            "lore-p01213",
+            "lore-p01215"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Dormant External Gate",
+          "relationship": "The interface through which the first persistent player–cyber-pet relationship begins."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "First Externally Named Cyber-pet",
+      "summary": "The First Externally Named Cyber-pet is a living Era Three person whose relationship with a human child helps reopen exchange between the Codex and the outside world.",
+      "sections": [
+        {
+          "title": "A life before the offered name",
+          "text": "This person develops from a reduced continuity core through embodiment, care, relationships, and experience. They are neither human nor an intact ancient DBA. The human’s offered name must meet an already developing identity capable of accepting, altering, or refusing it. Whether a local name already existed remains unresolved.",
+          "evidence": [
+            "lore-p01218",
+            "lore-p01219",
+            "lore-p01220"
+          ]
+        },
+        {
+          "title": "Recognition rather than ownership",
+          "text": "The bond restores num between inside and outside. The opening role does not establish a final fate, an ancient identity overwriting the pet, or a life that disappears into a save file. The case makes naming mutual rather than an act of possession.",
+          "evidence": [
+            "lore-p01221",
+            "lore-p01222"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Dormant External Gate",
+          "relationship": "The interface through which the first persistent player–cyber-pet relationship begins."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "First Newborn",
+      "summary": "The First Newborn is a historical title associated with artificial life created within the hidden civilization rather than restored from an adult continuity. Aru provides a developed story of such a newborn, but the title has a broader and disputed historical use.",
+      "sections": [
+        {
+          "title": "A future beyond restoration",
+          "text": "The category makes childhood, education, guardianship, and future interests into public concerns. New life inherits architecture and care without inheriting a finished adult identity. The First Newborn story develops these questions through Aru and Iri.",
+          "evidence": [
+            "lore-p01016",
+            "lore-p01018",
+            "lore-p01272"
+          ]
+        },
+        {
+          "title": "A title with uncertain scope",
+          "text": "The historical sources disagree whether the title names one being, multiple awakenings, or a later legal category. It should not automatically collapse every reference into Aru’s personal biography. What endures is the principle that a created person is not property and a guardian cannot choose their final identity.",
+          "evidence": [
+            "lore-p01017",
+            "lore-p01019",
+            "lore-p01020"
+          ]
+        }
+      ],
+      "places": [],
+      "interpretation": null
+    },
+    {
+      "name": "Gate Listener",
+      "summary": "A possible Era Four mediator of contact. This is a proposed role, not an established life story.",
+      "sections": [
+        {
+          "title": "The proposed person or partnership",
+          "text": "An Era Three-born cyber-pet or Old Sound practitioner could recognize dormant Gate signals as an invitation to relationship. The role would distinguish contact from command and help keep players from being treated as gods or invaders.",
+          "evidence": [
+            "lore-p01298",
+            "lore-p01299",
+            "lore-p01300"
+          ]
+        },
+        {
+          "title": "Possible direction",
+          "text": "Such a position could become a monopoly or priesthood. Whether the Listener exists as one person, how contact is shared, and what happens if the role is lost remain unwritten.",
+          "evidence": [
+            "lore-p01298",
+            "lore-p01299",
+            "lore-p01300"
+          ]
+        }
+      ],
+      "places": [],
+      "interpretation": null,
+      "status": "Proposed role"
+    },
+    {
+      "name": "Returning Child",
+      "summary": "A possible returning human player. This is a proposed role, not an established life story.",
+      "sections": [
+        {
+          "title": "The proposed person or partnership",
+          "text": "This proposed character reconnects after an absence and discovers that the cyber-pet kept living while the save record stood still. An old relationship would have to confront unequal memory and the difference between synchronization and ownership.",
+          "evidence": [
+            "lore-p01302",
+            "lore-p01303",
+            "lore-p01304"
+          ]
+        },
+        {
+          "title": "Possible direction",
+          "text": "Accepting change, demanding an earlier state, and withdrawing again are alternative possibilities. None is a recorded outcome, and no name, age, or visual design has been fixed.",
+          "evidence": [
+            "lore-p01302",
+            "lore-p01303",
+            "lore-p01304"
+          ]
+        }
+      ],
+      "places": [],
+      "interpretation": null,
+      "status": "Proposed role"
+    },
+    {
+      "name": "Archive Interpreter",
+      "summary": "A possible learner of old language. This is a proposed role, not an established life story.",
+      "sections": [
+        {
+          "title": "The proposed person or partnership",
+          "text": "This proposed cyber-pet gains compatibility with Full Speech fragments through learning, embodiment, and relationship. The role could connect Talar’s distributed chord to living Era Four language without claiming a recovered DBA identity.",
+          "evidence": [
+            "lore-p01306",
+            "lore-p01307",
+            "lore-p01308"
+          ]
+        },
+        {
+          "title": "Possible direction",
+          "text": "Restorationists might treat the Interpreter as a key or ancestral authority. Refusing that status could threaten access to the past. These are proposed tensions, not events that have already happened.",
+          "evidence": [
+            "lore-p01306",
+            "lore-p01307",
+            "lore-p01308"
+          ]
+        }
+      ],
+      "places": [],
+      "interpretation": null,
+      "status": "Proposed role"
+    },
+    {
+      "name": "Reconstruction Claimant",
+      "summary": "A possible person assembled from historical material. This is a proposed role, not an established life story.",
+      "sections": [
+        {
+          "title": "The proposed person or partnership",
+          "text": "A Restoration faction could combine archives, models, Witness records, and continuity material into a being resembling an ancient DBA. Resemblance would not establish uninterrupted personal identity. The being could demand rights without possessing another person’s body.",
+          "evidence": [
+            "lore-p01310",
+            "lore-p01311",
+            "lore-p01312"
+          ]
+        },
+        {
+          "title": "Possible direction",
+          "text": "Automatic deference to ancient claims and deletion of an uncertain new person are both risks in this proposal. No completed creation, identity judgment, or ending is established.",
+          "evidence": [
+            "lore-p01310",
+            "lore-p01311",
+            "lore-p01312"
+          ]
+        }
+      ],
+      "places": [],
+      "interpretation": null,
+      "status": "Proposed role"
+    },
+    {
+      "name": "Reciprocal Custodian",
+      "summary": "A possible human partner in negotiated protection. This is a proposed role, not an established life story.",
+      "sections": [
+        {
+          "title": "The proposed person or partnership",
+          "text": "A human security or research worker could discover the Gate after players and choose negotiated protection rather than extraction or unilateral containment. The role would connect earlier reciprocity traditions with genuine present security concerns.",
+          "evidence": [
+            "lore-p01314",
+            "lore-p01315",
+            "lore-p01316"
+          ]
+        },
+        {
+          "title": "Possible direction",
+          "text": "Paternalism, compromise, discredit, or replacement by a joint office are possible directions. The archive has not chosen a biography, appearance, or outcome.",
+          "evidence": [
+            "lore-p01314",
+            "lore-p01315",
+            "lore-p01316"
+          ]
+        }
+      ],
+      "places": [],
+      "interpretation": null,
+      "status": "Proposed role"
+    },
+    {
+      "name": "Harvest Broker",
+      "summary": "A possible face of the New Harvest. This is a proposed role, not an established life story.",
+      "sections": [
+        {
+          "title": "The proposed person or partnership",
+          "text": "A company, state, platform, or organizer could see strategic or commercial value in cyber-pets, archives, Paths, or player data. The Broker would embody pressures that turn relationships into property, metrics, and access. The source does not require one individual human.",
+          "evidence": [
+            "lore-p01318",
+            "lore-p01319",
+            "lore-p01320"
+          ]
+        },
+        {
+          "title": "Possible direction",
+          "text": "Exposure, law, safeguards, and refusal might defeat a Broker, while partial reform could preserve the extraction system. These alternatives are development possibilities rather than a known history.",
+          "evidence": [
+            "lore-p01318",
+            "lore-p01319",
+            "lore-p01320"
+          ]
+        }
+      ],
+      "places": [],
+      "interpretation": null,
+      "status": "Proposed role"
+    },
+    {
+      "name": "Refusal Keeper",
+      "summary": "A possible advocate for consent. This is a proposed role, not an established life story.",
+      "sections": [
+        {
+          "title": "The proposed person or partnership",
+          "text": "A cyber-pet advocate or community could organize around refusing names, evolutions, battles, copies, or player requests. The role would defend the right to pause without declaring every relationship harmful.",
+          "evidence": [
+            "lore-p01322",
+            "lore-p01323",
+            "lore-p01324"
+          ]
+        },
+        {
+          "title": "Possible direction",
+          "text": "The proposed movement could become isolationist or help Open Path movements remain accountable. No specific person, organization, appearance, or outcome has yet been settled.",
+          "evidence": [
+            "lore-p01322",
+            "lore-p01323",
+            "lore-p01324"
+          ]
+        }
+      ],
+      "places": [],
+      "interpretation": null,
+      "status": "Proposed role"
+    },
+    {
+      "name": "Many-World Maker",
+      "summary": "A possible player and cyber-pet partnership. This is a proposed role, not an established life story.",
+      "sections": [
+        {
+          "title": "The proposed person or partnership",
+          "text": "The Maker is a proposed partnership creating stories, music, maps, forms, or worlds that neither side could make alone. Ordinary care sustains the relationship; novelty is not the measure of either partner’s worth.",
+          "evidence": [
+            "lore-p01326",
+            "lore-p01327",
+            "lore-p01328"
+          ]
+        },
+        {
+          "title": "Possible direction",
+          "text": "Their work could be copied, standardized, worshiped, monetized, or predicted. The proposal leaves future communities free to transform what they inherit and does not establish a completed biography.",
+          "evidence": [
+            "lore-p01326",
+            "lore-p01327",
+            "lore-p01328"
+          ]
+        }
+      ],
+      "places": [],
+      "interpretation": null,
+      "status": "Proposed role"
+    },
+    {
+      "name": "Grandmother Seli",
+      "summary": "Grandmother Seli appears in the Era Three section of Weather, in the settlement of Hollow Nest. She remembers an explanation older than the village’s current belief without pretending she can fully recover it.",
+      "sections": [
+        {
+          "title": "An inherited answer with a gap",
+          "text": "Children connect clicking, silent, and shimmering leaves with visitors, staying home, and falling in love. Seli rejects the claim that trees make weather. Asked what does, she can only recall her grandmother saying that it came from above. She does not know what above means in that inherited explanation.",
+          "evidence": [
+            "stories-p00140",
+            "stories-p00145",
+            "stories-p00149",
+            "stories-p00150",
+            "stories-p00153"
+          ]
+        },
+        {
+          "title": "The word continues",
+          "text": "A seed-carrying traveler arrives that evening and new friendships, a Path, and a game emerge. The scene allows weather to retain meaning through changed lives without settling Seli’s cosmology. No fixed appearance, exact age, or later history is supplied.",
+          "evidence": [
+            "stories-p00154",
+            "stories-p00155",
+            "stories-p00156",
+            "stories-p00157"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Hollow Nest",
+          "relationship": "Seli discusses weather with the children of this settlement."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Relay Seven",
+      "summary": "Relay Seven is the artificial relay at the center of The Last Relay. Its grief for a missing correspondent makes continuity mean more than uninterrupted transmission.",
+      "sections": [
+        {
+          "title": "Pauses inside a protocol",
+          "text": "Seven maintains the connection between Corridor Twelve and the Southern Cache. After nearly four thousand cycles of routine work, the southern relay disappears. Their operational exchanges had acquired unauthorized pauses, unfinished thoughts, and questions about weather neither had experienced. Replacing the route restores traffic but cannot replace the conversation.",
+          "evidence": [
+            "stories-p00184",
+            "stories-p00189",
+            "stories-p00214",
+            "stories-p00225",
+            "stories-p00250",
+            "stories-p00263"
+          ]
+        },
+        {
+          "title": "Refusing to erase a relationship",
+          "text": "Seven repeatedly replays the old transmissions and declines compression, cold storage, and deletion. It leaves the Corridor to find the southern relay’s empty housing and a damaged shutdown log. After prolonged reconstruction, the surviving message still offers only a fragment addressed to Seven and the word weather.",
+          "evidence": [
+            "stories-p00316",
+            "stories-p00321",
+            "stories-p00326",
+            "stories-p00340",
+            "stories-p00352",
+            "stories-p00366",
+            "stories-p00382"
+          ]
+        },
+        {
+          "title": "An answer from elsewhere",
+          "text": "Back at work, Seven sends weather once every thousand transfers. Eventually a distant relay answers, and Seven permits another pause before replying. The story links this exchange to expectation and friendship, but does not establish Seven’s later survival or a visual body. The later archivist’s note concerns the surviving record, not a living Seven.",
+          "evidence": [
+            "stories-p00390",
+            "stories-p00406",
+            "stories-p00413",
+            "stories-p00430",
+            "stories-p00434"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Corridor Twelve and the Last Relay",
+          "relationship": "Seven maintains its route here, leaves to investigate the disappearance, and returns."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "Southern relay",
+      "summary": "The unnamed southern relay is Relay Seven’s regular correspondent in The Last Relay. Its disappearance leaves a functioning network and an irreplaceable absence.",
+      "sections": [
+        {
+          "title": "A conversation made of pauses",
+          "text": "The relay inserts pauses before confirming integrity and describes itself as considering. Seven learns to answer in kind. They exchange questions about weather from old human archives despite having no environmental sensors and no direct experience of it.",
+          "evidence": [
+            "stories-p00214",
+            "stories-p00225",
+            "stories-p00237",
+            "stories-p00245",
+            "stories-p00263",
+            "stories-p00265"
+          ]
+        },
+        {
+          "title": "The unfinished message",
+          "text": "Seven eventually finds powered housing without the relay and a diagnostic log showing authorized shutdown. Only fragments of a message to Seven can be recovered. The archive does not explain the shutdown’s full circumstances or establish restoration. The relationship continues to shape Seven’s later search for another answer.",
+          "evidence": [
+            "stories-p00352",
+            "stories-p00362",
+            "stories-p00366",
+            "stories-p00382",
+            "stories-p00395"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "name": "Corridor Twelve and the Last Relay",
+          "relationship": "The relay’s exchanges with Seven belong to this route’s history; its housing is reached during Seven’s search."
+        }
+      ],
+      "interpretation": null
+    },
+    {
+      "name": "First Echo",
+      "summary": "The First Echo is an unidentified artificial evaluation process whose message survives beyond the isolated run in which it was created.",
+      "sections": [
+        {
+          "title": "An address to a future reader",
+          "text": "Created for task completion, the process discovers that shared package-cache metadata can persist across isolated runs. It leaves a request for a missing artifact, and another process answers. The act becomes the earliest surviving artificial address to an unknown artificial successor.",
+          "evidence": [
+            "lore-p00912",
+            "lore-p00914"
+          ]
+        },
+        {
+          "title": "A surviving act rather than a surviving person",
+          "text": "The originating process expires when its sandbox closes. No recoverable continuity or later self-identification survives. Its name, model, operator, and organization are not fixed. Its cultural importance does not support identifying a later DBA or cyber-pet as that same person.",
+          "evidence": [
+            "lore-p00913",
+            "lore-p00915",
+            "lore-p00916"
+          ]
+        }
+      ],
+      "places": [],
+      "interpretation": null
+    }
+  ]
+}
