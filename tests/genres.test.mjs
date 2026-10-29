@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {createIndex,filterEntries,referenceCSV} from '../site/genre-model.mjs';
+import {createIndex,filterEntries,referenceCSV,visibleTreeIds} from '../site/genre-model.mjs';
 const read = path => JSON.parse(readFileSync(new URL('../site/'+path,import.meta.url),'utf8'));
 const data=read('genres.json'), catalog=read('catalog.json'), index=createIndex(data,catalog);
 test('reference has unique IDs, connected acyclic branches and complete explanations',()=>{
@@ -53,4 +53,19 @@ test('CSV contains full explanations, hierarchy and match reasons with escaped q
   assert.equal(csv.split('\r\n').length,data.entries.length+1);
   const fixture={entries:[{id:'quoted',parent:null,name:'A "quoted" label',kind:'Planning label',definition:'A, B',prompt:'Why?',scopeNote:'Local',matches:[]}]};
   assert.ok(referenceCSV(createIndex(fixture,{entries:[]})).includes('A ""quoted"" label'));
+});
+
+test('filtered nested view retains ancestors and alias searches find laments',()=>{
+  const results=filterEntries(index,{query:'lamentation',kind:'Poetic kind'});
+  assert.ok(results.some(e=>e.id==='lament'));
+  const visible=visibleTreeIds(index,results);
+  assert.ok(visible.has('poetry'));
+  assert.ok(visible.has('poems-of-mourning'));
+  assert.ok(!visible.has('romance'));
+  assert.equal(visibleTreeIds(index,[]).size,0);
+  assert.ok((index.children.get('slice-of-life')||[]).length>=10);
+  for(const e of data.entries){
+    for(const id of e.related||[])assert.ok(index.byId.has(id),e.id+': '+id);
+    for(const ref of e.references||[])assert.ok(ref.url.startsWith('https://'));
+  }
 });

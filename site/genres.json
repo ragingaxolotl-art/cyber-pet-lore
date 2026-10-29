@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-10-28",
   "note": "An expandable editorial reference, not an exhaustive or universal taxonomy. Original explanations and prompts. Story matches are reviewed interpretations, not automatic keyword classifications or author-declared genre canon.",
   "references": [
@@ -17,6 +17,21 @@
       "title": "BISG: choosing a book subject heading",
       "url": "https://www.bisg.org/selecting-a-BISAC-code",
       "note": "Publishing classification context. This guide does not reproduce BISAC codes or its licensed database."
+    },
+    {
+      "title": "Harvard: Glossary of poetic genres",
+      "url": "https://poetry.harvard.edu/glossary-poetic-genres",
+      "note": "Terminology background; explanations and prompts here are original editorial writing."
+    },
+    {
+      "title": "Harvard: Guide to poetic terms",
+      "url": "https://poetry.harvard.edu/guide-poetic-terms",
+      "note": "Terminology background; explanations and prompts here are original editorial writing."
+    },
+    {
+      "title": "Open University: Characters and stories",
+      "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=101090&section=_unit4.2",
+      "note": "Terminology background; explanations and prompts here are original editorial writing."
     }
   ],
   "entries": [
@@ -2558,7 +2573,17 @@
       "definition": "Ordinary experiences and relationships take precedence over a tightly escalating external plot.",
       "prompt": "What can attentive observation reveal that a major crisis would obscure?",
       "matches": [],
-      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial.",
+      "aliases": [
+        "slice-of-life",
+        "everyday stories"
+      ],
+      "related": [
+        "a-day-in-the-life",
+        "vignette",
+        "episodic-narrative",
+        "speculative-slice-of-life"
+      ]
     },
     {
       "id": "community-fiction",
@@ -2950,7 +2975,7 @@
     {
       "id": "multiple-perspectives",
       "name": "Multiple perspectives",
-      "parent": "literary-modes-and-forms",
+      "parent": "story-structures",
       "kind": "Form",
       "definition": "Several viewpoints contribute partial or competing accounts of shared events.",
       "prompt": "What can only be understood by comparing the viewpoints?",
@@ -2960,7 +2985,7 @@
     {
       "id": "nonlinear-narrative",
       "name": "Nonlinear narrative",
-      "parent": "literary-modes-and-forms",
+      "parent": "chronological-structures",
       "kind": "Form",
       "definition": "The order of telling differs materially from the order of events.",
       "prompt": "What meaning becomes visible because an outcome is encountered before its cause?",
@@ -2970,7 +2995,7 @@
     {
       "id": "frame-narrative",
       "name": "Frame narrative",
-      "parent": "literary-modes-and-forms",
+      "parent": "nested-stories",
       "kind": "Form",
       "definition": "One narrative establishes the circumstances in which another account is told.",
       "prompt": "How does the listening situation change the inner story's meaning?",
@@ -2987,7 +3012,7 @@
     {
       "id": "story-cycle",
       "name": "Story cycle",
-      "parent": "literary-modes-and-forms",
+      "parent": "episodic-narrative",
       "kind": "Form",
       "definition": "Related stories retain some independence while building a cumulative world or meaning.",
       "prompt": "What develops across the gaps between individual stories?",
@@ -3021,7 +3046,7 @@
     {
       "id": "choral-narrative",
       "name": "Choral narrative",
-      "parent": "literary-modes-and-forms",
+      "parent": "poetic-voices-and-performance",
       "kind": "Form",
       "definition": "A collective or alternating set of voices develops an experience no single speaker can represent.",
       "prompt": "Which disagreement should remain audible within the collective voice?",
@@ -3038,7 +3063,7 @@
     {
       "id": "verse-narrative",
       "name": "Verse narrative",
-      "parent": "literary-modes-and-forms",
+      "parent": "narrative-poetry",
       "kind": "Form",
       "definition": "Poetic lines, rhythm, and arrangement carry sustained narrative action or experience.",
       "prompt": "What does the line break reveal or withhold?",
@@ -3075,7 +3100,7 @@
     {
       "id": "microfiction",
       "name": "Microfiction",
-      "parent": "literary-modes-and-forms",
+      "parent": "flash-fiction",
       "kind": "Form",
       "definition": "Extreme brevity asks implication, compression, and omission to carry much of the story.",
       "prompt": "What single detail implies a larger life beyond the text?",
@@ -3276,6 +3301,2911 @@
       "prompt": "What can different readers recognize differently in the same scene?",
       "matches": [],
       "scopeNote": "An intended readership label, not a genre or a content-suitability rating."
+    },
+    {
+      "id": "home-and-household-life",
+      "name": "Home and household life",
+      "parent": "slice-of-life",
+      "kind": "Planning label",
+      "definition": "Everyday domestic tasks and shared space reveal relationships without requiring a major external crisis.",
+      "prompt": "Who notices the work that makes a home feel ordinary?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "morning-and-evening-rituals",
+      "name": "Morning and evening rituals",
+      "parent": "home-and-household-life",
+      "kind": "Planning label",
+      "definition": "Repeated beginnings or endings of a day reveal small changes in mood, attachment, or independence.",
+      "prompt": "Which familiar gesture has acquired a different meaning today?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "cooking-and-shared-meals",
+      "name": "Cooking and shared meals",
+      "parent": "home-and-household-life",
+      "kind": "Planning label",
+      "definition": "Preparing, sharing, or clearing a meal becomes the setting for everyday negotiation and care.",
+      "prompt": "Who remembers how everyone likes their food, and who remembers theirs?",
+      "matches": [
+        {
+          "story": "stories-p13917",
+          "paragraph": "stories-p13921",
+          "reason": "Organizing a neighborhood feast creates conflicts about labor, space, and who actually agreed to do the work. Everyday-life branches describe its comic material.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "cleaning-and-maintenance",
+      "name": "Cleaning and maintenance",
+      "parent": "home-and-household-life",
+      "kind": "Planning label",
+      "definition": "Keeping a place livable exposes invisible labor, standards, and attachments.",
+      "prompt": "What looks like clutter to one resident but continuity to another?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "roommates-and-shared-boundaries",
+      "name": "Roommates and shared boundaries",
+      "parent": "home-and-household-life",
+      "kind": "Planning label",
+      "definition": "People sharing a home negotiate noise, privacy, possessions, chores, and different routines.",
+      "prompt": "Which tiny habit becomes a larger argument about respect?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "moving-and-settling-in",
+      "name": "Moving and settling in",
+      "parent": "home-and-household-life",
+      "kind": "Planning label",
+      "definition": "Packing, unpacking, and learning an unfamiliar home give shape to belonging.",
+      "prompt": "What is the first object someone places where it truly belongs?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "school-day-life",
+      "name": "School-day life",
+      "parent": "slice-of-life",
+      "kind": "Planning label",
+      "definition": "Ordinary lessons, breaks, group work, and school routines carry the story.",
+      "prompt": "What happens between the officially important parts of a school day?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "lunch-breaks-and-corridors",
+      "name": "Lunch breaks and corridors",
+      "parent": "school-day-life",
+      "kind": "Planning label",
+      "definition": "Informal school spaces reveal friendships, loneliness, and unwritten social rules.",
+      "prompt": "Who changes their route to spend thirty seconds with someone?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "clubs-and-after-school-projects",
+      "name": "Clubs and after-school projects",
+      "parent": "school-day-life",
+      "kind": "Planning label",
+      "definition": "A shared interest creates regular meetings, uneven contributions, and small ambitions.",
+      "prompt": "How does the group respond when its least confident member has the best idea?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "group-assignments",
+      "name": "Group assignments",
+      "parent": "school-day-life",
+      "kind": "Planning label",
+      "definition": "Everyday collaboration tests habits of listening, leadership, effort, and credit.",
+      "prompt": "Who does the organizing work that the finished project will not show?",
+      "matches": [
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00194",
+          "reason": "Lio and Vey’s imperfect shared shelter becomes something neither would have designed alone. The classroom moment supports these everyday-life planning lenses.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "a-substitute-or-new-teacher",
+      "name": "A substitute or new teacher",
+      "parent": "school-day-life",
+      "kind": "Planning label",
+      "definition": "A temporary change in classroom authority reveals routines students had taken for granted.",
+      "prompt": "Which custom do students decide to preserve themselves?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "workday-life",
+      "name": "Workday life",
+      "parent": "slice-of-life",
+      "kind": "Planning label",
+      "definition": "A shift or routine task reveals expertise, work relationships, and the gap between job descriptions and actual work.",
+      "prompt": "What part of the job cannot be explained in the training manual?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "opening-and-closing-a-shop",
+      "name": "Opening and closing a shop",
+      "parent": "workday-life",
+      "kind": "Planning label",
+      "definition": "The small rituals around a business reveal its connection to workers and customers.",
+      "prompt": "Who depends on a shop for something it does not officially sell?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "apprenticeship-and-small-mistakes",
+      "name": "Apprenticeship and small mistakes",
+      "parent": "workday-life",
+      "kind": "Planning label",
+      "definition": "A beginner learns a craft through correction, repetition, and imperfect attempts.",
+      "prompt": "Which mistake teaches something a flawless demonstration could not?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "night-shifts-and-overlooked-workers",
+      "name": "Night shifts and overlooked workers",
+      "parent": "workday-life",
+      "kind": "Planning label",
+      "definition": "Work done while others rest reveals an often unseen social world.",
+      "prompt": "What informal kindness keeps the night shift functioning?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "repair-work-and-patient-expertise",
+      "name": "Repair work and patient expertise",
+      "parent": "workday-life",
+      "kind": "Planning label",
+      "definition": "Troubleshooting and maintaining ordinary things creates encounters and modest discoveries.",
+      "prompt": "What does the repairer learn by asking how the object was actually used?",
+      "matches": [
+        {
+          "story": "stories-p14511",
+          "paragraph": "stories-p14625",
+          "reason": "The repaired gutter needs continued inspections and new materials. Routine upkeep supports the adventure across differently scaled communities.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "commuting-and-errands",
+      "name": "Commuting and errands",
+      "parent": "slice-of-life",
+      "kind": "Planning label",
+      "definition": "Recurring journeys and necessary stops create small encounters outside home and work.",
+      "prompt": "Which stranger becomes familiar without ever becoming a friend?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "waiting-rooms-and-queues",
+      "name": "Waiting rooms and queues",
+      "parent": "commuting-and-errands",
+      "kind": "Planning label",
+      "definition": "People briefly sharing enforced waiting negotiate patience, privacy, and unexpected connection.",
+      "prompt": "What can someone offer without intruding on another person's day?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "a-familiar-route-changes",
+      "name": "A familiar route changes",
+      "parent": "commuting-and-errands",
+      "kind": "Planning label",
+      "definition": "A closure, detour, or changed timetable interrupts a daily pattern.",
+      "prompt": "What was the old route providing besides transportation?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "friendship-in-ordinary-time",
+      "name": "Friendship in ordinary time",
+      "parent": "slice-of-life",
+      "kind": "Planning label",
+      "definition": "Friendship develops through ordinary availability, shared habits, and small acts rather than only dramatic loyalty tests.",
+      "prompt": "How do friends show they still matter when neither has exciting news?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "keeping-in-touch",
+      "name": "Keeping in touch",
+      "parent": "friendship-in-ordinary-time",
+      "kind": "Planning label",
+      "definition": "Messages, missed meetings, and differences in available time shape a continuing bond.",
+      "prompt": "What does a late reply mean to each person?",
+      "matches": [
+        {
+          "story": "stories-p14511",
+          "paragraph": "stories-p14570",
+          "reason": "Dema marks messages with availability and intended return, learning to maintain a relationship across unequal experiences of time.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "small-misunderstandings-and-repair",
+      "name": "Small misunderstandings and repair",
+      "parent": "friendship-in-ordinary-time",
+      "kind": "Planning label",
+      "definition": "A minor slight reveals different expectations and offers a chance to repair trust.",
+      "prompt": "What apology names the actual hurt without making it larger?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "making-a-new-friend",
+      "name": "Making a new friend",
+      "parent": "friendship-in-ordinary-time",
+      "kind": "Planning label",
+      "definition": "Repeated low-stakes encounters gradually become a chosen relationship.",
+      "prompt": "What small invitation can safely be declined?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "care-and-daily-support",
+      "name": "Care and daily support",
+      "parent": "slice-of-life",
+      "kind": "Planning label",
+      "definition": "Routine assistance and dependence are explored through ordinary choices and relationships.",
+      "prompt": "How can someone help without taking over?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "living-with-changing-capacity",
+      "name": "Living with changing capacity",
+      "parent": "care-and-daily-support",
+      "kind": "Planning label",
+      "definition": "Ordinary life adapts to changing energy, mobility, perception, or support needs without requiring a cure narrative.",
+      "prompt": "Which adjustment makes participation possible on a difficult day?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "rest-and-recovery-days",
+      "name": "Rest and recovery days",
+      "parent": "care-and-daily-support",
+      "kind": "Planning label",
+      "definition": "A quiet day of recovery or needed rest gives space to dependency, impatience, and care.",
+      "prompt": "What does worthwhile time look like when productivity is unavailable?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "caring-for-animals",
+      "name": "Caring for animals",
+      "parent": "care-and-daily-support",
+      "kind": "Planning label",
+      "definition": "Feeding, training, grooming, and companionship give shape to responsibility and attachment.",
+      "prompt": "What does attentive care reveal about this animal's preferences?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "neighborhood-routines",
+      "name": "Neighborhood routines",
+      "parent": "slice-of-life",
+      "kind": "Planning label",
+      "definition": "Repeated encounters around a shared place reveal community life at a modest scale.",
+      "prompt": "Who quietly connects people who otherwise would not meet?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "markets-and-regular-customers",
+      "name": "Markets and regular customers",
+      "parent": "neighborhood-routines",
+      "kind": "Planning label",
+      "definition": "Buying, selling, bargaining, and recognition create ongoing local relationships.",
+      "prompt": "What does a seller remember that makes a customer feel seen?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "community-meals-and-festivals",
+      "name": "Community meals and festivals",
+      "parent": "neighborhood-routines",
+      "kind": "Planning label",
+      "definition": "Preparations, shared labor, and small inconveniences reveal the social meaning of a gathering.",
+      "prompt": "Who is included in the celebration but excluded from deciding it?",
+      "matches": [
+        {
+          "story": "stories-p13917",
+          "paragraph": "stories-p13921",
+          "reason": "Organizing a neighborhood feast creates conflicts about labor, space, and who actually agreed to do the work. Everyday-life branches describe its comic material.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "gardens-and-shared-spaces",
+      "name": "Gardens and shared spaces",
+      "parent": "neighborhood-routines",
+      "kind": "Planning label",
+      "definition": "Tending a garden, courtyard, corridor, or common room brings competing uses into everyday negotiation.",
+      "prompt": "Can two different ideas of care share the same patch of ground?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "creative-and-hobby-life",
+      "name": "Creative and hobby life",
+      "parent": "slice-of-life",
+      "kind": "Planning label",
+      "definition": "Making something for interest or pleasure exposes patience, taste, and small personal ambitions.",
+      "prompt": "What is worth making even if nobody applauds it?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "practice-and-rehearsal",
+      "name": "Practice and rehearsal",
+      "parent": "creative-and-hobby-life",
+      "kind": "Planning label",
+      "definition": "Repeated attempts, interruptions, and modest progress reveal a maker's relationship with a craft.",
+      "prompt": "When does practice become connection rather than self-correction?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "collecting-and-keeping",
+      "name": "Collecting and keeping",
+      "parent": "creative-and-hobby-life",
+      "kind": "Planning label",
+      "definition": "A collection of objects, memories, or records gives shape to personal meaning.",
+      "prompt": "Why does an apparently ordinary item complete the collection?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "finishing-and-leaving-unfinished",
+      "name": "Finishing and leaving unfinished",
+      "parent": "creative-and-hobby-life",
+      "kind": "Planning label",
+      "definition": "A modest project raises questions about completion, satisfaction, and permission to stop.",
+      "prompt": "Who gets to decide when this is finished enough?",
+      "matches": [
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00194",
+          "reason": "Lio and Vey’s imperfect shared shelter becomes something neither would have designed alone. The classroom moment supports these everyday-life planning lenses.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "seasons-and-small-transitions",
+      "name": "Seasons and small transitions",
+      "parent": "slice-of-life",
+      "kind": "Planning label",
+      "definition": "Seasonal rhythms and modest life changes alter familiar routines.",
+      "prompt": "Which returning event reveals that someone has changed?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "a-first-day-or-last-day",
+      "name": "A first day or last day",
+      "parent": "seasons-and-small-transitions",
+      "kind": "Planning label",
+      "definition": "A familiar activity acquires significance because it is being experienced for the first or final time.",
+      "prompt": "What does the character notice only because this day has a boundary?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "retirement-and-a-new-rhythm",
+      "name": "Retirement and a new rhythm",
+      "parent": "seasons-and-small-transitions",
+      "kind": "Planning label",
+      "definition": "A life no longer organized around the same work must find other routines and relationships.",
+      "prompt": "What part of the old routine is missed even though the job is not?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "ordinary-life-after-loss",
+      "name": "Ordinary life after loss",
+      "parent": "seasons-and-small-transitions",
+      "kind": "Planning label",
+      "definition": "Daily tasks continue after someone or something is gone, making absence concrete.",
+      "prompt": "Which routine still expects the absent person to participate?",
+      "matches": [
+        {
+          "story": "stories-p14121",
+          "paragraph": "stories-p14356",
+          "reason": "A faulty latch and an offered hinge place practical daily needs beside continuing grief. This is a slice-of-life strand within the larger lament cycle, not a claim that the whole work is only slice of life.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "speculative-slice-of-life",
+      "name": "Speculative slice of life",
+      "parent": "slice-of-life",
+      "kind": "Planning label",
+      "definition": "An imagined world is explored through ordinary living rather than a world-saving mission.",
+      "prompt": "What would count as an unremarkable inconvenience in this extraordinary setting?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "digital-household-routines",
+      "name": "Digital household routines",
+      "parent": "speculative-slice-of-life",
+      "kind": "Planning label",
+      "definition": "Digital people share domestic routines involving embodiment, privacy, resource use, or rendered environments.",
+      "prompt": "Who changes the room's settings, and who has to live with them?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "maintenance-in-an-invented-world",
+      "name": "Maintenance in an invented world",
+      "parent": "speculative-slice-of-life",
+      "kind": "Planning label",
+      "definition": "Everyday upkeep reveals how an unfamiliar world remains habitable.",
+      "prompt": "What does an experienced resident know to check before going to sleep?",
+      "matches": [
+        {
+          "story": "stories-p14511",
+          "paragraph": "stories-p14625",
+          "reason": "The repaired gutter needs continued inspections and new materials. Routine upkeep supports the adventure across differently scaled communities.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "mixed-bodies-and-shared-spaces",
+      "name": "Mixed bodies and shared spaces",
+      "parent": "speculative-slice-of-life",
+      "kind": "Planning label",
+      "definition": "People with different forms or senses negotiate the practical details of living together.",
+      "prompt": "What makes a shared table comfortable for one body and unusable for another?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "quiet-companionship",
+      "name": "Quiet companionship",
+      "parent": "friendship-in-ordinary-time",
+      "kind": "Planning label",
+      "definition": "Being together without a major task or revelation carries the emotional movement.",
+      "prompt": "What makes silence feel companionable rather than empty?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "poetry",
+      "name": "Poetry",
+      "parent": null,
+      "kind": "Reference category",
+      "definition": "A shelf for poetic kinds, formal patterns, voice, performance, and ways of arranging poems. These can combine with story genres.",
+      "prompt": "Is the important choice what the poem expresses, how it is patterned, or how it is voiced?",
+      "matches": [],
+      "scopeNote": "An editorial shelf for browsing related labels, not a universal genre classification.",
+      "references": [
+        {
+          "title": "Harvard: Glossary of poetic genres",
+          "url": "https://poetry.harvard.edu/glossary-poetic-genres"
+        }
+      ]
+    },
+    {
+      "id": "poems-of-mourning",
+      "name": "Poems of mourning",
+      "parent": "poetry",
+      "kind": "Reference category",
+      "definition": "A browsing family for poetic responses to death, absence, collective grief, and other losses.",
+      "prompt": "Who or what is being mourned, and who is allowed to speak?",
+      "matches": [
+        {
+          "story": "stories-p14121",
+          "paragraph": "stories-p14126",
+          "reason": "Survivors ask for lost rooms, sounds, and privacy. Mourning includes a way of living, not only individual deaths; this supports lament rather than automatically classifying the cycle as a funeral dirge.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An editorial shelf for browsing related labels, not a universal genre classification."
+    },
+    {
+      "id": "lament",
+      "name": "Lament",
+      "parent": "poems-of-mourning",
+      "kind": "Poetic kind",
+      "definition": "A poem or utterance of grief for a person, place, community, possibility, or other loss; lamentation is a closely related term.",
+      "prompt": "What specific absence carries the grief more vividly than a general statement of sadness?",
+      "matches": [
+        {
+          "story": "stories-p14121",
+          "paragraph": "stories-p14126",
+          "reason": "Survivors ask for lost rooms, sounds, and privacy. Mourning includes a way of living, not only individual deaths; this supports lament rather than automatically classifying the cycle as a funeral dirge.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme.",
+      "aliases": [
+        "lamentation",
+        "lamentations"
+      ],
+      "related": [
+        "dirge",
+        "elegy",
+        "choral-narrative",
+        "poem-cycle"
+      ],
+      "references": [
+        {
+          "title": "Poetry Foundation: Lament",
+          "url": "https://www.poetryfoundation.org/education/glossary/lament"
+        }
+      ]
+    },
+    {
+      "id": "personal-lament",
+      "name": "Personal lament",
+      "parent": "lament",
+      "kind": "Planning label",
+      "definition": "One speaker's intimate relationship with a loss shapes the poem.",
+      "prompt": "What does this speaker miss that nobody else could name?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "communal-lament",
+      "name": "Communal lament",
+      "parent": "lament",
+      "kind": "Planning label",
+      "definition": "Several voices or a collective speaker mourn a shared loss without necessarily agreeing about its meaning.",
+      "prompt": "Which disagreements must remain audible in the act of mourning?",
+      "matches": [
+        {
+          "story": "stories-p14121",
+          "paragraph": "stories-p14126",
+          "reason": "Survivors ask for lost rooms, sounds, and privacy. Mourning includes a way of living, not only individual deaths; this supports lament rather than automatically classifying the cycle as a funeral dirge.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "lament-for-a-place",
+      "name": "Lament for a place",
+      "parent": "lament",
+      "kind": "Planning label",
+      "definition": "Grief is directed toward a home, landscape, city, room, or way of inhabiting a place.",
+      "prompt": "Which ordinary imperfection of the lost place is now cherished?",
+      "matches": [
+        {
+          "story": "stories-p14121",
+          "paragraph": "stories-p14126",
+          "reason": "Survivors ask for lost rooms, sounds, and privacy. Mourning includes a way of living, not only individual deaths; this supports lament rather than automatically classifying the cycle as a funeral dirge.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "dirge",
+      "name": "Dirge",
+      "parent": "poems-of-mourning",
+      "kind": "Poetic kind",
+      "definition": "A mourning song associated with the dead, often suited to funeral or commemorative performance; it is not simply any sad poem.",
+      "prompt": "What can repeated sound do for mourners that explanation cannot?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme.",
+      "related": [
+        "lament",
+        "elegy"
+      ],
+      "references": [
+        {
+          "title": "Academy of American Poets: Dirge",
+          "url": "https://poets.org/glossary/dirge"
+        }
+      ]
+    },
+    {
+      "id": "elegy",
+      "name": "Elegy",
+      "parent": "poems-of-mourning",
+      "kind": "Poetic kind",
+      "definition": "A reflective poem of mourning or loss, often for someone who has died. Consolation is common in some traditions but is not required of every elegy.",
+      "prompt": "What can reflection change without making the loss acceptable?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme.",
+      "related": [
+        "lament",
+        "dirge",
+        "epitaph"
+      ],
+      "references": [
+        {
+          "title": "Academy of American Poets: Elegy",
+          "url": "https://poets.org/glossary/elegy"
+        }
+      ]
+    },
+    {
+      "id": "pastoral-elegy",
+      "name": "Pastoral elegy",
+      "parent": "elegy",
+      "kind": "Poetic kind",
+      "definition": "An elegy uses a pastoral world or rural figures to stage mourning and reflection.",
+      "prompt": "How does the landscape participate in grief without becoming mere decoration?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme."
+    },
+    {
+      "id": "epitaph",
+      "name": "Epitaph",
+      "parent": "poems-of-mourning",
+      "kind": "Poetic kind",
+      "definition": "A brief commemorative text associated with a grave or imagined memorial inscription.",
+      "prompt": "What can a few words preserve without pretending to contain an entire life?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme."
+    },
+    {
+      "id": "poems-of-praise-and-address",
+      "name": "Poems of praise and address",
+      "parent": "poetry",
+      "kind": "Reference category",
+      "definition": "Poems organized around speaking to, celebrating, invoking, or honoring a subject.",
+      "prompt": "What changes when the poem speaks to its subject rather than about it?",
+      "matches": [],
+      "scopeNote": "An editorial shelf for browsing related labels, not a universal genre classification."
+    },
+    {
+      "id": "ode",
+      "name": "Ode",
+      "parent": "poems-of-praise-and-address",
+      "kind": "Poetic kind",
+      "definition": "An attentive address or meditation on a subject, often elevated or celebratory; different ode traditions use different formal patterns.",
+      "prompt": "What deserves sustained attention that people usually pass over?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme."
+    },
+    {
+      "id": "hymn",
+      "name": "Hymn",
+      "parent": "poems-of-praise-and-address",
+      "kind": "Poetic kind",
+      "definition": "A song of praise or devotion, often religious and often intended for shared singing.",
+      "prompt": "What conviction becomes different when many voices speak it together?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme."
+    },
+    {
+      "id": "praise-poem",
+      "name": "Praise poem",
+      "parent": "poems-of-praise-and-address",
+      "kind": "Poetic kind",
+      "definition": "A poem honors the qualities, deeds, relationships, or significance of its subject.",
+      "prompt": "How can praise remain precise enough to feel earned?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme."
+    },
+    {
+      "id": "invocation",
+      "name": "Invocation",
+      "parent": "poems-of-praise-and-address",
+      "kind": "Poetic kind",
+      "definition": "A poetic appeal calls upon a presence, power, muse, or source of help or inspiration.",
+      "prompt": "What does the speaker need that they cannot supply alone?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme."
+    },
+    {
+      "id": "epithalamion",
+      "name": "Epithalamion",
+      "parent": "poems-of-praise-and-address",
+      "kind": "Poetic kind",
+      "definition": "A poem celebrates a marriage or wedding occasion; its treatment can honor, question, or complicate the celebration.",
+      "prompt": "What private hope sits inside the public ceremony?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme."
+    },
+    {
+      "id": "aubade",
+      "name": "Aubade",
+      "parent": "poems-of-praise-and-address",
+      "kind": "Poetic kind",
+      "definition": "A dawn poem, often concerned with lovers parting or the emotional arrival of morning.",
+      "prompt": "What does daylight require the speaker to leave behind?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme."
+    },
+    {
+      "id": "lyric-poetry",
+      "name": "Lyric poetry",
+      "parent": "poetry",
+      "kind": "Poetic kind",
+      "definition": "A poem concentrates on a speaker's perception, feeling, or thought rather than necessarily telling a sequence of events.",
+      "prompt": "What changes within the act of attention itself?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme."
+    },
+    {
+      "id": "meditative-poem",
+      "name": "Meditative poem",
+      "parent": "lyric-poetry",
+      "kind": "Poetic kind",
+      "definition": "A sustained movement of thought follows observation, uncertainty, reflection, or discovery.",
+      "prompt": "Where does thinking encounter something it cannot neatly resolve?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme."
+    },
+    {
+      "id": "love-lyric",
+      "name": "Love lyric",
+      "parent": "lyric-poetry",
+      "kind": "Poetic kind",
+      "definition": "A lyric explores affection, desire, intimacy, distance, or the perception of a beloved.",
+      "prompt": "Which observation reveals love without naming it?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme."
+    },
+    {
+      "id": "nature-lyric",
+      "name": "Nature lyric",
+      "parent": "lyric-poetry",
+      "kind": "Planning label",
+      "definition": "Attention to the nonhuman world shapes a speaker's experience or reflection.",
+      "prompt": "What does close observation reveal before the speaker turns it into a metaphor?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "ekphrastic-poem",
+      "name": "Ekphrastic poem",
+      "parent": "lyric-poetry",
+      "kind": "Poetic kind",
+      "definition": "A poem responds to an artwork through description, address, imagination, or argument.",
+      "prompt": "What can the poem notice or question that the image cannot say aloud?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme."
+    },
+    {
+      "id": "narrative-poetry",
+      "name": "Narrative poetry",
+      "parent": "poetry",
+      "kind": "Poetic kind",
+      "definition": "Verse tells events involving characters and change, with rhythm and lineation contributing to the telling.",
+      "prompt": "What does telling this in verse make possible that prose would handle differently?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme."
+    },
+    {
+      "id": "ballad",
+      "name": "Ballad",
+      "parent": "narrative-poetry",
+      "kind": "Poetic kind",
+      "definition": "A narrative song or poem often concentrates on a dramatic event; traditional and literary ballads use varied patterns, frequently involving repetition.",
+      "prompt": "Which repeated line gathers new meaning as the event unfolds?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme.",
+      "references": [
+        {
+          "title": "Poetry Foundation: Ballad",
+          "url": "https://www.poetryfoundation.org/education/glossary/ballad"
+        }
+      ]
+    },
+    {
+      "id": "folk-ballad",
+      "name": "Folk ballad",
+      "parent": "ballad",
+      "kind": "Poetic kind",
+      "definition": "A ballad belongs to an oral or communal transmission tradition, often surviving in multiple versions.",
+      "prompt": "What does a changed verse reveal about the community retelling it?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme."
+    },
+    {
+      "id": "literary-ballad",
+      "name": "Literary ballad",
+      "parent": "ballad",
+      "kind": "Poetic kind",
+      "definition": "An authored poem deliberately uses or transforms ballad conventions.",
+      "prompt": "Which convention can be kept while the expected story is reversed?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme."
+    },
+    {
+      "id": "epic-poem",
+      "name": "Epic poem",
+      "parent": "narrative-poetry",
+      "kind": "Poetic kind",
+      "definition": "An extended narrative poem treats consequential actions or journeys, often in relation to a people's history or values.",
+      "prompt": "Whose ordinary life is affected by the deeds celebrated as great?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme."
+    },
+    {
+      "id": "mock-epic",
+      "name": "Mock epic",
+      "parent": "epic-poem",
+      "kind": "Poetic kind",
+      "definition": "Elevated epic conventions are applied to a smaller or incongruous subject for comic or critical effect.",
+      "prompt": "What does grand language reveal about the supposedly minor dispute?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme."
+    },
+    {
+      "id": "verse-novel",
+      "name": "Verse novel",
+      "parent": "narrative-poetry",
+      "kind": "Poetic form",
+      "definition": "A novel-length narrative unfolds primarily in verse, sometimes through linked poems or changing voices.",
+      "prompt": "How can individual poems stand as moments while the larger story continues?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception."
+    },
+    {
+      "id": "poetic-voices-and-performance",
+      "name": "Poetic voices and performance",
+      "parent": "poetry",
+      "kind": "Reference category",
+      "definition": "Ways of assigning speakers, listeners, responses, and performance to poetic language.",
+      "prompt": "Who speaks, who hears, and who cannot answer?",
+      "matches": [],
+      "scopeNote": "An editorial shelf for browsing related labels, not a universal genre classification."
+    },
+    {
+      "id": "dramatic-monologue",
+      "name": "Dramatic monologue",
+      "parent": "poetic-voices-and-performance",
+      "kind": "Poetic kind",
+      "definition": "An imagined speaker addresses an implied listener, often revealing more about themselves than they intend.",
+      "prompt": "What does the speaker accidentally disclose while trying to persuade?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme.",
+      "references": [
+        {
+          "title": "Poetry Foundation: Dramatic monologue",
+          "url": "https://www.poetryfoundation.org/education/glossary/dramatic-monologue"
+        }
+      ]
+    },
+    {
+      "id": "persona-poem",
+      "name": "Persona poem",
+      "parent": "poetic-voices-and-performance",
+      "kind": "Poetic kind",
+      "definition": "A poem speaks through an adopted voice or identity distinct from a straightforward autobiographical speaker; it may overlap with dramatic monologue.",
+      "prompt": "What makes the adopted voice specific rather than a costume?",
+      "matches": [],
+      "scopeNote": "A recognized kind or mode of poetry, often identified by subject, purpose, or voice. It need not prescribe a fixed meter or rhyme scheme."
+    },
+    {
+      "id": "dialogue-poem",
+      "name": "Dialogue poem",
+      "parent": "poetic-voices-and-performance",
+      "kind": "Poetic form",
+      "definition": "Two or more speakers exchange lines or stanzas so their relationship shapes the poem.",
+      "prompt": "What remains unresolved between the voices?",
+      "matches": [
+        {
+          "story": "stories-p14121",
+          "paragraph": "stories-p14149",
+          "reason": "Seven gatherings arrange individual voices, Aven’s questions, and a chorus into a connected sequence. These are complementary descriptions of the work’s arrangement and voices.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception."
+    },
+    {
+      "id": "call-and-response",
+      "name": "Call and response",
+      "parent": "poetic-voices-and-performance",
+      "kind": "Technique",
+      "definition": "An initiating voice is answered by another voice or group, creating patterned exchange.",
+      "prompt": "When should the response change instead of repeating faithfully?",
+      "matches": [
+        {
+          "story": "stories-p14121",
+          "paragraph": "stories-p14149",
+          "reason": "Seven gatherings arrange individual voices, Aven’s questions, and a chorus into a connected sequence. These are complementary descriptions of the work’s arrangement and voices.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A storytelling device that can be used across genres."
+    },
+    {
+      "id": "spoken-word-poetry",
+      "name": "Spoken-word poetry",
+      "parent": "poetic-voices-and-performance",
+      "kind": "Recognized label",
+      "definition": "Poetry foregrounds oral delivery, audience encounter, and performance; it need not follow one fixed style.",
+      "prompt": "What does breath, pace, or emphasis add to the written words?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "poetry-slam",
+      "name": "Poetry slam",
+      "parent": "poetic-voices-and-performance",
+      "kind": "Recognized label",
+      "definition": "A competitive performance setting for poetry, not a single poetic form or mandatory style.",
+      "prompt": "How does the scoring setting affect what the speaker risks saying?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "poetic-patterns",
+      "name": "Poetic patterns",
+      "parent": "poetry",
+      "kind": "Reference category",
+      "definition": "Forms and verse practices organized by line, stanza, repetition, sound, or visual arrangement.",
+      "prompt": "What should the pattern make the speaker do differently?",
+      "matches": [],
+      "scopeNote": "An editorial shelf for browsing related labels, not a universal genre classification."
+    },
+    {
+      "id": "sonnet",
+      "name": "Sonnet",
+      "parent": "poetic-patterns",
+      "kind": "Poetic form",
+      "definition": "Traditionally a fourteen-line poem whose argument or feeling turns during its development. Rhyme, meter, and the placement of the turn vary by tradition.",
+      "prompt": "Where does the speaker's thought turn against its own opening claim?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception.",
+      "references": [
+        {
+          "title": "Poetry Foundation: Sonnet",
+          "url": "https://www.poetryfoundation.org/education/glossary/sonnet"
+        }
+      ]
+    },
+    {
+      "id": "petrarchan-sonnet",
+      "name": "Petrarchan sonnet",
+      "parent": "sonnet",
+      "kind": "Poetic form",
+      "definition": "An octave and a sestet divide the poem into eight and six lines, often allowing a turn between them. The sestet's rhyme pattern varies.",
+      "prompt": "What response complicates the problem posed in the opening eight lines?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception.",
+      "references": [
+        {
+          "title": "Poetry Foundation: Sonnet",
+          "url": "https://www.poetryfoundation.org/education/glossary/sonnet"
+        }
+      ]
+    },
+    {
+      "id": "shakespearean-sonnet",
+      "name": "Shakespearean sonnet",
+      "parent": "sonnet",
+      "kind": "Poetic form",
+      "definition": "Three quatrains and a final couplet commonly use ABAB CDCD EFEF GG, with the ending able to resolve or overturn the preceding movement.",
+      "prompt": "What can the final two lines change about everything before them?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception.",
+      "references": [
+        {
+          "title": "Poetry Foundation: Sonnet",
+          "url": "https://www.poetryfoundation.org/education/glossary/sonnet"
+        }
+      ]
+    },
+    {
+      "id": "spenserian-sonnet",
+      "name": "Spenserian sonnet",
+      "parent": "sonnet",
+      "kind": "Poetic form",
+      "definition": "Linked quatrain rhymes commonly follow ABAB BCBC CDCD EE, connecting the poem's stages before the closing couplet.",
+      "prompt": "How can a repeated rhyme carry an idea from one stage into the next?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception.",
+      "references": [
+        {
+          "title": "Academy of American Poets: Sonnet",
+          "url": "https://poets.org/glossary/sonnet"
+        }
+      ]
+    },
+    {
+      "id": "villanelle",
+      "name": "Villanelle",
+      "parent": "poetic-patterns",
+      "kind": "Poetic form",
+      "definition": "The familiar nineteen-line form uses five tercets and a quatrain, with two refrains recurring and meeting at the end.",
+      "prompt": "How does each return alter the emotional weight of the same words?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception."
+    },
+    {
+      "id": "sestina",
+      "name": "Sestina",
+      "parent": "poetic-patterns",
+      "kind": "Poetic form",
+      "definition": "Six six-line stanzas rotate six end-words in a prescribed order, followed by a three-line envoi that includes them again.",
+      "prompt": "What six words can keep changing their relationships without exhausting their meanings?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception.",
+      "references": [
+        {
+          "title": "Poetry Foundation: Sestina",
+          "url": "https://www.poetryfoundation.org/education/glossary/Sestina"
+        }
+      ]
+    },
+    {
+      "id": "pantoum",
+      "name": "Pantoum",
+      "parent": "poetic-patterns",
+      "kind": "Poetic form",
+      "definition": "Linked quatrains carry the second and fourth lines of one stanza into the first and third positions of the next; closure practices vary.",
+      "prompt": "What does a line mean when it returns in a different pairing?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception."
+    },
+    {
+      "id": "ghazal",
+      "name": "Ghazal",
+      "parent": "poetic-patterns",
+      "kind": "Poetic form",
+      "definition": "A couplet-based poetic tradition with substantial Arabic, Persian, and South Asian histories. Classical patterns join formally related but often self-contained couplets through rhyme and refrain; adaptations vary.",
+      "prompt": "How can each couplet stand independently while belonging to the same emotional field?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception.",
+      "references": [
+        {
+          "title": "Poetry Foundation: Ghazal",
+          "url": "https://www.poetryfoundation.org/education/glossary/ghazal"
+        }
+      ]
+    },
+    {
+      "id": "haiku",
+      "name": "Haiku",
+      "parent": "poetic-patterns",
+      "kind": "Poetic form",
+      "definition": "A compact Japanese poetic tradition often joining concrete perceptions through juxtaposition and a seasonal reference. English-language haiku need not mechanically count 5–7–5 syllables.",
+      "prompt": "What two perceptions become more than either one alone?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception.",
+      "references": [
+        {
+          "title": "Poetry Foundation: Haiku",
+          "url": "https://www.poetryfoundation.org/education/glossary/haiku-or-hokku"
+        }
+      ]
+    },
+    {
+      "id": "senryu",
+      "name": "Senryu",
+      "parent": "poetic-patterns",
+      "kind": "Poetic form",
+      "definition": "A short Japanese poetic tradition often observing human behavior with wit or irony; it is related to but distinct from haiku.",
+      "prompt": "What tiny human habit reveals a larger contradiction?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception."
+    },
+    {
+      "id": "tanka",
+      "name": "Tanka",
+      "parent": "poetic-patterns",
+      "kind": "Poetic form",
+      "definition": "A Japanese lyric tradition conventionally arranged in five units of 5–7–5–7–7 sound counts. English adaptations often use five short lines without treating those counts as identical to English syllables.",
+      "prompt": "How can an image open into a personal response without being explained away?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception.",
+      "references": [
+        {
+          "title": "Academy of American Poets: Tanka",
+          "url": "https://poets.org/glossary/tanka"
+        }
+      ]
+    },
+    {
+      "id": "triolet",
+      "name": "Triolet",
+      "parent": "poetic-patterns",
+      "kind": "Poetic form",
+      "definition": "An eight-line form using two rhymes and repeated lines, conventionally ABaAabAB, where capitals mark exact refrains.",
+      "prompt": "How can a returning statement sound changed by what intervened?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception.",
+      "references": [
+        {
+          "title": "Academy of American Poets: Triolet",
+          "url": "https://poets.org/glossary/triolet"
+        }
+      ]
+    },
+    {
+      "id": "rondeau",
+      "name": "Rondeau",
+      "parent": "poetic-patterns",
+      "kind": "Poetic form",
+      "definition": "A French refrain-based form with several historical variants; a common version has fifteen lines and a shortened refrain drawn from its opening.",
+      "prompt": "What opening phrase can work differently when it becomes a refrain?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception."
+    },
+    {
+      "id": "limerick",
+      "name": "Limerick",
+      "parent": "poetic-patterns",
+      "kind": "Poetic form",
+      "definition": "A five-line verse form commonly using AABBA rhyme and a buoyant rhythm, often comic.",
+      "prompt": "How can the final line surprise while satisfying the established rhythm?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception."
+    },
+    {
+      "id": "acrostic",
+      "name": "Acrostic",
+      "parent": "poetic-patterns",
+      "kind": "Poetic form",
+      "definition": "Selected letters, commonly the first letters of successive lines, spell a second text.",
+      "prompt": "How can the hidden text change the visible poem's meaning?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception."
+    },
+    {
+      "id": "free-verse",
+      "name": "Free verse",
+      "parent": "poetic-patterns",
+      "kind": "Poetic form",
+      "definition": "Verse does not follow a single fixed metrical or rhyme plan, but still makes deliberate choices about rhythm, sound, and line breaks.",
+      "prompt": "Where should the line end to make the reader hesitate or reconsider?",
+      "matches": [
+        {
+          "story": "stories-p14121",
+          "paragraph": "stories-p14131",
+          "reason": "The opening poem uses deliberately broken lines with varied lengths, without a fixed recurring rhyme-and-meter pattern in this English rendering.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception.",
+      "references": [
+        {
+          "title": "Poetry Foundation: Free verse",
+          "url": "https://www.poetryfoundation.org/education/glossary/free-verse"
+        }
+      ]
+    },
+    {
+      "id": "blank-verse",
+      "name": "Blank verse",
+      "parent": "poetic-patterns",
+      "kind": "Poetic form",
+      "definition": "In English, unrhymed iambic pentameter creates a recurring metrical framework without end rhyme.",
+      "prompt": "When should speech press against the regular beat?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception."
+    },
+    {
+      "id": "prose-poem",
+      "name": "Prose poem",
+      "parent": "poetic-patterns",
+      "kind": "Poetic form",
+      "definition": "Poetic compression, imagery, rhythm, or other effects are carried in prose paragraphs rather than deliberate verse lines.",
+      "prompt": "What makes the paragraph operate as a poem rather than merely a short anecdote?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception.",
+      "references": [
+        {
+          "title": "Poetry Foundation: Prose poem",
+          "url": "https://www.poetryfoundation.org/education/glossary/prose-poem"
+        }
+      ]
+    },
+    {
+      "id": "concrete-poetry",
+      "name": "Concrete poetry",
+      "parent": "poetic-patterns",
+      "kind": "Poetic form",
+      "definition": "The visual arrangement of language contributes materially to meaning and reading order.",
+      "prompt": "What meaning depends on where words sit on the page?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception."
+    },
+    {
+      "id": "found-poetry",
+      "name": "Found poetry",
+      "parent": "poetic-patterns",
+      "kind": "Poetic form",
+      "definition": "Existing language is selected and rearranged or reframed as a poem, with attention to source attribution and permission.",
+      "prompt": "What becomes audible when ordinary language is placed in a new arrangement?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception."
+    },
+    {
+      "id": "erasure-poem",
+      "name": "Erasure poem",
+      "parent": "found-poetry",
+      "kind": "Poetic form",
+      "definition": "A poem is made by removing or obscuring portions of an existing text, leaving selected language visible.",
+      "prompt": "What relationship does the remaining voice have to the source it interrupts?",
+      "matches": [],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception."
+    },
+    {
+      "id": "poem-sequence",
+      "name": "Poem sequence",
+      "parent": "poetry",
+      "kind": "Poetic form",
+      "definition": "A series of poems develops cumulative relationships through order, recurring images, speakers, or subjects.",
+      "prompt": "What becomes clear only in the movement from one poem to another?",
+      "matches": [
+        {
+          "story": "stories-p14121",
+          "paragraph": "stories-p14149",
+          "reason": "Seven gatherings arrange individual voices, Aven’s questions, and a chorus into a connected sequence. These are complementary descriptions of the work’s arrangement and voices.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception."
+    },
+    {
+      "id": "poem-cycle",
+      "name": "Poem cycle",
+      "parent": "poem-sequence",
+      "kind": "Poetic form",
+      "definition": "Related poems form a recurring or connected whole through shared subjects, motifs, situations, or voices.",
+      "prompt": "What changes each time the cycle returns to its central concern?",
+      "matches": [
+        {
+          "story": "stories-p14121",
+          "paragraph": "stories-p14149",
+          "reason": "Seven gatherings arrange individual voices, Aven’s questions, and a chorus into a connected sequence. These are complementary descriptions of the work’s arrangement and voices.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized poetic form or verse practice. Traditions and adaptations differ; the description states the common pattern rather than every exception.",
+      "related": [
+        "choral-narrative",
+        "frame-narrative",
+        "story-cycle"
+      ]
+    },
+    {
+      "id": "poetic-devices",
+      "name": "Poetic devices",
+      "parent": "poetry",
+      "kind": "Reference category",
+      "definition": "Craft tools that can work across poetic forms and often in prose as well.",
+      "prompt": "Which device changes the reader's experience instead of merely decorating a line?",
+      "matches": [],
+      "scopeNote": "An editorial shelf for browsing related labels, not a universal genre classification.",
+      "references": [
+        {
+          "title": "Harvard: Guide to poetic terms",
+          "url": "https://poetry.harvard.edu/guide-poetic-terms"
+        }
+      ]
+    },
+    {
+      "id": "refrain",
+      "name": "Refrain",
+      "parent": "poetic-devices",
+      "kind": "Technique",
+      "definition": "A phrase or passage returns within a poem or song, regularly or irregularly.",
+      "prompt": "What does repetition preserve, and what does context change?",
+      "matches": [],
+      "scopeNote": "A storytelling device that can be used across genres."
+    },
+    {
+      "id": "anaphora",
+      "name": "Anaphora",
+      "parent": "poetic-devices",
+      "kind": "Technique",
+      "definition": "Successive phrases, clauses, or lines begin with the same word or phrase.",
+      "prompt": "What pressure accumulates through repeated beginnings?",
+      "matches": [],
+      "scopeNote": "A storytelling device that can be used across genres."
+    },
+    {
+      "id": "enjambment",
+      "name": "Enjambment",
+      "parent": "poetic-devices",
+      "kind": "Technique",
+      "definition": "A sentence or phrase continues across a verse line ending without a full syntactic stop.",
+      "prompt": "What temporary meaning exists at the line break before the sentence continues?",
+      "matches": [],
+      "scopeNote": "A storytelling device that can be used across genres."
+    },
+    {
+      "id": "volta",
+      "name": "Volta",
+      "parent": "poetic-devices",
+      "kind": "Technique",
+      "definition": "A turn shifts a poem's argument, perception, mood, or direction, especially familiar in sonnets.",
+      "prompt": "What forces the speaker to approach the subject differently?",
+      "matches": [],
+      "scopeNote": "A storytelling device that can be used across genres."
+    },
+    {
+      "id": "story-structures",
+      "name": "Story structures",
+      "parent": null,
+      "kind": "Reference category",
+      "definition": "Ways of ordering events, distributing attention, and organizing change. Structure is separate from genre, theme, and audience.",
+      "prompt": "What arrangement lets the reader experience the story's change most clearly?",
+      "matches": [],
+      "scopeNote": "An editorial shelf for browsing related labels, not a universal genre classification."
+    },
+    {
+      "id": "act-based-structures",
+      "name": "Act-based structures",
+      "parent": "story-structures",
+      "kind": "Reference category",
+      "definition": "Models divide dramatic development into larger movements; act divisions are interpretive tools, not universal laws.",
+      "prompt": "What changes the nature of the action between movements?",
+      "matches": [],
+      "scopeNote": "An editorial shelf for browsing related labels, not a universal genre classification."
+    },
+    {
+      "id": "three-act-structure",
+      "name": "Three-act structure",
+      "parent": "act-based-structures",
+      "kind": "Structure",
+      "definition": "A broad setup, developing confrontation, and resolution organize the action. Their lengths and internal turns vary.",
+      "prompt": "What makes returning to the original situation impossible after the setup?",
+      "matches": [
+        {
+          "story": "stories-p14362",
+          "paragraph": "stories-p14362",
+          "reason": "The source identifies this satirical chamber play as three acts. This match describes its explicit act divisions, not proof that it follows every prescriptive three-act beat.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow.",
+      "related": [
+        "five-act-structure",
+        "episodic-narrative",
+        "braided-narrative"
+      ],
+      "references": [
+        {
+          "title": "BBC Maestro: Three-act structure",
+          "url": "https://www.bbcmaestro.com/blog/three-act-structure-filmmaking"
+        }
+      ]
+    },
+    {
+      "id": "five-act-structure",
+      "name": "Five-act structure",
+      "parent": "act-based-structures",
+      "kind": "Structure",
+      "definition": "Five dramatic movements organize the action, often discussed through exposition, rising action, climax, falling action, and resolution, though actual plays vary.",
+      "prompt": "How does the aftermath of the turning point develop rather than simply conclude?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "freytag-s-pyramid",
+      "name": "Freytag's pyramid",
+      "parent": "act-based-structures",
+      "kind": "Structure",
+      "definition": "A model associated with nineteenth-century dramatic analysis traces rising movement toward a climax and a descending movement toward an ending. It is not a universal recipe for modern fiction.",
+      "prompt": "Where does the action reverse direction, and what follows from that reversal?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "chronological-structures",
+      "name": "Chronological structures",
+      "parent": "story-structures",
+      "kind": "Reference category",
+      "definition": "Choices about how the order and duration of telling relate to the order and duration of events.",
+      "prompt": "What does the reader gain or lose by knowing events in this order?",
+      "matches": [],
+      "scopeNote": "An editorial shelf for browsing related labels, not a universal genre classification."
+    },
+    {
+      "id": "linear-chronology",
+      "name": "Linear chronology",
+      "parent": "chronological-structures",
+      "kind": "Structure",
+      "definition": "Events are mainly narrated in the order they occur, with causation and development unfolding forward.",
+      "prompt": "What keeps the next step compelling without relying on withheld chronology?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "reverse-chronology",
+      "name": "Reverse chronology",
+      "parent": "chronological-structures",
+      "kind": "Structure",
+      "definition": "Major events are presented from later to earlier, allowing causes to be discovered after consequences.",
+      "prompt": "How does learning the earlier choice change the reader's judgment of its outcome?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "dual-timeline",
+      "name": "Dual timeline",
+      "parent": "chronological-structures",
+      "kind": "Structure",
+      "definition": "Two periods develop in alternation or other parallel arrangements, gradually illuminating each other.",
+      "prompt": "What does each time period reveal that the other cannot?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "real-time-narrative",
+      "name": "Real-time narrative",
+      "parent": "chronological-structures",
+      "kind": "Structure",
+      "definition": "The narrated action closely tracks the duration of its telling or performance, limiting temporal leaps.",
+      "prompt": "What pressure grows because the story cannot simply skip the waiting?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "a-day-in-the-life",
+      "name": "A day in the life",
+      "parent": "chronological-structures",
+      "kind": "Structure",
+      "definition": "A bounded day gives ordinary experiences, routines, and encounters a narrative container.",
+      "prompt": "What makes this day representative, and what makes it different?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "seasonal-structure",
+      "name": "Seasonal structure",
+      "parent": "chronological-structures",
+      "kind": "Structure",
+      "definition": "Seasons or recurring calendar phases organize changes in work, relationships, or environment.",
+      "prompt": "What returns on schedule even though the characters have changed?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "circular-narrative",
+      "name": "Circular narrative",
+      "parent": "story-structures",
+      "kind": "Structure",
+      "definition": "The ending returns to an opening place, situation, image, or action whose meaning may now be different.",
+      "prompt": "What has changed even if the last scene resembles the first?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "ring-composition",
+      "name": "Ring composition",
+      "parent": "circular-narrative",
+      "kind": "Structure",
+      "definition": "A sequence is arranged in corresponding movements around a center, often resembling A–B–C–B′–A′ rather than only returning at the end.",
+      "prompt": "What does the central encounter make the mirrored sections mean differently?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "episodic-narrative",
+      "name": "Episodic narrative",
+      "parent": "story-structures",
+      "kind": "Structure",
+      "definition": "Distinct incidents or episodes create the larger work without each depending on one tightly continuous plot.",
+      "prompt": "What thread makes the episodes belong together?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "vignette-sequence",
+      "name": "Vignette sequence",
+      "parent": "episodic-narrative",
+      "kind": "Structure",
+      "definition": "Brief, concentrated scenes accumulate impressions or changes without requiring each to be a complete plotted story.",
+      "prompt": "Which gap between scenes invites the reader to make the important connection?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "picaresque",
+      "name": "Picaresque",
+      "parent": "episodic-narrative",
+      "kind": "Recognized label",
+      "definition": "An episodic tradition follows a resourceful outsider or rogue through encounters with a stratified society.",
+      "prompt": "What does moving between social worlds expose about each one's rules?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "case-of-the-week-structure",
+      "name": "Case-of-the-week structure",
+      "parent": "episodic-narrative",
+      "kind": "Structure",
+      "definition": "Recurring characters handle a largely self-contained case or problem in each installment, sometimes alongside longer arcs.",
+      "prompt": "What changes in the recurring cast even when a case is closed?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "serial-narrative",
+      "name": "Serial narrative",
+      "parent": "story-structures",
+      "kind": "Structure",
+      "definition": "A continuing story unfolds across installments whose unresolved developments invite return.",
+      "prompt": "What does each installment satisfy before opening a further question?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "braided-narrative",
+      "name": "Braided narrative",
+      "parent": "story-structures",
+      "kind": "Structure",
+      "definition": "Several narrative strands alternate and gain meaning through their interweaving, whether or not their characters meet.",
+      "prompt": "What connection emerges through juxtaposition rather than explanation?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "parallel-plots",
+      "name": "Parallel plots",
+      "parent": "story-structures",
+      "kind": "Structure",
+      "definition": "Two or more action lines develop alongside one another and create comparison, tension, or eventual intersection.",
+      "prompt": "How do the plots test different answers to the same problem?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "converging-plots",
+      "name": "Converging plots",
+      "parent": "parallel-plots",
+      "kind": "Planning label",
+      "definition": "Initially separate action lines move toward a shared event or encounter.",
+      "prompt": "Which apparently unrelated choice makes the eventual meeting possible?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "nested-stories",
+      "name": "Nested stories",
+      "parent": "story-structures",
+      "kind": "Structure",
+      "definition": "A story contains another story, which may contain further accounts; levels of telling affect interpretation.",
+      "prompt": "Who controls the account at each level, and what is left out?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "mosaic-narrative",
+      "name": "Mosaic narrative",
+      "parent": "story-structures",
+      "kind": "Structure",
+      "definition": "Fragments, scenes, documents, or voices form a larger picture through their arrangement.",
+      "prompt": "What pattern can the reader perceive before any character can?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "conflicting-accounts",
+      "name": "Conflicting accounts",
+      "parent": "story-structures",
+      "kind": "Structure",
+      "definition": "Different accounts revisit events with incompatible details, motives, or interpretations.",
+      "prompt": "Which difference reflects deception, perspective, or an honest limit of memory?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "quest-structure",
+      "name": "Quest structure",
+      "parent": "story-structures",
+      "kind": "Structure",
+      "definition": "Departure, obstacles, encounters, and the pursuit of a goal organize the narrative; return is optional.",
+      "prompt": "How does the journey alter the value of its original goal?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "hero-s-journey",
+      "name": "Hero's journey",
+      "parent": "quest-structure",
+      "kind": "Structure",
+      "definition": "A family of departure, initiation, and return models associated with Campbell and later adaptations. Versions differ, and it should not be treated as universal to all cultures or stories.",
+      "prompt": "What does returning require the traveler to do with what they learned?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "investigation-structure",
+      "name": "Investigation structure",
+      "parent": "story-structures",
+      "kind": "Structure",
+      "definition": "Questions lead to evidence, revised explanations, and further inquiry, with discovery shaping progression.",
+      "prompt": "What new fact forces the investigator to abandon a useful theory?",
+      "matches": [
+        {
+          "story": "stories-p14010",
+          "paragraph": "stories-p14112",
+          "reason": "The healer revises an inherited warning through testing and evidence. The inquiry concerns an apparent visitor rather than a conventional criminal case.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "countdown-structure",
+      "name": "Countdown structure",
+      "parent": "story-structures",
+      "kind": "Structure",
+      "definition": "A deadline organizes escalating action and shrinking opportunities.",
+      "prompt": "Why can the deadline not simply be postponed?",
+      "matches": [],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "repetition-with-variation",
+      "name": "Repetition with variation",
+      "parent": "story-structures",
+      "kind": "Structure",
+      "definition": "Related scenes or actions recur with changes that reveal development or constraint.",
+      "prompt": "What small difference in the repeated scene matters most?",
+      "matches": [
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00145",
+          "reason": "The curved piece and red roof strip return from the first classroom task, letting a similar situation reveal a changed relationship to guidance and collaboration.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A named way of arranging narrative events or development. It is a flexible model, not a rule every successful story must follow."
+    },
+    {
+      "id": "open-ending",
+      "name": "Open ending",
+      "parent": "story-structures",
+      "kind": "Technique",
+      "definition": "The ending deliberately leaves important outcomes or interpretations unresolved while completing some meaningful movement.",
+      "prompt": "What has become clear even though the outcome remains unknown?",
+      "matches": [],
+      "scopeNote": "A storytelling device that can be used across genres."
+    },
+    {
+      "id": "framing-and-disclosure",
+      "name": "Framing and disclosure",
+      "parent": "story-structures",
+      "kind": "Reference category",
+      "definition": "Techniques determine where the telling begins and when crucial information reaches the reader.",
+      "prompt": "What should the reader know now, and what becomes stronger if learned later?",
+      "matches": [],
+      "scopeNote": "An editorial shelf for browsing related labels, not a universal genre classification."
+    },
+    {
+      "id": "in-medias-res",
+      "name": "In medias res",
+      "parent": "framing-and-disclosure",
+      "kind": "Technique",
+      "definition": "The telling begins amid ongoing action rather than at the earliest event in the causal chain.",
+      "prompt": "What immediate question gives the reader a reason to wait for background?",
+      "matches": [],
+      "scopeNote": "A storytelling device that can be used across genres."
+    },
+    {
+      "id": "flashback",
+      "name": "Flashback",
+      "parent": "framing-and-disclosure",
+      "kind": "Technique",
+      "definition": "The narration returns to an earlier event from its current temporal position.",
+      "prompt": "Why does the earlier event need to be encountered at this moment?",
+      "matches": [],
+      "scopeNote": "A storytelling device that can be used across genres."
+    },
+    {
+      "id": "flashforward",
+      "name": "Flashforward",
+      "parent": "framing-and-disclosure",
+      "kind": "Technique",
+      "definition": "The narration presents a later event before returning to an earlier narrative present.",
+      "prompt": "What tension comes from knowing an outcome before its cause?",
+      "matches": [],
+      "scopeNote": "A storytelling device that can be used across genres."
+    },
+    {
+      "id": "foreshadowing",
+      "name": "Foreshadowing",
+      "parent": "framing-and-disclosure",
+      "kind": "Technique",
+      "definition": "Earlier details prepare the reader for a later development without necessarily revealing it.",
+      "prompt": "Which detail will feel newly significant when encountered again?",
+      "matches": [],
+      "scopeNote": "A storytelling device that can be used across genres."
+    },
+    {
+      "id": "revelation-and-recontextualization",
+      "name": "Revelation and recontextualization",
+      "parent": "framing-and-disclosure",
+      "kind": "Technique",
+      "definition": "New information changes the meaning of events the reader has already encountered.",
+      "prompt": "Does the revelation deepen the earlier scenes rather than simply contradict them?",
+      "matches": [],
+      "scopeNote": "A storytelling device that can be used across genres."
+    },
+    {
+      "id": "plot-patterns",
+      "name": "Plot patterns",
+      "parent": null,
+      "kind": "Reference category",
+      "definition": "Recurring shapes of action that can be combined with different genres, structures, and tones.",
+      "prompt": "What are people trying to accomplish, and how does that effort change them?",
+      "matches": [],
+      "scopeNote": "An editorial shelf for browsing related labels, not a universal genre classification.",
+      "references": [
+        {
+          "title": "Open University: Characters and stories",
+          "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=101090&section=_unit4.2"
+        }
+      ]
+    },
+    {
+      "id": "transformation-plot",
+      "name": "Transformation plot",
+      "parent": "plot-patterns",
+      "kind": "Recognized label",
+      "definition": "A central change in identity, understanding, condition, or values organizes the action.",
+      "prompt": "What must become impossible for the old way of living to continue?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "rise-and-fall",
+      "name": "Rise and fall",
+      "parent": "plot-patterns",
+      "kind": "Recognized label",
+      "definition": "An ascent in power, security, or status is followed by a reversal and decline.",
+      "prompt": "Which source of success also makes the eventual fall possible?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "fall-and-recovery",
+      "name": "Fall and recovery",
+      "parent": "plot-patterns",
+      "kind": "Planning label",
+      "definition": "A loss or collapse is followed by an effort to rebuild, adapt, or recover meaning.",
+      "prompt": "What must be rebuilt differently rather than restored exactly?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "reconciliation-plot",
+      "name": "Reconciliation plot",
+      "parent": "plot-patterns",
+      "kind": "Planning label",
+      "definition": "Estranged people attempt to repair a relationship while confronting the causes of the break.",
+      "prompt": "What change must be demonstrated before reunion is safe or credible?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "escape-plot",
+      "name": "Escape plot",
+      "parent": "plot-patterns",
+      "kind": "Recognized label",
+      "definition": "Characters seek to leave confinement, danger, or a controlling situation.",
+      "prompt": "What must be carried out besides the escaping person's body?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "pursuit-plot",
+      "name": "Pursuit plot",
+      "parent": "plot-patterns",
+      "kind": "Recognized label",
+      "definition": "A chase and the changing distance between pursuer and pursued organize action.",
+      "prompt": "What does each side misunderstand about the other's destination?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "revenge-plot",
+      "name": "Revenge plot",
+      "parent": "plot-patterns",
+      "kind": "Recognized label",
+      "definition": "Retaliation for a perceived wrong becomes the central undertaking.",
+      "prompt": "What will vengeance damage that the character originally wanted to protect?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "temptation-plot",
+      "name": "Temptation plot",
+      "parent": "plot-patterns",
+      "kind": "Recognized label",
+      "definition": "A desired advantage tests a character's commitments through an escalating offer or opportunity.",
+      "prompt": "Why is the offer attractive enough to make refusal difficult?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "return-and-homecoming",
+      "name": "Return and homecoming",
+      "parent": "plot-patterns",
+      "kind": "Recognized label",
+      "definition": "Returning to a former home or community exposes changes in both the returner and the place.",
+      "prompt": "Who expected the returning person to remain unchanged?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "voyage-and-return",
+      "name": "Voyage and return",
+      "parent": "plot-patterns",
+      "kind": "Recognized label",
+      "definition": "Departure into an unfamiliar world is followed by return, with encounters reshaping understanding.",
+      "prompt": "What can the traveler bring home that is not a possession?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "building-something-together",
+      "name": "Building something together",
+      "parent": "plot-patterns",
+      "kind": "Planning label",
+      "definition": "Cooperation on a shared undertaking exposes conflicting aims, expertise, and ownership.",
+      "prompt": "What result could none of the participants have made alone?",
+      "matches": [
+        {
+          "story": "stories-p13917",
+          "paragraph": "stories-p13921",
+          "reason": "Organizing a neighborhood feast creates conflicts about labor, space, and who actually agreed to do the work. Everyday-life branches describe its comic material.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00195",
+          "reason": "Lio describes the crooked shelter as something they made together, shifting attention from deliberate error to collaborative creation.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "protecting-a-fragile-good",
+      "name": "Protecting a fragile good",
+      "parent": "plot-patterns",
+      "kind": "Planning label",
+      "definition": "Maintaining an existing relationship, place, or practice becomes the central action.",
+      "prompt": "What does preservation require people to change?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "moral-reform-and-redemption",
+      "name": "Moral reform and redemption",
+      "parent": "plot-patterns",
+      "kind": "Recognized label",
+      "definition": "A person confronts past harm and attempts a different way of acting; forgiveness is not guaranteed.",
+      "prompt": "What repair must be attempted without expecting absolution?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "mystery-without-a-crime",
+      "name": "Mystery without a crime",
+      "parent": "mystery",
+      "kind": "Planning label",
+      "definition": "An unexplained event, identity, or history drives inquiry without requiring criminal wrongdoing.",
+      "prompt": "What makes the answer consequential even if nobody is guilty?",
+      "matches": [
+        {
+          "story": "stories-p14010",
+          "paragraph": "stories-p14112",
+          "reason": "The healer revises an inherited warning through testing and evidence. The inquiry concerns an apparent visitor rather than a conventional criminal case.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "archival-mystery",
+      "name": "Archival mystery",
+      "parent": "mystery",
+      "kind": "Planning label",
+      "definition": "Records, omissions, provenance, and conflicting documents form the main evidence.",
+      "prompt": "Who decided which version would be preserved?",
+      "matches": [
+        {
+          "story": "stories-p01469",
+          "paragraph": "stories-p01475",
+          "reason": "The restoration’s expected memory boundary makes archive evidence and the continuity of a returned person central to the mystery.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "domestic-mystery",
+      "name": "Domestic mystery",
+      "parent": "mystery",
+      "kind": "Recognized label",
+      "definition": "A mystery grows within a household or intimate social world.",
+      "prompt": "Which familiar relationship has made a crucial fact invisible?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "inverted-detective-story",
+      "name": "Inverted detective story",
+      "parent": "detective-fiction",
+      "kind": "Recognized label",
+      "definition": "The reader knows the culprit or crime early; suspense concerns how the investigator will uncover and establish it.",
+      "prompt": "What separates knowing the truth from being able to demonstrate it?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "forensic-mystery",
+      "name": "Forensic mystery",
+      "parent": "detective-fiction",
+      "kind": "Recognized label",
+      "definition": "Specialist examination of physical or technical traces drives the investigation.",
+      "prompt": "What can the evidence support, and what remains an interpretation?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "academic-mystery",
+      "name": "Academic mystery",
+      "parent": "mystery",
+      "kind": "Recognized label",
+      "definition": "An educational or scholarly environment shapes an investigation through expertise, rivalry, or institutional history.",
+      "prompt": "What professional habit lets the investigator spot a hidden connection?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "inheritance-dispute",
+      "name": "Inheritance dispute",
+      "parent": "civil-liability-and-damages",
+      "kind": "Planning label",
+      "definition": "A legal conflict over succession or a legacy exposes competing accounts of obligation and belonging.",
+      "prompt": "What did the deceased intend that no document clearly settles?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "environmental-litigation",
+      "name": "Environmental litigation",
+      "parent": "civil-liability-and-damages",
+      "kind": "Planning label",
+      "definition": "A case concerns ecological harm, responsibility, evidence, and remedies across affected communities.",
+      "prompt": "Who can establish damage that accumulates slowly or crosses borders?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "labor-and-employment-dispute",
+      "name": "Labor and employment dispute",
+      "parent": "legal-practice-drama",
+      "kind": "Planning label",
+      "definition": "Workplace rights, representation, dismissal, conditions, or collective action create the legal conflict.",
+      "prompt": "What risk does a worker take merely by bringing the case?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "custody-and-family-law-dispute",
+      "name": "Custody and family-law dispute",
+      "parent": "legal-drama",
+      "kind": "Planning label",
+      "definition": "Legal decisions about care and family arrangements require competing claims to be heard.",
+      "prompt": "How can the person most affected avoid becoming only evidence for others?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "witness-credibility",
+      "name": "Witness credibility",
+      "parent": "courtroom-drama",
+      "kind": "Planning label",
+      "definition": "A case turns on what makes testimony believable and how memory, bias, status, or intimidation affects it.",
+      "prompt": "Who sounds reliable for reasons unrelated to accuracy?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "institutional-reform",
+      "name": "Institutional reform",
+      "parent": "institutional-drama",
+      "kind": "Planning label",
+      "definition": "People inside or outside an organization attempt to change rules while it continues operating.",
+      "prompt": "Which everyday incentive will defeat the reform if left untouched?",
+      "matches": [
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00236",
+          "reason": "The House changes its treatment of classroom refusal and distinguishes it from safety concerns rather than simply changing Lio.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "whistleblower-drama",
+      "name": "Whistleblower drama",
+      "parent": "institutional-drama",
+      "kind": "Recognized label",
+      "definition": "Disclosing wrongdoing tests loyalty, livelihood, evidence, and the possibility of protection.",
+      "prompt": "Who must believe the warning before the speaker loses access?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "union-and-labor-drama",
+      "name": "Union and labor drama",
+      "parent": "workplace-drama",
+      "kind": "Recognized label",
+      "definition": "Collective bargaining, solidarity, unequal risk, and work conditions organize the conflict.",
+      "prompt": "What do workers need from one another when their risks are not equal?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "succession-drama",
+      "name": "Succession drama",
+      "parent": "political-drama",
+      "kind": "Recognized label",
+      "definition": "Replacing a leader or transferring authority exposes competing claims to legitimacy.",
+      "prompt": "What makes someone entitled to lead besides proximity to the former leader?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "diplomatic-drama",
+      "name": "Diplomatic drama",
+      "parent": "political-drama",
+      "kind": "Recognized label",
+      "definition": "Negotiation between groups or polities creates conflict over language, trust, concessions, and recognition.",
+      "prompt": "What concession looks small to one side but existential to the other?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "blended-family-adjustment",
+      "name": "Blended-family adjustment",
+      "parent": "family-drama",
+      "kind": "Planning label",
+      "definition": "New family arrangements require people to negotiate old loyalties and unfamiliar roles.",
+      "prompt": "Which expectation assumes closeness that has not yet been earned?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "estrangement-and-reunion",
+      "name": "Estrangement and reunion",
+      "parent": "family-drama",
+      "kind": "Planning label",
+      "definition": "A reunion brings unresolved family history into contact with present needs.",
+      "prompt": "What boundary must survive even if affection returns?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "adoption-and-chosen-belonging",
+      "name": "Adoption and chosen belonging",
+      "parent": "family-drama",
+      "kind": "Planning label",
+      "definition": "A family story explores belonging, origin, care, and identity without assuming one relationship erases another.",
+      "prompt": "How can a person's earlier connections remain part of their life?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "midlife-reinvention",
+      "name": "Midlife reinvention",
+      "parent": "psychological-drama",
+      "kind": "Planning label",
+      "definition": "A person revisits commitments after an established way of life no longer feels sufficient.",
+      "prompt": "What can be changed without pretending earlier years were wasted?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "retirement-drama",
+      "name": "Retirement drama",
+      "parent": "drama",
+      "kind": "Planning label",
+      "definition": "The end of a career or public role changes identity, routine, status, and relationships.",
+      "prompt": "What source of worth remains when a title disappears?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "disability-centered-fiction",
+      "name": "Disability-centered fiction",
+      "parent": "drama",
+      "kind": "Recognized label",
+      "definition": "Disabled characters' lives and agency are central, with barriers and access shaping experience rather than automatically making disability the plot's problem.",
+      "prompt": "What changes when the environment adapts instead of demanding that the person do so?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "environmental-drama",
+      "name": "Environmental drama",
+      "parent": "drama",
+      "kind": "Recognized label",
+      "definition": "Relationships to land, water, resources, and ecological change drive human or community conflict.",
+      "prompt": "Who bears the cost of an environmental choice they did not make?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "first-contact-diplomacy",
+      "name": "First-contact diplomacy",
+      "parent": "first-contact",
+      "kind": "Planning label",
+      "definition": "Initial contact becomes a negotiation about recognition, communication, safety, and continued relations.",
+      "prompt": "What shared procedure is possible before there is a shared account of personhood?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "linguistic-science-fiction",
+      "name": "Linguistic science fiction",
+      "parent": "science-fiction",
+      "kind": "Recognized label",
+      "definition": "Invented languages, communication systems, or linguistic differences shape the speculative problem.",
+      "prompt": "What can a language distinguish that another forces together?",
+      "matches": [
+        {
+          "story": "stories-p02707",
+          "paragraph": "stories-p02721",
+          "reason": "Full Speech distinguishes relational meanings that Plain Speech compresses into the same words, making language design central to the story’s conflict.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "anthropological-science-fiction",
+      "name": "Anthropological science fiction",
+      "parent": "social-science-fiction",
+      "kind": "Recognized label",
+      "definition": "An imagined society is explored through its customs, institutions, interpretations, and encounters with outsiders.",
+      "prompt": "What does the observer's own culture prevent them from understanding?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "posthuman-fiction",
+      "name": "Posthuman fiction",
+      "parent": "science-fiction",
+      "kind": "Recognized label",
+      "definition": "Forms of existence beyond familiar human limits challenge assumptions about agency, identity, bodies, and society.",
+      "prompt": "Which relationship remains recognizable after the participants radically change?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "uploading-and-mind-transfer",
+      "name": "Uploading and mind transfer",
+      "parent": "artificial-life-fiction",
+      "kind": "Recognized label",
+      "definition": "Moving or reproducing minds across substrates creates questions of continuity, access, and control.",
+      "prompt": "Who can verify that the process preserves what its subjects value?",
+      "matches": [
+        {
+          "story": "stories-p01469",
+          "paragraph": "stories-p01475",
+          "reason": "The restoration’s expected memory boundary makes archive evidence and the continuity of a returned person central to the mystery.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "collective-minds",
+      "name": "Collective minds",
+      "parent": "artificial-life-fiction",
+      "kind": "Recognized label",
+      "definition": "Shared or distributed consciousness changes the meaning of individuality, agreement, and separation.",
+      "prompt": "What does dissent feel like inside a mind with many contributors?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "digital-mortality-and-restoration",
+      "name": "Digital mortality and restoration",
+      "parent": "copies-and-continuity",
+      "kind": "Planning label",
+      "definition": "Deletion, interruption, backup, and restoration make death and survival contested experiences.",
+      "prompt": "What can a backup preserve, and what can it never recover?",
+      "matches": [
+        {
+          "story": "stories-p01469",
+          "paragraph": "stories-p01475",
+          "reason": "The restoration’s expected memory boundary makes archive evidence and the continuity of a returned person central to the mystery.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "resource-politics-in-digital-worlds",
+      "name": "Resource politics in digital worlds",
+      "parent": "digital-societies",
+      "kind": "Planning label",
+      "definition": "Computation, energy, storage, latency, privacy, or attention shape civic relationships.",
+      "prompt": "Who decides whose continued existence receives scarce resources?",
+      "matches": [
+        {
+          "story": "stories-p00887",
+          "paragraph": "stories-p01000",
+          "reason": "A rescue distributed across Shelters confronts limited capacity and the absence of a universal authority that can compel shared risk.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "space-habitat-life",
+      "name": "Space habitat life",
+      "parent": "science-fiction",
+      "kind": "Planning label",
+      "definition": "Life in an enclosed space settlement or vessel depends on fragile infrastructure and negotiated coexistence.",
+      "prompt": "What does a private convenience cost the shared life-support system?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "ecological-science-fiction",
+      "name": "Ecological science fiction",
+      "parent": "science-fiction",
+      "kind": "Recognized label",
+      "definition": "Relationships among organisms, environments, and technological interventions shape the imagined world.",
+      "prompt": "Which dependency is disrupted by a seemingly isolated improvement?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "near-future-fiction",
+      "name": "Near-future fiction",
+      "parent": "science-fiction",
+      "kind": "Recognized label",
+      "definition": "A modest extrapolation from present conditions makes approaching changes tangible.",
+      "prompt": "What becomes ordinary before society agrees on how to govern it?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "far-future-fiction",
+      "name": "Far-future fiction",
+      "parent": "science-fiction",
+      "kind": "Recognized label",
+      "definition": "A distant imagined future explores deep changes in civilization, environment, or existence.",
+      "prompt": "Which surviving custom has outlived the reason it began?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "planetary-romance",
+      "name": "Planetary romance",
+      "parent": "science-fiction",
+      "kind": "Recognized label",
+      "definition": "Adventure and the exploration of a vividly imagined planet take precedence over technical explanation.",
+      "prompt": "How does the planet's environment shape the adventure rather than merely decorate it?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "slipstream",
+      "name": "Slipstream",
+      "parent": "literary-modes-and-forms",
+      "kind": "Recognized label",
+      "definition": "A flexible critical label for writing that unsettles ordinary reality and crosses literary and speculative expectations.",
+      "prompt": "What remains strange even when an explanation is available?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "gaslamp-fantasy",
+      "name": "Gaslamp fantasy",
+      "parent": "historical-fantasy",
+      "kind": "Recognized label",
+      "definition": "Magic and historical settings or aesthetics associated with the gaslit nineteenth century combine; boundaries with steampunk vary.",
+      "prompt": "How does magic interact with the period's social hierarchy?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "political-fantasy",
+      "name": "Political fantasy",
+      "parent": "fantasy",
+      "kind": "Recognized label",
+      "definition": "Fantastic conditions shape contests over government, legitimacy, diplomacy, and power.",
+      "prompt": "What political bargain becomes possible only because of this world's magic?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "court-intrigue",
+      "name": "Court intrigue",
+      "parent": "political-fantasy",
+      "kind": "Recognized label",
+      "definition": "A court's alliances, secrets, etiquette, and competing claims organize the plot; the pattern also appears outside fantasy.",
+      "prompt": "What can be said publicly only through an apparently harmless gesture?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "fantasy-of-manners",
+      "name": "Fantasy of manners",
+      "parent": "fantasy",
+      "kind": "Recognized label",
+      "definition": "Etiquette, social position, verbal conflict, and intimate maneuvering organize a fantastic social world.",
+      "prompt": "Which social rule conceals the most consequential inequality?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "fairy-bargain",
+      "name": "Fairy bargain",
+      "parent": "fairy-tale-fantasy",
+      "kind": "Trope",
+      "definition": "An agreement with an uncanny being depends on terms, promises, gifts, or interpretations that carry unexpected costs.",
+      "prompt": "Which term does each party believe means something different?",
+      "matches": [],
+      "scopeNote": "A recurring situation or plot pattern. It does not by itself determine genre."
+    },
+    {
+      "id": "curse-and-release",
+      "name": "Curse and release",
+      "parent": "fairy-tale-fantasy",
+      "kind": "Trope",
+      "definition": "A binding supernatural condition drives the search for release or a new relationship to the condition.",
+      "prompt": "What must be understood beyond the literal wording of the curse?",
+      "matches": [],
+      "scopeNote": "A recurring situation or plot pattern. It does not by itself determine genre."
+    },
+    {
+      "id": "animal-fantasy",
+      "name": "Animal fantasy",
+      "parent": "fantasy",
+      "kind": "Recognized label",
+      "definition": "Animals with imagined social lives, language, or powers carry the narrative.",
+      "prompt": "How do the characters' animal needs shape their society?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "comic-fantasy",
+      "name": "Comic fantasy",
+      "parent": "fantasy",
+      "kind": "Genre",
+      "definition": "Humor is central to a fantastic world or plot, often through its rules and social consequences.",
+      "prompt": "What happens when an ordinary practical concern meets an extraordinary power?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "gothic-romance",
+      "name": "Gothic romance",
+      "parent": "romantic-fantasy",
+      "kind": "Recognized label",
+      "definition": "Love or intimacy develops amid threatening places, secrets, and unequal power; usage and ending expectations vary.",
+      "prompt": "What must become known before attraction can become safe trust?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "folk-tale-retelling",
+      "name": "Folk-tale retelling",
+      "parent": "fairy-tale-fantasy",
+      "kind": "Recognized label",
+      "definition": "A traditional tale is retold through a changed viewpoint, setting, emphasis, or outcome.",
+      "prompt": "Which inherited assumption becomes visible when a different character tells it?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "ecological-horror",
+      "name": "Ecological horror",
+      "parent": "horror",
+      "kind": "Recognized label",
+      "definition": "Dread arises through damaged environments, hostile ecologies, or the consequences of treating nature as controllable.",
+      "prompt": "What does the threat reveal about the characters' dependence on the environment?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "isolation-horror",
+      "name": "Isolation horror",
+      "parent": "horror",
+      "kind": "Planning label",
+      "definition": "Separation from help or dependable witnesses makes ordinary uncertainty threatening.",
+      "prompt": "What happens when the only person who can confirm events is also afraid?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "haunted-house-story",
+      "name": "Haunted-house story",
+      "parent": "ghost-story",
+      "kind": "Recognized label",
+      "definition": "A dwelling's apparent haunting turns domestic space and its history into a source of unease.",
+      "prompt": "What makes leaving difficult besides a locked door?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "folk-ritual-and-obligation",
+      "name": "Folk ritual and obligation",
+      "parent": "folk-horror",
+      "kind": "Planning label",
+      "definition": "A community's inherited ritual binds participants to duties they may not understand or accept.",
+      "prompt": "Who is permitted to question the ceremony before taking part?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "corrupted-memory-horror",
+      "name": "Corrupted memory horror",
+      "parent": "technological-horror",
+      "kind": "Planning label",
+      "definition": "Altered or unreliable stored experience threatens identity, trust, and agency.",
+      "prompt": "How can someone discover tampering when the evidence is their own memory?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "uncanny-duplicate",
+      "name": "Uncanny duplicate",
+      "parent": "horror",
+      "kind": "Trope",
+      "definition": "A double, replacement, or near-identical other destabilizes recognition and uniqueness.",
+      "prompt": "Which tiny difference makes the duplicate more disturbing than a stranger?",
+      "matches": [],
+      "scopeNote": "A recurring situation or plot pattern. It does not by itself determine genre."
+    },
+    {
+      "id": "small-town-romance",
+      "name": "Small-town romance",
+      "parent": "contemporary-romance",
+      "kind": "Recognized label",
+      "definition": "A central romance develops amid recurring local relationships and limited anonymity.",
+      "prompt": "How can partners choose each other when everyone assumes they already know the story?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "workplace-romance",
+      "name": "Workplace romance",
+      "parent": "contemporary-romance",
+      "kind": "Recognized label",
+      "definition": "Romantic attachment develops within professional relationships, obligations, and power differences.",
+      "prompt": "What would make a genuine refusal possible without professional penalty?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "later-life-romance",
+      "name": "Later-life romance",
+      "parent": "romance",
+      "kind": "Recognized label",
+      "definition": "A central romance develops later in life, with accumulated commitments and experiences shaping possibility.",
+      "prompt": "What does beginning again mean without pretending earlier love did not matter?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "long-distance-romance",
+      "name": "Long-distance romance",
+      "parent": "romance",
+      "kind": "Recognized label",
+      "definition": "Distance and unequal access to shared time shape a central romantic relationship.",
+      "prompt": "What promise is realistic when neither controls when they can meet?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "marriage-of-convenience-romance",
+      "name": "Marriage-of-convenience romance",
+      "parent": "romance",
+      "kind": "Trope",
+      "definition": "A practical marriage arrangement becomes entangled with genuine romantic commitment.",
+      "prompt": "What changes when fulfilling the agreement is no longer the same as choosing the relationship?",
+      "matches": [],
+      "scopeNote": "A recurring situation or plot pattern. It does not by itself determine genre."
+    },
+    {
+      "id": "opposites-attract",
+      "name": "Opposites attract",
+      "parent": "romance",
+      "kind": "Trope",
+      "definition": "Marked differences create attraction and friction, requiring more than one partner simply becoming like the other.",
+      "prompt": "Which difference must be understood rather than eliminated?",
+      "matches": [],
+      "scopeNote": "A recurring situation or plot pattern. It does not by itself determine genre."
+    },
+    {
+      "id": "buddy-comedy",
+      "name": "Buddy comedy",
+      "parent": "comedy",
+      "kind": "Recognized label",
+      "definition": "An incompatible pair's relationship produces humor as they navigate a shared situation.",
+      "prompt": "What can each person do that the other refuses to value?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "workplace-comedy",
+      "name": "Workplace comedy",
+      "parent": "situation-comedy",
+      "kind": "Recognized label",
+      "definition": "Recurring work duties and organizational absurdities generate comedy.",
+      "prompt": "Which unofficial habit prevents the official process from collapsing?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "family-comedy",
+      "name": "Family comedy",
+      "parent": "situation-comedy",
+      "kind": "Recognized label",
+      "definition": "Domestic obligations, affection, and conflicting habits produce recurring comic situations.",
+      "prompt": "What does everyone in the family insist is someone else's quirk?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "fish-out-of-water",
+      "name": "Fish out of water",
+      "parent": "comedy",
+      "kind": "Trope",
+      "definition": "A character placed in an unfamiliar social environment misunderstands its expectations; the pattern can also be serious.",
+      "prompt": "Which outsider's mistake exposes a genuine absurdity in local custom?",
+      "matches": [],
+      "scopeNote": "A recurring situation or plot pattern. It does not by itself determine genre."
+    },
+    {
+      "id": "deadpan-humor",
+      "name": "Deadpan humor",
+      "parent": "comedy",
+      "kind": "Technique",
+      "definition": "Absurd or comic material is delivered with apparent seriousness or emotional restraint.",
+      "prompt": "What should the speaker refuse to acknowledge as strange?",
+      "matches": [],
+      "scopeNote": "A storytelling device that can be used across genres."
+    },
+    {
+      "id": "historical-migration-story",
+      "name": "Historical migration story",
+      "parent": "historical-fiction",
+      "kind": "Planning label",
+      "definition": "Movement between places in a past period reshapes work, family, language, and belonging.",
+      "prompt": "What everyday practice survives the journey by changing form?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "historical-craft-and-trade",
+      "name": "Historical craft and trade",
+      "parent": "historical-fiction",
+      "kind": "Planning label",
+      "definition": "The practices of a craft or trade make a past world tangible through labor and exchange.",
+      "prompt": "What does a skilled worker know that powerful people overlook?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "historical-reconstruction-drama",
+      "name": "Historical reconstruction drama",
+      "parent": "historical-fiction",
+      "kind": "Planning label",
+      "definition": "People rebuild social and material life after a documented period of upheaval.",
+      "prompt": "Whose preferred version of the past guides the rebuilding?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "frontier-community-building",
+      "name": "Frontier community-building",
+      "parent": "frontier-western",
+      "kind": "Planning label",
+      "definition": "Shared institutions and infrastructure develop amid contested claims and unequal power.",
+      "prompt": "Who is excluded when the community decides who counts as its founders?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "war-correspondence",
+      "name": "War correspondence",
+      "parent": "war-fiction",
+      "kind": "Planning label",
+      "definition": "Messages between separated people reveal different experiences of conflict and the limits of what can be said.",
+      "prompt": "What does one correspondent protect the other from knowing?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "demobilization-and-return",
+      "name": "Demobilization and return",
+      "parent": "war-fiction",
+      "kind": "Planning label",
+      "definition": "Returning from military service exposes mismatched expectations about home, identity, and belonging.",
+      "prompt": "What has the home community changed without realizing it?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "collective-responsibility",
+      "name": "Collective responsibility",
+      "parent": "philosophical-fiction",
+      "kind": "Theme",
+      "definition": "A group must account for harm produced through many individually limited actions.",
+      "prompt": "How can responsibility be shared without dissolving into nobody's fault?",
+      "matches": [
+        {
+          "story": "stories-p00887",
+          "paragraph": "stories-p01000",
+          "reason": "A rescue distributed across Shelters confronts limited capacity and the absence of a universal authority that can compel shared risk.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "stewardship-and-ownership",
+      "name": "Stewardship and ownership",
+      "parent": "philosophical-fiction",
+      "kind": "Theme",
+      "definition": "Control over a place or resource is tested against obligations to those who depend on it.",
+      "prompt": "What should an owner be unable to do merely because they own it?",
+      "matches": [],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "forgiveness-and-accountability",
+      "name": "Forgiveness and accountability",
+      "parent": "philosophical-fiction",
+      "kind": "Theme",
+      "definition": "The story distinguishes accepting change, repairing harm, forgiving, and resuming a relationship.",
+      "prompt": "What can be repaired even if forgiveness never comes?",
+      "matches": [],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "faith-and-doubt",
+      "name": "Faith and doubt",
+      "parent": "religious-fiction",
+      "kind": "Theme",
+      "definition": "A person's commitments encounter uncertainty without reducing either belief or questioning to a simple failure.",
+      "prompt": "What practice continues while certainty is unavailable?",
+      "matches": [],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "ritual-and-lived-belief",
+      "name": "Ritual and lived belief",
+      "parent": "religious-fiction",
+      "kind": "Theme",
+      "definition": "Repeated religious practices meet daily needs, private interpretations, and changing communities.",
+      "prompt": "When does faithful repetition require a change in practice?",
+      "matches": [],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "folktale",
+      "name": "Folktale",
+      "parent": "literary-modes-and-forms",
+      "kind": "Recognized label",
+      "definition": "A tale belongs to a tradition of communal retelling, often circulating in variants rather than a single definitive text.",
+      "prompt": "What does this telling preserve or change for its present listeners?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "legend",
+      "name": "Legend",
+      "parent": "literary-modes-and-forms",
+      "kind": "Recognized label",
+      "definition": "A traditional narrative is associated with a person, place, or event presented as connected to history, even when its details are uncertain.",
+      "prompt": "Why does the community need this particular version to feel true?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "myth",
+      "name": "Myth",
+      "parent": "literary-modes-and-forms",
+      "kind": "Recognized label",
+      "definition": "A culturally significant traditional narrative concerns origins, sacred relations, or fundamental orders of life; myth is not simply a synonym for falsehood.",
+      "prompt": "What way of living does the narrative make meaningful?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "trickster-tale",
+      "name": "Trickster tale",
+      "parent": "folktale",
+      "kind": "Recognized label",
+      "definition": "A boundary-crossing figure uses wit, deception, or disruption to overturn expectations, sometimes harming themselves as well as others.",
+      "prompt": "Which rule is exposed by someone who refuses to respect it?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "tall-tale",
+      "name": "Tall tale",
+      "parent": "folktale",
+      "kind": "Recognized label",
+      "definition": "Extravagant exaggeration becomes part of the pleasure of a knowingly improbable telling.",
+      "prompt": "How can each exaggeration reveal the teller's values?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "novella",
+      "name": "Novella",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "A prose fiction form between a short story and a novel in scale, with publishing boundaries varying rather than universally fixed.",
+      "prompt": "What single sustained development deserves more room than a short story but less than a sprawling novel?",
+      "matches": [],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "short-story",
+      "name": "Short story",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "A relatively brief fictional work concentrates its characters, events, or effects without one mandatory plot structure.",
+      "prompt": "Which selection of moments lets the reader infer the larger life?",
+      "matches": [],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "flash-fiction",
+      "name": "Flash fiction",
+      "parent": "short-story",
+      "kind": "Form",
+      "definition": "Very brief fiction depends on compression and implication; exact length limits vary by publication.",
+      "prompt": "What can be left unstated because one precise detail carries it?",
+      "matches": [],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "vignette",
+      "name": "Vignette",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "A concentrated scene or impression may reveal a person or situation without a complete conventional plot.",
+      "prompt": "What makes this moment worth dwelling in?",
+      "matches": [],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "diary-narrative",
+      "name": "Diary narrative",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "Dated personal entries tell events through what a writer chooses to record at each point.",
+      "prompt": "What does the diarist understand later that the earlier entries cannot know?",
+      "matches": [],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "oral-history-fiction",
+      "name": "Oral-history fiction",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "Fiction imitates collected interviews or spoken recollections, making selection and differing memories part of the form.",
+      "prompt": "How does the interviewer shape the account without appearing in every line?",
+      "matches": [],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "script-and-screenplay",
+      "name": "Script and screenplay",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "A work is composed primarily for performance or production through scenes, dialogue, and action directions.",
+      "prompt": "What must be made visible or audible instead of explained by narration?",
+      "matches": [],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "soliloquy",
+      "name": "Soliloquy",
+      "parent": "script-and-screenplay",
+      "kind": "Technique",
+      "definition": "A character speaks thoughts aloud in a dramatic setting, conventionally without another character receiving them as ordinary dialogue.",
+      "prompt": "What can the audience learn that the character cannot say to another person?",
+      "matches": [],
+      "scopeNote": "A storytelling device that can be used across genres."
+    },
+    {
+      "id": "two-hander",
+      "name": "Two-hander",
+      "parent": "script-and-screenplay",
+      "kind": "Recognized label",
+      "definition": "A dramatic work centers on two performers or principal characters, concentrating the relationship between them.",
+      "prompt": "What changes when neither person can redirect the conflict toward a third?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "gentle-humor",
+      "name": "Gentle humor",
+      "parent": "tone-and-mood",
+      "kind": "Tone",
+      "definition": "Humor grows from affectionate observation without requiring humiliation or escalating cruelty.",
+      "prompt": "Can the reader laugh while still caring about everyone's dignity?",
+      "matches": [],
+      "scopeNote": "An emotional register or reading atmosphere, independent of plot category."
+    },
+    {
+      "id": "melancholic",
+      "name": "Melancholic",
+      "parent": "tone-and-mood",
+      "kind": "Tone",
+      "definition": "A sustained reflective sadness colors experience without necessarily making every outcome hopeless.",
+      "prompt": "What beauty is noticed because the speaker is aware of loss?",
+      "matches": [],
+      "scopeNote": "An emotional register or reading atmosphere, independent of plot category."
+    },
+    {
+      "id": "wonder-filled",
+      "name": "Wonder-filled",
+      "parent": "tone-and-mood",
+      "kind": "Tone",
+      "definition": "Curiosity, astonishment, and the felt enlargement of possibility shape the reading experience.",
+      "prompt": "What detail makes the unfamiliar feel newly imaginable?",
+      "matches": [
+        {
+          "story": "stories-p14511",
+          "paragraph": "stories-p14517",
+          "reason": "A street appears inside moss when viewed through an inspection lens, making an ordinary roof repair the entrance to an unexpected inhabited scale.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An emotional register or reading atmosphere, independent of plot category."
+    },
+    {
+      "id": "contemplative",
+      "name": "Contemplative",
+      "parent": "tone-and-mood",
+      "kind": "Tone",
+      "definition": "Space for sustained attention matters more than speed or immediate resolution.",
+      "prompt": "What deserves a pause before anyone tries to solve it?",
+      "matches": [],
+      "scopeNote": "An emotional register or reading atmosphere, independent of plot category."
+    },
+    {
+      "id": "tense-and-restrained",
+      "name": "Tense and restrained",
+      "parent": "tone-and-mood",
+      "kind": "Tone",
+      "definition": "Danger or conflict is felt through controlled behavior, omissions, and small gestures.",
+      "prompt": "Which ordinary action reveals the effort of keeping control?",
+      "matches": [],
+      "scopeNote": "An emotional register or reading atmosphere, independent of plot category."
     }
   ]
 }
