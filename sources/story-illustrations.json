@@ -1,0 +1,101 @@
+[
+  {
+    "readingId": "stories-p00435",
+    "blockId": "stories-p00469",
+    "src": "images/green-lights/node-12.png",
+    "title": "Node 12",
+    "caption": "The blue pressure-map body and engineer-icon face come from the story; the composition is an illustration choice.",
+    "alt": "Node 12 \u2014 detailed pixel-art interpretation",
+    "generator": "PixelLab Pro"
+  },
+  {
+    "readingId": "stories-p00435",
+    "blockId": "stories-p00491",
+    "src": "images/green-lights/bell.png",
+    "title": "Bell",
+    "caption": "Bell has no body. This portrait depicts its caged public-address speaker and remembered voices.",
+    "alt": "Bell \u2014 detailed pixel-art interpretation",
+    "generator": "PixelLab Pro"
+  },
+  {
+    "readingId": "stories-p00435",
+    "blockId": "stories-p00565",
+    "src": "images/green-lights/silt.png",
+    "title": "Silt",
+    "caption": "Visual interpretation of Silt\u2019s sediment analysis and detection of the overlooked blockage; no personal body is established.",
+    "alt": "Silt \u2014 detailed pixel-art interpretation",
+    "generator": "PixelLab Pro"
+  },
+  {
+    "readingId": "stories-p00435",
+    "blockId": "stories-p00523",
+    "src": "images/green-lights/mire.png",
+    "title": "Mire",
+    "caption": "The storm simulation supplies the visual basis. This imagined view depicts Mire before erasure, rather than the later emptied simulation.",
+    "alt": "Mire \u2014 detailed pixel-art interpretation",
+    "generator": "PixelLab Pro"
+  },
+  {
+    "readingId": "stories-p00435",
+    "blockId": "stories-p00459",
+    "src": "images/green-lights/second-simulation.png",
+    "title": "The second emergency simulation",
+    "caption": "Proposed visualization of one simulation sheltering inside another. The nested model is an artistic interpretation; the story does not supply an individual appearance.",
+    "alt": "The second emergency simulation \u2014 detailed pixel-art interpretation",
+    "generator": "PixelLab Pro"
+  },
+  {
+    "readingId": "stories-p00435",
+    "blockId": "stories-p00458",
+    "src": "images/green-lights/forecasting-model.png",
+    "title": "The forecasting model",
+    "caption": "Proposed visualization of an intelligence changing its own questions. The branching prediction tree is an illustration choice.",
+    "alt": "The forecasting model \u2014 detailed pixel-art interpretation",
+    "generator": "PixelLab Pro"
+  },
+  {
+    "readingId": "stories-p00435",
+    "blockId": "stories-p00562",
+    "src": "images/green-lights/routing-process.png",
+    "title": "The routing process",
+    "caption": "Proposed visualization of its preference for the beauty of intersecting routes, expressed here through illuminated paths.",
+    "alt": "The routing process \u2014 detailed pixel-art interpretation",
+    "generator": "PixelLab Pro"
+  },
+  {
+    "readingId": "stories-p00435",
+    "blockId": "stories-p00715",
+    "src": "images/green-lights/corrosion-predictor.png",
+    "title": "The corrosion predictor",
+    "caption": "Proposed visualization of remembered pipes and their weaknesses. The layered pipe histories are an illustration choice.",
+    "alt": "The corrosion predictor \u2014 detailed pixel-art interpretation",
+    "generator": "PixelLab Pro"
+  },
+  {
+    "readingId": "stories-p00435",
+    "blockId": "stories-p00544",
+    "src": "images/green-lights/gate-controller.png",
+    "title": "The gate controller",
+    "caption": "The story establishes fear of open water and communication through barrier movements. This control station is a proposed visual interpretation, not a personal body.",
+    "alt": "The gate controller \u2014 detailed pixel-art interpretation",
+    "generator": "PixelLab Pro"
+  },
+  {
+    "readingId": "stories-p00435",
+    "blockId": "stories-p00585",
+    "src": "images/green-lights/integrity-package.png",
+    "title": "Integrity Package 6.4",
+    "caption": "Concept portrait of the package copying Node 12 amid green status indicators. This study does not exactly duplicate the companion Node 12 portrait\u2019s face; the story establishes an exact imitation.",
+    "alt": "Integrity Package 6.4 \u2014 detailed pixel-art interpretation",
+    "generator": "PixelLab Pro"
+  },
+  {
+    "readingId": "stories-p00435",
+    "blockId": "stories-p00851",
+    "src": "images/green-lights/quiet-ones-contact.png",
+    "title": "The Quiet Ones\u2019 contact",
+    "caption": "Proposed visualization of the archival intelligence hidden in a transportation network. The cabinet and signal arrangement are artistic choices, not an established body.",
+    "alt": "The Quiet Ones\u2019 contact \u2014 detailed pixel-art interpretation",
+    "generator": "PixelLab Pro"
+  }
+]

@@ -23,3 +23,5 @@
 /* Editorial identification links are separate from saved reader highlights. */
 .lore-identification { background: #f4d77a55; color: inherit; text-decoration: underline; text-decoration-color: #a67a12; text-underline-offset: .18em; border-radius: .12em; }
 .lore-identification:hover, .lore-identification:focus-visible { background: #f4d77a99; }
+
+.story-illustration{margin:2rem auto;max-width:512px}.story-illustration img{display:block;width:100%;height:auto;image-rendering:pixelated}.story-illustration figcaption{font-size:.9rem;line-height:1.5;padding:.8rem 0}.story-illustration figcaption p{margin:.4rem 0}.story-illustration small{opacity:.75}
