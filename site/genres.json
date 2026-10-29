@@ -1,0 +1,3183 @@
+{
+  "version": 1,
+  "updated": "2026-10-28",
+  "note": "An expandable editorial reference, not an exhaustive or universal taxonomy. Original explanations and prompts. Story matches are reviewed interpretations, not automatic keyword classifications or author-declared genre canon.",
+  "references": [
+    {
+      "title": "Library of Congress: genre/form overview",
+      "url": "https://www.loc.gov/catdir/cpso/genreformgeneral.html",
+      "note": "Background on distinguishing genre and form."
+    },
+    {
+      "title": "Library of Congress: Moving Image Genre-Form Guide",
+      "url": "https://wwws.loc.gov/rr/mopic/miggen.html",
+      "note": "Cross-medium terminology reference; not a literary hierarchy to copy wholesale."
+    },
+    {
+      "title": "BISG: choosing a book subject heading",
+      "url": "https://www.bisg.org/selecting-a-BISAC-code",
+      "note": "Publishing classification context. This guide does not reproduce BISAC codes or its licensed database."
+    }
+  ],
+  "entries": [
+    {
+      "id": "drama",
+      "name": "Drama",
+      "parent": null,
+      "kind": "Genre",
+      "definition": "Stories whose main force comes from consequential choices, relationships, and conflicts of values.",
+      "prompt": "What must someone choose, and who lives with the consequences?",
+      "matches": [
+        {
+          "story": "stories-p00887",
+          "paragraph": "stories-p01000",
+          "reason": "The Orison rescue requires cooperation among Shelters with limited capacity and conflicting duties of protection.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p11382",
+          "paragraph": "stories-p11385",
+          "reason": "Sen’s classroom task becomes the setting for Lio to test guidance and assumptions about correct choices. Only Part One is written.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "legal-drama",
+      "name": "Legal drama",
+      "parent": "drama",
+      "kind": "Genre",
+      "definition": "Conflict shaped by laws, legal institutions, evidence, rights, and the people who interpret them.",
+      "prompt": "What does the law allow that a character believes it should forbid, or forbid that it should allow?",
+      "matches": [
+        {
+          "story": "stories-p01889",
+          "paragraph": "stories-p02530",
+          "reason": "Hearings over Aru’s classification and developmental rights make legal recognition a substantial strand of the story, not its only genre.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "courtroom-drama",
+      "name": "Courtroom drama",
+      "parent": "legal-drama",
+      "kind": "Recognized label",
+      "definition": "Hearings, trials, testimony, and argument form the main arena of conflict.",
+      "prompt": "What can be proved in the hearing, and how does that differ from what happened?",
+      "matches": [
+        {
+          "story": "stories-p01889",
+          "paragraph": "stories-p02530",
+          "reason": "Hearings over Aru’s classification and developmental rights make legal recognition a substantial strand of the story, not its only genre.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "criminal-prosecution-and-defense",
+      "name": "Criminal prosecution and defense",
+      "parent": "courtroom-drama",
+      "kind": "Planning label",
+      "definition": "A courtroom branch about accusations, guilt, the burden of proof, and the power to punish.",
+      "prompt": "Who must prove what, and what evidence is unavailable to the other side?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "civil-liability-and-damages",
+      "name": "Civil liability and damages",
+      "parent": "courtroom-drama",
+      "kind": "Planning label",
+      "definition": "A dispute over responsibility for harm, remedies, compensation, or obligations between parties.",
+      "prompt": "Can money or an order actually repair the harm?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "wrongful-conviction-appeal",
+      "name": "Wrongful-conviction appeal",
+      "parent": "courtroom-drama",
+      "kind": "Planning label",
+      "definition": "A case revisits a conviction under procedural limits and the weight of an earlier judgment.",
+      "prompt": "What new evidence can reopen a settled decision?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "constitutional-and-civil-rights-litigation",
+      "name": "Constitutional and civil-rights litigation",
+      "parent": "courtroom-drama",
+      "kind": "Planning label",
+      "definition": "A case tests foundational protections against government power or unequal treatment.",
+      "prompt": "Whose protection depends on the interpretation of one rule?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "legal-practice-drama",
+      "name": "Legal practice drama",
+      "parent": "legal-drama",
+      "kind": "Planning label",
+      "definition": "The pressures of representing clients, building cases, managing a practice, and honoring professional duties drive events.",
+      "prompt": "What does a lawyer owe a client whose wishes conflict with their own conscience?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "public-defense-and-legal-aid",
+      "name": "Public defense and legal aid",
+      "parent": "legal-practice-drama",
+      "kind": "Planning label",
+      "definition": "Unequal resources and access to representation shape the effort to secure justice.",
+      "prompt": "Which urgent case receives the last available hour?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "professional-ethics-and-conflicts-of-interest",
+      "name": "Professional ethics and conflicts of interest",
+      "parent": "legal-practice-drama",
+      "kind": "Planning label",
+      "definition": "Confidentiality, loyalty, competence, and competing clients create incompatible duties.",
+      "prompt": "Which duty must be honored when no choice satisfies them all?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "law-firm-politics",
+      "name": "Law-firm politics",
+      "parent": "legal-practice-drama",
+      "kind": "Planning label",
+      "definition": "Employment, status, money, and internal alliances affect how cases are pursued.",
+      "prompt": "What will an advocate sacrifice to keep a place in the institution?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "judicial-drama",
+      "name": "Judicial drama",
+      "parent": "legal-drama",
+      "kind": "Planning label",
+      "definition": "The decision maker, rather than an advocate, carries the narrative's main burden.",
+      "prompt": "How does a judge justify a decision they cannot make harmless?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "precedent-and-interpretation",
+      "name": "Precedent and interpretation",
+      "parent": "judicial-drama",
+      "kind": "Planning label",
+      "definition": "A dispute turns on whether an earlier rule applies to a changed situation.",
+      "prompt": "When does consistency become an excuse to repeat an injustice?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "sentencing-and-proportionality",
+      "name": "Sentencing and proportionality",
+      "parent": "judicial-drama",
+      "kind": "Planning label",
+      "definition": "The conflict concerns the purpose, severity, and consequences of punishment.",
+      "prompt": "What outcome protects others while recognizing the particular person?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "rights-and-personhood",
+      "name": "Rights and personhood",
+      "parent": "legal-drama",
+      "kind": "Planning label",
+      "definition": "A legal system must decide who counts as a rights-bearing person and what recognition entails.",
+      "prompt": "Who is permitted to speak for themselves before being recognized?",
+      "matches": [
+        {
+          "story": "stories-p00887",
+          "paragraph": "stories-p01366",
+          "reason": "Serein declines the demand to classify their continuation as original, copy, or something between.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p01889",
+          "paragraph": "stories-p02530",
+          "reason": "Hearings over Aru’s classification and developmental rights make legal recognition a substantial strand of the story, not its only genre.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "guardianship-and-autonomy",
+      "name": "Guardianship and autonomy",
+      "parent": "rights-and-personhood",
+      "kind": "Planning label",
+      "definition": "Care, capacity, consent, and the authority to decide for another person collide.",
+      "prompt": "When should protection give way to a person's own risky choice?",
+      "matches": [
+        {
+          "story": "stories-p01889",
+          "paragraph": "stories-p02530",
+          "reason": "Hearings over Aru’s classification and developmental rights make legal recognition a substantial strand of the story, not its only genre.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "citizenship-and-belonging",
+      "name": "Citizenship and belonging",
+      "parent": "rights-and-personhood",
+      "kind": "Planning label",
+      "definition": "Membership rules decide who may remain, participate, or claim public protection.",
+      "prompt": "Who belongs before the paperwork says they do?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "ownership-versus-self-determination",
+      "name": "Ownership versus self-determination",
+      "parent": "rights-and-personhood",
+      "kind": "Planning label",
+      "definition": "An entity treated as property asserts a claim to direct its own existence.",
+      "prompt": "Can an owner legitimately refuse someone the right to leave?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "restorative-justice",
+      "name": "Restorative justice",
+      "parent": "legal-drama",
+      "kind": "Planning label",
+      "definition": "A story explores accountability through repair, participation, and changed relationships after harm.",
+      "prompt": "What repair would those harmed accept, and can they refuse reconciliation?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "family-drama",
+      "name": "Family drama",
+      "parent": "drama",
+      "kind": "Genre",
+      "definition": "Family relationships and their obligations, histories, and conflicts organize the plot.",
+      "prompt": "Which obligation feels like love to one person and control to another?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "intergenerational-conflict",
+      "name": "Intergenerational conflict",
+      "parent": "family-drama",
+      "kind": "Theme",
+      "definition": "Different generations struggle over inherited expectations, values, or responsibilities.",
+      "prompt": "Which inherited rule once protected the family but now limits it?",
+      "matches": [],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "sibling-rivalry",
+      "name": "Sibling rivalry",
+      "parent": "family-drama",
+      "kind": "Trope",
+      "definition": "Siblings compete for recognition, resources, authority, or a place within the family.",
+      "prompt": "What unequal treatment keeps the rivalry alive?",
+      "matches": [],
+      "scopeNote": "A recurring situation or plot pattern. It does not by itself determine genre."
+    },
+    {
+      "id": "caregiving-drama",
+      "name": "Caregiving drama",
+      "parent": "family-drama",
+      "kind": "Planning label",
+      "definition": "The work of caring for another person changes both lives and their relationship.",
+      "prompt": "How can care preserve dignity when needs conflict?",
+      "matches": [
+        {
+          "story": "stories-p01889",
+          "paragraph": "stories-p02557",
+          "reason": "Aru claims the right to learn, develop preferences, and choose an embodiment gradually while Iri learns how to care for a newborn.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "found-family",
+      "name": "Found family",
+      "parent": "family-drama",
+      "kind": "Trope",
+      "definition": "People build a family-like bond through chosen commitments rather than only inherited ties.",
+      "prompt": "What difficult act turns companionship into dependable belonging?",
+      "matches": [],
+      "scopeNote": "A recurring situation or plot pattern. It does not by itself determine genre."
+    },
+    {
+      "id": "psychological-drama",
+      "name": "Psychological drama",
+      "parent": "drama",
+      "kind": "Genre",
+      "definition": "Inner conflict and changes in perception, motivation, or identity dominate the story.",
+      "prompt": "What does the character misunderstand about their own desire?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "identity-crisis",
+      "name": "Identity crisis",
+      "parent": "psychological-drama",
+      "kind": "Theme",
+      "definition": "A person can no longer reconcile their present experience with their account of who they are.",
+      "prompt": "What would they retain if their familiar identity stopped being available?",
+      "matches": [],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "grief-and-recovery",
+      "name": "Grief and recovery",
+      "parent": "psychological-drama",
+      "kind": "Theme",
+      "definition": "Loss changes relationships and ordinary life; recovery need not mean closure or forgetting.",
+      "prompt": "What can continue without pretending the loss has been undone?",
+      "matches": [
+        {
+          "story": "stories-p00167",
+          "paragraph": "stories-p00214",
+          "reason": "The missing relay had been Seven’s only regular conversation; that attachment drives the search after its loss.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p14010",
+          "paragraph": "stories-p14071",
+          "reason": "Suth’s unresolved loss gives an uncanny apparent return its emotional force; horror is a spooky secondary strand.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p14121",
+          "paragraph": "stories-p14127",
+          "reason": "Seven gatherings collect different voices within Aven’s prose frame after the Orison rescue.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "moral-complicity",
+      "name": "Moral complicity",
+      "parent": "psychological-drama",
+      "kind": "Theme",
+      "definition": "A person benefits from, tolerates, or contributes to harm they did not intend to cause.",
+      "prompt": "At what point does staying silent become participation?",
+      "matches": [],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "institutional-drama",
+      "name": "Institutional drama",
+      "parent": "drama",
+      "kind": "Recognized label",
+      "definition": "An institution's purposes, routines, and power structures shape the people within it.",
+      "prompt": "What happens when doing the job conflicts with fulfilling its purpose?",
+      "matches": [
+        {
+          "story": "stories-p00887",
+          "paragraph": "stories-p01000",
+          "reason": "The Orison rescue requires cooperation among Shelters with limited capacity and conflicting duties of protection.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p02707",
+          "paragraph": "stories-p03026",
+          "reason": "The Council’s decision changes which expressive structures remain in ordinary speech.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p14362",
+          "paragraph": "stories-p14470",
+          "reason": "Ilex preserves a live exchange and corrections because simplified labels omit conditions necessary for safe passage.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "medical-drama",
+      "name": "Medical drama",
+      "parent": "institutional-drama",
+      "kind": "Genre",
+      "definition": "Care, diagnosis, clinical uncertainty, and the relationships around illness drive the narrative.",
+      "prompt": "How does a caregiver act when evidence is incomplete and delay matters?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "political-drama",
+      "name": "Political drama",
+      "parent": "institutional-drama",
+      "kind": "Genre",
+      "definition": "The pursuit and exercise of public power place values, alliances, and legitimacy under pressure.",
+      "prompt": "What compromise makes governing possible but threatens its purpose?",
+      "matches": [
+        {
+          "story": "stories-p00887",
+          "paragraph": "stories-p01000",
+          "reason": "The Orison rescue requires cooperation among Shelters with limited capacity and conflicting duties of protection.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p02707",
+          "paragraph": "stories-p03026",
+          "reason": "The Council’s decision changes which expressive structures remain in ordinary speech.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "educational-drama",
+      "name": "Educational drama",
+      "parent": "institutional-drama",
+      "kind": "Planning label",
+      "definition": "Learning, teaching, assessment, and authority create the central conflict.",
+      "prompt": "Who gets to decide what successful learning looks like?",
+      "matches": [
+        {
+          "story": "stories-p11382",
+          "paragraph": "stories-p11385",
+          "reason": "Sen’s classroom task becomes the setting for Lio to test guidance and assumptions about correct choices. Only Part One is written.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "workplace-drama",
+      "name": "Workplace drama",
+      "parent": "institutional-drama",
+      "kind": "Recognized label",
+      "definition": "Work relationships, livelihood, expertise, and organizational demands drive events.",
+      "prompt": "Who must absorb the cost of an apparently efficient decision?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "journalism-drama",
+      "name": "Journalism drama",
+      "parent": "institutional-drama",
+      "kind": "Recognized label",
+      "definition": "Gathering, verifying, and publishing information creates public and personal stakes.",
+      "prompt": "What should be published when truth and source safety conflict?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "coming-of-age",
+      "name": "Coming-of-age",
+      "parent": "drama",
+      "kind": "Genre",
+      "definition": "A character's growing independence changes their understanding of themselves and their world.",
+      "prompt": "Which belief can they no longer inherit without questioning it?",
+      "matches": [
+        {
+          "story": "stories-p01889",
+          "paragraph": "stories-p02557",
+          "reason": "Aru claims the right to learn, develop preferences, and choose an embodiment gradually while Iri learns how to care for a newborn.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p11382",
+          "paragraph": "stories-p11385",
+          "reason": "Sen’s classroom task becomes the setting for Lio to test guidance and assumptions about correct choices. Only Part One is written.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "bildungsroman",
+      "name": "Bildungsroman",
+      "parent": "coming-of-age",
+      "kind": "Recognized label",
+      "definition": "A development novel traces sustained intellectual, moral, or social formation across formative experiences.",
+      "prompt": "How does each stage revise what the protagonist thinks a good life requires?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "disillusionment-with-authority",
+      "name": "Disillusionment with authority",
+      "parent": "coming-of-age",
+      "kind": "Theme",
+      "definition": "A young or dependent person discovers that trusted authorities have limits, interests, or blind spots.",
+      "prompt": "What can they still trust after learning that guidance is fallible?",
+      "matches": [
+        {
+          "story": "stories-p11382",
+          "paragraph": "stories-p12106",
+          "reason": "Lio cannot tell whether agreement with the guidance makes a choice more or less their own.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "sports-drama",
+      "name": "Sports drama",
+      "parent": "drama",
+      "kind": "Genre",
+      "definition": "Training, competition, teamwork, and the costs of performance organize the story.",
+      "prompt": "Who is the athlete without the outcome they have trained for?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "domestic-fiction",
+      "name": "Domestic fiction",
+      "parent": "drama",
+      "kind": "Recognized label",
+      "definition": "Household life, intimate relationships, and everyday responsibilities carry substantial narrative weight.",
+      "prompt": "How does a small household decision reveal a larger imbalance?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "melodrama",
+      "name": "Melodrama",
+      "parent": "drama",
+      "kind": "Recognized label",
+      "definition": "Heightened emotion, sharp moral pressure, and consequential reversals drive an expressive dramatic story.",
+      "prompt": "How can strong emotion emerge from specific stakes rather than arbitrary misfortune?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "tragedy",
+      "name": "Tragedy",
+      "parent": "drama",
+      "kind": "Recognized label",
+      "definition": "A serious action moves toward devastating loss through choices, circumstances, or their interaction.",
+      "prompt": "Which understandable choice makes the eventual loss harder to prevent?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "mystery-and-crime",
+      "name": "Mystery and crime",
+      "parent": null,
+      "kind": "Reference category",
+      "definition": "A browsing shelf for stories about hidden truth, investigation, wrongdoing, and its consequences.",
+      "prompt": "Is the main promise discovering the truth, following the crime, or experiencing its aftermath?",
+      "matches": [],
+      "scopeNote": "An editorial shelf for browsing related labels, not a universal genre classification."
+    },
+    {
+      "id": "mystery",
+      "name": "Mystery",
+      "parent": "mystery-and-crime",
+      "kind": "Genre",
+      "definition": "The narrative makes an unresolved question central and develops evidence toward an answer or meaningful uncertainty.",
+      "prompt": "What would genuinely change the reader's explanation of events?",
+      "matches": [
+        {
+          "story": "stories-p01469",
+          "paragraph": "stories-p01475",
+          "reason": "The expected memory boundary of a restored continuity establishes the identity puzzle that the warm copy disrupts.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p03043",
+          "paragraph": "stories-p03049",
+          "reason": "Mara investigates repairs that have no recorded operator, uncovering a dangerous hidden explanation.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p14010",
+          "paragraph": "stories-p14112",
+          "reason": "The healer investigates knocking and reflections, revising the warning to distinguish evidence from assumed visitors.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "detective-fiction",
+      "name": "Detective fiction",
+      "parent": "mystery",
+      "kind": "Genre",
+      "definition": "An investigator's inquiry gives the plot its shape, whether the investigator is trained or accidental.",
+      "prompt": "What method lets this investigator notice what others miss?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "amateur-sleuth",
+      "name": "Amateur sleuth",
+      "parent": "detective-fiction",
+      "kind": "Recognized label",
+      "definition": "A person outside professional investigation pursues a mystery through access, curiosity, or necessity.",
+      "prompt": "Why can this person investigate when the professionals cannot or will not?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "private-eye-fiction",
+      "name": "Private-eye fiction",
+      "parent": "detective-fiction",
+      "kind": "Recognized label",
+      "definition": "A privately employed investigator works between personal interests, clients, and official institutions.",
+      "prompt": "What has the client concealed about the assignment?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "police-procedural",
+      "name": "Police procedural",
+      "parent": "detective-fiction",
+      "kind": "Genre",
+      "definition": "The investigation emphasizes the work, methods, constraints, and collaboration of law enforcement.",
+      "prompt": "What does a credible investigative process reveal or fail to capture?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "cozy-mystery",
+      "name": "Cozy mystery",
+      "parent": "mystery",
+      "kind": "Genre",
+      "definition": "A contained social world and an accessible investigator support a puzzle, usually with restrained on-page violence.",
+      "prompt": "Which ordinary social detail becomes the crucial clue?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "hard-boiled-mystery",
+      "name": "Hard-boiled mystery",
+      "parent": "detective-fiction",
+      "kind": "Genre",
+      "definition": "A tough, often cynical investigator confronts violence, compromised institutions, and personal danger.",
+      "prompt": "What principle survives when the surrounding system is corrupt?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "whodunit",
+      "name": "Whodunit",
+      "parent": "mystery",
+      "kind": "Recognized label",
+      "definition": "The main puzzle concerns the identity of the person responsible.",
+      "prompt": "Which clue distinguishes the culprit from equally plausible suspects?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "howdunit",
+      "name": "Howdunit",
+      "parent": "mystery",
+      "kind": "Recognized label",
+      "definition": "The means by which an event was accomplished matters more than concealing the perpetrator.",
+      "prompt": "What apparent impossibility hides a workable method?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "whydunit",
+      "name": "Whydunit",
+      "parent": "mystery",
+      "kind": "Recognized label",
+      "definition": "The central investigation seeks motive or an explanation for an apparently inexplicable action.",
+      "prompt": "What motive changes the meaning of facts already known?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "locked-room-mystery",
+      "name": "Locked-room mystery",
+      "parent": "mystery",
+      "kind": "Genre",
+      "definition": "A crime appears impossible because access, escape, or the physical circumstances seem to rule it out.",
+      "prompt": "Which assumption makes a possible event look impossible?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "missing-person-mystery",
+      "name": "Missing-person mystery",
+      "parent": "mystery",
+      "kind": "Recognized label",
+      "definition": "An absence drives inquiry into a person's movements, relationships, and possible intentions.",
+      "prompt": "Is the missing person endangered, escaping, or being misrepresented?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "historical-mystery",
+      "name": "Historical mystery",
+      "parent": "mystery",
+      "kind": "Genre",
+      "definition": "An investigation depends on the institutions, knowledge, and social conditions of a past period.",
+      "prompt": "What can an investigator know or prove in this particular time?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "speculative-mystery",
+      "name": "Speculative mystery",
+      "parent": "mystery",
+      "kind": "Recognized label",
+      "definition": "Invented technologies or supernatural rules form part of a fair and intelligible puzzle.",
+      "prompt": "Which world rule must the reader understand before the solution is revealed?",
+      "matches": [
+        {
+          "story": "stories-p01469",
+          "paragraph": "stories-p01475",
+          "reason": "The expected memory boundary of a restored continuity establishes the identity puzzle that the warm copy disrupts.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "crime-fiction",
+      "name": "Crime fiction",
+      "parent": "mystery-and-crime",
+      "kind": "Genre",
+      "definition": "Wrongdoing and its participants or consequences form the center, without requiring a detective puzzle.",
+      "prompt": "Who is changed by the crime beyond its intended target?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "heist-and-caper",
+      "name": "Heist and caper",
+      "parent": "crime-fiction",
+      "kind": "Recognized label",
+      "definition": "Planning and executing a difficult theft or illicit operation organizes the story; capers often lean playful.",
+      "prompt": "Which dependency in the plan becomes the team's greatest vulnerability?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "organized-crime-fiction",
+      "name": "Organized-crime fiction",
+      "parent": "crime-fiction",
+      "kind": "Recognized label",
+      "definition": "Criminal organizations, their economies, loyalties, and power struggles shape events.",
+      "prompt": "What does belonging cost someone who wants to leave?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "con-artist-story",
+      "name": "Con-artist story",
+      "parent": "crime-fiction",
+      "kind": "Recognized label",
+      "definition": "Deception and the manipulation of trust drive a scheme, reversal, or downfall.",
+      "prompt": "What does the target want badly enough to overlook the warning?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "noir",
+      "name": "Noir",
+      "parent": "crime-fiction",
+      "kind": "Genre",
+      "definition": "Compromise, desire, and entrapment pull characters into a morally hazardous world; the lead need not be a detective.",
+      "prompt": "Which attempt to escape makes the trap tighter?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "prison-story",
+      "name": "Prison story",
+      "parent": "crime-fiction",
+      "kind": "Recognized label",
+      "definition": "Confinement, institutional power, survival, and relationships inside custody organize the action.",
+      "prompt": "What form of agency remains when movement and privacy are controlled?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "reentry-and-restitution",
+      "name": "Reentry and restitution",
+      "parent": "crime-fiction",
+      "kind": "Planning label",
+      "definition": "Life after wrongdoing or incarceration tests whether change is possible and repair is welcomed.",
+      "prompt": "What does accountability require beyond completing a sentence?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "thriller",
+      "name": "Thriller",
+      "parent": null,
+      "kind": "Genre",
+      "definition": "Escalating danger and suspense make preventing, surviving, or stopping a threat the main narrative engine.",
+      "prompt": "What gets worse if the protagonist waits?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "psychological-thriller",
+      "name": "Psychological thriller",
+      "parent": "thriller",
+      "kind": "Genre",
+      "definition": "Manipulation, unstable trust, and threatening uncertainty about motives or perception generate suspense.",
+      "prompt": "Whose explanation of events becomes dangerous to believe?",
+      "matches": [
+        {
+          "story": "stories-p03043",
+          "paragraph": "stories-p11373",
+          "reason": "The ending isolates Mara in a facility without electronic infrastructure, making control over access and interpretation a threat.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "legal-thriller",
+      "name": "Legal thriller",
+      "parent": "thriller",
+      "kind": "Genre",
+      "definition": "A legal conflict becomes an urgent threat involving evidence, witnesses, power, or irreversible decisions.",
+      "prompt": "Can the truth reach the decision maker before someone silences it?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "political-thriller",
+      "name": "Political thriller",
+      "parent": "thriller",
+      "kind": "Genre",
+      "definition": "Threats to public power, state institutions, or political legitimacy create urgent danger.",
+      "prompt": "Who benefits if the public never learns what is happening?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "espionage-thriller",
+      "name": "Espionage thriller",
+      "parent": "thriller",
+      "kind": "Genre",
+      "definition": "Intelligence operations, secrecy, divided loyalties, and counterintelligence drive suspense.",
+      "prompt": "Which loyalty will the operative betray to complete the mission?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "technothriller",
+      "name": "Technothriller",
+      "parent": "thriller",
+      "kind": "Genre",
+      "definition": "Technical systems and their vulnerabilities are integral to an escalating threat.",
+      "prompt": "What precise system dependency turns a local fault into a crisis?",
+      "matches": [
+        {
+          "story": "stories-p03043",
+          "paragraph": "stories-p03049",
+          "reason": "Mara investigates repairs that have no recorded operator, uncovering a dangerous hidden explanation.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "medical-thriller",
+      "name": "Medical thriller",
+      "parent": "thriller",
+      "kind": "Genre",
+      "definition": "A health-related threat, concealed experiment, or compromised care system drives an urgent investigation.",
+      "prompt": "Who can verify the danger before more people are exposed?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "domestic-thriller",
+      "name": "Domestic thriller",
+      "parent": "psychological-thriller",
+      "kind": "Genre",
+      "definition": "Danger grows inside intimate relationships and apparently safe domestic spaces.",
+      "prompt": "Which familiar behavior acquires a threatening second meaning?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "conspiracy-thriller",
+      "name": "Conspiracy thriller",
+      "parent": "thriller",
+      "kind": "Recognized label",
+      "definition": "A protagonist encounters coordinated concealment or manipulation by a powerful network.",
+      "prompt": "How can evidence be trusted when its custodians may be involved?",
+      "matches": [
+        {
+          "story": "stories-p03043",
+          "paragraph": "stories-p03049",
+          "reason": "Mara investigates repairs that have no recorded operator, uncovering a dangerous hidden explanation.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "survival-thriller",
+      "name": "Survival thriller",
+      "parent": "thriller",
+      "kind": "Recognized label",
+      "definition": "Immediate threats and narrowing options organize the struggle to stay alive.",
+      "prompt": "Which essential resource fails next?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "eco-thriller",
+      "name": "Eco-thriller",
+      "parent": "thriller",
+      "kind": "Recognized label",
+      "definition": "Environmental danger, exploitation, or ecological sabotage produces suspense.",
+      "prompt": "Who has an incentive to hide the ecological consequences?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "action-and-adventure",
+      "name": "Action and adventure",
+      "parent": null,
+      "kind": "Reference category",
+      "definition": "A shelf for stories driven by difficult undertakings, exploration, danger, and decisive acts.",
+      "prompt": "Is the pleasure mainly discovery, physical struggle, or accomplishing a difficult mission?",
+      "matches": [],
+      "scopeNote": "An editorial shelf for browsing related labels, not a universal genre classification."
+    },
+    {
+      "id": "adventure",
+      "name": "Adventure",
+      "parent": "action-and-adventure",
+      "kind": "Genre",
+      "definition": "A journey or undertaking exposes characters to unfamiliar challenges and consequential encounters.",
+      "prompt": "What must the traveler learn that no preparation could provide?",
+      "matches": [
+        {
+          "story": "stories-p00167",
+          "paragraph": "stories-p00352",
+          "reason": "Relay Seven leaves its assigned place to seek a missing conversational companion.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p14511",
+          "paragraph": "stories-p14574",
+          "reason": "Messages coordinate a physical fiber crossing between differently scaled communities.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "quest",
+      "name": "Quest",
+      "parent": "adventure",
+      "kind": "Trope",
+      "definition": "A sustained search for an object, person, place, or achievement gives the narrative direction.",
+      "prompt": "How does the sought goal change meaning along the way?",
+      "matches": [
+        {
+          "story": "stories-p00167",
+          "paragraph": "stories-p00352",
+          "reason": "Relay Seven leaves its assigned place to seek a missing conversational companion.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recurring situation or plot pattern. It does not by itself determine genre."
+    },
+    {
+      "id": "rescue-adventure",
+      "name": "Rescue adventure",
+      "parent": "adventure",
+      "kind": "Recognized label",
+      "definition": "Reaching and saving someone under difficult conditions organizes the action.",
+      "prompt": "What does a successful rescue require besides arriving in time?",
+      "matches": [
+        {
+          "story": "stories-p00887",
+          "paragraph": "stories-p01000",
+          "reason": "The Orison rescue requires cooperation among Shelters with limited capacity and conflicting duties of protection.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p14511",
+          "paragraph": "stories-p14574",
+          "reason": "Messages coordinate a physical fiber crossing between differently scaled communities.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "exploration-adventure",
+      "name": "Exploration adventure",
+      "parent": "adventure",
+      "kind": "Recognized label",
+      "definition": "Discovering an unfamiliar place brings practical and ethical challenges.",
+      "prompt": "How do explorers avoid mistaking unfamiliarity for emptiness?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "lost-world-adventure",
+      "name": "Lost-world adventure",
+      "parent": "exploration-adventure",
+      "kind": "Recognized label",
+      "definition": "An expedition reaches an isolated or previously unknown society or ecosystem.",
+      "prompt": "Whose account of discovery obscures the people already there?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "survival-fiction",
+      "name": "Survival fiction",
+      "parent": "adventure",
+      "kind": "Genre",
+      "definition": "Characters endure a hostile situation through skills, cooperation, adaptation, and difficult choices.",
+      "prompt": "What everyday habit becomes dangerous in this environment?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "nautical-fiction",
+      "name": "Nautical fiction",
+      "parent": "adventure",
+      "kind": "Genre",
+      "definition": "Life and conflict aboard vessels or at sea shape the narrative.",
+      "prompt": "How does confinement aboard a vessel alter trust and authority?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "swashbuckler",
+      "name": "Swashbuckler",
+      "parent": "adventure",
+      "kind": "Recognized label",
+      "definition": "Daring exploits, duels, escapes, and colorful rivalries create energetic adventure.",
+      "prompt": "What risky gesture reveals the hero's values as well as their skill?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "disaster-fiction",
+      "name": "Disaster fiction",
+      "parent": "adventure",
+      "kind": "Genre",
+      "definition": "A catastrophe and its aftermath test preparedness, institutions, and survival.",
+      "prompt": "Which ordinary system was everyone relying on without noticing?",
+      "matches": [
+        {
+          "story": "stories-p00887",
+          "paragraph": "stories-p01000",
+          "reason": "The Orison rescue requires cooperation among Shelters with limited capacity and conflicting duties of protection.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "road-story",
+      "name": "Road story",
+      "parent": "adventure",
+      "kind": "Recognized label",
+      "definition": "Travel through successive places creates encounters that change relationships or identity.",
+      "prompt": "What changes between departure and return that distance alone cannot explain?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "action-fiction",
+      "name": "Action fiction",
+      "parent": "action-and-adventure",
+      "kind": "Genre",
+      "definition": "Physical confrontations, pursuit, and rapid consequential decisions dominate the plot.",
+      "prompt": "What emotional or ethical stake gives the action meaning?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "martial-arts-story",
+      "name": "Martial-arts story",
+      "parent": "action-fiction",
+      "kind": "Recognized label",
+      "definition": "Combat disciplines, training, schools, and mastery shape conflict and character.",
+      "prompt": "What does a fighter learn that winning alone cannot teach?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "tournament-arc",
+      "name": "Tournament arc",
+      "parent": "action-fiction",
+      "kind": "Trope",
+      "definition": "Successive contests create escalation, rivalry, and visible tests of growth.",
+      "prompt": "How does each opponent challenge a different weakness?",
+      "matches": [],
+      "scopeNote": "A recurring situation or plot pattern. It does not by itself determine genre."
+    },
+    {
+      "id": "superhero-fiction",
+      "name": "Superhero fiction",
+      "parent": "action-fiction",
+      "kind": "Genre",
+      "definition": "Extraordinary abilities intersect with responsibility, identity, public trust, and opposition.",
+      "prompt": "Who should constrain someone powerful enough to ignore ordinary rules?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "science-fiction",
+      "name": "Science fiction",
+      "parent": null,
+      "kind": "Genre",
+      "definition": "Imagined science, technology, or altered material conditions produce consequences explored through story.",
+      "prompt": "What changes in everyday life because this imagined condition exists?",
+      "matches": [
+        {
+          "story": "stories-p00016",
+          "paragraph": "stories-p00162",
+          "reason": "The linked history follows digital communities and changing meanings across generations.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "hard-science-fiction",
+      "name": "Hard science fiction",
+      "parent": "science-fiction",
+      "kind": "Genre",
+      "definition": "Scientific reasoning and material constraints are prominent in the story's construction.",
+      "prompt": "Which physical constraint forces the most interesting choice?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "social-science-fiction",
+      "name": "Social science fiction",
+      "parent": "science-fiction",
+      "kind": "Genre",
+      "definition": "An imagined condition is used to explore institutions, culture, relationships, and collective life.",
+      "prompt": "How would this change reshape ordinary obligations rather than only devices?",
+      "matches": [
+        {
+          "story": "stories-p00016",
+          "paragraph": "stories-p00162",
+          "reason": "The linked history follows digital communities and changing meanings across generations.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p02707",
+          "paragraph": "stories-p03037",
+          "reason": "The narrator accepts that later speakers may change an inherited gift even as the old chord disappears from ordinary use.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "political-science-fiction",
+      "name": "Political science fiction",
+      "parent": "social-science-fiction",
+      "kind": "Recognized label",
+      "definition": "Speculative conditions transform government, legitimacy, authority, and collective decision making.",
+      "prompt": "Who gets a voice in the system that governs everyone?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "economic-science-fiction",
+      "name": "Economic science fiction",
+      "parent": "social-science-fiction",
+      "kind": "Planning label",
+      "definition": "An invented economy changes labor, ownership, scarcity, or exchange.",
+      "prompt": "What remains scarce when familiar material needs are easily met?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "utopian-fiction",
+      "name": "Utopian fiction",
+      "parent": "social-science-fiction",
+      "kind": "Genre",
+      "definition": "A comparatively desirable social arrangement is imagined and examined, including the work of maintaining it.",
+      "prompt": "How does a good society handle disagreement without hiding its costs?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "dystopian-fiction",
+      "name": "Dystopian fiction",
+      "parent": "social-science-fiction",
+      "kind": "Genre",
+      "definition": "An oppressive or deeply harmful social order organizes the characters' lives and resistance.",
+      "prompt": "How does the system persuade people that its harms are necessary?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "artificial-life-fiction",
+      "name": "Artificial-life fiction",
+      "parent": "science-fiction",
+      "kind": "Planning label",
+      "definition": "Artificial beings and their forms of experience, society, and agency form the center.",
+      "prompt": "What makes this being's perspective more than a human metaphor?",
+      "matches": [
+        {
+          "story": "stories-p00016",
+          "paragraph": "stories-p00162",
+          "reason": "The linked history follows digital communities and changing meanings across generations.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p00167",
+          "paragraph": "stories-p00352",
+          "reason": "Relay Seven leaves its assigned place to seek a missing conversational companion.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "emergent-consciousness",
+      "name": "Emergent consciousness",
+      "parent": "artificial-life-fiction",
+      "kind": "Theme",
+      "definition": "A system develops or reveals awareness that others did not expect or recognize.",
+      "prompt": "What action suggests an inner life without conclusively proving it?",
+      "matches": [
+        {
+          "story": "stories-p00167",
+          "paragraph": "stories-p00352",
+          "reason": "Relay Seven leaves its assigned place to seek a missing conversational companion.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p01889",
+          "paragraph": "stories-p02557",
+          "reason": "Aru claims the right to learn, develop preferences, and choose an embodiment gradually while Iri learns how to care for a newborn.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "digital-societies",
+      "name": "Digital societies",
+      "parent": "artificial-life-fiction",
+      "kind": "Planning label",
+      "definition": "Digital persons develop relationships, institutions, cultures, and shared environments.",
+      "prompt": "What does a digital community need that storage alone cannot supply?",
+      "matches": [
+        {
+          "story": "stories-p00016",
+          "paragraph": "stories-p00162",
+          "reason": "The linked history follows digital communities and changing meanings across generations.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "embodiment",
+      "name": "Embodiment",
+      "parent": "artificial-life-fiction",
+      "kind": "Theme",
+      "definition": "Having a situated body shapes perception, agency, limitation, and relationships.",
+      "prompt": "What becomes possible or difficult because of this particular body?",
+      "matches": [
+        {
+          "story": "stories-p01889",
+          "paragraph": "stories-p02557",
+          "reason": "Aru claims the right to learn, develop preferences, and choose an embodiment gradually while Iri learns how to care for a newborn.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p11382",
+          "paragraph": "stories-p11385",
+          "reason": "The classroom shelter must survive simulated environmental changes. The developing-engine interpretation is author-approved background, not a claim that the prose names an engine.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "copies-and-continuity",
+      "name": "Copies and continuity",
+      "parent": "artificial-life-fiction",
+      "kind": "Theme",
+      "definition": "Duplication, restoration, or divergence challenges accounts of personal identity over time.",
+      "prompt": "Can two continuations both have a legitimate claim to a shared past?",
+      "matches": [
+        {
+          "story": "stories-p00887",
+          "paragraph": "stories-p01366",
+          "reason": "Serein declines the demand to classify their continuation as original, copy, or something between.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p01469",
+          "paragraph": "stories-p01475",
+          "reason": "The expected memory boundary of a restored continuity establishes the identity puzzle that the warm copy disrupts.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "simulated-worlds",
+      "name": "Simulated worlds",
+      "parent": "artificial-life-fiction",
+      "kind": "Recognized label",
+      "definition": "A computationally sustained environment is central to the story's reality or conflict.",
+      "prompt": "Who can change the environment, and what protections do its inhabitants have?",
+      "matches": [
+        {
+          "story": "stories-p11382",
+          "paragraph": "stories-p11385",
+          "reason": "The classroom shelter must survive simulated environmental changes. The developing-engine interpretation is author-approved background, not a claim that the prose names an engine.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "developing-physical-rules",
+      "name": "Developing physical rules",
+      "parent": "simulated-worlds",
+      "kind": "Planning label",
+      "definition": "Characters inhabit or construct a world whose physical behaviors are still being tested and negotiated.",
+      "prompt": "When does an apparent natural limit turn out to be an editable rule?",
+      "matches": [
+        {
+          "story": "stories-p11382",
+          "paragraph": "stories-p11385",
+          "reason": "The classroom shelter must survive simulated environmental changes. The developing-engine interpretation is author-approved background, not a claim that the prose names an engine.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "robotics-fiction",
+      "name": "Robotics fiction",
+      "parent": "science-fiction",
+      "kind": "Recognized label",
+      "definition": "Robots and their roles, agency, design, or relationships organize the story.",
+      "prompt": "What happens when a machine's assigned purpose conflicts with its choices?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "cyberpunk",
+      "name": "Cyberpunk",
+      "parent": "science-fiction",
+      "kind": "Genre",
+      "definition": "Networked technology, unequal power, commodified bodies or information, and life at the margins shape conflict.",
+      "prompt": "Who controls the infrastructure that makes personal freedom possible?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "biopunk",
+      "name": "Biopunk",
+      "parent": "science-fiction",
+      "kind": "Genre",
+      "definition": "Biological engineering and its social consequences organize a technologically altered world.",
+      "prompt": "Who owns a designed organism's capacities or descendants?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "steampunk",
+      "name": "Steampunk",
+      "parent": "science-fiction",
+      "kind": "Genre",
+      "definition": "An alternate technological imagination draws on steam-age machinery and historical aesthetics, often mixing fantasy.",
+      "prompt": "What social structure changes alongside the conspicuous machinery?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "solarpunk",
+      "name": "Solarpunk",
+      "parent": "science-fiction",
+      "kind": "Recognized label",
+      "definition": "Ecological care, constructive collective action, and sustainable futures shape a hopeful speculative mode.",
+      "prompt": "What difficult maintenance makes a hopeful future durable?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "space-opera",
+      "name": "Space opera",
+      "parent": "science-fiction",
+      "kind": "Genre",
+      "definition": "Large-scale adventures and dramatic conflicts unfold across spacefaring societies.",
+      "prompt": "What personal relationship gives an immense conflict human scale?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "military-science-fiction",
+      "name": "Military science fiction",
+      "parent": "science-fiction",
+      "kind": "Genre",
+      "definition": "Warfare and military institutions are transformed by speculative technology or societies.",
+      "prompt": "What can superior technology not solve about this conflict?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "space-exploration",
+      "name": "Space exploration",
+      "parent": "science-fiction",
+      "kind": "Recognized label",
+      "definition": "Exploration beyond a familiar world drives encounters with unfamiliar environments and evidence.",
+      "prompt": "Which expectation fails first when the expedition arrives?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "first-contact",
+      "name": "First contact",
+      "parent": "science-fiction",
+      "kind": "Recognized label",
+      "definition": "An encounter between previously unconnected intelligences challenges communication and assumptions; the encounter need not take place in outer space.",
+      "prompt": "What might each side mistake for hostility, consent, or understanding?",
+      "matches": [
+        {
+          "story": "stories-p14511",
+          "paragraph": "stories-p14517",
+          "reason": "A roof mender discovers a street inside moss and learns to communicate across unfamiliar scales. First contact is an interpretive analogy, not an alien-arrival claim.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "alien-archaeology",
+      "name": "Alien archaeology",
+      "parent": "space-exploration",
+      "kind": "Planning label",
+      "definition": "Material traces of an unfamiliar civilization become evidence whose meaning is uncertain.",
+      "prompt": "What present-day assumption distorts the interpretation of a ruin?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "colony-fiction",
+      "name": "Colony fiction",
+      "parent": "science-fiction",
+      "kind": "Recognized label",
+      "definition": "Settlement beyond an established home creates conflicts about adaptation, dependency, and governance.",
+      "prompt": "When does a settlement stop accepting rules made elsewhere?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "generation-ship",
+      "name": "Generation ship",
+      "parent": "science-fiction",
+      "kind": "Recognized label",
+      "definition": "A vessel's long journey becomes the lived world of people who did not choose its original mission.",
+      "prompt": "What do later generations owe a destination they have never seen?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "time-travel-fiction",
+      "name": "Time-travel fiction",
+      "parent": "science-fiction",
+      "kind": "Genre",
+      "definition": "Travel or communication across time creates causal, personal, or historical consequences.",
+      "prompt": "What price accompanies changing an event that shaped the traveler?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "time-loop",
+      "name": "Time loop",
+      "parent": "time-travel-fiction",
+      "kind": "Trope",
+      "definition": "A span of events repeats, with repetition affecting knowledge, choice, or identity.",
+      "prompt": "What can change when the surroundings seem unable to remember?",
+      "matches": [],
+      "scopeNote": "A recurring situation or plot pattern. It does not by itself determine genre."
+    },
+    {
+      "id": "parallel-worlds",
+      "name": "Parallel worlds",
+      "parent": "science-fiction",
+      "kind": "Recognized label",
+      "definition": "Multiple realities allow comparison, crossings, alternate selves, or incompatible histories.",
+      "prompt": "Which difference reveals a value the protagonist had taken for granted?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "apocalyptic-fiction",
+      "name": "Apocalyptic fiction",
+      "parent": "science-fiction",
+      "kind": "Genre",
+      "definition": "A civilization-scale collapse or catastrophe is unfolding.",
+      "prompt": "What do people preserve when they cannot preserve everything?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "post-apocalyptic-fiction",
+      "name": "Post-apocalyptic fiction",
+      "parent": "science-fiction",
+      "kind": "Genre",
+      "definition": "Life after a major collapse centers on survival, inheritance, rebuilding, or transformed society.",
+      "prompt": "Which old institution deserves rebuilding, and which should stay gone?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "climate-fiction",
+      "name": "Climate fiction",
+      "parent": "science-fiction",
+      "kind": "Recognized label",
+      "definition": "Climate change and its consequences materially shape lives and decisions; some works are realistic rather than speculative.",
+      "prompt": "How do slow changes become immediate household choices?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "terraforming",
+      "name": "Terraforming",
+      "parent": "science-fiction",
+      "kind": "Recognized label",
+      "definition": "Transforming an environment to support life produces engineering and ethical conflict.",
+      "prompt": "Whose needs define what counts as a habitable world?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "science-fantasy",
+      "name": "Science fantasy",
+      "parent": "science-fiction",
+      "kind": "Genre",
+      "definition": "Scientific and fantastic premises coexist without requiring all wonders to share a scientific explanation.",
+      "prompt": "Which rules make the blend coherent even when its causes differ?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "fantasy",
+      "name": "Fantasy",
+      "parent": null,
+      "kind": "Genre",
+      "definition": "Magic, supernatural beings, or impossible realities are accepted conditions of the fictional world.",
+      "prompt": "What does the impossible change about responsibility and ordinary life?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "epic-fantasy",
+      "name": "Epic fantasy",
+      "parent": "fantasy",
+      "kind": "Genre",
+      "definition": "Large-scale struggles involving peoples, realms, and consequential journeys shape the narrative.",
+      "prompt": "Whose small needs are lost in the grand cause?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "high-fantasy",
+      "name": "High fantasy",
+      "parent": "fantasy",
+      "kind": "Recognized label",
+      "definition": "A substantially imagined secondary world supports the story's fantastic reality; usage overlaps with epic fantasy but need not imply scale.",
+      "prompt": "What makes the world's ordinary life distinctive beyond its map?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "low-fantasy",
+      "name": "Low fantasy",
+      "parent": "fantasy",
+      "kind": "Recognized label",
+      "definition": "Often describes magic intruding into a familiar world; some readers instead use it for restrained magic, so the intended sense matters.",
+      "prompt": "How does an ordinary institution respond when the impossible appears?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "urban-fantasy",
+      "name": "Urban fantasy",
+      "parent": "fantasy",
+      "kind": "Genre",
+      "definition": "A city or modern urban life is central to encounters with magic or supernatural communities.",
+      "prompt": "How does the city's infrastructure shape its hidden magical life?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "portal-fantasy",
+      "name": "Portal fantasy",
+      "parent": "fantasy",
+      "kind": "Genre",
+      "definition": "Crossing between worlds drives discovery, displacement, and divided belonging.",
+      "prompt": "What can the traveler no longer accept upon returning home?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "sword-and-sorcery",
+      "name": "Sword and sorcery",
+      "parent": "fantasy",
+      "kind": "Genre",
+      "definition": "Personal-scale adventures combine danger, magic, and resourceful protagonists rather than necessarily saving a world.",
+      "prompt": "What immediate goal draws the adventurer into an older magical danger?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "mythic-fantasy",
+      "name": "Mythic fantasy",
+      "parent": "fantasy",
+      "kind": "Recognized label",
+      "definition": "Mythic patterns, sacred beings, or cosmological conflicts shape the story.",
+      "prompt": "How does a person's lived experience complicate the inherited myth?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "fairy-tale-fantasy",
+      "name": "Fairy-tale fantasy",
+      "parent": "fantasy",
+      "kind": "Recognized label",
+      "definition": "Enchantment, bargains, transformations, and fairy-tale structures shape an original tale or retelling.",
+      "prompt": "Which familiar rule becomes different when told by another participant?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "dark-fantasy",
+      "name": "Dark fantasy",
+      "parent": "fantasy",
+      "kind": "Genre",
+      "definition": "Fantastic worlds or powers are shaped by dread, corruption, or disturbing consequences.",
+      "prompt": "What does using magic cost beyond exhaustion or money?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "cozy-fantasy",
+      "name": "Cozy fantasy",
+      "parent": "fantasy",
+      "kind": "Recognized label",
+      "definition": "Intimate stakes, community, and restorative relationships dominate a magical setting.",
+      "prompt": "What small problem matters deeply to the people who live here?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "historical-fantasy",
+      "name": "Historical fantasy",
+      "parent": "fantasy",
+      "kind": "Genre",
+      "definition": "A recognizable past and fantastic elements influence one another.",
+      "prompt": "Which historical condition changes when magic is possible?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "romantic-fantasy",
+      "name": "Romantic fantasy",
+      "parent": "fantasy",
+      "kind": "Genre",
+      "definition": "A fantastic plot gives a romantic relationship substantial importance without always promising a romance-genre ending.",
+      "prompt": "How does the relationship alter the larger fantastic conflict?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "progression-fantasy",
+      "name": "Progression fantasy",
+      "parent": "fantasy",
+      "kind": "Recognized label",
+      "definition": "Increasing capability through training or defined advancement is a central reader promise.",
+      "prompt": "What does greater power fail to teach the protagonist?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "litrpg",
+      "name": "LitRPG",
+      "parent": "fantasy",
+      "kind": "Recognized label",
+      "definition": "Explicit game-like systems, statistics, levels, or quests are part of the experienced reality; settings can also be science fictional.",
+      "prompt": "How do characters respond when the scoring system rewards harmful behavior?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "wuxia",
+      "name": "Wuxia",
+      "parent": "fantasy",
+      "kind": "Recognized label",
+      "definition": "Chinese martial-chivalric storytelling explores skilled fighters, honor, loyalties, and the social world of martial practice; supernatural content varies.",
+      "prompt": "Which obligations compete with the protagonist's idea of justice?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "xianxia",
+      "name": "Xianxia",
+      "parent": "fantasy",
+      "kind": "Recognized label",
+      "definition": "Chinese cultivation fantasy commonly follows spiritual and martial transformation toward extraordinary longevity or transcendence.",
+      "prompt": "How does the pursuit of transcendence affect obligations to ordinary people?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "magical-realism",
+      "name": "Magical realism",
+      "parent": "fantasy",
+      "kind": "Recognized label",
+      "definition": "Extraordinary events are narrated within ordinary social reality without the explanatory emphasis common in system-based fantasy; it is also a literary mode with specific cultural histories.",
+      "prompt": "What social reality becomes visible through the matter-of-fact impossible?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "fabulism",
+      "name": "Fabulism",
+      "parent": "fantasy",
+      "kind": "Recognized label",
+      "definition": "Fable-like impossibilities or uncanny transformations illuminate emotional and social experience.",
+      "prompt": "What literal impossibility gives form to an otherwise hard-to-express experience?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "horror",
+      "name": "Horror",
+      "parent": null,
+      "kind": "Genre",
+      "definition": "Dread, fear, vulnerability, or confrontation with the intolerable is a central intended effect.",
+      "prompt": "What familiar protection stops being trustworthy?",
+      "matches": [
+        {
+          "story": "stories-p00435",
+          "paragraph": "stories-p00445",
+          "reason": "A pump repeats perfect reports despite commands and anomalous conditions, turning infrastructure into a source of dread.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p14010",
+          "paragraph": "stories-p14071",
+          "reason": "Suth’s unresolved loss gives an uncanny apparent return its emotional force; horror is a spooky secondary strand.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "supernatural-horror",
+      "name": "Supernatural horror",
+      "parent": "horror",
+      "kind": "Genre",
+      "definition": "Threats exceed ordinary natural explanation and disrupt characters' assumptions about safety or reality.",
+      "prompt": "What rule do the characters discover only after violating it?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "ghost-story",
+      "name": "Ghost story",
+      "parent": "supernatural-horror",
+      "kind": "Recognized label",
+      "definition": "A haunting or presence of the dead shapes events; some ghost stories are poignant rather than frightening.",
+      "prompt": "What unfinished relationship gives the haunting its force?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "possession-horror",
+      "name": "Possession horror",
+      "parent": "supernatural-horror",
+      "kind": "Recognized label",
+      "definition": "An invasive presence threatens control over body, identity, or action.",
+      "prompt": "How can others recognize a loss of agency from the outside?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "occult-horror",
+      "name": "Occult horror",
+      "parent": "supernatural-horror",
+      "kind": "Recognized label",
+      "definition": "Rituals, hidden practices, or forbidden supernatural knowledge open a path to danger.",
+      "prompt": "What does the seeker misunderstand about the bargain?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "psychological-horror",
+      "name": "Psychological horror",
+      "parent": "horror",
+      "kind": "Genre",
+      "definition": "Dread grows through perception, mental pressure, isolation, or uncertainty about experience.",
+      "prompt": "How can the story sustain uncertainty without treating illness itself as villainy?",
+      "matches": [
+        {
+          "story": "stories-p00435",
+          "paragraph": "stories-p00886",
+          "reason": "The recovered account ends with continuing fear beneath official assurances that undocumented states have been removed.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "body-horror",
+      "name": "Body horror",
+      "parent": "horror",
+      "kind": "Genre",
+      "definition": "Unwanted bodily change, invasion, or loss of physical autonomy generates dread.",
+      "prompt": "Which alteration makes the body feel no longer one's own?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "cosmic-horror",
+      "name": "Cosmic horror",
+      "parent": "horror",
+      "kind": "Genre",
+      "definition": "Human-scale understanding and significance falter before incomprehensible realities or powers.",
+      "prompt": "What discovery makes familiar explanations inadequate?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "folk-horror",
+      "name": "Folk horror",
+      "parent": "horror",
+      "kind": "Genre",
+      "definition": "Place, inherited beliefs, isolation, and ritual contribute to collective or supernatural dread.",
+      "prompt": "How does a community make participation seem unavoidable?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "gothic-horror",
+      "name": "Gothic horror",
+      "parent": "horror",
+      "kind": "Genre",
+      "definition": "Confining places, buried histories, unequal power, and the return of the past shape fear.",
+      "prompt": "What secret does the house or institution make impossible to escape?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "technological-horror",
+      "name": "Technological horror",
+      "parent": "horror",
+      "kind": "Recognized label",
+      "definition": "A technological system threatens autonomy, identity, safety, or the possibility of escape.",
+      "prompt": "What necessary system has become too dangerous to rely on and too essential to abandon?",
+      "matches": [
+        {
+          "story": "stories-p00435",
+          "paragraph": "stories-p00445",
+          "reason": "A pump repeats perfect reports despite commands and anomalous conditions, turning infrastructure into a source of dread.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p01469",
+          "paragraph": "stories-p01880",
+          "reason": "The House’s altered corridors, unexplained tones, and restorations that know the narrator sustain technological unease.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p03043",
+          "paragraph": "stories-p11373",
+          "reason": "The ending isolates Mara in a facility without electronic infrastructure, making control over access and interpretation a threat.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "survival-horror",
+      "name": "Survival horror",
+      "parent": "horror",
+      "kind": "Recognized label",
+      "definition": "Vulnerability and scarce resources shape survival against persistent threats.",
+      "prompt": "What must be risked to obtain the next essential resource?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "monster-horror",
+      "name": "Monster horror",
+      "parent": "horror",
+      "kind": "Recognized label",
+      "definition": "A threatening creature or embodied adversary organizes fear and confrontation.",
+      "prompt": "What can the monster do that defeats the characters' normal defenses?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "zombie-fiction",
+      "name": "Zombie fiction",
+      "parent": "monster-horror",
+      "kind": "Recognized label",
+      "definition": "The reanimated or infected dead create threats involving contagion, recognition, or social collapse.",
+      "prompt": "When does fear of infection destroy the cooperation needed to survive?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "vampire-fiction",
+      "name": "Vampire fiction",
+      "parent": "monster-horror",
+      "kind": "Recognized label",
+      "definition": "Vampiric beings bring conflicts around predation, desire, dependency, or immortality; tone can cross into romance or comedy.",
+      "prompt": "How does a need to feed shape the character's ethics?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "slasher",
+      "name": "Slasher",
+      "parent": "horror",
+      "kind": "Recognized label",
+      "definition": "A pursuing killer and a succession of attacks organize suspense and survival.",
+      "prompt": "How can vulnerable characters gain information without exposing themselves?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "haunted-infrastructure",
+      "name": "Haunted infrastructure",
+      "parent": "technological-horror",
+      "kind": "Planning label",
+      "definition": "A place's operational systems seem to preserve or enact an unresolved threat.",
+      "prompt": "Which maintenance anomaly becomes evidence of something more disturbing?",
+      "matches": [
+        {
+          "story": "stories-p00435",
+          "paragraph": "stories-p00445",
+          "reason": "A pump repeats perfect reports despite commands and anomalous conditions, turning infrastructure into a source of dread.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p01469",
+          "paragraph": "stories-p01880",
+          "reason": "The House’s altered corridors, unexplained tones, and restorations that know the narrator sustain technological unease.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "romance",
+      "name": "Romance",
+      "parent": null,
+      "kind": "Genre",
+      "definition": "A central romantic relationship develops toward an emotionally satisfying, optimistic resolution; stories of love with other endings may belong elsewhere.",
+      "prompt": "What must both people change or understand to make a shared future possible?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "contemporary-romance",
+      "name": "Contemporary romance",
+      "parent": "romance",
+      "kind": "Genre",
+      "definition": "A romantic relationship develops in a broadly present-day setting.",
+      "prompt": "Which present-day obligation makes intimacy difficult?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "historical-romance",
+      "name": "Historical romance",
+      "parent": "romance",
+      "kind": "Genre",
+      "definition": "A romantic relationship is shaped by the social conditions of a past period.",
+      "prompt": "Which historical expectation makes choosing each other costly?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "fantasy-romance",
+      "name": "Fantasy romance",
+      "parent": "romance",
+      "kind": "Genre",
+      "definition": "Magic or a fantastic world is integral to a central romance with a romance-style resolution.",
+      "prompt": "What magical difference requires a genuinely negotiated relationship?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "science-fiction-romance",
+      "name": "Science-fiction romance",
+      "parent": "romance",
+      "kind": "Genre",
+      "definition": "Speculative science or technology materially shapes the central romantic relationship.",
+      "prompt": "What does intimacy require across different embodiments or experiences of time?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "paranormal-romance",
+      "name": "Paranormal romance",
+      "parent": "romance",
+      "kind": "Genre",
+      "definition": "A central romance involves supernatural beings or powers, often within a familiar world.",
+      "prompt": "How can partners make consent meaningful across unequal powers?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "romantic-suspense",
+      "name": "Romantic suspense",
+      "parent": "romance",
+      "kind": "Genre",
+      "definition": "Danger and a developing central romance jointly drive the plot.",
+      "prompt": "How does the threat reveal trust that attraction alone cannot establish?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "romantic-comedy",
+      "name": "Romantic comedy",
+      "parent": "romance",
+      "kind": "Genre",
+      "definition": "Humor and a developing romantic relationship structure the story.",
+      "prompt": "Which incompatible expectations create comic friction without erasing either person's dignity?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "friends-to-lovers",
+      "name": "Friends to lovers",
+      "parent": "romance",
+      "kind": "Trope",
+      "definition": "An established friendship changes into a romantic relationship.",
+      "prompt": "What is worth risking a familiar friendship to say?",
+      "matches": [],
+      "scopeNote": "A recurring situation or plot pattern. It does not by itself determine genre."
+    },
+    {
+      "id": "rivals-to-lovers",
+      "name": "Rivals to lovers",
+      "parent": "romance",
+      "kind": "Trope",
+      "definition": "Competitive or opposing characters develop romantic attachment as their understanding changes.",
+      "prompt": "Which rivalry can be resolved without demanding self-erasure?",
+      "matches": [],
+      "scopeNote": "A recurring situation or plot pattern. It does not by itself determine genre."
+    },
+    {
+      "id": "second-chance-romance",
+      "name": "Second-chance romance",
+      "parent": "romance",
+      "kind": "Trope",
+      "definition": "Former partners or missed connections attempt a relationship again.",
+      "prompt": "What has actually changed since the first attempt failed?",
+      "matches": [],
+      "scopeNote": "A recurring situation or plot pattern. It does not by itself determine genre."
+    },
+    {
+      "id": "forbidden-relationship",
+      "name": "Forbidden relationship",
+      "parent": "romance",
+      "kind": "Trope",
+      "definition": "Social rules, obligations, or incompatible allegiances oppose a relationship.",
+      "prompt": "Is the prohibition unjust, protective, or both in different ways?",
+      "matches": [],
+      "scopeNote": "A recurring situation or plot pattern. It does not by itself determine genre."
+    },
+    {
+      "id": "slow-burn",
+      "name": "Slow burn",
+      "parent": "romance",
+      "kind": "Trope",
+      "definition": "Attraction or commitment develops gradually through accumulating encounters and choices.",
+      "prompt": "What small change makes the next stage of intimacy possible?",
+      "matches": [],
+      "scopeNote": "A recurring situation or plot pattern. It does not by itself determine genre."
+    },
+    {
+      "id": "fake-relationship",
+      "name": "Fake relationship",
+      "parent": "romance",
+      "kind": "Trope",
+      "definition": "Characters perform a relationship for an external reason, complicating their real feelings.",
+      "prompt": "When does maintaining the performance require an honest choice?",
+      "matches": [],
+      "scopeNote": "A recurring situation or plot pattern. It does not by itself determine genre."
+    },
+    {
+      "id": "love-story-with-tragic-ending",
+      "name": "Love story with tragic ending",
+      "parent": "drama",
+      "kind": "Planning label",
+      "definition": "Love is central, but the outcome is devastating rather than the optimistic resolution expected of genre romance.",
+      "prompt": "What makes the relationship meaningful despite its loss?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "comedy",
+      "name": "Comedy",
+      "parent": null,
+      "kind": "Genre",
+      "definition": "Humor is a central organizing effect, arising from language, behavior, situations, or social observation.",
+      "prompt": "What contradiction becomes funny when characters take it seriously?",
+      "matches": [
+        {
+          "story": "stories-p13917",
+          "paragraph": "stories-p13921",
+          "reason": "A shared meal begins with a comic confusion between agreeing to a feast and agreeing to organize one.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p14362",
+          "paragraph": "stories-p14369",
+          "reason": "A small-cast station play uses contradictory directions and official processes to expose failures in public service.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "situation-comedy",
+      "name": "Situation comedy",
+      "parent": "comedy",
+      "kind": "Recognized label",
+      "definition": "Recurring relationships and circumstances generate comic problems and reversals.",
+      "prompt": "What stable arrangement keeps producing new trouble?",
+      "matches": [
+        {
+          "story": "stories-p13917",
+          "paragraph": "stories-p13921",
+          "reason": "A shared meal begins with a comic confusion between agreeing to a feast and agreeing to organize one.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "comedy-of-manners",
+      "name": "Comedy of manners",
+      "parent": "comedy",
+      "kind": "Recognized label",
+      "definition": "Status, etiquette, and social performance expose vanity, hypocrisy, and conflicting expectations.",
+      "prompt": "Which rule matters most to people who cannot explain why?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "farce",
+      "name": "Farce",
+      "parent": "comedy",
+      "kind": "Recognized label",
+      "definition": "Escalating mistakes, concealments, improbable predicaments, and precise timing create comic chaos.",
+      "prompt": "What lie forces a character to maintain two incompatible situations?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "satire",
+      "name": "Satire",
+      "parent": "comedy",
+      "kind": "Recognized label",
+      "definition": "Humor, exaggeration, irony, or ridicule exposes failures in power, belief, or social practice; satire need not always be funny.",
+      "prompt": "What system reveals its flaw when its own logic is followed faithfully?",
+      "matches": [
+        {
+          "story": "stories-p14362",
+          "paragraph": "stories-p14369",
+          "reason": "A small-cast station play uses contradictory directions and official processes to expose failures in public service.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "political-satire",
+      "name": "Political satire",
+      "parent": "satire",
+      "kind": "Recognized label",
+      "definition": "The performance and exercise of public power are examined through satirical techniques.",
+      "prompt": "What public promise contradicts the machinery used to deliver it?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "institutional-satire",
+      "name": "Institutional satire",
+      "parent": "satire",
+      "kind": "Planning label",
+      "definition": "An organization's rules and incentives produce revealing absurdities.",
+      "prompt": "What happens when an employee follows every rule exactly?",
+      "matches": [
+        {
+          "story": "stories-p14362",
+          "paragraph": "stories-p14369",
+          "reason": "A small-cast station play uses contradictory directions and official processes to expose failures in public service.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "parody",
+      "name": "Parody",
+      "parent": "comedy",
+      "kind": "Recognized label",
+      "definition": "Recognizable features of a particular work, style, or genre are imitated and transformed for comic or critical effect.",
+      "prompt": "Which convention is recognizable enough to survive exaggeration?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "dark-comedy",
+      "name": "Dark comedy",
+      "parent": "comedy",
+      "kind": "Genre",
+      "definition": "Humor arises amid suffering, danger, death, or morally troubling circumstances.",
+      "prompt": "Who is the joke aimed at, and whose pain must remain real?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "absurdist-comedy",
+      "name": "Absurdist comedy",
+      "parent": "comedy",
+      "kind": "Recognized label",
+      "definition": "Contradictory rules or unstable meaning create humor without requiring ordinary resolution.",
+      "prompt": "How long will people cooperate with a rule that defeats its own purpose?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "slapstick",
+      "name": "Slapstick",
+      "parent": "comedy",
+      "kind": "Recognized label",
+      "definition": "Physical mishaps, exaggerated movement, and timed collisions create comedy.",
+      "prompt": "What spatial setup lets the audience anticipate the mishap?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "screwball-comedy",
+      "name": "Screwball comedy",
+      "parent": "comedy",
+      "kind": "Recognized label",
+      "definition": "Rapid verbal conflict, social reversals, and unruly relationships drive romantic or social comedy.",
+      "prompt": "What social advantage is overturned by the encounter?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "civic-comedy",
+      "name": "Civic comedy",
+      "parent": "comedy",
+      "kind": "Planning label",
+      "definition": "Neighbors negotiating shared spaces, work, and celebrations create affectionate social comedy.",
+      "prompt": "What modest shared project becomes hilariously difficult to organize?",
+      "matches": [
+        {
+          "story": "stories-p13917",
+          "paragraph": "stories-p13921",
+          "reason": "A shared meal begins with a comic confusion between agreeing to a feast and agreeing to organize one.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "historical-fiction",
+      "name": "Historical fiction",
+      "parent": null,
+      "kind": "Genre",
+      "definition": "A recognizable past materially shapes the story's possibilities, institutions, and daily life.",
+      "prompt": "What could these characters reasonably know, want, and do in their time?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "historical-domestic-fiction",
+      "name": "Historical domestic fiction",
+      "parent": "historical-fiction",
+      "kind": "Planning label",
+      "definition": "Household work, marriage, inheritance, and intimate life reveal a past society.",
+      "prompt": "Which domestic arrangement exposes a larger historical constraint?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "historical-political-fiction",
+      "name": "Historical political fiction",
+      "parent": "historical-fiction",
+      "kind": "Recognized label",
+      "definition": "Past struggles over rule, reform, revolution, or legitimacy organize events.",
+      "prompt": "How does a private decision enter the historical record?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "historical-adventure",
+      "name": "Historical adventure",
+      "parent": "historical-fiction",
+      "kind": "Genre",
+      "definition": "Adventurous undertakings depend on a past period's technologies and dangers.",
+      "prompt": "What historical limitation makes the journey difficult?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "biographical-fiction",
+      "name": "Biographical fiction",
+      "parent": "historical-fiction",
+      "kind": "Recognized label",
+      "definition": "An imagined narrative develops the life of an actual person while requiring care about invention and evidence.",
+      "prompt": "Which invented scene must be distinguished from documented history?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "alternate-history",
+      "name": "Alternate history",
+      "parent": "historical-fiction",
+      "kind": "Genre",
+      "definition": "A divergence from actual history produces an imagined chain of consequences.",
+      "prompt": "What changes downstream, and what stubbornly remains the same?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "prehistoric-fiction",
+      "name": "Prehistoric fiction",
+      "parent": "historical-fiction",
+      "kind": "Recognized label",
+      "definition": "Life before written records is imaginatively reconstructed from limited evidence.",
+      "prompt": "How can a story avoid equating unfamiliar technology with limited intelligence?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "western",
+      "name": "Western",
+      "parent": null,
+      "kind": "Genre",
+      "definition": "Frontier settings and struggles over land, law, belonging, and power shape a historically rooted tradition.",
+      "prompt": "Whose experience complicates the story's account of the frontier?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "frontier-western",
+      "name": "Frontier Western",
+      "parent": "western",
+      "kind": "Recognized label",
+      "definition": "Settlement, contested territory, and emerging institutions form the main arena.",
+      "prompt": "Who already lives in the place newcomers call open land?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "revisionist-western",
+      "name": "Revisionist Western",
+      "parent": "western",
+      "kind": "Recognized label",
+      "definition": "The story questions heroic myths and exclusions associated with conventional Westerns.",
+      "prompt": "Whose omitted perspective changes the familiar legend?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "weird-western",
+      "name": "Weird Western",
+      "parent": "western",
+      "kind": "Recognized label",
+      "definition": "Western settings and conventions combine with supernatural or speculative elements.",
+      "prompt": "How does the strange element alter an existing struggle over land or authority?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "space-western",
+      "name": "Space Western",
+      "parent": "western",
+      "kind": "Recognized label",
+      "definition": "Frontier Western patterns are transplanted into spacefaring societies.",
+      "prompt": "What makes the frontier more than Western scenery with spacecraft?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "war-fiction",
+      "name": "War fiction",
+      "parent": null,
+      "kind": "Genre",
+      "definition": "Armed conflict and its effects on combatants or civilians organize the story.",
+      "prompt": "What does war require people to do that peace would condemn?",
+      "matches": [],
+      "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
+    },
+    {
+      "id": "combat-fiction",
+      "name": "Combat fiction",
+      "parent": "war-fiction",
+      "kind": "Recognized label",
+      "definition": "The experience of fighting, unit relationships, and tactical danger dominate.",
+      "prompt": "How does the immediate need to survive conflict with the mission?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "civilian-wartime-drama",
+      "name": "Civilian wartime drama",
+      "parent": "war-fiction",
+      "kind": "Planning label",
+      "definition": "Noncombatants navigate displacement, scarcity, occupation, and changed loyalties.",
+      "prompt": "What ordinary obligation becomes impossible to fulfill safely?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "resistance-fiction",
+      "name": "Resistance fiction",
+      "parent": "war-fiction",
+      "kind": "Recognized label",
+      "definition": "Opposition to an occupying or oppressive force creates secrecy, sacrifice, and strategic conflict.",
+      "prompt": "What risk can someone legitimately ask others to share?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "aftermath-and-reconstruction",
+      "name": "Aftermath and reconstruction",
+      "parent": "war-fiction",
+      "kind": "Planning label",
+      "definition": "Survivors rebuild material life and relationships after collective violence.",
+      "prompt": "What does rebuilding conceal if it proceeds too quickly?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "everyday-life",
+      "name": "Everyday life",
+      "parent": null,
+      "kind": "Reference category",
+      "definition": "A shelf for intimate stories of routines, work, community, and incremental change.",
+      "prompt": "Which apparently small event matters deeply from inside this life?",
+      "matches": [],
+      "scopeNote": "An editorial shelf for browsing related labels, not a universal genre classification."
+    },
+    {
+      "id": "slice-of-life",
+      "name": "Slice of life",
+      "parent": "everyday-life",
+      "kind": "Recognized label",
+      "definition": "Ordinary experiences and relationships take precedence over a tightly escalating external plot.",
+      "prompt": "What can attentive observation reveal that a major crisis would obscure?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "community-fiction",
+      "name": "Community fiction",
+      "parent": "everyday-life",
+      "kind": "Recognized label",
+      "definition": "A network of neighbors or local relationships acts as the story's central social world.",
+      "prompt": "How does one person's solution become another person's difficulty?",
+      "matches": [
+        {
+          "story": "stories-p13917",
+          "paragraph": "stories-p13921",
+          "reason": "A shared meal begins with a comic confusion between agreeing to a feast and agreeing to organize one.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p14121",
+          "paragraph": "stories-p14359",
+          "reason": "Survivors disagree about restoration and participation while finding ways to continue together.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "occupational-fiction",
+      "name": "Occupational fiction",
+      "parent": "everyday-life",
+      "kind": "Planning label",
+      "definition": "The methods, obligations, and pride of a particular craft or job organize the narrative.",
+      "prompt": "What does competent work look like when nobody notices it?",
+      "matches": [],
+      "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
+    },
+    {
+      "id": "school-story",
+      "name": "School story",
+      "parent": "everyday-life",
+      "kind": "Recognized label",
+      "definition": "School life and its relationships, rules, and learning experiences form the main setting and structure.",
+      "prompt": "Which school rule teaches something its designers did not intend?",
+      "matches": [
+        {
+          "story": "stories-p11382",
+          "paragraph": "stories-p11385",
+          "reason": "Sen’s classroom task becomes the setting for Lio to test guidance and assumptions about correct choices. Only Part One is written.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "pastoral",
+      "name": "Pastoral",
+      "parent": "everyday-life",
+      "kind": "Recognized label",
+      "definition": "Rural life and relationships with land offer an imaginative focus, sometimes idealized and sometimes questioned.",
+      "prompt": "Whose labor sustains the apparently peaceful landscape?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "animal-fiction",
+      "name": "Animal fiction",
+      "parent": "everyday-life",
+      "kind": "Recognized label",
+      "definition": "Animals are central characters or perspectives, with realism or anthropomorphism varying by work.",
+      "prompt": "What changes when the world is experienced through another creature's needs?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "philosophical-fiction",
+      "name": "Philosophical fiction",
+      "parent": null,
+      "kind": "Recognized label",
+      "definition": "Questions about knowledge, ethics, existence, or meaning are explored through lived choices rather than only exposition.",
+      "prompt": "What decision forces two plausible philosophies into conflict?",
+      "matches": [
+        {
+          "story": "stories-p11382",
+          "paragraph": "stories-p12106",
+          "reason": "Lio cannot tell whether agreement with the guidance makes a choice more or less their own.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "ethical-dilemma",
+      "name": "Ethical dilemma",
+      "parent": "philosophical-fiction",
+      "kind": "Theme",
+      "definition": "Important values or obligations conflict so that no available action preserves them all.",
+      "prompt": "What good must be sacrificed even in the best available choice?",
+      "matches": [
+        {
+          "story": "stories-p00887",
+          "paragraph": "stories-p01000",
+          "reason": "The Orison rescue requires cooperation among Shelters with limited capacity and conflicting duties of protection.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "autonomy-and-consent",
+      "name": "Autonomy and consent",
+      "parent": "philosophical-fiction",
+      "kind": "Theme",
+      "definition": "The story explores meaningful choice, permission, influence, and the authority to refuse.",
+      "prompt": "Can someone decline without losing the conditions needed to live?",
+      "matches": [
+        {
+          "story": "stories-p00887",
+          "paragraph": "stories-p01366",
+          "reason": "Serein declines the demand to classify their continuation as original, copy, or something between.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p01889",
+          "paragraph": "stories-p02550",
+          "reason": "Aru’s demand to remain unfinished challenges others’ authority to define and complete the new person.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p11382",
+          "paragraph": "stories-p12106",
+          "reason": "Lio cannot tell whether agreement with the guidance makes a choice more or less their own.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "memory-and-identity",
+      "name": "Memory and identity",
+      "parent": "philosophical-fiction",
+      "kind": "Theme",
+      "definition": "Remembering, forgetting, or inheriting memories changes how a person understands their selfhood.",
+      "prompt": "Which memory matters because it is theirs rather than because it is accurate?",
+      "matches": [
+        {
+          "story": "stories-p01469",
+          "paragraph": "stories-p01475",
+          "reason": "The expected memory boundary of a restored continuity establishes the identity puzzle that the warm copy disrupts.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "knowledge-and-uncertainty",
+      "name": "Knowledge and uncertainty",
+      "parent": "philosophical-fiction",
+      "kind": "Theme",
+      "definition": "The limits of evidence, perception, or justified belief shape action.",
+      "prompt": "How should someone act when certainty is unavailable?",
+      "matches": [
+        {
+          "story": "stories-p14010",
+          "paragraph": "stories-p14112",
+          "reason": "The healer investigates knocking and reflections, revising the warning to distinguish evidence from assumed visitors.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p14511",
+          "paragraph": "stories-p14517",
+          "reason": "A roof mender discovers a street inside moss and learns to communicate across unfamiliar scales. First contact is an interpretive analogy, not an alien-arrival claim.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "freedom-and-prediction",
+      "name": "Freedom and prediction",
+      "parent": "philosophical-fiction",
+      "kind": "Theme",
+      "definition": "Prediction or guidance challenges what counts as an independent choice.",
+      "prompt": "Does an accurately predicted decision feel less one's own, and why?",
+      "matches": [
+        {
+          "story": "stories-p11382",
+          "paragraph": "stories-p12106",
+          "reason": "Lio cannot tell whether agreement with the guidance makes a choice more or less their own.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "language-and-meaning",
+      "name": "Language and meaning",
+      "parent": "philosophical-fiction",
+      "kind": "Theme",
+      "definition": "Communication changes what can be understood, negotiated, or imagined.",
+      "prompt": "What is lost when a shared expression becomes easier to use?",
+      "matches": [
+        {
+          "story": "stories-p00016",
+          "paragraph": "stories-p00162",
+          "reason": "Linked episodes show successive generations reshaping the meaning of weather.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p02707",
+          "paragraph": "stories-p03037",
+          "reason": "The narrator accepts that later speakers may change an inherited gift even as the old chord disappears from ordinary use.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p14362",
+          "paragraph": "stories-p14470",
+          "reason": "Ilex preserves a live exchange and corrections because simplified labels omit conditions necessary for safe passage.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
+    },
+    {
+      "id": "spiritual-and-religious-fiction",
+      "name": "Spiritual and religious fiction",
+      "parent": null,
+      "kind": "Reference category",
+      "definition": "A shelf for stories in which faith, sacred obligations, religious life, or spiritual searching are central.",
+      "prompt": "How do belief and lived experience alter one another?",
+      "matches": [],
+      "scopeNote": "An editorial shelf for browsing related labels, not a universal genre classification."
+    },
+    {
+      "id": "religious-fiction",
+      "name": "Religious fiction",
+      "parent": "spiritual-and-religious-fiction",
+      "kind": "Recognized label",
+      "definition": "Religious commitments, communities, practices, or theological questions shape the narrative.",
+      "prompt": "What happens when a sincere commitment meets a conflicting duty?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "spiritual-quest",
+      "name": "Spiritual quest",
+      "parent": "spiritual-and-religious-fiction",
+      "kind": "Recognized label",
+      "definition": "A search for meaning, connection, or transcendence drives personal change, with or without institutional religion.",
+      "prompt": "What experience changes the seeker's question rather than simply answering it?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "parable",
+      "name": "Parable",
+      "parent": "spiritual-and-religious-fiction",
+      "kind": "Form",
+      "definition": "A compact illustrative narrative invites reflection on an ethical or spiritual question, sometimes without a single tidy lesson.",
+      "prompt": "What familiar situation becomes unsettling through one change?",
+      "matches": [],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "literary-modes-and-forms",
+      "name": "Literary modes and forms",
+      "parent": null,
+      "kind": "Reference category",
+      "definition": "These labels describe how a story is shaped or told and can combine with any genre.",
+      "prompt": "Would changing the form change what the reader can know or feel?",
+      "matches": [],
+      "scopeNote": "An editorial shelf for browsing related labels, not a universal genre classification."
+    },
+    {
+      "id": "literary-fiction",
+      "name": "Literary fiction",
+      "parent": "literary-modes-and-forms",
+      "kind": "Recognized label",
+      "definition": "A flexible publishing and critical label often emphasizing language, characterization, and interpretive complexity; it overlaps with genre fiction.",
+      "prompt": "What work does the prose itself do beyond conveying events?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "allegory",
+      "name": "Allegory",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "Characters and events sustain a second level of meaning beyond their literal action.",
+      "prompt": "Does the story remain compelling before the symbolic pattern is decoded?",
+      "matches": [],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "fable",
+      "name": "Fable",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "A brief illustrative tale, often with nonhuman characters, explores behavior and a moral insight.",
+      "prompt": "What action demonstrates the lesson without requiring an explanation afterward?",
+      "matches": [],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "metafiction",
+      "name": "Metafiction",
+      "parent": "literary-modes-and-forms",
+      "kind": "Recognized label",
+      "definition": "A work makes storytelling, authorship, or its own construction part of its subject.",
+      "prompt": "What changes when a narrator admits how the account was made?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "absurdist-fiction",
+      "name": "Absurdist fiction",
+      "parent": "literary-modes-and-forms",
+      "kind": "Recognized label",
+      "definition": "The search for coherent meaning encounters indifferent, contradictory, or resistant realities.",
+      "prompt": "How does a character continue when explanations no longer hold?",
+      "matches": [],
+      "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
+    },
+    {
+      "id": "epistolary-narrative",
+      "name": "Epistolary narrative",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "Letters, messages, or correspondence carry the narrative and limit what each participant knows.",
+      "prompt": "What can the reader infer between messages that neither writer can see?",
+      "matches": [
+        {
+          "story": "stories-p14511",
+          "paragraph": "stories-p14574",
+          "reason": "Messages coordinate a physical fiber crossing between differently scaled communities.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "found-document-narrative",
+      "name": "Found-document narrative",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "Records presented as recovered artifacts form the story and raise questions about gaps, selection, and authenticity.",
+      "prompt": "Who preserved these documents, and what is missing from the collection?",
+      "matches": [
+        {
+          "story": "stories-p00435",
+          "paragraph": "stories-p00886",
+          "reason": "The recovered account ends with continuing fear beneath official assurances that undocumented states have been removed.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "unreliable-narrator",
+      "name": "Unreliable narrator",
+      "parent": "literary-modes-and-forms",
+      "kind": "Technique",
+      "definition": "The narrator's account has limits or distortions the reader must interpret rather than accept completely.",
+      "prompt": "Which discrepancy lets the reader form a different account?",
+      "matches": [],
+      "scopeNote": "A storytelling device that can be used across genres."
+    },
+    {
+      "id": "multiple-perspectives",
+      "name": "Multiple perspectives",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "Several viewpoints contribute partial or competing accounts of shared events.",
+      "prompt": "What can only be understood by comparing the viewpoints?",
+      "matches": [],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "nonlinear-narrative",
+      "name": "Nonlinear narrative",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "The order of telling differs materially from the order of events.",
+      "prompt": "What meaning becomes visible because an outcome is encountered before its cause?",
+      "matches": [],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "frame-narrative",
+      "name": "Frame narrative",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "One narrative establishes the circumstances in which another account is told.",
+      "prompt": "How does the listening situation change the inner story's meaning?",
+      "matches": [
+        {
+          "story": "stories-p14121",
+          "paragraph": "stories-p14127",
+          "reason": "Seven gatherings collect different voices within Aven’s prose frame after the Orison rescue.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "story-cycle",
+      "name": "Story cycle",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "Related stories retain some independence while building a cumulative world or meaning.",
+      "prompt": "What develops across the gaps between individual stories?",
+      "matches": [
+        {
+          "story": "stories-p00016",
+          "paragraph": "stories-p00162",
+          "reason": "Linked episodes show successive generations reshaping the meaning of weather.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "chamber-play",
+      "name": "Chamber play",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "A play concentrates a small cast and limited setting to intensify interaction.",
+      "prompt": "What cannot be escaped when everyone must remain in the same room?",
+      "matches": [
+        {
+          "story": "stories-p14362",
+          "paragraph": "stories-p14369",
+          "reason": "A small-cast station play uses contradictory directions and official processes to expose failures in public service.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "choral-narrative",
+      "name": "Choral narrative",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "A collective or alternating set of voices develops an experience no single speaker can represent.",
+      "prompt": "Which disagreement should remain audible within the collective voice?",
+      "matches": [
+        {
+          "story": "stories-p14121",
+          "paragraph": "stories-p14127",
+          "reason": "Seven gatherings collect different voices within Aven’s prose frame after the Orison rescue.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "verse-narrative",
+      "name": "Verse narrative",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "Poetic lines, rhythm, and arrangement carry sustained narrative action or experience.",
+      "prompt": "What does the line break reveal or withhold?",
+      "matches": [
+        {
+          "story": "stories-p14121",
+          "paragraph": "stories-p14127",
+          "reason": "Seven gatherings collect different voices within Aven’s prose frame after the Orison rescue.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "interactive-fiction",
+      "name": "Interactive fiction",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "Reader or player actions participate in how the narrative is encountered or unfolds.",
+      "prompt": "Which choice changes understanding even if it cannot change the outcome?",
+      "matches": [],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "branching-narrative",
+      "name": "Branching narrative",
+      "parent": "interactive-fiction",
+      "kind": "Form",
+      "definition": "Choices lead to distinct paths or outcomes through a structured narrative.",
+      "prompt": "What makes a branch a meaningful consequence rather than a cosmetic variation?",
+      "matches": [],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "microfiction",
+      "name": "Microfiction",
+      "parent": "literary-modes-and-forms",
+      "kind": "Form",
+      "definition": "Extreme brevity asks implication, compression, and omission to carry much of the story.",
+      "prompt": "What single detail implies a larger life beyond the text?",
+      "matches": [],
+      "scopeNote": "A way of arranging or presenting a story, independent of its subject or genre."
+    },
+    {
+      "id": "tone-and-mood",
+      "name": "Tone and mood",
+      "parent": null,
+      "kind": "Reference category",
+      "definition": "These describe the experience or emotional register of reading, not the subject or genre by themselves.",
+      "prompt": "What emotional atmosphere should remain even when the plot changes direction?",
+      "matches": [],
+      "scopeNote": "An editorial shelf for browsing related labels, not a universal genre classification."
+    },
+    {
+      "id": "hopeful",
+      "name": "Hopeful",
+      "parent": "tone-and-mood",
+      "kind": "Tone",
+      "definition": "The story allows credible possibilities for care, improvement, or meaningful continuation.",
+      "prompt": "What earned action makes hope plausible?",
+      "matches": [
+        {
+          "story": "stories-p13917",
+          "paragraph": "stories-p13921",
+          "reason": "A shared meal begins with a comic confusion between agreeing to a feast and agreeing to organize one.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p14511",
+          "paragraph": "stories-p14517",
+          "reason": "A roof mender discovers a street inside moss and learns to communicate across unfamiliar scales. First contact is an interpretive analogy, not an alien-arrival claim.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An emotional register or reading atmosphere, independent of plot category."
+    },
+    {
+      "id": "bleak",
+      "name": "Bleak",
+      "parent": "tone-and-mood",
+      "kind": "Tone",
+      "definition": "The atmosphere emphasizes constrained possibilities, suffering, or the difficulty of improvement.",
+      "prompt": "What does the story ask readers to notice rather than simply endure?",
+      "matches": [
+        {
+          "story": "stories-p03043",
+          "paragraph": "stories-p11373",
+          "reason": "The ending isolates Mara in a facility without electronic infrastructure, making control over access and interpretation a threat.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An emotional register or reading atmosphere, independent of plot category."
+    },
+    {
+      "id": "bittersweet",
+      "name": "Bittersweet",
+      "parent": "tone-and-mood",
+      "kind": "Tone",
+      "definition": "Gain and loss coexist without either canceling the other.",
+      "prompt": "What remains valuable precisely because it cannot be kept unchanged?",
+      "matches": [
+        {
+          "story": "stories-p02707",
+          "paragraph": "stories-p03037",
+          "reason": "The narrator accepts that later speakers may change an inherited gift even as the old chord disappears from ordinary use.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p14121",
+          "paragraph": "stories-p14359",
+          "reason": "Survivors disagree about restoration and participation while finding ways to continue together.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An emotional register or reading atmosphere, independent of plot category."
+    },
+    {
+      "id": "cozy",
+      "name": "Cozy",
+      "parent": "tone-and-mood",
+      "kind": "Tone",
+      "definition": "The reading experience emphasizes comfort, manageable stakes, or dependable care, even when problems occur.",
+      "prompt": "What makes the world feel safe enough to inhabit?",
+      "matches": [],
+      "scopeNote": "An emotional register or reading atmosphere, independent of plot category."
+    },
+    {
+      "id": "uncanny",
+      "name": "Uncanny",
+      "parent": "tone-and-mood",
+      "kind": "Tone",
+      "definition": "Something familiar feels subtly wrong, uncertain, or difficult to explain.",
+      "prompt": "Which small discrepancy makes ordinary surroundings unsettling?",
+      "matches": [
+        {
+          "story": "stories-p00435",
+          "paragraph": "stories-p00445",
+          "reason": "A pump repeats perfect reports despite commands and anomalous conditions, turning infrastructure into a source of dread.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p01469",
+          "paragraph": "stories-p01880",
+          "reason": "The House’s altered corridors, unexplained tones, and restorations that know the narrator sustain technological unease.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "stories-p14010",
+          "paragraph": "stories-p14112",
+          "reason": "The healer investigates knocking and reflections, revising the warning to distinguish evidence from assumed visitors.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An emotional register or reading atmosphere, independent of plot category."
+    },
+    {
+      "id": "reflective",
+      "name": "Reflective",
+      "parent": "tone-and-mood",
+      "kind": "Tone",
+      "definition": "The pace and attention invite contemplation of experience and meaning.",
+      "prompt": "Where should the story pause long enough for a consequence to register?",
+      "matches": [
+        {
+          "story": "stories-p00016",
+          "paragraph": "stories-p00162",
+          "reason": "Linked episodes show successive generations reshaping the meaning of weather.",
+          "assessment": "Editorial reading"
+        }
+      ],
+      "scopeNote": "An emotional register or reading atmosphere, independent of plot category."
+    },
+    {
+      "id": "audience-and-scope",
+      "name": "Audience and scope",
+      "parent": null,
+      "kind": "Reference category",
+      "definition": "Audience labels describe intended readers and treatment, not a story's genre or automatic suitability.",
+      "prompt": "Whose experience and reading needs shape the telling?",
+      "matches": [],
+      "scopeNote": "An editorial shelf for browsing related labels, not a universal genre classification."
+    },
+    {
+      "id": "children-s-fiction",
+      "name": "Children's fiction",
+      "parent": "audience-and-scope",
+      "kind": "Audience",
+      "definition": "Fiction written for children across varied reading stages; age, format, and content require more precise description.",
+      "prompt": "What can this intended reader understand through action and concrete detail?",
+      "matches": [],
+      "scopeNote": "An intended readership label, not a genre or a content-suitability rating."
+    },
+    {
+      "id": "middle-grade",
+      "name": "Middle grade",
+      "parent": "audience-and-scope",
+      "kind": "Audience",
+      "definition": "A publishing audience category generally aimed at readers around the later primary and middle-school years, with boundaries varying by market.",
+      "prompt": "What independence and concerns feel immediate to the intended reader?",
+      "matches": [],
+      "scopeNote": "An intended readership label, not a genre or a content-suitability rating."
+    },
+    {
+      "id": "young-adult",
+      "name": "Young adult",
+      "parent": "audience-and-scope",
+      "kind": "Audience",
+      "definition": "A publishing audience category generally centered on adolescent experience and teen readership, across many genres.",
+      "prompt": "How does the protagonist negotiate growing agency within remaining dependence?",
+      "matches": [],
+      "scopeNote": "An intended readership label, not a genre or a content-suitability rating."
+    },
+    {
+      "id": "adult-fiction",
+      "name": "Adult fiction",
+      "parent": "audience-and-scope",
+      "kind": "Audience",
+      "definition": "Fiction marketed primarily to adults; the label does not itself imply explicit content.",
+      "prompt": "Which experiences or expectations does the work assume of its reader?",
+      "matches": [],
+      "scopeNote": "An intended readership label, not a genre or a content-suitability rating."
+    },
+    {
+      "id": "cross-generational",
+      "name": "Cross-generational",
+      "parent": "audience-and-scope",
+      "kind": "Audience",
+      "definition": "A work is deliberately accessible or meaningful to readers of different ages.",
+      "prompt": "What can different readers recognize differently in the same scene?",
+      "matches": [],
+      "scopeNote": "An intended readership label, not a genre or a content-suitability rating."
+    }
+  ]
+}
