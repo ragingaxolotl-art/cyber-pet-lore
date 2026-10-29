@@ -159,3 +159,6 @@ runpy.run_path(str(ROOT/"tools/build_aru_story_stages.py"))
 
 # Recover planning records without adding them to completed-story counts.
 runpy.run_path(str(ROOT/"tools/build_story_plans.py"))
+
+# Supplemental portraits anchored to source paragraphs.
+runpy.run_path(str(ROOT/"tools/build_story_illustrations.py"))

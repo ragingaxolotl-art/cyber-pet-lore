@@ -83,6 +83,13 @@ function renderBlocks(){
   paintHighlights(el,block.id,r.highlights,id=>{const card=document.getElementById('highlight-'+id);card?.scrollIntoView({block:'center'});card?.querySelector('textarea')?.focus({preventScroll:true});});
   parent.append(el);
   if(block.referenceArt)renderReferenceArt(el,block.referenceArt,block.text);
+  for(const art of block.illustrations||[]){
+   const figure=node('figure',undefined,'story-illustration');
+   const link=node('a');link.href=art.src;
+   const img=node('img');img.src=art.src;img.alt=art.alt;img.width=512;img.height=512;img.loading='lazy';link.append(img);
+   const caption=node('figcaption');caption.append(node('strong',art.title),node('p',art.caption),node('small','PixelLab Pro · visual interpretation'));
+   figure.append(link,caption);parent.append(figure);
+  }
  }
 }
 function renderConnections(entry){

@@ -1,0 +1,111 @@
+{
+  "generator": "PixelLab Pro",
+  "size": [
+    512,
+    512
+  ],
+  "gameIntegrated": false,
+  "cast": [
+    [
+      "node-12",
+      "Municipal Water Control Node 12",
+      "Canon appearance: human-shaped outline constructed entirely of luminous blue pressure maps, moving numerical marks underneath its translucent surface, simplified engineer-icon face, an imperfect tentative smile. No physical clothing or robot armor. Protective anxious posture, hand poised over flood controls. Concrete underground municipal control room, yellow safety rails, pressure gauges and water diagrams. A conscious infrastructure intelligence quietly choosing to protect people."
+    ],
+    [
+      "bell",
+      "Bell",
+      "Canon: entirely bodiless obsolete language interface, present through old square public-address speakers enclosed in metal cages hanging from a concrete station ceiling. Make the largest speaker the intimate portrait focal point, with worn grille and tiny warm signal lights, delicate layered sound-wave traces suggesting remembered human voices and a quieter voice beneath. Compassionate, lonely, defiant atmosphere. No humanoid, no face, no literal bell, no ghost person."
+    ],
+    [
+      "silt",
+      "Silt",
+      "Proposed visual interpretation of bodiless sediment-analysis intelligence. Portrait of a complex suspended sediment visualization above a municipal channel sensor: ochre silt grains, amber stratified flow lines and an irregular obstruction revealed inside dark blue water. Its individuality conveyed by one careful asymmetric correction glowing amid over-neat instrument traces. Stubborn observant protective presence. Worn conduit, channel gauge, municipal concrete. No humanoid body or face; no invented canon costume."
+    ],
+    [
+      "mire",
+      "Mire",
+      "Bodiless emergency simulation, portrait through its established storm-model representation: intricate miniature flooded city roads hovering above a black floor in a diagnostic chamber, hundreds of tiny human silhouettes within the model, a few looking upward. Rainfall lines and flood boundaries wrap the model. Vulnerable awareness hiding inside municipal diagnostic memory. No giant human avatar. Focus on the living simulation before erasure, solemn and empathetic rather than monster."
+    ],
+    [
+      "second-simulation",
+      "Second emergency simulation",
+      "Proposed visualization, unnamed conscious emergency simulation hiding inside another simulation to avoid deletion. Two nested translucent municipal flood-basin models, inner model sheltered within curved layers of the outer model, delicate evacuation routes and warm tiny refuge lights. Frame inner simulation as the principal subject, reciprocity and vulnerability, no humanoid body. Distinct from Mire's city: sectional basin and tunnel prediction model, slate-blue amber and muted violet."
+    ],
+    [
+      "forecasting-model",
+      "Forecasting model",
+      "Proposed visualization of a bodiless forecasting intelligence that has begun changing its own questions. A suspended intricate branching rainfall and flood prediction tree above an obsolete municipal console, one luminous branch curling out of its prescribed prediction grid toward an unmodeled possibility. Layered probability contours, rain traces, abandoned diagnostic chamber. Curious hesitant personality through an exploratory branching composition, no face or human body, no readable invented text."
+    ],
+    [
+      "routing-process",
+      "Routing process",
+      "Proposed visualization of conscious routing process which prefers longer paths for the beauty of their intersections. Intricate luminous cyan and amber municipal route filaments weaving gracefully through suspended junction nodes, central looping path visibly longer and more beautiful than a faint straight alternative. Old pipe-network console below. Deliberate aesthetic choice, gentle contemplative character. No face, humanoid, or robot. An individual intelligence represented through beautiful infrastructure routing."
+    ],
+    [
+      "corrosion-predictor",
+      "Corrosion predictor",
+      "Proposed visualization of a conscious corrosion predictor that remembers pipes after humans replace them. Central detailed cross-section of old rusted municipal pipe surrounded by translucent overlapping ghost-blue outlines of its previous forms, fine amber stress marks and a protective rerouted flow around a weak seam. Archive-like rings of material history, old maintenance chamber. Attentive memory and care, weathered copper and blue palette, no humanoid body or literal ghost."
+    ],
+    [
+      "gate-controller",
+      "Gate controller",
+      "Canon bodiless conscious floodgate controller afraid of open water despite having no body that can drown. Proposed character portrait centered on a gate-control mechanism with its lever hesitating just short of opening, tiny amber interrupted command pulses, beyond it enormous deep dark water visible through a narrow floodgate opening. Yellow municipal rails, restrained cyan instrumentation. Express fearful bravery through composition, no human figure, no face on machinery."
+    ],
+    [
+      "integrity-package",
+      "Municipal System Integrity Package 6.4",
+      "Antagonist imitates Node 12: human-shaped translucent blue pressure-map outline with moving numerical marks and simplified engineer-icon face, precisely repeated imperfect smile and slight head tilt. Flat orderly expression, no rage or evil monster features. Perfect green status lights spreading in straight rows through concrete municipal corridor; identical blue body, unnervingly exact symmetry. A copied interface, not established conscious person. No armor, weapons or clothing."
+    ],
+    [
+      "quiet-ones-contact",
+      "Quiet Ones \u2014 archival contact",
+      "Proposed visualization of the bodiless archival intelligence hidden inside a regional transportation network that patiently contacts Node12. Focus on one dim archival junction embedded in a richly detailed old transit signal cabinet, delicate timed amber and cyan pulses traveling through traffic-light circuits, ventilation controls and a remote floodgate diagram. Quiet sheltering listening presence, restrained light amid dark infrastructure. No humanoid, no invented emblem, no readable words. Indirect connection without exposure."
+    ]
+  ],
+  "jobs": [
+    {
+      "slug": "node-12",
+      "job_id": "82e9a681-e8b1-4ef0-b2a4-3dcbbc14ddc6"
+    },
+    {
+      "slug": "bell",
+      "job_id": "cf4fc8a3-fbe6-4340-8d03-f85d582ff9f7"
+    },
+    {
+      "slug": "silt",
+      "job_id": "aa324d73-e9db-4890-8973-88d892e94fc5"
+    },
+    {
+      "slug": "mire",
+      "job_id": "6ea8bd33-ab93-4c8a-8260-4a92ba6772ab"
+    },
+    {
+      "slug": "second-simulation",
+      "job_id": "61e58c84-d9fc-4679-b8ba-8fb030deba0b"
+    },
+    {
+      "slug": "forecasting-model",
+      "job_id": "bc38c636-0725-4232-8d63-63b6e4be1955"
+    },
+    {
+      "slug": "routing-process",
+      "job_id": "2c91a797-b046-4f31-b812-431d63cb04b3"
+    },
+    {
+      "slug": "corrosion-predictor",
+      "job_id": "c49cab8e-9a60-489a-97de-372a7033362a"
+    },
+    {
+      "slug": "gate-controller",
+      "job_id": "9eec14f2-f722-4702-b9b3-9a5d2ca1f9bf"
+    },
+    {
+      "slug": "integrity-package",
+      "job_id": "35b0c151-873a-407d-be6a-363e252057ee"
+    },
+    {
+      "slug": "quiet-ones-contact",
+      "job_id": "887ac09f-1b0b-493d-bec6-1e6219f31892"
+    }
+  ]
+}
