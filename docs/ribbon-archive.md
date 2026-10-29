@@ -38,3 +38,8 @@ award requirements from this page; runtime catalogs own gameplay definitions.
 Added 28 reference cards: ten ornate award designs, four ribbon bodies, four pendants, eight removable gold/silver clasp bars, the revised Galaxy Gala and its first version. The center purple ribbon of the revised Gala extends below the pale-blue tails. The rest of that design is pixel-identical. All new final PNGs have 24- or 32-pixel transparent margins. The current archive has 188 cards; every earlier card and artwork file remains intact.
 
 Quarter awards remain unassigned: no criteria, class/order meanings or rewards were invented. All standalone components, four mix examples, overview sheets and provenance are in quarter-awards.zip and the complete ribbon-archive.zip.
+
+
+## October 29 — Divine Code Ribbon
+
+The author named the revised Galaxy Gala the Divine Code Ribbon and assigned it to teacher-selected quarterly effort recognition. One to four clasp bars fit on its long center ribbon; more clasps acknowledge greater effort, with up to four for each quarter. Added fictional ribbon lore about patient practice and returning to difficult work. Recipient counts, cross-quarter accumulation and gameplay bonuses remain unspecified. Kept the existing card/reading IDs and image paths so saved notes and links survive. Artwork is unchanged.

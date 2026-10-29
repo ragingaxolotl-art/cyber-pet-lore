@@ -27163,7 +27163,7 @@
     },
     {
       "id": "ribbon-quarter-galaxy-gala",
-      "title": "Galaxy Gala · extended center ribbon",
+      "title": "Divine Code Ribbon",
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
@@ -27177,12 +27177,12 @@
         "ribbons"
       ],
       "source": {
-        "title": "Galaxy Gala · extended center ribbon",
+        "title": "Divine Code Ribbon",
         "url": "ribbons/#quarter-galaxy-gala"
       },
       "referencePage": "ribbons/#quarter-galaxy-gala",
-      "summary": "Rosewater Gala’s layered front rosette and embroidered tails, backed by Celestial Fanfare’s fan crest and longer pale-blue ribbons. Celestial’s blue flower brooch replaces the pearl cameo. Indigo, violet, nebula pink and silver fabric details. The central purple ribbon now extends a little below every other tail.",
-      "wordCount": 139,
+      "summary": "An end-of-quarter honour recognizing effort. The teacher chooses recipients based on the effort they have shown. One to four clasp bars sit on the long center ribbon for a quarter; more clasps acknowledge greater effort. The four-clasp limit is per quarter.",
+      "wordCount": 305,
       "explicitLinks": [
         "reference-ribbons"
       ],
@@ -33390,7 +33390,7 @@
       },
       "referencePage": "ribbons/",
       "summary": "Every ribbon, medal, trophy and archived design on one illustrated, annotatable logbook page.",
-      "wordCount": 13453,
+      "wordCount": 13619,
       "explicitLinks": [],
       "connectionLabel": "Reference collection",
       "connections": [
@@ -33500,6 +33500,10 @@
         },
         {
           "id": "ribbon-cyber_legend",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-galaxy-gala",
           "label": "Reference collection"
         },
         {
@@ -33668,10 +33672,6 @@
         },
         {
           "id": "ribbon-full_charge",
-          "label": "Reference collection"
-        },
-        {
-          "id": "ribbon-quarter-galaxy-gala",
           "label": "Reference collection"
         },
         {
