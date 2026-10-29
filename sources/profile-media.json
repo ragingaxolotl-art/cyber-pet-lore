@@ -268,5 +268,32 @@
         }
       ]
     }
+  ],
+  "topic-b1d04b906a71": [
+    {
+      "title": "Mael — diagnostic embodiment",
+      "status": "Story-grounded PixelLab illustration · Era −2",
+      "src": "images/characters/mael/south.png",
+      "poster": "images/characters/mael/south.png",
+      "width": 128,
+      "height": 128,
+      "animated": false,
+      "alt": "Mael as a narrow standing figure outlined by pale diagnostic lines.",
+      "caption": "The Warm Copy describes Mael’s working body as a narrow figure composed of pale diagnostic lines, kept familiar for sixty years. The exact face, proportions and ivory-blue line pattern are artistic choices. This depicts the familiar technician form without resolving which Mael is original.",
+      "links": [
+        {
+          "label": "Read the description of Mael’s body",
+          "href": "index.html#read=stories-p01469&block=stories-p01492"
+        },
+        {
+          "label": "Download front view",
+          "href": "images/characters/mael/south.png"
+        },
+        {
+          "label": "Artwork provenance",
+          "href": "images/characters/mael/provenance.json"
+        }
+      ]
+    }
   ]
 }

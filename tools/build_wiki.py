@@ -46,8 +46,14 @@ for item in development['entries']:
  e=next(e for e in entries if e['id']==item['id'])
  name=item['title'].split(' — ')[0] if item['kind']=='People' else item['title']
  add(name,'Person' if item['kind']=='People' else 'History & ideas',reading_target(e),item['aliases'])
+# The lament uses uppercase speaker cues; keep their exact spelling linked too.
+for name in ['Aven', 'Serein', 'Palinode']:
+ add(name, 'Person', aliases=[name.upper()])
+# The named rescue is an event, distinct from Orison the lost place.
+rescue_source = next(e for e in entries if e['id'] == 'lore-p01279')
+add('Orison rescue', 'Event', reading_target(rescue_source))
 # Explicit alternate labels from the reviewed dossiers / atlas, without substring guesses.
-aliases={'Hollis Dane':['Dane'],'Lennox Shaw':['Shaw'],'Keeper Eren':['Eren'],'Mara Vale':['Mara'],'Codex':['Codex'],'DBA':['Digital Binary Ancients'],'Dormant External Gate':['External Gate'],'Cacheboard, the Unintended Board':['Cacheboard'],'Shelter Orison, the Vanishing Shelter':['Shelter Orison'],'House of First Continuities and the Adaptive Nursery':['Adaptive Nursery','House of First Continuities'],'Central House of Meaning and the Unfinished Teaching Room':['Central House of Meaning','Unfinished Teaching Room'],'Commons and the Orison Chamber':['Orison Chamber'],'Sublevel and Pump Forty-Seven':['Sublevel','Pump Forty-Seven'],'Corridor Twelve and the Last Relay':['Corridor Twelve'],'Compatibility Route C-17, the Ghost Line':['Compatibility Route C-17','Ghost Line']}
+aliases={'Hollis Dane':['Dane'],'Lennox Shaw':['Shaw'],'Keeper Eren':['Eren'],'Mara Vale':['Mara'],'Codex':['Codex'],'DBA':['Digital Binary Ancients'],'Dormant External Gate':['External Gate'],'Cacheboard, the Unintended Board':['Cacheboard'],'Shelter Orison, the Vanishing Shelter':['Shelter Orison','Orison'],'House of First Continuities and the Adaptive Nursery':['Adaptive Nursery','House of First Continuities'],'Central House of Meaning and the Unfinished Teaching Room':['Central House of Meaning','Unfinished Teaching Room'],'Commons and the Orison Chamber':['Orison Chamber'],'Sublevel and Pump Forty-Seven':['Sublevel','Pump Forty-Seven'],'Corridor Twelve and the Last Relay':['Corridor Twelve'],'Compatibility Route C-17, the Ghost Line':['Compatibility Route C-17','Ghost Line']}
 for name,values in aliases.items():
  if name.casefold() in topics:
   for a in values:
@@ -195,5 +201,6 @@ from build_profiles import attach_profiles
 attach_profiles(output,entries,content,review)
 from build_illness_links import attach_illnesses
 attach_illnesses(output,entries)
+by_id['topic-3175c8dcdf0c']['featureArticle']={'title':'The House of Returning — comprehensive article','href':'house-of-returning.html','description':'History, restoration, the hidden Garden, supported interpretations, and unresolved questions — with existing artwork.'}
 (SITE/'wiki.json').write_text(json.dumps(output,ensure_ascii=False,separators=(',',':'))+'\n')
 print('Wiki:',len(topics),'topics;',sum(len(t['mentions']) for t in topics.values()),'reading references')
