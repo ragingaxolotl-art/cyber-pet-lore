@@ -3,3 +3,5 @@ const cards=[...document.querySelectorAll('article')];const search=document.quer
 const motion=matchMedia('(prefers-reduced-motion: reduce)');const previews=[...document.querySelectorAll('img[data-still]')];for(const image of previews)image.dataset.animated=image.src;function applyMotion(){for(const image of previews)image.src=motion.matches?image.dataset.still:image.dataset.animated;}motion.addEventListener('change',applyMotion);applyMotion();
 
 for(const card of cards)mountArticleNotes(card,{id:"article-illness-"+card.id,title:card.querySelector("h2").textContent,era:[],href:"illnesses/index.html#"+card.id});
+
+for(const button of document.querySelectorAll('.replay-preview'))button.addEventListener('click',()=>{if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;const img=button.closest('article').querySelector('img[data-still]');const src=img.dataset.animated||img.getAttribute('src').split('?')[0];img.src=img.dataset.still;requestAnimationFrame(()=>{img.src=src+'?replay='+Date.now();});});

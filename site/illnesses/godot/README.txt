@@ -1,0 +1,1 @@
+Native Godot effect source from Cyber Pet. These modules integrate with the game character/condition classes; they are not standalone replacements for a character sprite. Rendered frame sheets use anonymous sample artwork. Keep your own character texture and alpha mask. Original PixelLab images and animation sheets are in art/originals; provenance records identify source jobs.

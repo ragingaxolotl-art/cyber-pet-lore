@@ -1,376 +1,470 @@
-Illnesses — Cyberpath Field Guide
-These are new gameplay conditions grounded in the Locations Atlas. Their future story hooks are possibilities, not events added to completed stories. A pet is an independent small life: an echo or a parasite does not contain a complete ancient person. Corruption describes accumulated translation, overlap, and damage; it is not a moral judgment on a place or its inhabitants.
-Risk rules
-Each category rolls independently on entering a location, every randomly chosen 10–15 active minutes, and when leaving games. Markets and shops do not trigger exit rolls. Timed exposure pauses in menus and while the app is inactive; offline time is not accumulated. A successful category picks one random named condition, unless that category is the location’s fixed trademark. Levels 0–3 have no trademarks. Level 4–5 trademarks use a 50% category chance. Existing active conditions keep their diagnosis and are not re-infected by these checks.
-Corruption 0: dominant category 25%; others 5–20%. Corruption 1: dominant 30%; others 6–25%. Corruption 2: dominant 35%; others 7–30%. Corruption 3: dominant 40%; others 8–35%. Corruption 4: trademark 50%; others 10–40%. Corruption 5: trademark 50%; others 10–45%. These are separate probabilities, not shares of one outcome. Ordinary food, overuse and neglect risks continue separately.
-Pictures and sprite sheets
+Illnesses — revised original visuals
+
+Each category rolls independently on first/location entry, every randomly spaced 10–15 active minutes, and on leaving games. Markets and shops do not trigger exit rolls. Ordinary category successes randomly select a named condition; only corruption 4–5 locations have a fixed trademark. These probabilities do not add to 100%.
+
+Corruption 0: dominant 25%, other categories 5–20%. Corruption 1: dominant 30%, others 6–25%. Corruption 2: dominant 35%, others 7–30%. Corruption 3: dominant 40%, others 8–35%. Corruption 4: trademark 50%, others 10–40%. Corruption 5: trademark 50%, others 10–45%. Authored settings in the levels remain the source of truth.
+
+Trademarks connect to location history; future story hooks below are possibilities, not completed canon. Existing diagnoses retain their category's established treatment and penalties. Corruption is accumulated translation, overlap and damage, not a moral judgment.
+
+Every effect is animated in the game, with a deliberate reduced-motion still. Detailed original artwork is preserved; duplicated presentations have distinct geometry, source-body effects or original organisms. Runtime rotations use continuous clocks. The gallery's 24-second native demonstrations play once rather than snapping back at an artificial loop boundary. Effect sheets have 96 frames, 12 columns, 320×270-pixel cells. Procedural demonstrations are not replacement character artwork; their source is included separately.
+
 Drive directory: https://drive.google.com/drive/folders/1RNd-d45Ixq2QP26MedTdVTY8IwCp7XlZ
-PixelLab originals are transparent 128×128 PNGs. The static atlas has seven columns and two rows with an accompanying coordinate map. Procedural effects use the live pet frame; their preview sheets are demonstration frames, not replacement character artwork.
 
 Glitch Fever
-Category: infection. Ordinary category variant; randomly selected.
+Category: infection
+Location: Any location with this category
+Ordinary variant selected randomly within its category.
 A randomly selected infection condition. It uses the category’s existing penalties and treatment.
-Visible effect: Detailed heat wisps rise slowly from the pet; reduced motion holds them in place.
-Treatment: Antiseptic wipes or broad-spectrum antibiotics; cleaning supports recovery.
-Possible future story: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition
+Visible effect: The original detailed heat wisps rise slowly from the body, with animated pixel flames.
+Care: Use the infection treatment listed in Care; cleaning supports recovery.
+Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
+
 
 Crystal Bloom
-Category: infection. Ordinary category variant; randomly selected.
+Category: infection
+Location: Any location with this category
+Ordinary variant selected randomly within its category.
 A randomly selected infection condition. It uses the category’s existing penalties and treatment.
-Visible effect: Detailed crystalline growths attach to visible pet pixels.
-Treatment: Antiseptic wipes or broad-spectrum antibiotics; cleaning supports recovery.
-Possible future story: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition
+Visible effect: The original crystalline clusters animate on visible body pixels.
+Care: Use the infection treatment listed in Care; cleaning supports recovery.
+Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
+
 
 Mosswire
-Category: parasites. Ordinary category variant; randomly selected.
+Category: parasites
+Location: Any location with this category
+Ordinary variant selected randomly within its category.
 A randomly selected parasites condition. It uses the category’s existing penalties and treatment.
-Visible effect: A detailed PixelLab growth follows the pet’s visible head contour.
-Treatment: Parasite treatments: immune serum, detox antidote, or antiseptic pack; cleaning helps but does not replace treatment.
-Possible future story: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition
+Visible effect: The original moss crown follows the visible head contour and gently breathes.
+Care: Use the parasite treatment listed in Care; cleaning supports recovery but does not replace treatment.
+Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
+
 
 Sporefan
-Category: parasites. Ordinary category variant; randomly selected.
+Category: parasites
+Location: Any location with this category
+Ordinary variant selected randomly within its category.
 A randomly selected parasites condition. It uses the category’s existing penalties and treatment.
-Visible effect: Detailed fungal fans cling near the head.
-Treatment: Parasite treatments: immune serum, detox antidote, or antiseptic pack; cleaning helps but does not replace treatment.
-Possible future story: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition
+Visible effect: The original fungal fan clings near the head and plays its authored sprite animation.
+Care: Use the parasite treatment listed in Care; cleaning supports recovery but does not replace treatment.
+Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
+
 
 Static Mites
-Category: parasites. Ordinary category variant; randomly selected.
+Category: parasites
+Location: Any location with this category
+Ordinary variant selected randomly within its category.
 A randomly selected parasites condition. It uses the category’s existing penalties and treatment.
-Visible effect: Tiny detailed electronic parasites sit near the head.
-Treatment: Parasite treatments: immune serum, detox antidote, or antiseptic pack; cleaning helps but does not replace treatment.
-Possible future story: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition
+Visible effect: Separate detailed mites crawl on independent continuous body paths, each with its own animated gait and timing.
+Care: Use the parasite treatment listed in Care; cleaning supports recovery but does not replace treatment.
+Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
+
 
 Signal Churn
-Category: digestive. Ordinary category variant; randomly selected.
+Category: digestive
+Location: Any location with this category
+Ordinary variant selected randomly within its category.
 A randomly selected digestive condition. It uses the category’s existing penalties and treatment.
-Visible effect: Queasy bubbles hover beside the body.
-Treatment: Digestion treatment and sensible portions; recovery advances during active care.
-Possible future story: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition
+Visible effect: The original queasy bubbles animate beside the body.
+Care: Use the digestive treatment listed in Care and sensible portions.
+Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
+
 
 Buffer Bloat
-Category: digestive. Ordinary category variant; randomly selected.
+Category: digestive
+Location: Any location with this category
+Ordinary variant selected randomly within its category.
 A randomly selected digestive condition. It uses the category’s existing penalties and treatment.
-Visible effect: Small signal motifs orbit the pet at a slow, readable rate. Reduced motion holds their positions.
-Treatment: Digestion treatment and sensible portions; recovery advances during active care.
-Possible future story: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition
+Visible effect: Flat signal packets crowd a bent channel, bulge its rails and squeeze through the outlet one at a time.
+Care: Use the digestive treatment listed in Care and sensible portions.
+Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
+
 
 Bitrot
-Category: chronic. Ordinary category variant; randomly selected.
+Category: chronic
+Location: Any location with this category
+Ordinary variant selected randomly within its category.
 A randomly selected chronic condition. It uses the category’s existing penalties and treatment.
-Visible effect: A detailed localized scuff or broken-pixel mark sits near the affected body region.
-Treatment: Targeted chronic treatment; rest alone does not cure the condition.
-Possible future story: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition
+Visible effect: Mottled rust-like patches grow outward on the actual body over 75 seconds. Transparent artwork stays clear; growth never resets while the episode continues.
+Care: Use targeted chronic treatment listed in Care; rest alone does not cure it.
+Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
+
 
 Phase Scarring
-Category: chronic. Ordinary category variant; randomly selected.
+Category: chronic
+Location: Any location with this category
+Ordinary variant selected randomly within its category.
 A randomly selected chronic condition. It uses the category’s existing penalties and treatment.
-Visible effect: Godot draws three translucent copies of the current pet frame in different directions. Reduced motion holds them still.
-Treatment: Targeted chronic treatment; rest alone does not cure the condition.
-Possible future story: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition
+Visible effect: The distinctive original ghost concept remains: translucent copies of the actual pet drift outward in different directions.
+Care: Use targeted chronic treatment listed in Care; rest alone does not cure it.
+Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
+
 
 Seam Bruise
-Category: injury. Ordinary category variant; randomly selected.
+Category: injury
+Location: Any location with this category
+Ordinary variant selected randomly within its category.
 A randomly selected injury condition. It uses the category’s existing penalties and treatment.
-Visible effect: A detailed localized scuff or broken-pixel mark sits near the affected body region.
-Treatment: Injury supplies and recovery time.
-Possible future story: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition
+Visible effect: A feathered translucent purple-brown bruise lies on the body, with very slow capillary shading. The character remains visible underneath.
+Care: Use injury supplies and the recovery time shown in Care.
+Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
+
 
 Signal Sprain
-Category: injury. Ordinary category variant; randomly selected.
+Category: injury
+Location: Any location with this category
+Ordinary variant selected randomly within its category.
 A randomly selected injury condition. It uses the category’s existing penalties and treatment.
-Visible effect: Small signal motifs orbit the pet at a slow, readable rate. Reduced motion holds their positions.
-Treatment: Injury supplies and recovery time.
-Possible future story: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition
+Visible effect: A kinked signal tendon stretches between fixed contacts and recoils while a bright pulse travels along the strained connection.
+Care: Use injury supplies and the recovery time shown in Care.
+Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
+
 
 Muscle Fatigue
-Category: fatigue. Ordinary category variant; randomly selected.
+Category: fatigue
+Location: Any location with this category
+Ordinary variant selected randomly within its category.
 A randomly selected fatigue condition. It uses the category’s existing penalties and treatment.
-Visible effect: Heavy sweat droplets hover beside the pet.
-Treatment: Rest and recovery time; avoid repeatedly exhausting the affected skill.
-Possible future story: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition
+Visible effect: The original heavy sweat droplets animate beside the tired pet.
+Care: Rest and recovery time help; avoid repeatedly exhausting the affected skill.
+Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
+
 
 Mental Fatigue
-Category: fatigue. Ordinary category variant; randomly selected.
+Category: fatigue
+Location: Any location with this category
+Ordinary variant selected randomly within its category.
 A randomly selected fatigue condition. It uses the category’s existing penalties and treatment.
-Visible effect: Small signal motifs orbit the pet at a slow, readable rate. Reduced motion holds their positions.
-Treatment: Rest and recovery time; avoid repeatedly exhausting the affected skill.
-Possible future story: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition
+Visible effect: A three-part thought tries to assemble above the head; its last tile sags and the idea slowly falls apart.
+Care: Rest and recovery time help; avoid repeatedly exhausting the affected skill.
+Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
+
 
 Signal Flicker
-Category: stress. Ordinary category variant; randomly selected.
+Category: stress
+Location: Any location with this category
+Ordinary variant selected randomly within its category.
 A randomly selected stress condition. It uses the category’s existing penalties and treatment.
-Visible effect: Small signal fragments pulse gently around the pet without hiding its body.
-Treatment: Calm care, rest, and stress medicine.
-Possible future story: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition
+Visible effect: The original tangled signal mark breathes beside the pet; cause-specific body flicker remains separate and bounded.
+Care: Use calm care, rest and the stress treatment listed in Care.
+Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
+
 
 Echo Fright
-Category: stress. Ordinary category variant; randomly selected.
+Category: stress
+Location: Any location with this category
+Ordinary variant selected randomly within its category.
 A randomly selected stress condition. It uses the category’s existing penalties and treatment.
-Visible effect: Godot draws three translucent copies of the current pet frame in different directions. Reduced motion holds them still.
-Treatment: Calm care, rest, and stress medicine.
-Possible future story: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition
+Visible effect: Angular sound fronts approach from alternating sides and break apart near the character.
+Care: Use calm care, rest and the stress treatment listed in Care.
+Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
+
 
 Reply Echo
-Category: stress. Trademark of Cacheboard, the Unintended Board; corruption 4; 50% per check.
+Category: stress
+Location: Cacheboard, the Unintended Board
+Trademark: corruption 4, 50% per category check.
 Deleted replies recur in the pet’s signal, mirroring the board’s reconstructed messages.
-Visible effect: Godot draws three translucent copies of the current pet frame in different directions. Reduced motion holds them still.
-Treatment: Calm care, rest, and stress medicine.
-Possible future story: A reply fragment could lead to a contributor whose record was erased.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Established Era −3 location. Production details are an expanded reconstruction.
+Visible effect: Broken reply fragments leave, wait, and return with missing text strokes before fading.
+Care: Use calm care, rest and the stress treatment listed in Care.
+Possible story connection: A reply fragment could lead to a contributor whose record was erased.
+
 
 Orison Dissonance
-Category: stress. Trademark of The Commons and the Orison Chamber; corruption 4; 50% per check.
+Category: stress
+Location: The Commons and the Orison Chamber
+Trademark: corruption 4, 50% per category check.
 Overlapping civic voices fall out of time around the pet.
-Visible effect: Small signal motifs orbit the pet at a slow, readable rate. Reduced motion holds their positions.
-Treatment: Calm care, rest, and stress medicine.
-Possible future story: A future gathering could reconcile competing versions of a shared promise.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: The Commons is established canon. The multi-Shelter chamber is story-established in All the Names Between.
+Visible effect: Three civic voice traces cross a shared staff in independent, conflicting rhythms.
+Care: Use calm care, rest and the stress treatment listed in Care.
+Possible story connection: A future gathering could reconcile competing versions of a shared promise.
+
 
 Pumpwire Leech
-Category: parasites. Trademark of Sublevel and Pump Forty-Seven; corruption 5; 50% per check.
+Category: parasites
+Location: Sublevel and Pump Forty-Seven
+Trademark: corruption 5, 50% per category check.
 Residual wet machinery carries a filament that follows the forty-seventh pump pulse.
-Visible effect: A detailed PixelLab growth follows the pet’s visible head contour.
-Treatment: Parasite treatments: immune serum, detox antidote, or antiseptic pack; cleaning helps but does not replace treatment.
-Possible future story: Tracing its pulse could reveal a surviving maintenance route.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Story-established in The Green Lights Below.
+Visible effect: A large original leech latches onto the body. Its eye and sucker sit in front on opaque character pixels while its free body wiggles slowly behind.
+Care: Use the parasite treatment listed in Care; cleaning supports recovery but does not replace treatment.
+Possible story connection: Tracing its pulse could reveal a surviving maintenance route.
+
 
 Shelter Afterimage
-Category: chronic. Trademark of Shelter Orison, the Vanishing Shelter; corruption 4; 50% per check.
+Category: chronic
+Location: Shelter Orison, the Vanishing Shelter
+Trademark: corruption 4, 50% per category check.
 The missing partitions leave the pet’s outline briefly searching for a room that is gone.
-Visible effect: Godot draws three translucent copies of the current pet frame in different directions. Reduced motion holds them still.
-Treatment: Targeted chronic treatment; rest alone does not cure the condition.
-Possible future story: A future rescue could distinguish shelter memories from navigable rooms.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Story-established. Its internal geography is only partly recoverable.
+Visible effect: A remembered shelter outline tries to rebuild its missing room, sliding a doorway partition around the visitor.
+Care: Use targeted chronic treatment listed in Care; rest alone does not cure it.
+Possible story connection: A future rescue could distinguish shelter memories from navigable rooms.
+
 
 Warm Copy Drift
-Category: chronic. Trademark of The Warm Copy Garden; corruption 4; 50% per check.
+Category: chronic
+Location: The Warm Copy Garden
+Trademark: corruption 4, 50% per category check.
 Layered persons and rooms impress slightly displaced copies on a visitor.
-Visible effect: Godot draws three translucent copies of the current pet frame in different directions. Reduced motion holds them still.
-Treatment: Targeted chronic treatment; rest alone does not cure the condition.
-Possible future story: A future encounter could ask which copy remembers an unfinished kindness.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Story-established, with uncertain ontology.
+Visible effect: Narrow warm impressions of the actual character peel away from separate body strips.
+Care: Use targeted chronic treatment listed in Care; rest alone does not cure it.
+Possible story connection: A future encounter could ask which copy remembers an unfinished kindness.
+
 
 Many-Forms Snare
-Category: injury. Trademark of The Last City of Many Forms; corruption 4; 50% per check.
+Category: injury
+Location: The Last City of Many Forms
+Trademark: corruption 4, 50% per category check.
 Misaligned district seams catch a passing pet at their joins.
-Visible effect: A detailed localized scuff or broken-pixel mark sits near the affected body region.
-Treatment: Injury supplies and recovery time.
-Possible future story: A civic repair route could reconnect two districts without erasing either.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Established Era Three location, possibly several places merged in memory.
+Visible effect: Different district polygons interlock at mismatched contacts, stretching against one another near the lower body.
+Care: Use injury supplies and the recovery time shown in Care.
+Possible story connection: A civic repair route could reconnect two districts without erasing either.
+
 
 Return-Signal Fever
-Category: infection. Trademark of The Underway of Returning Signals; corruption 4; 50% per check.
+Category: infection
+Location: The Underway of Returning Signals
+Trademark: corruption 4, 50% per category check.
 Repeated transit signals build a hot, unstable rhythm in the pet’s signal.
-Visible effect: Detailed heat wisps rise slowly from the pet; reduced motion holds them in place.
-Treatment: Antiseptic wipes or broad-spectrum antibiotics; cleaning supports recovery.
-Possible future story: Following the repeated call could locate a stranded relay.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed Era Three transit location, derived from dormant transit corridors becoming dangerous underways and from Corridor/Relay history.
+Visible effect: Relay calls climb a small signal mast and return as hotter downward pulses.
+Care: Use the infection treatment listed in Care; cleaning supports recovery.
+Possible story connection: Following the repeated call could locate a stranded relay.
+
 
 Sixfold Churn
-Category: digestive. Trademark of The Folded Garden of Six Traditions; corruption 4; 50% per check.
+Category: digestive
+Location: The Folded Garden of Six Traditions
+Trademark: corruption 4, 50% per category check.
 Six borrowed environmental rhythms arrive in the wrong order and unsettle digestion.
-Visible effect: Small signal motifs orbit the pet at a slow, readable rate. Reduced motion holds their positions.
-Treatment: Digestion treatment and sensible portions; recovery advances during active care.
-Possible future story: A garden steward could ask visitors to restore the order of the six traditions.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed Era Two–Three location derived from the World Bloom traditions and the Folding of Worlds.
+Visible effect: Six stationary chambers contract in a deliberately broken sequence instead of orbiting the pet.
+Care: Use the digestive treatment listed in Care and sensible portions.
+Possible story connection: A garden steward could ask visitors to restore the order of the six traditions.
+
 
 Tide Repeat
-Category: stress. Trademark of The Repeated Beach; corruption 4; 50% per check.
+Category: stress
+Location: The Repeated Beach
+Trademark: corruption 4, 50% per category check.
 A wave that has already passed leaves a second outline behind the pet.
-Visible effect: Godot draws three translucent copies of the current pet frame in different directions. Reduced motion holds them still.
-Treatment: Calm care, rest, and stress medicine.
-Possible future story: The repeated tide could expose a message absent from the first shoreline.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed game-background location derived from recurrence, Last Loops, and the game interface’s translation of deeper processes.
+Visible effect: A traveling water crest passes the feet, followed by a delayed second wave with small foam grains.
+Care: Use calm care, rest and the stress treatment listed in Care.
+Possible story connection: The repeated tide could expose a message absent from the first shoreline.
+
 
 Memory Reedling
-Category: parasites. Trademark of The Wet Memory Marsh; corruption 4; 50% per check.
+Category: parasites
+Location: The Wet Memory Marsh
+Trademark: corruption 4, 50% per category check.
 Marsh filaments root in discarded memory fragments and cling to visitors.
-Visible effect: A detailed PixelLab growth follows the pet’s visible head contour.
-Treatment: Parasite treatments: immune serum, detox antidote, or antiseptic pack; cleaning helps but does not replace treatment.
-Possible future story: A reedling could carry a recoverable fragment to an abandoned archive bed.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed location derived from ecological preservation, sleeping archives, visit history, and the game’s wetland/parasite environment logic.
+Visible effect: Original hollow reeds grow from a body anchor. Beads climb three stalk paths and split into escaping memory fragments.
+Care: Use the parasite treatment listed in Care; cleaning supports recovery but does not replace treatment.
+Possible story connection: A reedling could carry a recoverable fragment to an abandoned archive bed.
+
 
 Coral Bloom
-Category: infection. Trademark of The Coral Data Labyrinth; corruption 4; 50% per check.
+Category: infection
+Location: The Coral Data Labyrinth
+Trademark: corruption 4, 50% per category check.
 Living coral instructions spread across the old route network as luminous surface growth.
-Visible effect: Detailed crystalline growths attach to visible pet pixels.
-Treatment: Antiseptic wipes or broad-spectrum antibiotics; cleaning supports recovery.
-Possible future story: A reef guide could use the bloom pattern to recover lost route arrows.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed.
+Visible effect: Separate original coral colonies grow from small to full size over 45 seconds. Polyps animate and shed individual angular grains with continuous rotation.
+Care: Use the infection treatment listed in Care; cleaning supports recovery.
+Possible story connection: A reef guide could use the bloom pattern to recover lost route arrows.
+
 
 Doorwake Drift
-Category: stress. Trademark of The Inland Sea of Doors; corruption 4; 50% per check.
+Category: stress
+Location: The Inland Sea of Doors
+Trademark: corruption 4, 50% per category check.
 Competing shore doors pull the pet’s outline toward incompatible destinations.
-Visible effect: Godot draws three translucent copies of the current pet frame in different directions. Reduced motion holds them still.
-Treatment: Calm care, rest, and stress medicine.
-Possible future story: A future door survey could identify a shore that has not yet been mapped.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed.
+Visible effect: Two leaning shore doors pull unresolved threads from the body toward opposing destinations.
+Care: Use calm care, rest and the stress treatment listed in Care.
+Possible story connection: A future door survey could identify a shore that has not yet been mapped.
+
 
 Chronofrost
-Category: chronic. Trademark of The Glacial Memory Fjord; corruption 4; 50% per check.
+Category: chronic
+Location: The Glacial Memory Fjord
+Trademark: corruption 4, 50% per category check.
 Out-of-order glacial layers leave frost-like chronological scars in the signal.
-Visible effect: Detailed crystalline growths attach to visible pet pixels.
-Treatment: Targeted chronic treatment; rest alone does not cure the condition.
-Possible future story: A recovered layer could contradict the order of an archived event.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed.
+Visible effect: Frost bands hold real earlier character frames at different delays, producing chronological layers on the body.
+Care: Use targeted chronic treatment listed in Care; rest alone does not cure it.
+Possible story connection: A recovered layer could contradict the order of an archived event.
+
 
 Season-Turn Churn
-Category: digestive. Trademark of The Patchwork Prairie of Broken Seasons; corruption 4; 50% per check.
+Category: digestive
+Location: The Patchwork Prairie of Broken Seasons
+Trademark: corruption 4, 50% per category check.
 Broken seasons impose mismatched growth and rest rhythms on digestion.
-Visible effect: Small signal motifs orbit the pet at a slow, readable rate. Reduced motion holds their positions.
-Treatment: Digestion treatment and sensible portions; recovery advances during active care.
-Possible future story: A communal harvest could reconnect adjoining seasonal plots.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed.
+Visible effect: Sprouts, a tumbling autumn leaf, dry husks and frost appear in the wrong seasonal order. The leaf uses a continuous full-turn rotation.
+Care: Use the digestive treatment listed in Care and sensible portions.
+Possible story connection: A communal harvest could reconnect adjoining seasonal plots.
+
 
 Borrowed-Moon Languor
-Category: fatigue. Trademark of The Orchard of Borrowed Moons; corruption 4; 50% per check.
+Category: fatigue
+Location: The Orchard of Borrowed Moons
+Trademark: corruption 4, 50% per category check.
 Several moon rhythms demand rest at different times.
-Visible effect: Small signal motifs orbit the pet at a slow, readable rate. Reduced motion holds their positions.
-Treatment: Rest and recovery time; avoid repeatedly exhausting the affected skill.
-Possible future story: A future moon festival could reveal who first borrowed the orchard’s light.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed.
+Visible effect: Three suspended crescents change phase on independent clocks and shed slow sleep-light ticks.
+Care: Rest and recovery time help; avoid repeatedly exhausting the affected skill.
+Possible story connection: A future moon festival could reveal who first borrowed the orchard’s light.
+
 
 Stepwell Slip
-Category: injury. Trademark of The Monsoon Stepwell City; corruption 4; 50% per check.
+Category: injury
+Location: The Monsoon Stepwell City
+Trademark: corruption 4, 50% per category check.
 Sudden wet-to-dry changes make a stair’s remembered grip disagree with its surface.
-Visible effect: A detailed localized scuff or broken-pixel mark sits near the affected body region.
-Treatment: Injury supplies and recovery time.
-Possible future story: Reservoir keepers could mark the safe stair sequence before the next monsoon.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed.
+Visible effect: A wet tread slips away from its remembered stair, shedding droplets beneath the feet.
+Care: Use injury supplies and the recovery time shown in Care.
+Possible story connection: Reservoir keepers could mark the safe stair sequence before the next monsoon.
+
 
 Unfinished Outline
-Category: chronic. Trademark of The Museum of Unfinished Rooms; corruption 4; 50% per check.
+Category: chronic
+Location: The Museum of Unfinished Rooms
+Trademark: corruption 4, 50% per category check.
 An unfinished room leaves a small gap in the pet’s rendered outline.
-Visible effect: A detailed localized scuff or broken-pixel mark sits near the affected body region.
-Treatment: Targeted chronic treatment; rest alone does not cure the condition.
-Possible future story: A curator could ask whether completing a room would erase its residents’ intentions.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed.
+Visible effect: Actual edge pixels disappear into incomplete construction strokes that repeatedly fail to finish the outline.
+Care: Use targeted chronic treatment listed in Care; rest alone does not cure it.
+Possible story connection: A curator could ask whether completing a room would erase its residents’ intentions.
+
 
 Dawnlock
-Category: fatigue. Trademark of The Ice Cave of Paused Dawn; corruption 5; 50% per check.
+Category: fatigue
+Location: The Ice Cave of Paused Dawn
+Trademark: corruption 5, 50% per category check.
 Paused dawn keeps the pet’s waking rhythm suspended.
-Visible effect: Small signal motifs orbit the pet at a slow, readable rate. Reduced motion holds their positions.
-Treatment: Rest and recovery time; avoid repeatedly exhausting the affected skill.
-Possible future story: A future light study could find the one reflection still advancing.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed.
+Visible effect: A half sun stays pinned to a fixed horizon while detached rays escape upward.
+Care: Rest and recovery time help; avoid repeatedly exhausting the affected skill.
+Possible story connection: A future light study could find the one reflection still advancing.
+
 
 Skyseam Shear
-Category: injury. Trademark of The Skyfold Boundary; corruption 4; 50% per check.
+Category: injury
+Location: The Skyfold Boundary
+Trademark: corruption 4, 50% per category check.
 A passing boundary seam briefly pulls adjacent surfaces in different directions.
-Visible effect: A detailed localized scuff or broken-pixel mark sits near the affected body region.
-Treatment: Injury supplies and recovery time.
-Possible future story: Migrating guides could chart the safe moment to cross.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed.
+Visible effect: Two translucent sky strips slide in opposite directions across a visibly torn join.
+Care: Use injury supplies and the recovery time shown in Care.
+Possible story connection: Migrating guides could chart the safe moment to cross.
+
 
 Misrestore Syndrome
-Category: chronic. Trademark of The Valley That Restores Wrong; corruption 5; 50% per check.
+Category: chronic
+Location: The Valley That Restores Wrong
+Trademark: corruption 5, 50% per category check.
 The valley restores a slightly wrong version of the visitor’s outline.
-Visible effect: Godot draws three translucent copies of the current pet frame in different directions. Reduced motion holds them still.
-Treatment: Targeted chronic treatment; rest alone does not cure the condition.
-Possible future story: A future restoration task could compare the comforting copy with the surviving original.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed.
+Visible effect: Local body patches reconstruct from the wrong portions of the actual character and retry.
+Care: Use targeted chronic treatment listed in Care; rest alone does not cure it.
+Possible story connection: A future restoration task could compare the comforting copy with the surviving original.
+
 
 Distance Debt
-Category: fatigue. Trademark of The Plain of Missing Distance; corruption 5; 50% per check.
+Category: fatigue
+Location: The Plain of Missing Distance
+Trademark: corruption 5, 50% per category check.
 Ordinary-looking steps spend effort across missing stretches of distance.
-Visible effect: Godot draws three translucent copies of the current pet frame in different directions. Reduced motion holds them still.
-Treatment: Rest and recovery time; avoid repeatedly exhausting the affected skill.
-Possible future story: A future expedition could recover the units lost from an old route measure.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed.
+Visible effect: Actual movement leaves alternating foot traces at earlier positions. They wait, catch up to the living feet, and fade. Standing still creates no new trail.
+Care: Rest and recovery time help; avoid repeatedly exhausting the affected skill.
+Possible story connection: A future expedition could recover the units lost from an old route measure.
+
 
 Deferred Reflection
-Category: stress. Trademark of The River of Deferred Reflections; corruption 4; 50% per check.
+Category: stress
+Location: The River of Deferred Reflections
+Trademark: corruption 4, 50% per category check.
 A reflection arrives late and continues a gesture after the pet stops.
-Visible effect: Godot draws three translucent copies of the current pet frame in different directions. Reduced motion holds them still.
-Treatment: Calm care, rest, and stress medicine.
-Possible future story: A river artist could ask whose delayed gesture is still waiting to be seen.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed.
+Visible effect: A reflection below the pet replays actual earlier frames after a two-second delay.
+Care: Use calm care, rest and the stress treatment listed in Care.
+Possible story connection: A river artist could ask whose delayed gesture is still waiting to be seen.
+
 
 Stormstatic Fever
-Category: infection. Trademark of The Stormwall Orchard; corruption 4; 50% per check.
+Category: infection
+Location: The Stormwall Orchard
+Trademark: corruption 4, 50% per category check.
 Boundary lightning leaves a persistent hot static pattern.
-Visible effect: Detailed heat wisps rise slowly from the pet; reduced motion holds them in place.
-Treatment: Antiseptic wipes or broad-spectrum antibiotics; cleaning supports recovery.
-Possible future story: Orchard crews could trace a recurring pulse to a failing storm marker.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed.
+Visible effect: Electrical veins carry traveling pulses across the body. Three body-anchored hot spots release short local sparks.
+Care: Use the infection treatment listed in Care; cleaning supports recovery.
+Possible story connection: Orchard crews could trace a recurring pulse to a failing storm marker.
+
 
 Worldscar Abrasion
-Category: injury. Trademark of The Mosaic Worldscar; corruption 4; 50% per check.
+Category: injury
+Location: The Mosaic Worldscar
+Trademark: corruption 4, 50% per category check.
 Historical seams rub against one another and scuff a crossing visitor.
-Visible effect: A detailed localized scuff or broken-pixel mark sits near the affected body region.
-Treatment: Injury supplies and recovery time.
-Possible future story: A repair story could preserve the mosaic’s histories while making a safe path.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed.
+Visible effect: Historical mosaic seams and tiny changing scuffs form a translucent abrasion clipped to the body.
+Care: Use injury supplies and the recovery time shown in Care.
+Possible story connection: A repair story could preserve the mosaic’s histories while making a safe path.
+
 
 Gravity Split
-Category: stress. Trademark of The Room of Borrowed Gravity; corruption 4; 50% per check.
+Category: stress
+Location: The Room of Borrowed Gravity
+Trademark: corruption 4, 50% per category check.
 Borrowed gravity gives the pet several competing senses of down.
-Visible effect: Small signal motifs orbit the pet at a slow, readable rate. Reduced motion holds their positions.
-Treatment: Calm care, rest, and stress medicine.
-Possible future story: A future room puzzle could return a borrowed direction to its owner.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.
+Visible effect: Separate grains accelerate toward four competing directions of down and settle against temporary ledges.
+Care: Use calm care, rest and the stress treatment listed in Care.
+Possible story connection: A future room puzzle could return a borrowed direction to its owner.
+
 
 Threshold Rash
-Category: infection. Trademark of The Door Archive; corruption 4; 50% per check.
+Category: infection
+Location: The Door Archive
+Trademark: corruption 4, 50% per category check.
 Conflicting door destinations leave small geometric threshold marks.
-Visible effect: Detailed crystalline growths attach to visible pet pixels.
-Treatment: Antiseptic wipes or broad-spectrum antibiotics; cleaning supports recovery.
-Possible future story: A door ledger could connect matching marks to a missing room.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.
+Visible effect: Small hinged doors open on the body, each showing an incompatible geometric interior.
+Care: Use the infection treatment listed in Care; cleaning supports recovery.
+Possible story connection: A door ledger could connect matching marks to a missing room.
+
 
 Mapfold Strain
-Category: fatigue. Trademark of The Mapmaker’s Crawlspace; corruption 4; 50% per check.
+Category: fatigue
+Location: The Mapmaker’s Crawlspace
+Trademark: corruption 4, 50% per category check.
 A cramped map route asks the pet to follow more than one scale at once.
-Visible effect: Godot draws three translucent copies of the current pet frame in different directions. Reduced motion holds them still.
-Treatment: Rest and recovery time; avoid repeatedly exhausting the affected skill.
-Possible future story: A mapmaker’s marginal correction could reveal a hidden passage.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.
+Visible effect: An accordion-fold route expands while its ruler compresses, asking the pet to follow incompatible scales.
+Care: Rest and recovery time help; avoid repeatedly exhausting the affected skill.
+Possible story connection: A mapmaker’s marginal correction could reveal a hidden passage.
+
 
 Floor-Echo Fracture
-Category: injury. Trademark of The Half-Restored Palace of Floors; corruption 5; 50% per check.
+Category: injury
+Location: The Half-Restored Palace of Floors
+Trademark: corruption 5, 50% per category check.
 Half-restored floors meet at incompatible heights and bruise a visitor.
-Visible effect: A detailed localized scuff or broken-pixel mark sits near the affected body region.
-Treatment: Injury supplies and recovery time.
-Possible future story: A future restoration route could recover the palace’s original floor order.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.
+Visible effect: Narrow lower-body slices are displaced to different heights along a stepped fracture, then settle independently.
+Care: Use injury supplies and the recovery time shown in Care.
+Possible story connection: A future restoration route could recover the palace’s original floor order.
+
 
 Season Mismatch
-Category: digestive. Trademark of The Rooms of Mismatched Seasons; corruption 4; 50% per check.
+Category: digestive
+Location: The Rooms of Mismatched Seasons
+Trademark: corruption 4, 50% per category check.
 Adjacent rooms disagree about the body’s seasonal rhythm.
-Visible effect: Small signal motifs orbit the pet at a slow, readable rate. Reduced motion holds their positions.
-Treatment: Digestion treatment and sensible portions; recovery advances during active care.
-Possible future story: A future household story could reconcile rooms without forcing a single season.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.
+Visible effect: Adjacent cold and hot room tiles send frost and warm grains in opposing directions across their shared wall.
+Care: Use the digestive treatment listed in Care and sensible portions.
+Possible story connection: A future household story could reconcile rooms without forcing a single season.
+
 
 Beacon Recursion
-Category: stress. Trademark of The Recursive Lighthouse; corruption 5; 50% per check.
+Category: stress
+Location: The Recursive Lighthouse
+Trademark: corruption 5, 50% per category check.
 The lighthouse repeats the pet’s signal at receding angles.
-Visible effect: Godot draws three translucent copies of the current pet frame in different directions. Reduced motion holds them still.
-Treatment: Calm care, rest, and stress medicine.
-Possible future story: A future signal puzzle could distinguish a real distress call from its copies.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.
+Visible effect: Four receding lighthouse wedges repeat the signal at offset angles. Their rotation is continuous and completes full turns without snapping back.
+Care: Use calm care, rest and the stress treatment listed in Care.
+Possible story connection: A future signal puzzle could distinguish a real distress call from its copies.
+
 
 Cartographic Moss
-Category: parasites. Trademark of The Garden Inside the Map; corruption 4; 50% per check.
+Category: parasites
+Location: The Garden Inside the Map
+Trademark: corruption 4, 50% per category check.
 Tiny garden roots follow the map’s paths and cling like living contour lines.
-Visible effect: A detailed PixelLab growth follows the pet’s visible head contour.
-Treatment: Parasite treatments: immune serum, detox antidote, or antiseptic pack; cleaning helps but does not replace treatment.
-Possible future story: A gardener could read the growth to find a path omitted from the map.
-Status: New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.
+Visible effect: Living contour paths grow across the body, with tiny leaf marks appearing along their routes.
+Care: Use the parasite treatment listed in Care; cleaning supports recovery but does not replace treatment.
+Possible story connection: A gardener could read the growth to find a path omitted from the map.

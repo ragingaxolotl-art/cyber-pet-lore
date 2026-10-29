@@ -1,0 +1,20 @@
+{
+  "generator": "PixelLab Pixen",
+  "date": "2026-10-28",
+  "jobs": {
+    "static_mite_single": "a1714176-84ab-4c4a-9de2-47bef92463c5",
+    "pumpwire_leech": "07cd8c78-a127-40ca-b7b6-235addd819d9",
+    "memory_reedling": "d7010d86-3cb0-4ee5-91a1-88040b5542a3",
+    "coral_polyp_branch": "63a6f801-4b40-411a-a35e-cc242f78c06d",
+    "pumpwire_leech_v2": "5f4bfa54-8877-4dff-8ba5-5f44dfbca943",
+    "memory_reedling_v2": "150e00a3-a063-43a8-b8f9-1f9186fffb6b"
+  },
+  "review": {
+    "static_mite_single": "Accepted; faces down in source; individual path renderer compensates.",
+    "coral_polyp_branch": "Accepted for planned polyp animation.",
+    "pumpwire_leech": "Candidate only: snake-like head; replace before use.",
+    "memory_reedling": "Candidate only: clipped leaves; replace before use.",
+    "pumpwire_leech_v2": "Accepted corrected organism",
+    "memory_reedling_v2": "Accepted corrected organism"
+  }
+}

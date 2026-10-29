@@ -1,0 +1,34 @@
+{
+  "pumpwire_leech_v2": {
+    "job": "7a1aaa81-4b85-4f04-a3a7-8144379e80b9",
+    "frame_width": 96,
+    "frame_height": 64,
+    "frames": 8,
+    "fps": 6,
+    "pinned_end_exact": false
+  },
+  "memory_reedling_v2": {
+    "job": "763577e2-7f63-4e9b-ac75-77076086d0cf",
+    "frame_width": 96,
+    "frame_height": 128,
+    "frames": 8,
+    "fps": 6,
+    "pinned_end_exact": true
+  },
+  "coral_polyp_branch": {
+    "job": "da3f4ef6-a7c2-40ba-9e45-ed5acedb0d6c",
+    "frame_width": 128,
+    "frame_height": 128,
+    "frames": 8,
+    "fps": 6,
+    "pinned_end_exact": false
+  },
+  "static_mite_single": {
+    "job": "6b7ad466-d84b-42f9-8d77-61474013c1c7",
+    "frame_width": 64,
+    "frame_height": 64,
+    "frames": 8,
+    "fps": 8,
+    "sheet": "static_mite_walk.png"
+  }
+}
