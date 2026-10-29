@@ -27162,12 +27162,936 @@
       ]
     },
     {
+      "id": "ribbon-quarter-galaxy-gala",
+      "title": "Galaxy Gala · extended center ribbon",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30526,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Galaxy Gala · extended center ribbon",
+        "url": "ribbons/#quarter-galaxy-gala"
+      },
+      "referencePage": "ribbons/#quarter-galaxy-gala",
+      "summary": "Rosewater Gala’s layered front rosette and embroidered tails, backed by Celestial Fanfare’s fan crest and longer pale-blue ribbons. Celestial’s blue flower brooch replaces the pearl cameo. Indigo, violet, nebula pink and silver fabric details. The central purple ribbon now extends a little below every other tail.",
+      "wordCount": 139,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-01-aster-ribbon",
+      "title": "Aster Vault ribbon",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30527,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Aster Vault ribbon",
+        "url": "ribbons/#quarter-01-aster-ribbon"
+      },
+      "referencePage": "ribbons/#quarter-01-aster-ribbon",
+      "summary": "Separate ornate suspension ribbon body with decorative top brooch and lower connector. Mix with any of the four pendant pieces and optional gold or silver clasp bars.",
+      "wordCount": 96,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-01-aster-pendant",
+      "title": "Aster Vault pendant",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30528,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Aster Vault pendant",
+        "url": "ribbons/#quarter-01-aster-pendant"
+      },
+      "referencePage": "ribbons/#quarter-01-aster-pendant",
+      "summary": "Separate ornamental metal pendant. Attach below any of the four long suspension ribbons; preserve its complete bail and finial.",
+      "wordCount": 84,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-02-verdant-ribbon",
+      "title": "Verdant Spire ribbon",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30529,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Verdant Spire ribbon",
+        "url": "ribbons/#quarter-02-verdant-ribbon"
+      },
+      "referencePage": "ribbons/#quarter-02-verdant-ribbon",
+      "summary": "Separate ornate suspension ribbon body with decorative top brooch and lower connector. Mix with any of the four pendant pieces and optional gold or silver clasp bars.",
+      "wordCount": 96,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-02-verdant-pendant",
+      "title": "Verdant Spire pendant",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30530,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Verdant Spire pendant",
+        "url": "ribbons/#quarter-02-verdant-pendant"
+      },
+      "referencePage": "ribbons/#quarter-02-verdant-pendant",
+      "summary": "Separate ornamental metal pendant. Attach below any of the four long suspension ribbons; preserve its complete bail and finial.",
+      "wordCount": 88,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-03-tideglass-ribbon",
+      "title": "Tideglass ribbon",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30531,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Tideglass ribbon",
+        "url": "ribbons/#quarter-03-tideglass-ribbon"
+      },
+      "referencePage": "ribbons/#quarter-03-tideglass-ribbon",
+      "summary": "Separate ornate suspension ribbon body with decorative top brooch and lower connector. Mix with any of the four pendant pieces and optional gold or silver clasp bars.",
+      "wordCount": 95,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-03-tideglass-pendant",
+      "title": "Tideglass pendant",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30532,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Tideglass pendant",
+        "url": "ribbons/#quarter-03-tideglass-pendant"
+      },
+      "referencePage": "ribbons/#quarter-03-tideglass-pendant",
+      "summary": "Separate ornamental metal pendant. Attach below any of the four long suspension ribbons; preserve its complete bail and finial.",
+      "wordCount": 83,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-04-ember-ribbon",
+      "title": "Ember Loom ribbon",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30533,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Ember Loom ribbon",
+        "url": "ribbons/#quarter-04-ember-ribbon"
+      },
+      "referencePage": "ribbons/#quarter-04-ember-ribbon",
+      "summary": "Separate ornate suspension ribbon body with decorative top brooch and lower connector. Mix with any of the four pendant pieces and optional gold or silver clasp bars.",
+      "wordCount": 92,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-04-ember-pendant",
+      "title": "Ember Loom pendant",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30534,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Ember Loom pendant",
+        "url": "ribbons/#quarter-04-ember-pendant"
+      },
+      "referencePage": "ribbons/#quarter-04-ember-pendant",
+      "summary": "Separate ornamental metal pendant. Attach below any of the four long suspension ribbons; preserve its complete bail and finial.",
+      "wordCount": 84,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-clasp-gold-1",
+      "title": "Gold · 1 gem",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30535,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Gold · 1 gem",
+        "url": "ribbons/#quarter-clasp-gold-1"
+      },
+      "referencePage": "ribbons/#quarter-clasp-gold-1",
+      "summary": "Separate gold clasp bar. 1 gem marker can indicate an order or class once the author assigns its meaning. Compatible with the long ribbon bodies.",
+      "wordCount": 91,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-clasp-gold-2",
+      "title": "Gold · 2 gems",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30536,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Gold · 2 gems",
+        "url": "ribbons/#quarter-clasp-gold-2"
+      },
+      "referencePage": "ribbons/#quarter-clasp-gold-2",
+      "summary": "Separate gold clasp bar. 2 gem markers can indicate an order or class once the author assigns its meaning. Compatible with the long ribbon bodies.",
+      "wordCount": 91,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-clasp-gold-3",
+      "title": "Gold · 3 gems",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30537,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Gold · 3 gems",
+        "url": "ribbons/#quarter-clasp-gold-3"
+      },
+      "referencePage": "ribbons/#quarter-clasp-gold-3",
+      "summary": "Separate gold clasp bar. 3 gem markers can indicate an order or class once the author assigns its meaning. Compatible with the long ribbon bodies.",
+      "wordCount": 91,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-clasp-gold-4",
+      "title": "Gold · blank",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30538,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Gold · blank",
+        "url": "ribbons/#quarter-clasp-gold-4"
+      },
+      "referencePage": "ribbons/#quarter-clasp-gold-4",
+      "summary": "Separate gold clasp bar. Blank inset for a future order or class label. Compatible with the long ribbon bodies.",
+      "wordCount": 84,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-clasp-silver-1",
+      "title": "Silver · 1 gem",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30539,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Silver · 1 gem",
+        "url": "ribbons/#quarter-clasp-silver-1"
+      },
+      "referencePage": "ribbons/#quarter-clasp-silver-1",
+      "summary": "Separate silver clasp bar. 1 gem marker can indicate an order or class once the author assigns its meaning. Compatible with the long ribbon bodies.",
+      "wordCount": 91,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-clasp-silver-2",
+      "title": "Silver · 2 gems",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30540,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Silver · 2 gems",
+        "url": "ribbons/#quarter-clasp-silver-2"
+      },
+      "referencePage": "ribbons/#quarter-clasp-silver-2",
+      "summary": "Separate silver clasp bar. 2 gem markers can indicate an order or class once the author assigns its meaning. Compatible with the long ribbon bodies.",
+      "wordCount": 91,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-clasp-silver-3",
+      "title": "Silver · 3 gems",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30541,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Silver · 3 gems",
+        "url": "ribbons/#quarter-clasp-silver-3"
+      },
+      "referencePage": "ribbons/#quarter-clasp-silver-3",
+      "summary": "Separate silver clasp bar. 3 gem markers can indicate an order or class once the author assigns its meaning. Compatible with the long ribbon bodies.",
+      "wordCount": 91,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-clasp-silver-4",
+      "title": "Silver · blank",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30542,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Silver · blank",
+        "url": "ribbons/#quarter-clasp-silver-4"
+      },
+      "referencePage": "ribbons/#quarter-clasp-silver-4",
+      "summary": "Separate silver clasp bar. Blank inset for a future order or class label. Compatible with the long ribbon bodies.",
+      "wordCount": 84,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-01-aster",
+      "title": "Aster Vault",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30543,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Aster Vault",
+        "url": "ribbons/#quarter-01-aster"
+      },
+      "referencePage": "ribbons/#quarter-01-aster",
+      "summary": "An ornate fictional end-of-quarter pendant medal design. Assembled from the separately preserved ribbon and pendant pieces.",
+      "wordCount": 77,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-02-verdant",
+      "title": "Verdant Spire",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30544,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Verdant Spire",
+        "url": "ribbons/#quarter-02-verdant"
+      },
+      "referencePage": "ribbons/#quarter-02-verdant",
+      "summary": "An ornate fictional end-of-quarter pendant medal design. Assembled from the separately preserved ribbon and pendant pieces.",
+      "wordCount": 77,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-03-tideglass",
+      "title": "Tideglass",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30545,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Tideglass",
+        "url": "ribbons/#quarter-03-tideglass"
+      },
+      "referencePage": "ribbons/#quarter-03-tideglass",
+      "summary": "An ornate fictional end-of-quarter pendant medal design. Assembled from the separately preserved ribbon and pendant pieces.",
+      "wordCount": 76,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-04-ember",
+      "title": "Ember Loom",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30546,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Ember Loom",
+        "url": "ribbons/#quarter-04-ember"
+      },
+      "referencePage": "ribbons/#quarter-04-ember",
+      "summary": "An ornate fictional end-of-quarter pendant medal design. Assembled from the separately preserved ribbon and pendant pieces.",
+      "wordCount": 77,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-05-orchid-conservatory",
+      "title": "Orchid Conservatory",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30547,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Orchid Conservatory",
+        "url": "ribbons/#quarter-05-orchid-conservatory"
+      },
+      "referencePage": "ribbons/#quarter-05-orchid-conservatory",
+      "summary": "An ornate fictional end-of-quarter ceremonial ribbon design. Complete standalone artwork with every tail, tassel or pedestal visible.",
+      "wordCount": 81,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-06-celestial-fanfare",
+      "title": "Celestial Fanfare",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30548,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Celestial Fanfare",
+        "url": "ribbons/#quarter-06-celestial-fanfare"
+      },
+      "referencePage": "ribbons/#quarter-06-celestial-fanfare",
+      "summary": "An ornate fictional end-of-quarter ceremonial ribbon design. Complete standalone artwork with every tail, tassel or pedestal visible.",
+      "wordCount": 81,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-07-rosewater-gala",
+      "title": "Rosewater Gala",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30549,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Rosewater Gala",
+        "url": "ribbons/#quarter-07-rosewater-gala"
+      },
+      "referencePage": "ribbons/#quarter-07-rosewater-gala",
+      "summary": "An ornate fictional end-of-quarter ceremonial ribbon design. Complete standalone artwork with every tail, tassel or pedestal visible.",
+      "wordCount": 81,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-08-orbit-cup",
+      "title": "Orbit Cup",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30550,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Orbit Cup",
+        "url": "ribbons/#quarter-08-orbit-cup"
+      },
+      "referencePage": "ribbons/#quarter-08-orbit-cup",
+      "summary": "An ornate fictional end-of-quarter trophy design. Complete standalone artwork with every tail, tassel or pedestal visible.",
+      "wordCount": 79,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-09-prism-bloom",
+      "title": "Prism Bloom",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30551,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Prism Bloom",
+        "url": "ribbons/#quarter-09-prism-bloom"
+      },
+      "referencePage": "ribbons/#quarter-09-prism-bloom",
+      "summary": "An ornate fictional end-of-quarter trophy design. Complete standalone artwork with every tail, tassel or pedestal visible.",
+      "wordCount": 83,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-10-grand-cascade",
+      "title": "Grand Cascade",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30552,
+      "status": "Not used yet",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Grand Cascade",
+        "url": "ribbons/#quarter-10-grand-cascade"
+      },
+      "referencePage": "ribbons/#quarter-10-grand-cascade",
+      "summary": "An ornate fictional end-of-quarter trophy design. Complete standalone artwork with every tail, tassel or pedestal visible.",
+      "wordCount": 79,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-quarter-galaxy-gala-first",
+      "title": "Galaxy Gala · first center-tail version",
+      "kind": "Ribbons",
+      "era": [],
+      "timeLabel": "Gameplay reference · saved collection",
+      "timeOrder": 30553,
+      "status": "Archived concept",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "reference",
+        "logbook",
+        "ribbons"
+      ],
+      "source": {
+        "title": "Galaxy Gala · first center-tail version",
+        "url": "ribbons/#quarter-galaxy-gala-first"
+      },
+      "referencePage": "ribbons/#quarter-galaxy-gala-first",
+      "summary": "Earlier galaxy-color combination preserved for reference. Superseded by the extended-center version requested by the author.",
+      "wordCount": 73,
+      "explicitLinks": [
+        "reference-ribbons"
+      ],
+      "connectionLabel": "Reference collection",
+      "connections": [
+        {
+          "id": "reference-ribbons",
+          "label": "Reference collection"
+        }
+      ]
+    },
+    {
       "id": "ribbon-foundling-medal",
       "title": "Foundling · animated sunburst",
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30526,
+      "timeOrder": 30554,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27200,7 +28124,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30527,
+      "timeOrder": 30555,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27233,7 +28157,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30528,
+      "timeOrder": 30556,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27266,7 +28190,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30529,
+      "timeOrder": 30557,
       "status": "Archived concept",
       "characters": [],
       "places": [],
@@ -27299,7 +28223,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30530,
+      "timeOrder": 30558,
       "status": "Archived concept",
       "characters": [],
       "places": [],
@@ -27332,7 +28256,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30531,
+      "timeOrder": 30559,
       "status": "Archived concept",
       "characters": [],
       "places": [],
@@ -27365,7 +28289,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30532,
+      "timeOrder": 30560,
       "status": "Archived concept",
       "characters": [],
       "places": [],
@@ -27398,7 +28322,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30533,
+      "timeOrder": 30561,
       "status": "Archived concept",
       "characters": [],
       "places": [],
@@ -27431,7 +28355,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30534,
+      "timeOrder": 30562,
       "status": "Archived concept",
       "characters": [],
       "places": [],
@@ -27464,7 +28388,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30535,
+      "timeOrder": 30563,
       "status": "Archived concept",
       "characters": [],
       "places": [],
@@ -27497,7 +28421,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30536,
+      "timeOrder": 30564,
       "status": "Archived concept",
       "characters": [],
       "places": [],
@@ -27530,7 +28454,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30537,
+      "timeOrder": 30565,
       "status": "Archived concept",
       "characters": [],
       "places": [],
@@ -27563,7 +28487,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30538,
+      "timeOrder": 30566,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27596,7 +28520,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30539,
+      "timeOrder": 30567,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27629,7 +28553,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30540,
+      "timeOrder": 30568,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27662,7 +28586,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30541,
+      "timeOrder": 30569,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27695,7 +28619,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30542,
+      "timeOrder": 30570,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27728,7 +28652,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30543,
+      "timeOrder": 30571,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27761,7 +28685,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30544,
+      "timeOrder": 30572,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27794,7 +28718,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30545,
+      "timeOrder": 30573,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27827,7 +28751,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30546,
+      "timeOrder": 30574,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27860,7 +28784,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30547,
+      "timeOrder": 30575,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27893,7 +28817,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30548,
+      "timeOrder": 30576,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27926,7 +28850,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30549,
+      "timeOrder": 30577,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27959,7 +28883,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30550,
+      "timeOrder": 30578,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -27992,7 +28916,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30551,
+      "timeOrder": 30579,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28025,7 +28949,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30552,
+      "timeOrder": 30580,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28058,7 +28982,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30553,
+      "timeOrder": 30581,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28091,7 +29015,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30554,
+      "timeOrder": 30582,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28124,7 +29048,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30555,
+      "timeOrder": 30583,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28157,7 +29081,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30556,
+      "timeOrder": 30584,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28190,7 +29114,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30557,
+      "timeOrder": 30585,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28223,7 +29147,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30558,
+      "timeOrder": 30586,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28256,7 +29180,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30559,
+      "timeOrder": 30587,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28289,7 +29213,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30560,
+      "timeOrder": 30588,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28322,7 +29246,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30561,
+      "timeOrder": 30589,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28355,7 +29279,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30562,
+      "timeOrder": 30590,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28388,7 +29312,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30563,
+      "timeOrder": 30591,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28421,7 +29345,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30564,
+      "timeOrder": 30592,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28454,7 +29378,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30565,
+      "timeOrder": 30593,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28487,7 +29411,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30566,
+      "timeOrder": 30594,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28520,7 +29444,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30567,
+      "timeOrder": 30595,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28553,7 +29477,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30568,
+      "timeOrder": 30596,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28586,7 +29510,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30569,
+      "timeOrder": 30597,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28619,7 +29543,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30570,
+      "timeOrder": 30598,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28652,7 +29576,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30571,
+      "timeOrder": 30599,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28685,7 +29609,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30572,
+      "timeOrder": 30600,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28718,7 +29642,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30573,
+      "timeOrder": 30601,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28751,7 +29675,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30574,
+      "timeOrder": 30602,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28784,7 +29708,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30575,
+      "timeOrder": 30603,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28817,7 +29741,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30576,
+      "timeOrder": 30604,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28850,7 +29774,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30577,
+      "timeOrder": 30605,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28883,7 +29807,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30578,
+      "timeOrder": 30606,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28916,7 +29840,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30579,
+      "timeOrder": 30607,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28949,7 +29873,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30580,
+      "timeOrder": 30608,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -28982,7 +29906,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30581,
+      "timeOrder": 30609,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29015,7 +29939,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30582,
+      "timeOrder": 30610,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29048,7 +29972,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30583,
+      "timeOrder": 30611,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29081,7 +30005,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30584,
+      "timeOrder": 30612,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29114,7 +30038,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30585,
+      "timeOrder": 30613,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29147,7 +30071,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30586,
+      "timeOrder": 30614,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29180,7 +30104,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30587,
+      "timeOrder": 30615,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29213,7 +30137,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30588,
+      "timeOrder": 30616,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29246,7 +30170,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30589,
+      "timeOrder": 30617,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29279,7 +30203,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30590,
+      "timeOrder": 30618,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29312,7 +30236,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30591,
+      "timeOrder": 30619,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29345,7 +30269,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30592,
+      "timeOrder": 30620,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29378,7 +30302,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30593,
+      "timeOrder": 30621,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29411,7 +30335,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30594,
+      "timeOrder": 30622,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29444,7 +30368,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30595,
+      "timeOrder": 30623,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29477,7 +30401,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30596,
+      "timeOrder": 30624,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29510,7 +30434,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30597,
+      "timeOrder": 30625,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29543,7 +30467,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30598,
+      "timeOrder": 30626,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29576,7 +30500,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30599,
+      "timeOrder": 30627,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29609,7 +30533,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30600,
+      "timeOrder": 30628,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29642,7 +30566,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30601,
+      "timeOrder": 30629,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29675,7 +30599,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30602,
+      "timeOrder": 30630,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29708,7 +30632,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30603,
+      "timeOrder": 30631,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29741,7 +30665,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30604,
+      "timeOrder": 30632,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29774,7 +30698,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30605,
+      "timeOrder": 30633,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29807,7 +30731,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30606,
+      "timeOrder": 30634,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29840,7 +30764,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30607,
+      "timeOrder": 30635,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29873,7 +30797,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30608,
+      "timeOrder": 30636,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29906,7 +30830,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30609,
+      "timeOrder": 30637,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29939,7 +30863,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30610,
+      "timeOrder": 30638,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -29972,7 +30896,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30611,
+      "timeOrder": 30639,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30005,7 +30929,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30612,
+      "timeOrder": 30640,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30038,7 +30962,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30613,
+      "timeOrder": 30641,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30071,7 +30995,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30614,
+      "timeOrder": 30642,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30104,7 +31028,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30615,
+      "timeOrder": 30643,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30137,7 +31061,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30616,
+      "timeOrder": 30644,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30170,7 +31094,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30617,
+      "timeOrder": 30645,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30203,7 +31127,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30618,
+      "timeOrder": 30646,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30236,7 +31160,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30619,
+      "timeOrder": 30647,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30269,7 +31193,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30620,
+      "timeOrder": 30648,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30302,7 +31226,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30621,
+      "timeOrder": 30649,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30335,7 +31259,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30622,
+      "timeOrder": 30650,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30368,7 +31292,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30623,
+      "timeOrder": 30651,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30401,7 +31325,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30624,
+      "timeOrder": 30652,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30434,7 +31358,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30625,
+      "timeOrder": 30653,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30467,7 +31391,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30626,
+      "timeOrder": 30654,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30500,7 +31424,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30627,
+      "timeOrder": 30655,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30533,7 +31457,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30628,
+      "timeOrder": 30656,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30566,7 +31490,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30629,
+      "timeOrder": 30657,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30599,7 +31523,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30630,
+      "timeOrder": 30658,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30632,7 +31556,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30631,
+      "timeOrder": 30659,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30665,7 +31589,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30632,
+      "timeOrder": 30660,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30698,7 +31622,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30633,
+      "timeOrder": 30661,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30731,7 +31655,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30634,
+      "timeOrder": 30662,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30768,7 +31692,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30635,
+      "timeOrder": 30663,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30801,7 +31725,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30636,
+      "timeOrder": 30664,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30834,7 +31758,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30637,
+      "timeOrder": 30665,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30867,7 +31791,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30638,
+      "timeOrder": 30666,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30900,7 +31824,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30639,
+      "timeOrder": 30667,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30933,7 +31857,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30640,
+      "timeOrder": 30668,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30966,7 +31890,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30641,
+      "timeOrder": 30669,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -30999,7 +31923,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30642,
+      "timeOrder": 30670,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -31032,7 +31956,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30643,
+      "timeOrder": 30671,
       "status": "In use",
       "characters": [],
       "places": [],
@@ -31065,7 +31989,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30644,
+      "timeOrder": 30672,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31098,7 +32022,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30645,
+      "timeOrder": 30673,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31131,7 +32055,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30646,
+      "timeOrder": 30674,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31164,7 +32088,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30647,
+      "timeOrder": 30675,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31197,7 +32121,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30648,
+      "timeOrder": 30676,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31230,7 +32154,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30649,
+      "timeOrder": 30677,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31263,7 +32187,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30650,
+      "timeOrder": 30678,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31296,7 +32220,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30651,
+      "timeOrder": 30679,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31329,7 +32253,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30652,
+      "timeOrder": 30680,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31362,7 +32286,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30653,
+      "timeOrder": 30681,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31395,7 +32319,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30654,
+      "timeOrder": 30682,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31428,7 +32352,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30655,
+      "timeOrder": 30683,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31461,7 +32385,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30656,
+      "timeOrder": 30684,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31494,7 +32418,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30657,
+      "timeOrder": 30685,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31527,7 +32451,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30658,
+      "timeOrder": 30686,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31560,7 +32484,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30659,
+      "timeOrder": 30687,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31593,7 +32517,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30660,
+      "timeOrder": 30688,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31626,7 +32550,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30661,
+      "timeOrder": 30689,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31659,7 +32583,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30662,
+      "timeOrder": 30690,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31692,7 +32616,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30663,
+      "timeOrder": 30691,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31725,7 +32649,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30664,
+      "timeOrder": 30692,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31758,7 +32682,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30665,
+      "timeOrder": 30693,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31791,7 +32715,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30666,
+      "timeOrder": 30694,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31824,7 +32748,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30667,
+      "timeOrder": 30695,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31857,7 +32781,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30668,
+      "timeOrder": 30696,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31890,7 +32814,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30669,
+      "timeOrder": 30697,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31923,7 +32847,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30670,
+      "timeOrder": 30698,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31956,7 +32880,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30671,
+      "timeOrder": 30699,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -31989,7 +32913,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30672,
+      "timeOrder": 30700,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -32022,7 +32946,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30673,
+      "timeOrder": 30701,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -32055,7 +32979,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30674,
+      "timeOrder": 30702,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -32088,7 +33012,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30675,
+      "timeOrder": 30703,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -32121,7 +33045,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30676,
+      "timeOrder": 30704,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -32154,7 +33078,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30677,
+      "timeOrder": 30705,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -32187,7 +33111,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30678,
+      "timeOrder": 30706,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -32220,7 +33144,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30679,
+      "timeOrder": 30707,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -32253,7 +33177,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30680,
+      "timeOrder": 30708,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -32286,7 +33210,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30681,
+      "timeOrder": 30709,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -32319,7 +33243,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30682,
+      "timeOrder": 30710,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -32352,7 +33276,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30683,
+      "timeOrder": 30711,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -32385,7 +33309,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30684,
+      "timeOrder": 30712,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -32418,7 +33342,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30685,
+      "timeOrder": 30713,
       "status": "Not used yet",
       "characters": [],
       "places": [],
@@ -32451,7 +33375,7 @@
       "kind": "Ribbons",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30686,
+      "timeOrder": 30714,
       "status": "reference",
       "characters": [],
       "places": [],
@@ -32466,7 +33390,7 @@
       },
       "referencePage": "ribbons/",
       "summary": "Every ribbon, medal, trophy and archived design on one illustrated, annotatable logbook page.",
-      "wordCount": 11018,
+      "wordCount": 13453,
       "explicitLinks": [],
       "connectionLabel": "Reference collection",
       "connections": [
@@ -32476,6 +33400,18 @@
         },
         {
           "id": "ribbon-archive_cup",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-01-aster",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-01-aster-pendant",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-01-aster-ribbon",
           "label": "Reference collection"
         },
         {
@@ -32496,6 +33432,10 @@
         },
         {
           "id": "ribbon-block_breaker",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-06-celestial-fanfare",
           "label": "Reference collection"
         },
         {
@@ -32584,6 +33524,18 @@
         },
         {
           "id": "ribbon-electric_encore",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-04-ember",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-04-ember-pendant",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-04-ember-ribbon",
           "label": "Reference collection"
         },
         {
@@ -32719,7 +33671,35 @@
           "label": "Reference collection"
         },
         {
+          "id": "ribbon-quarter-galaxy-gala",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-galaxy-gala-first",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-clasp-gold-1",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-clasp-gold-2",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-clasp-gold-3",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-clasp-gold-4",
+          "label": "Reference collection"
+        },
+        {
           "id": "ribbon-arena_ten",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-10-grand-cascade",
           "label": "Reference collection"
         },
         {
@@ -32919,6 +33899,14 @@
           "label": "Reference collection"
         },
         {
+          "id": "ribbon-quarter-08-orbit-cup",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-05-orchid-conservatory",
+          "label": "Reference collection"
+        },
+        {
           "id": "ribbon-running_pace_keeper",
           "label": "Reference collection"
         },
@@ -32975,6 +33963,10 @@
           "label": "Reference collection"
         },
         {
+          "id": "ribbon-quarter-09-prism-bloom",
+          "label": "Reference collection"
+        },
+        {
           "id": "ribbon-running_quick_circuit",
           "label": "Reference collection"
         },
@@ -33007,11 +33999,31 @@
           "label": "Reference collection"
         },
         {
+          "id": "ribbon-quarter-07-rosewater-gala",
+          "label": "Reference collection"
+        },
+        {
           "id": "ribbon-board_sharing",
           "label": "Reference collection"
         },
         {
           "id": "ribbon-charisma_show_regular",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-clasp-silver-1",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-clasp-silver-2",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-clasp-silver-3",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-clasp-silver-4",
           "label": "Reference collection"
         },
         {
@@ -33063,6 +34075,18 @@
           "label": "Reference collection"
         },
         {
+          "id": "ribbon-quarter-03-tideglass",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-03-tideglass-pendant",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-03-tideglass-ribbon",
+          "label": "Reference collection"
+        },
+        {
           "id": "ribbon-running_track_regular",
           "label": "Reference collection"
         },
@@ -33111,6 +34135,18 @@
           "label": "Reference collection"
         },
         {
+          "id": "ribbon-quarter-02-verdant",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-02-verdant-pendant",
+          "label": "Reference collection"
+        },
+        {
+          "id": "ribbon-quarter-02-verdant-ribbon",
+          "label": "Reference collection"
+        },
+        {
           "id": "ribbon-world_breaker",
           "label": "Reference collection"
         }
@@ -33122,7 +34158,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30687,
+      "timeOrder": 30715,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -33155,7 +34191,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30688,
+      "timeOrder": 30716,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -33188,7 +34224,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30689,
+      "timeOrder": 30717,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -33221,7 +34257,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30690,
+      "timeOrder": 30718,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -33254,7 +34290,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30691,
+      "timeOrder": 30719,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -33287,7 +34323,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30692,
+      "timeOrder": 30720,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -33320,7 +34356,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30693,
+      "timeOrder": 30721,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -33353,7 +34389,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30694,
+      "timeOrder": 30722,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -33386,7 +34422,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30695,
+      "timeOrder": 30723,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -33419,7 +34455,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30696,
+      "timeOrder": 30724,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -33452,7 +34488,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30697,
+      "timeOrder": 30725,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -33485,7 +34521,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30698,
+      "timeOrder": 30726,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -33518,7 +34554,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30699,
+      "timeOrder": 30727,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -33551,7 +34587,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30700,
+      "timeOrder": 30728,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -33584,7 +34620,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30701,
+      "timeOrder": 30729,
       "status": "gameplay reference",
       "characters": [],
       "places": [],
@@ -33617,7 +34653,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30702,
+      "timeOrder": 30730,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33664,7 +34700,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30703,
+      "timeOrder": 30731,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33708,7 +34744,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30704,
+      "timeOrder": 30732,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33752,7 +34788,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30705,
+      "timeOrder": 30733,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33795,7 +34831,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30706,
+      "timeOrder": 30734,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33838,7 +34874,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30707,
+      "timeOrder": 30735,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33881,7 +34917,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30708,
+      "timeOrder": 30736,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33924,7 +34960,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30709,
+      "timeOrder": 30737,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -33967,7 +35003,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30710,
+      "timeOrder": 30738,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34010,7 +35046,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30711,
+      "timeOrder": 30739,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34053,7 +35089,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30712,
+      "timeOrder": 30740,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34092,7 +35128,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30713,
+      "timeOrder": 30741,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34131,7 +35167,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30714,
+      "timeOrder": 30742,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34170,7 +35206,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30715,
+      "timeOrder": 30743,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34209,7 +35245,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30716,
+      "timeOrder": 30744,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34248,7 +35284,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30717,
+      "timeOrder": 30745,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34291,7 +35327,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30718,
+      "timeOrder": 30746,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34330,7 +35366,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30719,
+      "timeOrder": 30747,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34369,7 +35405,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30720,
+      "timeOrder": 30748,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34408,7 +35444,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30721,
+      "timeOrder": 30749,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34447,7 +35483,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30722,
+      "timeOrder": 30750,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34486,7 +35522,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30723,
+      "timeOrder": 30751,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34525,7 +35561,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30724,
+      "timeOrder": 30752,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34564,7 +35600,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30725,
+      "timeOrder": 30753,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34603,7 +35639,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30726,
+      "timeOrder": 30754,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34642,7 +35678,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30727,
+      "timeOrder": 30755,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34681,7 +35717,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30728,
+      "timeOrder": 30756,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34720,7 +35756,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30729,
+      "timeOrder": 30757,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34759,7 +35795,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30730,
+      "timeOrder": 30758,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34798,7 +35834,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30731,
+      "timeOrder": 30759,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34837,7 +35873,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30732,
+      "timeOrder": 30760,
       "status": "gameplay reference",
       "characters": [],
       "places": [
@@ -34876,7 +35912,7 @@
       "kind": "Illnesses",
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
-      "timeOrder": 30733,
+      "timeOrder": 30761,
       "status": "reference",
       "characters": [],
       "places": [
@@ -35436,7 +36472,7 @@
     "People": 100,
     "Reference": 11,
     "Remedies": 34,
-    "Ribbons": 161,
+    "Ribbons": 189,
     "Song": 4,
     "Story": 15,
     "Timeline": 18

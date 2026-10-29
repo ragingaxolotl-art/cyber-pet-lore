@@ -1,0 +1,449 @@
+{
+  "jobs": [
+    {
+      "id": "01-aster-ribbon",
+      "name": "Aster Vault / ribbon",
+      "w": 192,
+      "h": 256,
+      "prompt": "A long narrow midnight-indigo silk suspension ribbon ONLY, with fine gold woven edges and two thin turquoise stripes. At top an extravagant gold scrollwork brooch set with an opal oval. Ribbon hangs vertically, broad uninterrupted middle area for removable clasp bars, ends in a finely engraved small gold triangular fitting and a single tiny central attachment loop at the bottom. NO hanging medal or pendant yet. The fabric must be long and elegant, roughly 80 pixels wide and 190 tall; centered.",
+      "args": {
+        "description": "Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. A long narrow midnight-indigo silk suspension ribbon ONLY, with fine gold woven edges and two thin turquoise stripes. At top an extravagant gold scrollwork brooch set with an opal oval. Ribbon hangs vertically, broad uninterrupted middle area for removable clasp bars, ends in a finely engraved small gold triangular fitting and a single tiny central attachment loop at the bottom. NO hanging medal or pendant yet. The fabric must be long and elegant, roughly 80 pixels wide and 190 tall; centered.",
+        "width": 192,
+        "height": 256,
+        "no_background": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 7264df4d-5c71-466d-b5b4-b4fb4025b494\njob_id: 7264df4d-5c71-466d-b5b4-b4fb4025b494\nmodel: pro\ndescription: Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. A long narrow midnight-indigo silk suspension ribbon ONLY, with fine gold woven edges and two thin turquoise stripes. At top an extravagant gold scrollwork brooch set with an opal oval. Ribbon hangs vertically, broad uninterrupted middle area for removable clasp bars, ends in a finely engraved small gold triangular fitting and a single tiny central attachment loop at the bottom. NO hanging medal or pendant yet. The fabric must be long and elegant, roughly 80 pixels wide and 190 tall; centered.\nsize: 192x256px\ntransparent: True\ncandidates: 1\nasset_id: 15ba8e04-cbc0-55c1-afde-2e185ed0f0a6\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"7264df4d-5c71-466d-b5b4-b4fb4025b494\")"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "7264df4d-5c71-466d-b5b4-b4fb4025b494"
+    },
+    {
+      "id": "01-aster-pendant",
+      "name": "Aster Vault / pendant",
+      "w": 192,
+      "h": 192,
+      "prompt": "A standalone magnificent hanging jewel pendant ONLY, NO ribbon: eight rounded elongated gold petals surrounding an opalescent deep blue cabochon and nested orbit filigree, tiny turquoise enamel details, little droplet finial. Distinct invented flower-orbit silhouette, richly layered open metalwork. One small suspension bail at top center. Entire pendant approximately 140 pixels wide.",
+      "args": {
+        "description": "Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. A standalone magnificent hanging jewel pendant ONLY, NO ribbon: eight rounded elongated gold petals surrounding an opalescent deep blue cabochon and nested orbit filigree, tiny turquoise enamel details, little droplet finial. Distinct invented flower-orbit silhouette, richly layered open metalwork. One small suspension bail at top center. Entire pendant approximately 140 pixels wide.",
+        "width": 192,
+        "height": 192,
+        "no_background": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 385a911c-978f-4bf0-b188-b10914841610\njob_id: 385a911c-978f-4bf0-b188-b10914841610\nmodel: pro\ndescription: Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. A standalone magnificent hanging jewel pendant ONLY, NO ribbon: eight rounded elongated gold petals surrounding an opalescent deep blue cabochon and nested orbit filigree, tiny turquoise enamel details, little droplet finial. Distinct invented flower-orbit silhouette, richly layered open metalwork. One small suspension bail at top center. Entire pendant approximately 140 pixels wide.\nsize: 192x192px\ntransparent: True\ncandidates: 1\nasset_id: 6e44124c-9f1d-5e1a-9c6e-c4f719eb8d7a\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"385a911c-978f-4bf0-b188-b10914841610\")"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "385a911c-978f-4bf0-b188-b10914841610"
+    },
+    {
+      "id": "02-verdant-ribbon",
+      "name": "Verdant Spire / ribbon",
+      "w": 192,
+      "h": 256,
+      "prompt": "A long narrow emerald and dark jade silk suspension ribbon ONLY with copper-rose-gold braided edges, pale mint central stripe. At top an extravagant rose-gold curling vine brooch with square emerald. Long uninterrupted middle fabric for removable clasp bars. At bottom a small chased copper fitting with central tiny attachment loop. NO hanging medal or pendant yet. Fabric roughly 80 pixels wide and 190 tall; centered.",
+      "args": {
+        "description": "Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. A long narrow emerald and dark jade silk suspension ribbon ONLY with copper-rose-gold braided edges, pale mint central stripe. At top an extravagant rose-gold curling vine brooch with square emerald. Long uninterrupted middle fabric for removable clasp bars. At bottom a small chased copper fitting with central tiny attachment loop. NO hanging medal or pendant yet. Fabric roughly 80 pixels wide and 190 tall; centered.",
+        "width": 192,
+        "height": 256,
+        "no_background": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 1cf2cb51-a44b-4eac-af6e-755c9c0bd6d8\njob_id: 1cf2cb51-a44b-4eac-af6e-755c9c0bd6d8\nmodel: pro\ndescription: Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. A long narrow emerald and dark jade silk suspension ribbon ONLY with copper-rose-gold braided edges, pale mint central stripe. At top an extravagant rose-gold curling vine brooch with square emerald. Long uninterrupted middle fabric for removable clasp bars. At bottom a small chased copper fitting with central tiny attachment loop. NO hanging medal or pendant yet. Fabric roughly 80 pixels wide and 190 tall; centered.\nsize: 192x256px\ntransparent: True\ncandidates: 1\nasset_id: d431ea45-ade4-5c47-9df6-e769e0ab1af3\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"1cf2cb51-a44b-4eac-af6e-755c9c0bd6d8\")"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "1cf2cb51-a44b-4eac-af6e-755c9c0bd6d8"
+    },
+    {
+      "id": "02-verdant-pendant",
+      "name": "Verdant Spire / pendant",
+      "w": 192,
+      "h": 192,
+      "prompt": "A standalone spectacular rose-gold and copper pendant ONLY, NO ribbon: elongated open teardrop frame made of interwoven curling metal vines holding a faceted mint-green crystal spire, four tiny emerald buds and fine dangling bead at base. Rich raised filigree and engraved edges. One small suspension bail at top center. Entire pendant approximately 130 pixels wide.",
+      "args": {
+        "description": "Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. A standalone spectacular rose-gold and copper pendant ONLY, NO ribbon: elongated open teardrop frame made of interwoven curling metal vines holding a faceted mint-green crystal spire, four tiny emerald buds and fine dangling bead at base. Rich raised filigree and engraved edges. One small suspension bail at top center. Entire pendant approximately 130 pixels wide.",
+        "width": 192,
+        "height": 192,
+        "no_background": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: bc459f3b-11e5-4e70-bdd1-055fd1bf082f\njob_id: bc459f3b-11e5-4e70-bdd1-055fd1bf082f\nmodel: pro\ndescription: Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. A standalone spectacular rose-gold and copper pendant ONLY, NO ribbon: elongated open teardrop frame made of interwoven curling metal vines holding a faceted mint-green crystal spire, four tiny emerald buds and fine dangling bead at base. Rich raised filigree and engraved edges. One small suspension bail at top center. Entire pendant approximately 130 pixels wide.\nsize: 192x192px\ntransparent: True\ncandidates: 1\nasset_id: 113b0239-815f-5397-b50e-a4cda0d1faf2\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"bc459f3b-11e5-4e70-bdd1-055fd1bf082f\")"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "bc459f3b-11e5-4e70-bdd1-055fd1bf082f"
+    },
+    {
+      "id": "03-tideglass-ribbon",
+      "name": "Tideglass / ribbon",
+      "w": 192,
+      "h": 256,
+      "prompt": "A long narrow peacock-teal silk suspension ribbon ONLY, shimmering silver woven edges and two fine icy-white stripes. At top a spectacular platinum brooch of curling wave filigree set with a turquoise cabochon. Long uninterrupted middle fabric for removable clasp bars. Bottom ends in a small engraved silver cap and tiny central attachment loop. NO pendant or hanging medal yet. Fabric roughly 80 pixels wide and 190 tall; centered.",
+      "args": {
+        "description": "Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. A long narrow peacock-teal silk suspension ribbon ONLY, shimmering silver woven edges and two fine icy-white stripes. At top a spectacular platinum brooch of curling wave filigree set with a turquoise cabochon. Long uninterrupted middle fabric for removable clasp bars. Bottom ends in a small engraved silver cap and tiny central attachment loop. NO pendant or hanging medal yet. Fabric roughly 80 pixels wide and 190 tall; centered.",
+        "width": 192,
+        "height": 256,
+        "no_background": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: bdc25059-899e-4382-857d-ca9ee78ff826\njob_id: bdc25059-899e-4382-857d-ca9ee78ff826\nmodel: pro\ndescription: Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. A long narrow peacock-teal silk suspension ribbon ONLY, shimmering silver woven edges and two fine icy-white stripes. At top a spectacular platinum brooch of curling wave filigree set with a turquoise cabochon. Long uninterrupted middle fabric for removable clasp bars. Bottom ends in a small engraved silver cap and tiny central attachment loop. NO pendant or hanging medal yet. Fabric roughly 80 pixels wide and 190 tall; centered.\nsize: 192x256px\ntransparent: True\ncandidates: 1\nasset_id: 0f1ac948-f7dd-5178-8609-0069d6990044\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"bdc25059-899e-4382-857d-ca9ee78ff826\")"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "bdc25059-899e-4382-857d-ca9ee78ff826"
+    },
+    {
+      "id": "03-tideglass-pendant",
+      "name": "Tideglass / pendant",
+      "w": 192,
+      "h": 192,
+      "prompt": "A standalone exquisite platinum-silver hanging pendant ONLY, NO ribbon: interlocking curling wave loops enclosing a translucent aquamarine pear gem and a smaller suspended blue pearl, elaborate beadwork and engraved ripples, tapered oval openwork silhouette. One small suspension bail at top center. Entire pendant approximately 135 pixels wide.",
+      "args": {
+        "description": "Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. A standalone exquisite platinum-silver hanging pendant ONLY, NO ribbon: interlocking curling wave loops enclosing a translucent aquamarine pear gem and a smaller suspended blue pearl, elaborate beadwork and engraved ripples, tapered oval openwork silhouette. One small suspension bail at top center. Entire pendant approximately 135 pixels wide.",
+        "width": 192,
+        "height": 192,
+        "no_background": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 4e1f2845-6fbc-4369-8ddc-6e941a2ea46c\njob_id: 4e1f2845-6fbc-4369-8ddc-6e941a2ea46c\nmodel: pro\ndescription: Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. A standalone exquisite platinum-silver hanging pendant ONLY, NO ribbon: interlocking curling wave loops enclosing a translucent aquamarine pear gem and a smaller suspended blue pearl, elaborate beadwork and engraved ripples, tapered oval openwork silhouette. One small suspension bail at top center. Entire pendant approximately 135 pixels wide.\nsize: 192x192px\ntransparent: True\ncandidates: 1\nasset_id: e26b2ef3-3d32-53e9-97e5-32b7eef3a889\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"4e1f2845-6fbc-4369-8ddc-6e941a2ea46c\")"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "4e1f2845-6fbc-4369-8ddc-6e941a2ea46c"
+    },
+    {
+      "id": "04-ember-ribbon",
+      "name": "Ember Loom / ribbon",
+      "w": 192,
+      "h": 256,
+      "prompt": "A long narrow burgundy-crimson velvet suspension ribbon ONLY, antique gold embroidered edges with very fine amber zigzag stitching. At top an elaborate gold folded-knot brooch with amber cabochon. Long uninterrupted middle fabric for removable clasp bars. Bottom has a small ornate gold fitting and tiny central attachment loop. NO pendant or hanging medal yet. Fabric roughly 80 pixels wide and 190 tall; centered.",
+      "args": {
+        "description": "Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. A long narrow burgundy-crimson velvet suspension ribbon ONLY, antique gold embroidered edges with very fine amber zigzag stitching. At top an elaborate gold folded-knot brooch with amber cabochon. Long uninterrupted middle fabric for removable clasp bars. Bottom has a small ornate gold fitting and tiny central attachment loop. NO pendant or hanging medal yet. Fabric roughly 80 pixels wide and 190 tall; centered.",
+        "width": 192,
+        "height": 256,
+        "no_background": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 81c3a0e7-ddba-4228-ac5e-56d96cce2a76\njob_id: 81c3a0e7-ddba-4228-ac5e-56d96cce2a76\nmodel: pro\ndescription: Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. A long narrow burgundy-crimson velvet suspension ribbon ONLY, antique gold embroidered edges with very fine amber zigzag stitching. At top an elaborate gold folded-knot brooch with amber cabochon. Long uninterrupted middle fabric for removable clasp bars. Bottom has a small ornate gold fitting and tiny central attachment loop. NO pendant or hanging medal yet. Fabric roughly 80 pixels wide and 190 tall; centered.\nsize: 192x256px\ntransparent: True\ncandidates: 1\nasset_id: c89eac44-3c94-5abf-8c9e-0da18cbdf313\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"81c3a0e7-ddba-4228-ac5e-56d96cce2a76\")"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "81c3a0e7-ddba-4228-ac5e-56d96cce2a76"
+    },
+    {
+      "id": "04-ember-pendant",
+      "name": "Ember Loom / pendant",
+      "w": 192,
+      "h": 192,
+      "prompt": "A standalone spectacular antique gold hanging pendant ONLY, NO ribbon: an original openwork lantern-flower shape enclosing a faceted glowing amber heart-shaped jewel, outward curling filigree brackets and three tiny garnet droplets suspended from the bottom rim. Invented jewel geometry, no crest. One small suspension bail at top center. Entire pendant approximately 140 pixels wide.",
+      "args": {
+        "description": "Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. A standalone spectacular antique gold hanging pendant ONLY, NO ribbon: an original openwork lantern-flower shape enclosing a faceted glowing amber heart-shaped jewel, outward curling filigree brackets and three tiny garnet droplets suspended from the bottom rim. Invented jewel geometry, no crest. One small suspension bail at top center. Entire pendant approximately 140 pixels wide.",
+        "width": 192,
+        "height": 192,
+        "no_background": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 0ec81828-5398-43c2-9cbe-493a577dcd5b\njob_id: 0ec81828-5398-43c2-9cbe-493a577dcd5b\nmodel: pro\ndescription: Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. A standalone spectacular antique gold hanging pendant ONLY, NO ribbon: an original openwork lantern-flower shape enclosing a faceted glowing amber heart-shaped jewel, outward curling filigree brackets and three tiny garnet droplets suspended from the bottom rim. Invented jewel geometry, no crest. One small suspension bail at top center. Entire pendant approximately 140 pixels wide.\nsize: 192x192px\ntransparent: True\ncandidates: 1\nasset_id: f5216307-76ed-575d-8911-e86a59735812\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"0ec81828-5398-43c2-9cbe-493a577dcd5b\")"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "0ec81828-5398-43c2-9cbe-493a577dcd5b"
+    },
+    {
+      "id": "05-orchid-conservatory",
+      "name": "Orchid Conservatory",
+      "w": 256,
+      "h": 384,
+      "prompt": "ONE magnificently extravagant ceremonial rosette award. Triple-layer pleated orchid-purple and pearl-white satin rosette at the top, sculpted rose-gold looping filigree bezel and large lavender jewel center. Five very long flowing fishtail streamers with fine gold floral embroidery, tiny golden tassels and pearl edging, all tails fully visible and naturally separated. Royal theatrical pageantry, much more ornate than a simple sports ribbon. Full award fits inside a 200 by 330 pixel central area.",
+      "args": {
+        "description": "Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. ONE magnificently extravagant ceremonial rosette award. Triple-layer pleated orchid-purple and pearl-white satin rosette at the top, sculpted rose-gold looping filigree bezel and large lavender jewel center. Five very long flowing fishtail streamers with fine gold floral embroidery, tiny golden tassels and pearl edging, all tails fully visible and naturally separated. Royal theatrical pageantry, much more ornate than a simple sports ribbon. Full award fits inside a 200 by 330 pixel central area.",
+        "width": 256,
+        "height": 384,
+        "no_background": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 643ea8eb-e3c0-4dc4-a2a7-35736233e283\njob_id: 643ea8eb-e3c0-4dc4-a2a7-35736233e283\nmodel: pro\ndescription: Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. ONE magnificently extravagant ceremonial rosette award. Triple-layer pleated orchid-purple and pearl-white satin rosette at the top, sculpted rose-gold looping filigree bezel and large lavender jewel center. Five very long flowing fishtail streamers with fine gold floral embroidery, tiny golden tassels and pearl edging, all tails fully visible and naturally separated. Royal theatrical pageantry, much more ornate than a simple sports ribbon. Full award fits inside a 200 by 330 pixel central area.\nsize: 256x384px\ntransparent: True\ncandidates: 1\nasset_id: 17d285e3-fef1-5cbe-859f-a54d281ab237\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"643ea8eb-e3c0-4dc4-a2a7-35736233e283\")"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "643ea8eb-e3c0-4dc4-a2a7-35736233e283"
+    },
+    {
+      "id": "06-celestial-fanfare",
+      "name": "Celestial Fanfare",
+      "w": 256,
+      "h": 384,
+      "prompt": "ONE extravagant formal competition ribbon award in rich cobalt, ice blue and platinum. Tall Art-Deco fan-shaped pleated satin crest with three nested arcs, silver beaded edging, six-petal snowglass blue gem centerpiece, two long central swallowtail ribbons and two shorter curling side ribbons. Intricate silver geometric embroidery and hanging silver teardrop tips. Sophisticated striking silhouette distinct from a circular rosette. Full award fits inside a 200 by 330 pixel central area.",
+      "args": {
+        "description": "Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. ONE extravagant formal competition ribbon award in rich cobalt, ice blue and platinum. Tall Art-Deco fan-shaped pleated satin crest with three nested arcs, silver beaded edging, six-petal snowglass blue gem centerpiece, two long central swallowtail ribbons and two shorter curling side ribbons. Intricate silver geometric embroidery and hanging silver teardrop tips. Sophisticated striking silhouette distinct from a circular rosette. Full award fits inside a 200 by 330 pixel central area.",
+        "width": 256,
+        "height": 384,
+        "no_background": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 80cc6b7c-95cd-4dd5-98b2-786ef8a76744\njob_id: 80cc6b7c-95cd-4dd5-98b2-786ef8a76744\nmodel: pro\ndescription: Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. ONE extravagant formal competition ribbon award in rich cobalt, ice blue and platinum. Tall Art-Deco fan-shaped pleated satin crest with three nested arcs, silver beaded edging, six-petal snowglass blue gem centerpiece, two long central swallowtail ribbons and two shorter curling side ribbons. Intricate silver geometric embroidery and hanging silver teardrop tips. Sophisticated striking silhouette distinct from a circular rosette. Full award fits inside a 200 by 330 pixel central area.\nsize: 256x384px\ntransparent: True\ncandidates: 1\nasset_id: 2d34586a-17d9-5c90-a921-f33460de47e5\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"80cc6b7c-95cd-4dd5-98b2-786ef8a76744\")"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "80cc6b7c-95cd-4dd5-98b2-786ef8a76744"
+    },
+    {
+      "id": "07-rosewater-gala",
+      "name": "Rosewater Gala",
+      "w": 256,
+      "h": 384,
+      "prompt": "ONE extremely fancy ceremonial competition prize ribbon. Layered asymmetrical coral-pink and champagne silk loops arranged as an elegant large flower with a rose-gold filigree central oval pearl cameo. Three luxurious long ribbon tails with scalloped embroidered edges, golden fringe and small pearl-drop tassels, curled outer satin flourishes. Fine jewel-studded trims, exquisite fabric shading. No portrait on cameo; simple luminous pearl. Full award fits inside a 200 by 330 pixel central area.",
+      "args": {
+        "description": "Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. ONE extremely fancy ceremonial competition prize ribbon. Layered asymmetrical coral-pink and champagne silk loops arranged as an elegant large flower with a rose-gold filigree central oval pearl cameo. Three luxurious long ribbon tails with scalloped embroidered edges, golden fringe and small pearl-drop tassels, curled outer satin flourishes. Fine jewel-studded trims, exquisite fabric shading. No portrait on cameo; simple luminous pearl. Full award fits inside a 200 by 330 pixel central area.",
+        "width": 256,
+        "height": 384,
+        "no_background": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: e4a30845-f805-44fe-b4f3-c68674ad1954\njob_id: e4a30845-f805-44fe-b4f3-c68674ad1954\nmodel: pro\ndescription: Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. ONE extremely fancy ceremonial competition prize ribbon. Layered asymmetrical coral-pink and champagne silk loops arranged as an elegant large flower with a rose-gold filigree central oval pearl cameo. Three luxurious long ribbon tails with scalloped embroidered edges, golden fringe and small pearl-drop tassels, curled outer satin flourishes. Fine jewel-studded trims, exquisite fabric shading. No portrait on cameo; simple luminous pearl. Full award fits inside a 200 by 330 pixel central area.\nsize: 256x384px\ntransparent: True\ncandidates: 1\nasset_id: 7b634e92-16e1-55b9-9c9c-7554bbeaac49\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"e4a30845-f805-44fe-b4f3-c68674ad1954\")"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "e4a30845-f805-44fe-b4f3-c68674ad1954"
+    },
+    {
+      "id": "08-orbit-cup",
+      "name": "Orbit Cup",
+      "w": 256,
+      "h": 320,
+      "prompt": "ONE lavish fantasy end-of-quarter trophy: a polished gold orrery sculpture with three intersecting open elliptical rings around a suspended luminous sapphire sphere, tiny gem-tipped orbit spokes, elaborate engraved filigree brackets on an elegant fluted stem, a tiered midnight-blue enamel and gold pedestal with small BLANK plaque. Rich ornamental metalwork, deliberate magnificent silhouette. Slightly three-dimensional but frontal presentation. No ribbons, no backdrop. Whole trophy including every ring tip and full pedestal fits in a 205 by 265 pixel central area.",
+      "args": {
+        "description": "Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. ONE lavish fantasy end-of-quarter trophy: a polished gold orrery sculpture with three intersecting open elliptical rings around a suspended luminous sapphire sphere, tiny gem-tipped orbit spokes, elaborate engraved filigree brackets on an elegant fluted stem, a tiered midnight-blue enamel and gold pedestal with small BLANK plaque. Rich ornamental metalwork, deliberate magnificent silhouette. Slightly three-dimensional but frontal presentation. No ribbons, no backdrop. Whole trophy including every ring tip and full pedestal fits in a 205 by 265 pixel central area.",
+        "width": 256,
+        "height": 320,
+        "no_background": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 7ad90f59-28a7-40da-aeb7-c49f3374f7c7\njob_id: 7ad90f59-28a7-40da-aeb7-c49f3374f7c7\nmodel: pro\ndescription: Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. ONE lavish fantasy end-of-quarter trophy: a polished gold orrery sculpture with three intersecting open elliptical rings around a suspended luminous sapphire sphere, tiny gem-tipped orbit spokes, elaborate engraved filigree brackets on an elegant fluted stem, a tiered midnight-blue enamel and gold pedestal with small BLANK plaque. Rich ornamental metalwork, deliberate magnificent silhouette. Slightly three-dimensional but frontal presentation. No ribbons, no backdrop. Whole trophy including every ring tip and full pedestal fits in a 205 by 265 pixel central area.\nsize: 256x320px\ntransparent: True\ncandidates: 1\nasset_id: 8f0465b1-3545-5981-8d97-0cba66e039a0\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"7ad90f59-28a7-40da-aeb7-c49f3374f7c7\")"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "7ad90f59-28a7-40da-aeb7-c49f3374f7c7"
+    },
+    {
+      "id": "09-prism-bloom",
+      "name": "Prism Bloom",
+      "w": 256,
+      "h": 320,
+      "prompt": "ONE lavish fantasy end-of-quarter trophy: six tall faceted translucent mint and amethyst crystal petals rising from a rose-gold openwork flower chalice, curling leaflike handles decorated with tiny emeralds, engraved twisted metal stem, layered ivory stone and copper pedestal with a small BLANK plaque. Sculptural botanical crystal trophy, extravagant gala craftsmanship. Frontal three-dimensional presentation. No ribbons, no backdrop. Whole trophy including every crystal tip and full pedestal fits in a 205 by 265 pixel central area.",
+      "args": {
+        "description": "Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. ONE lavish fantasy end-of-quarter trophy: six tall faceted translucent mint and amethyst crystal petals rising from a rose-gold openwork flower chalice, curling leaflike handles decorated with tiny emeralds, engraved twisted metal stem, layered ivory stone and copper pedestal with a small BLANK plaque. Sculptural botanical crystal trophy, extravagant gala craftsmanship. Frontal three-dimensional presentation. No ribbons, no backdrop. Whole trophy including every crystal tip and full pedestal fits in a 205 by 265 pixel central area.",
+        "width": 256,
+        "height": 320,
+        "no_background": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 764ffd54-bc0f-431c-b0e2-ea716314572a\njob_id: 764ffd54-bc0f-431c-b0e2-ea716314572a\nmodel: pro\ndescription: Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. ONE lavish fantasy end-of-quarter trophy: six tall faceted translucent mint and amethyst crystal petals rising from a rose-gold openwork flower chalice, curling leaflike handles decorated with tiny emeralds, engraved twisted metal stem, layered ivory stone and copper pedestal with a small BLANK plaque. Sculptural botanical crystal trophy, extravagant gala craftsmanship. Frontal three-dimensional presentation. No ribbons, no backdrop. Whole trophy including every crystal tip and full pedestal fits in a 205 by 265 pixel central area.\nsize: 256x320px\ntransparent: True\ncandidates: 1\nasset_id: e8cb7913-b6fb-55a9-a3d9-bfd2b738527e\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"764ffd54-bc0f-431c-b0e2-ea716314572a\")"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "764ffd54-bc0f-431c-b0e2-ea716314572a"
+    },
+    {
+      "id": "10-grand-cascade",
+      "name": "Grand Cascade",
+      "w": 256,
+      "h": 320,
+      "prompt": "ONE fantastically ornate competition trophy: a tall silver and gold double-handled cup with flamboyant curling openwork handles, sculpted waves and geometric beadwork, deep ruby enamel bowl, large clear diamond-shaped jewel hovering held by four curling metal supports above the bowl, dark garnet tiered pedestal with small BLANK plaque. Elaborate tassel-like silver metal chains hanging at both sides, visible in full. Front view luxury craftsmanship. No ribbons, no backdrop. Whole trophy including finial, handles, chains and full pedestal fits in a 205 by 265 pixel central area.",
+      "args": {
+        "description": "Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. ONE fantastically ornate competition trophy: a tall silver and gold double-handled cup with flamboyant curling openwork handles, sculpted waves and geometric beadwork, deep ruby enamel bowl, large clear diamond-shaped jewel hovering held by four curling metal supports above the bowl, dark garnet tiered pedestal with small BLANK plaque. Elaborate tassel-like silver metal chains hanging at both sides, visible in full. Front view luxury craftsmanship. No ribbons, no backdrop. Whole trophy including finial, handles, chains and full pedestal fits in a 205 by 265 pixel central area.",
+        "width": 256,
+        "height": 320,
+        "no_background": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 55ff234d-74d8-4392-984e-148cca2c8ccc\njob_id: 55ff234d-74d8-4392-984e-148cca2c8ccc\nmodel: pro\ndescription: Exquisite ornate fantasy ceremonial award for a classroom game, luxury jewelers craftsmanship rendered as finely detailed crisp pixel art. Front view, straight-on symmetrical presentation, rich satin folds, engraved filigree, convincing polished metal highlights, tiny inset gems, clean dark outline. Fictional decorative geometry only; no real-world medal insignia, flags, crosses, eagles, military ranks, letters, numbers or text. Isolated transparent background. Entire object fully inside canvas with at least 20 pixels clear transparent margin on every side. No cropped points, tassels, ribbon ends, metalwork or shadows. No ground or backdrop. ONE fantastically ornate competition trophy: a tall silver and gold double-handled cup with flamboyant curling openwork handles, sculpted waves and geometric beadwork, deep ruby enamel bowl, large clear diamond-shaped jewel hovering held by four curling metal supports above the bowl, dark garnet tiered pedestal with small BLANK plaque. Elaborate tassel-like silver metal chains hanging at both sides, visible in full. Front view luxury craftsmanship. No ribbons, no backdrop. Whole trophy including finial, handles, chains and full pedestal fits in a 205 by 265 pixel central area.\nsize: 256x320px\ntransparent: True\ncandidates: 1\nasset_id: c031c774-fb29-54a8-8d60-4113af53f887\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"55ff234d-74d8-4392-984e-148cca2c8ccc\")"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "55ff234d-74d8-4392-984e-148cca2c8ccc"
+    }
+  ],
+  "repairs": [
+    {
+      "id": "01-aster-ribbon",
+      "job": "7264df4d-5c71-466d-b5b4-b4fb4025b494",
+      "w": 256,
+      "h": 320,
+      "args": {
+        "image_urls": [
+          "https://api.pixellab.ai/mcp/images/7264df4d-5c71-466d-b5b4-b4fb4025b494/download"
+        ],
+        "description": "Restore the complete silhouette on a LARGER transparent canvas. Keep exactly this ornate design, colors, filigree, proportions and pixel-art detail. The original top and bottom tips touched the old frame: reconstruct any missing curls and the whole bottom attachment loop or dangling gem into the newly available space. Center the complete original-scale object with at least 24 transparent pixels beyond EVERY extremity. DO NOT enlarge or zoom the object to fill the new canvas. No cropping at all, no new words or background. Preserve thin elegant metalwork.",
+        "width": 256,
+        "height": 320,
+        "no_background": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 5bbcb18f-e792-4d5e-90aa-ba914a53729b\njob_id: 5bbcb18f-e792-4d5e-90aa-ba914a53729b\nmode: text\nframes: 1\nsize: 256x320px\ntransparent: True\nedit: Restore the complete silhouette on a LARGER transparent canvas. Keep exactly this ornate design, colors, filigree, proportions and pixel-art detail. The original top and bottom tips touched the old frame: reconstruct any missing curls and the whole bottom attachment loop or dangling gem into the newly available space. Center the complete original-scale object with at least 24 transparent pixels beyond EVERY extremity. DO NOT enlarge or zoom the object to fill the new canvas. No cropping at all, no new words or background. Preserve thin elegant metalwork.\nasset_id: 7902d85a-04c5-5a71-a591-5235e37d2911\nasset_status: pending (saved when generation completes)\ncost: ~15 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"5bbcb18f-e792-4d5e-90aa-ba914a53729b\")"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "id": "02-verdant-ribbon",
+      "job": "1cf2cb51-a44b-4eac-af6e-755c9c0bd6d8",
+      "w": 256,
+      "h": 320,
+      "args": {
+        "image_urls": [
+          "https://api.pixellab.ai/mcp/images/1cf2cb51-a44b-4eac-af6e-755c9c0bd6d8/download"
+        ],
+        "description": "Restore the complete silhouette on a LARGER transparent canvas. Keep exactly this ornate design, colors, filigree, proportions and pixel-art detail. The original top and bottom tips touched the old frame: reconstruct any missing curls and the whole bottom attachment loop or dangling gem into the newly available space. Center the complete original-scale object with at least 24 transparent pixels beyond EVERY extremity. DO NOT enlarge or zoom the object to fill the new canvas. No cropping at all, no new words or background. Preserve thin elegant metalwork.",
+        "width": 256,
+        "height": 320,
+        "no_background": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: e1ef1f61-0333-4cb8-8238-37e01baaf583\njob_id: e1ef1f61-0333-4cb8-8238-37e01baaf583\nmode: text\nframes: 1\nsize: 256x320px\ntransparent: True\nedit: Restore the complete silhouette on a LARGER transparent canvas. Keep exactly this ornate design, colors, filigree, proportions and pixel-art detail. The original top and bottom tips touched the old frame: reconstruct any missing curls and the whole bottom attachment loop or dangling gem into the newly available space. Center the complete original-scale object with at least 24 transparent pixels beyond EVERY extremity. DO NOT enlarge or zoom the object to fill the new canvas. No cropping at all, no new words or background. Preserve thin elegant metalwork.\nasset_id: 79960278-5148-5359-aa3c-ecada11480af\nasset_status: pending (saved when generation completes)\ncost: ~15 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"e1ef1f61-0333-4cb8-8238-37e01baaf583\")"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "id": "02-verdant-pendant",
+      "job": "bc459f3b-11e5-4e70-bdd1-055fd1bf082f",
+      "w": 256,
+      "h": 256,
+      "args": {
+        "image_urls": [
+          "https://api.pixellab.ai/mcp/images/bc459f3b-11e5-4e70-bdd1-055fd1bf082f/download"
+        ],
+        "description": "Restore the complete silhouette on a LARGER transparent canvas. Keep exactly this ornate design, colors, filigree, proportions and pixel-art detail. The original top and bottom tips touched the old frame: reconstruct any missing curls and the whole bottom attachment loop or dangling gem into the newly available space. Center the complete original-scale object with at least 24 transparent pixels beyond EVERY extremity. DO NOT enlarge or zoom the object to fill the new canvas. No cropping at all, no new words or background. Preserve thin elegant metalwork.",
+        "width": 256,
+        "height": 256,
+        "no_background": true
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 84aae105-5be7-44b6-836e-ac7c1fea02c6\njob_id: 84aae105-5be7-44b6-836e-ac7c1fea02c6\nmode: text\nframes: 1\nsize: 256x256px\ntransparent: True\nedit: Restore the complete silhouette on a LARGER transparent canvas. Keep exactly this ornate design, colors, filigree, proportions and pixel-art detail. The original top and bottom tips touched the old frame: reconstruct any missing curls and the whole bottom attachment loop or dangling gem into the newly available space. Center the complete original-scale object with at least 24 transparent pixels beyond EVERY extremity. DO NOT enlarge or zoom the object to fill the new canvas. No cropping at all, no new words or background. Preserve thin elegant metalwork.\nasset_id: 48100cba-d47f-5ad0-96fa-0aaf4f923bfa\nasset_status: pending (saved when generation completes)\ncost: ~10 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"84aae105-5be7-44b6-836e-ac7c1fea02c6\")"
+          }
+        ],
+        "isError": false
+      }
+    }
+  ],
+  "clasps": [
+    {
+      "args": {
+        "description": "Four separate extremely ornate horizontal metal ribbon clasp bars for fictional ceremonial awards. Front view, each object is one narrow horizontal clasp only, no ribbon no pendant no scene no text no letters no numbers no flags no real military symbols. Polished intricate engraved filigree, decorative curling ends, tiny inset gems. Actual object occupies central 96px width and 26px height of its 128px square; generous transparent margin. Clear complete silhouette. Warm antique gold.",
+        "name": "Quarter awards / gold clasp bars",
+        "size": 128,
+        "view": "sidescroller",
+        "item_descriptions": [
+          "gold scrolling clasp with one single central blue diamond gemstone, symmetrical openwork curls, one clear class marker",
+          "gold scrolling clasp with exactly two separate blue diamond gemstones side by side, symmetrical openwork curls, two clear class markers",
+          "gold scrolling clasp with exactly three separate blue diamond gemstones side by side, symmetrical openwork curls, three clear class markers",
+          "gold scrolling clasp with a wide smooth EMPTY central enamel inset suitable for a custom class label, ornate ends, NO text"
+        ]
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 6f8bc902-49a6-42ab-840b-92a8552dd32b\ndescription: Four separate extremely ornate horizontal metal ribbon clasp bars for fictional ceremonial awards. Front view, each object is one narrow horizontal clasp only, no ribbon no pendant no scene no text no letters no numbers no flags no real military symbols. Polished intricate engraved filigree, decorative curling ends, tiny inset gems. Actual object occupies central 96px width and 26px height of its 128px square; generous transparent margin. Clear complete silhouette. Warm antique gold.\nmode: 1-direction (4-frame review pack 128x128px)\ncost: 10 generations\nstatus: processing (~2-3 min)\n\nhint: get_object(object_id=\"6f8bc902-49a6-42ab-840b-92a8552dd32b\")\nreview: select_object_frames(object_id=\"6f8bc902-49a6-42ab-840b-92a8552dd32b\", indices=[0, 3])\ndiscard: dismiss_review(object_id=\"6f8bc902-49a6-42ab-840b-92a8552dd32b\")"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "args": {
+        "description": "Four separate extremely ornate horizontal metal ribbon clasp bars for fictional ceremonial awards. Front view, each object is one narrow horizontal clasp only, no ribbon no pendant no scene no text no letters no numbers no flags no real military symbols. Polished intricate engraved filigree, decorative curling ends, tiny inset gems. Actual object occupies central 96px width and 26px height of its 128px square; generous transparent margin. Clear complete silhouette. Cool platinum silver.",
+        "name": "Quarter awards / silver clasp bars",
+        "size": 128,
+        "view": "sidescroller",
+        "item_descriptions": [
+          "silver scrolling clasp with one single central blue diamond gemstone, symmetrical openwork curls, one clear class marker",
+          "silver scrolling clasp with exactly two separate blue diamond gemstones side by side, symmetrical openwork curls, two clear class markers",
+          "silver scrolling clasp with exactly three separate blue diamond gemstones side by side, symmetrical openwork curls, three clear class markers",
+          "silver scrolling clasp with a wide smooth EMPTY central enamel inset suitable for a custom class label, ornate ends, NO text"
+        ]
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 23009208-1f25-4197-b411-1296d5e8293f\ndescription: Four separate extremely ornate horizontal metal ribbon clasp bars for fictional ceremonial awards. Front view, each object is one narrow horizontal clasp only, no ribbon no pendant no scene no text no letters no numbers no flags no real military symbols. Polished intricate engraved filigree, decorative curling ends, tiny inset gems. Actual object occupies central 96px width and 26px height of its 128px square; generous transparent margin. Clear complete silhouette. Cool platinum silver.\nmode: 1-direction (4-frame review pack 128x128px)\ncost: 10 generations\nstatus: processing (~2-3 min)\n\nhint: get_object(object_id=\"23009208-1f25-4197-b411-1296d5e8293f\")\nreview: select_object_frames(object_id=\"23009208-1f25-4197-b411-1296d5e8293f\", indices=[0, 3])\ndiscard: dismiss_review(object_id=\"23009208-1f25-4197-b411-1296d5e8293f\")"
+          }
+        ],
+        "isError": false
+      }
+    }
+  ],
+  "starting_balance": 3431.8
+}

@@ -31,3 +31,10 @@ asset downloads. Filters are optional, not pagination.
 For updates, preserve stable card IDs and archive artwork; update directory.json,
 static cards and field-guide.txt together, then regenerate the ZIP. Do not change
 award requirements from this page; runtime catalogs own gameplay definitions.
+
+
+## October 29 — quarter-award design collection
+
+Added 28 reference cards: ten ornate award designs, four ribbon bodies, four pendants, eight removable gold/silver clasp bars, the revised Galaxy Gala and its first version. The center purple ribbon of the revised Gala extends below the pale-blue tails. The rest of that design is pixel-identical. All new final PNGs have 24- or 32-pixel transparent margins. The current archive has 188 cards; every earlier card and artwork file remains intact.
+
+Quarter awards remain unassigned: no criteria, class/order meanings or rewards were invented. All standalone components, four mix examples, overview sheets and provenance are in quarter-awards.zip and the complete ribbon-archive.zip.

@@ -1,7 +1,542 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "title": "Ribbons & honours",
   "entries": [
+    {
+      "id": "quarter-galaxy-gala",
+      "name": "Galaxy Gala · extended center ribbon",
+      "kind": "Ceremonial Ribbon",
+      "category": "Quarter awards",
+      "status": "Not used yet",
+      "definition": "Rosewater Gala’s layered front rosette and embroidered tails, backed by Celestial Fanfare’s fan crest and longer pale-blue ribbons. Celestial’s blue flower brooch replaces the pearl cameo. Indigo, violet, nebula pink and silver fabric details. The central purple ribbon now extends a little below every other tail.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/awards/galaxy-gala-long-center.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated and revised at the author’s request",
+        "composition_job": "54d7ed00-a2f7-437b-a6cd-f5c6ed2957b5",
+        "center_tail_inpaint_job": "44d41d8f-aed6-417f-8ce1-813211bc0ff8",
+        "pixel_workbench_edit": "ccfc9e05-1fb2-45bc-b8bb-6e16a1d59d54",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 32,
+        "revision_scope": "Only the center-tail patch changed; every pixel outside that patch is preserved."
+      }
+    },
+    {
+      "id": "quarter-01-aster-ribbon",
+      "name": "Aster Vault ribbon",
+      "kind": "Ribbon",
+      "category": "Quarter award components",
+      "status": "Not used yet",
+      "definition": "Separate ornate suspension ribbon body with decorative top brooch and lower connector. Mix with any of the four pendant pieces and optional gold or silver clasp bars.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/pieces/01-aster-ribbon.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "image_job": "7264df4d-5c71-466d-b5b4-b4fb4025b494",
+        "edge_repair_job": "daba71e0-82b4-4a64-8107-52aae6ee52af"
+      }
+    },
+    {
+      "id": "quarter-01-aster-pendant",
+      "name": "Aster Vault pendant",
+      "kind": "Pendant",
+      "category": "Quarter award components",
+      "status": "Not used yet",
+      "definition": "Separate ornamental metal pendant. Attach below any of the four long suspension ribbons; preserve its complete bail and finial.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/pieces/01-aster-pendant.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "image_job": "385a911c-978f-4bf0-b188-b10914841610"
+      }
+    },
+    {
+      "id": "quarter-02-verdant-ribbon",
+      "name": "Verdant Spire ribbon",
+      "kind": "Ribbon",
+      "category": "Quarter award components",
+      "status": "Not used yet",
+      "definition": "Separate ornate suspension ribbon body with decorative top brooch and lower connector. Mix with any of the four pendant pieces and optional gold or silver clasp bars.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/pieces/02-verdant-ribbon.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "image_job": "1cf2cb51-a44b-4eac-af6e-755c9c0bd6d8",
+        "edge_repair_job": "5d281c30-4efd-4df1-a57b-9b4a2ca6da86"
+      }
+    },
+    {
+      "id": "quarter-02-verdant-pendant",
+      "name": "Verdant Spire pendant",
+      "kind": "Pendant",
+      "category": "Quarter award components",
+      "status": "Not used yet",
+      "definition": "Separate ornamental metal pendant. Attach below any of the four long suspension ribbons; preserve its complete bail and finial.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/pieces/02-verdant-pendant.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "image_job": "bc459f3b-11e5-4e70-bdd1-055fd1bf082f",
+        "edge_repair_job": "9a240282-2631-4dbb-9a90-31d2d40858df"
+      }
+    },
+    {
+      "id": "quarter-03-tideglass-ribbon",
+      "name": "Tideglass ribbon",
+      "kind": "Ribbon",
+      "category": "Quarter award components",
+      "status": "Not used yet",
+      "definition": "Separate ornate suspension ribbon body with decorative top brooch and lower connector. Mix with any of the four pendant pieces and optional gold or silver clasp bars.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/pieces/03-tideglass-ribbon.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "image_job": "bdc25059-899e-4382-857d-ca9ee78ff826",
+        "edge_repair_job": "23913e5d-1351-4296-b506-20cb7a501858"
+      }
+    },
+    {
+      "id": "quarter-03-tideglass-pendant",
+      "name": "Tideglass pendant",
+      "kind": "Pendant",
+      "category": "Quarter award components",
+      "status": "Not used yet",
+      "definition": "Separate ornamental metal pendant. Attach below any of the four long suspension ribbons; preserve its complete bail and finial.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/pieces/03-tideglass-pendant.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "image_job": "4e1f2845-6fbc-4369-8ddc-6e941a2ea46c"
+      }
+    },
+    {
+      "id": "quarter-04-ember-ribbon",
+      "name": "Ember Loom ribbon",
+      "kind": "Ribbon",
+      "category": "Quarter award components",
+      "status": "Not used yet",
+      "definition": "Separate ornate suspension ribbon body with decorative top brooch and lower connector. Mix with any of the four pendant pieces and optional gold or silver clasp bars.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/pieces/04-ember-ribbon.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "image_job": "81c3a0e7-ddba-4228-ac5e-56d96cce2a76"
+      }
+    },
+    {
+      "id": "quarter-04-ember-pendant",
+      "name": "Ember Loom pendant",
+      "kind": "Pendant",
+      "category": "Quarter award components",
+      "status": "Not used yet",
+      "definition": "Separate ornamental metal pendant. Attach below any of the four long suspension ribbons; preserve its complete bail and finial.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/pieces/04-ember-pendant.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "image_job": "0ec81828-5398-43c2-9cbe-493a577dcd5b"
+      }
+    },
+    {
+      "id": "quarter-clasp-gold-1",
+      "name": "Gold · 1 gem",
+      "kind": "Clasp",
+      "category": "Quarter award components",
+      "status": "Not used yet",
+      "definition": "Separate gold clasp bar. 1 gem marker can indicate an order or class once the author assigns its meaning. Compatible with the long ribbon bodies.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/pieces/clasp-gold-1.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "object_id": "b2e041f8-b1d9-4b3f-b040-132776d4770d"
+      }
+    },
+    {
+      "id": "quarter-clasp-gold-2",
+      "name": "Gold · 2 gems",
+      "kind": "Clasp",
+      "category": "Quarter award components",
+      "status": "Not used yet",
+      "definition": "Separate gold clasp bar. 2 gem markers can indicate an order or class once the author assigns its meaning. Compatible with the long ribbon bodies.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/pieces/clasp-gold-2.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "object_id": "599bc1f0-b899-472d-8c9b-d14f722f4b76"
+      }
+    },
+    {
+      "id": "quarter-clasp-gold-3",
+      "name": "Gold · 3 gems",
+      "kind": "Clasp",
+      "category": "Quarter award components",
+      "status": "Not used yet",
+      "definition": "Separate gold clasp bar. 3 gem markers can indicate an order or class once the author assigns its meaning. Compatible with the long ribbon bodies.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/pieces/clasp-gold-3.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "object_id": "a5018b67-362b-4fb9-b162-22ba85c6ddf4"
+      }
+    },
+    {
+      "id": "quarter-clasp-gold-4",
+      "name": "Gold · blank",
+      "kind": "Clasp",
+      "category": "Quarter award components",
+      "status": "Not used yet",
+      "definition": "Separate gold clasp bar. Blank inset for a future order or class label. Compatible with the long ribbon bodies.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/pieces/clasp-gold-4.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "object_id": "977b7707-064a-4f3b-9a7f-2c59b123b9df"
+      }
+    },
+    {
+      "id": "quarter-clasp-silver-1",
+      "name": "Silver · 1 gem",
+      "kind": "Clasp",
+      "category": "Quarter award components",
+      "status": "Not used yet",
+      "definition": "Separate silver clasp bar. 1 gem marker can indicate an order or class once the author assigns its meaning. Compatible with the long ribbon bodies.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/pieces/clasp-silver-1.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "object_id": "65f2b195-2b7a-4633-a34a-0e693ebbd776"
+      }
+    },
+    {
+      "id": "quarter-clasp-silver-2",
+      "name": "Silver · 2 gems",
+      "kind": "Clasp",
+      "category": "Quarter award components",
+      "status": "Not used yet",
+      "definition": "Separate silver clasp bar. 2 gem markers can indicate an order or class once the author assigns its meaning. Compatible with the long ribbon bodies.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/pieces/clasp-silver-2.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "object_id": "d113c12e-6b0a-4029-8340-fe2b5765ffef"
+      }
+    },
+    {
+      "id": "quarter-clasp-silver-3",
+      "name": "Silver · 3 gems",
+      "kind": "Clasp",
+      "category": "Quarter award components",
+      "status": "Not used yet",
+      "definition": "Separate silver clasp bar. 3 gem markers can indicate an order or class once the author assigns its meaning. Compatible with the long ribbon bodies.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/pieces/clasp-silver-3.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "object_id": "c253c655-fcbf-4854-a961-337af720ac45"
+      }
+    },
+    {
+      "id": "quarter-clasp-silver-4",
+      "name": "Silver · blank",
+      "kind": "Clasp",
+      "category": "Quarter award components",
+      "status": "Not used yet",
+      "definition": "Separate silver clasp bar. Blank inset for a future order or class label. Compatible with the long ribbon bodies.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/pieces/clasp-silver-4.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "object_id": "b1376a78-9b7b-45d5-8aa4-298078aebe24"
+      }
+    },
+    {
+      "id": "quarter-01-aster",
+      "name": "Aster Vault",
+      "kind": "Pendant Medal",
+      "category": "Quarter awards",
+      "status": "Not used yet",
+      "definition": "An ornate fictional end-of-quarter pendant medal design. Assembled from the separately preserved ribbon and pendant pieces.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/awards/01-aster.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24
+      }
+    },
+    {
+      "id": "quarter-02-verdant",
+      "name": "Verdant Spire",
+      "kind": "Pendant Medal",
+      "category": "Quarter awards",
+      "status": "Not used yet",
+      "definition": "An ornate fictional end-of-quarter pendant medal design. Assembled from the separately preserved ribbon and pendant pieces.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/awards/02-verdant.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24
+      }
+    },
+    {
+      "id": "quarter-03-tideglass",
+      "name": "Tideglass",
+      "kind": "Pendant Medal",
+      "category": "Quarter awards",
+      "status": "Not used yet",
+      "definition": "An ornate fictional end-of-quarter pendant medal design. Assembled from the separately preserved ribbon and pendant pieces.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/awards/03-tideglass.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24
+      }
+    },
+    {
+      "id": "quarter-04-ember",
+      "name": "Ember Loom",
+      "kind": "Pendant Medal",
+      "category": "Quarter awards",
+      "status": "Not used yet",
+      "definition": "An ornate fictional end-of-quarter pendant medal design. Assembled from the separately preserved ribbon and pendant pieces.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/awards/04-ember.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24
+      }
+    },
+    {
+      "id": "quarter-05-orchid-conservatory",
+      "name": "Orchid Conservatory",
+      "kind": "Ceremonial Ribbon",
+      "category": "Quarter awards",
+      "status": "Not used yet",
+      "definition": "An ornate fictional end-of-quarter ceremonial ribbon design. Complete standalone artwork with every tail, tassel or pedestal visible.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/awards/05-orchid-conservatory.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "image_job": "643ea8eb-e3c0-4dc4-a2a7-35736233e283"
+      }
+    },
+    {
+      "id": "quarter-06-celestial-fanfare",
+      "name": "Celestial Fanfare",
+      "kind": "Ceremonial Ribbon",
+      "category": "Quarter awards",
+      "status": "Not used yet",
+      "definition": "An ornate fictional end-of-quarter ceremonial ribbon design. Complete standalone artwork with every tail, tassel or pedestal visible.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/awards/06-celestial-fanfare.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "image_job": "80cc6b7c-95cd-4dd5-98b2-786ef8a76744"
+      }
+    },
+    {
+      "id": "quarter-07-rosewater-gala",
+      "name": "Rosewater Gala",
+      "kind": "Ceremonial Ribbon",
+      "category": "Quarter awards",
+      "status": "Not used yet",
+      "definition": "An ornate fictional end-of-quarter ceremonial ribbon design. Complete standalone artwork with every tail, tassel or pedestal visible.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/awards/07-rosewater-gala.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "image_job": "e4a30845-f805-44fe-b4f3-c68674ad1954"
+      }
+    },
+    {
+      "id": "quarter-08-orbit-cup",
+      "name": "Orbit Cup",
+      "kind": "Trophy",
+      "category": "Quarter awards",
+      "status": "Not used yet",
+      "definition": "An ornate fictional end-of-quarter trophy design. Complete standalone artwork with every tail, tassel or pedestal visible.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/awards/08-orbit-cup.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "image_job": "7ad90f59-28a7-40da-aeb7-c49f3374f7c7"
+      }
+    },
+    {
+      "id": "quarter-09-prism-bloom",
+      "name": "Prism Bloom",
+      "kind": "Trophy",
+      "category": "Quarter awards",
+      "status": "Not used yet",
+      "definition": "An ornate fictional end-of-quarter trophy design. Complete standalone artwork with every tail, tassel or pedestal visible.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/awards/09-prism-bloom.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "image_job": "764ffd54-bc0f-431c-b0e2-ea716314572a",
+        "edge_repair_job": "fecb4312-cf3a-4890-be7f-d9ff98d2922f"
+      }
+    },
+    {
+      "id": "quarter-10-grand-cascade",
+      "name": "Grand Cascade",
+      "kind": "Trophy",
+      "category": "Quarter awards",
+      "status": "Not used yet",
+      "definition": "An ornate fictional end-of-quarter trophy design. Complete standalone artwork with every tail, tassel or pedestal visible.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/awards/10-grand-cascade.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab, generated at the author’s request",
+        "created": "2026-10-29",
+        "transparent_margin_pixels": 24,
+        "image_job": "55ff234d-74d8-4392-984e-148cca2c8ccc"
+      }
+    },
+    {
+      "id": "quarter-galaxy-gala-first",
+      "name": "Galaxy Gala · first center-tail version",
+      "kind": "Ceremonial Ribbon",
+      "category": "Quarter awards",
+      "status": "Archived concept",
+      "definition": "Earlier galaxy-color combination preserved for reference. Superseded by the extended-center version requested by the author.",
+      "where": "Atlas/lore design library. Planned for end-of-quarter recognition; not installed in gameplay.",
+      "reward": "No reward assigned.",
+      "art": "art/quarter-2026/concepts/galaxy-gala-short-center.png",
+      "animation": "Static PixelLab artwork.",
+      "notes": "Descriptive design name only. The author has not chosen award reasons, order/class meanings, eligibility or rewards.",
+      "source": {
+        "creator": "PixelLab",
+        "image_job": "54d7ed00-a2f7-437b-a6cd-f5c6ed2957b5",
+        "created": "2026-10-29"
+      }
+    },
     {
       "id": "foundling-medal",
       "name": "Foundling · animated sunburst",
@@ -3930,7 +4465,167 @@
     "art/awards/pixellab/military_medal_16.png": {
       "sha256": "1bc0fccf5b8b01ef98a750ca1309c8dcb8eff76b1affb91158bfc1f2d01dd335",
       "bytes": 989
+    },
+    "art/quarter-2026/pieces/01-aster-ribbon.png": {
+      "sha256": "63bc51ab21c5083f925c4da3f3d5090fc8e5ca07305e89a05f00f0b674d708f1",
+      "bytes": 16703
+    },
+    "art/quarter-2026/pieces/01-aster-pendant.png": {
+      "sha256": "56850a008112879012255e16e88df66bcd95fbc9c78c40d359627f032e6e8b65",
+      "bytes": 20776
+    },
+    "art/quarter-2026/pieces/02-verdant-ribbon.png": {
+      "sha256": "d78b1047ca5ea5dda13fd11ff36854d27990a592508144a54742776318305f7e",
+      "bytes": 20643
+    },
+    "art/quarter-2026/pieces/02-verdant-pendant.png": {
+      "sha256": "5f0597870cdab812e8687bcd3030b3e4bcfb341b7bb55979499a8a0a0db93a90",
+      "bytes": 22310
+    },
+    "art/quarter-2026/pieces/03-tideglass-ribbon.png": {
+      "sha256": "86f837624059ba469d255eb7b67649c9b209c58ceb1ec23438f061f3b8b426b5",
+      "bytes": 15837
+    },
+    "art/quarter-2026/pieces/03-tideglass-pendant.png": {
+      "sha256": "ef8b2bda1ac7ab98123eee6fa7057fe5763f21576e323c90a77b81f6a7b2417d",
+      "bytes": 17065
+    },
+    "art/quarter-2026/pieces/04-ember-ribbon.png": {
+      "sha256": "ad2d6bde56ba2850bba64940bf1f63e83b8f4a1907855bf02d380da8cad56636",
+      "bytes": 14001
+    },
+    "art/quarter-2026/pieces/04-ember-pendant.png": {
+      "sha256": "3132d68189a32c1e8a5402ad314113fccbeb2744638a04c3ea6f38d2e1ea2581",
+      "bytes": 19692
+    },
+    "art/quarter-2026/pieces/clasp-gold-1.png": {
+      "sha256": "2592faeedbff69a2120e466f96ca45733558ad04c0050291fa3ecda52ffa830b",
+      "bytes": 7635
+    },
+    "art/quarter-2026/pieces/clasp-gold-2.png": {
+      "sha256": "5ef37cbc197efa588749c79e7725a7b0c8bd03eaae76cdba7a1940f6425241ca",
+      "bytes": 7871
+    },
+    "art/quarter-2026/pieces/clasp-gold-3.png": {
+      "sha256": "ff0a8b297764edc6910b22d40832bf5f928734279b5515939ed16cce8d101800",
+      "bytes": 7811
+    },
+    "art/quarter-2026/pieces/clasp-gold-4.png": {
+      "sha256": "864a5ccd9d5d421af3c122c0ea4ada68a4fd90b9f43285df8749e2ac7d1d83cc",
+      "bytes": 6123
+    },
+    "art/quarter-2026/pieces/clasp-silver-1.png": {
+      "sha256": "e3bcbccda1bd930ad6a8a13bf1c62ce6ff6efc05b5998240fb5df09e59bc440a",
+      "bytes": 6015
+    },
+    "art/quarter-2026/pieces/clasp-silver-2.png": {
+      "sha256": "372e837d52578e5954932642c371cbbe1da38b5b875103eb3cd171cf92ce8a0b",
+      "bytes": 6281
+    },
+    "art/quarter-2026/pieces/clasp-silver-3.png": {
+      "sha256": "944b68559218c09252c16a48dd53c2914cdb2511f8766fc797528f4e072da8fa",
+      "bytes": 6943
+    },
+    "art/quarter-2026/pieces/clasp-silver-4.png": {
+      "sha256": "858156207fa37e8ffba9a8b5c70663e770a2d74dc3c0e72572acec0698c183a3",
+      "bytes": 4122
+    },
+    "art/quarter-2026/awards/01-aster.png": {
+      "sha256": "c24b03137850c7e7a23bb44f04ec893dc5044303c36146c948510ac17965e7fc",
+      "bytes": 37632
+    },
+    "art/quarter-2026/awards/02-verdant.png": {
+      "sha256": "d1b2ba102393b865136d6f4d6fd13e5f5c948c6fb667466cecd8cbb6eeec3453",
+      "bytes": 42819
+    },
+    "art/quarter-2026/awards/03-tideglass.png": {
+      "sha256": "97fe5018f24ce03671a2a4f49eeb44c28ec212b98d96530249aa5fadca984842",
+      "bytes": 32794
+    },
+    "art/quarter-2026/awards/04-ember.png": {
+      "sha256": "85fa3102a5328888017178e4c2430ae7403491ef030a8e6d0cbf77ba7dd5b20a",
+      "bytes": 33784
+    },
+    "art/quarter-2026/awards/05-orchid-conservatory.png": {
+      "sha256": "a7bf529651e2a4df69d4c669227ed03f2166e6db112d40133d0add9fef1d3c75",
+      "bytes": 51123
+    },
+    "art/quarter-2026/awards/06-celestial-fanfare.png": {
+      "sha256": "316990f3d89679f5d03fa699fc3f08ff175f522299ac5fbfd3d5e4e2980e1dfb",
+      "bytes": 48106
+    },
+    "art/quarter-2026/awards/07-rosewater-gala.png": {
+      "sha256": "a84fa183dab48d2409f31528377535cccad1c0de9a0914ebf142c067855b1ac5",
+      "bytes": 54842
+    },
+    "art/quarter-2026/awards/08-orbit-cup.png": {
+      "sha256": "81387f87dfe7b915e5faacc9e5222765ace5344b7d174a308159957f739bdfda",
+      "bytes": 19899
+    },
+    "art/quarter-2026/awards/09-prism-bloom.png": {
+      "sha256": "0216bd7b3741f48cbcbf2c10f92fa734cd5e413648bcca7c922fe51b63dbf8a7",
+      "bytes": 27330
+    },
+    "art/quarter-2026/awards/10-grand-cascade.png": {
+      "sha256": "c0b2632a977dd24d03cb8cf768d12fa90fc7699d60784013a0bf6bc274d0dbfb",
+      "bytes": 38188
+    },
+    "art/quarter-2026/awards/galaxy-gala-long-center.png": {
+      "sha256": "81b774ca99d8b250f3f182824bc96deade3781db48cfcc6484a0b6dcf189b25f",
+      "bytes": 113596
+    },
+    "art/quarter-2026/concepts/galaxy-gala-short-center.png": {
+      "sha256": "b26531469398ef9bc3c179ab5da56cfd0773567ecd485a1aac2ecee337cfdabf",
+      "bytes": 104832
+    },
+    "art/quarter-2026/previews/clasp-bars.png": {
+      "sha256": "f45c8bf9922e2c1682e3200c979652b6e93146042ae25cba3daa57daddd59ae5",
+      "bytes": 75348
+    },
+    "art/quarter-2026/previews/mix-example-4.png": {
+      "sha256": "eac69eaf8c59204fbb8ba95c617b7855ff1ffd9a615fdbb8f3c9257221372979",
+      "bytes": 36952
+    },
+    "art/quarter-2026/previews/all-10-awards.png": {
+      "sha256": "df04535b5a4527121614b547faa4e0a2ffbc62a91b702559a8fa1b366859cc62",
+      "bytes": 472355
+    },
+    "art/quarter-2026/previews/mix-example-2.png": {
+      "sha256": "418a54765d5acbb9638a0acd9f0f36db58f452f34a4d495d660214e205dbc49a",
+      "bytes": 40109
+    },
+    "art/quarter-2026/previews/mix-example-3.png": {
+      "sha256": "faca231b0b70a4a4f42adfa994795f9f1edda5027efbce56255110f316201feb",
+      "bytes": 37533
+    },
+    "art/quarter-2026/previews/mix-example-1.png": {
+      "sha256": "46c68ca7132bb45e96af9844896ffaae2bc6e8a352c445e6500785df51dcaa13",
+      "bytes": 41488
+    },
+    "art/quarter-2026/previews/mixed-medal-examples.png": {
+      "sha256": "e85ebe899728c97c99d600586e82e0d01c2203575e301068709d51200ba9c0ae",
+      "bytes": 180523
+    },
+    "art/quarter-2026/previews/ribbons-and-pendants.png": {
+      "sha256": "b4da2e33cfa114127507c7bcb6585c4541227f79bde11c2d7f091484174b79f5",
+      "bytes": 197801
+    },
+    "art/quarter-2026/generation-record.json": {
+      "sha256": "ecc5c0f832bb58275173305a4859af0040ea7dc75a4598df7f9bbf0584d3cfdc",
+      "bytes": 60454
+    },
+    "art/quarter-2026/edge-repairs.json": {
+      "sha256": "50d3586dfb28260b7281b3786a96c1333d2a27fa1980a4733d40ed52b0d89f7a",
+      "bytes": 11313
+    },
+    "art/quarter-2026/galaxy-gala-revision.json": {
+      "sha256": "80b10676a2329d16bf79d45a96075d618e7254b85e3cd08f57fe354e9e05ffe1",
+      "bytes": 2363
+    },
+    "art/quarter-2026/component-manifest.json": {
+      "sha256": "52a4c79a83780c5e30d579b389a102d8ef5b580045d4576f3a79203a8df9439b",
+      "bytes": 13945
     }
   },
-  "scope": "Published game awards, battle honours, all 80 reserved PixelLab library assets, and all 11 Foundling designs plus the miniature placement."
+  "scope": "Published game awards, battle honours, all 80 reserved PixelLab library assets, and all 11 Foundling designs plus the miniature placement. Also includes ten quarter-award designs, sixteen modular components, revised Galaxy Gala and its earlier concept."
 }

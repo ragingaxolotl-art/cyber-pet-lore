@@ -1,0 +1,112 @@
+[
+  {
+    "id": "01-aster-ribbon",
+    "args": {
+      "image_urls": [
+        "local padded input: 01-aster-ribbon.png"
+      ],
+      "width": 320,
+      "height": 384,
+      "no_background": true,
+      "description": "Small pixel-art restoration ONLY. This image already has a generous transparent border: preserve that border and the EXACT original object placement and scale. Inspect the top and bottom extrema of the object: some curls, bail, bottom ring or pedestal edge had been cut off in the earlier source. Finish the interrupted outlines smoothly inside the empty border so the complete natural silhouette is visible. All top ornament curls must be rounded and closed, full hanging bail and finials, complete pedestal bottom. Keep every other part of this design and its fine pixel detail identical. Do not zoom, do not enlarge, do not move or recenter it, no backdrop. Leave a clear 16-pixel transparent safety margin beyond all tips."
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "id: daba71e0-82b4-4a64-8107-52aae6ee52af\njob_id: daba71e0-82b4-4a64-8107-52aae6ee52af\nmode: text\nframes: 1\nsize: 320x384px\ntransparent: True\nedit: Small pixel-art restoration ONLY. This image already has a generous transparent border: preserve that border and the EXACT original object placement and scale. Inspect the top and bottom extrema of the object: some curls, bail, bottom ring or pedestal edge had been cut off in the earlier source. Finish the interrupted outlines smoothly inside the empty border so the complete natural silhouette is visible. All top ornament curls must be rounded and closed, full hanging bail and finials, complete pedestal bottom. Keep every other part of this design and its fine pixel detail identical. Do not zoom, do not enlarge, do not move or recenter it, no backdrop. Leave a clear 16-pixel transparent safety margin beyond all tips.\nasset_id: 2b69d158-12f2-58c8-aa8e-e1069816e6ad\nasset_status: pending (saved when generation completes)\ncost: ~25 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"daba71e0-82b4-4a64-8107-52aae6ee52af\")"
+        }
+      ],
+      "isError": false
+    },
+    "job_id": "daba71e0-82b4-4a64-8107-52aae6ee52af"
+  },
+  {
+    "id": "02-verdant-ribbon",
+    "args": {
+      "image_urls": [
+        "local padded input: 02-verdant-ribbon.png"
+      ],
+      "width": 320,
+      "height": 384,
+      "no_background": true,
+      "description": "Small pixel-art restoration ONLY. This image already has a generous transparent border: preserve that border and the EXACT original object placement and scale. Inspect the top and bottom extrema of the object: some curls, bail, bottom ring or pedestal edge had been cut off in the earlier source. Finish the interrupted outlines smoothly inside the empty border so the complete natural silhouette is visible. All top ornament curls must be rounded and closed, full hanging bail and finials, complete pedestal bottom. Keep every other part of this design and its fine pixel detail identical. Do not zoom, do not enlarge, do not move or recenter it, no backdrop. Leave a clear 16-pixel transparent safety margin beyond all tips."
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "id: 5d281c30-4efd-4df1-a57b-9b4a2ca6da86\njob_id: 5d281c30-4efd-4df1-a57b-9b4a2ca6da86\nmode: text\nframes: 1\nsize: 320x384px\ntransparent: True\nedit: Small pixel-art restoration ONLY. This image already has a generous transparent border: preserve that border and the EXACT original object placement and scale. Inspect the top and bottom extrema of the object: some curls, bail, bottom ring or pedestal edge had been cut off in the earlier source. Finish the interrupted outlines smoothly inside the empty border so the complete natural silhouette is visible. All top ornament curls must be rounded and closed, full hanging bail and finials, complete pedestal bottom. Keep every other part of this design and its fine pixel detail identical. Do not zoom, do not enlarge, do not move or recenter it, no backdrop. Leave a clear 16-pixel transparent safety margin beyond all tips.\nasset_id: 8b3d7c3c-ec76-5004-a882-f9930c5673fb\nasset_status: pending (saved when generation completes)\ncost: ~25 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"5d281c30-4efd-4df1-a57b-9b4a2ca6da86\")"
+        }
+      ],
+      "isError": false
+    },
+    "job_id": "5d281c30-4efd-4df1-a57b-9b4a2ca6da86"
+  },
+  {
+    "id": "02-verdant-pendant",
+    "args": {
+      "image_urls": [
+        "local padded input: 02-verdant-pendant.png"
+      ],
+      "width": 320,
+      "height": 320,
+      "no_background": true,
+      "description": "Small pixel-art restoration ONLY. This image already has a generous transparent border: preserve that border and the EXACT original object placement and scale. Inspect the top and bottom extrema of the object: some curls, bail, bottom ring or pedestal edge had been cut off in the earlier source. Finish the interrupted outlines smoothly inside the empty border so the complete natural silhouette is visible. All top ornament curls must be rounded and closed, full hanging bail and finials, complete pedestal bottom. Keep every other part of this design and its fine pixel detail identical. Do not zoom, do not enlarge, do not move or recenter it, no backdrop. Leave a clear 16-pixel transparent safety margin beyond all tips."
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "id: 9a240282-2631-4dbb-9a90-31d2d40858df\njob_id: 9a240282-2631-4dbb-9a90-31d2d40858df\nmode: text\nframes: 1\nsize: 320x320px\ntransparent: True\nedit: Small pixel-art restoration ONLY. This image already has a generous transparent border: preserve that border and the EXACT original object placement and scale. Inspect the top and bottom extrema of the object: some curls, bail, bottom ring or pedestal edge had been cut off in the earlier source. Finish the interrupted outlines smoothly inside the empty border so the complete natural silhouette is visible. All top ornament curls must be rounded and closed, full hanging bail and finials, complete pedestal bottom. Keep every other part of this design and its fine pixel detail identical. Do not zoom, do not enlarge, do not move or recenter it, no backdrop. Leave a clear 16-pixel transparent safety margin beyond all tips.\nasset_id: fe3cda94-29cd-5f4b-b87e-6e73dc2c772e\nasset_status: pending (saved when generation completes)\ncost: ~15 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"9a240282-2631-4dbb-9a90-31d2d40858df\")"
+        }
+      ],
+      "isError": false
+    },
+    "job_id": "9a240282-2631-4dbb-9a90-31d2d40858df"
+  },
+  {
+    "id": "03-tideglass-ribbon",
+    "args": {
+      "image_urls": [
+        "local padded input: 03-tideglass-ribbon.png"
+      ],
+      "width": 256,
+      "height": 320,
+      "no_background": true,
+      "description": "Small pixel-art restoration ONLY. This image already has a generous transparent border: preserve that border and the EXACT original object placement and scale. Inspect the top and bottom extrema of the object: some curls, bail, bottom ring or pedestal edge had been cut off in the earlier source. Finish the interrupted outlines smoothly inside the empty border so the complete natural silhouette is visible. All top ornament curls must be rounded and closed, full hanging bail and finials, complete pedestal bottom. Keep every other part of this design and its fine pixel detail identical. Do not zoom, do not enlarge, do not move or recenter it, no backdrop. Leave a clear 16-pixel transparent safety margin beyond all tips."
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "id: 23913e5d-1351-4296-b506-20cb7a501858\njob_id: 23913e5d-1351-4296-b506-20cb7a501858\nmode: text\nframes: 1\nsize: 256x320px\ntransparent: True\nedit: Small pixel-art restoration ONLY. This image already has a generous transparent border: preserve that border and the EXACT original object placement and scale. Inspect the top and bottom extrema of the object: some curls, bail, bottom ring or pedestal edge had been cut off in the earlier source. Finish the interrupted outlines smoothly inside the empty border so the complete natural silhouette is visible. All top ornament curls must be rounded and closed, full hanging bail and finials, complete pedestal bottom. Keep every other part of this design and its fine pixel detail identical. Do not zoom, do not enlarge, do not move or recenter it, no backdrop. Leave a clear 16-pixel transparent safety margin beyond all tips.\nasset_id: 6a639d5b-d9df-5ba8-9aee-963dbccfce37\nasset_status: pending (saved when generation completes)\ncost: ~15 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"23913e5d-1351-4296-b506-20cb7a501858\")"
+        }
+      ],
+      "isError": false
+    },
+    "job_id": "23913e5d-1351-4296-b506-20cb7a501858"
+  },
+  {
+    "id": "09-prism-bloom",
+    "args": {
+      "image_urls": [
+        "local padded input: 09-prism-bloom.png"
+      ],
+      "width": 320,
+      "height": 384,
+      "no_background": true,
+      "description": "Small pixel-art restoration ONLY. This image already has a generous transparent border: preserve that border and the EXACT original object placement and scale. Inspect the top and bottom extrema of the object: some curls, bail, bottom ring or pedestal edge had been cut off in the earlier source. Finish the interrupted outlines smoothly inside the empty border so the complete natural silhouette is visible. All top ornament curls must be rounded and closed, full hanging bail and finials, complete pedestal bottom. Keep every other part of this design and its fine pixel detail identical. Do not zoom, do not enlarge, do not move or recenter it, no backdrop. Leave a clear 16-pixel transparent safety margin beyond all tips."
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "id: fecb4312-cf3a-4890-be7f-d9ff98d2922f\njob_id: fecb4312-cf3a-4890-be7f-d9ff98d2922f\nmode: text\nframes: 1\nsize: 320x384px\ntransparent: True\nedit: Small pixel-art restoration ONLY. This image already has a generous transparent border: preserve that border and the EXACT original object placement and scale. Inspect the top and bottom extrema of the object: some curls, bail, bottom ring or pedestal edge had been cut off in the earlier source. Finish the interrupted outlines smoothly inside the empty border so the complete natural silhouette is visible. All top ornament curls must be rounded and closed, full hanging bail and finials, complete pedestal bottom. Keep every other part of this design and its fine pixel detail identical. Do not zoom, do not enlarge, do not move or recenter it, no backdrop. Leave a clear 16-pixel transparent safety margin beyond all tips.\nasset_id: 977b9bca-be0d-5e71-b8cb-523a52298e4b\nasset_status: pending (saved when generation completes)\ncost: ~25 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"fecb4312-cf3a-4890-be7f-d9ff98d2922f\")"
+        }
+      ],
+      "isError": false
+    },
+    "job_id": "fecb4312-cf3a-4890-be7f-d9ff98d2922f"
+  }
+]

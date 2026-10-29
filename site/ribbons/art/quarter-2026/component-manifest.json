@@ -1,0 +1,590 @@
+{
+  "status": "Unassigned design proposals; not installed in gameplay",
+  "generator": "PixelLab Pro and PixelLab object generator",
+  "selection_count": 10,
+  "separate_component_count": 16,
+  "class_system": "One, two and three gem markers plus blank engravable bars. Meanings and award criteria deliberately unassigned.",
+  "composition": "Ribbons and pendants retain native pixels; transparent margins normalized to 24 pixels. Pendant top bail overlaps ribbon bottom fitting by 8 pixels. Clasps use nearest-neighbor fit to 64 pixels only in assembled preview. Every separate piece is supplied at its native artwork resolution.",
+  "artwork": [
+    {
+      "id": "01-aster-ribbon",
+      "name": "Aster Vault ribbon",
+      "kind": "ribbon",
+      "file": "pieces/01-aster-ribbon.png",
+      "clasp_width": 64,
+      "clasp_y": 102
+    },
+    {
+      "id": "01-aster-pendant",
+      "name": "Aster Vault pendant",
+      "kind": "pendant",
+      "file": "pieces/01-aster-pendant.png"
+    },
+    {
+      "id": "02-verdant-ribbon",
+      "name": "Verdant Spire ribbon",
+      "kind": "ribbon",
+      "file": "pieces/02-verdant-ribbon.png",
+      "clasp_width": 64,
+      "clasp_y": 102
+    },
+    {
+      "id": "02-verdant-pendant",
+      "name": "Verdant Spire pendant",
+      "kind": "pendant",
+      "file": "pieces/02-verdant-pendant.png"
+    },
+    {
+      "id": "03-tideglass-ribbon",
+      "name": "Tideglass ribbon",
+      "kind": "ribbon",
+      "file": "pieces/03-tideglass-ribbon.png",
+      "clasp_width": 64,
+      "clasp_y": 102
+    },
+    {
+      "id": "03-tideglass-pendant",
+      "name": "Tideglass pendant",
+      "kind": "pendant",
+      "file": "pieces/03-tideglass-pendant.png"
+    },
+    {
+      "id": "04-ember-ribbon",
+      "name": "Ember Loom ribbon",
+      "kind": "ribbon",
+      "file": "pieces/04-ember-ribbon.png",
+      "clasp_width": 64,
+      "clasp_y": 102
+    },
+    {
+      "id": "04-ember-pendant",
+      "name": "Ember Loom pendant",
+      "kind": "pendant",
+      "file": "pieces/04-ember-pendant.png"
+    },
+    {
+      "id": "clasp-gold-1",
+      "name": "Gold \u00b7 1 gem",
+      "kind": "clasp",
+      "file": "pieces/clasp-gold-1.png"
+    },
+    {
+      "id": "clasp-gold-2",
+      "name": "Gold \u00b7 2 gems",
+      "kind": "clasp",
+      "file": "pieces/clasp-gold-2.png"
+    },
+    {
+      "id": "clasp-gold-3",
+      "name": "Gold \u00b7 3 gems",
+      "kind": "clasp",
+      "file": "pieces/clasp-gold-3.png"
+    },
+    {
+      "id": "clasp-gold-4",
+      "name": "Gold \u00b7 blank",
+      "kind": "clasp",
+      "file": "pieces/clasp-gold-4.png"
+    },
+    {
+      "id": "clasp-silver-1",
+      "name": "Silver \u00b7 1 gem",
+      "kind": "clasp",
+      "file": "pieces/clasp-silver-1.png"
+    },
+    {
+      "id": "clasp-silver-2",
+      "name": "Silver \u00b7 2 gems",
+      "kind": "clasp",
+      "file": "pieces/clasp-silver-2.png"
+    },
+    {
+      "id": "clasp-silver-3",
+      "name": "Silver \u00b7 3 gems",
+      "kind": "clasp",
+      "file": "pieces/clasp-silver-3.png"
+    },
+    {
+      "id": "clasp-silver-4",
+      "name": "Silver \u00b7 blank",
+      "kind": "clasp",
+      "file": "pieces/clasp-silver-4.png"
+    },
+    {
+      "id": "01-aster",
+      "name": "Aster Vault",
+      "kind": "Pendant medal",
+      "file": "awards/01-aster.png"
+    },
+    {
+      "id": "02-verdant",
+      "name": "Verdant Spire",
+      "kind": "Pendant medal",
+      "file": "awards/02-verdant.png"
+    },
+    {
+      "id": "03-tideglass",
+      "name": "Tideglass",
+      "kind": "Pendant medal",
+      "file": "awards/03-tideglass.png"
+    },
+    {
+      "id": "04-ember",
+      "name": "Ember Loom",
+      "kind": "Pendant medal",
+      "file": "awards/04-ember.png"
+    },
+    {
+      "id": "05-orchid-conservatory",
+      "name": "Orchid Conservatory",
+      "kind": "Ceremonial ribbon",
+      "file": "awards/05-orchid-conservatory.png"
+    },
+    {
+      "id": "06-celestial-fanfare",
+      "name": "Celestial Fanfare",
+      "kind": "Ceremonial ribbon",
+      "file": "awards/06-celestial-fanfare.png"
+    },
+    {
+      "id": "07-rosewater-gala",
+      "name": "Rosewater Gala",
+      "kind": "Ceremonial ribbon",
+      "file": "awards/07-rosewater-gala.png"
+    },
+    {
+      "id": "08-orbit-cup",
+      "name": "Orbit Cup",
+      "kind": "Trophy",
+      "file": "awards/08-orbit-cup.png"
+    },
+    {
+      "id": "09-prism-bloom",
+      "name": "Prism Bloom",
+      "kind": "Trophy",
+      "file": "awards/09-prism-bloom.png"
+    },
+    {
+      "id": "10-grand-cascade",
+      "name": "Grand Cascade",
+      "kind": "Trophy",
+      "file": "awards/10-grand-cascade.png"
+    },
+    {
+      "id": "mix-example-1",
+      "name": "Aster Vault + Verdant Spire",
+      "kind": "Mix example",
+      "file": "previews/mix-example-1.png"
+    },
+    {
+      "id": "mix-example-2",
+      "name": "Verdant Spire + Tideglass",
+      "kind": "Mix example",
+      "file": "previews/mix-example-2.png"
+    },
+    {
+      "id": "mix-example-3",
+      "name": "Tideglass + Ember Loom",
+      "kind": "Mix example",
+      "file": "previews/mix-example-3.png"
+    },
+    {
+      "id": "mix-example-4",
+      "name": "Ember Loom + Aster Vault",
+      "kind": "Mix example",
+      "file": "previews/mix-example-4.png"
+    }
+  ],
+  "clipping_checks": [
+    {
+      "file": "pieces/01-aster-ribbon.png",
+      "width": 147,
+      "height": 351,
+      "alpha_bounds": [
+        24,
+        24,
+        123,
+        327
+      ],
+      "clear_margin": 24,
+      "sha256": "63bc51ab21c5083f925c4da3f3d5090fc8e5ca07305e89a05f00f0b674d708f1"
+    },
+    {
+      "file": "pieces/01-aster-pendant.png",
+      "width": 192,
+      "height": 235,
+      "alpha_bounds": [
+        24,
+        24,
+        168,
+        211
+      ],
+      "clear_margin": 24,
+      "sha256": "56850a008112879012255e16e88df66bcd95fbc9c78c40d359627f032e6e8b65"
+    },
+    {
+      "file": "pieces/02-verdant-ribbon.png",
+      "width": 160,
+      "height": 318,
+      "alpha_bounds": [
+        24,
+        24,
+        136,
+        294
+      ],
+      "clear_margin": 24,
+      "sha256": "d78b1047ca5ea5dda13fd11ff36854d27990a592508144a54742776318305f7e"
+    },
+    {
+      "file": "pieces/02-verdant-pendant.png",
+      "width": 170,
+      "height": 249,
+      "alpha_bounds": [
+        24,
+        24,
+        146,
+        225
+      ],
+      "clear_margin": 24,
+      "sha256": "5f0597870cdab812e8687bcd3030b3e4bcfb341b7bb55979499a8a0a0db93a90"
+    },
+    {
+      "file": "pieces/03-tideglass-ribbon.png",
+      "width": 136,
+      "height": 303,
+      "alpha_bounds": [
+        24,
+        24,
+        112,
+        279
+      ],
+      "clear_margin": 24,
+      "sha256": "86f837624059ba469d255eb7b67649c9b209c58ceb1ec23438f061f3b8b426b5"
+    },
+    {
+      "file": "pieces/03-tideglass-pendant.png",
+      "width": 148,
+      "height": 211,
+      "alpha_bounds": [
+        24,
+        24,
+        124,
+        187
+      ],
+      "clear_margin": 24,
+      "sha256": "ef8b2bda1ac7ab98123eee6fa7057fe5763f21576e323c90a77b81f6a7b2417d"
+    },
+    {
+      "file": "pieces/04-ember-ribbon.png",
+      "width": 124,
+      "height": 296,
+      "alpha_bounds": [
+        24,
+        24,
+        100,
+        272
+      ],
+      "clear_margin": 24,
+      "sha256": "ad2d6bde56ba2850bba64940bf1f63e83b8f4a1907855bf02d380da8cad56636"
+    },
+    {
+      "file": "pieces/04-ember-pendant.png",
+      "width": 180,
+      "height": 208,
+      "alpha_bounds": [
+        24,
+        24,
+        156,
+        184
+      ],
+      "clear_margin": 24,
+      "sha256": "3132d68189a32c1e8a5402ad314113fccbeb2744638a04c3ea6f38d2e1ea2581"
+    },
+    {
+      "file": "pieces/clasp-gold-1.png",
+      "width": 170,
+      "height": 85,
+      "alpha_bounds": [
+        24,
+        24,
+        146,
+        61
+      ],
+      "clear_margin": 24,
+      "sha256": "2592faeedbff69a2120e466f96ca45733558ad04c0050291fa3ecda52ffa830b"
+    },
+    {
+      "file": "pieces/clasp-gold-2.png",
+      "width": 170,
+      "height": 88,
+      "alpha_bounds": [
+        24,
+        24,
+        146,
+        64
+      ],
+      "clear_margin": 24,
+      "sha256": "5ef37cbc197efa588749c79e7725a7b0c8bd03eaae76cdba7a1940f6425241ca"
+    },
+    {
+      "file": "pieces/clasp-gold-3.png",
+      "width": 170,
+      "height": 88,
+      "alpha_bounds": [
+        24,
+        24,
+        146,
+        64
+      ],
+      "clear_margin": 24,
+      "sha256": "ff0a8b297764edc6910b22d40832bf5f928734279b5515939ed16cce8d101800"
+    },
+    {
+      "file": "pieces/clasp-gold-4.png",
+      "width": 170,
+      "height": 92,
+      "alpha_bounds": [
+        24,
+        24,
+        146,
+        68
+      ],
+      "clear_margin": 24,
+      "sha256": "864a5ccd9d5d421af3c122c0ea4ada68a4fd90b9f43285df8749e2ac7d1d83cc"
+    },
+    {
+      "file": "pieces/clasp-silver-1.png",
+      "width": 160,
+      "height": 78,
+      "alpha_bounds": [
+        24,
+        24,
+        136,
+        54
+      ],
+      "clear_margin": 24,
+      "sha256": "e3bcbccda1bd930ad6a8a13bf1c62ce6ff6efc05b5998240fb5df09e59bc440a"
+    },
+    {
+      "file": "pieces/clasp-silver-2.png",
+      "width": 160,
+      "height": 79,
+      "alpha_bounds": [
+        24,
+        24,
+        136,
+        55
+      ],
+      "clear_margin": 24,
+      "sha256": "372e837d52578e5954932642c371cbbe1da38b5b875103eb3cd171cf92ce8a0b"
+    },
+    {
+      "file": "pieces/clasp-silver-3.png",
+      "width": 160,
+      "height": 80,
+      "alpha_bounds": [
+        24,
+        24,
+        136,
+        56
+      ],
+      "clear_margin": 24,
+      "sha256": "944b68559218c09252c16a48dd53c2914cdb2511f8766fc797528f4e072da8fa"
+    },
+    {
+      "file": "pieces/clasp-silver-4.png",
+      "width": 160,
+      "height": 79,
+      "alpha_bounds": [
+        24,
+        24,
+        136,
+        55
+      ],
+      "clear_margin": 24,
+      "sha256": "858156207fa37e8ffba9a8b5c70663e770a2d74dc3c0e72572acec0698c183a3"
+    },
+    {
+      "file": "awards/01-aster.png",
+      "width": 192,
+      "height": 530,
+      "alpha_bounds": [
+        24,
+        24,
+        168,
+        506
+      ],
+      "clear_margin": 24,
+      "sha256": "c24b03137850c7e7a23bb44f04ec893dc5044303c36146c948510ac17965e7fc"
+    },
+    {
+      "file": "awards/02-verdant.png",
+      "width": 170,
+      "height": 511,
+      "alpha_bounds": [
+        24,
+        24,
+        146,
+        487
+      ],
+      "clear_margin": 24,
+      "sha256": "d1b2ba102393b865136d6f4d6fd13e5f5c948c6fb667466cecd8cbb6eeec3453"
+    },
+    {
+      "file": "awards/03-tideglass.png",
+      "width": 148,
+      "height": 458,
+      "alpha_bounds": [
+        24,
+        24,
+        124,
+        434
+      ],
+      "clear_margin": 24,
+      "sha256": "97fe5018f24ce03671a2a4f49eeb44c28ec212b98d96530249aa5fadca984842"
+    },
+    {
+      "file": "awards/04-ember.png",
+      "width": 180,
+      "height": 448,
+      "alpha_bounds": [
+        24,
+        24,
+        156,
+        424
+      ],
+      "clear_margin": 24,
+      "sha256": "85fa3102a5328888017178e4c2430ae7403491ef030a8e6d0cbf77ba7dd5b20a"
+    },
+    {
+      "file": "awards/05-orchid-conservatory.png",
+      "width": 265,
+      "height": 409,
+      "alpha_bounds": [
+        24,
+        24,
+        241,
+        385
+      ],
+      "clear_margin": 24,
+      "sha256": "a7bf529651e2a4df69d4c669227ed03f2166e6db112d40133d0add9fef1d3c75"
+    },
+    {
+      "file": "awards/06-celestial-fanfare.png",
+      "width": 249,
+      "height": 400,
+      "alpha_bounds": [
+        24,
+        24,
+        225,
+        376
+      ],
+      "clear_margin": 24,
+      "sha256": "316990f3d89679f5d03fa699fc3f08ff175f522299ac5fbfd3d5e4e2980e1dfb"
+    },
+    {
+      "file": "awards/07-rosewater-gala.png",
+      "width": 217,
+      "height": 410,
+      "alpha_bounds": [
+        24,
+        24,
+        193,
+        386
+      ],
+      "clear_margin": 24,
+      "sha256": "a84fa183dab48d2409f31528377535cccad1c0de9a0914ebf142c067855b1ac5"
+    },
+    {
+      "file": "awards/08-orbit-cup.png",
+      "width": 187,
+      "height": 342,
+      "alpha_bounds": [
+        24,
+        24,
+        163,
+        318
+      ],
+      "clear_margin": 24,
+      "sha256": "81387f87dfe7b915e5faacc9e5222765ace5344b7d174a308159957f739bdfda"
+    },
+    {
+      "file": "awards/09-prism-bloom.png",
+      "width": 244,
+      "height": 363,
+      "alpha_bounds": [
+        24,
+        24,
+        220,
+        339
+      ],
+      "clear_margin": 24,
+      "sha256": "0216bd7b3741f48cbcbf2c10f92fa734cd5e413648bcca7c922fe51b63dbf8a7"
+    },
+    {
+      "file": "awards/10-grand-cascade.png",
+      "width": 246,
+      "height": 290,
+      "alpha_bounds": [
+        24,
+        24,
+        222,
+        266
+      ],
+      "clear_margin": 24,
+      "sha256": "c0b2632a977dd24d03cb8cf768d12fa90fc7699d60784013a0bf6bc274d0dbfb"
+    },
+    {
+      "file": "previews/mix-example-1.png",
+      "width": 170,
+      "height": 544,
+      "alpha_bounds": [
+        24,
+        24,
+        146,
+        520
+      ],
+      "clear_margin": 24,
+      "sha256": "46c68ca7132bb45e96af9844896ffaae2bc6e8a352c445e6500785df51dcaa13"
+    },
+    {
+      "file": "previews/mix-example-2.png",
+      "width": 160,
+      "height": 473,
+      "alpha_bounds": [
+        24,
+        24,
+        136,
+        449
+      ],
+      "clear_margin": 24,
+      "sha256": "418a54765d5acbb9638a0acd9f0f36db58f452f34a4d495d660214e205dbc49a"
+    },
+    {
+      "file": "previews/mix-example-3.png",
+      "width": 180,
+      "height": 455,
+      "alpha_bounds": [
+        24,
+        24,
+        156,
+        431
+      ],
+      "clear_margin": 24,
+      "sha256": "faca231b0b70a4a4f42adfa994795f9f1edda5027efbce56255110f316201feb"
+    },
+    {
+      "file": "previews/mix-example-4.png",
+      "width": 192,
+      "height": 475,
+      "alpha_bounds": [
+        24,
+        24,
+        168,
+        451
+      ],
+      "clear_margin": 24,
+      "sha256": "eac69eaf8c59204fbb8ba95c617b7855ff1ffd9a615fdbb8f3c9257221372979"
+    }
+  ]
+}

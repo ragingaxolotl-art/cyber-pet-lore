@@ -1,0 +1,29 @@
+{
+  "request": {
+    "image_url": "local padded lower crop: original y=224; padding64",
+    "mask_x": 148,
+    "mask_y": 156,
+    "mask_width": 89,
+    "mask_height": 250,
+    "no_background": true,
+    "crop_to_mask": true,
+    "description": "Repair and lengthen the central purple embroidered ribbon, with a COMPLETE FINISHED POINTED HEM and tiny silver teardrop at its bottom. Center fabric should extend just slightly below the lowest light blue ribbon tips. Keep ribbon width, silver embroidery and purple galaxy satin. End the ribbon with ornate silver trim and a small teardrop. VERY IMPORTANT: the entire bottom tip must be visible, with a large area of empty transparent space BELOW it. Do not continue the ribbon to the bottom edge. This is an isolated finished ceremonial ribbon tip, not an endless strip. All outside mask unchanged."
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "id: 44d41d8f-aed6-417f-8ce1-813211bc0ff8\njob_id: 44d41d8f-aed6-417f-8ce1-813211bc0ff8\nsize: 384x416px\nmask: box 89x250 at (148,156)\nfill: Repair and lengthen the central purple embroidered ribbon, with a COMPLETE FINISHED POINTED HEM and tiny silver teardrop at its bottom. Center fabric should extend just slightly below the lowest light blue ribbon tips. Keep ribbon width, silver embroidery and purple galaxy satin. End the ribbon with ornate silver trim and a small teardrop. VERY IMPORTANT: the entire bottom tip must be visible, with a large area of empty transparent space BELOW it. Do not continue the ribbon to the bottom edge. This is an isolated finished ceremonial ribbon tip, not an endless strip. All outside mask unchanged.\ntransparent: True\nasset_id: 93b528c3-f055-513e-9cf6-a9b0cd6a45e9\nasset_status: pending (saved when generation completes)\ncost: ~25 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"44d41d8f-aed6-417f-8ce1-813211bc0ff8\")"
+      }
+    ],
+    "isError": false
+  },
+  "pixel_workbench_edit": "ccfc9e05-1fb2-45bc-b8bb-6e16a1d59d54",
+  "exact_center_extension_pixels": 24,
+  "parent_job": "54d7ed00-a2f7-437b-a6cd-f5c6ed2957b5",
+  "center_end_original_coordinates": 574,
+  "previous_longest_other_tail_end": 549,
+  "outside_center_patch_pixel_identical": true,
+  "transparent_margin": 32,
+  "sha256": "81b774ca99d8b250f3f182824bc96deade3781db48cfcc6484a0b6dcf189b25f"
+}

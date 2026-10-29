@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-28",
-  "scope": "Published game awards, battle honours, all 80 reserved PixelLab library assets, and all 11 Foundling designs plus the miniature placement.",
+  "updated": "2026-10-29",
+  "scope": "Published game awards, battle honours, all 80 reserved PixelLab library assets, and all 11 Foundling designs plus the miniature placement. Also includes ten quarter-award designs, sixteen modular components, revised Galaxy Gala and its earlier concept.",
   "catalog": "../site/ribbons/directory.json",
-  "entries": 160,
+  "entries": 188,
   "main_release": "2026-10-28-foundling",
   "status_counts": {
     "In use": 109,
-    "Not used yet": 42,
-    "Archived concept": 9
+    "Not used yet": 69,
+    "Archived concept": 10
   }
 }
