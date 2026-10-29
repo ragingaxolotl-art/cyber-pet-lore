@@ -162,3 +162,6 @@ runpy.run_path(str(ROOT/"tools/build_story_plans.py"))
 
 # Supplemental portraits anchored to source paragraphs.
 runpy.run_path(str(ROOT/"tools/build_story_illustrations.py"))
+
+# Keep generated planning pages and the archive navigation consistent.
+runpy.run_path(str(Path(__file__).resolve().parent / "build_navigation.py"),run_name="__main__")
