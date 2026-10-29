@@ -1,13 +1,15 @@
-import {createIndex, filterEntries, referenceCSV} from './genre-model.mjs';
+import {createIndex, filterEntries, referenceCSV, visibleTreeIds} from './genre-model.mjs';
 const $ = id => document.getElementById(id);
 const dialog = $('genre-dialog');
 let index, data, activeId, opener, hashBeforeDialog = '';
 const contentCache = new Map();
+let view='tree'; const expanded=new Set();
 function element(tag, text, className) { const el=document.createElement(tag); if(text !== undefined) el.textContent=text; if(className) el.className=className; return el; }
 function button(entry, className='genre-inline-link') { const el=element('button',entry.name,className); el.type='button'; el.dataset.genre=entry.id; el.setAttribute('aria-haspopup','dialog'); return el; }
 function option(select,value,text) {const el=element('option',text); el.value=value; select.append(el);}
 function render() {
   const filtered=filterEntries(index,{query:$('genre-search').value,category:$('genre-category').value,kind:$('genre-kind').value,match:$('genre-match').value,story:$('genre-story').value});
+  renderTree(filtered);
   const fragment=document.createDocumentFragment();
   for(const entry of filtered) {
     const path=index.path(entry), matches=index.matches(entry), direct=entry.matches.some(m=>index.stories.has(m.story));
@@ -23,6 +25,42 @@ function render() {
   }
   $('genre-rows').replaceChildren(fragment); $('genre-count').textContent=`${filtered.length} of ${data.entries.length} entries`; $('genre-empty').hidden=!!filtered.length;
 }
+function renderTree(filtered) {
+  const visible=visibleTreeIds(index,filtered), hits=new Set(filtered.map(e=>e.id));
+  const filtering=filtered.length!==data.entries.length;
+  function branch(entry) {
+    const children=(index.children.get(entry.id)||[]).filter(e=>visible.has(e.id));
+    const matches=index.matches(entry), direct=entry.matches.some(m=>index.stories.has(m.story));
+    const node=element(children.length?'details':'article',undefined,'genre-tree-node '+(direct?'direct-match':matches.length?'branch-match':''));
+    node.dataset.treeEntry=entry.id;
+    const heading=children.length?element('summary',entry.name):button(entry,'genre-name');
+    heading.append(element('span',entry.kind,'genre-type-badge'));
+    if(children.length)heading.append(element('span',`${children.length} branches`,'genre-small'));
+    node.append(heading);
+    const body=element('div',undefined,'genre-tree-body');
+    if(!hits.has(entry.id))body.append(element('small','Parent category for your results'));
+    body.append(element('p',entry.definition));
+    body.append(element('span',matches.length?`${direct?'●':'◒'} ${matches.length} ${matches.length===1?'story':'stories'}${direct?'':' in branches'}`:'○ No reviewed match yet','genre-match-label'));
+    const explain=button(entry);explain.textContent='Full explanation';explain.setAttribute('aria-label',`Full explanation: ${entry.name}`);body.append(explain);
+    if(children.length){
+      node.open=filtering||expanded.has(entry.id);
+      node.addEventListener('toggle',()=>{if(node.isConnected){if(node.open)expanded.add(entry.id);else expanded.delete(entry.id);}});
+      const nest=element('div',undefined,'genre-tree-children');children.forEach(e=>nest.append(branch(e)));body.append(nest);
+    }
+    node.append(body);return node;
+  }
+  $('genre-tree').replaceChildren(...(index.children.get(null)||[]).filter(e=>visible.has(e.id)).map(branch));
+  $('genre-tree').hidden=view!=='tree';$('genre-table').hidden=view!=='table';
+  $('genre-tree-controls').hidden=view!=='tree';
+  for(const mode of ['tree','table'])$('genre-view-'+mode).setAttribute('aria-pressed',String(view===mode));
+}
+for(const mode of ['tree','table'])$('genre-view-'+mode).addEventListener('click',()=>{view=mode;if(index)render();});
+for(const [id,open] of [['genre-expand',true],['genre-collapse',false]])$(id).addEventListener('click',()=>{$('genre-tree').querySelectorAll('details').forEach(el=>{el.open=open;if(open)expanded.add(el.dataset.treeEntry);else expanded.delete(el.dataset.treeEntry);});});
+document.querySelectorAll('[data-browse]').forEach(control=>control.addEventListener('click',()=>{
+  if(!index)return;
+  $('genre-filters').reset();view='tree';
+  setTimeout(()=>{const entry=index.byId.get(control.dataset.browse);index.path(entry).forEach(e=>expanded.add(e.id));render();$('genre-tree').querySelector(`[data-tree-entry="${entry.id}"]`).scrollIntoView({block:'start',behavior:'smooth'});},0);
+}));
 async function evidence(match, target) {
   target.replaceChildren(element('p','Loading supporting passage…'));
   try {
@@ -42,6 +80,9 @@ function showEntry(id, trigger) {
   const crumbs=index.path(entry).slice(0,-1);$('genre-breadcrumbs').replaceChildren();
   crumbs.forEach((parent,i)=>{if(i)$('genre-breadcrumbs').append(element('span','›'));$('genre-breadcrumbs').append(button(parent));});
   const children=index.children.get(id)||[]; $('genre-children-section').hidden=!children.length;$('genre-children').replaceChildren(...children.map(child=>button(child)));
+  $('genre-related').replaceChildren(...(entry.related||[]).map(id=>button(index.byId.get(id))));
+  $('genre-related-section').hidden=!(entry.related||[]).length;
+  $('genre-sources').replaceChildren(...(entry.references||[]).map(ref=>{const a=element('a',ref.title);a.href=ref.url;return a;}));
   const matches=index.matches(entry); $('genre-examples').replaceChildren();
   if(!matches.length)$('genre-examples').append(element('p','No existing story has been reviewed as a match for this branch yet. Use the writing question above to explore a new direction.','genre-empty-matches'));
   for(const match of matches) {

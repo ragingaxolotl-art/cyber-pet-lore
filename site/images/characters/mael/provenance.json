@@ -1,0 +1,54 @@
+{
+  "generator": "PixelLab",
+  "characterId": "71e17b0c-e40d-48c1-85d7-8ffa5b9a81cc",
+  "name": "Mael \u2014 House of Returning",
+  "mode": "v3",
+  "size": 128,
+  "generations": 3,
+  "sourceReading": "stories-p01469",
+  "sourceBlock": "stories-p01492",
+  "sourceDescription": "A narrow figure composed of pale diagnostic lines; the same form used for sixty years to provide familiarity during restoration.",
+  "interpretation": "Exact face, humanlike proportions, ivory-blue palette and rib-like line geometry are illustration choices, not additional canon.",
+  "files": [
+    {
+      "file": "south.png",
+      "source": "https://backblaze.pixellab.ai/file/pixellab-characters/99289ede-ba7f-42ba-80fe-fbc9a8582335/71e17b0c-e40d-48c1-85d7-8ffa5b9a81cc/rotations/south.png",
+      "sha256": "07019f7cc7cb4c42ae9760e5c4a91edf32e583d6251c67fc58a09bcf15b2400b"
+    },
+    {
+      "file": "east.png",
+      "source": "https://backblaze.pixellab.ai/file/pixellab-characters/99289ede-ba7f-42ba-80fe-fbc9a8582335/71e17b0c-e40d-48c1-85d7-8ffa5b9a81cc/rotations/east.png",
+      "sha256": "fc8da4c0cc15bc50aeed900aaf6c11c9f1c9d714a9ab9754607bdc7e40df8ca5"
+    },
+    {
+      "file": "north.png",
+      "source": "https://backblaze.pixellab.ai/file/pixellab-characters/99289ede-ba7f-42ba-80fe-fbc9a8582335/71e17b0c-e40d-48c1-85d7-8ffa5b9a81cc/rotations/north.png",
+      "sha256": "835751a95cccd5362de72588e78530958edac8568b7ca382247fe96718bf68bb"
+    },
+    {
+      "file": "west.png",
+      "source": "https://backblaze.pixellab.ai/file/pixellab-characters/99289ede-ba7f-42ba-80fe-fbc9a8582335/71e17b0c-e40d-48c1-85d7-8ffa5b9a81cc/rotations/west.png",
+      "sha256": "14f20e50162ba13927305f2c390cfa05bf618adf6d7a7ce8bdcb60d618879c03"
+    },
+    {
+      "file": "south-east.png",
+      "source": "https://backblaze.pixellab.ai/file/pixellab-characters/99289ede-ba7f-42ba-80fe-fbc9a8582335/71e17b0c-e40d-48c1-85d7-8ffa5b9a81cc/rotations/south-east.png",
+      "sha256": "32fb3993875064b9d2ac4c676cf1873cb9d66110743614df3221d7fc4cda73a8"
+    },
+    {
+      "file": "north-east.png",
+      "source": "https://backblaze.pixellab.ai/file/pixellab-characters/99289ede-ba7f-42ba-80fe-fbc9a8582335/71e17b0c-e40d-48c1-85d7-8ffa5b9a81cc/rotations/north-east.png",
+      "sha256": "48f435f1824606ed7ad7b6c572218185b29393c942725aa1f9049b97beae31cf"
+    },
+    {
+      "file": "north-west.png",
+      "source": "https://backblaze.pixellab.ai/file/pixellab-characters/99289ede-ba7f-42ba-80fe-fbc9a8582335/71e17b0c-e40d-48c1-85d7-8ffa5b9a81cc/rotations/north-west.png",
+      "sha256": "9e705b087e4b06b763f38b540b5019701773cc314a901c0106ac2748783b112f"
+    },
+    {
+      "file": "south-west.png",
+      "source": "https://backblaze.pixellab.ai/file/pixellab-characters/99289ede-ba7f-42ba-80fe-fbc9a8582335/71e17b0c-e40d-48c1-85d7-8ffa5b9a81cc/rotations/south-west.png",
+      "sha256": "773513dd2c9d55538e754bcd0f78d7a66c8f094e974af184188b06aeb649d123"
+    }
+  ]
+}

@@ -38,7 +38,7 @@ export function filterEntries(index, filters = {}) {
     if (filters.match === 'matched' && !matches.length) return false;
     if (filters.match === 'unmatched' && matches.length) return false;
     if (filters.story && !matches.some(match => match.story === filters.story)) return false;
-    const text = [entry.name, entry.definition, entry.prompt, entry.kind, ...path.map(p => p.name), ...matches.map(m => index.stories.get(m.story).title)].join(' ').toLocaleLowerCase();
+    const text = [entry.name, ...(entry.aliases || []), entry.definition, entry.prompt, entry.kind, ...path.map(p => p.name), ...matches.map(m => index.stories.get(m.story).title)].join(' ').toLocaleLowerCase();
     return terms.every(term => text.includes(term));
   });
 }
@@ -47,4 +47,8 @@ export function referenceCSV(index) {
   const rows = [['Category', 'Hierarchy', 'Name', 'Type', 'Definition', 'Writing question', 'Classification note', 'Reviewed story matches']];
   for (const entry of index.ordered) rows.push([index.path(entry)[0].name, index.path(entry).map(p=>p.name).join(' > '), entry.name, entry.kind, entry.definition, entry.prompt, entry.scopeNote, index.matches(entry).map(m => `${index.stories.get(m.story).title} [${index.byId.get(m.via).name}]: ${m.reason}`).join(' | ')]);
   return '\uFEFF' + rows.map(row => row.map(quote).join(',')).join('\r\n');
+}
+
+export function visibleTreeIds(index, entries) {
+  return new Set(entries.flatMap(entry => index.path(entry).map(parent => parent.id)));
 }
