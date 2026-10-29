@@ -37,7 +37,13 @@
         {
           "story": "stories-p11382",
           "paragraph": "stories-p11385",
-          "reason": "Sen’s classroom task becomes the setting for Lio to test guidance and assumptions about correct choices. Only Part One is written.",
+          "reason": "Sen’s classroom task becomes the setting for Lio to test guidance and assumptions about correct choices. This is the first part of the completed two-part story.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00080",
+          "reason": "A developmental review changes how the House interprets Lio’s experiments and makes its correction visible in the record. The review is expressly not a disciplinary trial.",
           "assessment": "Editorial reading"
         }
       ],
@@ -223,6 +229,12 @@
           "paragraph": "stories-p02530",
           "reason": "Hearings over Aru’s classification and developmental rights make legal recognition a substantial strand of the story, not its only genre.",
           "assessment": "Editorial reading"
+        },
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00114",
+          "reason": "Lio negotiates private recommendations and the right to stop a supervised test without having refusal treated as failure. This is a rights-and-care strand, not a courtroom case.",
+          "assessment": "Editorial reading"
         }
       ],
       "scopeNote": "Our descriptive planning branch, not a claim that this is an established literary subgenre."
@@ -264,7 +276,14 @@
       "kind": "Genre",
       "definition": "Family relationships and their obligations, histories, and conflicts organize the plot.",
       "prompt": "Which obligation feels like love to one person and control to another?",
-      "matches": [],
+      "matches": [
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00096",
+          "reason": "Valei confronts whether protective choices made before Lio existed have limited who Lio can become; the conversation preserves both care and accountability.",
+          "assessment": "Editorial reading"
+        }
+      ],
       "scopeNote": "An established genre label. Boundaries overlap; a story may fit several genres."
     },
     {
@@ -274,7 +293,14 @@
       "kind": "Theme",
       "definition": "Different generations struggle over inherited expectations, values, or responsibilities.",
       "prompt": "Which inherited rule once protected the family but now limits it?",
-      "matches": [],
+      "matches": [
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00096",
+          "reason": "Valei confronts whether protective choices made before Lio existed have limited who Lio can become; the conversation preserves both care and accountability.",
+          "assessment": "Editorial reading"
+        }
+      ],
       "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
     },
     {
@@ -299,6 +325,12 @@
           "story": "stories-p01889",
           "paragraph": "stories-p02557",
           "reason": "Aru claims the right to learn, develop preferences, and choose an embodiment gradually while Iri learns how to care for a newborn.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00096",
+          "reason": "Valei confronts whether protective choices made before Lio existed have limited who Lio can become; the conversation preserves both care and accountability.",
           "assessment": "Editorial reading"
         }
       ],
@@ -398,6 +430,12 @@
           "paragraph": "stories-p14470",
           "reason": "Ilex preserves a live exchange and corrections because simplified labels omit conditions necessary for safe passage.",
           "assessment": "Editorial reading"
+        },
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00080",
+          "reason": "A developmental review changes how the House interprets Lio’s experiments and makes its correction visible in the record. The review is expressly not a disciplinary trial.",
+          "assessment": "Editorial reading"
         }
       ],
       "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
@@ -446,7 +484,13 @@
         {
           "story": "stories-p11382",
           "paragraph": "stories-p11385",
-          "reason": "Sen’s classroom task becomes the setting for Lio to test guidance and assumptions about correct choices. Only Part One is written.",
+          "reason": "Sen’s classroom task becomes the setting for Lio to test guidance and assumptions about correct choices. This is the first part of the completed two-part story.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00080",
+          "reason": "A developmental review changes how the House interprets Lio’s experiments and makes its correction visible in the record. The review is expressly not a disciplinary trial.",
           "assessment": "Editorial reading"
         }
       ],
@@ -489,7 +533,13 @@
         {
           "story": "stories-p11382",
           "paragraph": "stories-p11385",
-          "reason": "Sen’s classroom task becomes the setting for Lio to test guidance and assumptions about correct choices. Only Part One is written.",
+          "reason": "Sen’s classroom task becomes the setting for Lio to test guidance and assumptions about correct choices. This is the first part of the completed two-part story.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00080",
+          "reason": "A developmental review changes how the House interprets Lio’s experiments and makes its correction visible in the record. The review is expressly not a disciplinary trial.",
           "assessment": "Editorial reading"
         }
       ],
@@ -1301,6 +1351,12 @@
           "paragraph": "stories-p11385",
           "reason": "The classroom shelter must survive simulated environmental changes. The developing-engine interpretation is author-approved background, not a claim that the prose names an engine.",
           "assessment": "Editorial reading"
+        },
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00186",
+          "reason": "A supervised shelter exercise includes a floor that softens beneath the structure, giving concrete consequences to the environment’s adjustable physical behavior.",
+          "assessment": "Editorial reading"
         }
       ],
       "scopeNote": "A recurring subject or question. A theme can appear in many different genres."
@@ -1341,6 +1397,12 @@
           "paragraph": "stories-p11385",
           "reason": "The classroom shelter must survive simulated environmental changes. The developing-engine interpretation is author-approved background, not a claim that the prose names an engine.",
           "assessment": "Editorial reading"
+        },
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00186",
+          "reason": "A supervised shelter exercise includes a floor that softens beneath the structure, giving concrete consequences to the environment’s adjustable physical behavior.",
+          "assessment": "Editorial reading"
         }
       ],
       "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
@@ -1357,6 +1419,12 @@
           "story": "stories-p11382",
           "paragraph": "stories-p11385",
           "reason": "The classroom shelter must survive simulated environmental changes. The developing-engine interpretation is author-approved background, not a claim that the prose names an engine.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00186",
+          "reason": "A supervised shelter exercise includes a floor that softens beneath the structure, giving concrete consequences to the environment’s adjustable physical behavior.",
           "assessment": "Editorial reading"
         }
       ],
@@ -2536,7 +2604,7 @@
         {
           "story": "stories-p11382",
           "paragraph": "stories-p11385",
-          "reason": "Sen’s classroom task becomes the setting for Lio to test guidance and assumptions about correct choices. Only Part One is written.",
+          "reason": "Sen’s classroom task becomes the setting for Lio to test guidance and assumptions about correct choices. This is the first part of the completed two-part story.",
           "assessment": "Editorial reading"
         }
       ],
@@ -2575,6 +2643,12 @@
           "paragraph": "stories-p12106",
           "reason": "Lio cannot tell whether agreement with the guidance makes a choice more or less their own.",
           "assessment": "Editorial reading"
+        },
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00114",
+          "reason": "Lio negotiates private recommendations and the right to stop a supervised test without having refusal treated as failure. This is a rights-and-care strand, not a courtroom case.",
+          "assessment": "Editorial reading"
         }
       ],
       "scopeNote": "A recognized storytelling label or mode. Its scope varies across literature, film, publishing, and reader communities; this placement is editorial."
@@ -2591,6 +2665,12 @@
           "story": "stories-p00887",
           "paragraph": "stories-p01000",
           "reason": "The Orison rescue requires cooperation among Shelters with limited capacity and conflicting duties of protection.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00240",
+          "reason": "The ending offers progress in Lio’s ability to consider and refuse guidance while a repair task still admits no answer that saves everything.",
           "assessment": "Editorial reading"
         }
       ],
@@ -2620,6 +2700,12 @@
           "story": "stories-p11382",
           "paragraph": "stories-p12106",
           "reason": "Lio cannot tell whether agreement with the guidance makes a choice more or less their own.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00114",
+          "reason": "Lio negotiates private recommendations and the right to stop a supervised test without having refusal treated as failure. This is a rights-and-care strand, not a courtroom case.",
           "assessment": "Editorial reading"
         }
       ],
@@ -2677,6 +2763,12 @@
           "story": "stories-p11382",
           "paragraph": "stories-p12106",
           "reason": "Lio cannot tell whether agreement with the guidance makes a choice more or less their own.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00114",
+          "reason": "Lio negotiates private recommendations and the right to stop a supervised test without having refusal treated as failure. This is a rights-and-care strand, not a courtroom case.",
           "assessment": "Editorial reading"
         }
       ],
@@ -3018,6 +3110,12 @@
           "story": "stories-p14511",
           "paragraph": "stories-p14517",
           "reason": "A roof mender discovers a street inside moss and learns to communicate across unfamiliar scales. First contact is an interpretive analogy, not an alien-arrival claim.",
+          "assessment": "Editorial reading"
+        },
+        {
+          "story": "corrected-child-part-two-p00000",
+          "paragraph": "corrected-child-part-two-p00240",
+          "reason": "The ending offers progress in Lio’s ability to consider and refuse guidance while a repair task still admits no answer that saves everything.",
           "assessment": "Editorial reading"
         }
       ],

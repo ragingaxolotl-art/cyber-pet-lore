@@ -25,7 +25,8 @@ test('every story match points to existing prose and a real supporting paragraph
     assert.ok(match.reason.length>30);covered.add(match.story);
   }
   assert.deepEqual([...covered].sort(),[...index.stories.keys()].sort());
-  assert.match(index.stories.get('stories-p11382').summary,/unfinished/i);
+  assert.ok(index.stories.get('stories-p11382').summary.length);
+  assert.ok(covered.has('corrected-child-part-two-p00000'));
 });
 test('parent matches deduplicate stories and preserve the reason and originating branch',()=>{
   const legal=index.matches(index.byId.get('legal-drama'));

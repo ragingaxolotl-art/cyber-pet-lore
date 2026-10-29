@@ -60,7 +60,7 @@ window.addEventListener('hashchange',fromHash);
 $('genre-filters').addEventListener('input',()=>{if(index)render();});
 $('genre-filters').addEventListener('change',()=>{if(index)render();});
 $('genre-filters').addEventListener('submit',e=>e.preventDefault());
-$('genre-filters').addEventListener('reset',()=>queueMicrotask(()=>{if(index)render();}));
+$('genre-filters').addEventListener('reset',()=>setTimeout(()=>{if(index)render();},0));
 $('genre-export').addEventListener('click',()=>{const url=URL.createObjectURL(new Blob([referenceCSV(index)],{type:'text/csv;charset=utf-8'}));const a=element('a');a.href=url;a.download='cyber-pet-story-genres.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
 async function load() {
   $('genre-error').hidden=true;
