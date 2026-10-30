@@ -34,3 +34,6 @@ def add_era_three_research(root, catalog, sources):
         path.write_text(json.dumps(reading, ensure_ascii=False))
         entry = next(e for e in catalog if e['id'] == target)
         entry['wordCount'] += sum(len(b['text'].split()) for b in extra)
+
+    from build_era_three_history import add_era_three_history
+    add_era_three_history(root, catalog, sources)
