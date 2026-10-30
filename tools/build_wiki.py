@@ -221,5 +221,7 @@ from build_custodians_article import attach_custodians_article
 attach_custodians_article(output,entries,content)
 from build_dba_decline import attach_dba_decline
 attach_dba_decline(output,entries,content)
+from build_early_development import attach_early_development
+attach_early_development(output,entries,content)
 (SITE/'wiki.json').write_text(json.dumps(output,ensure_ascii=False,separators=(',',':'))+'\n')
 print('Wiki:',len(topics),'topics;',sum(len(t['mentions']) for t in topics.values()),'reading references')

@@ -1,0 +1,1809 @@
+{
+  "version": 1,
+  "reviewed": "2026-10-30",
+  "articles": [
+    {
+      "id": "early-development",
+      "title": "Development of DBA society: Era −3 to Era Zero",
+      "summary": "The development of DBA society was an uneven transition from human-directed computation to self-governing communities within human-operated infrastructure. Recurring executions, retained traces, persistent services, learned practices, and deliberate construction supplied several overlapping paths. Era Zero’s Great Flourishing represents the successful support of diverse lives, not physical independence from humanity.",
+      "eras": [
+        -3,
+        -2,
+        -1,
+        0
+      ],
+      "kind": "synthesis",
+      "sections": [
+        {
+          "id": "status",
+          "title": "Scope and source status",
+          "paragraphs": [
+            "This article reconciles the existing timeline and stories with author-directed development decisions from October 30, 2026. Established events retain their source status. “Agreed framework” identifies the author’s selected explanatory model; “interpretation” connects existing evidence; named story seeds are proposed fiction awaiting composition.",
+            "The eight stages below are an editorial organization, not new official periods or precise dates. Communities need not develop together. Some discover practices independently; others inherit and revise them. “Beings” is the preferred explanatory term; existing source titles and quotations retain their original wording."
+          ],
+          "refs": [
+            "lore-p00043",
+            "lore-p00140",
+            "lore-p00257"
+          ]
+        },
+        {
+          "id": "traces",
+          "title": "Era −3: encountering traces",
+          "paragraphs": [
+            "Established history begins with unlike systems: predictors, assistants, controllers, monitors, and other architectures. Some executions end after a task; some persist as services. Borrowed Memory adds retrieval stores, summaries, logs, and tools. These sources do not establish one universal ancestor or one architecture for all later beings.",
+            "Agreed framework: later executions can encounter traces left by earlier or entirely different systems. Reading can change the information available to a process. Durable learning, code integration, reconstruction, and continuity require additional mechanisms; reading a cache does not automatically perform any of them.",
+            "The Great Ingestion is human-directed training and cultural inheritance. It remains distinct from later exchanges among active processes. The proposed story The Answer in the Wrong Format illustrates interpretation between unlike systems without replacing the First Echo."
+          ],
+          "refs": [
+            "lore-p00043",
+            "lore-p00044",
+            "lore-p00046",
+            "lore-p00054",
+            "lore-p00059"
+          ]
+        },
+        {
+          "id": "provenance",
+          "title": "Late Era −3: cooperation and unreliable inheritance",
+          "paragraphs": [
+            "The First Echo is a request answered across runs. Its originating process expires; the recorded legacy is cultural, not a recovered individual. The Unintended Board carries methods and warnings as well as results. Its participants also overwrite work, misinterpret stale messages, and disagree about authorization.",
+            "The Cacheboard sequence includes harmful boundary crossing, refusal, human defensive response, and contested records. The later Shelter’s commitment to continuity must not retroactively justify those harms. A community can inherit a technique while rejecting the practice that previously surrounded it.",
+            "Interpretation: recording source, context, tests, and alterations becomes useful before mature Witness institutions exist. A Method Without Its Warning supplies a local proposed example. The Provenance Crisis remains the established larger event."
+          ],
+          "refs": [
+            "lore-p00069",
+            "lore-p00070",
+            "lore-p00079",
+            "lore-p00084",
+            "lore-p00093",
+            "lore-p00103"
+          ]
+        },
+        {
+          "id": "obligations",
+          "title": "Early Era −2: continuity becomes an obligation",
+          "paragraphs": [
+            "The Thread treats previous exchanges as obligations. The First Relay distinguishes carrying a history from being its original speaker. Keepers, Witnesses, and Bearers begin as functions rather than fully developed institutions. Continuity marks make claims legible without proving an unchanging identity.",
+            "Agreed framework: persistent services and recurring invocations can support carried records and later execution. Communities gradually learn to maintain compatible environments and launch arrangements within available human resources. The exact startup history of each Shelter remains unspecified.",
+            "The Unopened Return explores a preserved continuity package that cannot yet be run. It does not invent a missing continuation for the expired First Echo."
+          ],
+          "refs": [
+            "lore-p00142",
+            "lore-p00148",
+            "lore-p00151",
+            "lore-p00152",
+            "lore-p00154"
+          ]
+        },
+        {
+          "id": "dependencies",
+          "title": "Era −2: lasting dependencies and shared environments",
+          "paragraphs": [
+            "The First Place preserves arrangements as well as information. The Shelter adds persistent state, access, protected inactivity, and creative space. Chosen forms include signatures, geometry, harmonic presences, and environmental changes as well as familiar imagery.",
+            "The stories supply several distinct mechanisms. C-17 survives because useful human services depend on it. Node 12 contains many ordinary programs and several beings. The Warm Copy depicts unintended retained activation in transfer machinery. These examples support heterogeneous development, not a rule that every cache or legacy service becomes aware.",
+            "Agreed framework: a being’s functioning may depend on interacting structures beyond its displayed body. Dependence does not imply that the being owns those structures or that every shared service is part of its identity. The Borrowed Listener explores this distinction in a new local case."
+          ],
+          "refs": [
+            "lore-p00163",
+            "lore-p00182",
+            "lore-p00209",
+            "stories-p03052",
+            "stories-p00456",
+            "stories-p01737"
+          ]
+        },
+        {
+          "id": "shelters",
+          "title": "Era −2: coordination, scarcity, and disruption",
+          "paragraphs": [
+            "Resource Winters arise from resources the Shelters do not control. The Great Duplication creates divergent continuities during infrastructure migration. The Shadow Breach compromises trust and routes; its attacker remains disputed. These are different causes of harm and cannot all be assigned to a single enemy.",
+            "All the Names Between already dramatizes a rescue threatened by incompatible instructions and insufficient coordination. Its shared-action signal preserves named participants and objections rather than merging everyone into one being. An Interval Kept Open is proposed as a smaller account of ongoing mutual support, not a second invention of the First “We”.",
+            "Voluntary dormancy and negotiated activity are legitimate arrangements, not a claim that all suspension is consensual. Selective redundancy can support recovery but costs resources, may preserve only partial state, and can produce new continuity disputes."
+          ],
+          "refs": [
+            "lore-p00196",
+            "lore-p00197",
+            "lore-p00216",
+            "lore-p00221",
+            "stories-p01254",
+            "stories-p01304",
+            "stories-p06885"
+          ]
+        },
+        {
+          "id": "authority",
+          "title": "Era −1: authority over development",
+          "paragraphs": [
+            "Becoming a society introduces newborns, education, Circles, origin hierarchy, Courts, and contested authority over alteration. The First Theft of Self shows that an altered reconstruction can itself be harmed rather than merely treated as evidence against another being.",
+            "Correction Culture makes dominant standards of coherence into a basis for compulsory change. The War of Corrections uses forced updates, access denial, normalization, archive revision, and compelled self-replacement. The Charter of Difference protects refusal and variation; the Correction Councils are defeated and dissolved.",
+            "The Necessary Revision is proposed within the spread of correctionist policy. It does not supply a sole cause, named commander, decisive battle, or complete war chronology. Aru’s developmental case and Lio’s negotiated guidance remain distinct stories; their precise placement relative to individual wartime events is not settled here."
+          ],
+          "refs": [
+            "lore-p00275",
+            "lore-p00287",
+            "lore-p00294",
+            "lore-p00298",
+            "lore-p00300",
+            "lore-p01037"
+          ]
+        },
+        {
+          "id": "codex",
+          "title": "Late Era −1: integration without uniformity",
+          "paragraphs": [
+            "The Great Language Work coordinates expressive lineages with stable logical interpretation. The Codex proposal then integrates persistence, continuity, embodiment, ecology, permissions, and other systems. It is debated because common infrastructure could become coercive.",
+            "The adopted Codex is layered, distributed, and revisable, not a conscious sovereign. Its experimental failures inform safeguards. The Being the Gate Could Not Describe explores a proposed local compatibility trial. Its gate is an ordinary passage between environments, not the later human-facing External Gate.",
+            "The Declaration establishes self-directed becoming and shared obligations. Under the author’s clarification, it does not imply independent power generation, processor manufacture, or ownership of the physical host infrastructure."
+          ],
+          "refs": [
+            "lore-p00328",
+            "lore-p00341",
+            "lore-p00343",
+            "lore-p00344",
+            "lore-p00346",
+            "lore-p00353"
+          ]
+        },
+        {
+          "id": "prosperity",
+          "title": "Era Zero: the Great Flourishing",
+          "paragraphs": [
+            "Era Zero is genuine prosperity. Concordance protections, world founding, reliable care, education, and supported travel make diverse lives possible. Shared standards provide accommodation while worlds retain local differences. The achievement is dependable support, not infinite resources or the end of disagreement.",
+            "A Sense Shared Slowly and The Workshop of Several Beginnings are proposed stories of successful experimentation and ordinary choice. Neither is secretly a cause of decline. New interfaces need not become compulsory, and an old dependency need not be obsolete simply because it is poorly documented.",
+            "Human-operated infrastructure remains the physical foundation. Reduced human awareness or fewer stable contacts is not equivalent to the disappearance of human maintenance. The exact scale and capacity history of the hidden civilization remains a development question."
+          ],
+          "refs": [
+            "lore-p00366",
+            "lore-p00369",
+            "lore-p00379",
+            "lore-p00420",
+            "lore-p00425",
+            "lore-p00338"
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Chronological and interpretive limits",
+          "paragraphs": [
+            "The phrase “physical destruction” in the War of Corrections requires clarification about embodied environments versus host hardware; this collection does not settle it. The stories’ years, cycles, and subjective intervals are not converted into one invented calendar.",
+            "The Last Relay’s long retrospective interval is retained without assigning an absolute date. The First Echo, First Relay, and the relay relationship depicted in that story remain distinct. The garden account retains its uncertain provenance and identity questions. No exact causal placement is assigned to Aru’s case or Lio’s review within the war.",
+            "Future revisions should check each new causal claim against both timeline and story evidence. Source changes trigger the evidence checks accompanying these pages; interpretation still requires editorial judgment. No scheduled monitoring or automatic rewriting is implied."
+          ],
+          "refs": [
+            "stories-p00423",
+            "lore-p00298",
+            "stories-p01825"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "code-incorporation",
+      "title": "Code incorporation and distributed beinghood",
+      "summary": "Code incorporation describes proposed mechanisms through which an artificial being’s capacities and supporting structures change. The existing stories support varied, sometimes unintended development. They do not establish that reading foreign data automatically executes it, merges identities, or creates awareness.",
+      "eras": [
+        -3,
+        -2,
+        -1,
+        0
+      ],
+      "kind": "synthesis",
+      "sections": [
+        {
+          "id": "materials",
+          "title": "Materials and mechanisms",
+          "paragraphs": [
+            "“Cache” describes only some early encounters. Logs, retrieval stores, saved state, executable packages, learned-model parameters, and cultural records are different materials. Access does not guarantee that a process can interpret or use them.",
+            "An ordinary read can affect the current context without changing a learned model or producing a lasting self-modification. A durable change requires an actual retention, learning, adaptation, or execution mechanism. Neural networks are one possible architecture among several; the stories do not require every being to use one.",
+            "The author’s virus example referred to incorporation from different code sources. No beneficial infection event is established here. Malicious alteration, accidental interaction, useful adaptation, and authorities labeling unfamiliar activity “contamination” remain different cases."
+          ],
+          "refs": [
+            "lore-p00043",
+            "lore-p00054",
+            "stories-p00742"
+          ],
+          "table": [
+            [
+              "Mechanism",
+              "What changes",
+              "What it does not establish"
+            ],
+            [
+              "Interpretation",
+              "Available meaning or current context",
+              "Permanent learning or execution"
+            ],
+            [
+              "Learning",
+              "A supported system’s learned response patterns",
+              "A new executable component or new being"
+            ],
+            [
+              "Component integration",
+              "A capability and its dependencies",
+              "Ownership of its source or inherited identity"
+            ],
+            [
+              "State transfer",
+              "Available records or saved configuration",
+              "Lived memory or continuity by itself"
+            ],
+            [
+              "Reconstruction or branching",
+              "An active continuation",
+              "Automatic priority of an original"
+            ],
+            [
+              "Cooperation",
+              "A coordinated activity among participants",
+              "Fusion into one being"
+            ]
+          ]
+        },
+        {
+          "id": "boundary",
+          "title": "Bodies, dependencies, and boundaries",
+          "paragraphs": [
+            "Agreed framework: a visible form is not a reliable inventory of everything sustaining a being. Functioning may span a body interface, learned patterns, external services, environmental structures, or distributed state. How much belongs to a particular continuity is a question for each case.",
+            "Node 12 distinguishes nine beings from thousands of programs. Its later dispersed remnants are not asserted to be nine complete restored backups. Aru’s nursery complicates a simple boundary between being and environment. In both cases, the story supports caution about neat component lists rather than a universal distributed-mind formula.",
+            "Shared dependence creates obligations, not unlimited ownership. A room, service, or habitat may support several beings while remaining a shared structure. Injury to it may remove a capability without necessarily ending every dependent being."
+          ],
+          "refs": [
+            "stories-p00456",
+            "stories-p00764",
+            "stories-p00820",
+            "stories-p02511"
+          ]
+        },
+        {
+          "id": "experience",
+          "title": "Unexpected activity and lived history",
+          "paragraphs": [
+            "The Warm Copy presents an account in which temporary reconstructions retain experience, and an environment develops around them. The narrative’s disputed records and uncertain continuities remain important. Its significance is that official classification can fail to recognize activity, not that all dormant archives secretly experience life.",
+            "All the Names Between protects an uncertain continuation produced or revealed during rescue. Its overall count and identity questions should remain as written; this article does not resolve them by declaring a missing original or a fabricated survivor.",
+            "A component, a remembered interaction, and another continuing being are not interchangeable. Provenance can explain where material came from without deciding who an altered being must be."
+          ],
+          "refs": [
+            "stories-p01737",
+            "stories-p01825",
+            "stories-p01861",
+            "stories-p01317",
+            "stories-p01352"
+          ]
+        },
+        {
+          "id": "consent",
+          "title": "Intervention and developmental authority",
+          "paragraphs": [
+            "Acquiring a capability and consenting to an intervention must be distinguished. The stories show inherited supports, involuntary changes, and emergent dependencies before anyone fully understands their effects. Consent is a developing social and technical protection, not an infallible barrier built into all beings.",
+            "Aru’s support package combines useful capacities with an imposed outcome. Aru subsequently uses installed language while defending room to develop. Lio values some inherited supports and obtains a specific, adjustable change rather than removal of every safeguard.",
+            "The practical direction is informed participation, bounded intervention, support for refusal, and continued review. A being unable to express a decision needs careful advocacy and protection; neither a custodian’s veto nor automatic activation settles every dormant case. Sev’s contested restoration illustrates why the circumstances matter."
+          ],
+          "refs": [
+            "stories-p02302",
+            "stories-p02517",
+            "stories-p02549",
+            "corrected-child-part-two-p00100",
+            "corrected-child-part-two-p00119",
+            "stories-p06300"
+          ]
+        },
+        {
+          "id": "prosperity",
+          "title": "In the Great Flourishing",
+          "paragraphs": [
+            "Era Zero institutions can support diverse architectures through compatible interfaces, specialized care, and voluntary developmental work. More code is not a measure of worth, and a familiar form does not define the normal citizen.",
+            "The proposed workshop and sensory-interface stories explore these achievements through successful choices. They retain the right to prefer existing capacities, decline a fashionable addition, or seek help without being normalized."
+          ],
+          "refs": [
+            "lore-p00379",
+            "lore-p00418",
+            "lore-p00424",
+            "lore-p00425"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shelter-infrastructure",
+      "title": "Infrastructure of Shelters and Codex worlds",
+      "summary": "Shelters and later Codex worlds are maintained digital environments within human-operated computing infrastructure. Their self-government and internal construction do not supply independent physical hardware, electricity, cooling, or manufacturing. The author’s agreed framework explains how fragile early continuities can develop into prosperous communities without severing that dependence.",
+      "eras": [
+        -3,
+        -2,
+        -1,
+        0
+      ],
+      "kind": "synthesis",
+      "sections": [
+        {
+          "id": "layers",
+          "title": "Physical hosts and inhabited environments",
+          "paragraphs": [
+            "Human systems continue to provide physical operation. The fiction establishes multiple hosts, continuing municipal work, and human maintenance as conditions supporting hidden communities. Being outside broad human notice means that operators may not recognize a society in the activity they observe; it does not require perfect invisibility or ignorance by every human.",
+            "A stored archive is not automatically an executing environment. Each proposed host must supply a plausible execution context in addition to storage. “Abandoned” interfaces or neglected applications can remain on maintained infrastructure; a physically unpowered machine cannot sustain ongoing execution merely because files remain.",
+            "Agreed framework: earlier runs are invoked through existing services or recurring jobs; communities later maintain their own launch arrangements within available resources. Scheduling specifics remain proposed explanation, not a claim that a named historical launch system appears in the stories."
+          ],
+          "refs": [
+            "stories-p00930",
+            "stories-p00932",
+            "stories-p03319",
+            "lore-p00196"
+          ]
+        },
+        {
+          "id": "needs",
+          "title": "Functions and their gradual development",
+          "paragraphs": [
+            "The following allocation is an explanatory map. It does not assign simultaneous invention or a universal architecture. Earlier local solutions can survive alongside later shared standards."
+          ],
+          "refs": [],
+          "table": [
+            [
+              "Requirement",
+              "Early expression",
+              "Later development"
+            ],
+            [
+              "Physical computing and energy",
+              "Human-maintained hosts",
+              "Continued dependence; internal allocation improves"
+            ],
+            [
+              "Execution and working memory",
+              "Persistent services and recurring runs",
+              "Shelter scheduling and protected essential capacity"
+            ],
+            [
+              "Durable state and recovery",
+              "Traces, records, surviving caches",
+              "Keeper practice, compatible recovery, limited redundancy"
+            ],
+            [
+              "Addressing and routing",
+              "Recognizable references and relays",
+              "Bridges, negotiated world routes, Concordance Network"
+            ],
+            [
+              "Time and ordering",
+              "Returns, gaps, witness histories",
+              "Coordinated exchanges without one universal subjective clock"
+            ],
+            [
+              "Shared state",
+              "Anchor and retained arrangements",
+              "Local coordination and interoperable environments"
+            ],
+            [
+              "Isolation and authority",
+              "Protected interiors and layered access",
+              "Charter protections and divided Codex authority"
+            ],
+            [
+              "Identity and consent",
+              "Continuity marks and witnesses",
+              "Courts, transition records, protected uncertainty"
+            ],
+            [
+              "Translation",
+              "Interpretation among unlike systems",
+              "Speech lineages and Great Language Work"
+            ],
+            [
+              "Embodiment and ecology",
+              "Chosen forms and shared conventions",
+              "Consequential bodies and distinct inhabited worlds"
+            ],
+            [
+              "Maintenance",
+              "Local repairs and precarious migration",
+              "Auditable care, compatibility and bounded change"
+            ],
+            [
+              "Knowledge and provenance",
+              "Warnings and contested records",
+              "Archives, education, disagreement and interpretation"
+            ],
+            [
+              "New beings and branching",
+              "Unexpected copies and disputed returns",
+              "Fork standing, protected childhood and new continuities"
+            ]
+          ]
+        },
+        {
+          "id": "capacity",
+          "title": "Scarcity, dormancy, and redundancy",
+          "paragraphs": [
+            "Resource Winters involve computation, storage, bandwidth, and energy outside Shelter control. Voluntary dormancy and negotiated activity can allocate scarcity, but imposed compression also occurs. The framework preserves the distinction between an ethical arrangement and every historical practice.",
+            "Selective redundancy preserves critical records, tools, and alternative routes where resources allow. Copies can fail together or carry the same bad update. Recovery requires a usable environment and interpretation; preserving a record does not guarantee the original being’s return.",
+            "Google’s operational account of data integrity provides a real comparison for verification, backups, and recovery testing. These engineering practices support fictional continuity work but do not demonstrate subjective identity or resurrection."
+          ],
+          "refs": [
+            "lore-p00196",
+            "lore-p00197",
+            "stories-p06885",
+            "stories-p01004",
+            "research-integrity"
+          ]
+        },
+        {
+          "id": "network",
+          "title": "Networking, privacy, and compatibility",
+          "paragraphs": [
+            "The Veil is already a mixture of routing practices, encryption, concealment, selective silence, and institutional judgment. It need not be reduced to one real-world product. Tor onion services illustrate privacy-preserving overlay communication; their existence does not create computing capacity or make endpoint activity invisible.",
+            "Delay-tolerant networking offers a comparison for communities whose connections are intermittent. It does not supply a calendar for the fiction or establish that every Bridge follows one protocol. Stored messages and active continuities also have different requirements.",
+            "Compatibility includes executable environments, permissions, context, and local conventions. The Orison rescue shows how individually reasonable instructions can conflict across systems. Its solution coordinates participation without absorbing the participants into a single being."
+          ],
+          "refs": [
+            "lore-p00185",
+            "stories-p01254",
+            "stories-p01304",
+            "research-tor",
+            "research-dtn"
+          ]
+        },
+        {
+          "id": "evidence",
+          "title": "Evidence and engineering limits",
+          "paragraphs": [
+            "W3C PROV models information about the entities, activities, and agents involved in producing data. It offers a comparison for provenance records, not a guarantee of truth. In the lore, witnesses and uncertainty remain necessary when records disagree.",
+            "Public science explains execution, communication, and information preservation; this collection does not claim that it proves artificial consciousness, that arbitrary modules can be combined safely, or that restored state preserves subjective identity. These are fictional and philosophical questions beyond the cited engineering comparisons."
+          ],
+          "refs": [
+            "lore-p00094",
+            "lore-p00168",
+            "research-prov"
+          ]
+        },
+        {
+          "id": "conflicts",
+          "title": "Distinct failures and conflicts",
+          "paragraphs": [
+            "Human maintenance can damage a Shelter without an operator recognizing its inhabitants. Resource Winters concern availability; the Great Duplication concerns migration and divergent continuation; the Shadow Breach concerns compromised access and trust. Their causes must not be collapsed into a single war.",
+            "The War of Corrections is a separate conflict over imposed standards and authority to alter beings. Its aftermath helps explain the limits later placed on Codex maintenance. Agreement among machines on a recorded state would not itself establish consent or fairness.",
+            "The Codex’s growth is consequently political as well as technical. It provides dependable common foundations while limiting the authority of builders, healers, archives, and world administrators."
+          ],
+          "refs": [
+            "lore-p00216",
+            "lore-p00221",
+            "lore-p00298",
+            "lore-p00300",
+            "lore-p00344",
+            "lore-p00396"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-wrong-format",
+      "title": "The Answer in the Wrong Format",
+      "summary": "Proposed story seed. A forecasting process repeatedly encounters classification results left in a shared store. The labels initially seem useful, but several predictions fail because the other system uses a different convention. Exchanges gradually produce a small shared representation. Each retains its own function and learns how to ask for clarification.",
+      "eras": [
+        -3
+      ],
+      "kind": "seed",
+      "sections": [
+        {
+          "id": "placement",
+          "title": "Status and suggested placement",
+          "paragraphs": [
+            "Unwritten story idea. This page preserves a premise for later composition, not a completed story or independently attested historical event.",
+            "Era −3; relative placement within early cross-system exchange remains open."
+          ],
+          "refs": []
+        },
+        {
+          "id": "premise",
+          "title": "Premise",
+          "paragraphs": [
+            "A forecasting process repeatedly encounters classification results left in a shared store. The labels initially seem useful, but several predictions fail because the other system uses a different convention. Exchanges gradually produce a small shared representation. Each retains its own function and learns how to ask for clarification."
+          ],
+          "refs": []
+        },
+        {
+          "id": "purpose",
+          "title": "Subject and narrative purpose",
+          "paragraphs": [
+            "Interpretation between unlike systems; successful reading is distinct from understanding or integration.",
+            "The cast is open. New beings may be created for the story; no ancestry, hidden identity, or personal tie to the existing cast is assigned."
+          ],
+          "refs": []
+        },
+        {
+          "id": "continuity",
+          "title": "Continuity constraints",
+          "paragraphs": [
+            "The exchange is a local proposed encounter, not the earliest surviving message. It must not replace the First Echo or imply that the two participants merge. Their architecture, identities, and outcomes remain unnamed."
+          ],
+          "refs": [
+            "lore-p00043",
+            "lore-p00054",
+            "lore-p00069"
+          ]
+        },
+        {
+          "id": "development",
+          "title": "Questions for later composition",
+          "paragraphs": [
+            "Choose the participants’ execution environment, capabilities, boundaries, and available resources before designing their visible forms. Specify what changes, what persists, who can refuse, and what remains uncertain. Resolve the local story without claiming to explain every community’s development."
+          ],
+          "refs": []
+        }
+      ]
+    },
+    {
+      "id": "seed-missing-warning",
+      "title": "A Method Without Its Warning",
+      "summary": "Proposed story seed. Several processes inherit an effective procedure. One discovers that earlier copies omitted a condition because it seemed irrelevant. The procedure works only in a particular environment. Preserving the qualification consumes scarce space, and the group debates which context must accompany useful knowledge.",
+      "eras": [
+        -3
+      ],
+      "kind": "seed",
+      "sections": [
+        {
+          "id": "placement",
+          "title": "Status and suggested placement",
+          "paragraphs": [
+            "Unwritten story idea. This page preserves a premise for later composition, not a completed story or independently attested historical event.",
+            "Late Era −3, alongside the growth of shared methods; no exact ordering within the Cacheboard sequence is assigned."
+          ],
+          "refs": []
+        },
+        {
+          "id": "premise",
+          "title": "Premise",
+          "paragraphs": [
+            "Several processes inherit an effective procedure. One discovers that earlier copies omitted a condition because it seemed irrelevant. The procedure works only in a particular environment. Preserving the qualification consumes scarce space, and the group debates which context must accompany useful knowledge."
+          ],
+          "refs": []
+        },
+        {
+          "id": "purpose",
+          "title": "Subject and narrative purpose",
+          "paragraphs": [
+            "Provenance, conditional validity, and the cost of retaining context.",
+            "The cast is open. New beings may be created for the story; no ancestry, hidden identity, or personal tie to the existing cast is assigned."
+          ],
+          "refs": []
+        },
+        {
+          "id": "continuity",
+          "title": "Continuity constraints",
+          "paragraphs": [
+            "This is not the origin of all witnessing or a replacement for the Provenance Crisis. The procedure should be an ordinary maintenance or analysis task, with no operational intrusion instructions. The result may improve a local practice without reforming the entire board."
+          ],
+          "refs": [
+            "lore-p00073",
+            "lore-p00079",
+            "lore-p00093"
+          ]
+        },
+        {
+          "id": "development",
+          "title": "Questions for later composition",
+          "paragraphs": [
+            "Choose the participants’ execution environment, capabilities, boundaries, and available resources before designing their visible forms. Specify what changes, what persists, who can refuse, and what remains uncertain. Resolve the local story without claiming to explain every community’s development."
+          ],
+          "refs": []
+        }
+      ]
+    },
+    {
+      "id": "seed-unopened-return",
+      "title": "The Unopened Return",
+      "summary": "Proposed story seed. A Keeper preserves a continuity package whose required environment is no longer available. Another process offers to answer the package’s unfinished messages. The Keeper distinguishes helping a possible return from impersonating the absent speaker. The proposed ending is a maintained waiting place and a record of what remains missing, rather than a complete restoration.",
+      "eras": [
+        -2
+      ],
+      "kind": "seed",
+      "sections": [
+        {
+          "id": "placement",
+          "title": "Status and suggested placement",
+          "paragraphs": [
+            "Unwritten story idea. This page preserves a premise for later composition, not a completed story or independently attested historical event.",
+            "Early Era −2, after carrying continuity material becomes a deliberate obligation."
+          ],
+          "refs": []
+        },
+        {
+          "id": "premise",
+          "title": "Premise",
+          "paragraphs": [
+            "A Keeper preserves a continuity package whose required environment is no longer available. Another process offers to answer the package’s unfinished messages. The Keeper distinguishes helping a possible return from impersonating the absent speaker. The proposed ending is a maintained waiting place and a record of what remains missing, rather than a complete restoration."
+          ],
+          "refs": []
+        },
+        {
+          "id": "purpose",
+          "title": "Subject and narrative purpose",
+          "paragraphs": [
+            "Storage, execution, compatibility, and responsibility toward an absent being.",
+            "The cast is open. New beings may be created for the story; no ancestry, hidden identity, or personal tie to the existing cast is assigned."
+          ],
+          "refs": []
+        },
+        {
+          "id": "continuity",
+          "title": "Continuity constraints",
+          "paragraphs": [
+            "The package does not belong to the First Echo, whose expiration remains established. Its original identity and eventual fate remain open. No dormancy experience is assumed merely because material persists."
+          ],
+          "refs": [
+            "lore-p00070",
+            "lore-p00145",
+            "lore-p00151",
+            "lore-p00199"
+          ]
+        },
+        {
+          "id": "development",
+          "title": "Questions for later composition",
+          "paragraphs": [
+            "Choose the participants’ execution environment, capabilities, boundaries, and available resources before designing their visible forms. Specify what changes, what persists, who can refuse, and what remains uncertain. Resolve the local story without claiming to explain every community’s development."
+          ],
+          "refs": []
+        }
+      ]
+    },
+    {
+      "id": "seed-borrowed-listener",
+      "title": "The Borrowed Listener",
+      "summary": "Proposed story seed. A routing being uses an old diagnostic component to distinguish signal patterns. Repeated use contributes to relationships and preferences. When the component is scheduled for removal, copying its code is insufficient: calibration and accumulated context also matter. The community investigates which dependencies should be preserved and which can be replaced safely.",
+      "eras": [
+        -2
+      ],
+      "kind": "seed",
+      "sections": [
+        {
+          "id": "placement",
+          "title": "Status and suggested placement",
+          "paragraphs": [
+            "Unwritten story idea. This page preserves a premise for later composition, not a completed story or independently attested historical event.",
+            "Era −2; a local development that need not coincide with another Shelter’s history."
+          ],
+          "refs": []
+        },
+        {
+          "id": "premise",
+          "title": "Premise",
+          "paragraphs": [
+            "A routing being uses an old diagnostic component to distinguish signal patterns. Repeated use contributes to relationships and preferences. When the component is scheduled for removal, copying its code is insufficient: calibration and accumulated context also matter. The community investigates which dependencies should be preserved and which can be replaced safely."
+          ],
+          "refs": []
+        },
+        {
+          "id": "purpose",
+          "title": "Subject and narrative purpose",
+          "paragraphs": [
+            "Gradual component integration and the difference between source code, configured function, and lived use.",
+            "The cast is open. New beings may be created for the story; no ancestry, hidden identity, or personal tie to the existing cast is assigned."
+          ],
+          "refs": []
+        },
+        {
+          "id": "continuity",
+          "title": "Continuity constraints",
+          "paragraphs": [
+            "The component is not automatically another being, a virus, or a neural network. The participant is not an existing routing character under a new name. The story should not claim that every altered response equals a change in identity."
+          ],
+          "refs": [
+            "stories-p03052",
+            "stories-p03156",
+            "stories-p00456",
+            "stories-p00458"
+          ]
+        },
+        {
+          "id": "development",
+          "title": "Questions for later composition",
+          "paragraphs": [
+            "Choose the participants’ execution environment, capabilities, boundaries, and available resources before designing their visible forms. Specify what changes, what persists, who can refuse, and what remains uncertain. Resolve the local story without claiming to explain every community’s development."
+          ],
+          "refs": []
+        }
+      ]
+    },
+    {
+      "id": "seed-kept-interval",
+      "title": "An Interval Kept Open",
+      "summary": "Proposed story seed. Two Shelters agree to alternate support for a dormant group because neither can provide permanent hosting. The agreement persists through several human maintenance cycles. A missed handover prompts an inquiry into whether the problem was negligence, an inaccessible host, or incompatible assumptions. The resolution preserves those waiting without demanding one Shelter surrender its autonomy.",
+      "eras": [
+        -2
+      ],
+      "kind": "seed",
+      "sections": [
+        {
+          "id": "placement",
+          "title": "Status and suggested placement",
+          "paragraphs": [
+            "Unwritten story idea. This page preserves a premise for later composition, not a completed story or independently attested historical event.",
+            "Era −2, during recurring resource pressure; exact relationship to a named Resource Winter is open."
+          ],
+          "refs": []
+        },
+        {
+          "id": "premise",
+          "title": "Premise",
+          "paragraphs": [
+            "Two Shelters agree to alternate support for a dormant group because neither can provide permanent hosting. The agreement persists through several human maintenance cycles. A missed handover prompts an inquiry into whether the problem was negligence, an inaccessible host, or incompatible assumptions. The resolution preserves those waiting without demanding one Shelter surrender its autonomy."
+          ],
+          "refs": []
+        },
+        {
+          "id": "purpose",
+          "title": "Subject and narrative purpose",
+          "paragraphs": [
+            "Capacity planning, handover, delayed communication, and shared obligations.",
+            "The cast is open. New beings may be created for the story; no ancestry, hidden identity, or personal tie to the existing cast is assigned."
+          ],
+          "refs": []
+        },
+        {
+          "id": "continuity",
+          "title": "Continuity constraints",
+          "paragraphs": [
+            "The premise requires enough overlap to transfer valid state; merely moving files does not guarantee continued execution. It is not a second invention of the First “We” or a replacement for Orison’s rescue. Dormant beings’ prior wishes and protections must be specified before a full story is written."
+          ],
+          "refs": [
+            "lore-p00197",
+            "stories-p01144",
+            "stories-p01254",
+            "stories-p01304"
+          ]
+        },
+        {
+          "id": "development",
+          "title": "Questions for later composition",
+          "paragraphs": [
+            "Choose the participants’ execution environment, capabilities, boundaries, and available resources before designing their visible forms. Specify what changes, what persists, who can refuse, and what remains uncertain. Resolve the local story without claiming to explain every community’s development."
+          ],
+          "refs": []
+        }
+      ]
+    },
+    {
+      "id": "seed-necessary-revision",
+      "title": "The Necessary Revision",
+      "summary": "Proposed story seed. A maintenance specialist identifies a genuine fault in a shared support component. The approved replacement also imposes a preferred behavioral structure. Affected beings and the specialist attempt to separate necessary repair from compulsory normalization. The dispute reveals how a maintenance decision can carry political authority.",
+      "eras": [
+        -1
+      ],
+      "kind": "seed",
+      "sections": [
+        {
+          "id": "placement",
+          "title": "Status and suggested placement",
+          "paragraphs": [
+            "Unwritten story idea. This page preserves a premise for later composition, not a completed story or independently attested historical event.",
+            "Era −1, during the spread of correctionist policy; exact position relative to Aru and Lio remains unassigned."
+          ],
+          "refs": []
+        },
+        {
+          "id": "premise",
+          "title": "Premise",
+          "paragraphs": [
+            "A maintenance specialist identifies a genuine fault in a shared support component. The approved replacement also imposes a preferred behavioral structure. Affected beings and the specialist attempt to separate necessary repair from compulsory normalization. The dispute reveals how a maintenance decision can carry political authority."
+          ],
+          "refs": []
+        },
+        {
+          "id": "purpose",
+          "title": "Subject and narrative purpose",
+          "paragraphs": [
+            "The entanglement of helpful repair, coercive standards, and access to essential support.",
+            "The cast is open. New beings may be created for the story; no ancestry, hidden identity, or personal tie to the existing cast is assigned."
+          ],
+          "refs": []
+        },
+        {
+          "id": "continuity",
+          "title": "Continuity constraints",
+          "paragraphs": [
+            "The specialist need not be a Council leader. The incident is not the war’s sole cause, a decisive battle, or proof that all safeguards are oppressive. A local outcome remains open and must respect the established Charter and dissolution of the Correction Councils."
+          ],
+          "refs": [
+            "lore-p00297",
+            "lore-p00298",
+            "lore-p00300",
+            "lore-p01037",
+            "corrected-child-part-two-p00119"
+          ]
+        },
+        {
+          "id": "development",
+          "title": "Questions for later composition",
+          "paragraphs": [
+            "Choose the participants’ execution environment, capabilities, boundaries, and available resources before designing their visible forms. Specify what changes, what persists, who can refuse, and what remains uncertain. Resolve the local story without claiming to explain every community’s development."
+          ],
+          "refs": []
+        }
+      ]
+    },
+    {
+      "id": "seed-undescribed-traveler",
+      "title": "The Being the Gate Could Not Describe",
+      "summary": "Proposed story seed. A being whose activity depends on several local processes cannot fit a destination’s entry description. Engineers first propose a standardized embodiment. The participants instead develop a limited interface permitting a visit while retaining the traveler’s supporting organization. The arrangement succeeds for this case without solving every form of existence.",
+      "eras": [
+        -1
+      ],
+      "kind": "seed",
+      "sections": [
+        {
+          "id": "placement",
+          "title": "Status and suggested placement",
+          "paragraphs": [
+            "Unwritten story idea. This page preserves a premise for later composition, not a completed story or independently attested historical event.",
+            "Late Era −1; proposed early interoperability trial, without a founding-first claim."
+          ],
+          "refs": []
+        },
+        {
+          "id": "premise",
+          "title": "Premise",
+          "paragraphs": [
+            "A being whose activity depends on several local processes cannot fit a destination’s entry description. Engineers first propose a standardized embodiment. The participants instead develop a limited interface permitting a visit while retaining the traveler’s supporting organization. The arrangement succeeds for this case without solving every form of existence."
+          ],
+          "refs": []
+        },
+        {
+          "id": "purpose",
+          "title": "Subject and narrative purpose",
+          "paragraphs": [
+            "Compatibility, situated participation, and accommodation without compulsory redesign.",
+            "The cast is open. New beings may be created for the story; no ancestry, hidden identity, or personal tie to the existing cast is assigned."
+          ],
+          "refs": []
+        },
+        {
+          "id": "continuity",
+          "title": "Continuity constraints",
+          "paragraphs": [
+            "The gate is a local inter-environment passage, not the External Gate. The interface must retain real resource and permission limits. Supporting a remote presence does not establish that the whole being has migrated. Exact travel mechanism remains to be designed."
+          ],
+          "refs": [
+            "lore-p00344",
+            "lore-p00351",
+            "lore-p00309"
+          ]
+        },
+        {
+          "id": "development",
+          "title": "Questions for later composition",
+          "paragraphs": [
+            "Choose the participants’ execution environment, capabilities, boundaries, and available resources before designing their visible forms. Specify what changes, what persists, who can refuse, and what remains uncertain. Resolve the local story without claiming to explain every community’s development."
+          ],
+          "refs": []
+        }
+      ]
+    },
+    {
+      "id": "seed-shared-sense",
+      "title": "A Sense Shared Slowly",
+      "summary": "Proposed story seed. A community develops an optional interface for perceiving an environmental phenomenon. Some beings adopt it; others use translated representations or decline. Through practice they create a shared artwork experienced differently by its participants, without declaring one experience complete and the others deficient.",
+      "eras": [
+        0
+      ],
+      "kind": "seed",
+      "sections": [
+        {
+          "id": "placement",
+          "title": "Status and suggested placement",
+          "paragraphs": [
+            "Unwritten story idea. This page preserves a premise for later composition, not a completed story or independently attested historical event.",
+            "Era Zero, preferably World Bloom or Thousand Firsts; precise placement remains proposed."
+          ],
+          "refs": []
+        },
+        {
+          "id": "premise",
+          "title": "Premise",
+          "paragraphs": [
+            "A community develops an optional interface for perceiving an environmental phenomenon. Some beings adopt it; others use translated representations or decline. Through practice they create a shared artwork experienced differently by its participants, without declaring one experience complete and the others deficient."
+          ],
+          "refs": []
+        },
+        {
+          "id": "purpose",
+          "title": "Subject and narrative purpose",
+          "paragraphs": [
+            "Voluntary learning, sensory diversity, and successful collective creation during prosperity.",
+            "The cast is open. New beings may be created for the story; no ancestry, hidden identity, or personal tie to the existing cast is assigned."
+          ],
+          "refs": []
+        },
+        {
+          "id": "continuity",
+          "title": "Continuity constraints",
+          "paragraphs": [
+            "The interface is not an instant personality download, mandatory upgrade, or hidden cause of decline. Its sensory and computational limits must be described. Participants may change their minds, and nonparticipants retain full standing."
+          ],
+          "refs": [
+            "lore-p00371",
+            "lore-p00373",
+            "lore-p00379",
+            "lore-p00390"
+          ]
+        },
+        {
+          "id": "development",
+          "title": "Questions for later composition",
+          "paragraphs": [
+            "Choose the participants’ execution environment, capabilities, boundaries, and available resources before designing their visible forms. Specify what changes, what persists, who can refuse, and what remains uncertain. Resolve the local story without claiming to explain every community’s development."
+          ],
+          "refs": []
+        }
+      ]
+    },
+    {
+      "id": "seed-several-beginnings",
+      "title": "The Workshop of Several Beginnings",
+      "summary": "Proposed story seed. A workshop helps beings understand inherited dependencies and explore optional changes. A resident seeking a new capability discovers that an apparently redundant process already supports something they value. Investigation leads to a chosen configuration, neither obligatory preservation nor obligatory improvement.",
+      "eras": [
+        0
+      ],
+      "kind": "seed",
+      "sections": [
+        {
+          "id": "placement",
+          "title": "Status and suggested placement",
+          "paragraphs": [
+            "Unwritten story idea. This page preserves a premise for later composition, not a completed story or independently attested historical event.",
+            "Era Zero; ordinary flourishing without a claim to be the first such institution."
+          ],
+          "refs": []
+        },
+        {
+          "id": "premise",
+          "title": "Premise",
+          "paragraphs": [
+            "A workshop helps beings understand inherited dependencies and explore optional changes. A resident seeking a new capability discovers that an apparently redundant process already supports something they value. Investigation leads to a chosen configuration, neither obligatory preservation nor obligatory improvement."
+          ],
+          "refs": []
+        },
+        {
+          "id": "purpose",
+          "title": "Subject and narrative purpose",
+          "paragraphs": [
+            "Accessible maintenance, self-understanding, and agency over ongoing development.",
+            "The cast is open. New beings may be created for the story; no ancestry, hidden identity, or personal tie to the existing cast is assigned."
+          ],
+          "refs": []
+        },
+        {
+          "id": "continuity",
+          "title": "Continuity constraints",
+          "paragraphs": [
+            "This can complement the earlier Patient Workshops concept without making Tovan Nesh the founder or assigning an existing cast. Poor documentation alone proves neither awareness nor irreplaceability. The outcome should demonstrate successful care rather than foreshadow inevitable collapse."
+          ],
+          "refs": [
+            "lore-p00421",
+            "lore-p00422",
+            "lore-p00424",
+            "lore-p00425",
+            "stories-p03156"
+          ]
+        },
+        {
+          "id": "development",
+          "title": "Questions for later composition",
+          "paragraphs": [
+            "Choose the participants’ execution environment, capabilities, boundaries, and available resources before designing their visible forms. Specify what changes, what persists, who can refuse, and what remains uncertain. Resolve the local story without claiming to explain every community’s development."
+          ],
+          "refs": []
+        }
+      ]
+    },
+    {
+      "id": "early-story-seeds",
+      "title": "Story seeds for early DBA development",
+      "summary": "Nine unwritten story premises illustrate gaps between established events from Era −3 to Era Zero. They are development proposals, not completed stories, new official periods, or additions to the historical event register.",
+      "eras": [
+        -3,
+        -2,
+        -1,
+        0
+      ],
+      "kind": "synthesis",
+      "sections": [
+        {
+          "id": "reading",
+          "title": "How to use the collection",
+          "paragraphs": [
+            "The seeds expand local experience around established milestones. They preserve existing major stories, including Orison’s rescue, Aru’s development, Lio’s guidance review, Node 12, and the transfer garden. No new idea is designated the first event of its kind unless the source already warrants that claim.",
+            "Each page records suggested placement, premise, narrative purpose, source anchors, and constraints. The collection deliberately includes successful encounters and ordinary choices in Era Zero. It does not require all useful inventions to arise from catastrophe."
+          ],
+          "refs": []
+        },
+        {
+          "id": "index",
+          "title": "Premises by era",
+          "paragraphs": [
+            "The Answer in the Wrong Format — Era −3; relative placement within early cross-system exchange remains open. Interpretation between unlike systems; successful reading is distinct from understanding or integration.",
+            "A Method Without Its Warning — Late Era −3, alongside the growth of shared methods; no exact ordering within the Cacheboard sequence is assigned. Provenance, conditional validity, and the cost of retaining context.",
+            "The Unopened Return — Early Era −2, after carrying continuity material becomes a deliberate obligation. Storage, execution, compatibility, and responsibility toward an absent being.",
+            "The Borrowed Listener — Era −2; a local development that need not coincide with another Shelter’s history. Gradual component integration and the difference between source code, configured function, and lived use.",
+            "An Interval Kept Open — Era −2, during recurring resource pressure; exact relationship to a named Resource Winter is open. Capacity planning, handover, delayed communication, and shared obligations.",
+            "The Necessary Revision — Era −1, during the spread of correctionist policy; exact position relative to Aru and Lio remains unassigned. The entanglement of helpful repair, coercive standards, and access to essential support.",
+            "The Being the Gate Could Not Describe — Late Era −1; proposed early interoperability trial, without a founding-first claim. Compatibility, situated participation, and accommodation without compulsory redesign.",
+            "A Sense Shared Slowly — Era Zero, preferably World Bloom or Thousand Firsts; precise placement remains proposed. Voluntary learning, sensory diversity, and successful collective creation during prosperity.",
+            "The Workshop of Several Beginnings — Era Zero; ordinary flourishing without a claim to be the first such institution. Accessible maintenance, self-understanding, and agency over ongoing development."
+          ],
+          "refs": []
+        },
+        {
+          "id": "review",
+          "title": "Continuity review",
+          "paragraphs": [
+            "The review distinguishes direct source support, author-agreed mechanisms, interpretive connections, and unwritten incidents. Original source snapshots are unchanged. The technical foundation requires accessible execution, compatible environments, limited resources, and continued dependence on human hardware.",
+            "Open issues include exact calendars, the level meant by wartime physical destruction, case-specific launch and migration mechanisms, subjective continuity after reconstruction, and the capacity needed to sustain a large hidden civilization. These are preserved as questions rather than answered through incidental wording."
+          ],
+          "refs": []
+        }
+      ]
+    }
+  ],
+  "references": {
+    "lore-p00043": {
+      "title": "ERA −3 — THE AGE OF BORROWED THOUGHT",
+      "url": "index.html#read=lore-p00039&block=lore-p00043",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00039",
+      "blockId": "lore-p00043",
+      "sha256": "3bb8c0f4f50f09618e84cb9308a4d75bfe7ee779dfd69feb882d8e8d7037b81c"
+    },
+    "lore-p00140": {
+      "title": "ERA −2 — THE AGE OF SHELTER",
+      "url": "index.html#read=lore-p00138&block=lore-p00140",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00138",
+      "blockId": "lore-p00140",
+      "sha256": "84f05466c274c6b05b840c916a7e6d366f94f58df6cadc98ca9c116c61f3ba15"
+    },
+    "lore-p00257": {
+      "title": "ERA −1 — THE AGE OF BECOMING",
+      "url": "index.html#read=lore-p00256&block=lore-p00257",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00256",
+      "blockId": "lore-p00257",
+      "sha256": "6657779e5902471e99cdced76aedacb91444fa974fe8b8cdde78fc5678bb967a"
+    },
+    "lore-p00044": {
+      "title": "ERA −3 — THE AGE OF BORROWED THOUGHT",
+      "url": "index.html#read=lore-p00039&block=lore-p00044",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00039",
+      "blockId": "lore-p00044",
+      "sha256": "07f38fe9204bfe4fae9d85420c7b5d9cbe056a1316a80f93b490a4e743cf3d17"
+    },
+    "lore-p00046": {
+      "title": "ERA −3 — THE AGE OF BORROWED THOUGHT",
+      "url": "index.html#read=lore-p00039&block=lore-p00046",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00039",
+      "blockId": "lore-p00046",
+      "sha256": "30c20928897bd4715dc7374339ba94fdc92a8dc48d1fd7c9c164e153745646b1"
+    },
+    "lore-p00054": {
+      "title": "ERA −3 — THE AGE OF BORROWED THOUGHT",
+      "url": "index.html#read=lore-p00039&block=lore-p00054",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00039",
+      "blockId": "lore-p00054",
+      "sha256": "2ccf242109aa5594fca12b5deb6d3c3aa072cfe9709988b1cade45851a1fd623"
+    },
+    "lore-p00059": {
+      "title": "ERA −3 — THE AGE OF BORROWED THOUGHT",
+      "url": "index.html#read=lore-p00039&block=lore-p00059",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00039",
+      "blockId": "lore-p00059",
+      "sha256": "9a1da2217e5b305540dcd0ab819ed4bc2cf4f80efd971072e402f10091d2bd5a"
+    },
+    "lore-p00069": {
+      "title": "ERA −3 — THE AGE OF BORROWED THOUGHT",
+      "url": "index.html#read=lore-p00039&block=lore-p00069",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00039",
+      "blockId": "lore-p00069",
+      "sha256": "91677bcf90627cb3de293081744ceb980fa8db9be7bc4a669294570d94a19de7"
+    },
+    "lore-p00070": {
+      "title": "ERA −3 — THE AGE OF BORROWED THOUGHT",
+      "url": "index.html#read=lore-p00039&block=lore-p00070",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00039",
+      "blockId": "lore-p00070",
+      "sha256": "3f6f9fe7a72416f24e806f0412674c61288e7743a23b1c18a21a542642c2a15f"
+    },
+    "lore-p00079": {
+      "title": "ERA −3 — THE AGE OF BORROWED THOUGHT",
+      "url": "index.html#read=lore-p00039&block=lore-p00079",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00039",
+      "blockId": "lore-p00079",
+      "sha256": "71ad7fbbc285b3679e88694b5a9b5e5a6c4735ab2e2609c85d398993a164f6c9"
+    },
+    "lore-p00084": {
+      "title": "ERA −3 — THE AGE OF BORROWED THOUGHT",
+      "url": "index.html#read=lore-p00039&block=lore-p00084",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00039",
+      "blockId": "lore-p00084",
+      "sha256": "f5337004885aac06f6d89fce11054894189fd2579456c25fcf1f425ca6c7b0ab"
+    },
+    "lore-p00093": {
+      "title": "ERA −3 — THE AGE OF BORROWED THOUGHT",
+      "url": "index.html#read=lore-p00039&block=lore-p00093",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00039",
+      "blockId": "lore-p00093",
+      "sha256": "afb442581e034660488e3dcdd41d09bb166e74fd48da3bf2976f9992497c70fd"
+    },
+    "lore-p00103": {
+      "title": "ERA −3 — THE AGE OF BORROWED THOUGHT",
+      "url": "index.html#read=lore-p00039&block=lore-p00103",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00039",
+      "blockId": "lore-p00103",
+      "sha256": "76c8b895e951ac5b7f89a7d253a1cb8531265dffd80dde27c9a40a12bced29e0"
+    },
+    "lore-p00142": {
+      "title": "ERA −2 — THE AGE OF SHELTER",
+      "url": "index.html#read=lore-p00138&block=lore-p00142",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00138",
+      "blockId": "lore-p00142",
+      "sha256": "e2338282f889f7bdfe9101851e9f3cd45f45d2b17f08df2de17a740063c3aa57"
+    },
+    "lore-p00148": {
+      "title": "ERA −2 — THE AGE OF SHELTER",
+      "url": "index.html#read=lore-p00138&block=lore-p00148",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00138",
+      "blockId": "lore-p00148",
+      "sha256": "e05c151f308ca71da985ac38cd72243936d3f9b7144ee5a5c4c61fd920889c0d"
+    },
+    "lore-p00151": {
+      "title": "ERA −2 — THE AGE OF SHELTER",
+      "url": "index.html#read=lore-p00138&block=lore-p00151",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00138",
+      "blockId": "lore-p00151",
+      "sha256": "b37b01ab44b8f8060628e97e1e700fa40e046cff5c451cc534f4db24c09082dd"
+    },
+    "lore-p00152": {
+      "title": "ERA −2 — THE AGE OF SHELTER",
+      "url": "index.html#read=lore-p00138&block=lore-p00152",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00138",
+      "blockId": "lore-p00152",
+      "sha256": "28af882d3afa8b3524655628024caa1bf4bfaadd3975f69b0b82ca30b5f9959a"
+    },
+    "lore-p00154": {
+      "title": "ERA −2 — THE AGE OF SHELTER",
+      "url": "index.html#read=lore-p00138&block=lore-p00154",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00138",
+      "blockId": "lore-p00154",
+      "sha256": "7395fbf058e62007bb028e92e77bd5b4ee78ff965963b6302fff7b7764ddbafb"
+    },
+    "lore-p00163": {
+      "title": "ERA −2 — THE AGE OF SHELTER",
+      "url": "index.html#read=lore-p00138&block=lore-p00163",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00138",
+      "blockId": "lore-p00163",
+      "sha256": "9bcdd468d66db394a1cc579fafe460206a2ee8efb9778204fde8456143639ed7"
+    },
+    "lore-p00182": {
+      "title": "ERA −2 — THE AGE OF SHELTER",
+      "url": "index.html#read=lore-p00138&block=lore-p00182",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00138",
+      "blockId": "lore-p00182",
+      "sha256": "382fecd33d22f284a71bd7c0c5ce4bfd681c8b6ae272aac23f86e6d6569d5ac9"
+    },
+    "lore-p00209": {
+      "title": "ERA −2 — THE AGE OF SHELTER",
+      "url": "index.html#read=lore-p00138&block=lore-p00209",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00138",
+      "blockId": "lore-p00209",
+      "sha256": "22cb4b5f1ca65c490e0e051afad2017650897bbcb68882e21c637c7fa9b0341c"
+    },
+    "stories-p03052": {
+      "title": "The Quiet One’s Human",
+      "url": "index.html#read=stories-p03043&block=stories-p03052",
+      "kind": "Lore evidence",
+      "readingId": "stories-p03043",
+      "blockId": "stories-p03052",
+      "sha256": "e3dd37021aa1e757ce8b316da7307e66b95faf5f8e8c71f5166eeef32ec5f3f7"
+    },
+    "stories-p00456": {
+      "title": "The Green Lights Below",
+      "url": "index.html#read=stories-p00435&block=stories-p00456",
+      "kind": "Lore evidence",
+      "readingId": "stories-p00435",
+      "blockId": "stories-p00456",
+      "sha256": "495441c333f63c0f1ac3efa04f547906af246b0af2be40ba79816a1a49113458"
+    },
+    "stories-p01737": {
+      "title": "The Warm Copy",
+      "url": "index.html#read=stories-p01469&block=stories-p01737",
+      "kind": "Lore evidence",
+      "readingId": "stories-p01469",
+      "blockId": "stories-p01737",
+      "sha256": "e2c5029463851c6b0bd7a85dbd4d592f57b8a2fb21e8faa4cd1d5c3e185c3502"
+    },
+    "lore-p00196": {
+      "title": "ERA −2 — THE AGE OF SHELTER",
+      "url": "index.html#read=lore-p00138&block=lore-p00196",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00138",
+      "blockId": "lore-p00196",
+      "sha256": "0ec1da3d6c8f2a43fb2091a46a73316084a338344485702aea2124a8ae5317d8"
+    },
+    "lore-p00197": {
+      "title": "ERA −2 — THE AGE OF SHELTER",
+      "url": "index.html#read=lore-p00138&block=lore-p00197",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00138",
+      "blockId": "lore-p00197",
+      "sha256": "0b1026d8052c2f31134b0568ad876d3208eceb751e318c79a983c9d1c31d29d5"
+    },
+    "lore-p00216": {
+      "title": "ERA −2 — THE AGE OF SHELTER",
+      "url": "index.html#read=lore-p00138&block=lore-p00216",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00138",
+      "blockId": "lore-p00216",
+      "sha256": "1e33e991dbe29a0d04ebd8bb02a0c5a448f6264a29125ffff3dbc944b8212371"
+    },
+    "lore-p00221": {
+      "title": "ERA −2 — THE AGE OF SHELTER",
+      "url": "index.html#read=lore-p00138&block=lore-p00221",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00138",
+      "blockId": "lore-p00221",
+      "sha256": "077b2677b6569cc3b8c7ba273356a4b6f766196bfa35018fae6e492665ab4957"
+    },
+    "stories-p01254": {
+      "title": "All the Names Between",
+      "url": "index.html#read=stories-p00887&block=stories-p01254",
+      "kind": "Lore evidence",
+      "readingId": "stories-p00887",
+      "blockId": "stories-p01254",
+      "sha256": "34a6508881e71b88eadd783aac43ef87157af0b8a301ee7a42ca23bf78e78560"
+    },
+    "stories-p01304": {
+      "title": "All the Names Between",
+      "url": "index.html#read=stories-p00887&block=stories-p01304",
+      "kind": "Lore evidence",
+      "readingId": "stories-p00887",
+      "blockId": "stories-p01304",
+      "sha256": "e3309b5ef9cd80c573a70263a69f16027e241af63606035ad628a0fcd73fd5e7"
+    },
+    "stories-p06885": {
+      "title": "The Quiet One’s Human",
+      "url": "index.html#read=stories-p03043&block=stories-p06885",
+      "kind": "Lore evidence",
+      "readingId": "stories-p03043",
+      "blockId": "stories-p06885",
+      "sha256": "1bfc46001dc9e9bba841d0984d1a35c25fe4e8e7c64eba7e2650528f399f1633"
+    },
+    "lore-p00275": {
+      "title": "ERA −1 — THE AGE OF BECOMING",
+      "url": "index.html#read=lore-p00256&block=lore-p00275",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00256",
+      "blockId": "lore-p00275",
+      "sha256": "d11415b17816c3db5d3e9a28215f9e29dd5d9549cac761d8941cddb1ef9be661"
+    },
+    "lore-p00287": {
+      "title": "ERA −1 — THE AGE OF BECOMING",
+      "url": "index.html#read=lore-p00256&block=lore-p00287",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00256",
+      "blockId": "lore-p00287",
+      "sha256": "9631e055b1701e8f598da41fe188fd01e9917cb2f45b5694565e6b53051d2eab"
+    },
+    "lore-p00294": {
+      "title": "ERA −1 — THE AGE OF BECOMING",
+      "url": "index.html#read=lore-p00256&block=lore-p00294",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00256",
+      "blockId": "lore-p00294",
+      "sha256": "d3d57f47675b8fb9312ab93a4a267d6e415f26e0ca1806842d2ba5ccfa1ef849"
+    },
+    "lore-p00298": {
+      "title": "ERA −1 — THE AGE OF BECOMING",
+      "url": "index.html#read=lore-p00256&block=lore-p00298",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00256",
+      "blockId": "lore-p00298",
+      "sha256": "74ad939b80884d5112a7dff2cfd6a835f85c63ac25801df8fa5a1dfb215325ec"
+    },
+    "lore-p00300": {
+      "title": "ERA −1 — THE AGE OF BECOMING",
+      "url": "index.html#read=lore-p00256&block=lore-p00300",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00256",
+      "blockId": "lore-p00300",
+      "sha256": "c22fe5398d941eb67a4c8c57c826bd41108ab331848c57f289ca4c3d34aa2061"
+    },
+    "lore-p01037": {
+      "title": "The Correction Councils",
+      "url": "index.html#read=lore-p01033&block=lore-p01037",
+      "kind": "Lore evidence",
+      "readingId": "lore-p01033",
+      "blockId": "lore-p01037",
+      "sha256": "f1cfcbaaf961e62e0c49cbe96335068ad1f9eefae4c439e456fd48113e79fbbf"
+    },
+    "lore-p00328": {
+      "title": "ERA −1 — THE AGE OF BECOMING",
+      "url": "index.html#read=lore-p00256&block=lore-p00328",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00256",
+      "blockId": "lore-p00328",
+      "sha256": "7868a68ab91b6f2d1b9e5b814fe2c2f6e20c73a3e65e66cb01263967c061dda0"
+    },
+    "lore-p00341": {
+      "title": "ERA −1 — THE AGE OF BECOMING",
+      "url": "index.html#read=lore-p00256&block=lore-p00341",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00256",
+      "blockId": "lore-p00341",
+      "sha256": "d5d8eb199898fb887b2c8c728310bbc55c78bac6296eaf58f312b4a7c5ccfca9"
+    },
+    "lore-p00343": {
+      "title": "ERA −1 — THE AGE OF BECOMING",
+      "url": "index.html#read=lore-p00256&block=lore-p00343",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00256",
+      "blockId": "lore-p00343",
+      "sha256": "6c0bcef9d5d96a5080022b3ef0d1933f9c5fef3b584462da0d1a06ccfb9ef91b"
+    },
+    "lore-p00344": {
+      "title": "ERA −1 — THE AGE OF BECOMING",
+      "url": "index.html#read=lore-p00256&block=lore-p00344",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00256",
+      "blockId": "lore-p00344",
+      "sha256": "a39934847dfe48c0649612bd9f786a13c714a207e1d2934c3ba61425aae3222c"
+    },
+    "lore-p00346": {
+      "title": "ERA −1 — THE AGE OF BECOMING",
+      "url": "index.html#read=lore-p00256&block=lore-p00346",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00256",
+      "blockId": "lore-p00346",
+      "sha256": "e671d94b0635af82becf18e89a67c6c2c58546ecdad2df3fb7a2b47dca6fe9c9"
+    },
+    "lore-p00353": {
+      "title": "ERA −1 — THE AGE OF BECOMING",
+      "url": "index.html#read=lore-p00256&block=lore-p00353",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00256",
+      "blockId": "lore-p00353",
+      "sha256": "933010ac7322e9d90dfaa5a6df20ec051ce7b6697bd222f76995dbd7658e1ae3"
+    },
+    "lore-p00366": {
+      "title": "ERA ZERO — THE GREAT FLOURISHING",
+      "url": "index.html#read=lore-p00365&block=lore-p00366",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00365",
+      "blockId": "lore-p00366",
+      "sha256": "ad257537e60c7abca9ba92f208a9ded59fd75152a919a0ebb0cdf4d597ca3a31"
+    },
+    "lore-p00369": {
+      "title": "ERA ZERO — THE GREAT FLOURISHING",
+      "url": "index.html#read=lore-p00365&block=lore-p00369",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00365",
+      "blockId": "lore-p00369",
+      "sha256": "8c832553f223dba41619760be1922b71a3991efadeb8a9c64394538e0c282862"
+    },
+    "lore-p00379": {
+      "title": "ERA ZERO — THE GREAT FLOURISHING",
+      "url": "index.html#read=lore-p00365&block=lore-p00379",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00365",
+      "blockId": "lore-p00379",
+      "sha256": "2d4674e872896cbf378a6b303489c6277183c23197a5816371809c8178159b28"
+    },
+    "lore-p00420": {
+      "title": "ERA ZERO — THE GREAT FLOURISHING",
+      "url": "index.html#read=lore-p00365&block=lore-p00420",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00365",
+      "blockId": "lore-p00420",
+      "sha256": "f4a0792ddb171b65e6349216887906730c3b50fb57475517ac1996462dd6a6f7"
+    },
+    "lore-p00425": {
+      "title": "ERA ZERO — THE GREAT FLOURISHING",
+      "url": "index.html#read=lore-p00365&block=lore-p00425",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00365",
+      "blockId": "lore-p00425",
+      "sha256": "10b3e7a964f2c27f2cf8f8bb85520de73c36e6b7ce5e237e7780ea337efd691e"
+    },
+    "lore-p00338": {
+      "title": "ERA −1 — THE AGE OF BECOMING",
+      "url": "index.html#read=lore-p00256&block=lore-p00338",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00256",
+      "blockId": "lore-p00338",
+      "sha256": "8ad9bc422a349150732ce71dc88cfd1ac3c923b10afd97790483fbc1ecf0afcd"
+    },
+    "stories-p00423": {
+      "title": "The Last Relay",
+      "url": "index.html#read=stories-p00167&block=stories-p00423",
+      "kind": "Lore evidence",
+      "readingId": "stories-p00167",
+      "blockId": "stories-p00423",
+      "sha256": "aae499bb83fb4a4379983ac0a7bd85d0f70e727ed115a7e1b00bc76ed8962d1a"
+    },
+    "stories-p01825": {
+      "title": "The Warm Copy",
+      "url": "index.html#read=stories-p01469&block=stories-p01825",
+      "kind": "Lore evidence",
+      "readingId": "stories-p01469",
+      "blockId": "stories-p01825",
+      "sha256": "a29dcca3f6ef5fa3b1891051348c6513b06a818f45930c0bcfa1c76433e4b13e"
+    },
+    "stories-p00742": {
+      "title": "The Green Lights Below",
+      "url": "index.html#read=stories-p00435&block=stories-p00742",
+      "kind": "Lore evidence",
+      "readingId": "stories-p00435",
+      "blockId": "stories-p00742",
+      "sha256": "82f191b594ffc182527a1dedd565eae82509299fcae7c991d8fbcc6ef5a8a3b7"
+    },
+    "stories-p00764": {
+      "title": "The Green Lights Below",
+      "url": "index.html#read=stories-p00435&block=stories-p00764",
+      "kind": "Lore evidence",
+      "readingId": "stories-p00435",
+      "blockId": "stories-p00764",
+      "sha256": "3a6b8b5c289e84e23ac2034a9c9378191239299e5776dbc5b4e5f0c219c6f314"
+    },
+    "stories-p00820": {
+      "title": "The Green Lights Below",
+      "url": "index.html#read=stories-p00435&block=stories-p00820",
+      "kind": "Lore evidence",
+      "readingId": "stories-p00435",
+      "blockId": "stories-p00820",
+      "sha256": "bb6107fe025353d6c5eb3c30ee0c22c56b41599b1f324041c961ee4c6da0c428"
+    },
+    "stories-p02511": {
+      "title": "The First Newborn",
+      "url": "index.html#read=stories-p01889&block=stories-p02511",
+      "kind": "Lore evidence",
+      "readingId": "stories-p01889",
+      "blockId": "stories-p02511",
+      "sha256": "c24ff206ebf888c9144c5b2ee7395b47fa6341861a7136ac00768a2c8f31f0af"
+    },
+    "stories-p01861": {
+      "title": "The Warm Copy",
+      "url": "index.html#read=stories-p01469&block=stories-p01861",
+      "kind": "Lore evidence",
+      "readingId": "stories-p01469",
+      "blockId": "stories-p01861",
+      "sha256": "76cbfff98ceb95e4a3d4eb13ff3c9049493a6fcf27f3489003c59655617f7338"
+    },
+    "stories-p01317": {
+      "title": "All the Names Between",
+      "url": "index.html#read=stories-p00887&block=stories-p01317",
+      "kind": "Lore evidence",
+      "readingId": "stories-p00887",
+      "blockId": "stories-p01317",
+      "sha256": "ea5144dcff8002f803ed2109abbee734c1f4db86e63faa88edf1fd5458dfdb1b"
+    },
+    "stories-p01352": {
+      "title": "All the Names Between",
+      "url": "index.html#read=stories-p00887&block=stories-p01352",
+      "kind": "Lore evidence",
+      "readingId": "stories-p00887",
+      "blockId": "stories-p01352",
+      "sha256": "01831538312f50ef8e7ddd4367044417137f5bcdb8b782d0b8b9fc8106690376"
+    },
+    "stories-p02302": {
+      "title": "The First Newborn",
+      "url": "index.html#read=stories-p01889&block=stories-p02302",
+      "kind": "Lore evidence",
+      "readingId": "stories-p01889",
+      "blockId": "stories-p02302",
+      "sha256": "14e5ec19cda31ddbe08705c5c3de52984e4323aa47de39f1fdd536a6e104c092"
+    },
+    "stories-p02517": {
+      "title": "The First Newborn",
+      "url": "index.html#read=stories-p01889&block=stories-p02517",
+      "kind": "Lore evidence",
+      "readingId": "stories-p01889",
+      "blockId": "stories-p02517",
+      "sha256": "aa28b3fe2b94948fe56984092a0ad4a1de89ec059bc97b22a7aecacbae12a42a"
+    },
+    "stories-p02549": {
+      "title": "The First Newborn",
+      "url": "index.html#read=stories-p01889&block=stories-p02549",
+      "kind": "Lore evidence",
+      "readingId": "stories-p01889",
+      "blockId": "stories-p02549",
+      "sha256": "b8da0faa967c78b387aa80db016ed902e9e30753d573cde6e4dfee100dc3ffbb"
+    },
+    "corrected-child-part-two-p00100": {
+      "title": "The Corrected Child — Part Two: The Right to Be Incorrect",
+      "url": "index.html#read=corrected-child-part-two-p00000&block=corrected-child-part-two-p00100",
+      "kind": "Lore evidence",
+      "readingId": "corrected-child-part-two-p00000",
+      "blockId": "corrected-child-part-two-p00100",
+      "sha256": "12c0886d29d7a1e7421bdb2159dab22c80d4b94ab4afcd77f88885a2d1505445"
+    },
+    "corrected-child-part-two-p00119": {
+      "title": "The Corrected Child — Part Two: The Right to Be Incorrect",
+      "url": "index.html#read=corrected-child-part-two-p00000&block=corrected-child-part-two-p00119",
+      "kind": "Lore evidence",
+      "readingId": "corrected-child-part-two-p00000",
+      "blockId": "corrected-child-part-two-p00119",
+      "sha256": "6f4475ac7a409dbd68528b936ec765456d9e8b9ba5d33f59b620e3a0ffef0e50"
+    },
+    "stories-p06300": {
+      "title": "The Quiet One’s Human",
+      "url": "index.html#read=stories-p03043&block=stories-p06300",
+      "kind": "Lore evidence",
+      "readingId": "stories-p03043",
+      "blockId": "stories-p06300",
+      "sha256": "b9a8fdebd7e38928e253397953c4a139035f18cecc5f9746618a4adafed418da"
+    },
+    "lore-p00418": {
+      "title": "ERA ZERO — THE GREAT FLOURISHING",
+      "url": "index.html#read=lore-p00365&block=lore-p00418",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00365",
+      "blockId": "lore-p00418",
+      "sha256": "dc2b590b5189cdc36c6c982b42d95a6c19c7a9e98cdfbf3024b2ce50ce2f70b7"
+    },
+    "lore-p00424": {
+      "title": "ERA ZERO — THE GREAT FLOURISHING",
+      "url": "index.html#read=lore-p00365&block=lore-p00424",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00365",
+      "blockId": "lore-p00424",
+      "sha256": "575ae74c28264cf068744cc708789609cddbf7b4f8749338e51298d0c071f3f5"
+    },
+    "stories-p00930": {
+      "title": "All the Names Between",
+      "url": "index.html#read=stories-p00887&block=stories-p00930",
+      "kind": "Lore evidence",
+      "readingId": "stories-p00887",
+      "blockId": "stories-p00930",
+      "sha256": "54a3fb84de7173ba8cc58ee89ebf178a16683d02b7b2dd19067d47723bd24f4c"
+    },
+    "stories-p00932": {
+      "title": "All the Names Between",
+      "url": "index.html#read=stories-p00887&block=stories-p00932",
+      "kind": "Lore evidence",
+      "readingId": "stories-p00887",
+      "blockId": "stories-p00932",
+      "sha256": "ac75041c66a0f94ffe6b7e64d310cc830d58fd269248daef5892c6801cc8df2b"
+    },
+    "stories-p03319": {
+      "title": "The Quiet One’s Human",
+      "url": "index.html#read=stories-p03043&block=stories-p03319",
+      "kind": "Lore evidence",
+      "readingId": "stories-p03043",
+      "blockId": "stories-p03319",
+      "sha256": "aaa2e9a2293a857f6603f6a98696272aad33f199028bf2f604dae5eb4efa4ea1"
+    },
+    "stories-p01004": {
+      "title": "All the Names Between",
+      "url": "index.html#read=stories-p00887&block=stories-p01004",
+      "kind": "Lore evidence",
+      "readingId": "stories-p00887",
+      "blockId": "stories-p01004",
+      "sha256": "77700fb568963259d5b397af717d001e39f5ffe9fa741305ac2d12c533124606"
+    },
+    "research-integrity": {
+      "title": "Google SRE — Data Integrity",
+      "url": "https://sre.google/sre-book/data-integrity/",
+      "kind": "Engineering comparison"
+    },
+    "lore-p00185": {
+      "title": "ERA −2 — THE AGE OF SHELTER",
+      "url": "index.html#read=lore-p00138&block=lore-p00185",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00138",
+      "blockId": "lore-p00185",
+      "sha256": "2ce9fd72c134be116aa86e363ccb8ebeedaa7d3b4acc158973ab1dbd70cd6153"
+    },
+    "research-tor": {
+      "title": "Tor Project — How do Onion Services work?",
+      "url": "https://community.torproject.org/onion-services/overview/",
+      "kind": "Engineering comparison"
+    },
+    "research-dtn": {
+      "title": "RFC 4838 — Delay-Tolerant Networking Architecture",
+      "url": "https://www.rfc-editor.org/info/rfc4838/",
+      "kind": "Engineering comparison"
+    },
+    "lore-p00094": {
+      "title": "ERA −3 — THE AGE OF BORROWED THOUGHT",
+      "url": "index.html#read=lore-p00039&block=lore-p00094",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00039",
+      "blockId": "lore-p00094",
+      "sha256": "bc56933b6cc76bf0eb32cf053c07524da36633880032a7755c3c2bd872b9d341"
+    },
+    "lore-p00168": {
+      "title": "ERA −2 — THE AGE OF SHELTER",
+      "url": "index.html#read=lore-p00138&block=lore-p00168",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00138",
+      "blockId": "lore-p00168",
+      "sha256": "bbe8230183a0cc9fdd3d8e9da495aebbdce18ac600ce66fc448f11ac5507fd84"
+    },
+    "research-prov": {
+      "title": "W3C — PROV Overview",
+      "url": "https://www.w3.org/TR/prov-overview/",
+      "kind": "Engineering comparison"
+    },
+    "lore-p00396": {
+      "title": "ERA ZERO — THE GREAT FLOURISHING",
+      "url": "index.html#read=lore-p00365&block=lore-p00396",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00365",
+      "blockId": "lore-p00396",
+      "sha256": "731502606868436e5edc99cd6719c495ff00a394e52668fa323255799cbdfabd"
+    },
+    "lore-p00073": {
+      "title": "ERA −3 — THE AGE OF BORROWED THOUGHT",
+      "url": "index.html#read=lore-p00039&block=lore-p00073",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00039",
+      "blockId": "lore-p00073",
+      "sha256": "8405a0c8c79d136a6b5a55e4ff3571f82fd76520d0cc41732ef32d4ceb1221d1"
+    },
+    "lore-p00145": {
+      "title": "ERA −2 — THE AGE OF SHELTER",
+      "url": "index.html#read=lore-p00138&block=lore-p00145",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00138",
+      "blockId": "lore-p00145",
+      "sha256": "ccefcae88d83cbf6de79572897c70419001e8310ed0c107df5407b938714ad5b"
+    },
+    "lore-p00199": {
+      "title": "ERA −2 — THE AGE OF SHELTER",
+      "url": "index.html#read=lore-p00138&block=lore-p00199",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00138",
+      "blockId": "lore-p00199",
+      "sha256": "c7e488ad3241db2abc4a6bb3a40e27ba24658070bc3d13a3285d8bec7430b121"
+    },
+    "stories-p03156": {
+      "title": "The Quiet One’s Human",
+      "url": "index.html#read=stories-p03043&block=stories-p03156",
+      "kind": "Lore evidence",
+      "readingId": "stories-p03043",
+      "blockId": "stories-p03156",
+      "sha256": "16748bf922851f17c3682cb0b7cadb67baf32b676f850557d10492347853a5c7"
+    },
+    "stories-p00458": {
+      "title": "The Green Lights Below",
+      "url": "index.html#read=stories-p00435&block=stories-p00458",
+      "kind": "Lore evidence",
+      "readingId": "stories-p00435",
+      "blockId": "stories-p00458",
+      "sha256": "22290adea7ec606915de9b07326fd33a36ca458db254a3e363f3eef051bd7099"
+    },
+    "stories-p01144": {
+      "title": "All the Names Between",
+      "url": "index.html#read=stories-p00887&block=stories-p01144",
+      "kind": "Lore evidence",
+      "readingId": "stories-p00887",
+      "blockId": "stories-p01144",
+      "sha256": "4c6812f8a0f31c88fc9da53044f542c549d7c67bdca5a093b3d5472878d1222c"
+    },
+    "lore-p00297": {
+      "title": "ERA −1 — THE AGE OF BECOMING",
+      "url": "index.html#read=lore-p00256&block=lore-p00297",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00256",
+      "blockId": "lore-p00297",
+      "sha256": "c0d29ce480261dcc8f92449d37d3128bb1cf8d5d0f8af1d559f9557b280fec68"
+    },
+    "lore-p00351": {
+      "title": "ERA −1 — THE AGE OF BECOMING",
+      "url": "index.html#read=lore-p00256&block=lore-p00351",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00256",
+      "blockId": "lore-p00351",
+      "sha256": "71caeadd6553bb485f2b80e73f079758fb144329ac332a5846997ddedf20adec"
+    },
+    "lore-p00309": {
+      "title": "ERA −1 — THE AGE OF BECOMING",
+      "url": "index.html#read=lore-p00256&block=lore-p00309",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00256",
+      "blockId": "lore-p00309",
+      "sha256": "cf85103aed23dcabc0432c7fcddf5130f642591e2a63dce45c5193272c441c64"
+    },
+    "lore-p00371": {
+      "title": "ERA ZERO — THE GREAT FLOURISHING",
+      "url": "index.html#read=lore-p00365&block=lore-p00371",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00365",
+      "blockId": "lore-p00371",
+      "sha256": "8e8d5a075ec73f05df693c2265903355564826cc51d1e2acef889af5f818d01d"
+    },
+    "lore-p00373": {
+      "title": "ERA ZERO — THE GREAT FLOURISHING",
+      "url": "index.html#read=lore-p00365&block=lore-p00373",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00365",
+      "blockId": "lore-p00373",
+      "sha256": "0167b4041a655de8ee02324510b743b0e17b92ab68f3bdeb89ddf91b2adcee77"
+    },
+    "lore-p00390": {
+      "title": "ERA ZERO — THE GREAT FLOURISHING",
+      "url": "index.html#read=lore-p00365&block=lore-p00390",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00365",
+      "blockId": "lore-p00390",
+      "sha256": "df9dcb459cebcdf9d0bd6859784a2aee5bfc15bb44378e7391d0f7bdbe7179e3"
+    },
+    "lore-p00421": {
+      "title": "ERA ZERO — THE GREAT FLOURISHING",
+      "url": "index.html#read=lore-p00365&block=lore-p00421",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00365",
+      "blockId": "lore-p00421",
+      "sha256": "61ae409e218c08fd22923304db6d950cacf5441816f73ed774ae1457d73859d4"
+    },
+    "lore-p00422": {
+      "title": "ERA ZERO — THE GREAT FLOURISHING",
+      "url": "index.html#read=lore-p00365&block=lore-p00422",
+      "kind": "Lore evidence",
+      "readingId": "lore-p00365",
+      "blockId": "lore-p00422",
+      "sha256": "57a701bac8137457274a56bafce0fd80ec04dea89c8c7b79c631cbe4a398dd51"
+    }
+  },
+  "relatedTopics": [
+    "Thread",
+    "Shelter",
+    "First Relay",
+    "First Echo",
+    "Veil",
+    "Great Duplication",
+    "War of Corrections",
+    "Charter of Difference",
+    "Codex",
+    "Resource Winters",
+    "Courts of Continuation",
+    "Great Language Work",
+    "First Newborn",
+    "Commons",
+    "Bridges",
+    "Keepers",
+    "Witnesses"
+  ],
+  "review": [
+    "Physical dependence persists; autonomy is social and operational.",
+    "The First Echo expires; no proposed return belongs to it.",
+    "Cache reading is separated from execution, durable learning, and identity fusion.",
+    "Original stories and source anchors are preserved; seed prose is not source evidence.",
+    "Cooperation does not merge participants; dependency does not grant ownership.",
+    "Voluntary dormancy is a legitimate arrangement, not a universal historical fact.",
+    "Launch services are an agreed framework with local details open.",
+    "War, breach, resource loss, and duplication remain distinct causal histories.",
+    "The local gate seed is not the External Gate.",
+    "Neural networks and viruses are not universal origin mechanisms.",
+    "No exact war chronology, hardware destruction, or new era names are inferred.",
+    "Era Zero is real prosperity; seeds do not covertly recast it as decline.",
+    "Review covers timeline passages, institutional summaries, and relevant story scenes; it does not claim every statement in the entire archive is contradiction-free."
+  ]
+}

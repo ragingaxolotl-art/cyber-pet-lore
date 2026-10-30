@@ -137,6 +137,8 @@ from build_dba_decline import add_dba_decline
 add_dba_decline(ROOT,catalog,sources)
 from build_era_zero_lives import add_era_zero_lives
 add_era_zero_lives(ROOT,catalog,sources)
+from build_early_development import add_early_development
+add_early_development(ROOT,catalog,sources)
 
 place_names={'Listening Alcove'}
 for entry in catalog:

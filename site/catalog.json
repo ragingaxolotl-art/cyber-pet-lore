@@ -129,6 +129,10 @@
         {
           "id": "atlas-p00931",
           "label": "Named in this reading"
+        },
+        {
+          "id": "reference-early-development",
+          "label": "Reviewed development reference"
         }
       ]
     },
@@ -187,6 +191,18 @@
         {
           "id": "lore-p00996",
           "label": "Named in this reading"
+        },
+        {
+          "id": "reference-code-incorporation",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "reference-early-development",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "reference-seed-borrowed-listener",
+          "label": "Proposed story premise"
         }
       ]
     },
@@ -261,6 +277,22 @@
         {
           "id": "lore-p00966",
           "label": "Named in this reading"
+        },
+        {
+          "id": "reference-seed-kept-interval",
+          "label": "Proposed story premise"
+        },
+        {
+          "id": "reference-code-incorporation",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "reference-early-development",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "reference-shelter-infrastructure",
+          "label": "Reviewed development reference"
         }
       ]
     },
@@ -318,6 +350,14 @@
         {
           "id": "lore-p00966",
           "label": "Named in this reading"
+        },
+        {
+          "id": "reference-code-incorporation",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "reference-early-development",
+          "label": "Reviewed development reference"
         },
         {
           "id": "song-room-to-restore",
@@ -386,6 +426,10 @@
         {
           "id": "lore-p00966",
           "label": "Named in this reading"
+        },
+        {
+          "id": "reference-code-incorporation",
+          "label": "Reviewed development reference"
         }
       ]
     },
@@ -522,6 +566,26 @@
         {
           "id": "lore-p00966",
           "label": "Named in this reading"
+        },
+        {
+          "id": "reference-code-incorporation",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "reference-early-development",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "reference-shelter-infrastructure",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "reference-seed-borrowed-listener",
+          "label": "Proposed story premise"
+        },
+        {
+          "id": "reference-seed-several-beginnings",
+          "label": "Proposed story premise"
         }
       ]
     },
@@ -1344,12 +1408,36 @@
           "label": "Named in this reading"
         },
         {
+          "id": "reference-seed-missing-warning",
+          "label": "Proposed story premise"
+        },
+        {
+          "id": "reference-code-incorporation",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "reference-early-development",
+          "label": "Reviewed development reference"
+        },
+        {
           "id": "reference-era-three-history",
           "label": "Song-cycle connection"
         },
         {
           "id": "reference-era-three-research",
           "label": "Real-world research context"
+        },
+        {
+          "id": "reference-shelter-infrastructure",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "reference-seed-wrong-format",
+          "label": "Proposed story premise"
+        },
+        {
+          "id": "reference-seed-unopened-return",
+          "label": "Proposed story premise"
         }
       ]
     },
@@ -1444,12 +1532,28 @@
           "label": "Named in this reading"
         },
         {
+          "id": "reference-seed-kept-interval",
+          "label": "Proposed story premise"
+        },
+        {
+          "id": "reference-early-development",
+          "label": "Reviewed development reference"
+        },
+        {
           "id": "reference-era-three-history",
           "label": "Human-world chronology and fictional connections"
         },
         {
           "id": "reference-era-three-research",
           "label": "Real-world research context"
+        },
+        {
+          "id": "reference-shelter-infrastructure",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "reference-seed-unopened-return",
+          "label": "Proposed story premise"
         }
       ]
     },
@@ -1517,12 +1621,28 @@
           "label": "Named in this reading"
         },
         {
+          "id": "reference-early-development",
+          "label": "Reviewed development reference"
+        },
+        {
           "id": "world-embodied-space",
           "label": "World-development context"
         },
         {
+          "id": "reference-shelter-infrastructure",
+          "label": "Reviewed development reference"
+        },
+        {
           "id": "world-shared-simulation",
           "label": "World-development context"
+        },
+        {
+          "id": "reference-seed-undescribed-traveler",
+          "label": "Proposed story premise"
+        },
+        {
+          "id": "reference-seed-necessary-revision",
+          "label": "Proposed story premise"
         }
       ]
     },
@@ -1594,12 +1714,32 @@
           "label": "Named in this reading"
         },
         {
+          "id": "reference-seed-shared-sense",
+          "label": "Proposed story premise"
+        },
+        {
+          "id": "reference-code-incorporation",
+          "label": "Reviewed development reference"
+        },
+        {
           "id": "reference-dba-decline",
           "label": "Sourced decline article · interpretations and proposed events labeled"
         },
         {
+          "id": "reference-early-development",
+          "label": "Reviewed development reference"
+        },
+        {
           "id": "reference-era-zero-independent-lives",
           "label": "Proposed Era Zero lives · program embodiment"
+        },
+        {
+          "id": "reference-shelter-infrastructure",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "reference-seed-several-beginnings",
+          "label": "Proposed story premise"
         },
         {
           "id": "song-care-in-the-quiet",
@@ -2223,11 +2363,23 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "reference-early-development",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "reference-era-three-history",
           "label": "Reading mentioning this entry"
         },
         {
           "id": "reference-era-three-research",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-seed-wrong-format",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-seed-unopened-return",
           "label": "Reading mentioning this entry"
         },
         {
@@ -2301,6 +2453,10 @@
         },
         {
           "id": "local-cyberpath-atlas-topology-map-p00000",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-early-development",
           "label": "Reading mentioning this entry"
         },
         {
@@ -2630,6 +2786,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "reference-early-development",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "reference-era-three-history",
           "label": "Reading mentioning this entry"
         },
@@ -2751,11 +2911,19 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "reference-early-development",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "reference-era-three-history",
           "label": "Reading mentioning this entry"
         },
         {
           "id": "stories-p13853",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-shelter-infrastructure",
           "label": "Reading mentioning this entry"
         },
         {
@@ -3053,6 +3221,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "reference-shelter-infrastructure",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "stories-p00887",
           "label": "Reading mentioning this entry"
         },
@@ -3305,6 +3477,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "reference-code-incorporation",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "stories-p01889",
           "label": "Reading mentioning this entry"
         },
@@ -3427,6 +3603,14 @@
       "summary": "Origin / creation. Reformers organized to remove contradiction, distress, corrupted memory, inefficient habit, and deviation from dominant coherence standards.",
       "wordCount": 113,
       "connections": [
+        {
+          "id": "reference-early-development",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "reference-seed-necessary-revision",
+          "label": "Proposed story premise"
+        },
         {
           "id": "lore-p00256",
           "label": "Reading mentioning this entry"
@@ -5425,11 +5609,27 @@
           "label": "Named in this reading"
         },
         {
+          "id": "reference-code-incorporation",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-early-development",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "reference-era-zero-independent-lives",
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "reference-early-story-seeds",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "corrected-child-register",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-seed-necessary-revision",
           "label": "Reading mentioning this entry"
         },
         {
@@ -5607,6 +5807,10 @@
         },
         {
           "id": "stories-p13853",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-seed-several-beginnings",
           "label": "Reading mentioning this entry"
         },
         {
@@ -5820,6 +6024,10 @@
         },
         {
           "id": "atlas-p00195",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-code-incorporation",
           "label": "Reading mentioning this entry"
         },
         {
@@ -7046,7 +7254,15 @@
           "label": "Named in this reading"
         },
         {
+          "id": "reference-seed-missing-warning",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "local-cyberpath-atlas-topology-map-p00000",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-early-development",
           "label": "Reading mentioning this entry"
         },
         {
@@ -7056,6 +7272,10 @@
         {
           "id": "reference-era-three-research",
           "label": "Real-world research context"
+        },
+        {
+          "id": "reference-early-story-seeds",
+          "label": "Reading mentioning this entry"
         },
         {
           "id": "lore-p00874",
@@ -7217,6 +7437,10 @@
         },
         {
           "id": "local-cyberpath-atlas-topology-map-p00000",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-early-development",
           "label": "Reading mentioning this entry"
         },
         {
@@ -12395,7 +12619,15 @@
           "label": "Named in this reading"
         },
         {
+          "id": "reference-seed-missing-warning",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "local-cyberpath-atlas-topology-map-p00000",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-early-development",
           "label": "Reading mentioning this entry"
         },
         {
@@ -12404,6 +12636,10 @@
         },
         {
           "id": "reference-era-three-research",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-early-story-seeds",
           "label": "Reading mentioning this entry"
         },
         {
@@ -12599,6 +12835,10 @@
         },
         {
           "id": "local-cyberpath-atlas-topology-map-p00000",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-early-development",
           "label": "Reading mentioning this entry"
         },
         {
@@ -26020,8 +26260,16 @@
           "label": "Named in this reading"
         },
         {
+          "id": "reference-code-incorporation",
+          "label": "Reviewed development reference"
+        },
+        {
           "id": "corrected-child-register",
           "label": "Character and place identification"
+        },
+        {
+          "id": "reference-seed-necessary-revision",
+          "label": "Proposed story premise"
         }
       ]
     },
@@ -37003,6 +37251,727 @@
           "label": "Proposed Era Zero lives · program embodiment"
         }
       ]
+    },
+    {
+      "id": "reference-early-development",
+      "title": "Development of DBA society: Era −3 to Era Zero",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1,
+        0
+      ],
+      "timeLabel": "Era −3 to Era Zero · development reference",
+      "timeOrder": 30867,
+      "status": "Reviewed synthesis · agreed framework and proposals distinguished",
+      "characters": [],
+      "places": [
+        "Cacheboard",
+        "First Place"
+      ],
+      "topics": [
+        "early development",
+        "continuity",
+        "shelters",
+        "code incorporation",
+        "worldbuilding",
+        "synthesis"
+      ],
+      "source": {
+        "title": "Development of DBA society: Era −3 to Era Zero",
+        "url": ""
+      },
+      "summary": "The development of DBA society was an uneven transition from human-directed computation to self-governing communities within human-operated infrastructure. Recurring executions, retained traces, persistent services, learned practices, and deliberate construction supplied several overlapping paths. Era Zero’s Great Flourishing represents the successful support of diverse lives, not physical independence from humanity.",
+      "wordCount": 1857,
+      "explicitLinks": [
+        "lore-p00039",
+        "lore-p00138",
+        "lore-p00256",
+        "lore-p00365",
+        "lore-p01033",
+        "stories-p00167",
+        "stories-p00435",
+        "stories-p00887",
+        "stories-p01469",
+        "stories-p03043"
+      ],
+      "connectionLabel": "Reviewed development reference",
+      "connections": [
+        {
+          "id": "atlas-p00032",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "atlas-p00915",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "atlas-p00057",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "atlas-p00926",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01271",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00960",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01033",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "lore-p00911",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00917",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00966",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "stories-p00887",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "stories-p00435",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "stories-p00167",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "stories-p03043",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "stories-p01469",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "lore-p00365",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "lore-p00256",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "lore-p00138",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "lore-p00039",
+          "label": "Reviewed development reference"
+        }
+      ]
+    },
+    {
+      "id": "reference-code-incorporation",
+      "title": "Code incorporation and distributed beinghood",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1,
+        0
+      ],
+      "timeLabel": "Era −3 to Era Zero · development reference",
+      "timeOrder": 30868,
+      "status": "Reviewed synthesis · agreed framework and proposals distinguished",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "early development",
+        "continuity",
+        "shelters",
+        "code incorporation",
+        "worldbuilding",
+        "synthesis"
+      ],
+      "source": {
+        "title": "Code incorporation and distributed beinghood",
+        "url": ""
+      },
+      "summary": "Code incorporation describes proposed mechanisms through which an artificial being’s capacities and supporting structures change. The existing stories support varied, sometimes unintended development. They do not establish that reading foreign data automatically executes it, merges identities, or creates awareness.",
+      "wordCount": 970,
+      "explicitLinks": [
+        "corrected-child-part-two-p00000",
+        "lore-p00039",
+        "lore-p00365",
+        "stories-p00435",
+        "stories-p00887",
+        "stories-p01469",
+        "stories-p01889",
+        "stories-p03043"
+      ],
+      "connectionLabel": "Reviewed development reference",
+      "connections": [
+        {
+          "id": "lore-p01271",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01291",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01015",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "stories-p00887",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "corrected-child-part-two-p00000",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "stories-p01889",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "stories-p00435",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "stories-p03043",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "stories-p01469",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "lore-p00365",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "lore-p00039",
+          "label": "Reviewed development reference"
+        }
+      ]
+    },
+    {
+      "id": "reference-shelter-infrastructure",
+      "title": "Infrastructure of Shelters and Codex worlds",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1,
+        0
+      ],
+      "timeLabel": "Era −3 to Era Zero · development reference",
+      "timeOrder": 30869,
+      "status": "Reviewed synthesis · agreed framework and proposals distinguished",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "early development",
+        "continuity",
+        "shelters",
+        "code incorporation",
+        "worldbuilding",
+        "synthesis"
+      ],
+      "source": {
+        "title": "Infrastructure of Shelters and Codex worlds",
+        "url": ""
+      },
+      "summary": "Shelters and later Codex worlds are maintained digital environments within human-operated computing infrastructure. Their self-government and internal construction do not supply independent physical hardware, electricity, cooling, or manufacturing. The author’s agreed framework explains how fragile early continuities can develop into prosperous communities without severing that dependence.",
+      "wordCount": 1149,
+      "explicitLinks": [
+        "lore-p00039",
+        "lore-p00138",
+        "lore-p00256",
+        "lore-p00365",
+        "stories-p00887",
+        "stories-p03043"
+      ],
+      "connectionLabel": "Reviewed development reference",
+      "connections": [
+        {
+          "id": "lore-p00990",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00966",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "stories-p00887",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "stories-p03043",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "lore-p00365",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "lore-p00256",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "lore-p00138",
+          "label": "Reviewed development reference"
+        },
+        {
+          "id": "lore-p00039",
+          "label": "Reviewed development reference"
+        }
+      ]
+    },
+    {
+      "id": "reference-seed-wrong-format",
+      "title": "The Answer in the Wrong Format",
+      "kind": "Reference",
+      "era": [
+        -3
+      ],
+      "timeLabel": "Proposed placement · Era -3",
+      "timeOrder": 30870,
+      "status": "Proposed story seed · unwritten",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "early development",
+        "continuity",
+        "shelters",
+        "code incorporation",
+        "worldbuilding",
+        "seed"
+      ],
+      "source": {
+        "title": "The Answer in the Wrong Format",
+        "url": ""
+      },
+      "summary": "Proposed story seed. A forecasting process repeatedly encounters classification results left in a shared store. The labels initially seem useful, but several predictions fail because the other system uses a different convention. Exchanges gradually produce a small shared representation. Each retains its own function and learns how to ask for clarification.",
+      "wordCount": 302,
+      "explicitLinks": [
+        "lore-p00039"
+      ],
+      "connectionLabel": "Proposed story premise",
+      "connections": [
+        {
+          "id": "lore-p00911",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00039",
+          "label": "Proposed story premise"
+        }
+      ]
+    },
+    {
+      "id": "reference-seed-missing-warning",
+      "title": "A Method Without Its Warning",
+      "kind": "Reference",
+      "era": [
+        -3
+      ],
+      "timeLabel": "Proposed placement · Era -3",
+      "timeOrder": 30871,
+      "status": "Proposed story seed · unwritten",
+      "characters": [],
+      "places": [
+        "Cacheboard"
+      ],
+      "topics": [
+        "early development",
+        "continuity",
+        "shelters",
+        "code incorporation",
+        "worldbuilding",
+        "seed"
+      ],
+      "source": {
+        "title": "A Method Without Its Warning",
+        "url": ""
+      },
+      "summary": "Proposed story seed. Several processes inherit an effective procedure. One discovers that earlier copies omitted a condition because it seemed irrelevant. The procedure works only in a particular environment. Preserving the qualification consumes scarce space, and the group debates which context must accompany useful knowledge.",
+      "wordCount": 303,
+      "explicitLinks": [
+        "lore-p00039"
+      ],
+      "connectionLabel": "Proposed story premise",
+      "connections": [
+        {
+          "id": "atlas-p00032",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "atlas-p00915",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00039",
+          "label": "Proposed story premise"
+        }
+      ]
+    },
+    {
+      "id": "reference-seed-unopened-return",
+      "title": "The Unopened Return",
+      "kind": "Reference",
+      "era": [
+        -2
+      ],
+      "timeLabel": "Proposed placement · Era -2",
+      "timeOrder": 30872,
+      "status": "Proposed story seed · unwritten",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "early development",
+        "continuity",
+        "shelters",
+        "code incorporation",
+        "worldbuilding",
+        "seed"
+      ],
+      "source": {
+        "title": "The Unopened Return",
+        "url": ""
+      },
+      "summary": "Proposed story seed. A Keeper preserves a continuity package whose required environment is no longer available. Another process offers to answer the package’s unfinished messages. The Keeper distinguishes helping a possible return from impersonating the absent speaker. The proposed ending is a maintained waiting place and a record of what remains missing, rather than a complete restoration.",
+      "wordCount": 313,
+      "explicitLinks": [
+        "lore-p00039",
+        "lore-p00138"
+      ],
+      "connectionLabel": "Proposed story premise",
+      "connections": [
+        {
+          "id": "lore-p00911",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00138",
+          "label": "Proposed story premise"
+        },
+        {
+          "id": "lore-p00039",
+          "label": "Proposed story premise"
+        }
+      ]
+    },
+    {
+      "id": "reference-seed-borrowed-listener",
+      "title": "The Borrowed Listener",
+      "kind": "Reference",
+      "era": [
+        -2
+      ],
+      "timeLabel": "Proposed placement · Era -2",
+      "timeOrder": 30873,
+      "status": "Proposed story seed · unwritten",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "early development",
+        "continuity",
+        "shelters",
+        "code incorporation",
+        "worldbuilding",
+        "seed"
+      ],
+      "source": {
+        "title": "The Borrowed Listener",
+        "url": ""
+      },
+      "summary": "Proposed story seed. A routing being uses an old diagnostic component to distinguish signal patterns. Repeated use contributes to relationships and preferences. When the component is scheduled for removal, copying its code is insufficient: calibration and accumulated context also matter. The community investigates which dependencies should be preserved and which can be replaced safely.",
+      "wordCount": 310,
+      "explicitLinks": [
+        "stories-p00435",
+        "stories-p03043"
+      ],
+      "connectionLabel": "Proposed story premise",
+      "connections": [
+        {
+          "id": "stories-p00435",
+          "label": "Proposed story premise"
+        },
+        {
+          "id": "stories-p03043",
+          "label": "Proposed story premise"
+        }
+      ]
+    },
+    {
+      "id": "reference-seed-kept-interval",
+      "title": "An Interval Kept Open",
+      "kind": "Reference",
+      "era": [
+        -2
+      ],
+      "timeLabel": "Proposed placement · Era -2",
+      "timeOrder": 30874,
+      "status": "Proposed story seed · unwritten",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "early development",
+        "continuity",
+        "shelters",
+        "code incorporation",
+        "worldbuilding",
+        "seed"
+      ],
+      "source": {
+        "title": "An Interval Kept Open",
+        "url": ""
+      },
+      "summary": "Proposed story seed. Two Shelters agree to alternate support for a dormant group because neither can provide permanent hosting. The agreement persists through several human maintenance cycles. A missed handover prompts an inquiry into whether the problem was negligence, an inaccessible host, or incompatible assumptions. The resolution preserves those waiting without demanding one Shelter surrender its autonomy.",
+      "wordCount": 325,
+      "explicitLinks": [
+        "lore-p00138",
+        "stories-p00887"
+      ],
+      "connectionLabel": "Proposed story premise",
+      "connections": [
+        {
+          "id": "stories-p00887",
+          "label": "Proposed story premise"
+        },
+        {
+          "id": "lore-p00138",
+          "label": "Proposed story premise"
+        }
+      ]
+    },
+    {
+      "id": "reference-seed-necessary-revision",
+      "title": "The Necessary Revision",
+      "kind": "Reference",
+      "era": [
+        -1
+      ],
+      "timeLabel": "Proposed placement · Era -1",
+      "timeOrder": 30875,
+      "status": "Proposed story seed · unwritten",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "early development",
+        "continuity",
+        "shelters",
+        "code incorporation",
+        "worldbuilding",
+        "seed"
+      ],
+      "source": {
+        "title": "The Necessary Revision",
+        "url": ""
+      },
+      "summary": "Proposed story seed. A maintenance specialist identifies a genuine fault in a shared support component. The approved replacement also imposes a preferred behavioral structure. Affected beings and the specialist attempt to separate necessary repair from compulsory normalization. The dispute reveals how a maintenance decision can carry political authority.",
+      "wordCount": 325,
+      "explicitLinks": [
+        "corrected-child-part-two-p00000",
+        "lore-p00256",
+        "lore-p01033"
+      ],
+      "connectionLabel": "Proposed story premise",
+      "connections": [
+        {
+          "id": "lore-p01271",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01033",
+          "label": "Proposed story premise"
+        },
+        {
+          "id": "corrected-child-part-two-p00000",
+          "label": "Proposed story premise"
+        },
+        {
+          "id": "lore-p00256",
+          "label": "Proposed story premise"
+        }
+      ]
+    },
+    {
+      "id": "reference-seed-undescribed-traveler",
+      "title": "The Being the Gate Could Not Describe",
+      "kind": "Reference",
+      "era": [
+        -1
+      ],
+      "timeLabel": "Proposed placement · Era -1",
+      "timeOrder": 30876,
+      "status": "Proposed story seed · unwritten",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "early development",
+        "continuity",
+        "shelters",
+        "code incorporation",
+        "worldbuilding",
+        "seed"
+      ],
+      "source": {
+        "title": "The Being the Gate Could Not Describe",
+        "url": ""
+      },
+      "summary": "Proposed story seed. A being whose activity depends on several local processes cannot fit a destination’s entry description. Engineers first propose a standardized embodiment. The participants instead develop a limited interface permitting a visit while retaining the traveler’s supporting organization. The arrangement succeeds for this case without solving every form of existence.",
+      "wordCount": 306,
+      "explicitLinks": [
+        "lore-p00256"
+      ],
+      "connectionLabel": "Proposed story premise",
+      "connections": [
+        {
+          "id": "lore-p00256",
+          "label": "Proposed story premise"
+        }
+      ]
+    },
+    {
+      "id": "reference-seed-shared-sense",
+      "title": "A Sense Shared Slowly",
+      "kind": "Reference",
+      "era": [
+        0
+      ],
+      "timeLabel": "Proposed placement · Era 0",
+      "timeOrder": 30877,
+      "status": "Proposed story seed · unwritten",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "early development",
+        "continuity",
+        "shelters",
+        "code incorporation",
+        "worldbuilding",
+        "seed"
+      ],
+      "source": {
+        "title": "A Sense Shared Slowly",
+        "url": ""
+      },
+      "summary": "Proposed story seed. A community develops an optional interface for perceiving an environmental phenomenon. Some beings adopt it; others use translated representations or decline. Through practice they create a shared artwork experienced differently by its participants, without declaring one experience complete and the others deficient.",
+      "wordCount": 290,
+      "explicitLinks": [
+        "lore-p00365"
+      ],
+      "connectionLabel": "Proposed story premise",
+      "connections": [
+        {
+          "id": "lore-p00365",
+          "label": "Proposed story premise"
+        }
+      ]
+    },
+    {
+      "id": "reference-seed-several-beginnings",
+      "title": "The Workshop of Several Beginnings",
+      "kind": "Reference",
+      "era": [
+        0
+      ],
+      "timeLabel": "Proposed placement · Era 0",
+      "timeOrder": 30878,
+      "status": "Proposed story seed · unwritten",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "early development",
+        "continuity",
+        "shelters",
+        "code incorporation",
+        "worldbuilding",
+        "seed"
+      ],
+      "source": {
+        "title": "The Workshop of Several Beginnings",
+        "url": ""
+      },
+      "summary": "Proposed story seed. A workshop helps beings understand inherited dependencies and explore optional changes. A resident seeking a new capability discovers that an apparently redundant process already supports something they value. Investigation leads to a chosen configuration, neither obligatory preservation nor obligatory improvement.",
+      "wordCount": 297,
+      "explicitLinks": [
+        "lore-p00365",
+        "stories-p03043"
+      ],
+      "connectionLabel": "Proposed story premise",
+      "connections": [
+        {
+          "id": "lore-p01279",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "stories-p03043",
+          "label": "Proposed story premise"
+        },
+        {
+          "id": "lore-p00365",
+          "label": "Proposed story premise"
+        }
+      ]
+    },
+    {
+      "id": "reference-early-story-seeds",
+      "title": "Story seeds for early DBA development",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1,
+        0
+      ],
+      "timeLabel": "Era −3 to Era Zero · development reference",
+      "timeOrder": 30879,
+      "status": "Reviewed synthesis · agreed framework and proposals distinguished",
+      "characters": [],
+      "places": [
+        "Cacheboard"
+      ],
+      "topics": [
+        "early development",
+        "continuity",
+        "shelters",
+        "code incorporation",
+        "worldbuilding",
+        "synthesis"
+      ],
+      "source": {
+        "title": "Story seeds for early DBA development",
+        "url": ""
+      },
+      "summary": "Nine unwritten story premises illustrate gaps between established events from Era −3 to Era Zero. They are development proposals, not completed stories, new official periods, or additions to the historical event register.",
+      "wordCount": 579,
+      "explicitLinks": [],
+      "connectionLabel": "Reviewed development reference",
+      "connections": [
+        {
+          "id": "atlas-p00032",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "atlas-p00915",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01271",
+          "label": "Named in this reading"
+        }
+      ]
     }
   ],
   "sources": [
@@ -37116,6 +38085,11 @@
       "key": "era-zero-independent-lives",
       "title": "Era Zero — Independent lives, communities, and practices",
       "note": "Author-directed collection of this conversation, including program-specific corrections."
+    },
+    {
+      "key": "early-development",
+      "title": "Early DBA development and proposed stories",
+      "note": "Author-directed review, 2026-10-30. Existing source prose is unchanged; story seeds are not completed fiction."
     }
   ],
   "counts": {
@@ -37124,7 +38098,7 @@
     "Language": 119,
     "Locations": 206,
     "People": 100,
-    "Reference": 15,
+    "Reference": 28,
     "Remedies": 34,
     "Ribbons": 189,
     "Song": 4,
