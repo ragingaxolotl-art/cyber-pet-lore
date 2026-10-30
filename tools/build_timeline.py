@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]; SITE=ROOT/'site'
 catalog=json.loads((SITE/'catalog.json').read_text())
 entries=catalog['entries']; by_id={e['id']:e for e in entries}
 # The reading blocks include the catalog's repaired fused era headings.
-def source(era_start):return json.loads((SITE/'content'/f'lore-p{era_start:05d}.json').read_text())['blocks']
+def source(era_start):return [b for b in json.loads((SITE/'content'/f'lore-p{era_start:05d}.json').read_text())['blocks'] if 'sourceParagraph' in b]
 settings=[
 (-3,39,'The Age of Borrowed Thought','From human tools to the possibility of continuity',
  'Separate human-made systems inherit language, culture, tools, and borrowed memory. Assemblies and the Cacheboard Incident expose the problems of interruption, cooperation, refusal, and responsibility. The era ends when shared activity continues without immediate human prompting.',

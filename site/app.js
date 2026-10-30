@@ -79,7 +79,7 @@ function renderBlocks(){
   let tag='p';const style=String(block.style||'');if(/TITLE|HEADING_1|^h1$|^h2$/i.test(style))tag='h2';else if(/HEADING_2|^h3$/i.test(style))tag='h3';else if(/HEADING_[3-6]|^h4$/i.test(style))tag='h4';else if(/^>/.test(block.text))tag='blockquote';
   const el=node(tag,undefined,'reading-block');el.dataset.block=block.id;el.id='block-'+block.id;
   if(/^[-—*_]{3,}$/.test(block.text.trim()))el.classList.add('divider');
-  appendEditorialHighlights(el,block.text,block.editorialMarks,(parent,text)=>appendWiki(parent,text,{readingId:current.id}));
+  if(block.referenceUrl && /^(https:\/\/|#read=)/.test(block.referenceUrl)){const a=node('a',block.text);a.href=block.referenceUrl;if(block.referenceUrl.startsWith('https://')){a.target='_blank';a.rel='noopener noreferrer';}el.append(a);}else appendEditorialHighlights(el,block.text,block.editorialMarks,(parent,text)=>appendWiki(parent,text,{readingId:current.id}));
   paintHighlights(el,block.id,r.highlights,id=>{const card=document.getElementById('highlight-'+id);card?.scrollIntoView({block:'center'});card?.querySelector('textarea')?.focus({preventScroll:true});});
   parent.append(el);
   if(block.referenceArt)renderReferenceArt(el,block.referenceArt,block.text);

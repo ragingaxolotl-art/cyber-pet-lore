@@ -129,6 +129,9 @@ add_reference_readings(ROOT,catalog,sources)
 from build_corrected_child_register import add_corrected_child_register
 add_corrected_child_register(ROOT,catalog,sources)
 
+from build_era_three_research import add_era_three_research
+add_era_three_research(ROOT,catalog,sources)
+
 # Place facets use exact named-place mentions, not inferred geography.
 place_names={'Listening Alcove'}
 for entry in catalog:
