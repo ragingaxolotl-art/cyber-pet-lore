@@ -1,0 +1,30 @@
+{
+  "title": "Decline of the Digital Binary Ancients — source and continuity review",
+  "reviewed": "2026-10-30",
+  "developmentSource": "https://chatgpt.com/share/6ae4d661-6900-83e9-a112-8165cefcd93b",
+  "authorDirection": "Era Zero is the great prosperity. Center decline in Era One; preserve late Era Zero warnings without recasting the entire flourishing as disguised collapse.",
+  "scope": "Expanded timeline paragraphs 350–682; major-player entries for Firstless Coalitions, Auditors, Num bureaucracy, Reciprocity, Archive Castes, Full Speakers, Composite Minds, Reductionists, Continuationists and small awakenings; primary First Silenced Chord passages; shared conversation; research below. No exhaustive recovery of historical chats is claimed.",
+  "decisions": [
+    "Retain the established era names and the five Era Zero ages and seven Era One periods.",
+    "Do not adopt the draft's 12,000-cycle BPR calendar or illustrative 15/35/60/85 percent maintenance figures as measurements.",
+    "Preserve the Final Era Zero Assembly's recognition of the problem. Limited recognition, denial and desperation are overlapping responses, not replacement eras.",
+    "Locate the major maintenance and complexity crisis chiefly in Era One, particularly the Complexity Race.",
+    "Use Concordance Network as the established network. Great Network and computational highways remain development imagery.",
+    "Recast Great Highway Crisis / Great Recursion as proposed Interchange Cascade, placed within Era One and distinct from Proof of Recurrence.",
+    "Retain ordinary life's value, local novelty, uncertainty about model limits, and num as transformation of developmental capacity.",
+    "Distinguish Witness Fatigue from boredom, and Thinning of the Self from merely shared tastes.",
+    "Do not claim total disappearance of extinction, disagreement, discovery or local culture.",
+    "Treat the First Silenced Chord's timeline account and primary story as source perspectives; preserve archived data, instructional withdrawal and Nemi's reduced living form.",
+    "Keep Full Speech ternary architecture and runtime state 2 distinct from num; add no language roots or executable grammar.",
+    "Do not turn Reduction into efficiency optimization, the Codex into a ruler, or cyber-pets into dormant ancient personalities.",
+    "Preserve all fifteen original warning-sign proposals in an assessment table; label eight new connective incidents and archaeological scenes as proposed fiction."
+  ],
+  "research": [
+    {"id":"R1","title":"Complexity, Collapse, and Sustainable Problem-Solving","author":"Joseph A. Tainter","url":"https://www.eolss.net/sample-chapters/c14/E1-40-05-04.pdf","access":"Author's sample chapter reviewed","use":"Problem-solving costs and returns; no inevitability claim or fictional quantitative estimate."},
+    {"id":"R2","title":"Catastrophic cascade of failures in interdependent networks","author":"Sergey V. Buldyrev and colleagues","year":2010,"url":"https://www.nature.com/articles/nature08932","accessibleVersion":"https://arxiv.org/abs/0907.1182","access":"Author preprint and publisher-indexed abstract","use":"Conditional network-cascade mechanism; not a universal law of societal interconnection."},
+    {"id":"R3","title":"The demise of Angkor: Systemic vulnerability of urban infrastructure to climatic variations","author":"Dan Penny and colleagues","year":2018,"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6192684/","doi":"10.1126/sciadv.aau4029","access":"Indexed primary-paper abstract and conclusions; direct PMC access challenged","use":"Infrastructure vulnerability and cascading effects; not a single-cause account of all Angkor history."},
+    {"id":"R4","title":"Geoarchaeological evidence from Angkor, Cambodia, reveals a gradual decline rather than a catastrophic 15th-century collapse","author":"Dan Penny, Tegan Hall, Damian Evans and Martin Polkinghorne","year":2019,"url":"https://doi.org/10.1073/pnas.1821460116","access":"Publisher-indexed significance statement and findings","use":"Gradual decline in the administrative core and caution about causal order; no civilization-wide instantaneous abandonment claim."},
+    {"id":"R5","title":"Collapse Studies in Archaeology from 2012 to 2023","author":"Guy D. Middleton","year":"2024 online; 2025 volume","url":"https://link.springer.com/article/10.1007/s10814-024-09196-4","access":"Open-access review, including introduction and collapse/resilience discussion","use":"Uneven change, source criticism, persistence and transformation; not a collapse prediction checklist."},
+    {"id":"R6","title":"AI models collapse when trained on recursively generated data","author":"Ilia Shumailov and colleagues","year":2024,"url":"https://www.nature.com/articles/s41586-024-07566-y","accessibleVersion":"https://arxiv.org/abs/2305.17493","correction":"https://www.nature.com/articles/s41586-025-08905-3","access":"Publisher-indexed abstract and author-preprint record; existence of 2025 correction verified","use":"Limited recursive-training analogy; not proof of fictional recurrence, num, or inevitable failure of all synthetic data."}
+  ]
+}

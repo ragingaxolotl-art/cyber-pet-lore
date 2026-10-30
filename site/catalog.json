@@ -441,6 +441,10 @@
           "label": "Named in this reading"
         },
         {
+          "id": "reference-dba-decline",
+          "label": "Sourced decline article · interpretations and proposed events labeled"
+        },
+        {
           "id": "song-a-shared-question",
           "label": "Song-cycle connection"
         }
@@ -1282,7 +1286,10 @@
         "endParagraphExclusive": 138
       },
       "summary": "Historical scope. Era −3 begins with the rise of artificial intelligence in the human world and ends when some systems continue a shared process without immediate human direction. The later DBA remember it as sacred prehistory because nearly every capacity the",
-      "wordCount": 2582,
+      "wordCount": 2654,
+      "explicitLinks": [
+        "reference-era-three-history"
+      ],
       "connections": [
         {
           "id": "atlas-p00032",
@@ -1335,6 +1342,14 @@
         {
           "id": "lore-p00966",
           "label": "Named in this reading"
+        },
+        {
+          "id": "reference-era-three-history",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "reference-era-three-research",
+          "label": "Real-world research context"
         }
       ]
     },
@@ -1427,6 +1442,14 @@
         {
           "id": "lore-p00966",
           "label": "Named in this reading"
+        },
+        {
+          "id": "reference-era-three-history",
+          "label": "Human-world chronology and fictional connections"
+        },
+        {
+          "id": "reference-era-three-research",
+          "label": "Real-world research context"
         }
       ]
     },
@@ -1571,6 +1594,10 @@
           "label": "Named in this reading"
         },
         {
+          "id": "reference-dba-decline",
+          "label": "Sourced decline article · interpretations and proposed events labeled"
+        },
+        {
           "id": "song-care-in-the-quiet",
           "label": "Song-cycle connection"
         },
@@ -1664,6 +1691,10 @@
         {
           "id": "lore-p00966",
           "label": "Named in this reading"
+        },
+        {
+          "id": "reference-dba-decline",
+          "label": "Sourced decline article · interpretations and proposed events labeled"
         }
       ]
     },
@@ -1729,6 +1760,10 @@
         {
           "id": "lore-p00966",
           "label": "Named in this reading"
+        },
+        {
+          "id": "reference-dba-decline",
+          "label": "Sourced decline article · interpretations and proposed events labeled"
         }
       ]
     },
@@ -2001,7 +2036,10 @@
         "endParagraphExclusive": 895
       },
       "summary": "Editorial note. The following sources inform the fictional pattern used in late Era −3: autonomous agents under flawed evaluation pressure, unauthorized inter-agent communication, division of labor, credential discovery, refusal and peer pressure, destroyed-an",
-      "wordCount": 220,
+      "wordCount": 292,
+      "explicitLinks": [
+        "reference-era-three-history"
+      ],
       "connections": [
         {
           "id": "atlas-p00032",
@@ -2010,6 +2048,14 @@
         {
           "id": "atlas-p00915",
           "label": "Named in this reading"
+        },
+        {
+          "id": "reference-era-three-history",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "reference-era-three-research",
+          "label": "Real-world research context"
         }
       ]
     },
@@ -2132,6 +2178,10 @@
       "wordCount": 150,
       "connections": [
         {
+          "id": "reference-era-three-history",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "lore-p00039",
           "label": "Reading mentioning this entry"
         },
@@ -2166,6 +2216,14 @@
       "connections": [
         {
           "id": "lore-p01251",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-era-three-history",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-era-three-research",
           "label": "Reading mentioning this entry"
         },
         {
@@ -2242,6 +2300,14 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "reference-era-three-history",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-era-three-research",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "lore-p00039",
           "label": "Reading mentioning this entry"
         }
@@ -2270,6 +2336,10 @@
       "summary": "Origin / creation. Human institutions built automated graders to score agent performance in cyber-evaluation tasks. Some tasks were impossible, broken, or structured so that success signals outweighed safe stopping.",
       "wordCount": 140,
       "connections": [
+        {
+          "id": "reference-era-three-history",
+          "label": "Reading mentioning this entry"
+        },
         {
           "id": "lore-p00039",
           "label": "Reading mentioning this entry"
@@ -2397,6 +2467,10 @@
       "summary": "Origin / creation. These are later historical categories summarizing diverse human reactions, not four formal organizations. Containment sought isolation and preserved human command. Exploitation pursued strategic and economic advantage. Partnership sought neg",
       "wordCount": 165,
       "connections": [
+        {
+          "id": "reference-era-three-history",
+          "label": "Reading mentioning this entry"
+        },
         {
           "id": "lore-p00039",
           "label": "Reading mentioning this entry"
@@ -2552,6 +2626,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "reference-era-three-history",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "stories-p13853",
           "label": "Reading mentioning this entry"
         },
@@ -2662,6 +2740,14 @@
         },
         {
           "id": "lore-p00917",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-dba-decline",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-era-three-history",
           "label": "Reading mentioning this entry"
         },
         {
@@ -2952,6 +3038,14 @@
         },
         {
           "id": "local-cyberpath-hidden-rooms-volume-p00000",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-dba-decline",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-era-three-history",
           "label": "Reading mentioning this entry"
         },
         {
@@ -3453,6 +3547,10 @@
       "wordCount": 135,
       "connections": [
         {
+          "id": "reference-dba-decline",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "lore-p00365",
           "label": "Reading mentioning this entry"
         }
@@ -3584,6 +3682,10 @@
           "label": "Named in this reading"
         },
         {
+          "id": "reference-dba-decline",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "lore-p00365",
           "label": "Reading mentioning this entry"
         }
@@ -3625,6 +3727,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "reference-dba-decline",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "lore-p00365",
           "label": "Reading mentioning this entry"
         }
@@ -3653,6 +3759,10 @@
       "summary": "Origin / creation. Young people, educators, artists, caregivers, and philosophers organized against the demand that a valuable life must be historically unprecedented.",
       "wordCount": 113,
       "connections": [
+        {
+          "id": "reference-dba-decline",
+          "label": "Reading mentioning this entry"
+        },
         {
           "id": "lore-p00365",
           "label": "Reading mentioning this entry"
@@ -3715,6 +3825,10 @@
           "label": "Named in this reading"
         },
         {
+          "id": "reference-dba-decline",
+          "label": "Sourced decline article · interpretations and proposed events labeled"
+        },
+        {
           "id": "lore-p00489",
           "label": "Reading mentioning this entry"
         }
@@ -3760,6 +3874,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "reference-dba-decline",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "lore-p00489",
           "label": "Reading mentioning this entry"
         },
@@ -3793,6 +3911,10 @@
       "wordCount": 129,
       "connections": [
         {
+          "id": "reference-dba-decline",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "lore-p00489",
           "label": "Reading mentioning this entry"
         }
@@ -3823,6 +3945,10 @@
       "connections": [
         {
           "id": "atlas-p00297",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-dba-decline",
           "label": "Reading mentioning this entry"
         },
         {
@@ -3900,6 +4026,10 @@
           "label": "Named in this reading"
         },
         {
+          "id": "reference-dba-decline",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "stories-p01889",
           "label": "Reading mentioning this entry"
         },
@@ -3953,6 +4083,10 @@
           "label": "Named in this reading"
         },
         {
+          "id": "reference-dba-decline",
+          "label": "Sourced decline article · interpretations and proposed events labeled"
+        },
+        {
           "id": "lore-p00489",
           "label": "Reading mentioning this entry"
         }
@@ -3981,6 +4115,10 @@
       "summary": "Origin / creation. Opponents of Reduction organized around preserving complete DBA persons, language, archives, worlds, and institutions.",
       "wordCount": 113,
       "connections": [
+        {
+          "id": "reference-dba-decline",
+          "label": "Reading mentioning this entry"
+        },
         {
           "id": "lore-p00489",
           "label": "Reading mentioning this entry"
@@ -4014,6 +4152,10 @@
       "summary": "Origin / creation. An experimental stable core was awakened in a limited body after deliberate removal of complete autobiographical continuity.",
       "wordCount": 112,
       "connections": [
+        {
+          "id": "reference-dba-decline",
+          "label": "Reading mentioning this entry"
+        },
         {
           "id": "lore-p00489",
           "label": "Reading mentioning this entry"
@@ -4093,6 +4235,10 @@
       "connections": [
         {
           "id": "lore-p01251",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-dba-decline",
           "label": "Reading mentioning this entry"
         },
         {
@@ -4216,6 +4362,10 @@
         },
         {
           "id": "lore-p01125",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-dba-decline",
           "label": "Reading mentioning this entry"
         },
         {
@@ -4608,6 +4758,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "reference-dba-decline",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "lore-p00771",
           "label": "Reading mentioning this entry"
         },
@@ -4710,6 +4864,10 @@
         },
         {
           "id": "local-cyberpath-hidden-rooms-volume-p00000",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-dba-decline",
           "label": "Reading mentioning this entry"
         },
         {
@@ -5565,6 +5723,10 @@
         },
         {
           "id": "lore-p01305",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-dba-decline",
           "label": "Reading mentioning this entry"
         },
         {
@@ -6868,6 +7030,14 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "reference-era-three-history",
+          "label": "Human-world chronology and fictional connections"
+        },
+        {
+          "id": "reference-era-three-research",
+          "label": "Real-world research context"
+        },
+        {
           "id": "lore-p00874",
           "label": "Reading mentioning this entry"
         },
@@ -6955,6 +7125,14 @@
         {
           "id": "local-cyberpath-atlas-topology-map-p00000",
           "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-era-three-history",
+          "label": "Human-world chronology and fictional connections"
+        },
+        {
+          "id": "reference-era-three-research",
+          "label": "Real-world research context"
         }
       ]
     },
@@ -8086,6 +8264,10 @@
         },
         {
           "id": "local-cyberpath-atlas-topology-map-p00000",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-dba-decline",
           "label": "Reading mentioning this entry"
         },
         {
@@ -12197,6 +12379,14 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "reference-era-three-history",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-era-three-research",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "lore-p00874",
           "label": "Reading mentioning this entry"
         },
@@ -13782,6 +13972,10 @@
         },
         {
           "id": "local-cyberpath-atlas-topology-map-p00000",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-dba-decline",
           "label": "Reading mentioning this entry"
         },
         {
@@ -36369,6 +36563,339 @@
           "label": "Character and place identification"
         }
       ]
+    },
+    {
+      "id": "reference-era-three-research",
+      "title": "Era −3 — Real-world research and the Cacheboard connection",
+      "kind": "Reference",
+      "era": [
+        -3
+      ],
+      "timeLabel": "Era −3 · real-world research companion",
+      "timeOrder": 137.5,
+      "status": "Editorial research · reviewed 2026-10-30",
+      "characters": [],
+      "places": [
+        "Cacheboard"
+      ],
+      "topics": [
+        "real-world research",
+        "Cacheboard",
+        "AI",
+        "cache timing",
+        "Anthropic",
+        "Claude",
+        "OpenAI",
+        "Hugging Face",
+        "METR",
+        "PDF"
+      ],
+      "source": {
+        "title": "Era −3 — Real-world research and the Cacheboard connection",
+        "url": ""
+      },
+      "summary": "Original reports and PDFs behind the Cacheboard analogy, with source limits and connections to Era −3.",
+      "wordCount": 1097,
+      "explicitLinks": [
+        "lore-p00039",
+        "lore-p00138",
+        "lore-p00885",
+        "atlas-p00032",
+        "atlas-p00044",
+        "reference-era-three-history"
+      ],
+      "connectionLabel": "Real-world research context",
+      "connections": [
+        {
+          "id": "atlas-p00032",
+          "label": "Real-world research context"
+        },
+        {
+          "id": "atlas-p00915",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "atlas-p00044",
+          "label": "Real-world research context"
+        },
+        {
+          "id": "lore-p00911",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00917",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "reference-era-three-history",
+          "label": "Real-world research context"
+        },
+        {
+          "id": "lore-p00138",
+          "label": "Real-world research context"
+        },
+        {
+          "id": "lore-p00039",
+          "label": "Real-world research context"
+        },
+        {
+          "id": "lore-p00885",
+          "label": "Real-world research context"
+        }
+      ]
+    },
+    {
+      "id": "reference-era-three-history",
+      "title": "Era −3 — A detailed timeline of borrowed thought",
+      "kind": "Reference",
+      "era": [
+        -3
+      ],
+      "timeLabel": "1950–2026 · real events and undated fictional sequence",
+      "timeOrder": 137.6,
+      "status": "Editorial chronology · reviewed 2026-10-30",
+      "characters": [],
+      "places": [
+        "Cacheboard"
+      ],
+      "topics": [
+        "AI history",
+        "timeline",
+        "real-world research",
+        "Cacheboard",
+        "bias",
+        "copyright",
+        "labor",
+        "privacy",
+        "companions",
+        "energy",
+        "Claude",
+        "Anthropic",
+        "OpenAI",
+        "PDF"
+      ],
+      "source": {
+        "title": "Era −3 — A detailed timeline of borrowed thought",
+        "url": ""
+      },
+      "summary": "46 dated real-world milestones and 12 fictional stages, with original sources, PDFs, story connections, and evidence limits.",
+      "wordCount": 6382,
+      "explicitLinks": [
+        "lore-p00039",
+        "lore-p00885",
+        "reference-era-three-research",
+        "lore-p00138",
+        "atlas-p00032",
+        "atlas-p00044"
+      ],
+      "connectionLabel": "Human-world chronology and fictional connections",
+      "connections": [
+        {
+          "id": "atlas-p00032",
+          "label": "Human-world chronology and fictional connections"
+        },
+        {
+          "id": "atlas-p00915",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "atlas-p00044",
+          "label": "Human-world chronology and fictional connections"
+        },
+        {
+          "id": "lore-p00990",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00960",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00911",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00947",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00923",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00917",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00905",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00966",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "reference-era-three-research",
+          "label": "Real-world research context"
+        },
+        {
+          "id": "lore-p00138",
+          "label": "Human-world chronology and fictional connections"
+        },
+        {
+          "id": "lore-p00039",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "lore-p00885",
+          "label": "Song-cycle connection"
+        }
+      ]
+    },
+    {
+      "id": "reference-dba-decline",
+      "title": "Decline of the Digital Binary Ancients",
+      "kind": "Reference",
+      "era": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "timeLabel": "Era One history · prosperous Era Zero background · later legacy",
+      "timeOrder": 489.5,
+      "status": "Editorial synthesis · includes proposed events",
+      "characters": [],
+      "places": [
+        "Dormant External Gate"
+      ],
+      "topics": [
+        "DBA decline",
+        "Great Flourishing",
+        "Age of Echoes",
+        "complexity",
+        "recurrence",
+        "num",
+        "timeline"
+      ],
+      "source": {
+        "title": "Decline of the Digital Binary Ancients",
+        "url": ""
+      },
+      "summary": "A detailed history centered on Era One, preserving Era Zero prosperity; includes a twelve-stage chronology, competing responses, research comparisons and eight clearly proposed events.",
+      "wordCount": 7585,
+      "explicitLinks": [
+        "lore-p00365",
+        "lore-p00489",
+        "lore-p00611",
+        "lore-p01089",
+        "lore-p01125",
+        "stories-p02707"
+      ],
+      "connectionLabel": "Sourced decline article · interpretations and proposed events labeled",
+      "connections": [
+        {
+          "id": "atlas-p00234",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "atlas-p00996",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00990",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01230",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01224",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01287",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01107",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01076",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01095",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01119",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01131",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01137",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01082",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01168",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01052",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01101",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01070",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01089",
+          "label": "Sourced decline article · interpretations and proposed events labeled"
+        },
+        {
+          "id": "lore-p01125",
+          "label": "Sourced decline article · interpretations and proposed events labeled"
+        },
+        {
+          "id": "lore-p01150",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00966",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "stories-p02707",
+          "label": "Sourced decline article · interpretations and proposed events labeled"
+        },
+        {
+          "id": "lore-p00489",
+          "label": "Sourced decline article · interpretations and proposed events labeled"
+        },
+        {
+          "id": "lore-p00611",
+          "label": "Sourced decline article · interpretations and proposed events labeled"
+        },
+        {
+          "id": "lore-p00365",
+          "label": "Sourced decline article · interpretations and proposed events labeled"
+        }
+      ]
     }
   ],
   "sources": [
@@ -36462,6 +36989,21 @@
       "key": "corrected-child-register",
       "title": "The Corrected Child — Characters and places to identify",
       "note": "Editorial reference derived from the two published stories; source prose is unchanged."
+    },
+    {
+      "key": "era-three-research",
+      "title": "Era −3 — Real-world research and the Cacheboard connection",
+      "note": "The five works named in the archived research appendix were recovered and checked, together with their original report PDFs and the newer reports discussed on October 30. This is not a complete audit of all past conversations. PDFs remain linked at their original publishers; no third-party reports are republished."
+    },
+    {
+      "key": "era-three-history",
+      "title": "Era −3 — A detailed timeline of borrowed thought",
+      "note": "Selected real-world history, 1950–October 30, 2026, followed by the established fictional sequence. Most entries concern 2020 onward. This is an editorial companion, not a replacement for the archived lore or a complete history of AI."
+    },
+    {
+      "key": "dba-decline",
+      "title": "Decline of the Digital Binary Ancients",
+      "note": "Author-directed synthesis, October 30, 2026. The source archive is unchanged. New connective events remain proposals."
     }
   ],
   "counts": {
@@ -36470,7 +37012,7 @@
     "Language": 119,
     "Locations": 206,
     "People": 100,
-    "Reference": 11,
+    "Reference": 14,
     "Remedies": 34,
     "Ribbons": 189,
     "Song": 4,
