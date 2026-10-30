@@ -120,3 +120,5 @@ Seventeen new PixelLab studies interpret recorded appearance details; sixteen ap
 ## The Custodian Who Refused
 
 A complete twelve-chapter proposed story is published at `custodian/`, with scene-by-scene chapter plans, exact-source continuity checks, an editorial review and a manuscript download. It is also a separate Draft reading with stable paragraph anchors for highlights and notes. New people and events remain proposed fiction; original archive prose and recovered proposal records are unchanged. Source: `sources/custodian-who-refused/`. Build integration: `tools/build_custodian_story.py`.
+
+The current edition is the 16,605-word three-pass revision in `sources/custodian-who-refused-revised/`, published at the same `custodian/` collection. Its new archive reading ID preserves the first draft’s existing anchors. The revision record and three complete pass snapshots are linked from `custodian/revisions.html`; original manuscript and plans remain downloadable. `tools/build_custodian_revision.py` publishes this edition after the unchanged first-draft reading.

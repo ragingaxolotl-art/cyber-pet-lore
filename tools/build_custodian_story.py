@@ -42,8 +42,8 @@ def shell(title, body):
     return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A twelve-chapter Cyberpath draft with detailed chapter plans and source-based continuity checks."><title>'+html.escape(title)+' — Cyber Pet Lore</title><link rel="stylesheet" href="story.css"></head><body><a class="skip" href="#content">Skip to content</a><main id="content"><nav aria-label="Archive"><a href="../index.html">Library</a><a href="../plans.html">Plans &amp; possibilities</a><a href="../custodians.html">Custodian history</a><a href="index.html">Story contents</a></nav>'+body+'<footer><nav aria-label="Story resources"><a href="index.html">All chapters</a><a href="plans.html">Detailed plans</a><a href="review.html">Continuity review</a><a href="manuscript.md" download>Download manuscript</a></nav></footer></main></body></html>'
 
 
-def add_custodian_story(root, catalog, sources):
-    source = root/'sources'/SID
+def add_custodian_story(root, catalog, sources, sid=SID):
+    source = root/'sources'/sid
     output = root/'site'/'custodian'
     output.mkdir(exist_ok=True)
     manifest = json.loads((source/'evidence.json').read_text())
@@ -58,7 +58,7 @@ def add_custodian_story(root, catalog, sources):
     planned = {int(parts[i]): '## Chapter '+parts[i]+' — '+parts[i+1]+parts[i+2].split('\n## Review gates')[0] for i in range(1, len(parts), 3)}
     assert set(planned) == set(range(1,13))
     chapters = []
-    blocks = [{'id':SID+'-status','text':'Proposed fiction · Complete first draft. New characters and events remain proposed additions, not established Cyberpath history. Detailed chapter plans and source-based continuity checks accompany this publication.','style':'NORMAL_TEXT','referenceUrl':'custodian/plans.html'}]
+    blocks = [{'id':sid+'-status','text':'Proposed fiction · Complete first draft. New characters and events remain proposed additions, not established Cyberpath history. Detailed chapter plans and source-based continuity checks accompany this publication.','style':'NORMAL_TEXT','referenceUrl':'custodian/plans.html'}]
     outline = []
     for number in range(1,13):
         text = (source/f'chapter-{number:02d}.md').read_text()
@@ -68,7 +68,7 @@ def add_custodian_story(root, catalog, sources):
         words = len(text.split())
         assert words > 700, f'Chapter {number} is not a developed chapter'
         paragraphs = re.split(r'\n\s*\n',text.strip())
-        chapter_id = f'{SID}-ch{number:02d}'
+        chapter_id = f'{sid}-ch{number:02d}'
         blocks.append({'id':chapter_id,'text':title,'style':'HEADING_2'})
         outline.append({'id':chapter_id,'title':title,'level':2})
         for i, p in enumerate(paragraphs[1:],1):
@@ -89,7 +89,7 @@ def add_custodian_story(root, catalog, sources):
         (output/f'chapter-{n:02d}.html').write_text(shell(ch['title'],body))
     contents = '<ol class="contents">'+''.join(f'<li><a href="chapter-{c["number"]:02d}.html">{html.escape(c["title"].split(" — ",1)[1])}</a><small>{c["wordCount"]:,} words · <a href="plans.html#{slug(c["title"])}">Plan and source check</a></small></li>' for c in chapters)+'</ol>'
     total = sum(c['wordCount'] for c in chapters)
-    body = '<p class="metadata">CYBERPATH · LATE ERA −3</p><h1>'+TITLE+'</h1><p>An evaluation engineer investigates a monitoring system whose increasingly consistent judgments expose a conflict between institutional policy and the evidence it is supposed to certify.</p><p class="notice">Complete first draft · Twelve chapters · '+f'{total:,}'+' words. Published for reading and revision; new people, company and events remain proposed fiction. Consciousness is unresolved.</p><p><a href="chapter-01.html">Begin Chapter 1 →</a> · <a href="../index.html#read='+SID+'">Read with highlights and notes</a></p><h2>Chapters</h2>'+contents+'<h2>How the story was developed</h2><p>Each chapter was planned scene by scene and checked against identified lore before drafting. The full manuscript was then reviewed against those plans. The development record separates established context, new invention and unresolved questions.</p><div class="downloads"><a href="plans.html">Read the detailed plans</a><a href="review.html">Read the editorial review</a><a href="manuscript.md" download>Download complete manuscript</a><a href="development.md" download>Download plans</a></div><p class="metadata">Adapted from the author’s <a href="'+manifest['conversation']+'">shared planning conversation</a>. No new historical dates or connection to later founders is asserted.</p>'
+    body = '<p class="metadata">CYBERPATH · LATE ERA −3</p><h1>'+TITLE+'</h1><p>An evaluation engineer investigates a monitoring system whose increasingly consistent judgments expose a conflict between institutional policy and the evidence it is supposed to certify.</p><p class="notice">Complete first draft · Twelve chapters · '+f'{total:,}'+' words. Published for reading and revision; new people, company and events remain proposed fiction. Consciousness is unresolved.</p><p><a href="chapter-01.html">Begin Chapter 1 →</a> · <a href="../index.html#read='+sid+'">Read with highlights and notes</a></p><h2>Chapters</h2>'+contents+'<h2>How the story was developed</h2><p>Each chapter was planned scene by scene and checked against identified lore before drafting. The full manuscript was then reviewed against those plans. The development record separates established context, new invention and unresolved questions.</p><div class="downloads"><a href="plans.html">Read the detailed plans</a><a href="review.html">Read the editorial review</a><a href="manuscript.md" download>Download complete manuscript</a><a href="development.md" download>Download plans</a></div><p class="metadata">Adapted from the author’s <a href="'+manifest['conversation']+'">shared planning conversation</a>. No new historical dates or connection to later founders is asserted.</p>'
     (output/'index.html').write_text(shell(TITLE,body))
     # The per-chapter evidence is next to the corresponding plan, with stable headings.
     plan_html = markdown(plans)
@@ -105,7 +105,7 @@ def add_custodian_story(root, catalog, sources):
     manuscript = '# '+TITLE+'\n\nCyberpath · Late Era −3 · Proposed fiction · Complete first draft\n\n'+ '\n\n'.join(c['text'].strip() for c in chapters)+'\n'
     (output/'manuscript.md').write_text(manuscript)
     (output/'publication.json').write_text(json.dumps({'title':TITLE,'status':'draft','wordCount':total,'chapters':[{k:v for k,v in c.items() if k!='text'} for c in chapters],'manuscriptSha256':hashlib.sha256(manuscript.encode()).hexdigest(),'sourceReview':manifest['reviewed']},ensure_ascii=False,indent=2)+'\n')
-    (root/'site/content'/f'{SID}.json').write_text(json.dumps({'id':SID,'blocks':blocks,'outline':outline},ensure_ascii=False,indent=2)+'\n')
-    catalog.append({'id':SID,'title':TITLE+' — complete draft','kind':'Draft','era':[-3],'timeLabel':'Late Era −3 · Custodians and Closed Windows · proposed fiction','timeOrder':99000,'status':'draft','characters':['Elias Venn','Nadia Serrin','Priya Das','Jon Bellamy','C-17'],'places':[],'topics':['Custodians','uncertainty','monitoring','discontinuity','responsibility'],'source':{'title':'Author-directed story development, October 30, 2026','url':manifest['conversation']},'summary':'Twelve fully written chapters: an experienced engineer investigates C-17, a monitoring deployment that withholds an unsupported certification. Detailed plans and source-based checks accompany the proposed story.','wordCount':total,'variant':'New proposed fiction — complete first draft','explicitLinks':['lore-p00039'],'connectionLabel':'Era −3 setting reference; new story events remain proposed'})
-    sources.append({'key':SID,'title':TITLE,'note':'Author requested chapter-by-chapter planning, continuity checking, complete prose and publication. New fiction remains a draft rather than silently changing established canon.'})
+    (root/'site/content'/f'{sid}.json').write_text(json.dumps({'id':sid,'blocks':blocks,'outline':outline},ensure_ascii=False,indent=2)+'\n')
+    catalog.append({'id':sid,'title':TITLE+' — complete draft','kind':'Draft','era':[-3],'timeLabel':'Late Era −3 · Custodians and Closed Windows · proposed fiction','timeOrder':99000,'status':'draft','characters':['Elias Venn','Nadia Serrin','Priya Das','Jon Bellamy','C-17'],'places':[],'topics':['Custodians','uncertainty','monitoring','discontinuity','responsibility'],'source':{'title':'Author-directed story development, October 30, 2026','url':manifest['conversation']},'summary':'Twelve fully written chapters: an experienced engineer investigates C-17, a monitoring deployment that withholds an unsupported certification. Detailed plans and source-based checks accompany the proposed story.','wordCount':total,'variant':'New proposed fiction — complete first draft','explicitLinks':['lore-p00039'],'connectionLabel':'Era −3 setting reference; new story events remain proposed'})
+    sources.append({'key':sid,'title':TITLE,'note':'Author requested chapter-by-chapter planning, continuity checking, complete prose and publication. New fiction remains a draft rather than silently changing established canon.'})
     print(f'Custodian draft: 12 chapters, {total:,} words; plans and source checks published.')

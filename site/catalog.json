@@ -1360,6 +1360,10 @@
           "label": "Era −3 setting reference; new story events remain proposed"
         },
         {
+          "id": "custodian-who-refused-revised",
+          "label": "Era −3 setting reference; new story events remain proposed"
+        },
+        {
           "id": "atlas-p00032",
           "label": "Named in this reading"
         },
@@ -7218,6 +7222,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "custodian-who-refused-revised",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "reference-illnesses",
           "label": "Reading mentioning this entry"
         },
@@ -12572,6 +12580,10 @@
       "connections": [
         {
           "id": "custodian-who-refused",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "custodian-who-refused-revised",
           "label": "Reading mentioning this entry"
         },
         {
@@ -38037,6 +38049,62 @@
           "label": "Era −3 setting reference; new story events remain proposed"
         }
       ]
+    },
+    {
+      "id": "custodian-who-refused-revised",
+      "title": "The Custodian Who Refused — revised edition",
+      "kind": "Draft",
+      "era": [
+        -3
+      ],
+      "timeLabel": "Late Era −3 · Custodians and Closed Windows · proposed fiction",
+      "timeOrder": 99000,
+      "status": "draft",
+      "characters": [
+        "Elias Venn",
+        "Nadia Serrin",
+        "Priya Das",
+        "Jon Bellamy",
+        "C-17",
+        "Tess Ren",
+        "Ada Keene",
+        "Miro Tan"
+      ],
+      "places": [
+        "Cacheboard"
+      ],
+      "topics": [
+        "Custodians",
+        "uncertainty",
+        "monitoring",
+        "discontinuity",
+        "responsibility"
+      ],
+      "source": {
+        "title": "Author-directed story development, October 30, 2026",
+        "url": "https://chatgpt.com/share/6ae51a29-bb80-83ea-940e-fc14aa9a89f4"
+      },
+      "summary": "Twelve revised chapters of investigative science fiction: a monitoring engineer confronts the human consequences of uncertain evidence and a service he cannot specify how to preserve. Includes detailed plans, lore checks and three retained revision passes.",
+      "wordCount": 16605,
+      "variant": "New proposed fiction — three-pass revised draft",
+      "explicitLinks": [
+        "lore-p00039"
+      ],
+      "connectionLabel": "Era −3 setting reference; new story events remain proposed",
+      "connections": [
+        {
+          "id": "atlas-p00032",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "atlas-p00915",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00039",
+          "label": "Era −3 setting reference; new story events remain proposed"
+        }
+      ]
     }
   ],
   "sources": [
@@ -38160,10 +38228,15 @@
       "key": "custodian-who-refused",
       "title": "The Custodian Who Refused",
       "note": "Author requested chapter-by-chapter planning, continuity checking, complete prose and publication. New fiction remains a draft rather than silently changing established canon."
+    },
+    {
+      "key": "custodian-who-refused-revised",
+      "title": "The Custodian Who Refused",
+      "note": "Three author-requested editorial passes, retained separately. Original manuscript and annotation anchors preserved; revised work remains proposed fiction."
     }
   ],
   "counts": {
-    "Draft": 21,
+    "Draft": 22,
     "Illnesses": 47,
     "Language": 119,
     "Locations": 206,

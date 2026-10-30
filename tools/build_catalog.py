@@ -142,6 +142,8 @@ add_early_development(ROOT,catalog,sources)
 
 from build_custodian_story import add_custodian_story
 add_custodian_story(ROOT,catalog,sources)
+from build_custodian_revision import add_custodian_revision
+add_custodian_revision(ROOT,catalog,sources)
 
 place_names={'Listening Alcove'}
 for entry in catalog:

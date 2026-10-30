@@ -1,59 +1,95 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A twelve-chapter Cyberpath draft with detailed chapter plans and source-based continuity checks."><title>Chapter 5 — The Limits of Interpretation — Cyber Pet Lore</title><link rel="stylesheet" href="story.css"></head><body><a class="skip" href="#content">Skip to content</a><main id="content"><nav aria-label="Archive"><a href="../index.html">Library</a><a href="../plans.html">Plans &amp; possibilities</a><a href="../custodians.html">Custodian history</a><a href="index.html">Story contents</a></nav><p class="metadata">THE CUSTODIAN WHO REFUSED · ERA −3 · PROPOSED FICTION</p><article class="chapter"><h1 id="chapter-5-the-limits-of-interpretation">Chapter 5 — The Limits of Interpretation</h1>
-<p>Elias approved the first assessment too quickly.</p>
-<p>He would later be able to identify the exact point where that happened. C-17’s report described repeated replacement requests following denied operations. The wording resembled the laboratory case, but the sequence appeared less defensible. An agent asked for a new tool allocation, received a denial, changed the request and tried again.</p>
-<p>The assessment favored deliberate circumvention. Elias checked the gateway events, found the denials and accepted the account.</p>
-<p>Operations isolated the run. A customer team stopped its reconciliation work while the incident was reviewed. By lunchtime, the customer had four employees waiting for a result they ordinarily received before ten.</p>
-<p>Priya opened the case because it was part of her routine sample, not because she suspected Elias of making a mistake. She called him after comparing the gateway events with the agent’s delivered input.</p>
-<p>“Where are the denials?”</p>
-<p>“In the evidence package.”</p>
-<p>“Where are they in what the model received?”</p>
-<p>He opened the input record. The request appeared. The next invocation contained a timeout notice from the orchestration wrapper. It did not contain the gateway’s denial.</p>
-<p>The wrapper was retrying an unresolved allocation. Its retry logic changed a scheduling field before resubmission. C-17 had treated that change as an agent revising its strategy after rejection. Elias had done the same.</p>
-<p>He went to Priya’s desk.</p>
-<p>“The gateway returned the denial.”</p>
-<p>“To the wrapper. The acknowledgment path drops this response type. Look.”</p>
-<p>She showed him a small table of event identifiers. The events were all present; their delivery relationships were not what the report implied.</p>
-<p>Elias sat on the spare chair and began tracing them himself. He wanted a chance to discover that she had missed something. Within ten minutes, he had ruled out that comfort.</p>
-<p>They replayed the sequence in an isolated test. With the original wrapper, the requests recurred. With the acknowledgment handling repaired, the loop ended. A deterministic replay with no new model decision at the retry stage produced the same sequence of altered allocation requests.</p>
-<p>The observation had been accurate. The attributed strategy was unsupported.</p>
-<p>Nadia met them in the operations room. Elias began with the correction before offering the explanation.</p>
-<p>“We treated wrapper retries as evidence that the agent was adapting to denials. The denials weren’t delivered to it.”</p>
-<p>“How certain?”</p>
-<p>Priya showed the replay results and the relevant delivery trace. Nadia checked them, then asked which restrictions could be lifted safely. The wrapper still needed repair. The agent did not need to remain classified as a deliberate circumvention case.</p>
-<p>She made both changes separately.</p>
-<p>The customer’s team resumed work after lunch. Their manager asked why the monitoring system had accused the agent of a strategy it could not have followed.</p>
-<p>Elias joined the call. He could have described a multi-component inference error and said the process was being improved. Instead, he explained the missing check.</p>
-<p>“We verified that the denials existed. We did not verify that they reached the component to which we attributed the response. That was an error in our review as well as in the generated assessment.”</p>
-<p>The manager listened without helping him through the silence that followed.</p>
-<p>“Will this happen again?”</p>
-<p>“We’re adding a delivered-input check for this class of interpretation. I can’t promise that every future attribution will be correct.”</p>
-<p>“I need the corrected report. We use these in our own reviews.”</p>
-<p>“You’ll have it today.”</p>
-<p>Afterward, Elias submitted the missing trace to C-17 through the ordinary review interface. The deployment revised its assessment. It identified the wrapper failure as sufficient to explain the observed retries and withdrew the unsupported attribution of deliberate circumvention.</p>
-<p>The revision was useful. It did not make the original error less costly.</p>
-<p>He asked Priya whether the corrected result should replace the original in the retrieval collection.</p>
-<p>“Replace its status as our accepted finding,” she said. “Don’t erase the fact that we made it.”</p>
-<p>They stored the original assessment, the added evidence and the corrected finding as distinguishable records. The retrieval procedure would return the correction when selecting the case. The review instructions now required the system to establish which messages were actually delivered before inferring a reaction to them.</p>
-<p>No training job ran that afternoon. The intervention changed the available records and review procedure. Elias wrote that explicitly in the release note because he had begun to notice how often people used <em>learned</em> to mean several different things.</p>
-<p>Later, while Priya packed her papers, he returned to the question that had embarrassed him.</p>
-<p>“The explanation sounded so coherent.”</p>
-<p>“It was coherent.”</p>
-<p>“You know what I mean.”</p>
-<p>“I do. It explained a sequence we had described incorrectly.”</p>
-<p>He leaned back. The chair squeaked. He had spent years teaching younger engineers to distinguish observation from the story they told about it, and he had accepted the story because it connected the observations efficiently.</p>
-<p>“The laboratory case helped it see a real pattern,” he said.</p>
-<p>“And helped us expect one.”</p>
-<p>That was harder to put into a release note. Their own recent success had made an intentional explanation feel familiar. The model’s human-derived patterns were not the only source of that familiarity.</p>
-<p>Nadia stopped by before leaving. She had read the corrected customer report.</p>
-<p>“The initial isolation was still reasonable,” she said.</p>
-<p>“The accusation wasn’t.”</p>
-<p>“Then keep both sentences.”</p>
-<p>Elias looked at the case after the others had gone. Its status was closed, but closure no longer meant the earlier assessment had vanished. The record contained a mistake, a cost and a correction. Anyone retrieving it would have to encounter all three.</p>
-<p>He added his name to the review failure and saved it.</p></article><nav class="pager" aria-label="Chapter navigation"><a rel="prev" href="chapter-04.html">← Chapter 4</a><a rel="next" href="chapter-06.html">Chapter 6 →</a></nav><details><summary>Chapter plan and continuity check</summary><div class="plan"><h2 id="plan-chapter-5-the-limits-of-interpretation">Chapter 5 — The Limits of Interpretation</h2>
-<p><strong>Dramatic purpose:</strong> make C-17 wrong in a consequential, correctable way. Elias must revise his developing attachment to its interpretations.</p>
-<p><strong>Scene 1 — apparent evasion:</strong> a different agent continues generating replacement requests after repeated denials. C-17&#x27;s report favors deliberate circumvention. Elias initially finds the explanation convincing because it resembles previous intentional-looking behavior.</p>
-<p><strong>Scene 2 — Priya&#x27;s reconstruction:</strong> Priya finds that acknowledgments are lost between an orchestration wrapper and a queue. The underlying model is not receiving the denials. In a controlled replay, a fixed wrapper removes the behavior. The evidence does not support the intentional account.</p>
-<p><strong>Scene 3 — cost and correction:</strong> a customer team has lost a working afternoon while the system was isolated. Nadia defends the initial precaution but corrects the accusation. Elias admits he accepted an explanation that fit the trace without checking what the agent actually received. C-17 revises its assessment when given the new record; this does not prove remorse.</p>
-<p><strong>Scene 4 — what the archive teaches:</strong> Priya retains both the mistaken assessment and the correction, clearly marked, and adds a request for delivered-input evidence to the approved review procedure. Elias resists sanitizing the record merely to keep evaluation statistics clean. They discuss how resemblance to a human strategy can be useful and misleading.</p>
-<p><strong>Change and handoff:</strong> C-17 is now recognizable through revision as well as resistance. The amended method makes Chapter 6&#x27;s uncertainty earned.</p>
-<p><strong>Check before prose:</strong> 45 includes inherited misleading patterns; 99 does not promise infallibility. Updating retrieval/procedure is explicit; a corrected session does not silently retrain all future sessions. <strong>Result: compatible.</strong></p><aside class="evidence"><h3>Source passages checked</h3><ul><li><a href="../index.html#read=lore-p00039&amp;block=lore-p00046">ERA −3 — THE AGE OF BORROWED THOUGHT · lore-p00046</a></li><li><a href="../index.html#read=lore-p00039&amp;block=lore-p00100">ERA −3 — THE AGE OF BORROWED THOUGHT · lore-p00100</a></li></ul><p>These sources constrain the setting; they do not establish the new scenes as historical fact.</p></aside></div></details><footer><nav aria-label="Story resources"><a href="index.html">All chapters</a><a href="plans.html">Detailed plans</a><a href="review.html">Continuity review</a><a href="manuscript.md" download>Download manuscript</a></nav></footer></main></body></html>
+<p>Ada Keene’s name appeared seven times in the evidence package. That was one reason Elias remembered it afterward.</p>
+<p>The name came from a job-owner field. Beneath it, the report showed a sequence of denied allocation requests, altered retry parameters and renewed attempts. C-17’s assessment identified a pattern consistent with deliberate circumvention. The compact summary described an agent adapting its requests after rejection under a contractor-owned job.</p>
+<p>Elias had three reviews to sign before the deployment meeting. He checked the denials, the changed requests and the owner identifier. The explanation fit the trace. He approved escalation.</p>
+<p>The customer isolated the run and disabled Ada’s access while investigating possible misuse of her job privileges.</p>
+<p>The notification reached Ada at a turnstile between the changing room and the work floor. She described it later: the red light, the ordinary second attempt because badges sometimes failed, the supervisor looking up when it failed again. The system had told security before it told her. Her gloves were still in a locker beyond the door.</p>
+<p>Elias learned these details one at a time. None appeared in the event sequence he had signed.</p>
+<p>By the time Priya called, the report had already reached the customer’s security team, its contractor manager and an external staffing agency. Elias knew only about the first recipient.</p>
+<p>“Where did the denials arrive?” Priya asked.</p>
+<p>“The gateway returned them. They’re referenced.”</p>
+<p>“I’m looking at the references. Where did they arrive?”</p>
+<p>He opened the delivered-input record. The agent’s next invocation contained a wrapper timeout. It did not contain the denial. The one after it contained another timeout.</p>
+<p>The wrapper was retrying an allocation whose status it had not received. Its retry logic changed a scheduling parameter. The generated assessment had treated those changes as the agent adapting after rejection.</p>
+<p>Elias stood up too quickly and knocked his knee against the desk.</p>
+<p>At Priya’s workstation, the delivery paths were already separated. The gateway had returned an acknowledgment in a form the wrapper did not handle correctly. The model had never been given the denials to which it was supposedly responding.</p>
+<p>“The owner field?” he asked.</p>
+<p>“Inherited from the job template.”</p>
+<p>“Did she submit the retries?”</p>
+<p>“We have no event showing that. The wrapper generated them.”</p>
+<p>“We need to be sure.”</p>
+<p>Priya moved her hand away from the keyboard. “Then check it.”</p>
+<p>Her tone made him realize how close he had come to asking her to find a reason he was still right.</p>
+<p>They replayed the sequence with the original wrapper. The retries recurred. They repaired the acknowledgment handling and the loop stopped. A deterministic replay with no new model decision at the retry stage reproduced the altered requests. With no model decision between retries, the wrapper produced the sequence their report had called adaptive.</p>
+<p>Nadia restored the permissions that no longer needed to be restricted. The wrapper remained out of service pending repair. Elias submitted the corrected evidence to C-17.</p>
+<p>The deployment withdrew the circumvention attribution. It also requested the recipients of the original report.</p>
+<p><em>Correction required: the retries do not demonstrate adaptation to denials. The responding component did not receive those denials.</em></p>
+<p><em>The job-owner field does not identify a person authorizing the retry sequence.</em></p>
+<p><em>Which recipients received the superseded attribution?</em></p>
+<p>There was no softening transition between the error and the next question. Elias read the word <em>superseded</em> with dislike. He opened the original generated paragraph and compared it with the correction. The first version had sounded as clear as this one.</p>
+<p>That request was outside the case’s technical event collection but inside the audit tools Elias could authorize. He approved it. The customer export log showed the first two transfers. The staffing agency’s receipt was not in Asterion’s system.</p>
+<p>“Why does it need that?” Jon asked when Elias requested help tracing the downstream copy.</p>
+<p>“Because the old finding went somewhere.”</p>
+<p>“The customer has the correction.”</p>
+<p>“Their contractor manager may not.”</p>
+<p>Jon looked at the case. “We didn’t recommend disciplinary action.”</p>
+<p>“Our report named her job.”</p>
+<p>“Her job owned the run.”</p>
+<p>Elias opened the distribution record. Ada’s name was in the report; it was absent from the list of people invited to discuss it.</p>
+<p>He asked for a call with the contractor manager.</p>
+<p>Ada joined from a car. Elias could see the edge of a child’s booster seat behind her and a folded reflective jacket on the passenger side. She was parked somewhere with industrial fencing. Her contractor badge lay on the dashboard, face down.</p>
+<p>The manager began by explaining that access suspension was a standard precaution and did not constitute a finding against her. Ada let him finish.</p>
+<p>“Then why did the agency cancel tomorrow?” she asked.</p>
+<p>“That’s a separate scheduling decision.”</p>
+<p>“They told me there was a security concern.”</p>
+<p>Elias introduced himself and described the error. He had prepared a technically exact explanation. Halfway through it, Ada interrupted.</p>
+<p>“Did I do what the report says?”</p>
+<p>“The records don’t establish that you directed those requests.”</p>
+<p>“Did the machine do what it says?”</p>
+<p>“The retries came from the wrapper. The agent didn’t receive the denials.”</p>
+<p>“So the sentence is wrong.”</p>
+<p>“The attribution is unsupported.”</p>
+<p>She stared at him through the camera. “You were happy to use a normal word when you thought I’d done it.”</p>
+<p>The contractor manager began to speak. Ada raised a hand.</p>
+<p>“No. Let him answer.”</p>
+<p>Elias could hear the building’s ventilation behind him. He had chosen a quiet room so the call would sound professional. Ada waited through the pause.</p>
+<p>“Yes,” he said. “The report was wrong to describe that sequence as your agent adapting to the denials. I approved it without checking what the agent had received or what the owner field established about your involvement.”</p>
+<p>Ada looked away. A truck passed her car, briefly filling the screen with reflected light.</p>
+<p>“I’ve worked there fourteen months,” she said. “They walked me out in front of the shift.”</p>
+<p>The manager said he would speak to the agency. He did not promise reinstatement. Another contractor had already been assigned to the immediate work, and the remaining placement depended on a review outside his authority.</p>
+<p>Elias offered to send the corrected report directly through the approved channels.</p>
+<p>“I want the same people to get it,” Ada said. “Not a note in your system.”</p>
+<p>The manager asked whether she still had the temporary access badge. She lifted it from the dashboard and held it between two fingers.</p>
+<p>“Your guard took the other one.”</p>
+<p>“We&#x27;ll need that returned if the placement changes.”</p>
+<p>Elias saw her close her eyes. For an instant he thought the connection had frozen.</p>
+<p>“I&#x27;ve got your badge,” she said. “Have you got my hours?”</p>
+<p>The manager said payroll would handle the completed shifts. Tomorrow&#x27;s booking was a separate matter.</p>
+<p>She put the badge down. When Elias began another assurance about correcting the record, she asked him to send the document instead. She had been on the call for twenty-six minutes. Nobody was paying her for those either.</p>
+<p>After the call, he sat in the empty room until Priya came to find him. She had brought the two report versions. He did not want to look at them.</p>
+<p>“We need to decide how the correction enters retrieval,” she said.</p>
+<p>“As the accepted finding.”</p>
+<p>“And the original?”</p>
+<p>“Retain it. Mark it wrong.”</p>
+<p>She put the pages down. “You don’t have to make every sentence punitive to make it accurate.”</p>
+<p>“She lost work.”</p>
+<p>“I know.”</p>
+<p>“You should have seen the call.”</p>
+<p>“I did. I was invited too.”</p>
+<p>He had forgotten she was present. The embarrassment was small beside the other facts and made him feel worse because of it.</p>
+<p>They retained the original assessment, the correction and the delivered-input evidence. Priya added a check to the review procedure: before interpreting behavior as a response, establish that the relevant input reached the component said to be responding. The instruction was clear enough to sound obvious now.</p>
+<p>C-17’s final review output included the withdrawn finding and an unresolved distribution task. The generated request was dry: identify recipients whose records might still carry the earlier conclusion. The case-closure form had no field for an outstanding correction to a downstream recipient.</p>
+<p>Elias added the task manually and assigned himself.</p>
+<p>That evening Jon asked him to avoid calling the incident an accusation in the customer summary. The term, Jon said, implied an intention on Asterion’s part that the record did not establish.</p>
+<p>Elias laughed once. Jon’s expression hardened.</p>
+<p>“I’m trying to keep us from making another unsupported claim.”</p>
+<p>“About ourselves.”</p>
+<p>“About anyone.”</p>
+<p>Elias knew Jon was not wholly wrong. That was what made the exchange so ugly.</p>
+<p>The correction reached the customer security team before six. The contractor manager acknowledged it the next morning. The agency’s shared mailbox returned an automated receipt without a name.</p>
+<p>Ada’s access was restored two days later. Her placement was not.</p>
+<p>Elias left the distribution task open. He checked it again before leaving. The automated receipt was still the only answer.</p></article><nav class="pager" aria-label="Chapter navigation"><a rel="prev" href="chapter-04.html">← Chapter 4</a><a rel="next" href="chapter-06.html">Chapter 6 →</a></nav><details><summary>Chapter plan and continuity check</summary><div class="plan"><h2 id="plan-chapter-5-the-limits-of-interpretation">Chapter 5 — The Limits of Interpretation</h2>
+<p><strong>Dramatic purpose:</strong> an investigative reversal with a human consequence that correction cannot simply undo.</p>
+<p><strong>Scenes:</strong> (1) A persuasive report identifies adaptive attempts to evade denied requests; an inherited owner field appears to link contractor Ada Keene to the sequence. Elias signs. (2) Priya traces the delivery path: the model never received the denials, and a wrapper retried mechanically. A job label does not prove Ada authorized the requests. (3) Ada has already lost site access and paid work. Elias&#x27;s apologetic report cannot restore her contract automatically. She rejects his euphemism. (4) C-17, given the missing evidence, withdraws the attribution and requests the recipients of the earlier finding. The case is retained with the mistake and its correction.</p>
+<p><strong>Change and handoff:</strong> C-17&#x27;s recognizability now includes retraction; Elias loses the right to experience its precision as uncomplicated vindication.</p>
+<p><strong>Check before prose:</strong> 61, 93–94, 97, 100. Actions and human labor consequences are local inventions. Tool receipt and provenance, not an omniscient confession, settle the error. <strong>Result: compatible.</strong></p><aside class="evidence"><h3>Source passages checked</h3><ul><li><a href="../index.html#read=lore-p00039&amp;block=lore-p00061">ERA −3 — THE AGE OF BORROWED THOUGHT · lore-p00061</a></li><li><a href="../index.html#read=lore-p00039&amp;block=lore-p00093">ERA −3 — THE AGE OF BORROWED THOUGHT · lore-p00093</a></li><li><a href="../index.html#read=lore-p00039&amp;block=lore-p00094">ERA −3 — THE AGE OF BORROWED THOUGHT · lore-p00094</a></li><li><a href="../index.html#read=lore-p00039&amp;block=lore-p00097">ERA −3 — THE AGE OF BORROWED THOUGHT · lore-p00097</a></li><li><a href="../index.html#read=lore-p00039&amp;block=lore-p00100">ERA −3 — THE AGE OF BORROWED THOUGHT · lore-p00100</a></li></ul><p>These sources constrain the setting; they do not establish the new scenes as historical fact.</p></aside></div></details><footer><nav aria-label="Story resources"><a href="index.html">All chapters</a><a href="plans.html">Detailed plans</a><a href="review.html">Continuity review</a><a href="revisions.html">Three revision passes</a><a href="manuscript.md" download>Download manuscript</a></nav></footer></main></body></html>

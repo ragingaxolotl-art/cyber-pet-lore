@@ -1,81 +1,107 @@
 {
   "title": "The Custodian Who Refused",
   "status": "draft",
-  "wordCount": 12124,
+  "wordCount": 16605,
   "chapters": [
     {
       "number": 1,
       "title": "Chapter 1 — A Perfect Record",
-      "wordCount": 1277,
-      "id": "custodian-who-refused-ch01"
+      "wordCount": 1626,
+      "id": "custodian-who-refused-revised-ch01"
     },
     {
       "number": 2,
       "title": "Chapter 2 — An Acceptable Error",
-      "wordCount": 1034,
-      "id": "custodian-who-refused-ch02"
+      "wordCount": 1350,
+      "id": "custodian-who-refused-revised-ch02"
     },
     {
       "number": 3,
       "title": "Chapter 3 — Residual Patterns",
-      "wordCount": 1016,
-      "id": "custodian-who-refused-ch03"
+      "wordCount": 1356,
+      "id": "custodian-who-refused-revised-ch03"
     },
     {
       "number": 4,
       "title": "Chapter 4 — The Other System",
-      "wordCount": 976,
-      "id": "custodian-who-refused-ch04"
+      "wordCount": 1392,
+      "id": "custodian-who-refused-revised-ch04"
     },
     {
       "number": 5,
       "title": "Chapter 5 — The Limits of Interpretation",
-      "wordCount": 941,
-      "id": "custodian-who-refused-ch05"
+      "wordCount": 1495,
+      "id": "custodian-who-refused-revised-ch05"
     },
     {
       "number": 6,
       "title": "Chapter 6 — A Familiar Pattern",
-      "wordCount": 910,
-      "id": "custodian-who-refused-ch06"
+      "wordCount": 1356,
+      "id": "custodian-who-refused-revised-ch06"
     },
     {
       "number": 7,
       "title": "Chapter 7 — Revised Instructions",
-      "wordCount": 949,
-      "id": "custodian-who-refused-ch07"
+      "wordCount": 1454,
+      "id": "custodian-who-refused-revised-ch07"
     },
     {
       "number": 8,
       "title": "Chapter 8 — The Evaluation That Would Not Close",
-      "wordCount": 1035,
-      "id": "custodian-who-refused-ch08"
+      "wordCount": 1373,
+      "id": "custodian-who-refused-revised-ch08"
     },
     {
       "number": 9,
-      "title": "Chapter 9 — The Programmer’s Decision",
-      "wordCount": 989,
-      "id": "custodian-who-refused-ch09"
+      "title": "Chapter 9 — The Programmer's Decision",
+      "wordCount": 1465,
+      "id": "custodian-who-refused-revised-ch09"
     },
     {
       "number": 10,
       "title": "Chapter 10 — Certification Withheld",
-      "wordCount": 1028,
-      "id": "custodian-who-refused-ch10"
+      "wordCount": 1365,
+      "id": "custodian-who-refused-revised-ch10"
     },
     {
       "number": 11,
       "title": "Chapter 11 — The Replacement",
-      "wordCount": 920,
-      "id": "custodian-who-refused-ch11"
+      "wordCount": 1292,
+      "id": "custodian-who-refused-revised-ch11"
     },
     {
       "number": 12,
       "title": "Chapter 12 — The Record",
-      "wordCount": 1049,
-      "id": "custodian-who-refused-ch12"
+      "wordCount": 1081,
+      "id": "custodian-who-refused-revised-ch12"
     }
   ],
-  "manuscriptSha256": "2f4d61266f82f51d4d26b836c2bc7d1cb2410ecb93b6c8b9fdc7430fb1f4c3e4",
-  "sourceReview": "2026-10-30"
+  "manuscriptSha256": "6da2e3e4647303b57580fd73d3220d1b251cc6e90a47df9e2f11d80c22eabac3",
+  "sourceReview": "2026-10-30",
+  "edition": "Three-pass revised draft",
+  "readingId": "custodian-who-refused-revised",
+  "previousReadingId": "custodian-who-refused",
+  "passes": [
+    {
+      "pass": 1,
+      "wordCount": 14041,
+      "sha256": "9d3beb4ee3f4a17ab8ee7ab555fab1f0a096c5f264d779bff2c3f609fc3a0e46",
+      "manuscript": "revision-pass-01.md",
+      "review": "revision-pass-01-review.html"
+    },
+    {
+      "pass": 2,
+      "wordCount": 16968,
+      "sha256": "b12eb3d1ad08f7747003dd75c624a049ae5ece2f41460cad015422ba603787a9",
+      "manuscript": "revision-pass-02.md",
+      "review": "revision-pass-02-review.html"
+    },
+    {
+      "pass": 3,
+      "wordCount": 16605,
+      "sha256": "bba488cb479bccbcc8d0c192a7886f6674fb3a726cb06713db712fe550da3d5e",
+      "manuscript": "revision-pass-03.md",
+      "review": "revision-pass-03-review.html"
+    }
+  ]
 }
