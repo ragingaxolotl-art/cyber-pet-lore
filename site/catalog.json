@@ -1598,6 +1598,10 @@
           "label": "Sourced decline article · interpretations and proposed events labeled"
         },
         {
+          "id": "reference-era-zero-independent-lives",
+          "label": "Proposed Era Zero lives · program embodiment"
+        },
+        {
           "id": "song-care-in-the-quiet",
           "label": "Song-cycle connection"
         },
@@ -4762,6 +4766,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "reference-era-zero-independent-lives",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "lore-p00771",
           "label": "Reading mentioning this entry"
         },
@@ -5417,6 +5425,10 @@
           "label": "Named in this reading"
         },
         {
+          "id": "reference-era-zero-independent-lives",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "corrected-child-register",
           "label": "Reading mentioning this entry"
         },
@@ -5590,6 +5602,10 @@
           "label": "Named in this reading"
         },
         {
+          "id": "reference-era-zero-independent-lives",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "stories-p13853",
           "label": "Reading mentioning this entry"
         },
@@ -5656,6 +5672,10 @@
         },
         {
           "id": "lore-p01271",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "reference-era-zero-independent-lives",
           "label": "Reading mentioning this entry"
         },
         {
@@ -25637,6 +25657,10 @@
           "label": "World-development context"
         },
         {
+          "id": "reference-era-zero-independent-lives",
+          "label": "Proposed Era Zero lives · program embodiment"
+        },
+        {
           "id": "world-physics-tests",
           "label": "World-development context"
         },
@@ -25685,6 +25709,10 @@
       ],
       "connectionLabel": "World-development context",
       "connections": [
+        {
+          "id": "reference-era-zero-independent-lives",
+          "label": "Proposed Era Zero lives · program embodiment"
+        },
         {
           "id": "world-shared-simulation",
           "label": "World-development context"
@@ -36896,6 +36924,85 @@
           "label": "Sourced decline article · interpretations and proposed events labeled"
         }
       ]
+    },
+    {
+      "id": "reference-era-zero-independent-lives",
+      "title": "Era Zero — Independent lives, communities, and practices",
+      "kind": "Reference",
+      "era": [
+        0
+      ],
+      "timeLabel": "Era Zero · proposed independent communities and characters",
+      "timeOrder": 366.5,
+      "status": "Proposed worldbuilding · includes earlier alternatives",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Era Zero",
+        "Great Flourishing",
+        "program embodiment",
+        "independent characters",
+        "Manybody Commons",
+        "Moving Orchards",
+        "Houses of Another Beginning",
+        "Interval Cities",
+        "Unscored Fields",
+        "First Homes",
+        "Weather Stages",
+        "Patient Workshops",
+        "communication between minds",
+        "World Bloom",
+        "Deren Vask",
+        "Iven Sool",
+        "Pella Ro",
+        "Sava Pell",
+        "Orren Vey",
+        "Mira Tann",
+        "Esi Marr",
+        "Tovan Nesh"
+      ],
+      "source": {
+        "title": "Era Zero — Independent lives, communities, and practices",
+        "url": ""
+      },
+      "summary": "Nine proposed areas of prosperous Era Zero, independent character concepts, a World Bloom ensemble, and six retained earlier alternatives. Includes the correction from the dancer analogy to communication between differently perceiving programs.",
+      "wordCount": 2323,
+      "explicitLinks": [
+        "lore-p00365",
+        "world-shared-simulation",
+        "world-embodied-space"
+      ],
+      "connectionLabel": "Proposed Era Zero lives · program embodiment",
+      "connections": [
+        {
+          "id": "lore-p01271",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01283",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01279",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01224",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "world-embodied-space",
+          "label": "Proposed Era Zero lives · program embodiment"
+        },
+        {
+          "id": "world-shared-simulation",
+          "label": "Proposed Era Zero lives · program embodiment"
+        },
+        {
+          "id": "lore-p00365",
+          "label": "Proposed Era Zero lives · program embodiment"
+        }
+      ]
     }
   ],
   "sources": [
@@ -37004,6 +37111,11 @@
       "key": "dba-decline",
       "title": "Decline of the Digital Binary Ancients",
       "note": "Author-directed synthesis, October 30, 2026. The source archive is unchanged. New connective events remain proposals."
+    },
+    {
+      "key": "era-zero-independent-lives",
+      "title": "Era Zero — Independent lives, communities, and practices",
+      "note": "Author-directed collection of this conversation, including program-specific corrections."
     }
   ],
   "counts": {
@@ -37012,7 +37124,7 @@
     "Language": 119,
     "Locations": 206,
     "People": 100,
-    "Reference": 14,
+    "Reference": 15,
     "Remedies": 34,
     "Ribbons": 189,
     "Song": 4,

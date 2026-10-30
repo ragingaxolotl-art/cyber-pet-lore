@@ -135,6 +135,8 @@ add_era_three_research(ROOT,catalog,sources)
 # Place facets use exact named-place mentions, not inferred geography.
 from build_dba_decline import add_dba_decline
 add_dba_decline(ROOT,catalog,sources)
+from build_era_zero_lives import add_era_zero_lives
+add_era_zero_lives(ROOT,catalog,sources)
 
 place_names={'Listening Alcove'}
 for entry in catalog:
