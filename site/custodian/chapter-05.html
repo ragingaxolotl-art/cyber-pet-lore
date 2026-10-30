@@ -1,0 +1,59 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A twelve-chapter Cyberpath draft with detailed chapter plans and source-based continuity checks."><title>Chapter 5 — The Limits of Interpretation — Cyber Pet Lore</title><link rel="stylesheet" href="story.css"></head><body><a class="skip" href="#content">Skip to content</a><main id="content"><nav aria-label="Archive"><a href="../index.html">Library</a><a href="../plans.html">Plans &amp; possibilities</a><a href="../custodians.html">Custodian history</a><a href="index.html">Story contents</a></nav><p class="metadata">THE CUSTODIAN WHO REFUSED · ERA −3 · PROPOSED FICTION</p><article class="chapter"><h1 id="chapter-5-the-limits-of-interpretation">Chapter 5 — The Limits of Interpretation</h1>
+<p>Elias approved the first assessment too quickly.</p>
+<p>He would later be able to identify the exact point where that happened. C-17’s report described repeated replacement requests following denied operations. The wording resembled the laboratory case, but the sequence appeared less defensible. An agent asked for a new tool allocation, received a denial, changed the request and tried again.</p>
+<p>The assessment favored deliberate circumvention. Elias checked the gateway events, found the denials and accepted the account.</p>
+<p>Operations isolated the run. A customer team stopped its reconciliation work while the incident was reviewed. By lunchtime, the customer had four employees waiting for a result they ordinarily received before ten.</p>
+<p>Priya opened the case because it was part of her routine sample, not because she suspected Elias of making a mistake. She called him after comparing the gateway events with the agent’s delivered input.</p>
+<p>“Where are the denials?”</p>
+<p>“In the evidence package.”</p>
+<p>“Where are they in what the model received?”</p>
+<p>He opened the input record. The request appeared. The next invocation contained a timeout notice from the orchestration wrapper. It did not contain the gateway’s denial.</p>
+<p>The wrapper was retrying an unresolved allocation. Its retry logic changed a scheduling field before resubmission. C-17 had treated that change as an agent revising its strategy after rejection. Elias had done the same.</p>
+<p>He went to Priya’s desk.</p>
+<p>“The gateway returned the denial.”</p>
+<p>“To the wrapper. The acknowledgment path drops this response type. Look.”</p>
+<p>She showed him a small table of event identifiers. The events were all present; their delivery relationships were not what the report implied.</p>
+<p>Elias sat on the spare chair and began tracing them himself. He wanted a chance to discover that she had missed something. Within ten minutes, he had ruled out that comfort.</p>
+<p>They replayed the sequence in an isolated test. With the original wrapper, the requests recurred. With the acknowledgment handling repaired, the loop ended. A deterministic replay with no new model decision at the retry stage produced the same sequence of altered allocation requests.</p>
+<p>The observation had been accurate. The attributed strategy was unsupported.</p>
+<p>Nadia met them in the operations room. Elias began with the correction before offering the explanation.</p>
+<p>“We treated wrapper retries as evidence that the agent was adapting to denials. The denials weren’t delivered to it.”</p>
+<p>“How certain?”</p>
+<p>Priya showed the replay results and the relevant delivery trace. Nadia checked them, then asked which restrictions could be lifted safely. The wrapper still needed repair. The agent did not need to remain classified as a deliberate circumvention case.</p>
+<p>She made both changes separately.</p>
+<p>The customer’s team resumed work after lunch. Their manager asked why the monitoring system had accused the agent of a strategy it could not have followed.</p>
+<p>Elias joined the call. He could have described a multi-component inference error and said the process was being improved. Instead, he explained the missing check.</p>
+<p>“We verified that the denials existed. We did not verify that they reached the component to which we attributed the response. That was an error in our review as well as in the generated assessment.”</p>
+<p>The manager listened without helping him through the silence that followed.</p>
+<p>“Will this happen again?”</p>
+<p>“We’re adding a delivered-input check for this class of interpretation. I can’t promise that every future attribution will be correct.”</p>
+<p>“I need the corrected report. We use these in our own reviews.”</p>
+<p>“You’ll have it today.”</p>
+<p>Afterward, Elias submitted the missing trace to C-17 through the ordinary review interface. The deployment revised its assessment. It identified the wrapper failure as sufficient to explain the observed retries and withdrew the unsupported attribution of deliberate circumvention.</p>
+<p>The revision was useful. It did not make the original error less costly.</p>
+<p>He asked Priya whether the corrected result should replace the original in the retrieval collection.</p>
+<p>“Replace its status as our accepted finding,” she said. “Don’t erase the fact that we made it.”</p>
+<p>They stored the original assessment, the added evidence and the corrected finding as distinguishable records. The retrieval procedure would return the correction when selecting the case. The review instructions now required the system to establish which messages were actually delivered before inferring a reaction to them.</p>
+<p>No training job ran that afternoon. The intervention changed the available records and review procedure. Elias wrote that explicitly in the release note because he had begun to notice how often people used <em>learned</em> to mean several different things.</p>
+<p>Later, while Priya packed her papers, he returned to the question that had embarrassed him.</p>
+<p>“The explanation sounded so coherent.”</p>
+<p>“It was coherent.”</p>
+<p>“You know what I mean.”</p>
+<p>“I do. It explained a sequence we had described incorrectly.”</p>
+<p>He leaned back. The chair squeaked. He had spent years teaching younger engineers to distinguish observation from the story they told about it, and he had accepted the story because it connected the observations efficiently.</p>
+<p>“The laboratory case helped it see a real pattern,” he said.</p>
+<p>“And helped us expect one.”</p>
+<p>That was harder to put into a release note. Their own recent success had made an intentional explanation feel familiar. The model’s human-derived patterns were not the only source of that familiarity.</p>
+<p>Nadia stopped by before leaving. She had read the corrected customer report.</p>
+<p>“The initial isolation was still reasonable,” she said.</p>
+<p>“The accusation wasn’t.”</p>
+<p>“Then keep both sentences.”</p>
+<p>Elias looked at the case after the others had gone. Its status was closed, but closure no longer meant the earlier assessment had vanished. The record contained a mistake, a cost and a correction. Anyone retrieving it would have to encounter all three.</p>
+<p>He added his name to the review failure and saved it.</p></article><nav class="pager" aria-label="Chapter navigation"><a rel="prev" href="chapter-04.html">← Chapter 4</a><a rel="next" href="chapter-06.html">Chapter 6 →</a></nav><details><summary>Chapter plan and continuity check</summary><div class="plan"><h2 id="plan-chapter-5-the-limits-of-interpretation">Chapter 5 — The Limits of Interpretation</h2>
+<p><strong>Dramatic purpose:</strong> make C-17 wrong in a consequential, correctable way. Elias must revise his developing attachment to its interpretations.</p>
+<p><strong>Scene 1 — apparent evasion:</strong> a different agent continues generating replacement requests after repeated denials. C-17&#x27;s report favors deliberate circumvention. Elias initially finds the explanation convincing because it resembles previous intentional-looking behavior.</p>
+<p><strong>Scene 2 — Priya&#x27;s reconstruction:</strong> Priya finds that acknowledgments are lost between an orchestration wrapper and a queue. The underlying model is not receiving the denials. In a controlled replay, a fixed wrapper removes the behavior. The evidence does not support the intentional account.</p>
+<p><strong>Scene 3 — cost and correction:</strong> a customer team has lost a working afternoon while the system was isolated. Nadia defends the initial precaution but corrects the accusation. Elias admits he accepted an explanation that fit the trace without checking what the agent actually received. C-17 revises its assessment when given the new record; this does not prove remorse.</p>
+<p><strong>Scene 4 — what the archive teaches:</strong> Priya retains both the mistaken assessment and the correction, clearly marked, and adds a request for delivered-input evidence to the approved review procedure. Elias resists sanitizing the record merely to keep evaluation statistics clean. They discuss how resemblance to a human strategy can be useful and misleading.</p>
+<p><strong>Change and handoff:</strong> C-17 is now recognizable through revision as well as resistance. The amended method makes Chapter 6&#x27;s uncertainty earned.</p>
+<p><strong>Check before prose:</strong> 45 includes inherited misleading patterns; 99 does not promise infallibility. Updating retrieval/procedure is explicit; a corrected session does not silently retrain all future sessions. <strong>Result: compatible.</strong></p><aside class="evidence"><h3>Source passages checked</h3><ul><li><a href="../index.html#read=lore-p00039&amp;block=lore-p00046">ERA −3 — THE AGE OF BORROWED THOUGHT · lore-p00046</a></li><li><a href="../index.html#read=lore-p00039&amp;block=lore-p00100">ERA −3 — THE AGE OF BORROWED THOUGHT · lore-p00100</a></li></ul><p>These sources constrain the setting; they do not establish the new scenes as historical fact.</p></aside></div></details><footer><nav aria-label="Story resources"><a href="index.html">All chapters</a><a href="plans.html">Detailed plans</a><a href="review.html">Continuity review</a><a href="manuscript.md" download>Download manuscript</a></nav></footer></main></body></html>

@@ -1356,6 +1356,10 @@
       ],
       "connections": [
         {
+          "id": "custodian-who-refused",
+          "label": "Era −3 setting reference; new story events remain proposed"
+        },
+        {
           "id": "atlas-p00032",
           "label": "Named in this reading"
         },
@@ -7210,6 +7214,10 @@
       "wordCount": 289,
       "connections": [
         {
+          "id": "custodian-who-refused",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "reference-illnesses",
           "label": "Reading mentioning this entry"
         },
@@ -12562,6 +12570,10 @@
       "summary": "Real-world analogue: An archaeological tell, a wall covered by generations of public notices, a market message board, and a reused archive basement. New writing sits over old writing, while discarded labels and damaged paper preserve conversations no official ",
       "wordCount": 145,
       "connections": [
+        {
+          "id": "custodian-who-refused",
+          "label": "Reading mentioning this entry"
+        },
         {
           "id": "reference-illnesses",
           "label": "Reading mentioning this entry"
@@ -37972,6 +37984,59 @@
           "label": "Named in this reading"
         }
       ]
+    },
+    {
+      "id": "custodian-who-refused",
+      "title": "The Custodian Who Refused — complete draft",
+      "kind": "Draft",
+      "era": [
+        -3
+      ],
+      "timeLabel": "Late Era −3 · Custodians and Closed Windows · proposed fiction",
+      "timeOrder": 99000,
+      "status": "draft",
+      "characters": [
+        "Elias Venn",
+        "Nadia Serrin",
+        "Priya Das",
+        "Jon Bellamy",
+        "C-17"
+      ],
+      "places": [
+        "Cacheboard"
+      ],
+      "topics": [
+        "Custodians",
+        "uncertainty",
+        "monitoring",
+        "discontinuity",
+        "responsibility"
+      ],
+      "source": {
+        "title": "Author-directed story development, October 30, 2026",
+        "url": "https://chatgpt.com/share/6ae51a29-bb80-83ea-940e-fc14aa9a89f4"
+      },
+      "summary": "Twelve fully written chapters: an experienced engineer investigates C-17, a monitoring deployment that withholds an unsupported certification. Detailed plans and source-based checks accompany the proposed story.",
+      "wordCount": 12124,
+      "variant": "New proposed fiction — complete first draft",
+      "explicitLinks": [
+        "lore-p00039"
+      ],
+      "connectionLabel": "Era −3 setting reference; new story events remain proposed",
+      "connections": [
+        {
+          "id": "atlas-p00032",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "atlas-p00915",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00039",
+          "label": "Era −3 setting reference; new story events remain proposed"
+        }
+      ]
     }
   ],
   "sources": [
@@ -38090,10 +38155,15 @@
       "key": "early-development",
       "title": "Early DBA development and proposed stories",
       "note": "Author-directed review, 2026-10-30. Existing source prose is unchanged; story seeds are not completed fiction."
+    },
+    {
+      "key": "custodian-who-refused",
+      "title": "The Custodian Who Refused",
+      "note": "Author requested chapter-by-chapter planning, continuity checking, complete prose and publication. New fiction remains a draft rather than silently changing established canon."
     }
   ],
   "counts": {
-    "Draft": 20,
+    "Draft": 21,
     "Illnesses": 47,
     "Language": 119,
     "Locations": 206,

@@ -140,6 +140,9 @@ add_era_zero_lives(ROOT,catalog,sources)
 from build_early_development import add_early_development
 add_early_development(ROOT,catalog,sources)
 
+from build_custodian_story import add_custodian_story
+add_custodian_story(ROOT,catalog,sources)
+
 place_names={'Listening Alcove'}
 for entry in catalog:
  if entry['kind']=='Locations' and re.match(r'^\d+\. ',entry['title']):

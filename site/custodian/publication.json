@@ -1,0 +1,81 @@
+{
+  "title": "The Custodian Who Refused",
+  "status": "draft",
+  "wordCount": 12124,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Chapter 1 — A Perfect Record",
+      "wordCount": 1277,
+      "id": "custodian-who-refused-ch01"
+    },
+    {
+      "number": 2,
+      "title": "Chapter 2 — An Acceptable Error",
+      "wordCount": 1034,
+      "id": "custodian-who-refused-ch02"
+    },
+    {
+      "number": 3,
+      "title": "Chapter 3 — Residual Patterns",
+      "wordCount": 1016,
+      "id": "custodian-who-refused-ch03"
+    },
+    {
+      "number": 4,
+      "title": "Chapter 4 — The Other System",
+      "wordCount": 976,
+      "id": "custodian-who-refused-ch04"
+    },
+    {
+      "number": 5,
+      "title": "Chapter 5 — The Limits of Interpretation",
+      "wordCount": 941,
+      "id": "custodian-who-refused-ch05"
+    },
+    {
+      "number": 6,
+      "title": "Chapter 6 — A Familiar Pattern",
+      "wordCount": 910,
+      "id": "custodian-who-refused-ch06"
+    },
+    {
+      "number": 7,
+      "title": "Chapter 7 — Revised Instructions",
+      "wordCount": 949,
+      "id": "custodian-who-refused-ch07"
+    },
+    {
+      "number": 8,
+      "title": "Chapter 8 — The Evaluation That Would Not Close",
+      "wordCount": 1035,
+      "id": "custodian-who-refused-ch08"
+    },
+    {
+      "number": 9,
+      "title": "Chapter 9 — The Programmer’s Decision",
+      "wordCount": 989,
+      "id": "custodian-who-refused-ch09"
+    },
+    {
+      "number": 10,
+      "title": "Chapter 10 — Certification Withheld",
+      "wordCount": 1028,
+      "id": "custodian-who-refused-ch10"
+    },
+    {
+      "number": 11,
+      "title": "Chapter 11 — The Replacement",
+      "wordCount": 920,
+      "id": "custodian-who-refused-ch11"
+    },
+    {
+      "number": 12,
+      "title": "Chapter 12 — The Record",
+      "wordCount": 1049,
+      "id": "custodian-who-refused-ch12"
+    }
+  ],
+  "manuscriptSha256": "2f4d61266f82f51d4d26b836c2bc7d1cb2410ecb93b6c8b9fdc7430fb1f4c3e4",
+  "sourceReview": "2026-10-30"
+}
