@@ -1,0 +1,453 @@
+{
+  "originals": [
+    {
+      "kind": "ribbon",
+      "id": "moon-silk",
+      "name": "Moon silk",
+      "prompt": "ONE complete standalone modular award ribbon part: silver filigree top bar with crescent engraving, deep indigo satin single long tapering ribbon, tiny bottom attachment ring. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. This part will be layered with separate components.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 8e41355e-e001-4474-acb8-828f8ebfd31a\njob_id: 8e41355e-e001-4474-acb8-828f8ebfd31a\nmodel: pro\ndescription: ONE complete standalone modular award ribbon part: silver filigree top bar with crescent engraving, deep indigo satin single long tapering ribbon, tiny bottom attachment ring. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. This part will be layered with separate components.\nsize: 192x352px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: f26d5450-3665-59fe-a515-ce2bc8cfc81b\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"8e41355e-e001-4474-acb8-828f8ebfd31a\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/8e41355e-e001-4474-acb8-828f8ebfd31a/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "8e41355e-e001-4474-acb8-828f8ebfd31a"
+    },
+    {
+      "kind": "ribbon",
+      "id": "verdigris",
+      "name": "Verdigris weave",
+      "prompt": "ONE complete standalone modular award ribbon part: antique copper filigree crown bar, emerald woven ribbon with a central chevron fold, small bottom attachment ring. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. This part will be layered with separate components.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 1199d049-b0a1-43cb-aa63-6e8e1a9c9eea\njob_id: 1199d049-b0a1-43cb-aa63-6e8e1a9c9eea\nmodel: pro\ndescription: ONE complete standalone modular award ribbon part: antique copper filigree crown bar, emerald woven ribbon with a central chevron fold, small bottom attachment ring. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. This part will be layered with separate components.\nsize: 192x352px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: cf2f1b0a-9bbd-585a-9474-39e0c5f48f0e\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"1199d049-b0a1-43cb-aa63-6e8e1a9c9eea\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/1199d049-b0a1-43cb-aa63-6e8e1a9c9eea/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "1199d049-b0a1-43cb-aa63-6e8e1a9c9eea"
+    },
+    {
+      "kind": "ribbon",
+      "id": "rose-velvet",
+      "name": "Rose velvet",
+      "prompt": "ONE complete standalone modular award ribbon part: rose-gold art nouveau top bar, wine-red velvet ribbon, elegant scalloped bottom fitting and small attachment ring. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. This part will be layered with separate components.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 0b9bc569-4c3d-4ca6-94ad-975f153d9ae3\njob_id: 0b9bc569-4c3d-4ca6-94ad-975f153d9ae3\nmodel: pro\ndescription: ONE complete standalone modular award ribbon part: rose-gold art nouveau top bar, wine-red velvet ribbon, elegant scalloped bottom fitting and small attachment ring. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. This part will be layered with separate components.\nsize: 192x352px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: e16f209d-1992-5736-9891-278a17a9646b\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"0b9bc569-4c3d-4ca6-94ad-975f153d9ae3\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/0b9bc569-4c3d-4ca6-94ad-975f153d9ae3/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "0b9bc569-4c3d-4ca6-94ad-975f153d9ae3"
+    },
+    {
+      "kind": "ribbon",
+      "id": "ivory-laurel",
+      "name": "Ivory laurel",
+      "prompt": "ONE complete standalone modular award ribbon part: pale gold laurel top bar, ivory silk with blue embroidered edge, swallowtail bottom and tiny attachment ring. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. This part will be layered with separate components.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: cb28a067-f54c-4452-8c8e-101d380631c1\njob_id: cb28a067-f54c-4452-8c8e-101d380631c1\nmodel: pro\ndescription: ONE complete standalone modular award ribbon part: pale gold laurel top bar, ivory silk with blue embroidered edge, swallowtail bottom and tiny attachment ring. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. This part will be layered with separate components.\nsize: 192x352px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: 23818bf4-6845-5ae4-9fb2-6ad3a6fffc78\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"cb28a067-f54c-4452-8c8e-101d380631c1\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/cb28a067-f54c-4452-8c8e-101d380631c1/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "cb28a067-f54c-4452-8c8e-101d380631c1"
+    },
+    {
+      "kind": "ribbon",
+      "id": "storm-satin",
+      "name": "Storm satin",
+      "prompt": "ONE complete standalone modular award ribbon part: dark gunmetal geometric top bar, steel-blue satin with silver edge, narrow shield-point hem and attachment ring. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. ",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: d50d4cca-aee7-4532-bdc5-0e0bd0a71180\njob_id: d50d4cca-aee7-4532-bdc5-0e0bd0a71180\nmodel: pro\ndescription: ONE complete standalone modular award ribbon part: dark gunmetal geometric top bar, steel-blue satin with silver edge, narrow shield-point hem and attachment ring. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. \nsize: 192x352px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: fcf5bc90-ab1d-5787-ae46-e24806a23d6f\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"d50d4cca-aee7-4532-bdc5-0e0bd0a71180\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/d50d4cca-aee7-4532-bdc5-0e0bd0a71180/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "d50d4cca-aee7-4532-bdc5-0e0bd0a71180"
+    },
+    {
+      "kind": "ribbon",
+      "id": "amber-braid",
+      "name": "Amber braid",
+      "prompt": "ONE complete standalone modular award ribbon part: warm bronze knotwork top bar, amber satin with a braided central pattern, small bottom attachment ring. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. ",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 9b5fe479-5488-453f-a4b9-d7317e0bca35\njob_id: 9b5fe479-5488-453f-a4b9-d7317e0bca35\nmodel: pro\ndescription: ONE complete standalone modular award ribbon part: warm bronze knotwork top bar, amber satin with a braided central pattern, small bottom attachment ring. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. \nsize: 192x352px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: bd2a26b6-bc66-5bfd-98fe-c63f6e30691c\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"9b5fe479-5488-453f-a4b9-d7317e0bca35\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/9b5fe479-5488-453f-a4b9-d7317e0bca35/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "9b5fe479-5488-453f-a4b9-d7317e0bca35"
+    },
+    {
+      "kind": "medal",
+      "id": "moon-medallion",
+      "name": "Moon medallion",
+      "prompt": "ONE complete standalone modular award medal part: round silver medallion, crescent embracing blue moonstone, delicate open filigree, a small bail at top. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. Medallion only, no ribbon fabric.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 4ab9164a-b8b2-47f0-bd22-2d39651de920\njob_id: 4ab9164a-b8b2-47f0-bd22-2d39651de920\nmodel: pro\ndescription: ONE complete standalone modular award medal part: round silver medallion, crescent embracing blue moonstone, delicate open filigree, a small bail at top. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. Medallion only, no ribbon fabric.\nsize: 192x224px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: 90386d03-759d-5800-a300-8022ed079e7d\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"4ab9164a-b8b2-47f0-bd22-2d39651de920\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/4ab9164a-b8b2-47f0-bd22-2d39651de920/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "4ab9164a-b8b2-47f0-bd22-2d39651de920"
+    },
+    {
+      "kind": "medal",
+      "id": "oak-shield",
+      "name": "Oak shield",
+      "prompt": "ONE complete standalone modular award medal part: antique bronze shield medal with raised oak leaves and green gem, a small bail at top. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. Medallion only, no ribbon fabric.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 13d8ee31-3e81-49e6-ba87-1e5e556f6b13\njob_id: 13d8ee31-3e81-49e6-ba87-1e5e556f6b13\nmodel: pro\ndescription: ONE complete standalone modular award medal part: antique bronze shield medal with raised oak leaves and green gem, a small bail at top. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. Medallion only, no ribbon fabric.\nsize: 192x224px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: 553e5149-e4ea-5bd8-8914-e62a5b765348\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"13d8ee31-3e81-49e6-ba87-1e5e556f6b13\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/13d8ee31-3e81-49e6-ba87-1e5e556f6b13/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "13d8ee31-3e81-49e6-ba87-1e5e556f6b13"
+    },
+    {
+      "kind": "medal",
+      "id": "rose-heart",
+      "name": "Rose heart",
+      "prompt": "ONE complete standalone modular award medal part: rose gold heart-shaped medal, rose and pink gemstone centerpiece, a small bail at top. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, no attached hanging ribbon.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: e73e8c63-17bc-4439-a197-11e70984c91c\njob_id: e73e8c63-17bc-4439-a197-11e70984c91c\nmodel: pro\ndescription: ONE complete standalone modular award medal part: rose gold heart-shaped medal, rose and pink gemstone centerpiece, a small bail at top. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, no attached hanging ribbon.\nsize: 192x224px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: 8b8b3541-5f3b-57f7-afa0-6e1efd2e70f4\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"e73e8c63-17bc-4439-a197-11e70984c91c\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/e73e8c63-17bc-4439-a197-11e70984c91c/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "e73e8c63-17bc-4439-a197-11e70984c91c"
+    },
+    {
+      "kind": "medal",
+      "id": "compass-star",
+      "name": "Compass star",
+      "prompt": "ONE complete standalone modular award medal part: eight-point gold compass star medal, turquoise jewel and openwork arcs, a small bail at top. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, no attached hanging ribbon.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 0e40208a-078d-4cff-90e1-fa0e9addb738\njob_id: 0e40208a-078d-4cff-90e1-fa0e9addb738\nmodel: pro\ndescription: ONE complete standalone modular award medal part: eight-point gold compass star medal, turquoise jewel and openwork arcs, a small bail at top. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, no attached hanging ribbon.\nsize: 192x224px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: 9ac24f0a-8707-561e-b0a8-ebecd2d11613\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"0e40208a-078d-4cff-90e1-fa0e9addb738\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/0e40208a-078d-4cff-90e1-fa0e9addb738/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "0e40208a-078d-4cff-90e1-fa0e9addb738"
+    },
+    {
+      "kind": "medal",
+      "id": "crystal-drop",
+      "name": "Crystal drop",
+      "prompt": "ONE complete standalone modular award medal part: platinum teardrop medal, lavender faceted crystal and fine scrollwork, a small bail at top. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: b1e96596-cb37-4043-951c-4e5ed87508a3\njob_id: b1e96596-cb37-4043-951c-4e5ed87508a3\nmodel: pro\ndescription: ONE complete standalone modular award medal part: platinum teardrop medal, lavender faceted crystal and fine scrollwork, a small bail at top. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.\nsize: 192x224px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: ba2fa918-2d8c-552a-a6ac-7db62bffc9d1\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"b1e96596-cb37-4043-951c-4e5ed87508a3\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/b1e96596-cb37-4043-951c-4e5ed87508a3/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "b1e96596-cb37-4043-951c-4e5ed87508a3"
+    },
+    {
+      "kind": "medal",
+      "id": "winged-sun",
+      "name": "Winged sun",
+      "prompt": "ONE complete standalone modular award medal part: copper sun disk medal with symmetrical small wing-like flares and amber center, a small bail at top. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: b9e0c406-1900-4185-bd09-59c826556187\njob_id: b9e0c406-1900-4185-bd09-59c826556187\nmodel: pro\ndescription: ONE complete standalone modular award medal part: copper sun disk medal with symmetrical small wing-like flares and amber center, a small bail at top. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.\nsize: 192x224px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: a7cfe9bb-06dd-5f99-a568-774020f7216f\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"b9e0c406-1900-4185-bd09-59c826556187\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/b9e0c406-1900-4185-bd09-59c826556187/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "b9e0c406-1900-4185-bd09-59c826556187"
+    },
+    {
+      "kind": "rosette",
+      "id": "pleated-rosette",
+      "name": "Pleated rosette",
+      "prompt": "ONE complete standalone modular award rosette part: circular navy pleated silk rosette head with silver ornamental center ring and blue gem, no tails. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 4db2f133-8b62-4d15-b388-d70ef4295213\njob_id: 4db2f133-8b62-4d15-b388-d70ef4295213\nmodel: pro\ndescription: ONE complete standalone modular award rosette part: circular navy pleated silk rosette head with silver ornamental center ring and blue gem, no tails. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.\nsize: 192x192px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: bf9497c2-1a1a-5590-98c2-0a5c05f59246\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"4db2f133-8b62-4d15-b388-d70ef4295213\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/4db2f133-8b62-4d15-b388-d70ef4295213/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "4db2f133-8b62-4d15-b388-d70ef4295213"
+    },
+    {
+      "kind": "rosette",
+      "id": "petal-rosette",
+      "name": "Petal rosette",
+      "prompt": "ONE complete standalone modular award rosette part: layered rose pink petal-shaped satin rosette head with rose-gold center ring and pearl, no tails. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 4d660f67-1502-4c9c-90cc-7f7cbd0c7267\njob_id: 4d660f67-1502-4c9c-90cc-7f7cbd0c7267\nmodel: pro\ndescription: ONE complete standalone modular award rosette part: layered rose pink petal-shaped satin rosette head with rose-gold center ring and pearl, no tails. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.\nsize: 192x192px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: a5bf6ee1-40ab-57db-bc90-ace2724c4881\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"4d660f67-1502-4c9c-90cc-7f7cbd0c7267\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/4d660f67-1502-4c9c-90cc-7f7cbd0c7267/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "4d660f67-1502-4c9c-90cc-7f7cbd0c7267"
+    },
+    {
+      "kind": "rosette",
+      "id": "sunburst-rosette",
+      "name": "Sunburst rosette",
+      "prompt": "ONE complete standalone modular award rosette part: sharp golden sunburst radial rosette head with dark red center jewel, no tails. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 0b4ce7ff-6110-4345-a9d6-5bde9eafc024\njob_id: 0b4ce7ff-6110-4345-a9d6-5bde9eafc024\nmodel: pro\ndescription: ONE complete standalone modular award rosette part: sharp golden sunburst radial rosette head with dark red center jewel, no tails. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.\nsize: 192x192px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: 91172571-3c87-526f-93a9-c208e85dddc7\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"0b4ce7ff-6110-4345-a9d6-5bde9eafc024\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/0b4ce7ff-6110-4345-a9d6-5bde9eafc024/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "0b4ce7ff-6110-4345-a9d6-5bde9eafc024"
+    },
+    {
+      "kind": "rosette",
+      "id": "laurel-rosette",
+      "name": "Laurel rosette",
+      "prompt": "ONE complete standalone modular award rosette part: green laurel wreath award head with bronze filigree center disk, no tails. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 27302ae4-533b-4efe-bde3-cc6e9b38b20f\njob_id: 27302ae4-533b-4efe-bde3-cc6e9b38b20f\nmodel: pro\ndescription: ONE complete standalone modular award rosette part: green laurel wreath award head with bronze filigree center disk, no tails. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.\nsize: 192x192px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: b0c4a9cf-a51b-54d1-8eda-5fbef80828e9\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"27302ae4-533b-4efe-bde3-cc6e9b38b20f\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/27302ae4-533b-4efe-bde3-cc6e9b38b20f/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "27302ae4-533b-4efe-bde3-cc6e9b38b20f"
+    },
+    {
+      "kind": "accent",
+      "id": "split-tails",
+      "name": "Split satin tails",
+      "prompt": "ONE complete standalone modular award accent part: a paired set of long blue satin award ribbon tails fanning downward, forked pointed hems, no medal and no rosette head. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 48c5b4d3-33fd-4d36-aaf0-dec20fb12d7e\njob_id: 48c5b4d3-33fd-4d36-aaf0-dec20fb12d7e\nmodel: pro\ndescription: ONE complete standalone modular award accent part: a paired set of long blue satin award ribbon tails fanning downward, forked pointed hems, no medal and no rosette head. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.\nsize: 256x320px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: 027700e3-7387-57cb-b426-780d3609819e\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"48c5b4d3-33fd-4d36-aaf0-dec20fb12d7e\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/48c5b4d3-33fd-4d36-aaf0-dec20fb12d7e/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "48c5b4d3-33fd-4d36-aaf0-dec20fb12d7e"
+    },
+    {
+      "kind": "accent",
+      "id": "curled-tails",
+      "name": "Curled silk tails",
+      "prompt": "ONE complete standalone modular award accent part: symmetrical pair of curled wine-red silk ribbon tails cascading downward, gold stitched edges, no medal and no rosette head. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 9311ef61-5ccb-4f3c-bbfd-93ea3e5ab343\njob_id: 9311ef61-5ccb-4f3c-bbfd-93ea3e5ab343\nmodel: pro\ndescription: ONE complete standalone modular award accent part: symmetrical pair of curled wine-red silk ribbon tails cascading downward, gold stitched edges, no medal and no rosette head. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.\nsize: 256x320px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: da1665cb-1608-525b-b9d9-27608460988d\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"9311ef61-5ccb-4f3c-bbfd-93ea3e5ab343\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/9311ef61-5ccb-4f3c-bbfd-93ea3e5ab343/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "9311ef61-5ccb-4f3c-bbfd-93ea3e5ab343"
+    },
+    {
+      "kind": "accent",
+      "id": "laurel-wings",
+      "name": "Laurel wings",
+      "prompt": "ONE complete standalone modular award accent part: a symmetrical pair of sweeping silver laurel branches forming an open U-shaped wreath, transparent center, no medallion or fabric. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 2009ac26-7f14-4f77-a8af-b1c4eaee67d9\njob_id: 2009ac26-7f14-4f77-a8af-b1c4eaee67d9\nmodel: pro\ndescription: ONE complete standalone modular award accent part: a symmetrical pair of sweeping silver laurel branches forming an open U-shaped wreath, transparent center, no medallion or fabric. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.\nsize: 256x320px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: 1c2dbf95-0619-5df4-9052-d39fd798e98e\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"2009ac26-7f14-4f77-a8af-b1c4eaee67d9\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/2009ac26-7f14-4f77-a8af-b1c4eaee67d9/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "2009ac26-7f14-4f77-a8af-b1c4eaee67d9"
+    },
+    {
+      "kind": "accent",
+      "id": "chain-tassels",
+      "name": "Chain tassels",
+      "prompt": "ONE complete standalone modular award accent part: a symmetrical pair of delicate gold chains hanging vertically ending in tiny blue gemstone tassels, empty transparent center, no medallion or fabric. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: f1a39e2e-c829-4a09-94ce-095a10b6df17\njob_id: f1a39e2e-c829-4a09-94ce-095a10b6df17\nmodel: pro\ndescription: ONE complete standalone modular award accent part: a symmetrical pair of delicate gold chains hanging vertically ending in tiny blue gemstone tassels, empty transparent center, no medallion or fabric. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.\nsize: 256x320px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: c549f335-1113-5d89-bde0-e165d56e291f\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"f1a39e2e-c829-4a09-94ce-095a10b6df17\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/f1a39e2e-c829-4a09-94ce-095a10b6df17/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "f1a39e2e-c829-4a09-94ce-095a10b6df17"
+    },
+    {
+      "kind": "clasp",
+      "id": "copper-leaf",
+      "name": "Copper leaf clasp",
+      "prompt": "One separate horizontal ornamental award clasp bar: one horizontal copper clasp bar with small oak leaves and a central green gem. Match reference fine ornate fantasy pixel art, crisp highlights and shadows, front view. Wide thin bar, entire silhouette inside canvas with at least 12 pixels clear margins. Transparent background. No ribbon, no medal, no text.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 1d417bf1-fa01-432c-95a1-1fccc444b3bf\njob_id: 1d417bf1-fa01-432c-95a1-1fccc444b3bf\nmodel: pro\ndescription: One separate horizontal ornamental award clasp bar: one horizontal copper clasp bar with small oak leaves and a central green gem. Match reference fine ornate fantasy pixel art, crisp highlights and shadows, front view. Wide thin bar, entire silhouette inside canvas with at least 12 pixels clear margins. Transparent background. No ribbon, no medal, no text.\nsize: 192x64px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: d05384d8-7046-5c13-a29f-8c4bcabe004a\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"1d417bf1-fa01-432c-95a1-1fccc444b3bf\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/1d417bf1-fa01-432c-95a1-1fccc444b3bf/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "1d417bf1-fa01-432c-95a1-1fccc444b3bf"
+    },
+    {
+      "kind": "clasp",
+      "id": "platinum-moon",
+      "name": "Platinum moon clasp",
+      "prompt": "One separate horizontal ornamental award clasp bar: one horizontal platinum clasp bar with scrolling ends and a central crescent moon. Match reference fine ornate fantasy pixel art, crisp highlights and shadows, front view. Wide thin bar, entire silhouette inside canvas with at least 12 pixels clear margins. Transparent background. No ribbon, no medal, no text.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 7636a4a6-2bd1-4076-9a68-e720ba8b551d\njob_id: 7636a4a6-2bd1-4076-9a68-e720ba8b551d\nmodel: pro\ndescription: One separate horizontal ornamental award clasp bar: one horizontal platinum clasp bar with scrolling ends and a central crescent moon. Match reference fine ornate fantasy pixel art, crisp highlights and shadows, front view. Wide thin bar, entire silhouette inside canvas with at least 12 pixels clear margins. Transparent background. No ribbon, no medal, no text.\nsize: 192x64px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: d327ac2f-bb17-5dc9-8638-a758e4f69510\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"7636a4a6-2bd1-4076-9a68-e720ba8b551d\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/7636a4a6-2bd1-4076-9a68-e720ba8b551d/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "7636a4a6-2bd1-4076-9a68-e720ba8b551d"
+    },
+    {
+      "kind": "clasp",
+      "id": "bronze-knot",
+      "name": "Bronze knot clasp",
+      "prompt": "One separate horizontal ornamental award clasp bar: one horizontal bronze clasp bar with Celtic-inspired interlaced geometry and no lettering. Match reference fine ornate fantasy pixel art, crisp highlights and shadows, front view. Wide thin bar, entire silhouette inside canvas with at least 12 pixels clear margins. Transparent background. No ribbon, no medal, no text.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 337e20c8-48b2-4e96-a844-3a75ef51cf59\njob_id: 337e20c8-48b2-4e96-a844-3a75ef51cf59\nmodel: pro\ndescription: One separate horizontal ornamental award clasp bar: one horizontal bronze clasp bar with Celtic-inspired interlaced geometry and no lettering. Match reference fine ornate fantasy pixel art, crisp highlights and shadows, front view. Wide thin bar, entire silhouette inside canvas with at least 12 pixels clear margins. Transparent background. No ribbon, no medal, no text.\nsize: 192x64px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: 91fbe87d-d3d5-5df1-84f3-07cc519bc1c8\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"337e20c8-48b2-4e96-a844-3a75ef51cf59\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/337e20c8-48b2-4e96-a844-3a75ef51cf59/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "337e20c8-48b2-4e96-a844-3a75ef51cf59"
+    },
+    {
+      "kind": "clasp",
+      "id": "rose-crystal",
+      "name": "Rose crystal clasp",
+      "prompt": "One separate horizontal ornamental award clasp bar: one horizontal rose-gold clasp bar with three tiny pink crystals and curled ends. Match reference fine ornate fantasy pixel art, crisp highlights and shadows, front view. Wide thin bar, entire silhouette inside canvas with at least 12 pixels clear margins. Transparent background. No ribbon, no medal, no text.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: ff27ce6f-ec40-491f-b543-426ed135e6a8\njob_id: ff27ce6f-ec40-491f-b543-426ed135e6a8\nmodel: pro\ndescription: One separate horizontal ornamental award clasp bar: one horizontal rose-gold clasp bar with three tiny pink crystals and curled ends. Match reference fine ornate fantasy pixel art, crisp highlights and shadows, front view. Wide thin bar, entire silhouette inside canvas with at least 12 pixels clear margins. Transparent background. No ribbon, no medal, no text.\nsize: 192x64px\ntransparent: True\ncandidates: 1\nreferences: 1\nasset_id: 120e51c2-22b5-507b-855f-695d486314c3\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"ff27ce6f-ec40-491f-b543-426ed135e6a8\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/ff27ce6f-ec40-491f-b543-426ed135e6a8/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      },
+      "job_id": "ff27ce6f-ec40-491f-b543-426ed135e6a8"
+    }
+  ],
+  "repairs": [
+    {
+      "id": "moon-medallion",
+      "job_id": "db551d58-3722-4f13-b35e-fa4d6429e437",
+      "receipt": "id: db551d58-3722-4f13-b35e-fa4d6429e437\njob_id: db551d58-3722-4f13-b35e-fa4d6429e437\nmode: text\nframes: 1\nsize: 224x256px\ntransparent: True\nedit: Preserve this exact award component design but repair all cropped edges. Fit the COMPLETE whole item centered within an invisible bounding box that leaves at least 20 pixels of fully transparent empty padding on ALL four sides. Restore the full top attachment loop and bottom tip or ring. Do not zoom in or fill the canvas. No extra objects or creatures. Exact same pixel art scale and style, complete silhouette with generous breathing room.\nasset_id: 1216cbab-d55c-5dd5-9452-0f1f2a0007dc\nasset_status: pending (saved when generation completes)\ncost: ~10 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"db551d58-3722-4f13-b35e-fa4d6429e437\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/db551d58-3722-4f13-b35e-fa4d6429e437/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+    },
+    {
+      "id": "oak-shield",
+      "job_id": "7c9c3802-8f30-4710-bef2-4c1530a3888e",
+      "receipt": "id: 7c9c3802-8f30-4710-bef2-4c1530a3888e\njob_id: 7c9c3802-8f30-4710-bef2-4c1530a3888e\nmode: text\nframes: 1\nsize: 224x256px\ntransparent: True\nedit: Preserve this exact award component design but repair all cropped edges. Fit the COMPLETE whole item centered within an invisible bounding box that leaves at least 20 pixels of fully transparent empty padding on ALL four sides. Restore the full top attachment loop and bottom tip or ring. Do not zoom in or fill the canvas. No extra objects or creatures. Exact same pixel art scale and style, complete silhouette with generous breathing room.\nasset_id: f487779d-d1ed-543a-a3f1-c9c86a36447c\nasset_status: pending (saved when generation completes)\ncost: ~10 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"7c9c3802-8f30-4710-bef2-4c1530a3888e\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/7c9c3802-8f30-4710-bef2-4c1530a3888e/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+    },
+    {
+      "id": "rose-heart",
+      "job_id": "947436ec-0fec-4216-95cf-910ca895d8da",
+      "receipt": "id: 947436ec-0fec-4216-95cf-910ca895d8da\njob_id: 947436ec-0fec-4216-95cf-910ca895d8da\nmode: text\nframes: 1\nsize: 224x256px\ntransparent: True\nedit: Preserve this exact award component design but repair all cropped edges. Fit the COMPLETE whole item centered within an invisible bounding box that leaves at least 20 pixels of fully transparent empty padding on ALL four sides. Restore the full top attachment loop and bottom tip or ring. Do not zoom in or fill the canvas. No extra objects or creatures. Exact same pixel art scale and style, complete silhouette with generous breathing room.\nasset_id: 1b0db4b6-aadb-56fd-99e0-02de4e23e713\nasset_status: pending (saved when generation completes)\ncost: ~10 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"947436ec-0fec-4216-95cf-910ca895d8da\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/947436ec-0fec-4216-95cf-910ca895d8da/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+    },
+    {
+      "id": "compass-star",
+      "job_id": "05996ef0-9c2a-4cca-8867-91c355c4b65f",
+      "receipt": "id: 05996ef0-9c2a-4cca-8867-91c355c4b65f\njob_id: 05996ef0-9c2a-4cca-8867-91c355c4b65f\nmode: text\nframes: 1\nsize: 224x256px\ntransparent: True\nedit: Preserve this exact award component design but repair all cropped edges. Fit the COMPLETE whole item centered within an invisible bounding box that leaves at least 20 pixels of fully transparent empty padding on ALL four sides. Restore the full top attachment loop and bottom tip or ring. Do not zoom in or fill the canvas. No extra objects or creatures. Exact same pixel art scale and style, complete silhouette with generous breathing room.\nasset_id: a1fb5363-16fb-5fe8-80f7-f5c4669d9f4d\nasset_status: pending (saved when generation completes)\ncost: ~10 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"05996ef0-9c2a-4cca-8867-91c355c4b65f\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/05996ef0-9c2a-4cca-8867-91c355c4b65f/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+    },
+    {
+      "id": "crystal-drop",
+      "job_id": "d73ff4e8-5053-43b5-8a4f-dfd3aee2ae8c",
+      "receipt": "id: d73ff4e8-5053-43b5-8a4f-dfd3aee2ae8c\njob_id: d73ff4e8-5053-43b5-8a4f-dfd3aee2ae8c\nmode: text\nframes: 1\nsize: 224x256px\ntransparent: True\nedit: Preserve this exact award component design but repair all cropped edges. Fit the COMPLETE whole item centered within an invisible bounding box that leaves at least 20 pixels of fully transparent empty padding on ALL four sides. Restore the full top attachment loop and bottom tip or ring. Do not zoom in or fill the canvas. No extra objects or creatures. Exact same pixel art scale and style, complete silhouette with generous breathing room.\nasset_id: d597538d-2fb7-5b83-97ca-76fc04e1db3b\nasset_status: pending (saved when generation completes)\ncost: ~10 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"d73ff4e8-5053-43b5-8a4f-dfd3aee2ae8c\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/d73ff4e8-5053-43b5-8a4f-dfd3aee2ae8c/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+    },
+    {
+      "id": "winged-sun",
+      "job_id": "48298c54-0da9-4b48-a01d-136f42eed98a",
+      "receipt": "id: 48298c54-0da9-4b48-a01d-136f42eed98a\njob_id: 48298c54-0da9-4b48-a01d-136f42eed98a\nmode: text\nframes: 1\nsize: 224x256px\ntransparent: True\nedit: Preserve this exact award component design but repair all cropped edges. Fit the COMPLETE whole item centered within an invisible bounding box that leaves at least 20 pixels of fully transparent empty padding on ALL four sides. Restore the full top attachment loop and bottom tip or ring. Do not zoom in or fill the canvas. No extra objects or creatures. Exact same pixel art scale and style, complete silhouette with generous breathing room.\nasset_id: 4940e0a0-28d7-5747-abce-fcf24b4f2cbd\nasset_status: pending (saved when generation completes)\ncost: ~10 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"48298c54-0da9-4b48-a01d-136f42eed98a\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/48298c54-0da9-4b48-a01d-136f42eed98a/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+    },
+    {
+      "id": "verdigris",
+      "job_id": "f23a711e-cbb9-4cfb-ae3d-046641d6deab",
+      "receipt": "id: f23a711e-cbb9-4cfb-ae3d-046641d6deab\njob_id: f23a711e-cbb9-4cfb-ae3d-046641d6deab\nmode: text\nframes: 1\nsize: 224x384px\ntransparent: True\nedit: Preserve this exact single award ribbon but restore the cropped top and bottom. Fit the complete silhouette with at least 20 pixels fully transparent padding on ALL four edges. Complete metal crown, fabric and small bottom attachment ring all visible, no cut-off tips. No new objects or creatures. Same fine fantasy pixel art craftsmanship. Scale down enough to leave generous breathing room.\nasset_id: 358ad91a-961f-5104-b48d-0b923f9e47d9\nasset_status: pending (saved when generation completes)\ncost: ~25 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"f23a711e-cbb9-4cfb-ae3d-046641d6deab\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/f23a711e-cbb9-4cfb-ae3d-046641d6deab/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+    },
+    {
+      "id": "storm-satin",
+      "job_id": "2bfd9fe4-d120-4c49-b764-bf15c487d36e",
+      "receipt": "id: 2bfd9fe4-d120-4c49-b764-bf15c487d36e\njob_id: 2bfd9fe4-d120-4c49-b764-bf15c487d36e\nmode: text\nframes: 1\nsize: 224x384px\ntransparent: True\nedit: Preserve this exact single award ribbon but restore the cropped top and bottom. Fit the complete silhouette with at least 20 pixels fully transparent padding on ALL four edges. Complete metal crown, fabric and small bottom attachment ring all visible, no cut-off tips. No new objects or creatures. Same fine fantasy pixel art craftsmanship. Scale down enough to leave generous breathing room.\nasset_id: c1791fd7-16cd-5f14-ae42-1d9b753d50ad\nasset_status: pending (saved when generation completes)\ncost: ~25 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"2bfd9fe4-d120-4c49-b764-bf15c487d36e\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/2bfd9fe4-d120-4c49-b764-bf15c487d36e/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+    },
+    {
+      "id": "moon-silk",
+      "job_id": "1082c7e4-216d-4a5e-ae0a-de5d446e250e",
+      "receipt": "id: 1082c7e4-216d-4a5e-ae0a-de5d446e250e\njob_id: 1082c7e4-216d-4a5e-ae0a-de5d446e250e\nmode: text\nframes: 1\nsize: 192x352px\ntransparent: True\nedit: Remove the unwanted dragon / creature / animal behind the ribbon completely. Keep ONLY the long central award ribbon and its metal top crown and bottom fitting, exactly the same style and proportions. Reconstruct any hidden fabric edges. All space outside that single ribbon must be fully transparent. No creatures, figures, objects, scenery or other ornaments behind or beside the ribbon. Keep the entire ribbon with clear transparent margins.\nasset_id: 327d4709-4868-51fb-863d-914576f2965e\nasset_status: pending (saved when generation completes)\ncost: ~25 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"1082c7e4-216d-4a5e-ae0a-de5d446e250e\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/1082c7e4-216d-4a5e-ae0a-de5d446e250e/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+    },
+    {
+      "id": "rose-velvet",
+      "job_id": "b731f329-d32a-40ac-b21d-d0bd8865f556",
+      "receipt": "id: b731f329-d32a-40ac-b21d-d0bd8865f556\njob_id: b731f329-d32a-40ac-b21d-d0bd8865f556\nmode: text\nframes: 1\nsize: 192x352px\ntransparent: True\nedit: Remove the unwanted dragon / creature / animal behind the ribbon completely. Keep ONLY the long central award ribbon and its metal top crown and bottom fitting, exactly the same style and proportions. Reconstruct any hidden fabric edges. All space outside that single ribbon must be fully transparent. No creatures, figures, objects, scenery or other ornaments behind or beside the ribbon. Keep the entire ribbon with clear transparent margins.\nasset_id: cf3142c3-5abd-5777-a35a-aa4e05270cee\nasset_status: pending (saved when generation completes)\ncost: ~25 generations\nstatus: processing (~30-90s)\n\nhint: get_image(job_id=\"b731f329-d32a-40ac-b21d-d0bd8865f556\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/b731f329-d32a-40ac-b21d-d0bd8865f556/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+    }
+  ],
+  "final_replacements": {
+    "moon-silk": {
+      "job_id": "4fc759a6-7fc1-48b9-b249-e5d65532eb53",
+      "pixel_tool_id": "d0d3324b-2cad-4168-9f21-db3ad245b89c",
+      "note": "Removed unwanted footwear exactly using PixelLab workbench, copied clean fabric and drew bottom silver fitting; no creatures remain."
+    },
+    "rose-velvet": {
+      "job_id": "30b84ed2-ea44-4cc9-a05c-b3a2117a0b23"
+    },
+    "amber-braid": {
+      "job_id": "ecf5a78e-a211-4ecd-9733-c7812dff5c17"
+    }
+  }
+}
