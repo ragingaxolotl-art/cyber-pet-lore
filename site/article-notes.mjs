@@ -1,3 +1,4 @@
+import {mountComments} from './comments.mjs';
 import {attachTagSuggestions} from './tag-suggestions.mjs';
 import {STORAGE_KEY,emptyState,validateState,mergeStates} from './records.mjs';
 import {paintHighlights} from './highlight-dom.mjs';
@@ -62,7 +63,7 @@ function create(edit){
 function openEditor(mount,id){const h=record(mount.id).highlights.find(h=>h.id===id);if(!h)return;dialog.edit={mount,id};quote.textContent=h.segments.map(s=>s.quote).join('\n');noteInput.value=h.note;tagsInput.value=(h.tags||[]).join(', ');dialog.showModal();noteInput.focus();}
 export function mountArticleNotes(root,{id,title,era=[],href}){
  setup();if(pending?.mount.root===root){pending=null;toolbar.hidden=true;}for(const old of mounts)if(old.root===root||!old.root.isConnected)mounts.delete(old);
- root.querySelectorAll(':scope > .article-highlight-notes').forEach(el=>el.remove());
+ root.querySelectorAll(':scope > .article-highlight-notes, :scope > .lore-comments').forEach(el=>el.remove());
  const selectors='p,blockquote,li,h1,h2,h3,h4,td,dd,dt',seen=new Map();
  const blocks=[...root.querySelectorAll(selectors)].filter(el=>!el.querySelector(selectors)&&!el.closest('nav,button,label,.article-highlight-notes')&&el.textContent.trim()).map(el=>{const key=textKey(el.tagName+'\n'+el.textContent),n=seen.get(key)||0;seen.set(key,n+1);return {el,id:'text-'+key+'-'+n};});
  const details=node('details');details.className='article-highlight-notes';const summary=node('summary'),list=node('div');details.append(summary,node('p','Select article text to highlight it or add a note and tags. Links stay clickable.'),list);root.append(details);
@@ -72,5 +73,6 @@ export function mountArticleNotes(root,{id,title,era=[],href}){
   renderNotes(){mount.refreshCount();list.replaceChildren();for(const h of record(id).highlights){const card=node('section');card.className='article-highlight-card';card.append(node('strong',h.context?.storyTitle||title),node('p',(h.createdAt?new Date(h.createdAt).toLocaleDateString():'Date not recorded')+' · '+(h.context?.era?.length?h.context.era.map(e=>'Era '+e).join(', '):'Era unspecified')),node('blockquote',h.segments.map(s=>s.quote).join('\n')));if(h.note)card.append(node('p',h.note));if(h.tags?.length)card.append(node('p',h.tags.join(', ')));const edit=node('button','Edit note & tags');edit.onclick=()=>openEditor(mount,h.id);const remove=node('button','Remove highlight');remove.onclick=()=>{persist(id,items=>items.filter(item=>item.id!==h.id));mount.renderNotes();};card.append(edit,remove);list.append(card);}}
  };mounts.add(mount);mount.paint();mount.renderNotes();
  const requested=new URLSearchParams(location.search).get('highlight');if(requested&&record(id).highlights.some(h=>h.id===requested))requestAnimationFrame(()=>{const mark=[...root.querySelectorAll('mark[data-highlight]')].find(m=>m.dataset.highlight===requested);if(mark){for(let p=mark.parentElement;p&&p!==root;p=p.parentElement)if(p.tagName==='DETAILS')p.open=true;mark.scrollIntoView({block:'center'});}else{details.open=true;details.scrollIntoView({block:'center'});}});
+ const discussion=node('section');root.append(discussion);mountComments(discussion,{id,title});
  return mount;
 }

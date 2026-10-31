@@ -180,3 +180,6 @@ runpy.run_path(str(ROOT/"tools/build_story_illustrations.py"))
 
 # Keep generated planning pages and the archive navigation consistent.
 runpy.run_path(str(Path(__file__).resolve().parent / "build_navigation.py"),run_name="__main__")
+
+# Feedback belongs to each reading without changing source paragraph anchors.
+runpy.run_path(str(ROOT/"tools/build_comments.py"),run_name="__main__")

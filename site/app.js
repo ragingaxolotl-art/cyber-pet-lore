@@ -1,3 +1,4 @@
+import {mountComments} from './comments.mjs';
 import {appendEditorialHighlights} from './editorial-highlights.mjs';
 import {renderReferenceArt,clearReferenceArt} from './reference-art.mjs';
 import {renderLocationIllnesses} from './location-illnesses.mjs';
@@ -135,6 +136,7 @@ function renderHighlights(){
 }
 async function openReading(id,anchor=null){
  const seq=++routeSequence,e=byId.get(id);if(!e){location.hash='';return;}hideSelection();clearReferenceArt();current=e;$('library').hidden=true;$('notebook').hidden=true;$('reader').hidden=false;$('reader-title').textContent=e.title;$('reader-kind').textContent=e.kind;$('reader-summary').textContent=e.summary||'';if(e.id==='stories-p11382'||e.id==='corrected-child-part-two-p00000'){const next=node('a',e.id==='stories-p11382'?' Continue to Part Two →':' ← Read Part One');next.href=e.id==='stories-p11382'?'#read=corrected-child-part-two-p00000':'#read=stories-p11382';$('reader-summary').append(' ',next);const guide=node('a',' Highlighted characters & places →');guide.href='#read=corrected-child-register';$('reader-summary').append(' · ',guide);}$('reading-text').replaceChildren(node('p','Opening this reading…','loading'));$('reader-meta').replaceChildren();for(const value of [e.timeLabel,e.status,`${(e.wordCount||0).toLocaleString()} words`].filter(Boolean))$('reader-meta').append(node('span',value));$('reader-read').checked=record(id).read;$('finish-read').textContent=record(id).read?'✓ Read':'✓ Mark as read';$('reading-note').value=record(id).note;$('reading-tags').value=record(id).tags.join(', ');$('original-source').href=e.source?.url||'#';$('original-source').hidden=true;
+ mountComments($('reader-comments'),{id:e.id,title:e.title});
  renderConnections(e);
  renderContinuityNotes($('reader-continuity'),wikiData?.readingNotes?.[e.id]||[]);
  renderLocationArt($('reader-art'),wikiData?.readingImages?.[e.id]||[]);
