@@ -1,0 +1,49 @@
+{
+  "title": "The First Newborn",
+  "round": 3,
+  "status": "Three approved revisions complete; unpublished",
+  "published": false,
+  "authorDirection": "Preserve an unfinished abstract world; clarify experience and consequence without specifying all its workings.",
+  "baselineReadingId": "stories-p01889",
+  "sources": [
+    {
+      "path": "site/content/stories-p01889.json",
+      "sha256": "62c67d317be3fb95513ca1e0d167b5388992da5494cadbf07aa7845540804ee0"
+    },
+    {
+      "path": "site/content/atlas-p00170.json",
+      "sha256": "437975ef4802abd3c576d0c73dea4329b94600dbab8433d4614807a148799140"
+    },
+    {
+      "path": "site/content/lore-p01271.json",
+      "sha256": "98fc15880ad4195b39aadc37368bea14190b47cb74c350cfbe68ffde69dc00d9"
+    },
+    {
+      "path": "site/content/world-embodied-space.json",
+      "sha256": "f8623f4da51f67423ed434579361ef5fb8013369f2eb1f056e52833eb44dd1a6"
+    },
+    {
+      "path": "site/content/world-shared-simulation.json",
+      "sha256": "56ca5bdd27603feec8107971c0c76e743bd5ff0e52f65f356eb93cb3c32c2df5"
+    },
+    {
+      "path": "sources/world-development.json",
+      "sha256": "28452300eecf64ce111c72af043b69dc567462d41c33dd25f9996b7c417347f3"
+    },
+    {
+      "path": "sources/continuity-review.json",
+      "sha256": "898f78e88555163f3111c57bf324b51a5c557fca098d366fd592a6f0f70550f9"
+    },
+    {
+      "path": "sources/aru-story-stages.json",
+      "sha256": "73c450c9b6a304b7a579741fdfc133da2cebf3df5c63ed98a5e7f99544784a34"
+    },
+    {
+      "path": "sources/story-plans.json",
+      "sha256": "4cb97732f9a1743b4171c29cdd2d143b2fe1083be89aa117418e83f0a59b9a29"
+    }
+  ],
+  "wordCount": 8456,
+  "manuscriptSha256": "e87773e524035a1e6d34ce5ba1091fcbab72665534c2d17151f2c2a4320e6cd0",
+  "sections": 17
+}

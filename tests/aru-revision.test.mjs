@@ -1,0 +1,20 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+const root=new URL('../',import.meta.url);
+const read=p=>fs.readFileSync(new URL(p,root),'utf8');
+const data=p=>JSON.parse(read(p));
+test('Aru revision publishes the exact approved manuscript and leaves original anchors intact',()=>{
+ const checks=data('sources/aru-first-newborn-revised/source-checks.json');
+ assert.equal(createHash('sha256').update(read('site/aru/manuscript.md')).digest('hex'),checks.manuscriptSha256);
+ const blocks=data('site/content/aru-first-newborn-revised.json').blocks;
+ const expected=read('site/aru/manuscript.md').trim().split(/\n\s*\n/).map(t=>t.replace(/^#{1,6} /,''));
+ assert.deepEqual(blocks.map(b=>b.text),expected);
+ const catalog=data('site/catalog.json');
+ assert.equal(catalog.entries.find(e=>e.id==='aru-first-newborn-revised').kind,'Story');
+ assert.equal(catalog.entries.find(e=>e.id==='stories-p01889').status,'superseded');
+ assert.ok(catalog.entries.find(e=>e.id==='stories-p01889').connections.some(c=>c.id==='aru-first-newborn-revised'));
+ assert.match(read('site/app.js'),/mountComments/);
+ assert.match(read('site/app.js'),/Read the finished revised edition/);
+});

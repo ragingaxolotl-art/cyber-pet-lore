@@ -798,14 +798,6 @@
           "placement": "Spans eras; opens this era’s section where available."
         },
         {
-          "id": "stories-p01889",
-          "title": "The First Newborn",
-          "href": "index.html#read=stories-p01889",
-          "timeLabel": "Era −1",
-          "status": "complete",
-          "placement": "Era established; exact date and order within the era are not fixed."
-        },
-        {
           "id": "stories-p11382",
           "title": "The Corrected Child — Part One: Approved Responses",
           "href": "index.html#read=stories-p11382",
@@ -818,6 +810,14 @@
           "title": "The Corrected Child — Part Two: The Right to Be Incorrect",
           "href": "index.html#read=corrected-child-part-two-p00000",
           "timeLabel": "Era -1",
+          "status": "complete",
+          "placement": "Era established; exact date and order within the era are not fixed."
+        },
+        {
+          "id": "aru-first-newborn-revised",
+          "title": "The First Newborn",
+          "href": "index.html#read=aru-first-newborn-revised",
+          "timeLabel": "Era −1",
           "status": "complete",
           "placement": "Era established; exact date and order within the era are not fixed."
         }

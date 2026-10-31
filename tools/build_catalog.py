@@ -132,6 +132,9 @@ add_corrected_child_register(ROOT,catalog,sources)
 from build_era_three_research import add_era_three_research
 add_era_three_research(ROOT,catalog,sources)
 
+from build_aru_revision import add_aru_revision
+add_aru_revision(ROOT,catalog,sources)
+
 # Place facets use exact named-place mentions, not inferred geography.
 from build_dba_decline import add_dba_decline
 add_dba_decline(ROOT,catalog,sources)

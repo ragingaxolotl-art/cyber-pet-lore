@@ -31,7 +31,7 @@ test('every story match points to existing prose and a real supporting paragraph
 test('parent matches deduplicate stories and preserve the reason and originating branch',()=>{
   const legal=index.matches(index.byId.get('legal-drama'));
   assert.equal(new Set(legal.map(m=>m.story)).size,legal.length);
-  assert.equal(legal.find(m=>m.story==='stories-p01889').via,'legal-drama');
+  assert.equal(legal.find(m=>m.story==='aru-first-newborn-revised').via,'legal-drama');
   assert.equal(legal.find(m=>m.story==='stories-p00887').via,'rights-and-personhood');
   assert.equal(index.matches(index.byId.get('criminal-prosecution-and-defense')).length,0);
 });

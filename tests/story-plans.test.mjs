@@ -37,7 +37,7 @@ test('sequel publication status and incomplete source fragments remain distinct'
  for(const v of variants.filter(v=>v.partial))assert.equal(v.status,'Incomplete source fragment');
  for(const g of archive.groups.filter(g=>g.title.startsWith('The Quiet One’s Human')))assert.ok(g.reading);
  const catalog=JSON.parse(fs.readFileSync('site/catalog.json','utf8'));
- assert.equal(catalog.counts.Story,15);assert.equal(catalog.entries.filter(e=>e.kind==='Draft'&&!['custodian-who-refused','custodian-who-refused-revised'].includes(e.id)).length,20);
+ assert.equal(catalog.counts.Story,15);assert.equal(catalog.entries.filter(e=>e.kind==='Draft'&&!['custodian-who-refused','custodian-who-refused-revised'].includes(e.id)).length,21);
  assert.equal(catalog.entries.find(e=>e.id==='custodian-who-refused')?.status,'draft');
  assert.equal(catalog.entries.find(e=>e.id==='custodian-who-refused-revised')?.status,'draft');
  assert.ok(!catalog.entries.some(e=>e.id.startsWith('outline-')));

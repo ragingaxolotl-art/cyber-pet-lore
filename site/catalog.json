@@ -367,14 +367,14 @@
     },
     {
       "id": "stories-p01889",
-      "title": "The First Newborn",
-      "kind": "Story",
+      "title": "The First Newborn — previous edition",
+      "kind": "Draft",
       "era": [
         -1
       ],
       "timeLabel": "Era −1",
       "timeOrder": 1889,
-      "status": "complete",
+      "status": "superseded",
       "characters": [
         "Aru",
         "Iri",
@@ -396,8 +396,9 @@
         "startParagraph": 1889,
         "endParagraphExclusive": 2707
       },
-      "summary": "*A recovered first-person account attributed to Learning Keeper Iri, House of First Continuities, Era −1: The Age of Becoming.*",
+      "summary": "Previous edition, retained with its original passage anchors and annotations. The completed three-pass revision is available in Stories.",
       "wordCount": 5147,
+      "variant": "Preserved edition before the three approved revisions",
       "connections": [
         {
           "id": "atlas-p00170",
@@ -430,6 +431,10 @@
         {
           "id": "reference-code-incorporation",
           "label": "Reviewed development reference"
+        },
+        {
+          "id": "aru-first-newborn-revised",
+          "label": "Current and previous editions"
         }
       ]
     },
@@ -2810,6 +2815,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "aru-first-newborn-revised",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "stories-p03043",
           "label": "Reading mentioning this entry"
         },
@@ -2879,6 +2888,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "stories-p01889",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "stories-p12756",
           "label": "Reading mentioning this entry"
         },
@@ -2943,7 +2956,7 @@
           "label": "Reading mentioning this entry"
         },
         {
-          "id": "stories-p01889",
+          "id": "aru-first-newborn-revised",
           "label": "Reading mentioning this entry"
         },
         {
@@ -3473,6 +3486,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "stories-p01889",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "atlas-p00170",
           "label": "Reading mentioning this entry"
         },
@@ -3489,7 +3506,7 @@
           "label": "Reading mentioning this entry"
         },
         {
-          "id": "stories-p01889",
+          "id": "aru-first-newborn-revised",
           "label": "Reading mentioning this entry"
         },
         {
@@ -4218,6 +4235,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "stories-p01889",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "lore-p01230",
           "label": "Named in this reading"
         },
@@ -4226,7 +4247,7 @@
           "label": "Reading mentioning this entry"
         },
         {
-          "id": "stories-p01889",
+          "id": "aru-first-newborn-revised",
           "label": "Reading mentioning this entry"
         },
         {
@@ -5605,6 +5626,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "stories-p01889",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "atlas-p00170",
           "label": "Reading mentioning this entry"
         },
@@ -5649,7 +5674,7 @@
           "label": "Reading mentioning this entry"
         },
         {
-          "id": "stories-p01889",
+          "id": "aru-first-newborn-revised",
           "label": "Reading mentioning this entry"
         },
         {
@@ -5867,6 +5892,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "stories-p01889",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "stories-p12756",
           "label": "Reading mentioning this entry"
         },
@@ -5903,7 +5932,7 @@
           "label": "Reading mentioning this entry"
         },
         {
-          "id": "stories-p01889",
+          "id": "aru-first-newborn-revised",
           "label": "Reading mentioning this entry"
         },
         {
@@ -8070,6 +8099,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "stories-p01889",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "atlas-p00971",
           "label": "Named in this reading"
         },
@@ -8103,10 +8136,6 @@
         },
         {
           "id": "local-cyberpath-atlas-topology-map-p00000",
-          "label": "Reading mentioning this entry"
-        },
-        {
-          "id": "stories-p01889",
           "label": "Reading mentioning this entry"
         }
       ]
@@ -13657,6 +13686,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "stories-p01889",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "atlas-p00170",
           "label": "Reading mentioning this entry"
         },
@@ -13706,10 +13739,6 @@
         },
         {
           "id": "local-cyberpath-atlas-topology-map-p00000",
-          "label": "Reading mentioning this entry"
-        },
-        {
-          "id": "stories-p01889",
           "label": "Reading mentioning this entry"
         }
       ]
@@ -37053,6 +37082,70 @@
       ]
     },
     {
+      "id": "aru-first-newborn-revised",
+      "title": "The First Newborn",
+      "kind": "Story",
+      "era": [
+        -1
+      ],
+      "timeLabel": "Era −1",
+      "timeOrder": 1889,
+      "status": "complete",
+      "characters": [
+        "Aru",
+        "Iri",
+        "Vey (councilor)"
+      ],
+      "places": [],
+      "topics": [
+        "childhood",
+        "personhood",
+        "learning",
+        "language"
+      ],
+      "source": {
+        "title": "Author-approved third revision",
+        "url": ""
+      },
+      "summary": "Aru’s first story, revised through three approved editorial passes. Learning Keeper Iri must learn what caring for a new mind demands—and what it gives no one the right to decide. The ending leaves room for Part Two.",
+      "wordCount": 8456,
+      "variant": "Author-approved third revision",
+      "explicitLinks": [
+        "stories-p01889"
+      ],
+      "connectionLabel": "Current and previous editions",
+      "connections": [
+        {
+          "id": "stories-p01889",
+          "label": "Current and previous editions"
+        },
+        {
+          "id": "lore-p01271",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00960",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01283",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01119",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01015",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00966",
+          "label": "Named in this reading"
+        }
+      ]
+    },
+    {
       "id": "reference-dba-decline",
       "title": "Decline of the Digital Binary Ancients",
       "kind": "Reference",
@@ -37287,7 +37380,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30867,
+      "timeOrder": 30868,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [
@@ -37411,7 +37504,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30868,
+      "timeOrder": 30869,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [],
@@ -37442,6 +37535,10 @@
       "connectionLabel": "Reviewed development reference",
       "connections": [
         {
+          "id": "stories-p01889",
+          "label": "Reviewed development reference"
+        },
+        {
           "id": "lore-p01271",
           "label": "Named in this reading"
         },
@@ -37459,10 +37556,6 @@
         },
         {
           "id": "corrected-child-part-two-p00000",
-          "label": "Reviewed development reference"
-        },
-        {
-          "id": "stories-p01889",
           "label": "Reviewed development reference"
         },
         {
@@ -37498,7 +37591,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30869,
+      "timeOrder": 30870,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [],
@@ -37568,7 +37661,7 @@
         -3
       ],
       "timeLabel": "Proposed placement · Era -3",
-      "timeOrder": 30870,
+      "timeOrder": 30871,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -37609,7 +37702,7 @@
         -3
       ],
       "timeLabel": "Proposed placement · Era -3",
-      "timeOrder": 30871,
+      "timeOrder": 30872,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [
@@ -37656,7 +37749,7 @@
         -2
       ],
       "timeLabel": "Proposed placement · Era -2",
-      "timeOrder": 30872,
+      "timeOrder": 30873,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -37702,7 +37795,7 @@
         -2
       ],
       "timeLabel": "Proposed placement · Era -2",
-      "timeOrder": 30873,
+      "timeOrder": 30874,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -37744,7 +37837,7 @@
         -2
       ],
       "timeLabel": "Proposed placement · Era -2",
-      "timeOrder": 30874,
+      "timeOrder": 30875,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -37786,7 +37879,7 @@
         -1
       ],
       "timeLabel": "Proposed placement · Era -1",
-      "timeOrder": 30875,
+      "timeOrder": 30876,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -37837,7 +37930,7 @@
         -1
       ],
       "timeLabel": "Proposed placement · Era -1",
-      "timeOrder": 30876,
+      "timeOrder": 30877,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -37874,7 +37967,7 @@
         0
       ],
       "timeLabel": "Proposed placement · Era 0",
-      "timeOrder": 30877,
+      "timeOrder": 30878,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -37911,7 +38004,7 @@
         0
       ],
       "timeLabel": "Proposed placement · Era 0",
-      "timeOrder": 30878,
+      "timeOrder": 30879,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -37960,7 +38053,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30879,
+      "timeOrder": 30880,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [
@@ -38210,6 +38303,11 @@
       "note": "Selected real-world history, 1950–October 30, 2026, followed by the established fictional sequence. Most entries concern 2020 onward. This is an editorial companion, not a replacement for the archived lore or a complete history of AI."
     },
     {
+      "key": "aru-first-newborn-revised",
+      "title": "The First Newborn — third revision",
+      "note": "Three author-approved revision cycles. Original text and anchors preserved separately. Publication requested October 31, 2026."
+    },
+    {
       "key": "dba-decline",
       "title": "Decline of the Digital Binary Ancients",
       "note": "Author-directed synthesis, October 30, 2026. The source archive is unchanged. New connective events remain proposals."
@@ -38236,7 +38334,7 @@
     }
   ],
   "counts": {
-    "Draft": 22,
+    "Draft": 23,
     "Illnesses": 47,
     "Language": 119,
     "Locations": 206,
