@@ -1,0 +1,1239 @@
+{
+  "version": 1,
+  "library": "ornate-v1",
+  "canvas": [
+    512,
+    640
+  ],
+  "parts": [
+    {
+      "id": "moon-silk",
+      "name": "Moon silk",
+      "kind": "ribbon",
+      "file": "parts/moon-silk.png",
+      "bounds": [
+        71,
+        34,
+        121,
+        292
+      ],
+      "width": 56,
+      "height": 288,
+      "x": 256,
+      "y": 70,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "8e41355e-e001-4474-acb8-828f8ebfd31a",
+        "prompt": "ONE complete standalone modular award ribbon part: silver filigree top bar with crescent engraving, deep indigo satin single long tapering ribbon, tiny bottom attachment ring. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. This part will be layered with separate components.",
+        "final": {
+          "job_id": "4fc759a6-7fc1-48b9-b249-e5d65532eb53",
+          "pixel_tool_id": "d0d3324b-2cad-4168-9f21-db3ad245b89c",
+          "note": "Removed unwanted footwear exactly using PixelLab workbench, copied clean fabric and drew bottom silver fitting; no creatures remain."
+        }
+      },
+      "sha256": "007e2c18d8279d0f9db6eedf3a33b7e7279255b40d89e281192ae64093e9244d",
+      "original_size": [
+        192,
+        352
+      ]
+    },
+    {
+      "id": "verdigris",
+      "name": "Verdigris weave",
+      "kind": "ribbon",
+      "file": "parts/verdigris.png",
+      "bounds": [
+        33,
+        9,
+        159,
+        352
+      ],
+      "width": 106,
+      "height": 288,
+      "x": 256,
+      "y": 70,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "1199d049-b0a1-43cb-aa63-6e8e1a9c9eea",
+        "prompt": "ONE complete standalone modular award ribbon part: antique copper filigree crown bar, emerald woven ribbon with a central chevron fold, small bottom attachment ring. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. This part will be layered with separate components.",
+        "final": {
+          "job_id": "f23a711e-cbb9-4cfb-ae3d-046641d6deab"
+        }
+      },
+      "sha256": "f790c5bc2f57943d635f8e29d4fa4e5b2c5b5ce4f089ecbecb5229b11061711d",
+      "original_size": [
+        224,
+        384
+      ]
+    },
+    {
+      "id": "rose-velvet",
+      "name": "Rose velvet",
+      "kind": "ribbon",
+      "file": "parts/rose-velvet.png",
+      "bounds": [
+        64,
+        8,
+        127,
+        343
+      ],
+      "width": 54,
+      "height": 288,
+      "x": 256,
+      "y": 70,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "0b9bc569-4c3d-4ca6-94ad-975f153d9ae3",
+        "prompt": "ONE complete standalone modular award ribbon part: rose-gold art nouveau top bar, wine-red velvet ribbon, elegant scalloped bottom fitting and small attachment ring. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. This part will be layered with separate components.",
+        "final": {
+          "job_id": "30b84ed2-ea44-4cc9-a05c-b3a2117a0b23"
+        }
+      },
+      "sha256": "054cb3881e43cdb2c3ccea1aeb596da76b4f3a255b7540f297791438e07391f8",
+      "original_size": [
+        192,
+        352
+      ]
+    },
+    {
+      "id": "ivory-laurel",
+      "name": "Ivory laurel",
+      "kind": "ribbon",
+      "file": "parts/ivory-laurel.png",
+      "bounds": [
+        29,
+        31,
+        163,
+        309
+      ],
+      "width": 139,
+      "height": 288,
+      "x": 256,
+      "y": 70,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "cb28a067-f54c-4452-8c8e-101d380631c1",
+        "prompt": "ONE complete standalone modular award ribbon part: pale gold laurel top bar, ivory silk with blue embroidered edge, swallowtail bottom and tiny attachment ring. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. This part will be layered with separate components."
+      },
+      "sha256": "7b928904a4ff681c524c654b77a5a587e87a070d9a70b6591c9add5d08da1202",
+      "original_size": [
+        192,
+        352
+      ]
+    },
+    {
+      "id": "storm-satin",
+      "name": "Storm satin",
+      "kind": "ribbon",
+      "file": "parts/storm-satin.png",
+      "bounds": [
+        16,
+        0,
+        176,
+        368
+      ],
+      "width": 125,
+      "height": 288,
+      "x": 256,
+      "y": 70,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "d50d4cca-aee7-4532-bdc5-0e0bd0a71180",
+        "prompt": "ONE complete standalone modular award ribbon part: dark gunmetal geometric top bar, steel-blue satin with silver edge, narrow shield-point hem and attachment ring. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. ",
+        "final": {
+          "job_id": "2bfd9fe4-d120-4c49-b764-bf15c487d36e"
+        }
+      },
+      "sha256": "c7e05b2c897b91c8d7f9567ec6af73b27abeda088db53393a673cdaaa62de945",
+      "original_size": [
+        224,
+        384
+      ]
+    },
+    {
+      "id": "amber-braid",
+      "name": "Amber braid",
+      "kind": "ribbon",
+      "file": "parts/amber-braid.png",
+      "bounds": [
+        18,
+        0,
+        174,
+        365
+      ],
+      "width": 123,
+      "height": 288,
+      "x": 256,
+      "y": 70,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "9b5fe479-5488-453f-a4b9-d7317e0bca35",
+        "prompt": "ONE complete standalone modular award ribbon part: warm bronze knotwork top bar, amber satin with a braided central pattern, small bottom attachment ring. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. ",
+        "final": {
+          "job_id": "ecf5a78e-a211-4ecd-9733-c7812dff5c17"
+        }
+      },
+      "sha256": "8211cfa7559219e6a6192d6a0de43ec326fdba6789939380eece0d1a2e6f7b0d",
+      "original_size": [
+        224,
+        384
+      ]
+    },
+    {
+      "id": "moon-medallion",
+      "name": "Moon medallion",
+      "kind": "medal",
+      "file": "parts/moon-medallion.png",
+      "bounds": [
+        2,
+        0,
+        190,
+        252
+      ],
+      "width": 137,
+      "height": 184,
+      "x": 256,
+      "y": 350,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "4ab9164a-b8b2-47f0-bd22-2d39651de920",
+        "prompt": "ONE complete standalone modular award medal part: round silver medallion, crescent embracing blue moonstone, delicate open filigree, a small bail at top. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. Medallion only, no ribbon fabric.",
+        "final": {
+          "job_id": "db551d58-3722-4f13-b35e-fa4d6429e437"
+        }
+      },
+      "sha256": "fd916e4d655799003a1cf77b8944edb6da75766406bdf3c63e36c4dd50a6527f",
+      "original_size": [
+        224,
+        256
+      ]
+    },
+    {
+      "id": "oak-shield",
+      "name": "Oak shield",
+      "kind": "medal",
+      "file": "parts/oak-shield.png",
+      "bounds": [
+        11,
+        0,
+        181,
+        237
+      ],
+      "width": 132,
+      "height": 184,
+      "x": 256,
+      "y": 350,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "13d8ee31-3e81-49e6-ba87-1e5e556f6b13",
+        "prompt": "ONE complete standalone modular award medal part: antique bronze shield medal with raised oak leaves and green gem, a small bail at top. Match reference's ornate highly detailed fantasy pixel art, crisp small pixels, front-on symmetrical view, upper-left lighting. Transparent background. Centered with at least 16 pixels of clear margin, entire item visible. Same visual pixel scale as reference. NO text, no labels, no background, no finished combined award. Medallion only, no ribbon fabric.",
+        "final": {
+          "job_id": "7c9c3802-8f30-4710-bef2-4c1530a3888e"
+        }
+      },
+      "sha256": "d43bed8dc42c7dcc3d6f63e4ba1fbf7e5a8b545c29a3b6177a838173178d1039",
+      "original_size": [
+        224,
+        256
+      ]
+    },
+    {
+      "id": "rose-heart",
+      "name": "Rose heart",
+      "kind": "medal",
+      "file": "parts/rose-heart.png",
+      "bounds": [
+        0,
+        0,
+        218,
+        233
+      ],
+      "width": 172,
+      "height": 184,
+      "x": 256,
+      "y": 350,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "e73e8c63-17bc-4439-a197-11e70984c91c",
+        "prompt": "ONE complete standalone modular award medal part: rose gold heart-shaped medal, rose and pink gemstone centerpiece, a small bail at top. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, no attached hanging ribbon.",
+        "final": {
+          "job_id": "947436ec-0fec-4216-95cf-910ca895d8da"
+        }
+      },
+      "sha256": "f067d1750586f9a00beffc1261add8525f1b90b5b6faa7ceba6d42cad711c4b4",
+      "original_size": [
+        224,
+        256
+      ]
+    },
+    {
+      "id": "compass-star",
+      "name": "Compass star",
+      "kind": "medal",
+      "file": "parts/compass-star.png",
+      "bounds": [
+        0,
+        0,
+        220,
+        256
+      ],
+      "width": 158,
+      "height": 184,
+      "x": 256,
+      "y": 350,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "0e40208a-078d-4cff-90e1-fa0e9addb738",
+        "prompt": "ONE complete standalone modular award medal part: eight-point gold compass star medal, turquoise jewel and openwork arcs, a small bail at top. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, no attached hanging ribbon.",
+        "final": {
+          "job_id": "05996ef0-9c2a-4cca-8867-91c355c4b65f"
+        }
+      },
+      "sha256": "041c3d19a7e6aa4a5fa5c462ae0ece6bf02c0204f8402270ceb658184051c223",
+      "original_size": [
+        224,
+        256
+      ]
+    },
+    {
+      "id": "crystal-drop",
+      "name": "Crystal drop",
+      "kind": "medal",
+      "file": "parts/crystal-drop.png",
+      "bounds": [
+        18,
+        0,
+        174,
+        232
+      ],
+      "width": 124,
+      "height": 184,
+      "x": 256,
+      "y": 350,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "b1e96596-cb37-4043-951c-4e5ed87508a3",
+        "prompt": "ONE complete standalone modular award medal part: platinum teardrop medal, lavender faceted crystal and fine scrollwork, a small bail at top. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.",
+        "final": {
+          "job_id": "d73ff4e8-5053-43b5-8a4f-dfd3aee2ae8c"
+        }
+      },
+      "sha256": "f790165e708c9b62135fa2c07489e41348f275aa15fc43d3fb5fdcd4e7781a92",
+      "original_size": [
+        224,
+        256
+      ]
+    },
+    {
+      "id": "winged-sun",
+      "name": "Winged sun",
+      "kind": "medal",
+      "file": "parts/winged-sun.png",
+      "bounds": [
+        0,
+        0,
+        216,
+        249
+      ],
+      "width": 160,
+      "height": 184,
+      "x": 256,
+      "y": 350,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "b9e0c406-1900-4185-bd09-59c826556187",
+        "prompt": "ONE complete standalone modular award medal part: copper sun disk medal with symmetrical small wing-like flares and amber center, a small bail at top. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award.",
+        "final": {
+          "job_id": "48298c54-0da9-4b48-a01d-136f42eed98a"
+        }
+      },
+      "sha256": "404fabb501cecc12fb4584d490dddd238cd969448189043378693dd6e50d05bc",
+      "original_size": [
+        224,
+        256
+      ]
+    },
+    {
+      "id": "pleated-rosette",
+      "name": "Pleated rosette",
+      "kind": "rosette",
+      "file": "parts/pleated-rosette.png",
+      "bounds": [
+        19,
+        20,
+        173,
+        173
+      ],
+      "width": 153,
+      "height": 152,
+      "x": 256,
+      "y": 35,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "4db2f133-8b62-4d15-b388-d70ef4295213",
+        "prompt": "ONE complete standalone modular award rosette part: circular navy pleated silk rosette head with silver ornamental center ring and blue gem, no tails. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award."
+      },
+      "sha256": "e509e158b6c64d15e13fc16bb639970ef61c30e8e8b6aeb1a1ff94d32ff8c4d8",
+      "original_size": [
+        192,
+        192
+      ]
+    },
+    {
+      "id": "petal-rosette",
+      "name": "Petal rosette",
+      "kind": "rosette",
+      "file": "parts/petal-rosette.png",
+      "bounds": [
+        7,
+        7,
+        185,
+        185
+      ],
+      "width": 152,
+      "height": 152,
+      "x": 256,
+      "y": 35,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "4d660f67-1502-4c9c-90cc-7f7cbd0c7267",
+        "prompt": "ONE complete standalone modular award rosette part: layered rose pink petal-shaped satin rosette head with rose-gold center ring and pearl, no tails. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award."
+      },
+      "sha256": "925bb8138ee4847b4af6c4ff44e411880aed7840bff9762a9fd2ac9e072db6be",
+      "original_size": [
+        192,
+        192
+      ]
+    },
+    {
+      "id": "sunburst-rosette",
+      "name": "Sunburst rosette",
+      "kind": "rosette",
+      "file": "parts/sunburst-rosette.png",
+      "bounds": [
+        15,
+        13,
+        178,
+        180
+      ],
+      "width": 148,
+      "height": 152,
+      "x": 256,
+      "y": 35,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "0b4ce7ff-6110-4345-a9d6-5bde9eafc024",
+        "prompt": "ONE complete standalone modular award rosette part: sharp golden sunburst radial rosette head with dark red center jewel, no tails. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award."
+      },
+      "sha256": "64f5ed65f4b61f45b5be75a3fbf0652ef05dad54072897c14cbf13e1ff218140",
+      "original_size": [
+        192,
+        192
+      ]
+    },
+    {
+      "id": "laurel-rosette",
+      "name": "Laurel rosette",
+      "kind": "rosette",
+      "file": "parts/laurel-rosette.png",
+      "bounds": [
+        11,
+        10,
+        181,
+        180
+      ],
+      "width": 152,
+      "height": 152,
+      "x": 256,
+      "y": 35,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "27302ae4-533b-4efe-bde3-cc6e9b38b20f",
+        "prompt": "ONE complete standalone modular award rosette part: green laurel wreath award head with bronze filigree center disk, no tails. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award."
+      },
+      "sha256": "7010282c7c2de092c6dad654c45492abbd0ea31e2c780bb9c812f83ce361d335",
+      "original_size": [
+        192,
+        192
+      ]
+    },
+    {
+      "id": "split-tails",
+      "name": "Split satin tails",
+      "kind": "accent",
+      "file": "parts/split-tails.png",
+      "bounds": [
+        24,
+        16,
+        232,
+        301
+      ],
+      "width": 210,
+      "height": 288,
+      "x": 256,
+      "y": 125,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "48c5b4d3-33fd-4d36-aaf0-dec20fb12d7e",
+        "prompt": "ONE complete standalone modular award accent part: a paired set of long blue satin award ribbon tails fanning downward, forked pointed hems, no medal and no rosette head. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award."
+      },
+      "sha256": "9d13e02b76628ce207cce15c480b79b7c08b9446e105bf20fbdd3a0b13e721a9",
+      "original_size": [
+        256,
+        320
+      ]
+    },
+    {
+      "id": "curled-tails",
+      "name": "Curled silk tails",
+      "kind": "accent",
+      "file": "parts/curled-tails.png",
+      "bounds": [
+        14,
+        51,
+        242,
+        270
+      ],
+      "width": 300,
+      "height": 288,
+      "x": 256,
+      "y": 125,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "9311ef61-5ccb-4f3c-bbfd-93ea3e5ab343",
+        "prompt": "ONE complete standalone modular award accent part: symmetrical pair of curled wine-red silk ribbon tails cascading downward, gold stitched edges, no medal and no rosette head. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award."
+      },
+      "sha256": "df802d2aff7eca46ea0a0e0aec49ae2b8eb449730aa96cd7010786596b091dc6",
+      "original_size": [
+        256,
+        320
+      ]
+    },
+    {
+      "id": "laurel-wings",
+      "name": "Laurel wings",
+      "kind": "accent",
+      "file": "parts/laurel-wings.png",
+      "bounds": [
+        3,
+        46,
+        253,
+        275
+      ],
+      "width": 240,
+      "height": 220,
+      "x": 256,
+      "y": 45,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "2009ac26-7f14-4f77-a8af-b1c4eaee67d9",
+        "prompt": "ONE complete standalone modular award accent part: a symmetrical pair of sweeping silver laurel branches forming an open U-shaped wreath, transparent center, no medallion or fabric. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award."
+      },
+      "sha256": "64233103f50cb1deafc6451c171dde45755b2dacddecc5ecc53c480d2201c745",
+      "original_size": [
+        256,
+        320
+      ]
+    },
+    {
+      "id": "chain-tassels",
+      "name": "Chain tassels",
+      "kind": "accent",
+      "file": "parts/chain-tassels.png",
+      "bounds": [
+        85,
+        29,
+        172,
+        286
+      ],
+      "width": 91,
+      "height": 270,
+      "x": 256,
+      "y": 125,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "f1a39e2e-c829-4a09-94ce-095a10b6df17",
+        "prompt": "ONE complete standalone modular award accent part: a symmetrical pair of delicate gold chains hanging vertically ending in tiny blue gemstone tassels, empty transparent center, no medallion or fabric. Match reference ornate highly detailed fantasy pixel art and crisp small pixels, front-on symmetrical, upper-left lighting. Transparent background, at least 16 pixel clear margins, whole item visible. Same pixel scale as reference. No text, no labels, no background. ONLY this separate part, not a finished combined award."
+      },
+      "sha256": "3fbcb82021651727fe853b784c52064fa9eaba86478286b4a40735caf8314dd0",
+      "original_size": [
+        256,
+        320
+      ]
+    },
+    {
+      "id": "copper-leaf",
+      "name": "Copper leaf clasp",
+      "kind": "clasp",
+      "file": "parts/copper-leaf.png",
+      "bounds": [
+        13,
+        13,
+        179,
+        52
+      ],
+      "width": 92,
+      "height": 22,
+      "x": 256,
+      "y": 165,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "1d417bf1-fa01-432c-95a1-1fccc444b3bf",
+        "prompt": "One separate horizontal ornamental award clasp bar: one horizontal copper clasp bar with small oak leaves and a central green gem. Match reference fine ornate fantasy pixel art, crisp highlights and shadows, front view. Wide thin bar, entire silhouette inside canvas with at least 12 pixels clear margins. Transparent background. No ribbon, no medal, no text."
+      },
+      "sha256": "2241cdd620d9f981127be85ddb156dd40d9dc67862523c8140edb0e10fe79325",
+      "original_size": [
+        192,
+        64
+      ]
+    },
+    {
+      "id": "platinum-moon",
+      "name": "Platinum moon clasp",
+      "kind": "clasp",
+      "file": "parts/platinum-moon.png",
+      "bounds": [
+        4,
+        9,
+        188,
+        57
+      ],
+      "width": 92,
+      "height": 24,
+      "x": 256,
+      "y": 165,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "7636a4a6-2bd1-4076-9a68-e720ba8b551d",
+        "prompt": "One separate horizontal ornamental award clasp bar: one horizontal platinum clasp bar with scrolling ends and a central crescent moon. Match reference fine ornate fantasy pixel art, crisp highlights and shadows, front view. Wide thin bar, entire silhouette inside canvas with at least 12 pixels clear margins. Transparent background. No ribbon, no medal, no text."
+      },
+      "sha256": "e893a0344ecf9a0e1a985401e37b87b45e3b4b6405a7c3336115800cc58e3b3a",
+      "original_size": [
+        192,
+        64
+      ]
+    },
+    {
+      "id": "bronze-knot",
+      "name": "Bronze knot clasp",
+      "kind": "clasp",
+      "file": "parts/bronze-knot.png",
+      "bounds": [
+        4,
+        9,
+        188,
+        60
+      ],
+      "width": 92,
+      "height": 26,
+      "x": 256,
+      "y": 165,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "337e20c8-48b2-4e96-a844-3a75ef51cf59",
+        "prompt": "One separate horizontal ornamental award clasp bar: one horizontal bronze clasp bar with Celtic-inspired interlaced geometry and no lettering. Match reference fine ornate fantasy pixel art, crisp highlights and shadows, front view. Wide thin bar, entire silhouette inside canvas with at least 12 pixels clear margins. Transparent background. No ribbon, no medal, no text."
+      },
+      "sha256": "710a7dd3f7cbf7a035f6e58bed34d78d6063ca46862a34a1efa70cd075d636e3",
+      "original_size": [
+        192,
+        64
+      ]
+    },
+    {
+      "id": "rose-crystal",
+      "name": "Rose crystal clasp",
+      "kind": "clasp",
+      "file": "parts/rose-crystal.png",
+      "bounds": [
+        10,
+        9,
+        182,
+        56
+      ],
+      "width": 92,
+      "height": 25,
+      "x": 256,
+      "y": 165,
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "ff27ce6f-ec40-491f-b543-426ed135e6a8",
+        "prompt": "One separate horizontal ornamental award clasp bar: one horizontal rose-gold clasp bar with three tiny pink crystals and curled ends. Match reference fine ornate fantasy pixel art, crisp highlights and shadows, front view. Wide thin bar, entire silhouette inside canvas with at least 12 pixels clear margins. Transparent background. No ribbon, no medal, no text."
+      },
+      "sha256": "ee3167da07ae3908a76f66df2f59ec577d8e094d907112172199ff32f9bedb3f",
+      "original_size": [
+        192,
+        64
+      ]
+    },
+    {
+      "id": "archive-01-aster-ribbon",
+      "name": "Aster Vault ribbon",
+      "kind": "ribbon",
+      "file": "parts/archive-01-aster-ribbon.png",
+      "bounds": [
+        24,
+        24,
+        123,
+        327
+      ],
+      "width": 94,
+      "height": 288,
+      "x": 256,
+      "y": 70,
+      "source": {
+        "generator": "PixelLab existing archive",
+        "path": "../art/quarter-2026/pieces/01-aster-ribbon.png",
+        "manifest": "../art/quarter-2026/component-manifest.json"
+      },
+      "sha256": "63bc51ab21c5083f925c4da3f3d5090fc8e5ca07305e89a05f00f0b674d708f1",
+      "original_size": [
+        147,
+        351
+      ]
+    },
+    {
+      "id": "archive-01-aster-pendant",
+      "name": "Aster Vault pendant",
+      "kind": "medal",
+      "file": "parts/archive-01-aster-pendant.png",
+      "bounds": [
+        24,
+        24,
+        168,
+        211
+      ],
+      "width": 142,
+      "height": 184,
+      "x": 256,
+      "y": 350,
+      "source": {
+        "generator": "PixelLab existing archive",
+        "path": "../art/quarter-2026/pieces/01-aster-pendant.png",
+        "manifest": "../art/quarter-2026/component-manifest.json"
+      },
+      "sha256": "56850a008112879012255e16e88df66bcd95fbc9c78c40d359627f032e6e8b65",
+      "original_size": [
+        192,
+        235
+      ]
+    },
+    {
+      "id": "archive-02-verdant-ribbon",
+      "name": "Verdant Spire ribbon",
+      "kind": "ribbon",
+      "file": "parts/archive-02-verdant-ribbon.png",
+      "bounds": [
+        24,
+        24,
+        136,
+        294
+      ],
+      "width": 119,
+      "height": 288,
+      "x": 256,
+      "y": 70,
+      "source": {
+        "generator": "PixelLab existing archive",
+        "path": "../art/quarter-2026/pieces/02-verdant-ribbon.png",
+        "manifest": "../art/quarter-2026/component-manifest.json"
+      },
+      "sha256": "d78b1047ca5ea5dda13fd11ff36854d27990a592508144a54742776318305f7e",
+      "original_size": [
+        160,
+        318
+      ]
+    },
+    {
+      "id": "archive-02-verdant-pendant",
+      "name": "Verdant Spire pendant",
+      "kind": "medal",
+      "file": "parts/archive-02-verdant-pendant.png",
+      "bounds": [
+        24,
+        24,
+        146,
+        225
+      ],
+      "width": 112,
+      "height": 184,
+      "x": 256,
+      "y": 350,
+      "source": {
+        "generator": "PixelLab existing archive",
+        "path": "../art/quarter-2026/pieces/02-verdant-pendant.png",
+        "manifest": "../art/quarter-2026/component-manifest.json"
+      },
+      "sha256": "5f0597870cdab812e8687bcd3030b3e4bcfb341b7bb55979499a8a0a0db93a90",
+      "original_size": [
+        170,
+        249
+      ]
+    },
+    {
+      "id": "archive-03-tideglass-ribbon",
+      "name": "Tideglass ribbon",
+      "kind": "ribbon",
+      "file": "parts/archive-03-tideglass-ribbon.png",
+      "bounds": [
+        24,
+        24,
+        112,
+        279
+      ],
+      "width": 99,
+      "height": 288,
+      "x": 256,
+      "y": 70,
+      "source": {
+        "generator": "PixelLab existing archive",
+        "path": "../art/quarter-2026/pieces/03-tideglass-ribbon.png",
+        "manifest": "../art/quarter-2026/component-manifest.json"
+      },
+      "sha256": "86f837624059ba469d255eb7b67649c9b209c58ceb1ec23438f061f3b8b426b5",
+      "original_size": [
+        136,
+        303
+      ]
+    },
+    {
+      "id": "archive-03-tideglass-pendant",
+      "name": "Tideglass pendant",
+      "kind": "medal",
+      "file": "parts/archive-03-tideglass-pendant.png",
+      "bounds": [
+        24,
+        24,
+        124,
+        187
+      ],
+      "width": 113,
+      "height": 184,
+      "x": 256,
+      "y": 350,
+      "source": {
+        "generator": "PixelLab existing archive",
+        "path": "../art/quarter-2026/pieces/03-tideglass-pendant.png",
+        "manifest": "../art/quarter-2026/component-manifest.json"
+      },
+      "sha256": "ef8b2bda1ac7ab98123eee6fa7057fe5763f21576e323c90a77b81f6a7b2417d",
+      "original_size": [
+        148,
+        211
+      ]
+    },
+    {
+      "id": "archive-04-ember-ribbon",
+      "name": "Ember Loom ribbon",
+      "kind": "ribbon",
+      "file": "parts/archive-04-ember-ribbon.png",
+      "bounds": [
+        24,
+        24,
+        100,
+        272
+      ],
+      "width": 88,
+      "height": 288,
+      "x": 256,
+      "y": 70,
+      "source": {
+        "generator": "PixelLab existing archive",
+        "path": "../art/quarter-2026/pieces/04-ember-ribbon.png",
+        "manifest": "../art/quarter-2026/component-manifest.json"
+      },
+      "sha256": "ad2d6bde56ba2850bba64940bf1f63e83b8f4a1907855bf02d380da8cad56636",
+      "original_size": [
+        124,
+        296
+      ]
+    },
+    {
+      "id": "archive-04-ember-pendant",
+      "name": "Ember Loom pendant",
+      "kind": "medal",
+      "file": "parts/archive-04-ember-pendant.png",
+      "bounds": [
+        24,
+        24,
+        156,
+        184
+      ],
+      "width": 152,
+      "height": 184,
+      "x": 256,
+      "y": 350,
+      "source": {
+        "generator": "PixelLab existing archive",
+        "path": "../art/quarter-2026/pieces/04-ember-pendant.png",
+        "manifest": "../art/quarter-2026/component-manifest.json"
+      },
+      "sha256": "3132d68189a32c1e8a5402ad314113fccbeb2744638a04c3ea6f38d2e1ea2581",
+      "original_size": [
+        180,
+        208
+      ]
+    },
+    {
+      "id": "archive-clasp-gold-1",
+      "name": "Gold \u00b7 1 gem",
+      "kind": "clasp",
+      "file": "parts/archive-clasp-gold-1.png",
+      "bounds": [
+        24,
+        24,
+        146,
+        61
+      ],
+      "width": 92,
+      "height": 28,
+      "x": 256,
+      "y": 165,
+      "source": {
+        "generator": "PixelLab existing archive",
+        "path": "../art/quarter-2026/pieces/clasp-gold-1.png",
+        "manifest": "../art/quarter-2026/component-manifest.json"
+      },
+      "sha256": "2592faeedbff69a2120e466f96ca45733558ad04c0050291fa3ecda52ffa830b",
+      "original_size": [
+        170,
+        85
+      ]
+    },
+    {
+      "id": "archive-clasp-gold-2",
+      "name": "Gold \u00b7 2 gems",
+      "kind": "clasp",
+      "file": "parts/archive-clasp-gold-2.png",
+      "bounds": [
+        24,
+        24,
+        146,
+        64
+      ],
+      "width": 92,
+      "height": 30,
+      "x": 256,
+      "y": 165,
+      "source": {
+        "generator": "PixelLab existing archive",
+        "path": "../art/quarter-2026/pieces/clasp-gold-2.png",
+        "manifest": "../art/quarter-2026/component-manifest.json"
+      },
+      "sha256": "5ef37cbc197efa588749c79e7725a7b0c8bd03eaae76cdba7a1940f6425241ca",
+      "original_size": [
+        170,
+        88
+      ]
+    },
+    {
+      "id": "archive-clasp-gold-3",
+      "name": "Gold \u00b7 3 gems",
+      "kind": "clasp",
+      "file": "parts/archive-clasp-gold-3.png",
+      "bounds": [
+        24,
+        24,
+        146,
+        64
+      ],
+      "width": 92,
+      "height": 30,
+      "x": 256,
+      "y": 165,
+      "source": {
+        "generator": "PixelLab existing archive",
+        "path": "../art/quarter-2026/pieces/clasp-gold-3.png",
+        "manifest": "../art/quarter-2026/component-manifest.json"
+      },
+      "sha256": "ff0a8b297764edc6910b22d40832bf5f928734279b5515939ed16cce8d101800",
+      "original_size": [
+        170,
+        88
+      ]
+    },
+    {
+      "id": "archive-clasp-gold-4",
+      "name": "Gold \u00b7 blank",
+      "kind": "clasp",
+      "file": "parts/archive-clasp-gold-4.png",
+      "bounds": [
+        24,
+        24,
+        146,
+        68
+      ],
+      "width": 92,
+      "height": 33,
+      "x": 256,
+      "y": 165,
+      "source": {
+        "generator": "PixelLab existing archive",
+        "path": "../art/quarter-2026/pieces/clasp-gold-4.png",
+        "manifest": "../art/quarter-2026/component-manifest.json"
+      },
+      "sha256": "864a5ccd9d5d421af3c122c0ea4ada68a4fd90b9f43285df8749e2ac7d1d83cc",
+      "original_size": [
+        170,
+        92
+      ]
+    },
+    {
+      "id": "archive-clasp-silver-1",
+      "name": "Silver \u00b7 1 gem",
+      "kind": "clasp",
+      "file": "parts/archive-clasp-silver-1.png",
+      "bounds": [
+        24,
+        24,
+        136,
+        54
+      ],
+      "width": 92,
+      "height": 25,
+      "x": 256,
+      "y": 165,
+      "source": {
+        "generator": "PixelLab existing archive",
+        "path": "../art/quarter-2026/pieces/clasp-silver-1.png",
+        "manifest": "../art/quarter-2026/component-manifest.json"
+      },
+      "sha256": "e3bcbccda1bd930ad6a8a13bf1c62ce6ff6efc05b5998240fb5df09e59bc440a",
+      "original_size": [
+        160,
+        78
+      ]
+    },
+    {
+      "id": "archive-clasp-silver-2",
+      "name": "Silver \u00b7 2 gems",
+      "kind": "clasp",
+      "file": "parts/archive-clasp-silver-2.png",
+      "bounds": [
+        24,
+        24,
+        136,
+        55
+      ],
+      "width": 92,
+      "height": 25,
+      "x": 256,
+      "y": 165,
+      "source": {
+        "generator": "PixelLab existing archive",
+        "path": "../art/quarter-2026/pieces/clasp-silver-2.png",
+        "manifest": "../art/quarter-2026/component-manifest.json"
+      },
+      "sha256": "372e837d52578e5954932642c371cbbe1da38b5b875103eb3cd171cf92ce8a0b",
+      "original_size": [
+        160,
+        79
+      ]
+    },
+    {
+      "id": "archive-clasp-silver-3",
+      "name": "Silver \u00b7 3 gems",
+      "kind": "clasp",
+      "file": "parts/archive-clasp-silver-3.png",
+      "bounds": [
+        24,
+        24,
+        136,
+        56
+      ],
+      "width": 92,
+      "height": 26,
+      "x": 256,
+      "y": 165,
+      "source": {
+        "generator": "PixelLab existing archive",
+        "path": "../art/quarter-2026/pieces/clasp-silver-3.png",
+        "manifest": "../art/quarter-2026/component-manifest.json"
+      },
+      "sha256": "944b68559218c09252c16a48dd53c2914cdb2511f8766fc797528f4e072da8fa",
+      "original_size": [
+        160,
+        80
+      ]
+    },
+    {
+      "id": "archive-clasp-silver-4",
+      "name": "Silver \u00b7 blank",
+      "kind": "clasp",
+      "file": "parts/archive-clasp-silver-4.png",
+      "bounds": [
+        24,
+        24,
+        136,
+        55
+      ],
+      "width": 92,
+      "height": 25,
+      "x": 256,
+      "y": 165,
+      "source": {
+        "generator": "PixelLab existing archive",
+        "path": "../art/quarter-2026/pieces/clasp-silver-4.png",
+        "manifest": "../art/quarter-2026/component-manifest.json"
+      },
+      "sha256": "858156207fa37e8ffba9a8b5c70663e770a2d74dc3c0e72572acec0698c183a3",
+      "original_size": [
+        160,
+        79
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Moonlit honour",
+      "layers": [
+        {
+          "part": "moon-silk",
+          "x": 256,
+          "y": 70,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32
+        },
+        {
+          "part": "moon-medallion",
+          "x": 256,
+          "y": 350,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32
+        },
+        {
+          "part": "platinum-moon",
+          "x": 256,
+          "y": 165,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32
+        }
+      ]
+    },
+    {
+      "name": "Verdant copper",
+      "layers": [
+        {
+          "part": "verdigris",
+          "x": 256,
+          "y": 70,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32
+        },
+        {
+          "part": "oak-shield",
+          "x": 256,
+          "y": 350,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32
+        },
+        {
+          "part": "copper-leaf",
+          "x": 256,
+          "y": 165,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32
+        }
+      ]
+    },
+    {
+      "name": "Rosette gala",
+      "layers": [
+        {
+          "part": "split-tails",
+          "x": 256,
+          "y": 125,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32
+        },
+        {
+          "part": "rose-velvet",
+          "x": 256,
+          "y": 105,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32
+        },
+        {
+          "part": "petal-rosette",
+          "x": 256,
+          "y": 35,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32
+        }
+      ]
+    },
+    {
+      "name": "Archive remix",
+      "layers": [
+        {
+          "part": "archive-01-aster-ribbon",
+          "x": 256,
+          "y": 70,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32
+        },
+        {
+          "part": "archive-03-tideglass-pendant",
+          "x": 256,
+          "y": 350,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32
+        },
+        {
+          "part": "archive-clasp-silver-2",
+          "x": 256,
+          "y": 165,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32
+        }
+      ]
+    }
+  ]
+}
