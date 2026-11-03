@@ -25,3 +25,5 @@
 .lore-identification:hover, .lore-identification:focus-visible { background: #f4d77a99; }
 
 .story-illustration{margin:2rem auto;max-width:512px}.story-illustration img{display:block;width:100%;height:auto;image-rendering:pixelated}.story-illustration figcaption{font-size:.9rem;line-height:1.5;padding:.8rem 0}.story-illustration figcaption p{margin:.4rem 0}.story-illustration small{opacity:.75}
+
+.reference-gallery-link{border:1px solid #a38b60;border-radius:8px;padding:16px 20px;margin:20px 0;background:#eacb8912}.reference-gallery-link a{font-weight:700}

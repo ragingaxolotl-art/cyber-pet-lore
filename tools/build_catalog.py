@@ -186,3 +186,7 @@ runpy.run_path(str(Path(__file__).resolve().parent / "build_navigation.py"),run_
 
 # Feedback belongs to each reading without changing source paragraph anchors.
 runpy.run_path(str(ROOT/"tools/build_comments.py"),run_name="__main__")
+
+# Keep the artwork gallery in sync with its canonical directory.
+from build_ribbon_gallery import build as build_ribbon_gallery
+build_ribbon_gallery(ROOT)

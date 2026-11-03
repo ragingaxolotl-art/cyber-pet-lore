@@ -1,16 +1,16 @@
 CYBER PET LORE — RIBBONS & HONOURS
-Updated 2026-10-29
-Planned awards list their assigned meanings; automatic gameplay use is recorded separately.
+Gallery updated November 3, 2026
+Award meanings and availability are listed separately.
 
-Divine Code Ribbon [Not used yet]
+Divine Code Ribbon [In use]
 Ceremonial Ribbon · Quarter awards
-Definition: An end-of-quarter honour recognizing effort. The teacher chooses recipients based on the effort they have shown. One to four clasp bars sit on the long center ribbon for a quarter; more clasps acknowledge greater effort. The four-clasp limit is per quarter.
-Placement: Atlas/lore book. Teacher-selected end-of-quarter recognition. Up to four clasps for a quarter are displayed on the long center ribbon. Classroom award meaning assigned; automatic gameplay awarding is not implemented.
-Reward: Recognition of effort through the ribbon and its clasp count. No XP, currency or stat bonus has been specified.
+Definition: High Honors recognizes effort selected by a teacher. The Divine Code ribbon carries zero to four clasps for an awarded quarter; each clasp acknowledges additional effort.
+Placement: Classroom honour implemented in the game and teacher character manager. Assigned by a teacher for a year and quarter. The ribbon displays the latest awarded quarter; earlier awards remain recorded.
+Reward: Every skill cap +5 for the ribbon, plus +2 per clasp: +5, +7, +9, +11, or +13. Only the strongest quarter applies; quarters do not stack. Train to earn the extra levels.
 Animation: Static PixelLab artwork.
-Notes: Fictional lore — The Divine Code: In the tradition of this ribbon, the Divine Code is a luminous pattern revealed through patient work. It becomes clearer whenever someone practices, revises, asks for help, or returns to a difficult task. Its galaxy-colored folds hold many small points of light, each recalling an attempt that mattered. The long center ribbon carries up to four clasps: visible marks of effort that has been seen and valued. The blue flower at its heart represents the understanding that grows from continuing to try. Design history: originally called Galaxy Gala; combines the Rosewater Gala layers with the Celestial Fanfare crest, pale-blue backing ribbons and blue flower brooch. The central purple tail extends slightly below the others. The number of recipients and the handling of clasps across different quarters have not been specified.
-Artwork: art/quarter-2026/awards/galaxy-gala-long-center.png
-Source: {"creator": "PixelLab, generated and revised at the author’s request", "composition_job": "54d7ed00-a2f7-437b-a6cd-f5c6ed2957b5", "center_tail_inpaint_job": "44d41d8f-aed6-417f-8ce1-813211bc0ff8", "pixel_workbench_edit": "ccfc9e05-1fb2-45bc-b8bb-6e16a1d59d54", "created": "2026-10-29", "transparent_margin_pixels": 32, "revision_scope": "Only the center-tail patch changed; every pixel outside that patch is preserved."}
+Notes: Fictional lore — The Divine Code: In the tradition of this ribbon, the Divine Code is a luminous pattern revealed through patient work. It becomes clearer whenever someone practices, revises, asks for help, or returns to a difficult task. Its galaxy-colored folds hold many small points of light, each recalling an attempt that mattered. The long center ribbon carries up to four clasps: visible marks of effort that has been seen and valued. The blue flower at its heart represents the understanding that grows from continuing to try. Design history: originally called Galaxy Gala; combines the Rosewater Gala layers with the Celestial Fanfare crest, pale-blue backing ribbons and blue flower brooch. The central purple tail extends slightly below the others. The teacher selects recipients. Each quarter is recorded separately; only the strongest quarter contributes the skill-cap bonus.
+Artwork: art/high-honors/divine_code.png
+Source: {"creator": "PixelLab, generated and revised at the author’s request", "composition_job": "54d7ed00-a2f7-437b-a6cd-f5c6ed2957b5", "center_tail_inpaint_job": "44d41d8f-aed6-417f-8ce1-813211bc0ff8", "pixel_workbench_edit": "ccfc9e05-1fb2-45bc-b8bb-6e16a1d59d54", "created": "2026-10-29", "transparent_margin_pixels": 32, "revision_scope": "Only the center-tail patch changed; every pixel outside that patch is preserved.", "award_meaning": "Named Divine Code by the author on 2026-10-29; teacher-selected effort recognition with up to four clasps per quarter.", "game_rules": "CPP-V3/scripts/game/high_honors.gd; scripts/game/high_honor_ribbon.gd; scripts/game/character_info_card.gd (reviewed November 3, 2026)"}
 
 Aster Vault ribbon [Not used yet]
 Ribbon · Quarter award components
