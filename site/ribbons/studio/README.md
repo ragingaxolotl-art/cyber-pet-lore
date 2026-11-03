@@ -28,3 +28,10 @@ Gem-bearing and leaf-bearing parts now have independent **Tint gemstones** and *
 Selections are explicit pixel runs in `material-selections.json`, using original PNG coordinates. They select the visible gem interior or leafwork without replacing source artwork. Leafwork includes stems and the raised leaf decoration on the oak shield. Source PNGs, IDs, hashes and provenance remain unchanged. Tinting preserves original lightness differences, saturation variation, shadows and white highlights. Preview and PNG export share the same renderer. Optional `materialColors` recipe fields (`gem` / `leaf`, hex colour or null for original) persist through undo, duplication, autosave and recipe round-trips; absent fields retain legacy behaviour.
 
 Regenerate reviewed selections with `python3 tools/build_ribbon_materials.py` (Pillow). Run `node --test tests/ribbon-materials.test.mjs` from the repository root to check artwork hashes, selection bounds, recipe compatibility and independent tint behaviour.
+
+
+## Rotation
+
+Select any layer, then enter Rotation (degrees), use the ±15° buttons, or Reset rotation. Each part rotates around its own displayed center. Move, resize, layer order, material tinting, pixel picking, undo/redo, duplication, browser drafts and transparent PNG export retain the angle. Position remains the unrotated top-center.
+
+The RBN1 envelope and checksum are unchanged. Unrotated legacy recipes retain version 1; recipes with a nonzero rotation use JSON version 2 and a finite per-layer rotation from −180 through 180 degrees. New code reads both versions; older designers reject version 2 instead of silently discarding the angle. Missing rotation means zero. Source artwork and part hashes are unchanged.
