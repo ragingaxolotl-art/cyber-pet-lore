@@ -27691,7 +27691,7 @@
       "era": [],
       "timeLabel": "Gameplay reference · saved collection",
       "timeOrder": 30526,
-      "status": "Not used yet",
+      "status": "In use",
       "characters": [],
       "places": [],
       "topics": [
@@ -27704,8 +27704,8 @@
         "url": "ribbons/#quarter-galaxy-gala"
       },
       "referencePage": "ribbons/#quarter-galaxy-gala",
-      "summary": "An end-of-quarter honour recognizing effort. The teacher chooses recipients based on the effort they have shown. One to four clasp bars sit on the long center ribbon for a quarter; more clasps acknowledge greater effort. The four-clasp limit is per quarter.",
-      "wordCount": 305,
+      "summary": "High Honors recognizes effort selected by a teacher. The Divine Code ribbon carries zero to four clasps for an awarded quarter; each clasp acknowledges additional effort.",
+      "wordCount": 313,
       "explicitLinks": [
         "reference-ribbons"
       ],
@@ -33913,7 +33913,7 @@
       },
       "referencePage": "ribbons/",
       "summary": "Every ribbon, medal, trophy and archived design on one illustrated, annotatable logbook page.",
-      "wordCount": 13619,
+      "wordCount": 13627,
       "explicitLinks": [],
       "connectionLabel": "Reference collection",
       "connections": [

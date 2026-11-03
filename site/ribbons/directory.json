@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-11-03",
   "title": "Ribbons & honours",
   "entries": [
     {
@@ -7,13 +7,13 @@
       "name": "Divine Code Ribbon",
       "kind": "Ceremonial Ribbon",
       "category": "Quarter awards",
-      "status": "Not used yet",
-      "definition": "An end-of-quarter honour recognizing effort. The teacher chooses recipients based on the effort they have shown. One to four clasp bars sit on the long center ribbon for a quarter; more clasps acknowledge greater effort. The four-clasp limit is per quarter.",
-      "where": "Atlas/lore book. Teacher-selected end-of-quarter recognition. Up to four clasps for a quarter are displayed on the long center ribbon. Classroom award meaning assigned; automatic gameplay awarding is not implemented.",
-      "reward": "Recognition of effort through the ribbon and its clasp count. No XP, currency or stat bonus has been specified.",
-      "art": "art/quarter-2026/awards/galaxy-gala-long-center.png",
+      "status": "In use",
+      "definition": "High Honors recognizes effort selected by a teacher. The Divine Code ribbon carries zero to four clasps for an awarded quarter; each clasp acknowledges additional effort.",
+      "where": "Classroom honour implemented in the game and teacher character manager. Assigned by a teacher for a year and quarter. The ribbon displays the latest awarded quarter; earlier awards remain recorded.",
+      "reward": "Every skill cap +5 for the ribbon, plus +2 per clasp: +5, +7, +9, +11, or +13. Only the strongest quarter applies; quarters do not stack. Train to earn the extra levels.",
+      "art": "art/high-honors/divine_code.png",
       "animation": "Static PixelLab artwork.",
-      "notes": "Fictional lore — The Divine Code: In the tradition of this ribbon, the Divine Code is a luminous pattern revealed through patient work. It becomes clearer whenever someone practices, revises, asks for help, or returns to a difficult task. Its galaxy-colored folds hold many small points of light, each recalling an attempt that mattered. The long center ribbon carries up to four clasps: visible marks of effort that has been seen and valued. The blue flower at its heart represents the understanding that grows from continuing to try. Design history: originally called Galaxy Gala; combines the Rosewater Gala layers with the Celestial Fanfare crest, pale-blue backing ribbons and blue flower brooch. The central purple tail extends slightly below the others. The number of recipients and the handling of clasps across different quarters have not been specified.",
+      "notes": "Fictional lore — The Divine Code: In the tradition of this ribbon, the Divine Code is a luminous pattern revealed through patient work. It becomes clearer whenever someone practices, revises, asks for help, or returns to a difficult task. Its galaxy-colored folds hold many small points of light, each recalling an attempt that mattered. The long center ribbon carries up to four clasps: visible marks of effort that has been seen and valued. The blue flower at its heart represents the understanding that grows from continuing to try. Design history: originally called Galaxy Gala; combines the Rosewater Gala layers with the Celestial Fanfare crest, pale-blue backing ribbons and blue flower brooch. The central purple tail extends slightly below the others. The teacher selects recipients. Each quarter is recorded separately; only the strongest quarter contributes the skill-cap bonus.",
       "source": {
         "creator": "PixelLab, generated and revised at the author’s request",
         "composition_job": "54d7ed00-a2f7-437b-a6cd-f5c6ed2957b5",
@@ -22,8 +22,10 @@
         "created": "2026-10-29",
         "transparent_margin_pixels": 32,
         "revision_scope": "Only the center-tail patch changed; every pixel outside that patch is preserved.",
-        "award_meaning": "Named Divine Code by the author on 2026-10-29; teacher-selected effort recognition with up to four clasps per quarter."
-      }
+        "award_meaning": "Named Divine Code by the author on 2026-10-29; teacher-selected effort recognition with up to four clasps per quarter.",
+        "game_rules": "CPP-V3/scripts/game/high_honors.gd; scripts/game/high_honor_ribbon.gd; scripts/game/character_info_card.gd (reviewed November 3, 2026)"
+      },
+      "recognition": "High Honors · Celestial · Teacher-selected"
     },
     {
       "id": "quarter-01-aster-ribbon",
@@ -4626,7 +4628,24 @@
     "art/quarter-2026/component-manifest.json": {
       "sha256": "52a4c79a83780c5e30d579b389a102d8ef5b580045d4576f3a79203a8df9439b",
       "bytes": 13945
+    },
+    "art/high-honors/divine_code.png": {
+      "sha256": "81b774ca99d8b250f3f182824bc96deade3781db48cfcc6484a0b6dcf189b25f",
+      "bytes": 113596
+    },
+    "art/high-honors/clasp.png": {
+      "sha256": "e3bcbccda1bd930ad6a8a13bf1c62ce6ff6efc05b5998240fb5df09e59bc440a",
+      "bytes": 6015
+    },
+    "art/high-honors/celestial_scroll.png": {
+      "sha256": "15a4d4316056e653f5610d81cd6a70913a008b2b3aaad8ef2b319ddf2d85849b",
+      "bytes": 1676899
     }
   },
-  "scope": "Published game awards, battle honours, all 80 reserved PixelLab library assets, and all 11 Foundling designs plus the miniature placement. Also includes ten quarter-award designs, sixteen modular components, revised Galaxy Gala and its earlier concept."
+  "scope": "Published game awards, battle honours, all 80 reserved PixelLab library assets, and all 11 Foundling designs plus the miniature placement. Also includes ten quarter-award designs, sixteen modular components, revised Galaxy Gala and its earlier concept.",
+  "status_counts": {
+    "In use": 110,
+    "Not used yet": 68,
+    "Archived concept": 10
+  }
 }
