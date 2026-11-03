@@ -1,4 +1,10 @@
 from pathlib import Path
+import runpy
+# The expanded builder preserves the reviewed original selections and adds the
+# four-material cabinet. Keep the old entry point safe for existing workflows.
+if (Path(__file__).resolve().parents[1]/'sources/ribbon-expansion/base-material-selections.json').exists():
+ runpy.run_path(str(Path(__file__).with_name('build_ribbon_expansion.py')),run_name='__main__')
+ raise SystemExit
 from PIL import Image,ImageDraw
 import json,colorsys
 R=Path(__file__).resolve().parents[1]/'site/ribbons/studio'

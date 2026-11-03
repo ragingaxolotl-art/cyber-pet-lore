@@ -1,0 +1,259 @@
+[
+  {
+    "id": "recovered-bloom-amethyst",
+    "name": "Prism amethyst cluster",
+    "kind": "accent",
+    "file": "parts/recovered/bloom_amethyst.png",
+    "bounds": [
+      18,
+      14,
+      113,
+      113
+    ],
+    "width": 100,
+    "height": 104,
+    "x": 256,
+    "y": 230,
+    "original_size": [
+      128,
+      128
+    ],
+    "sha256": "9a50fd6e710574461e529e0c93158924b6a550bae6977031b129dd2afded3b10",
+    "source": {
+      "file": "bloom_amethyst.png",
+      "tool": "PixelLab Pro",
+      "job_id": "1b971cd2-42ac-4d56-a2bc-09aa8d5ab837",
+      "candidate": 0,
+      "sha256": "9a50fd6e710574461e529e0c93158924b6a550bae6977031b129dd2afded3b10",
+      "original_path": "/Volumes/Cyber Pet Workspace/CPP-V3/assets/ui/quarter_awards/bloom_amethyst.png",
+      "note": "Original separately authored PixelLab component; no student media. First original frame shown for the diamond atlas."
+    },
+    "materialOverride": "gem",
+    "collection": "Recovered components",
+    "tags": [
+      "orbit",
+      "recovered",
+      "gem"
+    ]
+  },
+  {
+    "id": "recovered-bloom-aquamarine",
+    "name": "Prism aquamarine cluster",
+    "kind": "accent",
+    "file": "parts/recovered/bloom_aquamarine.png",
+    "bounds": [
+      12,
+      16,
+      117,
+      114
+    ],
+    "width": 111,
+    "height": 104,
+    "x": 256,
+    "y": 230,
+    "original_size": [
+      128,
+      128
+    ],
+    "sha256": "5bad2a7ebea76db2a3051ff1d901578ad1e7f69b84f8ac6ff846f235b0f0a9a2",
+    "source": {
+      "file": "bloom_aquamarine.png",
+      "tool": "PixelLab Pro",
+      "job_id": "df8213b3-1620-43a7-b26d-a44dee541d6c",
+      "candidate": 2,
+      "sha256": "5bad2a7ebea76db2a3051ff1d901578ad1e7f69b84f8ac6ff846f235b0f0a9a2",
+      "original_path": "/Volumes/Cyber Pet Workspace/CPP-V3/assets/ui/quarter_awards/bloom_aquamarine.png",
+      "note": "Original separately authored PixelLab component; no student media. First original frame shown for the diamond atlas."
+    },
+    "materialOverride": "gem",
+    "collection": "Recovered components",
+    "tags": [
+      "orbit",
+      "recovered",
+      "gem"
+    ]
+  },
+  {
+    "id": "recovered-bloom-emerald",
+    "name": "Prism emerald cluster",
+    "kind": "accent",
+    "file": "parts/recovered/bloom_emerald.png",
+    "bounds": [
+      12,
+      17,
+      116,
+      113
+    ],
+    "width": 113,
+    "height": 104,
+    "x": 256,
+    "y": 230,
+    "original_size": [
+      128,
+      128
+    ],
+    "sha256": "8041cce741a120e9c7ac75294798b43c98413a0d6bdfc295c1f712bd103cbec5",
+    "source": {
+      "file": "bloom_emerald.png",
+      "tool": "PixelLab Pro",
+      "job_id": "4c03e1cf-b9ff-4d6c-8ada-2b7d141f4053",
+      "candidate": 0,
+      "sha256": "8041cce741a120e9c7ac75294798b43c98413a0d6bdfc295c1f712bd103cbec5",
+      "original_path": "/Volumes/Cyber Pet Workspace/CPP-V3/assets/ui/quarter_awards/bloom_emerald.png",
+      "note": "Original separately authored PixelLab component; no student media. First original frame shown for the diamond atlas."
+    },
+    "materialOverride": "gem",
+    "collection": "Recovered components",
+    "tags": [
+      "orbit",
+      "recovered",
+      "gem"
+    ]
+  },
+  {
+    "id": "recovered-bloom-rose-quartz",
+    "name": "Prism rose-quartz cluster",
+    "kind": "accent",
+    "file": "parts/recovered/bloom_rose_quartz.png",
+    "bounds": [
+      12,
+      12,
+      116,
+      119
+    ],
+    "width": 101,
+    "height": 104,
+    "x": 256,
+    "y": 230,
+    "original_size": [
+      128,
+      128
+    ],
+    "sha256": "9da91c24263b18279fc4089f4e91c7d996a1a2c772a0f47527cb62aa6bb4b55e",
+    "source": {
+      "file": "bloom_rose_quartz.png",
+      "tool": "PixelLab Pro",
+      "job_id": "b97127e0-3e75-4ecf-ace2-0c1ef744fdac",
+      "candidate": 1,
+      "sha256": "9da91c24263b18279fc4089f4e91c7d996a1a2c772a0f47527cb62aa6bb4b55e",
+      "original_path": "/Volumes/Cyber Pet Workspace/CPP-V3/assets/ui/quarter_awards/bloom_rose_quartz.png",
+      "note": "Original separately authored PixelLab component; no student media. First original frame shown for the diamond atlas."
+    },
+    "materialOverride": "gem",
+    "collection": "Recovered components",
+    "tags": [
+      "orbit",
+      "recovered",
+      "gem"
+    ]
+  },
+  {
+    "id": "recovered-orbit-jewel",
+    "name": "Orbit Cup central jewel",
+    "kind": "accent",
+    "file": "parts/recovered/orbit_jewel.png",
+    "bounds": [
+      10,
+      10,
+      38,
+      38
+    ],
+    "width": 104,
+    "height": 104,
+    "x": 256,
+    "y": 230,
+    "original_size": [
+      48,
+      48
+    ],
+    "sha256": "5b56da56d0c2378fbc78e44570ebc1c09703b8b951c9991d88ee042154e0b49d",
+    "source": {
+      "file": "orbit_jewel.png",
+      "tool": "PixelLab Pro",
+      "job_id": "2bf5ebf6-f758-4e06-b844-3d8b4be6fee9",
+      "candidate": 0,
+      "sha256": "5b56da56d0c2378fbc78e44570ebc1c09703b8b951c9991d88ee042154e0b49d",
+      "original_path": "/Volumes/Cyber Pet Workspace/CPP-V3/assets/ui/quarter_awards/orbit_jewel.png",
+      "note": "Original separately authored PixelLab component; no student media. First original frame shown for the diamond atlas."
+    },
+    "materialOverride": "gem",
+    "collection": "Recovered components",
+    "tags": [
+      "orbit",
+      "recovered",
+      "gem"
+    ]
+  },
+  {
+    "id": "recovered-orbit-ring",
+    "name": "Orbit Cup metal ring",
+    "kind": "accent",
+    "file": "parts/recovered/orbit_ring.png",
+    "bounds": [
+      7,
+      7,
+      121,
+      121
+    ],
+    "width": 180,
+    "height": 180,
+    "x": 256,
+    "y": 230,
+    "original_size": [
+      128,
+      128
+    ],
+    "sha256": "2640ac37be92f1a029561b710361efc4499689acca4824b4ba796c2d8b67b7c0",
+    "source": {
+      "file": "orbit_ring.png",
+      "tool": "PixelLab pixelart_workbench",
+      "drawing_id": "ee85d44f-23a3-4db1-acec-3670d9d7b8f4",
+      "sha256": "2640ac37be92f1a029561b710361efc4499689acca4824b4ba796c2d8b67b7c0",
+      "original_path": "/Volumes/Cyber Pet Workspace/CPP-V3/assets/ui/quarter_awards/orbit_ring.png",
+      "note": "Original separately authored PixelLab component; no student media. First original frame shown for the diamond atlas."
+    },
+    "materialOverride": "metal",
+    "collection": "Recovered components",
+    "tags": [
+      "orbit",
+      "recovered",
+      "metal"
+    ]
+  },
+  {
+    "id": "recovered-cascade-diamond-turn",
+    "name": "Grand Cascade diamond",
+    "kind": "accent",
+    "file": "parts/recovered/cascade_diamond_turn.png",
+    "bounds": [
+      9,
+      10,
+      56,
+      53
+    ],
+    "width": 114,
+    "height": 104,
+    "x": 256,
+    "y": 230,
+    "original_size": [
+      512,
+      256
+    ],
+    "sha256": "06897052fc4256897070636bbe332377d17ef7fa181d5127765f1bce7e9401ac",
+    "source": {
+      "file": "cascade_diamond_turn.png",
+      "tool": "PixelLab pixelart_workbench",
+      "drawing_id": "962f7dc0-7c82-48cc-9de7-4876de98b084",
+      "sha256": "06897052fc4256897070636bbe332377d17ef7fa181d5127765f1bce7e9401ac",
+      "original_path": "/Volumes/Cyber Pet Workspace/CPP-V3/assets/ui/quarter_awards/cascade_diamond_turn.png",
+      "note": "Original separately authored PixelLab component; no student media. First original frame shown for the diamond atlas."
+    },
+    "materialOverride": "gem",
+    "collection": "Recovered components",
+    "tags": [
+      "orbit",
+      "recovered",
+      "gem"
+    ]
+  }
+]

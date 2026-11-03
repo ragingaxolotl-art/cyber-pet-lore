@@ -1,0 +1,2806 @@
+{
+  "generated_batches": 97,
+  "original_candidates": 388,
+  "finishing_outputs": 57,
+  "prior_generation_images": 37,
+  "files": [
+    {
+      "file": "parts/expansion/cathedral-silk-1.png",
+      "sha256": "4505742613a2650e2048cc1acebf1727c85b50e6ef7cebd25669d45aed05daf6",
+      "job_id": "82c77b24-54a3-481c-809a-d6b3462f5391",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/cathedral-silk-2.png",
+      "sha256": "aa10bef8b02ca971ab8c2f183f88ae88f0b3ccd4f47b4d9607e7af8ea22d0be1",
+      "job_id": "82c77b24-54a3-481c-809a-d6b3462f5391",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/cathedral-silk-3.png",
+      "sha256": "06d3186d7ad514c2a532f66c35eaebf1a5f5650cd56cb9c7cd8c19cde0a7686f",
+      "job_id": "82c77b24-54a3-481c-809a-d6b3462f5391",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/cathedral-silk-4.png",
+      "sha256": "07a5bb56c6ea5d192fb12c61ef3b12afd61d3159f9461f65acae95e751301d6f",
+      "job_id": "82c77b24-54a3-481c-809a-d6b3462f5391",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/celestial-herald-1.png",
+      "sha256": "10892fbc6004f613d4596e81134ca57e2d24602d2dd13bb76c8eebd455145c57",
+      "job_id": "8198be0e-d645-44b8-b235-71099d69afea",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/celestial-herald-2.png",
+      "sha256": "5d0129ddba99b6cf7be7ed6eace589b3e3031be9640e9fc26dbd23c5c9294d7c",
+      "job_id": "8198be0e-d645-44b8-b235-71099d69afea",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/celestial-herald-3.png",
+      "sha256": "10f1ef59a6c20831818ef0be058a5160757464d0790f4bcc5f31d304fbcb3881",
+      "job_id": "8198be0e-d645-44b8-b235-71099d69afea",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/celestial-herald-4.png",
+      "sha256": "2d12c0fcfbc2a757064626fab6b5e0b8a65a3cb482808c7fc571674ae263ce16",
+      "job_id": "8198be0e-d645-44b8-b235-71099d69afea",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/orchid-crown-1.png",
+      "sha256": "f96d7401d45a6c58f1b56a482d2dff82dd2e291a6b708bbd43b627b73690b0b9",
+      "job_id": "0ff312db-2906-4ad4-b399-17752460cb4d",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/orchid-crown-2.png",
+      "sha256": "c2085d4e138163cfd2120ef4f01258d7ccdb590bf4158a80406688081fdc2c90",
+      "job_id": "0ff312db-2906-4ad4-b399-17752460cb4d",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/orchid-crown-3.png",
+      "sha256": "2e6eb139271a65a60b4d242afdf83fb161c44335c66560c3544c858839add4e3",
+      "job_id": "0ff312db-2906-4ad4-b399-17752460cb4d",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/orchid-crown-4.png",
+      "sha256": "a6b09576413b322ebe709606a63b1b26c5a8b6487891722c705ea17c97b49685",
+      "job_id": "0ff312db-2906-4ad4-b399-17752460cb4d",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/willow-cascade-1.png",
+      "sha256": "cc228778bcd9bf03022b4796493a63e3e63f38480f0afb0bbaf029d27db38fb4",
+      "job_id": "a5d577e8-6c32-4654-bdc3-cb37cd720106",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/willow-cascade-2.png",
+      "sha256": "c207839c7dda9bfacdd0cbed26f10e801a80d10fec9c94591c8a2f5fde8cb991",
+      "job_id": "a5d577e8-6c32-4654-bdc3-cb37cd720106",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/willow-cascade-3.png",
+      "sha256": "91f9883c2b170fb52532102c6dc46e44d9003577491336772f828ecadd2ef49f",
+      "job_id": "a5d577e8-6c32-4654-bdc3-cb37cd720106",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/willow-cascade-4.png",
+      "sha256": "ac7ac0a5e5363daaf19493cd5c9d0b090ce435c908c441bec9086e0584ec9c05",
+      "job_id": "a5d577e8-6c32-4654-bdc3-cb37cd720106",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/serpentine-filigree-1.png",
+      "sha256": "78006abe69744caf55301962204c7d58e21acb6301f766640ea6fe30792d746b",
+      "job_id": "885b4b38-6375-4233-8ecf-aa31fed784db",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/serpentine-filigree-2.png",
+      "sha256": "2af3dd5dccf9325121fcbfa9172afdfdbd33bde9cff91b7ea6c3a673196f7245",
+      "job_id": "885b4b38-6375-4233-8ecf-aa31fed784db",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/serpentine-filigree-3.png",
+      "sha256": "bb56092e96e9ddc33dcf7e5c82c2fc9d5a3763ae9619e3ebe3f191c86fdbd927",
+      "job_id": "885b4b38-6375-4233-8ecf-aa31fed784db",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/serpentine-filigree-4.png",
+      "sha256": "6f4d3d5124587ad2530dcd23556b293432d330edf1ac5ea7afd86bb29856ffee",
+      "job_id": "885b4b38-6375-4233-8ecf-aa31fed784db",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/gothic-vellum-1.png",
+      "sha256": "c829a524ae011b26a8fd8b6f623afebbd2881b01b0b49570b98a36b5f5721b4a",
+      "job_id": "211e5004-bbb8-4e4a-877b-917e025a23ab",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/gothic-vellum-2.png",
+      "sha256": "45ea8bb0c2d92b229231cc2ba49f034f50fdb642e1f1503b625501dc6568551a",
+      "job_id": "211e5004-bbb8-4e4a-877b-917e025a23ab",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/gothic-vellum-3.png",
+      "sha256": "263aea08509ffedfa819e39cb149aa2c615c999b797b99681cd28028f10d1ccd",
+      "job_id": "211e5004-bbb8-4e4a-877b-917e025a23ab",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/gothic-vellum-4.png",
+      "sha256": "c456712fb61e335e2e4ef8615561842a6e25f089cb0bf824d061885ba0101678",
+      "job_id": "211e5004-bbb8-4e4a-877b-917e025a23ab",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/lotus-stream-1.png",
+      "sha256": "2d337490fad662d3aa4e32f1829f705e296f5f415e35322911bb0d74e66b5b07",
+      "job_id": "3bc0090d-c2d5-41e8-b9a1-a75db16f4c0d",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/lotus-stream-2.png",
+      "sha256": "94267b71ce4635f02bbaf06504dcc638e938b9eab009fd554dfb9a7486e02ca8",
+      "job_id": "3bc0090d-c2d5-41e8-b9a1-a75db16f4c0d",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/lotus-stream-3.png",
+      "sha256": "6257fe80f3a98d287cea22ad8f071934d979e6edcc895113e737b90e3f9ce98f",
+      "job_id": "3bc0090d-c2d5-41e8-b9a1-a75db16f4c0d",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/lotus-stream-4.png",
+      "sha256": "dcbe415bca0afaa6aa46e3fed0807e34ff5153fce44e2600e9f5ea090f3cc4e7",
+      "job_id": "3bc0090d-c2d5-41e8-b9a1-a75db16f4c0d",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/braided-honor-1.png",
+      "sha256": "8ae1158f578b48c1d1c234a8fc8eb1e8d4370187683a5ef257bf53fb7da2fd90",
+      "job_id": "0d29375b-50da-4776-8c39-44bcaa255364",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/braided-honor-2.png",
+      "sha256": "4d7691e08529f0de2c7aa70503172a2d7b1fc55cd9b935a381a80d265222b564",
+      "job_id": "0d29375b-50da-4776-8c39-44bcaa255364",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/braided-honor-3.png",
+      "sha256": "3a45aef053f71e34cc67da96aed21870db64e44874b391f62e798fd6da56acf1",
+      "job_id": "0d29375b-50da-4776-8c39-44bcaa255364",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/braided-honor-4.png",
+      "sha256": "a287c639e68ac8a7b2649315fe469a07f9551a8109dfd8a5ca29dc7f88ccf7cf",
+      "job_id": "0d29375b-50da-4776-8c39-44bcaa255364",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/chevron-banner-1.png",
+      "sha256": "03c9eeca9584751a337d91b578b49ceb975bfbae4e8260f02c4fd96b0c83093d",
+      "job_id": "89a81fbd-1072-4d8c-afda-2ddde9da14b9",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/chevron-banner-2.png",
+      "sha256": "9980cfb857153cf37bc82f819a90ce55918b5081cbee398b61cb10b83b12be4c",
+      "job_id": "89a81fbd-1072-4d8c-afda-2ddde9da14b9",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/chevron-banner-3.png",
+      "sha256": "eecc4e42e01d980c5d27cfa70df436f4a10dfea78f77f81bd9fa406be1d4a2bf",
+      "job_id": "89a81fbd-1072-4d8c-afda-2ddde9da14b9",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/chevron-banner-4.png",
+      "sha256": "19ad02d796cf182128d08169e6befebeb658dcd888ccf059eb3e32177a37ca59",
+      "job_id": "89a81fbd-1072-4d8c-afda-2ddde9da14b9",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/royal-bell-1.png",
+      "sha256": "76f00f476ff04428f9d7303efc1c33da19a1b06a47d9b2369757c6c99099ae6c",
+      "job_id": "e95c6261-25ff-4d7b-b289-19d62935d0de",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/royal-bell-2.png",
+      "sha256": "e1af8d865e68a066509347e3eecec8b2405ae0a8814cbea405e8f8481507dc2b",
+      "job_id": "e95c6261-25ff-4d7b-b289-19d62935d0de",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/royal-bell-3.png",
+      "sha256": "54bf89ead7ee62209c7aeb1c6bf16d44601bb3932ca424a98112de615ebd9055",
+      "job_id": "e95c6261-25ff-4d7b-b289-19d62935d0de",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/royal-bell-4.png",
+      "sha256": "842a9a4faaacf0495024a706a66a4f3a58e35269c1f5d1cbdd514c32e82cdc86",
+      "job_id": "e95c6261-25ff-4d7b-b289-19d62935d0de",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/split-pennon-1.png",
+      "sha256": "67af62f59201e66d2003af58811bd2bd08c669b2855d1cc24794ccf52376cfc2",
+      "job_id": "fb66cf15-8071-4523-8dfe-082d3850d9a6",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/split-pennon-2.png",
+      "sha256": "cb8320b3e50d5801e7c52f44cecebd5558df3fef10d24f00305848eb59a99f2d",
+      "job_id": "fb66cf15-8071-4523-8dfe-082d3850d9a6",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/split-pennon-3.png",
+      "sha256": "23003b02dd6330d7565f270bb6dea58712f97b1360a5511ce16dabdbf7b3711e",
+      "job_id": "fb66cf15-8071-4523-8dfe-082d3850d9a6",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/split-pennon-4.png",
+      "sha256": "3c4afb3029da20d5f31e631bb983a1bb1022321308c00135f95e632dcad39070",
+      "job_id": "fb66cf15-8071-4523-8dfe-082d3850d9a6",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/scrollbound-silk-1.png",
+      "sha256": "8d4913bbf2a58205c2ea73eaab01961f6063ed51335b0961b65ae1c963607ec2",
+      "job_id": "702bde27-6fa8-4a68-86f0-54c3ecddc41a",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/scrollbound-silk-2.png",
+      "sha256": "b16f1a7e2d81317a59f664db46593c1b0ba0075470271d41ba587abcd88dd598",
+      "job_id": "702bde27-6fa8-4a68-86f0-54c3ecddc41a",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/scrollbound-silk-3.png",
+      "sha256": "acbfb092380f2ca5b2aec11ba0657b6df0f812add9d3dddf605c8b238ba49514",
+      "job_id": "702bde27-6fa8-4a68-86f0-54c3ecddc41a",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/scrollbound-silk-4.png",
+      "sha256": "cc185cad82a8744400255ec6e57a4a595ab48d3e2d0dacae0e06dd469681ca95",
+      "job_id": "702bde27-6fa8-4a68-86f0-54c3ecddc41a",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/leafcrest-ribbon-1.png",
+      "sha256": "198e4f683ff1adec184a8bc930e00941b541be5f991fa263f3048c511916e9fc",
+      "job_id": "6a0c9171-278c-48cb-9166-d3176a8480cd",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/leafcrest-ribbon-2.png",
+      "sha256": "129d9c7d0a2c78f3d82cf94a52c758d6eaf2dc18604fad408204d72bfbebbd69",
+      "job_id": "6a0c9171-278c-48cb-9166-d3176a8480cd",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/leafcrest-ribbon-3.png",
+      "sha256": "ec3a353c274a6c90fc51ba1aa5b71f851a14c5f7101d8145ff49fc08ca6386bc",
+      "job_id": "6a0c9171-278c-48cb-9166-d3176a8480cd",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/leafcrest-ribbon-4.png",
+      "sha256": "2daa476cbd1f63b395fc60975fc8f9f97891a40b7f87917bc3e5a09254a54313",
+      "job_id": "6a0c9171-278c-48cb-9166-d3176a8480cd",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/crescentfall-1.png",
+      "sha256": "dab6a2b90f4bf6cbb8abf68f4b67f13675f0165519948eb6a99518883d8d96a2",
+      "job_id": "844bab4c-a30d-4ac4-a725-00b71be16a6e",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/crescentfall-2.png",
+      "sha256": "34824ddf88b95114c83f0e7b6e8e15f37d5988afa15ad254a1655356ebd98600",
+      "job_id": "844bab4c-a30d-4ac4-a725-00b71be16a6e",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/crescentfall-3.png",
+      "sha256": "28324c9e9686282bea29ae410698cf4199442640f3073b9d6f75ed4f4003c86d",
+      "job_id": "844bab4c-a30d-4ac4-a725-00b71be16a6e",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/crescentfall-4.png",
+      "sha256": "f5d3e907eee1c8a593474939b992e9444191b63fac0a1964547641f7c308593a",
+      "job_id": "844bab4c-a30d-4ac4-a725-00b71be16a6e",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/stepped-standard-1.png",
+      "sha256": "86219810122180b5146b069f231c939e6bd77f2215060b22feb01e24a2734dd1",
+      "job_id": "3606658a-fb1e-418a-acd6-03cacc1480e4",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/stepped-standard-2.png",
+      "sha256": "17bbf4e5a04d8579422d90bcd534d0662f07b49aa3e28173866d4b37a329fd9a",
+      "job_id": "3606658a-fb1e-418a-acd6-03cacc1480e4",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/stepped-standard-3.png",
+      "sha256": "75490788163aa1a73f2494c48677943e20aa8b4267317b919f206fc685d64a91",
+      "job_id": "3606658a-fb1e-418a-acd6-03cacc1480e4",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/stepped-standard-4.png",
+      "sha256": "664c02ef65894d84391d1c9fe95f498b53fb93de29dc02a598401d276836dd42",
+      "job_id": "3606658a-fb1e-418a-acd6-03cacc1480e4",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/heartfold-silk-1.png",
+      "sha256": "ced72b4f80247a2237f1d175e404ea3eb95faab7f9662d8df7786ef1677c1c0d",
+      "job_id": "9a0c2ee7-bafe-4746-8f2b-5a87c3cc9beb",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/heartfold-silk-2.png",
+      "sha256": "48ec90c4ceb4a49bb82a57c2b27fbb30e9538f7532a0672d30715c0b4ee5db7d",
+      "job_id": "9a0c2ee7-bafe-4746-8f2b-5a87c3cc9beb",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/heartfold-silk-3.png",
+      "sha256": "6a8adad90cb15b6f2d3c2838e0e8c67eb93d9503f906a2962026f329d660a35f",
+      "job_id": "9a0c2ee7-bafe-4746-8f2b-5a87c3cc9beb",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/heartfold-silk-4.png",
+      "sha256": "278cbb300e81f5dd3226755293657618d299c8a0039e8fc7a0499fcdb9001067",
+      "job_id": "9a0c2ee7-bafe-4746-8f2b-5a87c3cc9beb",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/peacock-standard-1.png",
+      "sha256": "b7932ac6bd1ea5a0ad8993e275f425e56aabcd5cc9ef457f5a0ee67c583d7db6",
+      "job_id": "a6d34e34-65ad-48c5-a686-866c64713bef",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/peacock-standard-2.png",
+      "sha256": "67cfea149eefcc650c41439e142cf46f841404b274628f86903fdf265736f425",
+      "job_id": "a6d34e34-65ad-48c5-a686-866c64713bef",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/peacock-standard-3.png",
+      "sha256": "bccd8dfeea7c5c39460ff300648a7ec97e9597a5065976a91b311cc088993cd9",
+      "job_id": "a6d34e34-65ad-48c5-a686-866c64713bef",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/peacock-standard-4.png",
+      "sha256": "636e0efb3f1960f10a0b90b0a454c8db4ef6a47a0932952c067dc56c01035672",
+      "job_id": "a6d34e34-65ad-48c5-a686-866c64713bef",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/round-portrait-locket-1.png",
+      "sha256": "4b3583216fa67eea2ebe3ca6a81bea8d9a0c63bd61f0b0dae5016dd178995204",
+      "job_id": "df94640a-d2c0-4af9-a0e8-7ef8e77c838c",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/round-portrait-locket-2.png",
+      "sha256": "3cd2f0a3613bff2bca8bd3eb2289f6f74163c47421228611d4b4c3457e9718e4",
+      "job_id": "df94640a-d2c0-4af9-a0e8-7ef8e77c838c",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/round-portrait-locket-3.png",
+      "sha256": "979f35df5c4b28e7ee344c78eb668a9eb28c34f15ff3351f14131fc6b97e8d3e",
+      "job_id": "df94640a-d2c0-4af9-a0e8-7ef8e77c838c",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/round-portrait-locket-4.png",
+      "sha256": "d0683a7f32fc5e38104ec116fee0c1b1f1e43e0b67c180053feef1f3852a7581",
+      "job_id": "df94640a-d2c0-4af9-a0e8-7ef8e77c838c",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/oval-portrait-locket-1.png",
+      "sha256": "af29299c017256ad4751487d934c1186821b923420d9b41dcbb4c36fc75e4cf5",
+      "job_id": "a23dc039-0f68-4f3c-804e-0689a1c7dcd3",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/oval-portrait-locket-2.png",
+      "sha256": "c765162d6a978249ce8d6e3a47da7eaa1951b85adb2a39454ada0595268928c7",
+      "job_id": "a23dc039-0f68-4f3c-804e-0689a1c7dcd3",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/oval-portrait-locket-3.png",
+      "sha256": "e17f48acc158caae1339084cdd7ca686eb4eec5c8f68535733dc9b7bd8c0ec4b",
+      "job_id": "a23dc039-0f68-4f3c-804e-0689a1c7dcd3",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/oval-portrait-locket-4.png",
+      "sha256": "47103eb8a9408e08e07031ccb3c040d6ff295db313bda5d70e044bb4e944f4b0",
+      "job_id": "a23dc039-0f68-4f3c-804e-0689a1c7dcd3",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/shield-emblem-frame-1.png",
+      "sha256": "543154cc825f2cd526b287c2db108eba1197c08dd29a13111de35f1e89865817",
+      "job_id": "4264fd16-53ff-4283-b220-a5169eafc8c3",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/shield-emblem-frame-2.png",
+      "sha256": "11b4745d707fce96f815378cb11b4b50247c735fc22b1fc44136b71963ac8a47",
+      "job_id": "4264fd16-53ff-4283-b220-a5169eafc8c3",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/shield-emblem-frame-3.png",
+      "sha256": "65ce45394b8c34fd5ef0a122d0705841fa08a9ecf74381c521e8b39ce1d838c3",
+      "job_id": "4264fd16-53ff-4283-b220-a5169eafc8c3",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/shield-emblem-frame-4.png",
+      "sha256": "72a18540dc22496e6d396a5fcdc706d5c43e6d2b2f0f0b6c7cec70bc94606225",
+      "job_id": "4264fd16-53ff-4283-b220-a5169eafc8c3",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/wax-seal-blank-1.png",
+      "sha256": "5a3e35afd0913deaf13d1dfae0ee7882e11307fb6838b1ed2af34d95441666ec",
+      "job_id": "a64ded24-309d-4edb-a572-3b63d6de2330",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/wax-seal-blank-2.png",
+      "sha256": "636d8e7c99be90966eba339a4acf0384a1408dcbdbf724064ef2043e07dc8cdb",
+      "job_id": "a64ded24-309d-4edb-a572-3b63d6de2330",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/wax-seal-blank-3.png",
+      "sha256": "3047c275d28d75919e0baca868fe2d242440d18d038c412517e3059c68aeb797",
+      "job_id": "a64ded24-309d-4edb-a572-3b63d6de2330",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/wax-seal-blank-4.png",
+      "sha256": "6de3d153a2f69d577f5a29a95c804733aa32a34e7d1e9aea828e8144e5c91526",
+      "job_id": "a64ded24-309d-4edb-a572-3b63d6de2330",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/engraving-seal-1.png",
+      "sha256": "eb1fa7ff8a57b136e8546ba9a6596747de316ef159699d8311d5ad1585b9f466",
+      "job_id": "9134282a-6c13-46e4-ba2c-cdde79fda4cd",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/engraving-seal-2.png",
+      "sha256": "a955ee1a62cba45edfb3773425d75f43adfe680f5f9c17be3019a839fa599b64",
+      "job_id": "9134282a-6c13-46e4-ba2c-cdde79fda4cd",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/engraving-seal-3.png",
+      "sha256": "1e9c0ee67116ae2ea8cbf321c2a8aad90f6a96bc4546c4589f566cff8267fc65",
+      "job_id": "9134282a-6c13-46e4-ba2c-cdde79fda4cd",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/engraving-seal-4.png",
+      "sha256": "1870c7a299466f8c340cf0e95d015da29ed2f89abe7ced12ff2399edb44eed9a",
+      "job_id": "9134282a-6c13-46e4-ba2c-cdde79fda4cd",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/heart-locket-frame-1.png",
+      "sha256": "71f3570ca88f8a3f4c60c1bb471ecefbe9eb2a8e561b13b0f6dc16fbf48852cf",
+      "job_id": "9d0d300b-d2bb-409a-93ae-9460478ec2c5",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/heart-locket-frame-2.png",
+      "sha256": "fb6dd75c4ece57a6a1fd4c4c5c90ab80d6741f94ddc35e9e41d941489a349b60",
+      "job_id": "9d0d300b-d2bb-409a-93ae-9460478ec2c5",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/heart-locket-frame-3.png",
+      "sha256": "1618e56876cca02323c6aff1cd777913a839667aa1ed89fc5713ec0f376678f4",
+      "job_id": "9d0d300b-d2bb-409a-93ae-9460478ec2c5",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/heart-locket-frame-4.png",
+      "sha256": "784fd0b3dfb9787e97158380898769edb0dd1fea6d6a1eb16777b1ad423a276e",
+      "job_id": "9d0d300b-d2bb-409a-93ae-9460478ec2c5",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/rune-halo-medallion-1.png",
+      "sha256": "f8947ebb293fa14023fe2b3186c762a34652bb17acd8959fa5b05fa084902b77",
+      "job_id": "e24832cd-0e62-49a2-a11e-3832cec99392",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/rune-halo-medallion-2.png",
+      "sha256": "f18b7d40c2d0c7f1227a997c9500a7128bf8cc76ce1e9a3eb00fc259ed296e4d",
+      "job_id": "e24832cd-0e62-49a2-a11e-3832cec99392",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/rune-halo-medallion-3.png",
+      "sha256": "ee985e4558d9442b1bede3f6dedf82e944fa13acab09ab104596a5e1f39cfa58",
+      "job_id": "e24832cd-0e62-49a2-a11e-3832cec99392",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/rune-halo-medallion-4.png",
+      "sha256": "ce42ac59adc9b474503ee7983ffd2704e8a6fcf47ecbed98e4d4dd00fbadac3c",
+      "job_id": "e24832cd-0e62-49a2-a11e-3832cec99392",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/botanical-cameo-1.png",
+      "sha256": "f6995a910e9e0f7ffc409c8a3268451ca4ab2adbdd0187a65f90d05ddb0ad868",
+      "job_id": "18004298-9ce4-4924-bf78-38c76b536ba9",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/botanical-cameo-2.png",
+      "sha256": "d01ca5b24bae2e6b544eb7bf72437d7dfe5820c1d3910f3b7f18ce2c54030831",
+      "job_id": "18004298-9ce4-4924-bf78-38c76b536ba9",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/botanical-cameo-3.png",
+      "sha256": "c54c7315c57a482c9387700a53511deca2b473d5453dcef904156047dd46f586",
+      "job_id": "18004298-9ce4-4924-bf78-38c76b536ba9",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/botanical-cameo-4.png",
+      "sha256": "5d7a9a9fa5ac3fef5c65f3659c896af8faed36be61c7019c45db08e32de27426",
+      "job_id": "18004298-9ce4-4924-bf78-38c76b536ba9",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/lock-emblem-1.png",
+      "sha256": "6e54400b1fc9c9853b9ebea84210ec32ea38d6c433a56715b638a3f0e0ed96c3",
+      "job_id": "9b7c7f3b-5d7a-4439-b134-e39428e9a031",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/lock-emblem-2.png",
+      "sha256": "031e2dcec8ff69c4a6c2e9f4a3c9455b10d736c7eee588f3e5e5d0836a3a786a",
+      "job_id": "9b7c7f3b-5d7a-4439-b134-e39428e9a031",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/lock-emblem-3.png",
+      "sha256": "aca14b3b26f03312735880b429b6d1dc1f535f92a3d95b28acceb5d655e66cc0",
+      "job_id": "9b7c7f3b-5d7a-4439-b134-e39428e9a031",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/lock-emblem-4.png",
+      "sha256": "54141164eedfdfae659159c6fd6bdd8c31c3c7db20536201b5e1ef5b35900d39",
+      "job_id": "9b7c7f3b-5d7a-4439-b134-e39428e9a031",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/starlace-rosette-1.png",
+      "sha256": "49396f6a9b86f557ec588bf8f3601270fe776990759684e26b298b120a7bc80b",
+      "job_id": "d587d7bd-b2d0-4154-ac7f-672b45722feb",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/starlace-rosette-2.png",
+      "sha256": "d437a2bda023981f81a317e48555d87d4ac46d00c1c5c5b62e6724f7e1d7e773",
+      "job_id": "d587d7bd-b2d0-4154-ac7f-672b45722feb",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/starlace-rosette-3.png",
+      "sha256": "0e453005ba35742c530037e4c522550fdc2f0c5735e3cebf7c60135ec9b0c948",
+      "job_id": "d587d7bd-b2d0-4154-ac7f-672b45722feb",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/starlace-rosette-4.png",
+      "sha256": "c484a9621497decac8549967c6032edeecb9af8ede68fdb0cd0fc0ffc0302dce",
+      "job_id": "d587d7bd-b2d0-4154-ac7f-672b45722feb",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/camellia-rosette-1.png",
+      "sha256": "923b8782afff7eb494061a8027085e643bcda2ae96198e2514c84fc58cebd0ab",
+      "job_id": "28c893bd-a121-454d-b8cc-939d71debad1",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/camellia-rosette-2.png",
+      "sha256": "91c50063642827f6366793052776782d62eda55e5cd54f90f6e41078379fe570",
+      "job_id": "28c893bd-a121-454d-b8cc-939d71debad1",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/camellia-rosette-3.png",
+      "sha256": "adaa5127031746a4fb43db9367b7218f224fd64d4a480a7b8860164ef1d49a44",
+      "job_id": "28c893bd-a121-454d-b8cc-939d71debad1",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/camellia-rosette-4.png",
+      "sha256": "38822bf2276734934d621f2ef3d1dfffdf520ff34701e1b6544751e145c6831c",
+      "job_id": "28c893bd-a121-454d-b8cc-939d71debad1",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/laurel-wheel-1.png",
+      "sha256": "3b91ac0d4242a99b4fa89886b73a128ac90592e0867e37e838f8dc30c2d479f1",
+      "job_id": "315fc28d-ea05-48ac-8491-43001be7d165",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/laurel-wheel-2.png",
+      "sha256": "8c0ee7f6009bf88a3b9b4485dc7d23eb262291947634f0d5a918fcb2b4f43859",
+      "job_id": "315fc28d-ea05-48ac-8491-43001be7d165",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/laurel-wheel-3.png",
+      "sha256": "8c47a76d3895c82e849e442072cf9dcca7bcce7cead8bed18d2ece9a2b36e2c2",
+      "job_id": "315fc28d-ea05-48ac-8491-43001be7d165",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/laurel-wheel-4.png",
+      "sha256": "35a9d7118942786c24a2a3b340694c92cc079345751a14a27c9173a49b7b2473",
+      "job_id": "315fc28d-ea05-48ac-8491-43001be7d165",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/compass-pleats-1.png",
+      "sha256": "c3aec2a4f2cdbeb5504f1267542b7009fda4a9bd398840b68b17a1fc5288e93c",
+      "job_id": "2785f419-9b4c-457d-8f41-f0a6362eeac2",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/compass-pleats-2.png",
+      "sha256": "5a968fd28b217191083e38d79cad170aae12f43c53d31d0eca7308f72c373e53",
+      "job_id": "2785f419-9b4c-457d-8f41-f0a6362eeac2",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/compass-pleats-3.png",
+      "sha256": "67a98c825256ae12a50e89aec490cf254e7cb45dfbfb2422c68e1e27ad8f27fa",
+      "job_id": "2785f419-9b4c-457d-8f41-f0a6362eeac2",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/compass-pleats-4.png",
+      "sha256": "be2ec6789e08aebb65a957923a1d2ed64c1fc0ed65ab7a64eeffb90b081b24ed",
+      "job_id": "2785f419-9b4c-457d-8f41-f0a6362eeac2",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/crown-rosette-1.png",
+      "sha256": "b64352898c920aee470ee32200ca7677b410d5b2a2ad6200ab14d118db344669",
+      "job_id": "4e94fcdf-4e34-48be-b5c3-3770a9f7706a",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/crown-rosette-2.png",
+      "sha256": "51e0ea2c85f5833446f6be75189c25b98e72b584d83a66cea0bfe2a383f83cf0",
+      "job_id": "4e94fcdf-4e34-48be-b5c3-3770a9f7706a",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/crown-rosette-3.png",
+      "sha256": "dfefe2958b96fbf3e1a96595bf72e6dda049a1d304625ae9069b0aa2bd333134",
+      "job_id": "4e94fcdf-4e34-48be-b5c3-3770a9f7706a",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/crown-rosette-4.png",
+      "sha256": "b0b0b2cd679bc1731d69f548edd7d2120da1b22b4273c9528858e402dc404f39",
+      "job_id": "4e94fcdf-4e34-48be-b5c3-3770a9f7706a",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/sunfold-rosette-1.png",
+      "sha256": "48d734fd41bd9841db593f1200a0bccf954ba3a1f57576e12fc71385d9bd42e0",
+      "job_id": "3930ef9d-0ae9-4440-8141-1efe5def29c6",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/sunfold-rosette-2.png",
+      "sha256": "8f70280615c9d6b1629e7fdc4e1a67fa8f717398cac30c24e3b641c6190edeb2",
+      "job_id": "3930ef9d-0ae9-4440-8141-1efe5def29c6",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/sunfold-rosette-3.png",
+      "sha256": "df025b2d6fa579a84f356b21fbc2f6cf0a115313ac4b562746089c00c8984f47",
+      "job_id": "3930ef9d-0ae9-4440-8141-1efe5def29c6",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/sunfold-rosette-4.png",
+      "sha256": "9f87d45b7a6bcb4a263526d94da27aaef8fb2c89752b440e40109dd815dafc22",
+      "job_id": "3930ef9d-0ae9-4440-8141-1efe5def29c6",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/portrait-rosette-1.png",
+      "sha256": "3ac97f4eac1009878a630ed6709718864b78d93034d8eb47d6c1be21c98a990a",
+      "job_id": "1c885534-5198-4d93-afdc-eace35e45e82",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/portrait-rosette-2.png",
+      "sha256": "f7581bae2ecea1127102a3cd2fdfd8d7faf745ce9fabe451424c2c3a532f3246",
+      "job_id": "1c885534-5198-4d93-afdc-eace35e45e82",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/portrait-rosette-3.png",
+      "sha256": "4c2deb4cdc4099a8c03bbea7432491a89184b1fbf9cb114f9bdb6e4fefeb15da",
+      "job_id": "1c885534-5198-4d93-afdc-eace35e45e82",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/portrait-rosette-4.png",
+      "sha256": "544968623fec36cd0ed587037cdd39d4ca98c2a86f89248bd27549b03d1b1f63",
+      "job_id": "1c885534-5198-4d93-afdc-eace35e45e82",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/triple-waterfall-1.png",
+      "sha256": "10e71edb1402fd861704c07909719eea4f11856e933992eb7932580051d01fa4",
+      "job_id": "84348f8c-75b9-4703-b1ab-09b69d6fe28d",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/triple-waterfall-2.png",
+      "sha256": "ac240dba1e3513194138fff4f4ce003356c118d89e71b5a71d19095a755da7a3",
+      "job_id": "84348f8c-75b9-4703-b1ab-09b69d6fe28d",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/triple-waterfall-3.png",
+      "sha256": "93dd5eebc94f318b6c3cd0d6036790eab3dbf5e4573c777f26fdbfe97b548684",
+      "job_id": "84348f8c-75b9-4703-b1ab-09b69d6fe28d",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/triple-waterfall-4.png",
+      "sha256": "85fdd294d4740d3ce5cb2514950f3eab1937e37061bd6be452f038c63e3a88f4",
+      "job_id": "84348f8c-75b9-4703-b1ab-09b69d6fe28d",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/spiral-streamers-1.png",
+      "sha256": "a5960e0ff214c8f099ad99247c648084ba1e27566944f958b725a5fba19203fc",
+      "job_id": "9d110f72-8652-4446-835d-7f9ee3578fb0",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/spiral-streamers-2.png",
+      "sha256": "05eb079b72263e38e53cc228cf61a7c4b699cc77150f31fcc62e5dbe3bc5c68d",
+      "job_id": "9d110f72-8652-4446-835d-7f9ee3578fb0",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/spiral-streamers-3.png",
+      "sha256": "a4aec1390814685f5e6469b0315a0aae584a0767af858be5487099e0cb2a3303",
+      "job_id": "9d110f72-8652-4446-835d-7f9ee3578fb0",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/spiral-streamers-4.png",
+      "sha256": "a0d73905421d2c01a4937c17be277c9cc79bf6c42c4eaa98e57bf724b1f7cff8",
+      "job_id": "9d110f72-8652-4446-835d-7f9ee3578fb0",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/forked-tails-1.png",
+      "sha256": "ecfbead8f310baf07bb8d169a9e490dcbe7ded9b47769901856dd9d5114c93b2",
+      "job_id": "6988d028-6402-4e13-85bb-b7504847bc72",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/forked-tails-2.png",
+      "sha256": "039a7ba5f492dadc511dde24369011d06c930ffb73903f56310790963e999093",
+      "job_id": "6988d028-6402-4e13-85bb-b7504847bc72",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/forked-tails-3.png",
+      "sha256": "301c9c8ee3ab3941ed9ef884d2f98c7054aa78de43573205a2eab6042ed67baf",
+      "job_id": "6988d028-6402-4e13-85bb-b7504847bc72",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/forked-tails-4.png",
+      "sha256": "16970b544919b603b014618dd54614cb4174459528d6a58679225b1f121319a5",
+      "job_id": "6988d028-6402-4e13-85bb-b7504847bc72",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/chain-swags-1.png",
+      "sha256": "cc8042653052496196d04842728b52374768b8393a06968f0d357e2a3a33b3f6",
+      "job_id": "9bd1945e-eeb5-4327-8d1d-da3c1901e7d0",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/chain-swags-2.png",
+      "sha256": "35d5f3d8e513a03f592316483b028b79b7044efdade915780e6d740944f876fa",
+      "job_id": "9bd1945e-eeb5-4327-8d1d-da3c1901e7d0",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/chain-swags-3.png",
+      "sha256": "75140f938195af378ad8265c7026fe0b808a63136b997373bb5b44762808834e",
+      "job_id": "9bd1945e-eeb5-4327-8d1d-da3c1901e7d0",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/chain-swags-4.png",
+      "sha256": "1edef62457ba136876809ba91e520e042ad47bb24afe668340ae766e8e50aa81",
+      "job_id": "9bd1945e-eeb5-4327-8d1d-da3c1901e7d0",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/oak-mantle-1.png",
+      "sha256": "8d37000250c2fc50dede8004467f934ecc94d89107cccee63889cf82c8acfa72",
+      "job_id": "885db86c-90c7-40b5-b319-00a8012f6951",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/oak-mantle-2.png",
+      "sha256": "e7ea7de3c5b68a05c7734292561d7da708dea3856f01d6eb7a55a8539b2961f5",
+      "job_id": "885db86c-90c7-40b5-b319-00a8012f6951",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/oak-mantle-3.png",
+      "sha256": "69662f26f58e7625aabedf851fe37f1426070e7efb67f192ee6e1a3af05af172",
+      "job_id": "885db86c-90c7-40b5-b319-00a8012f6951",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/oak-mantle-4.png",
+      "sha256": "5b2e4d6a96ba23be0ed6fbc8f82605d22d2521fbf4dd12df7129bd42c0bcebe6",
+      "job_id": "885db86c-90c7-40b5-b319-00a8012f6951",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/feather-wings-1.png",
+      "sha256": "a511685932bff643b2832ce1f950d69e7471250a9571b282cea0d0bf03b264f4",
+      "job_id": "3faf0e16-2a50-4537-ac06-98514375a477",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/feather-wings-2.png",
+      "sha256": "61678f212654cf3ff2d41f38ea0802401ff23269c131eb53aebda1ec89e02469",
+      "job_id": "3faf0e16-2a50-4537-ac06-98514375a477",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/feather-wings-3.png",
+      "sha256": "194994b2975d2decc78e83bd690c3186053695464a3ef2298e8201df7500d738",
+      "job_id": "3faf0e16-2a50-4537-ac06-98514375a477",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/feather-wings-4.png",
+      "sha256": "f104879994156f10cf646763c9a34571159af032d06cce7d9249be91ced31a3a",
+      "job_id": "3faf0e16-2a50-4537-ac06-98514375a477",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/orbit-star-1.png",
+      "sha256": "f82a0df6a280abf620185434c2d00e0ad87a3dddc8d5f8a334ea7cabd991c728",
+      "job_id": "887f46f1-12c9-43b8-9d70-5f7cc5a56e3a",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/orbit-star-2.png",
+      "sha256": "f250b81256a7ddc2c59e0e92a1ef78876810ea6b272e7167622549de69df1678",
+      "job_id": "887f46f1-12c9-43b8-9d70-5f7cc5a56e3a",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/orbit-star-3.png",
+      "sha256": "2f6b766f2e2016ca316ed9ab4e741d87caf4356ae6f375cb31e2b1fb784e7023",
+      "job_id": "887f46f1-12c9-43b8-9d70-5f7cc5a56e3a",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/orbit-star-4.png",
+      "sha256": "7412479db34e4a36cfa6c8eb8eef618e1f6b319f5ae73f22cd8f3164c77dbbe4",
+      "job_id": "887f46f1-12c9-43b8-9d70-5f7cc5a56e3a",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/orbit-moon-1.png",
+      "sha256": "afdaf885203f45f8031d8a16554fd9f77befebf7faabd94f93743bfe2ca7b8ac",
+      "job_id": "4c397d40-9b31-448c-b175-1000bc1f2809",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/orbit-moon-2.png",
+      "sha256": "adb5c17d42fbe2517437dce91b5e5cdd0b6b1189c60a72fcef1fdc771e6f1d71",
+      "job_id": "4c397d40-9b31-448c-b175-1000bc1f2809",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/orbit-moon-3.png",
+      "sha256": "861502a681db295c445309e22773afea5376a54879a7b3e13ce0a3aa54c2bafe",
+      "job_id": "4c397d40-9b31-448c-b175-1000bc1f2809",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/orbit-moon-4.png",
+      "sha256": "e23a2c9a007de66d906ff2fc1d99a0dce677ee355ea218d70510e1e8057b053e",
+      "job_id": "4c397d40-9b31-448c-b175-1000bc1f2809",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/crystal-satellite-1.png",
+      "sha256": "7c044a5e950efe36ef714803252a883d839424cc12e02db0f8226bd7078eac97",
+      "job_id": "ae519977-f85a-4306-81f6-5ab79ccda790",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/crystal-satellite-2.png",
+      "sha256": "1a5fffcd55c29dc5cc794010e714a97c8255ebb65c21f8c5acfd4f96eedc435e",
+      "job_id": "ae519977-f85a-4306-81f6-5ab79ccda790",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/crystal-satellite-3.png",
+      "sha256": "129021bb176ae2582de064842a4ebd48de675861f7b5e6f90589371a54de147c",
+      "job_id": "ae519977-f85a-4306-81f6-5ab79ccda790",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/crystal-satellite-4.png",
+      "sha256": "8488bf57e80708824b52008053011e5962475f8d2b382f55b52f03c8906bc81a",
+      "job_id": "ae519977-f85a-4306-81f6-5ab79ccda790",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/halo-ring-1.png",
+      "sha256": "5eb8e7c01d6b9d4fe9aa724c461aa0f054fc8ca1c5281f99c380485f2474a78c",
+      "job_id": "61413c1b-7a5e-4f7b-912a-77e0e876b1e5",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/halo-ring-2.png",
+      "sha256": "8d272f9ea23f479f9b3039604f92542600cb2b82425efa81755aee821beb506c",
+      "job_id": "61413c1b-7a5e-4f7b-912a-77e0e876b1e5",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/halo-ring-3.png",
+      "sha256": "6676e5dba044625fb64c3d9a338ab8524d5e9d169bb98087095ed5c4ac4caf5d",
+      "job_id": "61413c1b-7a5e-4f7b-912a-77e0e876b1e5",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/halo-ring-4.png",
+      "sha256": "de356681b7784e28dfc22773b090aefd9c72c90939f8f37d5bacac68c8e5a14e",
+      "job_id": "61413c1b-7a5e-4f7b-912a-77e0e876b1e5",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/round-locket-lid-1.png",
+      "sha256": "356dcfa0d71ec9bc778bf86687e2ee9a9a5811e6e263223e78c22f23563338ce",
+      "job_id": "3f6efc12-3ddc-4e5a-8e4d-c82c83b91a0f",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/round-locket-lid-2.png",
+      "sha256": "8eae81e3ee674fe0f5bd4b3077bd820993ebbea31fe26cb305543a270edb88ba",
+      "job_id": "3f6efc12-3ddc-4e5a-8e4d-c82c83b91a0f",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/round-locket-lid-3.png",
+      "sha256": "6414af60a6f239d54a0cde885a2b17509444721f7cb0f33a301513034c6ab125",
+      "job_id": "3f6efc12-3ddc-4e5a-8e4d-c82c83b91a0f",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/round-locket-lid-4.png",
+      "sha256": "5e83ba4d1b24c61ceaaa1a28da0cdd458908c488b541f5a353a14e2e4ad29618",
+      "job_id": "3f6efc12-3ddc-4e5a-8e4d-c82c83b91a0f",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/oval-locket-lid-1.png",
+      "sha256": "20dc2c6894a558a1d5f5e26f26cc79ae14d466d2b813b3b1de616c6ccdc0217f",
+      "job_id": "f8c4419d-a377-44d5-982b-aa772b09fd0a",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/oval-locket-lid-2.png",
+      "sha256": "26c7ed877b1c2121c103a1fd27928dd38c1bf62709a276414373a4c0c15838d2",
+      "job_id": "f8c4419d-a377-44d5-982b-aa772b09fd0a",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/oval-locket-lid-3.png",
+      "sha256": "04e03d724729bb5e6f12601e6d4bbab9521eef48bc83db407c8db1ad2cf81814",
+      "job_id": "f8c4419d-a377-44d5-982b-aa772b09fd0a",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/oval-locket-lid-4.png",
+      "sha256": "31517c860080cc358567dfef850b87817ce55469e6c3923f8666a45e651f691e",
+      "job_id": "f8c4419d-a377-44d5-982b-aa772b09fd0a",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/heart-locket-lid-1.png",
+      "sha256": "4f6205c417d276410e0f3a857a0c607811a630680a682fb0b375d93fb10749ab",
+      "job_id": "43356a1a-aa11-4bfe-a3c2-25443c06c1bf",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/heart-locket-lid-2.png",
+      "sha256": "cfc9222b1a1dfd8c6105105e84de4270901de07fae0a6b9dbbe1e16d27f2c1de",
+      "job_id": "43356a1a-aa11-4bfe-a3c2-25443c06c1bf",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/heart-locket-lid-3.png",
+      "sha256": "8a6393b96dc97c835e835beb2e8900af9c0f809d05c65951bef2b5e727a2acdc",
+      "job_id": "43356a1a-aa11-4bfe-a3c2-25443c06c1bf",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/heart-locket-lid-4.png",
+      "sha256": "f63834fb08e40f542b2c1af00a834af90d0fbf8ff08c4392b5cd4e9ff4f58c5e",
+      "job_id": "43356a1a-aa11-4bfe-a3c2-25443c06c1bf",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/sparkle-crown-1.png",
+      "sha256": "4c6641405693732551e00f0193d3fe686e6856838eb423113c5349bce30df852",
+      "job_id": "0a1657d3-b540-4bb2-ae5c-badea7bd9346",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/sparkle-crown-2.png",
+      "sha256": "38955648bdc2fc00c57bf9e9e2a123f5faf454b404b67923451d719acda5d2ce",
+      "job_id": "0a1657d3-b540-4bb2-ae5c-badea7bd9346",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/sparkle-crown-3.png",
+      "sha256": "8f5f6f3e467215905e14d12cb3f33de7c4ff4b64e133ddb46597cc16c70cda80",
+      "job_id": "0a1657d3-b540-4bb2-ae5c-badea7bd9346",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/sparkle-crown-4.png",
+      "sha256": "4c2d8c78ccf938dc5a60a1cba1d665591044bce4482eeeeba5c2e336db7a1dc1",
+      "job_id": "0a1657d3-b540-4bb2-ae5c-badea7bd9346",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/blank-nameplate-1.png",
+      "sha256": "31918502063cf85b9d162670ce6755a0471db004eb158b84c481376c49617990",
+      "job_id": "ad9127dd-957f-4b64-8fa5-ca797fd80257",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/blank-nameplate-2.png",
+      "sha256": "64af5fda9190cd703caa19d3203f96d9df04cde1726694f03f9b4de7628d556c",
+      "job_id": "ad9127dd-957f-4b64-8fa5-ca797fd80257",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/blank-nameplate-3.png",
+      "sha256": "7eb3662c7d132fa0f33fea75d23659cee74c022aefebe3643f2ca94a821d516f",
+      "job_id": "ad9127dd-957f-4b64-8fa5-ca797fd80257",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/blank-nameplate-4.png",
+      "sha256": "6dbddaaa7cd94000126beaa23ac9dd0292d2b7d32a1de5d9b9bd678e90007838",
+      "job_id": "ad9127dd-957f-4b64-8fa5-ca797fd80257",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/leaf-bar-1.png",
+      "sha256": "4ba6f19563f3032ce3b41ce10253feeaf220ac3eb9dda7aeeac7169fc63a6e06",
+      "job_id": "73a88264-e7c3-44f2-9b6e-fcbe8e5b0e57",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/leaf-bar-2.png",
+      "sha256": "02f993f3515e459fda2cada07f27bdfb21acaa6573daba2168cc7d10761e3fdf",
+      "job_id": "73a88264-e7c3-44f2-9b6e-fcbe8e5b0e57",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/leaf-bar-3.png",
+      "sha256": "b57e720171e0575393594e63ccea50741be46ac92b3a83846d36a494c1e3d024",
+      "job_id": "73a88264-e7c3-44f2-9b6e-fcbe8e5b0e57",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/leaf-bar-4.png",
+      "sha256": "8b49b61ddceadfb201bbc5b2cb444834c9cd3ca96cef50bf3689b3aeffb21291",
+      "job_id": "73a88264-e7c3-44f2-9b6e-fcbe8e5b0e57",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/crescent-bar-1.png",
+      "sha256": "50d456becea910bc196df6d02354103a0942ebf5779ac0b1cd0d9292f70cb477",
+      "job_id": "44b9f961-a11e-42cd-a7d4-50d364f943fb",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/crescent-bar-2.png",
+      "sha256": "df392aeee79e0e1f1e8ebd44853cf6362c3edbf509b9d78e199f2986bebdf000",
+      "job_id": "44b9f961-a11e-42cd-a7d4-50d364f943fb",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/crescent-bar-3.png",
+      "sha256": "75fbde49d7c8e912c46f9b70ef6f31972c380dc9b6ce29af8470934bea39a7fd",
+      "job_id": "44b9f961-a11e-42cd-a7d4-50d364f943fb",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/crescent-bar-4.png",
+      "sha256": "3358336944403c0c34eaa6267f7b6efa7c4e50525020fef479474fcfec20b4e4",
+      "job_id": "44b9f961-a11e-42cd-a7d4-50d364f943fb",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/shield-bar-1.png",
+      "sha256": "e03fd8cba44687fccbef0914c1503af18f0eb52fa0abab9040359c44fe823979",
+      "job_id": "12f8a688-4475-409c-88f2-37fbe9567621",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/shield-bar-2.png",
+      "sha256": "60e041f5094f506918a546a5e17db267baf0423d429608e7d5defbf463e20540",
+      "job_id": "12f8a688-4475-409c-88f2-37fbe9567621",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/shield-bar-3.png",
+      "sha256": "66f31f061b94ab5c3d8664e73fa863c86d8311ec57ccc10a1218eea54c7eb9ba",
+      "job_id": "12f8a688-4475-409c-88f2-37fbe9567621",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/shield-bar-4.png",
+      "sha256": "6ac0dac4feb6bafabdc465e70d213a85512bd00222e037844ccc87021988518f",
+      "job_id": "12f8a688-4475-409c-88f2-37fbe9567621",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/triple-teardrop-1.png",
+      "sha256": "125c79db3f1961881200d2d9c02cced84bee282958eb4b6061d785888c5dd10a",
+      "job_id": "f4d5900f-4d84-424c-a56d-6fd1fcefbc32",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/triple-teardrop-2.png",
+      "sha256": "fb8e42209fb90488a219aeea4e915ed4b2a88148b612a7f8d63bef35830fc567",
+      "job_id": "f4d5900f-4d84-424c-a56d-6fd1fcefbc32",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/triple-teardrop-3.png",
+      "sha256": "e60d6d06a1cbd64da8e03b46f7c962171d32b2559068aaea7d21865fc25b2c2c",
+      "job_id": "f4d5900f-4d84-424c-a56d-6fd1fcefbc32",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/triple-teardrop-4.png",
+      "sha256": "ff3cfa8a650f1e99f7a84a4f20de65925eba5fe3f56680a8a8c9767819c24ce6",
+      "job_id": "f4d5900f-4d84-424c-a56d-6fd1fcefbc32",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/sunburst-bar-1.png",
+      "sha256": "b1f06877e3375c7c319c153bcc7f72767728670e453f417c1e0a38451a7ccaaa",
+      "job_id": "58f8bf08-4299-491a-87b2-7ad48092f62d",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/sunburst-bar-2.png",
+      "sha256": "32a35d4fba6304b4edc8c8325a08426ff53dda15b25128c12d6376789fece4fb",
+      "job_id": "58f8bf08-4299-491a-87b2-7ad48092f62d",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/sunburst-bar-3.png",
+      "sha256": "46968e91e336ca01b5a99b9743812b0f95448071e31f0af7ba9afb3ea6f0b983",
+      "job_id": "58f8bf08-4299-491a-87b2-7ad48092f62d",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/sunburst-bar-4.png",
+      "sha256": "fe982d9feec78a1e29c585d1583817a0d75628bf831c459675e7bca690364b61",
+      "job_id": "58f8bf08-4299-491a-87b2-7ad48092f62d",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/wing-bar-1.png",
+      "sha256": "e8f197add26c71dba6ee8189eb850ec6afa01417a512176cd8df625c5c342bf3",
+      "job_id": "6e4cc545-e24f-4040-9408-d5be60705885",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/wing-bar-2.png",
+      "sha256": "f08caff799130d3f269efde739278ee78af9bba407288e55e537af76f102c0f9",
+      "job_id": "6e4cc545-e24f-4040-9408-d5be60705885",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/wing-bar-3.png",
+      "sha256": "c9011c838d204a27eed09cffaa0a4a453b1cc11ceea25dc76409ec9c948a1e8f",
+      "job_id": "6e4cc545-e24f-4040-9408-d5be60705885",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/wing-bar-4.png",
+      "sha256": "55366c148342e5af16f5297c18a3eb7a669806a1ad23f9cdb3708cf0c36e3823",
+      "job_id": "6e4cc545-e24f-4040-9408-d5be60705885",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/ribbon-knot-bar-1.png",
+      "sha256": "a474a2ad190662fd0619a6dbbbb1680813f6e95078972dadf5fbcea87005f24c",
+      "job_id": "d1d5b08b-7d6d-43ab-b201-d1c8dd877d1e",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/ribbon-knot-bar-2.png",
+      "sha256": "4a86f5ae2cfdebc34215550185355e99c01d065538899b34674387997fac8aea",
+      "job_id": "d1d5b08b-7d6d-43ab-b201-d1c8dd877d1e",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/ribbon-knot-bar-3.png",
+      "sha256": "399cda42e136bb1850c57de71339c95dd34e6c643b24e3c26f5d023c59fda6e2",
+      "job_id": "d1d5b08b-7d6d-43ab-b201-d1c8dd877d1e",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/ribbon-knot-bar-4.png",
+      "sha256": "bfedef01e65b58d57fafae33700b9797f62e0d9692fb9ca4e6cf485814a87eab",
+      "job_id": "d1d5b08b-7d6d-43ab-b201-d1c8dd877d1e",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/engraved-laurel-plate-1.png",
+      "sha256": "672230962f0c512ed6a79472798d8fad8d2b536fae7db1ef28d2a44c6b17aa6b",
+      "job_id": "48f93eee-6acb-404f-b581-64e169f42436",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/engraved-laurel-plate-2.png",
+      "sha256": "f202510c6c04bb989eb14894cf9262812927c0ba9487c51273560a077c701fce",
+      "job_id": "48f93eee-6acb-404f-b581-64e169f42436",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/engraved-laurel-plate-3.png",
+      "sha256": "3fab6539c6e3a21d15b17af14715e0aa6ff767fe2ba02b4cbef090722db66aec",
+      "job_id": "48f93eee-6acb-404f-b581-64e169f42436",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/engraved-laurel-plate-4.png",
+      "sha256": "e34d649ff31f6e5a71b5424253010215323fe1a112395cafb32df978aa2ec341",
+      "job_id": "48f93eee-6acb-404f-b581-64e169f42436",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/diamond-lattice-bar-1.png",
+      "sha256": "04d2410233752b1a96726b5f7d220e3437f25d613e201ffad3ab0e1497d0c12b",
+      "job_id": "1f68b0f4-3faf-4ba5-8fae-5ca4facec7c9",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/diamond-lattice-bar-2.png",
+      "sha256": "4fba253d5779fa71eb65ec0b73391a19fa4d95ed5970231e617551fa59eceaac",
+      "job_id": "1f68b0f4-3faf-4ba5-8fae-5ca4facec7c9",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/diamond-lattice-bar-3.png",
+      "sha256": "703555192f1b44f155b13a221c0e60c5d9e5240a8a2f18fa1670ceb7766d4af8",
+      "job_id": "1f68b0f4-3faf-4ba5-8fae-5ca4facec7c9",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/diamond-lattice-bar-4.png",
+      "sha256": "69de3fce5dc505d112de30f73694fa509e0445c9d9aed93f6d5c6048388659b4",
+      "job_id": "1f68b0f4-3faf-4ba5-8fae-5ca4facec7c9",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/lock-plate-1.png",
+      "sha256": "546495d1d10e4827aa585e34075b1a3a47613ec83c5e58d56eafd22c067518a0",
+      "job_id": "aa23a345-871b-4bb1-ba6a-9f0f4d0f3706",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/lock-plate-2.png",
+      "sha256": "50a62ccaf10e9484c09bbfd326d8ff8f747698eb7c4413098370019ba0dedfac",
+      "job_id": "aa23a345-871b-4bb1-ba6a-9f0f4d0f3706",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/lock-plate-3.png",
+      "sha256": "7408529d59a3872757c03e25977cbdcbab2b09c02ae3dfb0d4a78ecc3406a7c6",
+      "job_id": "aa23a345-871b-4bb1-ba6a-9f0f4d0f3706",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/lock-plate-4.png",
+      "sha256": "4560a2e25dd6775b579270a41d56a4f58ee6b836946dc3fcf43a1ebe430e93e1",
+      "job_id": "aa23a345-871b-4bb1-ba6a-9f0f4d0f3706",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/scroll-seal-bar-1.png",
+      "sha256": "89bda4ab1384463a7fe491cec0c670df2cf10190540e396bc2acfca98e932355",
+      "job_id": "702d94b5-210c-4386-a269-43ede66b3872",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/scroll-seal-bar-2.png",
+      "sha256": "fc94cc4491a83b6fbd0c4f5d762b6d6542187d4ae617684dfd7c737eac1af85e",
+      "job_id": "702d94b5-210c-4386-a269-43ede66b3872",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/scroll-seal-bar-3.png",
+      "sha256": "2ffdbaef9b5f0a2aab2e859021c0ea082bddeb21d145e556396e4fb63f333732",
+      "job_id": "702d94b5-210c-4386-a269-43ede66b3872",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/scroll-seal-bar-4.png",
+      "sha256": "072b93339b51201639d5b6b5afb22a983ea76ce570f806fb2a4c756ad88f9310",
+      "job_id": "702d94b5-210c-4386-a269-43ede66b3872",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/data-packets-1.png",
+      "sha256": "f3d0417afab64a7427b4c2a6fad8fea31734ef092e5c915c40eb39515b4cdd8f",
+      "job_id": "8dd11127-a97b-4306-816d-2d6622150964",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/data-packets-2.png",
+      "sha256": "ba8bde934dd4ad005182327a7ed6a14b44061de5e3a000aeec660c075c914893",
+      "job_id": "8dd11127-a97b-4306-816d-2d6622150964",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/data-packets-3.png",
+      "sha256": "f0262ba0cf81470e7bdaba33489abd2b9c187977437ec4f025ade6a7343246d2",
+      "job_id": "8dd11127-a97b-4306-816d-2d6622150964",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/data-packets-4.png",
+      "sha256": "07fecaa1277135b42cc6718e064ea8e45ac126604ca2973841eb2c4715f009f2",
+      "job_id": "8dd11127-a97b-4306-816d-2d6622150964",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/binary-stream-1.png",
+      "sha256": "4d53ed79527e3f633180280194e038ac1d1dd23796023b31b756340aaefecde9",
+      "job_id": "8bdeea8e-1ff8-489f-87ef-4bfecbe79c95",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/binary-stream-2.png",
+      "sha256": "49c61b283c579167ec3b0c153f6706463c860027989443c1dac59a27e5d3cc4e",
+      "job_id": "8bdeea8e-1ff8-489f-87ef-4bfecbe79c95",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/binary-stream-3.png",
+      "sha256": "16306e2f310eb0c873c29aa24ce6b454498fd7917474ddfb9bf762d367e0cf76",
+      "job_id": "8bdeea8e-1ff8-489f-87ef-4bfecbe79c95",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/binary-stream-4.png",
+      "sha256": "403bed776e622b64e6273eaf1fc21353a3162d9d38dc97dd457d56ed15ce1cf7",
+      "job_id": "8bdeea8e-1ff8-489f-87ef-4bfecbe79c95",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/letter-stream-1.png",
+      "sha256": "20f6c4c8504379b1338811edffb523040b73a82174cd751d1717403fe56b0d2a",
+      "job_id": "955b0ba8-d94a-41d9-814a-1fba0ba3e889",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/letter-stream-2.png",
+      "sha256": "2c41f9cf57808eaa1fff400f0c26d559ec4547ab42353869ca21e7f44281cc58",
+      "job_id": "955b0ba8-d94a-41d9-814a-1fba0ba3e889",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/letter-stream-3.png",
+      "sha256": "8d75037292b5df82cb828b82e20f7ff284c20471a3ccd66a7c12f9f6febe18c4",
+      "job_id": "955b0ba8-d94a-41d9-814a-1fba0ba3e889",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/letter-stream-4.png",
+      "sha256": "a99cabef5b18110204dfef658e56040e920df71f5e7d9dd49ee573e8f0358250",
+      "job_id": "955b0ba8-d94a-41d9-814a-1fba0ba3e889",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/code-fragments-1.png",
+      "sha256": "db00f102ca6e78a6e1d50f4f345bfb4c213bf6c2a11cc8163cb15591a15a88a9",
+      "job_id": "dbd52152-456e-4ac1-bae0-1dfd7c58ac2e",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/code-fragments-2.png",
+      "sha256": "cf34ac8db9ab71062cd0791b4dd51de6d89e2373648ff77143c584073a1898a5",
+      "job_id": "dbd52152-456e-4ac1-bae0-1dfd7c58ac2e",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/code-fragments-3.png",
+      "sha256": "c139d5269de176ae1941adec311e24c79ceb94298d27660c515373cf22b3080b",
+      "job_id": "dbd52152-456e-4ac1-bae0-1dfd7c58ac2e",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/code-fragments-4.png",
+      "sha256": "a8b6d544a3c0afb37741927cab1d9d2cb16c0151aee88b3cc79ebd1286d381d7",
+      "job_id": "dbd52152-456e-4ac1-bae0-1dfd7c58ac2e",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/tiny-firework-1.png",
+      "sha256": "39d0054825487b0bc4c92690fd7049cd8cf1ace1a9b2ea70f05f8310bc061097",
+      "job_id": "f40e500b-a549-413c-b1b0-7e3a30c084e7",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/tiny-firework-2.png",
+      "sha256": "dfbd07bd3e858f1bbf943058e21bd29baf0273e9d60b33c0a6061d8a609e8013",
+      "job_id": "f40e500b-a549-413c-b1b0-7e3a30c084e7",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/tiny-firework-3.png",
+      "sha256": "e95ca4aba09d5a90b507739b20b4d23b9a1ca0ab2a6a39107be7f1dc2d1ac8f9",
+      "job_id": "f40e500b-a549-413c-b1b0-7e3a30c084e7",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/tiny-firework-4.png",
+      "sha256": "83184bbfb8a86ccb0572d39cb4d6929daf3d247b22917640084aac75531055f4",
+      "job_id": "f40e500b-a549-413c-b1b0-7e3a30c084e7",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/music-satellite-1.png",
+      "sha256": "ad271ceae3c0d1aa47a1f687ff95e18e633eabb81662d1d76e9ed7659e52aa4c",
+      "job_id": "911048df-e41e-43cc-981e-e38a3518179e",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/music-satellite-2.png",
+      "sha256": "854f82938a36e85a5b3fba247691e638d227a05076531ced97b047a95983c34e",
+      "job_id": "911048df-e41e-43cc-981e-e38a3518179e",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/music-satellite-3.png",
+      "sha256": "499de66e1661f1bb5f391ff94a805f32007c6e19f7039a78c3281a42c61d36b6",
+      "job_id": "911048df-e41e-43cc-981e-e38a3518179e",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/music-satellite-4.png",
+      "sha256": "b3427ec50f9f2706b06c1a3229464b6bd7419c92d71aceb01b6850cd43d8789c",
+      "job_id": "911048df-e41e-43cc-981e-e38a3518179e",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/heart-satellite-1.png",
+      "sha256": "764540758b2bb2bbdf8c44325a5f1e6ebc16ac7db10d2d06402cf9996e3b7009",
+      "job_id": "778d9df9-f170-44a7-b936-3bf63c0dd161",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/heart-satellite-2.png",
+      "sha256": "7722d28e9e86712e72ef62f0f5c04bc82f5c4c2dfd6cc0de7db233b7bff2cf92",
+      "job_id": "778d9df9-f170-44a7-b936-3bf63c0dd161",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/heart-satellite-3.png",
+      "sha256": "12f41f3e5daebb9efebc1135bff190ae6524fde0992af5d1457fd9d180ad4c0f",
+      "job_id": "778d9df9-f170-44a7-b936-3bf63c0dd161",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/heart-satellite-4.png",
+      "sha256": "07394dbb7570acf97458ee71bcde022153f66ddd8556ed3c250462ef92a61ff2",
+      "job_id": "778d9df9-f170-44a7-b936-3bf63c0dd161",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/gear-satellite-1.png",
+      "sha256": "6b4f47f5b32ab7aa2ab89818a8f0ac77ae7344cab81f6b5f358dc9638998ea8e",
+      "job_id": "cb0b418c-9ab7-4af6-bfb7-e5b0ec81620d",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/gear-satellite-2.png",
+      "sha256": "acd2fbbe76398d18d559bde2a16c2b7501f1ea4534294f7de754b738973229f2",
+      "job_id": "cb0b418c-9ab7-4af6-bfb7-e5b0ec81620d",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/gear-satellite-3.png",
+      "sha256": "dc4652b3e574329db2cd34eb30088b252be8fb7a65eb191797102098cbb6e0fa",
+      "job_id": "cb0b418c-9ab7-4af6-bfb7-e5b0ec81620d",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/gear-satellite-4.png",
+      "sha256": "a0097409f5e1e2ce92c368c7ad19aa1313d21108499062f0aaf957a645ab0e16",
+      "job_id": "cb0b418c-9ab7-4af6-bfb7-e5b0ec81620d",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/butterfly-satellite-1.png",
+      "sha256": "7d1e62bfa837c15bb8be42c1d79da3e8bb2c6b33ee4857481bfeccaced11866b",
+      "job_id": "2f5e103c-c626-4c58-ab18-ddc3775df543",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/butterfly-satellite-2.png",
+      "sha256": "96778f35085e819226b91f74e5713f29f00e8199d9c478696c5d89309517d504",
+      "job_id": "2f5e103c-c626-4c58-ab18-ddc3775df543",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/butterfly-satellite-3.png",
+      "sha256": "2133f2d53f61b5989a7e573ca6805d5553474e844557b30bc45b31dd699cb752",
+      "job_id": "2f5e103c-c626-4c58-ab18-ddc3775df543",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/butterfly-satellite-4.png",
+      "sha256": "2bdbedf8300a69a05ba49f867bd5dd158438323968575ef3506e5fb58242975b",
+      "job_id": "2f5e103c-c626-4c58-ab18-ddc3775df543",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/circuit-comet-1.png",
+      "sha256": "f796192f8cebdd7e8ca4d192767f999dd1148961b874ad24be51738b330a032d",
+      "job_id": "6635b9ec-a321-421d-94e6-b62cb597033b",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/circuit-comet-2.png",
+      "sha256": "0c82639ccb9c1e57e1e2379fd84ee7fe9ae14ecb9d08e858ff1ece3898d980b2",
+      "job_id": "6635b9ec-a321-421d-94e6-b62cb597033b",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/circuit-comet-3.png",
+      "sha256": "644f569eb2bf2ffbaf181c23079c79626e0e257c134a6453647647bdb3be7b40",
+      "job_id": "6635b9ec-a321-421d-94e6-b62cb597033b",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/circuit-comet-4.png",
+      "sha256": "80be96b737d6b1e09e8984610559dd753f0927247d4f29e5e82d1535933e46be",
+      "job_id": "6635b9ec-a321-421d-94e6-b62cb597033b",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/book-satellite-1.png",
+      "sha256": "6005527f710c8d514c051f6a8e3155a971b7eff6d8ab36f5db6fbd951b1f35ab",
+      "job_id": "f67850af-d980-4c5e-8f6c-be5e360529cf",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/book-satellite-2.png",
+      "sha256": "30100dd3527c669d5be91e75d4dad1eda35dac1f3d488de2b1effc120549fa62",
+      "job_id": "f67850af-d980-4c5e-8f6c-be5e360529cf",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/book-satellite-3.png",
+      "sha256": "d6d462f632c0892ddf22d99d9c940d621a3761c8ab0490aa635d2445c76a9c3f",
+      "job_id": "f67850af-d980-4c5e-8f6c-be5e360529cf",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/book-satellite-4.png",
+      "sha256": "2df5843a08cbcefe314368236312d4db1684b17eecf44082421936a9a9a79fe6",
+      "job_id": "f67850af-d980-4c5e-8f6c-be5e360529cf",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/key-satellite-1.png",
+      "sha256": "5d1b2a1a2bd70d8e58d22434124515d624307508910a6a79a74f6253cd2b2b25",
+      "job_id": "86464b78-065a-4e92-a5b9-656c610b282f",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/key-satellite-2.png",
+      "sha256": "e3ad41bfd22113f7567aa5547b657293040df9b2ad4c2891b73512cb03ea6ffd",
+      "job_id": "86464b78-065a-4e92-a5b9-656c610b282f",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/key-satellite-3.png",
+      "sha256": "1f32840362ff8651a9e27ae179da59c803a35a66942e191927b9052d55a167cc",
+      "job_id": "86464b78-065a-4e92-a5b9-656c610b282f",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/key-satellite-4.png",
+      "sha256": "6e2e61bf69d92b7f0c952381d715eb07c8c917977b695559b419e55f7b7518cd",
+      "job_id": "86464b78-065a-4e92-a5b9-656c610b282f",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/snowfold-rosette-1.png",
+      "sha256": "ee44aa15122a39db180dfeba13577f4e23f41300d4c0af184158e73d8d1d6406",
+      "job_id": "f5c65bb1-1565-4848-aa35-1d5c0f6556ce",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/snowfold-rosette-2.png",
+      "sha256": "4feede9f8913a6a7d00edfbaede24bce7f8a8734b2bda940626b1939f3645463",
+      "job_id": "f5c65bb1-1565-4848-aa35-1d5c0f6556ce",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/snowfold-rosette-3.png",
+      "sha256": "6272e129d171f796c8f0d2118be0a7bc41143bb47377b07089e231c341a1441e",
+      "job_id": "f5c65bb1-1565-4848-aa35-1d5c0f6556ce",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/snowfold-rosette-4.png",
+      "sha256": "438b8bf27dfa8c768f6ef6656fe10b034b6a99bfee9c9d52e210aef01952849e",
+      "job_id": "f5c65bb1-1565-4848-aa35-1d5c0f6556ce",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/spiral-petal-rosette-1.png",
+      "sha256": "5c3c30feb2445d1331fc03f0ceb856d32f1fc8fe0d657a7fd1d9178d4de6e8de",
+      "job_id": "b37b9df0-8923-479e-9471-dbcfb4f587f0",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/spiral-petal-rosette-2.png",
+      "sha256": "38956cc0c81b457c600040397558a4efc44b9c14121a4b9dbd1d43fceae131bb",
+      "job_id": "b37b9df0-8923-479e-9471-dbcfb4f587f0",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/spiral-petal-rosette-3.png",
+      "sha256": "51841bc820090b924162affd7c5d8f33a6a094c04f7062cfc92a6da67a2ce88b",
+      "job_id": "b37b9df0-8923-479e-9471-dbcfb4f587f0",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/spiral-petal-rosette-4.png",
+      "sha256": "21b6ebfb237e91c97ee81aee8cd8f8a08da2ac2f871db57afefe7aab4387099a",
+      "job_id": "b37b9df0-8923-479e-9471-dbcfb4f587f0",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/clover-rosette-1.png",
+      "sha256": "a7ed8279c6608fc667f98cebfe351bb0554b58935bf0558d3e8ea2d320494966",
+      "job_id": "834d4bfa-b580-4433-88be-4304707da009",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/clover-rosette-2.png",
+      "sha256": "469785e9f4fa9b32a5addf547059638e48403d4eb1a3adedb953179b6289c481",
+      "job_id": "834d4bfa-b580-4433-88be-4304707da009",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/clover-rosette-3.png",
+      "sha256": "0f69059d25ac3a91c2594c87cbebedc03ae5d34d094970e5e0dd28e22440570e",
+      "job_id": "834d4bfa-b580-4433-88be-4304707da009",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/clover-rosette-4.png",
+      "sha256": "96ca498a8c99eaa2af1f2fc5004e7c5f8927d72045b3d201e8786816746f84f5",
+      "job_id": "834d4bfa-b580-4433-88be-4304707da009",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/diamond-fan-rosette-1.png",
+      "sha256": "dbddaecf56376d9a12ff3998d20824c515306d7b562cfa97338baa52dc52526a",
+      "job_id": "07d0a274-6150-4636-a3e4-2a7ab2ae6c01",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/diamond-fan-rosette-2.png",
+      "sha256": "f1505a05b2d1be0dc0e3c38a44352b535e776abd906f9874992834abc2f1dfd7",
+      "job_id": "07d0a274-6150-4636-a3e4-2a7ab2ae6c01",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/diamond-fan-rosette-3.png",
+      "sha256": "761be509999b9a192abd4b75c274cec8f1b4a4ac5841ce8a5e5d4871c5e0ac95",
+      "job_id": "07d0a274-6150-4636-a3e4-2a7ab2ae6c01",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/diamond-fan-rosette-4.png",
+      "sha256": "50b2472a66db35d5d4ce9413440ff3f4792939c202a2150b6a89a62d5dd5c033",
+      "job_id": "07d0a274-6150-4636-a3e4-2a7ab2ae6c01",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/royal-halo-rosette-1.png",
+      "sha256": "da5426905bc0098da6a39a7b286479bf8f554afd6abd223ba283cc3961b01185",
+      "job_id": "2b28da28-9141-4e18-b10c-8206c59f73cd",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/royal-halo-rosette-2.png",
+      "sha256": "e77f3d7113d41493c85356e11f161787c11022dd47c26f491e8f4d9d73fa04c6",
+      "job_id": "2b28da28-9141-4e18-b10c-8206c59f73cd",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/royal-halo-rosette-3.png",
+      "sha256": "24477dc847e6047aed31495ffc9881941de63a6a63ba8f69effb978f5d4f3ed4",
+      "job_id": "2b28da28-9141-4e18-b10c-8206c59f73cd",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/royal-halo-rosette-4.png",
+      "sha256": "ff9143d862d098dc517c4a3c011a617826849a186e2b1ae59332d8b9bb7dee76",
+      "job_id": "2b28da28-9141-4e18-b10c-8206c59f73cd",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/fern-wheel-rosette-1.png",
+      "sha256": "89a964db467f866a9d25f2c7d96d469f400409994a513c82fc7a352853a54434",
+      "job_id": "35388c30-4cc7-4000-b11a-50dba4e91a02",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/fern-wheel-rosette-2.png",
+      "sha256": "e07703ceea072b1752b06518fd08cc704d2776e976928724029d364020d6a17b",
+      "job_id": "35388c30-4cc7-4000-b11a-50dba4e91a02",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/fern-wheel-rosette-3.png",
+      "sha256": "76a7afbb910cadc8685e2801dec677b8a09b3c2eb41c88260170343d22511d0e",
+      "job_id": "35388c30-4cc7-4000-b11a-50dba4e91a02",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/fern-wheel-rosette-4.png",
+      "sha256": "d7ee10892963aea670d534feeb2de909efc12f1d2b6f6bc077352193ebba5463",
+      "job_id": "35388c30-4cc7-4000-b11a-50dba4e91a02",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/moonflower-rosette-1.png",
+      "sha256": "03c7d95806e2c55887d7d27452bcd922c8f51508ff45abf8366b955f1b35b4d6",
+      "job_id": "2471bdec-53b9-470f-ae4e-124c894ed87d",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/moonflower-rosette-2.png",
+      "sha256": "2487fb06b5d664153b7bb5900cf3d32eebdb6238d356c4358c244027cbcd9cfc",
+      "job_id": "2471bdec-53b9-470f-ae4e-124c894ed87d",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/moonflower-rosette-3.png",
+      "sha256": "bfd6773154d2c6e2540115f9d111d6653c615cf7d10c689dfab679d9ffa88f4b",
+      "job_id": "2471bdec-53b9-470f-ae4e-124c894ed87d",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/moonflower-rosette-4.png",
+      "sha256": "2397cbb6eacf971a617235e9123f8c82eb42245755002ed3ff7c8540b077c4ea",
+      "job_id": "2471bdec-53b9-470f-ae4e-124c894ed87d",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/stellar-service-pendant-1.png",
+      "sha256": "90ddc5a553852680115fd1ee7e46ff5477730829bbdd0fedf419ca5664734021",
+      "job_id": "481f9bee-8598-496a-b521-8f254f6bdc91",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/stellar-service-pendant-2.png",
+      "sha256": "ebc5737349cc201e1f3de43dddcc3f57d9152da3bf01f8ca1a4c5f7c6caa110a",
+      "job_id": "481f9bee-8598-496a-b521-8f254f6bdc91",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/stellar-service-pendant-3.png",
+      "sha256": "a056197fc8b02b9fab812b683a29a1e100d60a0550c195af4447ccc94a8d9b4e",
+      "job_id": "481f9bee-8598-496a-b521-8f254f6bdc91",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/stellar-service-pendant-4.png",
+      "sha256": "bb945e9afb545f80b04eb28a0ed5b52954f258f7d401bd1fab81d752ef2b920f",
+      "job_id": "481f9bee-8598-496a-b521-8f254f6bdc91",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/winged-crest-pendant-1.png",
+      "sha256": "aeebf19b0f739aa45cacac41e058bdd5c6b9dfcd32ac69e210774614434989b4",
+      "job_id": "10e61d26-fae3-4b18-a7d0-4963818a0276",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/winged-crest-pendant-2.png",
+      "sha256": "acfedea35559043c0d1f4c36362a4bba505af941e56edac212740e54f220daa9",
+      "job_id": "10e61d26-fae3-4b18-a7d0-4963818a0276",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/winged-crest-pendant-3.png",
+      "sha256": "1f85764381e780b0a1435cf6114ffdbdd1a5cf1dd48ce4a8b75447987523bf2e",
+      "job_id": "10e61d26-fae3-4b18-a7d0-4963818a0276",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/winged-crest-pendant-4.png",
+      "sha256": "8bce4ed27572f2cf5d5e5f09045c14d00572235c9c7a8bbc4d4032cd0147c733",
+      "job_id": "10e61d26-fae3-4b18-a7d0-4963818a0276",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/book-of-merit-pendant-1.png",
+      "sha256": "e713780902ebb2e2cdaf0abd1f25d61fa28c6dd7541d001de3dc42ce59e3fb11",
+      "job_id": "404c34e0-96b2-4b55-8171-dbc39d76d625",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/book-of-merit-pendant-2.png",
+      "sha256": "14b0d7f4bcdd4ba1deb5190e64c7b0871b03fd9ff1746a4a00e1b49d0cf489fb",
+      "job_id": "404c34e0-96b2-4b55-8171-dbc39d76d625",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/book-of-merit-pendant-3.png",
+      "sha256": "cc103bd8582b2ccae428da512b89cf1dec2956481b2c069219367a062eba251b",
+      "job_id": "404c34e0-96b2-4b55-8171-dbc39d76d625",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/book-of-merit-pendant-4.png",
+      "sha256": "dfa1b75e256dacaecfda368a4a2315cb55328efdb797b3879a52b34bca1ec16a",
+      "job_id": "404c34e0-96b2-4b55-8171-dbc39d76d625",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/cross-of-craft-pendant-1.png",
+      "sha256": "ef48cc99174e4ab7941d528925a0467e35c1442c56fb84f69e061ae1bb0e90ef",
+      "job_id": "33f985a4-fa56-4ad3-93fc-8b877fa86d4c",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/cross-of-craft-pendant-2.png",
+      "sha256": "8bbfe1bba52f23379f07c41ba627ef2bafdd1b08caa2bbb9f9704937c75f85e8",
+      "job_id": "33f985a4-fa56-4ad3-93fc-8b877fa86d4c",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/cross-of-craft-pendant-3.png",
+      "sha256": "c0d14748f9415ec4ef89a1c4af26e7d1a3fc33e1b49cb510526e2508d3920643",
+      "job_id": "33f985a4-fa56-4ad3-93fc-8b877fa86d4c",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/cross-of-craft-pendant-4.png",
+      "sha256": "dcedebe27907a686a1c8cdd8fc6c9a8324891d0174d3182e3b4542de871f6976",
+      "job_id": "33f985a4-fa56-4ad3-93fc-8b877fa86d4c",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/twin-blades-pendant-1.png",
+      "sha256": "a767cd1077eba34134702c9d34168df87f59d4ee597c5dde70ac97b0a4c65e5f",
+      "job_id": "b55ce0a9-9ce9-4f89-9b56-ee4767e69a15",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/twin-blades-pendant-2.png",
+      "sha256": "13fceeb4bfb81e9e0463d2ca5b1b482b7a46dbd3fe8d55d1b43b266dccacc8a5",
+      "job_id": "b55ce0a9-9ce9-4f89-9b56-ee4767e69a15",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/twin-blades-pendant-3.png",
+      "sha256": "fe75df5a7d4151b33d58fc6d5c72780ca63556a9fb24103534c73473a2f8f642",
+      "job_id": "b55ce0a9-9ce9-4f89-9b56-ee4767e69a15",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/twin-blades-pendant-4.png",
+      "sha256": "812331f80dc088a03e0906f6a6092b0e76081bcbed06683533f11ce3260cc22e",
+      "job_id": "b55ce0a9-9ce9-4f89-9b56-ee4767e69a15",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/lionheart-pendant-1.png",
+      "sha256": "040079d2a5b7da9a879aa27e99b23a9c9815fef099cf4298bc786ff58b9242a0",
+      "job_id": "059f78ec-d420-494b-9e31-54172a8077c2",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/lionheart-pendant-2.png",
+      "sha256": "16acc93c5b957dccd50c7487a8efa518a27248ae755fa298ceaf209f6f863b17",
+      "job_id": "059f78ec-d420-494b-9e31-54172a8077c2",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/lionheart-pendant-3.png",
+      "sha256": "59d6975bb405f8b3b0d17aff941ed0e27308ff13336935a3ca70b875bc1d10d9",
+      "job_id": "059f78ec-d420-494b-9e31-54172a8077c2",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/lionheart-pendant-4.png",
+      "sha256": "962c3411821d58725ce9f425ee5367b9171e8ee7f993d5a44adae2d20ef8e82a",
+      "job_id": "059f78ec-d420-494b-9e31-54172a8077c2",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/crescent-merit-pendant-1.png",
+      "sha256": "27d5d3ccd9850794cf544001bb6ea91653eccbf414d0200e1463f6a129a73962",
+      "job_id": "d449acc4-9333-4815-ad37-7ac71e9608ce",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/crescent-merit-pendant-2.png",
+      "sha256": "e6c0e4d9e0aef7d9f72956c082265a2b15a0e19e045a5667e15121affe6d703a",
+      "job_id": "d449acc4-9333-4815-ad37-7ac71e9608ce",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/crescent-merit-pendant-3.png",
+      "sha256": "2671c4273e27068f2880d912c1e5e84fafbb3f5a2d5f78b8ea6cd03049924add",
+      "job_id": "d449acc4-9333-4815-ad37-7ac71e9608ce",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/crescent-merit-pendant-4.png",
+      "sha256": "bb45970ad1a9fc5854ac4d0b71d4364579da2881810068c653f13cc26c1b60fa",
+      "job_id": "d449acc4-9333-4815-ad37-7ac71e9608ce",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/shield-of-merit-pendant-1.png",
+      "sha256": "ea8187907ddb45dc032e9b994b3635225b4a9e336a4b01600dfab5a51dc1af5a",
+      "job_id": "fc96beaa-0944-4156-b948-4cfa31ebfe48",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/shield-of-merit-pendant-2.png",
+      "sha256": "8940638f909926127da39fe6730c924ca849a1c301bb5933d943447df18c934c",
+      "job_id": "fc96beaa-0944-4156-b948-4cfa31ebfe48",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/shield-of-merit-pendant-3.png",
+      "sha256": "795a49242da1653776ed38e9488b1f4c65a32f597c91cdbfb35db0ccdcd878f6",
+      "job_id": "fc96beaa-0944-4156-b948-4cfa31ebfe48",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/shield-of-merit-pendant-4.png",
+      "sha256": "c78d0aaeb7e638e9b94ea8fdf4d110ca91b7242e67c19cf2d926f0e1d76a290a",
+      "job_id": "fc96beaa-0944-4156-b948-4cfa31ebfe48",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/binary-particles-1.png",
+      "sha256": "aeaf1482a6dc2af2685ae441c2e75efc9f5426a50d3dcf12d654e3c643205858",
+      "job_id": "da7cec66-6cf6-41f3-bf84-3f80758f54db",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/binary-particles-2.png",
+      "sha256": "edef247d99e9ef22377c3b63ec83f197f6120d3af302e7b45059b20c93ebf346",
+      "job_id": "da7cec66-6cf6-41f3-bf84-3f80758f54db",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/binary-particles-3.png",
+      "sha256": "6a2f9fd72cfd10c7a6a8fe4a2df8f6f1ff8e2c163921a771d42857c7e545a878",
+      "job_id": "da7cec66-6cf6-41f3-bf84-3f80758f54db",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/binary-particles-4.png",
+      "sha256": "23d1089d5539b72b8672e33a15657b56623437d74b07cdae0070df3ba5adc532",
+      "job_id": "da7cec66-6cf6-41f3-bf84-3f80758f54db",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/letter-particles-1.png",
+      "sha256": "9d18d531954e75eb10a94aa66c59751899250745e662656d218a45d038ce0ead",
+      "job_id": "6842012c-c5a1-4788-96b0-544ea13397e7",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/letter-particles-2.png",
+      "sha256": "014c74d66534c38a9a70ce277abaa16d817cd279748cf2b8cc6cec2309ee7518",
+      "job_id": "6842012c-c5a1-4788-96b0-544ea13397e7",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/letter-particles-3.png",
+      "sha256": "b3abc783e8d9e19363f11dd7079e348a28b55abf1c19b19bd1a47cc86ca2b3de",
+      "job_id": "6842012c-c5a1-4788-96b0-544ea13397e7",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/letter-particles-4.png",
+      "sha256": "e53e419e8b3d67e49b74cdc4b3fb85de842c149ffb146db749811f82b86b63e7",
+      "job_id": "6842012c-c5a1-4788-96b0-544ea13397e7",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/code-particles-1.png",
+      "sha256": "300f8bb1da1e6d7f7eecab65e810bce970efcd52064a1e3242a32b8b6291a79e",
+      "job_id": "1c84f23f-8223-4735-b3c0-a16645fa083f",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/code-particles-2.png",
+      "sha256": "585b68c32fea3dee2db732a1a5c3c72d1b38515495cf4e5978fda5668ec0f08b",
+      "job_id": "1c84f23f-8223-4735-b3c0-a16645fa083f",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/code-particles-3.png",
+      "sha256": "5a202e70697b5a6dcf7a18afd3fc5f00557e3990c6babfa775db8b4545c73755",
+      "job_id": "1c84f23f-8223-4735-b3c0-a16645fa083f",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/code-particles-4.png",
+      "sha256": "f1117ca88ba3af743e8e2fa5e728cf4fc14088080a2c85a4cd9463a9663af95b",
+      "job_id": "1c84f23f-8223-4735-b3c0-a16645fa083f",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/data-particles-1.png",
+      "sha256": "07b2e76d11f86e47a6657c1a376b92c280dddb4e731dc2863cd745cfd6faba06",
+      "job_id": "63bb8d89-5bf5-49d6-b45b-1c7569fe6c09",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/data-particles-2.png",
+      "sha256": "6497b9100c681a7601f208843a8a21d312504b61643669d4898b91d3d08d359c",
+      "job_id": "63bb8d89-5bf5-49d6-b45b-1c7569fe6c09",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/data-particles-3.png",
+      "sha256": "1808fb144e2d48ec6f0ef12dfc4b608d034fad9c2b2ac4dfb14fb9ca0db5a82e",
+      "job_id": "63bb8d89-5bf5-49d6-b45b-1c7569fe6c09",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/data-particles-4.png",
+      "sha256": "969f6800cd6ae203d884b8122d8090fa8d8d8c6bc9e3dc9f803a6ad35966db84",
+      "job_id": "63bb8d89-5bf5-49d6-b45b-1c7569fe6c09",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/firework-particles-1.png",
+      "sha256": "7fd7f00eeb65fe23eddc2b68a9c185b9d067ddba108e668cb6c3bba80f9d6d97",
+      "job_id": "f7a99117-5239-4763-99ab-cccd199edc31",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/firework-particles-2.png",
+      "sha256": "dde76a66dc6a16992dd8959d58c5b71c9cb9368d0b37c8582c2565cea23dd3ea",
+      "job_id": "f7a99117-5239-4763-99ab-cccd199edc31",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/firework-particles-3.png",
+      "sha256": "076b3d994c0c74c02c5688a068940bf89db894306b87b02810a54dcade1a7ea7",
+      "job_id": "f7a99117-5239-4763-99ab-cccd199edc31",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/firework-particles-4.png",
+      "sha256": "a6de7916dc87b13a3dcea5d65bd94fabafb522e053c3446b50b8d4147b2b6062",
+      "job_id": "f7a99117-5239-4763-99ab-cccd199edc31",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/spark-particles-1.png",
+      "sha256": "dd6d536f88b85baddea006cc694431a5734cd33c9234fb8c2c01faa7a5d36bce",
+      "job_id": "0f941567-7ca6-4cc6-9c4d-47217ad018cd",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/spark-particles-2.png",
+      "sha256": "b251c53809b4325da1ec7bc69e5b39c6816d2e8b3fb3724458f4c768aa1edf7d",
+      "job_id": "0f941567-7ca6-4cc6-9c4d-47217ad018cd",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/spark-particles-3.png",
+      "sha256": "1262ed369a5264c6c375d41f347025e40715618623c8557cff141750518abddf",
+      "job_id": "0f941567-7ca6-4cc6-9c4d-47217ad018cd",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/spark-particles-4.png",
+      "sha256": "2a7b0a9cc05b58653e100435004b3cff16d32f21c0242e9b4e91ebbe230066f3",
+      "job_id": "0f941567-7ca6-4cc6-9c4d-47217ad018cd",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/heart-particles-1.png",
+      "sha256": "ac22a7b8aa7c09e57da55723046f1b0a2924601feacb6ba691d2e781c07be78c",
+      "job_id": "92dad06c-c2da-453c-a4ea-7be8ef685c99",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/heart-particles-2.png",
+      "sha256": "2eecfc434d5fa83fd8e0547499ddb604ada068490d23b03e8b1493cbb98c652a",
+      "job_id": "92dad06c-c2da-453c-a4ea-7be8ef685c99",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/heart-particles-3.png",
+      "sha256": "5e6e1b13a827d4b235d41a9fe49a7ede580c6d29f68c7cc091ca709fcce8306a",
+      "job_id": "92dad06c-c2da-453c-a4ea-7be8ef685c99",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/heart-particles-4.png",
+      "sha256": "e33faadf81335dd3432f85a820cdb5d31db4c4cfe0b6649c3e284c551e2864de",
+      "job_id": "92dad06c-c2da-453c-a4ea-7be8ef685c99",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/music-particles-1.png",
+      "sha256": "40bbcde8da12658e8f81155fc731aa4eb05755c7a8ad4fe3760e6cd0355216b1",
+      "job_id": "2433c613-7828-4e79-8989-b84fda74d836",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/music-particles-2.png",
+      "sha256": "187e59f1c902e676c2704c2636958550e11fcf7dfae4a973b564162cf29fd17f",
+      "job_id": "2433c613-7828-4e79-8989-b84fda74d836",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/music-particles-3.png",
+      "sha256": "4d795078381c99b316c31260206751464d6e1bf00ee6ca300bb126dfecfb5cb5",
+      "job_id": "2433c613-7828-4e79-8989-b84fda74d836",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/music-particles-4.png",
+      "sha256": "f961d3a0ba6ae9f46848f8f93a932680c9a8d79cf1c35319cea5b67a03a8734c",
+      "job_id": "2433c613-7828-4e79-8989-b84fda74d836",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/butterfly-particles-1.png",
+      "sha256": "292e2ca139bf5b78e3c4eff7d030920cf89b08afe42e489dce1d7b235d745e56",
+      "job_id": "2186c4ac-b146-4aac-bb95-6201306fd28a",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/butterfly-particles-2.png",
+      "sha256": "c911f1b46857e309d00cb4e25c2fa9422b6f75398b8ebf59cda35b00f5958f93",
+      "job_id": "2186c4ac-b146-4aac-bb95-6201306fd28a",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/butterfly-particles-3.png",
+      "sha256": "66c5a166d85d4218a3dab9c24938a7aea1e6204d67c81afd1b8ff0e10bd9d7e7",
+      "job_id": "2186c4ac-b146-4aac-bb95-6201306fd28a",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/butterfly-particles-4.png",
+      "sha256": "d855f6e63b98e9fb58ecf6534f2294304ce3f394fdd50012386447131e4f4605",
+      "job_id": "2186c4ac-b146-4aac-bb95-6201306fd28a",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/bubble-particles-1.png",
+      "sha256": "4a723acf80c520466e6b92f0606a27a7e8cdf6686bf8bb9bfde0f616f7b2b8fb",
+      "job_id": "9f36f089-7f00-4ea3-933a-8ad0a934a530",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/bubble-particles-2.png",
+      "sha256": "d5fdd0239dbd1bb7f1fbc9d368eebddd265d1ac7d0511f838d8537b6d8e57062",
+      "job_id": "9f36f089-7f00-4ea3-933a-8ad0a934a530",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/bubble-particles-3.png",
+      "sha256": "b205eb35c12dc256ba7be405a5baa9fb913d8d0febeff9a382545ecb82848b24",
+      "job_id": "9f36f089-7f00-4ea3-933a-8ad0a934a530",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/bubble-particles-4.png",
+      "sha256": "bd63523d136f50a12d2a1cf2ae907723295776a8895782599ad0f807ceb9e85b",
+      "job_id": "9f36f089-7f00-4ea3-933a-8ad0a934a530",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/ivy-chain-drapes-1.png",
+      "sha256": "2b50b7b3a64cdc9d3cafd524cdd69f5c96201584ffe6c79719da8641fc91ae60",
+      "job_id": "99b98cf0-a719-4d54-9cc7-01ed5cd52d82",
+      "candidate": 0
+    },
+    {
+      "file": "parts/expansion/ivy-chain-drapes-2.png",
+      "sha256": "7b9791070c41ca9619c9777847ffe7fa46726614e6892d06bc575a31398033c5",
+      "job_id": "99b98cf0-a719-4d54-9cc7-01ed5cd52d82",
+      "candidate": 1
+    },
+    {
+      "file": "parts/expansion/ivy-chain-drapes-3.png",
+      "sha256": "d16f18b12a7b67a4d45707db0fc215d46a32707dc17c998d3dde12592015d1e9",
+      "job_id": "99b98cf0-a719-4d54-9cc7-01ed5cd52d82",
+      "candidate": 2
+    },
+    {
+      "file": "parts/expansion/ivy-chain-drapes-4.png",
+      "sha256": "1b1edbf24670bf069cf4f5ce75de00b3113bf8ff61abdcfb5d3e54be175fe0a9",
+      "job_id": "99b98cf0-a719-4d54-9cc7-01ed5cd52d82",
+      "candidate": 3
+    },
+    {
+      "file": "parts/expansion/cathedral-silk-1-finished.png",
+      "sha256": "3a5f416128cc29f5d29ff0e4edf32062d3b3c9fa1bd0c5d62fefdabb240a3065",
+      "drawing_id": "7c4d680d-4e3a-4345-b81b-300970e02c35"
+    },
+    {
+      "file": "parts/expansion/cathedral-silk-2-finished.png",
+      "sha256": "58b305cd8340d7f9f922424f705249b0a626afa785dca7218b3a784e821b2f8d",
+      "drawing_id": "bdb27a89-b3c2-404e-b687-fcfcfe1c8eb4"
+    },
+    {
+      "file": "parts/expansion/celestial-herald-2-finished.png",
+      "sha256": "cb520bbd8cf403e7a8b1eaa7f0df791514a28f7f894361285f7d9b2f690bb43a",
+      "drawing_id": "e336554a-90b2-4463-a68e-3266cac0e45c"
+    },
+    {
+      "file": "parts/expansion/gothic-vellum-1-finished.png",
+      "sha256": "b1344b61fb62afb674dda3b6a3848c25f8ffff4f1c64b08dd712ff30a4c49a0b",
+      "drawing_id": "a713aa35-ebcd-4e14-9a6d-c502511adf0b"
+    },
+    {
+      "file": "parts/expansion/gothic-vellum-2-finished.png",
+      "sha256": "34e777fcd4b3a6a4aff61052b4443fbab3d95bdc2d18f19b27ac0071a1f32e97",
+      "drawing_id": "def36e45-ccc0-4b32-93e4-724b3c4a4938"
+    },
+    {
+      "file": "parts/expansion/lotus-stream-1-finished.png",
+      "sha256": "dbf836c173337796238d8ca3c280a487bfa5b818acc30ac4b81fc8c95875e1a9",
+      "drawing_id": "5f4d87fe-77dd-45e2-90ab-677be8dfd420"
+    },
+    {
+      "file": "parts/expansion/lotus-stream-2-finished.png",
+      "sha256": "03af11dd72727bb912a97e9352ecd18243b763d8eb22d68bd638b8e73d257b1f",
+      "drawing_id": "33eda28d-b48f-4208-81e9-19bcc440bad5"
+    },
+    {
+      "file": "parts/expansion/braided-honor-1-finished.png",
+      "sha256": "e58a2fa130c1dc283ecc6579edf74a84812773385c866c0b72647111f00d8998",
+      "drawing_id": "0d08f5dd-3ed4-499f-8ac1-c35e81d89312"
+    },
+    {
+      "file": "parts/expansion/braided-honor-2-finished.png",
+      "sha256": "c54a323d973875afb20bc5707b8dc0ccbeec2135f2faeb30d57c8a2ca9d4db09",
+      "drawing_id": "ad06abef-6df3-4ac4-ac7a-09e202ce99da"
+    },
+    {
+      "file": "parts/expansion/royal-bell-2-finished.png",
+      "sha256": "b5cd4c7c689e4af077e8b2674da07a67a5f6e19a458ef5438f0e863a5f7c219e",
+      "drawing_id": "30f9b01c-2774-4e43-8001-4e8875e56241"
+    },
+    {
+      "file": "parts/expansion/leafcrest-ribbon-1-finished.png",
+      "sha256": "c510bf1853ae1d01428165e8a4ef7969add7141b54f5c917089f224e11df64aa",
+      "drawing_id": "02eb440e-1387-4478-88ce-9d19bd6ae97d"
+    },
+    {
+      "file": "parts/expansion/leafcrest-ribbon-2-finished.png",
+      "sha256": "22178d80064892de1d8e845701884558c1a57e487d1b1469d038e952186c22b5",
+      "drawing_id": "45baaac4-5604-4a5a-abad-94fd6982fa00"
+    },
+    {
+      "file": "parts/expansion/crescentfall-1-finished.png",
+      "sha256": "e31a0d406c6446e331b5ba9c0407e8e1fa1e28b5664ecef83681f4bc1bca8ff6",
+      "drawing_id": "d37e6c08-5434-4e3e-9537-6f08ce23b855"
+    },
+    {
+      "file": "parts/expansion/crescentfall-2-finished.png",
+      "sha256": "6ecd5313be265cb59122269aeadf3f7b77026b342889284699541334a48ee756",
+      "drawing_id": "b6f1d350-dad0-46eb-9edc-3ebb47cb3cb1"
+    },
+    {
+      "file": "parts/expansion/stepped-standard-1-finished.png",
+      "sha256": "8812be2edde39e155bec13a7083d8195f5cf5766b8620b317b043aba5faef38c",
+      "drawing_id": "0a8efd42-1a6e-468f-b511-45decd17a246"
+    },
+    {
+      "file": "parts/expansion/stepped-standard-2-finished.png",
+      "sha256": "fc21601f188de1876153a4625e2dbbeba5169f48b1dc416b92b1dcbb9203fa84",
+      "drawing_id": "6379a2d1-9ba5-4e3c-98a2-a08899755396"
+    },
+    {
+      "file": "parts/expansion/heartfold-silk-1-finished.png",
+      "sha256": "68706c457ca8d52758c2c83b9f00ebae6cba3994916b6da376e0dc51af70ba3f",
+      "drawing_id": "9c0ac2fe-5dea-4495-addf-c08c5bc9ef39"
+    },
+    {
+      "file": "parts/expansion/heartfold-silk-2-finished.png",
+      "sha256": "60377677256ca437758b9539290f0989f3eb34a1a4f1ddd3804bd3de54e2e9c7",
+      "drawing_id": "6ea5b605-8b08-4eb6-a9fc-9bd60e573770"
+    },
+    {
+      "file": "parts/expansion/peacock-standard-1-finished.png",
+      "sha256": "970f3a23517fbfaeb2da690ffe49aba565032df6ac09964396981d8a47bf6e09",
+      "drawing_id": "9788e320-b5a9-43b4-8b4c-80ec6663d92f"
+    },
+    {
+      "file": "parts/expansion/peacock-standard-2-finished.png",
+      "sha256": "0611941a3f9774653546b5da039b987a521b7b23d4b28962bb42a388a29ae73b",
+      "drawing_id": "90652757-1e1f-42d5-8f44-d9061db867ea"
+    },
+    {
+      "file": "parts/expansion/serpentine-filigree-1-finished.png",
+      "sha256": "ec8520d8cbe552a7cef8fd1500b37bb9df4bd84e5f65b2091f8a23ef1f0aeb2c",
+      "drawing_id": "4ad95e57-228a-4820-be73-8eceaf94b3a0"
+    },
+    {
+      "file": "parts/expansion/cathedral-silk-3-finished.png",
+      "sha256": "5c8c86660bcf5c8219c41f32bdeb8f48edae1e4fa424da0b59b87e4261609b37",
+      "drawing_id": "710912af-7c32-42f5-87b9-9460ea67c5b6"
+    },
+    {
+      "file": "parts/expansion/cathedral-silk-4-finished.png",
+      "sha256": "9e56799a5a06fcc53c0b73ecc39cec604b641f21eae2fc8f586ba80edb0de8fc",
+      "drawing_id": "b5e0cb71-5133-45cd-b1e1-7030165e086b"
+    },
+    {
+      "file": "parts/expansion/serpentine-filigree-2-finished.png",
+      "sha256": "516cdce620c9aec97ad317184358fcb74691ee3a17b0793d2474a63e16148802",
+      "drawing_id": "2d4c7fb4-eaf4-49a8-8126-b032235467e3"
+    },
+    {
+      "file": "parts/expansion/serpentine-filigree-3-finished.png",
+      "sha256": "6d799e137ba83b60f769776db75c09f8d7642da3882aa54320381d3405210afc",
+      "drawing_id": "4c1509cb-0fcd-4db0-8cd9-02f343f85415"
+    },
+    {
+      "file": "parts/expansion/serpentine-filigree-4-finished.png",
+      "sha256": "d010ffca21242f21d51c268ad329777fff2d30667a4637af3c77a6ae27df3e08",
+      "drawing_id": "e5db85ec-22d1-4595-855e-b41e156e5b54"
+    },
+    {
+      "file": "parts/expansion/gothic-vellum-3-finished.png",
+      "sha256": "20fe7cd49eed80d47a6ce7cd9a86093018356a6b629b753de97a3edd54f4d1b0",
+      "drawing_id": "53d85c4f-aea1-4324-85c2-24874196bec0"
+    },
+    {
+      "file": "parts/expansion/gothic-vellum-4-finished.png",
+      "sha256": "50cbbc75308b53a88a38620f607024735f9c048c0519526c87e02ed82eb3ca56",
+      "drawing_id": "780d813b-f8ae-4b79-9932-2a1cbbdec247"
+    },
+    {
+      "file": "parts/expansion/lotus-stream-3-finished.png",
+      "sha256": "29ab462d7857096272364cabeb2db7a92470ec0b2f076cfaa0ca4a300660cb54",
+      "drawing_id": "6c9451be-780f-4be3-a46d-6e97c60f6215"
+    },
+    {
+      "file": "parts/expansion/lotus-stream-4-finished.png",
+      "sha256": "ac3f442c283438413a748590dce5b0a2079b2a8bb8792f363de2ea3e813021d6",
+      "drawing_id": "a47ffc65-c7f3-4a92-885a-a9ebd7700508"
+    },
+    {
+      "file": "parts/expansion/braided-honor-3-finished.png",
+      "sha256": "2a1b360c2c2aaba992fa67ab3412fa376f8c0a6ae367782c6407132a967e23fb",
+      "drawing_id": "e6c12468-156d-4ba1-a3fe-ac2f289f6492"
+    },
+    {
+      "file": "parts/expansion/braided-honor-4-finished.png",
+      "sha256": "db723a6b74fd50bafab355b56643e88536e00928c126e644c0e8613d331d606b",
+      "drawing_id": "752c22bf-1fd9-4f7d-b0bd-5478cd34ef3e"
+    },
+    {
+      "file": "parts/expansion/chevron-banner-1-finished.png",
+      "sha256": "4cb70da6a673f202d0ef1bd8c32330a2b21df03007bd93b9fa31394f8bc50479",
+      "drawing_id": "6d12df17-a72b-408a-b385-edf29006f180"
+    },
+    {
+      "file": "parts/expansion/chevron-banner-2-finished.png",
+      "sha256": "b52fa78eefafe9233249b64027cbca990a4a17f062472fa1cadf26d8c9599aa3",
+      "drawing_id": "722a9f42-a283-418d-b818-e6398e99cad4"
+    },
+    {
+      "file": "parts/expansion/chevron-banner-3-finished.png",
+      "sha256": "2ba124814a43a081c239ab6fad75bb11605b06ff737057b95a6127e7d27bda5d",
+      "drawing_id": "0286442c-82d0-47cc-bf27-5986f79d1194"
+    },
+    {
+      "file": "parts/expansion/chevron-banner-4-finished.png",
+      "sha256": "f7b783028280bd18de2f601353fa353c956df4417a0db499c339a6bb7460be68",
+      "drawing_id": "75ed14a2-dde7-4c92-ae2d-4fe105ee6fa2"
+    },
+    {
+      "file": "parts/expansion/royal-bell-3-finished.png",
+      "sha256": "c57c72021824afa89a0e9cc9b8181a3b422cfa9995767f117be535d77b8d3ac7",
+      "drawing_id": "f4acfe0f-42c4-4516-8df1-66ea9e38761e"
+    },
+    {
+      "file": "parts/expansion/royal-bell-4-finished.png",
+      "sha256": "3b16728fb6bbeff463abdcc2200b4619c620cb75db888b0aa8521e8b8ac7ef16",
+      "drawing_id": "5f823b62-e8d9-4259-99e0-4ee74f5567b8"
+    },
+    {
+      "file": "parts/expansion/split-pennon-1-finished.png",
+      "sha256": "e27fcde3f68ffdbdcb6dfacd1a472fa98d697670ab0013ad8821efd6a3070f2c",
+      "drawing_id": "6cb92f92-1c0c-4d14-8913-8fe7b5356ed2"
+    },
+    {
+      "file": "parts/expansion/split-pennon-2-finished.png",
+      "sha256": "fa8334129a5a013cc16713e2398a3b3e8d0a462f6fb648cba02de90ce6196a5c",
+      "drawing_id": "7a24e9dc-4608-42f4-8a45-e41cb60e0e4b"
+    },
+    {
+      "file": "parts/expansion/split-pennon-3-finished.png",
+      "sha256": "389c278c7560b72de2d26a38830170b6c6d397c605dfd8480a9988a7b45beb3e",
+      "drawing_id": "cd4d8c2c-5a0d-4c28-a751-4539f8004871"
+    },
+    {
+      "file": "parts/expansion/split-pennon-4-finished.png",
+      "sha256": "1e56ea7a33880b6b87695ed268d86e6cb8d93dd170eb237cb141bf600d10145d",
+      "drawing_id": "a635623b-1d68-4406-883e-8495cc434453"
+    },
+    {
+      "file": "parts/expansion/scrollbound-silk-4-finished.png",
+      "sha256": "01b3d7289596130fa65d31d1c8d85b9f156586d26be1b5d6304ff50b0b42961b",
+      "drawing_id": "83ac42a8-9c58-45bd-a213-d3df2d4cdd15"
+    },
+    {
+      "file": "parts/expansion/leafcrest-ribbon-3-finished.png",
+      "sha256": "cecec3cfc454513821562db398e87a7d1a8d3777ecad196d2b9ace44eed010ae",
+      "drawing_id": "5fcefe39-6bad-480e-bc40-00085b3826b3"
+    },
+    {
+      "file": "parts/expansion/leafcrest-ribbon-4-finished.png",
+      "sha256": "078c74d98b17cc6b8bf44df48eff68f6c3df7931759e9c7f3eb24392104e1e74",
+      "drawing_id": "a0c19636-eb78-4d70-8853-bde0620e93b3"
+    },
+    {
+      "file": "parts/expansion/crescentfall-3-finished.png",
+      "sha256": "5915ed28565290a4d86580a4d077943278f176e7499d580287c8bec700ee5982",
+      "drawing_id": "3595ff96-c08b-4a9f-b578-07525f3af5f3"
+    },
+    {
+      "file": "parts/expansion/crescentfall-4-finished.png",
+      "sha256": "6c8fef0b02e60439f7a3d84d43152f2458710c9128397227f909d324850cec07",
+      "drawing_id": "78b209b1-f73b-4d88-86ae-b9be42da70db"
+    },
+    {
+      "file": "parts/expansion/stepped-standard-3-finished.png",
+      "sha256": "e7b2dc4cecf164b9ce444bbc26127d0089b21562891c02f5a600d705e5815464",
+      "drawing_id": "44993724-7631-48f4-b64b-3139c11a6df7"
+    },
+    {
+      "file": "parts/expansion/heartfold-silk-3-finished.png",
+      "sha256": "453c7b78d5404e0c33536d3c58d80352ebde7e138a3891b15a414a5efe0acfe5",
+      "drawing_id": "2ee4981a-77de-4678-acb4-6ba4ad040e09"
+    },
+    {
+      "file": "parts/expansion/heartfold-silk-4-finished.png",
+      "sha256": "57b83b742d4a167b6c5bffde191ca96ab1970e7a857821fd3077c9a35d962191",
+      "drawing_id": "21141fd3-ed49-4d79-bdf8-4537389b96f0"
+    },
+    {
+      "file": "parts/expansion/stepped-standard-4-finished.png",
+      "sha256": "58bfc4dfae86e5d213a02cbfb0cae1c5a4d2a1917bf3076ccd949c2b72aaeeea",
+      "drawing_id": "6c088f9b-9466-4f6e-83e7-7a51b8c38752"
+    },
+    {
+      "file": "parts/expansion/peacock-standard-3-finished.png",
+      "sha256": "1081e045c0dd32fcb5304243762ac4b720568015d1e45d8fc1fe2a5df3cf2fb8",
+      "drawing_id": "fa1fb695-741e-4f6a-8493-c975565a0742"
+    },
+    {
+      "file": "parts/expansion/peacock-standard-4-finished.png",
+      "sha256": "45f03d825af5d1b22004fc0ba0339d958a532c3f0a96cec0a0b95c2add618087",
+      "drawing_id": "5441d143-5e8f-48db-83d5-084afc2a13f0"
+    },
+    {
+      "file": "parts/expansion/sunburst-bar-1-finished.png",
+      "sha256": "9a0e1479b6aa08ec0fb156ecf628646967af95c6318fa097f164d99df2a3358a",
+      "drawing_id": "0f7ec9d5-e725-43bb-a6dc-5707c4135714"
+    },
+    {
+      "file": "parts/expansion/sunburst-bar-3-finished.png",
+      "sha256": "898229a82f3e7886218c1db0e6c7e68e8d7fdd68f7f3995b3f02c165f072d7a4",
+      "drawing_id": "ea2086bf-23c6-4c18-bea5-e215230b9c26"
+    },
+    {
+      "file": "parts/expansion/wing-bar-2-finished.png",
+      "sha256": "02994cfe82d6d11f3d01faa056a245e7e1a8861e7e73742deb1af9c68161ec0a",
+      "drawing_id": "24d28bcf-0228-4de6-9de2-fba86c3f6f1c"
+    },
+    {
+      "file": "parts/expansion/wing-bar-3-finished.png",
+      "sha256": "743e8a718183451753090fe0966ab896f19558cef4c8a6852527f64be8a9f7f0",
+      "drawing_id": "64ef2f09-d002-44f1-873c-cda9073b4105"
+    },
+    {
+      "file": "parts/previous-generations/05996ef0-9c2a-4cca-8867-91c355c4b65f-0.png",
+      "sha256": "041c3d19a7e6aa4a5fa5c462ae0ece6bf02c0204f8402270ceb658184051c223",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/0b4ce7ff-6110-4345-a9d6-5bde9eafc024-0.png",
+      "sha256": "64f5ed65f4b61f45b5be75a3fbf0652ef05dad54072897c14cbf13e1ff218140",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/0b9bc569-4c3d-4ca6-94ad-975f153d9ae3-0.png",
+      "sha256": "e245f8457e7b473c5c3ebd6f9f722568e0d42d1783e10462f04ea11b349ee800",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/0e40208a-078d-4cff-90e1-fa0e9addb738-0.png",
+      "sha256": "1a1c3f0bdafb98ca2673c691bd8bc7e1a7e6d05693624d2116005f60d808ec93",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/1082c7e4-216d-4a5e-ae0a-de5d446e250e-0.png",
+      "sha256": "60558823998bdfcac012628b95cbeab186ee84e5afb912c892e0428746cd46dd",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/1199d049-b0a1-43cb-aa63-6e8e1a9c9eea-0.png",
+      "sha256": "4306b2c222394f6a271fb92dede282a483b6cdf0fe5d791185f3db5bcca1bd0b",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/13d8ee31-3e81-49e6-ba87-1e5e556f6b13-0.png",
+      "sha256": "f7f8e84f4724b44d3292abfccfd6ac98d620843019c191e7fd1a907feb5e3df4",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/1d417bf1-fa01-432c-95a1-1fccc444b3bf-0.png",
+      "sha256": "2241cdd620d9f981127be85ddb156dd40d9dc67862523c8140edb0e10fe79325",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/2009ac26-7f14-4f77-a8af-b1c4eaee67d9-0.png",
+      "sha256": "64233103f50cb1deafc6451c171dde45755b2dacddecc5ecc53c480d2201c745",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/27302ae4-533b-4efe-bde3-cc6e9b38b20f-0.png",
+      "sha256": "7010282c7c2de092c6dad654c45492abbd0ea31e2c780bb9c812f83ce361d335",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/2bfd9fe4-d120-4c49-b764-bf15c487d36e-0.png",
+      "sha256": "c7e05b2c897b91c8d7f9567ec6af73b27abeda088db53393a673cdaaa62de945",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/30b84ed2-ea44-4cc9-a05c-b3a2117a0b23-0.png",
+      "sha256": "054cb3881e43cdb2c3ccea1aeb596da76b4f3a255b7540f297791438e07391f8",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/337e20c8-48b2-4e96-a844-3a75ef51cf59-0.png",
+      "sha256": "710a7dd3f7cbf7a035f6e58bed34d78d6063ca46862a34a1efa70cd075d636e3",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/48298c54-0da9-4b48-a01d-136f42eed98a-0.png",
+      "sha256": "404fabb501cecc12fb4584d490dddd238cd969448189043378693dd6e50d05bc",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/48c5b4d3-33fd-4d36-aaf0-dec20fb12d7e-0.png",
+      "sha256": "9d13e02b76628ce207cce15c480b79b7c08b9446e105bf20fbdd3a0b13e721a9",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/4ab9164a-b8b2-47f0-bd22-2d39651de920-0.png",
+      "sha256": "41e2a999ecfea001b8a8b17a0859cbe91f82414b33b60f5b0e2ff7c46c171459",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/4d660f67-1502-4c9c-90cc-7f7cbd0c7267-0.png",
+      "sha256": "925bb8138ee4847b4af6c4ff44e411880aed7840bff9762a9fd2ac9e072db6be",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/4db2f133-8b62-4d15-b388-d70ef4295213-0.png",
+      "sha256": "e509e158b6c64d15e13fc16bb639970ef61c30e8e8b6aeb1a1ff94d32ff8c4d8",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/4fc759a6-7fc1-48b9-b249-e5d65532eb53-0.png",
+      "sha256": "73d4febdee3abf27ca9b0ac97d561d5444878fc0abc5420ee106a432ba2d3cdd",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/7636a4a6-2bd1-4076-9a68-e720ba8b551d-0.png",
+      "sha256": "e893a0344ecf9a0e1a985401e37b87b45e3b4b6405a7c3336115800cc58e3b3a",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/7c9c3802-8f30-4710-bef2-4c1530a3888e-0.png",
+      "sha256": "d43bed8dc42c7dcc3d6f63e4ba1fbf7e5a8b545c29a3b6177a838173178d1039",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/8e41355e-e001-4474-acb8-828f8ebfd31a-0.png",
+      "sha256": "23a238163da716d456ae0f3005309b7734c78f5204b24f390731092b9145a43b",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/9311ef61-5ccb-4f3c-bbfd-93ea3e5ab343-0.png",
+      "sha256": "df802d2aff7eca46ea0a0e0aec49ae2b8eb449730aa96cd7010786596b091dc6",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/947436ec-0fec-4216-95cf-910ca895d8da-0.png",
+      "sha256": "f067d1750586f9a00beffc1261add8525f1b90b5b6faa7ceba6d42cad711c4b4",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/9b5fe479-5488-453f-a4b9-d7317e0bca35-0.png",
+      "sha256": "7b3c81395c7cf669adfc0d502526dfbaf565431c1b3d64725f06af8d5358ac0b",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/b1e96596-cb37-4043-951c-4e5ed87508a3-0.png",
+      "sha256": "c06de0f9f6c86611fcc66be9aca7d0faeb7e76566bf15c0cd5df40f4c5295604",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/b731f329-d32a-40ac-b21d-d0bd8865f556-0.png",
+      "sha256": "e3d6f1699a53b9cfcb00a2cdf1221ba95fb432a7b005df6227880852e692ae34",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/b9e0c406-1900-4185-bd09-59c826556187-0.png",
+      "sha256": "5863f25fe802d9b853d2b2aec2f10c5843556f014f5d9e169e16df4e44e0abb0",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/cb28a067-f54c-4452-8c8e-101d380631c1-0.png",
+      "sha256": "7b928904a4ff681c524c654b77a5a587e87a070d9a70b6591c9add5d08da1202",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/d50d4cca-aee7-4532-bdc5-0e0bd0a71180-0.png",
+      "sha256": "1867e64ce2fe7e99239457ac99caad0b42109ef9d1bb2c321eea21fa99702e6e",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/d73ff4e8-5053-43b5-8a4f-dfd3aee2ae8c-0.png",
+      "sha256": "f790165e708c9b62135fa2c07489e41348f275aa15fc43d3fb5fdcd4e7781a92",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/db551d58-3722-4f13-b35e-fa4d6429e437-0.png",
+      "sha256": "fd916e4d655799003a1cf77b8944edb6da75766406bdf3c63e36c4dd50a6527f",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/e73e8c63-17bc-4439-a197-11e70984c91c-0.png",
+      "sha256": "72427efb7cd8b4a193f580a22716ab67d04f803801e846e15c53cbec301e4444",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/ecf5a78e-a211-4ecd-9733-c7812dff5c17-0.png",
+      "sha256": "8211cfa7559219e6a6192d6a0de43ec326fdba6789939380eece0d1a2e6f7b0d",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/f1a39e2e-c829-4a09-94ce-095a10b6df17-0.png",
+      "sha256": "3fbcb82021651727fe853b784c52064fa9eaba86478286b4a40735caf8314dd0",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/f23a711e-cbb9-4cfb-ae3d-046641d6deab-0.png",
+      "sha256": "f790c5bc2f57943d635f8e29d4fa4e5b2c5b5ce4f089ecbecb5229b11061711d",
+      "prior_generation": true
+    },
+    {
+      "file": "parts/previous-generations/ff27ce6f-ec40-491f-b543-426ed135e6a8-0.png",
+      "sha256": "ee3167da07ae3908a76f66df2f59ec577d8e094d907112172199ff32f9bedb3f",
+      "prior_generation": true
+    }
+  ]
+}

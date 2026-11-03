@@ -1,0 +1,1665 @@
+{
+  "ramps": {
+    "metal": [
+      "#181204",
+      "#2b2108",
+      "#4a370d",
+      "#6c5213",
+      "#936f1a",
+      "#bf9022",
+      "#ddac3c",
+      "#e5c16c",
+      "#edd59b",
+      "#f4e5c2",
+      "#faf2e1",
+      "#fdfbf6"
+    ],
+    "fabric": [
+      "#0f0616",
+      "#1c0a29",
+      "#301145",
+      "#461a66",
+      "#5f238b",
+      "#7b2db4",
+      "#9847d1",
+      "#b174dc",
+      "#caa1e8",
+      "#dfc6f1",
+      "#efe2f8",
+      "#faf7fd"
+    ],
+    "gem": [
+      "#02161a",
+      "#032830",
+      "#054551",
+      "#086578",
+      "#0a8aa3",
+      "#0db2d3",
+      "#27d0f1",
+      "#5cdbf5",
+      "#91e7f8",
+      "#bcf0fb",
+      "#ddf8fd",
+      "#f5fdfe"
+    ],
+    "leaf": [
+      "#051708",
+      "#092a0e",
+      "#0f4819",
+      "#166924",
+      "#1e8f31",
+      "#27b940",
+      "#42d75b",
+      "#70e183",
+      "#9eeaab",
+      "#c4f3cc",
+      "#e2f9e5",
+      "#f7fdf8"
+    ]
+  },
+  "commonPrompt": "ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ",
+  "particlePrompt": "Particle effect sprite on fully transparent background. ONLY tiny weightless glowing pixels and glyphs. Sparse open airy composition, maximum 60 pixels wide and 30 pixels tall centered in a 128x96 canvas, abundant transparent margin. Crisp pixel art with cyan and lavender shades, bright cyan highlights and dark teal shadow pixels. NO gold, NO metal, NO frame, NO jewelry, NO medal, NO badge, NO ribbon, NO gemstone, NO clasp, NO ring enclosure, NO engraved detail. ",
+  "jobs": [
+    {
+      "kind": "ribbon",
+      "name": "Cathedral Silk",
+      "width": 96,
+      "height": 160,
+      "description": "A long standalone silk suspension ribbon with an elaborate cathedral-arch top fitting, double folded cloth channels and a pointed metal hem; no pendant or large rosette.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 82c77b24-54a3-481c-809a-d6b3462f5391\njob_id: 82c77b24-54a3-481c-809a-d6b3462f5391\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A long standalone silk suspension ribbon with an elaborate cathedral-arch top fitting, double folded cloth channels and a pointed metal hem; no pendant or large rosette.\nsize: 96x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 6dbed27a-a078-599f-b8bf-bd5fbc91829f\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"82c77b24-54a3-481c-809a-d6b3462f5391\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/82c77b24-54a3-481c-809a-d6b3462f5391/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "medal",
+      "name": "Celestial Herald",
+      "width": 128,
+      "height": 128,
+      "description": "A pendant medallion: elaborate celestial compass with crescent crescents, small top suspension loop, central faceted gemstone and open filigree rim. No cloth ribbon, no rosette.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 8198be0e-d645-44b8-b235-71099d69afea\njob_id: 8198be0e-d645-44b8-b235-71099d69afea\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A pendant medallion: elaborate celestial compass with crescent crescents, small top suspension loop, central faceted gemstone and open filigree rim. No cloth ribbon, no rosette.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 9ad850b4-2956-574a-9648-49414f4f108e\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"8198be0e-d645-44b8-b235-71099d69afea\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/8198be0e-d645-44b8-b235-71099d69afea/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "rosette",
+      "name": "Orchid Crown",
+      "width": 128,
+      "height": 128,
+      "description": "A round rosette HEAD ONLY with many concentric pleated cloth petals, fine metal radial spokes and a central gemstone brooch. NO hanging ribbons or tails.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 0ff312db-2906-4ad4-b399-17752460cb4d\njob_id: 0ff312db-2906-4ad4-b399-17752460cb4d\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A round rosette HEAD ONLY with many concentric pleated cloth petals, fine metal radial spokes and a central gemstone brooch. NO hanging ribbons or tails.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 95cc8cc8-0727-5cfd-a5e7-a3fea2420d38\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"0ff312db-2906-4ad4-b399-17752460cb4d\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/0ff312db-2906-4ad4-b399-17752460cb4d/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Willow Cascade",
+      "width": 128,
+      "height": 160,
+      "description": "A symmetrical pair of leafy willow sprays curling outwards, connected by a small metal knot at top, with two slim draping fabric tails; EMPTY center for layering behind an award, no medallion or main rosette.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: a5d577e8-6c32-4654-bdc3-cb37cd720106\njob_id: a5d577e8-6c32-4654-bdc3-cb37cd720106\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A symmetrical pair of leafy willow sprays curling outwards, connected by a small metal knot at top, with two slim draping fabric tails; EMPTY center for layering behind an award, no medallion or main rosette.\nsize: 128x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: ff6cc8bd-6c26-54d2-9632-22090a290b52\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"a5d577e8-6c32-4654-bdc3-cb37cd720106\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/a5d577e8-6c32-4654-bdc3-cb37cd720106/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "clasp",
+      "name": "Serpentine Filigree",
+      "width": 160,
+      "height": 64,
+      "description": "A narrow HORIZONTAL decorative clasp bar with serpentine scrollwork at both ends, a rectangular engraved center plate and three small cyan gemstone insets. No hanging ribbon or pendant.",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 885b4b38-6375-4233-8ecf-aa31fed784db\njob_id: 885b4b38-6375-4233-8ecf-aa31fed784db\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A narrow HORIZONTAL decorative clasp bar with serpentine scrollwork at both ends, a rectangular engraved center plate and three small cyan gemstone insets. No hanging ribbon or pendant.\nsize: 160x64px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 8ad9d6ef-1bad-500c-b178-4950fb0ba094\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"885b4b38-6375-4233-8ecf-aa31fed784db\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/885b4b38-6375-4233-8ecf-aa31fed784db/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "ribbon",
+      "name": "Gothic Vellum",
+      "description": "A tall single suspension ribbon with an ornate gothic tracery top plate and a split swallowtail hem, stitched purple cloth panels, no pendant.",
+      "width": 96,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 211e5004-bbb8-4e4a-877b-917e025a23ab\njob_id: 211e5004-bbb8-4e4a-877b-917e025a23ab\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A tall single suspension ribbon with an ornate gothic tracery top plate and a split swallowtail hem, stitched purple cloth panels, no pendant.\nsize: 96x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: f1011ae9-e9b0-53fb-b6cf-93d800c2212a\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"211e5004-bbb8-4e4a-877b-917e025a23ab\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/211e5004-bbb8-4e4a-877b-917e025a23ab/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "ribbon",
+      "name": "Lotus Stream",
+      "description": "A long single silk ribbon with a small lotus-shaped metal top fitting, fine ladder embroidery down the cloth, tapered bottom hook, no rosette or pendant.",
+      "width": 96,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 3bc0090d-c2d5-41e8-b9a1-a75db16f4c0d\njob_id: 3bc0090d-c2d5-41e8-b9a1-a75db16f4c0d\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A long single silk ribbon with a small lotus-shaped metal top fitting, fine ladder embroidery down the cloth, tapered bottom hook, no rosette or pendant.\nsize: 96x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 3f9cb624-552f-5033-9c5b-3dc518e9b3db\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"3bc0090d-c2d5-41e8-b9a1-a75db16f4c0d\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/3bc0090d-c2d5-41e8-b9a1-a75db16f4c0d/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "ribbon",
+      "name": "Braided Honor",
+      "description": "A long braided cloth suspension with two woven strands, ornate narrow metal caps and a small bottom ring.",
+      "width": 96,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 0d29375b-50da-4776-8c39-44bcaa255364\njob_id: 0d29375b-50da-4776-8c39-44bcaa255364\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A long braided cloth suspension with two woven strands, ornate narrow metal caps and a small bottom ring.\nsize: 96x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 5a0bd489-6c47-5fe7-bada-5313bc170b8e\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"0d29375b-50da-4776-8c39-44bcaa255364\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/0d29375b-50da-4776-8c39-44bcaa255364/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "ribbon",
+      "name": "Chevron Banner",
+      "description": "A long wide folded fabric banner with three nested V-shaped chevron folds, engraved shoulder bar and pointed lower fitting.",
+      "width": 96,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 89a81fbd-1072-4d8c-afda-2ddde9da14b9\njob_id: 89a81fbd-1072-4d8c-afda-2ddde9da14b9\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A long wide folded fabric banner with three nested V-shaped chevron folds, engraved shoulder bar and pointed lower fitting.\nsize: 96x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: f5a2dae2-b6fb-52ae-ba49-292f6c6dc448\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"89a81fbd-1072-4d8c-afda-2ddde9da14b9\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/89a81fbd-1072-4d8c-afda-2ddde9da14b9/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "ribbon",
+      "name": "Royal Bell",
+      "description": "A long bell-ended silk ribbon with a scalloped bottom, engraved scroll top rail and fine double border.",
+      "width": 96,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: e95c6261-25ff-4d7b-b289-19d62935d0de\njob_id: e95c6261-25ff-4d7b-b289-19d62935d0de\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A long bell-ended silk ribbon with a scalloped bottom, engraved scroll top rail and fine double border.\nsize: 96x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 06701777-7678-5ef0-bb83-64265cf6e4bc\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"e95c6261-25ff-4d7b-b289-19d62935d0de\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/e95c6261-25ff-4d7b-b289-19d62935d0de/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "ribbon",
+      "name": "Split Pennon",
+      "description": "Two parallel narrow long cloth strips joined by an ornate horizontal top bar, each with a pointed lower metal tip.",
+      "width": 96,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: fb66cf15-8071-4523-8dfe-082d3850d9a6\njob_id: fb66cf15-8071-4523-8dfe-082d3850d9a6\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. Two parallel narrow long cloth strips joined by an ornate horizontal top bar, each with a pointed lower metal tip.\nsize: 96x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 4284faa3-1563-541e-a2aa-21216682e12e\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"fb66cf15-8071-4523-8dfe-082d3850d9a6\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/fb66cf15-8071-4523-8dfe-082d3850d9a6/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "ribbon",
+      "name": "Scrollbound Silk",
+      "description": "A long rectangular hanging ribbon with elaborate rolled scroll metal fittings at both ends, embroidered central diamond lattice.",
+      "width": 96,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 702bde27-6fa8-4a68-86f0-54c3ecddc41a\njob_id: 702bde27-6fa8-4a68-86f0-54c3ecddc41a\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A long rectangular hanging ribbon with elaborate rolled scroll metal fittings at both ends, embroidered central diamond lattice.\nsize: 96x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 1e147c05-a3f8-56a8-9d85-4752534d36d5\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"702bde27-6fa8-4a68-86f0-54c3ecddc41a\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/702bde27-6fa8-4a68-86f0-54c3ecddc41a/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "ribbon",
+      "name": "Leafcrest Ribbon",
+      "description": "A long single ribbon with a green laurel-leaf crown fitting around a small cyan gem, cloth body and fine gold bottom loop.",
+      "width": 96,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 6a0c9171-278c-48cb-9166-d3176a8480cd\njob_id: 6a0c9171-278c-48cb-9166-d3176a8480cd\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A long single ribbon with a green laurel-leaf crown fitting around a small cyan gem, cloth body and fine gold bottom loop.\nsize: 96x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 6043cda6-dd4e-58eb-bdd0-aaee72a68e76\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"6a0c9171-278c-48cb-9166-d3176a8480cd\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/6a0c9171-278c-48cb-9166-d3176a8480cd/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "ribbon",
+      "name": "Crescentfall",
+      "description": "A long hanging fabric ribbon with a crescent-moon top clasp, slender side metal chains and a pointed lower tip, no pendant.",
+      "width": 96,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 844bab4c-a30d-4ac4-a725-00b71be16a6e\njob_id: 844bab4c-a30d-4ac4-a725-00b71be16a6e\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A long hanging fabric ribbon with a crescent-moon top clasp, slender side metal chains and a pointed lower tip, no pendant.\nsize: 96x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: f48a6709-5d7a-5c7b-97d1-1dde71902fbc\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"844bab4c-a30d-4ac4-a725-00b71be16a6e\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/844bab4c-a30d-4ac4-a725-00b71be16a6e/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "ribbon",
+      "name": "Stepped Standard",
+      "description": "A long cloth award suspension with stepped shoulders, four pleat channels and a triangular fringe hem, modest engraved end fittings.",
+      "width": 96,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 3606658a-fb1e-418a-acd6-03cacc1480e4\njob_id: 3606658a-fb1e-418a-acd6-03cacc1480e4\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A long cloth award suspension with stepped shoulders, four pleat channels and a triangular fringe hem, modest engraved end fittings.\nsize: 96x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 682bc1d1-68bf-5dd9-8aa7-01d4c549ca23\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"3606658a-fb1e-418a-acd6-03cacc1480e4\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/3606658a-fb1e-418a-acd6-03cacc1480e4/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "ribbon",
+      "name": "Heartfold Silk",
+      "description": "A long cloth ribbon with a heart-shaped metal top buckle and pointed folded bottom, small cyan jewel in buckle, no dangling medal.",
+      "width": 96,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 9a0c2ee7-bafe-4746-8f2b-5a87c3cc9beb\njob_id: 9a0c2ee7-bafe-4746-8f2b-5a87c3cc9beb\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A long cloth ribbon with a heart-shaped metal top buckle and pointed folded bottom, small cyan jewel in buckle, no dangling medal.\nsize: 96x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: c8833b7c-d18d-537e-8c3f-42cbba55d452\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"9a0c2ee7-bafe-4746-8f2b-5a87c3cc9beb\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/9a0c2ee7-bafe-4746-8f2b-5a87c3cc9beb/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "ribbon",
+      "name": "Peacock Standard",
+      "description": "A long fan-topped cloth suspension ribbon, narrow central stem with feather-eye stitched motifs, fine metal lower hem, no birds.",
+      "width": 96,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: a6d34e34-65ad-48c5-a686-866c64713bef\njob_id: a6d34e34-65ad-48c5-a686-866c64713bef\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A long fan-topped cloth suspension ribbon, narrow central stem with feather-eye stitched motifs, fine metal lower hem, no birds.\nsize: 96x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 89a64dc9-ebf6-5944-81c9-fa853ee25d78\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"a6d34e34-65ad-48c5-a686-866c64713bef\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/a6d34e34-65ad-48c5-a686-866c64713bef/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "medal",
+      "name": "Round Portrait Locket",
+      "description": "A circular EMPTY locket frame with an open transparent round center for a custom pet portrait, tiny side hinge and ornate wide metal rim with cyan gem studs. No closed back inside hole.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: df94640a-d2c0-4af9-a0e8-7ef8e77c838c\njob_id: df94640a-d2c0-4af9-a0e8-7ef8e77c838c\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A circular EMPTY locket frame with an open transparent round center for a custom pet portrait, tiny side hinge and ornate wide metal rim with cyan gem studs. No closed back inside hole.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 94f3e4a7-366f-5ad7-a9b6-ca5541f1ce32\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"df94640a-d2c0-4af9-a0e8-7ef8e77c838c\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/df94640a-d2c0-4af9-a0e8-7ef8e77c838c/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "medal",
+      "name": "Oval Portrait Locket",
+      "description": "An oval EMPTY locket frame with a large transparent oval center for a portrait, side hinge and fine filigree surround, small cyan gem above opening. No back inside hole.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: a23dc039-0f68-4f3c-804e-0689a1c7dcd3\njob_id: a23dc039-0f68-4f3c-804e-0689a1c7dcd3\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. An oval EMPTY locket frame with a large transparent oval center for a portrait, side hinge and fine filigree surround, small cyan gem above opening. No back inside hole.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 0faf230a-d4de-5037-99ba-78914aeb6ec4\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"a23dc039-0f68-4f3c-804e-0689a1c7dcd3\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/a23dc039-0f68-4f3c-804e-0689a1c7dcd3/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "medal",
+      "name": "Shield Emblem Frame",
+      "description": "A shield-shaped open metal frame with a large EMPTY transparent shield center for a custom emblem; rivets, small top hanging loop, small cyan gems on corners.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 4264fd16-53ff-4283-b220-a5169eafc8c3\njob_id: 4264fd16-53ff-4283-b220-a5169eafc8c3\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A shield-shaped open metal frame with a large EMPTY transparent shield center for a custom emblem; rivets, small top hanging loop, small cyan gems on corners.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 82b7d2e7-0d2d-5474-ac98-8abd5198e637\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"4264fd16-53ff-4283-b220-a5169eafc8c3\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/4264fd16-53ff-4283-b220-a5169eafc8c3/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "medal",
+      "name": "Wax Seal Blank",
+      "description": "A medallion shaped like an ornate circular wax seal, a broad FLAT BLANK purple center for later initials, irregular fluted edge and fine gold rim. Absolutely no lettering now.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: a64ded24-309d-4edb-a572-3b63d6de2330\njob_id: a64ded24-309d-4edb-a572-3b63d6de2330\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A medallion shaped like an ornate circular wax seal, a broad FLAT BLANK purple center for later initials, irregular fluted edge and fine gold rim. Absolutely no lettering now.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 4af26ec6-3e40-572b-a5f6-427e2bfbc3ae\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"a64ded24-309d-4edb-a572-3b63d6de2330\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/a64ded24-309d-4edb-a572-3b63d6de2330/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "medal",
+      "name": "Engraving Seal",
+      "description": "An octagonal medallion with a wide smooth BLANK metal face for later engraved initials, fine stepped filigree frame and four small cyan gems at cardinal points.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 9134282a-6c13-46e4-ba2c-cdde79fda4cd\njob_id: 9134282a-6c13-46e4-ba2c-cdde79fda4cd\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. An octagonal medallion with a wide smooth BLANK metal face for later engraved initials, fine stepped filigree frame and four small cyan gems at cardinal points.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 782393bc-8c73-5127-8679-9cd02ca440ab\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"9134282a-6c13-46e4-ba2c-cdde79fda4cd\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/9134282a-6c13-46e4-ba2c-cdde79fda4cd/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "medal",
+      "name": "Heart Locket Frame",
+      "description": "A heart-shaped EMPTY locket frame with a transparent heart center for a portrait, hinge detail and elaborate filigree border, small gem at bottom.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 9d0d300b-d2bb-409a-93ae-9460478ec2c5\njob_id: 9d0d300b-d2bb-409a-93ae-9460478ec2c5\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A heart-shaped EMPTY locket frame with a transparent heart center for a portrait, hinge detail and elaborate filigree border, small gem at bottom.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 7bb294d8-8525-5464-b44d-65a5a0014a99\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"9d0d300b-d2bb-409a-93ae-9460478ec2c5\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/9d0d300b-d2bb-409a-93ae-9460478ec2c5/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "medal",
+      "name": "Rune Halo Medallion",
+      "description": "A circular open halo ring with small invented decorative geometric rune cuts, transparent center, eight tiny cyan crystal nodes. No readable writing.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: e24832cd-0e62-49a2-a11e-3832cec99392\njob_id: e24832cd-0e62-49a2-a11e-3832cec99392\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A circular open halo ring with small invented decorative geometric rune cuts, transparent center, eight tiny cyan crystal nodes. No readable writing.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 06c69ad1-b0e5-51da-a866-47984cf9c0a1\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"e24832cd-0e62-49a2-a11e-3832cec99392\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/e24832cd-0e62-49a2-a11e-3832cec99392/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "medal",
+      "name": "Botanical Cameo",
+      "description": "A round blank purple cameo plaque framed by green oak leaves and elegant gold scrollwork, flat blank center suitable for initials or an emblem.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 18004298-9ce4-4924-bf78-38c76b536ba9\njob_id: 18004298-9ce4-4924-bf78-38c76b536ba9\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A round blank purple cameo plaque framed by green oak leaves and elegant gold scrollwork, flat blank center suitable for initials or an emblem.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: e019dc18-ec64-5d5b-80a5-1e0f56077af3\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"18004298-9ce4-4924-bf78-38c76b536ba9\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/18004298-9ce4-4924-bf78-38c76b536ba9/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "medal",
+      "name": "Lock Emblem",
+      "description": "An ornate padlock-shaped award pendant with a broad smooth blank metal front for initials, elegant arched shackle and small cyan gemstone keyhole surround.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 9b7c7f3b-5d7a-4439-b134-e39428e9a031\njob_id: 9b7c7f3b-5d7a-4439-b134-e39428e9a031\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. An ornate padlock-shaped award pendant with a broad smooth blank metal front for initials, elegant arched shackle and small cyan gemstone keyhole surround.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 4ab0afb6-a63d-56a7-a721-c1ee89e77416\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"9b7c7f3b-5d7a-4439-b134-e39428e9a031\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/9b7c7f3b-5d7a-4439-b134-e39428e9a031/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "rosette",
+      "name": "Starlace Rosette",
+      "description": "A rosette HEAD ONLY with eight long sharply folded purple fabric points and a second layer of tiny pleats, small cyan gem center and gold stitched rims. No tails.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: d587d7bd-b2d0-4154-ac7f-672b45722feb\njob_id: d587d7bd-b2d0-4154-ac7f-672b45722feb\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A rosette HEAD ONLY with eight long sharply folded purple fabric points and a second layer of tiny pleats, small cyan gem center and gold stitched rims. No tails.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 00c02313-edc0-5d4d-89eb-a6c1491be833\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"d587d7bd-b2d0-4154-ac7f-672b45722feb\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/d587d7bd-b2d0-4154-ac7f-672b45722feb/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "rosette",
+      "name": "Camellia Rosette",
+      "description": "A rosette HEAD ONLY shaped like a lush many-layered camellia flower of purple cloth, a pearl-like cyan center stone in gold, no tails.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 28c893bd-a121-454d-b8cc-939d71debad1\njob_id: 28c893bd-a121-454d-b8cc-939d71debad1\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A rosette HEAD ONLY shaped like a lush many-layered camellia flower of purple cloth, a pearl-like cyan center stone in gold, no tails.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 2f5ae158-2e20-5c75-b5d5-4df02c029ac1\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"28c893bd-a121-454d-b8cc-939d71debad1\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/28c893bd-a121-454d-b8cc-939d71debad1/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "rosette",
+      "name": "Laurel Wheel",
+      "description": "A round rosette HEAD ONLY with concentric green laurel leaves framing a purple cloth disk and cyan gemstone center, fine gold spoke details, no tails.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 315fc28d-ea05-48ac-8491-43001be7d165\njob_id: 315fc28d-ea05-48ac-8491-43001be7d165\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A round rosette HEAD ONLY with concentric green laurel leaves framing a purple cloth disk and cyan gemstone center, fine gold spoke details, no tails.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 0bacc62a-655e-5c10-a581-b25f78ceb1b4\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"315fc28d-ea05-48ac-8491-43001be7d165\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/315fc28d-ea05-48ac-8491-43001be7d165/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "rosette",
+      "name": "Compass Pleats",
+      "description": "A square-on-diagonal rosette HEAD ONLY with four broad fan pleats and eight gold star tips, cyan gem center, no tails.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 2785f419-9b4c-457d-8f41-f0a6362eeac2\njob_id: 2785f419-9b4c-457d-8f41-f0a6362eeac2\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A square-on-diagonal rosette HEAD ONLY with four broad fan pleats and eight gold star tips, cyan gem center, no tails.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 725231d0-e9cc-5795-b8f7-4e7bd88e0193\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"2785f419-9b4c-457d-8f41-f0a6362eeac2\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/2785f419-9b4c-457d-8f41-f0a6362eeac2/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "rosette",
+      "name": "Crown Rosette",
+      "description": "A round elaborate triple-layer pleated purple rosette HEAD ONLY topped with a small crown, small cyan gemstone seal in center, no hanging cloth.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 4e94fcdf-4e34-48be-b5c3-3770a9f7706a\njob_id: 4e94fcdf-4e34-48be-b5c3-3770a9f7706a\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A round elaborate triple-layer pleated purple rosette HEAD ONLY topped with a small crown, small cyan gemstone seal in center, no hanging cloth.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 980bea02-c4f2-55f6-83bb-c1f99c22e66f\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"4e94fcdf-4e34-48be-b5c3-3770a9f7706a\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/4e94fcdf-4e34-48be-b5c3-3770a9f7706a/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "rosette",
+      "name": "Sunfold Rosette",
+      "description": "A rosette HEAD ONLY with twelve accordion-folded purple rays, alternate rays long and short, ornate gold center setting around cyan gem, no tails.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 3930ef9d-0ae9-4440-8141-1efe5def29c6\njob_id: 3930ef9d-0ae9-4440-8141-1efe5def29c6\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A rosette HEAD ONLY with twelve accordion-folded purple rays, alternate rays long and short, ornate gold center setting around cyan gem, no tails.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 388b09d1-d3fe-549e-9b8e-10aa158025df\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"3930ef9d-0ae9-4440-8141-1efe5def29c6\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/3930ef9d-0ae9-4440-8141-1efe5def29c6/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "rosette",
+      "name": "Portrait Rosette",
+      "description": "A round pleated purple rosette HEAD ONLY with an EMPTY transparent circular center opening for a custom pet emblem; gold rim around hole, no large gem covering opening, no tails.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 1c885534-5198-4d93-afdc-eace35e45e82\njob_id: 1c885534-5198-4d93-afdc-eace35e45e82\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A round pleated purple rosette HEAD ONLY with an EMPTY transparent circular center opening for a custom pet emblem; gold rim around hole, no large gem covering opening, no tails.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 19a0c798-4819-54b5-9bdc-188220af225d\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"1c885534-5198-4d93-afdc-eace35e45e82\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/1c885534-5198-4d93-afdc-eace35e45e82/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Triple Waterfall",
+      "description": "Three long tapering cloth tails connected only by a tiny top knot, central tail longer, gold embroidery, empty upper area for layering under a rosette.",
+      "width": 128,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 84348f8c-75b9-4703-b1ab-09b69d6fe28d\njob_id: 84348f8c-75b9-4703-b1ab-09b69d6fe28d\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. Three long tapering cloth tails connected only by a tiny top knot, central tail longer, gold embroidery, empty upper area for layering under a rosette.\nsize: 128x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 44400774-f506-5430-aa76-90b6e63558f5\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"84348f8c-75b9-4703-b1ab-09b69d6fe28d\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/84348f8c-75b9-4703-b1ab-09b69d6fe28d/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Spiral Streamers",
+      "description": "A mirrored pair of curling purple silk streamers, narrow gold edging, broad outward loops and pointed ends. No medal, no rosette.",
+      "width": 128,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 9d110f72-8652-4446-835d-7f9ee3578fb0\njob_id: 9d110f72-8652-4446-835d-7f9ee3578fb0\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A mirrored pair of curling purple silk streamers, narrow gold edging, broad outward loops and pointed ends. No medal, no rosette.\nsize: 128x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 79eae0ec-c844-5b1f-ae87-ff5adc4a50fe\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"9d110f72-8652-4446-835d-7f9ee3578fb0\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/9d110f72-8652-4446-835d-7f9ee3578fb0/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Forked Tails",
+      "description": "A mirrored pair of broad purple fabric tails with double fishtail ends, gold trim and folded top tabs. No medal or rosette.",
+      "width": 128,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 6988d028-6402-4e13-85bb-b7504847bc72\njob_id: 6988d028-6402-4e13-85bb-b7504847bc72\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A mirrored pair of broad purple fabric tails with double fishtail ends, gold trim and folded top tabs. No medal or rosette.\nsize: 128x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: e748708b-ee28-51d0-923c-a1f3cd00fb60\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"6988d028-6402-4e13-85bb-b7504847bc72\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/6988d028-6402-4e13-85bb-b7504847bc72/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Chain Swags",
+      "description": "Three delicate hanging gold chain swags joined at their top corners, with small cyan teardrop gems hanging at the lowest points, open transparent centers.",
+      "width": 128,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 9bd1945e-eeb5-4327-8d1d-da3c1901e7d0\njob_id: 9bd1945e-eeb5-4327-8d1d-da3c1901e7d0\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. Three delicate hanging gold chain swags joined at their top corners, with small cyan teardrop gems hanging at the lowest points, open transparent centers.\nsize: 128x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 803fdf6d-e1ea-535e-a897-78c799a8c85a\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"9bd1945e-eeb5-4327-8d1d-da3c1901e7d0\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/9bd1945e-eeb5-4327-8d1d-da3c1901e7d0/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Oak Mantle",
+      "description": "A symmetrical pair of lush green oak leaf branches with tiny gold acorns, curved to form a wide U shaped open wreath. No central plaque.",
+      "width": 128,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 885db86c-90c7-40b5-b319-00a8012f6951\njob_id: 885db86c-90c7-40b5-b319-00a8012f6951\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A symmetrical pair of lush green oak leaf branches with tiny gold acorns, curved to form a wide U shaped open wreath. No central plaque.\nsize: 128x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: ba523d14-9b21-5e7b-a0bf-cb50ab4a965b\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"885db86c-90c7-40b5-b319-00a8012f6951\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/885db86c-90c7-40b5-b319-00a8012f6951/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Feather Wings",
+      "description": "A symmetrical pair of ornate golden feather wings, spread outward with an empty gap at center and a small joining loop. No bird or body.",
+      "width": 128,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 3faf0e16-2a50-4537-ac06-98514375a477\njob_id: 3faf0e16-2a50-4537-ac06-98514375a477\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A symmetrical pair of ornate golden feather wings, spread outward with an empty gap at center and a small joining loop. No bird or body.\nsize: 128x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 1221a655-3525-5753-9d9c-f8ef85e3e64d\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"3faf0e16-2a50-4537-ac06-98514375a477\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/3faf0e16-2a50-4537-ac06-98514375a477/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Orbit Star",
+      "description": "ONE small ornate eight-point gold star with a faceted cyan gem center, standalone satellite decoration with no loop or ribbon.",
+      "width": 128,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 887f46f1-12c9-43b8-9d70-5f7cc5a56e3a\njob_id: 887f46f1-12c9-43b8-9d70-5f7cc5a56e3a\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE small ornate eight-point gold star with a faceted cyan gem center, standalone satellite decoration with no loop or ribbon.\nsize: 128x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: a1f651e3-d394-59b7-845f-47de3ffa739f\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"887f46f1-12c9-43b8-9d70-5f7cc5a56e3a\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/887f46f1-12c9-43b8-9d70-5f7cc5a56e3a/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Orbit Moon",
+      "description": "ONE standalone small crescent moon of engraved gold with a tiny cyan jewel tip, suitable as an orbiting decoration.",
+      "width": 128,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 4c397d40-9b31-448c-b175-1000bc1f2809\njob_id: 4c397d40-9b31-448c-b175-1000bc1f2809\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE standalone small crescent moon of engraved gold with a tiny cyan jewel tip, suitable as an orbiting decoration.\nsize: 128x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 3e26f353-2f19-5a3b-ac6f-67f8fc7965fc\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"4c397d40-9b31-448c-b175-1000bc1f2809\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/4c397d40-9b31-448c-b175-1000bc1f2809/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Crystal Satellite",
+      "description": "ONE standalone tall faceted cyan crystal shard with detailed light and dark triangular facets, tiny gold foot cap; no base pedestal.",
+      "width": 128,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: ae519977-f85a-4306-81f6-5ab79ccda790\njob_id: ae519977-f85a-4306-81f6-5ab79ccda790\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE standalone tall faceted cyan crystal shard with detailed light and dark triangular facets, tiny gold foot cap; no base pedestal.\nsize: 128x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 756d3821-8f6a-5d90-8171-e6093d814398\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"ae519977-f85a-4306-81f6-5ab79ccda790\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/ae519977-f85a-4306-81f6-5ab79ccda790/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Halo Ring",
+      "description": "ONE thin ornate circular gold halo ring, EMPTY transparent center, small geometric rune cutouts and tiny cyan lights on rim. No text, no plaque.",
+      "width": 128,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 61413c1b-7a5e-4f7b-912a-77e0e876b1e5\njob_id: 61413c1b-7a5e-4f7b-912a-77e0e876b1e5\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE thin ornate circular gold halo ring, EMPTY transparent center, small geometric rune cutouts and tiny cyan lights on rim. No text, no plaque.\nsize: 128x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: b84f8f1e-cbbc-5373-b1ea-fbaea7679f58\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"61413c1b-7a5e-4f7b-912a-77e0e876b1e5\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/61413c1b-7a5e-4f7b-912a-77e0e876b1e5/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Round Locket Lid",
+      "description": "ONE circular ornate locket COVER disk, engraved outer metal rim, wide smooth blank gold face for later initials, hinge tab at left, small cyan gem at top. No cloth.",
+      "width": 128,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 3f6efc12-3ddc-4e5a-8e4d-c82c83b91a0f\njob_id: 3f6efc12-3ddc-4e5a-8e4d-c82c83b91a0f\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE circular ornate locket COVER disk, engraved outer metal rim, wide smooth blank gold face for later initials, hinge tab at left, small cyan gem at top. No cloth.\nsize: 128x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 0e79ca75-8ee5-5d20-bd88-474bb9be99f7\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"3f6efc12-3ddc-4e5a-8e4d-c82c83b91a0f\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/3f6efc12-3ddc-4e5a-8e4d-c82c83b91a0f/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Oval Locket Lid",
+      "description": "ONE oval ornate locket COVER disk, engraved metal rim, smooth blank purple enamel face for later initials, hinge tab at left and cyan gem at top. No cloth.",
+      "width": 128,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: f8c4419d-a377-44d5-982b-aa772b09fd0a\njob_id: f8c4419d-a377-44d5-982b-aa772b09fd0a\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE oval ornate locket COVER disk, engraved metal rim, smooth blank purple enamel face for later initials, hinge tab at left and cyan gem at top. No cloth.\nsize: 128x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 9ecaecc4-59d1-59ac-aeb2-9064b9015e01\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"f8c4419d-a377-44d5-982b-aa772b09fd0a\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/f8c4419d-a377-44d5-982b-aa772b09fd0a/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Heart Locket Lid",
+      "description": "ONE heart-shaped ornate locket COVER disk with an engraved metal border, smooth blank metal front for later initials, left hinge tab and small cyan gem at bottom.",
+      "width": 128,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 43356a1a-aa11-4bfe-a3c2-25443c06c1bf\njob_id: 43356a1a-aa11-4bfe-a3c2-25443c06c1bf\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE heart-shaped ornate locket COVER disk with an engraved metal border, smooth blank metal front for later initials, left hinge tab and small cyan gem at bottom.\nsize: 128x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 41ae2463-e533-56b1-bccb-efd69e788eef\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"43356a1a-aa11-4bfe-a3c2-25443c06c1bf\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/43356a1a-aa11-4bfe-a3c2-25443c06c1bf/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Sparkle Crown",
+      "description": "ONE delicate cluster of five varied-size four-point cyan gemstone sparkles joined by thin gold arcs, an open airy accent to place above a medal.",
+      "width": 128,
+      "height": 160,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 0a1657d3-b540-4bb2-ae5c-badea7bd9346\njob_id: 0a1657d3-b540-4bb2-ae5c-badea7bd9346\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE delicate cluster of five varied-size four-point cyan gemstone sparkles joined by thin gold arcs, an open airy accent to place above a medal.\nsize: 128x160px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: c13cc06d-1927-54d7-b735-1d8826eb9f98\nasset_status: pending (saved when generation completes)\ncost: 15 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"0a1657d3-b540-4bb2-ae5c-badea7bd9346\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/0a1657d3-b540-4bb2-ae5c-badea7bd9346/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "clasp",
+      "name": "Blank Nameplate",
+      "description": "A long narrow HORIZONTAL ornamental clasp with a broad clean blank rectangular metal center for lettering, curled filigree ends and two tiny cyan gem corner studs. No words. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.",
+      "width": 128,
+      "height": 64,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: ad9127dd-957f-4b64-8fa5-ca797fd80257\njob_id: ad9127dd-957f-4b64-8fa5-ca797fd80257\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A long narrow HORIZONTAL ornamental clasp with a broad clean blank rectangular metal center for lettering, curled filigree ends and two tiny cyan gem corner studs. No words. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.\nsize: 128x64px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: bf635b7c-9302-59a7-9063-8a30e862175c\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"ad9127dd-957f-4b64-8fa5-ca797fd80257\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/ad9127dd-957f-4b64-8fa5-ca797fd80257/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "clasp",
+      "name": "Leaf Bar",
+      "description": "A narrow HORIZONTAL clasp bar with two green oak leaf sprigs extending from a small central cyan diamond in a gold setting. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.",
+      "width": 128,
+      "height": 64,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 73a88264-e7c3-44f2-9b6e-fcbe8e5b0e57\njob_id: 73a88264-e7c3-44f2-9b6e-fcbe8e5b0e57\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A narrow HORIZONTAL clasp bar with two green oak leaf sprigs extending from a small central cyan diamond in a gold setting. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.\nsize: 128x64px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 359eb196-5227-5ab3-8498-c7042785718e\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"73a88264-e7c3-44f2-9b6e-fcbe8e5b0e57\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/73a88264-e7c3-44f2-9b6e-fcbe8e5b0e57/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "clasp",
+      "name": "Crescent Bar",
+      "description": "A narrow HORIZONTAL clasp with mirrored gold crescent ends, a smooth blank rectangular central metal plate and two small cyan stones. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.",
+      "width": 128,
+      "height": 64,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 44b9f961-a11e-42cd-a7d4-50d364f943fb\njob_id: 44b9f961-a11e-42cd-a7d4-50d364f943fb\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A narrow HORIZONTAL clasp with mirrored gold crescent ends, a smooth blank rectangular central metal plate and two small cyan stones. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.\nsize: 128x64px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 5c4ef21a-49a3-5bb7-acd4-70a8289b7b32\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"44b9f961-a11e-42cd-a7d4-50d364f943fb\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/44b9f961-a11e-42cd-a7d4-50d364f943fb/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "clasp",
+      "name": "Shield Bar",
+      "description": "A HORIZONTAL short decorative clasp with a small blank shield center, horizontal engraved gold side bars and tiny cyan gemstone rivets. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.",
+      "width": 128,
+      "height": 64,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 12f8a688-4475-409c-88f2-37fbe9567621\njob_id: 12f8a688-4475-409c-88f2-37fbe9567621\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A HORIZONTAL short decorative clasp with a small blank shield center, horizontal engraved gold side bars and tiny cyan gemstone rivets. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.\nsize: 128x64px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 7c964717-5f7d-58b2-aff5-6550d8c8ac19\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"12f8a688-4475-409c-88f2-37fbe9567621\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/12f8a688-4475-409c-88f2-37fbe9567621/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "clasp",
+      "name": "Triple Teardrop",
+      "description": "A narrow HORIZONTAL clasp with three cyan teardrop gems set along a filigree gold bar, no long dangling elements. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.",
+      "width": 128,
+      "height": 64,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: f4d5900f-4d84-424c-a56d-6fd1fcefbc32\njob_id: f4d5900f-4d84-424c-a56d-6fd1fcefbc32\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A narrow HORIZONTAL clasp with three cyan teardrop gems set along a filigree gold bar, no long dangling elements. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.\nsize: 128x64px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: b9b4c817-c3a5-54e1-88b4-c8d292be56c7\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"f4d5900f-4d84-424c-a56d-6fd1fcefbc32\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/f4d5900f-4d84-424c-a56d-6fd1fcefbc32/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "clasp",
+      "name": "Sunburst Bar",
+      "description": "A narrow HORIZONTAL clasp with a small gold sunburst disk at center and ornate symmetrical horizontal rails, cyan gem in sun. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.",
+      "width": 128,
+      "height": 64,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 58f8bf08-4299-491a-87b2-7ad48092f62d\njob_id: 58f8bf08-4299-491a-87b2-7ad48092f62d\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A narrow HORIZONTAL clasp with a small gold sunburst disk at center and ornate symmetrical horizontal rails, cyan gem in sun. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.\nsize: 128x64px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: dda4330d-4c6d-58ae-8459-4c4ae170dc5d\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"58f8bf08-4299-491a-87b2-7ad48092f62d\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/58f8bf08-4299-491a-87b2-7ad48092f62d/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "clasp",
+      "name": "Wing Bar",
+      "description": "A narrow HORIZONTAL clasp made of two outspread sculpted gold wings and a tiny cyan shield gem at center. No animal body. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.",
+      "width": 128,
+      "height": 64,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 6e4cc545-e24f-4040-9408-d5be60705885\njob_id: 6e4cc545-e24f-4040-9408-d5be60705885\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A narrow HORIZONTAL clasp made of two outspread sculpted gold wings and a tiny cyan shield gem at center. No animal body. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.\nsize: 128x64px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 9b88d696-03d9-57bc-a6f7-f47b0b7204b8\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"6e4cc545-e24f-4040-9408-d5be60705885\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/6e4cc545-e24f-4040-9408-d5be60705885/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "clasp",
+      "name": "Ribbon Knot Bar",
+      "description": "A narrow HORIZONTAL clasp shaped like a compact folded purple fabric bow with ornate gold central band and a small cyan jewel, no long tails. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.",
+      "width": 128,
+      "height": 64,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: d1d5b08b-7d6d-43ab-b201-d1c8dd877d1e\njob_id: d1d5b08b-7d6d-43ab-b201-d1c8dd877d1e\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A narrow HORIZONTAL clasp shaped like a compact folded purple fabric bow with ornate gold central band and a small cyan jewel, no long tails. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.\nsize: 128x64px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 59fc92fb-8d27-54f5-8555-077ef7dd81db\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"d1d5b08b-7d6d-43ab-b201-d1c8dd877d1e\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/d1d5b08b-7d6d-43ab-b201-d1c8dd877d1e/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "clasp",
+      "name": "Engraved Laurel Plate",
+      "description": "A narrow HORIZONTAL clasp nameplate with a large blank oval metal face, fine green laurel leaves at left and right, no text. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.",
+      "width": 128,
+      "height": 64,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 48f93eee-6acb-404f-b581-64e169f42436\njob_id: 48f93eee-6acb-404f-b581-64e169f42436\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A narrow HORIZONTAL clasp nameplate with a large blank oval metal face, fine green laurel leaves at left and right, no text. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.\nsize: 128x64px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 7bd92f15-a2c0-5b1a-afb5-db5ab5bd7088\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"48f93eee-6acb-404f-b581-64e169f42436\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/48f93eee-6acb-404f-b581-64e169f42436/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "clasp",
+      "name": "Diamond Lattice Bar",
+      "description": "A narrow HORIZONTAL clasp with an open gold diamond lattice rail and five small cyan gemstones spaced across it. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.",
+      "width": 128,
+      "height": 64,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 1f68b0f4-3faf-4ba5-8fae-5ca4facec7c9\njob_id: 1f68b0f4-3faf-4ba5-8fae-5ca4facec7c9\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A narrow HORIZONTAL clasp with an open gold diamond lattice rail and five small cyan gemstones spaced across it. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.\nsize: 128x64px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 7b710989-3f23-528b-ab2d-da946ead3ae4\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"1f68b0f4-3faf-4ba5-8fae-5ca4facec7c9\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/1f68b0f4-3faf-4ba5-8fae-5ca4facec7c9/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "clasp",
+      "name": "Lock Plate",
+      "description": "A narrow HORIZONTAL decorative clasp with a blank small padlock face in the center and ornate gold side rails, a tiny cyan inset above a keyhole. No lettering. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.",
+      "width": 128,
+      "height": 64,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: aa23a345-871b-4bb1-ba6a-9f0f4d0f3706\njob_id: aa23a345-871b-4bb1-ba6a-9f0f4d0f3706\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A narrow HORIZONTAL decorative clasp with a blank small padlock face in the center and ornate gold side rails, a tiny cyan inset above a keyhole. No lettering. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.\nsize: 128x64px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: ccc8cfac-37eb-53cf-bf76-5ec23897a711\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"aa23a345-871b-4bb1-ba6a-9f0f4d0f3706\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/aa23a345-871b-4bb1-ba6a-9f0f4d0f3706/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "clasp",
+      "name": "Scroll Seal Bar",
+      "description": "A narrow HORIZONTAL clasp shaped like an unrolled tiny gold scroll, broad BLANK flat middle for text, curled ends with small cyan studs. No writing now. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.",
+      "width": 128,
+      "height": 64,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 702d94b5-210c-4386-a269-43ede66b3872\njob_id: 702d94b5-210c-4386-a269-43ede66b3872\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A narrow HORIZONTAL clasp shaped like an unrolled tiny gold scroll, broad BLANK flat middle for text, curled ends with small cyan studs. No writing now. The complete clasp must occupy only the middle 96 pixels of the 128-pixel-wide canvas. Both ends fully visible; at least 16px transparent blank margin on LEFT and RIGHT. Compact width, not a long banner.\nsize: 128x64px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 8236d023-c1ae-5c46-8b08-5b18ab42c7b3\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"702d94b5-210c-4386-a269-43ede66b3872\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/702d94b5-210c-4386-a269-43ede66b3872/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Data Packets",
+      "description": "ONE small hovering cluster of three translucent cyan data cubes with gold corner brackets, individual beveled facets, no letters or background.",
+      "width": 128,
+      "height": 128,
+      "role": "orbit",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 8dd11127-a97b-4306-816d-2d6622150964\njob_id: 8dd11127-a97b-4306-816d-2d6622150964\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE small hovering cluster of three translucent cyan data cubes with gold corner brackets, individual beveled facets, no letters or background.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 7afb9b41-aabf-56d6-aee9-46ebc5f117a0\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"8dd11127-a97b-4306-816d-2d6622150964\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/8dd11127-a97b-4306-816d-2d6622150964/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Binary Stream",
+      "description": "ONE short horizontal arc of glowing cyan pixel binary digits 0 1 0 1 1, spaced clearly with tiny gold connector dots. A transparent decorative data stream sprite, no background.",
+      "width": 128,
+      "height": 128,
+      "role": "orbit",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 8bdeea8e-1ff8-489f-87ef-4bfecbe79c95\njob_id: 8bdeea8e-1ff8-489f-87ef-4bfecbe79c95\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE short horizontal arc of glowing cyan pixel binary digits 0 1 0 1 1, spaced clearly with tiny gold connector dots. A transparent decorative data stream sprite, no background.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: f619d2cd-42ab-5b0d-a4f7-e99f5e883970\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"8bdeea8e-1ff8-489f-87ef-4bfecbe79c95\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/8bdeea8e-1ff8-489f-87ef-4bfecbe79c95/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Letter Stream",
+      "description": "ONE short horizontal gently wavy chain of clearly separated pixel letters A B C D E, cyan luminous letterforms with small golden star separators, transparent background.",
+      "width": 128,
+      "height": 128,
+      "role": "orbit",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 955b0ba8-d94a-41d9-814a-1fba0ba3e889\njob_id: 955b0ba8-d94a-41d9-814a-1fba0ba3e889\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE short horizontal gently wavy chain of clearly separated pixel letters A B C D E, cyan luminous letterforms with small golden star separators, transparent background.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 8c9014af-fc84-5e1f-bbe6-d176d418a9ff\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"955b0ba8-d94a-41d9-814a-1fba0ba3e889\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/955b0ba8-d94a-41d9-814a-1fba0ba3e889/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Code Fragments",
+      "description": "ONE short horizontal arc of cyan code glyphs { } < > / separated by little gold data nodes, crisp pixel lettering, transparent background.",
+      "width": 128,
+      "height": 128,
+      "role": "orbit",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: dbd52152-456e-4ac1-bae0-1dfd7c58ac2e\njob_id: dbd52152-456e-4ac1-bae0-1dfd7c58ac2e\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE short horizontal arc of cyan code glyphs { } < > / separated by little gold data nodes, crisp pixel lettering, transparent background.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: ec81cc83-0dcd-583b-9a0a-24f7a1e98b34\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"dbd52152-456e-4ac1-bae0-1dfd7c58ac2e\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/dbd52152-456e-4ac1-bae0-1dfd7c58ac2e/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Tiny Firework",
+      "description": "ONE compact radial firework burst sprite with bright cyan crystalline sparks and gold sparks, dark transparent gaps between thin rays, no smoke and no background.",
+      "width": 128,
+      "height": 128,
+      "role": "orbit",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: f40e500b-a549-413c-b1b0-7e3a30c084e7\njob_id: f40e500b-a549-413c-b1b0-7e3a30c084e7\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE compact radial firework burst sprite with bright cyan crystalline sparks and gold sparks, dark transparent gaps between thin rays, no smoke and no background.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 99f5771b-c7ae-53cb-9034-2e479b03e73a\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"f40e500b-a549-413c-b1b0-7e3a30c084e7\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/f40e500b-a549-413c-b1b0-7e3a30c084e7/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Music Satellite",
+      "description": "ONE ornate gold eighth-note musical symbol with a cyan gemstone notehead, small and readable, no staff lines or ribbon.",
+      "width": 128,
+      "height": 128,
+      "role": "orbit",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 911048df-e41e-43cc-981e-e38a3518179e\njob_id: 911048df-e41e-43cc-981e-e38a3518179e\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No unintended text or numerals, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE ornate gold eighth-note musical symbol with a cyan gemstone notehead, small and readable, no staff lines or ribbon.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: ca4a0243-c05c-554a-a974-304b24729ecd\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"911048df-e41e-43cc-981e-e38a3518179e\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/911048df-e41e-43cc-981e-e38a3518179e/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Heart Satellite",
+      "description": "ONE small faceted cyan heart gemstone wrapped with a fine gold filigree edge, no loop, no cloth.",
+      "width": 128,
+      "height": 128,
+      "role": "orbit",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 778d9df9-f170-44a7-b936-3bf63c0dd161\njob_id: 778d9df9-f170-44a7-b936-3bf63c0dd161\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE small faceted cyan heart gemstone wrapped with a fine gold filigree edge, no loop, no cloth.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 07eb1c8b-a29d-5209-89bb-1532e655fca6\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"778d9df9-f170-44a7-b936-3bf63c0dd161\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/778d9df9-f170-44a7-b936-3bf63c0dd161/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Gear Satellite",
+      "description": "ONE small ornate gold eight-toothed cog with a cyan gemstone axle, open cutouts and deep engraved detail.",
+      "width": 128,
+      "height": 128,
+      "role": "orbit",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: cb0b418c-9ab7-4af6-bfb7-e5b0ec81620d\njob_id: cb0b418c-9ab7-4af6-bfb7-e5b0ec81620d\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE small ornate gold eight-toothed cog with a cyan gemstone axle, open cutouts and deep engraved detail.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 56cbf42c-e2b7-5e9d-a8c6-54e5e3fc4d48\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"cb0b418c-9ab7-4af6-bfb7-e5b0ec81620d\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/cb0b418c-9ab7-4af6-bfb7-e5b0ec81620d/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Butterfly Satellite",
+      "description": "ONE tiny butterfly ornament with cyan gemstone wings, a slender gold body and delicate green leaf accents, no background.",
+      "width": 128,
+      "height": 128,
+      "role": "orbit",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 2f5e103c-c626-4c58-ab18-ddc3775df543\njob_id: 2f5e103c-c626-4c58-ab18-ddc3775df543\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE tiny butterfly ornament with cyan gemstone wings, a slender gold body and delicate green leaf accents, no background.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: c2b8f22e-b3c8-5662-bb30-c1a5a43ede0e\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"2f5e103c-c626-4c58-ab18-ddc3775df543\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/2f5e103c-c626-4c58-ab18-ddc3775df543/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Circuit Comet",
+      "description": "ONE tiny cyan luminous data comet with a faceted cyan head and three short trailing gold circuit traces and cyan square particles, transparent background.",
+      "width": 128,
+      "height": 128,
+      "role": "orbit",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 6635b9ec-a321-421d-94e6-b62cb597033b\njob_id: 6635b9ec-a321-421d-94e6-b62cb597033b\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE tiny cyan luminous data comet with a faceted cyan head and three short trailing gold circuit traces and cyan square particles, transparent background.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: ac43196a-6c9e-54f0-aba8-de42500b89bc\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"6635b9ec-a321-421d-94e6-b62cb597033b\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/6635b9ec-a321-421d-94e6-b62cb597033b/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Book Satellite",
+      "description": "ONE tiny open book ornament, purple covers, pale gold pages and a cyan gemstone bookmark, no readable text.",
+      "width": 128,
+      "height": 128,
+      "role": "orbit",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: f67850af-d980-4c5e-8f6c-be5e360529cf\njob_id: f67850af-d980-4c5e-8f6c-be5e360529cf\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE tiny open book ornament, purple covers, pale gold pages and a cyan gemstone bookmark, no readable text.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 5027136d-36b6-5de8-a6c5-603a71f8f036\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"f67850af-d980-4c5e-8f6c-be5e360529cf\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/f67850af-d980-4c5e-8f6c-be5e360529cf/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Key Satellite",
+      "description": "ONE small ornate gold key with a cyan gemstone bow, delicate teeth and curved handle, no background.",
+      "width": 128,
+      "height": 128,
+      "role": "orbit",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 86464b78-065a-4e92-a5b9-656c610b282f\njob_id: 86464b78-065a-4e92-a5b9-656c610b282f\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE small ornate gold key with a cyan gemstone bow, delicate teeth and curved handle, no background.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: be59c95b-1235-58a7-bf34-21e622f1801d\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"86464b78-065a-4e92-a5b9-656c610b282f\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/86464b78-065a-4e92-a5b9-656c610b282f/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "rosette",
+      "name": "Snowfold Rosette",
+      "description": "A rosette HEAD ONLY with six pointed snowflake-like pleated purple cloth arms, delicate gold veins, and a central cyan gemstone. No tails.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: f5c65bb1-1565-4848-aa35-1d5c0f6556ce\njob_id: f5c65bb1-1565-4848-aa35-1d5c0f6556ce\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A rosette HEAD ONLY with six pointed snowflake-like pleated purple cloth arms, delicate gold veins, and a central cyan gemstone. No tails.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: c080654f-8d50-52a8-a2b3-d035fca875bd\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"f5c65bb1-1565-4848-aa35-1d5c0f6556ce\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/f5c65bb1-1565-4848-aa35-1d5c0f6556ce/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "rosette",
+      "name": "Spiral Petal Rosette",
+      "description": "A rosette HEAD ONLY with swirling overlapping purple cloth petals around a cyan stone, ornate golden scalloped stitching, no tails.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: b37b9df0-8923-479e-9471-dbcfb4f587f0\njob_id: b37b9df0-8923-479e-9471-dbcfb4f587f0\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A rosette HEAD ONLY with swirling overlapping purple cloth petals around a cyan stone, ornate golden scalloped stitching, no tails.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: e6448cc1-d3e8-5ba6-b721-df8fa129d6a9\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"b37b9df0-8923-479e-9471-dbcfb4f587f0\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/b37b9df0-8923-479e-9471-dbcfb4f587f0/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "rosette",
+      "name": "Clover Rosette",
+      "description": "A rosette HEAD ONLY with four broad lobed purple cloth fans and fine gold outlines, surrounded by small green clover leaves, cyan jewel center, no tails.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 834d4bfa-b580-4433-88be-4304707da009\njob_id: 834d4bfa-b580-4433-88be-4304707da009\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A rosette HEAD ONLY with four broad lobed purple cloth fans and fine gold outlines, surrounded by small green clover leaves, cyan jewel center, no tails.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 019024e2-fd2b-57e3-a7bc-9b8b5cacf540\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"834d4bfa-b580-4433-88be-4304707da009\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/834d4bfa-b580-4433-88be-4304707da009/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "rosette",
+      "name": "Diamond Fan Rosette",
+      "description": "A rosette HEAD ONLY with eight diamond-shaped folded purple cloth panels, gold filigree between panels, central faceted cyan gem, no tails.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 07d0a274-6150-4636-a3e4-2a7ab2ae6c01\njob_id: 07d0a274-6150-4636-a3e4-2a7ab2ae6c01\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A rosette HEAD ONLY with eight diamond-shaped folded purple cloth panels, gold filigree between panels, central faceted cyan gem, no tails.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 9a94366b-0bc6-5f34-a712-80cb96d5e2a0\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"07d0a274-6150-4636-a3e4-2a7ab2ae6c01\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/07d0a274-6150-4636-a3e4-2a7ab2ae6c01/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "rosette",
+      "name": "Royal Halo Rosette",
+      "description": "A rosette HEAD ONLY with three concentric rings of very fine purple accordion pleats and an ornate open gold crown ring around a cyan gem. No tails.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 2b28da28-9141-4e18-b10c-8206c59f73cd\njob_id: 2b28da28-9141-4e18-b10c-8206c59f73cd\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A rosette HEAD ONLY with three concentric rings of very fine purple accordion pleats and an ornate open gold crown ring around a cyan gem. No tails.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: b62fa434-f197-5b85-8527-de8679c3474d\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"2b28da28-9141-4e18-b10c-8206c59f73cd\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/2b28da28-9141-4e18-b10c-8206c59f73cd/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "rosette",
+      "name": "Fern Wheel Rosette",
+      "description": "A circular rosette HEAD ONLY with green fern tips between folded purple fabric petals, delicate gold metal ring and a cyan center jewel, no tails.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 35388c30-4cc7-4000-b11a-50dba4e91a02\njob_id: 35388c30-4cc7-4000-b11a-50dba4e91a02\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A circular rosette HEAD ONLY with green fern tips between folded purple fabric petals, delicate gold metal ring and a cyan center jewel, no tails.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 9f12db8f-df08-504a-a0f2-83f40fe5d52b\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"35388c30-4cc7-4000-b11a-50dba4e91a02\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/35388c30-4cc7-4000-b11a-50dba4e91a02/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "rosette",
+      "name": "Moonflower Rosette",
+      "description": "A rosette HEAD ONLY with alternating long narrow and short broad purple silk petals, tiny gold crescent embroideries and central cyan gemstone, no tails.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 2471bdec-53b9-470f-ae4e-124c894ed87d\njob_id: 2471bdec-53b9-470f-ae4e-124c894ed87d\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A rosette HEAD ONLY with alternating long narrow and short broad purple silk petals, tiny gold crescent embroideries and central cyan gemstone, no tails.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: e30f4b6e-4ada-57d1-a9a8-c05a07f93f43\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"2471bdec-53b9-470f-ae4e-124c894ed87d\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/2471bdec-53b9-470f-ae4e-124c894ed87d/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "name": "Stellar Service Pendant",
+      "kind": "medal",
+      "width": 128,
+      "height": 128,
+      "description": "A standalone metallic five-point service star pendant with richly engraved beveled arms and a small cyan gemstone inset; tiny top suspension loop. Reinterpret the star silhouette from reference as detailed sculpted metal. NO attached fabric ribbon.",
+      "reference": "https://ragingaxolotl-art.github.io/cyber-pet-lore/ribbons/art/awards/pixellab/medal_01.png",
+      "sourceShape": "medal_01",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 481f9bee-8598-496a-b521-8f254f6bdc91\njob_id: 481f9bee-8598-496a-b521-8f254f6bdc91\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A standalone metallic five-point service star pendant with richly engraved beveled arms and a small cyan gemstone inset; tiny top suspension loop. Reinterpret the star silhouette from reference as detailed sculpted metal. NO attached fabric ribbon.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 467e627f-3e61-58ce-93a1-0896e0dac36b\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"481f9bee-8598-496a-b521-8f254f6bdc91\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/481f9bee-8598-496a-b521-8f254f6bdc91/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "name": "Winged Crest Pendant",
+      "kind": "medal",
+      "width": 128,
+      "height": 128,
+      "description": "A standalone winged heraldic crest pendant: symmetrical engraved metal wings around a small cyan gem, elegant feather relief and a top suspension loop. NO cloth ribbon.",
+      "reference": "https://ragingaxolotl-art.github.io/cyber-pet-lore/ribbons/art/awards/pixellab/medal_02.png",
+      "sourceShape": "medal_02",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 10e61d26-fae3-4b18-a7d0-4963818a0276\njob_id: 10e61d26-fae3-4b18-a7d0-4963818a0276\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A standalone winged heraldic crest pendant: symmetrical engraved metal wings around a small cyan gem, elegant feather relief and a top suspension loop. NO cloth ribbon.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 5e17f005-962f-57e1-9b1c-30c51da0eb71\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"10e61d26-fae3-4b18-a7d0-4963818a0276\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/10e61d26-fae3-4b18-a7d0-4963818a0276/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "name": "Book of Merit Pendant",
+      "kind": "medal",
+      "width": 128,
+      "height": 128,
+      "description": "A standalone open-book-shaped pendant in sculpted engraved gold, raised page details and a tiny cyan gemstone bookmark, hanging loop at top. No cloth ribbon and no text.",
+      "reference": "https://ragingaxolotl-art.github.io/cyber-pet-lore/ribbons/art/awards/pixellab/medal_05.png",
+      "sourceShape": "medal_05",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 404c34e0-96b2-4b55-8171-dbc39d76d625\njob_id: 404c34e0-96b2-4b55-8171-dbc39d76d625\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A standalone open-book-shaped pendant in sculpted engraved gold, raised page details and a tiny cyan gemstone bookmark, hanging loop at top. No cloth ribbon and no text.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 0dbabc76-58ff-519b-9158-ed21e3d4d312\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"404c34e0-96b2-4b55-8171-dbc39d76d625\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/404c34e0-96b2-4b55-8171-dbc39d76d625/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "name": "Cross of Craft Pendant",
+      "kind": "medal",
+      "width": 128,
+      "height": 128,
+      "description": "A standalone ornate four-armed cross pendant with sculpted gold bevels, filigree tips and central cyan gemstone, hanging loop. No cloth ribbon.",
+      "reference": "https://ragingaxolotl-art.github.io/cyber-pet-lore/ribbons/art/awards/pixellab/medal_06.png",
+      "sourceShape": "medal_06",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 33f985a4-fa56-4ad3-93fc-8b877fa86d4c\njob_id: 33f985a4-fa56-4ad3-93fc-8b877fa86d4c\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A standalone ornate four-armed cross pendant with sculpted gold bevels, filigree tips and central cyan gemstone, hanging loop. No cloth ribbon.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 064693bb-9ac2-53e4-a94a-200f21b3e1f5\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"33f985a4-fa56-4ad3-93fc-8b877fa86d4c\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/33f985a4-fa56-4ad3-93fc-8b877fa86d4c/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "name": "Twin Blades Pendant",
+      "kind": "medal",
+      "width": 128,
+      "height": 128,
+      "description": "A standalone emblem of two crossed sculpted gold ceremonial swords with cyan gem pommels and tiny suspension loop; detailed relief, no cloth ribbon.",
+      "reference": "https://ragingaxolotl-art.github.io/cyber-pet-lore/ribbons/art/awards/pixellab/medal_14.png",
+      "sourceShape": "medal_14",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: b55ce0a9-9ce9-4f89-9b56-ee4767e69a15\njob_id: b55ce0a9-9ce9-4f89-9b56-ee4767e69a15\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A standalone emblem of two crossed sculpted gold ceremonial swords with cyan gem pommels and tiny suspension loop; detailed relief, no cloth ribbon.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 56bb67af-e877-58e3-8351-4d70b13bf0ac\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"b55ce0a9-9ce9-4f89-9b56-ee4767e69a15\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/b55ce0a9-9ce9-4f89-9b56-ee4767e69a15/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "name": "Lionheart Pendant",
+      "kind": "medal",
+      "width": 128,
+      "height": 128,
+      "description": "A standalone heraldic lion-face medallion in sculpted gold relief, symmetrical flowing mane, small cyan gem above forehead and tiny top hanging loop, no cloth ribbon.",
+      "reference": "https://ragingaxolotl-art.github.io/cyber-pet-lore/ribbons/art/awards/pixellab/medal_12.png",
+      "sourceShape": "medal_12",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 059f78ec-d420-494b-9e31-54172a8077c2\njob_id: 059f78ec-d420-494b-9e31-54172a8077c2\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A standalone heraldic lion-face medallion in sculpted gold relief, symmetrical flowing mane, small cyan gem above forehead and tiny top hanging loop, no cloth ribbon.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: 916700db-4f44-5e2b-ad96-ccbc5d92834b\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"059f78ec-d420-494b-9e31-54172a8077c2\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/059f78ec-d420-494b-9e31-54172a8077c2/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "name": "Crescent Merit Pendant",
+      "kind": "medal",
+      "width": 128,
+      "height": 128,
+      "description": "A standalone sculpted crescent-moon pendant embracing a small cyan gemstone star, engraved metal craters and fine bevels, hanging loop, no cloth ribbon.",
+      "reference": "https://ragingaxolotl-art.github.io/cyber-pet-lore/ribbons/art/awards/pixellab/medal_08.png",
+      "sourceShape": "medal_08",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: d449acc4-9333-4815-ad37-7ac71e9608ce\njob_id: d449acc4-9333-4815-ad37-7ac71e9608ce\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A standalone sculpted crescent-moon pendant embracing a small cyan gemstone star, engraved metal craters and fine bevels, hanging loop, no cloth ribbon.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: aa93530e-5f32-523d-8037-d6273a26a4e4\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"d449acc4-9333-4815-ad37-7ac71e9608ce\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/d449acc4-9333-4815-ad37-7ac71e9608ce/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "name": "Shield of Merit Pendant",
+      "kind": "medal",
+      "width": 128,
+      "height": 128,
+      "description": "A standalone sculpted heraldic shield pendant, stepped engraved gold frame, blank purple enamel inset and a small cyan gemstone, top hanging loop. No cloth ribbon.",
+      "reference": "https://ragingaxolotl-art.github.io/cyber-pet-lore/ribbons/art/awards/pixellab/military_medal_06.png",
+      "sourceShape": "military_medal_06",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: fc96beaa-0944-4156-b948-4cfa31ebfe48\njob_id: fc96beaa-0944-4156-b948-4cfa31ebfe48\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. A standalone sculpted heraldic shield pendant, stepped engraved gold frame, blank purple enamel inset and a small cyan gemstone, top hanging loop. No cloth ribbon.\nsize: 128x128px\ntransparent: True\ncandidates: 4\nreferences: 1\npalette: 48 colours\nmax colours: 48 per image\nasset_id: c661f550-919f-559d-b2f7-be49d934bf99\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"fc96beaa-0944-4156-b948-4cfa31ebfe48\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/fc96beaa-0944-4156-b948-4cfa31ebfe48/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "name": "Binary Particles",
+      "description": "A short horizontal stream of tiny luminous cyan pixel digits 010101, loosely spaced, with a few fading trailing pixels.",
+      "kind": "accent",
+      "width": 128,
+      "height": 96,
+      "role": "particle",
+      "simple": true,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: da7cec66-6cf6-41f3-bf84-3f80758f54db\njob_id: da7cec66-6cf6-41f3-bf84-3f80758f54db\nmodel: pro\ndescription: Particle effect sprite on fully transparent background. ONLY tiny weightless glowing pixels and glyphs. Sparse open airy composition, maximum 60 pixels wide and 30 pixels tall centered in a 128x96 canvas, abundant transparent margin. Crisp pixel art with cyan and lavender shades, bright cyan highlights and dark teal shadow pixels. NO gold, NO metal, NO frame, NO jewelry, NO medal, NO badge, NO ribbon, NO gemstone, NO clasp, NO ring enclosure, NO engraved detail. A short horizontal stream of tiny luminous cyan pixel digits 010101, loosely spaced, with a few fading trailing pixels.\nsize: 128x96px\ntransparent: True\ncandidates: 4\npalette: 24 colours\nmax colours: 24 per image\nasset_id: e5c29425-5c36-574b-82c4-9ed53dcc6260\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"da7cec66-6cf6-41f3-bf84-3f80758f54db\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/da7cec66-6cf6-41f3-bf84-3f80758f54db/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "name": "Letter Particles",
+      "description": "A short curved string of small readable cyan pixel letters A B C D E, with transparent spacing and a few fading pixels.",
+      "kind": "accent",
+      "width": 128,
+      "height": 96,
+      "role": "particle",
+      "simple": true,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 6842012c-c5a1-4788-96b0-544ea13397e7\njob_id: 6842012c-c5a1-4788-96b0-544ea13397e7\nmodel: pro\ndescription: Particle effect sprite on fully transparent background. ONLY tiny weightless glowing pixels and glyphs. Sparse open airy composition, maximum 60 pixels wide and 30 pixels tall centered in a 128x96 canvas, abundant transparent margin. Crisp pixel art with cyan and lavender shades, bright cyan highlights and dark teal shadow pixels. NO gold, NO metal, NO frame, NO jewelry, NO medal, NO badge, NO ribbon, NO gemstone, NO clasp, NO ring enclosure, NO engraved detail. A short curved string of small readable cyan pixel letters A B C D E, with transparent spacing and a few fading pixels.\nsize: 128x96px\ntransparent: True\ncandidates: 4\npalette: 24 colours\nmax colours: 24 per image\nasset_id: c95cc9aa-a70e-5f5e-a674-e800db33b263\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"6842012c-c5a1-4788-96b0-544ea13397e7\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/6842012c-c5a1-4788-96b0-544ea13397e7/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "name": "Code Particles",
+      "description": "Small floating cyan code glyphs { / } arranged along a short horizontal trail with fading dots.",
+      "kind": "accent",
+      "width": 128,
+      "height": 96,
+      "role": "particle",
+      "simple": true,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 1c84f23f-8223-4735-b3c0-a16645fa083f\njob_id: 1c84f23f-8223-4735-b3c0-a16645fa083f\nmodel: pro\ndescription: Particle effect sprite on fully transparent background. ONLY tiny weightless glowing pixels and glyphs. Sparse open airy composition, maximum 60 pixels wide and 30 pixels tall centered in a 128x96 canvas, abundant transparent margin. Crisp pixel art with cyan and lavender shades, bright cyan highlights and dark teal shadow pixels. NO gold, NO metal, NO frame, NO jewelry, NO medal, NO badge, NO ribbon, NO gemstone, NO clasp, NO ring enclosure, NO engraved detail. Small floating cyan code glyphs { / } arranged along a short horizontal trail with fading dots.\nsize: 128x96px\ntransparent: True\ncandidates: 4\npalette: 24 colours\nmax colours: 24 per image\nasset_id: f9928b0e-2a36-547a-9ebd-df6cda16cb57\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"1c84f23f-8223-4735-b3c0-a16645fa083f\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/1c84f23f-8223-4735-b3c0-a16645fa083f/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "name": "Data Particles",
+      "description": "A short trail of tiny cyan luminous squares and translucent-looking teal pixel blocks, spaced apart, data drifting through the air.",
+      "kind": "accent",
+      "width": 128,
+      "height": 96,
+      "role": "particle",
+      "simple": true,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 63bb8d89-5bf5-49d6-b45b-1c7569fe6c09\njob_id: 63bb8d89-5bf5-49d6-b45b-1c7569fe6c09\nmodel: pro\ndescription: Particle effect sprite on fully transparent background. ONLY tiny weightless glowing pixels and glyphs. Sparse open airy composition, maximum 60 pixels wide and 30 pixels tall centered in a 128x96 canvas, abundant transparent margin. Crisp pixel art with cyan and lavender shades, bright cyan highlights and dark teal shadow pixels. NO gold, NO metal, NO frame, NO jewelry, NO medal, NO badge, NO ribbon, NO gemstone, NO clasp, NO ring enclosure, NO engraved detail. A short trail of tiny cyan luminous squares and translucent-looking teal pixel blocks, spaced apart, data drifting through the air.\nsize: 128x96px\ntransparent: True\ncandidates: 4\npalette: 24 colours\nmax colours: 24 per image\nasset_id: 39799947-11da-58f1-a5ca-d9f291da532c\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"63bb8d89-5bf5-49d6-b45b-1c7569fe6c09\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/63bb8d89-5bf5-49d6-b45b-1c7569fe6c09/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "name": "Firework Particles",
+      "description": "A tiny airy firework burst of thin cyan and lavender pixel rays and individual sparkling dots. Empty center. No solid body.",
+      "kind": "accent",
+      "width": 128,
+      "height": 96,
+      "role": "particle",
+      "simple": true,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: f7a99117-5239-4763-99ab-cccd199edc31\njob_id: f7a99117-5239-4763-99ab-cccd199edc31\nmodel: pro\ndescription: Particle effect sprite on fully transparent background. ONLY tiny weightless glowing pixels and glyphs. Sparse open airy composition, maximum 60 pixels wide and 30 pixels tall centered in a 128x96 canvas, abundant transparent margin. Crisp pixel art with cyan and lavender shades, bright cyan highlights and dark teal shadow pixels. NO gold, NO metal, NO frame, NO jewelry, NO medal, NO badge, NO ribbon, NO gemstone, NO clasp, NO ring enclosure, NO engraved detail. A tiny airy firework burst of thin cyan and lavender pixel rays and individual sparkling dots. Empty center. No solid body.\nsize: 128x96px\ntransparent: True\ncandidates: 4\npalette: 24 colours\nmax colours: 24 per image\nasset_id: 3d0119cc-8790-572f-885b-27bd18456278\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"f7a99117-5239-4763-99ab-cccd199edc31\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/f7a99117-5239-4763-99ab-cccd199edc31/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "name": "Spark Particles",
+      "description": "A horizontal trail of tiny cyan four-point sparkles, lavender dots and fading teal pixels.",
+      "kind": "accent",
+      "width": 128,
+      "height": 96,
+      "role": "particle",
+      "simple": true,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 0f941567-7ca6-4cc6-9c4d-47217ad018cd\njob_id: 0f941567-7ca6-4cc6-9c4d-47217ad018cd\nmodel: pro\ndescription: Particle effect sprite on fully transparent background. ONLY tiny weightless glowing pixels and glyphs. Sparse open airy composition, maximum 60 pixels wide and 30 pixels tall centered in a 128x96 canvas, abundant transparent margin. Crisp pixel art with cyan and lavender shades, bright cyan highlights and dark teal shadow pixels. NO gold, NO metal, NO frame, NO jewelry, NO medal, NO badge, NO ribbon, NO gemstone, NO clasp, NO ring enclosure, NO engraved detail. A horizontal trail of tiny cyan four-point sparkles, lavender dots and fading teal pixels.\nsize: 128x96px\ntransparent: True\ncandidates: 4\npalette: 24 colours\nmax colours: 24 per image\nasset_id: 1398b497-db5a-570f-9593-1d08dad35465\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"0f941567-7ca6-4cc6-9c4d-47217ad018cd\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/0f941567-7ca6-4cc6-9c4d-47217ad018cd/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "name": "Heart Particles",
+      "description": "Three tiny floating luminous pink-purple pixel heart silhouettes of decreasing sizes, with a few scattered trailing cyan dots.",
+      "kind": "accent",
+      "width": 128,
+      "height": 96,
+      "role": "particle",
+      "simple": true,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 92dad06c-c2da-453c-a4ea-7be8ef685c99\njob_id: 92dad06c-c2da-453c-a4ea-7be8ef685c99\nmodel: pro\ndescription: Particle effect sprite on fully transparent background. ONLY tiny weightless glowing pixels and glyphs. Sparse open airy composition, maximum 60 pixels wide and 30 pixels tall centered in a 128x96 canvas, abundant transparent margin. Crisp pixel art with cyan and lavender shades, bright cyan highlights and dark teal shadow pixels. NO gold, NO metal, NO frame, NO jewelry, NO medal, NO badge, NO ribbon, NO gemstone, NO clasp, NO ring enclosure, NO engraved detail. Three tiny floating luminous pink-purple pixel heart silhouettes of decreasing sizes, with a few scattered trailing cyan dots.\nsize: 128x96px\ntransparent: True\ncandidates: 4\npalette: 24 colours\nmax colours: 24 per image\nasset_id: 280a52a3-cc3c-5cde-ab33-23e1613bfd59\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"92dad06c-c2da-453c-a4ea-7be8ef685c99\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/92dad06c-c2da-453c-a4ea-7be8ef685c99/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "name": "Music Particles",
+      "description": "Three tiny luminous cyan and lavender music-note glyphs drifting horizontally with separated tiny dots. Thin glyphs, no solid ornament.",
+      "kind": "accent",
+      "width": 128,
+      "height": 96,
+      "role": "particle",
+      "simple": true,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 2433c613-7828-4e79-8989-b84fda74d836\njob_id: 2433c613-7828-4e79-8989-b84fda74d836\nmodel: pro\ndescription: Particle effect sprite on fully transparent background. ONLY tiny weightless glowing pixels and glyphs. Sparse open airy composition, maximum 60 pixels wide and 30 pixels tall centered in a 128x96 canvas, abundant transparent margin. Crisp pixel art with cyan and lavender shades, bright cyan highlights and dark teal shadow pixels. NO gold, NO metal, NO frame, NO jewelry, NO medal, NO badge, NO ribbon, NO gemstone, NO clasp, NO ring enclosure, NO engraved detail. Three tiny luminous cyan and lavender music-note glyphs drifting horizontally with separated tiny dots. Thin glyphs, no solid ornament.\nsize: 128x96px\ntransparent: True\ncandidates: 4\npalette: 24 colours\nmax colours: 24 per image\nasset_id: 1afe3463-d593-5f02-8f7d-9f8d12c5e0b1\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"2433c613-7828-4e79-8989-b84fda74d836\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/2433c613-7828-4e79-8989-b84fda74d836/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "name": "Butterfly Particles",
+      "description": "Three tiny cyan light butterfly silhouettes in a drifting trail, four to eight pixels per wing, surrounded by lavender glow dots.",
+      "kind": "accent",
+      "width": 128,
+      "height": 96,
+      "role": "particle",
+      "simple": true,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 2186c4ac-b146-4aac-bb95-6201306fd28a\njob_id: 2186c4ac-b146-4aac-bb95-6201306fd28a\nmodel: pro\ndescription: Particle effect sprite on fully transparent background. ONLY tiny weightless glowing pixels and glyphs. Sparse open airy composition, maximum 60 pixels wide and 30 pixels tall centered in a 128x96 canvas, abundant transparent margin. Crisp pixel art with cyan and lavender shades, bright cyan highlights and dark teal shadow pixels. NO gold, NO metal, NO frame, NO jewelry, NO medal, NO badge, NO ribbon, NO gemstone, NO clasp, NO ring enclosure, NO engraved detail. Three tiny cyan light butterfly silhouettes in a drifting trail, four to eight pixels per wing, surrounded by lavender glow dots.\nsize: 128x96px\ntransparent: True\ncandidates: 4\npalette: 24 colours\nmax colours: 24 per image\nasset_id: 79a881ed-8c3a-5fb9-91a4-3d3450d42a83\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"2186c4ac-b146-4aac-bb95-6201306fd28a\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/2186c4ac-b146-4aac-bb95-6201306fd28a/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "name": "Bubble Particles",
+      "description": "A short trail of small cyan outline circles and lavender light dots, hollow bubbles of different sizes, only thin pixel rims.",
+      "kind": "accent",
+      "width": 128,
+      "height": 96,
+      "role": "particle",
+      "simple": true,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 9f36f089-7f00-4ea3-933a-8ad0a934a530\njob_id: 9f36f089-7f00-4ea3-933a-8ad0a934a530\nmodel: pro\ndescription: Particle effect sprite on fully transparent background. ONLY tiny weightless glowing pixels and glyphs. Sparse open airy composition, maximum 60 pixels wide and 30 pixels tall centered in a 128x96 canvas, abundant transparent margin. Crisp pixel art with cyan and lavender shades, bright cyan highlights and dark teal shadow pixels. NO gold, NO metal, NO frame, NO jewelry, NO medal, NO badge, NO ribbon, NO gemstone, NO clasp, NO ring enclosure, NO engraved detail. A short trail of small cyan outline circles and lavender light dots, hollow bubbles of different sizes, only thin pixel rims.\nsize: 128x96px\ntransparent: True\ncandidates: 4\npalette: 24 colours\nmax colours: 24 per image\nasset_id: d61979ec-8ebd-5f8d-8885-75303cfec3aa\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"9f36f089-7f00-4ea3-933a-8ad0a934a530\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/9f36f089-7f00-4ea3-933a-8ad0a934a530/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "kind": "accent",
+      "name": "Ivy Chain Drapes",
+      "description": "ONE standalone open U-shaped decorative chain drape for the sides of an award: two graceful gold chains with green ivy leaves, tiny cyan faceted bead drops and a short purple silk knot at each upper end. The center stays completely empty transparent so a separate pendant can be layered there. No medal or solid badge. Entire balanced U shape fits well within the canvas with 16 pixels transparent margin on every side.",
+      "width": 128,
+      "height": 128,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "id: 99b98cf0-a719-4d54-9cc7-01ed5cd52d82\njob_id: 99b98cf0-a719-4d54-9cc7-01ed5cd52d82\nmodel: pro\ndescription: ONE standalone modular award component, front view, centered with 8 pixels clear transparent margin, complete uncut shape. Ornate fantasy pixel art matching Cyber Pet award parts, crisp pixel clusters, intricate engraved metal, upper-left highlights, deep shaded recesses. No text, no numeral, no scenery, no character, no extra separate items. Material palette: all metal uses the golden yellow ramp, all cloth uses the purple ramp, all gemstones use the turquoise cyan ramp, all botanical leaves use the green ramp. Facets and sheen must use multiple shades of the same material ramp, never flat fill. Pale cyan gem reflections, pale yellow metal reflections. ONE standalone open U-shaped decorative chain drape for the sides of an award: two graceful gold chains with green ivy leaves, tiny cyan faceted bead drops and a short purple silk knot at each upper end. The center stays completely empty transparent so a separate pendant can be layered there. No medal or solid badge. Entire balanced U shape fits well within the canvas with 16 pixels transparent margin on every side.\nsize: 128x128px\ntransparent: True\ncandidates: 4\npalette: 48 colours\nmax colours: 48 per image\nasset_id: d0cda313-a8b7-5fa2-b60d-e403cb1a33d9\nasset_status: pending (saved when generation completes)\ncost: 10 generations\nstatus: processing (~1-10 min)\n\nhint: get_image(job_id=\"99b98cf0-a719-4d54-9cc7-01ed5cd52d82\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/99b98cf0-a719-4d54-9cc7-01ed5cd52d82/download (423 + Retry-After until ready; ?index=N for the Nth of several images)"
+          }
+        ],
+        "isError": false
+      }
+    }
+  ],
+  "pending": []
+}
