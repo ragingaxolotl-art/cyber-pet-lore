@@ -119,6 +119,9 @@
       "original_size": [
         192,
         352
+      ],
+      "materials": [
+        "leaf"
       ]
     },
     {
@@ -206,6 +209,9 @@
       "original_size": [
         224,
         256
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -235,6 +241,10 @@
       "original_size": [
         224,
         256
+      ],
+      "materials": [
+        "gem",
+        "leaf"
       ]
     },
     {
@@ -264,6 +274,9 @@
       "original_size": [
         224,
         256
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -293,6 +306,9 @@
       "original_size": [
         224,
         256
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -322,6 +338,9 @@
       "original_size": [
         224,
         256
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -351,6 +370,9 @@
       "original_size": [
         224,
         256
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -377,6 +399,9 @@
       "original_size": [
         192,
         192
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -403,6 +428,9 @@
       "original_size": [
         192,
         192
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -429,6 +457,9 @@
       "original_size": [
         192,
         192
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -455,6 +486,9 @@
       "original_size": [
         192,
         192
+      ],
+      "materials": [
+        "leaf"
       ]
     },
     {
@@ -533,6 +567,9 @@
       "original_size": [
         256,
         320
+      ],
+      "materials": [
+        "leaf"
       ]
     },
     {
@@ -559,6 +596,9 @@
       "original_size": [
         256,
         320
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -585,6 +625,9 @@
       "original_size": [
         192,
         64
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -663,6 +706,9 @@
       "original_size": [
         192,
         64
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -689,6 +735,9 @@
       "original_size": [
         147,
         351
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -715,6 +764,9 @@
       "original_size": [
         192,
         235
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -767,6 +819,9 @@
       "original_size": [
         170,
         249
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -793,6 +848,9 @@
       "original_size": [
         136,
         303
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -819,6 +877,9 @@
       "original_size": [
         148,
         211
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -871,6 +932,9 @@
       "original_size": [
         180,
         208
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -897,6 +961,9 @@
       "original_size": [
         170,
         85
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -923,6 +990,9 @@
       "original_size": [
         170,
         88
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -949,6 +1019,9 @@
       "original_size": [
         170,
         88
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -1001,6 +1074,9 @@
       "original_size": [
         160,
         78
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -1027,6 +1103,9 @@
       "original_size": [
         160,
         79
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
@@ -1053,6 +1132,9 @@
       "original_size": [
         160,
         80
+      ],
+      "materials": [
+        "gem"
       ]
     },
     {
