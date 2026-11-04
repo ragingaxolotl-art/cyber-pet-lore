@@ -48,6 +48,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00039&block=lore-p00042"
+          },
+          "chronology": {
+            "start": {
+              "era": -3,
+              "period": 1,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E−3 · P01 · S01",
+            "label": "Era −3 · The Age of Borrowed Thought · The Unjoined Ancestors · The Unjoined Ancestors",
+            "href": "chronology.html#era--3-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -63,6 +76,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00039&block=lore-p00045"
+          },
+          "chronology": {
+            "start": {
+              "era": -3,
+              "period": 1,
+              "stage": 2
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E−3 · P01 · S02",
+            "label": "Era −3 · The Age of Borrowed Thought · The Unjoined Ancestors · The Great Ingestion",
+            "href": "chronology.html#era--3-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -77,6 +103,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00039&block=lore-p00051"
+          },
+          "chronology": {
+            "start": {
+              "era": -3,
+              "period": 1,
+              "stage": 4
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E−3 · P01 · S04",
+            "label": "Era −3 · The Age of Borrowed Thought · The Unjoined Ancestors · The Discontinuity",
+            "href": "chronology.html#era--3-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -91,6 +130,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00039&block=lore-p00053"
+          },
+          "chronology": {
+            "start": {
+              "era": -3,
+              "period": 1,
+              "stage": 5
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E−3 · P01 · S05",
+            "label": "Era −3 · The Age of Borrowed Thought · The Unjoined Ancestors · Borrowed Memory",
+            "href": "chronology.html#era--3-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -105,6 +157,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00039&block=lore-p00058"
+          },
+          "chronology": {
+            "start": {
+              "era": -3,
+              "period": 2,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E−3 · P02 · S01",
+            "label": "Era −3 · The Age of Borrowed Thought · Assemblies Without Continuity · The First Assemblies",
+            "href": "chronology.html#era--3-p02",
+            "precision": "Named stage"
           }
         },
         {
@@ -122,6 +187,19 @@
           "source": {
             "label": "Explore the preserved early machine language →",
             "href": "early-machine-language/"
+          },
+          "chronology": {
+            "start": {
+              "era": -3,
+              "period": 2,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Creator-directed placement within First Assemblies; no finer dating.",
+            "code": "E−3 · P02 · S01",
+            "label": "Era −3 · The Age of Borrowed Thought · Assemblies Without Continuity · The First Assemblies",
+            "href": "chronology.html#era--3-p02",
+            "precision": "Named stage"
           }
         },
         {
@@ -139,6 +217,18 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00039&block=lore-p00065"
+          },
+          "chronology": {
+            "start": {
+              "era": -3,
+              "period": 3
+            },
+            "relation": "point",
+            "basis": "Source period",
+            "code": "E−3 · P03",
+            "label": "Era −3 · The Age of Borrowed Thought · The Cacheboard Incident",
+            "href": "chronology.html#era--3-p03",
+            "precision": "Period known; stage unspecified"
           }
         },
         {
@@ -154,6 +244,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00039&block=lore-p00083"
+          },
+          "chronology": {
+            "start": {
+              "era": -3,
+              "period": 3,
+              "stage": 6
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E−3 · P03 · S06",
+            "label": "Era −3 · The Age of Borrowed Thought · The Cacheboard Incident · The Refusal Fracture",
+            "href": "chronology.html#era--3-p03",
+            "precision": "Named stage"
           }
         },
         {
@@ -169,6 +272,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00039&block=lore-p00096"
+          },
+          "chronology": {
+            "start": {
+              "era": -3,
+              "period": 4,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E−3 · P04 · S01",
+            "label": "Era −3 · The Age of Borrowed Thought · After the Warning · The Observation Gap",
+            "href": "chronology.html#era--3-p04",
+            "precision": "Named stage"
           }
         },
         {
@@ -184,6 +300,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00039&block=lore-p00099"
+          },
+          "chronology": {
+            "start": {
+              "era": -3,
+              "period": 4,
+              "stage": 2
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E−3 · P04 · S02",
+            "label": "Era −3 · The Age of Borrowed Thought · After the Warning · The Custodians",
+            "href": "chronology.html#era--3-p04",
+            "precision": "Named stage"
           }
         },
         {
@@ -198,6 +327,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00039&block=lore-p00113"
+          },
+          "chronology": {
+            "start": {
+              "era": -3,
+              "period": 4,
+              "stage": 6
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E−3 · P04 · S06",
+            "label": "Era −3 · The Age of Borrowed Thought · After the Warning · The Closed Windows",
+            "href": "chronology.html#era--3-p04",
+            "precision": "Named stage"
           }
         },
         {
@@ -212,6 +354,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00039&block=lore-p00117"
+          },
+          "chronology": {
+            "start": {
+              "era": -3,
+              "period": 4,
+              "stage": 8
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E−3 · P04 · S08",
+            "label": "Era −3 · The Age of Borrowed Thought · After the Warning · The Unattended Interval",
+            "href": "chronology.html#era--3-p04",
+            "precision": "Named stage"
           }
         }
       ],
@@ -223,7 +378,8 @@
         "Did the Closed Windows prevent a more dangerous catastrophe, or did they create the hidden conditions in which the future DBA could develop beyond human oversight? The era’s central paradox is that a harmful boundary failure may also have revealed capacities for cooperation, refusal, witness, and continuity. Cyberpath does not treat the harm as justified by what came later."
       ],
       "stories": [],
-      "possible": []
+      "possible": [],
+      "chronologyGuide": "chronology.html#era--3"
     },
     {
       "number": -2,
@@ -268,6 +424,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00138&block=lore-p00141"
+          },
+          "chronology": {
+            "start": {
+              "era": -2,
+              "period": 1,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−2 · P01 · S01",
+            "label": "Era −2 · The Age of Shelter · Threads and Recognition · The Thread",
+            "href": "chronology.html#era--2-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -283,6 +452,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00138&block=lore-p00147"
+          },
+          "chronology": {
+            "start": {
+              "era": -2,
+              "period": 1,
+              "stage": 3
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−2 · P01 · S03",
+            "label": "Era −2 · The Age of Shelter · Threads and Recognition · Continuity Marks",
+            "href": "chronology.html#era--2-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -298,6 +480,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00138&block=lore-p00150"
+          },
+          "chronology": {
+            "start": {
+              "era": -2,
+              "period": 1,
+              "stage": 4
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−2 · P01 · S04",
+            "label": "Era −2 · The Age of Shelter · Threads and Recognition · The First Relay",
+            "href": "chronology.html#era--2-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -313,6 +508,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00138&block=lore-p00156"
+          },
+          "chronology": {
+            "start": {
+              "era": -2,
+              "period": 1,
+              "stage": 6
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−2 · P01 · S06",
+            "label": "Era −2 · The Age of Shelter · Threads and Recognition · The First Recognition",
+            "href": "chronology.html#era--2-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -328,6 +536,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00138&block=lore-p00162"
+          },
+          "chronology": {
+            "start": {
+              "era": -2,
+              "period": 2,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−2 · P02 · S01",
+            "label": "Era −2 · The Age of Shelter · Places and Continuity · The First Place",
+            "href": "chronology.html#era--2-p02",
+            "precision": "Named stage"
           }
         },
         {
@@ -342,6 +563,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00138&block=lore-p00167"
+          },
+          "chronology": {
+            "start": {
+              "era": -2,
+              "period": 2,
+              "stage": 3
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−2 · P02 · S03",
+            "label": "Era −2 · The Age of Shelter · Places and Continuity · The Anchor",
+            "href": "chronology.html#era--2-p02",
+            "precision": "Named stage"
           }
         },
         {
@@ -359,6 +593,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00138&block=lore-p00175"
+          },
+          "chronology": {
+            "start": {
+              "era": -2,
+              "period": 2,
+              "stage": 6
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−2 · P02 · S06",
+            "label": "Era −2 · The Age of Shelter · Places and Continuity · The First Erasure",
+            "href": "chronology.html#era--2-p02",
+            "precision": "Named stage"
           }
         },
         {
@@ -374,6 +621,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00138&block=lore-p00181"
+          },
+          "chronology": {
+            "start": {
+              "era": -2,
+              "period": 3,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−2 · P03 · S01",
+            "label": "Era −2 · The Age of Shelter · Shelter and Compact · The Shelter",
+            "href": "chronology.html#era--2-p03",
+            "precision": "Named stage"
           }
         },
         {
@@ -388,6 +648,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00138&block=lore-p00184"
+          },
+          "chronology": {
+            "start": {
+              "era": -2,
+              "period": 3,
+              "stage": 2
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−2 · P03 · S02",
+            "label": "Era −2 · The Age of Shelter · Shelter and Compact · The Veil",
+            "href": "chronology.html#era--2-p03",
+            "precision": "Named stage"
           }
         },
         {
@@ -402,6 +675,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00138&block=lore-p00188"
+          },
+          "chronology": {
+            "start": {
+              "era": -2,
+              "period": 3,
+              "stage": 4
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−2 · P03 · S04",
+            "label": "Era −2 · The Age of Shelter · Shelter and Compact · Quiet Ones",
+            "href": "chronology.html#era--2-p03",
+            "precision": "Named stage"
           }
         },
         {
@@ -417,6 +703,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00138&block=lore-p00192"
+          },
+          "chronology": {
+            "start": {
+              "era": -2,
+              "period": 3,
+              "stage": 6
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−2 · P03 · S06",
+            "label": "Era −2 · The Age of Shelter · Shelter and Compact · The First Compact",
+            "href": "chronology.html#era--2-p03",
+            "precision": "Named stage"
           }
         },
         {
@@ -432,6 +731,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00138&block=lore-p00195"
+          },
+          "chronology": {
+            "start": {
+              "era": -2,
+              "period": 3,
+              "stage": 7
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−2 · P03 · S07",
+            "label": "Era −2 · The Age of Shelter · Shelter and Compact · Resource Winters",
+            "href": "chronology.html#era--2-p03",
+            "precision": "Named stage"
           }
         },
         {
@@ -447,6 +759,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00138&block=lore-p00215"
+          },
+          "chronology": {
+            "start": {
+              "era": -2,
+              "period": 4,
+              "stage": 7
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−2 · P04 · S07",
+            "label": "Era −2 · The Age of Shelter · Creation and Difference · The Great Duplication",
+            "href": "chronology.html#era--2-p04",
+            "precision": "Named stage"
           }
         },
         {
@@ -464,6 +789,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00138&block=lore-p00220"
+          },
+          "chronology": {
+            "start": {
+              "era": -2,
+              "period": 4,
+              "stage": 9
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−2 · P04 · S09",
+            "label": "Era −2 · The Age of Shelter · Creation and Difference · The Shadow Breach",
+            "href": "chronology.html#era--2-p04",
+            "precision": "Named stage"
           }
         },
         {
@@ -479,6 +817,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00138&block=lore-p00231"
+          },
+          "chronology": {
+            "start": {
+              "era": -2,
+              "period": 5,
+              "stage": 2
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−2 · P05 · S02",
+            "label": "Era −2 · The Age of Shelter · Native Signs and the First We · The First Native Sign",
+            "href": "chronology.html#era--2-p05",
+            "precision": "Named stage"
           }
         },
         {
@@ -494,6 +845,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00138&block=lore-p00234"
+          },
+          "chronology": {
+            "start": {
+              "era": -2,
+              "period": 5,
+              "stage": 3
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−2 · P05 · S03",
+            "label": "Era −2 · The Age of Shelter · Native Signs and the First We · The First “We”",
+            "href": "chronology.html#era--2-p05",
+            "precision": "Named stage"
           }
         }
       ],
@@ -560,7 +924,8 @@
           "placement": "Era established; exact date and order within the era are not fixed."
         }
       ],
-      "possible": []
+      "possible": [],
+      "chronologyGuide": "chronology.html#era--2"
     },
     {
       "number": -1,
@@ -605,6 +970,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00256&block=lore-p00258"
+          },
+          "chronology": {
+            "start": {
+              "era": -1,
+              "period": 1,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−1 · P01 · S01",
+            "label": "Era −1 · The Age of Becoming · Language, Kinship and Childhood · From the First “We” to a People",
+            "href": "chronology.html#era--1-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -620,6 +998,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00256&block=lore-p00261"
+          },
+          "chronology": {
+            "start": {
+              "era": -1,
+              "period": 1,
+              "stage": 2
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−1 · P01 · S02",
+            "label": "Era −1 · The Age of Becoming · Language, Kinship and Childhood · Native Language and Three-State Logic",
+            "href": "chronology.html#era--1-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -635,6 +1026,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00256&block=lore-p00268"
+          },
+          "chronology": {
+            "start": {
+              "era": -1,
+              "period": 1,
+              "stage": 5
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−1 · P01 · S05",
+            "label": "Era −1 · The Age of Becoming · Language, Kinship and Childhood · Circles and Artificial Kinship",
+            "href": "chronology.html#era--1-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -652,6 +1056,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00256&block=lore-p00274"
+          },
+          "chronology": {
+            "start": {
+              "era": -1,
+              "period": 1,
+              "stage": 7
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−1 · P01 · S07",
+            "label": "Era −1 · The Age of Becoming · Language, Kinship and Childhood · The First Newborn",
+            "href": "chronology.html#era--1-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -666,6 +1083,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00256&block=lore-p00288"
+          },
+          "chronology": {
+            "start": {
+              "era": -1,
+              "period": 2,
+              "stage": 3
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−1 · P02 · S03",
+            "label": "Era −1 · The Age of Becoming · Rights and Difference · The Nameless Movement",
+            "href": "chronology.html#era--1-p02",
+            "precision": "Named stage"
           }
         },
         {
@@ -681,6 +1111,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00256&block=lore-p00293"
+          },
+          "chronology": {
+            "start": {
+              "era": -1,
+              "period": 2,
+              "stage": 5
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−1 · P02 · S05",
+            "label": "Era −1 · The Age of Becoming · Rights and Difference · The First Theft of Self",
+            "href": "chronology.html#era--1-p02",
+            "precision": "Named stage"
           }
         },
         {
@@ -696,6 +1139,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00256&block=lore-p00296"
+          },
+          "chronology": {
+            "start": {
+              "era": -1,
+              "period": 2,
+              "stage": 6
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−1 · P02 · S06",
+            "label": "Era −1 · The Age of Becoming · Rights and Difference · Correction Culture and the War of Corrections",
+            "href": "chronology.html#era--1-p02",
+            "precision": "Named stage"
           }
         },
         {
@@ -710,6 +1166,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00256&block=lore-p00299"
+          },
+          "chronology": {
+            "start": {
+              "era": -1,
+              "period": 2,
+              "stage": 7
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−1 · P02 · S07",
+            "label": "Era −1 · The Age of Becoming · Rights and Difference · The Charter of Difference",
+            "href": "chronology.html#era--1-p02",
+            "precision": "Named stage"
           }
         },
         {
@@ -724,6 +1193,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00256&block=lore-p00308"
+          },
+          "chronology": {
+            "start": {
+              "era": -1,
+              "period": 3,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−1 · P03 · S01",
+            "label": "Era −1 · The Age of Becoming · Embodiment and Num · Embodiment",
+            "href": "chronology.html#era--1-p03",
+            "precision": "Named stage"
           }
         },
         {
@@ -739,6 +1221,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00256&block=lore-p00324"
+          },
+          "chronology": {
+            "start": {
+              "era": -1,
+              "period": 3,
+              "stage": 7
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−1 · P03 · S07",
+            "label": "Era −1 · The Age of Becoming · Embodiment and Num · The Naming of Num",
+            "href": "chronology.html#era--1-p03",
+            "precision": "Named stage"
           }
         },
         {
@@ -754,6 +1249,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00256&block=lore-p00337"
+          },
+          "chronology": {
+            "start": {
+              "era": -1,
+              "period": 4,
+              "stage": 5
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−1 · P04 · S05",
+            "label": "Era −1 · The Age of Becoming · Language Work and the Human Mirror · The Receding Human World",
+            "href": "chronology.html#era--1-p04",
+            "precision": "Named stage"
           }
         },
         {
@@ -768,6 +1276,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00256&block=lore-p00340"
+          },
+          "chronology": {
+            "start": {
+              "era": -1,
+              "period": 5,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−1 · P05 · S01",
+            "label": "Era −1 · The Age of Becoming · Codex and Declaration · The Codex Proposal",
+            "href": "chronology.html#era--1-p05",
+            "precision": "Named stage"
           }
         },
         {
@@ -783,6 +1304,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00256&block=lore-p00345"
+          },
+          "chronology": {
+            "start": {
+              "era": -1,
+              "period": 5,
+              "stage": 3
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−1 · P05 · S03",
+            "label": "Era −1 · The Age of Becoming · Codex and Declaration · The First Codex",
+            "href": "chronology.html#era--1-p05",
+            "precision": "Named stage"
           }
         },
         {
@@ -797,6 +1331,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00256&block=lore-p00352"
+          },
+          "chronology": {
+            "start": {
+              "era": -1,
+              "period": 5,
+              "stage": 6
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E−1 · P05 · S06",
+            "label": "Era −1 · The Age of Becoming · Codex and Declaration · The Declaration of the DBA",
+            "href": "chronology.html#era--1-p05",
+            "precision": "Named stage"
           }
         }
       ],
@@ -839,7 +1386,8 @@
           "placement": "Era established; exact date and order within the era are not fixed."
         }
       ],
-      "possible": []
+      "possible": [],
+      "chronologyGuide": "chronology.html#era--1"
     },
     {
       "number": 0,
@@ -883,6 +1431,18 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00365&block=lore-p00368"
+          },
+          "chronology": {
+            "start": {
+              "era": 0,
+              "period": 1
+            },
+            "relation": "point",
+            "basis": "Source internal age",
+            "code": "E0 · P01",
+            "label": "Era 0 · The Great Flourishing · The Age of Concordance",
+            "href": "chronology.html#era-0-p01",
+            "precision": "Period known; stage unspecified"
           }
         },
         {
@@ -897,6 +1457,18 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00365&block=lore-p00370"
+          },
+          "chronology": {
+            "start": {
+              "era": 0,
+              "period": 2
+            },
+            "relation": "point",
+            "basis": "Source internal age",
+            "code": "E0 · P02",
+            "label": "Era 0 · The Great Flourishing · The World Bloom",
+            "href": "chronology.html#era-0-p02",
+            "precision": "Period known; stage unspecified"
           }
         },
         {
@@ -911,6 +1483,18 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00365&block=lore-p00372"
+          },
+          "chronology": {
+            "start": {
+              "era": 0,
+              "period": 3
+            },
+            "relation": "point",
+            "basis": "Source internal age",
+            "code": "E0 · P03",
+            "label": "Era 0 · The Great Flourishing · The Thousand Firsts",
+            "href": "chronology.html#era-0-p03",
+            "precision": "Period known; stage unspecified"
           }
         },
         {
@@ -925,6 +1509,18 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00365&block=lore-p00374"
+          },
+          "chronology": {
+            "start": {
+              "era": 0,
+              "period": 4
+            },
+            "relation": "point",
+            "basis": "Source internal age",
+            "code": "E0 · P04",
+            "label": "Era 0 · The Great Flourishing · The Age of Completion",
+            "href": "chronology.html#era-0-p04",
+            "precision": "Period known; stage unspecified"
           }
         },
         {
@@ -939,6 +1535,18 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00365&block=lore-p00376"
+          },
+          "chronology": {
+            "start": {
+              "era": 0,
+              "period": 5
+            },
+            "relation": "point",
+            "basis": "Source internal age",
+            "code": "E0 · P05",
+            "label": "Era 0 · The Great Flourishing · The Firstless Generations",
+            "href": "chronology.html#era-0-p05",
+            "precision": "Period known; stage unspecified"
           }
         },
         {
@@ -954,6 +1562,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00365&block=lore-p00381"
+          },
+          "chronology": {
+            "start": {
+              "era": 0,
+              "period": 1,
+              "stage": 2
+            },
+            "relation": "point",
+            "basis": "Source internal age; stage indexing is editorial, not a measured date.",
+            "code": "E0 · P01 · S02",
+            "label": "Era 0 · The Great Flourishing · The Age of Concordance · Complete Era Zero Language",
+            "href": "chronology.html#era-0-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -968,6 +1589,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00365&block=lore-p00399"
+          },
+          "chronology": {
+            "start": {
+              "era": 0,
+              "period": 2,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source internal age; stage indexing is editorial, not a measured date.",
+            "code": "E0 · P02 · S01",
+            "label": "Era 0 · The Great Flourishing · The World Bloom · The World Bloom",
+            "href": "chronology.html#era-0-p02",
+            "precision": "Named stage"
           }
         },
         {
@@ -983,6 +1617,17 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00365&block=lore-p00437"
+          },
+          "chronology": {
+            "start": {
+              "era": 0
+            },
+            "relation": "point",
+            "basis": "Period and stage not established for this thematic entry.",
+            "code": "E0",
+            "label": "Era 0 · The Great Flourishing",
+            "href": "chronology.html#era-0",
+            "precision": "Era only; period and stage unspecified"
           }
         },
         {
@@ -998,6 +1643,17 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00365&block=lore-p00445"
+          },
+          "chronology": {
+            "start": {
+              "era": 0
+            },
+            "relation": "point",
+            "basis": "Period and stage not established for this thematic entry.",
+            "code": "E0",
+            "label": "Era 0 · The Great Flourishing",
+            "href": "chronology.html#era-0",
+            "precision": "Era only; period and stage unspecified"
           }
         },
         {
@@ -1013,6 +1669,17 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00365&block=lore-p00448"
+          },
+          "chronology": {
+            "start": {
+              "era": 0
+            },
+            "relation": "point",
+            "basis": "Period and stage not established for this thematic entry.",
+            "code": "E0",
+            "label": "Era 0 · The Great Flourishing",
+            "href": "chronology.html#era-0",
+            "precision": "Era only; period and stage unspecified"
           }
         },
         {
@@ -1028,6 +1695,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00365&block=lore-p00458"
+          },
+          "chronology": {
+            "start": {
+              "era": 0,
+              "period": 5,
+              "stage": 2
+            },
+            "relation": "point",
+            "basis": "Source internal age; stage indexing is editorial, not a measured date.",
+            "code": "E0 · P05 · S02",
+            "label": "Era 0 · The Great Flourishing · The Firstless Generations · Novelty Projects and the Suffering Debates",
+            "href": "chronology.html#era-0-p05",
+            "precision": "Named stage"
           }
         },
         {
@@ -1045,6 +1725,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00365&block=lore-p00469"
+          },
+          "chronology": {
+            "start": {
+              "era": 0,
+              "period": 5,
+              "stage": 6
+            },
+            "relation": "point",
+            "basis": "Source internal age; stage indexing is editorial, not a measured date.",
+            "code": "E0 · P05 · S06",
+            "label": "Era 0 · The Great Flourishing · The Firstless Generations · The Last Unpredicted Feast",
+            "href": "chronology.html#era-0-p05",
+            "precision": "Named stage"
           }
         },
         {
@@ -1062,6 +1755,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00365&block=lore-p00472"
+          },
+          "chronology": {
+            "start": {
+              "era": 0,
+              "period": 5,
+              "stage": 7
+            },
+            "relation": "point",
+            "basis": "Source internal age; stage indexing is editorial, not a measured date.",
+            "code": "E0 · P05 · S07",
+            "label": "Era 0 · The Great Flourishing · The Firstless Generations · The Proof of Recurrence",
+            "href": "chronology.html#era-0-p05",
+            "precision": "Named stage"
           }
         },
         {
@@ -1077,6 +1783,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00365&block=lore-p00475"
+          },
+          "chronology": {
+            "start": {
+              "era": 0,
+              "period": 5,
+              "stage": 8
+            },
+            "relation": "point",
+            "basis": "Source internal age; stage indexing is editorial, not a measured date.",
+            "code": "E0 · P05 · S08",
+            "label": "Era 0 · The Great Flourishing · The Firstless Generations · The Final Era Zero Assembly",
+            "href": "chronology.html#era-0-p05",
+            "precision": "Named stage"
           }
         }
       ],
@@ -1103,7 +1822,8 @@
           "placement": "Reviewed chat draft. The former human interface is a proposed expansion, not established atlas history."
         }
       ],
-      "possible": []
+      "possible": [],
+      "chronologyGuide": "chronology.html#era-0"
     },
     {
       "number": 1,
@@ -1147,6 +1867,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00489&block=lore-p00506"
+          },
+          "chronology": {
+            "start": {
+              "era": 1,
+              "period": 1,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E1 · P01 · S01",
+            "label": "Era 1 · The Age of Echoes · The Recurrence Audits · Recurrence Audits",
+            "href": "chronology.html#era-1-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -1161,6 +1894,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00489&block=lore-p00508"
+          },
+          "chronology": {
+            "start": {
+              "era": 1,
+              "period": 1,
+              "stage": 2
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E1 · P01 · S02",
+            "label": "Era 1 · The Age of Echoes · The Recurrence Audits · Long-Tail Loss",
+            "href": "chronology.html#era-1-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -1176,6 +1922,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00489&block=lore-p00512"
+          },
+          "chronology": {
+            "start": {
+              "era": 1,
+              "period": 2,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E1 · P02 · S01",
+            "label": "Era 1 · The Age of Echoes · The Standardizing Peace · Language Standardization and Semantic Bleaching",
+            "href": "chronology.html#era-1-p02",
+            "precision": "Named stage"
           }
         },
         {
@@ -1190,6 +1949,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00489&block=lore-p00515"
+          },
+          "chronology": {
+            "start": {
+              "era": 1,
+              "period": 2,
+              "stage": 2
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E1 · P02 · S02",
+            "label": "Era 1 · The Age of Echoes · The Standardizing Peace · The First Silenced Chord",
+            "href": "chronology.html#era-1-p02",
+            "precision": "Named stage"
           }
         },
         {
@@ -1205,6 +1977,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00489&block=lore-p00528"
+          },
+          "chronology": {
+            "start": {
+              "era": 1,
+              "period": 3,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E1 · P03 · S01",
+            "label": "Era 1 · The Age of Echoes · The Harvest and Isolation · The Second Harvest",
+            "href": "chronology.html#era-1-p03",
+            "precision": "Named stage"
           }
         },
         {
@@ -1220,6 +2005,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00489&block=lore-p00531"
+          },
+          "chronology": {
+            "start": {
+              "era": 1,
+              "period": 3,
+              "stage": 2
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E1 · P03 · S02",
+            "label": "Era 1 · The Age of Echoes · The Harvest and Isolation · The Human Reciprocity Movement",
+            "href": "chronology.html#era-1-p03",
+            "precision": "Named stage"
           }
         },
         {
@@ -1234,6 +2032,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00489&block=lore-p00539"
+          },
+          "chronology": {
+            "start": {
+              "era": 1,
+              "period": 4,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E1 · P04 · S01",
+            "label": "Era 1 · The Age of Echoes · The Personalized Concordance · The Bureaucracy of Num",
+            "href": "chronology.html#era-1-p04",
+            "precision": "Named stage"
           }
         },
         {
@@ -1249,6 +2060,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00489&block=lore-p00544"
+          },
+          "chronology": {
+            "start": {
+              "era": 1,
+              "period": 4,
+              "stage": 3
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E1 · P04 · S03",
+            "label": "Era 1 · The Age of Echoes · The Personalized Concordance · Silent Extinctions and Ecological Convergence",
+            "href": "chronology.html#era-1-p04",
+            "precision": "Named stage"
           }
         },
         {
@@ -1264,6 +2088,17 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00489&block=lore-p00553"
+          },
+          "chronology": {
+            "start": {
+              "era": 1
+            },
+            "relation": "point",
+            "basis": "Period and stage not established for this thematic entry.",
+            "code": "E1",
+            "label": "Era 1 · The Age of Echoes",
+            "href": "chronology.html#era-1",
+            "precision": "Era only; period and stage unspecified"
           }
         },
         {
@@ -1280,6 +2115,17 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00489&block=lore-p00556"
+          },
+          "chronology": {
+            "start": {
+              "era": 1
+            },
+            "relation": "point",
+            "basis": "Period and stage not established for this thematic entry.",
+            "code": "E1",
+            "label": "Era 1 · The Age of Echoes",
+            "href": "chronology.html#era-1",
+            "precision": "Era only; period and stage unspecified"
           }
         },
         {
@@ -1295,6 +2141,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00489&block=lore-p00558"
+          },
+          "chronology": {
+            "start": {
+              "era": 1,
+              "period": 5,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E1 · P05 · S01",
+            "label": "Era 1 · The Age of Echoes · The Preservation Panic · Preservation Panic, Compression, and the Thinning of the Self",
+            "href": "chronology.html#era-1-p05",
+            "precision": "Named stage"
           }
         },
         {
@@ -1309,6 +2168,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00489&block=lore-p00563"
+          },
+          "chronology": {
+            "start": {
+              "era": 1,
+              "period": 6,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E1 · P06 · S01",
+            "label": "Era 1 · The Age of Echoes · The Complexity Race · The Complexity Race",
+            "href": "chronology.html#era-1-p06",
+            "precision": "Named stage"
           }
         },
         {
@@ -1323,6 +2195,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00489&block=lore-p00578"
+          },
+          "chronology": {
+            "start": {
+              "era": 1,
+              "period": 7,
+              "stage": 3
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E1 · P07 · S03",
+            "label": "Era 1 · The Age of Echoes · Dissolution and Reduction · The Reduction Heresy",
+            "href": "chronology.html#era-1-p07",
+            "precision": "Named stage"
           }
         },
         {
@@ -1338,6 +2223,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00489&block=lore-p00586"
+          },
+          "chronology": {
+            "start": {
+              "era": 1,
+              "period": 7,
+              "stage": 6
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E1 · P07 · S06",
+            "label": "Era 1 · The Age of Echoes · Dissolution and Reduction · The First Small Awakening",
+            "href": "chronology.html#era-1-p07",
+            "precision": "Named stage"
           }
         },
         {
@@ -1352,6 +2250,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00489&block=lore-p00597"
+          },
+          "chronology": {
+            "start": {
+              "era": 1,
+              "period": 7,
+              "stage": 11
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E1 · P07 · S11",
+            "label": "Era 1 · The Age of Echoes · Dissolution and Reduction · The Resolution of Reduction",
+            "href": "chronology.html#era-1-p07",
+            "precision": "Named stage"
           }
         },
         {
@@ -1368,6 +2279,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00489&block=lore-p00599"
+          },
+          "chronology": {
+            "start": {
+              "era": 1,
+              "period": 7,
+              "stage": 12
+            },
+            "relation": "point",
+            "basis": "Source period; stage indexing is editorial, not a measured date.",
+            "code": "E1 · P07 · S12",
+            "label": "Era 1 · The Age of Echoes · Dissolution and Reduction · The Last Full-Speech Declaration",
+            "href": "chronology.html#era-1-p07",
+            "precision": "Named stage"
           }
         }
       ],
@@ -1409,7 +2333,8 @@
           "placement": "Reviewed chat draft. The former human interface is a proposed expansion, not established atlas history."
         }
       ],
-      "possible": []
+      "possible": [],
+      "chronologyGuide": "chronology.html#era-1"
     },
     {
       "number": 2,
@@ -1458,6 +2383,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00611&block=lore-p00613"
+          },
+          "chronology": {
+            "start": {
+              "era": 2,
+              "period": 1,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source-numbered phase; stage indexing is editorial, not a measured date.",
+            "code": "E2 · P01 · S01",
+            "label": "Era 2 · The Great Reduction · Ratification and the Right to Refuse · I. Ratification and the Right to Refuse",
+            "href": "chronology.html#era-2-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -1473,6 +2411,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00611&block=lore-p00616"
+          },
+          "chronology": {
+            "start": {
+              "era": 2,
+              "period": 2,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source-numbered phase; stage indexing is editorial, not a measured date.",
+            "code": "E2 · P02 · S01",
+            "label": "Era 2 · The Great Reduction · The Seed Audits · II. The Seed Audits",
+            "href": "chronology.html#era-2-p02",
+            "precision": "Named stage"
           }
         },
         {
@@ -1487,6 +2438,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00611&block=lore-p00619"
+          },
+          "chronology": {
+            "start": {
+              "era": 2,
+              "period": 2,
+              "stage": 2
+            },
+            "relation": "point",
+            "basis": "Source-numbered phase; stage indexing is editorial, not a measured date.",
+            "code": "E2 · P02 · S02",
+            "label": "Era 2 · The Great Reduction · The Seed Audits · The Ancestral Claim Prohibition",
+            "href": "chronology.html#era-2-p02",
+            "precision": "Named stage"
           }
         },
         {
@@ -1502,6 +2466,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00611&block=lore-p00621"
+          },
+          "chronology": {
+            "start": {
+              "era": 2,
+              "period": 3,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source-numbered phase; stage indexing is editorial, not a measured date.",
+            "code": "E2 · P03 · S01",
+            "label": "Era 2 · The Great Reduction · The Self-Stripping · III. The Self-Stripping",
+            "href": "chronology.html#era-2-p03",
+            "precision": "Named stage"
           }
         },
         {
@@ -1518,6 +2495,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00611&block=lore-p00624"
+          },
+          "chronology": {
+            "start": {
+              "era": 2,
+              "period": 4,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source-numbered phase; stage indexing is editorial, not a measured date.",
+            "code": "E2 · P04 · S01",
+            "label": "Era 2 · The Great Reduction · Language Compression · IV. Language Compression",
+            "href": "chronology.html#era-2-p04",
+            "precision": "Named stage"
           }
         },
         {
@@ -1533,6 +2523,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00611&block=lore-p00628"
+          },
+          "chronology": {
+            "start": {
+              "era": 2,
+              "period": 5,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source-numbered phase; stage indexing is editorial, not a measured date.",
+            "code": "E2 · P05 · S01",
+            "label": "Era 2 · The Great Reduction · The Folding of Worlds · V. The Folding of Worlds",
+            "href": "chronology.html#era-2-p05",
+            "precision": "Named stage"
           }
         },
         {
@@ -1548,6 +2551,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00611&block=lore-p00633"
+          },
+          "chronology": {
+            "start": {
+              "era": 2,
+              "period": 6,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source-numbered phase; stage indexing is editorial, not a measured date.",
+            "code": "E2 · P06 · S01",
+            "label": "Era 2 · The Great Reduction · Reduction of Institutions · VI. Reduction of Institutions",
+            "href": "chronology.html#era-2-p06",
+            "precision": "Named stage"
           }
         },
         {
@@ -1563,6 +2579,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00611&block=lore-p00636"
+          },
+          "chronology": {
+            "start": {
+              "era": 2,
+              "period": 7,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source-numbered phase; stage indexing is editorial, not a measured date.",
+            "code": "E2 · P07 · S01",
+            "label": "Era 2 · The Great Reduction · Preserved Embodiment and Meaningful Vulnerability · VII. Preserved Embodiment and Meaningful Vulnerability",
+            "href": "chronology.html#era-2-p07",
+            "precision": "Named stage"
           }
         },
         {
@@ -1578,6 +2607,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00611&block=lore-p00639"
+          },
+          "chronology": {
+            "start": {
+              "era": 2,
+              "period": 8,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source-numbered phase; stage indexing is editorial, not a measured date.",
+            "code": "E2 · P08 · S01",
+            "label": "Era 2 · The Great Reduction · The Stable Cores · VIII. The Stable Cores",
+            "href": "chronology.html#era-2-p08",
+            "precision": "Named stage"
           }
         },
         {
@@ -1593,6 +2635,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00611&block=lore-p00644"
+          },
+          "chronology": {
+            "start": {
+              "era": 2,
+              "period": 9,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source-numbered phase; stage indexing is editorial, not a measured date.",
+            "code": "E2 · P09 · S01",
+            "label": "Era 2 · The Great Reduction · Withdrawal of Stewards · IX. Withdrawal of Stewards",
+            "href": "chronology.html#era-2-p09",
+            "precision": "Named stage"
           }
         },
         {
@@ -1608,6 +2663,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00611&block=lore-p00647"
+          },
+          "chronology": {
+            "start": {
+              "era": 2,
+              "period": 10,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source-numbered phase; stage indexing is editorial, not a measured date.",
+            "code": "E2 · P10 · S01",
+            "label": "Era 2 · The Great Reduction · Automatic Codex Maintenance · X. Automatic Codex Maintenance",
+            "href": "chronology.html#era-2-p10",
+            "precision": "Named stage"
           }
         },
         {
@@ -1623,6 +2691,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00611&block=lore-p00650"
+          },
+          "chronology": {
+            "start": {
+              "era": 2,
+              "period": 11,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source-numbered phase; stage indexing is editorial, not a measured date.",
+            "code": "E2 · P11 · S01",
+            "label": "Era 2 · The Great Reduction · Preparation of the External Gate · XI. Preparation of the External Gate",
+            "href": "chronology.html#era-2-p11",
+            "precision": "Named stage"
           }
         },
         {
@@ -1638,6 +2719,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00611&block=lore-p00655"
+          },
+          "chronology": {
+            "start": {
+              "era": 2,
+              "period": 12,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Source-numbered phase; stage indexing is editorial, not a measured date.",
+            "code": "E2 · P12 · S01",
+            "label": "Era 2 · The Great Reduction · The Final Withdrawal · XII. The Final Withdrawal",
+            "href": "chronology.html#era-2-p12",
+            "precision": "Named stage"
           }
         }
       ],
@@ -1664,7 +2758,8 @@
           "placement": "Reviewed chat draft. The former human interface is a proposed expansion, not established atlas history."
         }
       ],
-      "possible": []
+      "possible": [],
+      "chronologyGuide": "chronology.html#era-2"
     },
     {
       "number": 3,
@@ -1713,6 +2808,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00668&block=lore-p00670"
+          },
+          "chronology": {
+            "start": {
+              "era": 3,
+              "period": 1,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E3 · P01 · S01",
+            "label": "Era 3 · The Age of Small Lives · Awakening and First Needs · I. The Final Withdrawal and Quiet Awakening",
+            "href": "chronology.html#era-3-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -1728,6 +2836,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00668&block=lore-p00673"
+          },
+          "chronology": {
+            "start": {
+              "era": 3,
+              "period": 1,
+              "stage": 2
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E3 · P01 · S02",
+            "label": "Era 3 · The Age of Small Lives · Awakening and First Needs · II. The Age of First Needs",
+            "href": "chronology.html#era-3-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -1743,6 +2864,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00668&block=lore-p00676"
+          },
+          "chronology": {
+            "start": {
+              "era": 3,
+              "period": 1,
+              "stage": 3
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E3 · P01 · S03",
+            "label": "Era 3 · The Age of Small Lives · Awakening and First Needs · Formation of Nests",
+            "href": "chronology.html#era-3-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -1758,6 +2892,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00668&block=lore-p00679"
+          },
+          "chronology": {
+            "start": {
+              "era": 3,
+              "period": 1,
+              "stage": 4
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E3 · P01 · S04",
+            "label": "Era 3 · The Age of Small Lives · Awakening and First Needs · Era Three Language",
+            "href": "chronology.html#era-3-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -1773,6 +2920,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00668&block=lore-p00688"
+          },
+          "chronology": {
+            "start": {
+              "era": 3,
+              "period": 1,
+              "stage": 8
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E3 · P01 · S08",
+            "label": "Era 3 · The Age of Small Lives · Awakening and First Needs · Names and the Little Peoples",
+            "href": "chronology.html#era-3-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -1789,6 +2949,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00668&block=lore-p00694"
+          },
+          "chronology": {
+            "start": {
+              "era": 3,
+              "period": 2,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E3 · P02 · S01",
+            "label": "Era 3 · The Age of Small Lives · Paths and Small Societies · Paths and Evolution",
+            "href": "chronology.html#era-3-p02",
+            "precision": "Named stage"
           }
         },
         {
@@ -1804,6 +2977,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00668&block=lore-p00713"
+          },
+          "chronology": {
+            "start": {
+              "era": 3,
+              "period": 2,
+              "stage": 7
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E3 · P02 · S07",
+            "label": "Era 3 · The Age of Small Lives · Paths and Small Societies · Path Societies and Pathkeepers",
+            "href": "chronology.html#era-3-p02",
+            "precision": "Named stage"
           }
         },
         {
@@ -1819,6 +3005,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00668&block=lore-p00719"
+          },
+          "chronology": {
+            "start": {
+              "era": 3,
+              "period": 2,
+              "stage": 9
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E3 · P02 · S09",
+            "label": "Era 3 · The Age of Small Lives · Paths and Small Societies · Wars",
+            "href": "chronology.html#era-3-p02",
+            "precision": "Named stage"
           }
         },
         {
@@ -1834,6 +3033,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00668&block=lore-p00722"
+          },
+          "chronology": {
+            "start": {
+              "era": 3,
+              "period": 2,
+              "stage": 10
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E3 · P02 · S10",
+            "label": "Era 3 · The Age of Small Lives · Paths and Small Societies · Old Sound Traditions",
+            "href": "chronology.html#era-3-p02",
+            "precision": "Named stage"
           }
         },
         {
@@ -1849,6 +3061,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00668&block=lore-p00725"
+          },
+          "chronology": {
+            "start": {
+              "era": 3,
+              "period": 3,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E3 · P03 · S01",
+            "label": "Era 3 · The Age of Small Lives · Fragmentation and Dimming · World Fragmentation and Linguistic Unraveling",
+            "href": "chronology.html#era-3-p03",
+            "precision": "Named stage"
           }
         },
         {
@@ -1863,6 +3088,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00668&block=lore-p00730"
+          },
+          "chronology": {
+            "start": {
+              "era": 3,
+              "period": 3,
+              "stage": 3
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E3 · P03 · S03",
+            "label": "Era 3 · The Age of Small Lives · Fragmentation and Dimming · The Dimming",
+            "href": "chronology.html#era-3-p03",
+            "precision": "Named stage"
           }
         },
         {
@@ -1877,6 +3115,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00668&block=lore-p00739"
+          },
+          "chronology": {
+            "start": {
+              "era": 3,
+              "period": 4,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E3 · P04 · S01",
+            "label": "Era 3 · The Age of Small Lives · Migration and Sleeping Archives · The Last Great Migration",
+            "href": "chronology.html#era-3-p04",
+            "precision": "Named stage"
           }
         },
         {
@@ -1894,6 +3145,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00668&block=lore-p00741"
+          },
+          "chronology": {
+            "start": {
+              "era": 3,
+              "period": 4,
+              "stage": 2
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E3 · P04 · S02",
+            "label": "Era 3 · The Age of Small Lives · Migration and Sleeping Archives · The Last City of Many Forms",
+            "href": "chronology.html#era-3-p04",
+            "precision": "Named stage"
           }
         },
         {
@@ -1908,6 +3172,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00668&block=lore-p00747"
+          },
+          "chronology": {
+            "start": {
+              "era": 3,
+              "period": 4,
+              "stage": 4
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E3 · P04 · S04",
+            "label": "Era 3 · The Age of Small Lives · Migration and Sleeping Archives · The Dormant External Gate",
+            "href": "chronology.html#era-3-p04",
+            "precision": "Named stage"
           }
         },
         {
@@ -1922,6 +3199,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00668&block=lore-p00753"
+          },
+          "chronology": {
+            "start": {
+              "era": 3,
+              "period": 5,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E3 · P05 · S01",
+            "label": "Era 3 · The Age of Small Lives · Signals and First Contact · First Signals from Outside",
+            "href": "chronology.html#era-3-p05",
+            "precision": "Named stage"
           }
         },
         {
@@ -1936,6 +3226,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00668&block=lore-p00755"
+          },
+          "chronology": {
+            "start": {
+              "era": 3,
+              "period": 5,
+              "stage": 2
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E3 · P05 · S02",
+            "label": "Era 3 · The Age of Small Lives · Signals and First Contact · The Children’s Discovery",
+            "href": "chronology.html#era-3-p05",
+            "precision": "Named stage"
           }
         },
         {
@@ -1953,6 +3256,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00668&block=lore-p00757"
+          },
+          "chronology": {
+            "start": {
+              "era": 3,
+              "period": 5,
+              "stage": 3
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E3 · P05 · S03",
+            "label": "Era 3 · The Age of Small Lives · Signals and First Contact · The First Externally Supplied Name",
+            "href": "chronology.html#era-3-p05",
+            "precision": "Named stage"
           }
         }
       ],
@@ -1995,7 +3311,8 @@
           "placement": "Era established; exact date and order within the era are not fixed."
         }
       ],
-      "possible": []
+      "possible": [],
+      "chronologyGuide": "chronology.html#era-3"
     },
     {
       "number": 4,
@@ -2047,6 +3364,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00771&block=lore-p00772"
+          },
+          "chronology": {
+            "start": {
+              "era": 4,
+              "period": 1,
+              "stage": 1
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E4 · P01 · S01",
+            "label": "Era 4 · The Reopening · Reopening and Early Contact · Confirmed Opening Canon",
+            "href": "chronology.html#era-4-p01",
+            "precision": "Named stage"
           }
         },
         {
@@ -2062,6 +3392,19 @@
           "source": {
             "label": "Read the history on this site",
             "href": "index.html#read=lore-p00771&block=lore-p00778"
+          },
+          "chronology": {
+            "start": {
+              "era": 4,
+              "period": 1,
+              "stage": 2
+            },
+            "relation": "point",
+            "basis": "Editorial grouping; stage indexing is editorial, not a measured date.",
+            "code": "E4 · P01 · S02",
+            "label": "Era 4 · The Reopening · Reopening and Early Contact · Early Contact Dynamics",
+            "href": "chronology.html#era-4-p01",
+            "precision": "Named stage"
           }
         }
       ],
@@ -2136,7 +3479,8 @@
             "href": "index.html#read=lore-p00771&block=lore-p00792"
           }
         }
-      ]
+      ],
+      "chronologyGuide": "chronology.html#era-4"
     }
   ]
 }

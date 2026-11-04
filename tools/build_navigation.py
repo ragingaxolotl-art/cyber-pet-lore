@@ -13,7 +13,7 @@ def navigation(relative):
         current=' aria-current="page"' if relative.as_posix()==target else ''
         if main and target=='index.html':return '<a href="#" id="library-link">Library</a>'
         return f'<a href="{escape(href,quote=True)}"{current}>{escape(label)}</a>'
-    groups=[('Read',[('Library','index.html'),('Timeline','timeline.html'),('Era Zero songs','songs/')]),
+    groups=[('Read',[('Library','index.html'),('Timeline','timeline.html'),('Era · period · stage','chronology.html'),('Era Zero songs','songs/')]),
             ('Explore',[('Connections','wiki.html'),('Terms & unexplained lore','terms.html'),('Illnesses','index.html#read=reference-illnesses'),('Ribbons & honours','ribbons/'),('Ribbon Studio','ribbons/studio/'),('Remedies & care','index.html#read=reference-era-four-remedies')]),
             ('Write & plan',[('Story genres','genres.html'),('Plans & possibilities','plans.html'),('DBA translator','translator/')])]
     parts=['<nav aria-label="Main" class="lore-navigation">']
@@ -37,6 +37,7 @@ def build():
         changed,n=re.subn(pattern,lambda m:m[1]+navigation(relative)+m[3],text,count=1,flags=re.S)
         if not n:continue
         if 'navigation.css' not in changed:changed=changed.replace('</head>',f'<link rel="stylesheet" href="{prefix}navigation.css"></head>',1)
+        if 'chronology.css' not in changed:changed=changed.replace('</head>',f'<link rel="stylesheet" href="{prefix}chronology.css"></head>',1)
         if 'navigation.mjs' not in changed:changed=changed.replace('</body>',f'<script type="module" src="{prefix}navigation.mjs"></script></body>',1)
         if changed!=text:path.write_text(changed)
         count+=1

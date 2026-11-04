@@ -104,3 +104,6 @@ for era in eras:
 result={'version':1,'title':'A history of becoming','reviewed':'2026-10-27','scope':'Based on the published expanded lore, primary story archive, language-history sections, and the reviewed chapel discussion. Older lore chats are not yet fully reviewed. No human calendar dates were found in the reviewed material; the archived Real World Relationship Guide is empty.','timeNote':'Era order is established. Cards follow the source’s narrative sequence; their spacing does not measure duration, and not every item is a single event. Codex time has no fixed conversion to human time.','eras':eras}
 (SITE/'timeline.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
 print(f'Timeline: {len(eras)} eras, {sum(len(e["events"]) for e in eras)} historical entries')
+
+from chronology import annotate_timeline
+annotate_timeline()

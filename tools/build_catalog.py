@@ -160,6 +160,8 @@ for entry in catalog:
  body='\n'.join(b['text'] for b in content['blocks'])
  entry['places']=sorted(name for name in place_names if re.search(r'(?<!\w)'+re.escape(name)+r'(?!\w)',body,re.I))
 exec(compile((ROOT/'tools/build_connections.py').read_text(), 'build_connections.py', 'exec'))
+from chronology import add_catalog_chronology
+add_catalog_chronology(ROOT,catalog)
 counts={k:sum(e['kind']==k for e in catalog) for k in sorted(set(e['kind'] for e in catalog))}
 (OUT/'catalog.json').write_text(json.dumps({'version':1,'entries':catalog,'sources':sources,'counts':counts,'storyCounts':research['counts'],'integrity':conservation,'notes':['Paragraph indexes are zero-based source array indexes.','Character facets mean characters mentioned, not asserted relationships.','Era order is established; within-era source order is used where dates are unknown.','CPP Lore alternate story copies and local atlas guides are retained as separately labeled references.','Empty game tabs and duplicate game_stories genre list are intentionally omitted.']},ensure_ascii=False,indent=2))
 print(json.dumps({'entries':len(catalog),'counts':counts,'integrity':conservation},indent=2))
@@ -190,3 +192,7 @@ runpy.run_path(str(ROOT/"tools/build_comments.py"),run_name="__main__")
 # Keep the artwork gallery in sync with its canonical directory.
 from build_ribbon_gallery import build as build_ribbon_gallery
 build_ribbon_gallery(ROOT)
+
+# Reapply chronology labels after standalone pages are regenerated.
+from chronology import publish_guide
+publish_guide()

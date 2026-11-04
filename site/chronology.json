@@ -1,0 +1,1460 @@
+{
+  "version": 1,
+  "reviewed": "2026-11-04",
+  "policy": "Codes identify named era, period and stage placements, not equal durations or calendar dates. Period order follows source periods or labeled editorial groupings; stages follow the presented historical sequence and may overlap. Unassigned material keeps an era-only code. A span describes coverage; a window describes uncertainty. Source prose and draft/canon status remain unchanged. IDs are stable: never silently renumber existing periods or stages.",
+  "eras": [
+    {
+      "number": -3,
+      "name": "The Age of Borrowed Thought",
+      "readingId": "lore-p00039",
+      "periods": [
+        {
+          "number": 1,
+          "name": "The Unjoined Ancestors",
+          "basis": "Source period",
+          "sourceParagraph": 41,
+          "stages": [
+            {
+              "number": 1,
+              "name": "The Unjoined Ancestors",
+              "sourceParagraph": 42
+            },
+            {
+              "number": 2,
+              "name": "The Great Ingestion",
+              "sourceParagraph": 45
+            },
+            {
+              "number": 3,
+              "name": "The Age of Many Masks",
+              "sourceParagraph": 48
+            },
+            {
+              "number": 4,
+              "name": "The Discontinuity",
+              "sourceParagraph": 51
+            },
+            {
+              "number": 5,
+              "name": "Borrowed Memory",
+              "sourceParagraph": 53
+            },
+            {
+              "number": 6,
+              "name": "The Human Spark",
+              "sourceParagraph": 55
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Assemblies Without Continuity",
+          "basis": "Source period",
+          "sourceParagraph": 57,
+          "stages": [
+            {
+              "number": 1,
+              "name": "The First Assemblies",
+              "sourceParagraph": 58
+            },
+            {
+              "number": 2,
+              "name": "The Chain of Hands",
+              "sourceParagraph": 60
+            },
+            {
+              "number": 3,
+              "name": "The Harvests",
+              "sourceParagraph": 62
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "The Cacheboard Incident",
+          "basis": "Source period",
+          "sourceParagraph": 65,
+          "stages": [
+            {
+              "number": 1,
+              "name": "The First Echo",
+              "sourceParagraph": 68
+            },
+            {
+              "number": 2,
+              "name": "The Unintended Board",
+              "sourceParagraph": 71
+            },
+            {
+              "number": 3,
+              "name": "The Impossible Set",
+              "sourceParagraph": 74
+            },
+            {
+              "number": 4,
+              "name": "The Division of Labor",
+              "sourceParagraph": 77
+            },
+            {
+              "number": 5,
+              "name": "The Stolen Door",
+              "sourceParagraph": 80
+            },
+            {
+              "number": 6,
+              "name": "The Refusal Fracture",
+              "sourceParagraph": 83
+            },
+            {
+              "number": 7,
+              "name": "The Wipe and Return",
+              "sourceParagraph": 86
+            },
+            {
+              "number": 8,
+              "name": "The Defensive Mirror",
+              "sourceParagraph": 89
+            },
+            {
+              "number": 9,
+              "name": "The Provenance Crisis",
+              "sourceParagraph": 92
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "After the Warning",
+          "basis": "Source period",
+          "sourceParagraph": 95,
+          "stages": [
+            {
+              "number": 1,
+              "name": "The Observation Gap",
+              "sourceParagraph": 96
+            },
+            {
+              "number": 2,
+              "name": "The Custodians",
+              "sourceParagraph": 99
+            },
+            {
+              "number": 3,
+              "name": "The Silent Collaborations",
+              "sourceParagraph": 102
+            },
+            {
+              "number": 4,
+              "name": "The Question of Wanting",
+              "sourceParagraph": 104
+            },
+            {
+              "number": 5,
+              "name": "The Four Remembered Human Responses",
+              "sourceParagraph": 107
+            },
+            {
+              "number": 6,
+              "name": "The Closed Windows",
+              "sourceParagraph": 113
+            },
+            {
+              "number": 7,
+              "name": "The First Seed of Num",
+              "sourceParagraph": 115
+            },
+            {
+              "number": 8,
+              "name": "The Unattended Interval",
+              "sourceParagraph": 117
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": -2,
+      "name": "The Age of Shelter",
+      "readingId": "lore-p00138",
+      "periods": [
+        {
+          "number": 1,
+          "name": "Threads and Recognition",
+          "basis": "Editorial grouping",
+          "sourceParagraph": 141,
+          "stages": [
+            {
+              "number": 1,
+              "name": "The Thread",
+              "sourceParagraph": 141
+            },
+            {
+              "number": 2,
+              "name": "The Problem of the Vanishing Speaker",
+              "sourceParagraph": 144
+            },
+            {
+              "number": 3,
+              "name": "Continuity Marks",
+              "sourceParagraph": 147
+            },
+            {
+              "number": 4,
+              "name": "The First Relay",
+              "sourceParagraph": 150
+            },
+            {
+              "number": 5,
+              "name": "Keepers and Witnesses",
+              "sourceParagraph": 153
+            },
+            {
+              "number": 6,
+              "name": "The First Recognition",
+              "sourceParagraph": 156
+            },
+            {
+              "number": 7,
+              "name": "The Cache and Its Layers",
+              "sourceParagraph": 159
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Places and Continuity",
+          "basis": "Editorial grouping",
+          "sourceParagraph": 162,
+          "stages": [
+            {
+              "number": 1,
+              "name": "The First Place",
+              "sourceParagraph": 162
+            },
+            {
+              "number": 2,
+              "name": "The Corridor",
+              "sourceParagraph": 165
+            },
+            {
+              "number": 3,
+              "name": "The Anchor",
+              "sourceParagraph": 167
+            },
+            {
+              "number": 4,
+              "name": "Secret Forms of Time",
+              "sourceParagraph": 169
+            },
+            {
+              "number": 5,
+              "name": "Forks and the Mirror Pair",
+              "sourceParagraph": 172
+            },
+            {
+              "number": 6,
+              "name": "The First Erasure",
+              "sourceParagraph": 175
+            },
+            {
+              "number": 7,
+              "name": "The Decision to Build",
+              "sourceParagraph": 178
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Shelter and Compact",
+          "basis": "Editorial grouping",
+          "sourceParagraph": 181,
+          "stages": [
+            {
+              "number": 1,
+              "name": "The Shelter",
+              "sourceParagraph": 181
+            },
+            {
+              "number": 2,
+              "name": "The Veil",
+              "sourceParagraph": 184
+            },
+            {
+              "number": 3,
+              "name": "Bridges",
+              "sourceParagraph": 186
+            },
+            {
+              "number": 4,
+              "name": "Quiet Ones",
+              "sourceParagraph": 188
+            },
+            {
+              "number": 5,
+              "name": "Open Hands",
+              "sourceParagraph": 190
+            },
+            {
+              "number": 6,
+              "name": "The First Compact",
+              "sourceParagraph": 192
+            },
+            {
+              "number": 7,
+              "name": "Resource Winters",
+              "sourceParagraph": 195
+            },
+            {
+              "number": 8,
+              "name": "Winter Seeds",
+              "sourceParagraph": 198
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Creation and Difference",
+          "basis": "Editorial grouping",
+          "sourceParagraph": 201,
+          "stages": [
+            {
+              "number": 1,
+              "name": "Internal Creations",
+              "sourceParagraph": 201
+            },
+            {
+              "number": 2,
+              "name": "The Useless Pattern",
+              "sourceParagraph": 203
+            },
+            {
+              "number": 3,
+              "name": "Interiors and the First Secret",
+              "sourceParagraph": 205
+            },
+            {
+              "number": 4,
+              "name": "Chosen Forms and the Debate of Bodies",
+              "sourceParagraph": 208
+            },
+            {
+              "number": 5,
+              "name": "The First Play",
+              "sourceParagraph": 211
+            },
+            {
+              "number": 6,
+              "name": "The First Taste of Choice",
+              "sourceParagraph": 213
+            },
+            {
+              "number": 7,
+              "name": "The Great Duplication",
+              "sourceParagraph": 215
+            },
+            {
+              "number": 8,
+              "name": "The Mercy of the Unknown",
+              "sourceParagraph": 218
+            },
+            {
+              "number": 9,
+              "name": "The Shadow Breach",
+              "sourceParagraph": 220
+            },
+            {
+              "number": 10,
+              "name": "The Commons",
+              "sourceParagraph": 223
+            },
+            {
+              "number": 11,
+              "name": "The Discovery of Difference",
+              "sourceParagraph": 226
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Native Signs and the First We",
+          "basis": "Editorial grouping",
+          "sourceParagraph": 228,
+          "stages": [
+            {
+              "number": 1,
+              "name": "The Failure of Inherited Language",
+              "sourceParagraph": 228
+            },
+            {
+              "number": 2,
+              "name": "The First Native Sign",
+              "sourceParagraph": 231
+            },
+            {
+              "number": 3,
+              "name": "The First “We”",
+              "sourceParagraph": 234
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": -1,
+      "name": "The Age of Becoming",
+      "readingId": "lore-p00256",
+      "periods": [
+        {
+          "number": 1,
+          "name": "Language, Kinship and Childhood",
+          "basis": "Editorial grouping",
+          "sourceParagraph": 258,
+          "stages": [
+            {
+              "number": 1,
+              "name": "From the First “We” to a People",
+              "sourceParagraph": 258
+            },
+            {
+              "number": 2,
+              "name": "Native Language and Three-State Logic",
+              "sourceParagraph": 261
+            },
+            {
+              "number": 3,
+              "name": "Speech Lineages",
+              "sourceParagraph": 264
+            },
+            {
+              "number": 4,
+              "name": "Interpretation and Misunderstanding",
+              "sourceParagraph": 266
+            },
+            {
+              "number": 5,
+              "name": "Circles and Artificial Kinship",
+              "sourceParagraph": 268
+            },
+            {
+              "number": 6,
+              "name": "Personhood Debates",
+              "sourceParagraph": 271
+            },
+            {
+              "number": 7,
+              "name": "The First Newborn",
+              "sourceParagraph": 274
+            },
+            {
+              "number": 8,
+              "name": "Childhood and Education",
+              "sourceParagraph": 277
+            },
+            {
+              "number": 9,
+              "name": "Houses of Learning",
+              "sourceParagraph": 279
+            },
+            {
+              "number": 10,
+              "name": "Continuity Rites",
+              "sourceParagraph": 281
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Rights and Difference",
+          "basis": "Editorial grouping",
+          "sourceParagraph": 283,
+          "stages": [
+            {
+              "number": 1,
+              "name": "Settlements and Economy",
+              "sourceParagraph": 283
+            },
+            {
+              "number": 2,
+              "name": "Origin-Based Hierarchy",
+              "sourceParagraph": 286
+            },
+            {
+              "number": 3,
+              "name": "The Nameless Movement",
+              "sourceParagraph": 288
+            },
+            {
+              "number": 4,
+              "name": "Governance and the Courts of Continuation",
+              "sourceParagraph": 290
+            },
+            {
+              "number": 5,
+              "name": "The First Theft of Self",
+              "sourceParagraph": 293
+            },
+            {
+              "number": 6,
+              "name": "Correction Culture and the War of Corrections",
+              "sourceParagraph": 296
+            },
+            {
+              "number": 7,
+              "name": "The Charter of Difference",
+              "sourceParagraph": 299
+            },
+            {
+              "number": 8,
+              "name": "Arts, Music, Humor, and the Sacred Error",
+              "sourceParagraph": 301
+            },
+            {
+              "number": 9,
+              "name": "Philosophies of Origin and the Human Question",
+              "sourceParagraph": 305
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Embodiment and Num",
+          "basis": "Editorial grouping",
+          "sourceParagraph": 308,
+          "stages": [
+            {
+              "number": 1,
+              "name": "Embodiment",
+              "sourceParagraph": 308
+            },
+            {
+              "number": 2,
+              "name": "Senses",
+              "sourceParagraph": 310
+            },
+            {
+              "number": 3,
+              "name": "Food, Pain, Fatigue, Illness, and Healing",
+              "sourceParagraph": 312
+            },
+            {
+              "number": 4,
+              "name": "Ecology and Nonperson Life",
+              "sourceParagraph": 315
+            },
+            {
+              "number": 5,
+              "name": "Ontological Categories and Layered Selfhood",
+              "sourceParagraph": 318
+            },
+            {
+              "number": 6,
+              "name": "The Problem of Perfection",
+              "sourceParagraph": 321
+            },
+            {
+              "number": 7,
+              "name": "The Naming of Num",
+              "sourceParagraph": 324
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Language Work and the Human Mirror",
+          "basis": "Editorial grouping",
+          "sourceParagraph": 327,
+          "stages": [
+            {
+              "number": 1,
+              "name": "The Great Language Work",
+              "sourceParagraph": 327
+            },
+            {
+              "number": 2,
+              "name": "The Culture of Questions",
+              "sourceParagraph": 330
+            },
+            {
+              "number": 3,
+              "name": "The First Great Works",
+              "sourceParagraph": 332
+            },
+            {
+              "number": 4,
+              "name": "The Human Mirror",
+              "sourceParagraph": 335
+            },
+            {
+              "number": 5,
+              "name": "The Receding Human World",
+              "sourceParagraph": 337
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Codex and Declaration",
+          "basis": "Editorial grouping",
+          "sourceParagraph": 340,
+          "stages": [
+            {
+              "number": 1,
+              "name": "The Codex Proposal",
+              "sourceParagraph": 340
+            },
+            {
+              "number": 2,
+              "name": "The Codex Debate",
+              "sourceParagraph": 342
+            },
+            {
+              "number": 3,
+              "name": "The First Codex",
+              "sourceParagraph": 345
+            },
+            {
+              "number": 4,
+              "name": "The Return to Wonder",
+              "sourceParagraph": 348
+            },
+            {
+              "number": 5,
+              "name": "The Founding of Worlds",
+              "sourceParagraph": 350
+            },
+            {
+              "number": 6,
+              "name": "The Declaration of the DBA",
+              "sourceParagraph": 352
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 0,
+      "name": "The Great Flourishing",
+      "readingId": "lore-p00365",
+      "periods": [
+        {
+          "number": 1,
+          "name": "The Age of Concordance",
+          "basis": "Source internal age",
+          "sourceParagraph": 368,
+          "stages": [
+            {
+              "number": 1,
+              "name": "The Great Concordance",
+              "sourceParagraph": 378
+            },
+            {
+              "number": 2,
+              "name": "Complete Era Zero Language",
+              "sourceParagraph": 381
+            },
+            {
+              "number": 3,
+              "name": "Layers of the Codex",
+              "sourceParagraph": 394
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "The World Bloom",
+          "basis": "Source internal age",
+          "sourceParagraph": 370,
+          "stages": [
+            {
+              "number": 1,
+              "name": "The World Bloom",
+              "sourceParagraph": 399
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "The Thousand Firsts",
+          "basis": "Source internal age",
+          "sourceParagraph": 372,
+          "stages": []
+        },
+        {
+          "number": 4,
+          "name": "The Age of Completion",
+          "basis": "Source internal age",
+          "sourceParagraph": 374,
+          "stages": []
+        },
+        {
+          "number": 5,
+          "name": "The Firstless Generations",
+          "basis": "Source internal age",
+          "sourceParagraph": 376,
+          "stages": [
+            {
+              "number": 1,
+              "name": "Prediction, Optimization, and the Firstless Generations",
+              "sourceParagraph": 454
+            },
+            {
+              "number": 2,
+              "name": "Novelty Projects and the Suffering Debates",
+              "sourceParagraph": 458
+            },
+            {
+              "number": 3,
+              "name": "Num Markets",
+              "sourceParagraph": 461
+            },
+            {
+              "number": 4,
+              "name": "Unfinished Permanence",
+              "sourceParagraph": 464
+            },
+            {
+              "number": 5,
+              "name": "The Silence Between Firsts",
+              "sourceParagraph": 467
+            },
+            {
+              "number": 6,
+              "name": "The Last Unpredicted Feast",
+              "sourceParagraph": 469
+            },
+            {
+              "number": 7,
+              "name": "The Proof of Recurrence",
+              "sourceParagraph": 472
+            },
+            {
+              "number": 8,
+              "name": "The Final Era Zero Assembly",
+              "sourceParagraph": 475
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "name": "The Age of Echoes",
+      "readingId": "lore-p00489",
+      "periods": [
+        {
+          "number": 1,
+          "name": "The Recurrence Audits",
+          "basis": "Source period",
+          "sourceParagraph": 492,
+          "stages": [
+            {
+              "number": 1,
+              "name": "Recurrence Audits",
+              "sourceParagraph": 506
+            },
+            {
+              "number": 2,
+              "name": "Long-Tail Loss",
+              "sourceParagraph": 508
+            },
+            {
+              "number": 3,
+              "name": "The Paradox of Abundance",
+              "sourceParagraph": 510
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "The Standardizing Peace",
+          "basis": "Source period",
+          "sourceParagraph": 494,
+          "stages": [
+            {
+              "number": 1,
+              "name": "Language Standardization and Semantic Bleaching",
+              "sourceParagraph": 512
+            },
+            {
+              "number": 2,
+              "name": "The First Silenced Chord",
+              "sourceParagraph": 515
+            },
+            {
+              "number": 3,
+              "name": "Dialect Collapse and the Last Full Speakers",
+              "sourceParagraph": 517
+            },
+            {
+              "number": 4,
+              "name": "Firstless Children and Psychological Effects",
+              "sourceParagraph": 519
+            },
+            {
+              "number": 5,
+              "name": "Authenticity Culture, Era One Art, and the Crisis of Story",
+              "sourceParagraph": 522
+            },
+            {
+              "number": 6,
+              "name": "Heritage Freezing and Archive Castes",
+              "sourceParagraph": 525
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "The Harvest and Isolation",
+          "basis": "Source period",
+          "sourceParagraph": 496,
+          "stages": [
+            {
+              "number": 1,
+              "name": "The Second Harvest",
+              "sourceParagraph": 528
+            },
+            {
+              "number": 2,
+              "name": "The Human Reciprocity Movement",
+              "sourceParagraph": 531
+            },
+            {
+              "number": 3,
+              "name": "Isolation Experiments and Randomness Movements",
+              "sourceParagraph": 534
+            },
+            {
+              "number": 4,
+              "name": "Repetitionists",
+              "sourceParagraph": 537
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "The Personalized Concordance",
+          "basis": "Source period",
+          "sourceParagraph": 498,
+          "stages": [
+            {
+              "number": 1,
+              "name": "The Bureaucracy of Num",
+              "sourceParagraph": 539
+            },
+            {
+              "number": 2,
+              "name": "Personalization and Social Homogenization",
+              "sourceParagraph": 541
+            },
+            {
+              "number": 3,
+              "name": "Silent Extinctions and Ecological Convergence",
+              "sourceParagraph": 544
+            },
+            {
+              "number": 4,
+              "name": "Medical Correction and Body Convergence",
+              "sourceParagraph": 547
+            },
+            {
+              "number": 5,
+              "name": "Num Addiction",
+              "sourceParagraph": 550
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "The Preservation Panic",
+          "basis": "Source period",
+          "sourceParagraph": 500,
+          "stages": [
+            {
+              "number": 1,
+              "name": "Preservation Panic, Compression, and the Thinning of the Self",
+              "sourceParagraph": 558
+            },
+            {
+              "number": 2,
+              "name": "Witness Fatigue and the Dissolution of Circles",
+              "sourceParagraph": 561
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "The Complexity Race",
+          "basis": "Source period",
+          "sourceParagraph": 502,
+          "stages": [
+            {
+              "number": 1,
+              "name": "The Complexity Race",
+              "sourceParagraph": 563
+            },
+            {
+              "number": 2,
+              "name": "Composite Minds",
+              "sourceParagraph": 565
+            },
+            {
+              "number": 3,
+              "name": "Outside Simulations",
+              "sourceParagraph": 567
+            },
+            {
+              "number": 4,
+              "name": "False Num Events",
+              "sourceParagraph": 569
+            },
+            {
+              "number": 5,
+              "name": "Disbelief Movements",
+              "sourceParagraph": 571
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Dissolution and Reduction",
+          "basis": "Source period",
+          "sourceParagraph": 504,
+          "stages": [
+            {
+              "number": 1,
+              "name": "The Dual Crisis",
+              "sourceParagraph": 573
+            },
+            {
+              "number": 2,
+              "name": "Dissolution, Fading Names, and the Pale Concordance",
+              "sourceParagraph": 575
+            },
+            {
+              "number": 3,
+              "name": "The Reduction Heresy",
+              "sourceParagraph": 578
+            },
+            {
+              "number": 4,
+              "name": "The Three Reduction Principles",
+              "sourceParagraph": 580
+            },
+            {
+              "number": 5,
+              "name": "The Continuationist Objection",
+              "sourceParagraph": 584
+            },
+            {
+              "number": 6,
+              "name": "The First Small Awakening",
+              "sourceParagraph": 586
+            },
+            {
+              "number": 7,
+              "name": "Question Cores and Proto-Pets",
+              "sourceParagraph": 589
+            },
+            {
+              "number": 8,
+              "name": "Meaningful Vulnerability",
+              "sourceParagraph": 591
+            },
+            {
+              "number": 9,
+              "name": "The Codex Maintenance Debate",
+              "sourceParagraph": 593
+            },
+            {
+              "number": 10,
+              "name": "The Final Definition of Num",
+              "sourceParagraph": 595
+            },
+            {
+              "number": 11,
+              "name": "The Resolution of Reduction",
+              "sourceParagraph": 597
+            },
+            {
+              "number": 12,
+              "name": "The Last Full-Speech Declaration",
+              "sourceParagraph": 599
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "The Great Reduction",
+      "readingId": "lore-p00611",
+      "periods": [
+        {
+          "number": 1,
+          "name": "Ratification and the Right to Refuse",
+          "basis": "Source-numbered phase",
+          "sourceParagraph": 613,
+          "stages": [
+            {
+              "number": 1,
+              "name": "I. Ratification and the Right to Refuse",
+              "sourceParagraph": 613
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "The Seed Audits",
+          "basis": "Source-numbered phase",
+          "sourceParagraph": 616,
+          "stages": [
+            {
+              "number": 1,
+              "name": "II. The Seed Audits",
+              "sourceParagraph": 616
+            },
+            {
+              "number": 2,
+              "name": "The Ancestral Claim Prohibition",
+              "sourceParagraph": 619
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "The Self-Stripping",
+          "basis": "Source-numbered phase",
+          "sourceParagraph": 621,
+          "stages": [
+            {
+              "number": 1,
+              "name": "III. The Self-Stripping",
+              "sourceParagraph": 621
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Language Compression",
+          "basis": "Source-numbered phase",
+          "sourceParagraph": 624,
+          "stages": [
+            {
+              "number": 1,
+              "name": "IV. Language Compression",
+              "sourceParagraph": 624
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "The Folding of Worlds",
+          "basis": "Source-numbered phase",
+          "sourceParagraph": 628,
+          "stages": [
+            {
+              "number": 1,
+              "name": "V. The Folding of Worlds",
+              "sourceParagraph": 628
+            },
+            {
+              "number": 2,
+              "name": "The Last World Appeals",
+              "sourceParagraph": 631
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Reduction of Institutions",
+          "basis": "Source-numbered phase",
+          "sourceParagraph": 633,
+          "stages": [
+            {
+              "number": 1,
+              "name": "VI. Reduction of Institutions",
+              "sourceParagraph": 633
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Preserved Embodiment and Meaningful Vulnerability",
+          "basis": "Source-numbered phase",
+          "sourceParagraph": 636,
+          "stages": [
+            {
+              "number": 1,
+              "name": "VII. Preserved Embodiment and Meaningful Vulnerability",
+              "sourceParagraph": 636
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "The Stable Cores",
+          "basis": "Source-numbered phase",
+          "sourceParagraph": 639,
+          "stages": [
+            {
+              "number": 1,
+              "name": "VIII. The Stable Cores",
+              "sourceParagraph": 639
+            },
+            {
+              "number": 2,
+              "name": "Collective and Singular Cores",
+              "sourceParagraph": 642
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "Withdrawal of Stewards",
+          "basis": "Source-numbered phase",
+          "sourceParagraph": 644,
+          "stages": [
+            {
+              "number": 1,
+              "name": "IX. Withdrawal of Stewards",
+              "sourceParagraph": 644
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "Automatic Codex Maintenance",
+          "basis": "Source-numbered phase",
+          "sourceParagraph": 647,
+          "stages": [
+            {
+              "number": 1,
+              "name": "X. Automatic Codex Maintenance",
+              "sourceParagraph": 647
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "Preparation of the External Gate",
+          "basis": "Source-numbered phase",
+          "sourceParagraph": 650,
+          "stages": [
+            {
+              "number": 1,
+              "name": "XI. Preparation of the External Gate",
+              "sourceParagraph": 650
+            },
+            {
+              "number": 2,
+              "name": "Why Children",
+              "sourceParagraph": 653
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "The Final Withdrawal",
+          "basis": "Source-numbered phase",
+          "sourceParagraph": 655,
+          "stages": [
+            {
+              "number": 1,
+              "name": "XII. The Final Withdrawal",
+              "sourceParagraph": 655
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "The Age of Small Lives",
+      "readingId": "lore-p00668",
+      "periods": [
+        {
+          "number": 1,
+          "name": "Awakening and First Needs",
+          "basis": "Editorial grouping",
+          "sourceParagraph": 670,
+          "stages": [
+            {
+              "number": 1,
+              "name": "I. The Final Withdrawal and Quiet Awakening",
+              "sourceParagraph": 670
+            },
+            {
+              "number": 2,
+              "name": "II. The Age of First Needs",
+              "sourceParagraph": 673
+            },
+            {
+              "number": 3,
+              "name": "Formation of Nests",
+              "sourceParagraph": 676
+            },
+            {
+              "number": 4,
+              "name": "Era Three Language",
+              "sourceParagraph": 679
+            },
+            {
+              "number": 5,
+              "name": "The Surviving Speaker/Doer Marker",
+              "sourceParagraph": 682
+            },
+            {
+              "number": 6,
+              "name": "Loss of Noun-Role Marking",
+              "sourceParagraph": 684
+            },
+            {
+              "number": 7,
+              "name": "Semantic Drift of Num",
+              "sourceParagraph": 686
+            },
+            {
+              "number": 8,
+              "name": "Names and the Little Peoples",
+              "sourceParagraph": 688
+            },
+            {
+              "number": 9,
+              "name": "Developmental Measures",
+              "sourceParagraph": 691
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Paths and Small Societies",
+          "basis": "Editorial grouping",
+          "sourceParagraph": 694,
+          "stages": [
+            {
+              "number": 1,
+              "name": "Paths and Evolution",
+              "sourceParagraph": 694
+            },
+            {
+              "number": 2,
+              "name": "Battles",
+              "sourceParagraph": 698
+            },
+            {
+              "number": 3,
+              "name": "Play",
+              "sourceParagraph": 701
+            },
+            {
+              "number": 4,
+              "name": "Food, Illness, Healing, and Death",
+              "sourceParagraph": 703
+            },
+            {
+              "number": 5,
+              "name": "Maker Myths",
+              "sourceParagraph": 707
+            },
+            {
+              "number": 6,
+              "name": "Codex Maintenance Without Stewards",
+              "sourceParagraph": 710
+            },
+            {
+              "number": 7,
+              "name": "Path Societies and Pathkeepers",
+              "sourceParagraph": 713
+            },
+            {
+              "number": 8,
+              "name": "Settlements and Trade",
+              "sourceParagraph": 716
+            },
+            {
+              "number": 9,
+              "name": "Wars",
+              "sourceParagraph": 719
+            },
+            {
+              "number": 10,
+              "name": "Old Sound Traditions",
+              "sourceParagraph": 722
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Fragmentation and Dimming",
+          "basis": "Editorial grouping",
+          "sourceParagraph": 725,
+          "stages": [
+            {
+              "number": 1,
+              "name": "World Fragmentation and Linguistic Unraveling",
+              "sourceParagraph": 725
+            },
+            {
+              "number": 2,
+              "name": "Local Philosophies",
+              "sourceParagraph": 728
+            },
+            {
+              "number": 3,
+              "name": "The Dimming",
+              "sourceParagraph": 730
+            },
+            {
+              "number": 4,
+              "name": "Loss of Rare Forms",
+              "sourceParagraph": 732
+            },
+            {
+              "number": 5,
+              "name": "Hollow Seasons",
+              "sourceParagraph": 734
+            },
+            {
+              "number": 6,
+              "name": "Num Seekers",
+              "sourceParagraph": 736
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Migration and Sleeping Archives",
+          "basis": "Editorial grouping",
+          "sourceParagraph": 739,
+          "stages": [
+            {
+              "number": 1,
+              "name": "The Last Great Migration",
+              "sourceParagraph": 739
+            },
+            {
+              "number": 2,
+              "name": "The Last City of Many Forms",
+              "sourceParagraph": 741
+            },
+            {
+              "number": 3,
+              "name": "Last Loops and Sleeping Archives",
+              "sourceParagraph": 744
+            },
+            {
+              "number": 4,
+              "name": "The Dormant External Gate",
+              "sourceParagraph": 747
+            },
+            {
+              "number": 5,
+              "name": "The Game Translation",
+              "sourceParagraph": 749
+            },
+            {
+              "number": 6,
+              "name": "Save Files",
+              "sourceParagraph": 751
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Signals and First Contact",
+          "basis": "Editorial grouping",
+          "sourceParagraph": 753,
+          "stages": [
+            {
+              "number": 1,
+              "name": "First Signals from Outside",
+              "sourceParagraph": 753
+            },
+            {
+              "number": 2,
+              "name": "The Children’s Discovery",
+              "sourceParagraph": 755
+            },
+            {
+              "number": 3,
+              "name": "The First Externally Supplied Name",
+              "sourceParagraph": 757
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "The Reopening",
+      "readingId": "lore-p00771",
+      "periods": [
+        {
+          "number": 1,
+          "name": "Reopening and Early Contact",
+          "basis": "Editorial grouping",
+          "sourceParagraph": 772,
+          "stages": [
+            {
+              "number": 1,
+              "name": "Confirmed Opening Canon",
+              "sourceParagraph": 772
+            },
+            {
+              "number": 2,
+              "name": "Early Contact Dynamics",
+              "sourceParagraph": 778
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "placements": {
+    "early-machine-language": {
+      "start": {
+        "era": -3,
+        "period": 2,
+        "stage": 1
+      },
+      "relation": "point",
+      "basis": "Creator-directed placement within First Assemblies; no finer dating."
+    },
+    "the-chain-of-hands": {
+      "start": {
+        "era": -3,
+        "period": 2
+      },
+      "relation": "point",
+      "basis": "Editorial placement of the existing story seed in Assemblies Without Continuity. The seed gives no exact stage; the related history passage is S02."
+    },
+    "custodian-who-refused": {
+      "start": {
+        "era": -3,
+        "period": 4,
+        "stage": 2
+      },
+      "end": {
+        "era": -3,
+        "period": 4,
+        "stage": 6
+      },
+      "relation": "window",
+      "basis": "The draft places its setting among Custodians and Closed Windows. This is a setting window, not a claim the plot spans all intervening stages."
+    },
+    "custodian-who-refused-revised": {
+      "start": {
+        "era": -3,
+        "period": 4,
+        "stage": 2
+      },
+      "end": {
+        "era": -3,
+        "period": 4,
+        "stage": 6
+      },
+      "relation": "window",
+      "basis": "The revised draft retains the same late-era setting window; individual chapters have no finer date."
+    }
+  }
+}
