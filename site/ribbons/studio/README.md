@@ -1,37 +1,31 @@
-# Ribbon studio
+# Creative Ribbon Studio — version 3
 
-Open `index.html` through the Atlas website or a local HTTP server. The cabinet contains original independent PixelLab pieces and the sixteen existing quarter-award components. New artwork was generated against those references; no parts were cut out of a finished award. Original source pixels and provenance are preserved. The display fits ribbon bodies to 288 pixels high, pendant medals to 184, rosette heads to 152, and clasp bars to 92 pixels wide, using nearest-neighbor rendering. All sizes and positions are adjustable. The complete export canvas is 512 × 640 with transparency.
+The existing 40-part cabinet, material tinting and rotation are retained. New designs support up to 64 layers; old RBN1 version-1 and version-2 recipes remain readable. Extended designs use version 3 inside the same checksummed envelope. Imported images are decoded locally, reduced to at most 256 pixels per side, and embedded as PNGs. Recipes never fetch external artwork or run code. Exported recipes are limited to 3 MB.
 
-## Use
+## Create and arrange
 
-1. Click a part to add it; select it in Layers or directly on the preview.
-2. Drag to move, or use the position and size controls. Forward/Backward controls stacking. Duplicate adds another copy for repeated clasps or trim.
-3. Choose Whole layer to recolor that part. Choose One colour family, then Pick a colour and click a visible pixel of the selected part to recolor just similar hues. The range slider controls hue matching. This is hue selection, not semantic fabric/metal detection: if two materials share a hue, both may change. Shadows and highlights are retained. Original colours restores the source.
-4. Copy code or download the recipe. Paste it into a conversation with Codex to reproduce the exact design. Load pasted code restores a design. Download PNG exports only the art, without the preview background or selection outline.
+Use **Add lettering** to write on seals, locks, clasps or medals. The lettering is a separate movable layer: select it together with its background and group them. Styles include plain, engraved, raised and glowing, with color, font and size controls. Use **Add picture** for an emblem or pet portrait; **Draw pixel emblem** opens a 16-by-16 editable grid. Emblems support circle, shield, scalloped seal, square and opening-locket frames.
 
-Autosave is local to this browser and origin. Recipe files are portable. No login, AI generation, network upload, student save changes, or gameplay grants happen while using the designer. All recoloring is local and spends no PixelLab generations. New part generation was a one-time creation step.
+Shift-click layer rows for multiple selection. Group/ungroup, lock/unlock, linked mirror copies, unlink, center, center alignment and spacing controls operate on the selection. Dragging a group preserves its offsets. Locked layers cannot be dragged or edited. Mirrored partners follow edits across the center of the 512-by-640 canvas. The snap toggle controls the 8-pixel grid; the visible center guide shares that grid. Old rotation and source-pixel color picking work with mirrored layers.
 
-## Recipe contract
+## Keep designs and matching sets
 
-`RBN1.<base64url UTF-8 JSON>.<FNV-1a-32 checksum of JSON>`
+The browser cabinet uses IndexedDB and retains named thumbnails and five earlier saved versions per design. Save as new duplicates a design. Gold/silver/bronze and quarterly sets share a set identifier; updating a set propagates the current layout and award text while preserving variant colors and layers marked unique. Cabinet storage is local to this browser and origin. Download recipes as independent backups. Legacy draft autosave remains available.
 
-The checksum detects accidental copy errors; it is not authentication. The strict decoder limits codes to 40,000 characters and 24 layers, checks the library/version, known part IDs, colors and finite position/scale bounds, then discards extra fields. Recipes cannot load external URLs or execute code. Never repurpose an existing part ID for different art; publish a new library version when changing existing artwork after release.
+## Motion and exports
 
-JSON fields: version=1, library="ornate-v1", name (up to 80 characters), layers ordered back-to-front. Each layer has part, x (center), y (top), scale, visible, mode (original/all/family), color, source and tolerance. Catalog parts contain immutable source file/hash, alpha bounds and default display width/height and position. `model.mjs` is the authoritative portable decoder and recolor implementation. The UI crops only transparent margins at draw time; the PNG files remain unchanged. `catalog.json` preserves PixelLab job IDs and source paths. `generation-record.json` retains generation and repair receipts.
+Each layer supports up to six effects: shine, foil, hologram, gemstone highlights, sparkles, glow, runes, orbiting stars/moons/crystals, flutter and sway. Each has color, speed, intensity and continuous/hover/click playback. Three reveal styles and interactive locket opening are included. Motion pauses when the document is hidden; reduced-motion mode keeps a still presentation and immediate locket opening. The editor updates at most 24 times per second.
 
-Run checks: `node --test model.test.mjs` from this directory. Render a code by loading it in the studio and exporting PNG; this uses the same rendering path as the live preview, without the editing outline. Designs are visual proposals; the game’s award catalog remains authoritative for criteria and rewards.
+PNG exports remain transparent and omit selection marks. Animated PNG export renders 48 lossless frames at 12 fps with transparent backgrounds. Export triggers are deliberately played for the recording. Character-card, award-popup and print-size previews use the same renderer. Award-card export includes the name, description, criteria and artwork.
 
-## Separate gemstones and leaves
+## Classroom recognition
 
-Gem-bearing and leaf-bearing parts now have independent **Tint gemstones** and **Tint leaves** controls. The rest of a part (metal, ribbon or other decoration) uses the existing recolour controls. New parts keep materials separate by default; old recipes retain their exact rendering until you enable separation or a material tint. Metal preset buttons enable separation automatically. Uncheck a material tint to restore its original pixels.
+Download a **teacher review package**, then open it under Custom Ribbon Studio award in the authenticated character manager. The teacher sees its artwork, name and earning criteria before assignment. Assignment/removal uses existing revision checks, immutable backups and explicit ribbon decisions. No student data is changed by using the studio or importing a review package.
 
-Selections are explicit pixel runs in `material-selections.json`, using original PNG coordinates. They select the visible gem interior or leafwork without replacing source artwork. Leafwork includes stems and the raised leaf decoration on the oak shield. Source PNGs, IDs, hashes and provenance remain unchanged. Tinting preserves original lightness differences, saturation variation, shadows and white highlights. Preview and PNG export share the same renderer. Optional `materialColors` recipe fields (`gem` / `leaf`, hex colour or null for original) persist through undo, duplication, autosave and recipe round-trips; absent fields retain legacy behaviour.
+Packages contain a portable recipe, 512-by-640 still and a 12-frame 128-by-160 animation strip. Up to twelve cosmetic custom ribbons may be assigned per character. The game applies them through its authenticated entry-time ribbon sync, saves them, displays them in the character's honors row and prints their still artwork. In-game playback uses the compact baked animation; editable hover/click triggers and the full interactive locket remain studio features. Custom awards grant no levels, XP or stat bonuses.
 
-Regenerate reviewed selections with `python3 tools/build_ribbon_materials.py` (Pillow). Run `node --test tests/ribbon-materials.test.mjs` from the repository root to check artwork hashes, selection bounds, recipe compatibility and independent tint behaviour.
+Validation includes old recipe/material/rotation tests, creative recipe and editing regressions, APNG checksums, a Node DOM/Canvas runtime harness, teacher API grant/removal checks, and isolated Godot save/sync/printing/render tests. Interactive browser QA is unavailable while local browser control is disabled in Work settings.
 
+## Portable format and provenance
 
-## Rotation
-
-Select any layer, then enter Rotation (degrees), use the ±15° buttons, or Reset rotation. Each part rotates around its own displayed center. Move, resize, layer order, material tinting, pixel picking, undo/redo, duplication, browser drafts and transparent PNG export retain the angle. Position remains the unrotated top-center.
-
-The RBN1 envelope and checksum are unchanged. Unrotated legacy recipes retain version 1; recipes with a nonzero rotation use JSON version 2 and a finite per-layer rotation from −180 through 180 degrees. New code reads both versions; older designers reject version 2 instead of silently discarding the angle. Missing rotation means zero. Source artwork and part hashes are unchanged.
+`RBN1.<base64url UTF-8 JSON>.<FNV-1a-32 checksum>` remains the portable envelope. The checksum detects copy errors, not author identity. Version 3 carries custom layers, group and mirror IDs, lock state, effects, set information and award text. Known-part IDs, finite transforms, image dimensions, colors, effect counts and text lengths are bounded before a recipe replaces the current design. Catalog source hashes, source paths, material masks and original PixelLab generation records remain unchanged.

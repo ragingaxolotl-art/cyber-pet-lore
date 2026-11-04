@@ -1,0 +1,5 @@
+const dbPromise=()=>new Promise((resolve,reject)=>{const request=indexedDB.open('cyberpath-ribbon-cabinet',1);request.onupgradeneeded=()=>request.result.createObjectStore('designs',{keyPath:'id'});request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(request.error);});
+async function transaction(mode,run){const db=await dbPromise();try{return await new Promise((resolve,reject)=>{const tx=db.transaction('designs',mode);const request=run(tx.objectStore('designs'));let result;request.onsuccess=()=>{result=request.result;};tx.oncomplete=()=>resolve(result);tx.onerror=()=>reject(tx.error);tx.onabort=()=>reject(tx.error||Error('Cabinet save was interrupted.'));});}finally{db.close();}}
+export const listDesigns=async()=>((await transaction('readonly',s=>s.getAll()))||[]).sort((a,b)=>b.updated-a.updated);
+export async function saveDesign(entry){await transaction('readwrite',s=>s.put(entry));return entry;}
+export const deleteDesign=id=>transaction('readwrite',s=>s.delete(id));

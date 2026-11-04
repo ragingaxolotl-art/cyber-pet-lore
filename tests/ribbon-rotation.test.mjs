@@ -10,7 +10,7 @@ test('legacy codes retain exact content; angles and material tints survive porta
  const decorated=catalog.parts.find(p=>p.materials?.includes('gem')),layer={...createLayer(decorated),rotation:45,materialColors:{gem:'#abcdef'}};assert.deepEqual(decodeRecipe(encodeRecipe({...recipe,layers:[layer]},catalog),catalog).layers,[layer]);
 });
 test('unsafe angles and unsupported recipe versions are rejected',()=>{
- for(const rotation of [Infinity,NaN,'90',null,181,-181])assert.throws(()=>validateRecipe({...recipe,layers:[{...recipe.layers[0],rotation}]},catalog));assert.throws(()=>validateRecipe({...recipe,version:3},catalog));
+ for(const rotation of [Infinity,NaN,'90',null,181,-181])assert.throws(()=>validateRecipe({...recipe,layers:[{...recipe.layers[0],rotation}]},catalog));assert.throws(()=>validateRecipe({...recipe,version:4},catalog));
 });
 test('selection and color sampling invert rotation around the same center as drawing',()=>{
  const p={width:20,height:100},layer={x:100,y:50,scale:1,visible:true,rotation:90},b=bounds(layer,p),cx=b.x+b.w/2,cy=b.y+b.h/2;
