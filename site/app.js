@@ -76,6 +76,7 @@ function renderLibrary(){
 }
 function renderBlocks(){
  const parent=$('reading-text');clearReferenceArt();parent.replaceChildren();const r=record(current.id);
+ if(current.id==='reference-ribbons'){const gallery=node('aside',undefined,'reference-gallery-link');gallery.append(node('p','Browse ribbons side by side, preview their meanings, and explore High Honors display cards.'));const link=node('a','Open the ribbon gallery →');link.href='ribbons/';gallery.append(link);parent.append(gallery);}
  for(const block of currentContent.blocks){
   let tag='p';const style=String(block.style||'');if(/TITLE|HEADING_1|^h1$|^h2$/i.test(style))tag='h2';else if(/HEADING_2|^h3$/i.test(style))tag='h3';else if(/HEADING_[3-6]|^h4$/i.test(style))tag='h4';else if(/^>/.test(block.text))tag='blockquote';
   const el=node(tag,undefined,'reading-block');el.dataset.block=block.id;el.id='block-'+block.id;

@@ -3,14 +3,14 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createLayer,encodeRecipe,decodeRecipe,validateRecipe,bounds,hits,localPoint,drawLayer} from '../site/ribbons/studio/model.mjs';
 const catalog=JSON.parse(readFileSync(new URL('../site/ribbons/studio/catalog.json',import.meta.url))),part=catalog.parts[0];
-const recipe={version:1,library:catalog.library,name:'Rotated ribbon',layers:[createLayer(part)]};
+const recipe={version:1,library:catalog.library,name:'Rotated ribbon',layers:[{...createLayer(part),materialColors:undefined}]};
 test('legacy codes retain exact content; angles and material tints survive portable round trips',()=>{
- const old=encodeRecipe(recipe,catalog);assert.deepEqual(decodeRecipe(old,catalog),recipe);assert.equal(encodeRecipe(decodeRecipe(old,catalog),catalog),old);
+ delete recipe.layers[0].materialColors;const old=encodeRecipe(recipe,catalog);assert.deepEqual(decodeRecipe(old,catalog),recipe);assert.equal(encodeRecipe(decodeRecipe(old,catalog),catalog),old);
  for(const rotation of [-180,-90,-12.5,0,15,90,180]){const layer={...recipe.layers[0],rotation},r={...recipe,layers:[layer]},decoded=decodeRecipe(encodeRecipe(r,catalog),catalog);assert.equal(decoded.version,rotation?2:1);assert.deepEqual(decoded.layers,[layer]);}
  const decorated=catalog.parts.find(p=>p.materials?.includes('gem')),layer={...createLayer(decorated),rotation:45,materialColors:{gem:'#abcdef'}};assert.deepEqual(decodeRecipe(encodeRecipe({...recipe,layers:[layer]},catalog),catalog).layers,[layer]);
 });
 test('unsafe angles and unsupported recipe versions are rejected',()=>{
- for(const rotation of [Infinity,NaN,'90',null,181,-181])assert.throws(()=>validateRecipe({...recipe,layers:[{...recipe.layers[0],rotation}]},catalog));assert.throws(()=>validateRecipe({...recipe,version:4},catalog));
+ for(const rotation of [Infinity,NaN,'90',null,181,-181])assert.throws(()=>validateRecipe({...recipe,layers:[{...recipe.layers[0],rotation}]},catalog));assert.throws(()=>validateRecipe({...recipe,version:99},catalog));
 });
 test('selection and color sampling invert rotation around the same center as drawing',()=>{
  const p={width:20,height:100},layer={x:100,y:50,scale:1,visible:true,rotation:90},b=bounds(layer,p),cx=b.x+b.w/2,cy=b.y+b.h/2;

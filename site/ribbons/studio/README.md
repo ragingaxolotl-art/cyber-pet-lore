@@ -1,6 +1,6 @@
-# Creative Ribbon Studio — version 3
+# Creative Ribbon Studio — version 4
 
-The existing 40-part cabinet, material tinting and rotation are retained. New designs support up to 64 layers; old RBN1 version-1 and version-2 recipes remain readable. Extended designs use version 3 inside the same checksummed envelope. Imported images are decoded locally, reduced to at most 256 pixels per side, and embedded as PNGs. Recipes never fetch external artwork or run code. Exported recipes are limited to 3 MB.
+The expanded PixelLab parts cabinet, material tinting and rotation are retained. New designs support up to 64 layers; old RBN1 version-1 and version-2 and version-3 recipes remain readable. Extended designs use version 4 inside the same checksummed envelope. Imported images are decoded locally, reduced to at most 256 pixels per side, and embedded as PNGs. Recipes never fetch external artwork or run code. Exported recipes are limited to 3 MB.
 
 ## Create and arrange
 
@@ -28,4 +28,6 @@ Validation includes old recipe/material/rotation tests, creative recipe and edit
 
 ## Portable format and provenance
 
-`RBN1.<base64url UTF-8 JSON>.<FNV-1a-32 checksum>` remains the portable envelope. The checksum detects copy errors, not author identity. Version 3 carries custom layers, group and mirror IDs, lock state, effects, set information and award text. Known-part IDs, finite transforms, image dimensions, colors, effect counts and text lengths are bounded before a recipe replaces the current design. Catalog source hashes, source paths, material masks and original PixelLab generation records remain unchanged.
+`RBN1.<base64url UTF-8 JSON>.<FNV-1a-32 checksum>` remains the portable envelope. The checksum detects copy errors, not author identity. Version 4 carries custom layers, group and mirror IDs, lock state, effects, set information and award text. Known-part IDs, finite transforms, image dimensions, colors, effect counts and text lengths are bounded before a recipe replaces the current design. Catalog source hashes, source paths, material masks and original PixelLab generation records remain unchanged.
+
+The expanded cabinet, independent metal/fabric/gem/leaf palettes, collection filters, lazy image loading and fragment-based horizontal particle orbits from the concurrent November 3 release are preserved. Version-3 material/orbit recipes remain readable and retain those settings.
