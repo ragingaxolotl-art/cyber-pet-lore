@@ -76,6 +76,10 @@ for number,start,title,subtitle,summary,human_label,human_text,human_refs,featur
   if i==741:uncertainty=['The Last City may be a merged memory of several regions.']
   if i==757:uncertainty=['The pet may already have a local name; acceptance, alteration, or refusal of the outside name is not fixed.']
   events.append({'id':f'event-{i}', 'title':text_at(i),'paragraph':i,'status':label,'text':paragraphs,'uncertainty':uncertainty,'source':reference(i)})
+ if number == -3:
+  language = next(e for e in json.loads((ROOT/'sources/era-three-history.json').read_text())['fiction'] if e['id']=='early-machine-language')
+  at = next(i for i,e in enumerate(events) if e['paragraph']==58)+1
+  events.insert(at, {'id':'event-early-machine-language','kind':'creator-directed-placement','sourceRecord':'early-machine-language','title':language['title'],'status':language['status'],'text':[language['placement']+'. '+language['text']],'uncertainty':['No fictional calendar date is assigned. October 10 identifies the preserved software version.'],'source':{'label':'Explore the preserved early machine language →','href':language['artifactUrl']}})
  # All unresolved questions are adjacent to the era, never silently resolved.
  doubts=[]
  for b in blocks[position[uncertain_start]+1:]:

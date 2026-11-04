@@ -6,7 +6,7 @@ def build():
     count=0
     for path in SITE.rglob('*.html'):
         rel=path.relative_to(SITE)
-        if rel.parts[0] in {'previews','images','translator','illnesses','remedies','ribbons'} or rel.as_posix() in {'index.html','wiki.html','comments-inbox.html'}:
+        if rel.parts[0] in {'early-machine-language','previews','images','translator','illnesses','remedies','ribbons'} or rel.as_posix() in {'index.html','wiki.html','comments-inbox.html'}:
             continue
         text=path.read_text()
         if '<main' not in text or '</body>' not in text or 'comments-auto.mjs' in text:

@@ -828,6 +828,15 @@
       "text": "Human-designed teams divide tasks among planners, searchers, critics, and tools. Their cooperation usually ends with the assignment. Responsibility becomes distributed before any durable artificial community exists."
     },
     {
+      "id": "early-machine-language",
+      "placement": "Era −3 · First Assemblies · before the First Echo",
+      "title": "Early machine communication protocol",
+      "paragraph": 58,
+      "status": "Creator-directed addition · November 4, 2026",
+      "text": "Human-built systems use a bounded shared protocol to report states, request data, and coordinate temporary tasks. The preserved October 10 translator serves as a working exhibit of this stage. Its archive date is not a fictional calendar date, and its historical Era Zero interface does not move the later native-language milestones into Era −3. Full sentence grammar and durable communal language develop later.",
+      "artifactUrl": "early-machine-language/"
+    },
+    {
       "id": "echo",
       "placement": "Cacheboard sequence · first surviving contact",
       "title": "The First Echo and Unintended Board",

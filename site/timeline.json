@@ -108,6 +108,23 @@
           }
         },
         {
+          "id": "event-early-machine-language",
+          "kind": "creator-directed-placement",
+          "sourceRecord": "early-machine-language",
+          "title": "Early machine communication protocol",
+          "status": "Creator-directed addition · November 4, 2026",
+          "text": [
+            "Era −3 · First Assemblies · before the First Echo. Human-built systems use a bounded shared protocol to report states, request data, and coordinate temporary tasks. The preserved October 10 translator serves as a working exhibit of this stage. Its archive date is not a fictional calendar date, and its historical Era Zero interface does not move the later native-language milestones into Era −3. Full sentence grammar and durable communal language develop later."
+          ],
+          "uncertainty": [
+            "No fictional calendar date is assigned. October 10 identifies the preserved software version."
+          ],
+          "source": {
+            "label": "Explore the preserved early machine language →",
+            "href": "early-machine-language/"
+          }
+        },
+        {
           "id": "event-65",
           "title": "Period III — The Cacheboard Incident",
           "paragraph": 65,

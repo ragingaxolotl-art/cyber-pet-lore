@@ -32,8 +32,10 @@ def add_era_three_history(root, catalog, sources):
     for event in data['fiction']:
         key = 'fiction-' + event['id']
         block(key, event['placement'] + ' — ' + event['title'], 'HEADING_3')
-        block(key + '-text', 'FICTION · Existing lore, summarized. ' + event['text'])
-        block(key + '-source', 'Read the original fictional history →', href='#read=lore-p00039&block=lore-p' + str(event['paragraph']).zfill(5))
+        block(key + '-text', 'FICTION · ' + event.get('status', 'Existing lore, summarized') + '. ' + event['text'])
+        if event.get('artifactUrl'):
+            block(key + '-artifact', 'Open the early machine language archive →', href=event['artifactUrl'])
+        block(key + '-source', 'Read the connected fictional history →', href='#read=lore-p00039&block=lore-p' + str(event['paragraph']).zfill(5))
     block('connection-summary', 'Where reality and Cyberpath connect', 'HEADING_2')
     block('synthesis', data['synthesis'])
     content = root / 'site/content'
