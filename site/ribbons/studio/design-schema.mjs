@@ -18,6 +18,7 @@ export function pngData(value){
 }
 export function extraLayer(l){
  const out={};
+ if(l.opacity!==undefined){if(!finite(l.opacity,0,1))fail();out.opacity=l.opacity;}
  for(const key of ['uid','group','mirror'])if(l[key]!==undefined){if(!text(l[key],64)||!/^[a-zA-Z0-9_-]*$/.test(l[key]))fail();out[key]=l[key];}
  for(const key of ['locked','flip','setOverride'])if(l[key]!==undefined){if(typeof l[key]!=='boolean')fail();out[key]=l[key];}
  if(l.custom!==undefined){const c=l.custom;if(!c||!['text','emblem','pixels'].includes(c.type)||l.part!==`custom-${c.type==='text'?'text':c.type==='emblem'?'emblem':'pixels'}`)fail();

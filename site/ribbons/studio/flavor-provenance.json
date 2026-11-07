@@ -1,0 +1,593 @@
+{
+  "parts": [
+    {
+      "id": "flavor-industrial-service-insignia-bar",
+      "style": "Industrial service insignia",
+      "role": "bar",
+      "job": "4e5082e1-3cf3-495e-937d-8da6c3733689",
+      "source": "/tmp/ribbon-assembly/assets/4e5082e1-3cf3-495e-937d-8da6c3733689.png",
+      "sha256": "dc1601bb9ef79008bfc6a96b8038de3cffa7df2f4e4e821337443e497d4409be",
+      "url": "https://api.pixellab.ai/mcp/images/4e5082e1-3cf3-495e-937d-8da6c3733689/download"
+    },
+    {
+      "id": "flavor-industrial-service-insignia-frame",
+      "style": "Industrial service insignia",
+      "role": "frame",
+      "job": "92dbb64a-aa72-488b-89e0-7f0e64dc6541",
+      "source": "/tmp/ribbon-assembly/assets/92dbb64a-aa72-488b-89e0-7f0e64dc6541.png",
+      "sha256": "a31fae4cb60e261d9802261fbdb4565ce7520a83ea5cf0e8140d429c907d39ac",
+      "url": "https://api.pixellab.ai/mcp/images/92dbb64a-aa72-488b-89e0-7f0e64dc6541/download"
+    },
+    {
+      "id": "flavor-industrial-service-insignia-suspension",
+      "style": "Industrial service insignia",
+      "role": "suspension",
+      "job": "1dcf2072-4ff7-497f-a74b-611202465cf2",
+      "source": "/tmp/ribbon-assembly/assets/1dcf2072-4ff7-497f-a74b-611202465cf2.png",
+      "sha256": "0324099fff956b4fbe85c584941737dc2d900fe63b794f0f440bf164705bcb08",
+      "url": "https://api.pixellab.ai/mcp/images/1dcf2072-4ff7-497f-a74b-611202465cf2/download"
+    },
+    {
+      "id": "flavor-industrial-service-insignia-stud",
+      "style": "Industrial service insignia",
+      "role": "stud",
+      "job": "9b938be2-4cec-4bbf-9404-b9de0cec15bf",
+      "source": "/tmp/ribbon-assembly/assets/9b938be2-4cec-4bbf-9404-b9de0cec15bf.png",
+      "sha256": "edba51ef3af430071126b55f4cf5c4d51458911f66c4f3afcb1900dbdb84d191",
+      "url": "https://api.pixellab.ai/mcp/images/9b938be2-4cec-4bbf-9404-b9de0cec15bf/download"
+    },
+    {
+      "id": "flavor-art-deco-stud-frame",
+      "style": "Art Deco stud",
+      "role": "frame",
+      "job": "62d9d259-1793-4e61-9d79-6ed6a4c6ad06",
+      "source": "/tmp/ribbon-assembly/assets/62d9d259-1793-4e61-9d79-6ed6a4c6ad06.png",
+      "sha256": "4ce47a5ec4dbd9d01202f43131b93b2bc135a90bc45abf889f89f23ffcce4b51",
+      "url": "https://api.pixellab.ai/mcp/images/62d9d259-1793-4e61-9d79-6ed6a4c6ad06/download"
+    },
+    {
+      "id": "flavor-art-deco-stud-gem",
+      "style": "Art Deco stud",
+      "role": "gem",
+      "job": "31b9206a-bddf-4da3-996a-760b67baef75",
+      "source": "/tmp/ribbon-assembly/assets/31b9206a-bddf-4da3-996a-760b67baef75.png",
+      "sha256": "1d98d52829b6133603714f1d09f64ff25a3682f69ad07e6dc12c72dd1659b445",
+      "url": "https://api.pixellab.ai/mcp/images/31b9206a-bddf-4da3-996a-760b67baef75/download"
+    },
+    {
+      "id": "flavor-art-deco-stud-tails",
+      "style": "Art Deco stud",
+      "role": "tails",
+      "job": "d51fe21a-1770-48ce-96d4-1d47bd86f520",
+      "source": "/tmp/ribbon-assembly/assets/d51fe21a-1770-48ce-96d4-1d47bd86f520.png",
+      "sha256": "2b34fbea454f1f2f4bac49944af509cfe971f883431542bf421ea0511271a3a4",
+      "url": "https://api.pixellab.ai/mcp/images/d51fe21a-1770-48ce-96d4-1d47bd86f520/download"
+    },
+    {
+      "id": "flavor-art-nouveau-botanical-long-tails",
+      "style": "Art Nouveau botanical",
+      "role": "long-tails",
+      "job": "6f250f4d-859d-4164-915c-64456504160f",
+      "source": "/tmp/ribbon-assembly/assets/6f250f4d-859d-4164-915c-64456504160f.png",
+      "sha256": "e801f78c4fa05d645156f5e217b4057a7f3973965e5ffee194527fdc13615ad5",
+      "url": "https://api.pixellab.ai/mcp/images/6f250f4d-859d-4164-915c-64456504160f/download"
+    },
+    {
+      "id": "flavor-art-nouveau-botanical-frame",
+      "style": "Art Nouveau botanical",
+      "role": "frame",
+      "job": "3b3f988e-5cb2-40bd-a8ec-e980a553727e",
+      "source": "/tmp/ribbon-assembly/assets/3b3f988e-5cb2-40bd-a8ec-e980a553727e.png",
+      "sha256": "281e6e377314bda76484fe87c5982e2baab3728001781c8f3249fb61287cc4f3",
+      "url": "https://api.pixellab.ai/mcp/images/3b3f988e-5cb2-40bd-a8ec-e980a553727e/download"
+    },
+    {
+      "id": "flavor-art-nouveau-botanical-gem",
+      "style": "Art Nouveau botanical",
+      "role": "gem",
+      "job": "d3a4da96-9072-431c-ac5c-5216174b0e23",
+      "source": "/tmp/ribbon-assembly/assets/d3a4da96-9072-431c-ac5c-5216174b0e23.png",
+      "sha256": "e77d7ee2cf5d9d795b05a8ea0ea64418612225d7fddbcdf47c6cf2ac319fd29f",
+      "url": "https://api.pixellab.ai/mcp/images/d3a4da96-9072-431c-ac5c-5216174b0e23/download"
+    },
+    {
+      "id": "flavor-art-nouveau-botanical-clasp",
+      "style": "Art Nouveau botanical",
+      "role": "clasp",
+      "job": "e86a7c3c-93af-4313-8145-8733be6f4ec1",
+      "source": "/tmp/ribbon-assembly/assets/e86a7c3c-93af-4313-8145-8733be6f4ec1.png",
+      "sha256": "bbe425487a0e538fe3bcf6337f455fe4d72b6f62fa09cd930eadba05065d70da",
+      "url": "https://api.pixellab.ai/mcp/images/e86a7c3c-93af-4313-8145-8733be6f4ec1/download"
+    },
+    {
+      "id": "flavor-gothic-architectural-long-tails",
+      "style": "Gothic architectural",
+      "role": "long-tails",
+      "job": "7815eed9-2341-4540-82d3-e4ff0a1e45f2",
+      "source": "/tmp/ribbon-assembly/assets/7815eed9-2341-4540-82d3-e4ff0a1e45f2.png",
+      "sha256": "7cbb4f33595c1d3bf34e089c4f271732371475a9ca65140d437aab1fec49ddaf",
+      "url": "https://api.pixellab.ai/mcp/images/7815eed9-2341-4540-82d3-e4ff0a1e45f2/download"
+    },
+    {
+      "id": "flavor-gothic-architectural-frame",
+      "style": "Gothic architectural",
+      "role": "frame",
+      "job": "af6b9f87-3bb3-4bdf-9b23-ddd97354ba17",
+      "source": "/tmp/ribbon-assembly/assets/gothic-solid-frame.png",
+      "sha256": "45f57bb0733b9f28e1d452eb60f68b676cf35eb555dd2086ee58957c9bf742f2",
+      "url": "https://api.pixellab.ai/mcp/pixel-tools/991b1e87-61a8-4f73-92ca-ea9d36ba8929/image.png"
+    },
+    {
+      "id": "flavor-gothic-architectural-gem",
+      "style": "Gothic architectural",
+      "role": "gem",
+      "job": "d7fa6182-ff7e-486a-9036-3899fd3614c3",
+      "source": "/tmp/ribbon-assembly/assets/d7fa6182-ff7e-486a-9036-3899fd3614c3.png",
+      "sha256": "607dc7d0bc5999116ecf1a77c12377f63653c47acc135e26d7232cc19aaf74ae",
+      "url": "https://api.pixellab.ai/mcp/images/d7fa6182-ff7e-486a-9036-3899fd3614c3/download"
+    },
+    {
+      "id": "flavor-gothic-architectural-clasp",
+      "style": "Gothic architectural",
+      "role": "clasp",
+      "job": "ba5790b3-e972-4676-889b-9c8b1bce39c2",
+      "source": "/tmp/ribbon-assembly/assets/ba5790b3-e972-4676-889b-9c8b1bce39c2.png",
+      "sha256": "3bb6b258cae27aa38c8144adab95ded7b7ed7534adef36c1479e0d22c82c269b",
+      "url": "https://api.pixellab.ai/mcp/images/ba5790b3-e972-4676-889b-9c8b1bce39c2/download"
+    },
+    {
+      "id": "flavor-folk-textile-embroidered-long-tails",
+      "style": "Folk textile / embroidered",
+      "role": "long-tails",
+      "job": "ac4e5955-603e-43e8-bbee-1f21d7d94c4f",
+      "source": "/tmp/ribbon-assembly/assets/ac4e5955-603e-43e8-bbee-1f21d7d94c4f.png",
+      "sha256": "b1a0e634f170dccfc500fac2c63f06ea40152602705af61d5845e21939a6fa0c",
+      "url": "https://api.pixellab.ai/mcp/images/ac4e5955-603e-43e8-bbee-1f21d7d94c4f/download"
+    },
+    {
+      "id": "flavor-folk-textile-embroidered-frame",
+      "style": "Folk textile / embroidered",
+      "role": "frame",
+      "job": "602a52f4-dc3c-4b1c-9f00-2ea2ec7c1085",
+      "source": "/tmp/ribbon-assembly/assets/602a52f4-dc3c-4b1c-9f00-2ea2ec7c1085.png",
+      "sha256": "eee02f773b9efdb7b4a126243cdd919230749157135b825e142310531e8754d3",
+      "url": "https://api.pixellab.ai/mcp/images/602a52f4-dc3c-4b1c-9f00-2ea2ec7c1085/download"
+    },
+    {
+      "id": "flavor-folk-textile-embroidered-stud",
+      "style": "Folk textile / embroidered",
+      "role": "stud",
+      "job": "0321759a-f60c-4d66-a656-cca9c506c5d3",
+      "source": "/tmp/ribbon-assembly/assets/0321759a-f60c-4d66-a656-cca9c506c5d3.png",
+      "sha256": "fb0d191688aed1b729e04102786217e30683db09cbf5f9cc79e432517f74901f",
+      "url": "https://api.pixellab.ai/mcp/images/0321759a-f60c-4d66-a656-cca9c506c5d3/download"
+    },
+    {
+      "id": "flavor-folk-textile-embroidered-clasp",
+      "style": "Folk textile / embroidered",
+      "role": "clasp",
+      "job": "a68376a9-5855-4f7b-b7cd-6a19a677d573",
+      "source": "/tmp/ribbon-assembly/assets/a68376a9-5855-4f7b-b7cd-6a19a677d573.png",
+      "sha256": "9b241015f3fdffa0ef6b4f6c8db4b4a81cf906fa500135587d87884960dc88be",
+      "url": "https://api.pixellab.ai/mcp/images/a68376a9-5855-4f7b-b7cd-6a19a677d573/download"
+    },
+    {
+      "id": "flavor-belle-poque-couture-rosette",
+      "style": "Belle \u00c9poque couture",
+      "role": "rosette",
+      "job": "fb14def8-238d-4fba-9583-5c90a08c8b9e",
+      "source": "/tmp/ribbon-assembly/assets/fb14def8-238d-4fba-9583-5c90a08c8b9e.png",
+      "sha256": "e8184c255ad2661aa44ea578d91dbc4e7e987f0a4eafab493396645db51fe558",
+      "url": "https://api.pixellab.ai/mcp/images/fb14def8-238d-4fba-9583-5c90a08c8b9e/download"
+    },
+    {
+      "id": "flavor-belle-poque-couture-setting",
+      "style": "Belle \u00c9poque couture",
+      "role": "setting",
+      "job": "dad5cdf5-ce6d-4da2-8688-b8bb4c9ca494",
+      "source": "/tmp/ribbon-assembly/assets/dad5cdf5-ce6d-4da2-8688-b8bb4c9ca494.png",
+      "sha256": "c48aa0f68106813bf2158eea2c6d2ada4d7bd04eccc94ce220d09cb3b1776b1c",
+      "url": "https://api.pixellab.ai/mcp/images/dad5cdf5-ce6d-4da2-8688-b8bb4c9ca494/download"
+    },
+    {
+      "id": "flavor-belle-poque-couture-gem",
+      "style": "Belle \u00c9poque couture",
+      "role": "gem",
+      "job": "9f4b647a-40ca-4900-806c-f4a3029d5f15",
+      "source": "/tmp/ribbon-assembly/assets/9f4b647a-40ca-4900-806c-f4a3029d5f15.png",
+      "sha256": "6119bcd1ecbc21af63f6520c75b540475f60d9cd8e9ef682e09ec7ca52527510",
+      "url": "https://api.pixellab.ai/mcp/images/9f4b647a-40ca-4900-806c-f4a3029d5f15/download"
+    },
+    {
+      "id": "flavor-belle-poque-couture-tails",
+      "style": "Belle \u00c9poque couture",
+      "role": "tails",
+      "job": "6b7ecf7c-b792-4f7d-ae70-c524798939a8",
+      "source": "/tmp/ribbon-assembly/assets/6b7ecf7c-b792-4f7d-ae70-c524798939a8.png",
+      "sha256": "63ef4b2178120b982030fea009c5a7589c1d28afa62ce59c64d3ef9b499c72e9",
+      "url": "https://api.pixellab.ai/mcp/images/6b7ecf7c-b792-4f7d-ae70-c524798939a8/download"
+    },
+    {
+      "id": "flavor-belle-poque-couture-accent",
+      "style": "Belle \u00c9poque couture",
+      "role": "accent",
+      "job": "4a054b2d-e370-49f2-8d6d-bc8e187f17c2",
+      "source": "/tmp/ribbon-assembly/assets/4a054b2d-e370-49f2-8d6d-bc8e187f17c2.png",
+      "sha256": "99477f91c10909c62bee035ae177558243f51db9bc6334b5ce0f62e2e8e9a139",
+      "url": "https://api.pixellab.ai/mcp/images/4a054b2d-e370-49f2-8d6d-bc8e187f17c2/download"
+    },
+    {
+      "id": "flavor-celestial-clockwork-rosette",
+      "style": "Celestial clockwork",
+      "role": "rosette",
+      "job": "ee17a728-b151-4061-aee7-61e847b720a8",
+      "source": "/tmp/ribbon-assembly/assets/ee17a728-b151-4061-aee7-61e847b720a8.png",
+      "sha256": "1d060cb818d739c73955d925fea1e19d4682932555401a32e60a167188ad6124",
+      "url": "https://api.pixellab.ai/mcp/images/ee17a728-b151-4061-aee7-61e847b720a8/download"
+    },
+    {
+      "id": "flavor-celestial-clockwork-setting",
+      "style": "Celestial clockwork",
+      "role": "setting",
+      "job": "a7c2ac3e-4116-4eaf-af59-cc5827ce6e3e",
+      "source": "/tmp/ribbon-assembly/assets/a7c2ac3e-4116-4eaf-af59-cc5827ce6e3e.png",
+      "sha256": "0606c330ee61f25ab8b0414d1c6e8b73a77941a01ca0f2a2f5dd54b651c90457",
+      "url": "https://api.pixellab.ai/mcp/images/a7c2ac3e-4116-4eaf-af59-cc5827ce6e3e/download"
+    },
+    {
+      "id": "flavor-celestial-clockwork-gem",
+      "style": "Celestial clockwork",
+      "role": "gem",
+      "job": "312a4c64-d742-42c2-a9f6-8cd2e72538ac",
+      "source": "/tmp/ribbon-assembly/assets/312a4c64-d742-42c2-a9f6-8cd2e72538ac.png",
+      "sha256": "ea57aa5dacf74659bb62c7189d166043ac212c260782856b3622338bad7d9f9e",
+      "url": "https://api.pixellab.ai/mcp/images/312a4c64-d742-42c2-a9f6-8cd2e72538ac/download"
+    },
+    {
+      "id": "flavor-celestial-clockwork-tails",
+      "style": "Celestial clockwork",
+      "role": "tails",
+      "job": "66b39139-0175-4d7b-9770-056327d51299",
+      "source": "/tmp/ribbon-assembly/assets/66b39139-0175-4d7b-9770-056327d51299.png",
+      "sha256": "7e88f32a770714347ae2934060a819df50097e2639eb4bc693a289abe4883314",
+      "url": "https://api.pixellab.ai/mcp/images/66b39139-0175-4d7b-9770-056327d51299/download"
+    },
+    {
+      "id": "flavor-celestial-clockwork-accent",
+      "style": "Celestial clockwork",
+      "role": "accent",
+      "job": "ecb50a9b-e8f1-47f0-bf85-8ce16cba9dc4",
+      "source": "/tmp/ribbon-assembly/assets/ecb50a9b-e8f1-47f0-bf85-8ce16cba9dc4.png",
+      "sha256": "4f070458be80e2590df9e0c3b65af9a6335722772ea1f3a7eb39442c43c08981",
+      "url": "https://api.pixellab.ai/mcp/images/ecb50a9b-e8f1-47f0-bf85-8ce16cba9dc4/download"
+    },
+    {
+      "id": "flavor-baroque-court-regalia-rosette",
+      "style": "Baroque court regalia",
+      "role": "rosette",
+      "job": "30961816-fcf5-44a4-ac58-041f743f8f67",
+      "source": "/tmp/ribbon-assembly/assets/30961816-fcf5-44a4-ac58-041f743f8f67.png",
+      "sha256": "d5a27ee970ff4195780f332c0cdae92fcf21553ae0e41f1f88b1b9f2e8aa9ef4",
+      "url": "https://api.pixellab.ai/mcp/images/30961816-fcf5-44a4-ac58-041f743f8f67/download"
+    },
+    {
+      "id": "flavor-baroque-court-regalia-setting",
+      "style": "Baroque court regalia",
+      "role": "setting",
+      "job": "2026f047-3a69-41b2-a62b-0cd494dae737",
+      "source": "/tmp/ribbon-assembly/assets/2026f047-3a69-41b2-a62b-0cd494dae737.png",
+      "sha256": "29995cd81421c22f302bb4b803abfe978c36470d6b1f1662d2d409f3fc6c5d4b",
+      "url": "https://api.pixellab.ai/mcp/images/2026f047-3a69-41b2-a62b-0cd494dae737/download"
+    },
+    {
+      "id": "flavor-baroque-court-regalia-gem",
+      "style": "Baroque court regalia",
+      "role": "gem",
+      "job": "d2f803b7-171b-472e-9666-675f8432d4fb",
+      "source": "/tmp/ribbon-assembly/assets/d2f803b7-171b-472e-9666-675f8432d4fb.png",
+      "sha256": "03018a42ded5bd2adb029b3ffba9034dedc8fbea45868dff94bf8489b1fafc51",
+      "url": "https://api.pixellab.ai/mcp/images/d2f803b7-171b-472e-9666-675f8432d4fb/download"
+    },
+    {
+      "id": "flavor-baroque-court-regalia-tails",
+      "style": "Baroque court regalia",
+      "role": "tails",
+      "job": "79c9031d-cfc8-4a01-8622-734dbff4fb30",
+      "source": "/tmp/ribbon-assembly/assets/79c9031d-cfc8-4a01-8622-734dbff4fb30.png",
+      "sha256": "d6846df151d8d98cca52bb1bd6e6139bd28385d1c5d3305519597e0929af4ddb",
+      "url": "https://api.pixellab.ai/mcp/images/79c9031d-cfc8-4a01-8622-734dbff4fb30/download"
+    },
+    {
+      "id": "flavor-baroque-court-regalia-accent",
+      "style": "Baroque court regalia",
+      "role": "accent",
+      "job": "1881e6b8-0e06-4577-b55b-141dfd62f118",
+      "source": "/tmp/ribbon-assembly/assets/1881e6b8-0e06-4577-b55b-141dfd62f118.png",
+      "sha256": "985c76b89b667de80fc27016ef526d7e4515a19bc1ce75d8e5652c3522a70f79",
+      "url": "https://api.pixellab.ai/mcp/images/1881e6b8-0e06-4577-b55b-141dfd62f118/download"
+    },
+    {
+      "id": "flavor-coral-reef-rosette",
+      "style": "Coral reef",
+      "role": "rosette",
+      "job": "6dfd531a-c8d0-4b4f-a0bc-50bfdc0fbd81",
+      "source": "/tmp/ribbon-assembly/assets/6dfd531a-c8d0-4b4f-a0bc-50bfdc0fbd81.png",
+      "sha256": "a4261b7d38c75fdfb131cb916d55fffc0336be628707fcb6a8751584d021db9a",
+      "url": "https://api.pixellab.ai/mcp/images/6dfd531a-c8d0-4b4f-a0bc-50bfdc0fbd81/download"
+    },
+    {
+      "id": "flavor-coral-reef-setting",
+      "style": "Coral reef",
+      "role": "setting",
+      "job": "6ec2f138-ba88-4a3d-9865-3d910020845a",
+      "source": "/tmp/ribbon-assembly/assets/6ec2f138-ba88-4a3d-9865-3d910020845a.png",
+      "sha256": "efcfa962521e4ef8e10159106a1c69b83b9dd984c569214680693986627d3941",
+      "url": "https://api.pixellab.ai/mcp/images/6ec2f138-ba88-4a3d-9865-3d910020845a/download"
+    },
+    {
+      "id": "flavor-coral-reef-gem",
+      "style": "Coral reef",
+      "role": "gem",
+      "job": "b2339470-755f-4c3f-81b5-ce3a754a6ccf",
+      "source": "/tmp/ribbon-assembly/assets/b2339470-755f-4c3f-81b5-ce3a754a6ccf.png",
+      "sha256": "2b56369c7143e375f297ff3f33cea4079bfc4adf60700f267688699d78ba7c18",
+      "url": "https://api.pixellab.ai/mcp/images/b2339470-755f-4c3f-81b5-ce3a754a6ccf/download"
+    },
+    {
+      "id": "flavor-coral-reef-tails",
+      "style": "Coral reef",
+      "role": "tails",
+      "job": "2ea7c9e1-8a74-4449-938a-fc6364b37d37",
+      "source": "/tmp/ribbon-assembly/assets/2ea7c9e1-8a74-4449-938a-fc6364b37d37.png",
+      "sha256": "7cd3cd7736681b6d037d4f36a1a3879487164e081b217fc39dee73fe9c9ad529",
+      "url": "https://api.pixellab.ai/mcp/images/2ea7c9e1-8a74-4449-938a-fc6364b37d37/download"
+    },
+    {
+      "id": "flavor-coral-reef-accent",
+      "style": "Coral reef",
+      "role": "accent",
+      "job": "7f6d0536-6383-433a-bc07-61208b70c8a2",
+      "source": "/tmp/ribbon-assembly/assets/7f6d0536-6383-433a-bc07-61208b70c8a2.png",
+      "sha256": "971a7c9599c7b63267eda7ecc0721393bd30563224ed08e6ff0586c5d94e89a2",
+      "url": "https://api.pixellab.ai/mcp/images/7f6d0536-6383-433a-bc07-61208b70c8a2/download"
+    },
+    {
+      "id": "flavor-deep-sea-ocean-rosette",
+      "style": "Deep sea ocean",
+      "role": "rosette",
+      "job": "95eac018-9c0d-4ac5-b996-8bb59cd88062",
+      "source": "/tmp/ribbon-assembly/assets/95eac018-9c0d-4ac5-b996-8bb59cd88062.png",
+      "sha256": "d453bb49fe37d316b0235e434e85f19a4da08331cba0fcdde59f0b22a8ff3e55",
+      "url": "https://api.pixellab.ai/mcp/images/95eac018-9c0d-4ac5-b996-8bb59cd88062/download"
+    },
+    {
+      "id": "flavor-deep-sea-ocean-setting",
+      "style": "Deep sea ocean",
+      "role": "setting",
+      "job": "1ef6879d-f2e3-43e2-9765-00ebc44561d9",
+      "source": "/tmp/ribbon-assembly/assets/1ef6879d-f2e3-43e2-9765-00ebc44561d9.png",
+      "sha256": "ce6c76e9e5afcf13bc104e9e461615eff093c06e95cc1b3a7375586917867de4",
+      "url": "https://api.pixellab.ai/mcp/images/1ef6879d-f2e3-43e2-9765-00ebc44561d9/download"
+    },
+    {
+      "id": "flavor-deep-sea-ocean-gem",
+      "style": "Deep sea ocean",
+      "role": "gem",
+      "job": "1e150cff-9789-4298-8e54-041e59d5ca6d",
+      "source": "/tmp/ribbon-assembly/assets/1e150cff-9789-4298-8e54-041e59d5ca6d.png",
+      "sha256": "7824292d8ed84c270c2214f4f3e8183dd37f800d9edab349361f1bb869cd8fc5",
+      "url": "https://api.pixellab.ai/mcp/images/1e150cff-9789-4298-8e54-041e59d5ca6d/download"
+    },
+    {
+      "id": "flavor-deep-sea-ocean-tails",
+      "style": "Deep sea ocean",
+      "role": "tails",
+      "job": "ea036cc6-d443-48d5-88f7-00165f2b6d94",
+      "source": "/tmp/ribbon-assembly/assets/ea036cc6-d443-48d5-88f7-00165f2b6d94.png",
+      "sha256": "8848a91ef0345e409a17d4849feaf785418fc9689ef5082eed9d4f57d9f4be83",
+      "url": "https://api.pixellab.ai/mcp/images/ea036cc6-d443-48d5-88f7-00165f2b6d94/download"
+    },
+    {
+      "id": "flavor-deep-sea-ocean-accent",
+      "style": "Deep sea ocean",
+      "role": "accent",
+      "job": "6d7c7538-947e-4a9c-be14-e0be67396ffe",
+      "source": "/tmp/ribbon-assembly/assets/6d7c7538-947e-4a9c-be14-e0be67396ffe.png",
+      "sha256": "d3146470a0d391966bc73b181d5647c8050beb817dd237c630f1850189191a5b",
+      "url": "https://api.pixellab.ai/mcp/images/6d7c7538-947e-4a9c-be14-e0be67396ffe/download"
+    },
+    {
+      "id": "flavor-river-rosette",
+      "style": "River",
+      "role": "rosette",
+      "job": "5b8d0f2b-4fef-4bce-878b-74eba6f065f3",
+      "source": "/tmp/ribbon-assembly/assets/5b8d0f2b-4fef-4bce-878b-74eba6f065f3.png",
+      "sha256": "ba25a320c9147a98db6d57efba39d29211e6dc2f5616d0a1c283c786a86921d3",
+      "url": "https://api.pixellab.ai/mcp/images/5b8d0f2b-4fef-4bce-878b-74eba6f065f3/download"
+    },
+    {
+      "id": "flavor-river-setting",
+      "style": "River",
+      "role": "setting",
+      "job": "76e99a40-5ba9-4b05-9f8e-06f8323c6f1d",
+      "source": "/tmp/ribbon-assembly/assets/76e99a40-5ba9-4b05-9f8e-06f8323c6f1d.png",
+      "sha256": "9ca6de3566ad36aa20942bfda2480da48c01892d284798ad2406412445b05bd4",
+      "url": "https://api.pixellab.ai/mcp/images/76e99a40-5ba9-4b05-9f8e-06f8323c6f1d/download"
+    },
+    {
+      "id": "flavor-river-gem",
+      "style": "River",
+      "role": "gem",
+      "job": "e0a2aa3f-67ad-49e8-8c09-9c39ff4863a9",
+      "source": "/tmp/ribbon-assembly/assets/e0a2aa3f-67ad-49e8-8c09-9c39ff4863a9.png",
+      "sha256": "26c41e12fce883a9092998bdb82146c5b0f1086d7cf7eca09dbb766a5eb21b7f",
+      "url": "https://api.pixellab.ai/mcp/images/e0a2aa3f-67ad-49e8-8c09-9c39ff4863a9/download"
+    },
+    {
+      "id": "flavor-river-tails",
+      "style": "River",
+      "role": "tails",
+      "job": "6345397b-2f09-4f43-b7ee-d35f02cb90a9",
+      "source": "/tmp/ribbon-assembly/assets/6345397b-2f09-4f43-b7ee-d35f02cb90a9.png",
+      "sha256": "bb9a4f53e41e1f08f2ae84d739ed5d1920fa465b05761040aec488e3c8772d73",
+      "url": "https://api.pixellab.ai/mcp/images/6345397b-2f09-4f43-b7ee-d35f02cb90a9/download"
+    },
+    {
+      "id": "flavor-river-accent",
+      "style": "River",
+      "role": "accent",
+      "job": "6e1cbfda-9863-49aa-8783-23a7c0e23dcd",
+      "source": "/tmp/ribbon-assembly/assets/6e1cbfda-9863-49aa-8783-23a7c0e23dcd.png",
+      "sha256": "ad7688b7c9f01ca8ec9385fa1a74736c3dd044c242eafaa3657f35934c2f840a",
+      "url": "https://api.pixellab.ai/mcp/images/6e1cbfda-9863-49aa-8783-23a7c0e23dcd/download"
+    },
+    {
+      "id": "flavor-aurora-glasswork-outer-rosette",
+      "style": "Aurora glasswork",
+      "role": "outer-rosette",
+      "job": "d5dadfab-89ea-4b82-8c38-e5072247602d",
+      "source": "/tmp/ribbon-assembly/assets/d5dadfab-89ea-4b82-8c38-e5072247602d.png",
+      "sha256": "6ee657a5aa07e4b48ec56f84e41a5f8aacbe8dd3e66804b46159600cb20c565c",
+      "url": "https://api.pixellab.ai/mcp/images/d5dadfab-89ea-4b82-8c38-e5072247602d/download"
+    },
+    {
+      "id": "flavor-aurora-glasswork-sheer-halo",
+      "style": "Aurora glasswork",
+      "role": "sheer-halo",
+      "job": "879786be-1a83-4ed4-8e86-0f06c269bbd0",
+      "source": "/tmp/ribbon-assembly/assets/879786be-1a83-4ed4-8e86-0f06c269bbd0.png",
+      "sha256": "647bd925bef24eed9a5c8c789e64c2cf7e1e5435186836c24a6b64fb58822328",
+      "url": "https://api.pixellab.ai/mcp/images/879786be-1a83-4ed4-8e86-0f06c269bbd0/download"
+    },
+    {
+      "id": "flavor-aurora-glasswork-setting",
+      "style": "Aurora glasswork",
+      "role": "setting",
+      "job": "1af7cc9a-46c3-41f7-a624-f26e8a0d6b6f",
+      "source": "/tmp/ribbon-assembly/assets/1af7cc9a-46c3-41f7-a624-f26e8a0d6b6f.png",
+      "sha256": "7ec6b9dfd9180877effc5512d114091d20d54b21a339fb006f1f3d6517ac9c95",
+      "url": "https://api.pixellab.ai/mcp/images/1af7cc9a-46c3-41f7-a624-f26e8a0d6b6f/download"
+    },
+    {
+      "id": "flavor-aurora-glasswork-gem",
+      "style": "Aurora glasswork",
+      "role": "gem",
+      "job": "6086e6a1-70dc-467f-b01f-b2b3f6127a1e",
+      "source": "/tmp/ribbon-assembly/assets/6086e6a1-70dc-467f-b01f-b2b3f6127a1e.png",
+      "sha256": "d7ab5c717197eff20212608ba179d1524f6999b5089d21cf55fd5c50f983f45b",
+      "url": "https://api.pixellab.ai/mcp/images/6086e6a1-70dc-467f-b01f-b2b3f6127a1e/download"
+    },
+    {
+      "id": "flavor-aurora-glasswork-satin-tails",
+      "style": "Aurora glasswork",
+      "role": "satin-tails",
+      "job": "df2be3bf-ddff-4450-9648-130807313dac",
+      "source": "/tmp/ribbon-assembly/assets/df2be3bf-ddff-4450-9648-130807313dac.png",
+      "sha256": "0f7158b8e460b7e24dd1cb8da8d9210fc2dc8c1db14ffacec2be72682cb800b6",
+      "url": "https://api.pixellab.ai/mcp/images/df2be3bf-ddff-4450-9648-130807313dac/download"
+    },
+    {
+      "id": "flavor-aurora-glasswork-sheer-streamers",
+      "style": "Aurora glasswork",
+      "role": "sheer-streamers",
+      "job": "ea4506a8-aa19-40c0-819e-9177de59a864",
+      "source": "/tmp/ribbon-assembly/assets/ea4506a8-aa19-40c0-819e-9177de59a864.png",
+      "sha256": "407e0a11bd99f37e9ffde0d3cd1d428f58c20848b71a0ee3bd4ea60acd1342e5",
+      "url": "https://api.pixellab.ai/mcp/images/ea4506a8-aa19-40c0-819e-9177de59a864/download"
+    },
+    {
+      "id": "flavor-aurora-glasswork-side-flourish",
+      "style": "Aurora glasswork",
+      "role": "side-flourish",
+      "job": "14ff04bc-41e2-4c91-bb10-f72dc60d4d67",
+      "source": "/tmp/ribbon-assembly/assets/14ff04bc-41e2-4c91-bb10-f72dc60d4d67.png",
+      "sha256": "437c2af515a56b86a2eb39347772da6917c84578da9e8f17e07bbbbf77222916",
+      "url": "https://api.pixellab.ai/mcp/images/14ff04bc-41e2-4c91-bb10-f72dc60d4d67/download"
+    },
+    {
+      "id": "flavor-aurora-glasswork-pendant-chain",
+      "style": "Aurora glasswork",
+      "role": "pendant-chain",
+      "job": "ded2cdf6-cf39-4b6b-a78d-dd2e7bf71f39",
+      "source": "/tmp/ribbon-assembly/assets/ded2cdf6-cf39-4b6b-a78d-dd2e7bf71f39.png",
+      "sha256": "4edf8a1c4bf4d77c302d98881acd0258f098eaf5fcd63abc6c59a0f63b24f769",
+      "url": "https://api.pixellab.ai/mcp/images/ded2cdf6-cf39-4b6b-a78d-dd2e7bf71f39/download"
+    },
+    {
+      "id": "flavor-gilded-dragonfly-garden-outer-rosette",
+      "style": "Gilded dragonfly garden",
+      "role": "outer-rosette",
+      "job": "eac75496-c23b-441d-ace3-351577ae3380",
+      "source": "/tmp/ribbon-assembly/assets/eac75496-c23b-441d-ace3-351577ae3380.png",
+      "sha256": "7f4a5146d3193c496968dd90e4a2f9b8ed3625e14a08626a4e61fafcd71d5ea0",
+      "url": "https://api.pixellab.ai/mcp/images/eac75496-c23b-441d-ace3-351577ae3380/download"
+    },
+    {
+      "id": "flavor-gilded-dragonfly-garden-sheer-halo",
+      "style": "Gilded dragonfly garden",
+      "role": "sheer-halo",
+      "job": "ea5b3096-9ee1-4833-9638-5a557cb800e8",
+      "source": "/tmp/ribbon-assembly/assets/ea5b3096-9ee1-4833-9638-5a557cb800e8.png",
+      "sha256": "002ced352c6b070ad531efb77632883f573ae19246f60f4d7b0dd029fc077086",
+      "url": "https://api.pixellab.ai/mcp/pixel-tools/2d92a0fc-61b6-44b1-97a6-1f1fba38d796/image.png"
+    },
+    {
+      "id": "flavor-gilded-dragonfly-garden-setting",
+      "style": "Gilded dragonfly garden",
+      "role": "setting",
+      "job": "01fe4320-7cc8-4fe2-ae74-e6ca62cbfe21",
+      "source": "/tmp/ribbon-assembly/assets/01fe4320-7cc8-4fe2-ae74-e6ca62cbfe21.png",
+      "sha256": "69b8651d51918446645116ed568f73019adafa5c9d1a6a5169731a11c4c6d0b4",
+      "url": "https://api.pixellab.ai/mcp/images/01fe4320-7cc8-4fe2-ae74-e6ca62cbfe21/download"
+    },
+    {
+      "id": "flavor-gilded-dragonfly-garden-gem",
+      "style": "Gilded dragonfly garden",
+      "role": "gem",
+      "job": "190ef240-b540-4867-912a-cabfcf1f12d8",
+      "source": "/tmp/ribbon-assembly/assets/190ef240-b540-4867-912a-cabfcf1f12d8.png",
+      "sha256": "aaad4d52371aeaca4b16a47a3e1f75c3f2ac12a90a7128a5902afac31a17a4c6",
+      "url": "https://api.pixellab.ai/mcp/images/190ef240-b540-4867-912a-cabfcf1f12d8/download"
+    },
+    {
+      "id": "flavor-gilded-dragonfly-garden-satin-tails",
+      "style": "Gilded dragonfly garden",
+      "role": "satin-tails",
+      "job": "b2552eea-6770-42a8-b999-5b7618090454",
+      "source": "/tmp/ribbon-assembly/assets/b2552eea-6770-42a8-b999-5b7618090454.png",
+      "sha256": "03e772f1a60fba79c92b61b467629e244e1ca1384c95bf550b6d0b39fcdbcde8",
+      "url": "https://api.pixellab.ai/mcp/images/b2552eea-6770-42a8-b999-5b7618090454/download"
+    },
+    {
+      "id": "flavor-gilded-dragonfly-garden-sheer-streamers",
+      "style": "Gilded dragonfly garden",
+      "role": "sheer-streamers",
+      "job": "6dacd0a5-4f7a-4b5e-a16a-6593c68b0fee",
+      "source": "/tmp/ribbon-assembly/assets/6dacd0a5-4f7a-4b5e-a16a-6593c68b0fee.png",
+      "sha256": "83059b46e207a886340207f83cf53ece76f07ff8cbea3b3b8e3af3a887434bd2",
+      "url": "https://api.pixellab.ai/mcp/images/6dacd0a5-4f7a-4b5e-a16a-6593c68b0fee/download"
+    },
+    {
+      "id": "flavor-gilded-dragonfly-garden-side-flourish",
+      "style": "Gilded dragonfly garden",
+      "role": "side-flourish",
+      "job": "12020ee9-a046-4dca-b17b-d9d6c704250b",
+      "source": "/tmp/ribbon-assembly/assets/12020ee9-a046-4dca-b17b-d9d6c704250b.png",
+      "sha256": "ef6512c545984836353590af212726f2b5962822652d3e6aab1423ab0a6c4a02",
+      "url": "https://api.pixellab.ai/mcp/images/12020ee9-a046-4dca-b17b-d9d6c704250b/download"
+    },
+    {
+      "id": "flavor-gilded-dragonfly-garden-pendant-chain",
+      "style": "Gilded dragonfly garden",
+      "role": "pendant-chain",
+      "job": "e6b2469d-5018-4940-93d2-76ab2c0e955a",
+      "source": "/tmp/ribbon-assembly/assets/e6b2469d-5018-4940-93d2-76ab2c0e955a.png",
+      "sha256": "60be577f5f93091a7ed137ec0c204faf7ee374d2f04ff38f944c615c7ef645bb",
+      "url": "https://api.pixellab.ai/mcp/images/e6b2469d-5018-4940-93d2-76ab2c0e955a/download"
+    }
+  ],
+  "base_presets": 13,
+  "mixed_presets": 26,
+  "rejected_gothic_job": "d86752b7-c941-4e75-a180-8d1082a6fb38",
+  "gothic_pixel_edit": "991b1e87-61a8-4f73-92ca-ea9d36ba8929"
+}

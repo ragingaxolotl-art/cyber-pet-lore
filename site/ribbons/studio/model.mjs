@@ -1,4 +1,4 @@
-import {CUSTOM_PARTS,extraLayer,extraRecipe} from './design-schema.mjs?v=studio-4';
+import {CUSTOM_PARTS,extraLayer,extraRecipe} from './design-schema.mjs?v=flavors-20261106';
 export const WIDTH=512, HEIGHT=640, LIBRARY='ornate-v1';
 export const METALS={Gold:'#d7ad46',Silver:'#b9cfdb',Bronze:'#ad7543',Copper:'#c77b54','Rose gold':'#d6a18f',Platinum:'#d8e5ec',Gunmetal:'#566776'};
 export const MATERIALS=['metal','fabric','gem','leaf'];
@@ -28,7 +28,7 @@ export function validateRecipe(value,catalog){
 }
 export function encodeRecipe(recipe,catalog){const text=JSON.stringify(validateRecipe(recipe,catalog));if(text.length>2200000)throw Error('Design is too large. Use fewer picture emblems.');const bytes=new TextEncoder().encode(text);let raw='';for(const b of bytes)raw+=String.fromCharCode(b);return 'RBN1.'+btoa(raw).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'')+'.'+checksum(text);}
 export function decodeRecipe(code,catalog){if(typeof code!=='string'||code.length>3000000)throw Error('Recipe code is too long.');const match=code.trim().match(/^RBN1\.([A-Za-z0-9_-]+)\.([0-9a-f]{8})$/);if(!match)throw Error('Paste a complete RBN1 recipe code.');try{const raw=atob(match[1].replace(/-/g,'+').replace(/_/g,'/'));const text=new TextDecoder('utf-8',{fatal:true}).decode(Uint8Array.from(raw,c=>c.charCodeAt(0)));if(checksum(text)!==match[2])throw Error('The code is incomplete or changed. Copy it again.');return validateRecipe(JSON.parse(text),catalog);}catch(e){throw Error(e.message||'Could not read that recipe.');}}
-export function createLayer(part,palette){return {part:part.id,x:part.x,y:part.y,scale:1,visible:true,mode:'original',color:'#9677d8',source:'#7755aa',tolerance:32,...(part.tags?.includes('particle')?{orbit:{radius:150,depth:24,period:8,phase:0,spread:160}}:{}),...(part.materials?.length?{materialColors:Object.fromEntries(part.materials.map(key=>[key,palette?.[key]??null]))}:{})};}
+export function createLayer(part,palette){return {part:part.id,x:part.x,y:part.y,scale:1,visible:true,mode:'original',color:'#9677d8',source:'#7755aa',tolerance:32,...(part.defaultOpacity===undefined?{}:{opacity:part.defaultOpacity}),...(part.tags?.includes('particle')?{orbit:{radius:150,depth:24,period:8,phase:0,spread:160}}:{}),...(part.materials?.length?{materialColors:Object.fromEntries(part.materials.map(key=>[key,palette?.[key]??null]))}:{})};}
 export function rgb(hex){return hex.slice(1).match(/../g).map(x=>parseInt(x,16));}
 export function hsl(r,g,b){r/=255;g/=255;b/=255;const max=Math.max(r,g,b),min=Math.min(r,g,b),d=max-min,l=(max+min)/2;let h=0,s=0;if(d){s=d/(1-Math.abs(2*l-1));if(max===r)h=((g-b)/d)%6;else if(max===g)h=(b-r)/d+2;else h=(r-g)/d+4;h=(h*60+360)%360;}return [h,s,l];}
 export function fromHsl(h,s,l){const c=(1-Math.abs(2*l-1))*s,x=c*(1-Math.abs((h/60)%2-1)),m=l-c/2;const t=h<60?[c,x,0]:h<120?[x,c,0]:h<180?[0,c,x]:h<240?[0,x,c]:h<300?[x,0,c]:[c,0,x];return t.map(v=>Math.round((v+m)*255));}
@@ -39,7 +39,7 @@ export function bounds(layer,part){const w=Math.round(part.width*layer.scale),h=
 // Position remains the unrotated top-center; rotate around the part's visual center.
 export function localPoint(layer,part,x,y){const b=bounds(layer,part),cx=b.x+b.w/2,cy=b.y+b.h/2,a=(layer.rotation||0)*Math.PI/180,dx=x-cx,dy=y-cy;return {x:cx+(layer.flip?-1:1)*(Math.cos(a)*dx+Math.sin(a)*dy),y:cy-Math.sin(a)*dx+Math.cos(a)*dy};}
 export function hits(layer,part,x,y){const b=bounds(layer,part),p=localPoint(layer,part,x,y);return layer.visible&&p.x>=b.x&&p.x<b.x+b.w&&p.y>=b.y&&p.y<b.y+b.h;}
-export function withLayerTransform(context,layer,part,draw){const b=bounds(layer,part);context.save();try{context.translate(b.x+b.w/2,b.y+b.h/2);context.rotate((layer.rotation||0)*Math.PI/180);if(layer.flip)context.scale(-1,1);draw(b);}finally{context.restore();}}
+export function withLayerTransform(context,layer,part,draw){const b=bounds(layer,part);context.save();try{context.globalAlpha=(context.globalAlpha??1)*(layer.opacity??1);context.translate(b.x+b.w/2,b.y+b.h/2);context.rotate((layer.rotation||0)*Math.PI/180);if(layer.flip)context.scale(-1,1);draw(b);}finally{context.restore();}}
 export function drawLayer(context,layer,part,image){withLayerTransform(context,layer,part,b=>context.drawImage(image,-b.w/2,-b.h/2,b.w,b.h));}
 
 // Runs use original source coordinates; rendering works on the transparent-margin crop.

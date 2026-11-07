@@ -1,9 +1,9 @@
-import {CUSTOM_PARTS,EFFECTS} from './design-schema.mjs?v=studio-4';
-import {clone,createLayer,encodeRecipe,decodeRecipe,withLayerTransform,sceneLayers} from './model.mjs?v=studio-4';
-import {uid,identify,selectionGroup,syncMirrors,moveSelection,duplicateSelection,removeSelection,alignSelection,makeAwardSet,updateSetDesign} from './design-tools.mjs?v=studio-4';
-import {prepareCustom,drawDesign} from './effects.mjs?v=studio-4';
-import {listDesigns,saveDesign} from './cabinet.mjs?v=studio-4';
-import {exportAnimation,canvasPNG} from './animation-export.mjs?v=studio-4';
+import {CUSTOM_PARTS,EFFECTS} from './design-schema.mjs?v=flavors-20261106';
+import {clone,createLayer,encodeRecipe,decodeRecipe,withLayerTransform,sceneLayers} from './model.mjs?v=flavors-20261106';
+import {uid,identify,selectionGroup,syncMirrors,moveSelection,duplicateSelection,removeSelection,alignSelection,makeAwardSet,updateSetDesign} from './design-tools.mjs?v=flavors-20261106';
+import {prepareCustom,drawDesign} from './effects.mjs?v=flavors-20261106';
+import {listDesigns,saveDesign} from './cabinet.mjs?v=flavors-20261106';
+import {exportAnimation,canvasPNG} from './animation-export.mjs?v=flavors-20261106';
 const $=id=>document.getElementById(id);
 export function installExtras(api){
  let chosen=[],hover=false,clickAt=-100,revealAt=-100,open=false,openAmount=0,motionTime=0,playing=true,selectedCabinet='',entries=[],busy=false,lastFrame=0;

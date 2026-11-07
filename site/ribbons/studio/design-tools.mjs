@@ -1,4 +1,4 @@
-import {clone,WIDTH,bounds} from './model.mjs?v=studio-4';
+import {clone,WIDTH,bounds} from './model.mjs?v=flavors-20261106';
 export const uid=()=>globalThis.crypto.randomUUID().replaceAll('-','');
 export function identify(recipe){for(const l of recipe.layers)l.uid??=uid();}
 export function selectionGroup(recipe,indices){const groups=new Set(indices.map(i=>recipe.layers[i]?.group).filter(Boolean));return recipe.layers.map((l,i)=>indices.includes(i)||groups.has(l.group)?i:-1).filter(i=>i>=0);}

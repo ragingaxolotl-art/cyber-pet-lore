@@ -76776,6 +76776,2361 @@
         "leaf"
       ],
       "collection": "New PixelLab"
+    },
+    {
+      "id": "flavor-industrial-service-insignia-bar",
+      "name": "Industrial service insignia \u00b7 bar",
+      "kind": "ribbon",
+      "file": "parts/flavors/flavor-industrial-service-insignia-bar.png",
+      "bounds": [
+        8,
+        25,
+        184,
+        71
+      ],
+      "width": 226,
+      "height": 54,
+      "x": 256,
+      "y": 135,
+      "original_size": [
+        192,
+        96
+      ],
+      "sha256": "dc1601bb9ef79008bfc6a96b8038de3cffa7df2f4e4e821337443e497d4409be",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "4e5082e1-3cf3-495e-937d-8da6c3733689",
+        "url": "https://api.pixellab.ai/mcp/images/4e5082e1-3cf3-495e-937d-8da6c3733689/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "industrial-service-insignia",
+        "bar"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Industrial service insignia"
+    },
+    {
+      "id": "flavor-industrial-service-insignia-frame",
+      "name": "Industrial service insignia \u00b7 frame",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-industrial-service-insignia-frame.png",
+      "bounds": [
+        14,
+        10,
+        178,
+        86
+      ],
+      "width": 245,
+      "height": 73,
+      "x": 256,
+      "y": 125,
+      "original_size": [
+        192,
+        96
+      ],
+      "sha256": "a31fae4cb60e261d9802261fbdb4565ce7520a83ea5cf0e8140d429c907d39ac",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "92dbb64a-aa72-488b-89e0-7f0e64dc6541",
+        "url": "https://api.pixellab.ai/mcp/images/92dbb64a-aa72-488b-89e0-7f0e64dc6541/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "industrial-service-insignia",
+        "frame"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Industrial service insignia"
+    },
+    {
+      "id": "flavor-industrial-service-insignia-suspension",
+      "name": "Industrial service insignia \u00b7 suspension",
+      "kind": "ribbon",
+      "file": "parts/flavors/flavor-industrial-service-insignia-suspension.png",
+      "bounds": [
+        0,
+        3,
+        192,
+        160
+      ],
+      "width": 197,
+      "height": 173,
+      "x": 256,
+      "y": 170,
+      "original_size": [
+        192,
+        160
+      ],
+      "sha256": "0324099fff956b4fbe85c584941737dc2d900fe63b794f0f440bf164705bcb08",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "1dcf2072-4ff7-497f-a74b-611202465cf2",
+        "url": "https://api.pixellab.ai/mcp/images/1dcf2072-4ff7-497f-a74b-611202465cf2/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "industrial-service-insignia",
+        "suspension"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Industrial service insignia"
+    },
+    {
+      "id": "flavor-industrial-service-insignia-stud",
+      "name": "Industrial service insignia \u00b7 stud",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-industrial-service-insignia-stud.png",
+      "bounds": [
+        22,
+        20,
+        170,
+        174
+      ],
+      "width": 96,
+      "height": 96,
+      "x": 256,
+      "y": 322,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "edba51ef3af430071126b55f4cf5c4d51458911f66c4f3afcb1900dbdb84d191",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "9b938be2-4cec-4bbf-9404-b9de0cec15bf",
+        "url": "https://api.pixellab.ai/mcp/images/9b938be2-4cec-4bbf-9404-b9de0cec15bf/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "industrial-service-insignia",
+        "stud"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Industrial service insignia"
+    },
+    {
+      "id": "flavor-art-deco-stud-frame",
+      "name": "Art Deco stud \u00b7 frame",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-art-deco-stud-frame.png",
+      "bounds": [
+        14,
+        12,
+        178,
+        180
+      ],
+      "width": 168,
+      "height": 192,
+      "x": 256,
+      "y": 76,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "4ce47a5ec4dbd9d01202f43131b93b2bc135a90bc45abf889f89f23ffcce4b51",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "62d9d259-1793-4e61-9d79-6ed6a4c6ad06",
+        "url": "https://api.pixellab.ai/mcp/images/62d9d259-1793-4e61-9d79-6ed6a4c6ad06/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "art-deco-stud",
+        "frame"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Art Deco stud"
+    },
+    {
+      "id": "flavor-art-deco-stud-gem",
+      "name": "Art Deco stud \u00b7 gem",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-art-deco-stud-gem.png",
+      "bounds": [
+        30,
+        10,
+        162,
+        182
+      ],
+      "width": 67,
+      "height": 96,
+      "x": 256,
+      "y": 124,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "1d98d52829b6133603714f1d09f64ff25a3682f69ad07e6dc12c72dd1659b445",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "31b9206a-bddf-4da3-996a-760b67baef75",
+        "url": "https://api.pixellab.ai/mcp/images/31b9206a-bddf-4da3-996a-760b67baef75/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "art-deco-stud",
+        "gem"
+      ],
+      "materials": [
+        "gem"
+      ],
+      "collection": "Art Deco stud"
+    },
+    {
+      "id": "flavor-art-deco-stud-tails",
+      "name": "Art Deco stud \u00b7 tails",
+      "kind": "ribbon",
+      "file": "parts/flavors/flavor-art-deco-stud-tails.png",
+      "bounds": [
+        6,
+        11,
+        186,
+        152
+      ],
+      "width": 174,
+      "height": 168,
+      "x": 256,
+      "y": 194,
+      "original_size": [
+        192,
+        160
+      ],
+      "sha256": "2b34fbea454f1f2f4bac49944af509cfe971f883431542bf421ea0511271a3a4",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "d51fe21a-1770-48ce-96d4-1d47bd86f520",
+        "url": "https://api.pixellab.ai/mcp/images/d51fe21a-1770-48ce-96d4-1d47bd86f520/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "art-deco-stud",
+        "tails"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Art Deco stud"
+    },
+    {
+      "id": "flavor-art-nouveau-botanical-long-tails",
+      "name": "Art Nouveau botanical \u00b7 long tails",
+      "kind": "ribbon",
+      "file": "parts/flavors/flavor-art-nouveau-botanical-long-tails.png",
+      "bounds": [
+        43,
+        7,
+        151,
+        317
+      ],
+      "width": 173,
+      "height": 370,
+      "x": 256,
+      "y": 208,
+      "original_size": [
+        192,
+        320
+      ],
+      "sha256": "e801f78c4fa05d645156f5e217b4057a7f3973965e5ffee194527fdc13615ad5",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "6f250f4d-859d-4164-915c-64456504160f",
+        "url": "https://api.pixellab.ai/mcp/images/6f250f4d-859d-4164-915c-64456504160f/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "art-nouveau-botanical",
+        "long-tails"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Art Nouveau botanical"
+    },
+    {
+      "id": "flavor-art-nouveau-botanical-frame",
+      "name": "Art Nouveau botanical \u00b7 frame",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-art-nouveau-botanical-frame.png",
+      "bounds": [
+        29,
+        0,
+        163,
+        224
+      ],
+      "width": 173,
+      "height": 258,
+      "x": 256,
+      "y": 47,
+      "original_size": [
+        192,
+        224
+      ],
+      "sha256": "281e6e377314bda76484fe87c5982e2baab3728001781c8f3249fb61287cc4f3",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "3b3f988e-5cb2-40bd-a8ec-e980a553727e",
+        "url": "https://api.pixellab.ai/mcp/images/3b3f988e-5cb2-40bd-a8ec-e980a553727e/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "art-nouveau-botanical",
+        "frame"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Art Nouveau botanical"
+    },
+    {
+      "id": "flavor-art-nouveau-botanical-gem",
+      "name": "Art Nouveau botanical \u00b7 gem",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-art-nouveau-botanical-gem.png",
+      "bounds": [
+        47,
+        23,
+        145,
+        201
+      ],
+      "width": 86,
+      "height": 160,
+      "x": 256,
+      "y": 88,
+      "original_size": [
+        192,
+        224
+      ],
+      "sha256": "e77d7ee2cf5d9d795b05a8ea0ea64418612225d7fddbcdf47c6cf2ac319fd29f",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "d3a4da96-9072-431c-ac5c-5216174b0e23",
+        "url": "https://api.pixellab.ai/mcp/images/d3a4da96-9072-431c-ac5c-5216174b0e23/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "art-nouveau-botanical",
+        "gem"
+      ],
+      "materials": [
+        "gem"
+      ],
+      "collection": "Art Nouveau botanical"
+    },
+    {
+      "id": "flavor-art-nouveau-botanical-clasp",
+      "name": "Art Nouveau botanical \u00b7 clasp",
+      "kind": "clasp",
+      "file": "parts/flavors/flavor-art-nouveau-botanical-clasp.png",
+      "bounds": [
+        32,
+        21,
+        159,
+        77
+      ],
+      "width": 108,
+      "height": 46,
+      "x": 256,
+      "y": 280,
+      "original_size": [
+        192,
+        96
+      ],
+      "sha256": "bbe425487a0e538fe3bcf6337f455fe4d72b6f62fa09cd930eadba05065d70da",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "e86a7c3c-93af-4313-8145-8733be6f4ec1",
+        "url": "https://api.pixellab.ai/mcp/images/e86a7c3c-93af-4313-8145-8733be6f4ec1/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "art-nouveau-botanical",
+        "clasp"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Art Nouveau botanical"
+    },
+    {
+      "id": "flavor-gothic-architectural-long-tails",
+      "name": "Gothic architectural \u00b7 long tails",
+      "kind": "ribbon",
+      "file": "parts/flavors/flavor-gothic-architectural-long-tails.png",
+      "bounds": [
+        43,
+        16,
+        149,
+        313
+      ],
+      "width": 173,
+      "height": 370,
+      "x": 256,
+      "y": 208,
+      "original_size": [
+        192,
+        320
+      ],
+      "sha256": "7cbb4f33595c1d3bf34e089c4f271732371475a9ca65140d437aab1fec49ddaf",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "7815eed9-2341-4540-82d3-e4ff0a1e45f2",
+        "url": "https://api.pixellab.ai/mcp/images/7815eed9-2341-4540-82d3-e4ff0a1e45f2/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "gothic-architectural",
+        "long-tails"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Gothic architectural"
+    },
+    {
+      "id": "flavor-gothic-architectural-frame",
+      "name": "Gothic architectural \u00b7 frame",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-gothic-architectural-frame.png",
+      "bounds": [
+        0,
+        1,
+        192,
+        224
+      ],
+      "width": 188,
+      "height": 258,
+      "x": 256,
+      "y": 47,
+      "original_size": [
+        192,
+        224
+      ],
+      "sha256": "45f57bb0733b9f28e1d452eb60f68b676cf35eb555dd2086ee58957c9bf742f2",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "af6b9f87-3bb3-4bdf-9b23-ddd97354ba17",
+        "url": "https://api.pixellab.ai/mcp/pixel-tools/991b1e87-61a8-4f73-92ca-ea9d36ba8929/image.png",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "gothic-architectural",
+        "frame"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Gothic architectural"
+    },
+    {
+      "id": "flavor-gothic-architectural-gem",
+      "name": "Gothic architectural \u00b7 gem",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-gothic-architectural-gem.png",
+      "bounds": [
+        32,
+        0,
+        160,
+        224
+      ],
+      "width": 80,
+      "height": 156,
+      "x": 256,
+      "y": 90,
+      "original_size": [
+        192,
+        224
+      ],
+      "sha256": "607dc7d0bc5999116ecf1a77c12377f63653c47acc135e26d7232cc19aaf74ae",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "d7fa6182-ff7e-486a-9036-3899fd3614c3",
+        "url": "https://api.pixellab.ai/mcp/images/d7fa6182-ff7e-486a-9036-3899fd3614c3/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "gothic-architectural",
+        "gem"
+      ],
+      "materials": [
+        "gem"
+      ],
+      "collection": "Gothic architectural"
+    },
+    {
+      "id": "flavor-gothic-architectural-clasp",
+      "name": "Gothic architectural \u00b7 clasp",
+      "kind": "clasp",
+      "file": "parts/flavors/flavor-gothic-architectural-clasp.png",
+      "bounds": [
+        0,
+        9,
+        192,
+        86
+      ],
+      "width": 108,
+      "height": 46,
+      "x": 256,
+      "y": 280,
+      "original_size": [
+        192,
+        96
+      ],
+      "sha256": "3bb6b258cae27aa38c8144adab95ded7b7ed7534adef36c1479e0d22c82c269b",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "ba5790b3-e972-4676-889b-9c8b1bce39c2",
+        "url": "https://api.pixellab.ai/mcp/images/ba5790b3-e972-4676-889b-9c8b1bce39c2/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "gothic-architectural",
+        "clasp"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Gothic architectural"
+    },
+    {
+      "id": "flavor-folk-textile-embroidered-long-tails",
+      "name": "Folk textile / embroidered \u00b7 long tails",
+      "kind": "ribbon",
+      "file": "parts/flavors/flavor-folk-textile-embroidered-long-tails.png",
+      "bounds": [
+        27,
+        0,
+        165,
+        320
+      ],
+      "width": 173,
+      "height": 370,
+      "x": 256,
+      "y": 208,
+      "original_size": [
+        192,
+        320
+      ],
+      "sha256": "b1a0e634f170dccfc500fac2c63f06ea40152602705af61d5845e21939a6fa0c",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "ac4e5955-603e-43e8-bbee-1f21d7d94c4f",
+        "url": "https://api.pixellab.ai/mcp/images/ac4e5955-603e-43e8-bbee-1f21d7d94c4f/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "folk-textile-embroidered",
+        "long-tails"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Folk textile / embroidered"
+    },
+    {
+      "id": "flavor-folk-textile-embroidered-frame",
+      "name": "Folk textile / embroidered \u00b7 frame",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-folk-textile-embroidered-frame.png",
+      "bounds": [
+        4,
+        4,
+        188,
+        188
+      ],
+      "width": 206,
+      "height": 206,
+      "x": 256,
+      "y": 67,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "eee02f773b9efdb7b4a126243cdd919230749157135b825e142310531e8754d3",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "602a52f4-dc3c-4b1c-9f00-2ea2ec7c1085",
+        "url": "https://api.pixellab.ai/mcp/images/602a52f4-dc3c-4b1c-9f00-2ea2ec7c1085/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "folk-textile-embroidered",
+        "frame"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Folk textile / embroidered"
+    },
+    {
+      "id": "flavor-folk-textile-embroidered-stud",
+      "name": "Folk textile / embroidered \u00b7 stud",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-folk-textile-embroidered-stud.png",
+      "bounds": [
+        12,
+        12,
+        180,
+        180
+      ],
+      "width": 80,
+      "height": 80,
+      "x": 256,
+      "y": 130,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "fb0d191688aed1b729e04102786217e30683db09cbf5f9cc79e432517f74901f",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "0321759a-f60c-4d66-a656-cca9c506c5d3",
+        "url": "https://api.pixellab.ai/mcp/images/0321759a-f60c-4d66-a656-cca9c506c5d3/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "folk-textile-embroidered",
+        "stud"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Folk textile / embroidered"
+    },
+    {
+      "id": "flavor-folk-textile-embroidered-clasp",
+      "name": "Folk textile / embroidered \u00b7 clasp",
+      "kind": "clasp",
+      "file": "parts/flavors/flavor-folk-textile-embroidered-clasp.png",
+      "bounds": [
+        4,
+        26,
+        188,
+        70
+      ],
+      "width": 110,
+      "height": 42,
+      "x": 256,
+      "y": 252,
+      "original_size": [
+        192,
+        96
+      ],
+      "sha256": "9b241015f3fdffa0ef6b4f6c8db4b4a81cf906fa500135587d87884960dc88be",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "a68376a9-5855-4f7b-b7cd-6a19a677d573",
+        "url": "https://api.pixellab.ai/mcp/images/a68376a9-5855-4f7b-b7cd-6a19a677d573/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "folk-textile-embroidered",
+        "clasp"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Folk textile / embroidered"
+    },
+    {
+      "id": "flavor-belle-poque-couture-rosette",
+      "name": "Belle \u00c9poque couture \u00b7 rosette",
+      "kind": "rosette",
+      "file": "parts/flavors/flavor-belle-poque-couture-rosette.png",
+      "bounds": [
+        4,
+        6,
+        188,
+        189
+      ],
+      "width": 259,
+      "height": 259,
+      "x": 256,
+      "y": 30,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "e8184c255ad2661aa44ea578d91dbc4e7e987f0a4eafab493396645db51fe558",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "fb14def8-238d-4fba-9583-5c90a08c8b9e",
+        "url": "https://api.pixellab.ai/mcp/images/fb14def8-238d-4fba-9583-5c90a08c8b9e/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "belle-poque-couture",
+        "rosette"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Belle \u00c9poque couture"
+    },
+    {
+      "id": "flavor-belle-poque-couture-setting",
+      "name": "Belle \u00c9poque couture \u00b7 setting",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-belle-poque-couture-setting.png",
+      "bounds": [
+        30,
+        14,
+        162,
+        178
+      ],
+      "width": 118,
+      "height": 151,
+      "x": 256,
+      "y": 84,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "c48aa0f68106813bf2158eea2c6d2ada4d7bd04eccc94ce220d09cb3b1776b1c",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "dad5cdf5-ce6d-4da2-8688-b8bb4c9ca494",
+        "url": "https://api.pixellab.ai/mcp/images/dad5cdf5-ce6d-4da2-8688-b8bb4c9ca494/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "belle-poque-couture",
+        "setting"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Belle \u00c9poque couture"
+    },
+    {
+      "id": "flavor-belle-poque-couture-gem",
+      "name": "Belle \u00c9poque couture \u00b7 gem",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-belle-poque-couture-gem.png",
+      "bounds": [
+        38,
+        20,
+        154,
+        176
+      ],
+      "width": 66,
+      "height": 97,
+      "x": 256,
+      "y": 111,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "6119bcd1ecbc21af63f6520c75b540475f60d9cd8e9ef682e09ec7ca52527510",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "9f4b647a-40ca-4900-806c-f4a3029d5f15",
+        "url": "https://api.pixellab.ai/mcp/images/9f4b647a-40ca-4900-806c-f4a3029d5f15/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "belle-poque-couture",
+        "gem"
+      ],
+      "materials": [
+        "gem"
+      ],
+      "collection": "Belle \u00c9poque couture"
+    },
+    {
+      "id": "flavor-belle-poque-couture-tails",
+      "name": "Belle \u00c9poque couture \u00b7 tails",
+      "kind": "ribbon",
+      "file": "parts/flavors/flavor-belle-poque-couture-tails.png",
+      "bounds": [
+        38,
+        17,
+        161,
+        302
+      ],
+      "width": 187,
+      "height": 384,
+      "x": 256,
+      "y": 196,
+      "original_size": [
+        192,
+        320
+      ],
+      "sha256": "63ef4b2178120b982030fea009c5a7589c1d28afa62ce59c64d3ef9b499c72e9",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "6b7ecf7c-b792-4f7d-ae70-c524798939a8",
+        "url": "https://api.pixellab.ai/mcp/images/6b7ecf7c-b792-4f7d-ae70-c524798939a8/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "belle-poque-couture",
+        "tails"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Belle \u00c9poque couture"
+    },
+    {
+      "id": "flavor-belle-poque-couture-accent",
+      "name": "Belle \u00c9poque couture \u00b7 accent",
+      "kind": "accent",
+      "file": "parts/flavors/flavor-belle-poque-couture-accent.png",
+      "bounds": [
+        25,
+        22,
+        173,
+        103
+      ],
+      "width": 78,
+      "height": 38,
+      "x": 256,
+      "y": 244,
+      "original_size": [
+        192,
+        128
+      ],
+      "sha256": "99477f91c10909c62bee035ae177558243f51db9bc6334b5ce0f62e2e8e9a139",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "4a054b2d-e370-49f2-8d6d-bc8e187f17c2",
+        "url": "https://api.pixellab.ai/mcp/images/4a054b2d-e370-49f2-8d6d-bc8e187f17c2/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "belle-poque-couture",
+        "accent"
+      ],
+      "materials": [
+        "gem"
+      ],
+      "collection": "Belle \u00c9poque couture"
+    },
+    {
+      "id": "flavor-celestial-clockwork-rosette",
+      "name": "Celestial clockwork \u00b7 rosette",
+      "kind": "rosette",
+      "file": "parts/flavors/flavor-celestial-clockwork-rosette.png",
+      "bounds": [
+        14,
+        13,
+        178,
+        176
+      ],
+      "width": 259,
+      "height": 259,
+      "x": 256,
+      "y": 30,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "1d060cb818d739c73955d925fea1e19d4682932555401a32e60a167188ad6124",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "ee17a728-b151-4061-aee7-61e847b720a8",
+        "url": "https://api.pixellab.ai/mcp/images/ee17a728-b151-4061-aee7-61e847b720a8/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "celestial-clockwork",
+        "rosette"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Celestial clockwork"
+    },
+    {
+      "id": "flavor-celestial-clockwork-setting",
+      "name": "Celestial clockwork \u00b7 setting",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-celestial-clockwork-setting.png",
+      "bounds": [
+        13,
+        12,
+        179,
+        182
+      ],
+      "width": 137,
+      "height": 137,
+      "x": 256,
+      "y": 91,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "0606c330ee61f25ab8b0414d1c6e8b73a77941a01ca0f2a2f5dd54b651c90457",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "a7c2ac3e-4116-4eaf-af59-cc5827ce6e3e",
+        "url": "https://api.pixellab.ai/mcp/images/a7c2ac3e-4116-4eaf-af59-cc5827ce6e3e/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "celestial-clockwork",
+        "setting"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Celestial clockwork"
+    },
+    {
+      "id": "flavor-celestial-clockwork-gem",
+      "name": "Celestial clockwork \u00b7 gem",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-celestial-clockwork-gem.png",
+      "bounds": [
+        26,
+        14,
+        166,
+        178
+      ],
+      "width": 78,
+      "height": 88,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "ea57aa5dacf74659bb62c7189d166043ac212c260782856b3622338bad7d9f9e",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "312a4c64-d742-42c2-a9f6-8cd2e72538ac",
+        "url": "https://api.pixellab.ai/mcp/images/312a4c64-d742-42c2-a9f6-8cd2e72538ac/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "celestial-clockwork",
+        "gem"
+      ],
+      "materials": [
+        "gem"
+      ],
+      "collection": "Celestial clockwork"
+    },
+    {
+      "id": "flavor-celestial-clockwork-tails",
+      "name": "Celestial clockwork \u00b7 tails",
+      "kind": "ribbon",
+      "file": "parts/flavors/flavor-celestial-clockwork-tails.png",
+      "bounds": [
+        13,
+        14,
+        175,
+        308
+      ],
+      "width": 187,
+      "height": 384,
+      "x": 256,
+      "y": 196,
+      "original_size": [
+        192,
+        320
+      ],
+      "sha256": "7e88f32a770714347ae2934060a819df50097e2639eb4bc693a289abe4883314",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "66b39139-0175-4d7b-9770-056327d51299",
+        "url": "https://api.pixellab.ai/mcp/images/66b39139-0175-4d7b-9770-056327d51299/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "celestial-clockwork",
+        "tails"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Celestial clockwork"
+    },
+    {
+      "id": "flavor-celestial-clockwork-accent",
+      "name": "Celestial clockwork \u00b7 accent",
+      "kind": "accent",
+      "file": "parts/flavors/flavor-celestial-clockwork-accent.png",
+      "bounds": [
+        42,
+        19,
+        150,
+        105
+      ],
+      "width": 78,
+      "height": 38,
+      "x": 256,
+      "y": 244,
+      "original_size": [
+        192,
+        128
+      ],
+      "sha256": "4f070458be80e2590df9e0c3b65af9a6335722772ea1f3a7eb39442c43c08981",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "ecb50a9b-e8f1-47f0-bf85-8ce16cba9dc4",
+        "url": "https://api.pixellab.ai/mcp/images/ecb50a9b-e8f1-47f0-bf85-8ce16cba9dc4/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "celestial-clockwork",
+        "accent"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Celestial clockwork"
+    },
+    {
+      "id": "flavor-baroque-court-regalia-rosette",
+      "name": "Baroque court regalia \u00b7 rosette",
+      "kind": "rosette",
+      "file": "parts/flavors/flavor-baroque-court-regalia-rosette.png",
+      "bounds": [
+        4,
+        7,
+        187,
+        188
+      ],
+      "width": 259,
+      "height": 259,
+      "x": 256,
+      "y": 30,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "d5a27ee970ff4195780f332c0cdae92fcf21553ae0e41f1f88b1b9f2e8aa9ef4",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "30961816-fcf5-44a4-ac58-041f743f8f67",
+        "url": "https://api.pixellab.ai/mcp/images/30961816-fcf5-44a4-ac58-041f743f8f67/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "baroque-court-regalia",
+        "rosette"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Baroque court regalia"
+    },
+    {
+      "id": "flavor-baroque-court-regalia-setting",
+      "name": "Baroque court regalia \u00b7 setting",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-baroque-court-regalia-setting.png",
+      "bounds": [
+        22,
+        11,
+        168,
+        173
+      ],
+      "width": 140,
+      "height": 154,
+      "x": 256,
+      "y": 82,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "29995cd81421c22f302bb4b803abfe978c36470d6b1f1662d2d409f3fc6c5d4b",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "2026f047-3a69-41b2-a62b-0cd494dae737",
+        "url": "https://api.pixellab.ai/mcp/images/2026f047-3a69-41b2-a62b-0cd494dae737/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "baroque-court-regalia",
+        "setting"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Baroque court regalia"
+    },
+    {
+      "id": "flavor-baroque-court-regalia-gem",
+      "name": "Baroque court regalia \u00b7 gem",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-baroque-court-regalia-gem.png",
+      "bounds": [
+        23,
+        24,
+        169,
+        168
+      ],
+      "width": 82,
+      "height": 86,
+      "x": 256,
+      "y": 116,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "03018a42ded5bd2adb029b3ffba9034dedc8fbea45868dff94bf8489b1fafc51",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "d2f803b7-171b-472e-9666-675f8432d4fb",
+        "url": "https://api.pixellab.ai/mcp/images/d2f803b7-171b-472e-9666-675f8432d4fb/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "baroque-court-regalia",
+        "gem"
+      ],
+      "materials": [
+        "gem"
+      ],
+      "collection": "Baroque court regalia"
+    },
+    {
+      "id": "flavor-baroque-court-regalia-tails",
+      "name": "Baroque court regalia \u00b7 tails",
+      "kind": "ribbon",
+      "file": "parts/flavors/flavor-baroque-court-regalia-tails.png",
+      "bounds": [
+        27,
+        5,
+        169,
+        316
+      ],
+      "width": 187,
+      "height": 384,
+      "x": 256,
+      "y": 196,
+      "original_size": [
+        192,
+        320
+      ],
+      "sha256": "d6846df151d8d98cca52bb1bd6e6139bd28385d1c5d3305519597e0929af4ddb",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "79c9031d-cfc8-4a01-8622-734dbff4fb30",
+        "url": "https://api.pixellab.ai/mcp/images/79c9031d-cfc8-4a01-8622-734dbff4fb30/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "baroque-court-regalia",
+        "tails"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Baroque court regalia"
+    },
+    {
+      "id": "flavor-baroque-court-regalia-accent",
+      "name": "Baroque court regalia \u00b7 accent",
+      "kind": "accent",
+      "file": "parts/flavors/flavor-baroque-court-regalia-accent.png",
+      "bounds": [
+        36,
+        9,
+        156,
+        118
+      ],
+      "width": 78,
+      "height": 38,
+      "x": 256,
+      "y": 244,
+      "original_size": [
+        192,
+        128
+      ],
+      "sha256": "985c76b89b667de80fc27016ef526d7e4515a19bc1ce75d8e5652c3522a70f79",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "1881e6b8-0e06-4577-b55b-141dfd62f118",
+        "url": "https://api.pixellab.ai/mcp/images/1881e6b8-0e06-4577-b55b-141dfd62f118/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "baroque-court-regalia",
+        "accent"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Baroque court regalia"
+    },
+    {
+      "id": "flavor-coral-reef-rosette",
+      "name": "Coral reef \u00b7 rosette",
+      "kind": "rosette",
+      "file": "parts/flavors/flavor-coral-reef-rosette.png",
+      "bounds": [
+        9,
+        10,
+        183,
+        181
+      ],
+      "width": 259,
+      "height": 259,
+      "x": 256,
+      "y": 30,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "a4261b7d38c75fdfb131cb916d55fffc0336be628707fcb6a8751584d021db9a",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "6dfd531a-c8d0-4b4f-a0bc-50bfdc0fbd81",
+        "url": "https://api.pixellab.ai/mcp/images/6dfd531a-c8d0-4b4f-a0bc-50bfdc0fbd81/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "coral-reef",
+        "rosette"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Coral reef"
+    },
+    {
+      "id": "flavor-coral-reef-setting",
+      "name": "Coral reef \u00b7 setting",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-coral-reef-setting.png",
+      "bounds": [
+        19,
+        7,
+        173,
+        183
+      ],
+      "width": 138,
+      "height": 156,
+      "x": 256,
+      "y": 81,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "efcfa962521e4ef8e10159106a1c69b83b9dd984c569214680693986627d3941",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "6ec2f138-ba88-4a3d-9865-3d910020845a",
+        "url": "https://api.pixellab.ai/mcp/images/6ec2f138-ba88-4a3d-9865-3d910020845a/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "coral-reef",
+        "setting"
+      ],
+      "materials": [
+        "metal",
+        "gem"
+      ],
+      "collection": "Coral reef"
+    },
+    {
+      "id": "flavor-coral-reef-gem",
+      "name": "Coral reef \u00b7 gem",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-coral-reef-gem.png",
+      "bounds": [
+        14,
+        16,
+        178,
+        178
+      ],
+      "width": 77,
+      "height": 92,
+      "x": 256,
+      "y": 113,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "2b56369c7143e375f297ff3f33cea4079bfc4adf60700f267688699d78ba7c18",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "b2339470-755f-4c3f-81b5-ce3a754a6ccf",
+        "url": "https://api.pixellab.ai/mcp/images/b2339470-755f-4c3f-81b5-ce3a754a6ccf/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "coral-reef",
+        "gem"
+      ],
+      "materials": [
+        "gem"
+      ],
+      "collection": "Coral reef"
+    },
+    {
+      "id": "flavor-coral-reef-tails",
+      "name": "Coral reef \u00b7 tails",
+      "kind": "ribbon",
+      "file": "parts/flavors/flavor-coral-reef-tails.png",
+      "bounds": [
+        27,
+        20,
+        169,
+        304
+      ],
+      "width": 187,
+      "height": 384,
+      "x": 256,
+      "y": 196,
+      "original_size": [
+        192,
+        320
+      ],
+      "sha256": "7cd3cd7736681b6d037d4f36a1a3879487164e081b217fc39dee73fe9c9ad529",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "2ea7c9e1-8a74-4449-938a-fc6364b37d37",
+        "url": "https://api.pixellab.ai/mcp/images/2ea7c9e1-8a74-4449-938a-fc6364b37d37/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "coral-reef",
+        "tails"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Coral reef"
+    },
+    {
+      "id": "flavor-coral-reef-accent",
+      "name": "Coral reef \u00b7 accent",
+      "kind": "accent",
+      "file": "parts/flavors/flavor-coral-reef-accent.png",
+      "bounds": [
+        7,
+        9,
+        185,
+        120
+      ],
+      "width": 78,
+      "height": 53,
+      "x": 256,
+      "y": 237,
+      "original_size": [
+        192,
+        128
+      ],
+      "sha256": "971a7c9599c7b63267eda7ecc0721393bd30563224ed08e6ff0586c5d94e89a2",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "7f6d0536-6383-433a-bc07-61208b70c8a2",
+        "url": "https://api.pixellab.ai/mcp/images/7f6d0536-6383-433a-bc07-61208b70c8a2/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "coral-reef",
+        "accent"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Coral reef"
+    },
+    {
+      "id": "flavor-deep-sea-ocean-rosette",
+      "name": "Deep sea ocean \u00b7 rosette",
+      "kind": "rosette",
+      "file": "parts/flavors/flavor-deep-sea-ocean-rosette.png",
+      "bounds": [
+        4,
+        5,
+        188,
+        189
+      ],
+      "width": 259,
+      "height": 259,
+      "x": 256,
+      "y": 30,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "d453bb49fe37d316b0235e434e85f19a4da08331cba0fcdde59f0b22a8ff3e55",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "95eac018-9c0d-4ac5-b996-8bb59cd88062",
+        "url": "https://api.pixellab.ai/mcp/images/95eac018-9c0d-4ac5-b996-8bb59cd88062/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "deep-sea-ocean",
+        "rosette"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Deep sea ocean"
+    },
+    {
+      "id": "flavor-deep-sea-ocean-setting",
+      "name": "Deep sea ocean \u00b7 setting",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-deep-sea-ocean-setting.png",
+      "bounds": [
+        16,
+        24,
+        176,
+        168
+      ],
+      "width": 136,
+      "height": 169,
+      "x": 256,
+      "y": 75,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "ce6c76e9e5afcf13bc104e9e461615eff093c06e95cc1b3a7375586917867de4",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "1ef6879d-f2e3-43e2-9765-00ebc44561d9",
+        "url": "https://api.pixellab.ai/mcp/images/1ef6879d-f2e3-43e2-9765-00ebc44561d9/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "deep-sea-ocean",
+        "setting"
+      ],
+      "materials": [
+        "metal",
+        "gem"
+      ],
+      "collection": "Deep sea ocean"
+    },
+    {
+      "id": "flavor-deep-sea-ocean-gem",
+      "name": "Deep sea ocean \u00b7 gem",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-deep-sea-ocean-gem.png",
+      "bounds": [
+        50,
+        14,
+        142,
+        178
+      ],
+      "width": 60,
+      "height": 109,
+      "x": 256,
+      "y": 105,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "7824292d8ed84c270c2214f4f3e8183dd37f800d9edab349361f1bb869cd8fc5",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "1e150cff-9789-4298-8e54-041e59d5ca6d",
+        "url": "https://api.pixellab.ai/mcp/images/1e150cff-9789-4298-8e54-041e59d5ca6d/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "deep-sea-ocean",
+        "gem"
+      ],
+      "materials": [
+        "gem"
+      ],
+      "collection": "Deep sea ocean"
+    },
+    {
+      "id": "flavor-deep-sea-ocean-tails",
+      "name": "Deep sea ocean \u00b7 tails",
+      "kind": "ribbon",
+      "file": "parts/flavors/flavor-deep-sea-ocean-tails.png",
+      "bounds": [
+        46,
+        31,
+        144,
+        300
+      ],
+      "width": 187,
+      "height": 384,
+      "x": 256,
+      "y": 196,
+      "original_size": [
+        192,
+        320
+      ],
+      "sha256": "8848a91ef0345e409a17d4849feaf785418fc9689ef5082eed9d4f57d9f4be83",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "ea036cc6-d443-48d5-88f7-00165f2b6d94",
+        "url": "https://api.pixellab.ai/mcp/images/ea036cc6-d443-48d5-88f7-00165f2b6d94/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "deep-sea-ocean",
+        "tails"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Deep sea ocean"
+    },
+    {
+      "id": "flavor-deep-sea-ocean-accent",
+      "name": "Deep sea ocean \u00b7 accent",
+      "kind": "accent",
+      "file": "parts/flavors/flavor-deep-sea-ocean-accent.png",
+      "bounds": [
+        52,
+        17,
+        139,
+        111
+      ],
+      "width": 78,
+      "height": 38,
+      "x": 256,
+      "y": 244,
+      "original_size": [
+        192,
+        128
+      ],
+      "sha256": "d3146470a0d391966bc73b181d5647c8050beb817dd237c630f1850189191a5b",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "6d7c7538-947e-4a9c-be14-e0be67396ffe",
+        "url": "https://api.pixellab.ai/mcp/images/6d7c7538-947e-4a9c-be14-e0be67396ffe/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "deep-sea-ocean",
+        "accent"
+      ],
+      "materials": [
+        "metal",
+        "gem"
+      ],
+      "collection": "Deep sea ocean"
+    },
+    {
+      "id": "flavor-river-rosette",
+      "name": "River \u00b7 rosette",
+      "kind": "rosette",
+      "file": "parts/flavors/flavor-river-rosette.png",
+      "bounds": [
+        10,
+        10,
+        182,
+        180
+      ],
+      "width": 259,
+      "height": 259,
+      "x": 256,
+      "y": 30,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "ba25a320c9147a98db6d57efba39d29211e6dc2f5616d0a1c283c786a86921d3",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "5b8d0f2b-4fef-4bce-878b-74eba6f065f3",
+        "url": "https://api.pixellab.ai/mcp/images/5b8d0f2b-4fef-4bce-878b-74eba6f065f3/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "river",
+        "rosette"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "River"
+    },
+    {
+      "id": "flavor-river-setting",
+      "name": "River \u00b7 setting",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-river-setting.png",
+      "bounds": [
+        15,
+        14,
+        177,
+        176
+      ],
+      "width": 139,
+      "height": 145,
+      "x": 256,
+      "y": 87,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "9ca6de3566ad36aa20942bfda2480da48c01892d284798ad2406412445b05bd4",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "76e99a40-5ba9-4b05-9f8e-06f8323c6f1d",
+        "url": "https://api.pixellab.ai/mcp/images/76e99a40-5ba9-4b05-9f8e-06f8323c6f1d/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "river",
+        "setting"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "River"
+    },
+    {
+      "id": "flavor-river-gem",
+      "name": "River \u00b7 gem",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-river-gem.png",
+      "bounds": [
+        28,
+        22,
+        164,
+        170
+      ],
+      "width": 78,
+      "height": 97,
+      "x": 256,
+      "y": 111,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "26c41e12fce883a9092998bdb82146c5b0f1086d7cf7eca09dbb766a5eb21b7f",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "e0a2aa3f-67ad-49e8-8c09-9c39ff4863a9",
+        "url": "https://api.pixellab.ai/mcp/images/e0a2aa3f-67ad-49e8-8c09-9c39ff4863a9/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "river",
+        "gem"
+      ],
+      "materials": [
+        "gem"
+      ],
+      "collection": "River"
+    },
+    {
+      "id": "flavor-river-tails",
+      "name": "River \u00b7 tails",
+      "kind": "ribbon",
+      "file": "parts/flavors/flavor-river-tails.png",
+      "bounds": [
+        32,
+        2,
+        165,
+        320
+      ],
+      "width": 187,
+      "height": 384,
+      "x": 256,
+      "y": 196,
+      "original_size": [
+        192,
+        320
+      ],
+      "sha256": "bb9a4f53e41e1f08f2ae84d739ed5d1920fa465b05761040aec488e3c8772d73",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "6345397b-2f09-4f43-b7ee-d35f02cb90a9",
+        "url": "https://api.pixellab.ai/mcp/images/6345397b-2f09-4f43-b7ee-d35f02cb90a9/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "river",
+        "tails"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "River"
+    },
+    {
+      "id": "flavor-river-accent",
+      "name": "River \u00b7 accent",
+      "kind": "accent",
+      "file": "parts/flavors/flavor-river-accent.png",
+      "bounds": [
+        60,
+        5,
+        131,
+        123
+      ],
+      "width": 78,
+      "height": 38,
+      "x": 256,
+      "y": 244,
+      "original_size": [
+        192,
+        128
+      ],
+      "sha256": "ad7688b7c9f01ca8ec9385fa1a74736c3dd044c242eafaa3657f35934c2f840a",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "6e1cbfda-9863-49aa-8783-23a7c0e23dcd",
+        "url": "https://api.pixellab.ai/mcp/images/6e1cbfda-9863-49aa-8783-23a7c0e23dcd/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "river",
+        "accent"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "River"
+    },
+    {
+      "id": "flavor-aurora-glasswork-outer-rosette",
+      "name": "Aurora glasswork \u00b7 outer rosette",
+      "kind": "rosette",
+      "file": "parts/flavors/flavor-aurora-glasswork-outer-rosette.png",
+      "bounds": [
+        10,
+        9,
+        182,
+        182
+      ],
+      "width": 257,
+      "height": 257,
+      "x": 256,
+      "y": 36,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "6ee657a5aa07e4b48ec56f84e41a5f8aacbe8dd3e66804b46159600cb20c565c",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "d5dadfab-89ea-4b82-8c38-e5072247602d",
+        "url": "https://api.pixellab.ai/mcp/images/d5dadfab-89ea-4b82-8c38-e5072247602d/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "aurora-glasswork",
+        "outer-rosette"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Aurora glasswork"
+    },
+    {
+      "id": "flavor-aurora-glasswork-sheer-halo",
+      "name": "Aurora glasswork \u00b7 sheer halo",
+      "kind": "rosette",
+      "file": "parts/flavors/flavor-aurora-glasswork-sheer-halo.png",
+      "bounds": [
+        10,
+        9,
+        182,
+        181
+      ],
+      "width": 300,
+      "height": 300,
+      "x": 256,
+      "y": 14,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "647bd925bef24eed9a5c8c789e64c2cf7e1e5435186836c24a6b64fb58822328",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "879786be-1a83-4ed4-8e86-0f06c269bbd0",
+        "url": "https://api.pixellab.ai/mcp/images/879786be-1a83-4ed4-8e86-0f06c269bbd0/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "aurora-glasswork",
+        "sheer-halo",
+        "sheer"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Aurora glasswork",
+      "defaultOpacity": 0.55
+    },
+    {
+      "id": "flavor-aurora-glasswork-setting",
+      "name": "Aurora glasswork \u00b7 setting",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-aurora-glasswork-setting.png",
+      "bounds": [
+        4,
+        0,
+        188,
+        224
+      ],
+      "width": 134,
+      "height": 166,
+      "x": 256,
+      "y": 81,
+      "original_size": [
+        192,
+        224
+      ],
+      "sha256": "7ec6b9dfd9180877effc5512d114091d20d54b21a339fb006f1f3d6517ac9c95",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "1af7cc9a-46c3-41f7-a624-f26e8a0d6b6f",
+        "url": "https://api.pixellab.ai/mcp/images/1af7cc9a-46c3-41f7-a624-f26e8a0d6b6f/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "aurora-glasswork",
+        "setting"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Aurora glasswork"
+    },
+    {
+      "id": "flavor-aurora-glasswork-gem",
+      "name": "Aurora glasswork \u00b7 gem",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-aurora-glasswork-gem.png",
+      "bounds": [
+        34,
+        16,
+        158,
+        176
+      ],
+      "width": 71,
+      "height": 100,
+      "x": 256,
+      "y": 114,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "d7ab5c717197eff20212608ba179d1524f6999b5089d21cf55fd5c50f983f45b",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "6086e6a1-70dc-467f-b01f-b2b3f6127a1e",
+        "url": "https://api.pixellab.ai/mcp/images/6086e6a1-70dc-467f-b01f-b2b3f6127a1e/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "aurora-glasswork",
+        "gem"
+      ],
+      "materials": [
+        "gem"
+      ],
+      "collection": "Aurora glasswork"
+    },
+    {
+      "id": "flavor-aurora-glasswork-satin-tails",
+      "name": "Aurora glasswork \u00b7 satin tails",
+      "kind": "ribbon",
+      "file": "parts/flavors/flavor-aurora-glasswork-satin-tails.png",
+      "bounds": [
+        7,
+        10,
+        185,
+        315
+      ],
+      "width": 182,
+      "height": 360,
+      "x": 256,
+      "y": 219,
+      "original_size": [
+        192,
+        320
+      ],
+      "sha256": "0f7158b8e460b7e24dd1cb8da8d9210fc2dc8c1db14ffacec2be72682cb800b6",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "df2be3bf-ddff-4450-9648-130807313dac",
+        "url": "https://api.pixellab.ai/mcp/images/df2be3bf-ddff-4450-9648-130807313dac/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "aurora-glasswork",
+        "satin-tails"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Aurora glasswork"
+    },
+    {
+      "id": "flavor-aurora-glasswork-sheer-streamers",
+      "name": "Aurora glasswork \u00b7 sheer streamers",
+      "kind": "accent",
+      "file": "parts/flavors/flavor-aurora-glasswork-sheer-streamers.png",
+      "bounds": [
+        56,
+        25,
+        138,
+        293
+      ],
+      "width": 278,
+      "height": 408,
+      "x": 256,
+      "y": 194,
+      "original_size": [
+        192,
+        320
+      ],
+      "sha256": "407e0a11bd99f37e9ffde0d3cd1d428f58c20848b71a0ee3bd4ea60acd1342e5",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "ea4506a8-aa19-40c0-819e-9177de59a864",
+        "url": "https://api.pixellab.ai/mcp/images/ea4506a8-aa19-40c0-819e-9177de59a864/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "aurora-glasswork",
+        "sheer-streamers",
+        "sheer"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Aurora glasswork",
+      "defaultOpacity": 0.55
+    },
+    {
+      "id": "flavor-aurora-glasswork-side-flourish",
+      "name": "Aurora glasswork \u00b7 side flourish",
+      "kind": "accent",
+      "file": "parts/flavors/flavor-aurora-glasswork-side-flourish.png",
+      "bounds": [
+        16,
+        8,
+        174,
+        184
+      ],
+      "width": 113,
+      "height": 166,
+      "x": 346,
+      "y": 132,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "437c2af515a56b86a2eb39347772da6917c84578da9e8f17e07bbbbf77222916",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "14ff04bc-41e2-4c91-bb10-f72dc60d4d67",
+        "url": "https://api.pixellab.ai/mcp/images/14ff04bc-41e2-4c91-bb10-f72dc60d4d67/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "aurora-glasswork",
+        "side-flourish"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Aurora glasswork"
+    },
+    {
+      "id": "flavor-aurora-glasswork-pendant-chain",
+      "name": "Aurora glasswork \u00b7 pendant chain",
+      "kind": "accent",
+      "file": "parts/flavors/flavor-aurora-glasswork-pendant-chain.png",
+      "bounds": [
+        73,
+        11,
+        119,
+        211
+      ],
+      "width": 78,
+      "height": 222,
+      "x": 256,
+      "y": 257,
+      "original_size": [
+        192,
+        224
+      ],
+      "sha256": "4edf8a1c4bf4d77c302d98881acd0258f098eaf5fcd63abc6c59a0f63b24f769",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "ded2cdf6-cf39-4b6b-a78d-dd2e7bf71f39",
+        "url": "https://api.pixellab.ai/mcp/images/ded2cdf6-cf39-4b6b-a78d-dd2e7bf71f39/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "aurora-glasswork",
+        "pendant-chain"
+      ],
+      "materials": [
+        "metal",
+        "gem"
+      ],
+      "collection": "Aurora glasswork"
+    },
+    {
+      "id": "flavor-gilded-dragonfly-garden-outer-rosette",
+      "name": "Gilded dragonfly garden \u00b7 outer rosette",
+      "kind": "rosette",
+      "file": "parts/flavors/flavor-gilded-dragonfly-garden-outer-rosette.png",
+      "bounds": [
+        1,
+        0,
+        191,
+        190
+      ],
+      "width": 257,
+      "height": 257,
+      "x": 256,
+      "y": 36,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "7f4a5146d3193c496968dd90e4a2f9b8ed3625e14a08626a4e61fafcd71d5ea0",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "eac75496-c23b-441d-ace3-351577ae3380",
+        "url": "https://api.pixellab.ai/mcp/images/eac75496-c23b-441d-ace3-351577ae3380/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "gilded-dragonfly-garden",
+        "outer-rosette"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Gilded dragonfly garden"
+    },
+    {
+      "id": "flavor-gilded-dragonfly-garden-sheer-halo",
+      "name": "Gilded dragonfly garden \u00b7 sheer halo",
+      "kind": "rosette",
+      "file": "parts/flavors/flavor-gilded-dragonfly-garden-sheer-halo.png",
+      "bounds": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "width": 300,
+      "height": 300,
+      "x": 256,
+      "y": 14,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "002ced352c6b070ad531efb77632883f573ae19246f60f4d7b0dd029fc077086",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "ea5b3096-9ee1-4833-9638-5a557cb800e8",
+        "url": "https://api.pixellab.ai/mcp/pixel-tools/2d92a0fc-61b6-44b1-97a6-1f1fba38d796/image.png",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "gilded-dragonfly-garden",
+        "sheer-halo",
+        "sheer"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Gilded dragonfly garden",
+      "defaultOpacity": 0.55
+    },
+    {
+      "id": "flavor-gilded-dragonfly-garden-setting",
+      "name": "Gilded dragonfly garden \u00b7 setting",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-gilded-dragonfly-garden-setting.png",
+      "bounds": [
+        3,
+        1,
+        189,
+        218
+      ],
+      "width": 131,
+      "height": 166,
+      "x": 256,
+      "y": 81,
+      "original_size": [
+        192,
+        224
+      ],
+      "sha256": "69b8651d51918446645116ed568f73019adafa5c9d1a6a5169731a11c4c6d0b4",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "01fe4320-7cc8-4fe2-ae74-e6ca62cbfe21",
+        "url": "https://api.pixellab.ai/mcp/images/01fe4320-7cc8-4fe2-ae74-e6ca62cbfe21/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "gilded-dragonfly-garden",
+        "setting"
+      ],
+      "materials": [
+        "metal",
+        "gem"
+      ],
+      "collection": "Gilded dragonfly garden"
+    },
+    {
+      "id": "flavor-gilded-dragonfly-garden-gem",
+      "name": "Gilded dragonfly garden \u00b7 gem",
+      "kind": "medal",
+      "file": "parts/flavors/flavor-gilded-dragonfly-garden-gem.png",
+      "bounds": [
+        46,
+        6,
+        146,
+        190
+      ],
+      "width": 65,
+      "height": 98,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "aaad4d52371aeaca4b16a47a3e1f75c3f2ac12a90a7128a5902afac31a17a4c6",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "190ef240-b540-4867-912a-cabfcf1f12d8",
+        "url": "https://api.pixellab.ai/mcp/images/190ef240-b540-4867-912a-cabfcf1f12d8/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "gilded-dragonfly-garden",
+        "gem"
+      ],
+      "materials": [
+        "gem"
+      ],
+      "collection": "Gilded dragonfly garden"
+    },
+    {
+      "id": "flavor-gilded-dragonfly-garden-satin-tails",
+      "name": "Gilded dragonfly garden \u00b7 satin tails",
+      "kind": "ribbon",
+      "file": "parts/flavors/flavor-gilded-dragonfly-garden-satin-tails.png",
+      "bounds": [
+        49,
+        14,
+        146,
+        313
+      ],
+      "width": 182,
+      "height": 360,
+      "x": 256,
+      "y": 219,
+      "original_size": [
+        192,
+        320
+      ],
+      "sha256": "03e772f1a60fba79c92b61b467629e244e1ca1384c95bf550b6d0b39fcdbcde8",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "b2552eea-6770-42a8-b999-5b7618090454",
+        "url": "https://api.pixellab.ai/mcp/images/b2552eea-6770-42a8-b999-5b7618090454/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "gilded-dragonfly-garden",
+        "satin-tails"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Gilded dragonfly garden"
+    },
+    {
+      "id": "flavor-gilded-dragonfly-garden-sheer-streamers",
+      "name": "Gilded dragonfly garden \u00b7 sheer streamers",
+      "kind": "accent",
+      "file": "parts/flavors/flavor-gilded-dragonfly-garden-sheer-streamers.png",
+      "bounds": [
+        10,
+        0,
+        180,
+        320
+      ],
+      "width": 278,
+      "height": 408,
+      "x": 256,
+      "y": 194,
+      "original_size": [
+        192,
+        320
+      ],
+      "sha256": "83059b46e207a886340207f83cf53ece76f07ff8cbea3b3b8e3af3a887434bd2",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "6dacd0a5-4f7a-4b5e-a16a-6593c68b0fee",
+        "url": "https://api.pixellab.ai/mcp/images/6dacd0a5-4f7a-4b5e-a16a-6593c68b0fee/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "gilded-dragonfly-garden",
+        "sheer-streamers",
+        "sheer"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Gilded dragonfly garden",
+      "defaultOpacity": 0.55
+    },
+    {
+      "id": "flavor-gilded-dragonfly-garden-side-flourish",
+      "name": "Gilded dragonfly garden \u00b7 side flourish",
+      "kind": "accent",
+      "file": "parts/flavors/flavor-gilded-dragonfly-garden-side-flourish.png",
+      "bounds": [
+        16,
+        9,
+        179,
+        180
+      ],
+      "width": 113,
+      "height": 166,
+      "x": 346,
+      "y": 132,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "ef6512c545984836353590af212726f2b5962822652d3e6aab1423ab0a6c4a02",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "12020ee9-a046-4dca-b17b-d9d6c704250b",
+        "url": "https://api.pixellab.ai/mcp/images/12020ee9-a046-4dca-b17b-d9d6c704250b/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "gilded-dragonfly-garden",
+        "side-flourish"
+      ],
+      "materials": [
+        "metal",
+        "gem"
+      ],
+      "collection": "Gilded dragonfly garden"
+    },
+    {
+      "id": "flavor-gilded-dragonfly-garden-pendant-chain",
+      "name": "Gilded dragonfly garden \u00b7 pendant chain",
+      "kind": "accent",
+      "file": "parts/flavors/flavor-gilded-dragonfly-garden-pendant-chain.png",
+      "bounds": [
+        56,
+        0,
+        136,
+        224
+      ],
+      "width": 78,
+      "height": 222,
+      "x": 256,
+      "y": 257,
+      "original_size": [
+        192,
+        224
+      ],
+      "sha256": "60be577f5f93091a7ed137ec0c204faf7ee374d2f04ff38f944c615c7ef645bb",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "e6b2469d-5018-4940-93d2-76ab2c0e955a",
+        "url": "https://api.pixellab.ai/mcp/images/e6b2469d-5018-4940-93d2-76ab2c0e955a/download",
+        "thread": "2026-11-06 modular ribbon flavors"
+      },
+      "tags": [
+        "flavors",
+        "gilded-dragonfly-garden",
+        "pendant-chain"
+      ],
+      "materials": [
+        "metal",
+        "gem"
+      ],
+      "collection": "Gilded dragonfly garden"
     }
   ],
   "presets": [
@@ -77027,6 +79382,3029 @@
           }
         }
       ]
+    },
+    {
+      "name": "Industrial service insignia",
+      "collection": "Industrial service insignia",
+      "layers": [
+        {
+          "part": "flavor-industrial-service-insignia-suspension",
+          "x": 256,
+          "y": 170,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-industrial-service-insignia-stud",
+          "x": 256,
+          "y": 322,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-industrial-service-insignia-bar",
+          "x": 256,
+          "y": 135,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-industrial-service-insignia-frame",
+          "x": 256,
+          "y": 125,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Art Deco stud",
+      "collection": "Art Deco stud",
+      "layers": [
+        {
+          "part": "flavor-art-deco-stud-tails",
+          "x": 256,
+          "y": 194,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-art-deco-stud-gem",
+          "x": 256,
+          "y": 124,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-art-deco-stud-frame",
+          "x": 256,
+          "y": 76,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Art Nouveau botanical",
+      "collection": "Art Nouveau botanical",
+      "layers": [
+        {
+          "part": "flavor-art-nouveau-botanical-long-tails",
+          "x": 256,
+          "y": 208,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-art-nouveau-botanical-gem",
+          "x": 256,
+          "y": 88,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-art-nouveau-botanical-frame",
+          "x": 256,
+          "y": 47,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-art-nouveau-botanical-clasp",
+          "x": 256,
+          "y": 280,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gothic architectural",
+      "collection": "Gothic architectural",
+      "layers": [
+        {
+          "part": "flavor-gothic-architectural-long-tails",
+          "x": 256,
+          "y": 208,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-gothic-architectural-frame",
+          "x": 256,
+          "y": 47,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-gothic-architectural-gem",
+          "x": 256,
+          "y": 90,
+          "scale": 0.83,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-gothic-architectural-clasp",
+          "x": 256,
+          "y": 280,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Folk textile / embroidered",
+      "collection": "Folk textile / embroidered",
+      "layers": [
+        {
+          "part": "flavor-folk-textile-embroidered-long-tails",
+          "x": 256,
+          "y": 208,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-folk-textile-embroidered-stud",
+          "x": 256,
+          "y": 130,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-folk-textile-embroidered-frame",
+          "x": 256,
+          "y": 67,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-folk-textile-embroidered-clasp",
+          "x": 256,
+          "y": 252,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Belle \u00c9poque couture",
+      "collection": "Belle \u00c9poque couture",
+      "layers": [
+        {
+          "part": "flavor-belle-poque-couture-tails",
+          "x": 256,
+          "y": 196,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-belle-poque-couture-rosette",
+          "x": 256,
+          "y": 30,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-belle-poque-couture-gem",
+          "x": 256,
+          "y": 111,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-belle-poque-couture-setting",
+          "x": 256,
+          "y": 84,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-belle-poque-couture-accent",
+          "x": 256,
+          "y": 244,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Celestial clockwork",
+      "collection": "Celestial clockwork",
+      "layers": [
+        {
+          "part": "flavor-celestial-clockwork-tails",
+          "x": 256,
+          "y": 196,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-celestial-clockwork-rosette",
+          "x": 256,
+          "y": 30,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-celestial-clockwork-gem",
+          "x": 256,
+          "y": 115,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-celestial-clockwork-setting",
+          "x": 256,
+          "y": 91,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-celestial-clockwork-accent",
+          "x": 256,
+          "y": 244,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Baroque court regalia",
+      "collection": "Baroque court regalia",
+      "layers": [
+        {
+          "part": "flavor-baroque-court-regalia-tails",
+          "x": 256,
+          "y": 196,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-baroque-court-regalia-rosette",
+          "x": 256,
+          "y": 30,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-baroque-court-regalia-gem",
+          "x": 256,
+          "y": 116,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-baroque-court-regalia-setting",
+          "x": 256,
+          "y": 82,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-baroque-court-regalia-accent",
+          "x": 256,
+          "y": 244,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Coral reef",
+      "collection": "Coral reef",
+      "layers": [
+        {
+          "part": "flavor-coral-reef-tails",
+          "x": 256,
+          "y": 196,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-coral-reef-rosette",
+          "x": 256,
+          "y": 30,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-coral-reef-gem",
+          "x": 256,
+          "y": 113,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-coral-reef-setting",
+          "x": 256,
+          "y": 81,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-coral-reef-accent",
+          "x": 256,
+          "y": 237,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Deep sea ocean",
+      "collection": "Deep sea ocean",
+      "layers": [
+        {
+          "part": "flavor-deep-sea-ocean-tails",
+          "x": 256,
+          "y": 196,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-deep-sea-ocean-rosette",
+          "x": 256,
+          "y": 30,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-deep-sea-ocean-gem",
+          "x": 256,
+          "y": 105,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-deep-sea-ocean-setting",
+          "x": 256,
+          "y": 75,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-deep-sea-ocean-accent",
+          "x": 256,
+          "y": 244,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "River",
+      "collection": "River",
+      "layers": [
+        {
+          "part": "flavor-river-tails",
+          "x": 256,
+          "y": 196,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-river-rosette",
+          "x": 256,
+          "y": 30,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-river-gem",
+          "x": 256,
+          "y": 111,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-river-setting",
+          "x": 256,
+          "y": 87,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-river-accent",
+          "x": 256,
+          "y": 244,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Aurora glasswork",
+      "collection": "Aurora glasswork",
+      "layers": [
+        {
+          "part": "flavor-aurora-glasswork-sheer-streamers",
+          "x": 256,
+          "y": 194,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          },
+          "opacity": 0.55
+        },
+        {
+          "part": "flavor-aurora-glasswork-satin-tails",
+          "x": 256,
+          "y": 219,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-aurora-glasswork-pendant-chain",
+          "x": 256,
+          "y": 257,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-aurora-glasswork-side-flourish",
+          "x": 346,
+          "y": 132,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-aurora-glasswork-outer-rosette",
+          "x": 256,
+          "y": 36,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-aurora-glasswork-sheer-halo",
+          "x": 256,
+          "y": 14,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          },
+          "opacity": 0.55
+        },
+        {
+          "part": "flavor-aurora-glasswork-gem",
+          "x": 256,
+          "y": 114,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-aurora-glasswork-setting",
+          "x": 256,
+          "y": 81,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gilded dragonfly garden",
+      "collection": "Gilded dragonfly garden",
+      "layers": [
+        {
+          "part": "flavor-gilded-dragonfly-garden-sheer-streamers",
+          "x": 256,
+          "y": 194,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          },
+          "opacity": 0.55
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-satin-tails",
+          "x": 256,
+          "y": 219,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-pendant-chain",
+          "x": 256,
+          "y": 257,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-side-flourish",
+          "x": 346,
+          "y": 132,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-outer-rosette",
+          "x": 256,
+          "y": 36,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-sheer-halo",
+          "x": 256,
+          "y": 14,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          },
+          "opacity": 0.55
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-gem",
+          "x": 256,
+          "y": 115,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-setting",
+          "x": 256,
+          "y": 81,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Industrial service insignia \u00b7 Jewel remix",
+      "collection": "Industrial service insignia",
+      "layers": [
+        {
+          "part": "flavor-industrial-service-insignia-suspension",
+          "x": 256,
+          "y": 170,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-gothic-architectural-gem",
+          "x": 256,
+          "y": 322.0,
+          "scale": 0.6154,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-industrial-service-insignia-bar",
+          "x": 256,
+          "y": 135,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-industrial-service-insignia-frame",
+          "x": 256,
+          "y": 125,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ],
+      "inspiration": "Gothic architectural"
+    },
+    {
+      "name": "Industrial service insignia \u00b7 Textile remix",
+      "collection": "Industrial service insignia",
+      "layers": [
+        {
+          "part": "flavor-celestial-clockwork-tails",
+          "x": 256,
+          "y": 170.0,
+          "scale": 0.4505,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-industrial-service-insignia-stud",
+          "x": 256,
+          "y": 322,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-industrial-service-insignia-bar",
+          "x": 256,
+          "y": 135,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-industrial-service-insignia-frame",
+          "x": 256,
+          "y": 125,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ],
+      "inspiration": "Celestial clockwork"
+    },
+    {
+      "name": "Art Deco stud \u00b7 Jewel remix",
+      "collection": "Art Deco stud",
+      "layers": [
+        {
+          "part": "flavor-art-deco-stud-tails",
+          "x": 256,
+          "y": 194,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-folk-textile-embroidered-stud",
+          "x": 256,
+          "y": 138.5,
+          "scale": 0.8375,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-art-deco-stud-frame",
+          "x": 256,
+          "y": 76,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ],
+      "inspiration": "Folk textile / embroidered"
+    },
+    {
+      "name": "Art Deco stud \u00b7 Textile remix",
+      "collection": "Art Deco stud",
+      "layers": [
+        {
+          "part": "flavor-baroque-court-regalia-tails",
+          "x": 256,
+          "y": 194.0,
+          "scale": 0.4375,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-art-deco-stud-gem",
+          "x": 256,
+          "y": 124,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-art-deco-stud-frame",
+          "x": 256,
+          "y": 76,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ],
+      "inspiration": "Baroque court regalia"
+    },
+    {
+      "name": "Art Nouveau botanical \u00b7 Jewel remix",
+      "collection": "Art Nouveau botanical",
+      "layers": [
+        {
+          "part": "flavor-art-nouveau-botanical-long-tails",
+          "x": 256,
+          "y": 208,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-belle-poque-couture-gem",
+          "x": 256,
+          "y": 104.8,
+          "scale": 1.303,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-art-nouveau-botanical-frame",
+          "x": 256,
+          "y": 47,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-art-nouveau-botanical-clasp",
+          "x": 256,
+          "y": 280,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ],
+      "inspiration": "Belle \u00c9poque couture"
+    },
+    {
+      "name": "Art Nouveau botanical \u00b7 Textile remix",
+      "collection": "Art Nouveau botanical",
+      "layers": [
+        {
+          "part": "flavor-coral-reef-tails",
+          "x": 256,
+          "y": 215.38,
+          "scale": 0.9251,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-art-nouveau-botanical-gem",
+          "x": 256,
+          "y": 88,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-art-nouveau-botanical-frame",
+          "x": 256,
+          "y": 47,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-art-nouveau-botanical-clasp",
+          "x": 256,
+          "y": 280,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ],
+      "inspiration": "Coral reef"
+    },
+    {
+      "name": "Gothic architectural \u00b7 Jewel remix",
+      "collection": "Gothic architectural",
+      "layers": [
+        {
+          "part": "flavor-gothic-architectural-long-tails",
+          "x": 256,
+          "y": 208,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-gothic-architectural-frame",
+          "x": 256,
+          "y": 47,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-celestial-clockwork-gem",
+          "x": 256,
+          "y": 117.28,
+          "scale": 0.8513,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-gothic-architectural-clasp",
+          "x": 256,
+          "y": 280,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ],
+      "inspiration": "Celestial clockwork"
+    },
+    {
+      "name": "Gothic architectural \u00b7 Textile remix",
+      "collection": "Gothic architectural",
+      "layers": [
+        {
+          "part": "flavor-deep-sea-ocean-tails",
+          "x": 256,
+          "y": 215.38,
+          "scale": 0.9251,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-gothic-architectural-frame",
+          "x": 256,
+          "y": 47,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-gothic-architectural-gem",
+          "x": 256,
+          "y": 90,
+          "scale": 0.83,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-gothic-architectural-clasp",
+          "x": 256,
+          "y": 280,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ],
+      "inspiration": "Deep sea ocean"
+    },
+    {
+      "name": "Folk textile / embroidered \u00b7 Jewel remix",
+      "collection": "Folk textile / embroidered",
+      "layers": [
+        {
+          "part": "flavor-folk-textile-embroidered-long-tails",
+          "x": 256,
+          "y": 208,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-baroque-court-regalia-gem",
+          "x": 256,
+          "y": 130.0,
+          "scale": 0.9302,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-folk-textile-embroidered-frame",
+          "x": 256,
+          "y": 67,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-folk-textile-embroidered-clasp",
+          "x": 256,
+          "y": 252,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        }
+      ],
+      "inspiration": "Baroque court regalia"
+    },
+    {
+      "name": "Folk textile / embroidered \u00b7 Textile remix",
+      "collection": "Folk textile / embroidered",
+      "layers": [
+        {
+          "part": "flavor-river-tails",
+          "x": 256,
+          "y": 215.38,
+          "scale": 0.9251,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-folk-textile-embroidered-stud",
+          "x": 256,
+          "y": 130,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-folk-textile-embroidered-frame",
+          "x": 256,
+          "y": 67,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-folk-textile-embroidered-clasp",
+          "x": 256,
+          "y": 252,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        }
+      ],
+      "inspiration": "River"
+    },
+    {
+      "name": "Belle \u00c9poque couture \u00b7 Jewel remix",
+      "collection": "Belle \u00c9poque couture",
+      "layers": [
+        {
+          "part": "flavor-belle-poque-couture-tails",
+          "x": 256,
+          "y": 196,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-belle-poque-couture-rosette",
+          "x": 256,
+          "y": 30,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-coral-reef-gem",
+          "x": 256,
+          "y": 120.07,
+          "scale": 0.8571,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-belle-poque-couture-setting",
+          "x": 256,
+          "y": 84,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-belle-poque-couture-accent",
+          "x": 256,
+          "y": 244,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        }
+      ],
+      "inspiration": "Coral reef"
+    },
+    {
+      "name": "Belle \u00c9poque couture \u00b7 Textile remix",
+      "collection": "Belle \u00c9poque couture",
+      "layers": [
+        {
+          "part": "flavor-aurora-glasswork-satin-tails",
+          "x": 256,
+          "y": 203.05,
+          "scale": 1.0275,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-belle-poque-couture-rosette",
+          "x": 256,
+          "y": 30,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-belle-poque-couture-gem",
+          "x": 256,
+          "y": 111,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-belle-poque-couture-setting",
+          "x": 256,
+          "y": 84,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-belle-poque-couture-accent",
+          "x": 256,
+          "y": 244,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        }
+      ],
+      "inspiration": "Aurora glasswork"
+    },
+    {
+      "name": "Celestial clockwork \u00b7 Jewel remix",
+      "collection": "Celestial clockwork",
+      "layers": [
+        {
+          "part": "flavor-celestial-clockwork-tails",
+          "x": 256,
+          "y": 196,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-celestial-clockwork-rosette",
+          "x": 256,
+          "y": 30,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-deep-sea-ocean-gem",
+          "x": 256,
+          "y": 115.0,
+          "scale": 0.8073,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-celestial-clockwork-setting",
+          "x": 256,
+          "y": 91,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-celestial-clockwork-accent",
+          "x": 256,
+          "y": 244,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ],
+      "inspiration": "Deep sea ocean"
+    },
+    {
+      "name": "Celestial clockwork \u00b7 Textile remix",
+      "collection": "Celestial clockwork",
+      "layers": [
+        {
+          "part": "flavor-gilded-dragonfly-garden-satin-tails",
+          "x": 256,
+          "y": 203.05,
+          "scale": 1.0275,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-celestial-clockwork-rosette",
+          "x": 256,
+          "y": 30,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-celestial-clockwork-gem",
+          "x": 256,
+          "y": 115,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-celestial-clockwork-setting",
+          "x": 256,
+          "y": 91,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-celestial-clockwork-accent",
+          "x": 256,
+          "y": 244,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ],
+      "inspiration": "Gilded dragonfly garden"
+    },
+    {
+      "name": "Baroque court regalia \u00b7 Jewel remix",
+      "collection": "Baroque court regalia",
+      "layers": [
+        {
+          "part": "flavor-baroque-court-regalia-tails",
+          "x": 256,
+          "y": 196,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-baroque-court-regalia-rosette",
+          "x": 256,
+          "y": 30,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-river-gem",
+          "x": 256,
+          "y": 116.0,
+          "scale": 0.8866,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-baroque-court-regalia-setting",
+          "x": 256,
+          "y": 82,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-baroque-court-regalia-accent",
+          "x": 256,
+          "y": 244,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ],
+      "inspiration": "River"
+    },
+    {
+      "name": "Baroque court regalia \u00b7 Textile remix",
+      "collection": "Baroque court regalia",
+      "layers": [
+        {
+          "part": "flavor-industrial-service-insignia-suspension",
+          "x": 256,
+          "y": 305.89,
+          "scale": 0.9492,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-baroque-court-regalia-rosette",
+          "x": 256,
+          "y": 30,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-baroque-court-regalia-gem",
+          "x": 256,
+          "y": 116,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-baroque-court-regalia-setting",
+          "x": 256,
+          "y": 82,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-baroque-court-regalia-accent",
+          "x": 256,
+          "y": 244,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ],
+      "inspiration": "Industrial service insignia"
+    },
+    {
+      "name": "Coral reef \u00b7 Jewel remix",
+      "collection": "Coral reef",
+      "layers": [
+        {
+          "part": "flavor-coral-reef-tails",
+          "x": 256,
+          "y": 196,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-coral-reef-rosette",
+          "x": 256,
+          "y": 30,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-aurora-glasswork-gem",
+          "x": 256,
+          "y": 113.0,
+          "scale": 0.92,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-coral-reef-setting",
+          "x": 256,
+          "y": 81,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-coral-reef-accent",
+          "x": 256,
+          "y": 237,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ],
+      "inspiration": "Aurora glasswork"
+    },
+    {
+      "name": "Coral reef \u00b7 Textile remix",
+      "collection": "Coral reef",
+      "layers": [
+        {
+          "part": "flavor-art-deco-stud-tails",
+          "x": 256,
+          "y": 297.73,
+          "scale": 1.0747,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-coral-reef-rosette",
+          "x": 256,
+          "y": 30,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-coral-reef-gem",
+          "x": 256,
+          "y": 113,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-coral-reef-setting",
+          "x": 256,
+          "y": 81,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-coral-reef-accent",
+          "x": 256,
+          "y": 237,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ],
+      "inspiration": "Art Deco stud"
+    },
+    {
+      "name": "Deep sea ocean \u00b7 Jewel remix",
+      "collection": "Deep sea ocean",
+      "layers": [
+        {
+          "part": "flavor-deep-sea-ocean-tails",
+          "x": 256,
+          "y": 196,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-deep-sea-ocean-rosette",
+          "x": 256,
+          "y": 30,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-gem",
+          "x": 256,
+          "y": 114.27,
+          "scale": 0.9231,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-deep-sea-ocean-setting",
+          "x": 256,
+          "y": 75,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-deep-sea-ocean-accent",
+          "x": 256,
+          "y": 244,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        }
+      ],
+      "inspiration": "Gilded dragonfly garden"
+    },
+    {
+      "name": "Deep sea ocean \u00b7 Textile remix",
+      "collection": "Deep sea ocean",
+      "layers": [
+        {
+          "part": "flavor-art-nouveau-botanical-long-tails",
+          "x": 256,
+          "y": 196.01,
+          "scale": 1.0378,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-deep-sea-ocean-rosette",
+          "x": 256,
+          "y": 30,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-deep-sea-ocean-gem",
+          "x": 256,
+          "y": 105,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-deep-sea-ocean-setting",
+          "x": 256,
+          "y": 75,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-deep-sea-ocean-accent",
+          "x": 256,
+          "y": 244,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        }
+      ],
+      "inspiration": "Art Nouveau botanical"
+    },
+    {
+      "name": "River \u00b7 Jewel remix",
+      "collection": "River",
+      "layers": [
+        {
+          "part": "flavor-river-tails",
+          "x": 256,
+          "y": 196,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-river-rosette",
+          "x": 256,
+          "y": 30,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-industrial-service-insignia-stud",
+          "x": 256,
+          "y": 120.5,
+          "scale": 0.8125,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-river-setting",
+          "x": 256,
+          "y": 87,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-river-accent",
+          "x": 256,
+          "y": 244,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ],
+      "inspiration": "Industrial service insignia"
+    },
+    {
+      "name": "River \u00b7 Textile remix",
+      "collection": "River",
+      "layers": [
+        {
+          "part": "flavor-gothic-architectural-long-tails",
+          "x": 256,
+          "y": 196.01,
+          "scale": 1.0378,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-river-rosette",
+          "x": 256,
+          "y": 30,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-river-gem",
+          "x": 256,
+          "y": 111,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-river-setting",
+          "x": 256,
+          "y": 87,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-river-accent",
+          "x": 256,
+          "y": 244,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ],
+      "inspiration": "Gothic architectural"
+    },
+    {
+      "name": "Aurora glasswork \u00b7 Jewel remix",
+      "collection": "Aurora glasswork",
+      "layers": [
+        {
+          "part": "flavor-aurora-glasswork-sheer-streamers",
+          "x": 256,
+          "y": 194,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          },
+          "opacity": 0.55
+        },
+        {
+          "part": "flavor-aurora-glasswork-satin-tails",
+          "x": 256,
+          "y": 219,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-aurora-glasswork-pendant-chain",
+          "x": 256,
+          "y": 257,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-aurora-glasswork-side-flourish",
+          "x": 346,
+          "y": 132,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-aurora-glasswork-outer-rosette",
+          "x": 256,
+          "y": 36,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-aurora-glasswork-sheer-halo",
+          "x": 256,
+          "y": 14,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          },
+          "opacity": 0.55
+        },
+        {
+          "part": "flavor-art-deco-stud-gem",
+          "x": 256,
+          "y": 114.0,
+          "scale": 1.0417,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-aurora-glasswork-setting",
+          "x": 256,
+          "y": 81,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ],
+      "inspiration": "Art Deco stud"
+    },
+    {
+      "name": "Aurora glasswork \u00b7 Textile remix",
+      "collection": "Aurora glasswork",
+      "layers": [
+        {
+          "part": "flavor-aurora-glasswork-sheer-streamers",
+          "x": 256,
+          "y": 194,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          },
+          "opacity": 0.55
+        },
+        {
+          "part": "flavor-folk-textile-embroidered-long-tails",
+          "x": 256,
+          "y": 219.0,
+          "scale": 0.973,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-aurora-glasswork-pendant-chain",
+          "x": 256,
+          "y": 257,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-aurora-glasswork-side-flourish",
+          "x": 346,
+          "y": 132,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        },
+        {
+          "part": "flavor-aurora-glasswork-outer-rosette",
+          "x": 256,
+          "y": 36,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-aurora-glasswork-sheer-halo",
+          "x": 256,
+          "y": 14,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          },
+          "opacity": 0.55
+        },
+        {
+          "part": "flavor-aurora-glasswork-gem",
+          "x": 256,
+          "y": 114,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-aurora-glasswork-setting",
+          "x": 256,
+          "y": 81,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null
+          }
+        }
+      ],
+      "inspiration": "Folk textile / embroidered"
+    },
+    {
+      "name": "Gilded dragonfly garden \u00b7 Jewel remix",
+      "collection": "Gilded dragonfly garden",
+      "layers": [
+        {
+          "part": "flavor-gilded-dragonfly-garden-sheer-streamers",
+          "x": 256,
+          "y": 194,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          },
+          "opacity": 0.55
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-satin-tails",
+          "x": 256,
+          "y": 219,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-pendant-chain",
+          "x": 256,
+          "y": 257,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-side-flourish",
+          "x": 346,
+          "y": 132,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-outer-rosette",
+          "x": 256,
+          "y": 36,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-sheer-halo",
+          "x": 256,
+          "y": 14,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          },
+          "opacity": 0.55
+        },
+        {
+          "part": "flavor-art-nouveau-botanical-gem",
+          "x": 256,
+          "y": 115.0,
+          "scale": 0.6125,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-setting",
+          "x": 256,
+          "y": 81,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        }
+      ],
+      "inspiration": "Art Nouveau botanical"
+    },
+    {
+      "name": "Gilded dragonfly garden \u00b7 Textile remix",
+      "collection": "Gilded dragonfly garden",
+      "layers": [
+        {
+          "part": "flavor-gilded-dragonfly-garden-sheer-streamers",
+          "x": 256,
+          "y": 194,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          },
+          "opacity": 0.55
+        },
+        {
+          "part": "flavor-belle-poque-couture-tails",
+          "x": 256,
+          "y": 219.0,
+          "scale": 0.9375,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-pendant-chain",
+          "x": 256,
+          "y": 257,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-side-flourish",
+          "x": 346,
+          "y": 132,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-outer-rosette",
+          "x": 256,
+          "y": 36,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          }
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-sheer-halo",
+          "x": 256,
+          "y": 14,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "fabric": null
+          },
+          "opacity": 0.55
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-gem",
+          "x": 256,
+          "y": 115,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "gem": null
+          }
+        },
+        {
+          "part": "flavor-gilded-dragonfly-garden-setting",
+          "x": 256,
+          "y": 81,
+          "scale": 1,
+          "visible": true,
+          "mode": "original",
+          "color": "#9677d8",
+          "source": "#7755aa",
+          "tolerance": 32,
+          "materialColors": {
+            "metal": null,
+            "gem": null
+          }
+        }
+      ],
+      "inspiration": "Belle \u00c9poque couture"
     }
   ],
   "updated": "2026-11-03",

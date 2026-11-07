@@ -31,3 +31,9 @@ Validation includes old recipe/material/rotation tests, creative recipe and edit
 `RBN1.<base64url UTF-8 JSON>.<FNV-1a-32 checksum>` remains the portable envelope. The checksum detects copy errors, not author identity. Version 4 carries custom layers, group and mirror IDs, lock state, effects, set information and award text. Known-part IDs, finite transforms, image dimensions, colors, effect counts and text lengths are bounded before a recipe replaces the current design. Catalog source hashes, source paths, material masks and original PixelLab generation records remain unchanged.
 
 The expanded cabinet, independent metal/fabric/gem/leaf palettes, collection filters, lazy image loading and fragment-based horizontal particle orbits from the concurrent November 3 release are preserved. Version-3 material/orbit recipes remain readable and retain those settings.
+
+## November 6 style collections
+
+Added 65 independent components in 13 style collections, 13 assembled examples and 26 mixed-style examples. Choose a collection in the parts cabinet or a design under New style examples. The Gothic setting has a solid metal backplate; the rejected open Gothic frame is not added. Source PNGs and generation/edit IDs are recorded in flavor-provenance.json. Each new component has explicit material selections.
+
+Layer opacity ranges from 0–100% and is stored in version-4 recipes, undo/redo, browser saves and copies. Still, animated and teacher-package exports share the same opacity renderer. Sheer fabric parts start at 55%; old recipes without opacity stay fully opaque.
