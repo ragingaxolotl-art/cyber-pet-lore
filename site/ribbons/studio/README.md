@@ -37,3 +37,7 @@ The expanded cabinet, independent metal/fabric/gem/leaf palettes, collection fil
 Added 65 independent components in 13 style collections, 13 assembled examples and 26 mixed-style examples. Choose a collection in the parts cabinet or a design under New style examples. The Gothic setting has a solid metal backplate; the rejected open Gothic frame is not added. Source PNGs and generation/edit IDs are recorded in flavor-provenance.json. Each new component has explicit material selections.
 
 Layer opacity ranges from 0–100% and is stored in version-4 recipes, undo/redo, browser saves and copies. Still, animated and teacher-package exports share the same opacity renderer. Sheer fabric parts start at 55%; old recipes without opacity stay fully opaque.
+
+## Newly generated collection expansion
+
+26 new PixelLab Pro components add two new constructions to each of the thirteen style collections. These are new generated PNGs, not recolors or assembled remixes. Source prompts, job IDs and hashes are in newcraft-provenance.json. The two organza streamers support layer opacity and start at 55%. Existing components and presets remain available.

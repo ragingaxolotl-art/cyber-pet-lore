@@ -79131,6 +79131,950 @@
         "gem"
       ],
       "collection": "Gilded dragonfly garden"
+    },
+    {
+      "id": "newcraft-industrial-service-insignia-chevron-suspension",
+      "name": "Industrial service insignia \u00b7 chevron suspension",
+      "kind": "ribbon",
+      "file": "parts/newcraft/newcraft-industrial-service-insignia-chevron-suspension.png",
+      "bounds": [
+        14,
+        16,
+        178,
+        166
+      ],
+      "width": 175,
+      "height": 160,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "16fb43ee1148f5183149cd79c6ccd842fb54bd1f922a659a05bedb7866911b5d",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "0e3b45d7-500b-404a-b625-160a5dfc8f6a",
+        "url": "https://api.pixellab.ai/mcp/images/0e3b45d7-500b-404a-b625-160a5dfc8f6a/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "industrial-service-insignia",
+        "chevron-suspension"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Industrial service insignia"
+    },
+    {
+      "id": "newcraft-industrial-service-insignia-stepped-medallion",
+      "name": "Industrial service insignia \u00b7 stepped medallion",
+      "kind": "medal",
+      "file": "parts/newcraft/newcraft-industrial-service-insignia-stepped-medallion.png",
+      "bounds": [
+        21,
+        3,
+        170,
+        190
+      ],
+      "width": 127,
+      "height": 160,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "9ace8d96a9c0f9a4f88f0666b3492677002923a722b953394345df99d463770d",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "2fcaa627-4104-49e7-bc81-9366da16aa83",
+        "url": "https://api.pixellab.ai/mcp/images/2fcaa627-4104-49e7-bc81-9366da16aa83/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "industrial-service-insignia",
+        "stepped-medallion"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Industrial service insignia"
+    },
+    {
+      "id": "newcraft-art-deco-stud-fan-stud",
+      "name": "Art Deco stud \u00b7 fan stud",
+      "kind": "accent",
+      "file": "parts/newcraft/newcraft-art-deco-stud-fan-stud.png",
+      "bounds": [
+        25,
+        20,
+        167,
+        170
+      ],
+      "width": 104,
+      "height": 110,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "b806e82b0579011b8c15a856bd3e9e7282f190556c2cf8f172d8f3db220632f4",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "837d2a88-1585-41ab-a319-5643ef6bd776",
+        "url": "https://api.pixellab.ai/mcp/images/837d2a88-1585-41ab-a319-5643ef6bd776/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "art-deco-stud",
+        "fan-stud"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Art Deco stud"
+    },
+    {
+      "id": "newcraft-art-deco-stud-diamond-tails",
+      "name": "Art Deco stud \u00b7 diamond tails",
+      "kind": "ribbon",
+      "file": "parts/newcraft/newcraft-art-deco-stud-diamond-tails.png",
+      "bounds": [
+        9,
+        0,
+        183,
+        256
+      ],
+      "width": 204,
+      "height": 300,
+      "x": 256,
+      "y": 210,
+      "original_size": [
+        192,
+        256
+      ],
+      "sha256": "fbcdefe612fd612f09fe42a175c0e2d75761b286a4551231496d273b2690bbc1",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "b14782c0-9409-4129-8900-e4d4de3be0a9",
+        "url": "https://api.pixellab.ai/mcp/images/b14782c0-9409-4129-8900-e4d4de3be0a9/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "art-deco-stud",
+        "diamond-tails"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Art Deco stud"
+    },
+    {
+      "id": "newcraft-art-nouveau-botanical-iris-setting",
+      "name": "Art Nouveau botanical \u00b7 iris setting",
+      "kind": "medal",
+      "file": "parts/newcraft/newcraft-art-nouveau-botanical-iris-setting.png",
+      "bounds": [
+        15,
+        15,
+        177,
+        177
+      ],
+      "width": 160,
+      "height": 160,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "be2f49e494e97e073dbb54b3156092c7ed6f4edcd8ecf366afdaaf4053fe8a84",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "a4ed1a64-65b7-4413-bf9b-ebcf5948d9f9",
+        "url": "https://api.pixellab.ai/mcp/images/a4ed1a64-65b7-4413-bf9b-ebcf5948d9f9/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "art-nouveau-botanical",
+        "iris-setting"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Art Nouveau botanical"
+    },
+    {
+      "id": "newcraft-art-nouveau-botanical-petal-streamer",
+      "name": "Art Nouveau botanical \u00b7 petal streamer",
+      "kind": "ribbon",
+      "file": "parts/newcraft/newcraft-art-nouveau-botanical-petal-streamer.png",
+      "bounds": [
+        59,
+        5,
+        139,
+        250
+      ],
+      "width": 98,
+      "height": 300,
+      "x": 256,
+      "y": 210,
+      "original_size": [
+        192,
+        256
+      ],
+      "sha256": "1c9cb309a6b07307b5b7feb61d770b553048adb7311e71aa17d2372dfb90beb4",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "7b9cffda-dbd3-4e60-be8f-233c76112862",
+        "url": "https://api.pixellab.ai/mcp/images/7b9cffda-dbd3-4e60-be8f-233c76112862/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "art-nouveau-botanical",
+        "petal-streamer"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Art Nouveau botanical"
+    },
+    {
+      "id": "newcraft-gothic-architectural-fortress-setting",
+      "name": "Gothic architectural \u00b7 fortress setting",
+      "kind": "medal",
+      "file": "parts/newcraft/newcraft-gothic-architectural-fortress-setting.png",
+      "bounds": [
+        20,
+        13,
+        172,
+        177
+      ],
+      "width": 148,
+      "height": 160,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "ae4361a8401bbd07a8467ae57e4bef3820cca238ee3393741fd8405f2b9d6e63",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "d67b8707-578e-40d1-810f-26e97009eb67",
+        "url": "https://api.pixellab.ai/mcp/images/d67b8707-578e-40d1-810f-26e97009eb67/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "gothic-architectural",
+        "fortress-setting"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Gothic architectural"
+    },
+    {
+      "id": "newcraft-gothic-architectural-lancet-tails",
+      "name": "Gothic architectural \u00b7 lancet tails",
+      "kind": "ribbon",
+      "file": "parts/newcraft/newcraft-gothic-architectural-lancet-tails.png",
+      "bounds": [
+        24,
+        0,
+        168,
+        256
+      ],
+      "width": 169,
+      "height": 300,
+      "x": 256,
+      "y": 210,
+      "original_size": [
+        192,
+        256
+      ],
+      "sha256": "b75f15b246127ffc0e764f6b08fabd1d3958a8cd0b71d5040539a05ac945fd10",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "569109d0-8ff3-4be5-a737-0ea1171b0b63",
+        "url": "https://api.pixellab.ai/mcp/images/569109d0-8ff3-4be5-a737-0ea1171b0b63/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "gothic-architectural",
+        "lancet-tails"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Gothic architectural"
+    },
+    {
+      "id": "newcraft-folk-textile-embroidered-woven-rosette",
+      "name": "Folk textile / embroidered \u00b7 woven rosette",
+      "kind": "rosette",
+      "file": "parts/newcraft/newcraft-folk-textile-embroidered-woven-rosette.png",
+      "bounds": [
+        12,
+        12,
+        180,
+        182
+      ],
+      "width": 208,
+      "height": 210,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "778b07f591183c706d6f0b58ed7917122ca412b4b386496cdd1729e1f62e50ad",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "83e28282-2ec1-487f-8b4a-614430cede82",
+        "url": "https://api.pixellab.ai/mcp/images/83e28282-2ec1-487f-8b4a-614430cede82/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "folk-textile-embroidered",
+        "woven-rosette"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Folk textile / embroidered"
+    },
+    {
+      "id": "newcraft-folk-textile-embroidered-fringed-tail",
+      "name": "Folk textile / embroidered \u00b7 fringed tail",
+      "kind": "ribbon",
+      "file": "parts/newcraft/newcraft-folk-textile-embroidered-fringed-tail.png",
+      "bounds": [
+        51,
+        0,
+        141,
+        256
+      ],
+      "width": 105,
+      "height": 300,
+      "x": 256,
+      "y": 210,
+      "original_size": [
+        192,
+        256
+      ],
+      "sha256": "b86e39b6dde4459b49636d3841a7066d0a903f2d2fb23634f4fea425457988c4",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "d174be53-fd7e-402d-bd5b-aa47ec9f820e",
+        "url": "https://api.pixellab.ai/mcp/images/d174be53-fd7e-402d-bd5b-aa47ec9f820e/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "folk-textile-embroidered",
+        "fringed-tail"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Folk textile / embroidered"
+    },
+    {
+      "id": "newcraft-belle-poque-couture-ruffled-fan",
+      "name": "Belle \u00c9poque couture \u00b7 ruffled fan",
+      "kind": "rosette",
+      "file": "parts/newcraft/newcraft-belle-poque-couture-ruffled-fan.png",
+      "bounds": [
+        0,
+        7,
+        192,
+        182
+      ],
+      "width": 230,
+      "height": 210,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "88c5795815e5ac87c0483bb97fe8aae2ec44e6a9d65cc2ce96b6a776a3fbb19b",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "95fdb2f4-f820-451e-8c55-0113eea29b86",
+        "url": "https://api.pixellab.ai/mcp/images/95fdb2f4-f820-451e-8c55-0113eea29b86/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "belle-poque-couture",
+        "ruffled-fan"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Belle \u00c9poque couture"
+    },
+    {
+      "id": "newcraft-belle-poque-couture-bow-streamers",
+      "name": "Belle \u00c9poque couture \u00b7 bow streamers",
+      "kind": "ribbon",
+      "file": "parts/newcraft/newcraft-belle-poque-couture-bow-streamers.png",
+      "bounds": [
+        0,
+        0,
+        192,
+        256
+      ],
+      "width": 225,
+      "height": 300,
+      "x": 256,
+      "y": 210,
+      "original_size": [
+        192,
+        256
+      ],
+      "sha256": "4f88a0b5160cea8fa746235f5fac9e769d25af3865e91fba629dd68bfebd72b4",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "3bbc3f0e-c0b0-4d3c-928c-e4dec08003bf",
+        "url": "https://api.pixellab.ai/mcp/images/3bbc3f0e-c0b0-4d3c-928c-e4dec08003bf/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "belle-poque-couture",
+        "bow-streamers"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Belle \u00c9poque couture"
+    },
+    {
+      "id": "newcraft-celestial-clockwork-orrery-setting",
+      "name": "Celestial clockwork \u00b7 orrery setting",
+      "kind": "medal",
+      "file": "parts/newcraft/newcraft-celestial-clockwork-orrery-setting.png",
+      "bounds": [
+        7,
+        7,
+        183,
+        185
+      ],
+      "width": 158,
+      "height": 160,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "49bfcb686e16a293cbedfcf4d2be10f4069321399d83f82c33528415ee4ecaa7",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "bb2db52e-c615-4fa6-a4a4-be3040c494e9",
+        "url": "https://api.pixellab.ai/mcp/images/bb2db52e-c615-4fa6-a4a4-be3040c494e9/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "celestial-clockwork",
+        "orrery-setting"
+      ],
+      "materials": [
+        "metal",
+        "gem"
+      ],
+      "collection": "Celestial clockwork"
+    },
+    {
+      "id": "newcraft-celestial-clockwork-comet-streamer",
+      "name": "Celestial clockwork \u00b7 comet streamer",
+      "kind": "ribbon",
+      "file": "parts/newcraft/newcraft-celestial-clockwork-comet-streamer.png",
+      "bounds": [
+        46,
+        1,
+        142,
+        256
+      ],
+      "width": 113,
+      "height": 300,
+      "x": 256,
+      "y": 210,
+      "original_size": [
+        192,
+        256
+      ],
+      "sha256": "408cabb120bc0d91ae63def951c73fa697837c0b90cecb78543313ba79d65ab5",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "84dffaf0-dd14-4284-8d1e-381245a5aee9",
+        "url": "https://api.pixellab.ai/mcp/images/84dffaf0-dd14-4284-8d1e-381245a5aee9/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "celestial-clockwork",
+        "comet-streamer"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Celestial clockwork"
+    },
+    {
+      "id": "newcraft-baroque-court-regalia-cartouche-setting",
+      "name": "Baroque court regalia \u00b7 cartouche setting",
+      "kind": "medal",
+      "file": "parts/newcraft/newcraft-baroque-court-regalia-cartouche-setting.png",
+      "bounds": [
+        16,
+        3,
+        176,
+        190
+      ],
+      "width": 137,
+      "height": 160,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "845ca1d350fdc0cd439bc7a08f0cf144962607f81b1fc3511ea927c216072c6f",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "59252a25-e289-4a7f-9bd9-1cace3e01c40",
+        "url": "https://api.pixellab.ai/mcp/images/59252a25-e289-4a7f-9bd9-1cace3e01c40/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "baroque-court-regalia",
+        "cartouche-setting"
+      ],
+      "materials": [
+        "metal",
+        "gem"
+      ],
+      "collection": "Baroque court regalia"
+    },
+    {
+      "id": "newcraft-baroque-court-regalia-damask-tails",
+      "name": "Baroque court regalia \u00b7 damask tails",
+      "kind": "ribbon",
+      "file": "parts/newcraft/newcraft-baroque-court-regalia-damask-tails.png",
+      "bounds": [
+        36,
+        0,
+        156,
+        256
+      ],
+      "width": 141,
+      "height": 300,
+      "x": 256,
+      "y": 210,
+      "original_size": [
+        192,
+        256
+      ],
+      "sha256": "77d9f5795b052ee9cd9d487ba4f1af19e4792e82804daad10de3b8bb8d28ede6",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "942925be-bb20-4a50-a5e8-8b6dd92f344e",
+        "url": "https://api.pixellab.ai/mcp/images/942925be-bb20-4a50-a5e8-8b6dd92f344e/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "baroque-court-regalia",
+        "damask-tails"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Baroque court regalia"
+    },
+    {
+      "id": "newcraft-coral-reef-coral-crown",
+      "name": "Coral reef \u00b7 coral crown",
+      "kind": "accent",
+      "file": "parts/newcraft/newcraft-coral-reef-coral-crown.png",
+      "bounds": [
+        16,
+        16,
+        175,
+        179
+      ],
+      "width": 156,
+      "height": 160,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "c262e57a89b6014b170f3a84907546278a150dba1264d094c55f900f4200b216",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "c2becc0c-85a0-4722-9486-4d80111242be",
+        "url": "https://api.pixellab.ai/mcp/images/c2becc0c-85a0-4722-9486-4d80111242be/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "coral-reef",
+        "coral-crown"
+      ],
+      "materials": [
+        "metal",
+        "gem"
+      ],
+      "collection": "Coral reef"
+    },
+    {
+      "id": "newcraft-coral-reef-shell-pleat-rosette",
+      "name": "Coral reef \u00b7 shell pleat rosette",
+      "kind": "rosette",
+      "file": "parts/newcraft/newcraft-coral-reef-shell-pleat-rosette.png",
+      "bounds": [
+        1,
+        3,
+        190,
+        190
+      ],
+      "width": 212,
+      "height": 210,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "a177d040d10013321b324adcebb0c931f0355528e44ebc96e66d2bb655a53bd3",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "dff18eef-e1c3-4099-9d23-1bc53ecf18f9",
+        "url": "https://api.pixellab.ai/mcp/images/dff18eef-e1c3-4099-9d23-1bc53ecf18f9/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "coral-reef",
+        "shell-pleat-rosette"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Coral reef"
+    },
+    {
+      "id": "newcraft-deep-sea-ocean-abyssal-setting",
+      "name": "Deep sea ocean \u00b7 abyssal setting",
+      "kind": "medal",
+      "file": "parts/newcraft/newcraft-deep-sea-ocean-abyssal-setting.png",
+      "bounds": [
+        4,
+        11,
+        188,
+        179
+      ],
+      "width": 175,
+      "height": 160,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "bcfe5c9d50678e22a6061c823a91cc72228ef2f950543ee0fc84099910f9485f",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "b01bddd2-0c84-447c-b23a-5eead9935c91",
+        "url": "https://api.pixellab.ai/mcp/images/b01bddd2-0c84-447c-b23a-5eead9935c91/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "deep-sea-ocean",
+        "abyssal-setting"
+      ],
+      "materials": [
+        "metal",
+        "gem"
+      ],
+      "collection": "Deep sea ocean"
+    },
+    {
+      "id": "newcraft-deep-sea-ocean-fin-streamers",
+      "name": "Deep sea ocean \u00b7 fin streamers",
+      "kind": "ribbon",
+      "file": "parts/newcraft/newcraft-deep-sea-ocean-fin-streamers.png",
+      "bounds": [
+        0,
+        0,
+        192,
+        256
+      ],
+      "width": 225,
+      "height": 300,
+      "x": 256,
+      "y": 210,
+      "original_size": [
+        192,
+        256
+      ],
+      "sha256": "2a3bb3f7107846bff8912ab7bb23746790e043b5f401305f2e9dca56d1f27cd6",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "b6cd43b7-594b-4840-b8a9-adac74f4ba73",
+        "url": "https://api.pixellab.ai/mcp/images/b6cd43b7-594b-4840-b8a9-adac74f4ba73/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "deep-sea-ocean",
+        "fin-streamers",
+        "sheer"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Deep sea ocean",
+      "defaultOpacity": 0.55
+    },
+    {
+      "id": "newcraft-river-pebble-stud",
+      "name": "River \u00b7 pebble stud",
+      "kind": "medal",
+      "file": "parts/newcraft/newcraft-river-pebble-stud.png",
+      "bounds": [
+        18,
+        16,
+        174,
+        176
+      ],
+      "width": 107,
+      "height": 110,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "c4b1cd9a22849e03b5626c11d82779b6f1cd53ab5a34938e818a0fc01d622f27",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "50634316-699a-4dfc-9fc7-ce533149383d",
+        "url": "https://api.pixellab.ai/mcp/images/50634316-699a-4dfc-9fc7-ce533149383d/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "river",
+        "pebble-stud"
+      ],
+      "materials": [
+        "gem"
+      ],
+      "collection": "River"
+    },
+    {
+      "id": "newcraft-river-meander-tail",
+      "name": "River \u00b7 meander tail",
+      "kind": "ribbon",
+      "file": "parts/newcraft/newcraft-river-meander-tail.png",
+      "bounds": [
+        52,
+        0,
+        140,
+        256
+      ],
+      "width": 103,
+      "height": 300,
+      "x": 256,
+      "y": 210,
+      "original_size": [
+        192,
+        256
+      ],
+      "sha256": "7196e11e8b22e8be74cbe67e2309fca5a343693496c5192dfc3f1c4cdb29bdc2",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "06df7259-a84b-4f78-b81e-dc1a461a47ba",
+        "url": "https://api.pixellab.ai/mcp/images/06df7259-a84b-4f78-b81e-dc1a461a47ba/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "river",
+        "meander-tail"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "River"
+    },
+    {
+      "id": "newcraft-aurora-glasswork-prism-rosette",
+      "name": "Aurora glasswork \u00b7 prism rosette",
+      "kind": "rosette",
+      "file": "parts/newcraft/newcraft-aurora-glasswork-prism-rosette.png",
+      "bounds": [
+        5,
+        5,
+        187,
+        187
+      ],
+      "width": 210,
+      "height": 210,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "4c7509cc15718854963887cb2443fb637649945997fd597d42f53c9c0dec2dee",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "79ad33c6-fe8e-42c1-beef-02319fcbe7de",
+        "url": "https://api.pixellab.ai/mcp/images/79ad33c6-fe8e-42c1-beef-02319fcbe7de/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "aurora-glasswork",
+        "prism-rosette"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Aurora glasswork"
+    },
+    {
+      "id": "newcraft-aurora-glasswork-veil-streamer",
+      "name": "Aurora glasswork \u00b7 veil streamer",
+      "kind": "ribbon",
+      "file": "parts/newcraft/newcraft-aurora-glasswork-veil-streamer.png",
+      "bounds": [
+        9,
+        0,
+        184,
+        256
+      ],
+      "width": 205,
+      "height": 300,
+      "x": 256,
+      "y": 210,
+      "original_size": [
+        192,
+        256
+      ],
+      "sha256": "e44775e59fa4657891db1b8f67e3c7af74c6bee760a8b12859ae48676cde9879",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "676cb63c-dc54-4780-8289-3c061c69f2b0",
+        "url": "https://api.pixellab.ai/mcp/images/676cb63c-dc54-4780-8289-3c061c69f2b0/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "aurora-glasswork",
+        "veil-streamer",
+        "sheer"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Aurora glasswork",
+      "defaultOpacity": 0.55
+    },
+    {
+      "id": "newcraft-gilded-dragonfly-garden-wing-stud",
+      "name": "Gilded dragonfly garden \u00b7 wing stud",
+      "kind": "accent",
+      "file": "parts/newcraft/newcraft-gilded-dragonfly-garden-wing-stud.png",
+      "bounds": [
+        18,
+        24,
+        174,
+        166
+      ],
+      "width": 121,
+      "height": 110,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "eb680b09e24ca538730370f55eb64bc905fb46c1f2775e787886a78bbfeb7a9b",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "e6b17b13-0c30-4bad-96d2-a5dcb46bc097",
+        "url": "https://api.pixellab.ai/mcp/images/e6b17b13-0c30-4bad-96d2-a5dcb46bc097/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "gilded-dragonfly-garden",
+        "wing-stud"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Gilded dragonfly garden"
+    },
+    {
+      "id": "newcraft-gilded-dragonfly-garden-garden-tails",
+      "name": "Gilded dragonfly garden \u00b7 garden tails",
+      "kind": "ribbon",
+      "file": "parts/newcraft/newcraft-gilded-dragonfly-garden-garden-tails.png",
+      "bounds": [
+        11,
+        1,
+        181,
+        256
+      ],
+      "width": 200,
+      "height": 300,
+      "x": 256,
+      "y": 210,
+      "original_size": [
+        192,
+        256
+      ],
+      "sha256": "5a18bcb9c23c4dbbe5fed23b3ba6df75f90fe9f2727fdcb890da79964b1776af",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "86db8cf2-506c-4415-9d75-bdb21899b192",
+        "url": "https://api.pixellab.ai/mcp/images/86db8cf2-506c-4415-9d75-bdb21899b192/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "newcraft",
+        "gilded-dragonfly-garden",
+        "garden-tails"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Gilded dragonfly garden"
     }
   ],
   "presets": [
