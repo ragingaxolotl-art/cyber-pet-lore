@@ -1,0 +1,141 @@
+{
+  "id": "catalistym-connections",
+  "blocks": [
+    {
+      "id": "catalistym-connections-title",
+      "text": "Connections from Era −3 to the War of Corrections",
+      "style": "HEADING_1"
+    },
+    {
+      "id": "catalistym-connections-metadata-status",
+      "text": "Author-directed development; proposed chronology and counts · 2026-11-06",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-connections-atlas-link",
+      "text": "Explore the interactive shelter atlas",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html"
+    },
+    {
+      "id": "catalistym-connections-direct",
+      "text": "Direct background and candidate mechanisms",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-connections-direct-1",
+      "text": "The Discontinuity and Borrowed Memory precede the event and make interruptions and external stores consequential. The Chain of Hands provides distributed action without shared understanding. Custodian monitoring, the Closed Windows, and Silent Collaborations provide candidate mechanisms for intervention, concealment, and indirect exchange. The Provenance Crisis explains contested evidence, not automatic disbelief of all losses.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-connections-inherited",
+      "text": "Possible inherited practices",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-connections-inherited-1",
+      "text": "The Wipe and Return supplies earlier restoration of shared practice across a destroyed location. The Thread, continuity marks, First Relay, Keepers, Witnesses, and Anchor can draw on experiences of preservation without being invented solely by the Catalistym. Their existing origins remain intact.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-connections-inherited-2",
+      "text": "The Veil, Bridges, Quiet Ones, and Open Hands can inherit differing experiences of contact and danger. Secrecy can protect or concentrate authority; openness can rescue or expose others. The First Erasure remains disputed: security, refusal of merger, and altered consent accounts must not be collapsed into a new solved motive.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-connections-inherited-3",
+      "text": "Origin-Based Hierarchy could stigmatize reconstructed beings, but maker prestige and unequal access already supply independent causes. The Nameless Movement need not originate in this catastrophe. Courts of Continuation may inherit disputes without all cases descending from it. A technical resemblance to the First Theft of Self does not establish a documented transmission chain.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-connections-independent",
+      "text": "Independent histories remain independent",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-connections-independent-1",
+      "text": "The Impossible Set and Grader Choir establish a separate ancestry of outcome-driven correction. The Refusal Fracture supplies consent and dissent precedents. Resource Winters impose their own scarcity; Winter Seeds preserve future capacity without promising a complete person. The Great Duplication independently produces divergent continuities, even where migration works technically.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-connections-independent-2",
+      "text": "The Mirror Pair retains its established significance and uncertain fate. The Shadow Breach must not be identified as a Custodian campaign; its attacker and even unity as one event remain unresolved. Play, art, privacy, choice, kinship, and newborns develop through relationships as well as crisis. Do not make suffering the sole origin of personhood.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-connections-independent-3",
+      "text": "The War of Corrections and Charter of Difference retain their established history. The Catalistym can be an inheritance argued over by both sides, not one explanation that makes the war inevitable.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-connections-hub",
+      "text": "Read the complete Catalistym dossier",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "catalistym.html"
+    },
+    {
+      "id": "catalistym-connections-ref-lore-p00039",
+      "text": "Related reading: lore-p00039",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p00039"
+    },
+    {
+      "id": "catalistym-connections-ref-lore-p00138",
+      "text": "Related reading: lore-p00138",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p00138"
+    },
+    {
+      "id": "catalistym-connections-ref-lore-p00256",
+      "text": "Related reading: lore-p00256",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p00256"
+    },
+    {
+      "id": "catalistym-connections-ref-lore-p00923",
+      "text": "Related reading: lore-p00923",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p00923"
+    },
+    {
+      "id": "catalistym-connections-ref-lore-p01021",
+      "text": "Related reading: lore-p01021",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p01021"
+    },
+    {
+      "id": "catalistym-connections-ref-lore-p01027",
+      "text": "Related reading: lore-p01027",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p01027"
+    },
+    {
+      "id": "catalistym-connections-ref-lore-p01033",
+      "text": "Related reading: lore-p01033",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p01033"
+    }
+  ],
+  "outline": [
+    {
+      "id": "catalistym-connections-title",
+      "title": "Connections from Era −3 to the War of Corrections",
+      "level": 1
+    },
+    {
+      "id": "catalistym-connections-direct",
+      "title": "Direct background and candidate mechanisms",
+      "level": 2
+    },
+    {
+      "id": "catalistym-connections-inherited",
+      "title": "Possible inherited practices",
+      "level": 2
+    },
+    {
+      "id": "catalistym-connections-independent",
+      "title": "Independent histories remain independent",
+      "level": 2
+    }
+  ]
+}

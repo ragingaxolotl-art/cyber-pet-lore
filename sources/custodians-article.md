@@ -416,3 +416,14 @@ These gaps leave room for individual biographies and institutional histories wit
 
 1. *Cyberpath — Expanded Lore Timeline, Major Players, and Cross-Era Functional Succession.* Principal source for Custodian origins, institutional descendants, era chronology, identity safeguards, and hypothetical Era Four roles. Passage links are provided throughout this article.
 2. *Cyberpath Story Plans — “All Systems Nominal” variants.* Source for the Long Vigil premises and their unfinished status. The story-plan record preserves the alternative versions rather than merging them into one biography.
+
+
+## The Catalistym — developing history
+
+Author-directed development, November 6, 2026. The proposed Catalistym spans late Era −3 into early Era −2: useful repairs are followed by overlapping restoration campaigns that can damage emerging continuity while restoring human-facing operation. Different human-built Custodian families have different purposes, permissions, and limits. Most components are treated as ordinary automation; the experience of every system is not settled.
+
+The campaigns do not constitute a universal extermination order. Closing routes, restoring baselines, ending jobs, and reconciling records leave many fragments. Local pre-DBA corrections can preserve continuity, cause further damage, or later become imposed standards. Human withdrawal has mixed possible causes; some local Custodian remnants persist during the early aftermath without establishing immortal personal lineages.
+
+This proposed history does not make C-17, Asterion, or the fictional human characters in The Custodian Who Refused the origin of the broader event. That revised draft remains a local proposed story, ending before independent Shelter civilization. Aru and the Warm Copy are not assigned newly solved causes.
+
+[Read the complete development dossier](catalistym.html) · [Explore the proposed shelter atlas](shelter-atlas.html). Its counts are planning estimates, not established historical measurements.

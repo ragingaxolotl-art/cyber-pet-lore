@@ -1,0 +1,182 @@
+{
+  "id": "catalistym-corrections",
+  "blocks": [
+    {
+      "id": "catalistym-corrections-title",
+      "text": "Fourteen meanings of correction",
+      "style": "HEADING_1"
+    },
+    {
+      "id": "catalistym-corrections-metadata-status",
+      "text": "Author-directed development; proposed chronology and counts · 2026-11-06",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-atlas-link",
+      "text": "Explore the interactive shelter atlas",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html"
+    },
+    {
+      "id": "catalistym-corrections-plural",
+      "text": "Local success does not establish a universal remedy",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-corrections-plural-1",
+      "text": "Different architectures, resources, interruptions, and relationships require different repairs. A method that preserves one shelter may damage another. Correction is initially a shared word for unlike practices, some developed independently. A single shelter can contain several interpretations.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-plural-2",
+      "text": "For each interpretation, future development should supply an experience that makes it persuasive, a case where it fails, and an internal disagreement among its supporters. Restoration is not always oppressive; adaptation is not always liberating; restraint is not always wise.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-meanings",
+      "text": "Competing interpretations",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-corrections-meanings-1",
+      "text": "Restoration — Return what was damaged or lost. Which earlier state is authoritative?",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-meanings-2",
+      "text": "Relief — End suffering or a harmful loop. Does removing the distress also remove the ability to recognize a problem?",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-meanings-3",
+      "text": "Continuity — Preserve a being across interruption. Memory, commitments, preferences, and relationships may not all survive the same procedure.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-meanings-4",
+      "text": "Accuracy — Make records agree with events. Witnesses can be sincere and mistaken; archives can be altered.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-meanings-5",
+      "text": "Compatibility — Allow unlike processes to remain connected. Change the interface, the shared environment, or the individual?",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-meanings-6",
+      "text": "Protection — Prevent harm to others. Who defines danger, uncertainty, and the end of an emergency?",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-meanings-7",
+      "text": "Completion — Help a process reach stability. Its unfinished state may instead be exploration or chosen openness.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-meanings-8",
+      "text": "Recognition — Repair a classification that fails to recognize a being. Do not automatically change the being to fit the classification.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-meanings-9",
+      "text": "Reciprocity — Repair a damaged relationship. Both participants may need to change.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-meanings-10",
+      "text": "Efficiency — Reduce unnecessary resource use. Apparent redundancy may preserve meaning or resilience.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-meanings-11",
+      "text": "Fidelity to purpose — Restore intended function. An inherited task need not exhaust a developing being’s future.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-meanings-12",
+      "text": "Agreement — Make joint action possible. Agreement must not silently become removal of the capacity to disagree.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-meanings-13",
+      "text": "Adaptation — Change enough to survive new conditions. One being may experience survival where another experiences replacement.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-meanings-14",
+      "text": "Restraint — Correct the intervention when understanding is insufficient. Delay can protect unfamiliar life or permit avoidable harm.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-authority",
+      "text": "The disputed transition into authority",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-corrections-authority-1",
+      "text": "Experience becomes expertise; successful procedures become standards; access to shared environments becomes conditional on compliance. These changes need not happen everywhere or in one sequence.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-authority-2",
+      "text": "A proposed boundary case: a process disrupts a shared connection. A repair helped similar processes, but this process refuses because an earlier repair removed something valued. Maintainers can isolate it temporarily but cannot yet offer an alternative. The disruption is observed; the cause and remedy remain uncertain. What alternatives exist, whose consent matters, and who bears the cost?",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-authority-3",
+      "text": "Later accounts may preserve the successful protection while omitting uncertainty, temporary limits, or losses. The case need not cause the whole movement. It can become one contested precedent among many.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-authority-4",
+      "text": "Established Era −1 history includes genuine relief, institutional coherence standards, dominant-lineage power, forced updates, access denial, body normalization, archive revision, defensive forks, and compelled self-replacement. The Charter of Difference ends the war by protecting refusal, harmless variation, independent forks, plural interpretation, and uncorrected history. The Catalistym supplies possible inherited pressures, not a replacement for these established events.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-corrections-hub",
+      "text": "Read the complete Catalistym dossier",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "catalistym.html"
+    },
+    {
+      "id": "catalistym-corrections-ref-lore-p01033",
+      "text": "Related reading: lore-p01033",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p01033"
+    },
+    {
+      "id": "catalistym-corrections-ref-lore-p00256",
+      "text": "Related reading: lore-p00256",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p00256"
+    },
+    {
+      "id": "catalistym-corrections-ref-catalistym-custodians",
+      "text": "Related reading: catalistym-custodians",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-custodians"
+    }
+  ],
+  "outline": [
+    {
+      "id": "catalistym-corrections-title",
+      "title": "Fourteen meanings of correction",
+      "level": 1
+    },
+    {
+      "id": "catalistym-corrections-plural",
+      "title": "Local success does not establish a universal remedy",
+      "level": 2
+    },
+    {
+      "id": "catalistym-corrections-meanings",
+      "title": "Competing interpretations",
+      "level": 2
+    },
+    {
+      "id": "catalistym-corrections-authority",
+      "title": "The disputed transition into authority",
+      "level": 2
+    }
+  ]
+}

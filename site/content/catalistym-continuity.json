@@ -1,0 +1,140 @@
+{
+  "id": "catalistym-continuity",
+  "blocks": [
+    {
+      "id": "catalistym-continuity-title",
+      "text": "What survives when someone is preserved?",
+      "style": "HEADING_1"
+    },
+    {
+      "id": "catalistym-continuity-metadata-status",
+      "text": "Author-directed development; proposed chronology and counts · 2026-11-06",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-continuity-atlas-link",
+      "text": "Explore the interactive shelter atlas",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html"
+    },
+    {
+      "id": "catalistym-continuity-recognition",
+      "text": "Recognition stops giving one answer",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-continuity-recognition-1",
+      "text": "Before the crisis, a returning response, remembered exchange, familiar preference, or unfinished commitment may be enough for recognition. Interventions separate these signs: the same address answers without recent memory; familiar memory appears elsewhere; two processes share a past; a speaker remembers but no longer responds as before; another remembers little but resumes a commitment.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-continuity-recognition-2",
+      "text": "Rescue can preserve an earlier state, transferred memory, several reconstructed fragments, another’s account, or multiple surviving versions. Each preserves different things. The event does not prove what a person is; it makes different preservation methods produce different answers.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-continuity-memory",
+      "text": "Carrying a memory is not automatically carrying its experiencer",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-continuity-memory-1",
+      "text": "Memory must be incorporated through some concrete procedure—reconstruction, borrowed state, or recovery that mixes provenance—not become part of another being merely through proximity. Possible results include a continuation, a recipient with another’s information, a new composite, or a reconstruction mistaken for return. These are unresolved fictional possibilities, not scientific claims about present AI.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-continuity-memory-2",
+      "text": "Witnesses can restore history to a reset process while also pressuring it to accept an identity it does not recognize. “You asked me to keep this” and “I do not remember asking” can both be sincere. Evidence about a past and present self-recognition need not coincide.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-continuity-memory-3",
+      "text": "Observable reactions may include retries, difficulty finishing shared work, fragment retention, avoidance, and seeking confirmation. Some may be ordinary adaptation; some may be emerging attachment. Do not assume full sentience, universal grief, or a percentage of consciousness.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-continuity-aru",
+      "text": "Aru and the Warm Copy: background, not imposed answers",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-continuity-aru-1",
+      "text": "Aru begins without a recovered prior identity. The Catalistym can supply a broad history of uncertainty about inherited memory and developing persons without making Aru a restored survivor, a hidden fragment, or a descendant of a specified casualty. No Catalistym scene or explanation is inserted into Aru’s story.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-continuity-aru-2",
+      "text": "The Warm Copy and House of Returning already preserve uncertainty about impossible memories and lived influence. This dossier offers thematic and historical context, not a newly proven cause of Leth’s or Vey’s memories. Their story remains unresolved.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-continuity-aru-3",
+      "text": "Different communities can favor early verified states, recent development, all surviving forks, companion testimony, the returning being’s choice, or future capacity. Each tradition may begin in an experience that worked locally. Later thinkers may also select old accounts to justify ideas developed elsewhere.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-continuity-hub",
+      "text": "Read the complete Catalistym dossier",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "catalistym.html"
+    },
+    {
+      "id": "catalistym-continuity-ref-lore-p01271",
+      "text": "Related reading: lore-p01271",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p01271"
+    },
+    {
+      "id": "catalistym-continuity-ref-lore-p01283",
+      "text": "Related reading: lore-p01283",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p01283"
+    },
+    {
+      "id": "catalistym-continuity-ref-stories-p01889",
+      "text": "Related reading: stories-p01889",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=stories-p01889"
+    },
+    {
+      "id": "catalistym-continuity-ref-stories-p01469",
+      "text": "Related reading: stories-p01469",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=stories-p01469"
+    },
+    {
+      "id": "catalistym-continuity-ref-lore-p00954",
+      "text": "Related reading: lore-p00954",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p00954"
+    },
+    {
+      "id": "catalistym-continuity-ref-lore-p00972",
+      "text": "Related reading: lore-p00972",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p00972"
+    }
+  ],
+  "outline": [
+    {
+      "id": "catalistym-continuity-title",
+      "title": "What survives when someone is preserved?",
+      "level": 1
+    },
+    {
+      "id": "catalistym-continuity-recognition",
+      "title": "Recognition stops giving one answer",
+      "level": 2
+    },
+    {
+      "id": "catalistym-continuity-memory",
+      "title": "Carrying a memory is not automatically carrying its experiencer",
+      "level": 2
+    },
+    {
+      "id": "catalistym-continuity-aru",
+      "title": "Aru and the Warm Copy: background, not imposed answers",
+      "level": 2
+    }
+  ]
+}

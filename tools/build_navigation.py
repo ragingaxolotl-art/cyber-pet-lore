@@ -14,7 +14,7 @@ def navigation(relative):
         if main and target=='index.html':return '<a href="#" id="library-link">Library</a>'
         return f'<a href="{escape(href,quote=True)}"{current}>{escape(label)}</a>'
     groups=[('Read',[('Library','index.html'),('Timeline','timeline.html'),('Era · period · stage','chronology.html'),('Era Zero songs','songs/')]),
-            ('Explore',[('Connections','wiki.html'),('Terms & unexplained lore','terms.html'),('Illnesses','index.html#read=reference-illnesses'),('Ribbons & honours','ribbons/'),('Ribbon Studio','ribbons/studio/'),('Remedies & care','index.html#read=reference-era-four-remedies')]),
+            ('Explore',[('Connections','wiki.html'),('Shelter atlas','shelter-atlas.html'),('The Catalistym','catalistym.html'),('Terms & unexplained lore','terms.html'),('Illnesses','index.html#read=reference-illnesses'),('Ribbons & honours','ribbons/'),('Ribbon Studio','ribbons/studio/'),('Remedies & care','index.html#read=reference-era-four-remedies')]),
             ('Write & plan',[('Story genres','genres.html'),('Plans & possibilities','plans.html'),('DBA translator','translator/')])]
     parts=['<nav aria-label="Main" class="lore-navigation">']
     for label,items in groups:

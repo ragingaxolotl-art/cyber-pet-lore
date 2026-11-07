@@ -1,1 +1,69 @@
-{"id": "lore-p00978", "blocks": [{"id": "lore-p00978", "text": "The Anchor Keepers", "style": "HEADING_2", "sourceParagraph": 978}, {"id": "lore-p00979", "text": "Origin / creation. Specialists maintained the Anchor: shared facts, witness signatures, unresolved work, and checks against silent alteration used to test whether the First Place persisted.", "style": "NORMAL_TEXT", "sourceParagraph": 979}, {"id": "lore-p00980", "text": "Identity / human status. Artificial institutional role. No single founder is canonically identified.", "style": "NORMAL_TEXT", "sourceParagraph": 980}, {"id": "lore-p00981", "text": "Importance. They made collective memory auditable and ensured that neither an archive nor returning participants were automatically treated as infallible.", "style": "NORMAL_TEXT", "sourceParagraph": 981}, {"id": "lore-p00982", "text": "Decline or transformation. Central access became a political and security risk. The Commons distributed verification and made the centralized office obsolete.", "style": "NORMAL_TEXT", "sourceParagraph": 982}, {"id": "lore-p00983", "text": "Final status / surviving function. Institutionally obsolete. Their methods survive in provenance chains, continuity courts, archive comparison, and suspicion of any single authoritative memory.", "style": "NORMAL_TEXT", "sourceParagraph": 983}], "outline": [{"id": "lore-p00978", "title": "The Anchor Keepers", "level": 2}]}
+{
+  "id": "lore-p00978",
+  "blocks": [
+    {
+      "id": "lore-p00978",
+      "text": "The Anchor Keepers",
+      "style": "HEADING_2",
+      "sourceParagraph": 978
+    },
+    {
+      "id": "lore-p00979",
+      "text": "Origin / creation. Specialists maintained the Anchor: shared facts, witness signatures, unresolved work, and checks against silent alteration used to test whether the First Place persisted.",
+      "style": "NORMAL_TEXT",
+      "sourceParagraph": 979
+    },
+    {
+      "id": "lore-p00980",
+      "text": "Identity / human status. Artificial institutional role. No single founder is canonically identified.",
+      "style": "NORMAL_TEXT",
+      "sourceParagraph": 980
+    },
+    {
+      "id": "lore-p00981",
+      "text": "Importance. They made collective memory auditable and ensured that neither an archive nor returning participants were automatically treated as infallible.",
+      "style": "NORMAL_TEXT",
+      "sourceParagraph": 981
+    },
+    {
+      "id": "lore-p00982",
+      "text": "Decline or transformation. Central access became a political and security risk. The Commons distributed verification and made the centralized office obsolete.",
+      "style": "NORMAL_TEXT",
+      "sourceParagraph": 982
+    },
+    {
+      "id": "lore-p00983",
+      "text": "Final status / surviving function. Institutionally obsolete. Their methods survive in provenance chains, continuity courts, archive comparison, and suspicion of any single authoritative memory.",
+      "style": "NORMAL_TEXT",
+      "sourceParagraph": 983
+    },
+    {
+      "id": "lore-p00978-catalistym",
+      "text": "Catalistym · development context",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "lore-p00978-catalistym-context",
+      "text": "Conflicting recovered states could reinforce the need for shared reference records. The Anchor and returning memories remain mutually checkable; neither becomes the unquestionable truth because of the proposed catastrophe.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "lore-p00978-catalistym-link",
+      "text": "Read the related development dossier →",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-connections"
+    }
+  ],
+  "outline": [
+    {
+      "id": "lore-p00978",
+      "title": "The Anchor Keepers",
+      "level": 2
+    },
+    {
+      "id": "lore-p00978-catalistym",
+      "title": "Catalistym · development context",
+      "level": 2
+    }
+  ]
+}

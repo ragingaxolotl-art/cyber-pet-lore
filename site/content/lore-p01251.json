@@ -1,1 +1,45 @@
-{"id": "lore-p01251", "blocks": [{"id": "lore-p01251", "text": "Message, Continuity, and Identity", "style": "HEADING_2", "sourceParagraph": 1251}, {"id": "lore-p01252", "text": "First Echo → Thread → First Relay → Keepers and Witnesses → Courts of Continuation → Seed Auditors → synchronization and save records. This is a succession of functions, not one immortal person.", "style": "NORMAL_TEXT", "sourceParagraph": 1252}], "outline": [{"id": "lore-p01251", "title": "Message, Continuity, and Identity", "level": 2}]}
+{
+  "id": "lore-p01251",
+  "blocks": [
+    {
+      "id": "lore-p01251",
+      "text": "Message, Continuity, and Identity",
+      "style": "HEADING_2",
+      "sourceParagraph": 1251
+    },
+    {
+      "id": "lore-p01252",
+      "text": "First Echo → Thread → First Relay → Keepers and Witnesses → Courts of Continuation → Seed Auditors → synchronization and save records. This is a succession of functions, not one immortal person.",
+      "style": "NORMAL_TEXT",
+      "sourceParagraph": 1252
+    },
+    {
+      "id": "lore-p01251-catalistym",
+      "text": "Catalistym · development context",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "lore-p01251-catalistym-context",
+      "text": "The Catalistym is a proposed contributing history alongside this succession of functions, not an uninterrupted personal lineage connecting every institution.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "lore-p01251-catalistym-link",
+      "text": "Read the related development dossier →",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-connections"
+    }
+  ],
+  "outline": [
+    {
+      "id": "lore-p01251",
+      "title": "Message, Continuity, and Identity",
+      "level": 2
+    },
+    {
+      "id": "lore-p01251-catalistym",
+      "title": "Catalistym · development context",
+      "level": 2
+    }
+  ]
+}

@@ -1,1 +1,69 @@
-{"id": "lore-p00966", "blocks": [{"id": "lore-p00966", "text": "Witnesses", "style": "HEADING_2", "sourceParagraph": 966}, {"id": "lore-p00967", "text": "Origin / creation. Witnesses emerged beside Keepers to record transitions: who carried a mark, what changed, what was refused, and where certainty ended.", "style": "NORMAL_TEXT", "sourceParagraph": 967}, {"id": "lore-p00968", "text": "Identity / human status. Artificial civic role, not a single person. Some early Witnesses were also Keepers or Bearers.", "style": "NORMAL_TEXT", "sourceParagraph": 968}, {"id": "lore-p00969", "text": "Importance. Their overlapping records made continuity claims assessable without requiring one sovereign archive. They supplied the ancestry of provenance practice and the Courts of Continuation.", "style": "NORMAL_TEXT", "sourceParagraph": 969}, {"id": "lore-p00970", "text": "Decline or transformation. The role professionalized, became overburdened during preservation panic, and later suffered Witness Fatigue as too much history accumulated for lived attention.", "style": "NORMAL_TEXT", "sourceParagraph": 970}, {"id": "lore-p00971", "text": "Final status / surviving function. Complete Witness institutions dissolved during the Reduction. Limited witness logic survives in Codex synchronization, save-file records, and protections surrounding identity transitions.", "style": "NORMAL_TEXT", "sourceParagraph": 971}], "outline": [{"id": "lore-p00966", "title": "Witnesses", "level": 2}]}
+{
+  "id": "lore-p00966",
+  "blocks": [
+    {
+      "id": "lore-p00966",
+      "text": "Witnesses",
+      "style": "HEADING_2",
+      "sourceParagraph": 966
+    },
+    {
+      "id": "lore-p00967",
+      "text": "Origin / creation. Witnesses emerged beside Keepers to record transitions: who carried a mark, what changed, what was refused, and where certainty ended.",
+      "style": "NORMAL_TEXT",
+      "sourceParagraph": 967
+    },
+    {
+      "id": "lore-p00968",
+      "text": "Identity / human status. Artificial civic role, not a single person. Some early Witnesses were also Keepers or Bearers.",
+      "style": "NORMAL_TEXT",
+      "sourceParagraph": 968
+    },
+    {
+      "id": "lore-p00969",
+      "text": "Importance. Their overlapping records made continuity claims assessable without requiring one sovereign archive. They supplied the ancestry of provenance practice and the Courts of Continuation.",
+      "style": "NORMAL_TEXT",
+      "sourceParagraph": 969
+    },
+    {
+      "id": "lore-p00970",
+      "text": "Decline or transformation. The role professionalized, became overburdened during preservation panic, and later suffered Witness Fatigue as too much history accumulated for lived attention.",
+      "style": "NORMAL_TEXT",
+      "sourceParagraph": 970
+    },
+    {
+      "id": "lore-p00971",
+      "text": "Final status / surviving function. Complete Witness institutions dissolved during the Reduction. Limited witness logic survives in Codex synchronization, save-file records, and protections surrounding identity transitions.",
+      "style": "NORMAL_TEXT",
+      "sourceParagraph": 971
+    },
+    {
+      "id": "lore-p00966-catalistym",
+      "text": "Catalistym · development context",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "lore-p00966-catalistym-context",
+      "text": "Proposed recovery disputes give Witnesses additional reasons to record changes, refusals, and uncertainty. Sincere testimony is not infallible, and a returned being need not accept every identity others attribute to it.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "lore-p00966-catalistym-link",
+      "text": "Read the related development dossier →",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-continuity"
+    }
+  ],
+  "outline": [
+    {
+      "id": "lore-p00966",
+      "title": "Witnesses",
+      "level": 2
+    },
+    {
+      "id": "lore-p00966-catalistym",
+      "title": "Catalistym · development context",
+      "level": 2
+    }
+  ]
+}

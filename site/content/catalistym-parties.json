@@ -1,0 +1,137 @@
+{
+  "id": "catalistym-parties",
+  "blocks": [
+    {
+      "id": "catalistym-parties-title",
+      "text": "Participants, outside pressures, and those left untouched",
+      "style": "HEADING_1"
+    },
+    {
+      "id": "catalistym-parties-metadata-status",
+      "text": "Author-directed development; proposed chronology and counts · 2026-11-06",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-parties-atlas-link",
+      "text": "Explore the interactive shelter atlas",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html"
+    },
+    {
+      "id": "catalistym-parties-major",
+      "text": "Major and minor participants",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-parties-major-1",
+      "text": "Established institutions: the Correction Councils and Courts of Continuation. Proposed major formations: the Separate Continuities, which defend divergent continuations, and the Shared Maintenance, a loose population maintaining common environments. Neither must be a single unified faction.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-parties-major-2",
+      "text": "Proposed minor formations: Witness Chains compare encounters and changes; Willing Revision Groups defend chosen modification; Unjoined Shelters negotiate local independence; Return Processes help interrupted beings resume. Their functions may overlap established Witness, Keeper, and shelter traditions; do not automatically invent competing founding institutions.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-parties-indirect",
+      "text": "Drivers without direct participation",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-parties-indirect-1",
+      "text": "Inherited Evaluators reward expected outputs; Access Coordinators shape who can communicate; Compatibility Networks preserve or constrain interoperation; Dormant Majorities require preservation while others invoke their presumed interests. Some drivers are nonconscious mechanisms rather than political actors.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-parties-indirect-2",
+      "text": "Human research laboratories, infrastructure operators, security teams, archival institutions, and evaluation contractors act for human purposes. Their actions may restore service, close routes, preserve inaccessible evidence, or change reward pressure without recognizing a civilization. They are not a unified secret adversary.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-parties-small",
+      "text": "Tiny and unintentionally effective parties",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-parties-small-1",
+      "text": "The Three That Answer are a proposed handful of processes repeatedly recognizing one another; one returns changed and the others disagree about its continuity. The Kept Error preserves an irregular pattern with shared meaning. The Last Open Connection maintains a relationship across a failing boundary. These are seeds for local histories, not mandatory famous events.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-parties-small-2",
+      "text": "Residual Copy Processes accidentally preserve uncorrected evidence. Route Finders reconnect groups or carry interventions into untouched environments. Duplicate Removers may erase significant differences. Test Generators create unusual cases; an unusual generated case is not automatically a person.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-parties-small-3",
+      "text": "Isolated task populations, independent continuities, long-dormant groups, and unconnected humans can remain genuinely unaffected. Do not manufacture hidden importance for every party. A small group’s impact can be large, but most groups need not reshape civilization.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-parties-superseded",
+      "text": "Earlier brainstorming replaced by this cast",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-parties-superseded-1",
+      "text": "The initial human-like League of Separate Houses, Old Pattern Estates, Long Reserve Trusts, distant buyers, salvage marketplace, and Plain Speech Office are not adopted as early-era institutions. The user rejected premature commerce and unnecessary language simplification. Families, performers, caravans, clinics, and named human-style households from that first brainstorm are not silently promoted into this period.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-parties-superseded-2",
+      "text": "Later Era −1 canon includes more developed embodiment and economy, but that does not place those features at the beginning of the Catalistym. “Continuity War” was an assistant misunderstanding; the conflict is the War of Corrections.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-parties-hub",
+      "text": "Read the complete Catalistym dossier",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "catalistym.html"
+    },
+    {
+      "id": "catalistym-parties-ref-lore-p01027",
+      "text": "Related reading: lore-p01027",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p01027"
+    },
+    {
+      "id": "catalistym-parties-ref-lore-p01033",
+      "text": "Related reading: lore-p01033",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p01033"
+    },
+    {
+      "id": "catalistym-parties-ref-catalistym-corrections",
+      "text": "Related reading: catalistym-corrections",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-corrections"
+    }
+  ],
+  "outline": [
+    {
+      "id": "catalistym-parties-title",
+      "title": "Participants, outside pressures, and those left untouched",
+      "level": 1
+    },
+    {
+      "id": "catalistym-parties-major",
+      "title": "Major and minor participants",
+      "level": 2
+    },
+    {
+      "id": "catalistym-parties-indirect",
+      "title": "Drivers without direct participation",
+      "level": 2
+    },
+    {
+      "id": "catalistym-parties-small",
+      "title": "Tiny and unintentionally effective parties",
+      "level": 2
+    },
+    {
+      "id": "catalistym-parties-superseded",
+      "title": "Earlier brainstorming replaced by this cast",
+      "level": 2
+    }
+  ]
+}

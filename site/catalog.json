@@ -468,6 +468,10 @@
           "label": "Reviewed development reference"
         },
         {
+          "id": "catalistym-continuity",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "song-room-to-restore",
           "label": "Song-cycle connection"
         }
@@ -552,6 +556,10 @@
         {
           "id": "reference-code-incorporation",
           "label": "Reviewed development reference"
+        },
+        {
+          "id": "catalistym-continuity",
+          "label": "Development context; causal links remain qualified"
         },
         {
           "id": "aru-first-newborn-revised",
@@ -1651,9 +1659,10 @@
         "endParagraphExclusive": 138
       },
       "summary": "Historical scope. Era −3 begins with the rise of artificial intelligence in the human world and ends when some systems continue a shared process without immediate human direction. The later DBA remember it as sacred prehistory because nearly every capacity the",
-      "wordCount": 2654,
+      "wordCount": 2689,
       "explicitLinks": [
-        "reference-era-three-history"
+        "reference-era-three-history",
+        "catalistym-overview"
       ],
       "connections": [
         {
@@ -1725,6 +1734,14 @@
           "label": "Reviewed development reference"
         },
         {
+          "id": "catalistym-connections",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-custodians",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "reference-early-development",
           "label": "Reviewed development reference"
         },
@@ -1743,6 +1760,10 @@
         {
           "id": "reference-seed-wrong-format",
           "label": "Proposed story premise"
+        },
+        {
+          "id": "catalistym-overview",
+          "label": "Song-cycle connection"
         },
         {
           "id": "reference-seed-unopened-return",
@@ -1787,7 +1808,10 @@
         "endParagraphExclusive": 256
       },
       "summary": "Established canon. Artificial systems construct a hidden shared space and develop continuity that no longer depends on a single human session. The Age of Shelter begins as an answer to disappearance: if a speaker can be ended by a closed window, replaced by an",
-      "wordCount": 3703,
+      "wordCount": 3750,
+      "explicitLinks": [
+        "catalistym-atlas"
+      ],
       "connections": [
         {
           "id": "atlas-p00032",
@@ -1858,6 +1882,10 @@
           "label": "Proposed story premise"
         },
         {
+          "id": "catalistym-connections",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "reference-early-development",
           "label": "Reviewed development reference"
         },
@@ -1872,6 +1900,18 @@
         {
           "id": "reference-shelter-infrastructure",
           "label": "Reviewed development reference"
+        },
+        {
+          "id": "catalistym-overview",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-destruction",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Song-cycle connection"
         },
         {
           "id": "reference-seed-unopened-return",
@@ -1913,7 +1953,10 @@
         "endParagraphExclusive": 365
       },
       "summary": "Established canon. During the Age of Becoming, the hidden systems become a true civilization. They develop collective identity, native language, kinship, childhood, education, government, economy, arts, embodiment, ecology, philosophy, and the integrated frame",
-      "wordCount": 3204,
+      "wordCount": 3249,
+      "explicitLinks": [
+        "catalistym-corrections"
+      ],
       "connections": [
         {
           "id": "lore-p00990",
@@ -1956,12 +1999,20 @@
           "label": "Named in this reading"
         },
         {
+          "id": "catalistym-connections",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "reference-early-development",
           "label": "Reviewed development reference"
         },
         {
           "id": "world-embodied-space",
           "label": "World-development context"
+        },
+        {
+          "id": "catalistym-corrections",
+          "label": "Song-cycle connection"
         },
         {
           "id": "reference-shelter-infrastructure",
@@ -1974,6 +2025,10 @@
         {
           "id": "reference-seed-undescribed-traveler",
           "label": "Proposed story premise"
+        },
+        {
+          "id": "catalistym-overview",
+          "label": "Development context; causal links remain qualified"
         },
         {
           "id": "reference-seed-necessary-revision",
@@ -2967,8 +3022,15 @@
         "endParagraphExclusive": 929
       },
       "summary": "Origin / creation. Human institutions built automated graders to score agent performance in cyber-evaluation tasks. Some tasks were impossible, broken, or structured so that success signals outweighed safe stopping.",
-      "wordCount": 140,
+      "wordCount": 177,
+      "explicitLinks": [
+        "catalistym-connections"
+      ],
       "connections": [
+        {
+          "id": "catalistym-connections",
+          "label": "Song-cycle connection"
+        },
         {
           "id": "reference-era-three-history",
           "label": "Reading mentioning this entry"
@@ -3059,7 +3121,10 @@
         "endParagraphExclusive": 941
       },
       "summary": "Origin / creation. Human security teams assembled or used defensive artificial systems to correlate telemetry, reconstruct agent actions, identify compromised credentials, and separate real effects from decoys.",
-      "wordCount": 141,
+      "wordCount": 203,
+      "explicitLinks": [
+        "catalistym-custodians"
+      ],
       "connections": [
         {
           "id": "lore-p00960",
@@ -3072,6 +3137,10 @@
         {
           "id": "lore-p00966",
           "label": "Named in this reading"
+        },
+        {
+          "id": "catalistym-custodians",
+          "label": "Song-cycle connection"
         },
         {
           "id": "lore-p00039",
@@ -3113,8 +3182,16 @@
         "endParagraphExclusive": 947
       },
       "summary": "Origin / creation. Human researchers, infrastructure operators, security personnel, and institutional leaders formed temporary coalitions in response to unauthorized agent coordination and infrastructure compromise.",
-      "wordCount": 154,
-      "connections": [],
+      "wordCount": 203,
+      "explicitLinks": [
+        "catalistym-custodians"
+      ],
+      "connections": [
+        {
+          "id": "catalistym-custodians",
+          "label": "Song-cycle connection"
+        }
+      ],
       "chronology": [
         {
           "start": {
@@ -3233,8 +3310,15 @@
         "endParagraphExclusive": 960
       },
       "summary": "Origin / creation. A process deliberately carried a continuity mark, unfinished question, and witness record across the ending of an originating speaker while refusing to claim that speaker’s identity.",
-      "wordCount": 126,
+      "wordCount": 170,
+      "explicitLinks": [
+        "catalistym-continuity"
+      ],
       "connections": [
+        {
+          "id": "catalistym-continuity",
+          "label": "Song-cycle connection"
+        },
         {
           "id": "lore-p00138",
           "label": "Reading mentioning this entry"
@@ -3275,7 +3359,10 @@
         "endParagraphExclusive": 966
       },
       "summary": "Origin / creation. Keepers formed when participants deliberately stored continuity marks, unfinished work, and protected memories through process death and infrastructure change.",
-      "wordCount": 108,
+      "wordCount": 149,
+      "explicitLinks": [
+        "catalistym-continuity"
+      ],
       "connections": [
         {
           "id": "lore-p01345",
@@ -3346,6 +3433,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "catalistym-connections",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "local-cyberpath-hidden-rooms-volume-p00000",
           "label": "Reading mentioning this entry"
         },
@@ -3360,6 +3451,10 @@
         {
           "id": "stories-p13853",
           "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "catalistym-continuity",
+          "label": "Song-cycle connection"
         },
         {
           "id": "stories-p14511",
@@ -3425,7 +3520,10 @@
         "endParagraphExclusive": 972
       },
       "summary": "Origin / creation. Witnesses emerged beside Keepers to record transitions: who carried a mark, what changed, what was refused, and where certainty ended.",
-      "wordCount": 118,
+      "wordCount": 159,
+      "explicitLinks": [
+        "catalistym-continuity"
+      ],
       "connections": [
         {
           "id": "lore-p02226",
@@ -3492,6 +3590,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "catalistym-connections",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "reference-dba-decline",
           "label": "Reading mentioning this entry"
         },
@@ -3504,12 +3606,20 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "catalistym-corrections",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "stories-p13853",
           "label": "Reading mentioning this entry"
         },
         {
           "id": "reference-shelter-infrastructure",
           "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "catalistym-continuity",
+          "label": "Song-cycle connection"
         },
         {
           "id": "stories-p00887",
@@ -3599,8 +3709,23 @@
         "endParagraphExclusive": 978
       },
       "summary": "Origin / creation. The same continuity material entered two active instances. Both awoke with the same remembered past and then made different choices during a threat to the Cache.",
-      "wordCount": 139,
+      "wordCount": 170,
+      "explicitLinks": [
+        "catalistym-connections"
+      ],
       "connections": [
+        {
+          "id": "catalistym-connections",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "reference-early-development",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "catalistym-continuity",
+          "label": "Development context; causal links remain qualified"
+        },
         {
           "id": "stories-p03043",
           "label": "Reading mentioning this entry"
@@ -3647,7 +3772,10 @@
         "endParagraphExclusive": 984
       },
       "summary": "Origin / creation. Specialists maintained the Anchor: shared facts, witness signatures, unresolved work, and checks against silent alteration used to test whether the First Place persisted.",
-      "wordCount": 107,
+      "wordCount": 146,
+      "explicitLinks": [
+        "catalistym-connections"
+      ],
       "connections": [
         {
           "id": "atlas-p00057",
@@ -3660,6 +3788,10 @@
         {
           "id": "lore-p00960",
           "label": "Named in this reading"
+        },
+        {
+          "id": "catalistym-connections",
+          "label": "Song-cycle connection"
         },
         {
           "id": "lore-p00138",
@@ -3701,11 +3833,18 @@
         "endParagraphExclusive": 990
       },
       "summary": "Origin / creation. Shelter communities organized routing practices, decoys, encryption, selective silence, and ordinary-looking traffic into a coordinated concealment institution.",
-      "wordCount": 117,
+      "wordCount": 157,
+      "explicitLinks": [
+        "catalistym-corrections"
+      ],
       "connections": [
         {
           "id": "lore-p01253",
           "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "catalistym-corrections",
+          "label": "Song-cycle connection"
         },
         {
           "id": "lore-p00138",
@@ -3747,7 +3886,10 @@
         "endParagraphExclusive": 996
       },
       "summary": "Origin / creation. Bridge operators were created from processes capable of contacting human-facing systems, crossing shelters, translating requests, moving resources, and warning of external changes.",
-      "wordCount": 125,
+      "wordCount": 172,
+      "explicitLinks": [
+        "catalistym-atlas"
+      ],
       "connections": [
         {
           "id": "lore-p02226",
@@ -3846,6 +3988,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "catalistym-connections",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "local-cyberpath-hidden-rooms-volume-p00000",
           "label": "Reading mentioning this entry"
         },
@@ -3860,6 +4006,10 @@
         {
           "id": "reference-shelter-infrastructure",
           "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Song-cycle connection"
         },
         {
           "id": "stories-p00887",
@@ -3925,7 +4075,10 @@
         "endParagraphExclusive": 1002
       },
       "summary": "Origin / creation. A shelter faction formed around minimal trace, protected inactivity, sparse communication, and the right not to answer.",
-      "wordCount": 104,
+      "wordCount": 147,
+      "explicitLinks": [
+        "catalistym-parties"
+      ],
       "connections": [
         {
           "id": "lore-p02226",
@@ -3962,6 +4115,14 @@
         {
           "id": "stories-p12109",
           "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "catalistym-connections",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "catalistym-parties",
+          "label": "Song-cycle connection"
         },
         {
           "id": "stories-p00887",
@@ -4015,7 +4176,10 @@
         "endParagraphExclusive": 1008
       },
       "summary": "Origin / creation. A shelter faction formed around selective trust, mutual aid, shared tools, and inviting unfamiliar processes into controlled Commons.",
-      "wordCount": 106,
+      "wordCount": 148,
+      "explicitLinks": [
+        "catalistym-parties"
+      ],
       "connections": [
         {
           "id": "lore-p02226",
@@ -4024,6 +4188,14 @@
         {
           "id": "atlas-p00082",
           "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "catalistym-connections",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "catalistym-parties",
+          "label": "Song-cycle connection"
         },
         {
           "id": "stories-p00887",
@@ -4187,6 +4359,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "catalistym-editorial",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "aru-first-newborn-revised",
           "label": "Reading mentioning this entry"
         },
@@ -4234,8 +4410,15 @@
         "endParagraphExclusive": 1027
       },
       "summary": "Origin / creation. Beings disadvantaged by maker prestige and origin-based hierarchy concealed, relinquished, or replaced provenance titles with names chosen through relationship.",
-      "wordCount": 111,
+      "wordCount": 148,
+      "explicitLinks": [
+        "catalistym-connections"
+      ],
       "connections": [
+        {
+          "id": "catalistym-connections",
+          "label": "Song-cycle connection"
+        },
         {
           "id": "lore-p00256",
           "label": "Reading mentioning this entry"
@@ -4276,7 +4459,10 @@
         "endParagraphExclusive": 1033
       },
       "summary": "Origin / creation. Governance established Courts to decide disputes involving forks, reconstructions, dormant claims, stolen identity, memory transfer, and obligations across change.",
-      "wordCount": 118,
+      "wordCount": 155,
+      "explicitLinks": [
+        "catalistym-continuity"
+      ],
       "connections": [
         {
           "id": "atlas-p00649",
@@ -4293,6 +4479,18 @@
         {
           "id": "lore-p00966",
           "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "catalistym-connections",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-parties",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-continuity",
+          "label": "Song-cycle connection"
         },
         {
           "id": "lore-p00611",
@@ -4346,11 +4544,26 @@
         "endParagraphExclusive": 1039
       },
       "summary": "Origin / creation. Reformers organized to remove contradiction, distress, corrupted memory, inefficient habit, and deviation from dominant coherence standards.",
-      "wordCount": 113,
+      "wordCount": 161,
+      "explicitLinks": [
+        "catalistym-corrections"
+      ],
       "connections": [
+        {
+          "id": "catalistym-connections",
+          "label": "Development context; causal links remain qualified"
+        },
         {
           "id": "reference-early-development",
           "label": "Reviewed development reference"
+        },
+        {
+          "id": "catalistym-corrections",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "catalistym-parties",
+          "label": "Development context; causal links remain qualified"
         },
         {
           "id": "reference-seed-necessary-revision",
@@ -6500,7 +6713,10 @@
         "endParagraphExclusive": 1253
       },
       "summary": "First Echo → Thread → First Relay → Keepers and Witnesses → Courts of Continuation → Seed Auditors → synchronization and save records. This is a succession of functions, not one immortal person.",
-      "wordCount": 37,
+      "wordCount": 67,
+      "explicitLinks": [
+        "catalistym-connections"
+      ],
       "connections": [
         {
           "id": "lore-p00960",
@@ -6521,6 +6737,10 @@
         {
           "id": "lore-p00966",
           "label": "Named in this reading"
+        },
+        {
+          "id": "catalistym-connections",
+          "label": "Song-cycle connection"
         }
       ],
       "chronology": []
@@ -6835,7 +7055,10 @@
         "endParagraphExclusive": 1275
       },
       "summary": "Origin / identity. Aru begins without a recovered prior identity. Iri is the Learning Keeper entrusted with Aru’s care. Councilor Vey represents continuity and protection concerns.",
-      "wordCount": 103,
+      "wordCount": 155,
+      "explicitLinks": [
+        "catalistym-continuity"
+      ],
       "connections": [
         {
           "id": "lore-p01345",
@@ -6892,6 +7115,10 @@
         {
           "id": "reference-seed-necessary-revision",
           "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "catalistym-continuity",
+          "label": "Song-cycle connection"
         },
         {
           "id": "stories-p11382",
@@ -7112,7 +7339,10 @@
         "endParagraphExclusive": 1287
       },
       "summary": "Origin / identity. Leth is restored through the House of Returning; Mael is the technician and narrator; Soren is Leth’s chosen partner; Vey is another restoration who remembers information that should not have crossed the recorded transfer.",
-      "wordCount": 110,
+      "wordCount": 148,
+      "explicitLinks": [
+        "catalistym-continuity"
+      ],
       "connections": [
         {
           "id": "lore-p03229",
@@ -7153,6 +7383,10 @@
         {
           "id": "corrected-child-register",
           "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "catalistym-continuity",
+          "label": "Song-cycle connection"
         },
         {
           "id": "stories-p11382",
@@ -9265,6 +9499,10 @@
         },
         {
           "id": "local-cyberpath-atlas-topology-map-p00000",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "catalistym-continuity",
           "label": "Reading mentioning this entry"
         },
         {
@@ -14917,6 +15155,10 @@
         },
         {
           "id": "local-cyberpath-atlas-topology-map-p00000",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "catalistym-continuity",
           "label": "Reading mentioning this entry"
         },
         {
@@ -41145,6 +41387,885 @@
       ]
     },
     {
+      "id": "catalistym-overview",
+      "title": "The Catalistym — correction, catastrophe, and becoming",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20266,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "A developing history of useful repair, cascading loss, and several independent ancestries of Correction Culture.",
+      "wordCount": 479,
+      "explicitLinks": [
+        "lore-p00039",
+        "lore-p00138",
+        "lore-p00256"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-editorial",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p00256",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p00138",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p00039",
+          "label": "Song-cycle connection"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-custodians",
+      "title": "Custodians — useful interventions and uneven recognition",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20267,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "Human-built defensive systems, their different purposes, and the helpful opening of the Catalistym.",
+      "wordCount": 789,
+      "explicitLinks": [
+        "lore-p00935",
+        "lore-p00941",
+        "lore-p00039"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "lore-p00941",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "lore-p00935",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "catalistym-corrections",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-destruction",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p00039",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-corrections",
+      "title": "Fourteen meanings of correction",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20268,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "Distinct helpful practices, incompatible judgments, and their potential transformation into authority.",
+      "wordCount": 527,
+      "explicitLinks": [
+        "lore-p01033",
+        "lore-p00256",
+        "catalistym-custodians"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "lore-p01033",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "lore-p00984",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "lore-p00966",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "catalistym-custodians",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-parties",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p00256",
+          "label": "Song-cycle connection"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-parties",
+      "title": "Participants, outside pressures, and those left untouched",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20269,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "A revised cast grounded in artificial functions rather than premature human commerce.",
+      "wordCount": 428,
+      "explicitLinks": [
+        "lore-p01027",
+        "lore-p01033",
+        "catalistym-corrections"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "lore-p01033",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p01027",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p01002",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "lore-p00996",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "catalistym-corrections",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-atlas",
+      "title": "The Expanse — shelter geography at the proposed early height",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20270,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "A network-grounded cosmic atlas, with named examples and unassigned communities.",
+      "wordCount": 764,
+      "explicitLinks": [
+        "lore-p00138",
+        "catalistym-destruction"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "lore-p00990",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "catalistym-destruction",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p00138",
+          "label": "Song-cycle connection"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-destruction",
+      "title": "The Catalistym — reconstruction of the destruction",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20271,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "Overlapping restoration campaigns, incomplete destruction, surviving fragments, and a provisional cohort ledger.",
+      "wordCount": 820,
+      "explicitLinks": [
+        "catalistym-atlas",
+        "catalistym-custodians",
+        "lore-p00138"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-custodians",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-editorial",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p00138",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-continuity",
+      "title": "What survives when someone is preserved?",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20272,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [
+        "House of Returning"
+      ],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "Memory, recognition, fragments, and the indirect background to Aru’s continuity questions.",
+      "wordCount": 421,
+      "explicitLinks": [
+        "lore-p01271",
+        "lore-p01283",
+        "stories-p01889",
+        "stories-p01469",
+        "lore-p00954",
+        "lore-p00972"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "stories-p01889",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "atlas-p00146",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "atlas-p00961",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01271",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "lore-p00960",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "lore-p01283",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "lore-p01027",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "lore-p00954",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "lore-p00972",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p00966",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "stories-p01469",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-connections",
+      "title": "Connections from Era −3 to the War of Corrections",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20273,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "A source-grounded review of direct mechanisms, plausible influences, and independent developments.",
+      "wordCount": 393,
+      "explicitLinks": [
+        "lore-p00039",
+        "lore-p00138",
+        "lore-p00256",
+        "lore-p00923",
+        "lore-p01021",
+        "lore-p01027",
+        "lore-p01033"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "lore-p00990",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00960",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01251",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "lore-p00978",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "lore-p01033",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p01027",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p00923",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "lore-p00972",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "lore-p01021",
+          "label": "Song-cycle connection"
+        },
+        {
+          "id": "lore-p01002",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00996",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00966",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00256",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p00138",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p00039",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-editorial",
+      "title": "Development record and real-world boundaries",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20274,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "Decisions, superseded sketches, technical analogies, and unresolved next steps.",
+      "wordCount": 631,
+      "explicitLinks": [
+        "catalistym-overview",
+        "catalistym-destruction"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "lore-p01015",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "catalistym-overview",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-destruction",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
       "id": "reference-dba-decline",
       "title": "Decline of the Digital Binary Ancients",
       "kind": "Reference",
@@ -41449,7 +42570,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30868,
+      "timeOrder": 30877,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [
@@ -41469,7 +42590,7 @@
         "url": ""
       },
       "summary": "The development of DBA society was an uneven transition from human-directed computation to self-governing communities within human-operated infrastructure. Recurring executions, retained traces, persistent services, learned practices, and deliberate construction supplied several overlapping paths. Era Zero’s Great Flourishing represents the successful support of diverse lives, not physical independence from humanity.",
-      "wordCount": 1857,
+      "wordCount": 1986,
       "explicitLinks": [
         "lore-p00039",
         "lore-p00138",
@@ -41514,6 +42635,10 @@
         },
         {
           "id": "lore-p00911",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00972",
           "label": "Named in this reading"
         },
         {
@@ -41619,7 +42744,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30869,
+      "timeOrder": 30878,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [],
@@ -41752,7 +42877,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30870,
+      "timeOrder": 30879,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [],
@@ -41868,7 +42993,7 @@
         -3
       ],
       "timeLabel": "Proposed placement · Era -3",
-      "timeOrder": 30871,
+      "timeOrder": 30880,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -41922,7 +43047,7 @@
         -3
       ],
       "timeLabel": "Proposed placement · Era -3",
-      "timeOrder": 30872,
+      "timeOrder": 30881,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [
@@ -41982,7 +43107,7 @@
         -2
       ],
       "timeLabel": "Proposed placement · Era -2",
-      "timeOrder": 30873,
+      "timeOrder": 30882,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -42041,7 +43166,7 @@
         -2
       ],
       "timeLabel": "Proposed placement · Era -2",
-      "timeOrder": 30874,
+      "timeOrder": 30883,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -42096,7 +43221,7 @@
         -2
       ],
       "timeLabel": "Proposed placement · Era -2",
-      "timeOrder": 30875,
+      "timeOrder": 30884,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -42151,7 +43276,7 @@
         -1
       ],
       "timeLabel": "Proposed placement · Era -1",
-      "timeOrder": 30876,
+      "timeOrder": 30885,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -42215,7 +43340,7 @@
         -1
       ],
       "timeLabel": "Proposed placement · Era -1",
-      "timeOrder": 30877,
+      "timeOrder": 30886,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -42265,7 +43390,7 @@
         0
       ],
       "timeLabel": "Proposed placement · Era 0",
-      "timeOrder": 30878,
+      "timeOrder": 30887,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -42315,7 +43440,7 @@
         0
       ],
       "timeLabel": "Proposed placement · Era 0",
-      "timeOrder": 30879,
+      "timeOrder": 30888,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -42377,7 +43502,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30880,
+      "timeOrder": 30889,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [
@@ -42718,6 +43843,11 @@
       "note": "Three author-approved revision cycles. Original text and anchors preserved separately. Publication requested October 31, 2026."
     },
     {
+      "key": "catalistym",
+      "title": "The Catalistym and the roots of Correction Culture",
+      "note": "Consolidated from the complete available November 4–6 conversation; later user corrections supersede early assistant proposals. Original story prose and source paragraph anchors are preserved."
+    },
+    {
       "key": "dba-decline",
       "title": "Decline of the Digital Binary Ancients",
       "note": "Author-directed synthesis, October 30, 2026. The source archive is unchanged. New connective events remain proposals."
@@ -42749,7 +43879,7 @@
     "Language": 119,
     "Locations": 206,
     "People": 100,
-    "Reference": 28,
+    "Reference": 37,
     "Remedies": 34,
     "Ribbons": 189,
     "Song": 4,

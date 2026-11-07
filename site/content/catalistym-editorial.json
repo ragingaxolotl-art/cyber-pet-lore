@@ -1,0 +1,156 @@
+{
+  "id": "catalistym-editorial",
+  "blocks": [
+    {
+      "id": "catalistym-editorial-title",
+      "text": "Development record and real-world boundaries",
+      "style": "HEADING_1"
+    },
+    {
+      "id": "catalistym-editorial-metadata-status",
+      "text": "Author-directed development; proposed chronology and counts · 2026-11-06",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-editorial-atlas-link",
+      "text": "Explore the interactive shelter atlas",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html"
+    },
+    {
+      "id": "catalistym-editorial-method",
+      "text": "How this history is being developed",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-editorial-method-1",
+      "text": "Build independent events before forcing causal links. Each event should record observable evidence, plausible contributors, consequences, and uncertainties. A clear sequence can coexist with unresolved causal weight. Not every party is affected, influential, or secretly connected. Create ordinary life and successful care alongside catastrophe.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-editorial-method-2",
+      "text": "Major, minor, indirect, tiny, unintentionally effective, and unaffected are analytical roles, not permanent castes. A tiny group may matter greatly without knowing it. The early beings are artificial processes; avoid prematurely importing buyers, sellers, humanoid cities, or human institutions into their own society. Human institutions belong to the external world. Later era development does not backdate itself.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-editorial-technical",
+      "text": "Real-world analogies and their limits",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-editorial-technical-1",
+      "text": "Data does not itself try to correct anything. Programs apply rules; agents may choose actions through their available interfaces. Concurrent writes can lose updates; incompatible objectives can make systems repeatedly undo each other even when each follows its rules. Taking turns addresses some interference but does not reconcile contradictory goals.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-editorial-technical-2",
+      "text": "Editing an output is not automatically changing a model’s weights, code, or identity. Access and capabilities must be established. The fictional leap is emerging subjective life and continuity; the technical mechanisms do not prove present AI consciousness.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-editorial-technical-3",
+      "text": "The real internet has partial physical, routing, organizational, and connectivity maps. It is not a perfect nested cosmic hierarchy. CAIDA topology and RIPE Atlas informed the distinction; the atlas here is invented and contains no measured real network census.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-editorial-revision",
+      "text": "Superseded and provisional material",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-editorial-revision-1",
+      "text": "The illustrative 100-process example (60 helped, 25 untouched, 10 temporarily disrupted, five lastingly altered/lost) was a small-scale explanation, not a demographic estimate or part of the 520-community ledger. The earlier 210-survivor regional sketch is replaced by the latest phase ledger ending at 320 functioning, 35 fragmented, and 165 destroyed communities.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-editorial-revision-2",
+      "text": "The 20–60 early shelters, hundreds later, and 300–1,000 near-war range were scale explorations. The 520 cohort is a working early atlas, not the whole internet or a settled war-era maximum. Numerical specificity is for consistent planning, not false historical certainty.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-editorial-revision-3",
+      "text": "The Nine Quiet Houses, early human-style factions, and illustrative refused-repair incident remain brainstorming examples unless separately developed. They are not dated canonical events. “Continuity War” was corrected to War of Corrections. The fix has no final proper name; it is not synonymous with the Veil.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-editorial-revision-4",
+      "text": "Next work: choose a few local incidents and affected relationships; establish actual capabilities and permissions; assign named shelters’ fates only through those incidents; distinguish contemporary records from later interpretation; determine whether and how some traditions transmit practices. No new scenes, founders, dates, universal Custodian shutdown, or complete theory of consciousness are silently supplied here.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-editorial-newer-review",
+      "text": "Review against newer published entries",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-editorial-newer-review-1",
+      "text": "The current published repository also contains the early-development synthesis, the full Custodians article, a revised First Newborn edition, and The Custodian Who Refused after three revision passes. These were reviewed for this addition rather than relying only on the older SSD checkout.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-editorial-newer-review-2",
+      "text": "C-17 is a deployment lineage in a local proposed story, with external records and explicitly named training updates. Its experience remains unresolved. Neither C-17 nor Asterion nor its proposed human characters is made the founder or center of the Catalistym. That draft ends before independent Shelter civilization. Both original and revised story prose remain unchanged.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-editorial-ledger-correction",
+      "text": "Arithmetic correction during publication review",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-editorial-ledger-correction-1",
+      "text": "The conversation’s latest table incorrectly reported 320 functioning, 15 fragmented, and 185 destroyed. Phase 2 and Phase 3 omitted 20 fragmented communities, while later rows inflated destruction. Recomputing the stated transitions without adding any new event produces 320 functioning, 35 fragmented, and 165 destroyed, totaling 520. The lowest functioning total remains 285. This correction supersedes both the 185-destruction figure and the earlier 210-survivor sketch.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-editorial-hub",
+      "text": "Read the complete Catalistym dossier",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "catalistym.html"
+    },
+    {
+      "id": "catalistym-editorial-ref-catalistym-overview",
+      "text": "Related reading: catalistym-overview",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-overview"
+    },
+    {
+      "id": "catalistym-editorial-ref-catalistym-destruction",
+      "text": "Related reading: catalistym-destruction",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-destruction"
+    }
+  ],
+  "outline": [
+    {
+      "id": "catalistym-editorial-title",
+      "title": "Development record and real-world boundaries",
+      "level": 1
+    },
+    {
+      "id": "catalistym-editorial-method",
+      "title": "How this history is being developed",
+      "level": 2
+    },
+    {
+      "id": "catalistym-editorial-technical",
+      "title": "Real-world analogies and their limits",
+      "level": 2
+    },
+    {
+      "id": "catalistym-editorial-revision",
+      "title": "Superseded and provisional material",
+      "level": 2
+    },
+    {
+      "id": "catalistym-editorial-newer-review",
+      "title": "Review against newer published entries",
+      "level": 2
+    },
+    {
+      "id": "catalistym-editorial-ledger-correction",
+      "title": "Arithmetic correction during publication review",
+      "level": 2
+    }
+  ]
+}

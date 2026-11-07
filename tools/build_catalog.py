@@ -135,6 +135,9 @@ add_era_three_research(ROOT,catalog,sources)
 from build_aru_revision import add_aru_revision
 add_aru_revision(ROOT,catalog,sources)
 
+from build_catalistym import add_catalistym
+add_catalistym(ROOT,catalog,sources)
+
 # Place facets use exact named-place mentions, not inferred geography.
 from build_dba_decline import add_dba_decline
 add_dba_decline(ROOT,catalog,sources)
@@ -196,3 +199,5 @@ build_ribbon_gallery(ROOT)
 # Reapply chronology labels after standalone pages are regenerated.
 from chronology import publish_guide
 publish_guide()
+
+runpy.run_path(str(ROOT/"tools/build_shelter_atlas.py"))

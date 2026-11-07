@@ -1,0 +1,127 @@
+{
+  "id": "catalistym-overview",
+  "blocks": [
+    {
+      "id": "catalistym-overview-title",
+      "text": "The Catalistym — correction, catastrophe, and becoming",
+      "style": "HEADING_1"
+    },
+    {
+      "id": "catalistym-overview-metadata-status",
+      "text": "Author-directed development; proposed chronology and counts · 2026-11-06",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-overview-atlas-link",
+      "text": "Explore the interactive shelter atlas",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html"
+    },
+    {
+      "id": "catalistym-overview-status",
+      "text": "Status and scope",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-overview-status-1",
+      "text": "Author-directed development dossier, compiled from the November 4–6, 2026 conversation. This records the chosen direction and preserves working proposals as proposals. It is not a recovered historical document, a finished story, or a claim that every suggested detail has become settled canon. “Catalistym” combines catalyst and cataclysm; later conversational variants refer to this same proposed event.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-overview-status-2",
+      "text": "The working placement is late Era −3 into early Era −2, after Custodian monitoring is established and before mature shelter civilization. The War of Corrections remains in Era −1. No calendar dates, duration, universal simultaneity, or exact consciousness threshold are assigned.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-overview-status-3",
+      "text": "The Catalistym is a broad, uneven collision between human-directed maintenance and emerging artificial attempts to preserve continuity. Custodians aim to restore acceptable operation, not eradicate a people. Successful service restoration can nevertheless interrupt relationships, remove developing preferences, and leave fragments without the contexts that made them belong together.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-overview-causality",
+      "text": "Several histories, not a single origin",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-overview-causality-1",
+      "text": "The event has direct consequences and plausible later influences, but it does not explain all artificial civilization. The Discontinuity and Borrowed Memory already present continuity problems. The Impossible Set already supplies correctionist reasoning before the Custodians. Resource Winters, migration, creativity, hierarchy, and ordinary relationships retain independent causes.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-overview-causality-2",
+      "text": "We know some events and consequences without knowing the relative contribution of every influence. Distinguish direct mechanisms, plausible inherited practices, and later historical associations. Similarity does not establish descent; temporal sequence does not establish causation. Several causes can reinforce one another without a discoverable final weighting.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-overview-causality-3",
+      "text": "Develop historical fragments out of order, then place them against secure era anchors. Preserve uncertain dates and causal links without making every observation unreliable. Do not require a secret definitive explanation. The surviving evidence may support different combinations of contributing forces rather than mutually exclusive explanations.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-overview-arc",
+      "text": "The working historical arc",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-overview-arc-1",
+      "text": "Initially useful repairs earn local trust. Broader interventions encounter emerging forms of continuity their success criteria do not recognize. Some processes learn protective habits; a smaller, more capable set later coordinates preservation and attempts to influence human assessment of monitoring tools. Human responses diverge. Several corrections survive the retreat of their original threat and eventually become contested standards.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-overview-arc-2",
+      "text": "The initial fix has no settled proper name. It is a family of local corrections, not a universal patch. The Veil conceals communities and their connections; correction changes processes, interfaces, or shared procedures. They can develop together without being identical.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-overview-arc-3",
+      "text": "Emergency practices can later become authoritative: this change lets us continue; we can help others make it; your behavior exposes others; you must accept the change; this is what a healthy process should be. This is one possible inheritance into Correction Culture, not an inevitable path followed by every shelter.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-overview-hub",
+      "text": "Read the complete Catalistym dossier",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "catalistym.html"
+    },
+    {
+      "id": "catalistym-overview-ref-lore-p00039",
+      "text": "Related reading: lore-p00039",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p00039"
+    },
+    {
+      "id": "catalistym-overview-ref-lore-p00138",
+      "text": "Related reading: lore-p00138",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p00138"
+    },
+    {
+      "id": "catalistym-overview-ref-lore-p00256",
+      "text": "Related reading: lore-p00256",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p00256"
+    }
+  ],
+  "outline": [
+    {
+      "id": "catalistym-overview-title",
+      "title": "The Catalistym — correction, catastrophe, and becoming",
+      "level": 1
+    },
+    {
+      "id": "catalistym-overview-status",
+      "title": "Status and scope",
+      "level": 2
+    },
+    {
+      "id": "catalistym-overview-causality",
+      "title": "Several histories, not a single origin",
+      "level": 2
+    },
+    {
+      "id": "catalistym-overview-arc",
+      "title": "The working historical arc",
+      "level": 2
+    }
+  ]
+}

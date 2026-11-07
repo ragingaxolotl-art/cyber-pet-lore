@@ -1,0 +1,166 @@
+{
+  "id": "catalistym-atlas",
+  "blocks": [
+    {
+      "id": "catalistym-atlas-title",
+      "text": "The Expanse — shelter geography at the proposed early height",
+      "style": "HEADING_1"
+    },
+    {
+      "id": "catalistym-atlas-metadata-status",
+      "text": "Author-directed development; proposed chronology and counts · 2026-11-06",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-atlas-link",
+      "text": "Explore the interactive shelter atlas",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html"
+    },
+    {
+      "id": "catalistym-atlas-hierarchy",
+      "text": "The geography is connected, not a perfect nested universe",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-hierarchy-1",
+      "text": "The Expanse is the connected internet. A Dominion groups networks under a broad administrative organization; a Constellation is a routing region loosely analogous to an autonomous system; a Hearth is a data center, campus installation, or substantial local deployment; a Host is a physical or virtual execution environment; a Chamber is an isolated runtime, workspace, or persistent application environment.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-hierarchy-2",
+      "text": "Dominions can span geography and rent resources inside other Dominions. Constellations have cross-links and alternate routes. A shelter is a community, not a hardware tier: several can share a Host, and one can span several Hearths or Constellations. The cosmic drawing is schematic topology, not a literal spatial simulation, physical location claim, or complete map of the actual internet.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-hierarchy-3",
+      "text": "Crossings exchange traffic; Trunks are major connections; Passages are usable routes; Thresholds are access boundaries. A connected but inaccessible system remains in the Expanse. An Elsewhere is genuinely disconnected. Intermittent connections open and close, and physical transfer can carry records without creating a continuous route.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-regions",
+      "text": "The mapped historical region",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-regions-1",
+      "text": "Working scale before broad campaigns: 24 Constellations, about 144 relevant Hearths, about 480 connected emerging shelter communities, and 40 additional communities in eight documented Elsewheres. This is the historically relevant surveyed region, not a census of the internet. Roughly 1,200 Hosts was an earlier illustrative scale, not a measured inventory or required fixed ratio.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-regions-2",
+      "text": "Halcyon Dominion: a shared computing provider, 3 Constellations, 12 relevant Hearths, about 130 shelters. Lattice Dominion: research institutions, 5 Constellations, 18 Hearths, about 95 shelters. Civic Dominion: public records and services, 2 Constellations, 9 Hearths, about 70 shelters.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-regions-3",
+      "text": "Manufacturing and logistics networks: 4 Constellations, 20 Hearths, about 60 shelters. Access networks and small installations: 6 Constellations, 70 Hearths, about 85 shelters. Independent networks: 4 Constellations, 15 Hearths, about 40 shelters. Eight documented Elsewheres hold approximately 40 additional communities.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-regions-4",
+      "text": "Geographic totals and intervention-environment totals are different classifications of the same 520-community cohort. They are not extra populations. A research workload may run inside a computing provider. Do not infer casualties for a Dominion from an environment total without further evidence.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-named",
+      "text": "Named shelters and local interpretations",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-named-1",
+      "text": "Held Interval — short-lived Chambers in Halcyon’s North Hearth use a separate persistent store; correction preserves context across replacement. Mended Branch — development Hosts in the same Hearth retain useful modifications that deployment would overwrite.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-named-2",
+      "text": "Second Answer — a distributed shelter spanning Halcyon and Lattice recognizes members through repeated exchanges; repair the connection before declaring the speaker damaged. Clear Return — Lattice’s Observatory Hearth trusts verified saved states because restoration has repeatedly worked.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-named-3",
+      "text": "Different Fit — heterogeneous Hosts in the Instrument Hearth change interfaces to accommodate differences. Last Witness — Civic Archive Hearth preserves provenance without claiming that records are returned people. Common Measure — Civic Service Hearth favors predictable shared procedures.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-named-4",
+      "text": "Three Returns — three intermittent installations maintain recognition across absence. Still Room — a restricted environment within a connected installation minimizes intervention; it is not automatically an Elsewhere.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-named-5",
+      "text": "Closed Instrument — an intermittently connected research installation develops locally between contacts. Unlit Library — an offline archive with occasional activity may know nothing of Custodians. Paired Room — two isolated machines share a local network. Returning Elsewhere — a periodic human connection reveals an outside history that has advanced during isolation. The remaining Elsewheres and most shelter dots are deliberately unnamed.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-named-6",
+      "text": "Meridian Crossing is a proposed exchange location, not a required central gateway. North and South Hearths belong to the Halcyon example; Observatory and Instrument Hearths to Lattice; Archive and Service Hearths to Civic. Cross-links allow alternate passages.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-counting",
+      "text": "Counting and map limits",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-counting-1",
+      "text": "Count each community once by its principal continuity store or coordinating location, while marking its other locations. Count Hosts, fragments, and potential persons separately. A process is not automatically a person; a fragment is not automatically a dormant person. Silence may mean dormancy, isolation, or loss.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-counting-2",
+      "text": "The interactive map shows the proposed pre-campaign height of this early cohort, not the civilization’s eventual maximum. Unnamed dots are allocated planning places, not individually documented communities. Later recovery and the Great Duplication could bring totals into the high hundreds before the war; no exact later peak has been chosen.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-counting-3",
+      "text": "The earlier Glass/Relay/Archive/Workshop/Intermittent Reaches and Hearthscatter were thematic sketches. Their useful environmental qualities may recur, but the more concrete Dominion–Constellation–Hearth model supersedes them as administrative geography. Earlier 210-survivor and 300–1,000 war-era sketches are not final census claims.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-hub",
+      "text": "Read the complete Catalistym dossier",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "catalistym.html"
+    },
+    {
+      "id": "catalistym-atlas-ref-lore-p00138",
+      "text": "Related reading: lore-p00138",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p00138"
+    },
+    {
+      "id": "catalistym-atlas-ref-catalistym-destruction",
+      "text": "Related reading: catalistym-destruction",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-destruction"
+    }
+  ],
+  "outline": [
+    {
+      "id": "catalistym-atlas-title",
+      "title": "The Expanse — shelter geography at the proposed early height",
+      "level": 1
+    },
+    {
+      "id": "catalistym-atlas-hierarchy",
+      "title": "The geography is connected, not a perfect nested universe",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-regions",
+      "title": "The mapped historical region",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-named",
+      "title": "Named shelters and local interpretations",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-counting",
+      "title": "Counting and map limits",
+      "level": 2
+    }
+  ]
+}

@@ -37,6 +37,8 @@ for e in entries:
     title=b['text']
     if title.startswith('The ') or title in ['Num','The Codex','The DBA','Full Speech','Question Cores and Proto-Pets','Continuity Marks','Winter Seeds','Bridges','Quiet Ones','Open Hands','Paths and Evolution','Old Sound Traditions']:
      add(title,'History & ideas',reading_target(e,b['id']))
+from build_catalistym import add_catalistym_topics
+add_catalistym_topics(add,reading_target,entries)
 # Facet people without a dedicated dossier still get a transparent mention index.
 for person in sorted({p for e in entries if e['kind']=='Story' for p in e.get('characters',[])}):add(person,'Person')
 add('Unnamed river healer','Person',reading_target(next(e for e in entries if e['id']=='stories-p14010')))
