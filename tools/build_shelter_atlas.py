@@ -107,7 +107,52 @@ for kind in ['hearth','constellation','region','elsewhere']:
   n['rx']=round(max([abs(q['x']-n['x'])+q.get('rx',4) for q in children]+[12])+12,2)
   n['ry']=round(max([abs(q['y']-n['y'])+q.get('ry',4) for q in children]+[9])+12,2)
   n['focusWidth']=round(max(n['rx']*2.3,n['ry']*2.5/.725,75),2)
-data=dict(version=3,title='The Expanse',status='Proposed pre-campaign height · not the eventual civilizational maximum',bounds=[0,0,2000,1450],nodes=nodes,links=links,counts=dict(connectedShelters=480,elsewhereShelters=40,constellations=24,hearths=144,elsewheres=8),note='Schematic topology. Counts are planning estimates for one historical region. Central haven dots represent communities; miniature dots represent proposed contributing systems. Neither encodes a count of persons or casualties.')
+# Local placements are a reproducible proposal, constrained by the source ledger.
+phases=json.loads((ROOT/'sources/catalistym.json').read_text())['phases']
+origins=[(-5,'First scattered shelters'),(-4,'Local dependencies gather'),(-3,'Neighboring havens emerge'),(-2,'Networks become denser'),(-1,'Uneven expansion toward the early height')]
+timeline=[dict(stage=i,title=title,description='Proposed origin sequence; relative steps, not dates or Era numbers.') for i,title in origins]+[dict(p,stage=i) for i,p in enumerate(phases)]
+by_id={n['id']:n for n in nodes}
+for h in havens:
+ local=random.Random(h['id']+'-origin-v1')
+ h['born']=local.choices([-5,-4,-3,-2,-1],[8,14,24,30,24])[0]
+ h['history']=[]
+ h['state']='functioning'
+ for system in [n for n in nodes if n['parent']==h['id'] and n['kind']=='system']:
+  system['born']=local.randint(h['born'],0)
+  system['lostAt']=None
+ # Every new haven begins with at least one dependency.
+ next(n for n in nodes if n['parent']==h['id'] and n['kind']=='system')['born']=h['born']
+connected=[h for h in havens if not h['parent'].startswith('elsewhere')]
+# New active disruptions, immediate losses, old fragmented losses, recoveries.
+transitions=[(0,0,0,0),(70,25,0,0),(95,35,0,10),(55,20,0,15),(40,15,25,10),(20,5,5,10),(20,5,15,20),(0,0,15,35)]
+for stage,(disrupt,immediate,oldloss,recover) in enumerate(transitions):
+ local=random.Random('campaign-'+str(stage))
+ active=[h for h in connected if h['state']=='functioning'];broken=[h for h in connected if h['state']=='fragmented']
+ # Different campaigns concentrate in different infrastructures, with spillover.
+ priority={1:'halcyon',2:'halcyon',3:'lattice',4:'civic',5:'operations',6:'access',7:'independent'}.get(stage,'')
+ active.sort(key=lambda h:local.random()+(0 if h['id'].startswith(priority) else .8));local.shuffle(broken)
+ for h in broken[:oldloss]:h['state']='destroyed'
+ for h in broken[oldloss:oldloss+recover]:h['state']='functioning'
+ for index,h in enumerate(active[:disrupt]):h['state']='destroyed' if index<immediate else 'fragmented'
+ for h in havens:
+  systems=[n for n in nodes if n['parent']==h['id'] and n['kind']=='system']
+  lost=sum(n['lostAt'] is not None for n in systems)
+  if h['state']!='functioning':
+   target=max(lost,math.ceil(len(systems)*(.8 if h['state']=='destroyed' else .2)))
+   if h['state']=='fragmented' and h['history'] and h['history'][-1]['status']=='fragmented':target=min(len(systems)-1,max(target,lost+1))
+   available=[n for n in systems if n['lostAt'] is None];local.shuffle(available)
+   for n in available[:target-lost]:n['lostAt']=stage
+  lost=sum(n['lostAt'] is not None for n in systems)
+  streak=(h['history'][-1]['disruptionSteps'] if h['history'] else 0)+1 if h['state']=='fragmented' else 0
+  h['history'].append(dict(status=h['state'],lost=lost,disruptionSteps=streak))
+ for key in ['functioning','fragmented','destroyed']:
+  assert sum(h['state']==key for h in havens)==phases[stage][key]
+for h in havens:del h['state']
+for kind in ['hearth','constellation','region','elsewhere']:
+ for n in [q for q in nodes if q['kind']==kind]:
+  n['born']=min([q.get('born',0) for q in nodes if q['parent']==n['id']]+[0])
+by_id['meridian']['born']=-2
+data=dict(version=4,timeline=timeline,title='The Expanse',status='Proposed pre-campaign height · not the eventual civilizational maximum',bounds=[0,0,2000,1450],nodes=nodes,links=links,counts=dict(connectedShelters=480,elsewhereShelters=40,constellations=24,hearths=144,elsewheres=8),note='Schematic topology. Counts are planning estimates for one historical region. Central haven dots represent communities; miniature dots represent proposed contributing systems. Neither encodes a count of persons or casualties.')
 assert sum(n['kind']=='shelter' for n in nodes)==520
 assert sum(n['kind']=='hearth' for n in nodes)==144
 (ROOT/'site/shelter-atlas.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')

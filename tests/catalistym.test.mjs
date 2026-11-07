@@ -14,3 +14,12 @@ test('haven identifiers and feeding systems preserve community counts and connec
  for(const h of atlas.nodes.filter(n=>n.kind==='shelter')){const children=atlas.nodes.filter(n=>n.kind==='system'&&n.parent===h.id);assert.equal(children.length,h.feedingSystems);assert.ok(children.length>=3&&children.length<=36);assert.ok(h.hubRadius>.4);assert.equal(atlas.links.filter(l=>l.type==='support'&&l.a===h.id).length,children.length);}
  for(const l of atlas.links.filter(l=>l.type==='support')){assert.equal(by.get(l.a).kind,'shelter');assert.equal(by.get(l.b).kind,'system');assert.equal(by.get(l.b).parent,l.a);}
 });
+test('history separates proposed origins, permanent system losses and community recovery',()=>{
+ const havens=atlas.nodes.filter(n=>n.kind==='shelter'),systems=atlas.nodes.filter(n=>n.kind==='system');
+ assert.deepEqual(atlas.timeline.map(p=>p.stage),Array.from({length:13},(_,i)=>i-5));
+ for(let stage=0;stage<8;stage++)for(const status of ['functioning','fragmented','destroyed'])assert.equal(havens.filter(h=>h.history[stage].status===status).length,source.phases[stage][status]);
+ let previous=0;for(let stage=-5;stage<=0;stage++){const count=havens.filter(h=>h.born<=stage).length;assert.ok(count>=previous);previous=count;}assert.equal(previous,520);
+ for(const h of havens){const children=systems.filter(n=>n.parent===h.id);assert.ok(children.some(n=>n.born===h.born));assert.ok(children.every(n=>n.born>=h.born&&n.born<=0));let lost=0;for(let stage=0;stage<8;stage++){const state=h.history[stage];assert.ok(state.lost>=lost);assert.equal(state.lost,children.filter(n=>n.lostAt!==null&&n.lostAt<=stage).length);lost=state.lost;if(h.parent.startsWith('elsewhere'))assert.equal(state.status,'functioning');}}
+ assert.ok(havens.some(h=>h.history.some(s=>s.disruptionSteps>=3)));
+ assert.ok(havens.some(h=>h.history.some(s=>s.status==='functioning'&&s.lost>0)));
+});

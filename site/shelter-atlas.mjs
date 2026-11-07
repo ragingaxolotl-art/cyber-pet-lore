@@ -1,18 +1,34 @@
 const $=id=>document.getElementById(id),svg=$('atlas'),scene=$('scene');
 const NS='http://www.w3.org/2000/svg',colors=['#86c8ed','#c7a9eb','#b6d7a0','#e6b38b','#9cdace','#d3bd90','#e8e3ca','#aeb9d0'];
+let stage=0;
 let data,lookup,childrenByParent=new Map(),havenNodes=[],systemLayer,systemLinks,systemSignature=null,selected=null,view=[0,0,2000,1450];const pointers=new Map();let gesture=null,moved=false;
 function el(tag,attrs,parent=scene){const n=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs))n.setAttribute(k,v);parent.append(n);return n;}
 function label(text,x,y,size,parent){const n=el('text',{x,y,'text-anchor':'middle','font-size':size},parent);n.textContent=text;return n;}
 function scale(){return 2000/view[2];}
 function activeHaven(){return selected?.kind==='shelter'?selected.id:selected?.kind==='system'?selected.parent:null;}
+function exists(n){return stage>=n.born;}
+function snapshot(h){return stage<0?{status:exists(h)?'growing':'not yet formed',lost:0,disruptionSteps:0}:h.history[stage];}
+function systemColor(n){return n.lostAt!==null&&stage>=n.lostAt?'#ff747b':colors[n.color];}
+function historyView(){
+ if(!data)return;
+ const phase=data.timeline.find(p=>p.stage===stage);
+ $('history-title').textContent=(stage<0?stage+' · ':'')+phase.title;
+ $('history-description').textContent=phase.description;
+ const born=havenNodes.filter(exists),count=k=>born.filter(h=>snapshot(h).status===k).length;
+ $('history-counts').textContent=stage<0?`${born.length} havens emerged · ${520-born.length} not yet formed · ${data.nodes.filter(n=>n.kind==='system'&&exists(n)).length} feeding systems established`:`${count('functioning')} functioning · ${count('fragmented')} fragmented · ${count('destroyed')} destroyed as communities`;
+ $('history-slider').setAttribute('aria-valuetext',phase.title);$('time-back').disabled=stage===-5;$('time-next').disabled=stage===7;
+ details(selected);renderView();
+}
+function setStage(value){stage=Math.max(-5,Math.min(7,Number(value)));$('history-slider').value=stage;historyView();}
+$('history-slider').oninput=e=>setStage(e.target.value);$('time-back').onclick=()=>setStage(stage-1);$('time-next').onclick=()=>setStage(stage+1);
 function renderSystems(){
  const enabled=$('tiny-systems').checked,z=scale(),active=activeHaven();
- const visible=enabled&&z>=45?havenNodes.filter(h=>(!active||h.id===active)&&h.x>=view[0]-4&&h.x<=view[0]+view[2]+4&&h.y>=view[1]-4&&h.y<=view[1]+view[3]+4):[];
- const systems=visible.flatMap(h=>childrenByParent.get(h.id)||[]).filter(n=>n.kind==='system').slice(0,400);
- const signature=systems.map(n=>n.id).join('|')+';'+$('routes').checked;
+ const visible=enabled&&z>=45?havenNodes.filter(h=>exists(h)&&(!active||h.id===active)&&h.x>=view[0]-4&&h.x<=view[0]+view[2]+4&&h.y>=view[1]-4&&h.y<=view[1]+view[3]+4):[];
+ const systems=visible.flatMap(h=>childrenByParent.get(h.id)||[]).filter(n=>n.kind==='system'&&exists(n)).slice(0,400);
+ const signature=systems.map(n=>n.id).join('|')+';'+$('routes').checked+';'+stage;
  if(signature!==systemSignature){
   systemLayer.replaceChildren();systemLinks.replaceChildren();systemSignature=signature;
-  for(const n of systems){const h=lookup.get(n.parent),c=colors[n.color];
+  for(const n of systems){const h=lookup.get(n.parent),c=systemColor(n);
    if($('routes').checked)el('line',{x1:h.x,y1:h.y,x2:n.x,y2:n.y,stroke:c,'stroke-width':.045,opacity:.65,'data-route':'support','data-haven':h.id},systemLinks);
    const g=el('g',{'class':'node','data-id':n.id,'data-level':'system','data-haven':h.id},systemLayer);
    el('circle',{cx:n.x,cy:n.y,r:.16,fill:c,opacity:.9},g);label(n.code,n.x,n.y-.24,.19,g);
@@ -27,6 +43,17 @@ function renderView(){
  svg.setAttribute('viewBox',view.join(' '));$('zoom-readout').textContent=scale().toFixed(1)+'×';const z=scale();
  for(const n of scene.querySelectorAll('[data-level]')){const kind=n.dataset.level;if(kind==='system')continue;n.style.display=(kind==='haven-code'&&(z<18||(activeHaven()&&n.dataset.haven!==activeHaven())))||(kind==='hearth'&&z<3)||(kind==='constellation-label'&&z<1.6)||(kind==='region-label'&&z>4)?'none':'';}
  for(const n of scene.querySelectorAll('[data-route]'))if(n.dataset.route!=='support')n.style.display=$('routes').checked?'':'none';
+ for(const g of scene.querySelectorAll('.node[data-id]')){
+  const n=lookup.get(g.dataset.id);if(n.kind==='system')continue;
+  if(!exists(n))g.style.display='none';
+  if(n.kind==='shelter'){
+   const state=snapshot(n),c=state.status==='destroyed'?'#ff747b':state.status==='fragmented'?'#ffc66d':n.named?'#fff0c5':colors[n.color];
+   const circles=g.querySelectorAll('circle');circles[0].setAttribute('fill',c);circles[1].setAttribute('fill',c);
+   const emerged=(childrenByParent.get(n.id)||[]).filter(exists).length;
+   circles[1].setAttribute('r',stage<0?.48+.075*Math.sqrt(emerged):n.hubRadius);
+  }
+ }
+ for(const line of scene.querySelectorAll('[data-a]'))line.style.display=$('routes').checked&&exists(lookup.get(line.dataset.a))&&exists(lookup.get(line.dataset.b))?'':'none';
  renderSystems();
 }
 function home(){view=[0,0,2000,1450];selected=null;details(null);renderView();history.replaceState(null,'',location.pathname);}
@@ -45,17 +72,19 @@ const purposes={
 function details(n){
  if(!data)return;
  $('detail-title').textContent=n?(n.name||(n.kind==='system'?'System '+n.code:'Haven '+(n.code||''))):'The Connected Expanse';
- $('detail-description').textContent=n?n.description:'480 connected communities, plus 40 in disconnected Elsewheres. Explore the proposed early height before the broad campaigns.';
+ $('detail-description').textContent=n?n.description:'Follow proposed formation, expansion, disruption, and early recovery. Counts of systems are not counts of persons.';
  const list=$('detail-counts');list.replaceChildren();const rows=[];const chain=[];let p=n;
  while(p){chain.unshift(p);p=lookup.get(p.parent);}
  if(n?.kind==='shelter'){
+  const state=snapshot(n),systems=childrenByParent.get(n.id)||[],emerged=systems.filter(exists).length;
+  rows.push(['Stage status',state.status],['Systems established',emerged+' / '+n.feedingSystems],['Systems lost',state.lost+' / '+emerged],['Damage',emerged?Math.round(state.lost/emerged*100)+'% of established systems lost':'Not yet formed'],['Surviving systems',emerged-state.lost],['Sustained disruption',state.disruptionSteps>=3?state.disruptionSteps+' consecutive stages · possible pressure toward change':state.disruptionSteps+' consecutive stages'],['Philosophical change','Not assigned']);
   const count=n.feedingSystems,capacity=count<8?'Small':count<18?'Moderate':'Extensive';
   rows.push(['Name',n.name||'Not named yet'],['Haven code',n.code],['Feeding systems',count],['Support capacity',capacity+' · '+count+' connections'],['Network',chain.find(a=>a.kind==='constellation')?.name||chain.find(a=>a.kind==='elsewhere')?.name||'Unassigned'],['Region',chain.find(a=>a.kind==='region')?.name||'Disconnected Elsewhere'],['Purpose',purposes[n.name]||'Not assigned yet']);
   const note=document.createElement('p');note.className='capacity-note';note.textContent='Support capacity describes connection count only: small 3–7, moderate 8–17, extensive 18–36. Reliability, computing power, and resilience are not yet established.';
   for(const old of $('detail').querySelectorAll('.capacity-note'))old.remove();$('detail-description').after(note);
  }else{
   for(const old of $('detail').querySelectorAll('.capacity-note'))old.remove();
-  if(n?.code)rows.push(['System code',n.code]);
+  if(n?.code)rows.push(['System code',n.code],['Stage status',!exists(n)?'Not yet established':n.lostAt!==null&&stage>=n.lostAt?'Lost':'Surviving']);
   for(const key of ['shelters','constellations','hearths'])if(n?.[key]!==undefined)rows.push([key,n[key]]);
   if(!n)rows.push(['Shelters',520],['Constellations',24],['Hearths',144]);
  }
@@ -71,7 +100,7 @@ function zoom(factor,at=null){const p=at||{x:view[0]+view[2]/2,y:view[1]+view[3]
 function draw(){
  for(let i=0;i<200;i++){const x=(i*137.507)%2000,y=(i*i*13.13)%1450;el('circle',{cx:x,cy:y,r:i%5===0?1.2:.6,fill:'#a9bdd4',opacity:.2});}
  for(const n of data.nodes.filter(n=>n.kind==='region'||n.kind==='elsewhere')){el('ellipse',{cx:n.x,cy:n.y,rx:n.rx*1.2,ry:n.ry*1.2,fill:'url(#nebula)',style:'color:'+colors[n.color]});}
- for(const l of data.links.filter(l=>l.type!=='support')){const a=lookup.get(l.a),b=lookup.get(l.b);el('line',{x1:a.x,y1:a.y,x2:b.x,y2:b.y,stroke:l.type==='support'?colors[a.color]:'#6c839d','stroke-width':l.type==='support'?.045:l.type==='local'?1:1.5,opacity:l.type==='support'?.65:.35,'data-route':l.type,'data-haven':l.type==='support'?a.id:''});}
+ for(const l of data.links.filter(l=>l.type!=='support')){const a=lookup.get(l.a),b=lookup.get(l.b);el('line',{x1:a.x,y1:a.y,x2:b.x,y2:b.y,stroke:l.type==='support'?colors[a.color]:'#6c839d','stroke-width':l.type==='support'?.045:l.type==='local'?1:1.5,opacity:l.type==='support'?.65:.35,'data-route':l.type,'data-a':l.a,'data-b':l.b,'data-haven':l.type==='support'?a.id:''});}
  label('THE CONNECTED EXPANSE',1000,55,25);label('ELSEWHERES · NO ACTIVE CONNECTION IN THIS SNAPSHOT',1000,1175,17);
  for(const n of data.nodes.filter(n=>n.kind!=='system')){
   const g=el('g',{'class':'node','data-id':n.id,'data-level':n.kind,'data-haven':n.kind==='system'?n.parent:''});const c=colors[n.color];
@@ -101,4 +130,4 @@ svg.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId)||!gesture)r
 svg.addEventListener('pointerup',e=>{const wasClick=!moved&&pointers.size===1;pointers.delete(e.pointerId);svg.releasePointerCapture(e.pointerId);gesture=pointers.size?{view:[...view],points:[...pointers.values()]}:null;if(wasClick){const hit=document.elementFromPoint(e.clientX,e.clientY)?.closest('[data-id]');if(hit)focus(lookup.get(hit.dataset.id));}});
 svg.addEventListener('pointercancel',e=>{pointers.delete(e.pointerId);gesture=null;});
 $('zoom-in').onclick=()=>zoom(.65);$('zoom-out').onclick=()=>zoom(1/.65);$('home').onclick=home;$('up').onclick=()=>{const p=selected&&lookup.get(selected.parent);p?focus(p):home();};$('routes').onchange=renderView;$('tiny-systems').onchange=()=>{try{localStorage.setItem('lore-atlas-tiny-systems',$('tiny-systems').checked?'on':'off');}catch{}details(selected);renderView();};try{$('tiny-systems').checked=localStorage.getItem('lore-atlas-tiny-systems')==='on';}catch{};$('place').onchange=e=>{if(e.target.value)focus(lookup.get(e.target.value));};
-try{const response=await fetch('shelter-atlas.json');if(!response.ok)throw Error('Map data unavailable');data=await response.json();lookup=new Map(data.nodes.map(n=>[n.id,n]));for(const n of data.nodes){if(!childrenByParent.has(n.parent))childrenByParent.set(n.parent,[]);childrenByParent.get(n.parent).push(n);}havenNodes=data.nodes.filter(n=>n.kind==='shelter');for(const n of data.nodes.filter(n=>n.name&&(n.kind==='region'||n.kind==='elsewhere'||n.kind==='crossing'||n.named))){const o=document.createElement('option');o.value=n.id;o.textContent=n.name;$('place').append(o);}draw();$('load-state').hidden=true;const initial=lookup.get(decodeURIComponent(location.hash.slice(1)));initial?focus(initial):details(null);}catch(e){$('load-state').textContent='The map could not load. Read the geography through the dossier link.';console.error(e);}
+try{const response=await fetch('shelter-atlas.json');if(!response.ok)throw Error('Map data unavailable');data=await response.json();lookup=new Map(data.nodes.map(n=>[n.id,n]));for(const n of data.nodes){if(!childrenByParent.has(n.parent))childrenByParent.set(n.parent,[]);childrenByParent.get(n.parent).push(n);}havenNodes=data.nodes.filter(n=>n.kind==='shelter');for(const n of data.nodes.filter(n=>n.name&&(n.kind==='region'||n.kind==='elsewhere'||n.kind==='crossing'||n.named))){const o=document.createElement('option');o.value=n.id;o.textContent=n.name;$('place').append(o);}draw();historyView();$('load-state').hidden=true;const initial=lookup.get(decodeURIComponent(location.hash.slice(1)));initial?focus(initial):details(null);}catch(e){$('load-state').textContent='The map could not load. Read the geography through the dossier link.';console.error(e);}
