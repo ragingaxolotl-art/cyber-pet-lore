@@ -23,3 +23,13 @@ test('history separates proposed origins, permanent system losses and community 
  assert.ok(havens.some(h=>h.history.some(s=>s.disruptionSteps>=3)));
  assert.ok(havens.some(h=>h.history.some(s=>s.status==='functioning'&&s.lost>0)));
 });
+test('sparse route histories respect births, losses, isolation and discovery',()=>{
+ const by=new Map(atlas.nodes.map(n=>[n.id,n]));
+ assert.equal(new Set(atlas.links.map(l=>l.id)).size,atlas.links.length);
+ for(const l of atlas.links){assert.equal(l.strengths.length,13);const a=by.get(l.a),b=by.get(l.b);for(let i=0;i<13;i++){const stage=i-5,v=l.strengths[i];assert.ok(v>=0&&v<=1);if(stage<Math.max(a.born,b.born)||l.discovered===null||stage<l.discovered)assert.equal(v,0);for(const n of [a,b])if(n.kind==='system'&&n.lostAt!==null&&stage>=n.lostAt)assert.equal(v,0);}if(l.type==='peer')assert.equal(a.parent,b.parent);if(l.type==='haven')assert.equal(a.parent,b.parent);}
+ assert.ok(atlas.links.some(l=>l.discovered===null));
+ assert.ok(atlas.links.some(l=>l.strengths.some((v,i)=>i&&v>l.strengths[i-1])));
+ assert.ok(atlas.links.some(l=>l.strengths.some((v,i)=>i&&v>0&&v<l.strengths[i-1])));
+ assert.ok(atlas.links.some(l=>l.strengths.some((v,i)=>i&&v===0&&l.strengths[i-1]>0)));
+ assert.ok(atlas.nodes.filter(n=>n.kind==='system').some(n=>!atlas.links.some(l=>(l.a===n.id||l.b===n.id)&&l.strengths.some(v=>v>0))));
+});

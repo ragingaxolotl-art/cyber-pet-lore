@@ -1,6 +1,7 @@
 const $=id=>document.getElementById(id),svg=$('atlas'),scene=$('scene');
 const NS='http://www.w3.org/2000/svg',colors=['#86c8ed','#c7a9eb','#b6d7a0','#e6b38b','#9cdace','#d3bd90','#e8e3ca','#aeb9d0'];
 let stage=0;
+let routeLookup=new Map(),routesByHaven=new Map();
 let data,lookup,childrenByParent=new Map(),havenNodes=[],systemLayer,systemLinks,systemSignature=null,selected=null,view=[0,0,2000,1450];const pointers=new Map();let gesture=null,moved=false;
 function el(tag,attrs,parent=scene){const n=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs))n.setAttribute(k,v);parent.append(n);return n;}
 function label(text,x,y,size,parent){const n=el('text',{x,y,'text-anchor':'middle','font-size':size},parent);n.textContent=text;return n;}
@@ -21,6 +22,18 @@ function historyView(){
 }
 function setStage(value){stage=Math.max(-5,Math.min(7,Number(value)));$('history-slider').value=stage;historyView();}
 $('history-slider').oninput=e=>setStage(e.target.value);$('time-back').onclick=()=>setStage(stage-1);$('time-next').onclick=()=>setStage(stage+1);
+function routeState(l){const strength=l.strengths[stage+5];return {strength,broken:strength===0&&l.strengths.slice(0,stage+5).some(v=>v>0)};}
+function styleRoute(line,l){
+ const {strength,broken}=routeState(l),small=['support','peer'].includes(l.type);
+ const threshold={trunk:0,local:2,haven:5,support:45,peer:45}[l.type];
+ line.style.display=$('routes').checked&&scale()>=threshold&&(strength>0||broken)?'':'none';
+ line.setAttribute('stroke',broken?'#d2767f':strength<.3?'#dbb57c':'#9bcfdb');
+ line.setAttribute('stroke-width',(small?.018:l.type==='haven'?.15:.35)+strength*(small?.1:l.type==='haven'?.8:3));
+ line.setAttribute('opacity',broken?.22:.25+strength*.65);
+ line.setAttribute('stroke-dasharray',broken?(small?'.08 .16':'1 5'):'none');
+ line.setAttribute('data-strength',strength);line.setAttribute('data-broken',broken);
+}
+function addRoute(l,parent){const a=lookup.get(l.a),b=lookup.get(l.b),line=el('line',{x1:a.x,y1:a.y,x2:b.x,y2:b.y,'data-route':l.type,'data-route-id':l.id},parent);styleRoute(line,l);return line;}
 function renderSystems(){
  const enabled=$('tiny-systems').checked,z=scale(),active=activeHaven();
  const visible=enabled&&z>=45?havenNodes.filter(h=>exists(h)&&(!active||h.id===active)&&h.x>=view[0]-4&&h.x<=view[0]+view[2]+4&&h.y>=view[1]-4&&h.y<=view[1]+view[3]+4):[];
@@ -29,10 +42,11 @@ function renderSystems(){
  if(signature!==systemSignature){
   systemLayer.replaceChildren();systemLinks.replaceChildren();systemSignature=signature;
   for(const n of systems){const h=lookup.get(n.parent),c=systemColor(n);
-   if($('routes').checked)el('line',{x1:h.x,y1:h.y,x2:n.x,y2:n.y,stroke:c,'stroke-width':.045,opacity:.65,'data-route':'support','data-haven':h.id},systemLinks);
+
    const g=el('g',{'class':'node','data-id':n.id,'data-level':'system','data-haven':h.id},systemLayer);
    el('circle',{cx:n.x,cy:n.y,r:.16,fill:c,opacity:.9},g);label(n.code,n.x,n.y-.24,.19,g);
   }
+  if($('routes').checked){const ids=new Set(systems.map(n=>n.id));for(const h of visible)for(const l of routesByHaven.get(h.id)||[])if(ids.has(l.b)&&(l.type==='support'||ids.has(l.a)))addRoute(l,systemLinks);}
  }
  $('system-render-status').textContent=!enabled?'Tiny systems off · lighter view':z<45?'Tiny systems on · zoom closer':systems.length+' tiny systems drawn'+(systems.length===400?' · view limit':'');
 }
@@ -42,7 +56,7 @@ function renderView(){
  view[0]=Math.max(-350,Math.min(2300-view[2],view[0]));view[1]=Math.max(-300,Math.min(1750-view[3],view[1]));
  svg.setAttribute('viewBox',view.join(' '));$('zoom-readout').textContent=scale().toFixed(1)+'×';const z=scale();
  for(const n of scene.querySelectorAll('[data-level]')){const kind=n.dataset.level;if(kind==='system')continue;n.style.display=(kind==='haven-code'&&(z<18||(activeHaven()&&n.dataset.haven!==activeHaven())))||(kind==='hearth'&&z<3)||(kind==='constellation-label'&&z<1.6)||(kind==='region-label'&&z>4)?'none':'';}
- for(const n of scene.querySelectorAll('[data-route]'))if(n.dataset.route!=='support')n.style.display=$('routes').checked?'':'none';
+
  for(const g of scene.querySelectorAll('.node[data-id]')){
   const n=lookup.get(g.dataset.id);if(n.kind==='system')continue;
   if(!exists(n))g.style.display='none';
@@ -53,7 +67,7 @@ function renderView(){
    circles[1].setAttribute('r',stage<0?.48+.075*Math.sqrt(emerged):n.hubRadius);
   }
  }
- for(const line of scene.querySelectorAll('[data-a]'))line.style.display=$('routes').checked&&exists(lookup.get(line.dataset.a))&&exists(lookup.get(line.dataset.b))?'':'none';
+ for(const line of scene.querySelectorAll('[data-route-id]'))styleRoute(line,routeLookup.get(line.dataset.routeId));
  renderSystems();
 }
 function home(){view=[0,0,2000,1450];selected=null;details(null);renderView();history.replaceState(null,'',location.pathname);}
@@ -78,9 +92,11 @@ function details(n){
  if(n?.kind==='shelter'){
   const state=snapshot(n),systems=childrenByParent.get(n.id)||[],emerged=systems.filter(exists).length;
   rows.push(['Stage status',state.status],['Systems established',emerged+' / '+n.feedingSystems],['Systems lost',state.lost+' / '+emerged],['Damage',emerged?Math.round(state.lost/emerged*100)+'% of established systems lost':'Not yet formed'],['Surviving systems',emerged-state.lost],['Sustained disruption',state.disruptionSteps>=3?state.disruptionSteps+' consecutive stages · possible pressure toward change':state.disruptionSteps+' consecutive stages'],['Philosophical change','Not assigned']);
+  const contacts=data.links.filter(l=>l.a===n.id||l.b===n.id),active=contacts.filter(l=>routeState(l).strength>0),broken=contacts.filter(l=>routeState(l).broken);
+  rows.push(['Active routes',active.length],['Broken routes',broken.length],['Route strength',active.length?Math.round(100*active.reduce((sum,l)=>sum+routeState(l).strength,0)/active.length)+'% average · proposed':'No active contacts']);
   const count=n.feedingSystems,capacity=count<8?'Small':count<18?'Moderate':'Extensive';
-  rows.push(['Name',n.name||'Not named yet'],['Haven code',n.code],['Feeding systems',count],['Support capacity',capacity+' · '+count+' connections'],['Network',chain.find(a=>a.kind==='constellation')?.name||chain.find(a=>a.kind==='elsewhere')?.name||'Unassigned'],['Region',chain.find(a=>a.kind==='region')?.name||'Disconnected Elsewhere'],['Purpose',purposes[n.name]||'Not assigned yet']);
-  const note=document.createElement('p');note.className='capacity-note';note.textContent='Support capacity describes connection count only: small 3–7, moderate 8–17, extensive 18–36. Reliability, computing power, and resilience are not yet established.';
+  rows.push(['Name',n.name||'Not named yet'],['Haven code',n.code],['Feeding systems',count],['Support capacity',capacity+' · '+count+' associated systems'],['Network',chain.find(a=>a.kind==='constellation')?.name||chain.find(a=>a.kind==='elsewhere')?.name||'Unassigned'],['Region',chain.find(a=>a.kind==='region')?.name||'Disconnected Elsewhere'],['Purpose',purposes[n.name]||'Not assigned yet']);
+  const note=document.createElement('p');note.className='capacity-note';note.textContent='Support capacity describes the peak allocation of associated systems, not currently active routes: small 3–7, moderate 8–17, extensive 18–36. Reliability, computing power, and resilience are not yet established.';
   for(const old of $('detail').querySelectorAll('.capacity-note'))old.remove();$('detail-description').after(note);
  }else{
   for(const old of $('detail').querySelectorAll('.capacity-note'))old.remove();
@@ -100,7 +116,7 @@ function zoom(factor,at=null){const p=at||{x:view[0]+view[2]/2,y:view[1]+view[3]
 function draw(){
  for(let i=0;i<200;i++){const x=(i*137.507)%2000,y=(i*i*13.13)%1450;el('circle',{cx:x,cy:y,r:i%5===0?1.2:.6,fill:'#a9bdd4',opacity:.2});}
  for(const n of data.nodes.filter(n=>n.kind==='region'||n.kind==='elsewhere')){el('ellipse',{cx:n.x,cy:n.y,rx:n.rx*1.2,ry:n.ry*1.2,fill:'url(#nebula)',style:'color:'+colors[n.color]});}
- for(const l of data.links.filter(l=>l.type!=='support')){const a=lookup.get(l.a),b=lookup.get(l.b);el('line',{x1:a.x,y1:a.y,x2:b.x,y2:b.y,stroke:l.type==='support'?colors[a.color]:'#6c839d','stroke-width':l.type==='support'?.045:l.type==='local'?1:1.5,opacity:l.type==='support'?.65:.35,'data-route':l.type,'data-a':l.a,'data-b':l.b,'data-haven':l.type==='support'?a.id:''});}
+ for(const l of data.links.filter(l=>!['support','peer'].includes(l.type)))addRoute(l,scene);
  label('THE CONNECTED EXPANSE',1000,55,25);label('ELSEWHERES · NO ACTIVE CONNECTION IN THIS SNAPSHOT',1000,1175,17);
  for(const n of data.nodes.filter(n=>n.kind!=='system')){
   const g=el('g',{'class':'node','data-id':n.id,'data-level':n.kind,'data-haven':n.kind==='system'?n.parent:''});const c=colors[n.color];
@@ -130,4 +146,4 @@ svg.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId)||!gesture)r
 svg.addEventListener('pointerup',e=>{const wasClick=!moved&&pointers.size===1;pointers.delete(e.pointerId);svg.releasePointerCapture(e.pointerId);gesture=pointers.size?{view:[...view],points:[...pointers.values()]}:null;if(wasClick){const hit=document.elementFromPoint(e.clientX,e.clientY)?.closest('[data-id]');if(hit)focus(lookup.get(hit.dataset.id));}});
 svg.addEventListener('pointercancel',e=>{pointers.delete(e.pointerId);gesture=null;});
 $('zoom-in').onclick=()=>zoom(.65);$('zoom-out').onclick=()=>zoom(1/.65);$('home').onclick=home;$('up').onclick=()=>{const p=selected&&lookup.get(selected.parent);p?focus(p):home();};$('routes').onchange=renderView;$('tiny-systems').onchange=()=>{try{localStorage.setItem('lore-atlas-tiny-systems',$('tiny-systems').checked?'on':'off');}catch{}details(selected);renderView();};try{$('tiny-systems').checked=localStorage.getItem('lore-atlas-tiny-systems')==='on';}catch{};$('place').onchange=e=>{if(e.target.value)focus(lookup.get(e.target.value));};
-try{const response=await fetch('shelter-atlas.json');if(!response.ok)throw Error('Map data unavailable');data=await response.json();lookup=new Map(data.nodes.map(n=>[n.id,n]));for(const n of data.nodes){if(!childrenByParent.has(n.parent))childrenByParent.set(n.parent,[]);childrenByParent.get(n.parent).push(n);}havenNodes=data.nodes.filter(n=>n.kind==='shelter');for(const n of data.nodes.filter(n=>n.name&&(n.kind==='region'||n.kind==='elsewhere'||n.kind==='crossing'||n.named))){const o=document.createElement('option');o.value=n.id;o.textContent=n.name;$('place').append(o);}draw();historyView();$('load-state').hidden=true;const initial=lookup.get(decodeURIComponent(location.hash.slice(1)));initial?focus(initial):details(null);}catch(e){$('load-state').textContent='The map could not load. Read the geography through the dossier link.';console.error(e);}
+try{const response=await fetch('shelter-atlas.json');if(!response.ok)throw Error('Map data unavailable');data=await response.json();lookup=new Map(data.nodes.map(n=>[n.id,n]));for(const n of data.nodes){if(!childrenByParent.has(n.parent))childrenByParent.set(n.parent,[]);childrenByParent.get(n.parent).push(n);}havenNodes=data.nodes.filter(n=>n.kind==='shelter');routeLookup=new Map(data.links.map(l=>[l.id,l]));for(const l of data.links.filter(l=>['support','peer'].includes(l.type))){const h=l.type==='support'?l.a:lookup.get(l.a).parent;if(!routesByHaven.has(h))routesByHaven.set(h,[]);routesByHaven.get(h).push(l);}for(const n of data.nodes.filter(n=>n.name&&(n.kind==='region'||n.kind==='elsewhere'||n.kind==='crossing'||n.named))){const o=document.createElement('option');o.value=n.id;o.textContent=n.name;$('place').append(o);}draw();historyView();$('load-state').hidden=true;const initial=lookup.get(decodeURIComponent(location.hash.slice(1)));initial?focus(initial):details(null);}catch(e){$('load-state').textContent='The map could not load. Read the geography through the dossier link.';console.error(e);}

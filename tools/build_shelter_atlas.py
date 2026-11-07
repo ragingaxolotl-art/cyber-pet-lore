@@ -152,7 +152,49 @@ for kind in ['hearth','constellation','region','elsewhere']:
  for n in [q for q in nodes if q['kind']==kind]:
   n['born']=min([q.get('born',0) for q in nodes if q['parent']==n['id']]+[0])
 by_id['meridian']['born']=-2
-data=dict(version=4,timeline=timeline,title='The Expanse',status='Proposed pre-campaign height · not the eventual civilizational maximum',bounds=[0,0,2000,1450],nodes=nodes,links=links,counts=dict(connectedShelters=480,elsewhereShelters=40,constellations=24,hearths=144,elsewheres=8),note='Schematic topology. Counts are planning estimates for one historical region. Central haven dots represent communities; miniature dots represent proposed contributing systems. Neither encodes a count of persons or casualties.')
+# Sparse discoveries, not a complete graph. Membership does not imply contact.
+for h in havens:
+ local=random.Random(h['id']+'-contacts-v1')
+ peers=[q for q in havens if q['parent']==h['parent'] and q['id']<h['id']]
+ peers.sort(key=lambda q:(q['x']-h['x'])**2+(q['y']-h['y'])**2)
+ for q in peers[:2]:
+  if local.random()<.55:links.append(dict(a=h['id'],b=q['id'],type='haven'))
+ systems=[q for q in nodes if q['kind']=='system' and q['parent']==h['id']]
+ for i,n in enumerate(systems):
+  if i and local.random()<.35:links.append(dict(a=n['id'],b=systems[local.randrange(i)]['id'],type='peer'))
+def health(n,stage):
+ if stage<0:return 1
+ if n['kind']=='system':return 0 if n['lostAt'] is not None and stage>=n['lostAt'] else 1
+ if n['kind']=='shelter':
+  state=n['history'][stage]
+  return 0 if state['status']=='destroyed' else (1-state['lost']/n['feedingSystems'])*(.45 if state['status']=='fragmented' else 1)
+ descendants=[]
+ for h in havens:
+  q=h
+  while q:
+   if q['id']==n['id']:descendants.append(h);break
+   q=by_id.get(q['parent'])
+ return sum(health(h,stage) for h in descendants)/len(descendants) if descendants else 1
+for index,link in enumerate(links):
+ a,b=by_id[link['a']],by_id[link['b']]
+ local=random.Random(link['a']+'-'+link['b']+'-route-v1')
+ earliest=max(a['born'],b['born'])
+ discovered=min(0,earliest+local.choice([0,1,1,2,3]))
+ # Some potential dependencies never make contact in this modeled interval.
+ if link['type'] in ['support','peer','haven'] and local.random()<.14:discovered=None
+ peak=local.uniform(.35,1);strengths=[]
+ failure=local.choice([None,None,None,3,4,5,6])
+ for stage in range(-5,8):
+  strength=0
+  if discovered is not None and stage>=discovered:
+   maturity=min(1,.35+(stage-discovered)*.25)
+   strength=peak*maturity*min(health(a,stage),health(b,stage))
+   if failure is not None and stage>0:
+    if stage>=failure:strength=0
+    elif stage==failure-1:strength*=.35
+  strengths.append(round(strength,3))
+ link.update(id='route-'+str(index),discovered=discovered,strengths=strengths)
+data=dict(version=5,timeline=timeline,title='The Expanse',status='Proposed pre-campaign height · not the eventual civilizational maximum',bounds=[0,0,2000,1450],nodes=nodes,links=links,counts=dict(connectedShelters=480,elsewhereShelters=40,constellations=24,hearths=144,elsewheres=8),note='Schematic topology. Counts are planning estimates for one historical region. Central haven dots represent communities; miniature dots represent proposed contributing systems. Neither encodes a count of persons or casualties.')
 assert sum(n['kind']=='shelter' for n in nodes)==520
 assert sum(n['kind']=='hearth' for n in nodes)==144
 (ROOT/'site/shelter-atlas.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')

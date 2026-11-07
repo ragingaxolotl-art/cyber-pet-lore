@@ -3,3 +3,16 @@
 .capacity-note{font-size:.85rem;color:#435964}#system-links{pointer-events:none}
 
 .atlas-time{padding:1rem;border:1px solid #3b5069;border-radius:12px;margin:1rem 0;background:#101f32}.time-input{display:flex;gap:1rem;align-items:center}.time-input input{flex:1;min-width:0;accent-color:#9cdace}.atlas-time p{margin:.5rem 0}.atlas-time button{min-width:40px;min-height:40px}
+
+/* Keep time navigation physically attached to the map, with details below. */
+.map-frame{border:1px solid #3b5069;border-radius:12px;overflow:hidden;background:#101f32}
+.map-frame .map-surface{border-radius:0}
+.timeline-dock{padding:.8rem 1rem;background:#101f32;border-top:1px solid #3b5069;color:#fff}
+.timeline-dock label{display:block;color:#fff;font-size:.95rem;margin-bottom:.5rem}
+.timeline-dock strong,.atlas-time,.atlas-time p,.atlas-time .map-help{color:#fff}
+.timeline-dock button{min-width:44px;min-height:44px;border:1px solid #92a9bf;border-radius:8px;background:#20364c;color:#fff;font-size:1.2rem}
+.timeline-dock button:disabled{opacity:.4}
+.timeline-dock button:focus-visible,.timeline-dock input:focus-visible{outline:3px solid #9cdace;outline-offset:3px}
+.timeline-dock input{min-height:36px;touch-action:pan-y}
+.map-surface text{fill:#fff}
+@media(max-width:850px){.timeline-dock{padding:.65rem .75rem}.time-input{gap:.6rem}.atlas-time{margin-top:.75rem}}
