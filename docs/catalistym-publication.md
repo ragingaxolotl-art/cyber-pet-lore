@@ -21,3 +21,7 @@ Replaced equal subdivisions, circular rings, the region grid, and the identical 
 ## Haven support detail
 
 At close zoom, each of the 520 existing shelters is displayed as a central haven with 3–36 proposed contributing systems. Hub size reflects feeding-system count, not consciousness or moral worth. Mini-dots and local support edges are separate from the shelter census and network transit routes. Both kinds have persistent three-character alphanumeric identifiers in sources/shelter-system-labels.json. Unnamed havens remain available for later naming. Scroll zoom reveals local detail; selecting a haven isolates its support network. Feeder selection and parent navigation are supported. Data and DOM checks pass; no browser visual review is claimed.
+
+## Lightweight view and haven profiles
+
+Show tiny systems defaults off and stores only that display preference locally. Supporting dots, labels, and links are absent from SVG while off; at close zoom they are constructed only for visible havens, capped at 400 systems. Repeated pans over the same selection reuse the existing layer. Profiles retain feeding counts with detail off and show name/code, network, region, and an existing named purpose or explicitly unassigned purpose. Support capacity is a connection-count descriptor (3–7 small, 8–17 moderate, 18–36 extensive), not a resilience, consciousness, or computing-performance score. DOM checks verify removal/re-enable and profile persistence. No measured browser frame-rate improvement is claimed.
