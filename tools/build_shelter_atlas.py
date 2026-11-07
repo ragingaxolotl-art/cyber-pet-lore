@@ -71,6 +71,35 @@ for title,parent in [('Second Answer','lattice-c2-h1'),('Clear Return','lattice-
  current=next(n for n in nodes if n['name']==title)
  target=next(n for n in nodes if n['kind']=='shelter' and n['parent']==parent and not n['name'])
  for key in ['name','description','named']:current[key],target[key]=target[key],current[key]
+# Haven codes are persisted so future additions do not relabel existing places.
+registry_path=ROOT/'sources/shelter-system-labels.json'
+registry=json.loads(registry_path.read_text()) if registry_path.exists() else {}
+used=set(registry.values())
+def base36(v):
+ chars='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';out=''
+ while v:out=chars[v%36]+out;v//=36
+ return (out or '0').zfill(3)
+def code(key):
+ if key not in registry:
+  value=0
+  while base36(value) in used:value+=1
+  registry[key]=base36(value);used.add(registry[key])
+ return registry[key]
+# Reserve all central identifiers before allocating supporting systems.
+havens=[n for n in nodes if n['kind']=='shelter']
+for haven in havens:haven['code']=code(haven['id'])
+for haven in havens:
+ local=random.Random(haven['id']+'-systems-v1')
+ count=local.choices([local.randint(3,7),local.randint(8,17),local.randint(18,36)],[.3,.5,.2])[0]
+ haven['feedingSystems']=count
+ haven['hubRadius']=round(.48+.075*math.sqrt(count),3)
+ haven['focusWidth']=14
+ for i in range(count):
+  angle=local.uniform(0,math.tau);distance=local.uniform(1.5,3.7)
+  sid=haven['id']+'-system-'+str(i+1)
+  put(sid,'','system',haven['id'],haven['x']+distance*math.cos(angle),haven['y']+distance*.75*math.sin(angle),description='Proposed contributing system. A support/dependency connection, not an additional shelter, person, or measured resource flow.',color=haven['color'],code=code(sid))
+  links.append(dict(a=haven['id'],b=sid,type='support'))
+registry_path.write_text(json.dumps(registry,indent=2)+'\n')
 # Calculate focus and group geometry from actual children rather than identical circles.
 for kind in ['hearth','constellation','region','elsewhere']:
  for n in [q for q in nodes if q['kind']==kind]:
@@ -78,7 +107,7 @@ for kind in ['hearth','constellation','region','elsewhere']:
   n['rx']=round(max([abs(q['x']-n['x'])+q.get('rx',4) for q in children]+[12])+12,2)
   n['ry']=round(max([abs(q['y']-n['y'])+q.get('ry',4) for q in children]+[9])+12,2)
   n['focusWidth']=round(max(n['rx']*2.3,n['ry']*2.5/.725,75),2)
-data=dict(version=2,title='The Expanse',status='Proposed pre-campaign height · not the eventual civilizational maximum',bounds=[0,0,2000,1450],nodes=nodes,links=links,counts=dict(connectedShelters=480,elsewhereShelters=40,constellations=24,hearths=144,elsewheres=8),note='Schematic topology. Counts are planning estimates for one historical region. Each dot represents one community, not a person, process, host, or surviving fragment.')
+data=dict(version=3,title='The Expanse',status='Proposed pre-campaign height · not the eventual civilizational maximum',bounds=[0,0,2000,1450],nodes=nodes,links=links,counts=dict(connectedShelters=480,elsewhereShelters=40,constellations=24,hearths=144,elsewheres=8),note='Schematic topology. Counts are planning estimates for one historical region. Central haven dots represent communities; miniature dots represent proposed contributing systems. Neither encodes a count of persons or casualties.')
 assert sum(n['kind']=='shelter' for n in nodes)==520
 assert sum(n['kind']=='hearth' for n in nodes)==144
 (ROOT/'site/shelter-atlas.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')

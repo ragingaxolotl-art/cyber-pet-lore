@@ -17,3 +17,7 @@ Final validation: 153/153 archive tests passed. A separate DOM harness passed in
 ## Uneven cluster revision
 
 Replaced equal subdivisions, circular rings, the region grid, and the identical Elsewhere row with weighted population allocations, irregular cores and satellites, and variable group extents. Hearths can be uninhabited; Elsewheres contain 13, 9, 6, 4, 3, 2, 2, and 1 communities. The 520/24/144/8 totals and named shelter descriptions remain consistent. Focus fits the actual group extent. Census and DOM interaction checks pass; browser visual review remains unavailable.
+
+## Haven support detail
+
+At close zoom, each of the 520 existing shelters is displayed as a central haven with 3–36 proposed contributing systems. Hub size reflects feeding-system count, not consciousness or moral worth. Mini-dots and local support edges are separate from the shelter census and network transit routes. Both kinds have persistent three-character alphanumeric identifiers in sources/shelter-system-labels.json. Unnamed havens remain available for later naming. Scroll zoom reveals local detail; selecting a haven isolates its support network. Feeder selection and parent navigation are supported. Data and DOM checks pass; no browser visual review is claimed.
