@@ -41,3 +41,7 @@ Layer opacity ranges from 0–100% and is stored in version-4 recipes, undo/redo
 ## Newly generated collection expansion
 
 26 new PixelLab Pro components add two new constructions to each of the thirteen style collections. These are new generated PNGs, not recolors or assembled remixes. Source prompts, job IDs and hashes are in newcraft-provenance.json. The two organza streamers support layer opacity and start at 55%. Existing components and presets remain available.
+
+## Component types and orbiting accents
+
+8 new PixelLab Pro assets add two rosettes, two gemstone cuts, two studs and two settings. Source prompts, job IDs and hashes are in typecraft-provenance.json. Existing components and presets remain available.

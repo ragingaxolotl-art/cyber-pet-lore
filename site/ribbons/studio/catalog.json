@@ -80075,6 +80075,294 @@
         "fabric"
       ],
       "collection": "Gilded dragonfly garden"
+    },
+    {
+      "id": "typecraft-belle-poque-couture-honeycomb-rosette",
+      "name": "Belle \u00c9poque couture \u00b7 honeycomb rosette",
+      "kind": "rosette",
+      "file": "parts/typecraft/typecraft-belle-poque-couture-honeycomb-rosette.png",
+      "bounds": [
+        4,
+        5,
+        188,
+        188
+      ],
+      "width": 211,
+      "height": 210,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "48e25d777d00a9a7bec1bea7d2df43ffb53308f2652eff8d0fa763ff66b37bce",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "d7f132d4-8cc5-4cb0-a5e9-cd7cb25c60e2",
+        "url": "https://api.pixellab.ai/mcp/images/d7f132d4-8cc5-4cb0-a5e9-cd7cb25c60e2/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "typecraft",
+        "belle-poque-couture",
+        "honeycomb-rosette"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Belle \u00c9poque couture"
+    },
+    {
+      "id": "typecraft-deep-sea-ocean-anemone-rosette",
+      "name": "Deep sea ocean \u00b7 anemone rosette",
+      "kind": "rosette",
+      "file": "parts/typecraft/typecraft-deep-sea-ocean-anemone-rosette.png",
+      "bounds": [
+        2,
+        2,
+        189,
+        189
+      ],
+      "width": 210,
+      "height": 210,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "50a0ce1789597fa9029909b06b74488e158b64c3173e458eb49d62081f7195e9",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "6910c99a-d95f-4458-993a-226e231d0c20",
+        "url": "https://api.pixellab.ai/mcp/images/6910c99a-d95f-4458-993a-226e231d0c20/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "typecraft",
+        "deep-sea-ocean",
+        "anemone-rosette"
+      ],
+      "materials": [
+        "fabric"
+      ],
+      "collection": "Deep sea ocean"
+    },
+    {
+      "id": "typecraft-art-deco-stud-baguette-gem",
+      "name": "Art Deco stud \u00b7 baguette gem",
+      "kind": "medal",
+      "file": "parts/typecraft/typecraft-art-deco-stud-baguette-gem.png",
+      "bounds": [
+        10,
+        6,
+        182,
+        186
+      ],
+      "width": 153,
+      "height": 160,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "94e8bb1cce1ca34e4ccedb4195992227b02177a90e39224bf0ee966ff5e0732a",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "069b0c0c-9993-434e-8a84-efa68f65ac97",
+        "url": "https://api.pixellab.ai/mcp/images/069b0c0c-9993-434e-8a84-efa68f65ac97/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "typecraft",
+        "art-deco-stud",
+        "baguette-gem"
+      ],
+      "materials": [
+        "gem"
+      ],
+      "collection": "Art Deco stud"
+    },
+    {
+      "id": "typecraft-aurora-glasswork-kite-gem",
+      "name": "Aurora glasswork \u00b7 kite gem",
+      "kind": "medal",
+      "file": "parts/typecraft/typecraft-aurora-glasswork-kite-gem.png",
+      "bounds": [
+        40,
+        16,
+        152,
+        178
+      ],
+      "width": 111,
+      "height": 160,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "61b9e4cf42dc833db7b55f96175c51b68bbd419e1f210cff970c500f6b3c587f",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "9c89959f-5b79-4e6a-89be-1f6c5da628db",
+        "url": "https://api.pixellab.ai/mcp/images/9c89959f-5b79-4e6a-89be-1f6c5da628db/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "typecraft",
+        "aurora-glasswork",
+        "kite-gem"
+      ],
+      "materials": [
+        "gem"
+      ],
+      "collection": "Aurora glasswork"
+    },
+    {
+      "id": "typecraft-gothic-architectural-hammered-quatrefoil-stud",
+      "name": "Gothic architectural \u00b7 hammered quatrefoil stud",
+      "kind": "accent",
+      "file": "parts/typecraft/typecraft-gothic-architectural-hammered-quatrefoil-stud.png",
+      "bounds": [
+        7,
+        8,
+        185,
+        186
+      ],
+      "width": 110,
+      "height": 110,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "5f44d88f720d59af597ed2274c2ba259121b8503217437a7f0f6245548511d11",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "25b8dc62-5f9b-445f-9d51-15584c264cb8",
+        "url": "https://api.pixellab.ai/mcp/images/25b8dc62-5f9b-445f-9d51-15584c264cb8/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "typecraft",
+        "gothic-architectural",
+        "hammered-quatrefoil-stud"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Gothic architectural"
+    },
+    {
+      "id": "typecraft-river-ripple-stud",
+      "name": "River \u00b7 ripple stud",
+      "kind": "accent",
+      "file": "parts/typecraft/typecraft-river-ripple-stud.png",
+      "bounds": [
+        10,
+        13,
+        182,
+        174
+      ],
+      "width": 118,
+      "height": 110,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "331228717b3ad36d54414082509a58db0905c0505666b355b456aa1f38e26e9f",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "7aa64790-d80c-4181-a275-b8ca90d511ad",
+        "url": "https://api.pixellab.ai/mcp/images/7aa64790-d80c-4181-a275-b8ca90d511ad/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "typecraft",
+        "river",
+        "ripple-stud"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "River"
+    },
+    {
+      "id": "typecraft-baroque-court-regalia-sunburst-setting",
+      "name": "Baroque court regalia \u00b7 sunburst setting",
+      "kind": "medal",
+      "file": "parts/typecraft/typecraft-baroque-court-regalia-sunburst-setting.png",
+      "bounds": [
+        4,
+        2,
+        188,
+        190
+      ],
+      "width": 157,
+      "height": 160,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "3fbc4442e0d35fb6b475d06718249aca3d340a219c185263b84437925171939c",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "1b1349d2-a1b3-4bbf-8da3-07d8cf568114",
+        "url": "https://api.pixellab.ai/mcp/images/1b1349d2-a1b3-4bbf-8da3-07d8cf568114/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "typecraft",
+        "baroque-court-regalia",
+        "sunburst-setting"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Baroque court regalia"
+    },
+    {
+      "id": "typecraft-industrial-service-insignia-enamel-shield-setting",
+      "name": "Industrial service insignia \u00b7 enamel shield setting",
+      "kind": "medal",
+      "file": "parts/typecraft/typecraft-industrial-service-insignia-enamel-shield-setting.png",
+      "bounds": [
+        26,
+        17,
+        166,
+        170
+      ],
+      "width": 146,
+      "height": 160,
+      "x": 256,
+      "y": 115,
+      "original_size": [
+        192,
+        192
+      ],
+      "sha256": "f7d7148eebf10bc021782fe61704219348642997c2842440a894ff4258e6d9dd",
+      "source": {
+        "generator": "PixelLab Pro",
+        "job_id": "f2c63413-1414-474d-9f80-e01128c42adc",
+        "url": "https://api.pixellab.ai/mcp/images/f2c63413-1414-474d-9f80-e01128c42adc/download",
+        "thread": "2026-11-06 new components, not remixes"
+      },
+      "tags": [
+        "typecraft",
+        "industrial-service-insignia",
+        "enamel-shield-setting"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "collection": "Industrial service insignia"
     }
   ],
   "presets": [
