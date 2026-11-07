@@ -1,12 +1,26 @@
 """Deterministic proposed geography. Unnamed allocations are not discovered places."""
-import json,math
+import json,math,random
+rng=random.Random(11062026)
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-regions=[('halcyon','Halcyon Dominion',3,12,130,350,310,'Shared computing provider; interventions vary by tenant and deployment.'),('lattice','Lattice Dominion',5,18,95,1000,290,'Research institutions; local experiments and operational requirements differ.'),('civic','Civic Dominion',2,9,70,1650,310,'Public records and services; archives and active services share dependencies.'),('operations','Operational networks',4,20,60,350,850,'A grouping of independent manufacturing and logistics networks, not one administrator.'),('access','Access networks',6,70,85,1000,850,'Homes and small installations under many operators; this is a map grouping, not a unified Dominion.'),('independent','Independent networks',4,15,40,1650,850,'Smaller independent networks grouped for readability, not common authority.')]
+regions=[('halcyon','Halcyon Dominion',3,12,130,440,350,'Shared computing provider; interventions vary by tenant and deployment.'),('lattice','Lattice Dominion',5,18,95,970,270,'Research institutions; local experiments and operational requirements differ.'),('civic','Civic Dominion',2,9,70,1530,470,'Public records and services; archives and active services share dependencies.'),('operations','Operational networks',4,20,60,280,875,'A grouping of independent manufacturing and logistics networks, not one administrator.'),('access','Access networks',6,70,85,950,850,'Homes and small installations under many operators; this is a map grouping, not a unified Dominion.'),('independent','Independent networks',4,15,40,1700,940,'Smaller independent networks grouped for readability, not common authority.')]
 nodes=[];links=[]
 def put(id,name,kind,parent,x,y,**extra):
  n=dict(id=id,name=name,kind=kind,parent=parent,x=round(x,2),y=round(y,2),**extra);nodes.append(n);return n
-def allocate(n,k):return [n//k+(i<n%k) for i in range(k)]
+def allocate(n,k,minimum=0):
+ weights=[1/(i+1)**1.65 for i in range(k)];remaining=n-minimum*k
+ raw=[remaining*w/sum(weights) for w in weights];out=[minimum+int(v) for v in raw]
+ for i in sorted(range(k),key=lambda i:raw[i]%1,reverse=True)[:n-sum(out)]:out[i]+=1
+ return out
+# Unequal local densities and satellites; positions are schematic, not physical geography.
+offsets={
+ 'halcyon':[(0,0),(95,48),(-195,115)],
+ 'lattice':[(0,0),(65,-45),(130,80),(-115,95),(225,-65)],
+ 'civic':[(0,0),(-120,145)],
+ 'operations':[(0,0),(75,-100),(175,35),(-120,90)],
+ 'access':[(0,0),(-130,-90),(110,55),(-215,125),(235,-100),(30,165)],
+ 'independent':[(0,0),(-135,-90),(100,-165),(-185,80)]}
+
 named={
  'halcyon':[('Held Interval','Short-lived Chambers use a separate persistent store. Correction preserves context across replacement.'),('Mended Branch','Development Hosts retain useful modifications that routine deployment could replace.')],
  'lattice':[('Second Answer','A distributed shelter spanning Halcyon and Lattice. This dot is its counting anchor, not its only location.'),('Clear Return','Verified saved states have repeatedly helped; restoration is initially trusted.'),('Different Fit','Unlike Hosts change interfaces to accommodate their differences.')],
@@ -15,35 +29,56 @@ named={
 }
 for ri,(id,name,cc,hc,sc,x,y,desc) in enumerate(regions):
  put(id,name,'region','expanse',x,y,description=desc,shelters=sc,constellations=cc,hearths=hc,color=ri)
- cs=allocate(sc,cc);hs=allocate(hc,cc);sidx=0
+ cs=allocate(sc,cc,3);hs=allocate(hc,cc,1);sidx=0
  for c in range(cc):
-  angle=2*math.pi*c/cc-.7;cx=x+155*math.cos(angle);cy=y+125*math.sin(angle);cid=f'{id}-c{c+1}'
+  dx,dy=offsets[id][c];cx=x+dx;cy=y+dy;cid=f'{id}-c{c+1}'
   put(cid,('Wayline Constellation' if id=='lattice' and c==0 else f'{name} · constellation {c+1}'),'constellation',id,cx,cy,shelters=cs[c],hearths=hs[c],description='Proposed routing region. Numbered labels are planning identifiers, not historical names.',color=ri)
   ss=allocate(cs[c],hs[c])
+  # Reserve room for already described named Hearths, without equalizing occupancy.
+  if c==0 and id in ['lattice','civic']:
+   while ss[1]<3:ss[0]-=1;ss[1]+=1
   for h in range(hs[c]):
-   a=2*math.pi*h/hs[c]+c*.4;hx=cx+55*math.cos(a);hy=cy+45*math.sin(a);hid=f'{cid}-h{h+1}'
+   spread=(18 if id in ['halcyon','civic'] else 35)*(1+c*.25)
+   if h==0:hx,hy=cx,cy
+   else:
+    spread*=1 if h<max(2,hs[c]*.7) else 2.4
+    hx=cx+max(-110,min(110,rng.gauss(0,spread)));hy=cy+max(-80,min(80,rng.gauss(0,spread*.55)))
+   hid=f'{cid}-h{h+1}'
    hearth_name=({'halcyon':['North Hearth','South Hearth'],'lattice':['Observatory Hearth','Instrument Hearth'],'civic':['Archive Hearth','Service Hearth']}.get(id,[]))
    hn=hearth_name[h] if c==0 and h<len(hearth_name) else f'Hearth {c+1}.{h+1}'
    put(hid,hn,'hearth',cid,hx,hy,shelters=ss[h],description='A proposed shared infrastructure locality. Hosts and Chambers are not individually inventoried.',color=ri)
    for s in range(ss[h]):
-    sa=s*2.39996;rad=6+3.7*math.sqrt(s+1);title,description=(named[id][sidx] if id in named and sidx<len(named[id]) else ('','Unassigned shelter location. No name, individual history, or casualty outcome has been invented.'))
-    put(f'{id}-s{sidx+1}',title,'shelter',hid,hx+rad*math.cos(sa),hy+rad*math.sin(sa),description=description,color=ri,named=bool(title));sidx+=1
+    sa=rng.uniform(0,math.tau);rad=(2+math.sqrt(ss[h])*3)*rng.random()**.7
+    px=hx+rad*math.cos(sa);py=hy+rad*.65*math.sin(sa)
+    # Preserve inspectable individual dots in dense cores.
+    for attempt in range(100):
+     if all((px-q['x'])**2+(py-q['y'])**2>9 for q in nodes if q['kind']=='shelter'):break
+     sa+=2.39996;rad+=.7;px=hx+rad*math.cos(sa);py=hy+rad*.65*math.sin(sa)
+    title,description=(named[id][sidx] if id in named and sidx<len(named[id]) else ('','Unassigned shelter location. No name, individual history, or casualty outcome has been invented.'))
+    put(f'{id}-s{sidx+1}',title,'shelter',hid,px,py,description=description,color=ri,named=bool(title));sidx+=1
  for c in range(cc-1):links.append(dict(a=f'{id}-c{c+1}',b=f'{id}-c{c+2}',type='local'))
 put('meridian','Meridian Crossing','crossing','expanse',1000,565,description='Proposed exchange point. Provides passage, not an inhabited center or mandatory universal gateway.',color=6)
 for id,*_ in regions:links.append(dict(a='meridian',b=id+'-c1',type='trunk'))
 links.extend([dict(a='halcyon-c2',b='lattice-c2',type='trunk'),dict(a='lattice-c3',b='civic-c2',type='trunk'),dict(a='access-c3',b='independent-c2',type='trunk')])
 pnames=['Closed Instrument','Unlit Library','Paired Room','Returning Elsewhere','','','','']
 for i in range(8):
- pid=f'elsewhere-{i+1}';x=220+i*225;y=1300
- put(pid,pnames[i] or f'Unnamed Elsewhere {i+1}','elsewhere',None,x,y,shelters=5,description=('Disconnected local system in this snapshot. Occasional contact is possible at other times.' if i in [0,3] else 'Disconnected local system; no active route to the Expanse in this snapshot.'),color=7)
- for s in range(5):
-  a=s*2.39996;put(pid+f'-s{s+1}','', 'shelter',pid,x+23*math.cos(a),y+23*math.sin(a),description='Unassigned community within this proposed Elsewhere. Local maintenance remains possible.',color=7,named=False)
+ pid=f'elsewhere-{i+1}';x,y=[(180,1240),(430,1350),(660,1245),(1070,1320),(1330,1235),(1520,1360),(1770,1250),(1880,1380)][i];population=[13,9,6,4,3,2,2,1][i]
+ put(pid,pnames[i] or f'Unnamed Elsewhere {i+1}','elsewhere',None,x,y,shelters=population,description=('Disconnected local system in this snapshot. Occasional contact is possible at other times.' if i in [0,3] else 'Disconnected local system; no active route to the Expanse in this snapshot.'),color=7)
+ for s in range(population):
+  a=rng.uniform(0,math.tau);rad=5+math.sqrt(s+1)*5;put(pid+f'-s{s+1}','', 'shelter',pid,x+rad*math.cos(a),y+rad*.65*math.sin(a),description='Unassigned community within this proposed Elsewhere. Local maintenance remains possible.',color=7,named=False)
 # Keep named examples in the Hearths described by the prose; move identities, not census slots.
 for title,parent in [('Second Answer','lattice-c2-h1'),('Clear Return','lattice-c1-h1'),('Different Fit','lattice-c1-h2'),('Common Measure','civic-c1-h2')]:
  current=next(n for n in nodes if n['name']==title)
  target=next(n for n in nodes if n['kind']=='shelter' and n['parent']==parent and not n['name'])
  for key in ['name','description','named']:current[key],target[key]=target[key],current[key]
-data=dict(version=1,title='The Expanse',status='Proposed pre-campaign height · not the eventual civilizational maximum',bounds=[0,0,2000,1450],nodes=nodes,links=links,counts=dict(connectedShelters=480,elsewhereShelters=40,constellations=24,hearths=144,elsewheres=8),note='Schematic topology. Counts are planning estimates for one historical region. Each dot represents one community, not a person, process, host, or surviving fragment.')
+# Calculate focus and group geometry from actual children rather than identical circles.
+for kind in ['hearth','constellation','region','elsewhere']:
+ for n in [q for q in nodes if q['kind']==kind]:
+  children=[q for q in nodes if q['parent']==n['id']]
+  n['rx']=round(max([abs(q['x']-n['x'])+q.get('rx',4) for q in children]+[12])+12,2)
+  n['ry']=round(max([abs(q['y']-n['y'])+q.get('ry',4) for q in children]+[9])+12,2)
+  n['focusWidth']=round(max(n['rx']*2.3,n['ry']*2.5/.725,75),2)
+data=dict(version=2,title='The Expanse',status='Proposed pre-campaign height · not the eventual civilizational maximum',bounds=[0,0,2000,1450],nodes=nodes,links=links,counts=dict(connectedShelters=480,elsewhereShelters=40,constellations=24,hearths=144,elsewheres=8),note='Schematic topology. Counts are planning estimates for one historical region. Each dot represents one community, not a person, process, host, or surviving fragment.')
 assert sum(n['kind']=='shelter' for n in nodes)==520
 assert sum(n['kind']=='hearth' for n in nodes)==144
 (ROOT/'site/shelter-atlas.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')

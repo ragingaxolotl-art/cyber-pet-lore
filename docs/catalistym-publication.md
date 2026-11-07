@@ -13,3 +13,7 @@ Implementation: `sources/catalistym.json`; additive catalog/wiki integration thr
 Validation includes cohort conservation, hierarchy counts, parent references, disconnected Elsewheres, stable IDs, linked reading existence, and absence of inserted Catalistym blocks in story prose. Additional DOM execution exercises map controls. Browser visual review was unavailable because local browser control was disabled; no browser-render verification is claimed.
 
 Final validation: 153/153 archive tests passed. A separate DOM harness passed initial map loading, all 520 shelter marks, named-place navigation, deep links, parent navigation, zoom, reset, route toggle, drag, pinch, and cluster selection. A baseline comparison preserved 26,662 existing Story/Draft/People/Timeline block texts and IDs. Local HTTP delivery of atlas data was checked. Existing named lore locations with unestablished placement are linked separately rather than assigned speculative coordinates.
+
+## Uneven cluster revision
+
+Replaced equal subdivisions, circular rings, the region grid, and the identical Elsewhere row with weighted population allocations, irregular cores and satellites, and variable group extents. Hearths can be uninhabited; Elsewheres contain 13, 9, 6, 4, 3, 2, 2, and 1 communities. The 520/24/144/8 totals and named shelter descriptions remain consistent. Focus fits the actual group extent. Census and DOM interaction checks pass; browser visual review remains unavailable.
