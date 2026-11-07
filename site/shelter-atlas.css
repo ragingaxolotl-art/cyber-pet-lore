@@ -16,3 +16,5 @@
 .timeline-dock input{min-height:36px;touch-action:pan-y}
 .map-surface text{fill:#fff}
 @media(max-width:850px){.timeline-dock{padding:.65rem .75rem}.time-input{gap:.6rem}.atlas-time{margin-top:.75rem}}
+
+#detail-dossier:not([hidden]){display:block;padding:.7rem .9rem;margin:.65rem 0;border:1px solid #587585;border-radius:7px;font-weight:700}#detail-dossier[hidden]{display:none}

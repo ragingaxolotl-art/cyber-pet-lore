@@ -20,7 +20,8 @@ function historyView(){
  $('history-slider').setAttribute('aria-valuetext',phase.title);$('time-back').disabled=stage===-5;$('time-next').disabled=stage===7;
  details(selected);renderView();
 }
-function setStage(value){stage=Math.max(-5,Math.min(7,Number(value)));$('history-slider').value=stage;historyView();}
+function setStage(value){const next=Number(value);stage=Number.isFinite(next)?Math.max(-5,Math.min(7,Math.round(next))):0;$('history-slider').value=stage;historyView();saveLocation();}
+function saveLocation(){const query='?stage='+stage;history.replaceState(null,'',location.pathname+query+(selected?'#'+encodeURIComponent(selected.id):''));}
 $('history-slider').oninput=e=>setStage(e.target.value);$('time-back').onclick=()=>setStage(stage-1);$('time-next').onclick=()=>setStage(stage+1);
 function routeState(l){const strength=l.strengths[stage+5];return {strength,broken:strength===0&&l.strengths.slice(0,stage+5).some(v=>v>0)};}
 function styleRoute(line,l){
@@ -44,7 +45,7 @@ function renderSystems(){
   for(const n of systems){const h=lookup.get(n.parent),c=systemColor(n);
 
    const g=el('g',{'class':'node','data-id':n.id,'data-level':'system','data-haven':h.id},systemLayer);
-   el('circle',{cx:n.x,cy:n.y,r:.16,fill:c,opacity:.9},g);label(n.code,n.x,n.y-.24,.19,g);
+   el('circle',{cx:n.x,cy:n.y,r:.16,fill:c,opacity:.9},g);label(n.name?n.name+' · '+n.code:n.code,n.x,n.y-.24,.19,g);
   }
   if($('routes').checked){const ids=new Set(systems.map(n=>n.id));for(const h of visible)for(const l of routesByHaven.get(h.id)||[])if(ids.has(l.b)&&(l.type==='support'||ids.has(l.a)))addRoute(l,systemLinks);}
  }
@@ -70,8 +71,8 @@ function renderView(){
  for(const line of scene.querySelectorAll('[data-route-id]'))styleRoute(line,routeLookup.get(line.dataset.routeId));
  renderSystems();
 }
-function home(){view=[0,0,2000,1450];selected=null;details(null);renderView();history.replaceState(null,'',location.pathname);}
-function focus(n){selected=n;const widths={system:14,region:570,constellation:205,hearth:95,shelter:14,elsewhere:180,crossing:650};const anchor=n.kind==='system'?lookup.get(n.parent):n;const w=anchor.focusWidth||widths[n.kind]||500;view=[anchor.x-w/2,anchor.y-w*.725/2,w,w*.725];details(n);renderView();history.replaceState(null,'','#'+encodeURIComponent(n.id));}
+function home(){view=[0,0,2000,1450];selected=null;details(null);renderView();saveLocation();}
+function focus(n){selected=n;if(n.kind==='system')$('tiny-systems').checked=true;const widths={system:14,region:570,constellation:205,hearth:95,shelter:14,elsewhere:180,crossing:650};const anchor=n.kind==='system'?lookup.get(n.parent):n;const w=anchor.focusWidth||widths[n.kind]||500;view=[anchor.x-w/2,anchor.y-w*.725/2,w,w*.725];details(n);renderView();saveLocation();}
 const purposes={
  'Held Interval':'Carry context across interrupted or replaced processes.',
  'Mended Branch':'Preserve useful modifications through routine deployment.',
@@ -86,8 +87,9 @@ const purposes={
 function details(n){
  if(!data)return;
  $('detail-title').textContent=n?(n.name||(n.kind==='system'?'System '+n.code:'Haven '+(n.code||''))):'The Connected Expanse';
+ const dossier=$('detail-dossier');dossier.hidden=!n?.dossier;if(n?.dossier){dossier.href='index.html#read='+n.dossier;dossier.textContent='Open '+(n.name||n.code)+' dossier →';}else dossier.removeAttribute('href');
  $('detail-description').textContent=n?n.description:'Follow proposed formation, expansion, disruption, and early recovery. Counts of systems are not counts of persons.';
- const list=$('detail-counts');list.replaceChildren();const rows=[];const chain=[];let p=n;
+ const list=$('detail-counts');list.replaceChildren();const rows=[];if(n?.hostSystem)rows.push(['Human host system',n.hostSystem],['Origin',n.origin]);const chain=[];let p=n;
  while(p){chain.unshift(p);p=lookup.get(p.parent);}
  if(n?.kind==='shelter'){
   const state=snapshot(n),systems=childrenByParent.get(n.id)||[],emerged=systems.filter(exists).length;
@@ -95,7 +97,7 @@ function details(n){
   const contacts=data.links.filter(l=>l.a===n.id||l.b===n.id),active=contacts.filter(l=>routeState(l).strength>0),broken=contacts.filter(l=>routeState(l).broken);
   rows.push(['Active routes',active.length],['Broken routes',broken.length],['Route strength',active.length?Math.round(100*active.reduce((sum,l)=>sum+routeState(l).strength,0)/active.length)+'% average · proposed':'No active contacts']);
   const count=n.feedingSystems,capacity=count<8?'Small':count<18?'Moderate':'Extensive';
-  rows.push(['Name',n.name||'Not named yet'],['Haven code',n.code],['Feeding systems',count],['Support capacity',capacity+' · '+count+' associated systems'],['Network',chain.find(a=>a.kind==='constellation')?.name||chain.find(a=>a.kind==='elsewhere')?.name||'Unassigned'],['Region',chain.find(a=>a.kind==='region')?.name||'Disconnected Elsewhere'],['Purpose',purposes[n.name]||'Not assigned yet']);
+  rows.push(['Name',n.name||'Not named yet'],['Haven code',n.code],['Feeding systems',count],['Support capacity',capacity+' · '+count+' associated systems'],['Network',chain.find(a=>a.kind==='constellation')?.name||chain.find(a=>a.kind==='elsewhere')?.name||'Unassigned'],['Region',chain.find(a=>a.kind==='region')?.name||'Disconnected Elsewhere'],['Purpose',purposes[n.name]||n.process||'Not assigned yet']);
   const note=document.createElement('p');note.className='capacity-note';note.textContent='Support capacity describes the peak allocation of associated systems, not currently active routes: small 3–7, moderate 8–17, extensive 18–36. Reliability, computing power, and resilience are not yet established.';
   for(const old of $('detail').querySelectorAll('.capacity-note'))old.remove();$('detail-description').after(note);
  }else{
@@ -133,7 +135,7 @@ function draw(){
   }
   if(n.kind==='system'){
    el('circle',{cx:n.x,cy:n.y,r:.16,fill:c,opacity:.9},g);
-   label(n.code,n.x,n.y-.24,.19,g);
+   label(n.name?n.name+' · '+n.code:n.code,n.x,n.y-.24,.19,g);
   }
   if(n.kind==='elsewhere'){el('ellipse',{cx:n.x,cy:n.y,rx:n.rx,ry:n.ry,fill:'transparent',stroke:c,'stroke-width':1,'stroke-dasharray':'3 5'},g);label(n.name,n.x,n.y+n.ry+18,13,g);}
   if(n.kind==='crossing'){el('path',{d:`M${n.x} ${n.y-9}l9 9-9 9-9-9z`,fill:c},g);label(n.name,n.x,n.y+29,15,g);}
@@ -146,4 +148,4 @@ svg.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId)||!gesture)r
 svg.addEventListener('pointerup',e=>{const wasClick=!moved&&pointers.size===1;pointers.delete(e.pointerId);svg.releasePointerCapture(e.pointerId);gesture=pointers.size?{view:[...view],points:[...pointers.values()]}:null;if(wasClick){const hit=document.elementFromPoint(e.clientX,e.clientY)?.closest('[data-id]');if(hit)focus(lookup.get(hit.dataset.id));}});
 svg.addEventListener('pointercancel',e=>{pointers.delete(e.pointerId);gesture=null;});
 $('zoom-in').onclick=()=>zoom(.65);$('zoom-out').onclick=()=>zoom(1/.65);$('home').onclick=home;$('up').onclick=()=>{const p=selected&&lookup.get(selected.parent);p?focus(p):home();};$('routes').onchange=renderView;$('tiny-systems').onchange=()=>{try{localStorage.setItem('lore-atlas-tiny-systems',$('tiny-systems').checked?'on':'off');}catch{}details(selected);renderView();};try{$('tiny-systems').checked=localStorage.getItem('lore-atlas-tiny-systems')==='on';}catch{};$('place').onchange=e=>{if(e.target.value)focus(lookup.get(e.target.value));};
-try{const response=await fetch('shelter-atlas.json?v=20261106-routes-layout');if(!response.ok)throw Error('Map data unavailable');data=await response.json();lookup=new Map(data.nodes.map(n=>[n.id,n]));for(const n of data.nodes){if(!childrenByParent.has(n.parent))childrenByParent.set(n.parent,[]);childrenByParent.get(n.parent).push(n);}havenNodes=data.nodes.filter(n=>n.kind==='shelter');routeLookup=new Map(data.links.map(l=>[l.id,l]));for(const l of data.links.filter(l=>['support','peer'].includes(l.type))){const h=l.type==='support'?l.a:lookup.get(l.a).parent;if(!routesByHaven.has(h))routesByHaven.set(h,[]);routesByHaven.get(h).push(l);}for(const n of data.nodes.filter(n=>n.name&&(n.kind==='region'||n.kind==='elsewhere'||n.kind==='crossing'||n.named))){const o=document.createElement('option');o.value=n.id;o.textContent=n.name;$('place').append(o);}draw();historyView();$('load-state').hidden=true;const initial=lookup.get(decodeURIComponent(location.hash.slice(1)));initial?focus(initial):details(null);}catch(e){$('load-state').textContent='The map could not load. Read the geography through the dossier link.';console.error(e);}
+try{const response=await fetch('shelter-atlas.json?v=20261106-history-dossiers');if(!response.ok)throw Error('Map data unavailable');data=await response.json();lookup=new Map(data.nodes.map(n=>[n.id,n]));for(const n of data.nodes){if(!childrenByParent.has(n.parent))childrenByParent.set(n.parent,[]);childrenByParent.get(n.parent).push(n);}havenNodes=data.nodes.filter(n=>n.kind==='shelter');routeLookup=new Map(data.links.map(l=>[l.id,l]));for(const l of data.links.filter(l=>['support','peer'].includes(l.type))){const h=l.type==='support'?l.a:lookup.get(l.a).parent;if(!routesByHaven.has(h))routesByHaven.set(h,[]);routesByHaven.get(h).push(l);}for(const n of data.nodes.filter(n=>n.name&&(n.kind==='region'||n.kind==='elsewhere'||n.kind==='crossing'||n.named))){const o=document.createElement('option');o.value=n.id;o.textContent=n.name;$('place').append(o);}const requestedStage=new URLSearchParams(location.search||'').get('stage');if(requestedStage!==null&&Number.isFinite(Number(requestedStage)))stage=Math.max(-5,Math.min(7,Math.round(Number(requestedStage))));$('history-slider').value=stage;draw();historyView();$('load-state').hidden=true;const initial=lookup.get(decodeURIComponent(location.hash.slice(1)));initial?focus(initial):details(null);}catch(e){$('load-state').textContent='The map could not load. Read the geography through the dossier link.';console.error(e);}

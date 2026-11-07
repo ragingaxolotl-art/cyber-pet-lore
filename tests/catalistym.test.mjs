@@ -33,3 +33,10 @@ test('sparse route histories respect births, losses, isolation and discovery',()
  assert.ok(atlas.links.some(l=>l.strengths.some((v,i)=>i&&v===0&&l.strengths[i-1]>0)));
  assert.ok(atlas.nodes.filter(n=>n.kind==='system').some(n=>!atlas.links.some(l=>(l.a===n.id||l.b===n.id)&&l.strengths.some(v=>v>0))));
 });
+test('selective dossiers resolve both ways without filling the atlas',()=>{
+ const profiles=read('sources/catalistym-atlas-profiles.json').profiles,by=new Map(atlas.nodes.map(n=>[n.id,n]));
+ assert.equal(profiles.length,18);assert.equal(atlas.nodes.filter(n=>n.kind==='shelter'&&n.name).length,12);assert.equal(atlas.nodes.filter(n=>n.kind==='system'&&n.name).length,6);
+ for(const p of profiles){const n=by.get(p.node);assert.equal(n.name,p.name);assert.equal(n.dossier,p.dossier);assert.equal(n.hostSystem,p.hostSystem);assert.ok(catalog.entries.some(e=>e.id===p.dossier));const content=read('site/content/'+p.dossier+'.json');assert.ok(content.blocks.some(b=>b.referenceUrl==='shelter-atlas.html#'+p.node));assert.ok(content.blocks.some(b=>/unresolved|uncertain/i.test(b.text)));}
+ const history=source.entries.find(e=>e.id==='catalistym-history');assert.equal(history.sections.length,18);assert.deepEqual(history.sections.filter(s=>'atlasStage' in s).map(s=>s.atlasStage),Array.from({length:13},(_,i)=>i-5));assert.match(history.sections.at(-1).title,/Charter/);
+ const html=fs.readFileSync(new URL('../site/shelter-atlas.html',import.meta.url),'utf8');assert.match(html,/id="detail-dossier"/);
+});

@@ -78,6 +78,16 @@
       "style": "NORMAL_TEXT"
     },
     {
+      "id": "catalistym-overview-expanded-history",
+      "text": "Expanded historical sequence",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-overview-expanded-history-1",
+      "text": "The new first-Custodians-to-Charter timeline distinguishes damaged processing from intact cooperation. Selective haven and microsystem dossiers elaborate provisional atlas placements while leaving most places unnamed.",
+      "style": "NORMAL_TEXT"
+    },
+    {
       "id": "catalistym-overview-hub",
       "text": "Read the complete Catalistym dossier",
       "style": "NORMAL_TEXT",
@@ -100,6 +110,18 @@
       "text": "Related reading: lore-p00256",
       "style": "NORMAL_TEXT",
       "referenceUrl": "#read=lore-p00256"
+    },
+    {
+      "id": "catalistym-overview-ref-catalistym-history",
+      "text": "Related reading: catalistym-history",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-history"
+    },
+    {
+      "id": "catalistym-overview-ref-catalistym-fragmented-processing",
+      "text": "Related reading: catalistym-fragmented-processing",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-fragmented-processing"
     }
   ],
   "outline": [
@@ -121,6 +143,11 @@
     {
       "id": "catalistym-overview-arc",
       "title": "The working historical arc",
+      "level": 2
+    },
+    {
+      "id": "catalistym-overview-expanded-history",
+      "title": "Expanded historical sequence",
       "level": 2
     }
   ]

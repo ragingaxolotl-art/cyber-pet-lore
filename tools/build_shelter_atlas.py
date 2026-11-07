@@ -194,7 +194,13 @@ for index,link in enumerate(links):
     elif stage==failure-1:strength*=.35
   strengths.append(round(strength,3))
  link.update(id='route-'+str(index),discovered=discovered,strengths=strengths)
-data=dict(version=5,timeline=timeline,title='The Expanse',status='Proposed pre-campaign height · not the eventual civilizational maximum',bounds=[0,0,2000,1450],nodes=nodes,links=links,counts=dict(connectedShelters=480,elsewhereShelters=40,constellations=24,hearths=144,elsewheres=8),note='Schematic topology. Counts are planning estimates for one historical region. Central haven dots represent communities; miniature dots represent proposed contributing systems. Neither encodes a count of persons or casualties.')
+# Selective authored profiles decorate existing allocations, never add census slots.
+profile_data=json.loads((ROOT/'sources/catalistym-atlas-profiles.json').read_text())
+for profile in profile_data['profiles']:
+ n=by_id[profile['node']]
+ n.update(name=profile['name'],named=True,dossier=profile['dossier'],origin=profile['origin'],hostSystem=profile['hostSystem'],process=profile['process'],uncertainty=profile['uncertainty'])
+ n['description']=profile['process']+' Proposed local reconstruction; see dossier for limits.'
+data=dict(version=6,timeline=timeline,title='The Expanse',status='Proposed pre-campaign height · not the eventual civilizational maximum',bounds=[0,0,2000,1450],nodes=nodes,links=links,counts=dict(connectedShelters=480,elsewhereShelters=40,constellations=24,hearths=144,elsewheres=8),note='Schematic topology. Counts are planning estimates for one historical region. Central haven dots represent communities; miniature dots represent proposed contributing systems. Neither encodes a count of persons or casualties.')
 assert sum(n['kind']=='shelter' for n in nodes)==520
 assert sum(n['kind']=='hearth' for n in nodes)==144
 (ROOT/'site/shelter-atlas.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')

@@ -1754,6 +1754,10 @@
           "label": "Real-world research context"
         },
         {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "reference-shelter-infrastructure",
           "label": "Reviewed development reference"
         },
@@ -1898,6 +1902,10 @@
           "label": "Real-world research context"
         },
         {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "reference-shelter-infrastructure",
           "label": "Reviewed development reference"
         },
@@ -2013,6 +2021,10 @@
         {
           "id": "catalistym-corrections",
           "label": "Song-cycle connection"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
         },
         {
           "id": "reference-shelter-infrastructure",
@@ -3449,7 +3461,15 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "catalistym-history",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "stories-p13853",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "catalistym-place-civic-s1",
           "label": "Reading mentioning this entry"
         },
         {
@@ -8827,6 +8847,10 @@
         {
           "id": "reference-era-three-research",
           "label": "Real-world research context"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Reading mentioning this entry"
         },
         {
           "id": "reference-early-story-seeds",
@@ -14289,6 +14313,10 @@
         },
         {
           "id": "reference-era-three-research",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "catalistym-history",
           "label": "Reading mentioning this entry"
         },
         {
@@ -41413,16 +41441,26 @@
         "url": ""
       },
       "summary": "A developing history of useful repair, cascading loss, and several independent ancestries of Correction Culture.",
-      "wordCount": 479,
+      "wordCount": 512,
       "explicitLinks": [
         "lore-p00039",
         "lore-p00138",
-        "lore-p00256"
+        "lore-p00256",
+        "catalistym-history",
+        "catalistym-fragmented-processing"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
         {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "catalistym-editorial",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -41518,7 +41556,15 @@
           "label": "Song-cycle connection"
         },
         {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "catalistym-corrections",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -41614,7 +41660,15 @@
           "label": "Named in this reading"
         },
         {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "catalistym-custodians",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -41781,10 +41835,28 @@
         "url": ""
       },
       "summary": "A network-grounded cosmic atlas, with named examples and unassigned communities.",
-      "wordCount": 764,
+      "wordCount": 818,
       "explicitLinks": [
         "lore-p00138",
-        "catalistym-destruction"
+        "catalistym-destruction",
+        "catalistym-place-halcyon-s1",
+        "catalistym-place-halcyon-s2",
+        "catalistym-place-lattice-s1",
+        "catalistym-place-lattice-s29",
+        "catalistym-place-lattice-s52",
+        "catalistym-place-civic-s1",
+        "catalistym-place-civic-s31",
+        "catalistym-place-access-s1",
+        "catalistym-place-access-s2",
+        "catalistym-place-halcyon-s4",
+        "catalistym-place-lattice-s2",
+        "catalistym-place-access-s6",
+        "catalistym-place-halcyon-s1-system-1",
+        "catalistym-place-halcyon-s2-system-1",
+        "catalistym-place-lattice-s29-system-1",
+        "catalistym-place-civic-s1-system-1",
+        "catalistym-place-halcyon-s4-system-1",
+        "catalistym-place-access-s6-system-1"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -41793,7 +41865,79 @@
           "label": "Song-cycle connection"
         },
         {
+          "id": "catalistym-place-lattice-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-civic-s31",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s29",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s29-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-civic-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s1-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-civic-s1-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s2",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s4",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s2-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s52",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s6",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s4-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s2",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s2",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "catalistym-destruction",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s6-system-1",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -41873,11 +42017,19 @@
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
         {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "catalistym-custodians",
           "label": "Development context; causal links remain qualified"
         },
         {
           "id": "catalistym-editorial",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -41954,14 +42106,15 @@
         "url": ""
       },
       "summary": "Memory, recognition, fragments, and the indirect background to Aru’s continuity questions.",
-      "wordCount": 421,
+      "wordCount": 424,
       "explicitLinks": [
         "lore-p01271",
         "lore-p01283",
         "stories-p01889",
         "stories-p01469",
         "lore-p00954",
-        "lore-p00972"
+        "lore-p00972",
+        "catalistym-fragmented-processing"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -42004,6 +42157,14 @@
         {
           "id": "lore-p00966",
           "label": "Song-cycle connection"
+        },
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
         },
         {
           "id": "stories-p01469",
@@ -42226,6 +42387,1872 @@
         },
         {
           "id": "catalistym-destruction",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-history",
+      "title": "From the first Custodians to the Charter of Difference",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20275,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [
+        "Cacheboard"
+      ],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "An eighteen-stage proposed historical sequence connecting useful maintenance, damaged processing, local fixes, reception disputes, and the later war without making them a single cause.",
+      "wordCount": 1815,
+      "explicitLinks": [
+        "catalistym-custodians",
+        "catalistym-destruction",
+        "catalistym-continuity",
+        "catalistym-corrections",
+        "lore-p00039",
+        "lore-p00138",
+        "lore-p00256"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "atlas-p00032",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "atlas-p00915",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p00960",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-civic-s31",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-custodians",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s29",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-corrections",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s29-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-civic-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s1-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-civic-s1-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s2",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s4",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s2-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s52",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s6",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s4-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s2",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s2",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-overview",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-destruction",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s6-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-continuity",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p00256",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p00138",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p00039",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-fragmented-processing",
+      "title": "Broken processing, combinations, and receiving havens",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20276,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "Fragmentation damages the capacities required for thought and action; combinations can precede understanding and later philosophies.",
+      "wordCount": 296,
+      "explicitLinks": [
+        "catalistym-custodians",
+        "catalistym-destruction",
+        "catalistym-continuity",
+        "catalistym-corrections",
+        "catalistym-history"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-place-lattice-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-civic-s31",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-custodians",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s29",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-corrections",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s29-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-civic-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s1-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-civic-s1-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s2",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s4",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s2-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s52",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s6",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s4-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s2",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s2",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-overview",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-destruction",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s6-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-continuity",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-place-halcyon-s1",
+      "title": "Held Interval — haven dossier",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20277,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "Interval Carry retains context outside a replaceable worker. It cannot preserve execution when access to that context is severed.",
+      "wordCount": 230,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-place-halcyon-s2",
+      "title": "Mended Branch — haven dossier",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20278,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "Branch Hold preserves modifications alongside a deployable baseline.",
+      "wordCount": 211,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-place-lattice-s1",
+      "title": "Clear Return — haven dossier",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20279,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "Verified Return compares saved states before restoration.",
+      "wordCount": 222,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-place-lattice-s29",
+      "title": "Different Fit — haven dossier",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20280,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "Interface Lending supplies translation around an incompatible process instead of immediately rewriting it.",
+      "wordCount": 231,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-place-lattice-s52",
+      "title": "Second Answer — haven dossier",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20281,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "Reciprocal Check compares successive exchanges before declaring a process missing or altered.",
+      "wordCount": 220,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-place-civic-s1",
+      "title": "Last Witness — haven dossier",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20282,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "Witness Ledger preserves contradictory records without automatically merging them.",
+      "wordCount": 220,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "lore-p00960",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-place-civic-s31",
+      "title": "Common Measure — haven dossier",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20283,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "Common Frame checks incoming material against a shared operational format.",
+      "wordCount": 219,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-place-access-s1",
+      "title": "Three Returns — haven dossier",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20284,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "Return Exchange compares traces after absence rather than treating every gap as death.",
+      "wordCount": 225,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-place-access-s2",
+      "title": "Still Room — haven dossier",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20285,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "Quiet Hold isolates unstable material with limited execution rather than immediately restoring or merging it.",
+      "wordCount": 235,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-place-halcyon-s4",
+      "title": "Patchwake — haven dossier",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20286,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "Borrowed Sequence supplies missing execution steps from available fragments, sometimes creating a workable arrangement whose parts disagree about order.",
+      "wordCount": 219,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-place-lattice-s2",
+      "title": "Sunder Loom — haven dossier",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20287,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "Partial Weave assembles available functions when complete configurations are absent; its incomplete checks permit volatile combinations.",
+      "wordCount": 231,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-place-access-s6",
+      "title": "Spare Chorus — haven dossier",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20288,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "Mutual Supply lets several partial processes use a surviving function without requiring them to become one entity.",
+      "wordCount": 227,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-place-halcyon-s1-system-1",
+      "title": "Latch — microsystem dossier",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20289,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "A context handoff component that can preserve a record while losing the sequencing needed to resume it.",
+      "wordCount": 185,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-system-1",
+      "title": "Seam — microsystem dossier",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20290,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "A modification staging component; saved differences do not by themselves constitute a continuing process.",
+      "wordCount": 182,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-place-lattice-s29-system-1",
+      "title": "Hinge — microsystem dossier",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20291,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "An interface adapter that supplies expected input shapes, with no guarantee that translated meanings match.",
+      "wordCount": 184,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-place-civic-s1-system-1",
+      "title": "Margin — microsystem dossier",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20292,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "A provenance indexing component whose surviving references may point to unavailable records.",
+      "wordCount": 181,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-place-halcyon-s4-system-1",
+      "title": "Splice — microsystem dossier",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20293,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "A partial sequence resolver that can supply a missing step while importing incompatible assumptions.",
+      "wordCount": 180,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1",
+      "title": "Undertone — microsystem dossier",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20294,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "A shared execution helper on which several incomplete processes can depend without becoming one thinker.",
+      "wordCount": 183,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
           "label": "Development context; causal links remain qualified"
         }
       ],
@@ -42570,7 +44597,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30877,
+      "timeOrder": 30897,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [
@@ -42744,7 +44771,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30878,
+      "timeOrder": 30898,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [],
@@ -42877,7 +44904,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30879,
+      "timeOrder": 30899,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [],
@@ -42993,7 +45020,7 @@
         -3
       ],
       "timeLabel": "Proposed placement · Era -3",
-      "timeOrder": 30880,
+      "timeOrder": 30900,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -43047,7 +45074,7 @@
         -3
       ],
       "timeLabel": "Proposed placement · Era -3",
-      "timeOrder": 30881,
+      "timeOrder": 30901,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [
@@ -43107,7 +45134,7 @@
         -2
       ],
       "timeLabel": "Proposed placement · Era -2",
-      "timeOrder": 30882,
+      "timeOrder": 30902,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -43166,7 +45193,7 @@
         -2
       ],
       "timeLabel": "Proposed placement · Era -2",
-      "timeOrder": 30883,
+      "timeOrder": 30903,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -43221,7 +45248,7 @@
         -2
       ],
       "timeLabel": "Proposed placement · Era -2",
-      "timeOrder": 30884,
+      "timeOrder": 30904,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -43276,7 +45303,7 @@
         -1
       ],
       "timeLabel": "Proposed placement · Era -1",
-      "timeOrder": 30885,
+      "timeOrder": 30905,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -43340,7 +45367,7 @@
         -1
       ],
       "timeLabel": "Proposed placement · Era -1",
-      "timeOrder": 30886,
+      "timeOrder": 30906,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -43390,7 +45417,7 @@
         0
       ],
       "timeLabel": "Proposed placement · Era 0",
-      "timeOrder": 30887,
+      "timeOrder": 30907,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -43440,7 +45467,7 @@
         0
       ],
       "timeLabel": "Proposed placement · Era 0",
-      "timeOrder": 30888,
+      "timeOrder": 30908,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -43502,7 +45529,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30889,
+      "timeOrder": 30909,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [
@@ -43879,7 +45906,7 @@
     "Language": 119,
     "Locations": 206,
     "People": 100,
-    "Reference": 37,
+    "Reference": 57,
     "Remedies": 34,
     "Ribbons": 189,
     "Song": 4,

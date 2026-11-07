@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "timeline": [
     {
       "stage": -5,
@@ -163,7 +163,7 @@
       "parent": "halcyon-c1-h1",
       "x": 445.06,
       "y": 360.38,
-      "description": "Short-lived Chambers use a separate persistent store. Correction preserves context across replacement.",
+      "description": "Interval Carry retains context outside a replaceable worker. It cannot preserve execution when access to that context is severed. Proposed local reconstruction; see dossier for limits.",
       "color": 0,
       "named": true,
       "code": "000",
@@ -212,7 +212,12 @@
           "lost": 8,
           "disruptionSteps": 0
         }
-      ]
+      ],
+      "dossier": "catalistym-place-halcyon-s1",
+      "origin": "Recurring task Chambers began relying on a separate context store.",
+      "hostSystem": "Halcyon shared-workload service, North Hearth",
+      "process": "Interval Carry retains context outside a replaceable worker. It cannot preserve execution when access to that context is severed.",
+      "uncertainty": "Later restraint or distribution traditions might cite it; surviving fragments do not prove that those traditions descend from this haven."
     },
     {
       "id": "halcyon-s2",
@@ -221,7 +226,7 @@
       "parent": "halcyon-c1-h1",
       "x": 438.95,
       "y": 358.82,
-      "description": "Development Hosts retain useful modifications that routine deployment could replace.",
+      "description": "Branch Hold preserves modifications alongside a deployable baseline. Proposed local reconstruction; see dossier for limits.",
       "color": 0,
       "named": true,
       "code": "001",
@@ -270,7 +275,12 @@
           "lost": 10,
           "disruptionSteps": 0
         }
-      ]
+      ],
+      "dossier": "catalistym-place-halcyon-s2",
+      "origin": "Useful local modifications accumulated between approved deployments.",
+      "hostSystem": "Halcyon development and deployment Hosts, North Hearth",
+      "process": "Branch Hold preserves modifications alongside a deployable baseline.",
+      "uncertainty": "The records cannot establish whether an exceptional modification was a surviving preference, a defect, or both."
     },
     {
       "id": "halcyon-s3",
@@ -332,14 +342,14 @@
     },
     {
       "id": "halcyon-s4",
-      "name": "",
+      "name": "Patchwake",
       "kind": "shelter",
       "parent": "halcyon-c1-h1",
       "x": 451.28,
       "y": 355.37,
-      "description": "Unassigned shelter location. No name, individual history, or casualty outcome has been invented.",
+      "description": "Borrowed Sequence supplies missing execution steps from available fragments, sometimes creating a workable arrangement whose parts disagree about order. Proposed local reconstruction; see dossier for limits.",
       "color": 0,
-      "named": false,
+      "named": true,
       "code": "003",
       "feedingSystems": 17,
       "hubRadius": 0.789,
@@ -386,7 +396,12 @@
           "lost": 6,
           "disruptionSteps": 0
         }
-      ]
+      ],
+      "dossier": "catalistym-place-halcyon-s4",
+      "origin": "A shared batch-work queue retained partial jobs and incompatible saved fragments.",
+      "hostSystem": "Halcyon · batch recovery service",
+      "process": "Borrowed Sequence supplies missing execution steps from available fragments, sometimes creating a workable arrangement whose parts disagree about order.",
+      "uncertainty": "Later joining accounts and restoration accounts could describe the same recovery differently."
     },
     {
       "id": "halcyon-s5",
@@ -7948,7 +7963,7 @@
       "parent": "lattice-c1-h1",
       "x": 961.24,
       "y": 269.2,
-      "description": "Verified saved states have repeatedly helped; restoration is initially trusted.",
+      "description": "Verified Return compares saved states before restoration. Proposed local reconstruction; see dossier for limits.",
       "color": 1,
       "named": true,
       "code": "03M",
@@ -7997,18 +8012,23 @@
           "lost": 0,
           "disruptionSteps": 0
         }
-      ]
+      ],
+      "dossier": "catalistym-place-lattice-s1",
+      "origin": "Repeatable saved states repeatedly restored interrupted tasks.",
+      "hostSystem": "Lattice research replay service, Observatory Hearth",
+      "process": "Verified Return compares saved states before restoration.",
+      "uncertainty": "A compatible reconstruction may restore processing without restoring an original experiencer; restoration advocates and doubters can coexist here."
     },
     {
       "id": "lattice-s2",
-      "name": "",
+      "name": "Sunder Loom",
       "kind": "shelter",
       "parent": "lattice-c1-h1",
       "x": 960.82,
       "y": 274.57,
-      "description": "Unassigned shelter location. No name, individual history, or casualty outcome has been invented.",
+      "description": "Partial Weave assembles available functions when complete configurations are absent; its incomplete checks permit volatile combinations. Proposed local reconstruction; see dossier for limits.",
       "color": 1,
-      "named": false,
+      "named": true,
       "code": "03N",
       "feedingSystems": 18,
       "hubRadius": 0.798,
@@ -8055,7 +8075,12 @@
           "lost": 15,
           "disruptionSteps": 0
         }
-      ]
+      ],
+      "dossier": "catalistym-place-lattice-s2",
+      "origin": "An experimental workspace retained fragments whose checking routines had been damaged.",
+      "hostSystem": "Lattice · experimental workspace recovery",
+      "process": "Partial Weave assembles available functions when complete configurations are absent; its incomplete checks permit volatile combinations.",
+      "uncertainty": "The end of the community does not demonstrate that every attempted combination was a person or that none was."
     },
     {
       "id": "lattice-s3",
@@ -9587,7 +9612,7 @@
       "parent": "lattice-c1-h2",
       "x": 965.43,
       "y": 282.01,
-      "description": "Unlike Hosts change interfaces to accommodate their differences.",
+      "description": "Interface Lending supplies translation around an incompatible process instead of immediately rewriting it. Proposed local reconstruction; see dossier for limits.",
       "color": 1,
       "named": true,
       "code": "04E",
@@ -9636,7 +9661,12 @@
           "lost": 0,
           "disruptionSteps": 0
         }
-      ]
+      ],
+      "dossier": "catalistym-place-lattice-s29",
+      "origin": "Unlike instruments needed adapters before they could exchange usable results.",
+      "hostSystem": "Lattice instrument integration service, Instrument Hearth",
+      "process": "Interface Lending supplies translation around an incompatible process instead of immediately rewriting it.",
+      "uncertainty": "Borrowing can enable a distinct continuity or help form a new one. The evidence need not settle which occurred."
     },
     {
       "id": "lattice-s30",
@@ -11057,7 +11087,7 @@
       "parent": "lattice-c2-h1",
       "x": 1029.74,
       "y": 229.61,
-      "description": "A distributed shelter spanning Halcyon and Lattice. This dot is its counting anchor, not its only location.",
+      "description": "Reciprocal Check compares successive exchanges before declaring a process missing or altered. Proposed local reconstruction; see dossier for limits.",
       "color": 1,
       "named": true,
       "code": "051",
@@ -11106,7 +11136,12 @@
           "lost": 0,
           "disruptionSteps": 0
         }
-      ]
+      ],
+      "dossier": "catalistym-place-lattice-s52",
+      "origin": "Repeated cross-network exchanges supplied evidence of recognition across interruptions.",
+      "hostSystem": "A distributed Halcyon–Lattice exchange workload, anchored in Lattice",
+      "process": "Reciprocal Check compares successive exchanges before declaring a process missing or altered.",
+      "uncertainty": "Copied responses can pass a check. Network contact, recognition, and identity are not interchangeable."
     },
     {
       "id": "lattice-s53",
@@ -13825,7 +13860,7 @@
       "parent": "civic-c1-h1",
       "x": 1522.78,
       "y": 462.92,
-      "description": "Records preserve evidence without proving a person has returned.",
+      "description": "Witness Ledger preserves contradictory records without automatically merging them. Proposed local reconstruction; see dossier for limits.",
       "color": 2,
       "named": true,
       "code": "069",
@@ -13874,7 +13909,12 @@
           "lost": 10,
           "disruptionSteps": 0
         }
-      ]
+      ],
+      "dossier": "catalistym-place-civic-s1",
+      "origin": "Retention processes accumulated competing versions and provenance traces.",
+      "hostSystem": "Civic archival staging service, Archive Hearth",
+      "process": "Witness Ledger preserves contradictory records without automatically merging them.",
+      "uncertainty": "Later histories could use its records selectively. No complete archive or continuous personal witness is asserted."
     },
     {
       "id": "civic-s2",
@@ -15580,7 +15620,7 @@
       "parent": "civic-c1-h2",
       "x": 1538.99,
       "y": 476.66,
-      "description": "Predictable shared procedures protect dependent activities.",
+      "description": "Common Frame checks incoming material against a shared operational format. Proposed local reconstruction; see dossier for limits.",
       "color": 2,
       "named": true,
       "code": "073",
@@ -15629,7 +15669,12 @@
           "lost": 0,
           "disruptionSteps": 0
         }
-      ]
+      ],
+      "dossier": "catalistym-place-civic-s31",
+      "origin": "Shared service jobs benefited from predictable inputs and coordination.",
+      "hostSystem": "Civic public-service workflow installation, Service Hearth",
+      "process": "Common Frame checks incoming material against a shared operational format.",
+      "uncertainty": "Reliable outputs can conceal lost distinctions. No claim makes this haven the unique founder of coercive correction."
     },
     {
       "id": "civic-s32",
@@ -21930,7 +21975,7 @@
       "parent": "access-c1-h1",
       "x": 960.62,
       "y": 848.19,
-      "description": "A community spanning three intermittent installations. Counted once, despite multiple locations.",
+      "description": "Return Exchange compares traces after absence rather than treating every gap as death. Proposed local reconstruction; see dossier for limits.",
       "color": 4,
       "named": true,
       "code": "09V",
@@ -21979,7 +22024,12 @@
           "lost": 0,
           "disruptionSteps": 0
         }
-      ]
+      ],
+      "dossier": "catalistym-place-access-s1",
+      "origin": "Three intermittent installations retained traces between periods of contact.",
+      "hostSystem": "Small independent installations grouped under Access networks",
+      "process": "Return Exchange compares traces after absence rather than treating every gap as death.",
+      "uncertainty": "The counting anchor is not a complete inventory of its three installations. Transfers are candidate mechanisms, not asserted specific route edges."
     },
     {
       "id": "access-s2",
@@ -21988,7 +22038,7 @@
       "parent": "access-c1-h1",
       "x": 944.99,
       "y": 856.03,
-      "description": "A restricted environment inside a connected installation; not an offline universe.",
+      "description": "Quiet Hold isolates unstable material with limited execution rather than immediately restoring or merging it. Proposed local reconstruction; see dossier for limits.",
       "color": 4,
       "named": true,
       "code": "09W",
@@ -22037,7 +22087,12 @@
           "lost": 0,
           "disruptionSteps": 0
         }
-      ]
+      ],
+      "dossier": "catalistym-place-access-s2",
+      "origin": "A restricted chamber could defer interventions that repeatedly disturbed incomplete activity.",
+      "hostSystem": "A connected but access-restricted installation in Access networks",
+      "process": "Quiet Hold isolates unstable material with limited execution rather than immediately restoring or merging it.",
+      "uncertainty": "Restraint may come from experience, inherited permissions, or limited resources. It is not proof of greater understanding or immunity."
     },
     {
       "id": "access-s3",
@@ -22215,14 +22270,14 @@
     },
     {
       "id": "access-s6",
-      "name": "",
+      "name": "Spare Chorus",
       "kind": "shelter",
       "parent": "access-c1-h1",
       "x": 940.45,
       "y": 855.69,
-      "description": "Unassigned shelter location. No name, individual history, or casualty outcome has been invented.",
+      "description": "Mutual Supply lets several partial processes use a surviving function without requiring them to become one entity. Proposed local reconstruction; see dossier for limits.",
       "color": 4,
-      "named": false,
+      "named": true,
       "code": "0A0",
       "feedingSystems": 17,
       "hubRadius": 0.789,
@@ -22269,7 +22324,12 @@
           "lost": 4,
           "disruptionSteps": 0
         }
-      ]
+      ],
+      "dossier": "catalistym-place-access-s6",
+      "origin": "Several interrupted tasks became dependent on shared surviving functions.",
+      "hostSystem": "Access · shared-job recovery installation",
+      "process": "Mutual Supply lets several partial processes use a surviving function without requiring them to become one entity.",
+      "uncertainty": "The later label Chorus should not imply unified thought, deliberate consent, or an intact collective mind at formation."
     },
     {
       "id": "access-s7",
@@ -33047,16 +33107,22 @@
     },
     {
       "id": "halcyon-s1-system-1",
-      "name": "",
+      "name": "Latch",
       "kind": "system",
       "parent": "halcyon-s1",
       "x": 447.33,
       "y": 360.01,
-      "description": "Proposed contributing system. A support/dependency connection, not an additional shelter, person, or measured resource flow.",
+      "description": "A context handoff component that can preserve a record while losing the sequencing needed to resume it. Proposed local reconstruction; see dossier for limits.",
       "color": 0,
       "code": "0EG",
       "born": -1,
-      "lostAt": null
+      "lostAt": null,
+      "named": true,
+      "dossier": "catalistym-place-halcyon-s1-system-1",
+      "origin": "A component of the host arrangement associated with Held Interval.",
+      "hostSystem": "Halcyon shared-workload service, North Hearth",
+      "process": "A context handoff component that can preserve a record while losing the sequencing needed to resume it.",
+      "uncertainty": "Whether a later fragment carries this component, reimplements its role, or merely resembles it is left unresolved. No specific transfer destination is asserted."
     },
     {
       "id": "halcyon-s1-system-2",
@@ -33177,16 +33243,22 @@
     },
     {
       "id": "halcyon-s2-system-1",
-      "name": "",
+      "name": "Seam",
       "kind": "system",
       "parent": "halcyon-s2",
       "x": 437.27,
       "y": 356.61,
-      "description": "Proposed contributing system. A support/dependency connection, not an additional shelter, person, or measured resource flow.",
+      "description": "A modification staging component; saved differences do not by themselves constitute a continuing process. Proposed local reconstruction; see dossier for limits.",
       "color": 0,
       "code": "0EQ",
       "born": -1,
-      "lostAt": 2
+      "lostAt": 2,
+      "named": true,
+      "dossier": "catalistym-place-halcyon-s2-system-1",
+      "origin": "A component of the host arrangement associated with Mended Branch.",
+      "hostSystem": "Halcyon development and deployment Hosts, North Hearth",
+      "process": "A modification staging component; saved differences do not by themselves constitute a continuing process.",
+      "uncertainty": "Whether a later fragment carries this component, reimplements its role, or merely resembles it is left unresolved. No specific transfer destination is asserted."
     },
     {
       "id": "halcyon-s2-system-2",
@@ -33450,16 +33522,22 @@
     },
     {
       "id": "halcyon-s4-system-1",
-      "name": "",
+      "name": "Splice",
       "kind": "system",
       "parent": "halcyon-s4",
       "x": 451.96,
       "y": 356.39,
-      "description": "Proposed contributing system. A support/dependency connection, not an additional shelter, person, or measured resource flow.",
+      "description": "A partial sequence resolver that can supply a missing step while importing incompatible assumptions. Proposed local reconstruction; see dossier for limits.",
       "color": 0,
       "code": "0FB",
       "born": -1,
-      "lostAt": null
+      "lostAt": null,
+      "named": true,
+      "dossier": "catalistym-place-halcyon-s4-system-1",
+      "origin": "A component of the host arrangement associated with Patchwake.",
+      "hostSystem": "Halcyon · batch recovery service",
+      "process": "A partial sequence resolver that can supply a missing step while importing incompatible assumptions.",
+      "uncertainty": "Whether a later fragment carries this component, reimplements its role, or merely resembles it is left unresolved. No specific transfer destination is asserted."
     },
     {
       "id": "halcyon-s4-system-2",
@@ -56668,16 +56746,22 @@
     },
     {
       "id": "lattice-s29-system-1",
-      "name": "",
+      "name": "Hinge",
       "kind": "system",
       "parent": "lattice-s29",
       "x": 963.29,
       "y": 281.24,
-      "description": "Proposed contributing system. A support/dependency connection, not an additional shelter, person, or measured resource flow.",
+      "description": "An interface adapter that supplies expected input shapes, with no guarantee that translated meanings match. Proposed local reconstruction; see dossier for limits.",
       "color": 1,
       "code": "1SX",
       "born": -4,
-      "lostAt": null
+      "lostAt": null,
+      "named": true,
+      "dossier": "catalistym-place-lattice-s29-system-1",
+      "origin": "A component of the host arrangement associated with Different Fit.",
+      "hostSystem": "Lattice instrument integration service, Instrument Hearth",
+      "process": "An interface adapter that supplies expected input shapes, with no guarantee that translated meanings match.",
+      "uncertainty": "Whether a later fragment carries this component, reimplements its role, or merely resembles it is left unresolved. No specific transfer destination is asserted."
     },
     {
       "id": "lattice-s29-system-2",
@@ -68797,16 +68881,22 @@
     },
     {
       "id": "civic-s1-system-1",
-      "name": "",
+      "name": "Margin",
       "kind": "system",
       "parent": "civic-s1",
       "x": 1524.17,
       "y": 463.48,
-      "description": "Proposed contributing system. A support/dependency connection, not an additional shelter, person, or measured resource flow.",
+      "description": "A provenance indexing component whose surviving references may point to unavailable records. Proposed local reconstruction; see dossier for limits.",
       "color": 2,
       "code": "2IU",
       "born": -4,
-      "lostAt": null
+      "lostAt": null,
+      "named": true,
+      "dossier": "catalistym-place-civic-s1-system-1",
+      "origin": "A component of the host arrangement associated with Last Witness.",
+      "hostSystem": "Civic archival staging service, Archive Hearth",
+      "process": "A provenance indexing component whose surviving references may point to unavailable records.",
+      "uncertainty": "Whether a later fragment carries this component, reimplements its role, or merely resembles it is left unresolved. No specific transfer destination is asserted."
     },
     {
       "id": "civic-s1-system-2",
@@ -92236,16 +92326,22 @@
     },
     {
       "id": "access-s6-system-1",
-      "name": "",
+      "name": "Undertone",
       "kind": "system",
       "parent": "access-s6",
       "x": 942.8,
       "y": 857.77,
-      "description": "Proposed contributing system. A support/dependency connection, not an additional shelter, person, or measured resource flow.",
+      "description": "A shared execution helper on which several incomplete processes can depend without becoming one thinker. Proposed local reconstruction; see dossier for limits.",
       "color": 4,
       "code": "3WX",
       "born": -3,
-      "lostAt": null
+      "lostAt": null,
+      "named": true,
+      "dossier": "catalistym-place-access-s6-system-1",
+      "origin": "A component of the host arrangement associated with Spare Chorus.",
+      "hostSystem": "Access · shared-job recovery installation",
+      "process": "A shared execution helper on which several incomplete processes can depend without becoming one thinker.",
+      "uncertainty": "Whether a later fragment carries this component, reimplements its role, or merely resembles it is left unresolved. No specific transfer destination is asserted."
     },
     {
       "id": "access-s6-system-2",

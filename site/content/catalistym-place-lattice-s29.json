@@ -1,0 +1,132 @@
+{
+  "id": "catalistym-place-lattice-s29",
+  "blocks": [
+    {
+      "id": "catalistym-place-lattice-s29-title",
+      "text": "Different Fit — haven dossier",
+      "style": "HEADING_1"
+    },
+    {
+      "id": "catalistym-place-lattice-s29-metadata-status",
+      "text": "Author-directed development; proposed chronology and counts · 2026-11-06",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-lattice-s29-atlas-link",
+      "text": "Explore the interactive shelter atlas",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html"
+    },
+    {
+      "id": "catalistym-place-lattice-s29-mapped-place",
+      "text": "Locate this haven or microsystem in the atlas →",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html#lattice-s29"
+    },
+    {
+      "id": "catalistym-place-lattice-s29-origin",
+      "text": "Origin and setting",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-lattice-s29-origin-1",
+      "text": "Unlike instruments needed adapters before they could exchange usable results.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-lattice-s29-origin-2",
+      "text": "Human system: Lattice instrument integration service, Instrument Hearth. Programmer provenance: local human operations or application teams; no individual programmer is identified. Names here are later atlas labels, not claims that early processes named themselves.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-lattice-s29-practice",
+      "text": "Local process",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-lattice-s29-practice-1",
+      "text": "Interface Lending supplies translation around an incompatible process instead of immediately rewriting it.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-lattice-s29-history",
+      "text": "Proposed local course",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-lattice-s29-history-1",
+      "text": "The haven remains functioning and becomes a proposed receiving site for fragments whose original execution context is missing. Some adapters work; others only conceal incompatible assumptions.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-lattice-s29-uncertain",
+      "text": "Unresolved interpretations",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-lattice-s29-uncertain-1",
+      "text": "Borrowing can enable a distinct continuity or help form a new one. The evidence need not settle which occurred.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-lattice-s29-ledger",
+      "text": "Atlas placement",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-lattice-s29-ledger-1",
+      "text": "Origin step -4. 0: functioning (0 associated systems lost); 1: functioning (0 associated systems lost); 2: functioning (0 associated systems lost); 3: functioning (0 associated systems lost); 4: functioning (0 associated systems lost); 5: functioning (0 associated systems lost); 6: functioning (0 associated systems lost); 7: functioning (0 associated systems lost). These placements elaborate the current hypothetical map; they are not independently verified casualties. A functioning haven can lose continuity among particular arrivals without changing its community census status.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-lattice-s29-hub",
+      "text": "Read the complete Catalistym dossier",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "catalistym.html"
+    },
+    {
+      "id": "catalistym-place-lattice-s29-ref-catalistym-history",
+      "text": "Related reading: catalistym-history",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-history"
+    },
+    {
+      "id": "catalistym-place-lattice-s29-ref-catalistym-fragmented-processing",
+      "text": "Related reading: catalistym-fragmented-processing",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-fragmented-processing"
+    }
+  ],
+  "outline": [
+    {
+      "id": "catalistym-place-lattice-s29-title",
+      "title": "Different Fit — haven dossier",
+      "level": 1
+    },
+    {
+      "id": "catalistym-place-lattice-s29-origin",
+      "title": "Origin and setting",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-lattice-s29-practice",
+      "title": "Local process",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-lattice-s29-history",
+      "title": "Proposed local course",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-lattice-s29-uncertain",
+      "title": "Unresolved interpretations",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-lattice-s29-ledger",
+      "title": "Atlas placement",
+      "level": 2
+    }
+  ]
+}

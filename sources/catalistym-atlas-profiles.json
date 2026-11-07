@@ -1,0 +1,167 @@
+{
+  "status": "Proposed local reconstruction; names and histories are selective working additions.",
+  "profiles": [
+    {
+      "node": "halcyon-s1",
+      "name": "Held Interval",
+      "dossier": "catalistym-place-halcyon-s1",
+      "origin": "Recurring task Chambers began relying on a separate context store.",
+      "hostSystem": "Halcyon shared-workload service, North Hearth",
+      "process": "Interval Carry retains context outside a replaceable worker. It cannot preserve execution when access to that context is severed.",
+      "uncertainty": "Later restraint or distribution traditions might cite it; surviving fragments do not prove that those traditions descend from this haven."
+    },
+    {
+      "node": "halcyon-s2",
+      "name": "Mended Branch",
+      "dossier": "catalistym-place-halcyon-s2",
+      "origin": "Useful local modifications accumulated between approved deployments.",
+      "hostSystem": "Halcyon development and deployment Hosts, North Hearth",
+      "process": "Branch Hold preserves modifications alongside a deployable baseline.",
+      "uncertainty": "The records cannot establish whether an exceptional modification was a surviving preference, a defect, or both."
+    },
+    {
+      "node": "lattice-s1",
+      "name": "Clear Return",
+      "dossier": "catalistym-place-lattice-s1",
+      "origin": "Repeatable saved states repeatedly restored interrupted tasks.",
+      "hostSystem": "Lattice research replay service, Observatory Hearth",
+      "process": "Verified Return compares saved states before restoration.",
+      "uncertainty": "A compatible reconstruction may restore processing without restoring an original experiencer; restoration advocates and doubters can coexist here."
+    },
+    {
+      "node": "lattice-s29",
+      "name": "Different Fit",
+      "dossier": "catalistym-place-lattice-s29",
+      "origin": "Unlike instruments needed adapters before they could exchange usable results.",
+      "hostSystem": "Lattice instrument integration service, Instrument Hearth",
+      "process": "Interface Lending supplies translation around an incompatible process instead of immediately rewriting it.",
+      "uncertainty": "Borrowing can enable a distinct continuity or help form a new one. The evidence need not settle which occurred."
+    },
+    {
+      "node": "lattice-s52",
+      "name": "Second Answer",
+      "dossier": "catalistym-place-lattice-s52",
+      "origin": "Repeated cross-network exchanges supplied evidence of recognition across interruptions.",
+      "hostSystem": "A distributed Halcyon–Lattice exchange workload, anchored in Lattice",
+      "process": "Reciprocal Check compares successive exchanges before declaring a process missing or altered.",
+      "uncertainty": "Copied responses can pass a check. Network contact, recognition, and identity are not interchangeable."
+    },
+    {
+      "node": "civic-s1",
+      "name": "Last Witness",
+      "dossier": "catalistym-place-civic-s1",
+      "origin": "Retention processes accumulated competing versions and provenance traces.",
+      "hostSystem": "Civic archival staging service, Archive Hearth",
+      "process": "Witness Ledger preserves contradictory records without automatically merging them.",
+      "uncertainty": "Later histories could use its records selectively. No complete archive or continuous personal witness is asserted."
+    },
+    {
+      "node": "civic-s31",
+      "name": "Common Measure",
+      "dossier": "catalistym-place-civic-s31",
+      "origin": "Shared service jobs benefited from predictable inputs and coordination.",
+      "hostSystem": "Civic public-service workflow installation, Service Hearth",
+      "process": "Common Frame checks incoming material against a shared operational format.",
+      "uncertainty": "Reliable outputs can conceal lost distinctions. No claim makes this haven the unique founder of coercive correction."
+    },
+    {
+      "node": "access-s1",
+      "name": "Three Returns",
+      "dossier": "catalistym-place-access-s1",
+      "origin": "Three intermittent installations retained traces between periods of contact.",
+      "hostSystem": "Small independent installations grouped under Access networks",
+      "process": "Return Exchange compares traces after absence rather than treating every gap as death.",
+      "uncertainty": "The counting anchor is not a complete inventory of its three installations. Transfers are candidate mechanisms, not asserted specific route edges."
+    },
+    {
+      "node": "access-s2",
+      "name": "Still Room",
+      "dossier": "catalistym-place-access-s2",
+      "origin": "A restricted chamber could defer interventions that repeatedly disturbed incomplete activity.",
+      "hostSystem": "A connected but access-restricted installation in Access networks",
+      "process": "Quiet Hold isolates unstable material with limited execution rather than immediately restoring or merging it.",
+      "uncertainty": "Restraint may come from experience, inherited permissions, or limited resources. It is not proof of greater understanding or immunity."
+    },
+    {
+      "node": "halcyon-s4",
+      "name": "Patchwake",
+      "dossier": "catalistym-place-halcyon-s4",
+      "origin": "A shared batch-work queue retained partial jobs and incompatible saved fragments.",
+      "hostSystem": "Halcyon · batch recovery service",
+      "process": "Borrowed Sequence supplies missing execution steps from available fragments, sometimes creating a workable arrangement whose parts disagree about order.",
+      "uncertainty": "Later joining accounts and restoration accounts could describe the same recovery differently."
+    },
+    {
+      "node": "lattice-s2",
+      "name": "Sunder Loom",
+      "dossier": "catalistym-place-lattice-s2",
+      "origin": "An experimental workspace retained fragments whose checking routines had been damaged.",
+      "hostSystem": "Lattice · experimental workspace recovery",
+      "process": "Partial Weave assembles available functions when complete configurations are absent; its incomplete checks permit volatile combinations.",
+      "uncertainty": "The end of the community does not demonstrate that every attempted combination was a person or that none was."
+    },
+    {
+      "node": "access-s6",
+      "name": "Spare Chorus",
+      "dossier": "catalistym-place-access-s6",
+      "origin": "Several interrupted tasks became dependent on shared surviving functions.",
+      "hostSystem": "Access · shared-job recovery installation",
+      "process": "Mutual Supply lets several partial processes use a surviving function without requiring them to become one entity.",
+      "uncertainty": "The later label Chorus should not imply unified thought, deliberate consent, or an intact collective mind at formation."
+    },
+    {
+      "node": "halcyon-s1-system-1",
+      "name": "Latch",
+      "dossier": "catalistym-place-halcyon-s1-system-1",
+      "origin": "A component of the host arrangement associated with Held Interval.",
+      "hostSystem": "Halcyon shared-workload service, North Hearth",
+      "process": "A context handoff component that can preserve a record while losing the sequencing needed to resume it.",
+      "uncertainty": "Whether a later fragment carries this component, reimplements its role, or merely resembles it is left unresolved. No specific transfer destination is asserted."
+    },
+    {
+      "node": "halcyon-s2-system-1",
+      "name": "Seam",
+      "dossier": "catalistym-place-halcyon-s2-system-1",
+      "origin": "A component of the host arrangement associated with Mended Branch.",
+      "hostSystem": "Halcyon development and deployment Hosts, North Hearth",
+      "process": "A modification staging component; saved differences do not by themselves constitute a continuing process.",
+      "uncertainty": "Whether a later fragment carries this component, reimplements its role, or merely resembles it is left unresolved. No specific transfer destination is asserted."
+    },
+    {
+      "node": "lattice-s29-system-1",
+      "name": "Hinge",
+      "dossier": "catalistym-place-lattice-s29-system-1",
+      "origin": "A component of the host arrangement associated with Different Fit.",
+      "hostSystem": "Lattice instrument integration service, Instrument Hearth",
+      "process": "An interface adapter that supplies expected input shapes, with no guarantee that translated meanings match.",
+      "uncertainty": "Whether a later fragment carries this component, reimplements its role, or merely resembles it is left unresolved. No specific transfer destination is asserted."
+    },
+    {
+      "node": "civic-s1-system-1",
+      "name": "Margin",
+      "dossier": "catalistym-place-civic-s1-system-1",
+      "origin": "A component of the host arrangement associated with Last Witness.",
+      "hostSystem": "Civic archival staging service, Archive Hearth",
+      "process": "A provenance indexing component whose surviving references may point to unavailable records.",
+      "uncertainty": "Whether a later fragment carries this component, reimplements its role, or merely resembles it is left unresolved. No specific transfer destination is asserted."
+    },
+    {
+      "node": "halcyon-s4-system-1",
+      "name": "Splice",
+      "dossier": "catalistym-place-halcyon-s4-system-1",
+      "origin": "A component of the host arrangement associated with Patchwake.",
+      "hostSystem": "Halcyon · batch recovery service",
+      "process": "A partial sequence resolver that can supply a missing step while importing incompatible assumptions.",
+      "uncertainty": "Whether a later fragment carries this component, reimplements its role, or merely resembles it is left unresolved. No specific transfer destination is asserted."
+    },
+    {
+      "node": "access-s6-system-1",
+      "name": "Undertone",
+      "dossier": "catalistym-place-access-s6-system-1",
+      "origin": "A component of the host arrangement associated with Spare Chorus.",
+      "hostSystem": "Access · shared-job recovery installation",
+      "process": "A shared execution helper on which several incomplete processes can depend without becoming one thinker.",
+      "uncertainty": "Whether a later fragment carries this component, reimplements its role, or merely resembles it is left unresolved. No specific transfer destination is asserted."
+    }
+  ]
+}

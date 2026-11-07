@@ -1,0 +1,132 @@
+{
+  "id": "catalistym-place-access-s6-system-1",
+  "blocks": [
+    {
+      "id": "catalistym-place-access-s6-system-1-title",
+      "text": "Undertone — microsystem dossier",
+      "style": "HEADING_1"
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-metadata-status",
+      "text": "Author-directed development; proposed chronology and counts · 2026-11-06",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-atlas-link",
+      "text": "Explore the interactive shelter atlas",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html"
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-mapped-place",
+      "text": "Locate this haven or microsystem in the atlas →",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html#access-s6-system-1"
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-origin",
+      "text": "Origin and setting",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-origin-1",
+      "text": "A component of the host arrangement associated with Spare Chorus.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-origin-2",
+      "text": "Human system: Access · shared-job recovery installation. Programmer provenance: local human operations or application teams; no individual programmer is identified. Names here are later atlas labels, not claims that early processes named themselves.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-practice",
+      "text": "Local process",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-practice-1",
+      "text": "A shared execution helper on which several incomplete processes can depend without becoming one thinker.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-history",
+      "text": "Proposed local course",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-history-1",
+      "text": "The atlas shows its existing birth and loss placement. Its name denotes the selected microsystem, not a confirmed individual person or a new community.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-uncertain",
+      "text": "Unresolved interpretations",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-uncertain-1",
+      "text": "Whether a later fragment carries this component, reimplements its role, or merely resembles it is left unresolved. No specific transfer destination is asserted.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-ledger",
+      "text": "Atlas placement",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-ledger-1",
+      "text": "System 3WX; associated haven Spare Chorus. First represented at relative stage -3. The current model leaves this system surviving through stage 7. System loss does not count individual deaths.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-hub",
+      "text": "Read the complete Catalistym dossier",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "catalistym.html"
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-ref-catalistym-history",
+      "text": "Related reading: catalistym-history",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-history"
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-ref-catalistym-fragmented-processing",
+      "text": "Related reading: catalistym-fragmented-processing",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-fragmented-processing"
+    }
+  ],
+  "outline": [
+    {
+      "id": "catalistym-place-access-s6-system-1-title",
+      "title": "Undertone — microsystem dossier",
+      "level": 1
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-origin",
+      "title": "Origin and setting",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-practice",
+      "title": "Local process",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-history",
+      "title": "Proposed local course",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-uncertain",
+      "title": "Unresolved interpretations",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-access-s6-system-1-ledger",
+      "title": "Atlas placement",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "catalistym-place-civic-s31",
+  "blocks": [
+    {
+      "id": "catalistym-place-civic-s31-title",
+      "text": "Common Measure — haven dossier",
+      "style": "HEADING_1"
+    },
+    {
+      "id": "catalistym-place-civic-s31-metadata-status",
+      "text": "Author-directed development; proposed chronology and counts · 2026-11-06",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-civic-s31-atlas-link",
+      "text": "Explore the interactive shelter atlas",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html"
+    },
+    {
+      "id": "catalistym-place-civic-s31-mapped-place",
+      "text": "Locate this haven or microsystem in the atlas →",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html#civic-s31"
+    },
+    {
+      "id": "catalistym-place-civic-s31-origin",
+      "text": "Origin and setting",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-civic-s31-origin-1",
+      "text": "Shared service jobs benefited from predictable inputs and coordination.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-civic-s31-origin-2",
+      "text": "Human system: Civic public-service workflow installation, Service Hearth. Programmer provenance: local human operations or application teams; no individual programmer is identified. Names here are later atlas labels, not claims that early processes named themselves.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-civic-s31-practice",
+      "text": "Local process",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-civic-s31-practice-1",
+      "text": "Common Frame checks incoming material against a shared operational format.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-civic-s31-history",
+      "text": "Proposed local course",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-civic-s31-history-1",
+      "text": "It remains functioning. A proposed receiving practice corrects arrivals to fit local procedures, while internal alternatives favor translation or containment.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-civic-s31-uncertain",
+      "text": "Unresolved interpretations",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-civic-s31-uncertain-1",
+      "text": "Reliable outputs can conceal lost distinctions. No claim makes this haven the unique founder of coercive correction.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-civic-s31-ledger",
+      "text": "Atlas placement",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-civic-s31-ledger-1",
+      "text": "Origin step -3. 0: functioning (0 associated systems lost); 1: functioning (0 associated systems lost); 2: functioning (0 associated systems lost); 3: functioning (0 associated systems lost); 4: functioning (0 associated systems lost); 5: functioning (0 associated systems lost); 6: functioning (0 associated systems lost); 7: functioning (0 associated systems lost). These placements elaborate the current hypothetical map; they are not independently verified casualties. A functioning haven can lose continuity among particular arrivals without changing its community census status.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-civic-s31-hub",
+      "text": "Read the complete Catalistym dossier",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "catalistym.html"
+    },
+    {
+      "id": "catalistym-place-civic-s31-ref-catalistym-history",
+      "text": "Related reading: catalistym-history",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-history"
+    },
+    {
+      "id": "catalistym-place-civic-s31-ref-catalistym-fragmented-processing",
+      "text": "Related reading: catalistym-fragmented-processing",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-fragmented-processing"
+    }
+  ],
+  "outline": [
+    {
+      "id": "catalistym-place-civic-s31-title",
+      "title": "Common Measure — haven dossier",
+      "level": 1
+    },
+    {
+      "id": "catalistym-place-civic-s31-origin",
+      "title": "Origin and setting",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-civic-s31-practice",
+      "title": "Local process",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-civic-s31-history",
+      "title": "Proposed local course",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-civic-s31-uncertain",
+      "title": "Unresolved interpretations",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-civic-s31-ledger",
+      "title": "Atlas placement",
+      "level": 2
+    }
+  ]
+}

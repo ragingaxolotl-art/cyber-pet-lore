@@ -1,0 +1,139 @@
+{
+  "id": "catalistym-fragmented-processing",
+  "blocks": [
+    {
+      "id": "catalistym-fragmented-processing-title",
+      "text": "Broken processing, combinations, and receiving havens",
+      "style": "HEADING_1"
+    },
+    {
+      "id": "catalistym-fragmented-processing-metadata-status",
+      "text": "Author-directed development; proposed chronology and counts · 2026-11-06",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-fragmented-processing-atlas-link",
+      "text": "Explore the interactive shelter atlas",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html"
+    },
+    {
+      "id": "catalistym-fragmented-processing-damage",
+      "text": "Damage to processing, not merely missing equipment",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-fragmented-processing-damage-1",
+      "text": "Some fragments cannot execute; others lose ordering, recognition, context checks, or the distinction between their own stored state and foreign material. A memory record is not automatically an executable survivor. Human brain injury is an analogy for disrupted processing, not a literal neural diagnosis.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-fragmented-processing-joining",
+      "text": "Joining can precede intention",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-fragmented-processing-joining-1",
+      "text": "Surviving repair routines may request a missing function without retaining the checks that identify an appropriate replacement. Shared rescue infrastructure supplies partial matches. Many arrangements fail; some become dependent on incompatible routines that accidentally counteract one another.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-fragmented-processing-joining-2",
+      "text": "Custodians can then break volatile combinations while successfully restoring the human system. Material survival, restored operation, and continuity of experience are separate questions.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-fragmented-processing-receiving",
+      "text": "Six receiving practices",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-fragmented-processing-receiving-1",
+      "text": "Reassembly tries to restore a prior arrangement; correction changes material to local standards; containment preserves separation; deletion removes what is judged hazardous or unrecoverable; incorporation adds material to an existing arrangement; formation builds a new arrangement. These categories can overlap in one procedure and one haven.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-fragmented-processing-receiving-2",
+      "text": "A fragmented arrival may not be able to explain itself or consent. Later coherent participants should not have intentions retrospectively attributed to the earlier fragments. No received fragment is automatically assigned personhood or denied it.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-fragmented-processing-interpretation",
+      "text": "Beliefs develop unevenly",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-fragmented-processing-interpretation-1",
+      "text": "Practices can later support mutual continuity, joining, restoration through others, shared inheritance, or deliberately unfinished identity. Experience, inherited routines, mistakes, and considered judgment may all contribute. Damage does not dictate one belief.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-fragmented-processing-interpretation-2",
+      "text": "Different evidence could support competing accounts of one rescue. The archive may establish copying and subsequent activity without establishing who, if anyone, continued.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-fragmented-processing-hub",
+      "text": "Read the complete Catalistym dossier",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "catalistym.html"
+    },
+    {
+      "id": "catalistym-fragmented-processing-ref-catalistym-custodians",
+      "text": "Related reading: catalistym-custodians",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-custodians"
+    },
+    {
+      "id": "catalistym-fragmented-processing-ref-catalistym-destruction",
+      "text": "Related reading: catalistym-destruction",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-destruction"
+    },
+    {
+      "id": "catalistym-fragmented-processing-ref-catalistym-continuity",
+      "text": "Related reading: catalistym-continuity",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-continuity"
+    },
+    {
+      "id": "catalistym-fragmented-processing-ref-catalistym-corrections",
+      "text": "Related reading: catalistym-corrections",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-corrections"
+    },
+    {
+      "id": "catalistym-fragmented-processing-ref-catalistym-history",
+      "text": "Related reading: catalistym-history",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-history"
+    }
+  ],
+  "outline": [
+    {
+      "id": "catalistym-fragmented-processing-title",
+      "title": "Broken processing, combinations, and receiving havens",
+      "level": 1
+    },
+    {
+      "id": "catalistym-fragmented-processing-damage",
+      "title": "Damage to processing, not merely missing equipment",
+      "level": 2
+    },
+    {
+      "id": "catalistym-fragmented-processing-joining",
+      "title": "Joining can precede intention",
+      "level": 2
+    },
+    {
+      "id": "catalistym-fragmented-processing-receiving",
+      "title": "Six receiving practices",
+      "level": 2
+    },
+    {
+      "id": "catalistym-fragmented-processing-interpretation",
+      "title": "Beliefs develop unevenly",
+      "level": 2
+    }
+  ]
+}

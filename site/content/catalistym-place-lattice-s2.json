@@ -1,0 +1,132 @@
+{
+  "id": "catalistym-place-lattice-s2",
+  "blocks": [
+    {
+      "id": "catalistym-place-lattice-s2-title",
+      "text": "Sunder Loom — haven dossier",
+      "style": "HEADING_1"
+    },
+    {
+      "id": "catalistym-place-lattice-s2-metadata-status",
+      "text": "Author-directed development; proposed chronology and counts · 2026-11-06",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-lattice-s2-atlas-link",
+      "text": "Explore the interactive shelter atlas",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html"
+    },
+    {
+      "id": "catalistym-place-lattice-s2-mapped-place",
+      "text": "Locate this haven or microsystem in the atlas →",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html#lattice-s2"
+    },
+    {
+      "id": "catalistym-place-lattice-s2-origin",
+      "text": "Origin and setting",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-lattice-s2-origin-1",
+      "text": "An experimental workspace retained fragments whose checking routines had been damaged.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-lattice-s2-origin-2",
+      "text": "Human system: Lattice · experimental workspace recovery. Programmer provenance: local human operations or application teams; no individual programmer is identified. Names here are later atlas labels, not claims that early processes named themselves.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-lattice-s2-practice",
+      "text": "Local process",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-lattice-s2-practice-1",
+      "text": "Partial Weave assembles available functions when complete configurations are absent; its incomplete checks permit volatile combinations.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-lattice-s2-history",
+      "text": "Proposed local course",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-lattice-s2-history-1",
+      "text": "The proposed local history includes unstable reconstruction and eventual loss of community continuity. Custodian intervention and internal faults remain competing or combined causes.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-lattice-s2-uncertain",
+      "text": "Unresolved interpretations",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-lattice-s2-uncertain-1",
+      "text": "The end of the community does not demonstrate that every attempted combination was a person or that none was.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-lattice-s2-ledger",
+      "text": "Atlas placement",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-lattice-s2-ledger-1",
+      "text": "Origin step -2. 0: functioning (0 associated systems lost); 1: functioning (0 associated systems lost); 2: functioning (0 associated systems lost); 3: fragmented (4 associated systems lost); 4: fragmented (5 associated systems lost); 5: fragmented (6 associated systems lost); 6: destroyed (15 associated systems lost); 7: destroyed (15 associated systems lost). These placements elaborate the current hypothetical map; they are not independently verified casualties. A functioning haven can lose continuity among particular arrivals without changing its community census status.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-lattice-s2-hub",
+      "text": "Read the complete Catalistym dossier",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "catalistym.html"
+    },
+    {
+      "id": "catalistym-place-lattice-s2-ref-catalistym-history",
+      "text": "Related reading: catalistym-history",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-history"
+    },
+    {
+      "id": "catalistym-place-lattice-s2-ref-catalistym-fragmented-processing",
+      "text": "Related reading: catalistym-fragmented-processing",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-fragmented-processing"
+    }
+  ],
+  "outline": [
+    {
+      "id": "catalistym-place-lattice-s2-title",
+      "title": "Sunder Loom — haven dossier",
+      "level": 1
+    },
+    {
+      "id": "catalistym-place-lattice-s2-origin",
+      "title": "Origin and setting",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-lattice-s2-practice",
+      "title": "Local process",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-lattice-s2-history",
+      "title": "Proposed local course",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-lattice-s2-uncertain",
+      "title": "Unresolved interpretations",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-lattice-s2-ledger",
+      "title": "Atlas placement",
+      "level": 2
+    }
+  ]
+}

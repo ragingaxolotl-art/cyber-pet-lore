@@ -32,9 +32,13 @@ def add_catalistym(root,catalog,sources):
     ids={e['id'] for e in catalog}|{e['id'] for e in data['entries']}
     for item in data['entries']:
         sid=item['id'];blocks=[{'id':sid+'-title','text':item['title'],'style':'HEADING_1'}, {'id':sid+'-metadata-status','text':data['status']+' · '+data['date'],'style':'NORMAL_TEXT'}, {'id':sid+'-atlas-link','text':'Explore the interactive shelter atlas','style':'NORMAL_TEXT','referenceUrl':'shelter-atlas.html'}]
+        if item.get('atlasNode'):
+            blocks.append({'id':sid+'-mapped-place','text':'Locate this haven or microsystem in the atlas →','style':'NORMAL_TEXT','referenceUrl':'shelter-atlas.html#'+item['atlasNode']})
         for s in item['sections']:
             blocks.append({'id':sid+'-'+s['id'],'text':s['title'],'style':'HEADING_2'})
             blocks.extend({'id':sid+'-'+s['id']+'-'+str(n),'text':p,'style':'NORMAL_TEXT'} for n,p in enumerate(s['paragraphs'],1))
+            if 'atlasStage' in s:
+                blocks.append({'id':sid+'-'+s['id']+'-map','text':'Explore this relative stage in the atlas →','style':'NORMAL_TEXT','referenceUrl':'shelter-atlas.html?stage='+str(s['atlasStage'])})
         blocks.append({'id':sid+'-hub','text':'Read the complete Catalistym dossier','style':'NORMAL_TEXT','referenceUrl':'catalistym.html'})
         links=[x for x in item['links'] if x in ids]
         for target in links: blocks.append({'id':sid+'-ref-'+target,'text':'Related reading: '+target,'style':'NORMAL_TEXT','referenceUrl':'#read='+target})
@@ -54,6 +58,8 @@ def add_catalistym(root,catalog,sources):
     parts.append('</ol></nav>')
     for item in data['entries']:
         parts.append('<article id="'+item['id']+'"><h2>'+esc(item['title'])+'</h2><a href="index.html#read='+item['id']+'">Open annotatable reading →</a>')
+        if item.get('atlasNode'):
+            parts.append('<p><a href="shelter-atlas.html#'+esc(item['atlasNode'])+'">Locate this haven or microsystem in the atlas →</a></p>')
         if item['id']=='catalistym-destruction':
             parts.append('<div class="ledger-scroll"><table><caption>Corrected working ledger · communities, not individual deaths</caption><thead><tr><th scope="col">Phase</th><th scope="col">Functioning</th><th scope="col">Fragmented</th><th scope="col">Destroyed</th></tr></thead><tbody>')
             for phase in data['phases']:
@@ -62,6 +68,8 @@ def add_catalistym(root,catalog,sources):
         for s in item['sections']:
             parts.append('<section id="'+item['id']+'-'+s['id']+'"><h3>'+esc(s['title'])+'</h3>')
             parts += ['<p>'+esc(p)+'</p>' for p in s['paragraphs']]
+            if 'atlasStage' in s:
+                parts.append('<p><a href="shelter-atlas.html?stage='+str(s['atlasStage'])+'">Explore this relative stage in the atlas →</a></p>')
             parts.append('</section>')
         parts.append('</article>')
     parts.append('<footer><a href="shelter-atlas.html">Shelter atlas</a> · <a href="#">Back to top</a></footer></main></body></html>')
