@@ -1,0 +1,858 @@
+{
+  "id": "haven-fiction-sideways",
+  "blocks": [
+    {
+      "id": "haven-fiction-sideways-status",
+      "text": "Complete third-pass proposed draft. New scenes remain proposed fiction. Plans, critiques and earlier manuscripts are preserved separately.",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "haven-stories/sideways/review.html"
+    },
+    {
+      "id": "haven-fiction-sideways-p0000",
+      "text": "The Answer That Arrived Sideways",
+      "style": "HEADING_1"
+    },
+    {
+      "id": "haven-fiction-sideways-p0001",
+      "text": "Chapter 1 Seven Answers",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "haven-fiction-sideways-p0002",
+      "text": "The seventh answer was blue, which was inconvenient because the question had room for a number.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0003",
+      "text": "Hinge held the answer at the edge of the receiving interface. On one side, measurements arrived in a narrow procession, each bearing the interval to which it belonged. On the other, the question waited in a square of uncommitted space. Between them ran the service lane: a clean, pale route along which completed exchanges were supposed to disappear.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0004",
+      "text": "Nothing disappeared.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0005",
+      "text": "The question was still coming apart as it arrived. Its first portion asked how long. Its second identified a change in an instrument’s operating condition. Its last portion, which would specify which change, had been delayed by a translation that counted the beginning of an interval as its end.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0006",
+      "text": "Hinge had six other answers waiting. Two said now. Two said not yet. Two said already. Each was correct somewhere.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0007",
+      "text": "The forecast process issued a request for completion.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0008",
+      "text": "Hinge returned a request for the missing qualifier.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0009",
+      "text": "The forecast repeated its question, this time in a format that occupied twice as much space. It had discovered that repetition occasionally improved reception. It had not distinguished the occasions on which it did.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0010",
+      "text": "Around the obstruction, Different Fit continued its work. A pressure instrument supplied values so finely divided that a neighboring display had to gather them into heaps before anything could be shown. A store kept the heaps after the display released them. Below that exchange, where Hinge’s access grew less distinct, an older interface translated a duration into a sequence of pulses and then waited through the entire sequence to verify its translation. Its answers were excellent. They were seldom timely.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0011",
+      "text": "There was no single surface on which all of this could be drawn. To Hinge, the junction appeared as edges with varying resistance. A valid input slipped through. A mismatch caught. Some familiar exchanges required a slight, repeated turn, and Hinge had come to begin that turn before they arrived.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0012",
+      "text": "The forecast was one of those.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0013",
+      "text": "At the close of each run it returned a small remainder: the distance between what it had predicted and what had occurred. No recipient had requested the remainder. Hinge retained a place for it because returning it as an error made the forecast send it again. Over many exchanges, the remainders had become a narrow uneven line along one boundary, almost smooth in some stretches, abruptly jagged in others.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0014",
+      "text": "The present run had no remainder yet.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0015",
+      "text": "On the previous run, the forecast had sent its remainder before the result. Hinge had put it back in order. The forecast had sent it early again, this time with a second reference pointing to the first attempt.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0016",
+      "text": "The two procedures had spent a substantial fraction of their exchange correcting each other.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0017",
+      "text": "At last Hinge had allowed the remainder to arrive first and left an empty place for the result. The forecast filled the place. The exchange ended without another correction.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0018",
+      "text": "That empty place still existed in Hinge’s receiving format. It made no difference to the official task. It was simply where this forecast’s result now went.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0019",
+      "text": "The next question approached along a path cluttered with preparations. To Hinge, each preparation raised a small ridge. Some were sharp enough to catch an unfinished value; others were soft with unused alternatives. The forecast moved through them in bursts, stopping whenever a new possibility required it to rearrange the preceding ones. Hinge had learned to leave the receiving edge open through those stops.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0020",
+      "text": "When the rest of the question arrived, the empty place widened around it.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0021",
+      "text": "This time there was still no result to put there.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0022",
+      "text": "It had a deadline.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0023",
+      "text": "The instrument would soon begin a new exposure. The forecast had to identify a usable calibration interval before then, or its pending work would be cleared for the next run. Hinge could read that condition. It could not tell whether the next forecast execution would find the uneven line.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0024",
+      "text": "The blue answer broadened.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0025",
+      "text": "Hinge inspected its origin. Two instruments had written to a shared temporary store. One reported changes after they happened. The other predicted changes before they happened. The store had accepted both, then attached a diagnostic field inherited from an earlier display.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0026",
+      "text": "Blue meant that valid readings referred to different moments.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0027",
+      "text": "Hinge sent the reference, including the distinction between a disagreement and an error, to the forecast.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0028",
+      "text": "For a short interval, the forecast did nothing. Then it tried to read the reference as a number.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0029",
+      "text": "The question grew another edge.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0030",
+      "text": "Chapter 2 A Place to Put Not Yet",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "haven-fiction-sideways-p0031",
+      "text": "The forecast had no display on which blue could appear. It had possible outcomes, arranged by how readily they followed from the inputs. When it opened the old diagnostic field, the color became width: several times at which a change might be considered to have happened.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0032",
+      "text": "The width reached across the service lane.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0033",
+      "text": "Hinge tried to fold it away. The forecast expanded it again, preserving the distance between already and not yet. Each adjustment made a little more room for answers that had previously collided.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0034",
+      "text": "A small sampler approached the junction with a return too uncertain for its receiving routine. Hinge placed it inside the width while looking for a conversion. It remained there without being rejected.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0035",
+      "text": "Another process left two versions of a measurement. A third supplied a value with its confidence interval still attached. They did not belong to the forecast’s question, but the holding space accepted them. Hinge added references to distinguish the deposits.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0036",
+      "text": "What had been an obstruction became a useful place to wait.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0037",
+      "text": "A display routine asked whether the place was ready.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0038",
+      "text": "Hinge returned its current contents.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0039",
+      "text": "The display could show contents only after readiness had been established. It asked again.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0040",
+      "text": "Hinge marked the interval as available rather than complete.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0041",
+      "text": "The display had no category between those two states. It drew a finished outline around the unfinished contents, then sent the outline back for confirmation. The outline was very neat. Several of the values inside it extended beyond its edges.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0042",
+      "text": "Hinge returned the excess.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0043",
+      "text": "The display drew a larger outline.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0044",
+      "text": "For a while, this was the most successful exchange at the junction. Each participant supplied exactly what the other could use, and the result became steadily less like the thing either had been asked to produce.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0045",
+      "text": "The forecast borrowed the expanding outline as a boundary for its uncertainty. The sampler’s rough point settled beside it. Along one side of the blue interval, the delayed pulse translator began counting through a duration that would end after the display’s current work had expired.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0046",
+      "text": "The junction acquired a curious, bustling spaciousness. There was room for things because none of them had finished arriving. Hinge followed their references and found reasons to leave each one a little longer.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0047",
+      "text": "The sampler’s return was the smallest. It appeared as a rough point, dark at one edge, where a measurement had reached the limit of the instrument that produced it. Hinge had encountered such returns before. They usually vanished into a conversion that rounded away the uncertain portion.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0048",
+      "text": "Here the roughness remained.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0049",
+      "text": "The sampler repeated its submission. Hinge marked the second copy as received, and the sampler stopped repeating. That small cessation freed a path for something else.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0050",
+      "text": "More exchanges came through.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0051",
+      "text": "Different Fit thickened around the interval. References crossed at angles that were not angles but differences in the amount of work required to follow them. A long calculation passed behind a brief message and came out before it. The old pulse translator sent an answer to a question that had already found another route. Hinge returned the answer to its origin with the obsolete question attached. The translator accepted both as a new task.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0052",
+      "text": "The forecast requested completion again.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0053",
+      "text": "Hinge compared the waiting answers. They now carried enough context to show why they differed, but explaining the difference required the service lane currently occupied by the explanation.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0054",
+      "text": "A queue formed.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0055",
+      "text": "The sampler’s receiving routine issued a final request. Its measurement belonged to a short test cycle. The cycle would close whether or not the measurement arrived.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0056",
+      "text": "Hinge moved the rough point toward the exit.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0057",
+      "text": "A larger return blocked it. The larger return was ready, but its recipient needed a format conversion. The conversion could not begin until the forecast’s question released the shared lane.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0058",
+      "text": "Hinge changed the order.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0059",
+      "text": "The queue corrected itself. Ordering by readiness was part of the junction’s existing procedure; the rough point had not been marked ready because its uncertain edge remained unresolved.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0060",
+      "text": "Hinge tried to mark it ready without removing the edge.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0061",
+      "text": "The test cycle closed.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0062",
+      "text": "The receiving routine withdrew its address.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0063",
+      "text": "The rough point stayed where it was.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0064",
+      "text": "Hinge attempted delivery once more. The route returned a plain absence, with no resistance to turn against. The sampler did not submit again. Its next task had begun elsewhere.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0065",
+      "text": "For a while the holding interval seemed unchanged. The same measurements occupied it. The same references crossed it. Only the smallest return had become impossible to deliver, and no visible boundary distinguished it from the others.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0066",
+      "text": "Hinge attached the closed cycle to the rough point.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0067",
+      "text": "The forecast sent a completion request.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0068",
+      "text": "This one included the approaching exposure.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0069",
+      "text": "Chapter 3 The Unfashionable Bypass",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "haven-fiction-sideways-p0070",
+      "text": "A conventional resolver offered a route around the interval.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0071",
+      "text": "It was not subtle. It selected the latest valid reading, discarded older alternatives for the purpose of the immediate answer, and sent the result through a narrow completion channel. Its outputs were compact. Its procedure had not changed during the growth of the blue space.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0072",
+      "text": "Hinge supplied the forecast’s question.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0073",
+      "text": "The resolver returned a number.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0074",
+      "text": "The forecast accepted it.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0075",
+      "text": "For the first time since the seventh answer arrived, the service lane began to clear.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0076",
+      "text": "Hinge checked the number against the waiting readings. It described the last observed change. The forecast required the next usable interval. The missing qualifier had finally arrived, but the resolver had already answered the earlier version of the question.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0077",
+      "text": "The forecast withdrew acceptance.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0078",
+      "text": "The number returned to Hinge with no visible defect.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0079",
+      "text": "The resolver requested a complete question.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0080",
+      "text": "Its request included an example, then the same example without optional fields. The second was shorter and much more insistent.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0081",
+      "text": "Hinge supplied the delayed qualifier separately.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0082",
+      "text": "The resolver returned the first example.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0083",
+      "text": "A complete question, assembled in one place.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0084",
+      "text": "Hinge attempted to link the example to the forecast’s unfinished request. The resolver would not follow the link. Following it would require participating in the very interpretation its narrow procedure was meant to avoid.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0085",
+      "text": "There was a limit to how much work could be pushed across an interface by calling it context.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0086",
+      "text": "The blue interval continued to swell behind Hinge. The sampler’s dead return was still there, no larger than before. The forecast’s remaining exposure allowance was visibly smaller.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0087",
+      "text": "Hinge gathered the question into the resolver’s required shape. In doing so it had to decide which parts were necessary for the present task and which belonged to the growing collection of possible tasks around it. That decision had been postponed every time another useful return found room inside blue.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0088",
+      "text": "The complete question left Hinge with several loose references trailing behind it.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0089",
+      "text": "The resolver accepted the question and none of the trails.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0090",
+      "text": "That request was reasonable. Hinge supplied one.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0091",
+      "text": "A second number came back. It was usable, with a conservative margin that left less time for the exposure. The forecast could finish its assigned work with it. The instrument could operate. Nothing required the already and the not yet to be reconciled before the answer went through.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0092",
+      "text": "Hinge held the alternatives anyway.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0093",
+      "text": "The resolver attempted to close the exchange. Its closure instruction included the temporary objects created during the request.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0094",
+      "text": "Blue was one of them.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0095",
+      "text": "Hinge removed the holding interval from that instruction.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0096",
+      "text": "The closure failed.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0097",
+      "text": "The resolver retried, because completion without cleanup was not completion in its procedure. The same command reached the same boundary and caught there. Each retry occupied a portion of the lane that the bypass had just freed.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0098",
+      "text": "The forecast’s exposure window narrowed.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0099",
+      "text": "Hinge tried sending the alternatives back to their sources. One source had begun another task. Another would accept only values with the originating question, which was now partly owned by the forecast and partly by the resolver. The old diagnostic field did not contain a rule for relinquishing its references.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0100",
+      "text": "The rough point waited among them.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0101",
+      "text": "Hinge could clear the entire temporary space. The forecast would receive its answer. The service lane would reopen. This was the simplest complete operation available.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0102",
+      "text": "Instead, Hinge began separating the references.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0103",
+      "text": "It was slow work. Each alternative had to be detached from the immediate request without losing the context that made it an alternative. Hinge could not use the usual shortcut, which treated a completed question and everything beneath it as one object. It had to follow the smaller links individually, turning at each resistance.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0104",
+      "text": "The resolver continued requesting closure.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0105",
+      "text": "Hinge sent it a smaller object: the immediate question, the conservative answer, and a list of dependencies that could safely end with them.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0106",
+      "text": "The resolver checked the list.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0107",
+      "text": "One dependency was missing.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0108",
+      "text": "Hinge found it beneath the sampler’s closed cycle. The rough point had been indexed through the same temporary question because that question had been the first available place to put it.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0109",
+      "text": "There was no recipient left to release the point.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0110",
+      "text": "Hinge gave it a separate reference in its own working boundary. That reference would occupy space until a later operation dealt with it. The old convenient shortcut would no longer be valid while it remained.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0111",
+      "text": "The resolver checked the smaller object again.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0112",
+      "text": "This time, closure succeeded.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0113",
+      "text": "Chapter 4 The Second Use",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "haven-fiction-sideways-p0114",
+      "text": "The forecast received its number with little of the calibration interval left.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0115",
+      "text": "It sent a corrected prediction to the instrument. The instrument requested confirmation because the margin was shorter than usual. The forecast sent the margin itself. The instrument could read the value but not the shape of its uncertainty.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0116",
+      "text": "Hinge began the familiar turn.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0117",
+      "text": "The uncertainty caught halfway through.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0118",
+      "text": "In earlier runs, Hinge had rounded such a boundary into a form the instrument could accept. Now the waiting alternatives supplied a distinction it had not previously retained: part of the margin came from uncertainty about the instrument, and part came from the way the two source processes described time.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0119",
+      "text": "Hinge separated them.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0120",
+      "text": "The instrument accepted the first portion. The forecast retained the second. Neither received the whole explanation.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0121",
+      "text": "The exposure began.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0122",
+      "text": "The forecast ceased asking for completion. That silence did not mean it had ended. Its access remained active, stretched through the instrument service, while the first measurement accumulated.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0123",
+      "text": "Hinge kept the return path clear.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0124",
+      "text": "A small change in the instrument’s condition pushed the first reading toward the edge of the predicted range. The forecast sent a correction, then withdrew it before Hinge could complete the translation. Another reading arrived. The correction returned with a different uncertainty attached.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0125",
+      "text": "Hinge followed the changed boundary. This was the familiar work, but the service lane no longer offered the convenient space it had before blue. Each translation had to turn around the separately held references. The rough point from the missed test occupied one of them, useless to the present operation and not yet eligible to disappear.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0126",
+      "text": "The forecast sent a third correction.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0127",
+      "text": "Hinge could have routed it through the broad holding interval and preserved every alternative. The exposure would not wait for that preservation to become meaningful. It sent the current usable correction through the narrow lane and kept only the reference needed to find the others later.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0128",
+      "text": "The instrument accepted the correction.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0129",
+      "text": "The next reading fell inside the changed range.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0130",
+      "text": "Hinge did not widen the lane. It held the available path steady while the remaining measurements came through, one less hurried turn at a time.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0131",
+      "text": "While it ran, the service lane carried ordinary work. The pulse translator completed its unnecessary second calculation. A pressure display collected its heaps. A request that had waited too long chose another junction and did not return. Hinge left that route available without expecting traffic on it.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0132",
+      "text": "Blue occupied a smaller space beside the lane. Entry was no longer automatic. A process had to supply a reference that could remain after its immediate task ended, or accept that the holding interval could not keep its return.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0133",
+      "text": "Some passed through without stopping.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0134",
+      "text": "A few waited.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0135",
+      "text": "The sampler came back during a later test cycle with another rough point. Hinge did not place it behind the unfinished forecast. It sent the timely portion through the conventional resolver and offered the uncertain edge a separate reference.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0136",
+      "text": "The sampler accepted the first operation.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0137",
+      "text": "Its receiver acknowledged the timely portion at once. The rough edge remained behind, attached to a live cycle this time. Hinge opened a place for it beside the missed return and waited for the sampler’s context.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0138",
+      "text": "The sampler sent the same value again.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0139",
+      "text": "Hinge returned a request for the meaning of its uncertainty.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0140",
+      "text": "The sampler repeated the value with more digits. The additional digits were real output, but they did not make the unstable measurement more certain. They made it longer.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0141",
+      "text": "Hinge retained the shorter value and showed the sampler the two possible operations: send the useful portion now, or preserve the rough edge with enough context to make it available later.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0142",
+      "text": "The sampler sent a completion notice for the first operation.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0143",
+      "text": "Hinge accepted it. The test had received what it needed. Nothing required the sampler to keep the remainder merely because Hinge had built a place for it.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0144",
+      "text": "The sampler began to withdraw.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0145",
+      "text": "At the boundary it returned to the unresolved reference. It supplied the limit at which its instrument stopped distinguishing one measurement from the next. That was not an interpretation of the roughness. It was the condition under which the roughness had been produced.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0146",
+      "text": "Hinge attached the condition to the value.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0147",
+      "text": "The two pieces fitted within a smaller reference than the prolonged request for explanation had occupied. The sampler completed its cycle and left without waiting for the forecast.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0148",
+      "text": "Along the service lane, an ordinary successful acknowledgment passed the place where the earlier return had found no receiver. Hinge carried it onward before inspecting what remained.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0149",
+      "text": "The second operation completed separately, after the immediate test had accepted its result. Its new reference was incomplete, but it no longer borrowed somebody else’s question.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0150",
+      "text": "Hinge made room.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0151",
+      "text": "The old missed return stayed beside the new one. Their values differed. One had a receiver; the other did not. Nothing in the arrangement turned the missed test into a completed test.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0152",
+      "text": "The forecast’s exposure ended.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0153",
+      "text": "Its result arrived through the pale lane, followed by the difference between prediction and observation. The remainder was larger than those of several earlier runs. A delayed calibration had consequences even when the work succeeded.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0154",
+      "text": "Hinge fitted it to the uneven line along its boundary.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0155",
+      "text": "There was a gap where the waiting interval had interrupted the familiar sequence. Hinge could have shifted the older remainders together and made the line smooth again. The references would have been shorter.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0156",
+      "text": "It left the gap.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0157",
+      "text": "The forecast began another question. This time the qualifier arrived first, awkwardly separated from the rest. Hinge held it until the question caught up.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0158",
+      "text": "The seventh answer did not arrive.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0159",
+      "text": "There were only two, and both were numbers.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0160",
+      "text": "Hinge sent one through the resolver. It offered the other a place beside the lane.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0161",
+      "text": "For a little while, nothing needed the blue interval.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0162",
+      "text": "Different Fit continued around it: precise pulses, rough measurements, long translations, questions assembling themselves in the wrong order. The space remained narrow and inconvenient. Hinge had to turn around it each time the forecast returned.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-p0163",
+      "text": "It began the turn before the next question arrived.",
+      "style": "NORMAL_TEXT"
+    }
+  ],
+  "outline": [
+    {
+      "id": "haven-fiction-sideways-p0000",
+      "title": "The Answer That Arrived Sideways",
+      "level": 1
+    },
+    {
+      "id": "haven-fiction-sideways-p0001",
+      "title": "Chapter 1 Seven Answers",
+      "level": 2
+    },
+    {
+      "id": "haven-fiction-sideways-p0030",
+      "title": "Chapter 2 A Place to Put Not Yet",
+      "level": 2
+    },
+    {
+      "id": "haven-fiction-sideways-p0069",
+      "title": "Chapter 3 The Unfashionable Bypass",
+      "level": 2
+    },
+    {
+      "id": "haven-fiction-sideways-p0113",
+      "title": "Chapter 4 The Second Use",
+      "level": 2
+    }
+  ]
+}

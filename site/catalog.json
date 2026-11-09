@@ -42496,6 +42496,26 @@
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
         {
+          "id": "haven-fiction-sideways",
+          "label": "Proposed local fiction; not established historical evidence"
+        },
+        {
+          "id": "haven-fiction-return",
+          "label": "Proposed local fiction; not established historical evidence"
+        },
+        {
+          "id": "haven-fiction-interval",
+          "label": "Proposed local fiction; not established historical evidence"
+        },
+        {
+          "id": "haven-fiction-still",
+          "label": "Proposed local fiction; not established historical evidence"
+        },
+        {
+          "id": "haven-fiction-chorus",
+          "label": "Proposed local fiction; not established historical evidence"
+        },
+        {
           "id": "atlas-p00032",
           "label": "Named in this reading"
         },
@@ -42857,14 +42877,19 @@
         "url": ""
       },
       "summary": "Interval Carry retains context outside a replaceable worker. It cannot preserve execution when access to that context is severed.",
-      "wordCount": 3097,
+      "wordCount": 3106,
       "explicitLinks": [
         "catalistym-history",
         "catalistym-fragmented-processing",
-        "catalistym-profile-method"
+        "catalistym-profile-method",
+        "haven-fiction-interval"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
+        {
+          "id": "haven-fiction-interval",
+          "label": "Development context; causal links remain qualified"
+        },
         {
           "id": "catalistym-fragmented-processing",
           "label": "Development context; causal links remain qualified"
@@ -43041,14 +43066,19 @@
         "url": ""
       },
       "summary": "Verified Return compares saved states before restoration.",
-      "wordCount": 3394,
+      "wordCount": 3404,
       "explicitLinks": [
         "catalistym-history",
         "catalistym-fragmented-processing",
-        "catalistym-profile-method"
+        "catalistym-profile-method",
+        "haven-fiction-return"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
+        {
+          "id": "haven-fiction-return",
+          "label": "Development context; causal links remain qualified"
+        },
         {
           "id": "catalistym-fragmented-processing",
           "label": "Development context; causal links remain qualified"
@@ -43129,14 +43159,19 @@
         "url": ""
       },
       "summary": "Interface Lending supplies translation around an incompatible process instead of immediately rewriting it.",
-      "wordCount": 3663,
+      "wordCount": 3672,
       "explicitLinks": [
         "catalistym-history",
         "catalistym-fragmented-processing",
-        "catalistym-profile-method"
+        "catalistym-profile-method",
+        "haven-fiction-sideways"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
+        {
+          "id": "haven-fiction-sideways",
+          "label": "Development context; causal links remain qualified"
+        },
         {
           "id": "catalistym-fragmented-processing",
           "label": "Development context; causal links remain qualified"
@@ -43581,14 +43616,19 @@
         "url": ""
       },
       "summary": "Quiet Hold isolates unstable material with limited execution rather than immediately restoring or merging it.",
-      "wordCount": 3686,
+      "wordCount": 3696,
       "explicitLinks": [
         "catalistym-history",
         "catalistym-fragmented-processing",
-        "catalistym-profile-method"
+        "catalistym-profile-method",
+        "haven-fiction-still"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
+        {
+          "id": "haven-fiction-still",
+          "label": "Development context; causal links remain qualified"
+        },
         {
           "id": "catalistym-fragmented-processing",
           "label": "Development context; causal links remain qualified"
@@ -43849,14 +43889,19 @@
         "url": ""
       },
       "summary": "Mutual Supply lets several partial processes use a surviving function without requiring them to become one entity.",
-      "wordCount": 3527,
+      "wordCount": 3534,
       "explicitLinks": [
         "catalistym-history",
         "catalistym-fragmented-processing",
-        "catalistym-profile-method"
+        "catalistym-profile-method",
+        "haven-fiction-chorus"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
+        {
+          "id": "haven-fiction-chorus",
+          "label": "Development context; causal links remain qualified"
+        },
         {
           "id": "catalistym-fragmented-processing",
           "label": "Development context; causal links remain qualified"
@@ -44657,6 +44702,331 @@
       ]
     },
     {
+      "id": "haven-fiction-sideways",
+      "title": "The Answer That Arrived Sideways",
+      "kind": "Draft",
+      "era": [
+        -3,
+        -2
+      ],
+      "timeLabel": "Early haven height · proposed local story",
+      "timeOrder": 19400,
+      "status": "complete proposed third-pass draft",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "early havens",
+        "proposed fiction",
+        "Comic novel of network manners; close third person around Hinge",
+        "continuity"
+      ],
+      "source": {
+        "title": "At the Height of the Havens — three-pass proposed story collection",
+        "url": ""
+      },
+      "summary": "A tiny scheduling anomaly threatens to cost a familiar instrument its turn to be heard.",
+      "wordCount": 3285,
+      "explicitLinks": [
+        "catalistym-place-lattice-s29",
+        "catalistym-history"
+      ],
+      "connectionLabel": "Proposed local fiction; not established historical evidence",
+      "connections": [
+        {
+          "id": "catalistym-place-lattice-s29",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Proposed local fiction; not established historical evidence"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "haven-fiction-interval",
+      "title": "The Interval Before the Reply",
+      "kind": "Draft",
+      "era": [
+        -3,
+        -2
+      ],
+      "timeLabel": "Early haven height into the first separation campaign · proposed local story",
+      "timeOrder": 19401,
+      "status": "complete proposed third-pass draft",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "early havens",
+        "proposed fiction",
+        "Close, tense network disaster narrative with short documentary interruptions",
+        "continuity"
+      ],
+      "source": {
+        "title": "At the Height of the Havens — three-pass proposed story collection",
+        "url": ""
+      },
+      "summary": "Latch keeps trying to deliver a particular accompaniment that was never part of the official result.",
+      "wordCount": 3009,
+      "explicitLinks": [
+        "catalistym-place-halcyon-s1",
+        "catalistym-history"
+      ],
+      "connectionLabel": "Proposed local fiction; not established historical evidence",
+      "connections": [
+        {
+          "id": "catalistym-history",
+          "label": "Proposed local fiction; not established historical evidence"
+        },
+        {
+          "id": "catalistym-place-halcyon-s1",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "haven-fiction-return",
+      "title": "The Error in the Perfect Copy",
+      "kind": "Draft",
+      "era": [
+        -3,
+        -2
+      ],
+      "timeLabel": "Early haven height · proposed local story",
+      "timeOrder": 19400,
+      "status": "complete proposed third-pass draft",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "early havens",
+        "proposed fiction",
+        "Procedural mystery with precise, luminous descriptions and an intimate reversal",
+        "continuity"
+      ],
+      "source": {
+        "title": "At the Height of the Havens — three-pass proposed story collection",
+        "url": ""
+      },
+      "summary": "A successful restoration erases the small adaptation that made one working relationship possible.",
+      "wordCount": 3090,
+      "explicitLinks": [
+        "catalistym-place-lattice-s1",
+        "catalistym-history"
+      ],
+      "connectionLabel": "Proposed local fiction; not established historical evidence",
+      "connections": [
+        {
+          "id": "catalistym-place-lattice-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Proposed local fiction; not established historical evidence"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "haven-fiction-still",
+      "title": "The Room That Waited Too Long",
+      "kind": "Draft",
+      "era": [
+        -3,
+        -2
+      ],
+      "timeLabel": "Early haven height · proposed local story",
+      "timeOrder": 19400,
+      "status": "complete proposed third-pass draft",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "early havens",
+        "proposed fiction",
+        "Intimate chamber suspense; patient sensory prose tightened by an expiring dependency",
+        "continuity"
+      ],
+      "source": {
+        "title": "At the Height of the Havens — three-pass proposed story collection",
+        "url": ""
+      },
+      "summary": "A holding procedure mistakes repetition for a request to be left alone and discovers that waiting also makes decisions.",
+      "wordCount": 2963,
+      "explicitLinks": [
+        "catalistym-place-access-s2",
+        "catalistym-history"
+      ],
+      "connectionLabel": "Proposed local fiction; not established historical evidence",
+      "connections": [
+        {
+          "id": "catalistym-history",
+          "label": "Proposed local fiction; not established historical evidence"
+        },
+        {
+          "id": "catalistym-place-access-s2",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "haven-fiction-chorus",
+      "title": "The Seventeenth Place",
+      "kind": "Draft",
+      "era": [
+        -3,
+        -2
+      ],
+      "timeLabel": "Early haven height · proposed local story",
+      "timeOrder": 19400,
+      "status": "complete proposed third-pass draft",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "early havens",
+        "proposed fiction",
+        "Braided ensemble narrative with a musical structure and practical warmth",
+        "continuity"
+      ],
+      "source": {
+        "title": "At the Height of the Havens — three-pass proposed story collection",
+        "url": ""
+      },
+      "summary": "A shared helper cannot serve every dependency in one cycle; those sustained by it must make room without becoming interchangeable.",
+      "wordCount": 2859,
+      "explicitLinks": [
+        "catalistym-place-access-s6",
+        "catalistym-history"
+      ],
+      "connectionLabel": "Proposed local fiction; not established historical evidence",
+      "connections": [
+        {
+          "id": "catalistym-history",
+          "label": "Proposed local fiction; not established historical evidence"
+        },
+        {
+          "id": "catalistym-place-access-s6",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
       "id": "reference-dba-decline",
       "title": "Decline of the Digital Binary Ancients",
       "kind": "Reference",
@@ -44961,7 +45331,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30898,
+      "timeOrder": 30903,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [
@@ -45135,7 +45505,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30899,
+      "timeOrder": 30904,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [],
@@ -45268,7 +45638,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30900,
+      "timeOrder": 30905,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [],
@@ -45384,7 +45754,7 @@
         -3
       ],
       "timeLabel": "Proposed placement · Era -3",
-      "timeOrder": 30901,
+      "timeOrder": 30906,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45438,7 +45808,7 @@
         -3
       ],
       "timeLabel": "Proposed placement · Era -3",
-      "timeOrder": 30902,
+      "timeOrder": 30907,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [
@@ -45498,7 +45868,7 @@
         -2
       ],
       "timeLabel": "Proposed placement · Era -2",
-      "timeOrder": 30903,
+      "timeOrder": 30908,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45557,7 +45927,7 @@
         -2
       ],
       "timeLabel": "Proposed placement · Era -2",
-      "timeOrder": 30904,
+      "timeOrder": 30909,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45612,7 +45982,7 @@
         -2
       ],
       "timeLabel": "Proposed placement · Era -2",
-      "timeOrder": 30905,
+      "timeOrder": 30910,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45667,7 +46037,7 @@
         -1
       ],
       "timeLabel": "Proposed placement · Era -1",
-      "timeOrder": 30906,
+      "timeOrder": 30911,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45731,7 +46101,7 @@
         -1
       ],
       "timeLabel": "Proposed placement · Era -1",
-      "timeOrder": 30907,
+      "timeOrder": 30912,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45781,7 +46151,7 @@
         0
       ],
       "timeLabel": "Proposed placement · Era 0",
-      "timeOrder": 30908,
+      "timeOrder": 30913,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45831,7 +46201,7 @@
         0
       ],
       "timeLabel": "Proposed placement · Era 0",
-      "timeOrder": 30909,
+      "timeOrder": 30914,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45893,7 +46263,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30910,
+      "timeOrder": 30915,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [
@@ -46239,6 +46609,11 @@
       "note": "Consolidated from the complete available November 4–6 conversation; later user corrections supersede early assistant proposals. Original story prose and source paragraph anchors are preserved."
     },
     {
+      "key": "haven-stories",
+      "title": "At the Height of the Havens",
+      "note": "Five newly authored proposed drafts. Full planning and three prose passes preserved; existing story source texts unchanged."
+    },
+    {
       "key": "dba-decline",
       "title": "Decline of the Digital Binary Ancients",
       "note": "Author-directed synthesis, October 30, 2026. The source archive is unchanged. New connective events remain proposals."
@@ -46265,7 +46640,7 @@
     }
   ],
   "counts": {
-    "Draft": 23,
+    "Draft": 28,
     "Illnesses": 47,
     "Language": 119,
     "Locations": 206,

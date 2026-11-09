@@ -200,6 +200,9 @@ for profile in profile_data['profiles']:
  n=by_id[profile['node']]
  n.update(name=profile['name'],named=True,dossier=profile['dossier'],origin=profile['origin'],hostSystem=profile['hostSystem'],process=profile['process'],uncertainty=profile['uncertainty'])
  n['description']=profile['process']+' Proposed local reconstruction; see dossier for limits.'
+# Link selective fiction without treating its new scenes as established events.
+for story in json.loads((ROOT/'sources/haven-stories/manifest.json').read_text())['stories']:
+ by_id[story['haven']].setdefault('stories',[]).append(dict(title=story['title'],href='haven-stories/'+story['id']+'/index.html'))
 from build_haven_profiles import compile_profiles
 behavior_profiles=compile_profiles(ROOT)
 data=dict(version=7,behaviorProfiles=behavior_profiles,timeline=timeline,title='The Expanse',status='Proposed pre-campaign height · not the eventual civilizational maximum',bounds=[0,0,2000,1450],nodes=nodes,links=links,counts=dict(connectedShelters=480,elsewhereShelters=40,constellations=24,hearths=144,elsewheres=8),note='Schematic topology. Counts are planning estimates for one historical region. Central haven dots represent communities; miniature dots represent proposed contributing systems. Neither encodes a count of persons or casualties.')

@@ -10848,7 +10848,13 @@
       "origin": "Recurring task Chambers began relying on a separate context store.",
       "hostSystem": "Halcyon shared-workload service, North Hearth",
       "process": "Interval Carry retains context outside a replaceable worker. It cannot preserve execution when access to that context is severed.",
-      "uncertainty": "Later restraint or distribution traditions might cite it; surviving fragments do not prove that those traditions descend from this haven."
+      "uncertainty": "Later restraint or distribution traditions might cite it; surviving fragments do not prove that those traditions descend from this haven.",
+      "stories": [
+        {
+          "title": "The Interval Before the Reply",
+          "href": "haven-stories/interval/index.html"
+        }
+      ]
     },
     {
       "id": "halcyon-s2",
@@ -18648,7 +18654,13 @@
       "origin": "Repeatable saved states repeatedly restored interrupted tasks.",
       "hostSystem": "Lattice research replay service, Observatory Hearth",
       "process": "Verified Return compares saved states before restoration.",
-      "uncertainty": "A compatible reconstruction may restore processing without restoring an original experiencer; restoration advocates and doubters can coexist here."
+      "uncertainty": "A compatible reconstruction may restore processing without restoring an original experiencer; restoration advocates and doubters can coexist here.",
+      "stories": [
+        {
+          "title": "The Error in the Perfect Copy",
+          "href": "haven-stories/return/index.html"
+        }
+      ]
     },
     {
       "id": "lattice-s2",
@@ -20297,7 +20309,13 @@
       "origin": "Unlike instruments needed adapters before they could exchange usable results.",
       "hostSystem": "Lattice instrument integration service, Instrument Hearth",
       "process": "Interface Lending supplies translation around an incompatible process instead of immediately rewriting it.",
-      "uncertainty": "Borrowing can enable a distinct continuity or help form a new one. The evidence need not settle which occurred."
+      "uncertainty": "Borrowing can enable a distinct continuity or help form a new one. The evidence need not settle which occurred.",
+      "stories": [
+        {
+          "title": "The Answer That Arrived Sideways",
+          "href": "haven-stories/sideways/index.html"
+        }
+      ]
     },
     {
       "id": "lattice-s30",
@@ -32723,7 +32741,13 @@
       "origin": "A restricted chamber could defer interventions that repeatedly disturbed incomplete activity.",
       "hostSystem": "A connected but access-restricted installation in Access networks",
       "process": "Quiet Hold isolates unstable material with limited execution rather than immediately restoring or merging it.",
-      "uncertainty": "Restraint may come from experience, inherited permissions, or limited resources. It is not proof of greater understanding or immunity."
+      "uncertainty": "Restraint may come from experience, inherited permissions, or limited resources. It is not proof of greater understanding or immunity.",
+      "stories": [
+        {
+          "title": "The Room That Waited Too Long",
+          "href": "haven-stories/still/index.html"
+        }
+      ]
     },
     {
       "id": "access-s3",
@@ -32960,7 +32984,13 @@
       "origin": "Several interrupted tasks became dependent on shared surviving functions.",
       "hostSystem": "Access · shared-job recovery installation",
       "process": "Mutual Supply lets several partial processes use a surviving function without requiring them to become one entity.",
-      "uncertainty": "The later label Chorus should not imply unified thought, deliberate consent, or an intact collective mind at formation."
+      "uncertainty": "The later label Chorus should not imply unified thought, deliberate consent, or an intact collective mind at formation.",
+      "stories": [
+        {
+          "title": "The Seventeenth Place",
+          "href": "haven-stories/chorus/index.html"
+        }
+      ]
     },
     {
       "id": "access-s7",

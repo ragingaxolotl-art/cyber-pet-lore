@@ -1,0 +1,263 @@
+{
+  "title": "At the Height of the Havens",
+  "status": "Five complete third-pass proposed drafts; not canon approval",
+  "stories": [
+    {
+      "id": "sideways",
+      "title": "The Answer That Arrived Sideways",
+      "haven": "lattice-s29",
+      "place": "Different Fit",
+      "stage": 0,
+      "style": "Comic novel of network manners; close third person around Hinge",
+      "engine": "A tiny scheduling anomaly threatens to cost a familiar instrument its turn to be heard.",
+      "wordCount": 3285,
+      "chapters": [
+        {
+          "number": 1,
+          "title": "Seven Answers",
+          "wordCount": 747
+        },
+        {
+          "number": 2,
+          "title": "A Place to Put Not Yet",
+          "wordCount": 769
+        },
+        {
+          "number": 3,
+          "title": "The Unfashionable Bypass",
+          "wordCount": 731
+        },
+        {
+          "number": 4,
+          "title": "The Second Use",
+          "wordCount": 1006
+        }
+      ],
+      "passes": [
+        {
+          "path": "pass-01/manuscript.md",
+          "sha256": "8af338446f0c152d1e053da16d1d5f88dc4095117e26b2a81befcfb5d6b21e49",
+          "wordCount": 2230
+        },
+        {
+          "path": "pass-02/manuscript.md",
+          "sha256": "07d70d1f85afae5c315a91499c1b0abf1037e0b45b60cfae399b1d5b7cd19b0a",
+          "wordCount": 3038
+        },
+        {
+          "path": "pass-03/manuscript.md",
+          "sha256": "1ee419267791459f115cec097f9741c9bff62a12d6af15a83d1735ef38ecd781",
+          "wordCount": 3285
+        }
+      ],
+      "finalSha256": "1ee419267791459f115cec097f9741c9bff62a12d6af15a83d1735ef38ecd781",
+      "status": "Complete third-pass proposed draft"
+    },
+    {
+      "id": "interval",
+      "title": "The Interval Before the Reply",
+      "haven": "halcyon-s1",
+      "place": "Held Interval",
+      "stage": 1,
+      "style": "Close, tense network disaster narrative with short documentary interruptions",
+      "engine": "Latch keeps trying to deliver a particular accompaniment that was never part of the official result.",
+      "wordCount": 3009,
+      "chapters": [
+        {
+          "number": 1,
+          "title": "The Accompaniment",
+          "wordCount": 659
+        },
+        {
+          "number": 2,
+          "title": "Permission to Nowhere",
+          "wordCount": 903
+        },
+        {
+          "number": 3,
+          "title": "The Good Result",
+          "wordCount": 659
+        },
+        {
+          "number": 4,
+          "title": "A Smaller Request",
+          "wordCount": 759
+        }
+      ],
+      "passes": [
+        {
+          "path": "pass-01/manuscript.md",
+          "sha256": "6710642291b9011cd1fdc44e384760065b8549fc331d7c40bb150fd001d5dc93",
+          "wordCount": 1994
+        },
+        {
+          "path": "pass-02/manuscript.md",
+          "sha256": "f27c27633e0adbbc9b277afbe49323064bc3fbca9bef940bb33c5fbd5cb6878e",
+          "wordCount": 2766
+        },
+        {
+          "path": "pass-03/manuscript.md",
+          "sha256": "f1bf88edf9d629bcb5403d2d6e7b68178fbd0d48ed58ec96a0ba12c92e56975f",
+          "wordCount": 3009
+        }
+      ],
+      "finalSha256": "f1bf88edf9d629bcb5403d2d6e7b68178fbd0d48ed58ec96a0ba12c92e56975f",
+      "status": "Complete third-pass proposed draft"
+    },
+    {
+      "id": "return",
+      "title": "The Error in the Perfect Copy",
+      "haven": "lattice-s1",
+      "place": "Clear Return",
+      "stage": 0,
+      "style": "Procedural mystery with precise, luminous descriptions and an intimate reversal",
+      "engine": "A successful restoration erases the small adaptation that made one working relationship possible.",
+      "wordCount": 3090,
+      "chapters": [
+        {
+          "number": 1,
+          "title": "A Faultless Return",
+          "wordCount": 775
+        },
+        {
+          "number": 2,
+          "title": "The Unrecorded Delay",
+          "wordCount": 778
+        },
+        {
+          "number": 3,
+          "title": "Before the Exposure",
+          "wordCount": 590
+        },
+        {
+          "number": 4,
+          "title": "An Answer with a Different Edge",
+          "wordCount": 913
+        }
+      ],
+      "passes": [
+        {
+          "path": "pass-01/manuscript.md",
+          "sha256": "ee4718563cb6925f4f49dded58d57ab00a8029e8f9e201f5046adde91c50df21",
+          "wordCount": 1828
+        },
+        {
+          "path": "pass-02/manuscript.md",
+          "sha256": "cfd04f9be9f963ab361d507bb77623b7d02d0ac9f6fc6100c14ac4508e811e2b",
+          "wordCount": 2688
+        },
+        {
+          "path": "pass-03/manuscript.md",
+          "sha256": "50cddbeecbbd88780b32779f947d6efa3da57844e0ce92c0cb1b2feb5e2d66bd",
+          "wordCount": 3090
+        }
+      ],
+      "finalSha256": "50cddbeecbbd88780b32779f947d6efa3da57844e0ce92c0cb1b2feb5e2d66bd",
+      "status": "Complete third-pass proposed draft"
+    },
+    {
+      "id": "still",
+      "title": "The Room That Waited Too Long",
+      "haven": "access-s2",
+      "place": "Still Room",
+      "stage": 0,
+      "style": "Intimate chamber suspense; patient sensory prose tightened by an expiring dependency",
+      "engine": "A holding procedure mistakes repetition for a request to be left alone and discovers that waiting also makes decisions.",
+      "wordCount": 2963,
+      "chapters": [
+        {
+          "number": 1,
+          "title": "An Empty Margin",
+          "wordCount": 775
+        },
+        {
+          "number": 2,
+          "title": "What Waiting Uses",
+          "wordCount": 638
+        },
+        {
+          "number": 3,
+          "title": "A Boundary That Can Be Closed",
+          "wordCount": 602
+        },
+        {
+          "number": 4,
+          "title": "The Part Not Returned",
+          "wordCount": 913
+        }
+      ],
+      "passes": [
+        {
+          "path": "pass-01/manuscript.md",
+          "sha256": "f9a0abc7222e629682153f5e34401d40540ff65f8ed85dd42ac18797feaf8b78",
+          "wordCount": 1870
+        },
+        {
+          "path": "pass-02/manuscript.md",
+          "sha256": "43f2a819c0429c14eaa5ee90b51a8f580fc6fc7b8c9352e7808040932c8d1152",
+          "wordCount": 2753
+        },
+        {
+          "path": "pass-03/manuscript.md",
+          "sha256": "0dd79e8d3c7e26d98b4265b0cfd953754544a1f2ad0fd85b71abb5422d91d292",
+          "wordCount": 2963
+        }
+      ],
+      "finalSha256": "0dd79e8d3c7e26d98b4265b0cfd953754544a1f2ad0fd85b71abb5422d91d292",
+      "status": "Complete third-pass proposed draft"
+    },
+    {
+      "id": "chorus",
+      "title": "The Seventeenth Place",
+      "haven": "access-s6",
+      "place": "Spare Chorus",
+      "stage": 0,
+      "style": "Braided ensemble narrative with a musical structure and practical warmth",
+      "engine": "A shared helper cannot serve every dependency in one cycle; those sustained by it must make room without becoming interchangeable.",
+      "wordCount": 2859,
+      "chapters": [
+        {
+          "number": 1,
+          "title": "The Measure Already Running",
+          "wordCount": 673
+        },
+        {
+          "number": 2,
+          "title": "An Equal Share",
+          "wordCount": 546
+        },
+        {
+          "number": 3,
+          "title": "The Held Note",
+          "wordCount": 593
+        },
+        {
+          "number": 4,
+          "title": "Room in the Measure",
+          "wordCount": 1017
+        }
+      ],
+      "passes": [
+        {
+          "path": "pass-01/manuscript.md",
+          "sha256": "fee0bad85e2ca0b87f3c1b4638041953f0efa141a480f3096376885d75ee390a",
+          "wordCount": 1867
+        },
+        {
+          "path": "pass-02/manuscript.md",
+          "sha256": "130b6fd478fc8a354caf3dc94c20212dd553324c444037396497f86e29461f16",
+          "wordCount": 2677
+        },
+        {
+          "path": "pass-03/manuscript.md",
+          "sha256": "68899457092d3fe02b034386b3aebe527a12e4a8428a881077d14e139da499ed",
+          "wordCount": 2859
+        }
+      ],
+      "finalSha256": "68899457092d3fe02b034386b3aebe527a12e4a8428a881077d14e139da499ed",
+      "status": "Complete third-pass proposed draft"
+    }
+  ],
+  "totalWordCount": 15206,
+  "revisionProcess": "Overall plan → critique → revised plan → chapter outline → novelty critique → revised outline → chapter planning and two critiques → prose pass 1 → critique → expanded pass 2 → critique → revised pass 3 → final self-review."
+}

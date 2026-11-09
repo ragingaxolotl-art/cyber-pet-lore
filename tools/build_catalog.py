@@ -138,6 +138,9 @@ add_aru_revision(ROOT,catalog,sources)
 from build_catalistym import add_catalistym
 add_catalistym(ROOT,catalog,sources)
 
+from build_haven_stories import add_haven_stories
+add_haven_stories(ROOT,catalog,sources)
+
 # Place facets use exact named-place mentions, not inferred geography.
 from build_dba_decline import add_dba_decline
 add_dba_decline(ROOT,catalog,sources)

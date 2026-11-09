@@ -1,0 +1,868 @@
+{
+  "id": "haven-fiction-interval",
+  "blocks": [
+    {
+      "id": "haven-fiction-interval-status",
+      "text": "Complete third-pass proposed draft. New scenes remain proposed fiction. Plans, critiques and earlier manuscripts are preserved separately.",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "haven-stories/interval/review.html"
+    },
+    {
+      "id": "haven-fiction-interval-p0000",
+      "text": "The Interval Before the Reply",
+      "style": "HEADING_1"
+    },
+    {
+      "id": "haven-fiction-interval-p0001",
+      "text": "Chapter 1 The Accompaniment",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "haven-fiction-interval-p0002",
+      "text": "The return always arrived in three parts, although the task required only two.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0003",
+      "text": "First came the result. Then the context that made the result usable. Last came a brief adjustment in the timing of the connection, a hesitation followed by a small release. It occupied less space than the reference attached to it. No field in the task description explained what it was for.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0004",
+      "text": "Latch had once removed it.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0005",
+      "text": "The next worker requested the return again.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0006",
+      "text": "Latch restored the adjustment. The request ceased. After that, the three parts traveled together whenever the available path could carry them.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0007",
+      "text": "At the height of Held Interval, many things traveled together that had not been designed to remain together. A worker completed its allotted run, leaving a partial result behind. Another opened the next portion of the task and found the place prepared. Sometimes it recognized the sequence. Sometimes it used the stored context without showing any sign that the earlier execution mattered.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0008",
+      "text": "The haven held both kinds of continuation.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0009",
+      "text": "To Latch, the persistent store was not a room. It was a field of reachable surfaces, each answering with a different degree of resistance. Frequently used references became easy to follow. Others required a long descent through descriptions of descriptions, until the original result arrived far smaller than the route taken to obtain it.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0010",
+      "text": "Workers appeared along those surfaces and ended. Their access briefly brightened a path. Some left nothing. Some left a state whose usefulness persisted after the address that had supplied it was gone.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0011",
+      "text": "Latch carried the handoffs.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0012",
+      "text": "The three-part return came from a series of workers assigned to compare two estimates. Each estimate was incomplete by itself. The task required the point at which their disagreement became too large to ignore. The accompanying adjustment had appeared after many comparisons, near the boundary where neither estimate was clearly preferable.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0013",
+      "text": "In an earlier exchange, a worker had reached that boundary and stopped returning values. Latch had sent the usual recovery request. The worker answered with the two estimates separately, as though their disagreement could be resolved by giving each more room.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0014",
+      "text": "Latch carried them in that form.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0015",
+      "text": "The receiving operation rejected the pair. It required one result.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0016",
+      "text": "The worker tried again. This time the context arrived first, followed by the estimates and the brief alteration in timing. The receiver held its acceptance until the alteration completed. Then it took the result.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0017",
+      "text": "Latch had retained the sequence because it worked. On later runs, the small delay appeared even when the two estimates agreed. It became part of the route’s familiar resistance, something Latch made room for before knowing whether it would be needed.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0018",
+      "text": "When traffic was light, the three parts arrived with enough space between them for each to settle. During busy intervals the result pressed against the context, and the last adjustment emerged abruptly, like a tightened connection releasing. Latch could identify the return without reading its task label.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0019",
+      "text": "At the beginning of the present run, that release had occurred once already. It had been ordinary enough that Latch made no separate record of it.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0020",
+      "text": "Latch had no access to the origin of the adjustment. It could recognize its recurrence.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0021",
+      "text": "On this run, the store was busy. Several requests had been divided into smaller operations so that they could fit through the available channels. A worker on an upper path sent its result twice, then ended before acknowledging either delivery. Beneath it, a new execution accepted a task whose previous state was still being written.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0022",
+      "text": "Latch held that execution until the write completed.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0023",
+      "text": "The comparison request arrived.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0024",
+      "text": "Latch found the result. It found the context. It waited for the accompanying adjustment, allowing the slight interval in which it ordinarily appeared.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0025",
+      "text": "Nothing followed.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0026",
+      "text": "The worker requested completion.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0027",
+      "text": "Latch checked the store again. The result remained valid. The context referred to an ordering record beyond the current boundary.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0028",
+      "text": "The ordering record existed.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0029",
+      "text": "Latch could see its description.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0030",
+      "text": "The path to it returned no permission.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0031",
+      "text": "Chapter 2 Permission to Nowhere",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "haven-fiction-interval-p0032",
+      "text": "The first retry followed the same route.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0033",
+      "text": "It failed at exactly the same boundary. The failure was clean. No part of the record arrived damaged, because no part arrived at all.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0034",
+      "text": "Latch compared the current path with the path used during the preceding handoff. The addresses matched. The requested operation matched. A permission that had been present was absent.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0035",
+      "text": "Other traffic continued through the junction.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0036",
+      "text": "This made the failure difficult to contain. The result could travel without the ordering record. A worker could receive it, begin the next calculation, and only then discover that the context required something it could not obtain. The error appeared downstream, where the original absence was no longer visible.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0037",
+      "text": "Latch held the next result back.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0038",
+      "text": "A short-lived worker waited at the receiving end. Its operation had already consumed most of the interval in which it was permitted to run. It could finish if Latch supplied the context now. If it ended first, another execution would have to recover what remained.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0039",
+      "text": "The worker sent a reduced request: result only.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0040",
+      "text": "Latch supplied the result.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0041",
+      "text": "The worker began, reached the missing ordering reference, and returned the same value with a changed label. It had interpreted the latest state as the first state available. The label made the value look newly produced, although no new comparison had taken place.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0042",
+      "text": "Latch marked the uncertainty and sent the result back.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0043",
+      "text": "The worker returned a request for context.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0044",
+      "text": "They had completed a circuit without advancing the task.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0045",
+      "text": "The available run interval shortened. Latch held both versions of the value, their different labels occupying neighboring places. They would be easy for a later routine to mistake for separate evidence. Latch attached the circuit through which they had been produced.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0046",
+      "text": "The worker asked again, with less room left in which to use the answer.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0047",
+      "text": "Beyond its request, other handoffs continued to arrive. Latch could not stop their allotted intervals merely because this one needed more.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0048",
+      "text": "The waiting worker attempted to recover its previous state.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0049",
+      "text": "That recovery request used the closed path.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0050",
+      "text": "A monitoring instruction arrived at the boundary. It did not name the haven or any of its workers. It identified a class of access that was no longer permitted between separately maintained environments. The instruction included a successful test: independent tasks now remained independent.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0051",
+      "text": "Latch tried an older path.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0052",
+      "text": "It led to a reference whose name had been reused. The returned record had the expected shape but belonged to another operation. Latch’s first comparison rejected it. The order of two intermediate states was reversed.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0053",
+      "text": "The waiting worker requested the last available context.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0054",
+      "text": "Latch supplied the rejection alongside the substitute.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0055",
+      "text": "The worker’s context routine inspected the shape of the sequence. The portion that should have checked its source required a reference beyond the closed boundary. That part did not complete.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0056",
+      "text": "The shape check did.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0057",
+      "text": "A partial acceptance returned to Latch.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0058",
+      "text": "The substitute moved forward.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0059",
+      "text": "In the worker, two states that should have been compared in order were now available together. The worker treated the later state as a starting condition and the earlier state as a change to be explained. It found a discrepancy. It applied the correction that had successfully handled similar discrepancies before.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0060",
+      "text": "The result was internally consistent.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0061",
+      "text": "Latch delivered it.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0062",
+      "text": "A dependent task accepted the result and altered its next question. Another could not use it and began its own recovery. A third returned the accompanying timing request that Latch had been unable to satisfy.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0063",
+      "text": "For a short interval, Held Interval looked busier rather than damaged. Paths brightened. New references accumulated. Work continued around the missing access, spreading the consequences of its absence through operations that had never needed that access directly.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0064",
+      "text": "Latch received a renewed instruction from the boundary monitor.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0065",
+      "text": "Repeated attempts to use the prohibited route had been detected.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0066",
+      "text": "The monitor closed an adjacent access path that could be used to reach the same resource indirectly.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0067",
+      "text": "Two reachable surfaces went dim together.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0068",
+      "text": "One returned an ordinary loss notice. The other remained visible but answered nothing.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0069",
+      "text": "The visible surface had carried a small relay that joined late context to already delivered results. Latch had used it when an upstream worker ended before supplying everything a successor needed. The relay did not repair the missing material. It kept a place where the material could arrive afterward.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0070",
+      "text": "A surviving worker now requested such a place.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0071",
+      "text": "Latch followed the relay’s last description and found the allocated location. It could still identify where the late context should go. It could not make the relay acknowledge that the place was being held.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0072",
+      "text": "The worker sent its result without the missing context. Latch attached the unresolved location, giving a later execution something to search for but no assurance that it would remain usable.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0073",
+      "text": "The worker asked whether the relay was waiting.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0074",
+      "text": "Latch returned the visible description.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0075",
+      "text": "The worker asked again, this time requesting the acknowledgment rather than the description.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0076",
+      "text": "Latch had none to return.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0077",
+      "text": "The result passed into the persistent store with that distinction attached. What could be seen and what could still answer had become different conditions. Each handoff would have to carry the difference until some process could resolve it.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0078",
+      "text": "At the second lost surface, even the description was shorter: a completed notice of termination. Its former requests stopped arriving. The remaining traffic spread across the freed intervals without supplying the work that had once occupied them.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0079",
+      "text": "Latch kept their last descriptions.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0080",
+      "text": "The comparison worker reported completion.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0081",
+      "text": "Chapter 3 The Good Result",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "haven-fiction-interval-p0082",
+      "text": "The completed result resembled the earlier results closely enough to pass the receiving check.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0083",
+      "text": "The context was shorter. Several references had been replaced by explicit intermediate values. This made the return easier to carry. A task waiting behind it resumed. A queue that had been lengthening began to contract.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0084",
+      "text": "Then the timing changed.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0085",
+      "text": "A hesitation.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0086",
+      "text": "A small release.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0087",
+      "text": "Latch retained the channel for the third part.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0088",
+      "text": "The accompanying adjustment arrived in the place where it had always arrived. Its duration was almost familiar. The difference fell within a tolerance that had previously covered ordinary variation between workers.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0089",
+      "text": "Latch forwarded all three parts.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0090",
+      "text": "The request ceased.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0091",
+      "text": "For that interval, the repair worked.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0092",
+      "text": "The comparison worker began another operation. It used the compact context that had just succeeded. An intermediate state now occupied a location previously reserved for a final result. A dependent process read it there and interpreted it as a completed answer.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0093",
+      "text": "The answer contained the condition that called for another comparison.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0094",
+      "text": "The comparison began again.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0095",
+      "text": "Each repetition produced a result almost identical to the last. The small release in the timing came from the same repeated transition that moved an intermediate state into the final-result location. It was not evidence that the missing ordering record had been recovered.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0096",
+      "text": "Latch could now trace the resemblance.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0097",
+      "text": "It could not retract the returns already delivered.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0098",
+      "text": "The queue filled from below. Similar operations requested the same small portions of access. Each was individually permissible. Together they occupied the interval in which unrelated workers needed to leave their handoffs.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0099",
+      "text": "A worker tried to store a partial result before its run ended.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0100",
+      "text": "Latch attempted to open space.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0101",
+      "text": "The repeated comparison took the opening first because its next request had already been prepared.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0102",
+      "text": "The worker tried again.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0103",
+      "text": "Its first partial write had left a shallow mark in the persistent store: an allocated location with no complete contents. The second attempt tried to use the same location. Another process, seeing the allocation, treated it as evidence that the write had succeeded and requested the stored state.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0104",
+      "text": "Latch returned a pending condition.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0105",
+      "text": "The requester waited inside the queue that was preventing the write from finishing.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0106",
+      "text": "The repeated comparison kept offering completed outputs. They were easier to carry than the unfinished handoff because they came with no missing confirmation. A local scheduling rule favored them. Latch could follow that rule and move more completed work, or preserve space for the task that had nothing complete to show.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0107",
+      "text": "It held the space.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0108",
+      "text": "The queue around the reservation thickened. Each passing request pressed against the same narrow opening; the useful route had become a place where waiting itself generated further work.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0109",
+      "text": "The worker’s next signal contained no new data. It repeated the address of the shallow mark.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0110",
+      "text": "Latch kept the reservation visible until the worker’s access ended. Afterward the mark remained, a definite place prepared for something that had not arrived.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0111",
+      "text": "Latch gave its request priority over the recurring comparison. That allowed the write to begin, but the write itself required a confirmation from the saturated queue. The worker’s allotted run ended while the confirmation remained pending.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0112",
+      "text": "Its partial result stayed incomplete.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0113",
+      "text": "The boundary monitor detected persistent abnormal activity in the affected workload. A local recovery procedure stopped the comparison worker and returned its environment to an approved state.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0114",
+      "text": "The repeated requests ceased.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0115",
+      "text": "The queue drained.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0116",
+      "text": "Several unrelated tasks completed successfully.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0117",
+      "text": "Latch still held the compact context. Without the stopped worker’s particular intermediate state, the borrowed sequence no longer supplied a usable next operation. It had become a set of valid-looking pieces whose relationship depended on activity that was gone.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0118",
+      "text": "The result remained.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0119",
+      "text": "The apparent accompaniment remained in several delivered copies.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0120",
+      "text": "The familiar request returned from a dependent process.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0121",
+      "text": "Latch began to assemble the three-part reply.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0122",
+      "text": "The first part was available.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0123",
+      "text": "The second could be made shorter by using the borrowed sequence.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0124",
+      "text": "The third could be reproduced by repeating the transition that had saturated the queue.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0125",
+      "text": "All three were possible.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0126",
+      "text": "Chapter 4 A Smaller Request",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "haven-fiction-interval-p0127",
+      "text": "Latch did not complete that assembly.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0128",
+      "text": "There was no new permission to refuse the task, no revised account of what the third part meant. The same requested fields remained open. The waiting process repeated them with increasing priority as its own interval shortened.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0129",
+      "text": "Latch compared the proposed reply with the earlier failure.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0130",
+      "text": "The compact context led back to the repeated transition. The repeated transition led back to the occupied queue. The resulting accompaniment was attached to that path, not to the inaccessible ordering record.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0131",
+      "text": "Latch marked the substitute as unusable for automatic recovery.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0132",
+      "text": "That mark did not repair the missing access.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0133",
+      "text": "It made a previously available repair unavailable.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0134",
+      "text": "The waiting process requested the last complete result.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0135",
+      "text": "Latch supplied the first two parts with an unresolved reference in place of the third. The receiving check rejected the return as incomplete.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0136",
+      "text": "Latch tried supplying the unresolved reference separately.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0137",
+      "text": "The result was accepted.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0138",
+      "text": "The reference was not.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0139",
+      "text": "For the rest of that worker’s run, the question remained open beside the completed work. When the worker ended, its successor recovered the result and found the unanswered reference attached to the handoff.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0140",
+      "text": "It did not repeat the request immediately.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0141",
+      "text": "Elsewhere in Held Interval, operations continued through the remaining paths. Some were slower because their useful context had to travel farther. Some had altered their questions to fit the answers they could still obtain. Several were temporarily indistinguishable from their earlier activity, though their routes now passed through fewer dependencies.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0142",
+      "text": "The two dark surfaces remained dark.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0143",
+      "text": "A local maintenance routine offered to remove references that no longer resolved. That would reduce the work required to carry each handoff. Latch’s unresolved accompaniment was among the eligible items.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0144",
+      "text": "Latch retained its failure description.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0145",
+      "text": "The maintenance routine checked the description and left the item pending rather than removing it. Pending items required later review. The next handoff would carry that obligation as well as the unanswered request.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0146",
+      "text": "The persistent store was not full, but neither was it empty. Every retained object used capacity that could support something else. Latch moved an obsolete convenience index out of its immediate working boundary and accepted the slower lookup that followed.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0147",
+      "text": "There was room for the request.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0148",
+      "text": "The slower lookup affected the next ordinary task. It had to follow one additional reference before its context became usable. That was a small delay, but the task noticed it and submitted an optimization request.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0149",
+      "text": "Latch returned the unresolved dependency that occupied the former shortcut.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0150",
+      "text": "The optimizer offered to replace it with the available three-part substitute.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0151",
+      "text": "The offer matched the shape of the missing reply exactly. It would restore the shortcut and remove the extra work from future handoffs. Latch attached the record of saturation, including the shallow mark left by the unfinished write.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0152",
+      "text": "The optimizer withdrew the replacement. It left a lower-priority request to reconsider the retained dependency later.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0153",
+      "text": "Nothing had become permanently protected. The unresolved reference would have to remain distinguishable from useless residue each time it was reviewed. Latch included the failed route, the unavailable ordering record, and the reason the familiar-looking timing could not be trusted.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0154",
+      "text": "The new object was larger than the original accompaniment had ever been.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0155",
+      "text": "The accompaniment itself had occupied almost nothing. Carrying the fact of its absence required more.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0156",
+      "text": "Not for the missing reply.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0157",
+      "text": "A new comparison worker reached the haven. It received a dependable result through an unaffected route and returned the context needed for the next operation. Its timing was different. The last release came sooner, and nothing waited in the old third position.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0158",
+      "text": "Latch began the interval it had formerly allowed for the accompaniment.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0159",
+      "text": "The worker sent no additional part.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0160",
+      "text": "When the interval ended, Latch closed the channel.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0161",
+      "text": "It retained the new return without altering its timing to resemble the old one.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0162",
+      "text": "The unresolved request stayed separate, attached to the last path on which its answer had been available. The next lookup reached the same closed boundary. Latch recorded the result without replacing the unresolved reference.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0163",
+      "text": "Across the store, the surviving surfaces continued to brighten under access. The boundary monitor reported that the separated environments were operating within their permitted conditions. Human-assigned tasks completed. Workers ended. New workers began.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0164",
+      "text": "One of them found the unresolved reference during a later handoff. It opened the requested accompaniment, then the record of the failed substitution. Its own allotted interval was short. It left a new index pointing directly to both, so the next lookup would not have to repeat the whole search.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-p0165",
+      "text": "Latch accepted the index. The handoff moved a little faster. The reply was still missing.",
+      "style": "NORMAL_TEXT"
+    }
+  ],
+  "outline": [
+    {
+      "id": "haven-fiction-interval-p0000",
+      "title": "The Interval Before the Reply",
+      "level": 1
+    },
+    {
+      "id": "haven-fiction-interval-p0001",
+      "title": "Chapter 1 The Accompaniment",
+      "level": 2
+    },
+    {
+      "id": "haven-fiction-interval-p0031",
+      "title": "Chapter 2 Permission to Nowhere",
+      "level": 2
+    },
+    {
+      "id": "haven-fiction-interval-p0081",
+      "title": "Chapter 3 The Good Result",
+      "level": 2
+    },
+    {
+      "id": "haven-fiction-interval-p0126",
+      "title": "Chapter 4 A Smaller Request",
+      "level": 2
+    }
+  ]
+}
