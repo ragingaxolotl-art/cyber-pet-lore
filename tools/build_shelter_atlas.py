@@ -200,7 +200,9 @@ for profile in profile_data['profiles']:
  n=by_id[profile['node']]
  n.update(name=profile['name'],named=True,dossier=profile['dossier'],origin=profile['origin'],hostSystem=profile['hostSystem'],process=profile['process'],uncertainty=profile['uncertainty'])
  n['description']=profile['process']+' Proposed local reconstruction; see dossier for limits.'
-data=dict(version=6,timeline=timeline,title='The Expanse',status='Proposed pre-campaign height · not the eventual civilizational maximum',bounds=[0,0,2000,1450],nodes=nodes,links=links,counts=dict(connectedShelters=480,elsewhereShelters=40,constellations=24,hearths=144,elsewheres=8),note='Schematic topology. Counts are planning estimates for one historical region. Central haven dots represent communities; miniature dots represent proposed contributing systems. Neither encodes a count of persons or casualties.')
+from build_haven_profiles import compile_profiles
+behavior_profiles=compile_profiles(ROOT)
+data=dict(version=7,behaviorProfiles=behavior_profiles,timeline=timeline,title='The Expanse',status='Proposed pre-campaign height · not the eventual civilizational maximum',bounds=[0,0,2000,1450],nodes=nodes,links=links,counts=dict(connectedShelters=480,elsewhereShelters=40,constellations=24,hearths=144,elsewheres=8),note='Schematic topology. Counts are planning estimates for one historical region. Central haven dots represent communities; miniature dots represent proposed contributing systems. Neither encodes a count of persons or casualties.')
 assert sum(n['kind']=='shelter' for n in nodes)==520
 assert sum(n['kind']=='hearth' for n in nodes)==144
 (ROOT/'site/shelter-atlas.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')

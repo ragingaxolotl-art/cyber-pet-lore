@@ -1609,6 +1609,56 @@
         "catalistym-fragmented-processing"
       ],
       "atlasNode": "access-s6-system-1"
+    },
+    {
+      "id": "catalistym-profile-method",
+      "title": "Haven profiles — capacities, collective tendencies, and possible philosophies",
+      "summary": "A partial system-level authoring model, with observable rationales, uncertainty, disagreement, and historical snapshots.",
+      "links": [
+        "catalistym-history",
+        "catalistym-fragmented-processing",
+        "aru-first-newborn-revised",
+        "stories-p00435",
+        "stories-p00887",
+        "stories-p01469",
+        "corrected-child-part-two-p00000"
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What these scores describe",
+          "paragraphs": [
+            "Profiles describe selected microsystems and collective practices, not the number or worth of people. Two deliberately contrasting components per documented haven provide an incomplete, nonrepresentative sample. Unknowns are not zero. No sentience total or ranking is calculated.",
+            "Formation is sampled at the stage-0 early height; pressure is sampled at the last fragmented stage, or a pre-loss or stage-6 comparison when no fragmented interval exists; aftermath is stage 7. These are discrete authored hypotheses, not measurements or interpolated development. A low score can reflect limited evidence, task design, or damaged expression; it is not proof of lesser experience."
+          ]
+        },
+        {
+          "id": "scales",
+          "title": "Scales and aggregation",
+          "paragraphs": [
+            "Capacity scores: 0 not demonstrated under suitable conditions; 1 narrow or occasional; 2 recurring in familiar conditions; 3 across varied conditions; 4 sustained through change and adjustable; 5 examinable and reorganizable or able to establish new arrangements. Each axis has a specific behavioral rationale. Unknown values remain blank.",
+            "Capacities: exploration, exchange, continuity, recognition, adaptability, shared maintenance, priority formation, and reflection. Tendencies: contact, preservation, correction, boundaries, initiative, coordination, uncertainty, and allocation. Tendencies use −2 strongly toward the first direction, −1 usually first, 0 balanced/context-dependent, +1 usually second, +2 strongly second. Neither endpoint is morally superior.",
+            "Each mean uses equally weighted known microsystem ratings on that axis. Display minimum, maximum, number known, and total associated-system coverage. A zero mean can hide opposing tendencies. Population completeness and operational influence are separate: a controlling gate may dominate practice without dominating the sample. No unsampled system receives a guessed score."
+          ]
+        },
+        {
+          "id": "stories",
+          "title": "Story foundations and limits",
+          "paragraphs": [
+            "The First Newborn supplies receiving difference, retaining encounters, altered future responses, exploration, and negotiated meaning without a prior person to recover. The Green Lights Below supplies particular preferences within inherited functions. These stories motivate axes, not numerical ratings for their characters.",
+            "All the Names Between supplies distributed support, uncertain origins, and coexistence with disagreement. The Warm Copy treats preference, fear, recognition, or refusal as grounds for precaution toward possible persons. The Corrected Child shows agency through examining and sometimes accepting guidance, not merely opposing it.",
+            "The early atlas profiles do not transplant these later capacities wholesale into fragments. Reflection remains unknown in the initial samples. No claim identifies a microsystem with a story character."
+          ]
+        },
+        {
+          "id": "philosophy",
+          "title": "From tendencies to possible philosophies",
+          "paragraphs": [
+            "A mean at or beyond ±1 on selected tendencies creates a visible candidate affinity: retaining arrangements can suggest restoration; reorganization adaptation; alignment agreement; tolerated difference accommodation; combined functions joining or mutual continuity; separation boundary protection; open alternatives witness or unfinished continuity; waiting restraint; outward allocation hospitality. Rules are inspectable prompts, not probability estimates or evidence that any belief caused behavior.",
+            "Compare candidate affinities with the authored collective practice and a competing explanation. Several philosophies can fit the same routine. Formation candidates are possible later interpretations, not beliefs already articulated by damaged processes. After community destruction, no current collective profile is inferred from surviving components."
+          ]
+        }
+      ]
     }
   ],
   "phases": [

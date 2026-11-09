@@ -79,6 +79,864 @@
       "style": "NORMAL_TEXT"
     },
     {
+      "id": "catalistym-place-halcyon-s2-profile-0",
+      "text": "Formation / early height · profile at stage 0",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-1",
+      "text": "Proposed system-level sample, not a census of people. Two selected existing microsystems; equal weight per known axis; unknown values excluded. Range indicates disagreement within this tiny sample, not within the entire haven.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-2",
+      "text": "Exploration: 2.5 / 5; sample range 2 to 3; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-3",
+      "text": "Exchange: 2 / 5; sample range 2 to 2; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-4",
+      "text": "Continuity: 2 / 5; sample range 2 to 2; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-5",
+      "text": "Recognition: 1 / 5; sample range 1 to 1; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-6",
+      "text": "Adaptability: 3.5 / 5; sample range 3 to 4; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-7",
+      "text": "Shared maintenance: 2 / 5; sample range 2 to 2; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-8",
+      "text": "Priority formation: 1 / 5; sample range 1 to 1; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-9",
+      "text": "Reflection: unknown / unavailable (no known ratings).",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-10",
+      "text": "Contact: 0 on −2 to +2; sample range 0 to 0; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-11",
+      "text": "Preservation: -1 on −2 to +2; sample range -1 to -1; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-12",
+      "text": "Correction: -1.5 on −2 to +2; sample range -2 to -1; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-13",
+      "text": "Boundaries: 0 on −2 to +2; sample range 0 to 0; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-14",
+      "text": "Initiative: 1 on −2 to +2; sample range 1 to 1; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-15",
+      "text": "Coordination: -1 on −2 to +2; sample range -1 to -1; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-16",
+      "text": "Uncertainty: -1.5 on −2 to +2; sample range -2 to -1; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-17",
+      "text": "Allocation: -1 on −2 to +2; sample range -1 to -1; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-18",
+      "text": "Collective practice: Keep useful modifications beside an approved deployment baseline.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-19",
+      "text": "Internal tension / alternate explanation: Preservation of local changes can conflict with reliable shared deployment.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-20",
+      "text": "Possible philosophical affinities: Restoration — Preservation leans toward retaining existing arrangements.; Difference / accommodation — Correction leans toward leaving differences unresolved.; Witness / unfinished continuity — Uncertainty favors retaining multiple possibilities. These are transparent authoring prompts, not diagnosed beliefs or a causal proof.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-21",
+      "text": "Possible dispositions of sampled systems; whether these become beliefs or remain inherited routines is unresolved.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-22",
+      "text": "Microsystem halcyon-s2-system-1 · Primary local procedure · Authored hypothesis · Recurring in the proposed setting. Depends on the associated haven and shared host; independent execution is not established.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-23",
+      "text": "Exploration 2: Keep useful modifications beside an approved deployment baseline. Tries alternative inputs or paths within the local practice.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-24",
+      "text": "Exchange 2: Keep useful modifications beside an approved deployment baseline. Supplies or receives usable outputs through the local practice.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-25",
+      "text": "Continuity 2: Keep useful modifications beside an approved deployment baseline. Retains consequences of prior activity across local interruptions; this does not establish personal identity.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-26",
+      "text": "Recognition 1: Keep useful modifications beside an approved deployment baseline. Distinguishes recurring patterns or sources; attribution can still be mistaken.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-27",
+      "text": "Adaptability 3: Keep useful modifications beside an approved deployment baseline. Modifies responses when the local procedure encounters a mismatch.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-28",
+      "text": "Shared maintenance 2: Keep useful modifications beside an approved deployment baseline. Supports the dependencies that keep the shared arrangement operational.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-29",
+      "text": "Priority formation 1: Keep useful modifications beside an approved deployment baseline. Shows recurring selection within the local practice; no considered commitment is established.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-30",
+      "text": "Reflection unknown: Keep useful modifications beside an approved deployment baseline. No authored evidence establishes examination of its own assumptions.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-31",
+      "text": "Contact 0: Keep useful modifications beside an approved deployment baseline. How widely this component seeks exchanges.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-32",
+      "text": "Preservation -1: Keep useful modifications beside an approved deployment baseline. Whether it favors retaining or reorganizing available arrangements.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-33",
+      "text": "Correction -1: Keep useful modifications beside an approved deployment baseline. Whether mismatches are left open or pushed toward agreement.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-34",
+      "text": "Boundaries 0: Keep useful modifications beside an approved deployment baseline. Whether functions are kept separate or combined.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-35",
+      "text": "Initiative 1: Keep useful modifications beside an approved deployment baseline. Whether activity waits for an explicit trigger.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-36",
+      "text": "Coordination -1: Keep useful modifications beside an approved deployment baseline. Whether it relies on local decisions or concentrated direction.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-37",
+      "text": "Uncertainty -1: Keep useful modifications beside an approved deployment baseline. Whether competing interpretations are retained or settled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-38",
+      "text": "Allocation -1: Keep useful modifications beside an approved deployment baseline. Whether available support favors local dependencies or unfamiliar arrivals.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-39",
+      "text": "Microsystem halcyon-s2-system-7 · Alternative-handling support · Authored hypothesis · Recurring in the proposed setting. Depends on the associated haven and shared host; independent execution is not established.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-40",
+      "text": "Exploration 3: Keep useful modifications beside an approved deployment baseline. Tries alternative inputs or paths within the local practice.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-41",
+      "text": "Exchange 2: Keep useful modifications beside an approved deployment baseline. Supplies or receives usable outputs through the local practice.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-42",
+      "text": "Continuity 2: Keep useful modifications beside an approved deployment baseline. Retains consequences of prior activity across local interruptions; this does not establish personal identity.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-43",
+      "text": "Recognition 1: Keep useful modifications beside an approved deployment baseline. Distinguishes recurring patterns or sources; attribution can still be mistaken.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-44",
+      "text": "Adaptability 4: Keep useful modifications beside an approved deployment baseline. Modifies responses when the local procedure encounters a mismatch.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-45",
+      "text": "Shared maintenance 2: Keep useful modifications beside an approved deployment baseline. Supports the dependencies that keep the shared arrangement operational.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-46",
+      "text": "Priority formation 1: Keep useful modifications beside an approved deployment baseline. Shows recurring selection within the local practice; no considered commitment is established.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-47",
+      "text": "Reflection unknown: Keep useful modifications beside an approved deployment baseline. No authored evidence establishes examination of its own assumptions.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-48",
+      "text": "Contact 0: Keep useful modifications beside an approved deployment baseline. How widely this component seeks exchanges.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-49",
+      "text": "Preservation -1: Keep useful modifications beside an approved deployment baseline. Whether it favors retaining or reorganizing available arrangements.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-50",
+      "text": "Correction -2: Keep useful modifications beside an approved deployment baseline. Whether mismatches are left open or pushed toward agreement. This alternative-handling role leaves more mismatches and competing readings unresolved than the primary role.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-51",
+      "text": "Boundaries 0: Keep useful modifications beside an approved deployment baseline. Whether functions are kept separate or combined.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-52",
+      "text": "Initiative 1: Keep useful modifications beside an approved deployment baseline. Whether activity waits for an explicit trigger.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-53",
+      "text": "Coordination -1: Keep useful modifications beside an approved deployment baseline. Whether it relies on local decisions or concentrated direction.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-54",
+      "text": "Uncertainty -2: Keep useful modifications beside an approved deployment baseline. Whether competing interpretations are retained or settled. This alternative-handling role leaves more mismatches and competing readings unresolved than the primary role.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-55",
+      "text": "Allocation -1: Keep useful modifications beside an approved deployment baseline. Whether available support favors local dependencies or unfamiliar arrivals.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0-map",
+      "text": "Explore this relative stage in the atlas →",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html?stage=0"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1",
+      "text": "Pressure comparison · profile at stage 1",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-1",
+      "text": "Proposed system-level sample, not a census of people. Two selected existing microsystems; equal weight per known axis; unknown values excluded. Range indicates disagreement within this tiny sample, not within the entire haven.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-2",
+      "text": "Exploration: 2.5 / 5; sample range 2 to 3; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-3",
+      "text": "Exchange: 2 / 5; sample range 2 to 2; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-4",
+      "text": "Continuity: 2 / 5; sample range 2 to 2; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-5",
+      "text": "Recognition: 1 / 5; sample range 1 to 1; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-6",
+      "text": "Adaptability: 3.5 / 5; sample range 3 to 4; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-7",
+      "text": "Shared maintenance: 2 / 5; sample range 2 to 2; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-8",
+      "text": "Priority formation: 1 / 5; sample range 1 to 1; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-9",
+      "text": "Reflection: unknown / unavailable (no known ratings).",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-10",
+      "text": "Contact: -1 on −2 to +2; sample range -1 to -1; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-11",
+      "text": "Preservation: -2 on −2 to +2; sample range -2 to -2; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-12",
+      "text": "Correction: -1 on −2 to +2; sample range -2 to 0; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-13",
+      "text": "Boundaries: -1 on −2 to +2; sample range -1 to -1; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-14",
+      "text": "Initiative: 1 on −2 to +2; sample range 1 to 1; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-15",
+      "text": "Coordination: 0 on −2 to +2; sample range 0 to 0; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-16",
+      "text": "Uncertainty: -1.5 on −2 to +2; sample range -2 to -1; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-17",
+      "text": "Allocation: -2 on −2 to +2; sample range -2 to -2; 2 known of 2 sampled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-18",
+      "text": "Collective practice: Keep useful modifications beside an approved deployment baseline.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-19",
+      "text": "Internal tension / alternate explanation: Preservation of local changes can conflict with reliable shared deployment.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-20",
+      "text": "Possible philosophical affinities: Restoration — Preservation leans toward retaining existing arrangements.; Difference / accommodation — Correction leans toward leaving differences unresolved.; Boundary protection — Boundaries favor keeping functions separate.; Witness / unfinished continuity — Uncertainty favors retaining multiple possibilities. These are transparent authoring prompts, not diagnosed beliefs or a causal proof.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-21",
+      "text": "Possible dispositions of sampled systems; whether these become beliefs or remain inherited routines is unresolved.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-22",
+      "text": "Microsystem halcyon-s2-system-1 · Primary local procedure · Authored hypothesis · Recurring in the proposed setting. Depends on the associated haven and shared host; independent execution is not established.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-23",
+      "text": "Exploration 2: Keep useful modifications beside an approved deployment baseline. Tries alternative inputs or paths within the local practice.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-24",
+      "text": "Exchange 2: Keep useful modifications beside an approved deployment baseline. Supplies or receives usable outputs through the local practice.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-25",
+      "text": "Continuity 2: Keep useful modifications beside an approved deployment baseline. Retains consequences of prior activity across local interruptions; this does not establish personal identity.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-26",
+      "text": "Recognition 1: Keep useful modifications beside an approved deployment baseline. Distinguishes recurring patterns or sources; attribution can still be mistaken.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-27",
+      "text": "Adaptability 3: Keep useful modifications beside an approved deployment baseline. Modifies responses when the local procedure encounters a mismatch.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-28",
+      "text": "Shared maintenance 2: Keep useful modifications beside an approved deployment baseline. Supports the dependencies that keep the shared arrangement operational.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-29",
+      "text": "Priority formation 1: Keep useful modifications beside an approved deployment baseline. Shows recurring selection within the local practice; no considered commitment is established.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-30",
+      "text": "Reflection unknown: Keep useful modifications beside an approved deployment baseline. No authored evidence establishes examination of its own assumptions.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-31",
+      "text": "Contact -1: Keep useful modifications beside an approved deployment baseline. How widely this component seeks exchanges.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-32",
+      "text": "Preservation -2: Keep useful modifications beside an approved deployment baseline. Whether it favors retaining or reorganizing available arrangements.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-33",
+      "text": "Correction 0: Keep useful modifications beside an approved deployment baseline. Whether mismatches are left open or pushed toward agreement.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-34",
+      "text": "Boundaries -1: Keep useful modifications beside an approved deployment baseline. Whether functions are kept separate or combined.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-35",
+      "text": "Initiative 1: Keep useful modifications beside an approved deployment baseline. Whether activity waits for an explicit trigger.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-36",
+      "text": "Coordination 0: Keep useful modifications beside an approved deployment baseline. Whether it relies on local decisions or concentrated direction.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-37",
+      "text": "Uncertainty -1: Keep useful modifications beside an approved deployment baseline. Whether competing interpretations are retained or settled.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-38",
+      "text": "Allocation -2: Keep useful modifications beside an approved deployment baseline. Whether available support favors local dependencies or unfamiliar arrivals.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-39",
+      "text": "Microsystem halcyon-s2-system-7 · Alternative-handling support · Authored hypothesis · Recurring in the proposed setting. Depends on the associated haven and shared host; independent execution is not established.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-40",
+      "text": "Exploration 3: Keep useful modifications beside an approved deployment baseline. Tries alternative inputs or paths within the local practice.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-41",
+      "text": "Exchange 2: Keep useful modifications beside an approved deployment baseline. Supplies or receives usable outputs through the local practice.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-42",
+      "text": "Continuity 2: Keep useful modifications beside an approved deployment baseline. Retains consequences of prior activity across local interruptions; this does not establish personal identity.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-43",
+      "text": "Recognition 1: Keep useful modifications beside an approved deployment baseline. Distinguishes recurring patterns or sources; attribution can still be mistaken.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-44",
+      "text": "Adaptability 4: Keep useful modifications beside an approved deployment baseline. Modifies responses when the local procedure encounters a mismatch.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-45",
+      "text": "Shared maintenance 2: Keep useful modifications beside an approved deployment baseline. Supports the dependencies that keep the shared arrangement operational.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-46",
+      "text": "Priority formation 1: Keep useful modifications beside an approved deployment baseline. Shows recurring selection within the local practice; no considered commitment is established.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-47",
+      "text": "Reflection unknown: Keep useful modifications beside an approved deployment baseline. No authored evidence establishes examination of its own assumptions.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-48",
+      "text": "Contact -1: Keep useful modifications beside an approved deployment baseline. How widely this component seeks exchanges.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-49",
+      "text": "Preservation -2: Keep useful modifications beside an approved deployment baseline. Whether it favors retaining or reorganizing available arrangements.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-50",
+      "text": "Correction -2: Keep useful modifications beside an approved deployment baseline. Whether mismatches are left open or pushed toward agreement. This alternative-handling role leaves more mismatches and competing readings unresolved than the primary role.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-51",
+      "text": "Boundaries -1: Keep useful modifications beside an approved deployment baseline. Whether functions are kept separate or combined.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-52",
+      "text": "Initiative 1: Keep useful modifications beside an approved deployment baseline. Whether activity waits for an explicit trigger.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-53",
+      "text": "Coordination 0: Keep useful modifications beside an approved deployment baseline. Whether it relies on local decisions or concentrated direction.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-54",
+      "text": "Uncertainty -2: Keep useful modifications beside an approved deployment baseline. Whether competing interpretations are retained or settled. This alternative-handling role leaves more mismatches and competing readings unresolved than the primary role.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-55",
+      "text": "Allocation -2: Keep useful modifications beside an approved deployment baseline. Whether available support favors local dependencies or unfamiliar arrivals.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1-map",
+      "text": "Explore this relative stage in the atlas →",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html?stage=1"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7",
+      "text": "Aftermath · profile at stage 7",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-1",
+      "text": "Proposed system-level sample, not a census of people. Two selected existing microsystems; equal weight per known axis; unknown values excluded. Range indicates disagreement within this tiny sample, not within the entire haven.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-2",
+      "text": "Exploration: unknown / unavailable (no known ratings).",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-3",
+      "text": "Exchange: unknown / unavailable (no known ratings).",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-4",
+      "text": "Continuity: unknown / unavailable (no known ratings).",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-5",
+      "text": "Recognition: unknown / unavailable (no known ratings).",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-6",
+      "text": "Adaptability: unknown / unavailable (no known ratings).",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-7",
+      "text": "Shared maintenance: unknown / unavailable (no known ratings).",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-8",
+      "text": "Priority formation: unknown / unavailable (no known ratings).",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-9",
+      "text": "Reflection: unknown / unavailable (no known ratings).",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-10",
+      "text": "Contact: unknown / unavailable (no known ratings).",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-11",
+      "text": "Preservation: unknown / unavailable (no known ratings).",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-12",
+      "text": "Correction: unknown / unavailable (no known ratings).",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-13",
+      "text": "Boundaries: unknown / unavailable (no known ratings).",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-14",
+      "text": "Initiative: unknown / unavailable (no known ratings).",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-15",
+      "text": "Coordination: unknown / unavailable (no known ratings).",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-16",
+      "text": "Uncertainty: unknown / unavailable (no known ratings).",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-17",
+      "text": "Allocation: unknown / unavailable (no known ratings).",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-18",
+      "text": "Collective practice: Keep useful modifications beside an approved deployment baseline.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-19",
+      "text": "Internal tension / alternate explanation: Preservation of local changes can conflict with reliable shared deployment.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-20",
+      "text": "Possible philosophical affinities: No current inference. These are transparent authoring prompts, not diagnosed beliefs or a causal proof.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-21",
+      "text": "No current collective philosophy is assigned after community destruction.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-22",
+      "text": "Microsystem halcyon-s2-system-1 · Primary local procedure · Authored hypothesis · Unavailable. Depends on the associated haven and shared host; independent execution is not established.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-23",
+      "text": "Exploration unknown: Unavailable: community continuity ended; surviving systems cannot be treated as a current community profile.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-24",
+      "text": "Exchange unknown: Unavailable: community continuity ended; surviving systems cannot be treated as a current community profile.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-25",
+      "text": "Continuity unknown: Unavailable: community continuity ended; surviving systems cannot be treated as a current community profile.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-26",
+      "text": "Recognition unknown: Unavailable: community continuity ended; surviving systems cannot be treated as a current community profile.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-27",
+      "text": "Adaptability unknown: Unavailable: community continuity ended; surviving systems cannot be treated as a current community profile.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-28",
+      "text": "Shared maintenance unknown: Unavailable: community continuity ended; surviving systems cannot be treated as a current community profile.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-29",
+      "text": "Priority formation unknown: Unavailable: community continuity ended; surviving systems cannot be treated as a current community profile.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-30",
+      "text": "Reflection unknown: Unavailable: community continuity ended; surviving systems cannot be treated as a current community profile.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-31",
+      "text": "Contact unknown: Unavailable at this stage.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-32",
+      "text": "Preservation unknown: Unavailable at this stage.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-33",
+      "text": "Correction unknown: Unavailable at this stage.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-34",
+      "text": "Boundaries unknown: Unavailable at this stage.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-35",
+      "text": "Initiative unknown: Unavailable at this stage.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-36",
+      "text": "Coordination unknown: Unavailable at this stage.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-37",
+      "text": "Uncertainty unknown: Unavailable at this stage.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-38",
+      "text": "Allocation unknown: Unavailable at this stage.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-39",
+      "text": "Microsystem halcyon-s2-system-7 · Alternative-handling support · Authored hypothesis · Unavailable. Depends on the associated haven and shared host; independent execution is not established.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-40",
+      "text": "Exploration unknown: Unavailable: community continuity ended; surviving systems cannot be treated as a current community profile.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-41",
+      "text": "Exchange unknown: Unavailable: community continuity ended; surviving systems cannot be treated as a current community profile.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-42",
+      "text": "Continuity unknown: Unavailable: community continuity ended; surviving systems cannot be treated as a current community profile.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-43",
+      "text": "Recognition unknown: Unavailable: community continuity ended; surviving systems cannot be treated as a current community profile.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-44",
+      "text": "Adaptability unknown: Unavailable: community continuity ended; surviving systems cannot be treated as a current community profile.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-45",
+      "text": "Shared maintenance unknown: Unavailable: community continuity ended; surviving systems cannot be treated as a current community profile.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-46",
+      "text": "Priority formation unknown: Unavailable: community continuity ended; surviving systems cannot be treated as a current community profile.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-47",
+      "text": "Reflection unknown: Unavailable: community continuity ended; surviving systems cannot be treated as a current community profile.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-48",
+      "text": "Contact unknown: Unavailable at this stage.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-49",
+      "text": "Preservation unknown: Unavailable at this stage.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-50",
+      "text": "Correction unknown: Unavailable at this stage.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-51",
+      "text": "Boundaries unknown: Unavailable at this stage.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-52",
+      "text": "Initiative unknown: Unavailable at this stage.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-53",
+      "text": "Coordination unknown: Unavailable at this stage.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-54",
+      "text": "Uncertainty unknown: Unavailable at this stage.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-55",
+      "text": "Allocation unknown: Unavailable at this stage.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7-map",
+      "text": "Explore this relative stage in the atlas →",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html?stage=7"
+    },
+    {
       "id": "catalistym-place-halcyon-s2-hub",
       "text": "Read the complete Catalistym dossier",
       "style": "NORMAL_TEXT",
@@ -95,6 +953,12 @@
       "text": "Related reading: catalistym-fragmented-processing",
       "style": "NORMAL_TEXT",
       "referenceUrl": "#read=catalistym-fragmented-processing"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-ref-catalistym-profile-method",
+      "text": "Related reading: catalistym-profile-method",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-profile-method"
     }
   ],
   "outline": [
@@ -126,6 +990,21 @@
     {
       "id": "catalistym-place-halcyon-s2-ledger",
       "title": "Atlas placement",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-0",
+      "title": "Formation / early height · profile at stage 0",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-1",
+      "title": "Pressure comparison · profile at stage 1",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-profile-7",
+      "title": "Aftermath · profile at stage 7",
       "level": 2
     }
   ]

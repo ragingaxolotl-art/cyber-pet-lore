@@ -283,6 +283,10 @@
           "label": "Reviewed development reference"
         },
         {
+          "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "reference-seed-borrowed-listener",
           "label": "Proposed story premise"
         }
@@ -386,6 +390,10 @@
           "label": "Reviewed development reference"
         },
         {
+          "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "reference-shelter-infrastructure",
           "label": "Reviewed development reference"
         }
@@ -466,6 +474,10 @@
         {
           "id": "reference-early-development",
           "label": "Reviewed development reference"
+        },
+        {
+          "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
         },
         {
           "id": "catalistym-continuity",
@@ -4383,6 +4395,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "catalistym-profile-method",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "aru-first-newborn-revised",
           "label": "Reading mentioning this entry"
         },
@@ -7122,6 +7138,10 @@
         },
         {
           "id": "reference-era-zero-independent-lives",
+          "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "catalistym-profile-method",
           "label": "Reading mentioning this entry"
         },
         {
@@ -29843,6 +29863,10 @@
           "label": "Reviewed development reference"
         },
         {
+          "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "corrected-child-register",
           "label": "Character and place identification"
         },
@@ -41398,6 +41422,10 @@
         {
           "id": "lore-p00966",
           "label": "Named in this reading"
+        },
+        {
+          "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
         }
       ],
       "chronology": [
@@ -42504,6 +42532,10 @@
           "label": "Development context; causal links remain qualified"
         },
         {
+          "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "catalistym-place-halcyon-s1",
           "label": "Development context; causal links remain qualified"
         },
@@ -42686,6 +42718,10 @@
           "label": "Development context; causal links remain qualified"
         },
         {
+          "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "catalistym-place-halcyon-s1",
           "label": "Development context; causal links remain qualified"
         },
@@ -42821,10 +42857,11 @@
         "url": ""
       },
       "summary": "Interval Carry retains context outside a replaceable worker. It cannot preserve execution when access to that context is severed.",
-      "wordCount": 230,
+      "wordCount": 3097,
       "explicitLinks": [
         "catalistym-history",
-        "catalistym-fragmented-processing"
+        "catalistym-fragmented-processing",
+        "catalistym-profile-method"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -42834,6 +42871,14 @@
         },
         {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s1-system-1",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -42904,10 +42949,11 @@
         "url": ""
       },
       "summary": "Branch Hold preserves modifications alongside a deployable baseline.",
-      "wordCount": 211,
+      "wordCount": 2955,
       "explicitLinks": [
         "catalistym-history",
-        "catalistym-fragmented-processing"
+        "catalistym-fragmented-processing",
+        "catalistym-profile-method"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -42917,6 +42963,14 @@
         },
         {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s2-system-1",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -42987,10 +43041,11 @@
         "url": ""
       },
       "summary": "Verified Return compares saved states before restoration.",
-      "wordCount": 222,
+      "wordCount": 3394,
       "explicitLinks": [
         "catalistym-history",
-        "catalistym-fragmented-processing"
+        "catalistym-fragmented-processing",
+        "catalistym-profile-method"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -43000,6 +43055,10 @@
         },
         {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-profile-method",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -43070,10 +43129,11 @@
         "url": ""
       },
       "summary": "Interface Lending supplies translation around an incompatible process instead of immediately rewriting it.",
-      "wordCount": 231,
+      "wordCount": 3663,
       "explicitLinks": [
         "catalistym-history",
-        "catalistym-fragmented-processing"
+        "catalistym-fragmented-processing",
+        "catalistym-profile-method"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -43083,6 +43143,14 @@
         },
         {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s29-system-1",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -43153,10 +43221,11 @@
         "url": ""
       },
       "summary": "Reciprocal Check compares successive exchanges before declaring a process missing or altered.",
-      "wordCount": 220,
+      "wordCount": 3623,
       "explicitLinks": [
         "catalistym-history",
-        "catalistym-fragmented-processing"
+        "catalistym-fragmented-processing",
+        "catalistym-profile-method"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -43166,6 +43235,10 @@
         },
         {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-profile-method",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -43236,10 +43309,11 @@
         "url": ""
       },
       "summary": "Witness Ledger preserves contradictory records without automatically merging them.",
-      "wordCount": 220,
+      "wordCount": 2974,
       "explicitLinks": [
         "catalistym-history",
-        "catalistym-fragmented-processing"
+        "catalistym-fragmented-processing",
+        "catalistym-profile-method"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -43253,6 +43327,14 @@
         },
         {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-civic-s1-system-1",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -43323,10 +43405,11 @@
         "url": ""
       },
       "summary": "Common Frame checks incoming material against a shared operational format.",
-      "wordCount": 219,
+      "wordCount": 3493,
       "explicitLinks": [
         "catalistym-history",
-        "catalistym-fragmented-processing"
+        "catalistym-fragmented-processing",
+        "catalistym-profile-method"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -43336,6 +43419,10 @@
         },
         {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-profile-method",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -43406,10 +43493,11 @@
         "url": ""
       },
       "summary": "Return Exchange compares traces after absence rather than treating every gap as death.",
-      "wordCount": 225,
+      "wordCount": 3823,
       "explicitLinks": [
         "catalistym-history",
-        "catalistym-fragmented-processing"
+        "catalistym-fragmented-processing",
+        "catalistym-profile-method"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -43419,6 +43507,10 @@
         },
         {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-profile-method",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -43489,10 +43581,11 @@
         "url": ""
       },
       "summary": "Quiet Hold isolates unstable material with limited execution rather than immediately restoring or merging it.",
-      "wordCount": 235,
+      "wordCount": 3686,
       "explicitLinks": [
         "catalistym-history",
-        "catalistym-fragmented-processing"
+        "catalistym-fragmented-processing",
+        "catalistym-profile-method"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -43502,6 +43595,10 @@
         },
         {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-profile-method",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -43572,10 +43669,11 @@
         "url": ""
       },
       "summary": "Borrowed Sequence supplies missing execution steps from available fragments, sometimes creating a workable arrangement whose parts disagree about order.",
-      "wordCount": 219,
+      "wordCount": 3402,
       "explicitLinks": [
         "catalistym-history",
-        "catalistym-fragmented-processing"
+        "catalistym-fragmented-processing",
+        "catalistym-profile-method"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -43585,6 +43683,14 @@
         },
         {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s4-system-1",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -43655,10 +43761,11 @@
         "url": ""
       },
       "summary": "Partial Weave assembles available functions when complete configurations are absent; its incomplete checks permit volatile combinations.",
-      "wordCount": 231,
+      "wordCount": 2779,
       "explicitLinks": [
         "catalistym-history",
-        "catalistym-fragmented-processing"
+        "catalistym-fragmented-processing",
+        "catalistym-profile-method"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -43668,6 +43775,10 @@
         },
         {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-profile-method",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -43738,10 +43849,11 @@
         "url": ""
       },
       "summary": "Mutual Supply lets several partial processes use a surviving function without requiring them to become one entity.",
-      "wordCount": 227,
+      "wordCount": 3527,
       "explicitLinks": [
         "catalistym-history",
-        "catalistym-fragmented-processing"
+        "catalistym-fragmented-processing",
+        "catalistym-profile-method"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -43754,7 +43866,15 @@
           "label": "Development context; causal links remain qualified"
         },
         {
+          "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s6-system-1",
           "label": "Development context; causal links remain qualified"
         }
       ],
@@ -43821,10 +43941,12 @@
         "url": ""
       },
       "summary": "A context handoff component that can preserve a record while losing the sequencing needed to resume it.",
-      "wordCount": 185,
+      "wordCount": 234,
       "explicitLinks": [
         "catalistym-history",
-        "catalistym-fragmented-processing"
+        "catalistym-fragmented-processing",
+        "catalistym-place-halcyon-s1",
+        "catalistym-profile-method"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -43834,6 +43956,14 @@
         },
         {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s1",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -43904,10 +44034,12 @@
         "url": ""
       },
       "summary": "A modification staging component; saved differences do not by themselves constitute a continuing process.",
-      "wordCount": 182,
+      "wordCount": 231,
       "explicitLinks": [
         "catalistym-history",
-        "catalistym-fragmented-processing"
+        "catalistym-fragmented-processing",
+        "catalistym-place-halcyon-s2",
+        "catalistym-profile-method"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -43917,6 +44049,14 @@
         },
         {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s2",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -43987,10 +44127,12 @@
         "url": ""
       },
       "summary": "An interface adapter that supplies expected input shapes, with no guarantee that translated meanings match.",
-      "wordCount": 184,
+      "wordCount": 233,
       "explicitLinks": [
         "catalistym-history",
-        "catalistym-fragmented-processing"
+        "catalistym-fragmented-processing",
+        "catalistym-place-lattice-s29",
+        "catalistym-profile-method"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -43999,7 +44141,15 @@
           "label": "Development context; causal links remain qualified"
         },
         {
+          "id": "catalistym-place-lattice-s29",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-profile-method",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -44070,10 +44220,12 @@
         "url": ""
       },
       "summary": "A provenance indexing component whose surviving references may point to unavailable records.",
-      "wordCount": 181,
+      "wordCount": 230,
       "explicitLinks": [
         "catalistym-history",
-        "catalistym-fragmented-processing"
+        "catalistym-fragmented-processing",
+        "catalistym-place-civic-s1",
+        "catalistym-profile-method"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -44083,6 +44235,14 @@
         },
         {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-civic-s1",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -44153,10 +44313,12 @@
         "url": ""
       },
       "summary": "A partial sequence resolver that can supply a missing step while importing incompatible assumptions.",
-      "wordCount": 180,
+      "wordCount": 229,
       "explicitLinks": [
         "catalistym-history",
-        "catalistym-fragmented-processing"
+        "catalistym-fragmented-processing",
+        "catalistym-place-halcyon-s4",
+        "catalistym-profile-method"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -44166,6 +44328,14 @@
         },
         {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s4",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -44236,10 +44406,12 @@
         "url": ""
       },
       "summary": "A shared execution helper on which several incomplete processes can depend without becoming one thinker.",
-      "wordCount": 183,
+      "wordCount": 232,
       "explicitLinks": [
         "catalistym-history",
-        "catalistym-fragmented-processing"
+        "catalistym-fragmented-processing",
+        "catalistym-place-access-s6",
+        "catalistym-profile-method"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -44252,7 +44424,199 @@
           "label": "Development context; causal links remain qualified"
         },
         {
+          "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s6",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
+      "id": "catalistym-profile-method",
+      "title": "Haven profiles — capacities, collective tendencies, and possible philosophies",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20295,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "A partial system-level authoring model, with observable rationales, uncertainty, disagreement, and historical snapshots.",
+      "wordCount": 524,
+      "explicitLinks": [
+        "catalistym-history",
+        "catalistym-fragmented-processing",
+        "aru-first-newborn-revised",
+        "stories-p00435",
+        "stories-p00887",
+        "stories-p01469",
+        "corrected-child-part-two-p00000"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "lore-p01271",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "lore-p01015",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-civic-s31",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s29",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s29-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-civic-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s1-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-civic-s1-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s2",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s4",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s2-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s52",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s6",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s4-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s2",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s2",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s6-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "stories-p00887",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "corrected-child-part-two-p00000",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "aru-first-newborn-revised",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "stories-p00435",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "stories-p01469",
           "label": "Development context; causal links remain qualified"
         }
       ],
@@ -44597,7 +44961,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30897,
+      "timeOrder": 30898,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [
@@ -44771,7 +45135,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30898,
+      "timeOrder": 30899,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [],
@@ -44904,7 +45268,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30899,
+      "timeOrder": 30900,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [],
@@ -45020,7 +45384,7 @@
         -3
       ],
       "timeLabel": "Proposed placement · Era -3",
-      "timeOrder": 30900,
+      "timeOrder": 30901,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45074,7 +45438,7 @@
         -3
       ],
       "timeLabel": "Proposed placement · Era -3",
-      "timeOrder": 30901,
+      "timeOrder": 30902,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [
@@ -45134,7 +45498,7 @@
         -2
       ],
       "timeLabel": "Proposed placement · Era -2",
-      "timeOrder": 30902,
+      "timeOrder": 30903,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45193,7 +45557,7 @@
         -2
       ],
       "timeLabel": "Proposed placement · Era -2",
-      "timeOrder": 30903,
+      "timeOrder": 30904,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45248,7 +45612,7 @@
         -2
       ],
       "timeLabel": "Proposed placement · Era -2",
-      "timeOrder": 30904,
+      "timeOrder": 30905,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45303,7 +45667,7 @@
         -1
       ],
       "timeLabel": "Proposed placement · Era -1",
-      "timeOrder": 30905,
+      "timeOrder": 30906,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45367,7 +45731,7 @@
         -1
       ],
       "timeLabel": "Proposed placement · Era -1",
-      "timeOrder": 30906,
+      "timeOrder": 30907,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45417,7 +45781,7 @@
         0
       ],
       "timeLabel": "Proposed placement · Era 0",
-      "timeOrder": 30907,
+      "timeOrder": 30908,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45467,7 +45831,7 @@
         0
       ],
       "timeLabel": "Proposed placement · Era 0",
-      "timeOrder": 30908,
+      "timeOrder": 30909,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45529,7 +45893,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30909,
+      "timeOrder": 30910,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [
@@ -45906,7 +46270,7 @@
     "Language": 119,
     "Locations": 206,
     "People": 100,
-    "Reference": 57,
+    "Reference": 58,
     "Remedies": 34,
     "Ribbons": 189,
     "Song": 4,

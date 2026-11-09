@@ -79,6 +79,16 @@
       "style": "NORMAL_TEXT"
     },
     {
+      "id": "catalistym-place-halcyon-s2-system-1-profile-context",
+      "text": "System-level rating context",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-system-1-profile-context-1",
+      "text": "This microsystem is one of two selected components in the associated haven profile. The haven dossier records its stage-specific ratings, reasons, reliability, and support dependencies. The component is not automatically an individual person, and its scores do not establish sentience.",
+      "style": "NORMAL_TEXT"
+    },
+    {
       "id": "catalistym-place-halcyon-s2-system-1-hub",
       "text": "Read the complete Catalistym dossier",
       "style": "NORMAL_TEXT",
@@ -95,6 +105,18 @@
       "text": "Related reading: catalistym-fragmented-processing",
       "style": "NORMAL_TEXT",
       "referenceUrl": "#read=catalistym-fragmented-processing"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-system-1-ref-catalistym-place-halcyon-s2",
+      "text": "Related reading: catalistym-place-halcyon-s2",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-place-halcyon-s2"
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-system-1-ref-catalistym-profile-method",
+      "text": "Related reading: catalistym-profile-method",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-profile-method"
     }
   ],
   "outline": [
@@ -126,6 +148,11 @@
     {
       "id": "catalistym-place-halcyon-s2-system-1-ledger",
       "title": "Atlas placement",
+      "level": 2
+    },
+    {
+      "id": "catalistym-place-halcyon-s2-system-1-profile-context",
+      "title": "System-level rating context",
       "level": 2
     }
   ]

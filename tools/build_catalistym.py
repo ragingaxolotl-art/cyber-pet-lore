@@ -28,6 +28,8 @@ SUPPLEMENTS = {
 
 def add_catalistym(root,catalog,sources):
     data=json.loads((root/'sources/catalistym.json').read_text())
+    from build_haven_profiles import add_profile_readings
+    add_profile_readings(root,data)
     out=root/'site/content'
     ids={e['id'] for e in catalog}|{e['id'] for e in data['entries']}
     for item in data['entries']:
