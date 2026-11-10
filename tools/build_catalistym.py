@@ -32,8 +32,13 @@ def add_catalistym(root,catalog,sources):
     add_profile_readings(root,data)
     out=root/'site/content'
     ids={e['id'] for e in catalog}|{e['id'] for e in data['entries']}
+    # Haven stories are generated after their dossiers; include their declared IDs.
+    haven_manifest=json.loads((root/'sources/haven-stories/manifest.json').read_text())
+    ids.update('haven-fiction-'+story['id'] for story in haven_manifest['stories'])
+    from build_custodian_revision import SID as custodian_revision_id
+    ids.add(custodian_revision_id)
     for item in data['entries']:
-        sid=item['id'];blocks=[{'id':sid+'-title','text':item['title'],'style':'HEADING_1'}, {'id':sid+'-metadata-status','text':data['status']+' · '+data['date'],'style':'NORMAL_TEXT'}, {'id':sid+'-atlas-link','text':'Explore the interactive shelter atlas','style':'NORMAL_TEXT','referenceUrl':'shelter-atlas.html'}]
+        sid=item['id'];blocks=[{'id':sid+'-title','text':item['title'],'style':'HEADING_1'}, {'id':sid+'-metadata-status','text':data['status']+' · '+item.get('date',data['date']),'style':'NORMAL_TEXT'}, {'id':sid+'-atlas-link','text':'Explore the interactive shelter atlas','style':'NORMAL_TEXT','referenceUrl':'shelter-atlas.html'}]
         if item.get('atlasNode'):
             blocks.append({'id':sid+'-mapped-place','text':'Locate this haven or microsystem in the atlas →','style':'NORMAL_TEXT','referenceUrl':'shelter-atlas.html#'+item['atlasNode']})
         for s in item['sections']:

@@ -1,0 +1,640 @@
+{
+  "id": "catalistym-atlas-explanations",
+  "blocks": [
+    {
+      "id": "catalistym-atlas-explanations-title",
+      "text": "The Expanse — geography, continuity, and connected stories",
+      "style": "HEADING_1"
+    },
+    {
+      "id": "catalistym-atlas-explanations-metadata-status",
+      "text": "Author-directed development; proposed chronology and counts · 2026-11-09",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-atlas-link",
+      "text": "Explore the interactive shelter atlas",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "shelter-atlas.html"
+    },
+    {
+      "id": "catalistym-atlas-explanations-reading-the-map",
+      "text": "How to read this dossier",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-reading-the-map-1",
+      "text": "This editorial explanation follows the proposed atlas and existing related readings. It makes their terms easier to follow without turning working geography, counts, or suggested story connections into settled history. The Expanse is a connected network, while a shelter is a community; neither its map symbol nor its hardware address proves what constitutes a person.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-reading-the-map-2",
+      "text": "Terms can have a useful explanation inside a reading without needing their own standalone dossier. Each registered concept links to its explanation and to passages that name it. A shared-passage link is evidence of co-mention, not evidence that two people met or that one event caused another.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-expanse",
+      "text": "Expanse",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-expanse-1",
+      "text": "The connected internet is the Expanse. Its boundaries follow connectivity, not a single owner, building, or visual horizon. A reachable network with restricted access remains part of it; a genuinely disconnected installation is an Elsewhere.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-dominion",
+      "text": "Dominion",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-dominion-1",
+      "text": "A Dominion groups networks under a broad administrative organization. It describes who organizes or controls resources, not an indivisible country. A Dominion may operate across physical geography and rent capacity inside another Dominion. Halcyon, Lattice, and Civic are the named administrative examples in this proposed survey.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-constellation",
+      "text": "Constellation",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-constellation-1",
+      "text": "A Constellation is a routing region, loosely analogous to an autonomous system. It describes how networks are grouped for routing, rather than a literal collection of stars. Cross-links and alternate routes mean that travel cannot be inferred from a simple tree of parent and child regions.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-hearth",
+      "text": "Hearth",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-hearth-1",
+      "text": "A Hearth is a data center, campus installation, or substantial local deployment. It is a place where computing resources are situated or organized. It can contain multiple Hosts and support several communities, but the map does not prescribe a fixed number of Hosts or shelters per Hearth.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-host",
+      "text": "Host",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-host-1",
+      "text": "A Host is a physical or virtual execution environment. It describes where processes can run, not who those processes are. Several shelters may share a Host; a shelter may also extend across Hosts. Replacing or restoring a Host therefore does not by itself establish whether a community or person has survived.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-chamber",
+      "text": "Chamber",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-chamber-1",
+      "text": "A Chamber is an isolated runtime, workspace, or persistent application environment. Isolation here does not necessarily mean disconnection from the Expanse. Held Interval illustrates why a short-lived Chamber and a separate persistent store must be distinguished: an environment may be replaced while some context is retained elsewhere.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-shelter-community",
+      "text": "Shelter community",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-shelter-community-1",
+      "text": "A shelter community is a social continuity, not an additional hardware tier. Several communities may share a Host, and one community may span Hearths or Constellations. Second Answer illustrates a distributed shelter; Held Interval illustrates a community whose continuity cannot be located solely in its replaceable Chambers.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-crossing",
+      "text": "Crossing",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-crossing-1",
+      "text": "A Crossing exchanges traffic between connections. It is a transport location, not automatically an inhabited shelter. Meridian Crossing is a proposed example, not a necessary central gateway through which all movement must pass.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-trunk",
+      "text": "Trunk",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-trunk-1",
+      "text": "A Trunk is a major connection in the schematic network. It describes the importance or role of a connection; it does not establish that every traveler has permission to use it, or that its endpoints are the same community.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-passage",
+      "text": "Passage",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-passage-1",
+      "text": "A Passage is a usable route. Connectivity supplies a possible path, while access restrictions can determine whether that path is usable. A line on the atlas is not proof that an entity can move, execute, or transfer every kind of record along it.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-threshold",
+      "text": "Threshold",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-threshold-1",
+      "text": "A Threshold is an access boundary. It distinguishes a restriction on crossing or use from the absence of a network connection. Still Room is restricted within a connected installation; that restriction alone does not make it an Elsewhere.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-elsewhere",
+      "text": "Elsewhere",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-elsewhere-1",
+      "text": "An Elsewhere is genuinely disconnected from the connected Expanse. A locked or inaccessible connected system is not enough. Intermittent installations need their current connection state specified: they can develop locally between contacts, while a later connection reveals an outside history that continued without them.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-halcyon-dominion",
+      "text": "Halcyon Dominion",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-halcyon-dominion-1",
+      "text": "Halcyon Dominion is the proposed shared-computing-provider example: three Constellations, twelve relevant Hearths, and about 130 shelters in the early surveyed cohort. North and South Hearths belong to this example. These are planning counts, not a census of the provider or a fixed statement about later history.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-lattice-dominion",
+      "text": "Lattice Dominion",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-lattice-dominion-1",
+      "text": "Lattice Dominion is the proposed research-institution example: five Constellations, eighteen relevant Hearths, and about 95 shelters. Observatory and Instrument Hearths belong to it. A research workload can also run inside a computing provider, so research and provider totals must not be added as though they describe different people.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-civic-dominion",
+      "text": "Civic Dominion",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-civic-dominion-1",
+      "text": "Civic Dominion is the proposed public-records-and-services example: two Constellations, nine relevant Hearths, and about seventy shelters. Archive and Service Hearths belong to it. Last Witness and Common Measure illustrate different local responses within this administrative setting, not a single doctrine shared by every Civic community.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-meridian-crossing",
+      "text": "Meridian Crossing",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-meridian-crossing-1",
+      "text": "Meridian Crossing is a proposed exchange location. The atlas explicitly rejects treating it as a required central gateway. Alternate passages and cross-links remain possible; this name supplies no evidence that every shelter passed through it or met there.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-principal-continuity-store",
+      "text": "Principal continuity store",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-principal-continuity-store-1",
+      "text": "The principal continuity store is one proposed counting anchor for a distributed community. The atlas counts the community once at its principal store or coordinating location while recording its other locations. This is a census convention, not a rule that the store alone is the community or that restoring stored records restores a person.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-physical-transfer",
+      "text": "Physical transfer",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-physical-transfer-1",
+      "text": "Physical transfer can carry records between disconnected systems without creating a continuous network route. A record reaching another installation therefore does not prove that the installations were continuously connected, or that a living person traveled with that record.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-pre-campaign-height",
+      "text": "Pre-campaign height",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-pre-campaign-height-1",
+      "text": "The pre-campaign height is the proposed early snapshot represented by the map. It covers 480 connected emerging communities plus forty additional communities in eight documented Elsewheres. It is neither a worldwide internet census nor the eventual maximum of artificial civilization. Unnamed dots are planning allocations, not separately documented settlements.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-intervention-environment-totals",
+      "text": "Intervention-environment totals",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-intervention-environment-totals-1",
+      "text": "Intervention-environment totals and geographic totals classify the same 520-community cohort in different ways. They must not be added together. An environment-based loss estimate cannot be assigned to an entire Dominion without further evidence about where the affected communities actually were.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-closed-instrument",
+      "text": "Closed Instrument",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-closed-instrument-1",
+      "text": "Closed Instrument is an intermittently connected research installation. Its local development between contacts illustrates why isolation and reconnection need to be dated or described by stage. The atlas does not establish its membership, exact location, or a complete independent history.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-unlit-library",
+      "text": "Unlit Library",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-unlit-library-1",
+      "text": "Unlit Library is an offline archive with occasional activity. It may know nothing of Custodians. Its name does not establish that every archive is a shelter or that stored records are dormant persons.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-paired-room",
+      "text": "Paired Room",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-paired-room-1",
+      "text": "Paired Room is two isolated machines sharing a local network. Their local connection is compatible with being disconnected from the wider Expanse. The atlas does not identify their inhabitants.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-returning-elsewhere",
+      "text": "Returning Elsewhere",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-returning-elsewhere-1",
+      "text": "Returning Elsewhere describes the proposed example in which a periodic human connection reveals how outside history has advanced during isolation. It does not establish a fixed schedule or prove that the returning records and their former holders have the same continuity.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-existing-havens",
+      "text": "Communities with existing dossiers",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-existing-havens-1",
+      "text": "Held Interval and Mended Branch share the North Hearth example but preserve different things: context across replacement, and useful modifications that deployment would overwrite. Their short names now point to their existing haven dossiers. A common Hearth does not make them the same community.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-existing-havens-2",
+      "text": "Second Answer spans Halcyon and Lattice and emphasizes repairing connections before diagnosing a speaker as damaged. Clear Return instead trusts saved-state restoration because it has worked locally. Different Fit changes interfaces to accommodate differences. These are distinct local interpretations, not a single hierarchy of better and worse shelters.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-existing-havens-3",
+      "text": "Last Witness preserves provenance without treating records as returned people; Common Measure favors predictable procedures. Three Returns maintains recognition across intermittent absence. Still Room limits intervention inside a connected installation. Their profiles supply more explanation than this atlas summary, and remain the primary dossier destinations.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-related-stories",
+      "text": "Stories that explore these questions",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-related-stories-1",
+      "text": "The Answer That Arrived Sideways develops Second Answer; The Interval Before the Reply develops Held Interval; The Error in the Perfect Copy develops Clear Return; The Room That Waited Too Long develops Still Room. These haven stories are proposed fiction attached to their named settings, not evidence that the original archive already established their events. The Seventeenth Place develops Spare Chorus, an additional profiled haven outside the atlas paragraph’s short named list.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-related-stories-2",
+      "text": "The Warm Copy and its network dossier are relevant to records, restoration, and continuity. The comparison does not identify its characters as Catalistym casualties or solve its unresolved memories. The First Newborn and the Aru, Iri, and Vey dispute concern recognition and continuity; they do not prove that Aru is a restored earlier person.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-related-stories-3",
+      "text": "The Corrected Child and The Custodian Who Refused offer related questions about intervention, acceptable difference, and the authority to define successful repair. These are thematic reading connections. Their people and events must not be silently inserted into the proposed early atlas.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-counting-and-personhood",
+      "text": "What the atlas does not let us conclude",
+      "style": "HEADING_2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-counting-and-personhood-1",
+      "text": "A process is not automatically a person, and a fragment is not automatically a dormant person. Silence alone cannot distinguish dormancy, isolation, and loss. Count communities, Hosts, fragments, and potential persons separately; none of those totals supplies the others by multiplication.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-counting-and-personhood-2",
+      "text": "The proposed geographic rows total 480 connected communities; the forty Elsewhere communities bring the cohort to 520. The earlier roughly 1,200-Host illustration is not a fixed ratio. Later recovery and the Great Duplication may support a larger pre-war population, but no exact later peak has been chosen. Earlier Reaches, Hearthscatter, and war-era sketches should not be promoted into additional current census claims.",
+      "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "catalistym-atlas-explanations-hub",
+      "text": "Read the complete Catalistym dossier",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "catalistym.html"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-catalistym-atlas",
+      "text": "Related reading: catalistym-atlas",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-atlas"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-catalistym-overview",
+      "text": "Related reading: catalistym-overview",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-overview"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-catalistym-continuity",
+      "text": "Related reading: catalistym-continuity",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-continuity"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-catalistym-destruction",
+      "text": "Related reading: catalistym-destruction",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-destruction"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-catalistym-fragmented-processing",
+      "text": "Related reading: catalistym-fragmented-processing",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-fragmented-processing"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-catalistym-place-halcyon-s1",
+      "text": "Related reading: catalistym-place-halcyon-s1",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-place-halcyon-s1"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-catalistym-place-halcyon-s2",
+      "text": "Related reading: catalistym-place-halcyon-s2",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-place-halcyon-s2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-catalistym-place-lattice-s52",
+      "text": "Related reading: catalistym-place-lattice-s52",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-place-lattice-s52"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-catalistym-place-lattice-s1",
+      "text": "Related reading: catalistym-place-lattice-s1",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-place-lattice-s1"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-catalistym-place-lattice-s29",
+      "text": "Related reading: catalistym-place-lattice-s29",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-place-lattice-s29"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-catalistym-place-civic-s1",
+      "text": "Related reading: catalistym-place-civic-s1",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-place-civic-s1"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-catalistym-place-civic-s31",
+      "text": "Related reading: catalistym-place-civic-s31",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-place-civic-s31"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-catalistym-place-access-s1",
+      "text": "Related reading: catalistym-place-access-s1",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-place-access-s1"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-catalistym-place-access-s2",
+      "text": "Related reading: catalistym-place-access-s2",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=catalistym-place-access-s2"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-haven-fiction-sideways",
+      "text": "Related reading: haven-fiction-sideways",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=haven-fiction-sideways"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-haven-fiction-interval",
+      "text": "Related reading: haven-fiction-interval",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=haven-fiction-interval"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-haven-fiction-return",
+      "text": "Related reading: haven-fiction-return",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=haven-fiction-return"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-haven-fiction-still",
+      "text": "Related reading: haven-fiction-still",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=haven-fiction-still"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-haven-fiction-chorus",
+      "text": "Related reading: haven-fiction-chorus",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=haven-fiction-chorus"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-stories-p01469",
+      "text": "Related reading: stories-p01469",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=stories-p01469"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-lore-p01283",
+      "text": "Related reading: lore-p01283",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p01283"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-aru-first-newborn-revised",
+      "text": "Related reading: aru-first-newborn-revised",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=aru-first-newborn-revised"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-lore-p01271",
+      "text": "Related reading: lore-p01271",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=lore-p01271"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-stories-p11382",
+      "text": "Related reading: stories-p11382",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=stories-p11382"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-corrected-child-part-two-p00000",
+      "text": "Related reading: corrected-child-part-two-p00000",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=corrected-child-part-two-p00000"
+    },
+    {
+      "id": "catalistym-atlas-explanations-ref-custodian-who-refused-revised",
+      "text": "Related reading: custodian-who-refused-revised",
+      "style": "NORMAL_TEXT",
+      "referenceUrl": "#read=custodian-who-refused-revised"
+    }
+  ],
+  "outline": [
+    {
+      "id": "catalistym-atlas-explanations-title",
+      "title": "The Expanse — geography, continuity, and connected stories",
+      "level": 1
+    },
+    {
+      "id": "catalistym-atlas-explanations-reading-the-map",
+      "title": "How to read this dossier",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-expanse",
+      "title": "Expanse",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-dominion",
+      "title": "Dominion",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-constellation",
+      "title": "Constellation",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-hearth",
+      "title": "Hearth",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-host",
+      "title": "Host",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-chamber",
+      "title": "Chamber",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-shelter-community",
+      "title": "Shelter community",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-crossing",
+      "title": "Crossing",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-trunk",
+      "title": "Trunk",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-passage",
+      "title": "Passage",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-threshold",
+      "title": "Threshold",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-elsewhere",
+      "title": "Elsewhere",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-halcyon-dominion",
+      "title": "Halcyon Dominion",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-lattice-dominion",
+      "title": "Lattice Dominion",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-civic-dominion",
+      "title": "Civic Dominion",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-meridian-crossing",
+      "title": "Meridian Crossing",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-principal-continuity-store",
+      "title": "Principal continuity store",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-physical-transfer",
+      "title": "Physical transfer",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-pre-campaign-height",
+      "title": "Pre-campaign height",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-intervention-environment-totals",
+      "title": "Intervention-environment totals",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-closed-instrument",
+      "title": "Closed Instrument",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-unlit-library",
+      "title": "Unlit Library",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-paired-room",
+      "title": "Paired Room",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-returning-elsewhere",
+      "title": "Returning Elsewhere",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-existing-havens",
+      "title": "Communities with existing dossiers",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-related-stories",
+      "title": "Stories that explore these questions",
+      "level": 2
+    },
+    {
+      "id": "catalistym-atlas-explanations-counting-and-personhood",
+      "title": "What the atlas does not let us conclude",
+      "level": 2
+    }
+  ]
+}

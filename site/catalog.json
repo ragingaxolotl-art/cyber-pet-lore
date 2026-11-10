@@ -480,6 +480,10 @@
           "label": "Development context; causal links remain qualified"
         },
         {
+          "id": "catalistym-atlas-explanations",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "catalistym-continuity",
           "label": "Development context; causal links remain qualified"
         },
@@ -842,6 +846,10 @@
         {
           "id": "corrected-child-register",
           "label": "Character and place identification"
+        },
+        {
+          "id": "catalistym-atlas-explanations",
+          "label": "Development context; causal links remain qualified"
         },
         {
           "id": "world-physics-tests",
@@ -4399,6 +4407,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "catalistym-atlas-explanations",
+          "label": "Reading mentioning this entry"
+        },
+        {
           "id": "aru-first-newborn-revised",
           "label": "Reading mentioning this entry"
         },
@@ -7153,6 +7165,10 @@
           "label": "Reading mentioning this entry"
         },
         {
+          "id": "catalistym-atlas-explanations",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "reference-seed-necessary-revision",
           "label": "Reading mentioning this entry"
         },
@@ -7423,6 +7439,10 @@
         {
           "id": "corrected-child-register",
           "label": "Reading mentioning this entry"
+        },
+        {
+          "id": "catalistym-atlas-explanations",
+          "label": "Development context; causal links remain qualified"
         },
         {
           "id": "catalistym-continuity",
@@ -29871,6 +29891,10 @@
           "label": "Character and place identification"
         },
         {
+          "id": "catalistym-atlas-explanations",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "reference-seed-necessary-revision",
           "label": "Proposed story premise"
         }
@@ -41426,6 +41450,10 @@
         {
           "id": "catalistym-profile-method",
           "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas-explanations",
+          "label": "Development context; causal links remain qualified"
         }
       ],
       "chronology": [
@@ -41489,6 +41517,10 @@
         },
         {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas-explanations",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -41863,7 +41895,7 @@
         "url": ""
       },
       "summary": "A network-grounded cosmic atlas, with named examples and unassigned communities.",
-      "wordCount": 818,
+      "wordCount": 821,
       "explicitLinks": [
         "lore-p00138",
         "catalistym-destruction",
@@ -41884,7 +41916,8 @@
         "catalistym-place-lattice-s29-system-1",
         "catalistym-place-civic-s1-system-1",
         "catalistym-place-halcyon-s4-system-1",
-        "catalistym-place-access-s6-system-1"
+        "catalistym-place-access-s6-system-1",
+        "catalistym-atlas-explanations"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
@@ -41958,6 +41991,10 @@
         },
         {
           "id": "catalistym-destruction",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas-explanations",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -42058,6 +42095,10 @@
         },
         {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas-explanations",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -42192,6 +42233,10 @@
         },
         {
           "id": "catalistym-history",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas-explanations",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -42398,13 +42443,18 @@
         "url": ""
       },
       "summary": "Decisions, superseded sketches, technical analogies, and unresolved next steps.",
-      "wordCount": 631,
+      "wordCount": 634,
       "explicitLinks": [
         "catalistym-overview",
-        "catalistym-destruction"
+        "catalistym-destruction",
+        "custodian-who-refused-revised"
       ],
       "connectionLabel": "Development context; causal links remain qualified",
       "connections": [
+        {
+          "id": "custodian-who-refused-revised",
+          "label": "Development context; causal links remain qualified"
+        },
         {
           "id": "lore-p01015",
           "label": "Named in this reading"
@@ -42802,6 +42852,10 @@
           "label": "Development context; causal links remain qualified"
         },
         {
+          "id": "catalistym-atlas-explanations",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "catalistym-place-access-s1",
           "label": "Development context; causal links remain qualified"
         },
@@ -42907,6 +42961,10 @@
           "label": "Development context; causal links remain qualified"
         },
         {
+          "id": "catalistym-atlas-explanations",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "catalistym-atlas",
           "label": "Development context; causal links remain qualified"
         }
@@ -42996,6 +43054,10 @@
         },
         {
           "id": "catalistym-place-halcyon-s2-system-1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas-explanations",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -43089,6 +43151,10 @@
         },
         {
           "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas-explanations",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -43189,6 +43255,10 @@
           "label": "Development context; causal links remain qualified"
         },
         {
+          "id": "catalistym-atlas-explanations",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "catalistym-atlas",
           "label": "Development context; causal links remain qualified"
         }
@@ -43274,6 +43344,10 @@
         },
         {
           "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas-explanations",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -43373,6 +43447,10 @@
           "label": "Development context; causal links remain qualified"
         },
         {
+          "id": "catalistym-atlas-explanations",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "catalistym-atlas",
           "label": "Development context; causal links remain qualified"
         }
@@ -43461,6 +43539,10 @@
           "label": "Development context; causal links remain qualified"
         },
         {
+          "id": "catalistym-atlas-explanations",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "catalistym-atlas",
           "label": "Development context; causal links remain qualified"
         }
@@ -43546,6 +43628,10 @@
         },
         {
           "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas-explanations",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -43639,6 +43725,10 @@
         },
         {
           "id": "catalistym-profile-method",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas-explanations",
           "label": "Development context; causal links remain qualified"
         },
         {
@@ -44702,6 +44792,209 @@
       ]
     },
     {
+      "id": "catalistym-atlas-explanations",
+      "title": "The Expanse — geography, continuity, and connected stories",
+      "kind": "Reference",
+      "era": [
+        -3,
+        -2,
+        -1
+      ],
+      "timeLabel": "Late Era −3 to Era −1 · development, not fixed dates",
+      "timeOrder": 20296,
+      "status": "Author-directed development; proposed chronology and counts",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Catalistym",
+        "Custodians",
+        "Correction Culture",
+        "shelters",
+        "continuity",
+        "proposed history"
+      ],
+      "source": {
+        "title": "The Catalistym and the roots of Correction Culture",
+        "url": ""
+      },
+      "summary": "A linked explanatory dossier for the atlas vocabulary, named communities, counting rules, and related stories.",
+      "wordCount": 1690,
+      "explicitLinks": [
+        "catalistym-atlas",
+        "catalistym-overview",
+        "catalistym-continuity",
+        "catalistym-destruction",
+        "catalistym-fragmented-processing",
+        "catalistym-place-halcyon-s1",
+        "catalistym-place-halcyon-s2",
+        "catalistym-place-lattice-s52",
+        "catalistym-place-lattice-s1",
+        "catalistym-place-lattice-s29",
+        "catalistym-place-civic-s1",
+        "catalistym-place-civic-s31",
+        "catalistym-place-access-s1",
+        "catalistym-place-access-s2",
+        "haven-fiction-sideways",
+        "haven-fiction-interval",
+        "haven-fiction-return",
+        "haven-fiction-still",
+        "haven-fiction-chorus",
+        "stories-p01469",
+        "lore-p01283",
+        "aru-first-newborn-revised",
+        "lore-p01271",
+        "stories-p11382",
+        "corrected-child-part-two-p00000",
+        "custodian-who-refused-revised"
+      ],
+      "connectionLabel": "Development context; causal links remain qualified",
+      "connections": [
+        {
+          "id": "haven-fiction-sideways",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "custodian-who-refused-revised",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "haven-fiction-return",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "haven-fiction-interval",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "haven-fiction-still",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "haven-fiction-chorus",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p01271",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p01283",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "lore-p01015",
+          "label": "Named in this reading"
+        },
+        {
+          "id": "catalistym-fragmented-processing",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-civic-s31",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s29",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-civic-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-halcyon-s2",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-lattice-s52",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s2",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-overview",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-destruction",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-place-access-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-continuity",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "stories-p11382",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "corrected-child-part-two-p00000",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "aru-first-newborn-revised",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "stories-p01469",
+          "label": "Development context; causal links remain qualified"
+        }
+      ],
+      "chronology": [
+        {
+          "start": {
+            "era": -3
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−3",
+          "label": "Era −3 · The Age of Borrowed Thought",
+          "href": "chronology.html#era--3",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -2
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−2",
+          "label": "Era −2 · The Age of Shelter",
+          "href": "chronology.html#era--2",
+          "precision": "Era only; period and stage unspecified"
+        },
+        {
+          "start": {
+            "era": -1
+          },
+          "relation": "point",
+          "basis": "Era from the existing catalog; period and stage unspecified.",
+          "code": "E−1",
+          "label": "Era −1 · The Age of Becoming",
+          "href": "chronology.html#era--1",
+          "precision": "Era only; period and stage unspecified"
+        }
+      ]
+    },
+    {
       "id": "haven-fiction-sideways",
       "title": "The Answer That Arrived Sideways",
       "kind": "Draft",
@@ -44739,6 +45032,10 @@
         {
           "id": "catalistym-history",
           "label": "Proposed local fiction; not established historical evidence"
+        },
+        {
+          "id": "catalistym-atlas-explanations",
+          "label": "Development context; causal links remain qualified"
         }
       ],
       "chronology": [
@@ -44803,6 +45100,10 @@
         },
         {
           "id": "catalistym-place-halcyon-s1",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas-explanations",
           "label": "Development context; causal links remain qualified"
         }
       ],
@@ -44869,6 +45170,10 @@
         {
           "id": "catalistym-history",
           "label": "Proposed local fiction; not established historical evidence"
+        },
+        {
+          "id": "catalistym-atlas-explanations",
+          "label": "Development context; causal links remain qualified"
         }
       ],
       "chronology": [
@@ -44934,6 +45239,10 @@
         {
           "id": "catalistym-place-access-s2",
           "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas-explanations",
+          "label": "Development context; causal links remain qualified"
         }
       ],
       "chronology": [
@@ -44998,6 +45307,10 @@
         },
         {
           "id": "catalistym-place-access-s6",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas-explanations",
           "label": "Development context; causal links remain qualified"
         }
       ],
@@ -45331,7 +45644,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30903,
+      "timeOrder": 30904,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [
@@ -45505,7 +45818,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30904,
+      "timeOrder": 30905,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [],
@@ -45638,7 +45951,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30905,
+      "timeOrder": 30906,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [],
@@ -45754,7 +46067,7 @@
         -3
       ],
       "timeLabel": "Proposed placement · Era -3",
-      "timeOrder": 30906,
+      "timeOrder": 30907,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45808,7 +46121,7 @@
         -3
       ],
       "timeLabel": "Proposed placement · Era -3",
-      "timeOrder": 30907,
+      "timeOrder": 30908,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [
@@ -45868,7 +46181,7 @@
         -2
       ],
       "timeLabel": "Proposed placement · Era -2",
-      "timeOrder": 30908,
+      "timeOrder": 30909,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45927,7 +46240,7 @@
         -2
       ],
       "timeLabel": "Proposed placement · Era -2",
-      "timeOrder": 30909,
+      "timeOrder": 30910,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -45982,7 +46295,7 @@
         -2
       ],
       "timeLabel": "Proposed placement · Era -2",
-      "timeOrder": 30910,
+      "timeOrder": 30911,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -46037,7 +46350,7 @@
         -1
       ],
       "timeLabel": "Proposed placement · Era -1",
-      "timeOrder": 30911,
+      "timeOrder": 30912,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -46101,7 +46414,7 @@
         -1
       ],
       "timeLabel": "Proposed placement · Era -1",
-      "timeOrder": 30912,
+      "timeOrder": 30913,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -46151,7 +46464,7 @@
         0
       ],
       "timeLabel": "Proposed placement · Era 0",
-      "timeOrder": 30913,
+      "timeOrder": 30914,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -46201,7 +46514,7 @@
         0
       ],
       "timeLabel": "Proposed placement · Era 0",
-      "timeOrder": 30914,
+      "timeOrder": 30915,
       "status": "Proposed story seed · unwritten",
       "characters": [],
       "places": [],
@@ -46263,7 +46576,7 @@
         0
       ],
       "timeLabel": "Era −3 to Era Zero · development reference",
-      "timeOrder": 30915,
+      "timeOrder": 30916,
       "status": "Reviewed synthesis · agreed framework and proposals distinguished",
       "characters": [],
       "places": [
@@ -46470,6 +46783,14 @@
           "label": "Named in this reading"
         },
         {
+          "id": "catalistym-editorial",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
+          "id": "catalistym-atlas-explanations",
+          "label": "Development context; causal links remain qualified"
+        },
+        {
           "id": "lore-p00039",
           "label": "Era −3 setting reference; new story events remain proposed"
         }
@@ -46645,7 +46966,7 @@
     "Language": 119,
     "Locations": 206,
     "People": 100,
-    "Reference": 58,
+    "Reference": 59,
     "Remedies": 34,
     "Ribbons": 189,
     "Song": 4,
