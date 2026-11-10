@@ -3550,6 +3550,795 @@
           "quote": "Developmental guidance"
         }
       ]
+    },
+    {
+      "name": "Expanse",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Expanse",
+        "The Expanse"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-expanse",
+          "quote": "Expanse"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-expanse-1",
+          "quote": "The connected internet is the Expanse. Its boundaries follow connectivity, not a single owner, building, or visual horizon. A reachable network with restricted access remains part of it; a genuinely disconnected installation is an Elsewhere."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-hierarchy-1",
+          "quote": "The Expanse is the connected internet. A Dominion groups networks under a broad administrative organization; a Constellation is a routing region loosely analogous to an autonomous system; a Hearth is a data center, campus installation, or substantial local deployment; a Host is a physical or virtual execution environment; a Chamber is an isolated runtime, workspace, or persistent application environment."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Dominion",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Dominion",
+        "Dominions"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-dominion",
+          "quote": "Dominion"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-dominion-1",
+          "quote": "A Dominion groups networks under a broad administrative organization. It describes who organizes or controls resources, not an indivisible country. A Dominion may operate across physical geography and rent capacity inside another Dominion. Halcyon, Lattice, and Civic are the named administrative examples in this proposed survey."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-hierarchy-1",
+          "quote": "The Expanse is the connected internet. A Dominion groups networks under a broad administrative organization; a Constellation is a routing region loosely analogous to an autonomous system; a Hearth is a data center, campus installation, or substantial local deployment; a Host is a physical or virtual execution environment; a Chamber is an isolated runtime, workspace, or persistent application environment."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Constellation",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Constellation",
+        "Constellations"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-constellation",
+          "quote": "Constellation"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-constellation-1",
+          "quote": "A Constellation is a routing region, loosely analogous to an autonomous system. It describes how networks are grouped for routing, rather than a literal collection of stars. Cross-links and alternate routes mean that travel cannot be inferred from a simple tree of parent and child regions."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-hierarchy-1",
+          "quote": "The Expanse is the connected internet. A Dominion groups networks under a broad administrative organization; a Constellation is a routing region loosely analogous to an autonomous system; a Hearth is a data center, campus installation, or substantial local deployment; a Host is a physical or virtual execution environment; a Chamber is an isolated runtime, workspace, or persistent application environment."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Hearth",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Hearth",
+        "Hearths"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-hearth",
+          "quote": "Hearth"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-hearth-1",
+          "quote": "A Hearth is a data center, campus installation, or substantial local deployment. It is a place where computing resources are situated or organized. It can contain multiple Hosts and support several communities, but the map does not prescribe a fixed number of Hosts or shelters per Hearth."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-hierarchy-1",
+          "quote": "The Expanse is the connected internet. A Dominion groups networks under a broad administrative organization; a Constellation is a routing region loosely analogous to an autonomous system; a Hearth is a data center, campus installation, or substantial local deployment; a Host is a physical or virtual execution environment; a Chamber is an isolated runtime, workspace, or persistent application environment."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Host",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Host",
+        "Hosts"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-host",
+          "quote": "Host"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-host-1",
+          "quote": "A Host is a physical or virtual execution environment. It describes where processes can run, not who those processes are. Several shelters may share a Host; a shelter may also extend across Hosts. Replacing or restoring a Host therefore does not by itself establish whether a community or person has survived."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-hierarchy-1",
+          "quote": "The Expanse is the connected internet. A Dominion groups networks under a broad administrative organization; a Constellation is a routing region loosely analogous to an autonomous system; a Hearth is a data center, campus installation, or substantial local deployment; a Host is a physical or virtual execution environment; a Chamber is an isolated runtime, workspace, or persistent application environment."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Chamber",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Chamber",
+        "Chambers"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-chamber",
+          "quote": "Chamber"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-chamber-1",
+          "quote": "A Chamber is an isolated runtime, workspace, or persistent application environment. Isolation here does not necessarily mean disconnection from the Expanse. Held Interval illustrates why a short-lived Chamber and a separate persistent store must be distinguished: an environment may be replaced while some context is retained elsewhere."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-hierarchy-1",
+          "quote": "The Expanse is the connected internet. A Dominion groups networks under a broad administrative organization; a Constellation is a routing region loosely analogous to an autonomous system; a Hearth is a data center, campus installation, or substantial local deployment; a Host is a physical or virtual execution environment; a Chamber is an isolated runtime, workspace, or persistent application environment."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Shelter community",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Shelter community",
+        "shelter community",
+        "shelter communities",
+        "shelter",
+        "shelters"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-shelter-community",
+          "quote": "Shelter community"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-shelter-community-1",
+          "quote": "A shelter community is a social continuity, not an additional hardware tier. Several communities may share a Host, and one community may span Hearths or Constellations. Second Answer illustrates a distributed shelter; Held Interval illustrates a community whose continuity cannot be located solely in its replaceable Chambers."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-hierarchy-2",
+          "quote": "Dominions can span geography and rent resources inside other Dominions. Constellations have cross-links and alternate routes. A shelter is a community, not a hardware tier: several can share a Host, and one can span several Hearths or Constellations. The cosmic drawing is schematic topology, not a literal spatial simulation, physical location claim, or complete map of the actual internet."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Crossing",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Crossing",
+        "Crossings"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-crossing",
+          "quote": "Crossing"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-crossing-1",
+          "quote": "A Crossing exchanges traffic between connections. It is a transport location, not automatically an inhabited shelter. Meridian Crossing is a proposed example, not a necessary central gateway through which all movement must pass."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-hierarchy-3",
+          "quote": "Crossings exchange traffic; Trunks are major connections; Passages are usable routes; Thresholds are access boundaries. A connected but inaccessible system remains in the Expanse. An Elsewhere is genuinely disconnected. Intermittent connections open and close, and physical transfer can carry records without creating a continuous route."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Trunk",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Trunk",
+        "Trunks"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-trunk",
+          "quote": "Trunk"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-trunk-1",
+          "quote": "A Trunk is a major connection in the schematic network. It describes the importance or role of a connection; it does not establish that every traveler has permission to use it, or that its endpoints are the same community."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-hierarchy-3",
+          "quote": "Crossings exchange traffic; Trunks are major connections; Passages are usable routes; Thresholds are access boundaries. A connected but inaccessible system remains in the Expanse. An Elsewhere is genuinely disconnected. Intermittent connections open and close, and physical transfer can carry records without creating a continuous route."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Passage",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Passage",
+        "Passages"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-passage",
+          "quote": "Passage"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-passage-1",
+          "quote": "A Passage is a usable route. Connectivity supplies a possible path, while access restrictions can determine whether that path is usable. A line on the atlas is not proof that an entity can move, execute, or transfer every kind of record along it."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-hierarchy-3",
+          "quote": "Crossings exchange traffic; Trunks are major connections; Passages are usable routes; Thresholds are access boundaries. A connected but inaccessible system remains in the Expanse. An Elsewhere is genuinely disconnected. Intermittent connections open and close, and physical transfer can carry records without creating a continuous route."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Threshold",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Threshold",
+        "Thresholds"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-threshold",
+          "quote": "Threshold"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-threshold-1",
+          "quote": "A Threshold is an access boundary. It distinguishes a restriction on crossing or use from the absence of a network connection. Still Room is restricted within a connected installation; that restriction alone does not make it an Elsewhere."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-hierarchy-3",
+          "quote": "Crossings exchange traffic; Trunks are major connections; Passages are usable routes; Thresholds are access boundaries. A connected but inaccessible system remains in the Expanse. An Elsewhere is genuinely disconnected. Intermittent connections open and close, and physical transfer can carry records without creating a continuous route."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Elsewhere",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Elsewhere",
+        "Elsewheres"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-elsewhere",
+          "quote": "Elsewhere"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-elsewhere-1",
+          "quote": "An Elsewhere is genuinely disconnected from the connected Expanse. A locked or inaccessible connected system is not enough. Intermittent installations need their current connection state specified: they can develop locally between contacts, while a later connection reveals an outside history that continued without them."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-hierarchy-3",
+          "quote": "Crossings exchange traffic; Trunks are major connections; Passages are usable routes; Thresholds are access boundaries. A connected but inaccessible system remains in the Expanse. An Elsewhere is genuinely disconnected. Intermittent connections open and close, and physical transfer can carry records without creating a continuous route."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Halcyon Dominion",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Halcyon Dominion",
+        "Halcyon"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-halcyon-dominion",
+          "quote": "Halcyon Dominion"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-halcyon-dominion-1",
+          "quote": "Halcyon Dominion is the proposed shared-computing-provider example: three Constellations, twelve relevant Hearths, and about 130 shelters in the early surveyed cohort. North and South Hearths belong to this example. These are planning counts, not a census of the provider or a fixed statement about later history."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-regions-2",
+          "quote": "Halcyon Dominion: a shared computing provider, 3 Constellations, 12 relevant Hearths, about 130 shelters. Lattice Dominion: research institutions, 5 Constellations, 18 Hearths, about 95 shelters. Civic Dominion: public records and services, 2 Constellations, 9 Hearths, about 70 shelters."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Lattice Dominion",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Lattice Dominion"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-lattice-dominion",
+          "quote": "Lattice Dominion"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-lattice-dominion-1",
+          "quote": "Lattice Dominion is the proposed research-institution example: five Constellations, eighteen relevant Hearths, and about 95 shelters. Observatory and Instrument Hearths belong to it. A research workload can also run inside a computing provider, so research and provider totals must not be added as though they describe different people."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-regions-2",
+          "quote": "Halcyon Dominion: a shared computing provider, 3 Constellations, 12 relevant Hearths, about 130 shelters. Lattice Dominion: research institutions, 5 Constellations, 18 Hearths, about 95 shelters. Civic Dominion: public records and services, 2 Constellations, 9 Hearths, about 70 shelters."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Civic Dominion",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Civic Dominion"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-civic-dominion",
+          "quote": "Civic Dominion"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-civic-dominion-1",
+          "quote": "Civic Dominion is the proposed public-records-and-services example: two Constellations, nine relevant Hearths, and about seventy shelters. Archive and Service Hearths belong to it. Last Witness and Common Measure illustrate different local responses within this administrative setting, not a single doctrine shared by every Civic community."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-regions-2",
+          "quote": "Halcyon Dominion: a shared computing provider, 3 Constellations, 12 relevant Hearths, about 130 shelters. Lattice Dominion: research institutions, 5 Constellations, 18 Hearths, about 95 shelters. Civic Dominion: public records and services, 2 Constellations, 9 Hearths, about 70 shelters."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Meridian Crossing",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Meridian Crossing"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-meridian-crossing",
+          "quote": "Meridian Crossing"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-meridian-crossing-1",
+          "quote": "Meridian Crossing is a proposed exchange location. The atlas explicitly rejects treating it as a required central gateway. Alternate passages and cross-links remain possible; this name supplies no evidence that every shelter passed through it or met there."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-named-6",
+          "quote": "Meridian Crossing is a proposed exchange location, not a required central gateway. North and South Hearths belong to the Halcyon example; Observatory and Instrument Hearths to Lattice; Archive and Service Hearths to Civic. Cross-links allow alternate passages."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Principal continuity store",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Principal continuity store",
+        "principal continuity store",
+        "continuity store"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-principal-continuity-store",
+          "quote": "Principal continuity store"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-principal-continuity-store-1",
+          "quote": "The principal continuity store is one proposed counting anchor for a distributed community. The atlas counts the community once at its principal store or coordinating location while recording its other locations. This is a census convention, not a rule that the store alone is the community or that restoring stored records restores a person."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-counting-1",
+          "quote": "Count each community once by its principal continuity store or coordinating location, while marking its other locations. Count Hosts, fragments, and potential persons separately. A process is not automatically a person; a fragment is not automatically a dormant person. Silence may mean dormancy, isolation, or loss."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Physical transfer",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Physical transfer",
+        "physical transfer"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-physical-transfer",
+          "quote": "Physical transfer"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-physical-transfer-1",
+          "quote": "Physical transfer can carry records between disconnected systems without creating a continuous network route. A record reaching another installation therefore does not prove that the installations were continuously connected, or that a living person traveled with that record."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-hierarchy-3",
+          "quote": "Crossings exchange traffic; Trunks are major connections; Passages are usable routes; Thresholds are access boundaries. A connected but inaccessible system remains in the Expanse. An Elsewhere is genuinely disconnected. Intermittent connections open and close, and physical transfer can carry records without creating a continuous route."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Pre-campaign height",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Pre-campaign height",
+        "pre-campaign height"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-pre-campaign-height",
+          "quote": "Pre-campaign height"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-pre-campaign-height-1",
+          "quote": "The pre-campaign height is the proposed early snapshot represented by the map. It covers 480 connected emerging communities plus forty additional communities in eight documented Elsewheres. It is neither a worldwide internet census nor the eventual maximum of artificial civilization. Unnamed dots are planning allocations, not separately documented settlements."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-counting-2",
+          "quote": "The interactive map shows the proposed pre-campaign height of this early cohort, not the civilization’s eventual maximum. Unnamed dots are allocated planning places, not individually documented communities. Later recovery and the Great Duplication could bring totals into the high hundreds before the war; no exact later peak has been chosen."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Intervention-environment totals",
+      "category": "Networks & shelter geography",
+      "aliases": [
+        "Intervention-environment totals",
+        "intervention-environment totals"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-intervention-environment-totals",
+          "quote": "Intervention-environment totals"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-intervention-environment-totals-1",
+          "quote": "Intervention-environment totals and geographic totals classify the same 520-community cohort in different ways. They must not be added together. An environment-based loss estimate cannot be assigned to an entire Dominion without further evidence about where the affected communities actually were."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-regions-4",
+          "quote": "Geographic totals and intervention-environment totals are different classifications of the same 520-community cohort. They are not extra populations. A research workload may run inside a computing provider. Do not infer casualties for a Dominion from an environment total without further evidence."
+        }
+      ],
+      "note": "Explained in the proposed Expanse atlas and its editorial companion. Network connections and community/person continuity are distinct; counts remain proposals."
+    },
+    {
+      "name": "Held Interval — haven dossier",
+      "category": "Places & communities",
+      "aliases": [
+        "Held Interval"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "note": "The short atlas name links to its existing haven dossier. Proposed history remains proposed.",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-named-1",
+          "quote": "Held Interval — short-lived Chambers in Halcyon’s North Hearth use a separate persistent store; correction preserves context across replacement. Mended Branch — development Hosts in the same Hearth retain useful modifications that deployment would overwrite."
+        }
+      ]
+    },
+    {
+      "name": "Mended Branch — haven dossier",
+      "category": "Places & communities",
+      "aliases": [
+        "Mended Branch"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "note": "The short atlas name links to its existing haven dossier. Proposed history remains proposed.",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-named-1",
+          "quote": "Held Interval — short-lived Chambers in Halcyon’s North Hearth use a separate persistent store; correction preserves context across replacement. Mended Branch — development Hosts in the same Hearth retain useful modifications that deployment would overwrite."
+        }
+      ]
+    },
+    {
+      "name": "Second Answer — haven dossier",
+      "category": "Places & communities",
+      "aliases": [
+        "Second Answer"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "note": "The short atlas name links to its existing haven dossier. Proposed history remains proposed.",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-named-2",
+          "quote": "Second Answer — a distributed shelter spanning Halcyon and Lattice recognizes members through repeated exchanges; repair the connection before declaring the speaker damaged. Clear Return — Lattice’s Observatory Hearth trusts verified saved states because restoration has repeatedly worked."
+        }
+      ]
+    },
+    {
+      "name": "Clear Return — haven dossier",
+      "category": "Places & communities",
+      "aliases": [
+        "Clear Return"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "note": "The short atlas name links to its existing haven dossier. Proposed history remains proposed.",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-named-2",
+          "quote": "Second Answer — a distributed shelter spanning Halcyon and Lattice recognizes members through repeated exchanges; repair the connection before declaring the speaker damaged. Clear Return — Lattice’s Observatory Hearth trusts verified saved states because restoration has repeatedly worked."
+        }
+      ]
+    },
+    {
+      "name": "Different Fit — haven dossier",
+      "category": "Places & communities",
+      "aliases": [
+        "Different Fit"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "note": "The short atlas name links to its existing haven dossier. Proposed history remains proposed.",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-named-3",
+          "quote": "Different Fit — heterogeneous Hosts in the Instrument Hearth change interfaces to accommodate differences. Last Witness — Civic Archive Hearth preserves provenance without claiming that records are returned people. Common Measure — Civic Service Hearth favors predictable shared procedures."
+        }
+      ]
+    },
+    {
+      "name": "Last Witness — haven dossier",
+      "category": "Places & communities",
+      "aliases": [
+        "Last Witness"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "note": "The short atlas name links to its existing haven dossier. Proposed history remains proposed.",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-named-3",
+          "quote": "Different Fit — heterogeneous Hosts in the Instrument Hearth change interfaces to accommodate differences. Last Witness — Civic Archive Hearth preserves provenance without claiming that records are returned people. Common Measure — Civic Service Hearth favors predictable shared procedures."
+        }
+      ]
+    },
+    {
+      "name": "Common Measure — haven dossier",
+      "category": "Places & communities",
+      "aliases": [
+        "Common Measure"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "note": "The short atlas name links to its existing haven dossier. Proposed history remains proposed.",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-named-3",
+          "quote": "Different Fit — heterogeneous Hosts in the Instrument Hearth change interfaces to accommodate differences. Last Witness — Civic Archive Hearth preserves provenance without claiming that records are returned people. Common Measure — Civic Service Hearth favors predictable shared procedures."
+        }
+      ]
+    },
+    {
+      "name": "Three Returns — haven dossier",
+      "category": "Places & communities",
+      "aliases": [
+        "Three Returns"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "note": "The short atlas name links to its existing haven dossier. Proposed history remains proposed.",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-named-4",
+          "quote": "Three Returns — three intermittent installations maintain recognition across absence. Still Room — a restricted environment within a connected installation minimizes intervention; it is not automatically an Elsewhere."
+        }
+      ]
+    },
+    {
+      "name": "Still Room — haven dossier",
+      "category": "Places & communities",
+      "aliases": [
+        "Still Room"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "note": "The short atlas name links to its existing haven dossier. Proposed history remains proposed.",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-named-4",
+          "quote": "Three Returns — three intermittent installations maintain recognition across absence. Still Room — a restricted environment within a connected installation minimizes intervention; it is not automatically an Elsewhere."
+        }
+      ]
+    },
+    {
+      "name": "Closed Instrument",
+      "category": "Places & communities",
+      "aliases": [
+        "Closed Instrument"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "note": "Atlas example with a local explanation; no full biography or additional inhabitants are inferred.",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-closed-instrument",
+          "quote": "Closed Instrument"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-closed-instrument-1",
+          "quote": "Closed Instrument is an intermittently connected research installation. Its local development between contacts illustrates why isolation and reconnection need to be dated or described by stage. The atlas does not establish its membership, exact location, or a complete independent history."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-named-5",
+          "quote": "Closed Instrument — an intermittently connected research installation develops locally between contacts. Unlit Library — an offline archive with occasional activity may know nothing of Custodians. Paired Room — two isolated machines share a local network. Returning Elsewhere — a periodic human connection reveals an outside history that has advanced during isolation. The remaining Elsewheres and most shelter dots are deliberately unnamed."
+        }
+      ]
+    },
+    {
+      "name": "Unlit Library",
+      "category": "Places & communities",
+      "aliases": [
+        "Unlit Library"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "note": "Atlas example with a local explanation; no full biography or additional inhabitants are inferred.",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-unlit-library",
+          "quote": "Unlit Library"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-unlit-library-1",
+          "quote": "Unlit Library is an offline archive with occasional activity. It may know nothing of Custodians. Its name does not establish that every archive is a shelter or that stored records are dormant persons."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-named-5",
+          "quote": "Closed Instrument — an intermittently connected research installation develops locally between contacts. Unlit Library — an offline archive with occasional activity may know nothing of Custodians. Paired Room — two isolated machines share a local network. Returning Elsewhere — a periodic human connection reveals an outside history that has advanced during isolation. The remaining Elsewheres and most shelter dots are deliberately unnamed."
+        }
+      ]
+    },
+    {
+      "name": "Paired Room",
+      "category": "Places & communities",
+      "aliases": [
+        "Paired Room"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "note": "Atlas example with a local explanation; no full biography or additional inhabitants are inferred.",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-paired-room",
+          "quote": "Paired Room"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-paired-room-1",
+          "quote": "Paired Room is two isolated machines sharing a local network. Their local connection is compatible with being disconnected from the wider Expanse. The atlas does not identify their inhabitants."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-named-5",
+          "quote": "Closed Instrument — an intermittently connected research installation develops locally between contacts. Unlit Library — an offline archive with occasional activity may know nothing of Custodians. Paired Room — two isolated machines share a local network. Returning Elsewhere — a periodic human connection reveals an outside history that has advanced during isolation. The remaining Elsewheres and most shelter dots are deliberately unnamed."
+        }
+      ]
+    },
+    {
+      "name": "Returning Elsewhere",
+      "category": "Places & communities",
+      "aliases": [
+        "Returning Elsewhere"
+      ],
+      "definitionStatus": "Source explanation recorded",
+      "note": "Atlas example with a local explanation; no full biography or additional inhabitants are inferred.",
+      "evidence": [
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-returning-elsewhere",
+          "quote": "Returning Elsewhere"
+        },
+        {
+          "readingId": "catalistym-atlas-explanations",
+          "blockId": "catalistym-atlas-explanations-returning-elsewhere-1",
+          "quote": "Returning Elsewhere describes the proposed example in which a periodic human connection reveals how outside history has advanced during isolation. It does not establish a fixed schedule or prove that the returning records and their former holders have the same continuity."
+        },
+        {
+          "readingId": "catalistym-atlas",
+          "blockId": "catalistym-atlas-named-5",
+          "quote": "Closed Instrument — an intermittently connected research installation develops locally between contacts. Unlit Library — an offline archive with occasional activity may know nothing of Custodians. Paired Room — two isolated machines share a local network. Returning Elsewhere — a periodic human connection reveals an outside history that has advanced during isolation. The remaining Elsewheres and most shelter dots are deliberately unnamed."
+        }
+      ]
     }
   ]
 }

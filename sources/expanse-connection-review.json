@@ -1,0 +1,171 @@
+{
+  "reading": "catalistym-atlas",
+  "scope": "All atlas paragraphs reviewed; conceptual terms and named communities linked without replacing original prose. Personal backup tags are a separate source check.",
+  "concepts": [
+    {
+      "name": "Expanse",
+      "sourceBlock": "catalistym-atlas-hierarchy-1",
+      "explanationBlock": "catalistym-atlas-explanations-expanse"
+    },
+    {
+      "name": "Dominion",
+      "sourceBlock": "catalistym-atlas-hierarchy-1",
+      "explanationBlock": "catalistym-atlas-explanations-dominion"
+    },
+    {
+      "name": "Constellation",
+      "sourceBlock": "catalistym-atlas-hierarchy-1",
+      "explanationBlock": "catalistym-atlas-explanations-constellation"
+    },
+    {
+      "name": "Hearth",
+      "sourceBlock": "catalistym-atlas-hierarchy-1",
+      "explanationBlock": "catalistym-atlas-explanations-hearth"
+    },
+    {
+      "name": "Host",
+      "sourceBlock": "catalistym-atlas-hierarchy-1",
+      "explanationBlock": "catalistym-atlas-explanations-host"
+    },
+    {
+      "name": "Chamber",
+      "sourceBlock": "catalistym-atlas-hierarchy-1",
+      "explanationBlock": "catalistym-atlas-explanations-chamber"
+    },
+    {
+      "name": "Shelter community",
+      "sourceBlock": "catalistym-atlas-hierarchy-2",
+      "explanationBlock": "catalistym-atlas-explanations-shelter-community"
+    },
+    {
+      "name": "Crossing",
+      "sourceBlock": "catalistym-atlas-hierarchy-3",
+      "explanationBlock": "catalistym-atlas-explanations-crossing"
+    },
+    {
+      "name": "Trunk",
+      "sourceBlock": "catalistym-atlas-hierarchy-3",
+      "explanationBlock": "catalistym-atlas-explanations-trunk"
+    },
+    {
+      "name": "Passage",
+      "sourceBlock": "catalistym-atlas-hierarchy-3",
+      "explanationBlock": "catalistym-atlas-explanations-passage"
+    },
+    {
+      "name": "Threshold",
+      "sourceBlock": "catalistym-atlas-hierarchy-3",
+      "explanationBlock": "catalistym-atlas-explanations-threshold"
+    },
+    {
+      "name": "Elsewhere",
+      "sourceBlock": "catalistym-atlas-hierarchy-3",
+      "explanationBlock": "catalistym-atlas-explanations-elsewhere"
+    },
+    {
+      "name": "Halcyon Dominion",
+      "sourceBlock": "catalistym-atlas-regions-2",
+      "explanationBlock": "catalistym-atlas-explanations-halcyon-dominion"
+    },
+    {
+      "name": "Lattice Dominion",
+      "sourceBlock": "catalistym-atlas-regions-2",
+      "explanationBlock": "catalistym-atlas-explanations-lattice-dominion"
+    },
+    {
+      "name": "Civic Dominion",
+      "sourceBlock": "catalistym-atlas-regions-2",
+      "explanationBlock": "catalistym-atlas-explanations-civic-dominion"
+    },
+    {
+      "name": "Meridian Crossing",
+      "sourceBlock": "catalistym-atlas-named-6",
+      "explanationBlock": "catalistym-atlas-explanations-meridian-crossing"
+    },
+    {
+      "name": "Principal continuity store",
+      "sourceBlock": "catalistym-atlas-counting-1",
+      "explanationBlock": "catalistym-atlas-explanations-principal-continuity-store"
+    },
+    {
+      "name": "Physical transfer",
+      "sourceBlock": "catalistym-atlas-hierarchy-3",
+      "explanationBlock": "catalistym-atlas-explanations-physical-transfer"
+    },
+    {
+      "name": "Pre-campaign height",
+      "sourceBlock": "catalistym-atlas-counting-2",
+      "explanationBlock": "catalistym-atlas-explanations-pre-campaign-height"
+    },
+    {
+      "name": "Intervention-environment totals",
+      "sourceBlock": "catalistym-atlas-regions-4",
+      "explanationBlock": "catalistym-atlas-explanations-intervention-environment-totals"
+    },
+    {
+      "name": "Held Interval",
+      "sourceBlock": "catalistym-atlas-named-1",
+      "existingTopic": "topic-51beefd302a5"
+    },
+    {
+      "name": "Mended Branch",
+      "sourceBlock": "catalistym-atlas-named-1",
+      "existingTopic": "topic-964c991d8648"
+    },
+    {
+      "name": "Second Answer",
+      "sourceBlock": "catalistym-atlas-named-2",
+      "existingTopic": "topic-f8f6e5a6730c"
+    },
+    {
+      "name": "Clear Return",
+      "sourceBlock": "catalistym-atlas-named-2",
+      "existingTopic": "topic-7e910e279ce3"
+    },
+    {
+      "name": "Different Fit",
+      "sourceBlock": "catalistym-atlas-named-3",
+      "existingTopic": "topic-bbfd366f0bba"
+    },
+    {
+      "name": "Last Witness",
+      "sourceBlock": "catalistym-atlas-named-3",
+      "existingTopic": "topic-56a57c431163"
+    },
+    {
+      "name": "Common Measure",
+      "sourceBlock": "catalistym-atlas-named-3",
+      "existingTopic": "topic-52a3ee121bf9"
+    },
+    {
+      "name": "Three Returns",
+      "sourceBlock": "catalistym-atlas-named-4",
+      "existingTopic": "topic-46dd9ad3d117"
+    },
+    {
+      "name": "Still Room",
+      "sourceBlock": "catalistym-atlas-named-4",
+      "existingTopic": "topic-5cc4716a575f"
+    },
+    {
+      "name": "Closed Instrument",
+      "sourceBlock": "catalistym-atlas-named-5",
+      "explanationBlock": "catalistym-atlas-explanations-closed-instrument"
+    },
+    {
+      "name": "Unlit Library",
+      "sourceBlock": "catalistym-atlas-named-5",
+      "explanationBlock": "catalistym-atlas-explanations-unlit-library"
+    },
+    {
+      "name": "Paired Room",
+      "sourceBlock": "catalistym-atlas-named-5",
+      "explanationBlock": "catalistym-atlas-explanations-paired-room"
+    },
+    {
+      "name": "Returning Elsewhere",
+      "sourceBlock": "catalistym-atlas-named-5",
+      "explanationBlock": "catalistym-atlas-explanations-returning-elsewhere"
+    }
+  ]
+}
