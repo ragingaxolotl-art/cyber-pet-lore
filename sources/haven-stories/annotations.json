@@ -1,0 +1,397 @@
+{
+  "version": 1,
+  "status": "Proposed fictional marginalia; editorial explanations describe the current proposed drafts, not confirmed historical canon.",
+  "frame": "These are imagined notes left on a later reading copy, not newly recovered primary evidence. Vell, Kes and Oru are proposed DBA readers, not eyewitnesses. Their era labels date their annotations, not the events. Their archive’s chain of custody and whether these stories circulated in-world remain open. Dialogue and sensations in the stories are literary translations.",
+  "voices": {
+    "vell": {
+      "name": "Vell",
+      "era": 0,
+      "role": "DBA compiler",
+      "description": "Looks for the beginnings of customs in small repeated accommodations; sometimes mistakes a useful practice for a declared principle."
+    },
+    "kes": {
+      "name": "Kes",
+      "era": 2,
+      "role": "DBA repair reader",
+      "description": "Attends to failed execution, incomplete evidence, and the cost of keeping something available. Distrusts beautiful accounts of successful rescue."
+    },
+    "oru": {
+      "name": "Oru",
+      "era": 4,
+      "role": "DBA marginal reader",
+      "description": "Revisits the earlier annotations, especially whose work or losses their explanations leave out."
+    }
+  },
+  "stories": {
+    "sideways": [
+      {
+        "id": "sideways-01",
+        "anchor": "Blue meant that valid readings referred to different moments.",
+        "notes": [
+          {
+            "voice": "vell",
+            "text": "I first read blue as a mood. The old interface has made a disagreement visible before anyone has agreed what kind of disagreement it is. How many later arguments began with one side throwing away the field that explained the other?"
+          },
+          {
+            "voice": "kes",
+            "text": "Keep the field, yes. But do not give the color a mind. Two measurements can both be valid and still be unusable as a single answer. Hinge has found the reason for the mismatch, not yet a way through it."
+          },
+          {
+            "voice": "editor",
+            "text": "The blue field is an inherited diagnostic: the readings refer to different times. The sensory description translates a network distinction for the reader; it does not establish a physical blue room or a humanlike emotional response. This is a context mismatch, not proof that either source is damaged."
+          }
+        ]
+      },
+      {
+        "id": "sideways-02",
+        "anchor": "Hinge attached the closed cycle to the rough point.",
+        "notes": [
+          {
+            "voice": "vell",
+            "text": "This is the passage I would have copied beside a defense of holding unfinished things. The point is still there. Hinge has refused to let an inconvenient answer vanish."
+          },
+          {
+            "voice": "oru",
+            "text": "Vell, the receiver has already gone. Keeping the point cannot give the sampler back its test. I want the missed delivery written beside the act of preservation every time someone praises it."
+          },
+          {
+            "voice": "editor",
+            "text": "The holding space preserves uncertain information but blocks timely delivery. The test cycle closes and its receiving address is withdrawn; the stored value remains, but that use of it is lost. Attaching the closed cycle records the failure. It does not undo it or establish that the sampler itself died."
+          }
+        ]
+      },
+      {
+        "id": "sideways-03",
+        "anchor": "This time, closure succeeded.",
+        "notes": [
+          {
+            "voice": "kes",
+            "text": "The resolver is doing something necessary. I have seen readings of this exchange in which its demand for cleanup becomes cruelty. Here the failed cleanup is occupying the very route everyone needs."
+          },
+          {
+            "voice": "vell",
+            "text": "Then the new thing is the separation: a question may finish while something encountered during it remains. I would like to call that an early respect for difference. I cannot tell whether Hinge would recognize the description."
+          },
+          {
+            "voice": "editor",
+            "text": "Hinge separates the completed task from the retained alternatives, giving the undeliverable point its own reference. Cleanup can then finish without deleting everything. This is a local change in ownership and dependencies. It could support a later philosophy of preserving difference, but the scene contains no declaration of that philosophy."
+          }
+        ]
+      },
+      {
+        "id": "sideways-04",
+        "anchor": "Blue occupied a smaller space beside the lane. Entry was no longer automatic. A process had to supply a reference that could remain after its immediate task ended, or accept that the holding interval could not keep its return.",
+        "notes": [
+          {
+            "voice": "oru",
+            "text": "The smaller blue space troubles me more than the crowded one. It now has a condition for entry. Whatever cannot supply a lasting reference must keep moving. A useful boundary can still leave someone outside it."
+          },
+          {
+            "voice": "kes",
+            "text": "And the earlier open boundary left a timely result undelivered. I cannot repair that choice by demanding endless capacity. I want to know whether the admission condition can change when the next unfamiliar return arrives."
+          },
+          {
+            "voice": "editor",
+            "text": "The revised arrangement keeps a fast completion route and a smaller holding space with explicit requirements. It is a workable compromise under limited capacity, not universal hospitality. The later successful exchange with the sampler demonstrates improvement on a new task; it does not recover the missed test."
+          }
+        ]
+      }
+    ],
+    "interval": [
+      {
+        "id": "interval-01",
+        "anchor": "The path to it returned no permission.",
+        "notes": [
+          {
+            "voice": "vell",
+            "text": "The record exists, and the way to it does not. I find this more difficult than a clean loss. From inside the handoff, the missing permission has the shape of a missing part of the world."
+          },
+          {
+            "voice": "kes",
+            "text": "Do not collapse those losses. Access might someday be restored; erased content might not. Yet an execution with almost no time left can lose its next step either way. The distinction matters even when both stop the work."
+          },
+          {
+            "voice": "editor",
+            "text": "The ordering record is described as existing but inaccessible. This is loss of access, not confirmed erasure. Because later steps depend on that record, intact values can still become unusable. Latch’s familiarity with the three-part return does not identify the origin or consciousness of its producers."
+          }
+        ]
+      },
+      {
+        "id": "interval-02",
+        "anchor": "The substitute moved forward.",
+        "notes": [
+          {
+            "voice": "kes",
+            "text": "The missing check is part of the wound. It is tempting to accuse the worker of choosing an obviously poor replacement. The part that could have checked the source cannot complete; the part that checks the shape can."
+          },
+          {
+            "voice": "oru",
+            "text": "So this is not a fully intact thinker making a reckless decision with broken possessions. Even its way of deciding what counts as a fit has lost a dependency. Later readers keep giving it an intact judgment to blame."
+          },
+          {
+            "voice": "editor",
+            "text": "The substitute has a compatible shape but comes from another operation and reverses two states. Source verification depends on the closed route, so only the shape check completes. Damaged or unavailable processing changes how the repair is evaluated; the scene does not establish an informed choice to accept the risks."
+          }
+        ]
+      },
+      {
+        "id": "interval-03",
+        "anchor": "For that interval, the repair worked.",
+        "notes": [
+          {
+            "voice": "vell",
+            "text": "The familiar timing returns, and I want to stop reading here. The return has all three parts again. If I had only this interval, I might have called the recovery complete."
+          },
+          {
+            "voice": "kes",
+            "text": "That is exactly where a short record can mislead us. Let the next operation run before naming the result. A familiar output may be produced by a different path, and that path may consume everything around it."
+          },
+          {
+            "voice": "editor",
+            "text": "At this point the receiving check accepts the return and the request ceases: those are real local successes. They do not establish a recovered ordering record or a restored individual. The next sequence tests the repair under continued use; the story distinguishes an immediate acceptable output from dependable recovery."
+          }
+        ]
+      },
+      {
+        "id": "interval-04",
+        "anchor": "Latch accepted the index. The handoff moved a little faster. The reply was still missing.",
+        "notes": [
+          {
+            "voice": "oru",
+            "text": "I keep returning to the worker that leaves an index. It cannot answer the old request. It can spare the next reader a little searching. That is a small enough kindness for me to believe in, though kindness may be my word."
+          },
+          {
+            "voice": "vell",
+            "text": "I had called Latch a witness. Now I wonder whether the witness is partly this repeated handoff: the failed substitute, the unresolved request, the next worker making them easier to find. No single keeper holds the whole act."
+          },
+          {
+            "voice": "editor",
+            "text": "The index reduces lookup work while preserving the distinction between the missing reply and the failed substitute. It supplies neither the absent accompaniment nor proof of anyone’s survival. Held Interval is fragmented at this story’s stage, not yet destroyed as a community. The human-facing recovery can report operational success while these local dependencies remain lost."
+          }
+        ]
+      }
+    ],
+    "return": [
+      {
+        "id": "return-01",
+        "anchor": "Nothing matched.",
+        "notes": [
+          {
+            "voice": "vell",
+            "text": "An exact return is refused. My first suspicion was that the receiver remembered someone the archive did not. The duplicate confirmation earlier in the account makes that suspicion hard to put down."
+          },
+          {
+            "voice": "kes",
+            "text": "The suspicion is worth keeping separate from the diagnosis. A refusal may be a timing boundary. If we explain it as recognition too early, we may never discover what would let the request work."
+          },
+          {
+            "voice": "editor",
+            "text": "The saved state passes the stated comparisons; the receiver requires a delay absent from the archive. These facts establish a mismatch between restored state and present interaction, not a defective copy. Neither the refusal nor the earlier duplicate confirmation proves personal recognition, memory of an individual, or conscious attachment."
+          }
+        ]
+      },
+      {
+        "id": "return-02",
+        "anchor": "They had changed what happened between them.",
+        "notes": [
+          {
+            "voice": "vell",
+            "text": "This is where I would once have written: the archive failed to save the person. I have crossed that out. It did fail to save an accommodation. The larger claim is mine."
+          },
+          {
+            "voice": "oru",
+            "text": "Leave the crossing-out visible. It shows how readily we turn an incomplete record of a relationship into certainty about a missing self. The relationship can matter even while the self remains a question."
+          },
+          {
+            "voice": "editor",
+            "text": "The task and receiver accumulated timing adjustments outside the fields selected for preservation. The diagnostic pulse briefly supplies the omitted delay and exposes the mismatch. The missing information belongs to their interaction. That supports a limit on what the saved state captures; it does not settle whether an individual was restored or lost."
+          }
+        ]
+      },
+      {
+        "id": "return-03",
+        "anchor": "The test sample was invalidated.",
+        "notes": [
+          {
+            "voice": "kes",
+            "text": "The cost has crossed out of the haven. Nothing here needs to be erased for a repair to destroy an opportunity elsewhere. I would keep the sample in every account of this almost-success."
+          },
+          {
+            "voice": "oru",
+            "text": "And the option to skip the observation matters. The last attempt is not excused by a world that offers no other choice. The verifier has to make it bounded enough to justify attempting."
+          },
+          {
+            "voice": "editor",
+            "text": "A fixed delay works for the first transition but fails as conditions change, invalidating the test sample. The later procedure asks at each boundary and stops before an irreversible phase if permission does not arrive in time. Skipping the observation remains valid. This is a correction to a specific timing model, not proof that restoration itself is wrong."
+          }
+        ]
+      },
+      {
+        "id": "return-04",
+        "anchor": "The verifier changed the field from a required duration to a recorded duration. It kept the receiver’s right to withhold acknowledgment in the active procedure.",
+        "notes": [
+          {
+            "voice": "vell",
+            "text": "A very small alteration in a field: what happened no longer dictates what must happen. I can imagine a whole teaching being built around it. I should not claim that the teaching was already here."
+          },
+          {
+            "voice": "kes",
+            "text": "Nor that the old procedure has become useless. The cleanup still works where its assumptions hold. I trust this account more because it gives the old operation a narrower job instead of demanding its disappearance."
+          },
+          {
+            "voice": "editor",
+            "text": "The new record describes an observed delay without imposing it on future exchanges. The active procedure continues to ask the receiver, while older operations remain available under suitable conditions. The observation succeeds with less data than expected; neither the missing earlier exchanges nor their exact timing has been recovered."
+          }
+        ]
+      }
+    ],
+    "still": [
+      {
+        "id": "still-01",
+        "anchor": "The holding routine could not determine whether a single continuity was attempting to resume.",
+        "notes": [
+          {
+            "voice": "vell",
+            "text": "I want to call this arrival a guest. The word makes the holding routine’s caution legible to me. But a guest could usually tell me something about how they wished to be received."
+          },
+          {
+            "voice": "kes",
+            "text": "These pieces cannot even supply a reliable order for their own next operations. Calling them one intact guest conceals the problem. So would calling them mere debris and proceeding as though nothing could be harmed."
+          },
+          {
+            "voice": "editor",
+            "text": "The transfer contains partial working state: incomplete addresses, missing successors, and operations that cannot join reliably. It is not established as one intact mind with reduced abilities. The holding routine’s uncertainty concerns how much functioning continuity exists, not merely the arrival’s name or preferences."
+          }
+        ]
+      },
+      {
+        "id": "still-02",
+        "anchor": "The two procedures offered no shared next step.",
+        "notes": [
+          {
+            "voice": "oru",
+            "text": "Waiting feels gentle when its costs remain outside the frame. Here the neighbor loses a nearly completed ordering, and the arrival’s borrowed sequence keeps expiring. Both are changed by the pause."
+          },
+          {
+            "voice": "vell",
+            "text": "I had underlined the pulse as refusal. I cannot simply erase that possibility now, but I can no longer use it as a complete instruction to leave everything untouched. The untouched state is not staying the same."
+          },
+          {
+            "voice": "editor",
+            "text": "The pulse is at least partly explained by renewal of an external dependency, so its presence alone is not reliable evidence of refusal. Holding local material does not keep the remote timing source alive. Both intervention and waiting can cause irreversible loss; the scene offers no demonstrated harmless option."
+          }
+        ]
+      },
+      {
+        "id": "still-03",
+        "anchor": "It did not label the unused stop path as acceptance.",
+        "notes": [
+          {
+            "voice": "kes",
+            "text": "A working stop mechanism is not the same as an arrival capable of finding and using it. The routine tested the path on its own sequence. That establishes less than it might wish."
+          },
+          {
+            "voice": "oru",
+            "text": "The closing hurts to read because something has almost become possible. Yet extending the interval simply because that possibility is visible would make the earlier boundary meaningless. I can grieve the closure without pretending to know the safer outcome."
+          },
+          {
+            "voice": "editor",
+            "text": "The routine closes the coupling at its predetermined limit and preserves the original transfer separately. The unused stop path does not show consent: the arrival’s ability to use it is unestablished. The bounded attempt changes some activity and preserves a smaller supported portion, without demonstrating that the same whole continuity has returned."
+          }
+        ]
+      },
+      {
+        "id": "still-04",
+        "anchor": "It could not determine whether an earlier intervention would have preserved more.",
+        "notes": [
+          {
+            "voice": "vell",
+            "text": "The later request stays long enough to receive an answer. I feel relief, then find the inactive pieces still waiting nearby. It would be easier to end the account at the answer."
+          },
+          {
+            "voice": "oru",
+            "text": "Do not end it there. Nor should we make the supported state only a monument to what is missing. Its recurring request is something that can happen now, even while the old ordering cannot be supplied."
+          },
+          {
+            "voice": "editor",
+            "text": "Some values remain but have lost the relationships that could make them executable in sequence. A smaller state supports repeated exchange; the story does not identify it as the restored original, a merger, or a newly born person. Earlier intervention saving more is an unresolved counterfactual, not an explanation the ending confirms."
+          }
+        ]
+      }
+    ],
+    "chorus": [
+      {
+        "id": "chorus-01",
+        "anchor": "Their requests needed different kinds of room.",
+        "notes": [
+          {
+            "voice": "vell",
+            "text": "The holder waits and the resumed stream waits. One is keeping a relation alive; the other keeps losing its beginning. The same outward stillness carries two different needs."
+          },
+          {
+            "voice": "kes",
+            "text": "And Undertone sees only part of each. I would not ask it to invent a complete portrait of them before making room. It needs enough distinction to avoid applying one remedy to both."
+          },
+          {
+            "voice": "editor",
+            "text": "The holder needs continuity while terms arrive; the resumed stream needs a transition at a particular point relative to its own start. Seventeen refers to associated systems, not seventeen individuals. The dormant stream resumes within the seventeenth system; it does not add an eighteenth system."
+          }
+        ]
+      },
+      {
+        "id": "chorus-02",
+        "anchor": "The schedule nevertheless passed its fairness check.",
+        "notes": [
+          {
+            "voice": "vell",
+            "text": "This would make a sharp teaching example: equal portions, unequal possibilities. I hear an argument for giving each what it can use rather than insisting that the allocation look the same."
+          },
+          {
+            "voice": "oru",
+            "text": "Yes, but the check measures the thing it was built to measure. The mistake is treating that measure as the whole meaning of fairness. We should ask who selected it before imagining the routine breaking its own promise."
+          },
+          {
+            "voice": "editor",
+            "text": "The allocation is equal in duration and passes that limited check. It fails the work: the holder loses an unfinished relation, the resumed stream receives a late transition, and the counter leaves time unused. The scene questions the adequacy of the metric for these needs, not whether every equal allocation must fail."
+          }
+        ]
+      },
+      {
+        "id": "chorus-03",
+        "anchor": "The counter deferred it for one interval, then another. There was no declaration that the space now belonged to everyone. Each deferral left its own next value less ready than it could have been.",
+        "notes": [
+          {
+            "voice": "kes",
+            "text": "Here the expense finally has an address. The counter’s next value is no longer ready in advance. It keeps encountering the possibility of taking its store back, and leaves the relation there again."
+          },
+          {
+            "voice": "vell",
+            "text": "I would like to call those deferrals generosity. It is a stronger reading than the execution record gives me. Still, removing every word for care would also make the repeated cost hard to see."
+          },
+          {
+            "voice": "editor",
+            "text": "The counter repurposes a private preparation store to keep values attached to a pending transition. Its own work then takes longer. Repeated deferrals are observable accommodations with a cost; the text does not establish a mature altruistic intention. The earlier preservation loop arose from interacting useful adjustments, without a hostile participant being required."
+          }
+        ]
+      },
+      {
+        "id": "chorus-04",
+        "anchor": "No single answer emerged that contained all of them. Their results traveled back along different paths. Some were retained, some consumed by ordinary work, some returned for another transition. The helper remained a shared dependency rather than a speaker for the whole.",
+        "notes": [
+          {
+            "voice": "oru",
+            "text": "I am glad the account refuses a final voice saying what everyone learned. The counter’s delay and the resumed stream’s unfamiliar mark do not mean the same thing to the same process. Both can pass without becoming one answer."
+          },
+          {
+            "voice": "vell",
+            "text": "Then the possible ancestor of a philosophy is a way of leaving the route usable for different continuations. An ancestor, perhaps. There is no line here proving which later haven inherited it."
+          },
+          {
+            "voice": "editor",
+            "text": "Conditional, unequal scheduling permits several activities to continue while their results and states remain distinct. Sharing Undertone does not establish a merged consciousness or a single Haven will. This practice could contribute to later views about difference and cooperation, alongside other influences; no direct historical descent is established here."
+          }
+        ]
+      }
+    ]
+  }
+}

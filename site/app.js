@@ -1,3 +1,4 @@
+import {annotationVisible,annotationChoices} from './story-annotations.mjs?v=1';
 import {mountComments} from './comments.mjs';
 import {appendEditorialHighlights} from './editorial-highlights.mjs';
 import {renderReferenceArt,clearReferenceArt} from './reference-art.mjs';
@@ -15,6 +16,7 @@ const eraName=e=>`Era ${e<0?'−'+Math.abs(e):e} · ${ERA_NAMES[e]||''}`;
 let wikiData;
 let state=emptyState(),catalog,entries=[],byId=new Map(),kind='Story',page=0,filtered=[],current=null,currentContent=null,selection=[],beforeImport=null,routeSequence=0,lastWrite=0,tagFilter='';
 const contentCache=new Map();
+let annotationMode='all';
 function node(tag,text,className){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(className)n.className=className;return n;}
 function alertSave(text){$('save-alert').textContent=text;$('save-alert').hidden=false;$('reader-save').textContent='Not saved — download a backup';}
 try{const raw=localStorage.getItem(STORAGE_KEY);if(raw)state=validateState(JSON.parse(raw));}catch{alertSave('Your saved reading data could not be opened. It has not been overwritten. Use Backups to export your current work.');}
@@ -76,10 +78,21 @@ function renderLibrary(){
 }
 function renderBlocks(){
  const parent=$('reading-text');clearReferenceArt();parent.replaceChildren();const r=record(current.id);
+ let annotationTools=$('story-annotation-tools');
+ if(!annotationTools){annotationTools=node('section',undefined,'story-annotation-tools');annotationTools.id='story-annotation-tools';parent.before(annotationTools);}
+ annotationTools.replaceChildren();annotationTools.hidden=!currentContent.blocks.some(b=>b.annotation);
+ if(!annotationTools.hidden){
+  const label=node('label','Annotations '),select=node('select');select.setAttribute('aria-label','Show story annotations');
+  for(const [value,title] of annotationChoices){const option=node('option',title);option.value=value;select.append(option);}select.value=annotationMode;
+  select.onchange=()=>{annotationMode=select.value;hideSelection();renderBlocks();$('story-annotation-tools').querySelector('select').focus();};
+  label.append(select);annotationTools.append(node('h2','Reading across eras'),node('p','Imagined DBA marginalia and editorial explanations appear beneath their passages. Both can be highlighted. Interpretations may disagree; editorial notes distinguish what the proposed draft establishes from what remains open.'),label);
+ }
+
  if(current.id==='reference-ribbons'){const gallery=node('aside',undefined,'reference-gallery-link');gallery.append(node('p','Browse ribbons side by side, preview their meanings, and explore High Honors display cards.'));const link=node('a','Open the ribbon gallery →');link.href='ribbons/';gallery.append(link);parent.append(gallery);}
  for(const block of currentContent.blocks){
+  if(!annotationVisible(block,annotationMode))continue;
   let tag='p';const style=String(block.style||'');if(/TITLE|HEADING_1|^h1$|^h2$/i.test(style))tag='h2';else if(/HEADING_2|^h3$/i.test(style))tag='h3';else if(/HEADING_[3-6]|^h4$/i.test(style))tag='h4';else if(/^>/.test(block.text))tag='blockquote';
-  const el=node(tag,undefined,'reading-block');el.dataset.block=block.id;el.id='block-'+block.id;
+  const el=node(tag,undefined,'reading-block');el.dataset.block=block.id;el.id='block-'+block.id;if(block.annotation){el.classList.add('story-annotation','annotation-'+block.annotation.layer);el.setAttribute('aria-label',block.annotation.layer==='editorial'?'Editorial explanation':block.annotation.layer==='frame'?'Annotation context':'Fictional DBA interpretation');}
   if(/^[-—*_]{3,}$/.test(block.text.trim()))el.classList.add('divider');
   if(block.referenceUrl && /^(https:\/\/|#read=|early-machine-language\/$)/.test(block.referenceUrl)){const a=node('a',block.text);a.href=block.referenceUrl;if(block.referenceUrl.startsWith('https://')){a.target='_blank';a.rel='noopener noreferrer';}el.append(a);}else appendEditorialHighlights(el,block.text,block.editorialMarks,(parent,text)=>appendWiki(parent,text,{readingId:current.id}));
   paintHighlights(el,block.id,r.highlights,id=>{const card=document.getElementById('highlight-'+id);card?.scrollIntoView({block:'center'});card?.querySelector('textarea')?.focus({preventScroll:true});});
@@ -118,7 +131,7 @@ function renderConnections(entry){
   }
  }else panel.append(node('p','No direct reading connections have been indexed yet. Browse the library for more context.'));
 }
-function scrollToBlock(id){document.getElementById('block-'+id)?.scrollIntoView({block:'start',behavior:'instant'});}
+function scrollToBlock(id){if(currentContent?.blocks.some(b=>b.id===id&&b.annotation)&&!document.getElementById('block-'+id)){annotationMode='all';renderBlocks();}document.getElementById('block-'+id)?.scrollIntoView({block:'start',behavior:'instant'});}
 function highlightHeading(card,id,h){
  const entry=byId.get(id),context=h.clip||h.context;
  const heading=node('h3'),link=node('a',context?.storyTitle||entry?.title||'Reading no longer in this snapshot');

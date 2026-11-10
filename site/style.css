@@ -27,3 +27,10 @@
 .story-illustration{margin:2rem auto;max-width:512px}.story-illustration img{display:block;width:100%;height:auto;image-rendering:pixelated}.story-illustration figcaption{font-size:.9rem;line-height:1.5;padding:.8rem 0}.story-illustration figcaption p{margin:.4rem 0}.story-illustration small{opacity:.75}
 
 .reference-gallery-link{border:1px solid #a38b60;border-radius:8px;padding:16px 20px;margin:20px 0;background:#eacb8912}.reference-gallery-link a{font-weight:700}
+
+/* Marginalia remain normal reading blocks, with stable highlight offsets. */
+.story-annotation-tools{border:1px solid currentColor;border-radius:10px;padding:1rem;margin:1.5rem 0}.story-annotation-tools h2{margin-top:0}.story-annotation-tools select{font:inherit;padding:.5rem;max-width:100%}
+.reading-block.story-annotation{font-size:.92em;line-height:1.65;border-left:4px solid #668d99;padding:.85rem 1rem;margin:.6rem 0 .6rem 1rem;background:rgba(110,150,165,.09)}
+.reading-block.annotation-editorial{border-left-color:#a18a4d;background:rgba(170,145,75,.1)}
+.reading-block.annotation-frame{border-left-style:dotted;font-size:.85em}
+@media(max-width:650px){.reading-block.story-annotation{margin-left:0;padding:.75rem}.story-annotation-tools{padding:.8rem}}

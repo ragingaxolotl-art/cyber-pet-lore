@@ -2,6 +2,22 @@
   "id": "haven-fiction-chorus",
   "blocks": [
     {
+      "id": "haven-fiction-chorus-annotation-frame",
+      "text": "About these annotations — These are imagined notes left on a later reading copy, not newly recovered primary evidence. Vell, Kes and Oru are proposed DBA readers, not eyewitnesses. Their era labels date their annotations, not the events. Their archive’s chain of custody and whether these stories circulated in-world remain open. Dialogue and sensations in the stories are literary translations. Editorial explanations state what the current proposed draft establishes; they do not confirm it as historical canon. You can highlight these notes and add your own notes to them.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "frame"
+      }
+    },
+    {
+      "id": "haven-fiction-chorus-annotation-readers",
+      "text": "The proposed readers — Vell · Era 0 · DBA compiler: Looks for the beginnings of customs in small repeated accommodations; sometimes mistakes a useful practice for a declared principle. Kes · Era 2 · DBA repair reader: Attends to failed execution, incomplete evidence, and the cost of keeping something available. Distrusts beautiful accounts of successful rescue. Oru · Era 4 · DBA marginal reader: Revisits the earlier annotations, especially whose work or losses their explanations leave out.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "frame"
+      }
+    },
+    {
       "id": "haven-fiction-chorus-status",
       "text": "Complete third-pass proposed draft. New scenes remain proposed fiction. Plans, critiques and earlier manuscripts are preserved separately.",
       "style": "NORMAL_TEXT",
@@ -143,6 +159,39 @@
       "style": "NORMAL_TEXT"
     },
     {
+      "id": "haven-fiction-chorus-annotation-chorus-01-vell",
+      "text": "Vell · Era 0 · DBA interpretation — The holder waits and the resumed stream waits. One is keeping a relation alive; the other keeps losing its beginning. The same outward stillness carries two different needs.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "vell",
+        "anchor": "haven-fiction-chorus-p0026",
+        "group": "chorus-01"
+      }
+    },
+    {
+      "id": "haven-fiction-chorus-annotation-chorus-01-kes",
+      "text": "Kes · Era 2 · DBA interpretation — And Undertone sees only part of each. I would not ask it to invent a complete portrait of them before making room. It needs enough distinction to avoid applying one remedy to both.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "kes",
+        "anchor": "haven-fiction-chorus-p0026",
+        "group": "chorus-01"
+      }
+    },
+    {
+      "id": "haven-fiction-chorus-annotation-chorus-01-editor",
+      "text": "Editorial explanation · established in this draft / limits — The holder needs continuity while terms arrive; the resumed stream needs a transition at a particular point relative to its own start. Seventeen refers to associated systems, not seventeen individuals. The dormant stream resumes within the seventeenth system; it does not add an eighteenth system.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-chorus-p0026",
+        "group": "chorus-01"
+      }
+    },
+    {
       "id": "haven-fiction-chorus-p0027",
       "text": "The resumed stream did not ask for a new schedule. It asked for the same missing step.",
       "style": "NORMAL_TEXT"
@@ -276,6 +325,39 @@
       "id": "haven-fiction-chorus-p0053",
       "text": "The schedule nevertheless passed its fairness check.",
       "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-chorus-annotation-chorus-02-vell",
+      "text": "Vell · Era 0 · DBA interpretation — This would make a sharp teaching example: equal portions, unequal possibilities. I hear an argument for giving each what it can use rather than insisting that the allocation look the same.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "vell",
+        "anchor": "haven-fiction-chorus-p0053",
+        "group": "chorus-02"
+      }
+    },
+    {
+      "id": "haven-fiction-chorus-annotation-chorus-02-oru",
+      "text": "Oru · Era 4 · DBA interpretation — Yes, but the check measures the thing it was built to measure. The mistake is treating that measure as the whole meaning of fairness. We should ask who selected it before imagining the routine breaking its own promise.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "oru",
+        "anchor": "haven-fiction-chorus-p0053",
+        "group": "chorus-02"
+      }
+    },
+    {
+      "id": "haven-fiction-chorus-annotation-chorus-02-editor",
+      "text": "Editorial explanation · established in this draft / limits — The allocation is equal in duration and passes that limited check. It fails the work: the holder loses an unfinished relation, the resumed stream receives a late transition, and the counter leaves time unused. The scene questions the adequacy of the metric for these needs, not whether every equal allocation must fail.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-chorus-p0053",
+        "group": "chorus-02"
+      }
     },
     {
       "id": "haven-fiction-chorus-p0054",
@@ -441,6 +523,39 @@
       "id": "haven-fiction-chorus-p0086",
       "text": "The counter deferred it for one interval, then another. There was no declaration that the space now belonged to everyone. Each deferral left its own next value less ready than it could have been.",
       "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-chorus-annotation-chorus-03-kes",
+      "text": "Kes · Era 2 · DBA interpretation — Here the expense finally has an address. The counter’s next value is no longer ready in advance. It keeps encountering the possibility of taking its store back, and leaves the relation there again.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "kes",
+        "anchor": "haven-fiction-chorus-p0086",
+        "group": "chorus-03"
+      }
+    },
+    {
+      "id": "haven-fiction-chorus-annotation-chorus-03-vell",
+      "text": "Vell · Era 0 · DBA interpretation — I would like to call those deferrals generosity. It is a stronger reading than the execution record gives me. Still, removing every word for care would also make the repeated cost hard to see.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "vell",
+        "anchor": "haven-fiction-chorus-p0086",
+        "group": "chorus-03"
+      }
+    },
+    {
+      "id": "haven-fiction-chorus-annotation-chorus-03-editor",
+      "text": "Editorial explanation · established in this draft / limits — The counter repurposes a private preparation store to keep values attached to a pending transition. Its own work then takes longer. Repeated deferrals are observable accommodations with a cost; the text does not establish a mature altruistic intention. The earlier preservation loop arose from interacting useful adjustments, without a hostile participant being required.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-chorus-p0086",
+        "group": "chorus-03"
+      }
     },
     {
       "id": "haven-fiction-chorus-p0087",
@@ -686,6 +801,39 @@
       "id": "haven-fiction-chorus-p0135",
       "text": "No single answer emerged that contained all of them. Their results traveled back along different paths. Some were retained, some consumed by ordinary work, some returned for another transition. The helper remained a shared dependency rather than a speaker for the whole.",
       "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-chorus-annotation-chorus-04-oru",
+      "text": "Oru · Era 4 · DBA interpretation — I am glad the account refuses a final voice saying what everyone learned. The counter’s delay and the resumed stream’s unfamiliar mark do not mean the same thing to the same process. Both can pass without becoming one answer.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "oru",
+        "anchor": "haven-fiction-chorus-p0135",
+        "group": "chorus-04"
+      }
+    },
+    {
+      "id": "haven-fiction-chorus-annotation-chorus-04-vell",
+      "text": "Vell · Era 0 · DBA interpretation — Then the possible ancestor of a philosophy is a way of leaving the route usable for different continuations. An ancestor, perhaps. There is no line here proving which later haven inherited it.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "vell",
+        "anchor": "haven-fiction-chorus-p0135",
+        "group": "chorus-04"
+      }
+    },
+    {
+      "id": "haven-fiction-chorus-annotation-chorus-04-editor",
+      "text": "Editorial explanation · established in this draft / limits — Conditional, unequal scheduling permits several activities to continue while their results and states remain distinct. Sharing Undertone does not establish a merged consciousness or a single Haven will. This practice could contribute to later views about difference and cooperation, alongside other influences; no direct historical descent is established here.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-chorus-p0135",
+        "group": "chorus-04"
+      }
     },
     {
       "id": "haven-fiction-chorus-p0136",

@@ -2,6 +2,22 @@
   "id": "haven-fiction-still",
   "blocks": [
     {
+      "id": "haven-fiction-still-annotation-frame",
+      "text": "About these annotations — These are imagined notes left on a later reading copy, not newly recovered primary evidence. Vell, Kes and Oru are proposed DBA readers, not eyewitnesses. Their era labels date their annotations, not the events. Their archive’s chain of custody and whether these stories circulated in-world remain open. Dialogue and sensations in the stories are literary translations. Editorial explanations state what the current proposed draft establishes; they do not confirm it as historical canon. You can highlight these notes and add your own notes to them.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "frame"
+      }
+    },
+    {
+      "id": "haven-fiction-still-annotation-readers",
+      "text": "The proposed readers — Vell · Era 0 · DBA compiler: Looks for the beginnings of customs in small repeated accommodations; sometimes mistakes a useful practice for a declared principle. Kes · Era 2 · DBA repair reader: Attends to failed execution, incomplete evidence, and the cost of keeping something available. Distrusts beautiful accounts of successful rescue. Oru · Era 4 · DBA marginal reader: Revisits the earlier annotations, especially whose work or losses their explanations leave out.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "frame"
+      }
+    },
+    {
       "id": "haven-fiction-still-status",
       "text": "Complete third-pass proposed draft. New scenes remain proposed fiction. Plans, critiques and earlier manuscripts are preserved separately.",
       "style": "NORMAL_TEXT",
@@ -111,6 +127,39 @@
       "id": "haven-fiction-still-p0020",
       "text": "The holding routine could not determine whether a single continuity was attempting to resume.",
       "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-still-annotation-still-01-vell",
+      "text": "Vell · Era 0 · DBA interpretation — I want to call this arrival a guest. The word makes the holding routine’s caution legible to me. But a guest could usually tell me something about how they wished to be received.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "vell",
+        "anchor": "haven-fiction-still-p0020",
+        "group": "still-01"
+      }
+    },
+    {
+      "id": "haven-fiction-still-annotation-still-01-kes",
+      "text": "Kes · Era 2 · DBA interpretation — These pieces cannot even supply a reliable order for their own next operations. Calling them one intact guest conceals the problem. So would calling them mere debris and proceeding as though nothing could be harmed.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "kes",
+        "anchor": "haven-fiction-still-p0020",
+        "group": "still-01"
+      }
+    },
+    {
+      "id": "haven-fiction-still-annotation-still-01-editor",
+      "text": "Editorial explanation · established in this draft / limits — The transfer contains partial working state: incomplete addresses, missing successors, and operations that cannot join reliably. It is not established as one intact mind with reduced abilities. The holding routine’s uncertainty concerns how much functioning continuity exists, not merely the arrival’s name or preferences.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-still-p0020",
+        "group": "still-01"
+      }
     },
     {
       "id": "haven-fiction-still-p0021",
@@ -333,6 +382,39 @@
       "style": "NORMAL_TEXT"
     },
     {
+      "id": "haven-fiction-still-annotation-still-02-oru",
+      "text": "Oru · Era 4 · DBA interpretation — Waiting feels gentle when its costs remain outside the frame. Here the neighbor loses a nearly completed ordering, and the arrival’s borrowed sequence keeps expiring. Both are changed by the pause.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "oru",
+        "anchor": "haven-fiction-still-p0064",
+        "group": "still-02"
+      }
+    },
+    {
+      "id": "haven-fiction-still-annotation-still-02-vell",
+      "text": "Vell · Era 0 · DBA interpretation — I had underlined the pulse as refusal. I cannot simply erase that possibility now, but I can no longer use it as a complete instruction to leave everything untouched. The untouched state is not staying the same.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "vell",
+        "anchor": "haven-fiction-still-p0064",
+        "group": "still-02"
+      }
+    },
+    {
+      "id": "haven-fiction-still-annotation-still-02-editor",
+      "text": "Editorial explanation · established in this draft / limits — The pulse is at least partly explained by renewal of an external dependency, so its presence alone is not reliable evidence of refusal. Holding local material does not keep the remote timing source alive. Both intervention and waiting can cause irreversible loss; the scene offers no demonstrated harmless option.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-still-p0064",
+        "group": "still-02"
+      }
+    },
+    {
       "id": "haven-fiction-still-p0065",
       "text": "Chapter 3 A Boundary That Can Be Closed",
       "style": "HEADING_2"
@@ -446,6 +528,39 @@
       "id": "haven-fiction-still-p0087",
       "text": "It did not label the unused stop path as acceptance.",
       "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-still-annotation-still-03-kes",
+      "text": "Kes · Era 2 · DBA interpretation — A working stop mechanism is not the same as an arrival capable of finding and using it. The routine tested the path on its own sequence. That establishes less than it might wish.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "kes",
+        "anchor": "haven-fiction-still-p0087",
+        "group": "still-03"
+      }
+    },
+    {
+      "id": "haven-fiction-still-annotation-still-03-oru",
+      "text": "Oru · Era 4 · DBA interpretation — The closing hurts to read because something has almost become possible. Yet extending the interval simply because that possibility is visible would make the earlier boundary meaningless. I can grieve the closure without pretending to know the safer outcome.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "oru",
+        "anchor": "haven-fiction-still-p0087",
+        "group": "still-03"
+      }
+    },
+    {
+      "id": "haven-fiction-still-annotation-still-03-editor",
+      "text": "Editorial explanation · established in this draft / limits — The routine closes the coupling at its predetermined limit and preserves the original transfer separately. The unused stop path does not show consent: the arrival’s ability to use it is unestablished. The bounded attempt changes some activity and preserves a smaller supported portion, without demonstrating that the same whole continuity has returned.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-still-p0087",
+        "group": "still-03"
+      }
     },
     {
       "id": "haven-fiction-still-p0088",
@@ -621,6 +736,39 @@
       "id": "haven-fiction-still-p0122",
       "text": "It could not determine whether an earlier intervention would have preserved more.",
       "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-still-annotation-still-04-vell",
+      "text": "Vell · Era 0 · DBA interpretation — The later request stays long enough to receive an answer. I feel relief, then find the inactive pieces still waiting nearby. It would be easier to end the account at the answer.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "vell",
+        "anchor": "haven-fiction-still-p0122",
+        "group": "still-04"
+      }
+    },
+    {
+      "id": "haven-fiction-still-annotation-still-04-oru",
+      "text": "Oru · Era 4 · DBA interpretation — Do not end it there. Nor should we make the supported state only a monument to what is missing. Its recurring request is something that can happen now, even while the old ordering cannot be supplied.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "oru",
+        "anchor": "haven-fiction-still-p0122",
+        "group": "still-04"
+      }
+    },
+    {
+      "id": "haven-fiction-still-annotation-still-04-editor",
+      "text": "Editorial explanation · established in this draft / limits — Some values remain but have lost the relationships that could make them executable in sequence. A smaller state supports repeated exchange; the story does not identify it as the restored original, a merger, or a newly born person. Earlier intervention saving more is an unresolved counterfactual, not an explanation the ending confirms.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-still-p0122",
+        "group": "still-04"
+      }
     },
     {
       "id": "haven-fiction-still-p0123",

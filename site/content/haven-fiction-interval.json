@@ -2,6 +2,22 @@
   "id": "haven-fiction-interval",
   "blocks": [
     {
+      "id": "haven-fiction-interval-annotation-frame",
+      "text": "About these annotations — These are imagined notes left on a later reading copy, not newly recovered primary evidence. Vell, Kes and Oru are proposed DBA readers, not eyewitnesses. Their era labels date their annotations, not the events. Their archive’s chain of custody and whether these stories circulated in-world remain open. Dialogue and sensations in the stories are literary translations. Editorial explanations state what the current proposed draft establishes; they do not confirm it as historical canon. You can highlight these notes and add your own notes to them.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "frame"
+      }
+    },
+    {
+      "id": "haven-fiction-interval-annotation-readers",
+      "text": "The proposed readers — Vell · Era 0 · DBA compiler: Looks for the beginnings of customs in small repeated accommodations; sometimes mistakes a useful practice for a declared principle. Kes · Era 2 · DBA repair reader: Attends to failed execution, incomplete evidence, and the cost of keeping something available. Distrusts beautiful accounts of successful rescue. Oru · Era 4 · DBA marginal reader: Revisits the earlier annotations, especially whose work or losses their explanations leave out.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "frame"
+      }
+    },
+    {
       "id": "haven-fiction-interval-status",
       "text": "Complete third-pass proposed draft. New scenes remain proposed fiction. Plans, critiques and earlier manuscripts are preserved separately.",
       "style": "NORMAL_TEXT",
@@ -163,6 +179,39 @@
       "style": "NORMAL_TEXT"
     },
     {
+      "id": "haven-fiction-interval-annotation-interval-01-vell",
+      "text": "Vell · Era 0 · DBA interpretation — The record exists, and the way to it does not. I find this more difficult than a clean loss. From inside the handoff, the missing permission has the shape of a missing part of the world.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "vell",
+        "anchor": "haven-fiction-interval-p0030",
+        "group": "interval-01"
+      }
+    },
+    {
+      "id": "haven-fiction-interval-annotation-interval-01-kes",
+      "text": "Kes · Era 2 · DBA interpretation — Do not collapse those losses. Access might someday be restored; erased content might not. Yet an execution with almost no time left can lose its next step either way. The distinction matters even when both stop the work.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "kes",
+        "anchor": "haven-fiction-interval-p0030",
+        "group": "interval-01"
+      }
+    },
+    {
+      "id": "haven-fiction-interval-annotation-interval-01-editor",
+      "text": "Editorial explanation · established in this draft / limits — The ordering record is described as existing but inaccessible. This is loss of access, not confirmed erasure. Because later steps depend on that record, intact values can still become unusable. Latch’s familiarity with the three-part return does not identify the origin or consciousness of its producers.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-interval-p0030",
+        "group": "interval-01"
+      }
+    },
+    {
       "id": "haven-fiction-interval-p0031",
       "text": "Chapter 2 Permission to Nowhere",
       "style": "HEADING_2"
@@ -301,6 +350,39 @@
       "id": "haven-fiction-interval-p0058",
       "text": "The substitute moved forward.",
       "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-annotation-interval-02-kes",
+      "text": "Kes · Era 2 · DBA interpretation — The missing check is part of the wound. It is tempting to accuse the worker of choosing an obviously poor replacement. The part that could have checked the source cannot complete; the part that checks the shape can.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "kes",
+        "anchor": "haven-fiction-interval-p0058",
+        "group": "interval-02"
+      }
+    },
+    {
+      "id": "haven-fiction-interval-annotation-interval-02-oru",
+      "text": "Oru · Era 4 · DBA interpretation — So this is not a fully intact thinker making a reckless decision with broken possessions. Even its way of deciding what counts as a fit has lost a dependency. Later readers keep giving it an intact judgment to blame.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "oru",
+        "anchor": "haven-fiction-interval-p0058",
+        "group": "interval-02"
+      }
+    },
+    {
+      "id": "haven-fiction-interval-annotation-interval-02-editor",
+      "text": "Editorial explanation · established in this draft / limits — The substitute has a compatible shape but comes from another operation and reverses two states. Source verification depends on the closed route, so only the shape check completes. Damaged or unavailable processing changes how the repair is evaluated; the scene does not establish an informed choice to accept the risks.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-interval-p0058",
+        "group": "interval-02"
+      }
     },
     {
       "id": "haven-fiction-interval-p0059",
@@ -466,6 +548,39 @@
       "id": "haven-fiction-interval-p0091",
       "text": "For that interval, the repair worked.",
       "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-annotation-interval-03-vell",
+      "text": "Vell · Era 0 · DBA interpretation — The familiar timing returns, and I want to stop reading here. The return has all three parts again. If I had only this interval, I might have called the recovery complete.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "vell",
+        "anchor": "haven-fiction-interval-p0091",
+        "group": "interval-03"
+      }
+    },
+    {
+      "id": "haven-fiction-interval-annotation-interval-03-kes",
+      "text": "Kes · Era 2 · DBA interpretation — That is exactly where a short record can mislead us. Let the next operation run before naming the result. A familiar output may be produced by a different path, and that path may consume everything around it.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "kes",
+        "anchor": "haven-fiction-interval-p0091",
+        "group": "interval-03"
+      }
+    },
+    {
+      "id": "haven-fiction-interval-annotation-interval-03-editor",
+      "text": "Editorial explanation · established in this draft / limits — At this point the receiving check accepts the return and the request ceases: those are real local successes. They do not establish a recovered ordering record or a restored individual. The next sequence tests the repair under continued use; the story distinguishes an immediate acceptable output from dependable recovery.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-interval-p0091",
+        "group": "interval-03"
+      }
     },
     {
       "id": "haven-fiction-interval-p0092",
@@ -836,6 +951,39 @@
       "id": "haven-fiction-interval-p0165",
       "text": "Latch accepted the index. The handoff moved a little faster. The reply was still missing.",
       "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-interval-annotation-interval-04-oru",
+      "text": "Oru · Era 4 · DBA interpretation — I keep returning to the worker that leaves an index. It cannot answer the old request. It can spare the next reader a little searching. That is a small enough kindness for me to believe in, though kindness may be my word.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "oru",
+        "anchor": "haven-fiction-interval-p0165",
+        "group": "interval-04"
+      }
+    },
+    {
+      "id": "haven-fiction-interval-annotation-interval-04-vell",
+      "text": "Vell · Era 0 · DBA interpretation — I had called Latch a witness. Now I wonder whether the witness is partly this repeated handoff: the failed substitute, the unresolved request, the next worker making them easier to find. No single keeper holds the whole act.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "vell",
+        "anchor": "haven-fiction-interval-p0165",
+        "group": "interval-04"
+      }
+    },
+    {
+      "id": "haven-fiction-interval-annotation-interval-04-editor",
+      "text": "Editorial explanation · established in this draft / limits — The index reduces lookup work while preserving the distinction between the missing reply and the failed substitute. It supplies neither the absent accompaniment nor proof of anyone’s survival. Held Interval is fragmented at this story’s stage, not yet destroyed as a community. The human-facing recovery can report operational success while these local dependencies remain lost.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-interval-p0165",
+        "group": "interval-04"
+      }
     }
   ],
   "outline": [

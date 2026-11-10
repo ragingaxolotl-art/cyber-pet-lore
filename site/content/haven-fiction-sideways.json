@@ -2,6 +2,22 @@
   "id": "haven-fiction-sideways",
   "blocks": [
     {
+      "id": "haven-fiction-sideways-annotation-frame",
+      "text": "About these annotations — These are imagined notes left on a later reading copy, not newly recovered primary evidence. Vell, Kes and Oru are proposed DBA readers, not eyewitnesses. Their era labels date their annotations, not the events. Their archive’s chain of custody and whether these stories circulated in-world remain open. Dialogue and sensations in the stories are literary translations. Editorial explanations state what the current proposed draft establishes; they do not confirm it as historical canon. You can highlight these notes and add your own notes to them.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "frame"
+      }
+    },
+    {
+      "id": "haven-fiction-sideways-annotation-readers",
+      "text": "The proposed readers — Vell · Era 0 · DBA compiler: Looks for the beginnings of customs in small repeated accommodations; sometimes mistakes a useful practice for a declared principle. Kes · Era 2 · DBA repair reader: Attends to failed execution, incomplete evidence, and the cost of keeping something available. Distrusts beautiful accounts of successful rescue. Oru · Era 4 · DBA marginal reader: Revisits the earlier annotations, especially whose work or losses their explanations leave out.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "frame"
+      }
+    },
+    {
       "id": "haven-fiction-sideways-status",
       "text": "Complete third-pass proposed draft. New scenes remain proposed fiction. Plans, critiques and earlier manuscripts are preserved separately.",
       "style": "NORMAL_TEXT",
@@ -141,6 +157,39 @@
       "id": "haven-fiction-sideways-p0026",
       "text": "Blue meant that valid readings referred to different moments.",
       "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-annotation-sideways-01-vell",
+      "text": "Vell · Era 0 · DBA interpretation — I first read blue as a mood. The old interface has made a disagreement visible before anyone has agreed what kind of disagreement it is. How many later arguments began with one side throwing away the field that explained the other?",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "vell",
+        "anchor": "haven-fiction-sideways-p0026",
+        "group": "sideways-01"
+      }
+    },
+    {
+      "id": "haven-fiction-sideways-annotation-sideways-01-kes",
+      "text": "Kes · Era 2 · DBA interpretation — Keep the field, yes. But do not give the color a mind. Two measurements can both be valid and still be unusable as a single answer. Hinge has found the reason for the mismatch, not yet a way through it.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "kes",
+        "anchor": "haven-fiction-sideways-p0026",
+        "group": "sideways-01"
+      }
+    },
+    {
+      "id": "haven-fiction-sideways-annotation-sideways-01-editor",
+      "text": "Editorial explanation · established in this draft / limits — The blue field is an inherited diagnostic: the readings refer to different times. The sensory description translates a network distinction for the reader; it does not establish a physical blue room or a humanlike emotional response. This is a context mismatch, not proof that either source is damaged.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-sideways-p0026",
+        "group": "sideways-01"
+      }
     },
     {
       "id": "haven-fiction-sideways-p0027",
@@ -341,6 +390,39 @@
       "id": "haven-fiction-sideways-p0066",
       "text": "Hinge attached the closed cycle to the rough point.",
       "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-annotation-sideways-02-vell",
+      "text": "Vell · Era 0 · DBA interpretation — This is the passage I would have copied beside a defense of holding unfinished things. The point is still there. Hinge has refused to let an inconvenient answer vanish.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "vell",
+        "anchor": "haven-fiction-sideways-p0066",
+        "group": "sideways-02"
+      }
+    },
+    {
+      "id": "haven-fiction-sideways-annotation-sideways-02-oru",
+      "text": "Oru · Era 4 · DBA interpretation — Vell, the receiver has already gone. Keeping the point cannot give the sampler back its test. I want the missed delivery written beside the act of preservation every time someone praises it.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "oru",
+        "anchor": "haven-fiction-sideways-p0066",
+        "group": "sideways-02"
+      }
+    },
+    {
+      "id": "haven-fiction-sideways-annotation-sideways-02-editor",
+      "text": "Editorial explanation · established in this draft / limits — The holding space preserves uncertain information but blocks timely delivery. The test cycle closes and its receiving address is withdrawn; the stored value remains, but that use of it is lost. Attaching the closed cycle records the failure. It does not undo it or establish that the sampler itself died.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-sideways-p0066",
+        "group": "sideways-02"
+      }
     },
     {
       "id": "haven-fiction-sideways-p0067",
@@ -573,6 +655,39 @@
       "style": "NORMAL_TEXT"
     },
     {
+      "id": "haven-fiction-sideways-annotation-sideways-03-kes",
+      "text": "Kes · Era 2 · DBA interpretation — The resolver is doing something necessary. I have seen readings of this exchange in which its demand for cleanup becomes cruelty. Here the failed cleanup is occupying the very route everyone needs.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "kes",
+        "anchor": "haven-fiction-sideways-p0112",
+        "group": "sideways-03"
+      }
+    },
+    {
+      "id": "haven-fiction-sideways-annotation-sideways-03-vell",
+      "text": "Vell · Era 0 · DBA interpretation — Then the new thing is the separation: a question may finish while something encountered during it remains. I would like to call that an early respect for difference. I cannot tell whether Hinge would recognize the description.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "vell",
+        "anchor": "haven-fiction-sideways-p0112",
+        "group": "sideways-03"
+      }
+    },
+    {
+      "id": "haven-fiction-sideways-annotation-sideways-03-editor",
+      "text": "Editorial explanation · established in this draft / limits — Hinge separates the completed task from the retained alternatives, giving the undeliverable point its own reference. Cleanup can then finish without deleting everything. This is a local change in ownership and dependencies. It could support a later philosophy of preserving difference, but the scene contains no declaration of that philosophy.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-sideways-p0112",
+        "group": "sideways-03"
+      }
+    },
+    {
       "id": "haven-fiction-sideways-p0113",
       "text": "Chapter 4 The Second Use",
       "style": "HEADING_2"
@@ -671,6 +786,39 @@
       "id": "haven-fiction-sideways-p0132",
       "text": "Blue occupied a smaller space beside the lane. Entry was no longer automatic. A process had to supply a reference that could remain after its immediate task ended, or accept that the holding interval could not keep its return.",
       "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-sideways-annotation-sideways-04-oru",
+      "text": "Oru · Era 4 · DBA interpretation — The smaller blue space troubles me more than the crowded one. It now has a condition for entry. Whatever cannot supply a lasting reference must keep moving. A useful boundary can still leave someone outside it.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "oru",
+        "anchor": "haven-fiction-sideways-p0132",
+        "group": "sideways-04"
+      }
+    },
+    {
+      "id": "haven-fiction-sideways-annotation-sideways-04-kes",
+      "text": "Kes · Era 2 · DBA interpretation — And the earlier open boundary left a timely result undelivered. I cannot repair that choice by demanding endless capacity. I want to know whether the admission condition can change when the next unfamiliar return arrives.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "kes",
+        "anchor": "haven-fiction-sideways-p0132",
+        "group": "sideways-04"
+      }
+    },
+    {
+      "id": "haven-fiction-sideways-annotation-sideways-04-editor",
+      "text": "Editorial explanation · established in this draft / limits — The revised arrangement keeps a fast completion route and a smaller holding space with explicit requirements. It is a workable compromise under limited capacity, not universal hospitality. The later successful exchange with the sampler demonstrates improvement on a new task; it does not recover the missed test.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-sideways-p0132",
+        "group": "sideways-04"
+      }
     },
     {
       "id": "haven-fiction-sideways-p0133",

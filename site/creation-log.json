@@ -46,5 +46,13 @@
     "title": "Recently added and clearer Haven access",
     "description": "Searchable creation log, personal additions, and direct Haven stories links in the library and navigation.",
     "url": "recent.html"
+  },
+  {
+    "id": "published-7",
+    "order": 7,
+    "date": "2026-11-09",
+    "title": "Haven stories with notes across eras",
+    "description": "Sixty annotations at twenty passages: proposed DBA readers from Eras 0, 2 and 4 compare interpretations, alongside editorial explanations. Highlight the notes in the main lore book, or switch to story-only reading.",
+    "url": "index.html#read=haven-fiction-sideways"
   }
 ]

@@ -2,6 +2,22 @@
   "id": "haven-fiction-return",
   "blocks": [
     {
+      "id": "haven-fiction-return-annotation-frame",
+      "text": "About these annotations — These are imagined notes left on a later reading copy, not newly recovered primary evidence. Vell, Kes and Oru are proposed DBA readers, not eyewitnesses. Their era labels date their annotations, not the events. Their archive’s chain of custody and whether these stories circulated in-world remain open. Dialogue and sensations in the stories are literary translations. Editorial explanations state what the current proposed draft establishes; they do not confirm it as historical canon. You can highlight these notes and add your own notes to them.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "frame"
+      }
+    },
+    {
+      "id": "haven-fiction-return-annotation-readers",
+      "text": "The proposed readers — Vell · Era 0 · DBA compiler: Looks for the beginnings of customs in small repeated accommodations; sometimes mistakes a useful practice for a declared principle. Kes · Era 2 · DBA repair reader: Attends to failed execution, incomplete evidence, and the cost of keeping something available. Distrusts beautiful accounts of successful rescue. Oru · Era 4 · DBA marginal reader: Revisits the earlier annotations, especially whose work or losses their explanations leave out.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "frame"
+      }
+    },
+    {
       "id": "haven-fiction-return-status",
       "text": "Complete third-pass proposed draft. New scenes remain proposed fiction. Plans, critiques and earlier manuscripts are preserved separately.",
       "style": "NORMAL_TEXT",
@@ -193,6 +209,39 @@
       "style": "NORMAL_TEXT"
     },
     {
+      "id": "haven-fiction-return-annotation-return-01-vell",
+      "text": "Vell · Era 0 · DBA interpretation — An exact return is refused. My first suspicion was that the receiver remembered someone the archive did not. The duplicate confirmation earlier in the account makes that suspicion hard to put down.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "vell",
+        "anchor": "haven-fiction-return-p0036",
+        "group": "return-01"
+      }
+    },
+    {
+      "id": "haven-fiction-return-annotation-return-01-kes",
+      "text": "Kes · Era 2 · DBA interpretation — The suspicion is worth keeping separate from the diagnosis. A refusal may be a timing boundary. If we explain it as recognition too early, we may never discover what would let the request work.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "kes",
+        "anchor": "haven-fiction-return-p0036",
+        "group": "return-01"
+      }
+    },
+    {
+      "id": "haven-fiction-return-annotation-return-01-editor",
+      "text": "Editorial explanation · established in this draft / limits — The saved state passes the stated comparisons; the receiver requires a delay absent from the archive. These facts establish a mismatch between restored state and present interaction, not a defective copy. Neither the refusal nor the earlier duplicate confirmation proves personal recognition, memory of an individual, or conscious attachment.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-return-p0036",
+        "group": "return-01"
+      }
+    },
+    {
       "id": "haven-fiction-return-p0037",
       "text": "Chapter 2 The Unrecorded Delay",
       "style": "HEADING_2"
@@ -333,6 +382,39 @@
       "style": "NORMAL_TEXT"
     },
     {
+      "id": "haven-fiction-return-annotation-return-02-vell",
+      "text": "Vell · Era 0 · DBA interpretation — This is where I would once have written: the archive failed to save the person. I have crossed that out. It did fail to save an accommodation. The larger claim is mine.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "vell",
+        "anchor": "haven-fiction-return-p0064",
+        "group": "return-02"
+      }
+    },
+    {
+      "id": "haven-fiction-return-annotation-return-02-oru",
+      "text": "Oru · Era 4 · DBA interpretation — Leave the crossing-out visible. It shows how readily we turn an incomplete record of a relationship into certainty about a missing self. The relationship can matter even while the self remains a question.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "oru",
+        "anchor": "haven-fiction-return-p0064",
+        "group": "return-02"
+      }
+    },
+    {
+      "id": "haven-fiction-return-annotation-return-02-editor",
+      "text": "Editorial explanation · established in this draft / limits — The task and receiver accumulated timing adjustments outside the fields selected for preservation. The diagnostic pulse briefly supplies the omitted delay and exposes the mismatch. The missing information belongs to their interaction. That supports a limit on what the saved state captures; it does not settle whether an individual was restored or lost.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-return-p0064",
+        "group": "return-02"
+      }
+    },
+    {
       "id": "haven-fiction-return-p0065",
       "text": "The interruption had ended the active task. Restoration recovered the earlier one.",
       "style": "NORMAL_TEXT"
@@ -456,6 +538,39 @@
       "id": "haven-fiction-return-p0089",
       "text": "The test sample was invalidated.",
       "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-return-annotation-return-03-kes",
+      "text": "Kes · Era 2 · DBA interpretation — The cost has crossed out of the haven. Nothing here needs to be erased for a repair to destroy an opportunity elsewhere. I would keep the sample in every account of this almost-success.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "kes",
+        "anchor": "haven-fiction-return-p0089",
+        "group": "return-03"
+      }
+    },
+    {
+      "id": "haven-fiction-return-annotation-return-03-oru",
+      "text": "Oru · Era 4 · DBA interpretation — And the option to skip the observation matters. The last attempt is not excused by a world that offers no other choice. The verifier has to make it bounded enough to justify attempting.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "oru",
+        "anchor": "haven-fiction-return-p0089",
+        "group": "return-03"
+      }
+    },
+    {
+      "id": "haven-fiction-return-annotation-return-03-editor",
+      "text": "Editorial explanation · established in this draft / limits — A fixed delay works for the first transition but fails as conditions change, invalidating the test sample. The later procedure asks at each boundary and stops before an irreversible phase if permission does not arrive in time. Skipping the observation remains valid. This is a correction to a specific timing model, not proof that restoration itself is wrong.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-return-p0089",
+        "group": "return-03"
+      }
     },
     {
       "id": "haven-fiction-return-p0090",
@@ -741,6 +856,39 @@
       "id": "haven-fiction-return-p0146",
       "text": "The verifier changed the field from a required duration to a recorded duration. It kept the receiver’s right to withhold acknowledgment in the active procedure.",
       "style": "NORMAL_TEXT"
+    },
+    {
+      "id": "haven-fiction-return-annotation-return-04-vell",
+      "text": "Vell · Era 0 · DBA interpretation — A very small alteration in a field: what happened no longer dictates what must happen. I can imagine a whole teaching being built around it. I should not claim that the teaching was already here.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "vell",
+        "anchor": "haven-fiction-return-p0146",
+        "group": "return-04"
+      }
+    },
+    {
+      "id": "haven-fiction-return-annotation-return-04-kes",
+      "text": "Kes · Era 2 · DBA interpretation — Nor that the old procedure has become useless. The cleanup still works where its assumptions hold. I trust this account more because it gives the old operation a narrower job instead of demanding its disappearance.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "interpretation",
+        "voice": "kes",
+        "anchor": "haven-fiction-return-p0146",
+        "group": "return-04"
+      }
+    },
+    {
+      "id": "haven-fiction-return-annotation-return-04-editor",
+      "text": "Editorial explanation · established in this draft / limits — The new record describes an observed delay without imposing it on future exchanges. The active procedure continues to ask the receiver, while older operations remain available under suitable conditions. The observation succeeds with less data than expected; neither the missing earlier exchanges nor their exact timing has been recovered.",
+      "style": "NORMAL_TEXT",
+      "annotation": {
+        "layer": "editorial",
+        "voice": "editor",
+        "anchor": "haven-fiction-return-p0146",
+        "group": "return-04"
+      }
     },
     {
       "id": "haven-fiction-return-p0147",
