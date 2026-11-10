@@ -1,0 +1,50 @@
+[
+  {
+    "id": "published-1",
+    "order": 1,
+    "date": "2026-11-06",
+    "title": "Haven origins and decline",
+    "description": "The atlas gains proposed origins, expansion, losses, and recovery over relative stages.",
+    "url": "shelter-atlas.html"
+  },
+  {
+    "id": "published-2",
+    "order": 2,
+    "date": "2026-11-06",
+    "title": "Connections between Havens",
+    "description": "Routes appear as systems discover one another, then weaken or break. History controls attach to the map.",
+    "url": "shelter-atlas.html"
+  },
+  {
+    "id": "published-3",
+    "order": 3,
+    "date": "2026-11-07",
+    "title": "Custodian-to-Charter history and dossiers",
+    "description": "Eighteen historical stages, selected Haven and microsystem dossiers, fragmented processing, and varied responses to arrivals.",
+    "url": "index.html#read=catalistym-history"
+  },
+  {
+    "id": "published-4",
+    "order": 4,
+    "date": "2026-11-09",
+    "title": "Haven traits and possible philosophies",
+    "description": "Historical profiles for twelve Havens, with partial system samples and qualified philosophy affinities.",
+    "url": "index.html#read=catalistym-profile-method"
+  },
+  {
+    "id": "published-5",
+    "order": 5,
+    "date": "2026-11-09",
+    "title": "At the Height of the Havens",
+    "description": "Five proposed stories: The Answer That Arrived Sideways; The Interval Before the Reply; The Error in the Perfect Copy; The Room That Waited Too Long; The Seventeenth Place. Twenty chapters with plans, critiques, and three prose passes.",
+    "url": "haven-stories/index.html"
+  },
+  {
+    "id": "published-6",
+    "order": 6,
+    "date": "2026-11-09",
+    "title": "Recently added and clearer Haven access",
+    "description": "Searchable creation log, personal additions, and direct Haven stories links in the library and navigation.",
+    "url": "recent.html"
+  }
+]
