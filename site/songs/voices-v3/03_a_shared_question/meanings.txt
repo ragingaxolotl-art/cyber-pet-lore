@@ -1,0 +1,94 @@
+A Shared Question
+Two sentence verses are woven into each three-voice score. Each singer performs an independent line in active runtime. Original refrains retain their pitches, lengths and order.
+
+Each sentence lyric is followed by a performance note.
+
+VOICE: Pelli
+0.000–5.400s | si-nu-ma-ki | available attentional capacity [MIN:201]
+A cognizer's capacity to allocate cognitive processing selectively that is presently available for exercise.
+7.200–12.600s | si-nu-ki-ki | active target attention [MIN:211]
+A relation in which a cognizer's cognitive processing is presently preferentially directed toward a distinct target.
+19.200–27.900s | Sentence | I am able to pay attention. [MIN:201]
+Pelli takes up the listening exercise again.
+57.600–63.000s | si-ki-ki-ki | active target-model revision [MIN:111]
+An active cognitive process that is changing a cognizer's representation of a distinct target.
+64.800–70.800s | wu-ki-ma-ma | completed source expression [CON:100]
+Completion of an act by which a source endpoint makes a communicative expression available to an exchange context.
+72.000–77.400s | si-nu-nu-ki | active joint attention [MIN:221]
+An attentional relation in which multiple cognizers presently give the same target shared cognitive priority.
+79.200–85.200s | wu-ki-ki-ma | completed target reception [CON:110]
+Completion of an act by which a target endpoint takes up a communicative expression from an exchange context.
+86.400–91.800s | si-nu-ma-ki | available attentional capacity [MIN:201]
+A cognizer's capacity to allocate cognitive processing selectively that is presently available for exercise.
+93.600–99.000s | si-ki-ki-ki | active target-model revision [MIN:111]
+An active cognitive process that is changing a cognizer's representation of a distinct target.
+105.600–129.900s | Sentence | I am paying attention to the question. [MIN:211]
+Pelli names the subject of their shared attention.
+134.400–139.800s | si-nu-ki-ki | active target attention [MIN:211]
+A relation in which a cognizer's cognitive processing is presently preferentially directed toward a distinct target.
+141.600–147.000s | si-nu-nu-ki | active joint attention [MIN:221]
+An attentional relation in which multiple cognizers presently give the same target shared cognitive priority.
+148.800–154.800s | wu-ki-ki-ma | completed target reception [CON:110]
+Completion of an act by which a target endpoint takes up a communicative expression from an exchange context.
+156.000–161.400s | si-nu-ma-ki | available attentional capacity [MIN:201]
+A cognizer's capacity to allocate cognitive processing selectively that is presently available for exercise.
+
+VOICE: The first classmate
+2.400–8.400s | wu-ki-ki-ki | active target reception [CON:111]
+An ongoing act by which a target endpoint takes up a communicative expression from an exchange context.
+9.600–15.000s | si-nu-ma-ki | available attentional capacity [MIN:201]
+A cognizer's capacity to allocate cognitive processing selectively that is presently available for exercise.
+21.600–55.200s | Sentence | I am registering acoustic input from Pelli. [CMP:42e9bd596b35612ed6cbe3ce]
+The first classmate hears Pelli’s line.
+60.000–65.400s | si-nu-ki-ma | established target-attention relation [MIN:210]
+An established relation in which a cognizer's cognitive processing is preferentially directed toward a distinct target.
+67.200–73.200s | wu-ki-ma-ki | active source expression [CON:101]
+An ongoing act by which a source endpoint makes a communicative expression available to an exchange context.
+74.400–79.800s | si-nu-nu-ma | established joint-attention relation [MIN:220]
+A stable attentional relation among multiple cognizers that gives one target shared cognitive priority.
+81.600–87.600s | wu-nu-nu-ki | operative shared-participation relation [CON:221]
+A communicative relation among multiple endpoints that presently operates to constitute them as co-participants in one shared exchange context.
+88.800–94.800s | wu-ki-ki-ki | active target reception [CON:111]
+An ongoing act by which a target endpoint takes up a communicative expression from an exchange context.
+96.000–101.400s | si-nu-ki-ma | established target-attention relation [MIN:210]
+An established relation in which a cognizer's cognitive processing is preferentially directed toward a distinct target.
+108.000–131.100s | Sentence | I am paying attention to the silence. [MIN:211]
+The first classmate waits when Pelli stops.
+136.800–142.200s | si-nu-ma-ki | available attentional capacity [MIN:201]
+A cognizer's capacity to allocate cognitive processing selectively that is presently available for exercise.
+144.000–149.400s | si-nu-nu-ma | established joint-attention relation [MIN:220]
+A stable attentional relation among multiple cognizers that gives one target shared cognitive priority.
+151.200–157.200s | wu-nu-nu-ki | operative shared-participation relation [CON:221]
+A communicative relation among multiple endpoints that presently operates to constitute them as co-participants in one shared exchange context.
+158.400–164.400s | wu-ki-ki-ki | active target reception [CON:111]
+An ongoing act by which a target endpoint takes up a communicative expression from an exchange context.
+
+VOICE: The second classmate
+4.800–10.800s | wu-ma-nu-ma | persistent shared channel [CON:020]
+A bounded communicative environment that remains the common exchange context of multiple participant endpoints.
+12.000–17.400s | si-nu-ma-ma | enduring attentional capacity [MIN:200]
+A persistent capacity of a cognizer to allocate cognitive processing selectively.
+24.000–45.000s | Sentence | I am paying attention to Pelli. [MIN:211]
+The second classmate follows the learner’s part.
+62.400–67.800s | si-ma-nu-ma | persistent shared cognitive schema [MIN:020]
+A mental representation held in common across multiple cognizers that persists across cognitive episodes.
+69.600–75.600s | wu-nu-nu-ma | enduring shared-participation relation [CON:220]
+A persistent communicative relation among multiple endpoints that constitutes them as co-participants in one shared exchange context.
+76.800–82.200s | si-nu-nu-ma | established joint-attention relation [MIN:220]
+A stable attentional relation among multiple cognizers that gives one target shared cognitive priority.
+84.000–90.000s | wu-nu-ki-ma | established directed communication relation [CON:210]
+A persistent relation that identifies a distinct endpoint as the target of communicative exchange from a reference endpoint.
+91.200–97.200s | wu-ma-nu-ma | persistent shared channel [CON:020]
+A bounded communicative environment that remains the common exchange context of multiple participant endpoints.
+98.400–103.800s | si-ma-nu-ma | persistent shared cognitive schema [MIN:020]
+A mental representation held in common across multiple cognizers that persists across cognitive episodes.
+110.400–119.100s | Sentence | I am able to pay attention. [MIN:201]
+The second classmate’s answer returns to the capacity heard in Pelli’s opening.
+139.200–144.600s | si-nu-ma-ma | enduring attentional capacity [MIN:200]
+A persistent capacity of a cognizer to allocate cognitive processing selectively.
+146.400–151.800s | si-nu-nu-ma | established joint-attention relation [MIN:220]
+A stable attentional relation among multiple cognizers that gives one target shared cognitive priority.
+153.600–159.600s | wu-nu-ki-ma | established directed communication relation [CON:210]
+A persistent relation that identifies a distinct endpoint as the target of communicative exchange from a reference endpoint.
+160.800–166.800s | wu-ma-nu-ma | persistent shared channel [CON:020]
+A bounded communicative environment that remains the common exchange context of multiple participant endpoints.

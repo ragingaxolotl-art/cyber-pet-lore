@@ -1,0 +1,34 @@
+[
+  {
+    "song": "Care in the Quiet",
+    "seconds": 205.61627906976744,
+    "voices": 3,
+    "statements": 42,
+    "musicalNotes": 799,
+    "peak": 0.8600000143051147
+  },
+  {
+    "song": "Paths That Meet",
+    "seconds": 138.17857142857142,
+    "voices": 3,
+    "statements": 42,
+    "musicalNotes": 737,
+    "peak": 0.8600000143051147
+  },
+  {
+    "song": "A Shared Question",
+    "seconds": 167.3,
+    "voices": 3,
+    "statements": 42,
+    "musicalNotes": 709,
+    "peak": 0.8600000143051147
+  },
+  {
+    "song": "Room to Restore",
+    "seconds": 222.3421052631579,
+    "voices": 3,
+    "statements": 42,
+    "musicalNotes": 763,
+    "peak": 0.85999995470047
+  }
+]
