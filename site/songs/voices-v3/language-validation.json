@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "voices": 12,
+  "phrases": 168,
+  "notes": 3008,
+  "sentences": 24,
+  "method": "Every solo note matches the translator performance for its root or newly composed sentence, with phrase placement and global tempo supplied by the score."
+}

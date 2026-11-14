@@ -7,23 +7,25 @@ class Element{
  fire(k){const handlers=this.handlers[k]||[];this.handlers[k]=handlers.filter(h=>!h.once);for(const h of handlers)h.fn()}
  load(){this.currentTime=0}pause(){this.paused=true}play(){this.paused=false;return Promise.resolve()}
 }
-function setup(hash=''){
+function setup(hash='',search=''){
  const nodes=new Map();for(const m of html.matchAll(/id="([^"]+)"/g))nodes.set(m[1],new Element());nodes.get('song-data').textContent=html.match(/<script id="song-data" type="application\/json">([\s\S]*?)<\/script>/)[1];
+ nodes.get('earlier-song-data').textContent=html.match(/<script id="earlier-song-data" type="application\/json">([\s\S]*?)<\/script>/)[1];
+ nodes.get('melody-song-data').textContent=html.match(/<script id="melody-song-data" type="application\/json">([\s\S]*?)<\/script>/)[1];
  const document={getElementById:id=>nodes.get(id),createElement:()=>new Element()};
- vm.runInNewContext(code,{document,URLSearchParams,location:{hash},history:{replaceState(){}},window:{addEventListener(){}}});return nodes;
+ vm.runInNewContext(code,{document,URLSearchParams,location:{hash,search},history:{replaceState(){}},window:{addEventListener(){}}});return nodes;
 }
 const data=JSON.parse(html.match(/<script id="song-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
-test('all 144 phrases show the correct simultaneous voice meanings and playable solo links',()=>{
- const n=setup();assert.equal(n.get('song').children.length,4);assert.equal(data.reduce((sum,s)=>sum+s.voices.reduce((n,v)=>n+v.lines.length,0),0),144);
+test('all 168 phrases show the correct simultaneous voice meanings and playable solo links',()=>{
+ const n=setup();assert.equal(n.get('song').children.length,4);assert.equal(data.reduce((sum,s)=>sum+s.voices.reduce((n,v)=>n+v.lines.length,0),0),168);
 });
 test('each track, each voice and every phrase remain independently inspectable',()=>{
  const n=setup();
  for(let i=0;i<data.length;i++){
   n.get('song').value=String(i);n.get('song').fire('change');n.get('player').fire('loadedmetadata');
-  assert.equal(n.get('title').textContent,data[i].title);assert.equal(n.get('voices').children.length,3);assert.equal(n.get('transcript').children.length,36);
+  assert.equal(n.get('title').textContent,data[i].title);assert.equal(n.get('voices').children.length,3);assert.equal(n.get('transcript').children.length,42);
   assert.equal(n.get('mode').children.length,4);
   for(const [v,voice] of data[i].voices.entries())for(const line of voice.lines){
-   n.get('player').currentTime=line.start+.1;n.get('player').fire('timeupdate');const card=n.get('voices').children[v];assert.equal(card.children[2].textContent,line.carrier);assert.equal(card.children[3].textContent,line.gloss);
+   n.get('player').currentTime=line.start+.1;n.get('player').fire('timeupdate');const card=n.get('voices').children[v];assert.equal(card.children[2].textContent,line.kind==='sentence'?line.gloss:line.carrier);assert.equal(card.children[3].textContent,line.kind==='sentence'?'':line.gloss);
   }
   assert.equal(n.get('story-link').href,'../#read='+data[i].story);
  }
@@ -37,12 +39,32 @@ test('deep links select a song and transcript seeking selects its voice',()=>{
  n.get('transcript').children[1].children[0].fire('click');n.get('player').fire('loadedmetadata');assert.equal(n.get('mode').value,'voice-2');assert.equal(n.get('player').currentTime,data[3].voices[1].lines[0].start);
 });
 test('all choir assets and canonical validation reports are present',()=>{
- const base=new URL('../site/songs/voices-v2/',import.meta.url);
+ const base=new URL('../site/songs/voices-chords/',import.meta.url);
  for(const s of data)for(const file of ['song.m4a','voice-1.m4a','voice-2.m4a','voice-3.m4a','arrangement.mid','voice-1.mid','voice-2.mid','voice-3.mid','meanings.txt'])assert.ok(fs.statSync(new URL(s.folder+'/'+file,base)).size>0);
- const language=JSON.parse(fs.readFileSync(new URL('language-validation.json',base)));assert.equal(language.result,'PASS');assert.equal(language.phrases,144);assert.equal(language.notes,1508);
+ const language=JSON.parse(fs.readFileSync(new URL('language-validation.json',base)));assert.equal(language.result,'PASS');assert.equal(language.phrases,168);assert.equal(language.notes,2776);
  const audio=JSON.parse(fs.readFileSync(new URL('audio-validation.json',base)));assert.equal(audio.result,'PASS');assert.equal(audio.checks.length,12);assert.ok(audio.checks.every(c=>c.maxPitchErrorCents<8&&!c.unassignedAudio&&!c.clipping));
 });
 test('displayed voice meanings exactly match the verified composition score',()=>{
- const book=JSON.parse(fs.readFileSync(new URL('../site/songs/voices-v2/score.json',import.meta.url)));
+ const book=JSON.parse(fs.readFileSync(new URL('../site/songs/voices-chords/score.json',import.meta.url)));
  for(const song of data){const score=book.songs.find(s=>s.folder===song.folder);assert.ok(score);assert.equal(song.voices.length,score.voices.length);song.voices.forEach((v,i)=>{assert.equal(v.name,score.voices[i].name);assert.deepEqual(v.lines,score.voices[i].lines);});}
+});
+
+test('every old refrain survives the remake and the earlier edition still plays',()=>{
+ const old=JSON.parse(fs.readFileSync(new URL('../site/songs/voices-v2/score.json',import.meta.url)));
+ for(const [i,song] of data.entries()) {
+  const oldPlayer=setup('#song='+song.folder,'?edition=2');
+  assert.ok(oldPlayer.get('player').src.includes('voices-v2/'+song.folder+'/song.m4a'));
+  assert.equal(oldPlayer.get('transcript').children.length,36);
+  const n=setup('#song='+song.folder);
+  assert.ok(n.get('player').src.includes('voices-chords/'+song.folder+'/song.m4a'));
+  n.get('arrangement').value='3';n.get('arrangement').fire('change');
+  assert.ok(n.get('player').src.includes('voices-v3/'+song.folder+'/song.m4a'));
+  assert.equal(n.get('transcript').children.length,42);
+  const melody=setup('#song='+song.folder,'?edition=3');assert.equal(melody.get('title').textContent,song.title);
+  assert.ok(melody.get('player').src.includes('voices-v3/'+song.folder+'/song.m4a'));
+  for(const [j,v] of song.voices.entries()) {
+   assert.deepEqual(v.lines.filter(l=>l.kind==='refrain').map(l=>l.formalId),old.songs[i].voices[j].lines.map(l=>l.formalId));
+   assert.equal(v.lines.filter(l=>l.kind==='sentence').length,2);
+  }
+ }
 });

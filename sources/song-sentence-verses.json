@@ -1,0 +1,50 @@
+{
+  "01_care_in_the_quiet": [
+    {"beforeRefrain": 2, "lines": [
+      ["I care for you.", "Sova addresses the neighbor beside the garden path."],
+      ["I am paying attention to Sova.", "The neighbor takes the time they need to listen."],
+      ["Sova cares for the neighbor.", "The second caretaker names the same care from outside the duet."]
+    ]},
+    {"beforeRefrain": 8, "lines": [
+      ["I am registering acoustic input from you.", "Sova hears the neighbor’s answering tone on their return."],
+      ["I am registering acoustic input from Sova.", "The neighbor hears the repeated phrase. The line describes reception."],
+      ["I am paying attention to the pause.", "The fellow caretaker listens through the space left for the answer."]
+    ]}
+  ],
+  "02_paths_that_meet": [
+    {"beforeRefrain": 2, "lines": [
+      ["I am paying attention to the traveler.", "Neral makes time for the traveler at the bench."],
+      ["I arrived at the bench.", "The arriving traveler names the place they have reached."],
+      ["I am able to move.", "The waiting traveler considers their mobility while still at the bench."]
+    ]},
+    {"beforeRefrain": 8, "lines": [
+      ["I am registering acoustic input from you.", "Neral takes in a traveler’s answering phrase."],
+      ["I am paying attention to Neral.", "The arriving traveler follows the route interpreter’s pulse."],
+      ["It is possible that I am moving away from the bench.", "The waiting traveler gives a possible departure a voice. Whether they leave stays open."]
+    ]}
+  ],
+  "03_a_shared_question": [
+    {"beforeRefrain": 2, "lines": [
+      ["I am able to pay attention.", "Pelli takes up the listening exercise again."],
+      ["I am registering acoustic input from Pelli.", "The first classmate hears Pelli’s line."],
+      ["I am paying attention to Pelli.", "The second classmate follows the learner’s part."]
+    ]},
+    {"beforeRefrain": 8, "lines": [
+      ["I am paying attention to the question.", "Pelli names the subject of their shared attention."],
+      ["I am paying attention to the silence.", "The first classmate waits when Pelli stops."],
+      ["I am able to pay attention.", "The second classmate’s answer returns to the capacity heard in Pelli’s opening."]
+    ]}
+  ],
+  "04_room_to_restore": [
+    {"beforeRefrain": 2, "lines": [
+      ["I am outside the room.", "Keshet waits where the visitor asked."],
+      ["The hand is restored.", "The visitor sings about the repaired hand while becoming accustomed to it."],
+      ["I care for the visitor.", "Sova joins the later rendition with a care phrase."]
+    ]},
+    {"beforeRefrain": 8, "lines": [
+      ["I am paying attention to the visitor.", "Keshet checks whether the quiet line should continue."],
+      ["I am registering acoustic input from Keshet.", "The visitor hears the sound they requested to mark time."],
+      ["I am able to pay attention.", "Sova leaves room for the visitor’s answer."]
+    ]}
+  ]
+}

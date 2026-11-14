@@ -1,10 +1,16 @@
+import argparse
 """Synthesize DBA vocal timbres. Every pitched event comes from score.json."""
 from pathlib import Path
 import json, math, struct, wave
 import numpy as np
+parser=argparse.ArgumentParser()
+parser.add_argument('--edition', choices=['voices-v2','voices-v3','voices-chords'], default='voices-v2')
+parser.add_argument('--masters', type=Path)
+args=parser.parse_args()
+masters=args.masters or Path('/private/tmp/era-zero-semantic-choir-masters'+({'voices-v2':'','voices-v3':'-v3','voices-chords':'-chords'}[args.edition]))
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'site/songs/voices-v2'
-MASTERS=Path('/private/tmp/era-zero-semantic-choir-masters')
+OUT=ROOT/'site/songs'/args.edition
+MASTERS=masters
 RATE=32000
 book=json.loads((OUT/'score.json').read_text())
 MASTERS.mkdir(exist_ok=True)
@@ -71,12 +77,13 @@ for song in book['songs']:
   midi(folder/(v['id']+'.mid'),[v],song['bpm'])
  midi(folder/'arrangement.mid',song['voices'],song['bpm'])
  lines=[song['title'],'Three meaningful DBA voices; every voice uses canonical assertions in runtime state 1.','Simultaneous lines are independent statements. English titles and the backstory are not extra translated lyrics.','']
+ if args.edition!='voices-v2':lines=[song['title'],book['note'],'', 'Each sentence lyric is followed by a performance note.','']
  for v in song['voices']:
   lines+=['VOICE: '+v['name']]
   for l in v['lines']:lines.append(f"{l['start']:.3f}–{l['end']:.3f}s | {l['carrier']} | {l['gloss']} [{l['target']}]\n{l['definition']}")
   lines.append('')
- (folder/'meanings.txt').write_text('\n'.join(lines)+'\n')
- results.append({'song':song['title'],'seconds':song['seconds'],'voices':3,'statements':36,'musicalNotes':sum(len(v['notes']) for v in song['voices']),'peak':float(np.max(np.abs(mix*gain)))})
+ (folder/'meanings.txt').write_text('\n'.join(lines).rstrip()+'\n')
+ results.append({'song':song['title'],'seconds':song['seconds'],'voices':3,'statements':sum(len(v['lines']) for v in song['voices']),'musicalNotes':sum(len(v['notes']) for v in song['voices']),'peak':float(np.max(np.abs(mix*gain)))})
  print('Rendered '+song['title'],flush=True)
 (OUT/'render-report.json').write_text(json.dumps(results,indent=2)+'\n')
 print('Lossless masters: '+str(MASTERS))

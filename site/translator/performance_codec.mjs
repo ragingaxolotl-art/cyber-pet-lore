@@ -1,3 +1,4 @@
+import {scheduledLexicalEvents} from './scheduler.mjs';
 import{visemePlanFromFormal}from'./visemes.mjs';
 
 // EZREC-PERF-1 is an optional performance channel. It never changes the formal IR.
@@ -22,7 +23,22 @@ export function midiFromPerformance(formal,registry,mode='recognition'){
   return new Uint8Array([...'MThd'].map(c=>c.charCodeAt(0)).concat(u32(6),u16(0),u16(1),u16(PPQ),[...'MTrk'].map(c=>c.charCodeAt(0)),u32(track.length),track));
 }
 
-export function notesFromMidi(input){
+// A single fixed-tempo musical line can contain simultaneous pitches.
+export function midiFromNoteTimeline(notes,division=480,tempo=500000) {
+  if (!Number.isInteger(division)||division<1||division>32767||!Number.isInteger(tempo)||tempo<1||tempo>0xffffff) throw Error('Invalid MIDI clock.');
+  const events=[];
+  for (const {midi,start_tick,end_tick} of notes) {
+    if (!Number.isInteger(midi)||midi<0||midi>127||!Number.isSafeInteger(start_tick)||!Number.isSafeInteger(end_tick)||start_tick<0||end_tick<=start_tick) throw Error('Invalid note in music timeline.');
+    events.push([start_tick,1,midi],[end_tick,0,midi]);
+  }
+  events.sort((a,b)=>a[0]-b[0]||a[1]-b[1]||a[2]-b[2]);
+  const track=[0,0xff,0x51,3,...u32(tempo).slice(1),0,0xc0,0];let previous=0;
+  for(const [tick,on,pitch] of events){track.push(...vlq(tick-previous),on?0x90:0x80,pitch,on?90:0);previous=tick;}
+  track.push(0,0xff,0x2f,0);
+  return new Uint8Array([77,84,104,100,...u32(6),...u16(0),...u16(1),...u16(division),77,84,114,107,...u32(track.length),...track]);
+}
+
+export function notesFromMidi(input,{allowPolyphony=false}={}){
   const data=input instanceof Uint8Array?input:new Uint8Array(input);
   let at=0;
   const take=n=>{if(n<0||at+n>data.length)throw new Error('Truncated MIDI file.');const bytes=data.slice(at,at+n);at+=n;return bytes};
@@ -56,19 +72,21 @@ export function notesFromMidi(input){
   }
   if(at!==data.length)throw new Error('Trailing MIDI bytes.');
   notes.sort((a,b)=>a.start_tick-b.start_tick||a.track-b.track||a.midi-b.midi);
-  if(notes.some((note,index)=>index&&note.start_tick<notes[index-1].end_tick))throw new Error('Polyphonic MIDI cannot be checked as a single Era Zero voice.');
+  if(!allowPolyphony&&notes.some((note,index)=>index&&note.start_tick<notes[index-1].end_tick))throw new Error('Polyphonic MIDI cannot be checked as a single Era Zero voice.');
   return{format:'SMF',division,tempos,notes};
 }
 
 function expectedPatterns(formal,registry){
   const strict=visemePlanFromFormal(formal,{mode:'strict',recognitionRegistry:registry});
   const full=visemePlanFromFormal(formal,{mode:'recognition',recognitionRegistry:registry});
-  const events=formal.performance.lexical_events;
+  const events=scheduledLexicalEvents(formal);
+  const group=cues=>{const result=new Map();for(const cue of cues){if(!result.has(cue.event_index))result.set(cue.event_index,[]);result.get(cue.event_index).push(cue)}return result};
+  const strictByEvent=group(strict.cues),fullByEvent=group(full.cues);
   const paths=events.map((event,index)=>{
-    const s=strict.cues.filter(cue=>cue.event_index===index).map(cue=>cue.note);
-    const r=full.cues.filter(cue=>cue.event_index===index&&cue.section==='recognition_phrase').map(cue=>cue.note);
-    const prefix=full.cues.filter(cue=>cue.event_index===index&&cue.section!=='runtime_ending'&&cue.section!=='recognition_phrase').map(cue=>cue.note);
-    const runtime=full.cues.filter(cue=>cue.event_index===index&&cue.section==='runtime_ending').map(cue=>cue.note);
+    const s=(strictByEvent.get(index)||[]).map(cue=>cue.note);
+    const r=(fullByEvent.get(index)||[]).filter(cue=>cue.section==='recognition_phrase').map(cue=>cue.note);
+    const prefix=(fullByEvent.get(index)||[]).filter(cue=>cue.section!=='runtime_ending'&&cue.section!=='recognition_phrase').map(cue=>cue.note);
+    const runtime=(fullByEvent.get(index)||[]).filter(cue=>cue.section==='runtime_ending').map(cue=>cue.note);
     if(s.join(',')!==[...prefix,...runtime].join(','))throw new Error('Strict and recognition note paths disagree.');
     return{target_id:event.target_id,prefix,recognition:r,runtime};
   });
@@ -79,19 +97,41 @@ export function verifyPerformanceNotes(formal,registry,observed){
   const values=observed.map(note=>typeof note==='number'?note:note.midi);
   if(values.some(note=>!Number.isInteger(note)||note<0||note>127))throw new Error('Invalid MIDI pitch in observed performance.');
   const {paths,contour}=expectedPatterns(formal,registry);
-  let best=null;
-  function consider(index,pattern,checksumModes){
-    if(index===paths.length){
-      const expected=[...pattern,...contour],difference=Math.abs(expected.length-values.length)+expected.reduce((sum,note,i)=>sum+(i<values.length&&note!==values[i]?1:0),0);
-      if(!best||difference<best.difference)best={expected,difference,checksumModes};
-      return;
+  // Keep one best path per observed offset rather than enumerate every
+  // checksum-presence combination. Try exact matching first, so long valid
+  // performances need only the offsets consistent with their actual notes.
+  function search(exactOnly){
+    let states=new Map([[0,{cost:0,parent:null,mode:null,segment:[]}]]),work=0;
+    for(const path of paths){
+      const options=[{mode:'absent',notes:[...path.prefix,...path.runtime]}];
+      if(path.recognition.length)options.push({mode:'present',notes:[...path.prefix,...path.recognition,...path.runtime]});
+      const next=new Map();
+      for(const [offset,state] of states){
+        for(const option of options){
+          if(++work>1000000)throw new Error('Performance verification exceeds its search work limit.');
+          let cost=state.cost;
+          for(let i=0;i<option.notes.length;i++)if(values[offset+i]!==option.notes[i])cost++;
+          if(exactOnly&&cost)continue;
+          const end=offset+option.notes.length,previous=next.get(end);
+          if(!previous||cost<previous.cost)next.set(end,{cost,parent:state,mode:option.mode,segment:option.notes});
+        }
+      }
+      states=next;
+      if(!states.size)return null;
     }
-    const path=paths[index];
-    consider(index+1,[...pattern,...path.prefix,...path.runtime],[...checksumModes,'absent']);
-    consider(index+1,[...pattern,...path.prefix,...path.recognition,...path.runtime],[...checksumModes,'present']);
+    let winner=null;
+    for(const [offset,state] of states){
+      let difference=state.cost+Math.max(0,values.length-offset-contour.length);
+      for(let i=0;i<contour.length;i++)if(values[offset+i]!==contour[i])difference++;
+      if(exactOnly&&difference)continue;
+      if(!winner||difference<winner.difference)winner={state,difference};
+    }
+    if(!winner)return null;
+    const segments=[],checksumModes=[];
+    for(let state=winner.state;state.parent;state=state.parent){segments.push(state.segment);checksumModes.push(state.mode)}
+    return{expected:segments.reverse().flat().concat(contour),checksumModes:checksumModes.reverse(),difference:winner.difference};
   }
-  if(paths.length>12)throw new Error('Performance verification supports at most 12 lexical events.');
-  consider(0,[],[]);
+  const best=search(true)||search(false);
   const valid=best.difference===0;
   const mismatch=best.expected.findIndex((note,index)=>values[index]!==note);
   return{format:PERFORMANCE_FORMAT,status:valid?(best.checksumModes.every(mode=>mode==='absent')?'valid_strict_absence':'valid_checksum'):'checksum_or_path_mismatch',semantic_content:false,semantic_identity_changed:false,formal_id:formal.formal_id,targets:paths.map((path,index)=>({target_id:path.target_id,checksum:best.checksumModes[index]})),observed_note_count:values.length,expected_note_count:best.expected.length,first_mismatch:valid?null:mismatch<0?best.expected.length:mismatch};

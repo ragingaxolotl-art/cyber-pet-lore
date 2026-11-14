@@ -1,0 +1,114 @@
+{
+  "result": "PASS",
+  "method": "All prominent spectral peaks in each pitched interval of the rendered solo, with silence and clipping checks.",
+  "checks": [
+    {
+      "song": "Care in the Quiet",
+      "voice": "Sova",
+      "notes": 243,
+      "pitchWindows": 191,
+      "maxPitchErrorCents": 0.0104,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "Care in the Quiet",
+      "voice": "The answering neighbor",
+      "notes": 263,
+      "pitchWindows": 211,
+      "maxPitchErrorCents": 0.0089,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "Care in the Quiet",
+      "voice": "A fellow garden caretaker",
+      "notes": 236,
+      "pitchWindows": 180,
+      "maxPitchErrorCents": 0.0087,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "Paths That Meet",
+      "voice": "Neral",
+      "notes": 263,
+      "pitchWindows": 211,
+      "maxPitchErrorCents": 0.344,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "Paths That Meet",
+      "voice": "The arriving traveler",
+      "notes": 224,
+      "pitchWindows": 168,
+      "maxPitchErrorCents": 0.0748,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "Paths That Meet",
+      "voice": "The waiting traveler",
+      "notes": 196,
+      "pitchWindows": 140,
+      "maxPitchErrorCents": 0.0614,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "A Shared Question",
+      "voice": "Pelli",
+      "notes": 194,
+      "pitchWindows": 138,
+      "maxPitchErrorCents": 0.0106,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "A Shared Question",
+      "voice": "The first classmate",
+      "notes": 273,
+      "pitchWindows": 221,
+      "maxPitchErrorCents": 0.0102,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "A Shared Question",
+      "voice": "The second classmate",
+      "notes": 186,
+      "pitchWindows": 130,
+      "maxPitchErrorCents": 0.0181,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "Room to Restore",
+      "voice": "Keshet",
+      "notes": 251,
+      "pitchWindows": 195,
+      "maxPitchErrorCents": 0.0076,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "Room to Restore",
+      "voice": "The resting visitor",
+      "notes": 253,
+      "pitchWindows": 201,
+      "maxPitchErrorCents": 0.055,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "Room to Restore",
+      "voice": "Sova",
+      "notes": 194,
+      "pitchWindows": 138,
+      "maxPitchErrorCents": 0.0555,
+      "unassignedAudio": false,
+      "clipping": false
+    }
+  ]
+}

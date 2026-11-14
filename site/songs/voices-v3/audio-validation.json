@@ -1,0 +1,102 @@
+{
+  "result": "PASS",
+  "method": "Global spectral peak for each rendered solo note; silence outside assigned note windows; clipping check. Lossless masters, before AAC encoding.",
+  "checks": [
+    {
+      "song": "Care in the Quiet",
+      "voice": "Sova",
+      "notes": 260,
+      "maxPitchErrorCents": 0.0091,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "Care in the Quiet",
+      "voice": "The answering neighbor",
+      "notes": 283,
+      "maxPitchErrorCents": 0.0074,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "Care in the Quiet",
+      "voice": "A fellow garden caretaker",
+      "notes": 256,
+      "maxPitchErrorCents": 0.0111,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "Paths That Meet",
+      "voice": "Neral",
+      "notes": 280,
+      "maxPitchErrorCents": 0.0186,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "Paths That Meet",
+      "voice": "The arriving traveler",
+      "notes": 243,
+      "maxPitchErrorCents": 0.015,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "Paths That Meet",
+      "voice": "The waiting traveler",
+      "notes": 214,
+      "maxPitchErrorCents": 0.022,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "A Shared Question",
+      "voice": "Pelli",
+      "notes": 211,
+      "maxPitchErrorCents": 0.0024,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "A Shared Question",
+      "voice": "The first classmate",
+      "notes": 292,
+      "maxPitchErrorCents": 0.0088,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "A Shared Question",
+      "voice": "The second classmate",
+      "notes": 206,
+      "maxPitchErrorCents": 0.0026,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "Room to Restore",
+      "voice": "Keshet",
+      "notes": 273,
+      "maxPitchErrorCents": 0.0114,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "Room to Restore",
+      "voice": "The resting visitor",
+      "notes": 276,
+      "maxPitchErrorCents": 0.0101,
+      "unassignedAudio": false,
+      "clipping": false
+    },
+    {
+      "song": "Room to Restore",
+      "voice": "Sova",
+      "notes": 214,
+      "maxPitchErrorCents": 0.0039,
+      "unassignedAudio": false,
+      "clipping": false
+    }
+  ]
+}

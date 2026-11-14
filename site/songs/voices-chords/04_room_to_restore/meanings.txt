@@ -1,0 +1,94 @@
+Room to Restore
+Compact chord performance. Each root has a three-note family chord, a three-note address chord and a moving upper ending. Sentence grammar, names and contours retain their note order. Each singer has an independent part.
+
+Each sentence lyric is followed by a performance note.
+
+VOICE: Keshet
+0.000–3.158s | ya-nu-ma-ma | persistent internal recoverability [REP:200]
+A persistent capacity of one reference entity to undergo internally originating restoration under qualifying conditions, independently of whether that capacity is presently operative.
+4.737–7.895s | ya-ki-ma-ki | active internal restoration [REP:101]
+An ongoing restorative transformation originating within one reference entity by which that entity is entering its applicable internal restoration condition.
+11.053–43.421s | Sentence | I am outside the room. [CMP:cc6d19387b62013464e0e850]
+Keshet waits where the visitor asked.
+45.789–48.947s | ya-nu-ki-ki | operative source-target restorative relation [REP:211]
+A restorative applicability relation between one distinct source and one reference target that presently enables that source to cause target restoration under the applicable conditions.
+50.526–53.684s | ya-ki-ki-ma | completed target restoration [REP:110]
+Completion of a restorative transformation by which one distinct source causes one reference target to enter its applicable target restoration condition.
+55.263–58.421s | ni-nu-ma-ma | stable viability [LIF:200]
+The stable capacity of a being to remain alive and continue functioning.
+60.000–63.158s | ni-nu-ki-ma | established life-bond [LIF:210]
+A stable relationship through which two living identities recognize one another as connected.
+64.737–67.895s | ya-nu-ma-ma | persistent internal recoverability [REP:200]
+A persistent capacity of one reference entity to undergo internally originating restoration under qualifying conditions, independently of whether that capacity is presently operative.
+69.474–72.632s | ya-nu-ki-ki | operative source-target restorative relation [REP:211]
+A restorative applicability relation between one distinct source and one reference target that presently enables that source to cause target restoration under the applicable conditions.
+75.789–103.816s | Sentence | I am paying attention to the visitor. [MIN:211]
+Keshet checks whether the quiet line should continue.
+123.158–126.316s | ya-ki-ma-ki | active internal restoration [REP:101]
+An ongoing restorative transformation originating within one reference entity by which that entity is entering its applicable internal restoration condition.
+127.895–131.053s | ni-nu-ma-ma | stable viability [LIF:200]
+The stable capacity of a being to remain alive and continue functioning.
+132.632–135.789s | ni-nu-ki-ma | established life-bond [LIF:210]
+A stable relationship through which two living identities recognize one another as connected.
+137.368–140.526s | ya-nu-ma-ma | persistent internal recoverability [REP:200]
+A persistent capacity of one reference entity to undergo internally originating restoration under qualifying conditions, independently of whether that capacity is presently operative.
+
+VOICE: The resting visitor
+1.579–4.737s | ya-nu-ma-ki | operative internal recoverability [REP:201]
+A capacity of one reference entity to undergo internally originating restoration that is presently operative under the applicable conditions.
+6.316–9.474s | wu-ki-ki-ki | active target reception [CON:111]
+An ongoing act by which a target endpoint takes up a communicative expression from an exchange context.
+12.632–31.579s | Sentence | The hand is restored. [REP:001]
+The visitor sings about the repaired hand while becoming accustomed to it.
+47.368–50.526s | si-nu-ma-ki | available attentional capacity [MIN:201]
+A cognizer's capacity to allocate cognitive processing selectively that is presently available for exercise.
+52.105–55.263s | ni-nu-ma-ma | stable viability [LIF:200]
+The stable capacity of a being to remain alive and continue functioning.
+56.842–60.000s | wu-nu-ma-ki | available communicative participation capacity [CON:201]
+A communicative capacity of an endpoint that is presently available for exercise in an exchange.
+61.579–64.737s | wu-ki-ki-ma | completed target reception [CON:110]
+Completion of an act by which a target endpoint takes up a communicative expression from an exchange context.
+66.316–69.474s | ya-nu-ma-ki | operative internal recoverability [REP:201]
+A capacity of one reference entity to undergo internally originating restoration that is presently operative under the applicable conditions.
+71.053–74.211s | si-nu-ma-ki | available attentional capacity [MIN:201]
+A cognizer's capacity to allocate cognitive processing selectively that is presently available for exercise.
+77.368–121.579s | Sentence | I am registering acoustic input from Keshet. [CMP:42e9bd596b35612ed6cbe3ce]
+The visitor hears the sound they requested to mark time.
+124.737–127.895s | wu-ki-ki-ki | active target reception [CON:111]
+An ongoing act by which a target endpoint takes up a communicative expression from an exchange context.
+129.474–132.632s | wu-nu-ma-ki | available communicative participation capacity [CON:201]
+A communicative capacity of an endpoint that is presently available for exercise in an exchange.
+134.211–137.368s | wu-ki-ki-ma | completed target reception [CON:110]
+Completion of an act by which a target endpoint takes up a communicative expression from an exchange context.
+138.947–142.105s | ya-nu-ma-ki | operative internal recoverability [REP:201]
+A capacity of one reference entity to undergo internally originating restoration that is presently operative under the applicable conditions.
+
+VOICE: Sova
+3.158–6.316s | ni-nu-ki-ki | active care [LIF:211]
+The active use of one being’s life-capacity to protect, support, nurture, or sustain another being.
+7.895–11.053s | wu-ma-nu-ma | persistent shared channel [CON:020]
+A bounded communicative environment that remains the common exchange context of multiple participant endpoints.
+14.211–42.237s | Sentence | I care for the visitor. [LIF:211]
+Sova joins the later rendition with a care phrase.
+48.947–52.105s | ya-nu-ki-ma | persistent source-target restorative relation [REP:210]
+A persistent restorative applicability relation between one distinct source and one reference target that can enable source-to-target restoration under qualifying conditions, independently of whether that relation is presently operative.
+53.684–56.842s | ni-nu-ki-ma | established life-bond [LIF:210]
+A stable relationship through which two living identities recognize one another as connected.
+58.421–61.579s | wu-nu-nu-ma | enduring shared-participation relation [CON:220]
+A persistent communicative relation among multiple endpoints that constitutes them as co-participants in one shared exchange context.
+63.158–66.316s | ni-nu-ma-ma | stable viability [LIF:200]
+The stable capacity of a being to remain alive and continue functioning.
+67.895–71.053s | ni-nu-ki-ki | active care [LIF:211]
+The active use of one being’s life-capacity to protect, support, nurture, or sustain another being.
+72.632–75.789s | ya-nu-ki-ma | persistent source-target restorative relation [REP:210]
+A persistent restorative applicability relation between one distinct source and one reference target that can enable source-to-target restoration under qualifying conditions, independently of whether that relation is presently operative.
+78.947–86.447s | Sentence | I am able to pay attention. [MIN:201]
+Sova leaves room for the visitor’s answer.
+126.316–129.474s | wu-ma-nu-ma | persistent shared channel [CON:020]
+A bounded communicative environment that remains the common exchange context of multiple participant endpoints.
+131.053–134.211s | wu-nu-nu-ma | enduring shared-participation relation [CON:220]
+A persistent communicative relation among multiple endpoints that constitutes them as co-participants in one shared exchange context.
+135.789–138.947s | ni-nu-ma-ma | stable viability [LIF:200]
+The stable capacity of a being to remain alive and continue functioning.
+140.526–143.684s | ni-nu-ki-ki | active care [LIF:211]
+The active use of one being’s life-capacity to protect, support, nurture, or sustain another being.
