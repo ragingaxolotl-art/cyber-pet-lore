@@ -48,3 +48,11 @@
 .song-editor{margin:1.5rem 0;padding:clamp(1rem,3vw,2rem)}
 .song-editor li{margin:.55rem 0}.song-editor li button{margin-inline-start:.75rem}
 .lore-saves{padding:1rem max(1rem,4vw);border-bottom:1px solid #465963;background:#14252a;color:#e5ede9}.lore-saves nav{display:flex;gap:1.5rem;flex-wrap:wrap;margin-bottom:.75rem}.lore-saves a{color:#a8ebd2}.lore-saves details{max-width:900px}.lore-saves button,.lore-saves input{margin:.4rem}.lore-saves summary{cursor:pointer;font-weight:700}.lore-saves p{line-height:1.5}
+
+.result-grid > *, .candidate-list details, .phrase-terms select {min-width:0}
+.result-grid:has(.resolution.hidden) {grid-template-columns:minmax(0,1fr)}
+.candidate-list summary {cursor:pointer;padding:10px 0;color:var(--muted)}
+.word-score {margin-bottom:12px}
+.word-score p {margin:0 0 8px;overflow-wrap:anywhere}
+.word-score button {margin:0 6px 6px 0}
+@media(max-width:900px){.result-grid{grid-template-columns:minmax(0,1fr)}}
