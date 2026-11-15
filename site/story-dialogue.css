@@ -1,0 +1,53 @@
+button.story-dialogue-play {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: -.22em;
+  width: 1.45em;
+  height: 1.45em;
+  min-width: 24px;
+  min-height: 24px;
+  margin: 0 .18em;
+  padding: 0;
+  border: 1px solid #9bbaad;
+  border-radius: 50%;
+  background: #edf5ef;
+  color: #21594b;
+  font-size: .82em;
+  line-height: 1;
+  cursor: pointer;
+  user-select: none;
+}
+.story-dialogue-play::before {
+  content: "";
+  border-block: .29em solid transparent;
+  border-left: .45em solid currentColor;
+  margin-left: .12em;
+}
+button.story-dialogue-play:hover, button.story-dialogue-play[aria-pressed="true"] {
+  background: #21594b;
+  color: white;
+}
+.story-dialogue-play[aria-pressed="true"]::before {
+  border: 0;
+  width: .5em;
+  height: .5em;
+  margin: 0;
+  background: currentColor;
+}
+button.story-dialogue-play:focus-visible {outline: 3px solid #976122; outline-offset: 2px}
+::highlight(dba-dialogue) {background-color: #cfe5d7; color: #163c32}
+.story-dialogue-status:not(:empty) {
+  position: fixed;
+  z-index: 9;
+  right: 1rem;
+  bottom: 1rem;
+  max-width: min(32rem, calc(100% - 2rem));
+  padding: .55rem .85rem;
+  border-radius: .5rem;
+  background: #163e34;
+  color: white;
+  font: .9rem/1.4 system-ui, sans-serif;
+  pointer-events: none;
+}
+@media print {button.story-dialogue-play, .story-dialogue-status {display: none}}
