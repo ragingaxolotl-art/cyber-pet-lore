@@ -62,7 +62,7 @@ import {helpCareReading,parseSentenceDisjunction,composeSentenceDisjunction,clau
 const safePreference={getItem(key){try{return localStorage.getItem(key)}catch{return null}},setItem(key,value){try{localStorage.setItem(key,value)}catch{}}};
 import {attachLoreSaves} from './lore-concepts.mjs';
 import{svgFromFormal,midiFromFormal,createBundle,verifyBundle,soundPlanFromFormal}from'./engine.mjs?v=1.15.0';
-import{analyzeEnglish}from'./english.mjs?v=1.16.1';
+import{analyzeEnglish}from'./english.mjs?v=field-repairs-2';
 import{encodeName,estimatePhonemes,notesForName,midiFromName,PHONEMES}from'./names.mjs?v=1.15.0';
 import{visemePlanFromFormal,visemeFrameAt,visemeFileFromFormal,EYE_EXPRESSIONS}from'./visemes.mjs?v=1.15.0';
 import{recognitionForTarget}from'./recognition.mjs?v=1.15.0';
