@@ -2,7 +2,7 @@
   "result": "PASS",
   "voices": 12,
   "phrases": 168,
-  "notes": 2776,
+  "notes": 2760,
   "sentences": 24,
   "method": "All exported solo phrases expand from their chord pitches and timings to the original translator performance. Each ensemble MIDI track matches its solo."
 }

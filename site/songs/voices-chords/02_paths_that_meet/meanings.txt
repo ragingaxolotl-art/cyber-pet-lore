@@ -22,15 +22,15 @@ A persistent communicative relation among multiple endpoints that constitutes th
 Completion of a mover's displacement away from a source position.
 43.929–46.071s | gi-ki-nu-ki | active shared-frame movement [MOV:121]
 Ongoing change of a mover's position relative to a shared or environmental reference frame.
-48.214–70.179s | Sentence | I am registering acoustic input from you. [CMP:42e9bd596b35612ed6cbe3ce]
+48.214–64.286s | Sentence | I am registering acoustic input from you. [CMP:42e9bd596b35612ed6cbe3ce]
 Neral takes in a traveler’s answering phrase.
-71.786–73.929s | gi-ma-ki-ki | active destination [MOV:011]
+69.643–71.786s | gi-ma-ki-ki | active destination [MOV:011]
 A destination that is currently reachable, accepted, and actively guiding movement.
-75.000–77.143s | wu-ki-ki-ma | completed target reception [CON:110]
+72.857–75.000s | wu-ki-ki-ma | completed target reception [CON:110]
 Completion of an act by which a target endpoint takes up a communicative expression from an exchange context.
-78.214–80.357s | wu-nu-nu-ma | enduring shared-participation relation [CON:220]
+76.071–78.214s | wu-nu-nu-ma | enduring shared-participation relation [CON:220]
 A persistent communicative relation among multiple endpoints that constitutes them as co-participants in one shared exchange context.
-81.429–83.571s | gi-ki-ma-ma | completed source departure [MOV:100]
+79.286–81.429s | gi-ki-ma-ma | completed source departure [MOV:100]
 Completion of a mover's displacement away from a source position.
 
 VOICE: The arriving traveler
@@ -54,13 +54,13 @@ Completion of a mover's displacement to a target position.
 The position currently occupied by an entity, signal, process, or point of attention.
 49.286–64.286s | Sentence | I am paying attention to Neral. [MIN:211]
 The arriving traveler follows the route interpreter’s pulse.
-72.857–75.000s | wu-ki-ki-ki | active target reception [CON:111]
+70.714–72.857s | wu-ki-ki-ki | active target reception [CON:111]
 An ongoing act by which a target endpoint takes up a communicative expression from an exchange context.
-76.071–78.214s | gi-nu-ki-ki | live target-relative position [MOV:211]
+73.929–76.071s | gi-nu-ki-ki | live target-relative position [MOV:211]
 A positional relation of a mover to a target position that is currently maintained or updated.
-79.286–81.429s | wu-nu-nu-ki | operative shared-participation relation [CON:221]
+77.143–79.286s | wu-nu-nu-ki | operative shared-participation relation [CON:221]
 A communicative relation among multiple endpoints that presently operates to constitute them as co-participants in one shared exchange context.
-82.500–84.643s | gi-ki-ki-ma | completed target arrival [MOV:110]
+80.357–82.500s | gi-ki-ki-ma | completed target arrival [MOV:110]
 Completion of a mover's displacement to a target position.
 
 VOICE: The waiting traveler
@@ -84,11 +84,11 @@ An enduring capacity of a mover to change its own position.
 A communicative capacity of an endpoint that is presently available for exercise in an exchange.
 50.357–67.768s | Sentence | It is possible that I am moving away from the bench. [MOV:101]
 The waiting traveler gives a possible departure a voice. Whether they leave stays open.
-73.929–76.071s | gi-ma-ki-nu | pending destination [MOV:012]
+71.786–73.929s | gi-ma-ki-nu | pending destination [MOV:012]
 A destination that remains defined but cannot yet be reached, confirmed, or entered.
-77.143–79.286s | wu-nu-ki-ma | established directed communication relation [CON:210]
+75.000–77.143s | wu-nu-ki-ma | established directed communication relation [CON:210]
 A persistent relation that identifies a distinct endpoint as the target of communicative exchange from a reference endpoint.
-80.357–82.500s | gi-ma-nu-ma | established route [MOV:020]
+78.214–80.357s | gi-ma-nu-ma | established route [MOV:020]
 A stable sequence of positions connecting one location to another.
-83.571–85.714s | gi-nu-ma-ma | enduring self-mobility [MOV:200]
+81.429–83.571s | gi-nu-ma-ma | enduring self-mobility [MOV:200]
 An enduring capacity of a mover to change its own position.

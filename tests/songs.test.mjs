@@ -41,7 +41,7 @@ test('deep links select a song and transcript seeking selects its voice',()=>{
 test('all choir assets and canonical validation reports are present',()=>{
  const base=new URL('../site/songs/voices-chords/',import.meta.url);
  for(const s of data)for(const file of ['song.m4a','voice-1.m4a','voice-2.m4a','voice-3.m4a','arrangement.mid','voice-1.mid','voice-2.mid','voice-3.mid','meanings.txt'])assert.ok(fs.statSync(new URL(s.folder+'/'+file,base)).size>0);
- const language=JSON.parse(fs.readFileSync(new URL('language-validation.json',base)));assert.equal(language.result,'PASS');assert.equal(language.phrases,168);assert.equal(language.notes,2776);
+ const language=JSON.parse(fs.readFileSync(new URL('language-validation.json',base)));assert.equal(language.result,'PASS');assert.equal(language.phrases,168);assert.equal(language.notes,2760);
  const audio=JSON.parse(fs.readFileSync(new URL('audio-validation.json',base)));assert.equal(audio.result,'PASS');assert.equal(audio.checks.length,12);assert.ok(audio.checks.every(c=>c.maxPitchErrorCents<8&&!c.unassignedAudio&&!c.clipping));
 });
 test('displayed voice meanings exactly match the verified composition score',()=>{
