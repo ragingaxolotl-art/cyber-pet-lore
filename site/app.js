@@ -1,3 +1,4 @@
+import {attachStoryDialogue,leaveStoryDialogue} from './story-dialogue.mjs';
 import {annotationVisible,annotationChoices} from './story-annotations.mjs?v=1';
 import {mountComments} from './comments.mjs';
 import {appendEditorialHighlights} from './editorial-highlights.mjs';
@@ -77,6 +78,7 @@ function renderLibrary(){
  renderNav();updateProgress();
 }
 function renderBlocks(){
+ leaveStoryDialogue();
  const parent=$('reading-text');clearReferenceArt();parent.replaceChildren();const r=record(current.id);
  let annotationTools=$('story-annotation-tools');
  if(!annotationTools){annotationTools=node('section',undefined,'story-annotation-tools');annotationTools.id='story-annotation-tools';parent.before(annotationTools);}
@@ -107,6 +109,7 @@ function renderBlocks(){
    figure.append(link,caption);parent.append(figure);
   }
  }
+ if(current.kind==='Story'||current.kind==='Draft')attachStoryDialogue(parent,current.id);
 }
 function renderConnections(entry){
  const panel=$('reading-connections');panel.replaceChildren(node('h2','Follow the connections'));
@@ -210,7 +213,7 @@ function renderNotebook(){
  if(!list.children.length)list.append(node('p',onlyClips?'No clips yet. Select a passage in a reading and choose Clip.':'Your notebook is waiting. Open a reading, select a passage, and add your first note.'));window.scrollTo({top:0,behavior:'instant'});
 }
 $('clips-only').onchange=renderNotebook;
-function route(){if(!catalog)return;const hash=location.hash.slice(1);if(hash.startsWith('read=')){const params=new URLSearchParams(hash);openReading(params.get('read'),params.get('block'));}else if(hash==='notebook')renderNotebook();else{++routeSequence;hideSelection();clearReferenceArt();current=null;$('library').hidden=false;$('reader').hidden=true;$('notebook').hidden=true;if(hash.startsWith('place=')||hash.startsWith('character=')){const params=new URLSearchParams(hash);kind='';page=0;tagFilter='';$('search').value='';for(const id of ['era-filter','character-filter','place-filter','read-filter'])$(id).value='';for(const key of ['place','character'])if(params.has(key))$(key+'-filter').value=params.get(key);}renderLibrary();}}
+function route(){if(!catalog)return;leaveStoryDialogue();const hash=location.hash.slice(1);if(hash.startsWith('read=')){const params=new URLSearchParams(hash);openReading(params.get('read'),params.get('block'));}else if(hash==='notebook')renderNotebook();else{++routeSequence;hideSelection();clearReferenceArt();current=null;$('library').hidden=false;$('reader').hidden=true;$('notebook').hidden=true;if(hash.startsWith('place=')||hash.startsWith('character=')){const params=new URLSearchParams(hash);kind='';page=0;tagFilter='';$('search').value='';for(const id of ['era-filter','character-filter','place-filter','read-filter'])$(id).value='';for(const key of ['place','character'])if(params.has(key))$(key+'-filter').value=params.get(key);}renderLibrary();}}
 function download(data,name){const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=node('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 $('backup-open').onclick=()=>{$('backup-stats').textContent=`${Object.values(state.readings).filter(r=>r.read).length} read · ${Object.values(state.readings).reduce((n,r)=>n+r.highlights.length,0)} highlights · ${Object.values(state.readings).filter(r=>r.note).length} reading notes · ${state.conceptQueue?.proposals.length||0} DBA proposals`;$('backup-dialog').showModal();};
 

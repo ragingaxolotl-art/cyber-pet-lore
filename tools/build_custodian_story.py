@@ -21,9 +21,9 @@ def inline(text):
     return text
 
 
-def markdown(text):
+def markdown(text, paragraph_ids=None):
     result = []
-    for part in re.split(r'\n\s*\n', text.strip()):
+    for i, part in enumerate(re.split(r'\n\s*\n', text.strip())):
         match = re.match(r'^(#{1,6}) (.+)$', part)
         if match:
             level, title = len(match[1]), match[2]
@@ -31,7 +31,8 @@ def markdown(text):
         elif part.startswith('- '):
             result.append('<ul>' + ''.join('<li>'+inline(line[2:])+'</li>' for line in part.splitlines()) + '</ul>')
         else:
-            result.append('<p>'+inline(part)+'</p>')
+            anchor = f' id="block-{paragraph_ids[i]}"' if paragraph_ids and i in paragraph_ids else ''
+            result.append(f'<p{anchor}>'+inline(part)+'</p>')
     return '\n'.join(result)
 
 
@@ -39,7 +40,10 @@ CSS = '''*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;backg
 
 
 def shell(title, body):
-    return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A twelve-chapter Cyberpath draft with detailed chapter plans and source-based continuity checks."><title>'+html.escape(title)+' — Cyber Pet Lore</title><link rel="stylesheet" href="story.css"></head><body><a class="skip" href="#content">Skip to content</a><main id="content"><nav aria-label="Archive"><a href="../index.html">Library</a><a href="../plans.html">Plans &amp; possibilities</a><a href="../custodians.html">Custodian history</a><a href="index.html">Story contents</a></nav>'+body+'<footer><nav aria-label="Story resources"><a href="index.html">All chapters</a><a href="plans.html">Detailed plans</a><a href="review.html">Continuity review</a><a href="manuscript.md" download>Download manuscript</a></nav></footer></main></body></html>'
+    dialogue = ''
+    if 'data-dialogue-reading=' in body:
+        dialogue = '<link rel="stylesheet" href="../story-dialogue.css"><script type="module" src="../story-dialogue.mjs"></script>'
+    return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A twelve-chapter Cyberpath draft with detailed chapter plans and source-based continuity checks."><title>'+html.escape(title)+' — Cyber Pet Lore</title><link rel="stylesheet" href="story.css">'+dialogue+'</head><body><a class="skip" href="#content">Skip to content</a><main id="content"><nav aria-label="Archive"><a href="../index.html">Library</a><a href="../plans.html">Plans &amp; possibilities</a><a href="../custodians.html">Custodian history</a><a href="index.html">Story contents</a></nav>'+body+'<footer><nav aria-label="Story resources"><a href="index.html">All chapters</a><a href="plans.html">Detailed plans</a><a href="review.html">Continuity review</a><a href="manuscript.md" download>Download manuscript</a></nav></footer></main></body></html>'
 
 
 def add_custodian_story(root, catalog, sources, sid=SID):
@@ -79,13 +83,17 @@ def add_custodian_story(root, catalog, sources, sid=SID):
     def evidence(number):
         refs = [all_refs[key] for key in manifest['chapters'][str(number)]]
         return '<aside class="evidence"><h3>Source passages checked</h3><ul>'+''.join('<li><a href="../index.html#read='+r['readingId']+'&amp;block='+r['blockId']+'">'+html.escape(r['label'])+'</a></li>' for r in refs)+'</ul><p>These sources constrain the setting; they do not establish the new scenes as historical fact.</p></aside>'
+    dialogue_blocks = {block for cue in json.loads((root/'sources/story-dialogue.json').read_text()) for block, _ in cue['locations']}
     for ch in chapters:
         n = ch['number']
         previous = f'<a rel="prev" href="chapter-{n-1:02d}.html">← Chapter {n-1}</a>' if n>1 else '<a href="index.html">← Contents</a>'
         following = f'<a rel="next" href="chapter-{n+1:02d}.html">Chapter {n+1} →</a>' if n<12 else '<a href="review.html">Read the review →</a>'
         notice = '<p class="metadata">THE CUSTODIAN WHO REFUSED · ERA −3 · PROPOSED FICTION</p>'
         embedded_plan = re.sub(r'id="([^"]+)"', r'id="plan-\1"', markdown(planned[n]))
-        body = notice+'<article class="chapter">'+markdown(ch['text'])+'</article><nav class="pager" aria-label="Chapter navigation">'+previous+following+'</nav><details><summary>Chapter plan and continuity check</summary><div class="plan">'+embedded_plan+evidence(n)+'</div></details>'
+        prefix = ch['id']+'-p'
+        paragraph_ids = {int(block[len(prefix):]): block for block in dialogue_blocks if block.startswith(prefix)}
+        audio = f' data-dialogue-reading="{sid}"' if paragraph_ids else ''
+        body = notice+f'<article class="chapter"{audio}>'+markdown(ch['text'],paragraph_ids)+'</article><nav class="pager" aria-label="Chapter navigation">'+previous+following+'</nav><details><summary>Chapter plan and continuity check</summary><div class="plan">'+embedded_plan+evidence(n)+'</div></details>'
         (output/f'chapter-{n:02d}.html').write_text(shell(ch['title'],body))
     contents = '<ol class="contents">'+''.join(f'<li><a href="chapter-{c["number"]:02d}.html">{html.escape(c["title"].split(" — ",1)[1])}</a><small>{c["wordCount"]:,} words · <a href="plans.html#{slug(c["title"])}">Plan and source check</a></small></li>' for c in chapters)+'</ol>'
     total = sum(c['wordCount'] for c in chapters)

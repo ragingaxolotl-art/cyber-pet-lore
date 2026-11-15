@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build source-indexed reading catalog; no source text is discarded."""
 import json,re,hashlib
+import subprocess
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]; INPUT=ROOT/'sources'; OUT=ROOT/'site'; CONTENT=OUT/'content'
 RESEARCH=Path(__file__).with_name('story-segmentation.json')
@@ -204,3 +205,6 @@ from chronology import publish_guide
 publish_guide()
 
 runpy.run_path(str(ROOT/"tools/build_shelter_atlas.py"))
+
+# Compile reviewed dialogue with the same translator used by the reading site.
+subprocess.run(['node', str(ROOT/'tools/build_story_dialogue.mjs')], check=True)

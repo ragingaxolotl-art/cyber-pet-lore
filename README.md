@@ -16,6 +16,8 @@ Location sections include multiple treatments of the same place: the atlas descr
 
 Choose a collection, era, character, place, or reading status. Search titles, summaries and topic metadata. Open a reading, check **Mark as read**, select text to highlight it or add a note, and write in the margins. **My notebook** brings annotations together. Personal tags can be used to filter the library.
 
+Select **▶** beside a spoken passage to hear it in DBA. The highlighted words identify the excerpt. Complete lines use the translator’s compact chords, grammar and question or statement endings. Shorter excerpts can play a dictionary reading, a word sketch in source order, or the phonemic sound of a name. Select the button again to stop.
+
 Click **Save** in the top navigation for an immediate save confirmation. Automatic saving also remains enabled. Reading records save automatically in localStorage in the same browser, device, and website origin. Use **Backups → Connect and back up** to enable private GitHub backups for the current page session. Clearing website data removes them. **Backups → Download reading backup** exports a portable JSON copy. Import merges records; the most recently updated record wins per reading. A pre-import snapshot can be downloaded. Storage errors show a visible warning rather than silently claiming success. Backups contain your notes; keep them private.
 
 ## Develop and verify
@@ -27,6 +29,8 @@ python3 tools/build_catalog.py
 npm test
 npm start
 ```
+
+Dialogue selections in `sources/story-dialogue.json` pair exact excerpts with their paragraph IDs and UTF-16 offsets. The catalog build verifies each placement and generates its score from the bundled translator. A word sketch must account for every word in the selected excerpt.
 
 Open http://127.0.0.1:8768. GitHub Actions rebuilds, tests, and deploys `site/` to GitHub Pages.
 
