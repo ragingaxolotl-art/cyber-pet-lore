@@ -1,0 +1,3045 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-20",
+  "entries": [
+    {
+      "id": "study_hall",
+      "kind": "music",
+      "title": "After the Last Bell",
+      "tags": [
+        "school"
+      ],
+      "category": "school",
+      "new": false,
+      "description": "Shared background music for school settings.",
+      "clips": [
+        {
+          "src": "audio/after_the_last_bell.mp3",
+          "label": "Full track",
+          "sha256": "cec1678837d576bfa271c783832576ba64408346c12a77e48f64c271d794c5f1",
+          "bytes": 2897720,
+          "source_path": "assets/music/after_the_last_bell.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_013"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "tropical_stillness",
+      "kind": "music",
+      "title": "Where the Tide Sleeps",
+      "tags": [
+        "tropical",
+        "coastal"
+      ],
+      "category": "tropical / coastal",
+      "new": false,
+      "description": "Shared background music for tropical, coastal settings.",
+      "clips": [
+        {
+          "src": "audio/where_the_tide_sleeps.mp3",
+          "label": "Full track",
+          "sha256": "461d284258d5f28b4e8f4ffbcc926c9d7e161b79a244ad47420e775c3697456d",
+          "bytes": 4337799,
+          "source_path": "assets/music/where_the_tide_sleeps.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_023",
+        "atlas_028",
+        "atlas_030",
+        "atlas_031",
+        "atlas_033",
+        "atlas_091",
+        "atlas_094",
+        "atlas_100"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "tropical_stillness_alt",
+      "kind": "music",
+      "title": "Beneath the Emerald Canopy",
+      "tags": [
+        "tropical",
+        "forest",
+        "wetland"
+      ],
+      "category": "tropical / forest / wetland",
+      "new": false,
+      "description": "Shared background music for tropical, forest, wetland settings.",
+      "clips": [
+        {
+          "src": "audio/beneath_the_emerald_canopy.mp3",
+          "label": "Full track",
+          "sha256": "37e4667b8090bd0302a9d7b732f93b0a13914bbe15227bd4960e271110f2ee33",
+          "bytes": 4050034,
+          "source_path": "assets/music/beneath_the_emerald_canopy.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_025",
+        "atlas_039",
+        "atlas_044",
+        "atlas_045",
+        "atlas_048",
+        "atlas_093"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "clockwork_smile",
+      "kind": "music",
+      "title": "Waltz of the Little Machines",
+      "tags": [
+        "mechanical"
+      ],
+      "category": "mechanical",
+      "new": false,
+      "description": "Shared background music for mechanical settings.",
+      "clips": [
+        {
+          "src": "audio/waltz_of_the_little_machines.mp3",
+          "label": "Full track",
+          "sha256": "09fd2539dbc5160f73b68a29dd8bffb4d2698c6cf694797eab2add2639ac22a7",
+          "bytes": 4337799,
+          "source_path": "assets/music/waltz_of_the_little_machines.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_004",
+        "atlas_007",
+        "atlas_014",
+        "atlas_020",
+        "atlas_022",
+        "atlas_056",
+        "atlas_076"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "fablewood",
+      "kind": "music",
+      "title": "Footsteps Through Fablewood",
+      "tags": [
+        "woodland",
+        "garden"
+      ],
+      "category": "woodland / garden",
+      "new": false,
+      "description": "Shared background music for woodland, garden settings.",
+      "clips": [
+        {
+          "src": "audio/footsteps_through_fablewood.mp3",
+          "label": "Full track",
+          "sha256": "83110bc8c5e4b18b6b577c783d1fc9556ff16b46dfcf8364f11e7e0fc3622f4e",
+          "bytes": 8657782,
+          "source_path": "assets/music/footsteps_through_fablewood.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_011",
+        "atlas_015",
+        "atlas_021",
+        "atlas_046",
+        "atlas_047",
+        "atlas_051",
+        "atlas_054",
+        "atlas_072",
+        "atlas_086",
+        "atlas_092",
+        "atlas_101"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "hearth_calm",
+      "kind": "music",
+      "title": "Embers of Home",
+      "tags": [
+        "home",
+        "shelter",
+        "communal"
+      ],
+      "category": "home / shelter / communal",
+      "new": false,
+      "description": "Shared background music for home, shelter, communal settings.",
+      "clips": [
+        {
+          "src": "audio/embers_of_home.mp3",
+          "label": "Full track",
+          "sha256": "af66576e47e0c43c75a36fff3c08b09a1504d7964b3f22b1948c9678ac5bdd61",
+          "bytes": 8657782,
+          "source_path": "assets/music/embers_of_home.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_003",
+        "atlas_005",
+        "atlas_006",
+        "atlas_008",
+        "atlas_009",
+        "atlas_010",
+        "atlas_012",
+        "atlas_016",
+        "atlas_018",
+        "atlas_026",
+        "atlas_062",
+        "atlas_069",
+        "atlas_071",
+        "atlas_075",
+        "atlas_077",
+        "atlas_078",
+        "atlas_097"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "desert_calm",
+      "kind": "music",
+      "title": "Whispers Across the Dunes",
+      "tags": [
+        "desert",
+        "dune"
+      ],
+      "category": "desert / dune",
+      "new": false,
+      "description": "Shared background music for desert, dune settings.",
+      "clips": [
+        {
+          "src": "audio/whispers_across_the_dunes.mp3",
+          "label": "Full track",
+          "sha256": "d19f24559b43f83dfc3e995e1a4aa5dd2a747e8e172c84746efab377a5586c14",
+          "bytes": 5297642,
+          "source_path": "assets/music/whispers_across_the_dunes.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_034",
+        "atlas_036",
+        "atlas_083"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "desert_calm_alt",
+      "kind": "music",
+      "title": "Echoes in Copper Canyon",
+      "tags": [
+        "canyon"
+      ],
+      "category": "canyon",
+      "new": false,
+      "description": "Shared background music for canyon settings.",
+      "clips": [
+        {
+          "src": "audio/echoes_in_copper_canyon.mp3",
+          "label": "Full track",
+          "sha256": "b265c2d443b512fca295b09306ecd395568d67332810df6c8da8cbaf0b90ebb4",
+          "bytes": 5777877,
+          "source_path": "assets/music/echoes_in_copper_canyon.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_037"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "frozen_drift",
+      "kind": "music",
+      "title": "Frozen Drift",
+      "tags": [
+        "ice",
+        "coastal"
+      ],
+      "category": "ice / coastal",
+      "new": false,
+      "description": "Shared background music for ice, coastal settings.",
+      "clips": [
+        {
+          "src": "audio/frozen_drift.mp3",
+          "label": "Full track",
+          "sha256": "896995fc8c143cb63ef40fecd0a7396a80c2328bbe2e5a3714d815a39d9e2bec",
+          "bytes": 4337799,
+          "source_path": "assets/music/frozen_drift.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_041",
+        "atlas_088"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "frozen_tundra_vigil",
+      "kind": "music",
+      "title": "Frozen Tundra Vigil",
+      "tags": [
+        "ice"
+      ],
+      "category": "ice",
+      "new": false,
+      "description": "Shared background music for ice settings.",
+      "clips": [
+        {
+          "src": "audio/frozen_tundra_vigil.mp3",
+          "label": "Full track",
+          "sha256": "7daa0e0d2429f1bdfca2fbccca32412ee270fff8b2aeafc9184626c949062984",
+          "bytes": 5777877,
+          "source_path": "assets/music/frozen_tundra_vigil.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_052",
+        "atlas_059"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "snowbound_path",
+      "kind": "music",
+      "title": "Snowbound Path",
+      "tags": [
+        "snow"
+      ],
+      "category": "snow",
+      "new": false,
+      "description": "Shared background music for snow settings.",
+      "clips": [
+        {
+          "src": "audio/snowbound_path.mp3",
+          "label": "Full track",
+          "sha256": "7c469e014c6f20986ff31d903db645feb924670d7cc3b7c6b8618cfab0a4e13e",
+          "bytes": 4337799,
+          "source_path": "assets/music/snowbound_path.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_024"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "snowbound_curiosity",
+      "kind": "music",
+      "title": "Snowbound Curiosity",
+      "tags": [
+        "alpine"
+      ],
+      "category": "alpine",
+      "new": false,
+      "description": "Shared background music for alpine settings.",
+      "clips": [
+        {
+          "src": "audio/snowbound_curiosity.mp3",
+          "label": "Full track",
+          "sha256": "1fa7715b28a1f3bc04378328b8e581667c567f5b24ac64e7d8e60100ad9ae827",
+          "bytes": 4337799,
+          "source_path": "assets/music/snowbound_curiosity.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_040",
+        "atlas_043",
+        "atlas_106"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "lamplit_rainwalk",
+      "kind": "music",
+      "title": "Lamplit Rainwalk",
+      "tags": [
+        "rain",
+        "urban"
+      ],
+      "category": "rain / urban",
+      "new": false,
+      "description": "Shared background music for rain, urban settings.",
+      "clips": [
+        {
+          "src": "audio/lamplit_rainwalk.mp3",
+          "label": "Full track",
+          "sha256": "e7949e8a811b875c0bbd0aeeff950c103cba4163425e5065f7e05fe3dc8fd8e4",
+          "bytes": 5058151,
+          "source_path": "assets/music/lamplit_rainwalk.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_055"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "lamplit_after_rain",
+      "kind": "music",
+      "title": "Lamplit After Rain",
+      "tags": [
+        "rain",
+        "village"
+      ],
+      "category": "rain / village",
+      "new": false,
+      "description": "Shared background music for rain, village settings.",
+      "clips": [
+        {
+          "src": "audio/lamplit_after_rain.mp3",
+          "label": "Full track",
+          "sha256": "07ad35b1455af79520139d8111d4dc678aeeb3ec54d073622bdc3dafcd6ab673",
+          "bytes": 5058151,
+          "source_path": "assets/music/lamplit_after_rain.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_057",
+        "atlas_065",
+        "atlas_081",
+        "atlas_105"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "rebuilding_lattice",
+      "kind": "music",
+      "title": "Rebuilding Lattice",
+      "tags": [
+        "digital",
+        "unstable"
+      ],
+      "category": "digital / unstable",
+      "new": false,
+      "description": "Shared background music for digital, unstable settings.",
+      "clips": [
+        {
+          "src": "audio/rebuilding_lattice.mp3",
+          "label": "Full track",
+          "sha256": "c23b53cba5641567915140556729f011d7048f76e0fbf9cfc9f640f1f608955c",
+          "bytes": 5058151,
+          "source_path": "assets/music/rebuilding_lattice.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_001",
+        "atlas_027"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "restoring_lattice",
+      "kind": "music",
+      "title": "Restoring Lattice",
+      "tags": [
+        "digital"
+      ],
+      "category": "digital",
+      "new": false,
+      "description": "Shared background music for digital settings.",
+      "clips": [
+        {
+          "src": "audio/restoring_lattice.mp3",
+          "label": "Full track",
+          "sha256": "43143aea1cd480365b254b105835ec45bfab0977954005e946cc3d9925972de2",
+          "bytes": 5058151,
+          "source_path": "assets/music/restoring_lattice.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_002",
+        "atlas_019"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "lanterns_in_limestone",
+      "kind": "music",
+      "title": "Lanterns in Limestone",
+      "tags": [
+        "cave"
+      ],
+      "category": "cave",
+      "new": false,
+      "description": "Shared background music for cave settings.",
+      "clips": [
+        {
+          "src": "audio/lanterns_in_limestone.mp3",
+          "label": "Full track",
+          "sha256": "9bbb1424a2419812a8c90ec054a532774977a7c9ac04633ff1ef3de4100c01a6",
+          "bytes": 5058151,
+          "source_path": "assets/music/lanterns_in_limestone.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_042",
+        "atlas_082",
+        "atlas_085",
+        "atlas_103"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "stone_orchard_path",
+      "kind": "music",
+      "title": "Stone Orchard Path",
+      "tags": [
+        "volcanic",
+        "garden"
+      ],
+      "category": "volcanic / garden",
+      "new": false,
+      "description": "Shared background music for volcanic, garden settings.",
+      "clips": [
+        {
+          "src": "audio/stone_orchard_path.mp3",
+          "label": "Full track",
+          "sha256": "0db37cc65ee46fdf53569a2eae48b2afe97799ef5ee1baeb78cf8178f64417b4",
+          "bytes": 4337799,
+          "source_path": "assets/music/stone_orchard_path.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_053",
+        "atlas_087"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "stone_orchard_drift",
+      "kind": "music",
+      "title": "Stone Orchard Drift",
+      "tags": [
+        "volcanic"
+      ],
+      "category": "volcanic",
+      "new": false,
+      "description": "Shared background music for volcanic settings.",
+      "clips": [
+        {
+          "src": "audio/stone_orchard_drift.mp3",
+          "label": "Full track",
+          "sha256": "85bdb10f97f2c33e686c9bfae98e6c2ba6f777d222097b2d561b5dab475ec781",
+          "bytes": 5777877,
+          "source_path": "assets/music/stone_orchard_drift.mp3"
+        }
+      ],
+      "locations": [
+        "atlas_029",
+        "atlas_060"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "doors_at_dawn",
+      "kind": "music",
+      "title": "Doors at Dawn",
+      "tags": [
+        "threshold"
+      ],
+      "category": "threshold",
+      "new": true,
+      "description": "Shared background music for threshold settings.",
+      "clips": [
+        {
+          "src": "audio/doors_at_dawn.ogg",
+          "label": "Full track",
+          "sha256": "43c92ca9d8c571effd07609b0e44c1d357bfdbf13d6bd075de0b0e4b872ee89e",
+          "bytes": 1278023,
+          "source_path": "assets/music/doors_at_dawn.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_017",
+        "atlas_104"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "water_remembers",
+      "kind": "music",
+      "title": "Water Remembers",
+      "tags": [
+        "river",
+        "lake"
+      ],
+      "category": "river / lake",
+      "new": true,
+      "description": "Shared background music for river, lake settings.",
+      "clips": [
+        {
+          "src": "audio/water_remembers.ogg",
+          "label": "Full track",
+          "sha256": "81e05562ff2eab08dfbeb4887353c7b9965d0f860ae1fbc06d2b0f47b3298445",
+          "bytes": 1324365,
+          "source_path": "assets/music/water_remembers.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_032",
+        "atlas_064",
+        "atlas_070"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "meadow_threads",
+      "kind": "music",
+      "title": "Meadow Threads",
+      "tags": [
+        "grassland",
+        "savannah",
+        "farmland"
+      ],
+      "category": "grassland / savannah / farmland",
+      "new": true,
+      "description": "Shared background music for grassland, savannah, farmland settings.",
+      "clips": [
+        {
+          "src": "audio/meadow_threads.ogg",
+          "label": "Full track",
+          "sha256": "c231fd944c89f8fa301f8fd7609bcd7d5ef496609d3ad15c7c46a5ab9647e8db",
+          "bytes": 1360553,
+          "source_path": "assets/music/meadow_threads.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_038",
+        "atlas_050",
+        "atlas_063",
+        "atlas_089",
+        "atlas_102"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "reedlight",
+      "kind": "music",
+      "title": "Reedlight",
+      "tags": [
+        "wetland",
+        "bog"
+      ],
+      "category": "wetland / bog",
+      "new": true,
+      "description": "Shared background music for wetland, bog settings.",
+      "clips": [
+        {
+          "src": "audio/reedlight.ogg",
+          "label": "Full track",
+          "sha256": "098978c18365e051228893c98ee275a12610d4f66ea4e7b809bce726ef42fe91",
+          "bytes": 1351094,
+          "source_path": "assets/music/reedlight.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_049",
+        "atlas_084"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "above_the_fold",
+      "kind": "music",
+      "title": "Above the Fold",
+      "tags": [
+        "sky"
+      ],
+      "category": "sky",
+      "new": true,
+      "description": "Shared background music for sky settings.",
+      "clips": [
+        {
+          "src": "audio/above_the_fold.ogg",
+          "label": "Full track",
+          "sha256": "adbbccdbf3273f6fb7daeb143c3fe5f1d1e162d38680993d26f6983899c84503",
+          "bytes": 1266613,
+          "source_path": "assets/music/above_the_fold.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_061",
+        "atlas_067",
+        "atlas_073",
+        "atlas_090"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "weather_between_rooms",
+      "kind": "music",
+      "title": "Weather Between Rooms",
+      "tags": [
+        "surreal",
+        "weather"
+      ],
+      "category": "surreal / weather",
+      "new": true,
+      "description": "Shared background music for surreal, weather settings.",
+      "clips": [
+        {
+          "src": "audio/weather_between_rooms.ogg",
+          "label": "Full track",
+          "sha256": "c09cf99c12f6c8cc28df28ef842ffa485a170abbc8c5b3168265d65f071d0000",
+          "bytes": 1216565,
+          "source_path": "assets/music/weather_between_rooms.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_066",
+        "atlas_068",
+        "atlas_096",
+        "atlas_098"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "shelves_of_echoes",
+      "kind": "music",
+      "title": "Shelves of Echoes",
+      "tags": [
+        "archive",
+        "ruins",
+        "salt_flat",
+        "quarry"
+      ],
+      "category": "archive / ruins / salt flat / quarry",
+      "new": true,
+      "description": "Shared background music for archive, ruins, salt flat, quarry settings.",
+      "clips": [
+        {
+          "src": "audio/shelves_of_echoes.ogg",
+          "label": "Full track",
+          "sha256": "dfe8eeb68b1b0989f0585245a107eebcf2050b0b0345e9b32f7194cef165eed1",
+          "bytes": 1180240,
+          "source_path": "assets/music/shelves_of_echoes.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_035",
+        "atlas_058",
+        "atlas_074",
+        "atlas_079",
+        "atlas_080",
+        "atlas_095",
+        "atlas_099"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "green_hearth_unhappy",
+      "kind": "music",
+      "title": "When the Hearth Grows Quiet",
+      "tags": [
+        "mood",
+        "care"
+      ],
+      "category": "Mood variants",
+      "new": false,
+      "description": "Care music when happiness is below 35.",
+      "clips": [
+        {
+          "src": "audio/when_the_hearth_grows_quiet.mp3",
+          "label": "Full track",
+          "sha256": "9bd345403893ad1cad17a7d8877b220ddacf61ccec43b20902e0eee965807ef8",
+          "bytes": 8657782,
+          "source_path": "assets/music/when_the_hearth_grows_quiet.mp3"
+        }
+      ],
+      "locations": [],
+      "status": "Care music when happiness is below 35"
+    },
+    {
+      "id": "fablewood_unhappy",
+      "kind": "music",
+      "title": "Fablewood in the Rain",
+      "tags": [
+        "mood",
+        "care"
+      ],
+      "category": "Mood variants",
+      "new": false,
+      "description": "Retained mood variant; not currently selected by location rules.",
+      "clips": [
+        {
+          "src": "audio/fablewood_in_the_rain.mp3",
+          "label": "Full track",
+          "sha256": "c5317f4b476bc791e007c3ff9629070a9d15b4b1162187f44516dc4e6b899c87",
+          "bytes": 8657782,
+          "source_path": "assets/music/fablewood_in_the_rain.mp3"
+        }
+      ],
+      "locations": [],
+      "status": "Retained mood variant; not currently selected by location rules"
+    },
+    {
+      "id": "amb_forest",
+      "kind": "ambience",
+      "title": "Forest",
+      "tags": [
+        "forest"
+      ],
+      "category": "forest",
+      "new": false,
+      "description": "Environmental sound loop shared by locations with the forest ambience tag.",
+      "clips": [
+        {
+          "src": "audio/amb_forest.ogg",
+          "label": "Ambience loop",
+          "sha256": "b94ed2c9d36c93cd0c414694f1b8942dda7c07af2891336967215eb27afdbb88",
+          "bytes": 67262,
+          "source_path": "assets/sounds/elevenlabs-2026-11-20/amb_forest.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_011",
+        "atlas_015",
+        "atlas_021",
+        "atlas_039",
+        "atlas_046",
+        "atlas_047",
+        "atlas_048",
+        "atlas_054",
+        "atlas_072",
+        "atlas_086",
+        "atlas_092",
+        "atlas_093",
+        "atlas_101"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "amb_rain",
+      "kind": "ambience",
+      "title": "Rain",
+      "tags": [
+        "rain"
+      ],
+      "category": "rain",
+      "new": false,
+      "description": "Environmental sound loop shared by locations with the rain ambience tag.",
+      "clips": [
+        {
+          "src": "audio/amb_rain.ogg",
+          "label": "Ambience loop",
+          "sha256": "170bd1ae48a01cd733f6d7119f3c037d58f3fb226d4eecc7f3acace2f0a799ae",
+          "bytes": 73853,
+          "source_path": "assets/sounds/elevenlabs-2026-11-20/amb_rain.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_055",
+        "atlas_057",
+        "atlas_065",
+        "atlas_081",
+        "atlas_105"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "amb_coast",
+      "kind": "ambience",
+      "title": "Coast",
+      "tags": [
+        "coast"
+      ],
+      "category": "coast",
+      "new": false,
+      "description": "Environmental sound loop shared by locations with the coast ambience tag.",
+      "clips": [
+        {
+          "src": "audio/amb_coast.ogg",
+          "label": "Ambience loop",
+          "sha256": "0d5b0c3f6be328cd88c9fc0bc29303cb9941fe04f21079210e534f9674136b49",
+          "bytes": 76716,
+          "source_path": "assets/sounds/elevenlabs-2026-11-20/amb_coast.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_023",
+        "atlas_028",
+        "atlas_033",
+        "atlas_091",
+        "atlas_094",
+        "atlas_100"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "amb_wind",
+      "kind": "ambience",
+      "title": "Wind",
+      "tags": [
+        "wind"
+      ],
+      "category": "wind",
+      "new": false,
+      "description": "Environmental sound loop shared by locations with the wind ambience tag.",
+      "clips": [
+        {
+          "src": "audio/amb_wind.ogg",
+          "label": "Ambience loop",
+          "sha256": "3b1eb1ff4b90562bf71eeaea38a0578aa88ee25feed70803557133c4a5bd7403",
+          "bytes": 49864,
+          "source_path": "assets/sounds/elevenlabs-2026-11-20/amb_wind.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_024",
+        "atlas_034",
+        "atlas_035",
+        "atlas_036",
+        "atlas_040",
+        "atlas_041",
+        "atlas_043",
+        "atlas_052",
+        "atlas_059",
+        "atlas_061",
+        "atlas_083",
+        "atlas_088",
+        "atlas_090",
+        "atlas_106"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "amb_cavern",
+      "kind": "ambience",
+      "title": "Cavern",
+      "tags": [
+        "cavern"
+      ],
+      "category": "cavern",
+      "new": false,
+      "description": "Environmental sound loop shared by locations with the cavern ambience tag.",
+      "clips": [
+        {
+          "src": "audio/amb_cavern.ogg",
+          "label": "Ambience loop",
+          "sha256": "af8a9f723c1fc58f6af22fc7bf874eb931fdc6afbe6f8f9f4ef885c90ebfe86f",
+          "bytes": 59841,
+          "source_path": "assets/sounds/elevenlabs-2026-11-20/amb_cavern.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_042",
+        "atlas_082",
+        "atlas_085",
+        "atlas_103"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "amb_machine",
+      "kind": "ambience",
+      "title": "Machine",
+      "tags": [
+        "machine"
+      ],
+      "category": "machine",
+      "new": false,
+      "description": "Environmental sound loop shared by locations with the machine ambience tag.",
+      "clips": [
+        {
+          "src": "audio/amb_machine.ogg",
+          "label": "Ambience loop",
+          "sha256": "e433b52917033d65be10c208747cbfb0ab0951e399766f397f8577ed9759ea1d",
+          "bytes": 48368,
+          "source_path": "assets/sounds/elevenlabs-2026-11-20/amb_machine.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_004",
+        "atlas_007",
+        "atlas_014",
+        "atlas_019",
+        "atlas_020",
+        "atlas_022",
+        "atlas_056",
+        "atlas_076"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "amb_grassland",
+      "kind": "ambience",
+      "title": "Grassland",
+      "tags": [
+        "grassland"
+      ],
+      "category": "grassland",
+      "new": true,
+      "description": "Environmental sound loop shared by locations with the grassland ambience tag.",
+      "clips": [
+        {
+          "src": "audio/amb_grassland.ogg",
+          "label": "Ambience loop",
+          "sha256": "c0f529ce6caf74714596af01c224897ffcc29380add81ceaf5de1498a31449d1",
+          "bytes": 107022,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/amb_grassland.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_038",
+        "atlas_050",
+        "atlas_063",
+        "atlas_089",
+        "atlas_102"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "amb_wetland",
+      "kind": "ambience",
+      "title": "Wetland",
+      "tags": [
+        "wetland"
+      ],
+      "category": "wetland",
+      "new": true,
+      "description": "Environmental sound loop shared by locations with the wetland ambience tag.",
+      "clips": [
+        {
+          "src": "audio/amb_wetland.ogg",
+          "label": "Ambience loop",
+          "sha256": "5534e0f25029fb6d605a06b1bf9142916de1551d312687bc01075b4851b5f033",
+          "bytes": 101640,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/amb_wetland.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_025",
+        "atlas_044",
+        "atlas_045",
+        "atlas_049",
+        "atlas_084"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "amb_freshwater",
+      "kind": "ambience",
+      "title": "Freshwater",
+      "tags": [
+        "freshwater"
+      ],
+      "category": "freshwater",
+      "new": true,
+      "description": "Environmental sound loop shared by locations with the freshwater ambience tag.",
+      "clips": [
+        {
+          "src": "audio/amb_freshwater.ogg",
+          "label": "Ambience loop",
+          "sha256": "a8aa61c571a39e4e43f8e74a47a23869f1973828889d01372a612c6d6612197f",
+          "bytes": 110919,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/amb_freshwater.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_032",
+        "atlas_051",
+        "atlas_064",
+        "atlas_070"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "amb_interior",
+      "kind": "ambience",
+      "title": "Interior",
+      "tags": [
+        "interior"
+      ],
+      "category": "interior",
+      "new": true,
+      "description": "Environmental sound loop shared by locations with the interior ambience tag.",
+      "clips": [
+        {
+          "src": "audio/amb_interior.ogg",
+          "label": "Ambience loop",
+          "sha256": "25ee358ce228f7b82ebde3b1ebf9d141c0045041d6a17c5a1cd8a5db8c3075e3",
+          "bytes": 95475,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/amb_interior.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_003",
+        "atlas_005",
+        "atlas_006",
+        "atlas_008",
+        "atlas_009",
+        "atlas_010",
+        "atlas_012",
+        "atlas_013",
+        "atlas_016",
+        "atlas_018",
+        "atlas_026",
+        "atlas_037",
+        "atlas_058",
+        "atlas_062",
+        "atlas_069",
+        "atlas_071",
+        "atlas_074",
+        "atlas_075",
+        "atlas_077",
+        "atlas_078",
+        "atlas_079",
+        "atlas_080",
+        "atlas_095",
+        "atlas_097",
+        "atlas_099"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "amb_digital",
+      "kind": "ambience",
+      "title": "Digital",
+      "tags": [
+        "digital"
+      ],
+      "category": "digital",
+      "new": true,
+      "description": "Environmental sound loop shared by locations with the digital ambience tag.",
+      "clips": [
+        {
+          "src": "audio/amb_digital.ogg",
+          "label": "Ambience loop",
+          "sha256": "351198ec5e756914229d2c15e1ce00079e3132b19f5e5f9aaf04493541159603",
+          "bytes": 90469,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/amb_digital.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_001",
+        "atlas_002",
+        "atlas_027"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "amb_surreal",
+      "kind": "ambience",
+      "title": "Surreal",
+      "tags": [
+        "surreal"
+      ],
+      "category": "surreal",
+      "new": true,
+      "description": "Environmental sound loop shared by locations with the surreal ambience tag.",
+      "clips": [
+        {
+          "src": "audio/amb_surreal.ogg",
+          "label": "Ambience loop",
+          "sha256": "0c0170fc36ea7b883cefe430c49daacba704f8a7a3f8deedc6647d9040e69dd5",
+          "bytes": 90335,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/amb_surreal.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_017",
+        "atlas_066",
+        "atlas_067",
+        "atlas_068",
+        "atlas_073",
+        "atlas_096",
+        "atlas_098",
+        "atlas_104"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "amb_volcanic",
+      "kind": "ambience",
+      "title": "Volcanic",
+      "tags": [
+        "volcanic"
+      ],
+      "category": "volcanic",
+      "new": true,
+      "description": "Environmental sound loop shared by locations with the volcanic ambience tag.",
+      "clips": [
+        {
+          "src": "audio/amb_volcanic.ogg",
+          "label": "Ambience loop",
+          "sha256": "1694408b287b6a3c8424403b2784a0313a87f18e999de7c2b25dfcee3b4239e8",
+          "bytes": 74885,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/amb_volcanic.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_029",
+        "atlas_053",
+        "atlas_060",
+        "atlas_087"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "amb_underwater",
+      "kind": "ambience",
+      "title": "Underwater",
+      "tags": [
+        "underwater"
+      ],
+      "category": "underwater",
+      "new": true,
+      "description": "Environmental sound loop shared by locations with the underwater ambience tag.",
+      "clips": [
+        {
+          "src": "audio/amb_underwater.ogg",
+          "label": "Ambience loop",
+          "sha256": "e28ab1c0de2eb524126a19a66f25dbd8aa8eb97a460dfbb522ebe6275899bd30",
+          "bytes": 69690,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/amb_underwater.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_030",
+        "atlas_031"
+      ],
+      "status": "Assigned to locations"
+    },
+    {
+      "id": "step_wood",
+      "kind": "footstep",
+      "title": "Wood",
+      "tags": [
+        "wood"
+      ],
+      "category": "wood",
+      "new": true,
+      "description": "4 short contact sounds for the wood floor tag. Walking alternates among variations and avoids repeating the previous clip.",
+      "clips": [
+        {
+          "src": "audio/step_wood_1.ogg",
+          "label": "Variation 1",
+          "sha256": "f2a6750002f8c4c87cfd8ae8d43ac9e5a7ec0f9592621edbb5e5cb2457c74f73",
+          "bytes": 4608,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_wood_1.ogg"
+        },
+        {
+          "src": "audio/step_wood_2.ogg",
+          "label": "Variation 2",
+          "sha256": "9b1f8aa4d5bcf0308dc3996bfe36f0f77a69c555c2729fa5314d6873c939ea23",
+          "bytes": 6393,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_wood_2.ogg"
+        },
+        {
+          "src": "audio/step_wood_3.ogg",
+          "label": "Variation 3",
+          "sha256": "7809247c44e978e81decdedc3905afa7eb0cf38636cd0cd4dcb07e0a863ec1ae",
+          "bytes": 4626,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_wood_3.ogg"
+        },
+        {
+          "src": "audio/step_wood_4.ogg",
+          "label": "Variation 4",
+          "sha256": "3c07e2954bf65651cd495412de4a960f274a12a46b1428508156e94a50b3a238",
+          "bytes": 4485,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_wood_4.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_005",
+        "atlas_012",
+        "atlas_013",
+        "atlas_062",
+        "atlas_069",
+        "atlas_071",
+        "atlas_075",
+        "atlas_077",
+        "atlas_078",
+        "atlas_080",
+        "atlas_096",
+        "atlas_097",
+        "atlas_104"
+      ],
+      "status": "Assigned to floors"
+    },
+    {
+      "id": "step_stone",
+      "kind": "footstep",
+      "title": "Stone",
+      "tags": [
+        "stone"
+      ],
+      "category": "stone",
+      "new": true,
+      "description": "3 short contact sounds for the stone floor tag. Walking alternates among variations and avoids repeating the previous clip.",
+      "clips": [
+        {
+          "src": "audio/step_stone_1.ogg",
+          "label": "Variation 1",
+          "sha256": "f4d1084aa154de5ceac2512cfc54ad98285f2d482459c64987bb9b8a2965ddcf",
+          "bytes": 4641,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_stone_1.ogg"
+        },
+        {
+          "src": "audio/step_stone_2.ogg",
+          "label": "Variation 2",
+          "sha256": "fb06a1cde4d9fb64cb6faa9104ec481720b857a64186b96e8134af3d890ef290",
+          "bytes": 8965,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_stone_2.ogg"
+        },
+        {
+          "src": "audio/step_stone_3.ogg",
+          "label": "Variation 3",
+          "sha256": "cf82d6a1364ec9034b756e2573935d577e07a92129ae201ff1cec38da6a65ec9",
+          "bytes": 4559,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_stone_3.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_003",
+        "atlas_006",
+        "atlas_008",
+        "atlas_009",
+        "atlas_010",
+        "atlas_016",
+        "atlas_017",
+        "atlas_018",
+        "atlas_022",
+        "atlas_029",
+        "atlas_030",
+        "atlas_032",
+        "atlas_035",
+        "atlas_037",
+        "atlas_039",
+        "atlas_040",
+        "atlas_042",
+        "atlas_043",
+        "atlas_048",
+        "atlas_053",
+        "atlas_055",
+        "atlas_056",
+        "atlas_057",
+        "atlas_058",
+        "atlas_067",
+        "atlas_068",
+        "atlas_070",
+        "atlas_072",
+        "atlas_073",
+        "atlas_074",
+        "atlas_076",
+        "atlas_085",
+        "atlas_087",
+        "atlas_094",
+        "atlas_095",
+        "atlas_098",
+        "atlas_100",
+        "atlas_103"
+      ],
+      "status": "Assigned to floors"
+    },
+    {
+      "id": "step_metal",
+      "kind": "footstep",
+      "title": "Metal",
+      "tags": [
+        "metal"
+      ],
+      "category": "metal",
+      "new": true,
+      "description": "4 short contact sounds for the metal floor tag. Walking alternates among variations and avoids repeating the previous clip.",
+      "clips": [
+        {
+          "src": "audio/step_metal_1.ogg",
+          "label": "Variation 1",
+          "sha256": "2e4f798e1cd45a974bb7360922fac609cd96e668ae3a1792daa391cdde9df107",
+          "bytes": 6329,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_metal_1.ogg"
+        },
+        {
+          "src": "audio/step_metal_2.ogg",
+          "label": "Variation 2",
+          "sha256": "7534a649a14613126b3d5c16530a5c9fbb3d03073dad1249143efb87cc7694a4",
+          "bytes": 6856,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_metal_2.ogg"
+        },
+        {
+          "src": "audio/step_metal_3.ogg",
+          "label": "Variation 3",
+          "sha256": "759615370b2ddf67b3558e50dc009e64676e56a292e751941852349d7367236c",
+          "bytes": 5047,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_metal_3.ogg"
+        },
+        {
+          "src": "audio/step_metal_4.ogg",
+          "label": "Variation 4",
+          "sha256": "0714e8b9297a0709180236126c350f13d1bac90dafdc2f4c8ce0c425ac5cc02e",
+          "bytes": 6012,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_metal_4.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_004",
+        "atlas_007",
+        "atlas_014",
+        "atlas_019",
+        "atlas_020",
+        "atlas_106"
+      ],
+      "status": "Assigned to floors"
+    },
+    {
+      "id": "step_digital",
+      "kind": "footstep",
+      "title": "Digital",
+      "tags": [
+        "digital"
+      ],
+      "category": "digital",
+      "new": true,
+      "description": "4 short contact sounds for the digital floor tag. Walking alternates among variations and avoids repeating the previous clip.",
+      "clips": [
+        {
+          "src": "audio/step_digital_1.ogg",
+          "label": "Variation 1",
+          "sha256": "a27932b60e75f561d9d316633229155d2d22f497b52f0ca90ac7a136f05c0101",
+          "bytes": 8716,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_digital_1.ogg"
+        },
+        {
+          "src": "audio/step_digital_2.ogg",
+          "label": "Variation 2",
+          "sha256": "ac5098fe7149190578f9dae2cace5f262182677c8b29a9be80521b1d4a44e753",
+          "bytes": 7287,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_digital_2.ogg"
+        },
+        {
+          "src": "audio/step_digital_3.ogg",
+          "label": "Variation 3",
+          "sha256": "8fb0f2db4f8dadf633202d13eb1a7cc7aadb2058356569c60327a1ab0a490046",
+          "bytes": 7400,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_digital_3.ogg"
+        },
+        {
+          "src": "audio/step_digital_4.ogg",
+          "label": "Variation 4",
+          "sha256": "76274a9eac8ea29200828d1dd60ab1bf2bc78cd1cfe91b7cac7b1aaca180391b",
+          "bytes": 7722,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_digital_4.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_001",
+        "atlas_002",
+        "atlas_061",
+        "atlas_066",
+        "atlas_079",
+        "atlas_090",
+        "atlas_101"
+      ],
+      "status": "Assigned to floors"
+    },
+    {
+      "id": "step_sand",
+      "kind": "footstep",
+      "title": "Sand",
+      "tags": [
+        "sand"
+      ],
+      "category": "sand",
+      "new": true,
+      "description": "3 short contact sounds for the sand floor tag. Walking alternates among variations and avoids repeating the previous clip.",
+      "clips": [
+        {
+          "src": "audio/step_sand_1.ogg",
+          "label": "Variation 1",
+          "sha256": "e37897407e0902daa888e7a698e6be34a336520a7e65beff0594964d8e17faf9",
+          "bytes": 8266,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_sand_1.ogg"
+        },
+        {
+          "src": "audio/step_sand_2.ogg",
+          "label": "Variation 2",
+          "sha256": "6280caeb06ce8e01e4469512b7346e88120bf7ea54565671998e1f748e02e508",
+          "bytes": 8017,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_sand_2.ogg"
+        },
+        {
+          "src": "audio/step_sand_3.ogg",
+          "label": "Variation 3",
+          "sha256": "ab21395cc7836c5d1893f059bae32eb2f691dfb27c996147f87827c6625c6536",
+          "bytes": 7854,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_sand_3.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_023",
+        "atlas_028",
+        "atlas_033",
+        "atlas_034",
+        "atlas_036",
+        "atlas_083"
+      ],
+      "status": "Assigned to floors"
+    },
+    {
+      "id": "step_grass",
+      "kind": "footstep",
+      "title": "Grass",
+      "tags": [
+        "grass"
+      ],
+      "category": "grass",
+      "new": true,
+      "description": "3 short contact sounds for the grass floor tag. Walking alternates among variations and avoids repeating the previous clip.",
+      "clips": [
+        {
+          "src": "audio/step_grass_1.ogg",
+          "label": "Variation 1",
+          "sha256": "fb023af50530a161530d6c3c5e86f51655934413e74bbc272a444ad127979868",
+          "bytes": 6028,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_grass_1.ogg"
+        },
+        {
+          "src": "audio/step_grass_2.ogg",
+          "label": "Variation 2",
+          "sha256": "5eadf7ac30df3430d4d1ee2d3ae168896007420a775a175e18aa456484506581",
+          "bytes": 7833,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_grass_2.ogg"
+        },
+        {
+          "src": "audio/step_grass_3.ogg",
+          "label": "Variation 3",
+          "sha256": "0a853d7ac8af60f8b7d76cbddd11a2c370638cc771b40793b46ee8a74b41063c",
+          "bytes": 5523,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_grass_3.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_011",
+        "atlas_015",
+        "atlas_021",
+        "atlas_026",
+        "atlas_038",
+        "atlas_050",
+        "atlas_063",
+        "atlas_082",
+        "atlas_089",
+        "atlas_102"
+      ],
+      "status": "Assigned to floors"
+    },
+    {
+      "id": "step_soil",
+      "kind": "footstep",
+      "title": "Soil",
+      "tags": [
+        "soil"
+      ],
+      "category": "soil",
+      "new": true,
+      "description": "3 short contact sounds for the soil floor tag. Walking alternates among variations and avoids repeating the previous clip.",
+      "clips": [
+        {
+          "src": "audio/step_soil_1.ogg",
+          "label": "Variation 1",
+          "sha256": "671733cdbf3eca873e7a83c290e6458877201fa4dfed096f5213371d26c5aeb2",
+          "bytes": 5852,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_soil_1.ogg"
+        },
+        {
+          "src": "audio/step_soil_2.ogg",
+          "label": "Variation 2",
+          "sha256": "147ab0c0f7cf0e8fddc17078e73404ac77282b60000fc991a5b9db28071e83cf",
+          "bytes": 5891,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_soil_2.ogg"
+        },
+        {
+          "src": "audio/step_soil_3.ogg",
+          "label": "Variation 3",
+          "sha256": "37d206f69bca096c62070bc256ff890c67dfda238df82b4d3d0d3848472648f0",
+          "bytes": 5118,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_soil_3.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_027",
+        "atlas_046",
+        "atlas_047",
+        "atlas_051",
+        "atlas_054",
+        "atlas_065",
+        "atlas_081",
+        "atlas_086",
+        "atlas_092",
+        "atlas_093"
+      ],
+      "status": "Assigned to floors"
+    },
+    {
+      "id": "step_gravel",
+      "kind": "footstep",
+      "title": "Gravel",
+      "tags": [
+        "gravel"
+      ],
+      "category": "gravel",
+      "new": true,
+      "description": "3 short contact sounds for the gravel floor tag. Walking alternates among variations and avoids repeating the previous clip.",
+      "clips": [
+        {
+          "src": "audio/step_gravel_1.ogg",
+          "label": "Variation 1",
+          "sha256": "68edf378e2ffe1532455734c986c70d9f87750af62d518d57df2387feeda2663",
+          "bytes": 7082,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_gravel_1.ogg"
+        },
+        {
+          "src": "audio/step_gravel_2.ogg",
+          "label": "Variation 2",
+          "sha256": "4fedf6fe64f9883fb9e0349e0d1631f3be491f0b15bc768a706c0149ed26878a",
+          "bytes": 6402,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_gravel_2.ogg"
+        },
+        {
+          "src": "audio/step_gravel_3.ogg",
+          "label": "Variation 3",
+          "sha256": "b082016c52fd8468e0baa18233e29655fca27e449367b8f07f4a720429334499",
+          "bytes": 7550,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_gravel_3.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_099"
+      ],
+      "status": "Assigned to floors"
+    },
+    {
+      "id": "step_mud",
+      "kind": "footstep",
+      "title": "Mud",
+      "tags": [
+        "mud"
+      ],
+      "category": "mud",
+      "new": true,
+      "description": "4 short contact sounds for the mud floor tag. Walking alternates among variations and avoids repeating the previous clip.",
+      "clips": [
+        {
+          "src": "audio/step_mud_1.ogg",
+          "label": "Variation 1",
+          "sha256": "70270597fdd54ab6eacdc2820bdae71de1d392e725cd604358e58e1336d24d77",
+          "bytes": 6253,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_mud_1.ogg"
+        },
+        {
+          "src": "audio/step_mud_2.ogg",
+          "label": "Variation 2",
+          "sha256": "e6b6d53134c34e7655b8e2916919331ca6b115147f7c8df363ffde0dbbc38fdd",
+          "bytes": 6176,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_mud_2.ogg"
+        },
+        {
+          "src": "audio/step_mud_3.ogg",
+          "label": "Variation 3",
+          "sha256": "2a9ff37182b6eae18a46f8dfc946416bf0df6dd6cebcba07218b4c6148e6e9fc",
+          "bytes": 7113,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_mud_3.ogg"
+        },
+        {
+          "src": "audio/step_mud_4.ogg",
+          "label": "Variation 4",
+          "sha256": "8317e7e37d4b9636f199b75e5613e520ef4b9b169cc5b1c7681f0e707aa4c61f",
+          "bytes": 5425,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_mud_4.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_025",
+        "atlas_044",
+        "atlas_049",
+        "atlas_060",
+        "atlas_084",
+        "atlas_091",
+        "atlas_105"
+      ],
+      "status": "Assigned to floors"
+    },
+    {
+      "id": "step_shallow_water",
+      "kind": "footstep",
+      "title": "Shallow Water",
+      "tags": [
+        "shallow_water"
+      ],
+      "category": "shallow water",
+      "new": true,
+      "description": "4 short contact sounds for the shallow water floor tag. Walking alternates among variations and avoids repeating the previous clip.",
+      "clips": [
+        {
+          "src": "audio/step_shallow_water_1.ogg",
+          "label": "Variation 1",
+          "sha256": "73c294c5cd237b02c801feb5cc5b67bc8e1df81a721caa5c77f520bf3fb60103",
+          "bytes": 8739,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_shallow_water_1.ogg"
+        },
+        {
+          "src": "audio/step_shallow_water_2.ogg",
+          "label": "Variation 2",
+          "sha256": "b991f083be0750e162de1764530742da49eac5f2d6fe5928a9a0784263c4d917",
+          "bytes": 7997,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_shallow_water_2.ogg"
+        },
+        {
+          "src": "audio/step_shallow_water_3.ogg",
+          "label": "Variation 3",
+          "sha256": "cbdbdd5b2e5a55a7a15e7cff1723333ec232d85283e6090398c9fb81bae7356d",
+          "bytes": 8316,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_shallow_water_3.ogg"
+        },
+        {
+          "src": "audio/step_shallow_water_4.ogg",
+          "label": "Variation 4",
+          "sha256": "d7452617ab697408626a25c21970a84fb7df1f9cd07e970ada6056ab6d661567",
+          "bytes": 8015,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_shallow_water_4.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_031",
+        "atlas_045",
+        "atlas_064"
+      ],
+      "status": "Assigned to floors"
+    },
+    {
+      "id": "step_snow",
+      "kind": "footstep",
+      "title": "Snow",
+      "tags": [
+        "snow"
+      ],
+      "category": "snow",
+      "new": true,
+      "description": "4 short contact sounds for the snow floor tag. Walking alternates among variations and avoids repeating the previous clip.",
+      "clips": [
+        {
+          "src": "audio/step_snow_1.ogg",
+          "label": "Variation 1",
+          "sha256": "e4a12115f932d5b52e85d0d6ef989fa58bec7d97920d02f9687739df5298b62a",
+          "bytes": 9307,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_snow_1.ogg"
+        },
+        {
+          "src": "audio/step_snow_2.ogg",
+          "label": "Variation 2",
+          "sha256": "4ad1e7047ec3c5a798aabb370efa80fe78d5c800b7156fdb5dd188d43d80bcb7",
+          "bytes": 8086,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_snow_2.ogg"
+        },
+        {
+          "src": "audio/step_snow_3.ogg",
+          "label": "Variation 3",
+          "sha256": "53917034cd0fe43d45ed9ecb1ed0013403c4cda3dd592c8cbaaa779c8806a04c",
+          "bytes": 6933,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_snow_3.ogg"
+        },
+        {
+          "src": "audio/step_snow_4.ogg",
+          "label": "Variation 4",
+          "sha256": "08d430897af8bd54d0b0be79d6dbc81852461f65cbab980c8eddc88661b9f1cf",
+          "bytes": 7992,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_snow_4.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_024",
+        "atlas_052"
+      ],
+      "status": "Assigned to floors"
+    },
+    {
+      "id": "step_ice",
+      "kind": "footstep",
+      "title": "Ice",
+      "tags": [
+        "ice"
+      ],
+      "category": "ice",
+      "new": true,
+      "description": "4 short contact sounds for the ice floor tag. Walking alternates among variations and avoids repeating the previous clip.",
+      "clips": [
+        {
+          "src": "audio/step_ice_1.ogg",
+          "label": "Variation 1",
+          "sha256": "4f2e4c01e162e6e9557a2bc651dabe31f4e8ba63ba4330265d657926959f8091",
+          "bytes": 7314,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_ice_1.ogg"
+        },
+        {
+          "src": "audio/step_ice_2.ogg",
+          "label": "Variation 2",
+          "sha256": "d8f16fe792bc7dc5e223410278c3b62f0019902283ff98ac06c3b05cfe3d896f",
+          "bytes": 7322,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_ice_2.ogg"
+        },
+        {
+          "src": "audio/step_ice_3.ogg",
+          "label": "Variation 3",
+          "sha256": "cd095317bc52a531d49ca91f600db5aef8548996b2be062ccaacb8ac8a589dc1",
+          "bytes": 7831,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_ice_3.ogg"
+        },
+        {
+          "src": "audio/step_ice_4.ogg",
+          "label": "Variation 4",
+          "sha256": "09c51b91ba2b51eee99333a45863f2b432d5bf6292afafe8303726bddf497234",
+          "bytes": 6928,
+          "source_path": "assets/sounds/elevenlabs-location-2026-11-20/step_ice_4.ogg"
+        }
+      ],
+      "locations": [
+        "atlas_041",
+        "atlas_059",
+        "atlas_088"
+      ],
+      "status": "Assigned to floors"
+    }
+  ],
+  "locations": [
+    {
+      "id": "atlas_001",
+      "atlas_id": 1,
+      "name": "Cacheboard, the Unintended Board",
+      "music": "rebuilding_lattice",
+      "music_tags": [
+        "digital",
+        "unstable"
+      ],
+      "floor_tag": "digital",
+      "ambience_tag": "digital"
+    },
+    {
+      "id": "atlas_002",
+      "atlas_id": 2,
+      "name": "The Layered Cache",
+      "music": "restoring_lattice",
+      "music_tags": [
+        "digital"
+      ],
+      "floor_tag": "digital",
+      "ambience_tag": "digital"
+    },
+    {
+      "id": "atlas_003",
+      "atlas_id": 3,
+      "name": "The First Place",
+      "music": "hearth_calm",
+      "music_tags": [
+        "home"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_004",
+      "atlas_id": 4,
+      "name": "Corridor Twelve and the Last Relay",
+      "music": "clockwork_smile",
+      "music_tags": [
+        "mechanical"
+      ],
+      "floor_tag": "metal",
+      "ambience_tag": "machine"
+    },
+    {
+      "id": "atlas_005",
+      "atlas_id": 5,
+      "name": "The Shelter and the Veil",
+      "music": "hearth_calm",
+      "music_tags": [
+        "shelter"
+      ],
+      "floor_tag": "wood",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_006",
+      "atlas_id": 6,
+      "name": "The Commons and the Orison Chamber",
+      "music": "hearth_calm",
+      "music_tags": [
+        "communal"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_007",
+      "atlas_id": 7,
+      "name": "Sublevel and Pump Forty-Seven",
+      "music": "clockwork_smile",
+      "music_tags": [
+        "mechanical"
+      ],
+      "floor_tag": "metal",
+      "ambience_tag": "machine"
+    },
+    {
+      "id": "atlas_008",
+      "atlas_id": 8,
+      "name": "Shelter Orison, the Vanishing Shelter",
+      "music": "hearth_calm",
+      "music_tags": [
+        "shelter"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_009",
+      "atlas_id": 9,
+      "name": "Shelter Coda-Near",
+      "music": "hearth_calm",
+      "music_tags": [
+        "shelter"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_010",
+      "atlas_id": 10,
+      "name": "The House of Returning",
+      "music": "hearth_calm",
+      "music_tags": [
+        "home"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_011",
+      "atlas_id": 11,
+      "name": "The Warm Copy Garden",
+      "music": "fablewood",
+      "music_tags": [
+        "garden"
+      ],
+      "floor_tag": "grass",
+      "ambience_tag": "forest"
+    },
+    {
+      "id": "atlas_012",
+      "atlas_id": 12,
+      "name": "House of First Continuities and the Adaptive Nursery",
+      "music": "hearth_calm",
+      "music_tags": [
+        "home"
+      ],
+      "floor_tag": "wood",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_013",
+      "atlas_id": 13,
+      "name": "Central House of Meaning and the Unfinished Teaching Room",
+      "music": "study_hall",
+      "music_tags": [
+        "school"
+      ],
+      "floor_tag": "wood",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_014",
+      "atlas_id": 14,
+      "name": "Compatibility Route C-17, the Ghost Line",
+      "music": "clockwork_smile",
+      "music_tags": [
+        "mechanical"
+      ],
+      "floor_tag": "metal",
+      "ambience_tag": "machine"
+    },
+    {
+      "id": "atlas_015",
+      "atlas_id": 15,
+      "name": "The Garden Worlds",
+      "music": "fablewood",
+      "music_tags": [
+        "garden"
+      ],
+      "floor_tag": "grass",
+      "ambience_tag": "forest"
+    },
+    {
+      "id": "atlas_016",
+      "atlas_id": 16,
+      "name": "The Last City of Many Forms",
+      "music": "hearth_calm",
+      "music_tags": [
+        "urban",
+        "ruins",
+        "communal"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_017",
+      "atlas_id": 17,
+      "name": "The Dormant External Gate",
+      "music": "doors_at_dawn",
+      "music_tags": [
+        "ruins",
+        "threshold"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "surreal"
+    },
+    {
+      "id": "atlas_018",
+      "atlas_id": 18,
+      "name": "Doorway Plaza",
+      "music": "hearth_calm",
+      "music_tags": [
+        "urban",
+        "communal"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_019",
+      "atlas_id": 19,
+      "name": "The Interface Well",
+      "music": "restoring_lattice",
+      "music_tags": [
+        "mechanical",
+        "digital"
+      ],
+      "floor_tag": "metal",
+      "ambience_tag": "machine"
+    },
+    {
+      "id": "atlas_020",
+      "atlas_id": 20,
+      "name": "The Underway of Returning Signals",
+      "music": "clockwork_smile",
+      "music_tags": [
+        "mechanical"
+      ],
+      "floor_tag": "metal",
+      "ambience_tag": "machine"
+    },
+    {
+      "id": "atlas_021",
+      "atlas_id": 21,
+      "name": "The Folded Garden of Six Traditions",
+      "music": "fablewood",
+      "music_tags": [
+        "garden"
+      ],
+      "floor_tag": "grass",
+      "ambience_tag": "forest"
+    },
+    {
+      "id": "atlas_022",
+      "atlas_id": 22,
+      "name": "The Pale Concordance Station",
+      "music": "clockwork_smile",
+      "music_tags": [
+        "mechanical"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "machine"
+    },
+    {
+      "id": "atlas_023",
+      "atlas_id": 23,
+      "name": "The Repeated Beach",
+      "music": "tropical_stillness",
+      "music_tags": [
+        "tropical",
+        "coastal"
+      ],
+      "floor_tag": "sand",
+      "ambience_tag": "coast"
+    },
+    {
+      "id": "atlas_024",
+      "atlas_id": 24,
+      "name": "The Misnamed Snowfield",
+      "music": "snowbound_path",
+      "music_tags": [
+        "snow"
+      ],
+      "floor_tag": "snow",
+      "ambience_tag": "wind"
+    },
+    {
+      "id": "atlas_025",
+      "atlas_id": 25,
+      "name": "The Wet Memory Marsh",
+      "music": "tropical_stillness_alt",
+      "music_tags": [
+        "tropical",
+        "wetland"
+      ],
+      "floor_tag": "mud",
+      "ambience_tag": "wetland"
+    },
+    {
+      "id": "atlas_026",
+      "atlas_id": 26,
+      "name": "The Hollow Festival Field",
+      "music": "hearth_calm",
+      "music_tags": [
+        "festival",
+        "grassland",
+        "communal"
+      ],
+      "floor_tag": "grass",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_027",
+      "atlas_id": 27,
+      "name": "The Still-Loading Forest",
+      "music": "rebuilding_lattice",
+      "music_tags": [
+        "woodland",
+        "digital",
+        "unstable"
+      ],
+      "floor_tag": "soil",
+      "ambience_tag": "digital"
+    },
+    {
+      "id": "atlas_028",
+      "atlas_id": 28,
+      "name": "Mirror-Save Shore",
+      "music": "tropical_stillness",
+      "music_tags": [
+        "tropical",
+        "coastal"
+      ],
+      "floor_tag": "sand",
+      "ambience_tag": "coast"
+    },
+    {
+      "id": "atlas_029",
+      "atlas_id": 29,
+      "name": "The Basalt Memory Coast",
+      "music": "stone_orchard_drift",
+      "music_tags": [
+        "coastal",
+        "volcanic"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "volcanic"
+    },
+    {
+      "id": "atlas_030",
+      "atlas_id": 30,
+      "name": "The Coral Data Labyrinth",
+      "music": "tropical_stillness",
+      "music_tags": [
+        "tropical",
+        "coastal"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "underwater"
+    },
+    {
+      "id": "atlas_031",
+      "atlas_id": 31,
+      "name": "The Kelp Tower Shelf",
+      "music": "tropical_stillness",
+      "music_tags": [
+        "tropical",
+        "coastal"
+      ],
+      "floor_tag": "shallow_water",
+      "ambience_tag": "underwater"
+    },
+    {
+      "id": "atlas_032",
+      "atlas_id": 32,
+      "name": "The Inland Sea of Doors",
+      "music": "water_remembers",
+      "music_tags": [
+        "lake",
+        "ruins"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "freshwater"
+    },
+    {
+      "id": "atlas_033",
+      "atlas_id": 33,
+      "name": "The Archipelago of Borrowed Horizons",
+      "music": "tropical_stillness",
+      "music_tags": [
+        "tropical",
+        "coastal"
+      ],
+      "floor_tag": "sand",
+      "ambience_tag": "coast"
+    },
+    {
+      "id": "atlas_034",
+      "atlas_id": 34,
+      "name": "The Red Glass Erg",
+      "music": "desert_calm",
+      "music_tags": [
+        "desert"
+      ],
+      "floor_tag": "sand",
+      "ambience_tag": "wind"
+    },
+    {
+      "id": "atlas_035",
+      "atlas_id": 35,
+      "name": "The Salt Mirror Archive",
+      "music": "shelves_of_echoes",
+      "music_tags": [
+        "salt_flat",
+        "archive"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "wind"
+    },
+    {
+      "id": "atlas_036",
+      "atlas_id": 36,
+      "name": "The Marble Dune Cemetery",
+      "music": "desert_calm",
+      "music_tags": [
+        "desert",
+        "dune"
+      ],
+      "floor_tag": "sand",
+      "ambience_tag": "wind"
+    },
+    {
+      "id": "atlas_037",
+      "atlas_id": 37,
+      "name": "The Copper Canyon Chorus",
+      "music": "desert_calm_alt",
+      "music_tags": [
+        "canyon"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_038",
+      "atlas_id": 38,
+      "name": "The Fulgurite Savannah",
+      "music": "meadow_threads",
+      "music_tags": [
+        "grassland",
+        "savannah"
+      ],
+      "floor_tag": "grass",
+      "ambience_tag": "grassland"
+    },
+    {
+      "id": "atlas_039",
+      "atlas_id": 39,
+      "name": "The Cloudroot Tepuis",
+      "music": "tropical_stillness_alt",
+      "music_tags": [
+        "tropical",
+        "forest"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "forest"
+    },
+    {
+      "id": "atlas_040",
+      "atlas_id": 40,
+      "name": "The Alpine Bell Pass",
+      "music": "snowbound_curiosity",
+      "music_tags": [
+        "alpine"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "wind"
+    },
+    {
+      "id": "atlas_041",
+      "atlas_id": 41,
+      "name": "The Glacial Memory Fjord",
+      "music": "frozen_drift",
+      "music_tags": [
+        "ice",
+        "coastal"
+      ],
+      "floor_tag": "ice",
+      "ambience_tag": "wind"
+    },
+    {
+      "id": "atlas_042",
+      "atlas_id": 42,
+      "name": "The Karst Lantern Provinces",
+      "music": "lanterns_in_limestone",
+      "music_tags": [
+        "cave",
+        "river"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "cavern"
+    },
+    {
+      "id": "atlas_043",
+      "atlas_id": 43,
+      "name": "The Stair of Thin Air",
+      "music": "snowbound_curiosity",
+      "music_tags": [
+        "alpine"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "wind"
+    },
+    {
+      "id": "atlas_044",
+      "atlas_id": 44,
+      "name": "The Mangrove Cathedral",
+      "music": "tropical_stillness_alt",
+      "music_tags": [
+        "tropical",
+        "wetland"
+      ],
+      "floor_tag": "mud",
+      "ambience_tag": "wetland"
+    },
+    {
+      "id": "atlas_045",
+      "atlas_id": 45,
+      "name": "The Blackwater Canopy",
+      "music": "tropical_stillness_alt",
+      "music_tags": [
+        "tropical",
+        "forest"
+      ],
+      "floor_tag": "shallow_water",
+      "ambience_tag": "wetland"
+    },
+    {
+      "id": "atlas_046",
+      "atlas_id": 46,
+      "name": "The Redwood Rain Vault",
+      "music": "fablewood",
+      "music_tags": [
+        "woodland"
+      ],
+      "floor_tag": "soil",
+      "ambience_tag": "forest"
+    },
+    {
+      "id": "atlas_047",
+      "atlas_id": 47,
+      "name": "The Bamboo Signal Sea",
+      "music": "fablewood",
+      "music_tags": [
+        "woodland",
+        "bamboo"
+      ],
+      "floor_tag": "soil",
+      "ambience_tag": "forest"
+    },
+    {
+      "id": "atlas_048",
+      "atlas_id": 48,
+      "name": "The Inverted Rainforest",
+      "music": "tropical_stillness_alt",
+      "music_tags": [
+        "tropical",
+        "forest"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "forest"
+    },
+    {
+      "id": "atlas_049",
+      "atlas_id": 49,
+      "name": "The Floating Peat Islands",
+      "music": "reedlight",
+      "music_tags": [
+        "wetland",
+        "bog"
+      ],
+      "floor_tag": "mud",
+      "ambience_tag": "wetland"
+    },
+    {
+      "id": "atlas_050",
+      "atlas_id": 50,
+      "name": "The Patchwork Prairie of Broken Seasons",
+      "music": "meadow_threads",
+      "music_tags": [
+        "grassland",
+        "farmland"
+      ],
+      "floor_tag": "grass",
+      "ambience_tag": "grassland"
+    },
+    {
+      "id": "atlas_051",
+      "atlas_id": 51,
+      "name": "The Sunken Terraces of Eris",
+      "music": "fablewood",
+      "music_tags": [
+        "garden",
+        "lake"
+      ],
+      "floor_tag": "soil",
+      "ambience_tag": "freshwater"
+    },
+    {
+      "id": "atlas_052",
+      "atlas_id": 52,
+      "name": "The Tundra Bloom Circuit",
+      "music": "frozen_tundra_vigil",
+      "music_tags": [
+        "ice"
+      ],
+      "floor_tag": "snow",
+      "ambience_tag": "wind"
+    },
+    {
+      "id": "atlas_053",
+      "atlas_id": 53,
+      "name": "The Volcanic Orchard Caldera",
+      "music": "stone_orchard_path",
+      "music_tags": [
+        "volcanic",
+        "garden"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "volcanic"
+    },
+    {
+      "id": "atlas_054",
+      "atlas_id": 54,
+      "name": "The Orchard of Borrowed Moons",
+      "music": "fablewood",
+      "music_tags": [
+        "garden"
+      ],
+      "floor_tag": "soil",
+      "ambience_tag": "forest"
+    },
+    {
+      "id": "atlas_055",
+      "atlas_id": 55,
+      "name": "The Monsoon Stepwell City",
+      "music": "lamplit_rainwalk",
+      "music_tags": [
+        "rain",
+        "urban"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "rain"
+    },
+    {
+      "id": "atlas_056",
+      "atlas_id": 56,
+      "name": "The Urban Canyon Hive",
+      "music": "clockwork_smile",
+      "music_tags": [
+        "urban",
+        "mechanical"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "machine"
+    },
+    {
+      "id": "atlas_057",
+      "atlas_id": 57,
+      "name": "The City of Rainward Roofs",
+      "music": "lamplit_after_rain",
+      "music_tags": [
+        "rain",
+        "village"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "rain"
+    },
+    {
+      "id": "atlas_058",
+      "atlas_id": 58,
+      "name": "The Museum of Unfinished Rooms",
+      "music": "shelves_of_echoes",
+      "music_tags": [
+        "archive",
+        "ruins"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_059",
+      "atlas_id": 59,
+      "name": "The Ice Cave of Paused Dawn",
+      "music": "frozen_tundra_vigil",
+      "music_tags": [
+        "ice",
+        "cave"
+      ],
+      "floor_tag": "ice",
+      "ambience_tag": "wind"
+    },
+    {
+      "id": "atlas_060",
+      "atlas_id": 60,
+      "name": "The Obsidian Mangrove Delta",
+      "music": "stone_orchard_drift",
+      "music_tags": [
+        "volcanic",
+        "tropical",
+        "wetland"
+      ],
+      "floor_tag": "mud",
+      "ambience_tag": "volcanic"
+    },
+    {
+      "id": "atlas_061",
+      "atlas_id": 61,
+      "name": "The Skyfold Boundary",
+      "music": "above_the_fold",
+      "music_tags": [
+        "sky",
+        "surreal"
+      ],
+      "floor_tag": "digital",
+      "ambience_tag": "wind"
+    },
+    {
+      "id": "atlas_062",
+      "atlas_id": 62,
+      "name": "The Valley That Restores Wrong",
+      "music": "hearth_calm",
+      "music_tags": [
+        "home",
+        "surreal"
+      ],
+      "floor_tag": "wood",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_063",
+      "atlas_id": 63,
+      "name": "The Plain of Missing Distance",
+      "music": "meadow_threads",
+      "music_tags": [
+        "grassland",
+        "surreal"
+      ],
+      "floor_tag": "grass",
+      "ambience_tag": "grassland"
+    },
+    {
+      "id": "atlas_064",
+      "atlas_id": 64,
+      "name": "The River of Deferred Reflections",
+      "music": "water_remembers",
+      "music_tags": [
+        "river",
+        "archive"
+      ],
+      "floor_tag": "shallow_water",
+      "ambience_tag": "freshwater"
+    },
+    {
+      "id": "atlas_065",
+      "atlas_id": 65,
+      "name": "The Stormwall Orchard",
+      "music": "lamplit_after_rain",
+      "music_tags": [
+        "storm",
+        "rain",
+        "garden"
+      ],
+      "floor_tag": "soil",
+      "ambience_tag": "rain"
+    },
+    {
+      "id": "atlas_066",
+      "atlas_id": 66,
+      "name": "The Mosaic Worldscar",
+      "music": "weather_between_rooms",
+      "music_tags": [
+        "surreal",
+        "ruins"
+      ],
+      "floor_tag": "digital",
+      "ambience_tag": "surreal"
+    },
+    {
+      "id": "atlas_067",
+      "atlas_id": 67,
+      "name": "The Room Behind the False Horizon",
+      "music": "above_the_fold",
+      "music_tags": [
+        "surreal",
+        "sky"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "surreal"
+    },
+    {
+      "id": "atlas_068",
+      "atlas_id": 68,
+      "name": "The Cabinet of Unused Weather",
+      "music": "weather_between_rooms",
+      "music_tags": [
+        "surreal",
+        "weather"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "surreal"
+    },
+    {
+      "id": "atlas_069",
+      "atlas_id": 69,
+      "name": "The Quiet Kitchen",
+      "music": "hearth_calm",
+      "music_tags": [
+        "home"
+      ],
+      "floor_tag": "wood",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_070",
+      "atlas_id": 70,
+      "name": "The Staircase That Ends in a Lake",
+      "music": "water_remembers",
+      "music_tags": [
+        "lake",
+        "surreal"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "freshwater"
+    },
+    {
+      "id": "atlas_071",
+      "atlas_id": 71,
+      "name": "The Clockless Dormitory",
+      "music": "hearth_calm",
+      "music_tags": [
+        "home"
+      ],
+      "floor_tag": "wood",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_072",
+      "atlas_id": 72,
+      "name": "The Seed Vault of Impossible Colors",
+      "music": "fablewood",
+      "music_tags": [
+        "garden"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "forest"
+    },
+    {
+      "id": "atlas_073",
+      "atlas_id": 73,
+      "name": "The Room of Borrowed Gravity",
+      "music": "above_the_fold",
+      "music_tags": [
+        "sky",
+        "surreal"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "surreal"
+    },
+    {
+      "id": "atlas_074",
+      "atlas_id": 74,
+      "name": "The Door Archive",
+      "music": "shelves_of_echoes",
+      "music_tags": [
+        "archive"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_075",
+      "atlas_id": 75,
+      "name": "The Hidden Playroom",
+      "music": "hearth_calm",
+      "music_tags": [
+        "home"
+      ],
+      "floor_tag": "wood",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_076",
+      "atlas_id": 76,
+      "name": "The Maintenance Chapel Without a God",
+      "music": "clockwork_smile",
+      "music_tags": [
+        "mechanical",
+        "ruins"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "machine"
+    },
+    {
+      "id": "atlas_077",
+      "atlas_id": 77,
+      "name": "The Room Under the River",
+      "music": "hearth_calm",
+      "music_tags": [
+        "river",
+        "shelter"
+      ],
+      "floor_tag": "wood",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_078",
+      "atlas_id": 78,
+      "name": "The Unclaimed Balcony",
+      "music": "hearth_calm",
+      "music_tags": [
+        "shelter"
+      ],
+      "floor_tag": "wood",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_079",
+      "atlas_id": 79,
+      "name": "The Mapmaker’s Crawlspace",
+      "music": "shelves_of_echoes",
+      "music_tags": [
+        "archive"
+      ],
+      "floor_tag": "digital",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_080",
+      "atlas_id": 80,
+      "name": "The Room Where Dust Remembers Footsteps",
+      "music": "shelves_of_echoes",
+      "music_tags": [
+        "ruins",
+        "archive"
+      ],
+      "floor_tag": "wood",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_081",
+      "atlas_id": 81,
+      "name": "The Pocket Monsoon",
+      "music": "lamplit_after_rain",
+      "music_tags": [
+        "rain"
+      ],
+      "floor_tag": "soil",
+      "ambience_tag": "rain"
+    },
+    {
+      "id": "atlas_082",
+      "atlas_id": 82,
+      "name": "The Amber Cavern Meadow",
+      "music": "lanterns_in_limestone",
+      "music_tags": [
+        "cave"
+      ],
+      "floor_tag": "grass",
+      "ambience_tag": "cavern"
+    },
+    {
+      "id": "atlas_083",
+      "atlas_id": 83,
+      "name": "The Ceiling Desert",
+      "music": "desert_calm",
+      "music_tags": [
+        "desert"
+      ],
+      "floor_tag": "sand",
+      "ambience_tag": "wind"
+    },
+    {
+      "id": "atlas_084",
+      "atlas_id": 84,
+      "name": "The Moss Clock Bog",
+      "music": "reedlight",
+      "music_tags": [
+        "wetland",
+        "bog"
+      ],
+      "floor_tag": "mud",
+      "ambience_tag": "wetland"
+    },
+    {
+      "id": "atlas_085",
+      "atlas_id": 85,
+      "name": "The Crystal Root Grotto",
+      "music": "lanterns_in_limestone",
+      "music_tags": [
+        "cave"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "cavern"
+    },
+    {
+      "id": "atlas_086",
+      "atlas_id": 86,
+      "name": "The Windless Pine Bowl",
+      "music": "fablewood",
+      "music_tags": [
+        "woodland"
+      ],
+      "floor_tag": "soil",
+      "ambience_tag": "forest"
+    },
+    {
+      "id": "atlas_087",
+      "atlas_id": 87,
+      "name": "The Blue Lava Orchard",
+      "music": "stone_orchard_path",
+      "music_tags": [
+        "volcanic",
+        "garden"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "volcanic"
+    },
+    {
+      "id": "atlas_088",
+      "atlas_id": 88,
+      "name": "The Firefly Ice Shelf",
+      "music": "frozen_drift",
+      "music_tags": [
+        "ice",
+        "coastal"
+      ],
+      "floor_tag": "ice",
+      "ambience_tag": "wind"
+    },
+    {
+      "id": "atlas_089",
+      "atlas_id": 89,
+      "name": "The Feathergrass Sea",
+      "music": "meadow_threads",
+      "music_tags": [
+        "grassland"
+      ],
+      "floor_tag": "grass",
+      "ambience_tag": "grassland"
+    },
+    {
+      "id": "atlas_090",
+      "atlas_id": 90,
+      "name": "The Sunken Cloud Basin",
+      "music": "above_the_fold",
+      "music_tags": [
+        "sky"
+      ],
+      "floor_tag": "digital",
+      "ambience_tag": "wind"
+    },
+    {
+      "id": "atlas_091",
+      "atlas_id": 91,
+      "name": "The Singing Mud Flats",
+      "music": "tropical_stillness",
+      "music_tags": [
+        "wetland",
+        "coastal"
+      ],
+      "floor_tag": "mud",
+      "ambience_tag": "coast"
+    },
+    {
+      "id": "atlas_092",
+      "atlas_id": 92,
+      "name": "The Night-Bloom Mesa",
+      "music": "fablewood",
+      "music_tags": [
+        "mesa",
+        "garden"
+      ],
+      "floor_tag": "soil",
+      "ambience_tag": "forest"
+    },
+    {
+      "id": "atlas_093",
+      "atlas_id": 93,
+      "name": "The Rainshadow Jungle",
+      "music": "tropical_stillness_alt",
+      "music_tags": [
+        "tropical",
+        "forest"
+      ],
+      "floor_tag": "soil",
+      "ambience_tag": "forest"
+    },
+    {
+      "id": "atlas_094",
+      "atlas_id": 94,
+      "name": "The Moonless Tidepool Labyrinth",
+      "music": "tropical_stillness",
+      "music_tags": [
+        "coastal",
+        "night"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "coast"
+    },
+    {
+      "id": "atlas_095",
+      "atlas_id": 95,
+      "name": "The Half-Restored Palace of Floors",
+      "music": "shelves_of_echoes",
+      "music_tags": [
+        "ruins",
+        "archive"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_096",
+      "atlas_id": 96,
+      "name": "The Rooms of Mismatched Seasons",
+      "music": "weather_between_rooms",
+      "music_tags": [
+        "surreal",
+        "weather"
+      ],
+      "floor_tag": "wood",
+      "ambience_tag": "surreal"
+    },
+    {
+      "id": "atlas_097",
+      "atlas_id": 97,
+      "name": "The Invisible Village",
+      "music": "hearth_calm",
+      "music_tags": [
+        "village",
+        "communal"
+      ],
+      "floor_tag": "wood",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_098",
+      "atlas_id": 98,
+      "name": "The Hall That Forgets Its Walls",
+      "music": "weather_between_rooms",
+      "music_tags": [
+        "surreal",
+        "ruins"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "surreal"
+    },
+    {
+      "id": "atlas_099",
+      "atlas_id": 99,
+      "name": "The Archive Quarry",
+      "music": "shelves_of_echoes",
+      "music_tags": [
+        "archive",
+        "quarry"
+      ],
+      "floor_tag": "gravel",
+      "ambience_tag": "interior"
+    },
+    {
+      "id": "atlas_100",
+      "atlas_id": 100,
+      "name": "The Recursive Lighthouse",
+      "music": "tropical_stillness",
+      "music_tags": [
+        "coastal",
+        "surreal"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "coast"
+    },
+    {
+      "id": "atlas_101",
+      "atlas_id": 101,
+      "name": "The Garden Inside the Map",
+      "music": "fablewood",
+      "music_tags": [
+        "garden"
+      ],
+      "floor_tag": "digital",
+      "ambience_tag": "forest"
+    },
+    {
+      "id": "atlas_102",
+      "atlas_id": 102,
+      "name": "The Animal-Shaped Valley",
+      "music": "meadow_threads",
+      "music_tags": [
+        "grassland",
+        "valley"
+      ],
+      "floor_tag": "grass",
+      "ambience_tag": "grassland"
+    },
+    {
+      "id": "atlas_103",
+      "atlas_id": 103,
+      "name": "The Unfinished Underground Sun",
+      "music": "lanterns_in_limestone",
+      "music_tags": [
+        "cave",
+        "surreal"
+      ],
+      "floor_tag": "stone",
+      "ambience_tag": "cavern"
+    },
+    {
+      "id": "atlas_104",
+      "atlas_id": 104,
+      "name": "The Room Where All Doors Wait",
+      "music": "doors_at_dawn",
+      "music_tags": [
+        "threshold",
+        "archive"
+      ],
+      "floor_tag": "wood",
+      "ambience_tag": "surreal"
+    },
+    {
+      "id": "atlas_105",
+      "atlas_id": 105,
+      "name": "The Village Between Raindrops",
+      "music": "lamplit_after_rain",
+      "music_tags": [
+        "rain",
+        "village"
+      ],
+      "floor_tag": "mud",
+      "ambience_tag": "rain"
+    },
+    {
+      "id": "atlas_106",
+      "atlas_id": 106,
+      "name": "The Hollow Mountain Elevator",
+      "music": "snowbound_curiosity",
+      "music_tags": [
+        "mechanical",
+        "alpine"
+      ],
+      "floor_tag": "metal",
+      "ambience_tag": "wind"
+    }
+  ],
+  "attribution": "New category music, ambience and footsteps generated for Cyber Pet with ElevenLabs Music v2 and Sound Effects v2. Existing soundtrack and ambience reused from the Cyber Pet asset library. No student media or saved data included. Account terms apply; this page does not grant a separate reuse license.",
+  "source": "CPP-V3 config/background_music.json, config/location_audio.json and config/location_filesystem.json",
+  "generation_flow": "https://elevenlabs.io/app/flows/KKwhbda13SVDvTsHf9bl"
+}

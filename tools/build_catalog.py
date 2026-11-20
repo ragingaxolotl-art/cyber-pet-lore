@@ -191,6 +191,7 @@ runpy.run_path(str(ROOT/"tools/build_story_plans.py"))
 runpy.run_path(str(ROOT/"tools/build_story_illustrations.py"))
 
 # Keep generated planning pages and the archive navigation consistent.
+runpy.run_path(str(Path(__file__).resolve().parent / "build_sound_library.py"),run_name="__main__")
 runpy.run_path(str(Path(__file__).resolve().parent / "build_navigation.py"),run_name="__main__")
 
 # Feedback belongs to each reading without changing source paragraph anchors.

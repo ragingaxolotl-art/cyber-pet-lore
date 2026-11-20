@@ -1,0 +1,107 @@
+Atlas ID,Location,Music title,Music tags,Ambience tag,Floor tag
+1,"Cacheboard, the Unintended Board",Rebuilding Lattice,"digital, unstable",digital,digital
+2,The Layered Cache,Restoring Lattice,digital,digital,digital
+3,The First Place,Embers of Home,home,interior,stone
+4,Corridor Twelve and the Last Relay,Waltz of the Little Machines,mechanical,machine,metal
+5,The Shelter and the Veil,Embers of Home,shelter,interior,wood
+6,The Commons and the Orison Chamber,Embers of Home,communal,interior,stone
+7,Sublevel and Pump Forty-Seven,Waltz of the Little Machines,mechanical,machine,metal
+8,"Shelter Orison, the Vanishing Shelter",Embers of Home,shelter,interior,stone
+9,Shelter Coda-Near,Embers of Home,shelter,interior,stone
+10,The House of Returning,Embers of Home,home,interior,stone
+11,The Warm Copy Garden,Footsteps Through Fablewood,garden,forest,grass
+12,House of First Continuities and the Adaptive Nursery,Embers of Home,home,interior,wood
+13,Central House of Meaning and the Unfinished Teaching Room,After the Last Bell,school,interior,wood
+14,"Compatibility Route C-17, the Ghost Line",Waltz of the Little Machines,mechanical,machine,metal
+15,The Garden Worlds,Footsteps Through Fablewood,garden,forest,grass
+16,The Last City of Many Forms,Embers of Home,"urban, ruins, communal",interior,stone
+17,The Dormant External Gate,Doors at Dawn,"ruins, threshold",surreal,stone
+18,Doorway Plaza,Embers of Home,"urban, communal",interior,stone
+19,The Interface Well,Restoring Lattice,"mechanical, digital",machine,metal
+20,The Underway of Returning Signals,Waltz of the Little Machines,mechanical,machine,metal
+21,The Folded Garden of Six Traditions,Footsteps Through Fablewood,garden,forest,grass
+22,The Pale Concordance Station,Waltz of the Little Machines,mechanical,machine,stone
+23,The Repeated Beach,Where the Tide Sleeps,"tropical, coastal",coast,sand
+24,The Misnamed Snowfield,Snowbound Path,snow,wind,snow
+25,The Wet Memory Marsh,Beneath the Emerald Canopy,"tropical, wetland",wetland,mud
+26,The Hollow Festival Field,Embers of Home,"festival, grassland, communal",interior,grass
+27,The Still-Loading Forest,Rebuilding Lattice,"woodland, digital, unstable",digital,soil
+28,Mirror-Save Shore,Where the Tide Sleeps,"tropical, coastal",coast,sand
+29,The Basalt Memory Coast,Stone Orchard Drift,"coastal, volcanic",volcanic,stone
+30,The Coral Data Labyrinth,Where the Tide Sleeps,"tropical, coastal",underwater,stone
+31,The Kelp Tower Shelf,Where the Tide Sleeps,"tropical, coastal",underwater,shallow_water
+32,The Inland Sea of Doors,Water Remembers,"lake, ruins",freshwater,stone
+33,The Archipelago of Borrowed Horizons,Where the Tide Sleeps,"tropical, coastal",coast,sand
+34,The Red Glass Erg,Whispers Across the Dunes,desert,wind,sand
+35,The Salt Mirror Archive,Shelves of Echoes,"salt_flat, archive",wind,stone
+36,The Marble Dune Cemetery,Whispers Across the Dunes,"desert, dune",wind,sand
+37,The Copper Canyon Chorus,Echoes in Copper Canyon,canyon,interior,stone
+38,The Fulgurite Savannah,Meadow Threads,"grassland, savannah",grassland,grass
+39,The Cloudroot Tepuis,Beneath the Emerald Canopy,"tropical, forest",forest,stone
+40,The Alpine Bell Pass,Snowbound Curiosity,alpine,wind,stone
+41,The Glacial Memory Fjord,Frozen Drift,"ice, coastal",wind,ice
+42,The Karst Lantern Provinces,Lanterns in Limestone,"cave, river",cavern,stone
+43,The Stair of Thin Air,Snowbound Curiosity,alpine,wind,stone
+44,The Mangrove Cathedral,Beneath the Emerald Canopy,"tropical, wetland",wetland,mud
+45,The Blackwater Canopy,Beneath the Emerald Canopy,"tropical, forest",wetland,shallow_water
+46,The Redwood Rain Vault,Footsteps Through Fablewood,woodland,forest,soil
+47,The Bamboo Signal Sea,Footsteps Through Fablewood,"woodland, bamboo",forest,soil
+48,The Inverted Rainforest,Beneath the Emerald Canopy,"tropical, forest",forest,stone
+49,The Floating Peat Islands,Reedlight,"wetland, bog",wetland,mud
+50,The Patchwork Prairie of Broken Seasons,Meadow Threads,"grassland, farmland",grassland,grass
+51,The Sunken Terraces of Eris,Footsteps Through Fablewood,"garden, lake",freshwater,soil
+52,The Tundra Bloom Circuit,Frozen Tundra Vigil,ice,wind,snow
+53,The Volcanic Orchard Caldera,Stone Orchard Path,"volcanic, garden",volcanic,stone
+54,The Orchard of Borrowed Moons,Footsteps Through Fablewood,garden,forest,soil
+55,The Monsoon Stepwell City,Lamplit Rainwalk,"rain, urban",rain,stone
+56,The Urban Canyon Hive,Waltz of the Little Machines,"urban, mechanical",machine,stone
+57,The City of Rainward Roofs,Lamplit After Rain,"rain, village",rain,stone
+58,The Museum of Unfinished Rooms,Shelves of Echoes,"archive, ruins",interior,stone
+59,The Ice Cave of Paused Dawn,Frozen Tundra Vigil,"ice, cave",wind,ice
+60,The Obsidian Mangrove Delta,Stone Orchard Drift,"volcanic, tropical, wetland",volcanic,mud
+61,The Skyfold Boundary,Above the Fold,"sky, surreal",wind,digital
+62,The Valley That Restores Wrong,Embers of Home,"home, surreal",interior,wood
+63,The Plain of Missing Distance,Meadow Threads,"grassland, surreal",grassland,grass
+64,The River of Deferred Reflections,Water Remembers,"river, archive",freshwater,shallow_water
+65,The Stormwall Orchard,Lamplit After Rain,"storm, rain, garden",rain,soil
+66,The Mosaic Worldscar,Weather Between Rooms,"surreal, ruins",surreal,digital
+67,The Room Behind the False Horizon,Above the Fold,"surreal, sky",surreal,stone
+68,The Cabinet of Unused Weather,Weather Between Rooms,"surreal, weather",surreal,stone
+69,The Quiet Kitchen,Embers of Home,home,interior,wood
+70,The Staircase That Ends in a Lake,Water Remembers,"lake, surreal",freshwater,stone
+71,The Clockless Dormitory,Embers of Home,home,interior,wood
+72,The Seed Vault of Impossible Colors,Footsteps Through Fablewood,garden,forest,stone
+73,The Room of Borrowed Gravity,Above the Fold,"sky, surreal",surreal,stone
+74,The Door Archive,Shelves of Echoes,archive,interior,stone
+75,The Hidden Playroom,Embers of Home,home,interior,wood
+76,The Maintenance Chapel Without a God,Waltz of the Little Machines,"mechanical, ruins",machine,stone
+77,The Room Under the River,Embers of Home,"river, shelter",interior,wood
+78,The Unclaimed Balcony,Embers of Home,shelter,interior,wood
+79,The Mapmaker’s Crawlspace,Shelves of Echoes,archive,interior,digital
+80,The Room Where Dust Remembers Footsteps,Shelves of Echoes,"ruins, archive",interior,wood
+81,The Pocket Monsoon,Lamplit After Rain,rain,rain,soil
+82,The Amber Cavern Meadow,Lanterns in Limestone,cave,cavern,grass
+83,The Ceiling Desert,Whispers Across the Dunes,desert,wind,sand
+84,The Moss Clock Bog,Reedlight,"wetland, bog",wetland,mud
+85,The Crystal Root Grotto,Lanterns in Limestone,cave,cavern,stone
+86,The Windless Pine Bowl,Footsteps Through Fablewood,woodland,forest,soil
+87,The Blue Lava Orchard,Stone Orchard Path,"volcanic, garden",volcanic,stone
+88,The Firefly Ice Shelf,Frozen Drift,"ice, coastal",wind,ice
+89,The Feathergrass Sea,Meadow Threads,grassland,grassland,grass
+90,The Sunken Cloud Basin,Above the Fold,sky,wind,digital
+91,The Singing Mud Flats,Where the Tide Sleeps,"wetland, coastal",coast,mud
+92,The Night-Bloom Mesa,Footsteps Through Fablewood,"mesa, garden",forest,soil
+93,The Rainshadow Jungle,Beneath the Emerald Canopy,"tropical, forest",forest,soil
+94,The Moonless Tidepool Labyrinth,Where the Tide Sleeps,"coastal, night",coast,stone
+95,The Half-Restored Palace of Floors,Shelves of Echoes,"ruins, archive",interior,stone
+96,The Rooms of Mismatched Seasons,Weather Between Rooms,"surreal, weather",surreal,wood
+97,The Invisible Village,Embers of Home,"village, communal",interior,wood
+98,The Hall That Forgets Its Walls,Weather Between Rooms,"surreal, ruins",surreal,stone
+99,The Archive Quarry,Shelves of Echoes,"archive, quarry",interior,gravel
+100,The Recursive Lighthouse,Where the Tide Sleeps,"coastal, surreal",coast,stone
+101,The Garden Inside the Map,Footsteps Through Fablewood,garden,forest,digital
+102,The Animal-Shaped Valley,Meadow Threads,"grassland, valley",grassland,grass
+103,The Unfinished Underground Sun,Lanterns in Limestone,"cave, surreal",cavern,stone
+104,The Room Where All Doors Wait,Doors at Dawn,"threshold, archive",surreal,wood
+105,The Village Between Raindrops,Lamplit After Rain,"rain, village",rain,mud
+106,The Hollow Mountain Elevator,Snowbound Curiosity,"mechanical, alpine",wind,metal
