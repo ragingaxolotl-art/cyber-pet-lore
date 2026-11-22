@@ -10,9 +10,9 @@ test('audio library preserves complete inventory and verified public audio',()=>
   assert.equal(data.entries.filter(e=>e.kind==='music').length,42);
   assert.equal(data.entries.filter(e=>e.kind==='ambience').length,14);
   assert.equal(data.entries.filter(e=>e.kind==='footstep').length,12);
-  assert.equal(data.entries.flatMap(e=>e.clips).length,248);
-  assert.equal(data.entries.filter(e=>e.new).flatMap(e=>e.clips).length,77);
-  assert.equal(new Set(data.entries.map(e=>e.id)).size,217);
+  assert.equal(data.entries.flatMap(e=>e.clips).length,320);
+  assert.equal(data.entries.filter(e=>e.new).flatMap(e=>e.clips).length,149);
+  assert.equal(new Set(data.entries.map(e=>e.id)).size,241);
   const sources=new Set();
   for(const entry of data.entries){
     assert(page.includes(`id="${entry.id}"`));
@@ -50,7 +50,7 @@ test('starting one clip pauses every other clip',()=>{
  pauseOthers(players);assert(players.every(p=>p.paused));
 });
 test('all clips have explicit native playback and do not preload or autoplay',()=>{
- const audios=page.match(/<audio\b[^>]*>/g);assert.equal(audios.length,248);
+ const audios=page.match(/<audio\b[^>]*>/g);assert.equal(audios.length,320);
  for(const audio of audios){assert.match(audio,/controls/);assert.match(audio,/preload="none"/);assert.match(audio,/aria-label=/);assert(!audio.includes('autoplay'));}
  assert(page.includes('href="locations.csv"'));assert(page.includes('id="sound-empty" hidden'));
  assert(fs.readFileSync(new URL('../site/index.html',import.meta.url),'utf8').includes('sounds/index.html'));

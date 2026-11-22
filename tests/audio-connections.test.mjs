@@ -17,7 +17,7 @@ test('all 106 places have inline music, ambience and each floor variation in top
 test('every prepared game clip and existing song has a contextual home with valid two-way links',()=>{
  const inventory=read('sources/game-audio-inventory.json');
  const game=audio.entries.flatMap(e=>e.clips).filter(c=>!c.source_path.startsWith('lore:'));
- assert.equal(game.length,244);assert.deepEqual(game.map(c=>c.source_path).sort(),inventory.files.map(f=>f.path).sort());
+ assert.equal(game.length,316);assert.deepEqual(game.map(c=>c.source_path).sort(),inventory.files.map(f=>f.path).sort());
  for(const entry of audio.entries){
   assert(Object.values(links.topics).some(ids=>ids.includes(entry.id)),entry.id);
   assert(entry.related.length>0,entry.id);
@@ -28,9 +28,9 @@ test('every prepared game clip and existing song has a contextual home with vali
  assert(links.topics['audio-title'].includes('soft_circuit'));
  assert(audio.entries.filter(e=>e.kind==='song').every(e=>links.readings[e.reading_ids[0]].includes(e.id)));
 });
-test('local Tactical effects remain explicitly labeled as previews',()=>{
+test('Tactical effects retain their published activity label',()=>{
  const previews=audio.entries.filter(e=>e.clips.some(c=>c.source_path.includes('elevenlabs-hurdles')));
- assert.equal(previews.length,18);assert(previews.every(e=>e.status==='Tactical course preview'));
+ assert.equal(previews.length,18);assert(previews.every(e=>e.status==='Game audio · Tactical Hurdles'));
 });
 class E {
  constructor(tag){this.tagName=tag.toUpperCase();this.children=[];this.handlers={};this.attributes={};this.classList={add(){}};this.paused=false;}
@@ -55,4 +55,9 @@ test('audio stays outside source paragraphs and reader routes stop previous play
  assert(app.includes("function route(){if(!catalog)return;stopAudio();clearAudioConnections($('reader-audio'))"));
  assert(html.includes('id="reader-audio"'));assert(html.includes('id="home-audio"'));
  const wikiJS=fs.readFileSync(new URL('../site/wiki.mjs',import.meta.url),'utf8');assert(wikiJS.includes('{topicId:topic.id}'));assert(wikiJS.includes('function render(){stopAudio();'));
+});
+
+test('all 24 Dance praise phrases offer three named voices on the Dance topic',()=>{
+ const phrases=audio.entries.filter(e=>e.id.startsWith('dance_praise_'));assert.equal(phrases.length,24);
+ for(const e of phrases){assert.equal(e.clips.length,3);assert.equal(new Set(e.clips.map(c=>c.label)).size,3);assert(links.topics['audio-dance'].includes(e.id));}
 });

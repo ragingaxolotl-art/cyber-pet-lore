@@ -154,3 +154,7 @@ The committed inventory covers 244 prepared game audio files plus four song perf
 Add dated releases to `sources/publication-manifest.json` when shipping reader-facing work. The build validates destinations and regenerates Recently added and `archive-stats.json`. Keep historical uncertain dates unspecified in story content. Personal creation-log records are captured into the notebook as versioned artifacts; the original tool data is retained.
 
 `search-index.json` is metadata only; passage shards load when searching. The reader starts from the catalog and loads `wiki-reader-index.json` in the background. Older article anchors recover only from a unique exact quotation; changed or ambiguous text is explicitly marked for review. Source manuscript block IDs remain unchanged.
+
+### Dance announcer variety
+
+The collection now includes 24 praise/encouragement phrases in three ElevenLabs voices (72 clips), grouped as selectable voice variations on the Dance topic. Total: 316 prepared game files plus four song performances, in 241 entries. Warm coach (Sharif), playful arcade host (Remi), and electronic announcer (Vector) each have six Perfect, six Great, six Good and six encouragement phrases. In-game announcers change between rounds, shuffle phrases, and leave room between spoken cues. Tactical Hurdles effects are now labeled as published game audio, matching their November 22 release.

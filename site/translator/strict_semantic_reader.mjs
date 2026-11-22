@@ -1,4 +1,4 @@
-import {decodeStrictMusicMidi} from './strict_music_decoder.mjs?v=state-adjectives-1';
+import {decodeStrictMusicMidi} from './strict_music_decoder.mjs?v=contextual-width-2';
 
 // Shared strict grammar reader. Each semantic profile must validate the entire
 // remaining tree, including exact lexical conventions, roles and head roots.
@@ -64,6 +64,7 @@ export function strictSemanticReader(bytes,atoms,message,options){
  while(current.length===1&&!stop(current[0])){
   const node=current[0],m=node.marker;let scope;
   if(m==='negation_open')scope={operator:'negation'};
+  else if(m==='story_ability_open'&&options?.allowDraftInformationPassage)scope={operator:'ability'};
   else if(/^aspect_(bounded|ongoing|habitual)_open$/.test(m||''))scope={operator:'aspect',aspect:m.slice(7,-5)};
   else if(/^time_(before_speech|at_speech|after_speech|previous_day|current_day|next_day)_open$/.test(m||''))scope={operator:'time',relation:m.slice(5,-5)};
   else if(/^modality_(possible|necessary|permitted|obligated|intended|predicted|counterfactual)_open$/.test(m||''))scope={operator:'modality',mode:m.slice(9,-5)};

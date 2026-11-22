@@ -1,19 +1,20 @@
 import {FELT_CONDITIONS} from './felt_conditions.mjs';
-import {readFeltConditionTree} from './felt_decoder.mjs';
-import {renderLexicalOccurrences} from './bound_compounds.mjs';
+import {readFeltConditionTree} from './felt_decoder.mjs?v=contextual-width-2';
+import {renderLexicalOccurrences} from './bound_compounds.mjs?v=contextual-width-2';
 import {deicticReference} from './references.mjs';
-import {validStorySlots,savedQualityLabel} from './story_saved_adjectives.mjs';
-import {notesFromMidi} from './performance_codec.mjs';
-import {scoreKnownValue} from './known_value.mjs?v=field-repairs-1';
-import {composeFaultCorrection,describeFaultCorrection} from './fault_correction.mjs?v=field-repairs-1';
+import {validStorySlots,savedQualityLabel} from './story_saved_adjectives.mjs?v=contextual-width-2';
+import {notesFromMidi} from './performance_codec.mjs?v=contextual-width-2';
+import {scoreKnownValue} from './known_value.mjs?v=contextual-width-2';
+import {composeFaultCorrection,describeFaultCorrection} from './fault_correction.mjs?v=contextual-width-2';
 import {describeClaim,describeRuntime} from './meaning_readback.mjs?v=field-repairs-1';
-import {everydayMeaning} from './everyday.mjs';
-import {scoreRoleReference,readRoleReference} from './dictionary_clause_music.mjs?v=field-repairs-1';
-import {informationMusic} from './information_music.mjs?v=field-repairs-1';
-import {strictSemanticReader} from './strict_semantic_reader.mjs?v=state-adjectives-1';
-import {midiFromFormal,midiFromScheduledEvents} from './engine.mjs';
-import {storyWords,storyDependencies} from './story_words.mjs?v=state-adjectives-1';
-import {storyRoles,storyPropertyIds,needsState} from './story_readings.mjs?v=state-adjectives-1';
+import {everydayMeaning} from './everyday.mjs?v=contextual-width-2';
+import {scoreRoleReference,readRoleReference} from './dictionary_clause_music.mjs?v=contextual-width-2';
+import {informationMusic} from './information_music.mjs?v=contextual-width-2';
+import {strictSemanticReader} from './strict_semantic_reader.mjs?v=contextual-width-2';
+import {midiFromFormal,midiFromScheduledEvents} from './engine.mjs?v=contextual-width-2';
+import {storyWords,storyDependencies} from './story_words.mjs?v=information-vocabulary-1';
+import {storyRoles,storyPropertyIds,needsState} from './story_readings.mjs?v=contextual-width-2';
+import {ERASURE,erasureLabel,scoreErasure,readErasure} from './information_operations.mjs?v=information-operations-1';
 
 const feltTargets=new Map(FELT_CONDITIONS.map(f=>[f.predicate,f]));
 const catalog = new Map([...storyWords,...storyDependencies].map(w=>[w.id,w]));
@@ -27,8 +28,8 @@ export async function scoreStory(plan,authority) {
   if(plan.valueKnowledge)return scoreKnownValue(plan,authority);
   if(plan.faultPlan)return {...await composeFaultCorrection(plan.faultPlan,authority),label:'Fault correction',description:describeFaultCorrection(plan.faultPlan)};
   if(plan.physicalInput){
-    const {composeNamedSentence,parseNamedSentence}=await import('./sentences.mjs');
-    const {decodePhysicalCarryingMidi}=await import('./carrying_decoder.mjs?v=field-repairs-1');
+    const {composeNamedSentence,parseNamedSentence}=await import('./sentences.mjs?v=contextual-width-2');
+    const {decodePhysicalCarryingMidi}=await import('./carrying_decoder.mjs?v=contextual-width-2');
     const parsed=parseNamedSentence(plan.physicalInput);
     if(!parsed||parsed.key!=='ongoing_physical_carrying')throw Error('This physical carrying construction needs a complete carrier and load.');
     const scored=await composeNamedSentence(plan.physicalInput,{authority});
@@ -67,7 +68,7 @@ export async function scoreStory(plan,authority) {
     return draft('story_property',[...slots,...entry.events]);
   }
   for(const e of plan.events){
-    let body=await lexical(e.predicate);
+    let body=e.predicate===ERASURE?await scoreErasure(music):await lexical(e.predicate);
     if(e.condition)body.push(...await propertySound(e.condition,e.arguments.find(a=>a.role==='bearer').entity));
     for(const argument of e.arguments){
       const values=[];
@@ -95,7 +96,7 @@ export async function scoreStory(plan,authority) {
 }
 
 export function describeStory(plan,authority){
-  const label=key=>typeof key==='object'?savedQualityLabel(key,plan.adjectives,i=>plan.entities[i].label):everydayMeaning(authority,key) || catalog.get(key)?.word || authority.atoms.find(a=>a.canonical_id===key)?.title || key;
+  const label=key=>typeof key==='object'?savedQualityLabel(key,plan.adjectives,i=>plan.entities[i].label):key===ERASURE?erasureLabel:everydayMeaning(authority,key) || catalog.get(key)?.word || authority.atoms.find(a=>a.canonical_id===key)?.title || key;
   const names=plan.events.map(e=>e.arguments.map(a=>plan.entities[a.entity].label).join(' / '));
   const lines=plan.events.map((e,i)=>{
     const name=a=>plan.entities[a.entity].label+(a.properties.length?' ('+a.properties.map(label).join(', ')+')':'');
@@ -116,7 +117,8 @@ export function describeStory(plan,authority){
 
 // Match the entire nested dictionary sound. The last part is the semantic
 // head and carries the occurrence ending. Qualifying roots have no ending.
-function readWord(node){
+function readWord(node,reader){
+  const operation=readErasure(node,reader);if(operation)return operation;
   const fail=()=>{throw Error('Invalid story vocabulary sound.');};
   function part(n,id,head){
     const item=catalog.get(id);
@@ -161,7 +163,7 @@ export function decodeStoryMidi(bytes,atoms,adjectives) {
         if(!target||quality.runtime_state!==1)invalid();
         return target.predicate;
       }
-      const value=readWord(word);
+      const value=readWord(word,reader);
       if(value.state!==1||!storyPropertyIds.has(value.id))invalid();
       return value.id;
     }
@@ -207,7 +209,7 @@ export function decodeStoryMidi(bytes,atoms,adjectives) {
       while(list.length===1 && (list[0].marker==='story_ability_open'||scopes.has(list[0].marker?.replace(/_open$/,'')))){
         modifiers.push(list[0].marker==='story_ability_open'?'ability':list[0].marker.slice(0,-5));list=list[0].children;
       }
-      const [head,...roles]=list,word=readWord(head);
+      const [head,...roles]=list,word=readWord(head,reader);
       if(runtime!==null&&runtime!==word.state)invalid();runtime=word.state;
       const stateNode=needsState(word.id)?roles.shift():null;
       if(needsState(word.id)&&!stateNode)invalid();

@@ -1,0 +1,9 @@
+{
+  "generator": "PixelLab Pixen",
+  "date": "2026-11-22",
+  "job_id": "100646bc-2fbe-4b84-9b72-6e06e06368df",
+  "prompt": "One small swirling storm cloud sprite for a cyber pet's mental-fatigue emote. A compact dark lavender and blue-gray thundercloud with curled spiral-shaped puffs and two tiny bright pale-yellow zigzag lightning bolts underneath. Crisp expressive 16-bit pixel art, dark outline and silver-lilac highlights, no face, no eyes, no character, no words. Front view, a single isolated cloud centered on transparent background with generous padding. Game will orbit this still sprite continuously; draw no motion trails and no background.",
+  "generations": 1,
+  "download": "https://api.pixellab.ai/mcp/images/100646bc-2fbe-4b84-9b72-6e06e06368df/download",
+  "review": "Accepted. Authored static pixels are unchanged; a continuous six-second engine orbit and soft local lightning pulses provide motion."
+}

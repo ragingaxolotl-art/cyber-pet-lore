@@ -1,0 +1,1 @@
+Reviewed native effect source, November 22, 2026. Integrates with Cyber Pet game classes; not standalone sprites. Includes the linked-door walking loop. Earlier published native sources remain in the parent folder. Previews use bundled anonymous PIP, Blue Cap and Meep artwork; no student profiles or saves are included.

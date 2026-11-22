@@ -74,9 +74,33 @@
   {
     "id": "unified-workspace-20261122",
     "date": "2026-11-22",
-    "order": 10,
+    "order": 13,
     "title": "One searchable lore workspace",
     "description": "Full-text search, a shared notebook, stage and audio notes, saved tool versions, and conflict-preserving backups.",
     "url": "notebook.html"
+  },
+  {
+    "id": "dance-voices-20261122",
+    "date": "2026-11-22",
+    "order": 10,
+    "title": "Three Dance announcers",
+    "description": "Varied praise and encouragement from three voices, linked to the Dance topic.",
+    "url": "sounds/index.html"
+  },
+  {
+    "id": "illness-visuals-20261122",
+    "date": "2026-11-22",
+    "order": 11,
+    "title": "Reviewed illness visuals",
+    "description": "Twenty-two illness readings gain reviewed visuals while earlier examples remain preserved.",
+    "url": "illnesses/index.html"
+  },
+  {
+    "id": "translator-meanings-20261122",
+    "date": "2026-11-22",
+    "order": 12,
+    "title": "Translator meanings and diagnostics",
+    "description": "Verified physical width, holding, information operations and known-word diagnostics are integrated from the current translator release.",
+    "url": "translator/index.html"
   }
 ]

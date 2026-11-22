@@ -1,9 +1,10 @@
 // English predicates come from the installed dictionary. A frame specifies which
 // participant a predicate can take in this construction, independently of its spelling.
 import {matchingChoice} from './dictionary_word_choices.mjs';
-import {analyzeEnglish,phrasalVerbAt} from './english.mjs?v=1.16.1';
-import {parseNominal} from './nominals.mjs';
+import {analyzeEnglish,phrasalVerbAt} from './english.mjs?v=contextual-width-2';
+import {parseNominal} from './nominals.mjs?v=contextual-width-2';
 import {expandNegativeContractions} from './contractions.mjs';
+import {ERASURE,isStoredInformationTarget,erasureSense} from './information_operations.mjs?v=information-operations-1';
 
 const frames = new Map();
 function frame(ids,subject,object,prepositions={}) {
@@ -21,7 +22,7 @@ frame('DAT:121 CON:121','source','content',{with:'recipient'});
 frame('REP:101 LIF:101 MOV:100 MOV:101','actor',null);
 frame('WRN:001 REP:001 LIF:001 LIF:002 LIF:011 LIF:012','bearer',null);
 
-const pastForms={find:'found',see:'saw',make:'made',break:'broke',build:'built',send:'sent',leave:'left',go:'went',wake:'woke',sleep:'slept',know:'knew',seek:'sought',take:'took',run:'ran',come:'came',bring:'brought',heal:'healed',hurt:'hurt',do:'did'};
+const pastForms={hold:'held',find:'found',see:'saw',make:'made',break:'broke',build:'built',send:'sent',leave:'left',go:'went',wake:'woke',sleep:'slept',know:'knew',seek:'sought',take:'took',run:'ran',come:'came',bring:'brought',heal:'healed',hurt:'hurt',do:'did'};
 const phases={'REP:110':['REP:111','REP:110'],'REP:111':['REP:111','REP:110'],'WRN:111':['WRN:111','WRN:110'],'CRE:111':['CRE:111','CRE:110'],'CON:101':['CON:101','CON:100'],'CON:111':['CON:111','CON:110'],'LIF:111':['LIF:111','LIF:110']};
 const particles=new Set(['up','for','from','to','at','of','with','on','out','down','in','off']);
 const forbidden=new Set('a an the this that these those and or but not no never if unless then now today yesterday tomorrow may might will would could should must can to from of in on at with for before after by i me my we us our you your he she they them it her his who what someone nobody everyone something nothing one two three all some each please do does did is are am was were had has have need needs might maybe perhaps when how why which where must would kindly there yes no other any none'.split(' '));
@@ -36,6 +37,36 @@ function inflections(phrase) {
   else {third=verb+(/(?:s|sh|ch|x|z|o)$/.test(verb)?'es':'s');past=verb+(verb.endsWith('e')?'d':'ed');}
   const stem=verb.replace(/([^e])e$/,'$1');
   return {base:phrase,third:third+tail,past:(pastForms[verb]||past)+tail,progressive:stem+'ing'+tail};
+}
+
+// Recognition is separate from having a composer for a particular sentence.
+// Exact forms of an existing meaning must not become a new-word alias picker
+// just because its argument structure, voice or aspect is unsupported.
+const recognizedCache=new WeakMap();
+function recognizedPredicateForms(authority){
+  const cached=recognizedCache.get(authority);
+  if(cached&&cached.local===authority.local_senses)return cached.forms;
+  const forms=new Set(),verbSeeds=new Set();
+  for(const sense of [...(authority.local_senses||[]),...(authority.game_story_senses||[]),...authority.senses]){
+    if(!['verb','adjective'].includes(sense.part_of_speech)||!['atom','compound','semantic_ir','grammar'].includes(sense.route))continue;
+    for(const surface of [sense.lemma,...(sense.surface_forms||[])]){
+      const form=normalized(surface);forms.add(form);
+      if(sense.part_of_speech==='verb'&&/^[a-z-]+(?: [a-z-]+)?$/.test(form)&&
+          (!form.includes(' ')||particles.has(form.split(' ')[1])))verbSeeds.add(form);
+    }
+  }
+  const derived=new Set([...verbSeeds].flatMap(seed=>Object.values(inflections(seed)).filter(form=>form!==seed)));
+  for(const seed of verbSeeds)if(!derived.has(seed)&&!/(?:ed|ing)$/.test(seed)){
+    for(const form of Object.values(inflections(seed)))forms.add(form);
+  }
+  recognizedCache.set(authority,{local:authority.local_senses,forms});return forms;
+}
+
+export function recognizedClausePredicate(input,authority){
+  const syntax=clauseSyntax(input);if(!syntax)return null;
+  const tokens=syntax.tail.split(' '),length=phrasalVerbAt(tokens.map(normalized),0)?2:1;
+  const surface=tokens.slice(0,length).join(' ');
+  return recognizedPredicateForms(authority).has(normalized(surface))?surface:null;
 }
 
 function subjectAndTail(text) {
@@ -76,7 +107,7 @@ export function clauseSyntax(input) {
   text=text.replace(/[.!?]$/,'');
   let first='', lead;
   if (question){
-    lead=/^(do|does|did|might|is|are|am|was|were)\s+(.+)$/i.exec(text);
+    lead=/^(do|does|did|might|can|cannot|will|is|are|am|was|were)\s+(.+)$/i.exec(text);
     if(!lead)return null;
     first=normalized(lead[1]);text=lead[2];
   }
@@ -91,13 +122,19 @@ export function clauseSyntax(input) {
   const scopes=[],when=/\s+(today|yesterday|tomorrow)$/i.exec(tail);
   if(when){scopes.push('time_'+({today:'current_day',yesterday:'previous_day',tomorrow:'next_day'}[normalized(when[1])]));tail=tail.slice(0,when.index);}
   let form=knownActor.test(subject)?'base':'third',being=false;
-  const aux=/^(do|does|did|might|is|are|am|was|were)\s+(not\s+)?(.+)$/i.exec(tail);
+  const aux=/^(do|does|did|might|can|cannot|will|is|are|am|was|were)\s+(not\s+)?(.+)$/i.exec(tail);
   if(aux){
     const a=normalized(aux[1]);
     if(!agrees(a,subject))return null;
     if(a==='did'||a==='was'||a==='were')scopes.push('time_before_speech');
     if(a==='might')scopes.push('modality_possible');
-    if(aux[2])scopes.push('negation');
+    if(a==='will')scopes.push('time_after_speech');
+    // Cannot / can not deny ability; will not places negation inside future time.
+    if(a==='can'||a==='cannot'){
+      if(a==='cannot'&&aux[2])return null;
+      if(a==='cannot'||aux[2])scopes.push('negation');
+      scopes.push('ability');
+    }else if(aux[2])scopes.push('negation');
     being=['am','is','are','was','were'].includes(a);
     form=being?'progressive':'base';tail=aux[3];
   }
@@ -164,7 +201,7 @@ export function dictionaryClausePlan(input,authority,{offerDefinition=false,pref
     if(tail!==form&&!tail.startsWith(form+' '))continue;
     const participants=argumentsFor(shape,syntax.subject,syntax.tail.slice(form.length).trim());
     if(!participants || new Set(participants.map(p=>normalized(p.text))).size!==participants.length)continue;
-    if(sense.target_id==='erase_stored_object'&&(!syntax.scopes.includes('modality_necessary')||!/^(?:the|this|that|a|an) (program|file|record|message|document|backup|log|entry)$/.test(participants[1]?.text)))continue;
+    if(sense.target_id===ERASURE&&!isStoredInformationTarget(participants[1]?.text?.replace(/^(?:the|this|that|a|an) /,'')))continue;
     const scopes=[...syntax.scopes];
     if(mode==='past' && scopes.includes('time_next_day'))continue;
     if(mode==='past')scopes.push('time_before_speech');
@@ -172,7 +209,8 @@ export function dictionaryClausePlan(input,authority,{offerDefinition=false,pref
     const pair=!sense.local_review&&phases[sense.target_id],root=pair?pair[mode==='past'||scopes.includes('modality_necessary')&&mode==='base'?1:0]:sense.target_id;
     const key=JSON.stringify([root,participants,scopes]);
     if(readings.some(r=>r.key===key))continue;
-    readings.push({key,sense,root,participants,scopes,word:syntax.tail.slice(0,form.length),quality:mode==='quality'});
+    const selectedSense=root===ERASURE?erasureSense(authority,{mode,scopes,speechAct:syntax.speechAct}):sense;
+    readings.push({key,sense:selectedSense,root,participants,scopes,word:syntax.tail.slice(0,form.length),quality:mode==='quality'});
   }
   if(readings.length>1){
     const rank=new Map(analyzeEnglish(input,authority).candidates.map((c,i)=>[c.sense_id,i]));
@@ -203,6 +241,9 @@ export function dictionaryClausePlan(input,authority,{offerDefinition=false,pref
   }
   if(!readings.length)return null;
   const preferred=readings.findIndex(r=>matchingChoice(preferences,r)?.target===r.sense.target_id);
+  // A prior explicit personal definition can deliberately use the same spelling.
+  // Without one, do not offer unrelated meanings for an already defined word.
+  if(needsDefinition&&preferred<0&&recognizedClausePredicate(input,authority))return null;
   if(preferred>=0){
     const reading=readings[preferred],choice=matchingChoice(preferences,reading);
     const root=choice.root??choice.target;
@@ -225,6 +266,9 @@ export function dictionaryRoles(root) {
 // their existing parser for necessities and the inclusive speaker-group anchor.
 export function savedScopedReadings(input,entries,part) {
   const syntax=clauseSyntax(input);if(!syntax)return [];
+  // Bound personal compounds do not yet have the story ability enclosure.
+  // Do not reinterpret ability as an empty or possible modality.
+  if(syntax.scopes.includes('ability'))return [];
   if(syntax.subject!=='we'&&!syntax.scopes.includes('modality_necessary'))return [];
   const scopes=syntax.scopes.map(scope=>scope==='negation'?{operator:'negation'}:scope.startsWith('time_')?{operator:'time',relation:scope.slice(5)}:{operator:'modality',mode:scope.slice(9)});
   const tail=normalized(syntax.tail),matches=[];

@@ -1,13 +1,13 @@
-import {storyReading} from './story_readings.mjs?v=state-adjectives-1';
-import {scoreStory} from './story_music.mjs?v=state-adjectives-1';
-import {dictionaryClausePlan} from './dictionary_clauses.mjs?v=1.16.1';
-import {scoreDictionaryClause} from './dictionary_clause_music.mjs?v=field-repairs-1';
-import {midiFromFormal,midiFromScheduledEvents} from './engine.mjs';
-import {notesFromMidi} from './performance_codec.mjs';
+import {storyReading} from './story_readings.mjs?v=contextual-width-2';
+import {scoreStory} from './story_music.mjs?v=contextual-width-2';
+import {dictionaryClausePlan} from './dictionary_clauses.mjs?v=contextual-width-2';
+import {scoreDictionaryClause} from './dictionary_clause_music.mjs?v=contextual-width-2';
+import {midiFromFormal,midiFromScheduledEvents} from './engine.mjs?v=contextual-width-2';
+import {notesFromMidi} from './performance_codec.mjs?v=contextual-width-2';
 import {composeNamedSentence,parseNamedSentence,parseSentenceConjunction,composeSentenceConjunction,
-  parseSentenceSequence,composeSentenceSequence,parseSentenceConditional,composeSentenceConditional} from './sentences.mjs';
-import {faultCorrectionPlan,composeFaultCorrection,describeFaultCorrection} from './fault_correction.mjs?v=field-repairs-1';
-import {informationPassagePlan,composeInformationPassage} from './information_passage.mjs';
+  parseSentenceSequence,composeSentenceSequence,parseSentenceConditional,composeSentenceConditional} from './sentences.mjs?v=contextual-width-2';
+import {faultCorrectionPlan,composeFaultCorrection,describeFaultCorrection} from './fault_correction.mjs?v=contextual-width-2';
+import {informationPassagePlan,composeInformationPassage} from './information_passage.mjs?v=contextual-width-2';
 
 export function songMidi(lines) {
   if (!lines.length) throw Error('Add a translated line to your song first.');

@@ -1,15 +1,16 @@
-import {dictionaryRoles} from './dictionary_clauses.mjs';
-import {contextualContentReference} from './contextual_content.mjs';
-import {informationMusic} from './information_music.mjs?v=field-repairs-1';
+import {dictionaryRoles} from './dictionary_clauses.mjs?v=contextual-width-2';
+import {contextualContentReference} from './contextual_content.mjs?v=contextual-width-2';
+import {informationMusic} from './information_music.mjs?v=contextual-width-2';
 import {informationFrame} from './information_passage_frames.mjs?v=field-repairs-1';
-import {midiFromScheduledEvents} from './engine.mjs';
+import {midiFromScheduledEvents} from './engine.mjs?v=contextual-width-2';
 import {registerFor} from './roles.mjs';
-import {strictSemanticReader} from './strict_semantic_reader.mjs?v=field-repairs-1';
+import {strictSemanticReader} from './strict_semantic_reader.mjs?v=contextual-width-2';
+import {ERASURE,scoreErasure,readErasure} from './information_operations.mjs?v=information-operations-1';
 
 const semantic=(root,participants,scopes,runtime_state,speech_act)=>({
   profile:'EZ-DICTIONARY-CLAUSE-1',status:'draft',predicate:root,participants,scopes,runtime_state,speech_act
 });
-const supportedScopes=new Set(['modality_necessary','modality_possible','negation','aspect_ongoing','time_before_speech','time_previous_day','time_current_day','time_next_day']);
+const supportedScopes=new Set(['modality_necessary','modality_possible','ability','negation','aspect_ongoing','time_before_speech','time_after_speech','time_previous_day','time_current_day','time_next_day']);
 
 function framed(name,events,anchor) {
   return [informationFrame(name+'_open',anchor),...events,informationFrame(name+'_close',anchor)];
@@ -48,11 +49,9 @@ export function readRoleReference(nodes,role,reader) {
 export async function scoreDictionaryClause(plan,index,authority) {
   const reading=plan.readings[index];
   if(!reading)throw Error('Choose the intended word meaning.');
-  const {anchor,wrap,reference,lexical}=informationMusic(authority,plan.runtime);
+  const music=informationMusic(authority,plan.runtime),{anchor,wrap,reference,lexical}=music;
   const participants=[];
-  let events=reading.root==='erase_stored_object' ? framed('erase_stored_object',[
-    ...await lexical('ORI:110'),...wrap('role_result',wrap('negation',await lexical('DAT:000')))
-  ],anchor) : await lexical(reading.root);
+  let events=reading.root===ERASURE?await scoreErasure(music):await lexical(reading.root);
   for(const {role,text} of reading.participants){
     const {identity,notes}=await scoreRoleReference(text,role,{anchor,reference});
     participants.push({role,reference:identity});
@@ -72,7 +71,7 @@ export function decodeDictionaryClauseMidi(bytes,atoms) {
   const reader=strictSemanticReader(bytes,atoms,'Invalid dictionary clause.',{allowDraftInformationPassage:true});
   let nodes=reader.readTree();const scopes=[];
   while(nodes.length===1 && nodes[0].marker!=='dictionary_clause_open'){
-    const scope=nodes[0].marker?.replace(/_open$/,'');
+    const scope=nodes[0].marker==='story_ability_open'?'ability':nodes[0].marker?.replace(/_open$/,'');
     if(!supportedScopes.has(scope)||!nodes[0].children||scopes.length>=8)fail();
     scopes.push(scope);nodes=nodes[0].children;
   }
@@ -80,13 +79,8 @@ export function decodeDictionaryClauseMidi(bytes,atoms) {
   const [head,...args]=nodes[0].children,act=reader.observed.speech_act;
   if(!head||!['assertion','question','command'].includes(act))fail();
   let root=head.root_id,runtime=head.runtime_state;
-  if(head.marker==='erase_stored_object_open'){
-    const [transition,result]=head.children;
-    if(head.children.length!==2||!scopes.includes('modality_necessary')||result?.marker!=='role_result_open'||result.children.length!==1)fail();
-    const negative=result.children[0];
-    if(negative.marker!=='negation_open'||negative.children.length!==1)fail();
-    root='erase_stored_object';runtime=transition.runtime_state;
-    reader.exactRoot(transition,'ORI:110','middle',runtime);reader.exactRoot(negative.children[0],'DAT:000','middle',runtime);
+  if(head.marker===ERASURE+'_open'){
+    const operation=readErasure(head,reader);root=operation.id;runtime=operation.state;
   }else if(head.kind!=='root'||head.register!=='middle')fail();
   if(![0,1,2].includes(runtime))fail();
   const roles=args.map(n=>/^role_(.+)_open$/.exec(n.marker)?.[1]);

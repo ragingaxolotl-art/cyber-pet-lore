@@ -1,12 +1,13 @@
-import {validStorySlots} from './story_saved_adjectives.mjs';
+import {validStorySlots} from './story_saved_adjectives.mjs?v=contextual-width-2';
 import {isPassageHead} from './passage_nouns.mjs';
-import {knownValueReading} from './known_value.mjs?v=field-repairs-1';
-import {faultCategoryReading} from './fault_correction.mjs?v=field-repairs-1';
-import {routeNounLabel} from './nominals.mjs';
+import {knownValueReading} from './known_value.mjs?v=contextual-width-2';
+import {faultCategoryReading} from './fault_correction.mjs?v=contextual-width-2';
+import {routeNounLabel} from './nominals.mjs?v=contextual-width-2';
 import {expandNegativeContractions} from './contractions.mjs';
-import {clauseSyntax, dictionaryClausePlan, dictionaryRoles} from './dictionary_clauses.mjs';
-import {properties,feltProperties,isMaterialTarget} from './story_qualities.mjs';
-import {storyWords} from './story_words.mjs?v=state-adjectives-1';
+import {clauseSyntax, dictionaryClausePlan, dictionaryRoles} from './dictionary_clauses.mjs?v=contextual-width-2';
+import {properties,feltProperties,isMaterialTarget,isPhysicalContainer,physicalActionLabels} from './story_qualities.mjs?v=physical-holding-1';
+import {storyWords} from './story_words.mjs?v=information-vocabulary-1';
+import {ERASURE,isStoredInformationTarget} from './information_operations.mjs?v=information-operations-1';
 
 const words = new Map(storyWords.map(word => [word.word, word]));
 const id = word => words.get(word).id;
@@ -18,6 +19,15 @@ const shapes = [
   ['displace','displaces','displaced',['cause','bearer'],null,'displacing'],
   ['lift','lifts','lifted',['actor','target'],null,'lifting'],
   ['lower','lowers','lowered',['actor','target'],null,'lowering'],
+  ['pull','pulls','pulled',['actor','target'],null,'pulling'],
+  ['hold','holds','held',['actor','target'],'physical holding foundation','holding'],
+  ['release','releases','released',['actor','target'],null,'releasing'],
+  ['fall','falls','fell',['bearer'],null,'falling'],
+  ['drop','drops','dropped',['actor','target'],null,'dropping'],
+  ['delete','deletes','deleted',['actor','target'],ERASURE,'deleting'],
+  ['copy','copies','copied',['actor','target'],null,'copying'],
+  ['recall','recalls','recalled',['experiencer','target'],null,'recalling'],
+  ['remember','remembers','remembered',['experiencer','target'],'recall','remembering'],
   ['resume','resumes','resumed',['bearer'],null,'resuming'],
   ['vibrate', 'vibrates', 'vibrated', ['bearer']],
   ['sound', 'sounds', 'sounded', ['source']],
@@ -48,7 +58,8 @@ const shapes = [
   ['move','moves','moved',['actor'],'MOV:121','moving'],
   ['make','makes','made',['source','result'],'CRE:110']
 ];
-const predicateId = (word,target) => target?.includes(':')?target:word==='arrive'?'MOV:110':id(target||word);
+const predicateId = (word,target) => target===ERASURE||target?.includes(':')?target:word==='arrive'?'MOV:110':id(target||word);
+const commandVerbs=new Set(['repair',...shapes.filter(row=>row[3].length===2).map(row=>row[0]),'ring']);
 const pronouns = new Set('they them he him she her it'.split(' '));
 const deictics = {i:'I',me:'I',we:'we',us:'we',you:'you'};
 const determiners = new Set('a an the this that'.split(' '));
@@ -190,21 +201,13 @@ function describeChoice(row) {
 function predicate(verb, subject, object, authority, runtime, preferences) {
   const anchor = subject.pronoun ? (deictics[subject.pronoun] || (['they','them'].includes(subject.pronoun)?'we':'Ada')) :
     subject.plural&&!subject.singularAgreement?'we':'Ada';
-  const capability=/^(cannot|can not|can|will)(?: (not))? (.+)$/i.exec(verb);
-  const governed=capability?capability[3]:verb;
-  const placeholder = anchor+' '+(capability?'might ':'')+governed+(object?' the gate':'');
+  const placeholder = anchor+' '+verb+(object?' the gate':'');
   const syntax = clauseSyntax(placeholder);
   if (!syntax) return [];
-  if(capability){
-    const modal=capability[1].toLowerCase();
-    syntax.scopes=modal==='will'?['time_after_speech']:['ability'];
-    if(modal==='cannot'||modal==='can not')syntax.scopes.unshift('negation');
-    else if(capability[2])syntax.scopes.push('negation');
-  }
   const personal=preferences.length && dictionaryClausePlan(placeholder+' ['+runtime+'].',authority,{preferences});
   if(personal && personal.preferred>=0){
     const r=personal.readings[personal.preferred];
-    if(r.root!=='erase_stored_object')return [{root:r.root,word:r.sense.lemma,roles:r.participants.map(p=>p.role),scopes:r.scopes,sense:r.sense,specific:false}];
+    return [{root:r.root,word:r.sense.lemma,roles:r.participants.map(p=>p.role),scopes:r.scopes,sense:r.sense,specific:false}];
   }
   const tail = object ? folded(syntax.tail).slice(0,-' the gate'.length) : folded(syntax.tail);
   if(syntax.being && !object && properties.has(tail) && !Object.hasOwn(feltProperties,tail) && !['available','curious','resumed'].includes(tail))return [{root:properties.get(tail),word:tail,roles:['bearer'],scopes:syntax.scopes,specific:words.has(tail)||passageQualities.has(properties.get(tail))}];
@@ -235,7 +238,7 @@ function predicate(verb, subject, object, authority, runtime, preferences) {
   }
   const plan = dictionaryClausePlan(placeholder+' ['+runtime+'].',authority,{preferences});
   if (!plan) return [];
-  const rows = (plan.preferred>=0?[plan.readings[plan.preferred]]:plan.readings).filter(r=>r.root!=='erase_stored_object');
+  const rows = plan.preferred>=0?[plan.readings[plan.preferred]]:plan.readings;
   return rows.map(r=>({root:r.root,word:r.sense.lemma,roles:r.participants.map(p=>p.role),scopes:r.scopes,
     sense:r.sense, specific:false}));
 }
@@ -290,8 +293,16 @@ function prepare(input, authority, preferences, adjectives) {
           shared&&predicate(shared.verb,clauses.at(-1).subject,shared.object,authority,runtime,preferences).length)){
         subject=clauses.at(-1).subject;consumed=0;inherited=true;special=true;
       }
-      if(clauses.length===0 && sentences.length===1 && /^(?:find|notice|spot|repair|repeat|ring|keep|push|lift|lower|displace) (?:(?:it|them|the|a|an|this|that)\b)/i.test(piece)){
-        subject={text:'you',pronoun:'you'};consumed=0;act='command';
+      const polite=folded(tokens[0]||'')==='please'?1:0;
+      const commandOffset=polite+(folded(tokens[polite]||'')==='do'&&folded(tokens[polite+1]||'')==='not'?2:0);
+      const commandWord=folded(tokens[commandOffset]||'');
+      const commandTail=commandVerbs.has(commandWord)?tokens.slice(commandOffset):[];
+      const command=commandTail.length?(stateComplement(commandTail,parseObject,qualityAt)||parseObject(commandTail)):null;
+      // Use the same complete object parser as statements. An article-only
+      // shortcut excluded names and pronouns; matching the entire predicate
+      // also avoids turning a person named Copy into an imperative subject.
+      if(clauses.length===0 && sentences.length===1 && command?.object && folded(command.verb)===commandWord){
+        subject={text:'you',pronoun:'you'};consumed=polite;act='command';
       }
       if(!subject || q&&!subject.plural)return null;
       let tail=tokens.slice(consumed),when=null,again=false,recipient=null;
@@ -404,6 +415,13 @@ export function storyReading(input, authority, {answers={}, preferences=[], adje
     entities.push({reference,referenceKind:np.referenceKind,domain:np.domain,label:np.guessedName?np.reference:np.text,head:np.head,plural:!!np.plural||reference==='we',category,owner});return entities.length-1;
   }
   function passageSense(entity,word,key,root){
+    if(root===id('empty')||root===id('full')){
+      if(isPhysicalContainer(entities[entity].head||'')||answers[key]==='physical')return root;
+      if(answers[key]==='other')return null;
+      const label=root===id('empty')?'A physical container with none of the relevant contents':'A physical container whose relevant contents reach capacity';
+      question={key,prompt:'What does “'+word+'” mean for '+entities[entity].label+'?',options:[{value:'physical',label},{value:'other',label:'Another meaning'}]};
+      return null;
+    }
     if(root===id('available for use') && word!=='available for use' || root===id('curious') && word==='curious' || root===id('closed')){
       const head=entities[entity].head||'';
       if(root===id('closed') && /^(?:gates?|doors?|hatch(?:es)?|windows?|lids?|boxes|box|valves?)$/.test(head))return root;
@@ -503,17 +521,6 @@ export function storyReading(input, authority, {answers={}, preferences=[], adje
     if(c.object){
       const target=identify(c.object,'object'+index,sub);
       if(target===null)return question?{question}:null;
-      if(['push','lift','lower','displace'].includes(reading.word)){
-        const entity=entities[target],head=entity.head||'';
-        // A conventional physical reading is direct for ordinary material targets.
-        // Named and abstract targets can also be a ban, a price or a software push.
-        if(!isMaterialTarget(head)){
-          const key='physical'+index;
-          if(!answers[key])return {question:{key,prompt:'Does “'+reading.word+'” describe a physical action on '+entity.label+'?',options:[
-            {value:'physical',label:words.get(reading.word).example},{value:'other',label:'Another meaning'}]}};
-          if(answers[key]!=='physical')return null;
-        }
-      }
       const objectArg=argument(c.object,target,reading.roles[1],'property'+index+'Object');
       if(!objectArg)return question?{question}:null;
       if(c.alternatives.length){
@@ -527,6 +534,38 @@ export function storyReading(input, authority, {answers={}, preferences=[], adje
         }
       }
       args.push(objectArg);
+    }
+    if(Object.hasOwn(physicalActionLabels,reading.word)){
+      const affected=args.find(a=>a.role===(reading.word==='fall'?'bearer':reading.word==='displace'?'bearer':'target'));
+      for(const [i,option] of [affected,...affected?.alternatives||[]].entries()){
+        if(!option)continue;
+        const entity=entities[option.entity];
+        if(isMaterialTarget(entity.head||''))continue;
+        const key='physical'+index+(i?'Alternative'+(i-1):'');
+        if(!answers[key])return {question:{key,prompt:'Does “'+reading.word+'” describe a physical action involving '+entity.label+'?',options:[
+          {value:'physical',label:physicalActionLabels[reading.word]},{value:'other',label:'Another meaning'}]}};
+        if(answers[key]!=='physical')return null;
+      }
+    }
+    const informationVerb=reading.root===ERASURE?'delete':reading.root===id('copy')?'copy':null;
+    if(informationVerb){
+      const target=args.find(a=>a.role==='target');
+      for(const [i,option] of [target,...target.alternatives||[]].entries()){
+        const entity=entities[option.entity];
+        if(isStoredInformationTarget(entity.head))continue;
+        const key='information'+index+(i?'Alternative'+(i-1):'');
+        if(!answers[key])return {question:{key,prompt:informationVerb==='delete'
+          ?'Does “delete” mean removing '+entity.label+' from a store or collection of information?'
+          :'Does “copy” mean creating a distinct stored copy of '+entity.label+' while retaining the source?',options:[
+          {value:'stored',label:informationVerb==='delete'?'Remove the stored information item':'Create a stored copy'},{value:'other',label:'Another meaning'}]}};
+        if(answers[key]!=='stored')return null;
+      }
+    }
+    if(reading.root===id('recall')){
+      const key='retrieval'+index;
+      if(!answers[key])return {question:{key,prompt:'Does “'+reading.word+'” mean bringing a previously latent representation back to mind?',options:[
+        {value:'retrieval',label:'Bring it back to mind'},{value:'other',label:'Another meaning'}]}};
+      if(answers[key]!=='retrieval')return null;
     }
     const bearer=args.find(a=>a.role==='bearer');
     if(bearer){
