@@ -65,3 +65,5 @@ GitHub Pages run `45079128898` succeeded on attempt 2. Attempt 1 passed the buil
 The replacement browser tool was attempted after the environment change. Setup failed with `Trusted RPC service is not configured: browser`; no browser instance was established.
 
 The live index, reader, notebook, search index, shared workspace modules and Haven chapter route were downloaded over verified HTTPS and matched the published commit. Pages runs `45080288571` and `45080454273` also succeeded. A final static review kept mobile note jumps within the reading route and made outdated quotations explicit in the reader as well as reference articles.
+
+After incorporating `db3c2bf`, the complete website suite passed **243 tests**. The isolated HTTP check additionally round-tripped text, entity, map, audio interval, artifact-version and page targets. The SSD workspace was fast-forwarded with its untracked audit files preserved; the final published head is synchronized as part of handoff.
