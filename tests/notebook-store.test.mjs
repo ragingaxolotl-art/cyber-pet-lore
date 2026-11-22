@@ -24,3 +24,6 @@ test('locking while a load is pending prevents a subsequent cloud write',async()
  let release,puts=0;const pending=new Promise(resolve=>release=resolve);const store=new NotebookStore({storage:memory(),session:memory(),delay:100000,request:async(url,options)=>{if(url.endsWith('/connect'))return response(200,{token:'test'});if(url.endsWith('/disconnect'))return response(200,{});if(options.method==='PUT'){puts++;return response(200,{revision:1});}await pending;return response(200,{state:null,revision:0});}});
  const connect=store.connect('code');await new Promise(resolve=>setTimeout(resolve,0));store.lock();release();await connect;assert.equal(puts,0);assert.match(store.status,/locked/);store.destroy();
 });
+test('separate store clients retain simultaneous wording until explicit resolution',()=>{
+ const storage=memory(),a=new NotebookStore({storage}),b=new NotebookStore({storage});a.updateReading('story',{note:'Version A'});b.updateReading('story',{note:'Version B'});a.refresh();assert.equal(a.state.readings.story._sync.note.versions.length,2);a.resolveReadingField('story','note','Version A');b.refresh();assert.equal(b.state.readings.story.note,'Version A');assert.equal(b.state.readings.story._sync.note.versions.length,1);a.destroy();b.destroy();
+});

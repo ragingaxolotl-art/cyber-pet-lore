@@ -55,3 +55,11 @@ Current main through `c56bd5d` was merged, preserving the newer translator meani
 Final integrated automated suite before publication: **237 tests passed, 0 failed**. Rendering, mobile network timing and live authenticated cross-device restoration remain explicitly unverified.
 
 The subsequent six-illness update `6d1fda3` was also merged. Final pre-publication suite: **240 passed, 0 failed**; regenerated search now contains 44,288 passages.
+
+### HTTP integration and first successful publication
+
+GitHub Pages run `45079128898` succeeded on attempt 2. Attempt 1 passed the build and tests but failed to discover its just-uploaded Pages artifact; the artifact was confirmed present before retrying.
+
+`tools/check_notebook_service.mjs <service checkout>` starts an isolated HTTP server using the deployed handler, an in-memory database and temporary test authentication. It passed restore across two independent notebook clients, map/audio-compatible typed records, ribbon artifacts, competing note edits, deletion tombstones and expired-session recovery. It does not access production reader records. Each NotebookStore now owns a distinct writer identity; its regression is included in the **241 passing website tests**. Actual browser interactions and live production authenticated restore remain unverified.
+
+The replacement browser tool was attempted after the environment change. Setup failed with `Trusted RPC service is not configured: browser`; no browser instance was established.

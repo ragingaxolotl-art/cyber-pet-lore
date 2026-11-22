@@ -6,7 +6,7 @@ export const MIGRATION_KEY=STORAGE_KEY+'.before-workspace-v2';
 const copy=value=>structuredClone(value);
 export class NotebookStore{
  constructor({storage,session,request,delay=1500,onStatus=()=>{}}={}){
-  this.storage=storage;this.session=session;this.request=request;this.delay=delay;this.onStatus=onStatus;
+  this.actor=crypto.randomUUID();this.storage=storage;this.session=session;this.request=request;this.delay=delay;this.onStatus=onStatus;
   this.state=emptyState();this.listeners=new Set();this.corrupt=false;this.unsaved=false;this.cloud=null;this.busy=false;this.pending=false;this.timer=null;this.generation=0;this.status='Saved on this device';
   try{this.readLocal();}catch(error){this.corrupt=true;this.setStatus(error.message);}
  }
@@ -26,13 +26,13 @@ export class NotebookStore{
  }
  commit(snapshot){this.state=mergeStates(this.state,validateState(snapshot));this.state.preferences=copy(snapshot.preferences||this.state.preferences);this.state.lastReading=snapshot.lastReading??this.state.lastReading;return this.write();}
  updateReading(id,changes,base){
-  const previous=base||this.state.readings[id]||blankReading();const edited=editReading(previous,changes,Math.max(Date.now(),previous.updatedAt+1));
+  const previous=base||this.state.readings[id]||blankReading();const edited=editReading(previous,changes,Math.max(Date.now(),previous.updatedAt+1),()=>this.actor);
   const incoming=emptyState();incoming.readings[id]=edited;this.state=mergeStates(this.state,incoming);this.write();return copy(this.state.readings[id]);
  }
  resolveReadingField(id,field,value){
-  const record=this.state.readings[id];if(!record)throw Error('Reading unavailable');const cells=readingCells(record);if(!cells[field])throw Error('Revision unavailable');cells[field]=editCell(cells[field],value);this.state.readings[id]=projectReading(record,cells);this.write();return this.snapshot();
+  const record=this.state.readings[id];if(!record)throw Error('Reading unavailable');const cells=readingCells(record);if(!cells[field])throw Error('Revision unavailable');cells[field]=editCell(cells[field],value,Date.now(),this.actor);this.state.readings[id]=projectReading(record,cells);this.write();return this.snapshot();
  }
- updateWorkspace(collection,id,value,base){const edited=editWorkspace(base||this.state.workspace,collection,id,value);this.state.workspace=this.state.workspace?mergeWorkspaces(this.state.workspace,edited):edited;this.write();return this.snapshot();}
+ updateWorkspace(collection,id,value,base){const edited=editWorkspace(base||this.state.workspace,collection,id,value,Date.now(),this.actor);this.state.workspace=this.state.workspace?mergeWorkspaces(this.state.workspace,edited):edited;this.write();return this.snapshot();}
  import(value){const incoming=validateState(value);if(this.corrupt)throw Error('Recover the existing notebook before importing.');this.storage?.setItem(STORAGE_KEY+'.before-import',JSON.stringify(this.state));this.state=mergeStates(this.state,incoming);this.write();return this.snapshot();}
  refresh(){try{this.readLocal();this.setStatus(this.status);if(this.cloud)this.queue();}catch(error){this.corrupt=true;this.setStatus(error.message);}}
  queue(){clearTimeout(this.timer);this.timer=setTimeout(()=>void this.flush(),this.delay);}
