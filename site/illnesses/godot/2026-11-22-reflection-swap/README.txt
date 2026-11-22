@@ -1,0 +1,1 @@
+Deferred Reflection appearance swap, November 22, 2026. The lower retained frame is solid and uses source colors. The upright body takes the translucent blue tint and body-clipped reflection lines. Use these replacements with the preceding review-2026-11-22-followup source snapshot. Game action, position and frame-history timings are unchanged.

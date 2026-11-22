@@ -1,0 +1,58 @@
+{
+  "revision": "2026-11-22-reflection-swap",
+  "ids": [
+    "trademark_064"
+  ],
+  "current_media": [
+    {
+      "path": "illnesses/previews/2026-11-22-reflection-swap/trademark_064-1.png",
+      "sha256": "c8a51efd8e1f04605d3a296f5099310a4ddce79f28c5517717a0e1a21f340ec0"
+    },
+    {
+      "path": "illnesses/previews/2026-11-22-reflection-swap/trademark_064-2.png",
+      "sha256": "88a829c66215c43bc9852deef0f9c6c188b6588aac9263b8ea9dd6dcb9a4c237"
+    },
+    {
+      "path": "illnesses/previews/2026-11-22-reflection-swap/trademark_064-3.png",
+      "sha256": "57217b3a03e0c6a8705b129adca5d6236f9eea58b76fcb6de656c7e9ec7932a4"
+    },
+    {
+      "path": "illnesses/previews/2026-11-22-reflection-swap/trademark_064-still.png",
+      "sha256": "88a829c66215c43bc9852deef0f9c6c188b6588aac9263b8ea9dd6dcb9a4c237"
+    },
+    {
+      "path": "illnesses/previews/2026-11-22-reflection-swap/trademark_064.gif",
+      "sha256": "0d27c85f3c138dbdba572a02c825c9ffac8e75fbeb4dcf848f83f07afcef600a"
+    },
+    {
+      "path": "illnesses/previews/2026-11-22-reflection-swap/trademark_064.png",
+      "sha256": "0479fb11a1cf94e8da5fb692ef84410c0262a92c7b7ef7ea4d561c97e561152f"
+    }
+  ],
+  "earlier_media": [
+    {
+      "path": "illnesses/previews/review-2026-11-22-followup/trademark_064.gif",
+      "sha256": "567308014c86770c2f9d77f498d35ebf94c92802aa3118192ee49b99d9b81a8b"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22-followup/trademark_064-still.png",
+      "sha256": "5cd8c76b0ea3b8c8d203815e2c1096c7d080a302c48c6816a78c92150ecfcefe"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22-followup/trademark_064.png",
+      "sha256": "ca453fbdd7f4d4a920bb63445a418697b9abf50eef84ecf5809a2a3790b46efd"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22-followup/trademark_064-1.png",
+      "sha256": "98a261a7366a938930422b998d1f7621c30fc373dac30dd58056f4af38f5a829"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22-followup/trademark_064-2.png",
+      "sha256": "5cd8c76b0ea3b8c8d203815e2c1096c7d080a302c48c6816a78c92150ecfcefe"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22-followup/trademark_064-3.png",
+      "sha256": "050afea248e8aeb3d1c5ec604f453175450809ec2117f9f9e1d66f84df627ddd"
+    }
+  ]
+}

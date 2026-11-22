@@ -37,7 +37,7 @@ def add_reference_readings(root,catalog,sources):
     blocks.append(block(sid,field,value))
    if directory=='illnesses' and e.get('visual_history'):
     blocks.append(block(sid,'visual-kind','Visual type: '+e['visual_kind']))
-    blocks.append(block(sid,'severity',e['severity_note']))
+    blocks.append(block(sid,'severity-reviewed-'+e['severity_revision'] if e.get('severity_revision') else 'severity',e['severity_note']))
     for label,path in zip(['Mild','Moderate','Severe'],e['preview']['stages']):
      blocks.append(block(sid,'stage-'+label.lower(),label+' — current example','HEADING_3',{'src':'illnesses/'+path,'still':'illnesses/'+path}))
     blocks.append(block(sid,'earlier-versions','Earlier versions','HEADING_2'))
@@ -47,6 +47,7 @@ def add_reference_readings(root,catalog,sources):
      appearance=block(sid,prefix+'-appearance','Appearance: '+version['visual'])
      if version.get('appearance_anchor'): appearance['id']=version['appearance_anchor']
      blocks.append(appearance)
+     blocks.extend(version.get('preserved_blocks',[]))
      if preview.get('sheet'):
       link=block(sid,prefix+'-sheet','Download the earlier frame sheet')
       link['referenceUrl']='illnesses/'+preview['sheet'];blocks.append(link)
