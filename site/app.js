@@ -1,3 +1,5 @@
+import {getNotebookStore} from './notebook-store.mjs';
+import {mountWorkspaceBar} from './workspace-ui.mjs';
 import {mountAudioConnections,clearAudioConnections} from './audio-connections.mjs';
 import {stopAudio} from './audio-playback.mjs';
 import {attachStoryDialogue,leaveStoryDialogue} from './story-dialogue.mjs';
@@ -10,30 +12,26 @@ import {attachTagSuggestions} from './tag-suggestions.mjs';
 import {paintHighlights} from './highlight-dom.mjs';
 import {renderContinuityNotes} from './profiles.mjs';
 import {renderLocationArt} from './location-art.mjs';
-import {loadWiki,appendWiki,readingConnections} from './wiki-links.mjs?v=profiles-1';
+import {loadReaderWiki,appendWiki,readingConnections} from './wiki-links.mjs?v=profiles-1';
 import {CloudBackup,SESSION_KEY} from './cloud-backup.mjs?v=code-3';
 import {STORAGE_KEY,emptyState,validateState,mergeStates,highlightIntervals,clipContext} from './records.mjs';
 const $=id=>document.getElementById(id);
 const ERA_NAMES={'-3':'Borrowed Thought','-2':'Shelter','-1':'Becoming',0:'Great Flourishing',1:'Echoes',2:'Great Reduction',3:'Small Lives',4:'Reopening'};
 const eraName=e=>`Era ${e<0?'−'+Math.abs(e):e} · ${ERA_NAMES[e]||''}`;
 let wikiData;
-let state=emptyState(),catalog,entries=[],byId=new Map(),kind='Story',page=0,filtered=[],current=null,currentContent=null,selection=[],beforeImport=null,routeSequence=0,lastWrite=0,tagFilter='';
+let state=emptyState(),catalog,entries=[],byId=new Map(),kind='',page=0,filtered=[],current=null,currentContent=null,selection=[],beforeImport=null,routeSequence=0,lastWrite=0,tagFilter='';
 const contentCache=new Map();
 let annotationMode='all';
 function node(tag,text,className){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(className)n.className=className;return n;}
 function alertSave(text){$('save-alert').textContent=text;$('save-alert').hidden=false;$('reader-save').textContent='Not saved — download a backup';}
-try{const raw=localStorage.getItem(STORAGE_KEY);if(raw)state=validateState(JSON.parse(raw));}catch{alertSave('Your saved reading data could not be opened. It has not been overwritten. Use Backups to export your current work.');}
-let storageCorrupt=false;try{const raw=localStorage.getItem(STORAGE_KEY);if(raw)validateState(JSON.parse(raw));}catch{storageCorrupt=true;}
+const notebookStore=getNotebookStore();
+state=notebookStore.snapshot();let storageCorrupt=notebookStore.corrupt;
 function record(id){return state.readings[id]??{read:false,readAt:null,note:'',tags:[],highlights:[],updatedAt:0,position:null};}
 function save(){
- let saved=false;
- try{
-  if(storageCorrupt)throw Error('Existing data needs recovery');
-  const raw=localStorage.getItem(STORAGE_KEY);
-  if(raw){const previous=validateState(JSON.parse(raw));state=mergeStates(state,previous);try{localStorage.setItem(STORAGE_KEY+'.previous',raw);}catch{}}
-  localStorage.setItem(STORAGE_KEY,JSON.stringify(state));$('reader-save').textContent='Saved in this browser';$('save-alert').hidden=true;lastWrite=Date.now();saved=true;
- }catch{$('reader-save').textContent='Not saved in this browser — use Backups';}
- queueCloudBackup();updateProgress();return saved;
+ const saved=notebookStore.commit(state);state=notebookStore.snapshot();lastWrite=Date.now();
+ $('reader-save').textContent=notebookStore.status;$('save-alert').hidden=saved;
+ if(!saved)$('save-alert').textContent=notebookStore.status;
+ updateProgress();return saved;
 }
 let confirmationTimer;
 $('save-reading').onclick=()=>{
@@ -44,7 +42,7 @@ $('save-reading').onclick=()=>{
  $('save-confirmation').hidden=false;
  confirmationTimer=setTimeout(()=>{$('save-confirmation').hidden=true;},6000);
 };
-function updateRecord(id,changes){state.readings[id]={...record(id),...changes,updatedAt:Math.max(Date.now(),record(id).updatedAt+1)};save();}
+function updateRecord(id,changes){notebookStore.updateReading(id,changes,record(id));state=notebookStore.snapshot();updateProgress();}
 function setRead(id,checked){updateRecord(id,{read:checked,readAt:checked?Date.now():null});if(current?.id===id){$('reader-read').checked=checked;$('finish-read').textContent=checked?'✓ Read':'✓ Mark as read';}renderLibrary();}
 function updateProgress(){
  if(!entries.length)return;
@@ -54,13 +52,18 @@ function updateProgress(){
 }
 function fillSelect(id,values,label){const s=$(id);s.replaceChildren(new Option(label,''));for(const v of values)s.add(new Option(v,v));}
 function renderNav(){const labels={'':'All readings',Story:'Stories',Song:'Songs & backstories',Timeline:'Timeline',People:'People',Locations:'Locations',Language:'Language',Reference:'Reference',Ribbons:'Ribbons & honours',Remedies:'Remedies',Illnesses:'Illnesses',Draft:'Drafts & alternate copies'};const nav=$('kind-nav');nav.replaceChildren();for(const [k,label] of Object.entries(labels)){const b=node('button',label);b.classList.toggle('selected',kind===k);b.setAttribute('aria-pressed',kind===k);b.append(node('span',entries.filter(e=>!k||e.kind===k).length));b.onclick=()=>{kind=k;page=0;renderNav();renderLibrary();};nav.append(b);}$('collection-title').textContent=labels[kind]||'All readings';}
+const libraryParams={q:'search',era:'era-filter',character:'character-filter',place:'place-filter',read:'read-filter',sort:'sort-filter'};
+function restoreLibraryFilters(){const p=new URLSearchParams(location.search);kind=p.get('kind')||'';tagFilter=p.get('tag')||'';page=Math.max(0,Number(p.get('page'))||0);for(const [key,id] of Object.entries(libraryParams))$(id).value=p.get(key)||(key==='sort'?'timeline':'');}
+function saveLibraryFilters(){const url=new URL(location.href);for(const key of [...Object.keys(libraryParams),'kind','tag','page'])url.searchParams.delete(key);for(const [key,id] of Object.entries(libraryParams)){const value=$(id).value;if(value&&!(key==='sort'&&value==='timeline'))url.searchParams.set(key,value);}if(kind)url.searchParams.set('kind',kind);if(tagFilter)url.searchParams.set('tag',tagFilter);if(page)url.searchParams.set('page',page);if(location.href!==url.href)history.pushState(null,'',url);}
+window.addEventListener('popstate',()=>{if(catalog){restoreLibraryFilters();route();}});
 function searchable(e){return [e.title,e.summary,e.timeLabel,e.status,...(e.chronology||[]).flatMap(c=>[c.code,c.label]),...(e.characters||[]),...(e.places||[]),...(e.topics||[]),...(record(e.id).tags||[])].join(' ').toLocaleLowerCase().replaceAll('−','-');}
 function renderLibrary(){
  if(!catalog)return;
+ saveLibraryFilters();
  const query=$('search').value.trim().toLocaleLowerCase().replaceAll('−','-').split(/\s+/).filter(Boolean),era=$('era-filter').value,person=$('character-filter').value,place=$('place-filter').value,read=$('read-filter').value,sort=$('sort-filter').value;
  filtered=entries.filter(e=>(!kind||e.kind===kind)&&(!era||(e.era||[]).includes(Number(era)))&&(!person||(e.characters||[]).includes(person))&&(!place||(e.places||[]).includes(place))&&(!tagFilter||record(e.id).tags.includes(tagFilter))&&(!read||(read==='read'?record(e.id).read:read==='unread'?!record(e.id).read:record(e.id).note||record(e.id).highlights.length))&&query.every(q=>searchable(e).includes(q)));
  if(sort==='title')filtered.sort((a,b)=>a.title.localeCompare(b.title));else if(sort==='timeline')filtered.sort((a,b)=>(Math.min(...(a.era?.length?a.era:[99]))-Math.min(...(b.era?.length?b.era:[99])))||((a.timeOrder??0)-(b.timeOrder??0))||a.title.localeCompare(b.title));
- page=Math.min(page,Math.max(0,Math.ceil(filtered.length/40)-1));$('result-count').textContent=`${filtered.length} readings`;$('empty').hidden=!!filtered.length;
+ page=Math.min(page,Math.max(0,Math.ceil(filtered.length/40)-1));$('result-count').textContent=`${filtered.length} readings`;$('empty').hidden=!!filtered.length;$('expand-search').href='search.html?q='+encodeURIComponent($('search').value);
  const tbody=$('toc-body');tbody.replaceChildren();let group=null;
  for(const e of filtered.slice(page*40,page*40+40)){
   const primary=e.era?.length?Math.min(...e.era):null,groupText=primary===null?'Across eras / time unspecified':eraName(primary);
@@ -156,6 +159,7 @@ function renderHighlights(){
 }
 async function openReading(id,anchor=null){
  const seq=++routeSequence,e=byId.get(id);if(!e){location.hash='';return;}hideSelection();clearReferenceArt();current=e;$('library').hidden=true;$('notebook').hidden=true;$('reader').hidden=false;$('reader-title').textContent=e.title;$('reader-kind').textContent=e.kind;$('reader-summary').textContent=e.summary||'';if(e.id==='stories-p11382'||e.id==='corrected-child-part-two-p00000'){const next=node('a',e.id==='stories-p11382'?' Continue to Part Two →':' ← Read Part One');next.href=e.id==='stories-p11382'?'#read=corrected-child-part-two-p00000':'#read=stories-p11382';$('reader-summary').append(' ',next);const guide=node('a',' Highlighted characters & places →');guide.href='#read=corrected-child-register';$('reader-summary').append(' · ',guide);}if(e.id==='stories-p01889'){const revised=node('a',' Read the finished revised edition →','primary');revised.href='#read=aru-first-newborn-revised';$('reader-summary').append(revised);}$('reading-text').replaceChildren(node('p','Opening this reading…','loading'));$('reader-meta').replaceChildren();for(const c of e.chronology||[]){const a=node('a',c.code+' · '+c.precision);a.href=c.href;a.title=c.label+' — '+c.basis;$('reader-meta').append(a);}for(const value of [e.timeLabel,e.status,`${(e.wordCount||0).toLocaleString()} words`].filter(Boolean))$('reader-meta').append(node('span',value));$('reader-read').checked=record(id).read;$('finish-read').textContent=record(id).read?'✓ Read':'✓ Mark as read';$('reading-note').value=record(id).note;$('reading-tags').value=record(id).tags.join(', ');$('original-source').href=e.source?.url||'#';$('original-source').hidden=true;
+ let fit=$('reader-fit');if(!fit){fit=node('details');fit.id='reader-fit';$('reader-summary').after(fit);}fit.replaceChildren(node('summary','Where this fits · '+e.status));fit.append(node('p',e.timeLabel||'Date unspecified'));for(const place of e.places||[]){const link=node('a',place);link.href='index.html?place='+encodeURIComponent(place);fit.append(link,document.createTextNode(' · '));}const contextLink=node('a','People and related lore');contextLink.href='#reading-connections';contextLink.onclick=event=>{event.preventDefault();$('reading-connections').scrollIntoView({block:'start'});};fit.append(contextLink);
  mountComments($('reader-comments'),{id:e.id,title:e.title});
  renderConnections(e);
  renderContinuityNotes($('reader-continuity'),wikiData?.readingNotes?.[e.id]||[]);
@@ -163,7 +167,7 @@ async function openReading(id,anchor=null){
  renderLocationIllnesses($('reader-illnesses'),wikiData?.readingIllnesses?.[e.id]||[]);
  void mountAudioConnections($('reader-audio'),{readingId:e.id},{heading:'Sounds connected to this reading'});
  window.scrollTo({top:0,behavior:'instant'});
- try{let content=contentCache.get(id);if(!content){const response=await fetch('content/'+encodeURIComponent(id)+'.json',{cache:'no-cache'});if(!response.ok)throw Error('Reading unavailable');content=await response.json();contentCache.set(id,content);}if(seq!==routeSequence)return;currentContent=content;renderBlocks();renderHighlights();renderWikiConnections();const outline=$('outline');outline.replaceChildren();for(const b of content.blocks.filter(b=>/HEADING|TITLE|^h[1-4]$/i.test(b.style||''))){const a=node('a',b.text);a.href='#block-'+b.id;a.onclick=ev=>{ev.preventDefault();scrollToBlock(b.id);};outline.append(a);}if(!outline.children.length)outline.append(node('p','A continuous reading.'));const connectionsLink=node('a','People, places & related readings ↓');connectionsLink.href='#reading-connections';connectionsLink.onclick=ev=>{ev.preventDefault();$('reading-connections').scrollIntoView({block:'start'});};outline.append(connectionsLink);state.lastReading=id;save();requestAnimationFrame(()=>{if(seq===routeSequence&&(anchor||record(id).position))scrollToBlock(anchor||record(id).position.block);});}catch{if(seq===routeSequence)$('reading-text').replaceChildren(node('p','This reading could not load. Check your connection and reopen it. Your notes are still saved.'));}
+ try{let content=contentCache.get(id);if(!content){const response=await fetch('content/'+encodeURIComponent(id)+'.json',{cache:'no-cache'});if(!response.ok)throw Error('Reading unavailable');content=await response.json();contentCache.set(id,content);}if(seq!==routeSequence)return;currentContent=content;renderBlocks();renderHighlights();renderWikiConnections();const outline=$('outline');outline.replaceChildren();const chapters=$('mobile-chapters');chapters.replaceChildren(new Option('Jump to a section…',''));chapters.onchange=()=>{if(chapters.value)scrollToBlock(chapters.value);};for(const b of content.blocks.filter(b=>/HEADING|TITLE|^h[1-4]$/i.test(b.style||''))){chapters.add(new Option(b.text,b.id));const a=node('a',b.text);a.href='#block-'+b.id;a.onclick=ev=>{ev.preventDefault();scrollToBlock(b.id);};outline.append(a);}if(!outline.children.length)outline.append(node('p','A continuous reading.'));const connectionsLink=node('a','People, places & related readings ↓');connectionsLink.href='#reading-connections';connectionsLink.onclick=ev=>{ev.preventDefault();$('reading-connections').scrollIntoView({block:'start'});};outline.append(connectionsLink);state.lastReading=id;save();requestAnimationFrame(()=>{if(seq===routeSequence&&(anchor||record(id).position))scrollToBlock(anchor||record(id).position.block);});}catch{if(seq===routeSequence)$('reading-text').replaceChildren(node('p','This reading could not load. Check your connection and reopen it. Your notes are still saved.'));}
 }
 function hideSelection(){selection=[];$('selection-toolbar').hidden=true;}
 function captureSelection(){
@@ -216,7 +220,7 @@ function renderNotebook(){
  if(!list.children.length)list.append(node('p',onlyClips?'No clips yet. Select a passage in a reading and choose Clip.':'Your notebook is waiting. Open a reading, select a passage, and add your first note.'));window.scrollTo({top:0,behavior:'instant'});
 }
 $('clips-only').onchange=renderNotebook;
-function route(){if(!catalog)return;stopAudio();clearAudioConnections($('reader-audio'));leaveStoryDialogue();const hash=location.hash.slice(1);if(hash.startsWith('read=')){const params=new URLSearchParams(hash);openReading(params.get('read'),params.get('block'));}else if(hash==='notebook')renderNotebook();else{++routeSequence;hideSelection();clearReferenceArt();current=null;$('library').hidden=false;$('reader').hidden=true;$('notebook').hidden=true;if(hash.startsWith('place=')||hash.startsWith('character=')){const params=new URLSearchParams(hash);kind='';page=0;tagFilter='';$('search').value='';for(const id of ['era-filter','character-filter','place-filter','read-filter'])$(id).value='';for(const key of ['place','character'])if(params.has(key))$(key+'-filter').value=params.get(key);}renderLibrary();}}
+function route(){if(!catalog)return;stopAudio();clearAudioConnections($('reader-audio'));leaveStoryDialogue();const hash=location.hash.slice(1);if(hash.startsWith('read=')){const params=new URLSearchParams(hash);openReading(params.get('read'),params.get('block'));}else if(hash==='notebook'){location.replace('notebook.html');return;}else{++routeSequence;hideSelection();clearReferenceArt();current=null;$('library').hidden=false;$('reader').hidden=true;$('notebook').hidden=true;if(hash.startsWith('place=')||hash.startsWith('character=')){const params=new URLSearchParams(hash);kind='';page=0;tagFilter='';$('search').value='';for(const id of ['era-filter','character-filter','place-filter','read-filter'])$(id).value='';for(const key of ['place','character'])if(params.has(key))$(key+'-filter').value=params.get(key);}renderLibrary();}}
 function download(data,name){const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=node('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 $('backup-open').onclick=()=>{$('backup-stats').textContent=`${Object.values(state.readings).filter(r=>r.read).length} read · ${Object.values(state.readings).reduce((n,r)=>n+r.highlights.length,0)} highlights · ${Object.values(state.readings).filter(r=>r.note).length} reading notes · ${state.conceptQueue?.proposals.length||0} DBA proposals`;$('backup-dialog').showModal();};
 
@@ -226,7 +230,7 @@ window.addEventListener('hashchange',openLinkedDialog);openLinkedDialog();
 $('export-backup').onclick=()=>download({...state,exportedAt:new Date().toISOString()},'cyber-pet-lore-reading-'+new Date().toISOString().slice(0,10)+'.json');
 $('import-backup').onchange=async ev=>{const file=ev.target.files[0];if(!file)return;try{if(file.size>15*1024*1024)throw Error('Choose a reading backup smaller than 15 MB.');const incoming=validateState(JSON.parse(await file.text()));beforeImport=structuredClone(state);try{localStorage.setItem(STORAGE_KEY+'.before-import',JSON.stringify(beforeImport));}catch{}state=mergeStates(state,incoming);save();$('download-before-import').hidden=false;$('import-status').textContent='Backup imported. Reading records merged.';route();}catch(err){$('import-status').textContent=err.message||'Could not import this file. Nothing changed.';}ev.target.value='';};
 $('download-before-import').onclick=()=>{if(beforeImport)download(beforeImport,'cyber-pet-lore-before-import.json');};
-$('notebook-open').onclick=()=>location.hash='notebook';$('back-library').onclick=$('notebook-back').onclick=()=>location.hash='';$('sources-open').onclick=()=>$('sources-dialog').showModal();
+$('notebook-open').onclick=()=>location.href='notebook.html';$('back-library').onclick=$('notebook-back').onclick=()=>location.hash='';$('sources-open').onclick=()=>$('sources-dialog').showModal();
 $('reader-read').onchange=()=>setRead(current.id,$('reader-read').checked);$('finish-read').onclick=()=>setRead(current.id,!record(current.id).read);
 attachTagSuggestions($('reading-tags'),()=>state);
 $('reading-note').oninput=()=>{if(current)updateRecord(current.id,{note:$('reading-note').value});};$('reading-tags').oninput=()=>{if(current)updateRecord(current.id,{tags:[...new Set($('reading-tags').value.split(',').map(s=>s.trim().slice(0,70)).filter(Boolean))].slice(0,30)});};
@@ -234,43 +238,26 @@ $('next-reading').onclick=()=>{const list=filtered.length?filtered:entries,index
 function appearance(){document.documentElement.style.setProperty('--read-size',state.preferences.fontSize+'px');document.body.classList.toggle('warm-reader',state.preferences.warm);}
 $('font-up').onclick=()=>{state.preferences.fontSize=Math.min(27,state.preferences.fontSize+1);appearance();save();};$('font-down').onclick=()=>{state.preferences.fontSize=Math.max(15,state.preferences.fontSize-1);appearance();save();};$('reader-theme').onclick=()=>{state.preferences.warm=!state.preferences.warm;appearance();save();};
 for(const id of ['search','era-filter','character-filter','place-filter','read-filter','sort-filter'])$(id).addEventListener(id==='search'?'input':'change',()=>{page=0;renderLibrary();});
-$('reset-filters').onclick=()=>{for(const id of ['search','era-filter','character-filter','place-filter','read-filter'])$(id).value='';tagFilter='';page=0;renderLibrary();};
+$('reset-filters').onclick=()=>{kind='';$('sort-filter').value='timeline';for(const id of ['search','era-filter','character-filter','place-filter','read-filter'])$(id).value='';tagFilter='';page=0;renderLibrary();};
 $('previous-page').onclick=()=>{page--;renderLibrary();$('collection-title').scrollIntoView({block:'start'});};$('next-page').onclick=()=>{page++;renderLibrary();$('collection-title').scrollIntoView({block:'start'});};
 $('reading-text').addEventListener('pointerup',()=>setTimeout(captureSelection,0));$('reading-text').addEventListener('keyup',captureSelection);document.addEventListener('selectionchange',()=>{if(!window.getSelection()?.isCollapsed)return;setTimeout(()=>{if(window.getSelection()?.isCollapsed)hideSelection();},150);});$('selection-toolbar').onmousedown=e=>{if(e.target.tagName!=='SELECT')e.preventDefault();};$('make-highlight').onclick=()=>addHighlight(false);$('make-note').onclick=()=>addHighlight(true);$('make-clip').onclick=()=>prepareClip(selection);$('selection-close').onclick=hideSelection;
 let positionTimer;window.addEventListener('scroll',()=>{clearTimeout(positionTimer);positionTimer=setTimeout(()=>{if(!current||!currentContent||$('reader').hidden)return;const blocks=[...$('reading-text').children];const block=blocks.find(b=>b.getBoundingClientRect().bottom>110);if(block)updateRecord(current.id,{position:{block:block.dataset.block}});},500);},{passive:true});
-window.addEventListener('hashchange',route);window.addEventListener('storage',e=>{if(e.key!==STORAGE_KEY||!e.newValue)return;try{state=mergeStates(state,validateState(JSON.parse(e.newValue)));updateProgress();if(!$('library').hidden)renderLibrary();}catch{}});
+window.addEventListener('hashchange',route);window.addEventListener('storage',e=>{if(e.key!==STORAGE_KEY)return;state=notebookStore.snapshot();updateProgress();if(!$('library').hidden)renderLibrary();});
 document.addEventListener('keydown',e=>{if(e.key==='Escape')hideSelection();});
-async function init(){try{wikiData=await loadWiki().catch(()=>null);const response=await fetch('catalog.json',{cache:'no-cache'});if(!response.ok)throw Error();catalog=await response.json();entries=Array.isArray(catalog)?catalog:catalog.entries;byId=new Map(entries.map(e=>[e.id,e]));for(let era=-3;era<=4;era++)$('era-filter').add(new Option(eraName(era),String(era)));fillSelect('character-filter',[...new Set(entries.flatMap(e=>e.characters||[]))].sort(),'All characters');fillSelect('place-filter',[...new Set(entries.flatMap(e=>e.places||[]))].sort(),'All places');for(let era=-3;era<=4;era++){const b=node('button','Era '+String(era).replace('-','−'));b.dataset.era=String(era);b.title=eraName(era);b.onclick=()=>{$('era-filter').value=$('era-filter').value===String(era)?'':String(era);page=0;renderLibrary();};$('era-strip').append(b);}const sources=$('sources-list');for(const source of catalog.sources||[]){const div=node('div'),a=node('a',source.title||source.name);if(source.url||source.documentId){a.href=source.url||'https://docs.google.com/document/d/'+source.documentId+'/edit';a.target='_blank';a.rel='noopener';}div.append(a);if(source.empty)div.append(node('span','Empty source — no reading text','source-detail'));if(source.note)div.append(node('span',source.note,'source-detail'));sources.append(div);}$('snapshot-date').textContent='Archive snapshot: '+(catalog.generatedAt||catalog.generated||'October 27, 2026')+'. Reading records stay separate from the source texts.';appearance();route();try{if(sessionStorage.getItem(SESSION_KEY))void connectCloud();}catch{}}catch{alertSave('The archive could not load. Check your connection and refresh. Your reading records have not been changed.');}}
+async function init(){try{const response=await fetch('catalog.json',{cache:'no-cache'});if(!response.ok)throw Error();catalog=await response.json();entries=Array.isArray(catalog)?catalog:catalog.entries;byId=new Map(entries.map(e=>[e.id,e]));for(let era=-3;era<=4;era++)$('era-filter').add(new Option(eraName(era),String(era)));fillSelect('character-filter',[...new Set(entries.flatMap(e=>e.characters||[]))].sort(),'All characters');fillSelect('place-filter',[...new Set(entries.flatMap(e=>e.places||[]))].sort(),'All places');for(let era=-3;era<=4;era++){const b=node('button','Era '+String(era).replace('-','−'));b.dataset.era=String(era);b.title=eraName(era);b.onclick=()=>{$('era-filter').value=$('era-filter').value===String(era)?'':String(era);page=0;renderLibrary();};$('era-strip').append(b);}const sources=$('sources-list');for(const source of catalog.sources||[]){const div=node('div'),a=node('a',source.title||source.name);if(source.url||source.documentId){a.href=source.url||'https://docs.google.com/document/d/'+source.documentId+'/edit';a.target='_blank';a.rel='noopener';}div.append(a);if(source.empty)div.append(node('span','Empty source — no reading text','source-detail'));if(source.note)div.append(node('span',source.note,'source-detail'));sources.append(div);}$('snapshot-date').textContent='Archive snapshot: '+(catalog.generatedAt||catalog.generated||'October 27, 2026')+'. Reading records stay separate from the source texts.';restoreLibraryFilters();mountWorkspaceBar();appearance();route();void loadReaderWiki().then(data=>{wikiData=data;if(current){if(currentContent?.id===current.id){renderBlocks();renderHighlights();}renderWikiConnections();renderContinuityNotes($('reader-continuity'),data.readingNotes?.[current.id]||[]);renderLocationArt($('reader-art'),data.readingImages?.[current.id]||[]);renderLocationIllnesses($('reader-illnesses'),data.readingIllnesses?.[current.id]||[]);}}).catch(()=>{});}catch{alertSave('The archive could not load. Check your connection and refresh. Your reading records have not been changed.');}}
 void mountAudioConnections(document.getElementById('home-audio'),{ids:['soft_circuit']},{heading:'Listen to the title music'});
 document.addEventListener('lore-media-start',leaveStoryDialogue);
 init();
 
-// Credentials remain in memory only. Browser data continues saving independently.
-let cloud=null,cloudTimer,cloudBusy=false,cloudPending=false;
+// Every view uses the same persistence and cloud queue.
+let cloud=null;
 function cloudStatus(message){$('cloud-status').textContent=message;$('cloud-summary').textContent=message;}
-function cloudControls(){for(const id of ['cloud-save','cloud-restore','cloud-disconnect'])$(id).disabled=!cloud||cloudBusy;$('cloud-connect').disabled=cloudBusy;}
-function queueCloudBackup(){if(!cloud)return;clearTimeout(cloudTimer);cloudStatus('Changes waiting for private backup…');cloudTimer=setTimeout(()=>void backUpCloud(),5000);}
-async function backUpCloud(){
- clearTimeout(cloudTimer);if(!cloud)return;if(cloudBusy){cloudPending=true;return;}
- cloudBusy=true;cloudControls();const snapshot=JSON.stringify(state);cloudStatus('Saving private backup…');
- try{await cloud.save(JSON.parse(snapshot));$('cloud-token').value='';cloudStatus('Private backup saved at '+new Date().toLocaleTimeString()+'.');}
- catch(error){cloudStatus(error.message||'Private storage unavailable. Download a backup before closing.');}
- finally{cloudBusy=false;cloudControls();if(cloudPending||JSON.stringify(state)!==snapshot){cloudPending=false;queueCloudBackup();}}
-}
-async function connectCloud(){
- if(cloudBusy)return;clearTimeout(cloudTimer);cloudBusy=true;cloudControls();
- const token=$('cloud-token').value.trim();
- const connection=token?new CloudBackup(token):(cloud||new CloudBackup());
- try{if(!connection)throw Error('Enter your backup code to unlock.');if(storageCorrupt)throw Error('Recover the existing browser data before connecting.');cloudStatus('Unlocking private backup and merging records…');const remote=await connection.load();
- if(remote){beforeImport=structuredClone(state);try{localStorage.setItem(STORAGE_KEY+'.before-import',JSON.stringify(beforeImport));}catch{}$('download-before-import').hidden=false;state=mergeStates(state,remote);}
- if(cloud&&cloud!==connection)cloud.disconnect();cloud=connection;save();appearance();route();cloudPending=false;
- }catch(error){cloudStatus(error.message||'Could not unlock private backups.');connection?.disconnect();cloud=null;}
- finally{cloudBusy=false;cloudControls();}
- if(cloud)await backUpCloud();
-}
-$('cloud-connect').onclick=connectCloud;
-$('cloud-restore').onclick=connectCloud;
-$('cloud-save').onclick=()=>void backUpCloud();
-$('cloud-disconnect').onclick=()=>{clearTimeout(cloudTimer);cloud?.disconnect();cloud=null;cloudPending=false;cloudControls();cloudStatus('Disconnected. Browser records and the private backup are preserved.');};
+function cloudControls(){for(const id of ['cloud-save','cloud-restore','cloud-disconnect'])$(id).disabled=!notebookStore.cloud||notebookStore.busy;$('cloud-connect').disabled=notebookStore.busy;}
+function queueCloudBackup(){notebookStore.queue();}
+async function backUpCloud(){await notebookStore.flush();cloudControls();}
+async function connectCloud(){const code=$('cloud-token').value.trim();$('cloud-token').value='';try{await notebookStore.connect(code);}catch(error){cloudStatus(error.message);}cloud=notebookStore.cloud;cloudControls();}
+$('cloud-connect').onclick=connectCloud;$('cloud-restore').onclick=()=>void notebookStore.flush();$('cloud-save').onclick=()=>void backUpCloud();
+$('cloud-disconnect').onclick=()=>{notebookStore.lock();cloud=null;cloudControls();};
+notebookStore.subscribe((snapshot,message)=>{state=snapshot;cloud=notebookStore.cloud;cloudStatus(message);$('reader-save').textContent=message;cloudControls();updateProgress();});
 
 function renderWikiConnections(){const panel=$('reader-connections');panel.replaceChildren(node('h2','Connected on this site'),node('p','Explore named people, places, events, and ideas. Links identify mentions; they do not settle disputed identities or relationships.'));const topics=readingConnections(current.id);const links=node('div',undefined,'connection-chips');for(const topic of topics){const a=node('a',topic.title);a.href='wiki.html#'+topic.id;links.append(a);}panel.append(links);if(!topics.length){const a=node('a','Browse all lore connections →');a.href='wiki.html';panel.append(a);}const eraLinks=node('div',undefined,'source-links');for(const era of current.era||[]){const a=node('a',eraName(era));a.href='timeline.html#era-'+era;eraLinks.append(a);}panel.append(eraLinks);const terms=topics.filter(t=>t.register);if(terms.length){const section=node('section');section.append(node('h3','Terms & unexplained lore'),node('p',terms.length+' recorded terms in this reading; '+terms.filter(t=>t.register.definitionStatus==='Needs definition review').length+' need definition review.'));const browse=node('a','See this reading’s terms and connections →');browse.href='terms.html#reading='+encodeURIComponent(current.id);section.append(browse);panel.append(section);}}

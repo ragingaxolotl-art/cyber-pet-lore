@@ -1,16 +1,14 @@
+import {validateCell,editCell,blankReading,mergeReadings,projectReading} from './note-revisions.mjs';
+import {validateWorkspace,mergeWorkspaces} from './workspace-records.mjs';
+import {safeWorkspaceHref,validateTarget} from './workspace-targets.mjs';
 import {validateConceptQueue,mergeConceptQueues} from './concept-records.mjs';
 export const STORAGE_KEY='cyber-pet-lore.reading.v1';
-export const safeArticleHref=value=>typeof value==='string'&&/^(?:wiki\.html|terms\.html|timeline\.html|illnesses\/index\.html)(?:[?#][^\s]*)?$/.test(value);
-export const emptyState=()=>({format:'cyber-pet-lore-reading',version:1,readings:{},preferences:{fontSize:19,warm:false},lastReading:null,nextClipNumber:1});
+export const safeArticleHref=safeWorkspaceHref;
+export const emptyState=()=>({format:'cyber-pet-lore-reading',version:2,readings:{},preferences:{fontSize:19,warm:false},lastReading:null,nextClipNumber:1});
 const object=v=>v&&typeof v==='object'&&!Array.isArray(v);
 const string=(v,max=30000)=>typeof v==='string'&&v.length<=max;
-export function validateState(value){
- if(!object(value)||value.format!=='cyber-pet-lore-reading'||value.version!==1||!object(value.readings))throw Error('This is not a Cyber Pet Lore reading backup.');
- if(Object.keys(value.readings).length>10000)throw Error('This backup has too many reading records.');
- const result=emptyState();
- if(value.conceptQueue!==undefined)result.conceptQueue=validateConceptQueue(value.conceptQueue);
- for(const [id,r] of Object.entries(value.readings)){
-  if(!/^[a-zA-Z0-9_-]{1,150}$/.test(id)||!object(r)||!string(r.note??'')||!Number.isFinite(r.updatedAt)||!Array.isArray(r.highlights??[])||(r.highlights??[]).length>1500)throw Error('A reading record is invalid. Nothing was imported.');
+function validateReading(id,r,includeSync=true){
+  if(['__proto__','constructor','prototype'].includes(id)||!/^[a-zA-Z0-9_-]{1,150}$/.test(id)||!object(r)||!string(r.note??'')||!Number.isFinite(r.updatedAt)||!Array.isArray(r.highlights??[])||(r.highlights??[]).length>1500)throw Error('A reading record is invalid. Nothing was imported.');
   const highlights=[];
   for(const h of r.highlights??[]){
    if(!object(h)||!string(h.id,100)||!string(h.note??'')||!Array.isArray(h.segments)||!h.segments.length||h.segments.length>500||!['gold','blue','rose'].includes(h.color))throw Error('A highlight is invalid. Nothing was imported.');
@@ -20,10 +18,33 @@ export function validateState(value){
    if(h.context?.href!==undefined&&!safeArticleHref(h.context.href))throw Error('Highlight article link is invalid. Nothing was imported.');
    let clip;
    if(h.clip!==undefined){const c=h.clip;if(!object(c)||!Number.isSafeInteger(c.number)||c.number<1||!string(c.storyId,150)||!string(c.storyTitle,300)||!string(c.timeLabel,500)||!Array.isArray(c.era)||c.era.some(e=>!Number.isInteger(e)||e< -3||e>4)||!Array.isArray(c.characters)||c.characters.length>100||c.characters.some(n=>!string(n,150)))throw Error('A clip is invalid. Nothing was imported.');clip={number:c.number,storyId:c.storyId,storyTitle:c.storyTitle,timeLabel:c.timeLabel,era:[...c.era],characters:[...c.characters]};}
-   highlights.push({...(h.tags!==undefined?{tags:[...h.tags]}:{}),...(h.context?{context:{storyTitle:h.context.storyTitle,era:[...h.context.era],...(h.context.href?{href:h.context.href}:{})}}:{}),...(clip?{clip}:{}),id:h.id,color:h.color,note:h.note??'',segments:h.segments.map(s=>({...s})),createdAt:Number(h.createdAt)||0});
+   highlights.push({...(h.tags!==undefined?{tags:[...h.tags]}:{}),...(h.context?{context:{storyTitle:h.context.storyTitle,era:[...h.context.era],...(h.context.href?{href:h.context.href}:{})}}:{}),...(clip?{clip}:{}),...(h.target?{target:validateTarget(h.target)}:{}),...(h.pinned!==undefined?{pinned:h.pinned===true}:{}),...(h.noteStatus!==undefined?{noteStatus:['note','question','resolved'].includes(h.noteStatus)?h.noteStatus:'note'}:{}),id:h.id,color:h.color,note:h.note??'',segments:h.segments.map(s=>({...s})),createdAt:Number(h.createdAt)||0});
   }
-  result.readings[id]={read:r.read===true,readAt:Number(r.readAt)||null,note:r.note??'',tags:Array.isArray(r.tags)?r.tags.filter(t=>string(t,70)).slice(0,30):[],highlights,updatedAt:r.updatedAt,position:object(r.position)&&string(r.position.block,200)?{block:r.position.block}:null};
+  let record={read:r.read===true,readAt:Number(r.readAt)||null,note:r.note??'',tags:Array.isArray(r.tags)?r.tags.filter(t=>string(t,70)).slice(0,30):[],highlights,updatedAt:r.updatedAt,position:object(r.position)&&string(r.position.block,200)?{block:r.position.block}:null};
+ if(includeSync&&r._sync!==undefined){
+  if(!object(r._sync)||Object.keys(r._sync).length>5000)throw Error('Invalid reading revision map.');
+  const cells={};
+  for(const [key,raw] of Object.entries(r._sync)){
+   if(!['read','readAt','note','tags','position'].includes(key)&&!key.startsWith('highlight:'))throw Error('Invalid revision field.');
+   const cell=validateCell(raw);
+   for(const v of cell.versions){
+    if(key.startsWith('highlight:')){if(v.value!==null){v.value=validateReading(id,{...blankReading(),highlights:[v.value]},false).highlights[0];if(v.value.id!==key.slice(10))throw Error('Highlight revision ID mismatch.');}}
+    else v.value=validateReading(id,{...blankReading(),[key]:v.value},false)[key];
+   }
+   cells[key]=cell;
+  }
+  record=projectReading(record,cells);
  }
+ return record;
+}
+
+export function validateState(value){
+ if(!object(value)||value.format!=='cyber-pet-lore-reading'||![1,2].includes(value.version)||!object(value.readings))throw Error('This is not a Cyber Pet Lore reading backup.');
+ if(Object.keys(value.readings).length>10000)throw Error('This backup has too many reading records.');
+ const result=emptyState();
+ if(value.workspace!==undefined)result.workspace=validateWorkspace(value.workspace);
+ if(value.conceptQueue!==undefined)result.conceptQueue=validateConceptQueue(value.conceptQueue);
+ for(const [id,r] of Object.entries(value.readings))result.readings[id]=validateReading(id,r);
  if(object(value.preferences))result.preferences={fontSize:Math.max(15,Math.min(27,Number(value.preferences.fontSize)||19)),warm:value.preferences.warm===true};
  result.lastReading=string(value.lastReading,150)?value.lastReading:null;
  result.nextClipNumber=Math.max(Number.isSafeInteger(value.nextClipNumber)?value.nextClipNumber:1,1,...Object.values(result.readings).flatMap(r=>r.highlights.filter(h=>h.clip).map(h=>h.clip.number+1)));
@@ -31,15 +52,16 @@ export function validateState(value){
 }
 export function mergeStates(current,incoming){
  const result=validateState(current),other=validateState(incoming);
+ if(other.workspace)result.workspace=result.workspace?mergeWorkspaces(result.workspace,other.workspace):other.workspace;
  if(other.conceptQueue)result.conceptQueue=result.conceptQueue?mergeConceptQueues(result.conceptQueue,other.conceptQueue):other.conceptQueue;
- for(const [id,r] of Object.entries(other.readings))if(!result.readings[id]||r.updatedAt>result.readings[id].updatedAt)result.readings[id]=r;
+ for(const [id,r] of Object.entries(other.readings))result.readings[id]=result.readings[id]?mergeReadings(result.readings[id],r):r;
  result.nextClipNumber=Math.max(result.nextClipNumber,other.nextClipNumber);
  // Keep local clip numbers stable; renumber an imported collision once.
  const localNumbers=new Map(Object.values(current.readings).flatMap(r=>r.highlights.filter(h=>h.clip).map(h=>[h.id,h.clip.number])));
  const clips=Object.values(result.readings).flatMap(r=>r.highlights.filter(h=>h.clip).map(h=>({h,r})));
  clips.sort((a,b)=>Number(localNumbers.has(b.h.id))-Number(localNumbers.has(a.h.id)));
  const used=new Set();
- for(const {h,r} of clips){let n=localNumbers.get(h.id)??h.clip.number;if(used.has(n))n=result.nextClipNumber++;if(n!==h.clip.number){h.clip.number=n;r.updatedAt=Math.max(Date.now(),r.updatedAt+1);}used.add(n);result.nextClipNumber=Math.max(result.nextClipNumber,n+1);}
+ for(const {h,r} of clips){let n=localNumbers.get(h.id)??h.clip.number;if(used.has(n))n=result.nextClipNumber++;if(n!==h.clip.number){h.clip.number=n;r.updatedAt=Math.max(Date.now(),r.updatedAt+1);if(r._sync?.['highlight:'+h.id])r._sync['highlight:'+h.id]=editCell(r._sync['highlight:'+h.id],h,r.updatedAt);}used.add(n);result.nextClipNumber=Math.max(result.nextClipNumber,n+1);}
  return result;
 }
 export function highlightIntervals(text,block,highlights){

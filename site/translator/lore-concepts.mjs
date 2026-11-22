@@ -1,3 +1,4 @@
+import {getNotebookStore} from '../notebook-store.mjs';
 import {STORAGE_KEY,emptyState,validateState,mergeStates} from '../records.mjs';
 import {mergeConceptQueues} from '../concept-records.mjs';
 import {CloudBackup} from '../cloud-backup.mjs';
@@ -44,14 +45,16 @@ export class LoreConceptStore{
 
 export function attachLoreSaves(data,onChange){
  const status=document.getElementById('loreSaveStatus');
- const store=new LoreConceptStore(data,{onChange,onStatus:message=>{status.textContent=message;document.getElementById('conceptSaveStatus').textContent=message;}});
+ const shared=getNotebookStore();
+ const store={get state(){return shared.snapshot();},get queue(){return shared.snapshot().conceptQueue||emptyQueue();},get unsaved(){return shared.unsaved;},get busy(){return shared.busy;},load(){let legacy;try{legacy=localStorage.getItem(INTAKE_KEY);}catch{}if(legacy){const queue=validateQueue(JSON.parse(legacy),data);this.commit(queue);}return this.queue;},commit(queue){validateQueue(queue,data);const next=shared.snapshot();next.conceptQueue=mergeConceptQueues(next.conceptQueue||emptyQueue(),queue);shared.commit(next);return this.queue;},connect:code=>shared.connect(code),flush:()=>shared.flush(),lock:()=>shared.lock(),readLocal:()=>shared.refresh()};
+ shared.subscribe((state,message)=>{status.textContent=message;document.getElementById('conceptSaveStatus').textContent=message;onChange(state.conceptQueue||emptyQueue());});
  try{store.load();}catch(error){status.textContent=error.message;}
  document.getElementById('loreUnlock').onclick=async()=>{const input=document.getElementById('loreBackupCode');const code=input.value.trim();input.value='';await store.connect(code);};
- document.getElementById('loreSaveNow').onclick=document.getElementById('loreUnlock').onclick;
+ document.getElementById('loreSaveNow').onclick=()=>void store.flush();
  document.getElementById('loreLock').onclick=()=>store.lock();
  document.getElementById('loreDownload').onclick=()=>{const url=URL.createObjectURL(new Blob([JSON.stringify(store.state,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='cyber-pet-lore-backup.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
  window.addEventListener('beforeunload',event=>{if(store.unsaved||store.busy){event.preventDefault();event.returnValue='';}});
  window.addEventListener('storage',event=>{if(event.key===STORAGE_KEY)try{store.readLocal();onChange(store.queue);}catch(error){status.textContent=error.message;}});
- const connection=new CloudBackup();if(connection.token){store.connection=()=>connection;void store.connect();}
+
  return store;
 }

@@ -20,6 +20,7 @@ export function mountSongEditor({document,storage,player,download,getAtoms,getRe
     }
     return prepared;
   }
+  try{const saved=storage.getItem('era-zero-song-arrangement-v1');if(['chords','melody'].includes(saved))arrangement.value=saved;}catch{}
   const inChords=()=>arrangement.value==='chords';
   const arranged=()=>inChords()?performance().midi:originalMelody();
   const showSeconds=n=>Number(n.toFixed(2))+' s';
@@ -43,7 +44,7 @@ export function mountSongEditor({document,storage,player,download,getAtoms,getRe
         '. The first chord starts at '+showSeconds(result.firstRoot.atSeconds)+'. Root '+(rootIndex+1)+' of '+result.rootCount+' · '+result.previews[rootIndex].id+'.';
     }catch(error){timing.textContent=error.message;}
   }
-  arrangement.addEventListener('change',()=>{player.stop();showArrangement();});
+  arrangement.addEventListener('change',()=>{try{storage.setItem('era-zero-song-arrangement-v1',arrangement.value);}catch{status.textContent='Arrangement could not save on this device.';}player.stop();showArrangement();});
   async function hearRoot(){
     try{
       const first=performance().previews[rootIndex];

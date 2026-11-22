@@ -54,5 +54,29 @@
     "title": "Haven stories with notes across eras",
     "description": "Sixty annotations at twenty passages: proposed DBA readers from Eras 0, 2 and 4 compare interpretations, alongside editorial explanations. Highlight the notes in the main lore book, or switch to story-only reading.",
     "url": "index.html#read=haven-fiction-sideways"
+  },
+  {
+    "id": "sound-library-20261120",
+    "date": "2026-11-20",
+    "order": 8,
+    "title": "Categorized sound library",
+    "description": "Location and floor tags make sounds easier to browse. Publication date from repository history.",
+    "url": "sounds/index.html"
+  },
+  {
+    "id": "audio-connections-20261122",
+    "date": "2026-11-22",
+    "order": 9,
+    "title": "Audio throughout the lore book",
+    "description": "Connected sounds appear beside readings and knowledge topics.",
+    "url": "sounds/index.html"
+  },
+  {
+    "id": "unified-workspace-20261122",
+    "date": "2026-11-22",
+    "order": 10,
+    "title": "One searchable lore workspace",
+    "description": "Full-text search, a shared notebook, stage and audio notes, saved tool versions, and conflict-preserving backups.",
+    "url": "notebook.html"
   }
 ]
