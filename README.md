@@ -148,3 +148,7 @@ Location readings and wiki topics include native audio players for their shared 
 The committed inventory covers 244 prepared game audio files plus four song performances (248 clips in 217 entries). Eighteen Tactical Hurdles effects are marked as previews; reserved effects and mood variants retain their status. The complete sound library remains a searchable index with links back to relevant lore.
 
 `tools/build_sound_connections.py` creates editorial reference readings before wiki indexing, then produces `site/sounds/connections.json` after the wiki build. It never rewrites existing source paragraphs. `sources/game-audio-inventory.json` records the source paths and checksums used for coverage. Audio is user-initiated, loads on demand, stops on navigation or when the page is hidden, and coordinates with DBA passage playback. Automated coverage and player checks are in `tests/audio-connections.test.mjs` and `tests/sound-library.test.mjs`.
+
+### Dance announcer variety
+
+The collection now includes 24 praise/encouragement phrases in three ElevenLabs voices (72 clips), grouped as selectable voice variations on the Dance topic. Total: 316 prepared game files plus four song performances, in 241 entries. Warm coach (Sharif), playful arcade host (Remi), and electronic announcer (Vector) each have six Perfect, six Great, six Good and six encouragement phrases. In-game announcers change between rounds, shuffle phrases, and leave room between spoken cues. Tactical Hurdles effects are now labeled as published game audio, matching their November 22 release.

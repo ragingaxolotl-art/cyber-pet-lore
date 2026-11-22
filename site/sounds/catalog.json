@@ -6155,7 +6155,7 @@
         }
       ],
       "locations": [],
-      "status": "Tactical course preview",
+      "status": "Game audio · Tactical Hurdles",
       "attribution": "Generated for Cyber Pet with ElevenLabs. Account terms apply; no separate reuse license granted.",
       "related": [
         {
@@ -6188,7 +6188,7 @@
         }
       ],
       "locations": [],
-      "status": "Tactical course preview",
+      "status": "Game audio · Tactical Hurdles",
       "attribution": "Generated for Cyber Pet with ElevenLabs. Account terms apply; no separate reuse license granted.",
       "related": [
         {
@@ -6221,7 +6221,7 @@
         }
       ],
       "locations": [],
-      "status": "Tactical course preview",
+      "status": "Game audio · Tactical Hurdles",
       "attribution": "Generated for Cyber Pet with ElevenLabs. Account terms apply; no separate reuse license granted.",
       "related": [
         {
@@ -6254,7 +6254,7 @@
         }
       ],
       "locations": [],
-      "status": "Tactical course preview",
+      "status": "Game audio · Tactical Hurdles",
       "attribution": "Generated for Cyber Pet with ElevenLabs. Account terms apply; no separate reuse license granted.",
       "related": [
         {
@@ -6287,7 +6287,7 @@
         }
       ],
       "locations": [],
-      "status": "Tactical course preview",
+      "status": "Game audio · Tactical Hurdles",
       "attribution": "Generated for Cyber Pet with ElevenLabs. Account terms apply; no separate reuse license granted.",
       "related": [
         {
@@ -6320,7 +6320,7 @@
         }
       ],
       "locations": [],
-      "status": "Tactical course preview",
+      "status": "Game audio · Tactical Hurdles",
       "attribution": "Generated for Cyber Pet with ElevenLabs. Account terms apply; no separate reuse license granted.",
       "related": [
         {
@@ -6353,7 +6353,7 @@
         }
       ],
       "locations": [],
-      "status": "Tactical course preview",
+      "status": "Game audio · Tactical Hurdles",
       "attribution": "Generated for Cyber Pet with ElevenLabs. Account terms apply; no separate reuse license granted.",
       "related": [
         {
@@ -6386,7 +6386,7 @@
         }
       ],
       "locations": [],
-      "status": "Tactical course preview",
+      "status": "Game audio · Tactical Hurdles",
       "attribution": "Generated for Cyber Pet with ElevenLabs. Account terms apply; no separate reuse license granted.",
       "related": [
         {
@@ -6419,7 +6419,7 @@
         }
       ],
       "locations": [],
-      "status": "Tactical course preview",
+      "status": "Game audio · Tactical Hurdles",
       "attribution": "Generated for Cyber Pet with ElevenLabs. Account terms apply; no separate reuse license granted.",
       "related": [
         {
@@ -6452,7 +6452,7 @@
         }
       ],
       "locations": [],
-      "status": "Tactical course preview",
+      "status": "Game audio · Tactical Hurdles",
       "attribution": "Generated for Cyber Pet with ElevenLabs. Account terms apply; no separate reuse license granted.",
       "related": [
         {
@@ -6485,7 +6485,7 @@
         }
       ],
       "locations": [],
-      "status": "Tactical course preview",
+      "status": "Game audio · Tactical Hurdles",
       "attribution": "Generated for Cyber Pet with ElevenLabs. Account terms apply; no separate reuse license granted.",
       "related": [
         {
@@ -6518,7 +6518,7 @@
         }
       ],
       "locations": [],
-      "status": "Tactical course preview",
+      "status": "Game audio · Tactical Hurdles",
       "attribution": "Generated for Cyber Pet with ElevenLabs. Account terms apply; no separate reuse license granted.",
       "related": [
         {
@@ -6551,7 +6551,7 @@
         }
       ],
       "locations": [],
-      "status": "Tactical course preview",
+      "status": "Game audio · Tactical Hurdles",
       "attribution": "Generated for Cyber Pet with ElevenLabs. Account terms apply; no separate reuse license granted.",
       "related": [
         {
@@ -6584,7 +6584,7 @@
         }
       ],
       "locations": [],
-      "status": "Tactical course preview",
+      "status": "Game audio · Tactical Hurdles",
       "attribution": "Generated for Cyber Pet with ElevenLabs. Account terms apply; no separate reuse license granted.",
       "related": [
         {
@@ -6617,7 +6617,7 @@
         }
       ],
       "locations": [],
-      "status": "Tactical course preview",
+      "status": "Game audio · Tactical Hurdles",
       "attribution": "Generated for Cyber Pet with ElevenLabs. Account terms apply; no separate reuse license granted.",
       "related": [
         {
@@ -6650,7 +6650,7 @@
         }
       ],
       "locations": [],
-      "status": "Tactical course preview",
+      "status": "Game audio · Tactical Hurdles",
       "attribution": "Generated for Cyber Pet with ElevenLabs. Account terms apply; no separate reuse license granted.",
       "related": [
         {
@@ -6683,7 +6683,7 @@
         }
       ],
       "locations": [],
-      "status": "Tactical course preview",
+      "status": "Game audio · Tactical Hurdles",
       "attribution": "Generated for Cyber Pet with ElevenLabs. Account terms apply; no separate reuse license granted.",
       "related": [
         {
@@ -6716,7 +6716,7 @@
         }
       ],
       "locations": [],
-      "status": "Tactical course preview",
+      "status": "Game audio · Tactical Hurdles",
       "attribution": "Generated for Cyber Pet with ElevenLabs. Account terms apply; no separate reuse license granted.",
       "related": [
         {
@@ -8989,6 +8989,1302 @@
         {
           "title": "Room to Restore — The Door Left Unlatched",
           "href": "index.html#read=song-room-to-restore"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_perfect_01",
+      "kind": "voice",
+      "title": "Perfect!",
+      "tags": [
+        "dance",
+        "announcer",
+        "perfect",
+        "praise"
+      ],
+      "category": "Dance · Perfect",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Perfect phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_perfect_01.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "aa768ba3048483d842701b63a9c0e6b8237c24eec1bf6656e9524ab0d379182a",
+          "bytes": 11636,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_perfect_01.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_perfect_01.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "c38862e10485e8448233a65fc2f5e7cf472d6a92a98d50f55160203e38c2c1d9",
+          "bytes": 11497,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_perfect_01.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_perfect_01.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "8ee4ac6a77468dcc41fba42b25d02daeb1957ad3eb20ef3dcabd22a766736ba9",
+          "bytes": 9615,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_perfect_01.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_perfect_02",
+      "kind": "voice",
+      "title": "Nailed it!",
+      "tags": [
+        "dance",
+        "announcer",
+        "perfect",
+        "praise"
+      ],
+      "category": "Dance · Perfect",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Perfect phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_perfect_02.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "7437099d5e0ecf49f4002b0b392077bab886f2f19f0d78d50c4a3cd2dfe4a04e",
+          "bytes": 11553,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_perfect_02.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_perfect_02.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "be22561f02b048faae33b5ee93c8fe61a487868ff47badc49520947fa8315b6c",
+          "bytes": 10867,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_perfect_02.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_perfect_02.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "9e76eb85b3447a1b9be767726fa7d5d7a205348b5bd6422e8625f0b739e3052a",
+          "bytes": 10087,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_perfect_02.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_perfect_03",
+      "kind": "voice",
+      "title": "Right on beat!",
+      "tags": [
+        "dance",
+        "announcer",
+        "perfect",
+        "praise"
+      ],
+      "category": "Dance · Perfect",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Perfect phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_perfect_03.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "2e3a4810b16da62f8ce74c44b552422f1e4df52399ce1949417f6a2171e7e93c",
+          "bytes": 12453,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_perfect_03.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_perfect_03.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "7e192e4ce53fd389447a62296edd8deab2012e74f903971fe3d952024dc1b59f",
+          "bytes": 11476,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_perfect_03.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_perfect_03.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "aa6e62feb0cf0380a32883525239c2ad99bd182a0fc3a1b0bc3b74b588fe67c2",
+          "bytes": 11320,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_perfect_03.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_perfect_04",
+      "kind": "voice",
+      "title": "Spot on!",
+      "tags": [
+        "dance",
+        "announcer",
+        "perfect",
+        "praise"
+      ],
+      "category": "Dance · Perfect",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Perfect phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_perfect_04.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "d55c10b4c0a187ab04c348ac3b17577d26a575eab42ace3cb8280a474cefd7b4",
+          "bytes": 12162,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_perfect_04.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_perfect_04.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "1346494baa9e3f0095657025c7cd3d42fbe40b92dd4036d38bb886f7045c26e1",
+          "bytes": 10765,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_perfect_04.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_perfect_04.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "445f3ffb8e8fb8a49de9587393803f7b83ff3c33118ead6e14c7fd6ef330fa66",
+          "bytes": 8899,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_perfect_04.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_perfect_05",
+      "kind": "voice",
+      "title": "Flawless timing!",
+      "tags": [
+        "dance",
+        "announcer",
+        "perfect",
+        "praise"
+      ],
+      "category": "Dance · Perfect",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Perfect phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_perfect_05.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "6d41fdaf89f0d212446c65c23fbfa90d4071e53d8f9a80fa420c7927ce72f242",
+          "bytes": 14835,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_perfect_05.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_perfect_05.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "507aa3822bac8a2b84276b6c461eec7cb35d8455272afaac35bfab7b9767e439",
+          "bytes": 14983,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_perfect_05.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_perfect_05.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "3c2f9e26818e74a9b7afbfe5c18b856130d01de2b6e9ce997bf3b397a36a9f1d",
+          "bytes": 13261,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_perfect_05.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_perfect_06",
+      "kind": "voice",
+      "title": "You've got the rhythm!",
+      "tags": [
+        "dance",
+        "announcer",
+        "perfect",
+        "praise"
+      ],
+      "category": "Dance · Perfect",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Perfect phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_perfect_06.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "63cbb9f1f021338df09d32912ce419ec08400a1edbf115d05128c00da2b82c82",
+          "bytes": 12807,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_perfect_06.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_perfect_06.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "949143cd860545f44b8ced2d1b453b4a23bcf41bf4bc6ef45e725dc7a0b2c08d",
+          "bytes": 12499,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_perfect_06.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_perfect_06.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "1301b49e1cb6d8b678e829a2b2bc79c263f05159cdf406585e2de01e65bc788f",
+          "bytes": 12047,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_perfect_06.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_great_01",
+      "kind": "voice",
+      "title": "Great!",
+      "tags": [
+        "dance",
+        "announcer",
+        "great",
+        "praise"
+      ],
+      "category": "Dance · Great",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Great phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_great_01.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "08eba92819eca8acd910fbc69834e2a98c2124a2ac176f9c88fb461b53726125",
+          "bytes": 6875,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_great_01.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_great_01.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "4aa54f49b27a5373b887a9b32132439e367a5393947d3225c712662a85d69cb8",
+          "bytes": 9764,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_great_01.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_great_01.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "375a5698355500ed626952014d0296bf2440af2b905b1580a500852ccf1ed940",
+          "bytes": 8702,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_great_01.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_great_02",
+      "kind": "voice",
+      "title": "Nice timing!",
+      "tags": [
+        "dance",
+        "announcer",
+        "great",
+        "praise"
+      ],
+      "category": "Dance · Great",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Great phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_great_02.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "1848fa1503a51d1b099aa510d6846dfff5fd345545d38bf39656ce59401b16f3",
+          "bytes": 11791,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_great_02.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_great_02.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "fc4ebd220fd09abaeeedda8f1b8ef1cb37f4f30a48d10eb6869e1c182ec5abd6",
+          "bytes": 9956,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_great_02.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_great_02.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "ec431b6783003a89a8911786958518f9e67ddc4a40a815d9328187909995b80b",
+          "bytes": 10859,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_great_02.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_great_03",
+      "kind": "voice",
+      "title": "That's the groove!",
+      "tags": [
+        "dance",
+        "announcer",
+        "great",
+        "praise"
+      ],
+      "category": "Dance · Great",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Great phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_great_03.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "2763f779d3efe32fadb3ee175950f2cd748463c7b3e88eed3bd31798aceb54bb",
+          "bytes": 13229,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_great_03.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_great_03.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "c3746b3cf5ee3f75392824122eedc91fecc8a6bee6bbf86248c2c583714ccd01",
+          "bytes": 12528,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_great_03.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_great_03.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "62f7f44e0fba8bbaff70b9dbdfedca201612a0e4336738350c0f7b1ed80c7ff4",
+          "bytes": 13492,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_great_03.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_great_04",
+      "kind": "voice",
+      "title": "Smooth moves!",
+      "tags": [
+        "dance",
+        "announcer",
+        "great",
+        "praise"
+      ],
+      "category": "Dance · Great",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Great phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_great_04.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "612a2b8129334a9179cd387e31afa8169ca49df757b8e706d2ef4faddf1896cc",
+          "bytes": 13149,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_great_04.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_great_04.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "42854b433fc781f83c3e1f155e7b3c447c4def90ece234b5cdc46975e0c6113c",
+          "bytes": 11898,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_great_04.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_great_04.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "9bb42c5d28d0cdaee574e96c72cd9433613344d315fc9ee1c56874b285be4082",
+          "bytes": 11050,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_great_04.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_great_05",
+      "kind": "voice",
+      "title": "Looking sharp!",
+      "tags": [
+        "dance",
+        "announcer",
+        "great",
+        "praise"
+      ],
+      "category": "Dance · Great",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Great phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_great_05.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "85d322749f023d617cd267654870245e3517478c4deddf02b437e3e306b61f77",
+          "bytes": 12474,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_great_05.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_great_05.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "6449c691646f03464d3a84ad6f70430dd19cf46df9d3edc782a00fe4fe09d55b",
+          "bytes": 10899,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_great_05.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_great_05.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "c4225b4f393bc6a24e4d31f48b65a70dce8b5fdf77333282fbbee7d87ae6fe14",
+          "bytes": 10485,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_great_05.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_great_06",
+      "kind": "voice",
+      "title": "Nicely done!",
+      "tags": [
+        "dance",
+        "announcer",
+        "great",
+        "praise"
+      ],
+      "category": "Dance · Great",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Great phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_great_06.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "51be26885c2be4e5d29d93bbcbc23dabbfab000d22f1dc43a9478c50a15f1364",
+          "bytes": 12101,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_great_06.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_great_06.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "795418266368c46ae646f4392d5860295653f681294bf1931fa31601c054e0f0",
+          "bytes": 11601,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_great_06.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_great_06.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "7476658bfc2faf4bc6fae056befaffa06ad9374042510ecd427543c4547db65a",
+          "bytes": 11434,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_great_06.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_good_01",
+      "kind": "voice",
+      "title": "Good!",
+      "tags": [
+        "dance",
+        "announcer",
+        "good",
+        "praise"
+      ],
+      "category": "Dance · Good",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Good phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_good_01.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "b658a7407b834b5955687af848dcb07e11806a79f95eb798c9b6a6546ae7b103",
+          "bytes": 8150,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_good_01.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_good_01.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "6043bc196c1e9bb071e817fd90aba6222986fc3479042bc2589a01a71e01702a",
+          "bytes": 8543,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_good_01.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_good_01.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "369973d23d14ad77b0d695ad13889ffd3892eb3e1039c2149d4c036c9c4231ec",
+          "bytes": 7934,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_good_01.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_good_02",
+      "kind": "voice",
+      "title": "Nice!",
+      "tags": [
+        "dance",
+        "announcer",
+        "good",
+        "praise"
+      ],
+      "category": "Dance · Good",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Good phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_good_02.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "70e47132e8c44f859741b078586c1025547dca965af8fcf7789dac8993c0f3d4",
+          "bytes": 9745,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_good_02.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_good_02.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "a83defbb983558237b834a56e2f94b726e9326999f13a95f07cee18518ce4235",
+          "bytes": 9981,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_good_02.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_good_02.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "c2fba0b77f82d34628cd8da94ecdc7d3cd74683bec6a2baccf230e0dae90ea81",
+          "bytes": 8925,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_good_02.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_good_03",
+      "kind": "voice",
+      "title": "You got it!",
+      "tags": [
+        "dance",
+        "announcer",
+        "good",
+        "praise"
+      ],
+      "category": "Dance · Good",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Good phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_good_03.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "067c44773bac82cfcf51680dc8495986e09e2ad9d861a750ef4d9855696e75c2",
+          "bytes": 10623,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_good_03.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_good_03.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "c402e4f4a11674d5286f2b1e98526c04ddaa5aea19302121258d758f6a26cd02",
+          "bytes": 10425,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_good_03.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_good_03.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "ee24f2937c9debb9d12b568bc3e5aa78f19f5885a701636e8dccafeb2fb38ffe",
+          "bytes": 10269,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_good_03.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_good_04",
+      "kind": "voice",
+      "title": "That works!",
+      "tags": [
+        "dance",
+        "announcer",
+        "good",
+        "praise"
+      ],
+      "category": "Dance · Good",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Good phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_good_04.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "26f6be293ad71aee89e01621222bf0c586d4e9eb9dce435ebd8a1e2eaa49e98d",
+          "bytes": 10521,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_good_04.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_good_04.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "6a7da53a672f25fc52c3051834b38cec21152d30794a1f16553d36f22e38e3e6",
+          "bytes": 9883,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_good_04.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_good_04.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "6c7d6006c3a95a14671bc248710a09cddfbce4570483c20347168d44961a92f0",
+          "bytes": 9395,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_good_04.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_good_05",
+      "kind": "voice",
+      "title": "Good move!",
+      "tags": [
+        "dance",
+        "announcer",
+        "good",
+        "praise"
+      ],
+      "category": "Dance · Good",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Good phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_good_05.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "3b0d39fe34623e82d5a6844ee39a0145681762f8ea309bff0453669460cfbe1b",
+          "bytes": 10918,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_good_05.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_good_05.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "284358cb6d2c1e3df1027370ebe9d1de967c2b86ed8e9d61d54d828cbab312b1",
+          "bytes": 10232,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_good_05.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_good_05.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "d35ecba0f248a4b85b1205f03634bcc9a3bc7f1294b38a80bf4483232360e2d0",
+          "bytes": 9851,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_good_05.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_good_06",
+      "kind": "voice",
+      "title": "There you go!",
+      "tags": [
+        "dance",
+        "announcer",
+        "good",
+        "praise"
+      ],
+      "category": "Dance · Good",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Good phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_good_06.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "8601374d589ba713b8ad32d4fedb894927820b6cd35da6fa60db64ab3dc625ac",
+          "bytes": 10883,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_good_06.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_good_06.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "a863868b9748568ae18c60058c9909ef2e350d1be2d590ade984acdf0646a66d",
+          "bytes": 9052,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_good_06.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_good_06.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "1d9e74a7f15231a3a018ad98deb8c21991a672a1db0eed9d2a86f00f5033137f",
+          "bytes": 9334,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_good_06.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_encouragement_01",
+      "kind": "voice",
+      "title": "Keep it up!",
+      "tags": [
+        "dance",
+        "announcer",
+        "encouragement",
+        "praise"
+      ],
+      "category": "Dance · Encouragement",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Encouragement phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_encouragement_01.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "dec5066c5b73c7bd6e25dd3c676604d16def27714fb83cf1ae31e8e6a2f99dee",
+          "bytes": 10238,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_encouragement_01.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_encouragement_01.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "3e33c9ae3acf2e1baa174eafe3d01e1b524aaf8dccedff513ea94fdd1292ed30",
+          "bytes": 9650,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_encouragement_01.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_encouragement_01.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "2d5c3966b77565c95a2e641445d84d1fb848f4ddbb651e7eb4f4d05c1a5fc429",
+          "bytes": 8886,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_encouragement_01.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_encouragement_02",
+      "kind": "voice",
+      "title": "Keep that rhythm!",
+      "tags": [
+        "dance",
+        "announcer",
+        "encouragement",
+        "praise"
+      ],
+      "category": "Dance · Encouragement",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Encouragement phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_encouragement_02.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "cfd20a5b9aa2daec0ea1f4385c3aa8cdf540fd09ccbf301d2d6b3fc0b22f503a",
+          "bytes": 12953,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_encouragement_02.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_encouragement_02.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "e08bac174fe26137b0e799e63f577def82b54515ebae3495e473b96250530b1e",
+          "bytes": 13544,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_encouragement_02.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_encouragement_02.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "a45dfc60cdb9a1ee212c42b483d07cb100ab22c56932db1623f97ffad56f31b0",
+          "bytes": 12618,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_encouragement_02.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_encouragement_03",
+      "kind": "voice",
+      "title": "You're on a roll!",
+      "tags": [
+        "dance",
+        "announcer",
+        "encouragement",
+        "praise"
+      ],
+      "category": "Dance · Encouragement",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Encouragement phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_encouragement_03.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "41b95e43811aa5eba01b9da94653fc99bcc2c8cedbdda8cc8f35126136a0bd4a",
+          "bytes": 13182,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_encouragement_03.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_encouragement_03.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "e83f9efe3c1dfb539af34eb647370b7d3d2d54918306492a412c1800d7ff288a",
+          "bytes": 12309,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_encouragement_03.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_encouragement_03.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "1f4899a47af126cff7426cfccb64b9bd77f1070ecca367f434a3d3136f6d9ad1",
+          "bytes": 12260,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_encouragement_03.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_encouragement_04",
+      "kind": "voice",
+      "title": "Stay with the beat!",
+      "tags": [
+        "dance",
+        "announcer",
+        "encouragement",
+        "praise"
+      ],
+      "category": "Dance · Encouragement",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Encouragement phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_encouragement_04.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "b2554c6b57a16f333d55a469dff6bd9565461eac3aa6e9a91472a1dfc0d049b6",
+          "bytes": 12886,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_encouragement_04.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_encouragement_04.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "32a27d3f25b12b64c2339a0b8508509ef952211158c5f3fe7d4563f1ffad7c9c",
+          "bytes": 11286,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_encouragement_04.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_encouragement_04.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "faf9c518733509ab78af81b15fb510a7febc24f528eca79b5d6894aa2b2aff93",
+          "bytes": 12050,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_encouragement_04.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_encouragement_05",
+      "kind": "voice",
+      "title": "Keep going!",
+      "tags": [
+        "dance",
+        "announcer",
+        "encouragement",
+        "praise"
+      ],
+      "category": "Dance · Encouragement",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Encouragement phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_encouragement_05.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "a81acf56bf07a88b4a65f939dda8b1f021076b65a4d8d082015658d949f3f86d",
+          "bytes": 10137,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_encouragement_05.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_encouragement_05.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "ae02ac155e46c3f795c4de9744f9c3ec045da893c95231a0193f89cef29fbef0",
+          "bytes": 10876,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_encouragement_05.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_encouragement_05.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "0db8f9c3f21478affb45ee28bba84c2397b48b7da0478478326ddaaaee68a1af",
+          "bytes": 10453,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_encouragement_05.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
+        }
+      ]
+    },
+    {
+      "id": "dance_praise_encouragement_06",
+      "kind": "voice",
+      "title": "You've got this!",
+      "tags": [
+        "dance",
+        "announcer",
+        "encouragement",
+        "praise"
+      ],
+      "category": "Dance · Encouragement",
+      "groups": [
+        "dance",
+        "feedback"
+      ],
+      "new": true,
+      "description": "Encouragement phrase in three announcer voices. Dance chooses one voice for each round and rotates phrases without immediate repeats.",
+      "clips": [
+        {
+          "src": "audio/dance_voice_coach_encouragement_06.ogg",
+          "label": "Warm coach · Sharif",
+          "sha256": "026a405e71bd1a7d648eeae8d91dc5b6b6e2254f4998d76f7358cd2bf7e5ce51",
+          "bytes": 13227,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_coach_encouragement_06.ogg"
+        },
+        {
+          "src": "audio/dance_voice_arcade_encouragement_06.ogg",
+          "label": "Playful arcade host · Remi",
+          "sha256": "dafbd440ae069acca6c939faae2597fe2a16c16a8cef5189448dc6bbe453e57f",
+          "bytes": 13401,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_arcade_encouragement_06.ogg"
+        },
+        {
+          "src": "audio/dance_voice_electronic_encouragement_06.ogg",
+          "label": "Electronic announcer · Vector",
+          "sha256": "d40f0215a8954c7f28b25d72677395ba129283aed8e74de0bef624378b68c893",
+          "bytes": 11610,
+          "source_path": "assets/sounds/elevenlabs-dance-2026-11-22/dance_voice_electronic_encouragement_06.ogg"
+        }
+      ],
+      "locations": [],
+      "status": "Dance announcer",
+      "attribution": "Generated for Cyber Pet using licensed ElevenLabs library voices. No cloned voices, student media or reference audio uploaded. Account terms apply.",
+      "related": [
+        {
+          "title": "Dance & charisma",
+          "href": "wiki.html#audio-dance"
+        },
+        {
+          "title": "Training encouragement",
+          "href": "wiki.html#audio-feedback"
         }
       ]
     }
