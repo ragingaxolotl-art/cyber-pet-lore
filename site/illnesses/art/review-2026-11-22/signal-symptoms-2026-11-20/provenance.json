@@ -1,0 +1,62 @@
+{
+  "generator": "PixelLab Pixen",
+  "date": "2026-11-20",
+  "purpose": "User-requested redesign of disease previews 6, 7 and 11",
+  "generations": 6,
+  "original_bubble": "res://assets/care/pixellab-2026-10-28/animations/queasy_bubbles.png",
+  "assets": [
+    {
+      "name": "packet_tile",
+      "prompt": "One small floating digital DATA PACKET icon for a cyber pet illness particle. A compact cyan rectangular translucent-looking data tile with a dark navy outline, bright white corner glints and 3 chunky binary-like markings inside. Flat front view, crisp readable 16-bit pixel art. ONE isolated tile centered with transparent padding, no surrounding effects, no text labels, no character.",
+      "job_id": "8ec2ac9a-de7e-4e30-96c1-fd761819cba6",
+      "width": 48,
+      "height": 48,
+      "download": "https://api.pixellab.ai/mcp/images/8ec2ac9a-de7e-4e30-96c1-fd761819cba6/download",
+      "status": "Accepted; transparent source pixels preserved"
+    },
+    {
+      "name": "packet_chip",
+      "prompt": "One small floating digital DATA PACKET icon for a cyber pet illness particle. A compact amber square microchip with four tiny connector pins on each side, dark navy outline, bright gold core and a simple white circuit trace inside. Flat front view, crisp readable 16-bit pixel art. ONE isolated chip centered with transparent padding, no surrounding effects, no labels, no character.",
+      "job_id": "802c26b5-d2f0-49b0-a618-24e0d5eb0b13",
+      "width": 48,
+      "height": 48,
+      "download": "https://api.pixellab.ai/mcp/images/802c26b5-d2f0-49b0-a618-24e0d5eb0b13/download",
+      "status": "Accepted; transparent source pixels preserved"
+    },
+    {
+      "name": "packet_stack",
+      "prompt": "One small floating digital DATA PACKET icon for a cyber pet illness particle. Three short magenta-purple horizontal data bars stacked into one compact rectangular packet, with bright lilac bit squares on the bars and dark navy outline. Flat front view, crisp readable 16-bit pixel art. ONE isolated packet centered with transparent padding, no surrounding effects, no labels, no character.",
+      "job_id": "0e6f3c1b-a94e-4b83-89c9-2cf01fd40344",
+      "width": 48,
+      "height": 48,
+      "download": "https://api.pixellab.ai/mcp/images/0e6f3c1b-a94e-4b83-89c9-2cf01fd40344/download",
+      "status": "Accepted; transparent source pixels preserved"
+    },
+    {
+      "name": "signal_tower_emote",
+      "prompt": "A crisp pixel-art emote: ONE jagged cream-white speech bubble with dark navy outline and a short downward-pointing tail. Inside is ONE large orange EXCLAMATION MARK shaped like a RADIO SIGNAL TOWER: tall tapered antenna mast forms the vertical stroke, a separate bright round dot beneath completes the exclamation mark. Very legible ! silhouette, tiny dark crossbars suggest the tower. No radio waves inside or outside; waves will be added by the game. Flat front view, centered, transparent background, generous padding, 16-bit game icon, no letters, no character.",
+      "job_id": "c7a5d9aa-ee5b-4c58-9e7a-e39db2c984e1",
+      "width": 96,
+      "height": 96,
+      "download": "https://api.pixellab.ai/mcp/images/c7a5d9aa-ee5b-4c58-9e7a-e39db2c984e1/download",
+      "status": "Superseded: insufficiently jagged bubble; retained for provenance"
+    },
+    {
+      "name": "radio_wave_half",
+      "prompt": "ONE clean thin cyan radio-wave semicircle arc, shaped exactly like a large left parenthesis (. Open on the RIGHT. A single unfilled half-circle stroke, cyan core with a dark teal edge, crisp stepped pixel art. Transparent inside and outside. NO concentric extra arcs, no enclosing full circle, no antenna, no character, no text, no glow haze. Center the single arc with generous transparent padding. This sprite will be mirrored to make the right parenthesis and scaled outward by the game.",
+      "job_id": "ad1172b8-8632-475a-829a-34165ebbeb3d",
+      "width": 64,
+      "height": 96,
+      "download": "https://api.pixellab.ai/mcp/images/ad1172b8-8632-475a-829a-34165ebbeb3d/download",
+      "status": "Accepted; transparent source pixels preserved"
+    }
+  ],
+  "revision": {
+    "name": "signal_tower_emote_v2",
+    "job_id": "f2f7e972-b90b-4372-b291-1de2090d651e",
+    "prompt": "Single 16-bit pixel art warning emote, transparent background. A sharply JAGGED comic speech balloon, like an irregular twelve-point lightning starburst with a short zigzag tail below, ivory fill and thick dark navy outline. INSIDE: one bold orange radio transmission tower shaped like an exclamation mark !. Recognizable narrow metal lattice mast: straight tall vertical antenna at top, two diagonal legs and three dark horizontal crossbars inside the orange stroke, with a SEPARATE orange square DOT underneath. Wide clear space between tower and dot so it reads as !. Tower NOT a light bulb, NOT a microphone. Bubble boundary very angular and spiky, NOT rounded, NOT octagonal. No waves, no words, no letters, no character. Center icon, transparent padding.",
+    "download": "https://api.pixellab.ai/mcp/images/f2f7e972-b90b-4372-b291-1de2090d651e/download",
+    "status": "Accepted jagged exclamation emote"
+  },
+  "rendering": "Source art is unchanged. AtlasTexture trims transparent margins at runtime; the single wave is mirrored horizontally for the right side."
+}

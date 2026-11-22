@@ -1,19 +1,9 @@
-Illnesses — revised original visuals
-
-Each category rolls independently on first/location entry, every randomly spaced 10–15 active minutes, and on leaving games. Markets and shops do not trigger exit rolls. Ordinary category successes randomly select a named condition; only corruption 4–5 locations have a fixed trademark. These probabilities do not add to 100%.
-
-Corruption 0: dominant 25%, other categories 5–20%. Corruption 1: dominant 30%, others 6–25%. Corruption 2: dominant 35%, others 7–30%. Corruption 3: dominant 40%, others 8–35%. Corruption 4: trademark 50%, others 10–40%. Corruption 5: trademark 50%, others 10–45%. Authored settings in the levels remain the source of truth.
-
-Trademarks connect to location history; future story hooks below are possibilities, not completed canon. Existing diagnoses retain their category's established treatment and penalties. Corruption is accumulated translation, overlap and damage, not a moral judgment.
-
-Every effect is animated in the game, with a deliberate reduced-motion still. Detailed original artwork is preserved; duplicated presentations have distinct geometry, source-body effects or original organisms. Runtime rotations use continuous clocks. The gallery's 24-second native demonstrations play once rather than snapping back at an artificial loop boundary. Effect sheets have 96 frames, 12 columns, 320×270-pixel cells. Procedural demonstrations are not replacement character artwork; their source is included separately.
-
-Drive directory: https://drive.google.com/drive/folders/1RNd-d45Ixq2QP26MedTdVTY8IwCp7XlZ
+Cyber Pet illness field guide — reviewed November 22, 2026
+Current examples first; earlier examples are preserved within each revised entry.
 
 Glitch Fever
 Category: infection
 Location: Any location with this category
-Ordinary variant selected randomly within its category.
 A randomly selected infection condition. It uses the category’s existing penalties and treatment.
 Visible effect: The original detailed heat wisps rise slowly from the body, with animated pixel flames.
 Care: Use the infection treatment listed in Care; cleaning supports recovery.
@@ -23,7 +13,6 @@ Possible story connection: No fixed location storyline; ordinary cases may appea
 Crystal Bloom
 Category: infection
 Location: Any location with this category
-Ordinary variant selected randomly within its category.
 A randomly selected infection condition. It uses the category’s existing penalties and treatment.
 Visible effect: The original crystalline clusters animate on visible body pixels.
 Care: Use the infection treatment listed in Care; cleaning supports recovery.
@@ -33,7 +22,6 @@ Possible story connection: No fixed location storyline; ordinary cases may appea
 Mosswire
 Category: parasites
 Location: Any location with this category
-Ordinary variant selected randomly within its category.
 A randomly selected parasites condition. It uses the category’s existing penalties and treatment.
 Visible effect: The original moss crown follows the visible head contour and gently breathes.
 Care: Use the parasite treatment listed in Care; cleaning supports recovery but does not replace treatment.
@@ -43,7 +31,6 @@ Possible story connection: No fixed location storyline; ordinary cases may appea
 Sporefan
 Category: parasites
 Location: Any location with this category
-Ordinary variant selected randomly within its category.
 A randomly selected parasites condition. It uses the category’s existing penalties and treatment.
 Visible effect: The original fungal fan clings near the head and plays its authored sprite animation.
 Care: Use the parasite treatment listed in Care; cleaning supports recovery but does not replace treatment.
@@ -53,7 +40,6 @@ Possible story connection: No fixed location storyline; ordinary cases may appea
 Static Mites
 Category: parasites
 Location: Any location with this category
-Ordinary variant selected randomly within its category.
 A randomly selected parasites condition. It uses the category’s existing penalties and treatment.
 Visible effect: Separate detailed mites crawl on independent continuous body paths, each with its own animated gait and timing.
 Care: Use the parasite treatment listed in Care; cleaning supports recovery but does not replace treatment.
@@ -63,27 +49,30 @@ Possible story connection: No fixed location storyline; ordinary cases may appea
 Signal Churn
 Category: digestive
 Location: Any location with this category
-Ordinary variant selected randomly within its category.
 A randomly selected digestive condition. It uses the category’s existing penalties and treatment.
-Visible effect: The original queasy bubbles animate beside the body.
+Visible effect: The existing green bubble sprites rise from staggered horizontal starting points across the pet’s middle, drift gently apart, and pop into brief rim fragments above it.
 Care: Use the digestive treatment listed in Care and sensible portions.
+Stages: Mild / moderate / severe: 4 / 5 / 6 staggered bubbles.
+Visual type: Sprite + effect
+Earlier published example: The original queasy bubbles animate beside the body.
 Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
 
 
 Buffer Bloat
 Category: digestive
 Location: Any location with this category
-Ordinary variant selected randomly within its category.
 A randomly selected digestive condition. It uses the category’s existing penalties and treatment.
-Visible effect: Flat signal packets crowd a bent channel, bulge its rails and squeeze through the outlet one at a time.
+Visible effect: Three PixelLab data-packet sprites radiate from the center of the visible pet in staggered directions and fade outward.
 Care: Use the digestive treatment listed in Care and sensible portions.
+Stages: Mild / moderate / severe: 8 / 10 / 12 radiating packets.
+Visual type: Sprite + effect
+Earlier published example: Flat signal packets crowd a bent channel, bulge its rails and squeeze through the outlet one at a time.
 Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
 
 
 Bitrot
 Category: chronic
 Location: Any location with this category
-Ordinary variant selected randomly within its category.
 A randomly selected chronic condition. It uses the category’s existing penalties and treatment.
 Visible effect: Mottled rust-like patches grow outward on the actual body over 75 seconds. Transparent artwork stays clear; growth never resets while the episode continues.
 Care: Use targeted chronic treatment listed in Care; rest alone does not cure it.
@@ -93,17 +82,18 @@ Possible story connection: No fixed location storyline; ordinary cases may appea
 Phase Scarring
 Category: chronic
 Location: Any location with this category
-Ordinary variant selected randomly within its category.
 A randomly selected chronic condition. It uses the category’s existing penalties and treatment.
-Visible effect: The distinctive original ghost concept remains: translucent copies of the actual pet drift outward in different directions.
+Visible effect: Three staggered afterimages break into irregular triangular shards of the actual pet texture. The separated pieces burst outward in varied directions, turn independently and fade, like jagged broken glass.
 Care: Use targeted chronic treatment listed in Care; rest alone does not cure it.
+Stages: Mild / moderate / severe: fragment waves repeat every 3.6 / 2.2 / 1.2 seconds.
+Visual type: Effect
+Earlier published example: The distinctive original ghost concept remains: translucent copies of the actual pet drift outward in different directions.
 Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
 
 
 Seam Bruise
 Category: injury
 Location: Any location with this category
-Ordinary variant selected randomly within its category.
 A randomly selected injury condition. It uses the category’s existing penalties and treatment.
 Visible effect: A feathered translucent purple-brown bruise lies on the body, with very slow capillary shading. The character remains visible underneath.
 Care: Use injury supplies and the recovery time shown in Care.
@@ -113,37 +103,42 @@ Possible story connection: No fixed location storyline; ordinary cases may appea
 Signal Sprain
 Category: injury
 Location: Any location with this category
-Ordinary variant selected randomly within its category.
 A randomly selected injury condition. It uses the category’s existing penalties and treatment.
-Visible effect: A kinked signal tendon stretches between fixed contacts and recoils while a bright pulse travels along the strained connection.
+Visible effect: A jagged exclamation-mark emote appears above the pet while mirrored halves of one radio-wave sprite expand outward to its left and right.
 Care: Use injury supplies and the recovery time shown in Care.
+Stages: Mild / moderate / severe: 3 / 4 / 5 expanding pairs of radio waves.
+Visual type: Sprite + effect
+Earlier published example: A kinked signal tendon stretches between fixed contacts and recoils while a bright pulse travels along the strained connection.
 Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
 
 
 Muscle Fatigue
 Category: fatigue
 Location: Any location with this category
-Ordinary variant selected randomly within its category.
 A randomly selected fatigue condition. It uses the category’s existing penalties and treatment.
-Visible effect: The original heavy sweat droplets animate beside the tired pet.
+Visible effect: The original sweat artwork appears above the pet, offset to the right or mirrored to the left. Staggered clusters drip downward onto the upper body, fade and repeat.
 Care: Rest and recovery time help; avoid repeatedly exhausting the affected skill.
+Stages: Mild / moderate / severe: 1 / 2 / 3 staggered drip clusters.
+Visual type: Sprite + effect
+Earlier published example: The original heavy sweat droplets animate beside the tired pet.
 Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
 
 
 Mental Fatigue
 Category: fatigue
 Location: Any location with this category
-Ordinary variant selected randomly within its category.
 A randomly selected fatigue condition. It uses the category’s existing penalties and treatment.
-Visible effect: A three-part thought tries to assemble above the head; its last tile sags and the idea slowly falls apart.
+Visible effect: A large curled storm cloud stays centered above the head, with a tight continuous six-second orbit and small lightning bolts. Soft local lightning pulses brighten the cloud; position and velocity join smoothly around the full circle.
 Care: Rest and recovery time help; avoid repeatedly exhausting the affected skill.
+Stages: The centered storm grows larger with severity; its continuous orbit lasts six seconds.
+Visual type: Sprite + effect
+Earlier published example: A three-part thought tries to assemble above the head; its last tile sags and the idea slowly falls apart.
 Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
 
 
 Signal Flicker
 Category: stress
 Location: Any location with this category
-Ordinary variant selected randomly within its category.
 A randomly selected stress condition. It uses the category’s existing penalties and treatment.
 Visible effect: The original tangled signal mark breathes beside the pet; cause-specific body flicker remains separate and bounded.
 Care: Use calm care, rest and the stress treatment listed in Care.
@@ -153,37 +148,42 @@ Possible story connection: No fixed location storyline; ordinary cases may appea
 Echo Fright
 Category: stress
 Location: Any location with this category
-Ordinary variant selected randomly within its category.
 A randomly selected stress condition. It uses the category’s existing penalties and treatment.
-Visible effect: Angular sound fronts approach from alternating sides and break apart near the character.
+Visible effect: Bright warm-colored afterimages drift outward and briefly become bundled Blue Cap or Meep artwork for 0.28 seconds before resuming their fade. Reduced motion holds warm pet echoes without visitor flashes.
 Care: Use calm care, rest and the stress treatment listed in Care.
+Stages: Mild / moderate / severe: departing echoes cycle every 4.8 / 3.6 / 3 seconds; each visitor glimpse lasts 0.28 seconds.
+Visual type: Sprite + effect
+Earlier published example: Angular sound fronts approach from alternating sides and break apart near the character.
 Possible story connection: No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.
 
 
 Reply Echo
 Category: stress
 Location: Cacheboard, the Unintended Board
-Trademark: corruption 4, 50% per category check.
 Deleted replies recur in the pet’s signal, mirroring the board’s reconstructed messages.
-Visible effect: Broken reply fragments leave, wait, and return with missing text strokes before fading.
+Visible effect: Afterimages keep floating outward. Periodically the main pet disappears while six copies scatter for 0.85 seconds, return in 0.18 seconds, and merge back. Events recur every 10, 6, or 3.8 seconds by severity; reduced motion never hides the pet.
 Care: Use calm care, rest and the stress treatment listed in Care.
+Stages: Mild / moderate / severe: scatter-and-return events recur every 10 / 6 / 3.8 seconds. Return is faster than departure.
+Visual type: Effect
+Earlier published example: Broken reply fragments leave, wait, and return with missing text strokes before fading.
 Possible story connection: A reply fragment could lead to a contributor whose record was erased.
 
 
 Orison Dissonance
 Category: stress
 Location: The Commons and the Orison Chamber
-Trademark: corruption 4, 50% per category check.
 Overlapping civic voices fall out of time around the pet.
-Visible effect: Three civic voice traces cross a shared staff in independent, conflicting rhythms.
+Visible effect: The upper quarter of the visible main body waves strongly left and right, including narrow antennae above it. The deformation tapers to exactly zero at the quarter line; the lower three quarters remain unchanged.
 Care: Use calm care, rest and the stress treatment listed in Care.
+Stages: Higher severity increases the upper-quarter wave amplitude; the lower three quarters remain unchanged.
+Visual type: Effect
+Earlier published example: Three civic voice traces cross a shared staff in independent, conflicting rhythms.
 Possible story connection: A future gathering could reconcile competing versions of a shared promise.
 
 
 Pumpwire Leech
 Category: parasites
 Location: Sublevel and Pump Forty-Seven
-Trademark: corruption 5, 50% per category check.
 Residual wet machinery carries a filament that follows the forty-seventh pump pulse.
 Visible effect: A large original leech latches onto the body. Its eye and sucker sit in front on opaque character pixels while its free body wiggles slowly behind.
 Care: Use the parasite treatment listed in Care; cleaning supports recovery but does not replace treatment.
@@ -193,67 +193,78 @@ Possible story connection: Tracing its pulse could reveal a surviving maintenanc
 Shelter Afterimage
 Category: chronic
 Location: Shelter Orison, the Vanishing Shelter
-Trademark: corruption 4, 50% per category check.
 The missing partitions leave the pet’s outline briefly searching for a room that is gone.
-Visible effect: A remembered shelter outline tries to rebuild its missing room, sliding a doorway partition around the visitor.
+Visible effect: Opaque Blue Cap and Meep visitors emerge through a temporary door at the pet, linger nearby, and disappear through a separate exit door. Mild, moderate and severe show up to 1, 3 and 5 visitors, lingering for 4, 8 and 14 seconds. Doorway wipes preserve solid character colors; reduced motion holds the visitors and doors still.
 Care: Use targeted chronic treatment listed in Care; rest alone does not cure it.
+Stages: Mild / moderate / severe: up to 1 / 3 / 5 visitors linger for 4 / 8 / 14 seconds.
+Visual type: Sprite + effect
+Earlier published example: A remembered shelter outline tries to rebuild its missing room, sliding a doorway partition around the visitor.
 Possible story connection: A future rescue could distinguish shelter memories from navigable rooms.
 
 
 Warm Copy Drift
 Category: chronic
 Location: The Warm Copy Garden
-Trademark: corruption 4, 50% per category check.
 Layered persons and rooms impress slightly displaced copies on a visitor.
-Visible effect: Narrow warm impressions of the actual character peel away from separate body strips.
+Visible effect: A bright white printer-like scan line sweeps downward across the character, with softly fading edges. It is clipped to the character silhouette and crosses the full sprite canvas every 3.8 seconds.
 Care: Use targeted chronic treatment listed in Care; rest alone does not cure it.
+Stages: The white scan crosses the pet every 3.8 seconds. The stages share this visual.
+Visual type: Effect
+Earlier published example: Narrow warm impressions of the actual character peel away from separate body strips.
 Possible story connection: A future encounter could ask which copy remembers an unfinished kindness.
 
 
 Many-Forms Snare
 Category: injury
 Location: The Last City of Many Forms
-Trademark: corruption 4, 50% per category check.
 Misaligned district seams catch a passing pet at their joins.
-Visible effect: Different district polygons interlock at mismatched contacts, stretching against one another near the lower body.
+Visible effect: The whole character uses a consistent one-to-one RGB palette remap: (R,G,B) becomes (1-G,B,1-R). Identical source colors always receive identical replacements; black becomes magenta. Shape and transparency remain unchanged.
 Care: Use injury supplies and the recovery time shown in Care.
+Stages: All stages share the same stable color mapping; the effect is intentionally static.
+Visual type: Effect
+Earlier published example: Different district polygons interlock at mismatched contacts, stretching against one another near the lower body.
 Possible story connection: A civic repair route could reconnect two districts without erasing either.
 
 
 Return-Signal Fever
 Category: infection
 Location: The Underway of Returning Signals
-Trademark: corruption 4, 50% per category check.
 Repeated transit signals build a hot, unstable rhythm in the pet’s signal.
-Visible effect: Relay calls climb a small signal mast and return as hotter downward pulses.
+Visible effect: Bright pulses leave the torso and return; each impact sends an orange heat ripple through the actual body. Mild, moderate and severe emit 1, 2 and 3 staggered pulses per six-second cycle.
 Care: Use the infection treatment listed in Care; cleaning supports recovery.
+Stages: Mild / moderate / severe: 1 / 2 / 3 staggered returning pulses per six-second cycle.
+Visual type: Effect
+Earlier published example: Relay calls climb a small signal mast and return as hotter downward pulses.
 Possible story connection: Following the repeated call could locate a stranded relay.
 
 
 Sixfold Churn
 Category: digestive
 Location: The Folded Garden of Six Traditions
-Trademark: corruption 4, 50% per category check.
 Six borrowed environmental rhythms arrive in the wrong order and unsettle digestion.
-Visible effect: Six stationary chambers contract in a deliberately broken sequence instead of orbiting the pet.
+Visible effect: Two, four or six extra body parts are sampled from the current character and attached around its outline as severity rises. Extra faces, arms and feet overlap the living body, with a slow connected flex, forming a merged creature.
 Care: Use the digestive treatment listed in Care and sensible portions.
+Stages: Mild / moderate / severe: 2 / 4 / 6 attached body pieces.
+Visual type: Effect
+Earlier published example: Six stationary chambers contract in a deliberately broken sequence instead of orbiting the pet.
 Possible story connection: A garden steward could ask visitors to restore the order of the six traditions.
 
 
 Tide Repeat
 Category: stress
 Location: The Repeated Beach
-Trademark: corruption 4, 50% per category check.
 A wave that has already passed leaves a second outline behind the pet.
-Visible effect: A traveling water crest passes the feet, followed by a delayed second wave with small foam grains.
+Visible effect: Broad filled water ribbons roll in a pronounced up-and-down wave across the feet, and the actual character distorts vertically with the same wavelength, direction and four-second clock. A second crest follows behind with pale foam marks. Wave and body amplitude increase with severity; reduced motion freezes both together.
 Care: Use calm care, rest and the stress treatment listed in Care.
+Stages: Higher severity increases both water height and body distortion; they share one four-second clock.
+Visual type: Effect
+Earlier published example: A traveling water crest passes the feet, followed by a delayed second wave with small foam grains.
 Possible story connection: The repeated tide could expose a message absent from the first shoreline.
 
 
 Memory Reedling
 Category: parasites
 Location: The Wet Memory Marsh
-Trademark: corruption 4, 50% per category check.
 Marsh filaments root in discarded memory fragments and cling to visitors.
 Visible effect: Original hollow reeds grow from a body anchor. Beads climb three stalk paths and split into escaping memory fragments.
 Care: Use the parasite treatment listed in Care; cleaning supports recovery but does not replace treatment.
@@ -263,7 +274,6 @@ Possible story connection: A reedling could carry a recoverable fragment to an a
 Coral Bloom
 Category: infection
 Location: The Coral Data Labyrinth
-Trademark: corruption 4, 50% per category check.
 Living coral instructions spread across the old route network as luminous surface growth.
 Visible effect: Separate original coral colonies grow from small to full size over 45 seconds. Polyps animate and shed individual angular grains with continuous rotation.
 Care: Use the infection treatment listed in Care; cleaning supports recovery.
@@ -273,17 +283,19 @@ Possible story connection: A reef guide could use the bloom pattern to recover l
 Doorwake Drift
 Category: stress
 Location: The Inland Sea of Doors
-Trademark: corruption 4, 50% per category check.
 Competing shore doors pull the pet’s outline toward incompatible destinations.
-Visible effect: Two leaning shore doors pull unresolved threads from the body toward opposing destinations.
+Visible effect: Two linked doors trap the character in a continuous walking loop. As its actual pixels enter one doorway, they emerge from the opposite doorway, with an alternating foot stride and no full-body disappearance. Gameplay position, size and action stay unchanged. Mild, moderate and severe loops last 8, 6 and 4 seconds; reduced motion freezes the crossing.
 Care: Use calm care, rest and the stress treatment listed in Care.
+Stages: Mild / moderate / severe: the linked-door walking loop lasts 8 / 6 / 4 seconds. Actual game position stays unchanged.
+Visual type: Effect
+Earlier published example: Two leaning shore doors pull unresolved threads from the body toward opposing destinations.
+Earlier reviewed version — stretching doors: Two opposing doors stretched the actual pet horizontally, held it under tension, then let it recover. This was replaced by the linked-door walking loop.
 Possible story connection: A future door survey could identify a shore that has not yet been mapped.
 
 
 Chronofrost
 Category: chronic
 Location: The Glacial Memory Fjord
-Trademark: corruption 4, 50% per category check.
 Out-of-order glacial layers leave frost-like chronological scars in the signal.
 Visible effect: Frost bands hold real earlier character frames at different delays, producing chronological layers on the body.
 Care: Use targeted chronic treatment listed in Care; rest alone does not cure it.
@@ -293,7 +305,6 @@ Possible story connection: A recovered layer could contradict the order of an ar
 Season-Turn Churn
 Category: digestive
 Location: The Patchwork Prairie of Broken Seasons
-Trademark: corruption 4, 50% per category check.
 Broken seasons impose mismatched growth and rest rhythms on digestion.
 Visible effect: Sprouts, a tumbling autumn leaf, dry husks and frost appear in the wrong seasonal order. The leaf uses a continuous full-turn rotation.
 Care: Use the digestive treatment listed in Care and sensible portions.
@@ -303,17 +314,18 @@ Possible story connection: A communal harvest could reconnect adjoining seasonal
 Borrowed-Moon Languor
 Category: fatigue
 Location: The Orchard of Borrowed Moons
-Trademark: corruption 4, 50% per category check.
 Several moon rhythms demand rest at different times.
-Visible effect: Three suspended crescents change phase on independent clocks and shed slow sleep-light ticks.
+Visible effect: Three large crescents tug on different body columns. The head and body droop out of sync while the feet stay anchored, then recover in a continuous eight-second cycle. Higher severity deepens the droop.
 Care: Rest and recovery time help; avoid repeatedly exhausting the affected skill.
+Stages: Mild / moderate / severe: maximum body-column droop is 19.5% / 25% / 30.5%; the moons have offset phases in an eight-second loop.
+Visual type: Effect
+Earlier published example: Three suspended crescents change phase on independent clocks and shed slow sleep-light ticks.
 Possible story connection: A future moon festival could reveal who first borrowed the orchard’s light.
 
 
 Stepwell Slip
 Category: injury
 Location: The Monsoon Stepwell City
-Trademark: corruption 4, 50% per category check.
 Sudden wet-to-dry changes make a stair’s remembered grip disagree with its surface.
 Visible effect: A wet tread slips away from its remembered stair, shedding droplets beneath the feet.
 Care: Use injury supplies and the recovery time shown in Care.
@@ -323,7 +335,6 @@ Possible story connection: Reservoir keepers could mark the safe stair sequence 
 Unfinished Outline
 Category: chronic
 Location: The Museum of Unfinished Rooms
-Trademark: corruption 4, 50% per category check.
 An unfinished room leaves a small gap in the pet’s rendered outline.
 Visible effect: Actual edge pixels disappear into incomplete construction strokes that repeatedly fail to finish the outline.
 Care: Use targeted chronic treatment listed in Care; rest alone does not cure it.
@@ -333,27 +344,30 @@ Possible story connection: A curator could ask whether completing a room would e
 Dawnlock
 Category: fatigue
 Location: The Ice Cave of Paused Dawn
-Trademark: corruption 5, 50% per category check.
 Paused dawn keeps the pet’s waking rhythm suspended.
-Visible effect: A half sun stays pinned to a fixed horizon while detached rays escape upward.
+Visible effect: Dawnlight climbs through the actual character, stalls halfway with a warm lower half and cool upper half, then breaks into rising rays. The stalled phase lasts 2, 4 or 7 seconds; complete cycles last 7, 9 or 12 seconds.
 Care: Rest and recovery time help; avoid repeatedly exhausting the affected skill.
+Stages: Mild / moderate / severe: dawn stalls for 2 / 4 / 7 seconds, then breaks into 6 / 8 / 10 rising rays.
+Visual type: Effect
+Earlier published example: A half sun stays pinned to a fixed horizon while detached rays escape upward.
 Possible story connection: A future light study could find the one reflection still advancing.
 
 
 Skyseam Shear
 Category: injury
 Location: The Skyfold Boundary
-Trademark: corruption 4, 50% per category check.
 A passing boundary seam briefly pulls adjacent surfaces in different directions.
-Visible effect: Two translucent sky strips slide in opposite directions across a visibly torn join.
+Visible effect: A jagged seam splits the actual character image. Its upper and lower sections slide in opposite directions, expose a clear gap, hold, and reconnect over six seconds. Severity widens the separation.
 Care: Use injury supplies and the recovery time shown in Care.
+Stages: Higher severity widens the jagged split and displacement. Sections separate, hold and reconnect over six seconds.
+Visual type: Effect
+Earlier published example: Two translucent sky strips slide in opposite directions across a visibly torn join.
 Possible story connection: Migrating guides could chart the safe moment to cross.
 
 
 Misrestore Syndrome
 Category: chronic
 Location: The Valley That Restores Wrong
-Trademark: corruption 5, 50% per category check.
 The valley restores a slightly wrong version of the visitor’s outline.
 Visible effect: Local body patches reconstruct from the wrong portions of the actual character and retry.
 Care: Use targeted chronic treatment listed in Care; rest alone does not cure it.
@@ -363,7 +377,6 @@ Possible story connection: A future restoration task could compare the comfortin
 Distance Debt
 Category: fatigue
 Location: The Plain of Missing Distance
-Trademark: corruption 5, 50% per category check.
 Ordinary-looking steps spend effort across missing stretches of distance.
 Visible effect: Actual movement leaves alternating foot traces at earlier positions. They wait, catch up to the living feet, and fade. Standing still creates no new trail.
 Care: Rest and recovery time help; avoid repeatedly exhausting the affected skill.
@@ -373,7 +386,6 @@ Possible story connection: A future expedition could recover the units lost from
 Deferred Reflection
 Category: stress
 Location: The River of Deferred Reflections
-Trademark: corruption 4, 50% per category check.
 A reflection arrives late and continues a gesture after the pet stops.
 Visible effect: A reflection below the pet replays actual earlier frames after a two-second delay.
 Care: Use calm care, rest and the stress treatment listed in Care.
@@ -383,7 +395,6 @@ Possible story connection: A river artist could ask whose delayed gesture is sti
 Stormstatic Fever
 Category: infection
 Location: The Stormwall Orchard
-Trademark: corruption 4, 50% per category check.
 Boundary lightning leaves a persistent hot static pattern.
 Visible effect: Electrical veins carry traveling pulses across the body. Three body-anchored hot spots release short local sparks.
 Care: Use the infection treatment listed in Care; cleaning supports recovery.
@@ -393,7 +404,6 @@ Possible story connection: Orchard crews could trace a recurring pulse to a fail
 Worldscar Abrasion
 Category: injury
 Location: The Mosaic Worldscar
-Trademark: corruption 4, 50% per category check.
 Historical seams rub against one another and scuff a crossing visitor.
 Visible effect: Historical mosaic seams and tiny changing scuffs form a translucent abrasion clipped to the body.
 Care: Use injury supplies and the recovery time shown in Care.
@@ -403,17 +413,18 @@ Possible story connection: A repair story could preserve the mosaic’s historie
 Gravity Split
 Category: stress
 Location: The Room of Borrowed Gravity
-Trademark: corruption 4, 50% per category check.
 Borrowed gravity gives the pet several competing senses of down.
-Visible effect: Separate grains accelerate toward four competing directions of down and settle against temporary ledges.
+Visible effect: Four competing gravity directions stretch attached body regions upward, downward and sideways with different timing. The body stays connected, with small arrows marking the pulling directions. Stronger illness increases the stretch; the loop lasts eight seconds.
 Care: Use calm care, rest and the stress treatment listed in Care.
+Stages: Higher severity strengthens all four competing pulls; the continuous cycle lasts eight seconds.
+Visual type: Effect
+Earlier published example: Separate grains accelerate toward four competing directions of down and settle against temporary ledges.
 Possible story connection: A future room puzzle could return a borrowed direction to its owner.
 
 
 Threshold Rash
 Category: infection
 Location: The Door Archive
-Trademark: corruption 4, 50% per category check.
 Conflicting door destinations leave small geometric threshold marks.
 Visible effect: Small hinged doors open on the body, each showing an incompatible geometric interior.
 Care: Use the infection treatment listed in Care; cleaning supports recovery.
@@ -423,17 +434,18 @@ Possible story connection: A door ledger could connect matching marks to a missi
 Mapfold Strain
 Category: fatigue
 Location: The Mapmaker’s Crawlspace
-Trademark: corruption 4, 50% per category check.
 A cramped map route asks the pet to follow more than one scale at once.
-Visible effect: An accordion-fold route expands while its ruler compresses, asking the pet to follow incompatible scales.
+Visible effect: The actual body compresses into shaded accordion pleats, holds its folded shape, then unfolds over eight seconds. Mild, moderate and severe use 4, 6 and 8 pleats with 32%, 46% and 60% peak width compression.
 Care: Rest and recovery time help; avoid repeatedly exhausting the affected skill.
+Stages: Mild / moderate / severe: 4 / 6 / 8 pleats and 32% / 46% / 60% peak width compression.
+Visual type: Effect
+Earlier published example: An accordion-fold route expands while its ruler compresses, asking the pet to follow incompatible scales.
 Possible story connection: A mapmaker’s marginal correction could reveal a hidden passage.
 
 
 Floor-Echo Fracture
 Category: injury
 Location: The Half-Restored Palace of Floors
-Trademark: corruption 5, 50% per category check.
 Half-restored floors meet at incompatible heights and bruise a visitor.
 Visible effect: Narrow lower-body slices are displaced to different heights along a stepped fracture, then settle independently.
 Care: Use injury supplies and the recovery time shown in Care.
@@ -443,7 +455,6 @@ Possible story connection: A future restoration route could recover the palace�
 Season Mismatch
 Category: digestive
 Location: The Rooms of Mismatched Seasons
-Trademark: corruption 4, 50% per category check.
 Adjacent rooms disagree about the body’s seasonal rhythm.
 Visible effect: Adjacent cold and hot room tiles send frost and warm grains in opposing directions across their shared wall.
 Care: Use the digestive treatment listed in Care and sensible portions.
@@ -453,17 +464,18 @@ Possible story connection: A future household story could reconcile rooms withou
 Beacon Recursion
 Category: stress
 Location: The Recursive Lighthouse
-Trademark: corruption 5, 50% per category check.
 The lighthouse repeats the pet’s signal at receding angles.
-Visible effect: Four receding lighthouse wedges repeat the signal at offset angles. Their rotation is continuous and completes full turns without snapping back.
+Visible effect: A beam emitted from the body reveals a smaller copy of the current pet, whose beam reveals another smaller copy. Mild, moderate and severe create 2, 3 and 4 successive copies. The sequence builds, holds and fades over six seconds.
 Care: Use calm care, rest and the stress treatment listed in Care.
+Stages: Mild / moderate / severe: 2 / 3 / 4 progressively smaller copies, each emitting the next beam.
+Visual type: Effect
+Earlier published example: Four receding lighthouse wedges repeat the signal at offset angles. Their rotation is continuous and completes full turns without snapping back.
 Possible story connection: A future signal puzzle could distinguish a real distress call from its copies.
 
 
 Cartographic Moss
 Category: parasites
 Location: The Garden Inside the Map
-Trademark: corruption 4, 50% per category check.
 Tiny garden roots follow the map’s paths and cling like living contour lines.
 Visible effect: Living contour paths grow across the body, with tiny leaf marks appearing along their routes.
 Care: Use the parasite treatment listed in Care; cleaning supports recovery but does not replace treatment.
