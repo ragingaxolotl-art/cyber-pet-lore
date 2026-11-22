@@ -176,6 +176,8 @@ print(json.dumps({'entries':len(catalog),'counts':counts,'integrity':conservatio
 # Rebuild derived chronology with the same source and internal reading IDs.
 import runpy
 runpy.run_path(str(ROOT/"tools/build_timeline.py"))
+from build_sound_connections import prepare_readings as prepare_audio_readings
+prepare_audio_readings()
 runpy.run_path(str(ROOT/"tools/build_wiki.py"))
 
 # Keep the multi-voice player’s display in sync with its score and backstories.
@@ -191,6 +193,7 @@ runpy.run_path(str(ROOT/"tools/build_story_plans.py"))
 runpy.run_path(str(ROOT/"tools/build_story_illustrations.py"))
 
 # Keep generated planning pages and the archive navigation consistent.
+runpy.run_path(str(ROOT/"tools/build_sound_connections.py"),run_name="__main__")
 runpy.run_path(str(Path(__file__).resolve().parent / "build_sound_library.py"),run_name="__main__")
 runpy.run_path(str(Path(__file__).resolve().parent / "build_navigation.py"),run_name="__main__")
 

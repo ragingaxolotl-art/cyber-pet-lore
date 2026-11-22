@@ -1,5 +1,6 @@
-export function matchesSound(entry, {query = '', kind = '', collection = ''} = {}) {
-  return (!kind || entry.kind === kind) && (!collection || entry.new === (collection === 'new')) &&
+import '../audio-playback.mjs';
+export function matchesSound(entry, {query = '', kind = '', collection = '', group = ''} = {}) {
+  return (!group || (entry.group || '').split(' ').includes(group)) && (!kind || entry.kind === kind) && (!collection || entry.new === (collection === 'new')) &&
     query.trim().toLocaleLowerCase().split(/\s+/).every(word => entry.search.toLocaleLowerCase().includes(word));
 }
 export function pauseOthers(players, active = null) {
@@ -13,13 +14,13 @@ if (typeof document !== 'undefined') {
   for (const player of players) player.addEventListener('play', () => pauseOthers(players, player));
   $('stop-all').addEventListener('click', () => { pauseOthers(players); for (const p of players) p.currentTime = 0; });
   $('loop-audio').addEventListener('change', () => {
-    for (const player of players) player.loop = $('loop-audio').checked && player.closest('.sound-card').dataset.kind !== 'footstep';
+    for (const player of players) player.loop = $('loop-audio').checked && ['music','ambience','song'].includes(player.closest('.sound-card').dataset.kind);
   });
   function filterSounds() {
     let count = 0, clips = 0;
     for (const card of cards) {
       card.hidden = !matchesSound({ ...card.dataset, new: card.dataset.new === 'true' }, {
-        query: $('sound-search').value, kind: $('sound-kind').value, collection: $('sound-new').value
+        query: $('sound-search').value, kind: $('sound-kind').value, collection: $('sound-new').value, group: $('sound-group').value
       });
       if (card.hidden) pauseOthers(card.querySelectorAll('audio'));
       else { count++; clips += card.querySelectorAll('audio').length; }

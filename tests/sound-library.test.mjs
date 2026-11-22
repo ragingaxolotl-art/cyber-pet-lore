@@ -7,17 +7,17 @@ const root=new URL('../site/sounds/',import.meta.url);
 const data=JSON.parse(fs.readFileSync(new URL('catalog.json',root),'utf8'));
 const page=fs.readFileSync(new URL('index.html',root),'utf8');
 test('audio library preserves complete inventory and verified public audio',()=>{
-  assert.equal(data.entries.filter(e=>e.kind==='music').length,28);
+  assert.equal(data.entries.filter(e=>e.kind==='music').length,42);
   assert.equal(data.entries.filter(e=>e.kind==='ambience').length,14);
   assert.equal(data.entries.filter(e=>e.kind==='footstep').length,12);
-  assert.equal(data.entries.flatMap(e=>e.clips).length,85);
-  assert.equal(data.entries.filter(e=>e.new).flatMap(e=>e.clips).length,58);
-  assert.equal(new Set(data.entries.map(e=>e.id)).size,54);
+  assert.equal(data.entries.flatMap(e=>e.clips).length,248);
+  assert.equal(data.entries.filter(e=>e.new).flatMap(e=>e.clips).length,77);
+  assert.equal(new Set(data.entries.map(e=>e.id)).size,217);
   const sources=new Set();
   for(const entry of data.entries){
     assert(page.includes(`id="${entry.id}"`));
     for(const clip of entry.clips){
-      assert.match(clip.src,/^audio\/[a-z0-9_]+\.(ogg|mp3)$/);
+      assert.match(clip.src,/^(audio\/[a-z0-9_]+\.(ogg|mp3|wav)|\.\.\/songs\/voices-chords\/[a-z0-9_]+\/song\.m4a)$/);
       assert(!sources.has(clip.src));sources.add(clip.src);
       const bytes=fs.readFileSync(new URL(clip.src,root));
       assert.equal(bytes.length,clip.bytes);
@@ -50,7 +50,7 @@ test('starting one clip pauses every other clip',()=>{
  pauseOthers(players);assert(players.every(p=>p.paused));
 });
 test('all clips have explicit native playback and do not preload or autoplay',()=>{
- const audios=page.match(/<audio\b[^>]*>/g);assert.equal(audios.length,85);
+ const audios=page.match(/<audio\b[^>]*>/g);assert.equal(audios.length,248);
  for(const audio of audios){assert.match(audio,/controls/);assert.match(audio,/preload="none"/);assert.match(audio,/aria-label=/);assert(!audio.includes('autoplay'));}
  assert(page.includes('href="locations.csv"'));assert(page.includes('id="sound-empty" hidden'));
  assert(fs.readFileSync(new URL('../site/index.html',import.meta.url),'utf8').includes('sounds/index.html'));

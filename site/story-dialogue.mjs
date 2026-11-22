@@ -92,6 +92,7 @@ function insertButton(block, source, start, clip) {
     event.stopPropagation();
     if (current?.button === button) return stop();
     stop();
+    document.dispatchEvent(new CustomEvent('lore-dialogue-start'));
     current = {button, label};
     button.setAttribute('aria-label', button.title = 'Stop ' + label);
     button.setAttribute('aria-pressed', 'true');

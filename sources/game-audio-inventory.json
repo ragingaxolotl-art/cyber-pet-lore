@@ -1,0 +1,982 @@
+{
+  "updated": "2026-11-22",
+  "scope": "Prepared nonstudent audio assets in CPP-V3/assets; excludes generation alternatives and private saves. Preview clips are labeled in the catalog.",
+  "files": [
+    {
+      "path": "assets/food/sounds/feeding_crunch_1.wav",
+      "sha256": "86ea64e37a5f208de305919b50684f68a261261349fbda2070adb4fb00f4852a"
+    },
+    {
+      "path": "assets/food/sounds/feeding_crunch_2.wav",
+      "sha256": "59557c0ab6eab2b214bcace7efb61e24d1240a74c8a17a1aa0acffcfe9d994b4"
+    },
+    {
+      "path": "assets/food/sounds/feeding_crunch_3.wav",
+      "sha256": "a2fbb5816109eb6ab9d95354588a96d6e1a2cef79d73ff44a7ae0cfdd936f6cb"
+    },
+    {
+      "path": "assets/food/sounds/feeding_crunch_4.wav",
+      "sha256": "f8cc0d1ee5cf1d5dadb86835a384b84557273e20d1ffdf064c74b11a0674c139"
+    },
+    {
+      "path": "assets/minigames/charisma/glittering_grooves.mp3",
+      "sha256": "aa74141e3b5d4227dd255a43f351e458b4bcd90b12b3ac6f8abe8242c9919329"
+    },
+    {
+      "path": "assets/minigames/charisma/hyperstep_sensation.mp3",
+      "sha256": "7af0a4488df305990157afa5912ee1eabc420e69a6a7426c27c2b27d379c1bf0"
+    },
+    {
+      "path": "assets/minigames/charisma/midnight_groove.mp3",
+      "sha256": "a17087c26166aa43b300d68aa567cf09f8d5447954f27637e56a87d04ade6313"
+    },
+    {
+      "path": "assets/minigames/charisma/panther_power_rave.mp3",
+      "sha256": "024069050e029f441d33f0b504240a42e504a5afe52fe1a008d6c9c86dbbb11e"
+    },
+    {
+      "path": "assets/minigames/charisma/party_grooves.mp3",
+      "sha256": "d1e82e8850ffb62ef826868451667097c08f2ec1f56e0cea79859e05a5990cd3"
+    },
+    {
+      "path": "assets/minigames/charisma/sparkling_friendship_groove.mp3",
+      "sha256": "e11a2704d0ae5678ae74de351315712c24fbff9de2dc9f7073b6d1f5c20f54c7"
+    },
+    {
+      "path": "assets/minigames/charisma/sparkling_friendship_groove_2.mp3",
+      "sha256": "d34c653112c0617f78f76897926e3df03f9ad5650fd0dab334e46e926eeac621"
+    },
+    {
+      "path": "assets/minigames/charisma/techno_funk_revolution.mp3",
+      "sha256": "ac857ddcf48962761b21d6bd4a7dea1bd7cbea70171a69e5410fbae815956f80"
+    },
+    {
+      "path": "assets/minigames/charisma/techno_funk_revolution_2.mp3",
+      "sha256": "e3dc4998a10f01e5175b5a465ded162fd3ee90be176867600fa906997943dfdf"
+    },
+    {
+      "path": "assets/minigames/charisma/together_we_level_up.mp3",
+      "sha256": "e752e095295d9d2fa47ec657e947aa9c85308da1489c817fbc992286120787f3"
+    },
+    {
+      "path": "assets/minigames/hurdles/cyber_pet_hurdles.mp3",
+      "sha256": "ad7cd48bfa20e4e90f11ca7ff8259f41cdca7d5212f306b7c3aadf0cc395600c"
+    },
+    {
+      "path": "assets/minigames/hurdles/journey/clear.wav",
+      "sha256": "1c1f291b70dc42c42c0f5b28b820efd186427ba9244b0d83791b6833273a27b9"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/crowd_reactions/crowd_applause_1.wav",
+      "sha256": "10b0e6571e913e7740086802319fe6c23cc93cfb8b2e0a1ea90b1f882fe6aef3"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/female_excellent_1.wav",
+      "sha256": "8d319d1a810e1342f136076b9e96aad155f49c9a124d480b93384901a938e6ef"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/female_excellent_2.wav",
+      "sha256": "3572effd89efc6fb28eac9e9fd2b4f0bdd9c0323271c658fcb7278b2db8d6368"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/female_good_job_1.wav",
+      "sha256": "5a1bad53db87064df46ada7a355bc98908053ff8550429c26a9c7e6c59b914c4"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/female_good_job_2.wav",
+      "sha256": "0288b88867af044643727dedd59e5b4b82408d4fda948c0fd44bb4cbdb4c7157"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/female_perfect_1.wav",
+      "sha256": "f32b721bf4c480b27b7979d99f79e33185899bd8136a8e00b9c4a23064cca335"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/female_perfect_2.wav",
+      "sha256": "450b8518601f7c7e5620b97e40fa0ce8056c25a9969643072ea32104c133cbad"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/female_perfect_3.wav",
+      "sha256": "7a60d15161ef9a440274ade7826d14ad6528550f77bee68e868f0bad73435a83"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/female_perfect_4.wav",
+      "sha256": "c8c3a0ca8a02f1c3b0f48797affd3c3eb75ea8236b41acfc2ac1d746bc3947a4"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/male_begin_1.wav",
+      "sha256": "ddbd8b5be6c2811330b22c608335d49e5c5574b226ed37d37c5a8eabce3c13e8"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/male_begin_2.wav",
+      "sha256": "d4c4edf65d6894a6191e1df32fb24798d6bae17ea5af80ab8ff9774f680c474b"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/male_excellent_1.wav",
+      "sha256": "e65b0b7365c3dd2926320602f23f4464abdfc01490c2dabd4c95b618a2b15cba"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/male_excellent_2.wav",
+      "sha256": "c9829265b1fd1bfb151f332bca41897e8343994a27ac877ce103816e77fd5942"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/male_excellent_3.wav",
+      "sha256": "21064f4584d9b390be939d59fa698cd07340313a67af01ec4e2ee0a195dc7214"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/male_good_job_1.wav",
+      "sha256": "8bdc09924ab912385e0045c2474c9e35b9168e25bc6a0cfb078ce9c3e32bf5dd"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/male_good_job_2.wav",
+      "sha256": "7bcb5e1409592376bce8e2aab4d63bbca0ea87f58fcdcd1e8a923866d1f74cc0"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/male_good_job_3.wav",
+      "sha256": "69a038686bd598bbd49091510087811bf8261777491937f4e00a8c7c4659fcd3"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/male_good_job_4.wav",
+      "sha256": "34b7276c9774ee2a5312e916ef9f88c6daa9bec07c701cddc942093e04fcc76f"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/male_perfect_1.wav",
+      "sha256": "0bdbce75cd72e68215ebf450c8677a5d2518b414beda992ecbeaf5c25b01ea94"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/male_perfect_2.wav",
+      "sha256": "442a5c97cc58ebb52391cf509e44b059f758760d401068618ecda08a399824e0"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/male_perfect_3.wav",
+      "sha256": "00056964d3ab1b95de959f210f95b386106e7b4ce3e0417edbac454f0374faa0"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/male_perfect_4.wav",
+      "sha256": "0b3ae93995f994d801d505eeb9d8e150b6cef017d52298740be52bd7609370d0"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/male_ready_1.wav",
+      "sha256": "4a9c9d439d1b81c2c451c39bff47f417059caf3eec83e9ba92534362665fb8e0"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/male_ready_2.wav",
+      "sha256": "2eed587b7338b4e69412a5f94c019955c4f93ec7c44b83628031b09d8c4c265d"
+    },
+    {
+      "path": "assets/minigames/shared_sounds/voice_feedback/male_ready_3.wav",
+      "sha256": "82657702daf1e04d6b765c407840136a2bcbbb5167d4fa2fb5db675d4ea81f1d"
+    },
+    {
+      "path": "assets/minigames/strength/dojo_power_up_01.mp3",
+      "sha256": "6dbe373dbdc94a1077ec9a06dbbb02470308eb79f2ea16dcf53b26dcbe8f310a"
+    },
+    {
+      "path": "assets/minigames/strength/dojo_power_up_02.mp3",
+      "sha256": "fd0d68e8da3e0b2da399131f2fa619ed538d4a8b288869b603493d9d5a03b27b"
+    },
+    {
+      "path": "assets/minigames/strength/sounds/strength_game_click.wav",
+      "sha256": "dfb2144b9db009b97cad7c217c3253f186eb9b8327f933f040575da294f1d154"
+    },
+    {
+      "path": "assets/minigames/strength/sounds/strength_game_gauge_warble_1.mp3",
+      "sha256": "09a8629f260dbe82250efec9c7d494635f2db96166578bd912c9ade41ebe5be8"
+    },
+    {
+      "path": "assets/minigames/strength/sounds/strength_game_gauge_warble_2.wav",
+      "sha256": "43107631afec9e26176f276f0ce89d0cb00475374ce44195584e6951a836101c"
+    },
+    {
+      "path": "assets/minigames/strength/sounds/strength_game_gauge_warble_3.mp3",
+      "sha256": "35216e900f4ce8b5a9747fc3b019732975df4f66520fc38b1638dddd64d0eb3e"
+    },
+    {
+      "path": "assets/minigames/strength/sounds/strength_game_ice_break_1.mp3",
+      "sha256": "acf7d723bcaa9c0b4d44f16077dc97fcbade770e06d4ea91638ffd7dd513fbaa"
+    },
+    {
+      "path": "assets/minigames/strength/sounds/strength_game_metal_break_1.mp3",
+      "sha256": "6cf13687919740afd3416862ff66b4fc2cb63f124a386be243938d01c5fa0338"
+    },
+    {
+      "path": "assets/minigames/strength/sounds/strength_game_metal_break_2.mp3",
+      "sha256": "f65ac7dbc1a00594e21e8ca9eeb8136a4f917dd49dce8c1cc1caf2745ac7b3d6"
+    },
+    {
+      "path": "assets/minigames/strength/sounds/strength_game_wood_break_1.mp3",
+      "sha256": "aeed8c04c3fa1f686262c7ec9bedbdd613c233927ba3084e5746ed2f4eca85df"
+    },
+    {
+      "path": "assets/music/above_the_fold.ogg",
+      "sha256": "adbbccdbf3273f6fb7daeb143c3fe5f1d1e162d38680993d26f6983899c84503"
+    },
+    {
+      "path": "assets/music/after_the_last_bell.mp3",
+      "sha256": "cec1678837d576bfa271c783832576ba64408346c12a77e48f64c271d794c5f1"
+    },
+    {
+      "path": "assets/music/beneath_the_emerald_canopy.mp3",
+      "sha256": "37e4667b8090bd0302a9d7b732f93b0a13914bbe15227bd4960e271110f2ee33"
+    },
+    {
+      "path": "assets/music/doors_at_dawn.ogg",
+      "sha256": "43c92ca9d8c571effd07609b0e44c1d357bfdbf13d6bd075de0b0e4b872ee89e"
+    },
+    {
+      "path": "assets/music/echoes_in_copper_canyon.mp3",
+      "sha256": "b265c2d443b512fca295b09306ecd395568d67332810df6c8da8cbaf0b90ebb4"
+    },
+    {
+      "path": "assets/music/embers_of_home.mp3",
+      "sha256": "af66576e47e0c43c75a36fff3c08b09a1504d7964b3f22b1948c9678ac5bdd61"
+    },
+    {
+      "path": "assets/music/fablewood_in_the_rain.mp3",
+      "sha256": "c5317f4b476bc791e007c3ff9629070a9d15b4b1162187f44516dc4e6b899c87"
+    },
+    {
+      "path": "assets/music/footsteps_through_fablewood.mp3",
+      "sha256": "83110bc8c5e4b18b6b577c783d1fc9556ff16b46dfcf8364f11e7e0fc3622f4e"
+    },
+    {
+      "path": "assets/music/frozen_drift.mp3",
+      "sha256": "896995fc8c143cb63ef40fecd0a7396a80c2328bbe2e5a3714d815a39d9e2bec"
+    },
+    {
+      "path": "assets/music/frozen_tundra_vigil.mp3",
+      "sha256": "7daa0e0d2429f1bdfca2fbccca32412ee270fff8b2aeafc9184626c949062984"
+    },
+    {
+      "path": "assets/music/lamplit_after_rain.mp3",
+      "sha256": "07ad35b1455af79520139d8111d4dc678aeeb3ec54d073622bdc3dafcd6ab673"
+    },
+    {
+      "path": "assets/music/lamplit_rainwalk.mp3",
+      "sha256": "e7949e8a811b875c0bbd0aeeff950c103cba4163425e5065f7e05fe3dc8fd8e4"
+    },
+    {
+      "path": "assets/music/lanterns_in_limestone.mp3",
+      "sha256": "9bbb1424a2419812a8c90ec054a532774977a7c9ac04633ff1ef3de4100c01a6"
+    },
+    {
+      "path": "assets/music/meadow_threads.ogg",
+      "sha256": "c231fd944c89f8fa301f8fd7609bcd7d5ef496609d3ad15c7c46a5ab9647e8db"
+    },
+    {
+      "path": "assets/music/rebuilding_lattice.mp3",
+      "sha256": "c23b53cba5641567915140556729f011d7048f76e0fbf9cfc9f640f1f608955c"
+    },
+    {
+      "path": "assets/music/reedlight.ogg",
+      "sha256": "098978c18365e051228893c98ee275a12610d4f66ea4e7b809bce726ef42fe91"
+    },
+    {
+      "path": "assets/music/restoring_lattice.mp3",
+      "sha256": "43143aea1cd480365b254b105835ec45bfab0977954005e946cc3d9925972de2"
+    },
+    {
+      "path": "assets/music/shelves_of_echoes.ogg",
+      "sha256": "dfe8eeb68b1b0989f0585245a107eebcf2050b0b0345e9b32f7194cef165eed1"
+    },
+    {
+      "path": "assets/music/snowbound_curiosity.mp3",
+      "sha256": "1fa7715b28a1f3bc04378328b8e581667c567f5b24ac64e7d8e60100ad9ae827"
+    },
+    {
+      "path": "assets/music/snowbound_path.mp3",
+      "sha256": "7c469e014c6f20986ff31d903db645feb924670d7cc3b7c6b8618cfab0a4e13e"
+    },
+    {
+      "path": "assets/music/soft_circuit.ogg",
+      "sha256": "301bec37ceebf77506f0b134ed8c431f9344f70680b34119fe607f83b4be140b"
+    },
+    {
+      "path": "assets/music/stone_orchard_drift.mp3",
+      "sha256": "85bdb10f97f2c33e686c9bfae98e6c2ba6f777d222097b2d561b5dab475ec781"
+    },
+    {
+      "path": "assets/music/stone_orchard_path.mp3",
+      "sha256": "0db37cc65ee46fdf53569a2eae48b2afe97799ef5ee1baeb78cf8178f64417b4"
+    },
+    {
+      "path": "assets/music/waltz_of_the_little_machines.mp3",
+      "sha256": "09fd2539dbc5160f73b68a29dd8bffb4d2698c6cf694797eab2add2639ac22a7"
+    },
+    {
+      "path": "assets/music/water_remembers.ogg",
+      "sha256": "81e05562ff2eab08dfbeb4887353c7b9965d0f860ae1fbc06d2b0f47b3298445"
+    },
+    {
+      "path": "assets/music/weather_between_rooms.ogg",
+      "sha256": "c09cf99c12f6c8cc28df28ef842ffa485a170abbc8c5b3168265d65f071d0000"
+    },
+    {
+      "path": "assets/music/when_the_hearth_grows_quiet.mp3",
+      "sha256": "9bd345403893ad1cad17a7d8877b220ddacf61ccec43b20902e0eee965807ef8"
+    },
+    {
+      "path": "assets/music/where_the_tide_sleeps.mp3",
+      "sha256": "461d284258d5f28b4e8f4ffbcc926c9d7e161b79a244ad47420e775c3697456d"
+    },
+    {
+      "path": "assets/music/whispers_across_the_dunes.mp3",
+      "sha256": "d19f24559b43f83dfc3e995e1a4aa5dd2a747e8e172c84746efab377a5586c14"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/amb_cavern.ogg",
+      "sha256": "af8a9f723c1fc58f6af22fc7bf874eb931fdc6afbe6f8f9f4ef885c90ebfe86f"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/amb_coast.ogg",
+      "sha256": "0d5b0c3f6be328cd88c9fc0bc29303cb9941fe04f21079210e534f9674136b49"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/amb_forest.ogg",
+      "sha256": "b94ed2c9d36c93cd0c414694f1b8942dda7c07af2891336967215eb27afdbb88"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/amb_machine.ogg",
+      "sha256": "e433b52917033d65be10c208747cbfb0ab0951e399766f397f8577ed9759ea1d"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/amb_rain.ogg",
+      "sha256": "170bd1ae48a01cd733f6d7119f3c037d58f3fb226d4eecc7f3acace2f0a799ae"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/amb_wind.ogg",
+      "sha256": "3b1eb1ff4b90562bf71eeaea38a0578aa88ee25feed70803557133c4a5bd7403"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/award.ogg",
+      "sha256": "17793efce3281e71e203ad8971ccd5324ff3c4bfe8658bd58e48ae062ab689b5"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/balance_wobble.ogg",
+      "sha256": "ed009795f154f73f6b6f414bc40ea0b3bf6bdc2ace76ada463ba01f3db78af85"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/ball_bounce.ogg",
+      "sha256": "4a6c11e80a2ec9b46bf381f720b460e30b305286ac4246ee5548898d226b23f2"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/ball_throw.ogg",
+      "sha256": "27625f3a51713feccab139b8cccb3d1955e0f57faf30675e43016341ea2756b5"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/boulder_push.ogg",
+      "sha256": "a981427aa549a8dede4cb2e657da24402435f7a658a7b3514b83a6d61e73af23"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/brush.ogg",
+      "sha256": "ec20eab99143cd87b57b21da11f448b3e704a79bb19ec72a49ca0d654655e9ab"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/care_complete.ogg",
+      "sha256": "4392a5719ee915b8afeb250ef5d5723e854b4ab2b321f3dc530d8bc78feaea57"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/coin.ogg",
+      "sha256": "8b15bd2f5c8d99966604340b517af22a309cd455bd417bc27f5fb681481f4b6e"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/collision.ogg",
+      "sha256": "2be47a541be6f759fe72ccc62841afea17c4e55131a5f67028f089248e5ff4c6"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/drink.ogg",
+      "sha256": "be96d70828b7735f8a5642e157cdc20e2a1463ad8766ec84b9a2f7b9e0ccfacb"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/footstep.ogg",
+      "sha256": "961a44fbd0d491940756004a654b46a6c901498c7bc6ef7d0049c1353c43c859"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/jump.ogg",
+      "sha256": "da8a05c6060933ce1131b42134e026fc44fa124d50a21c97ac5b5866254d315e"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/land.ogg",
+      "sha256": "bac02be131879c6ef6f87dd63c4d47e3d37bbb10a3c235f68d12994b55978ee7"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/medicine.ogg",
+      "sha256": "41f0a6c5a1b734edf831682ce41160a1c65f4f29513cf8c99b5c7a38f41d8487"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/memory_flip.ogg",
+      "sha256": "fa2f1d169a8cab790c8b7ab3a9d9c1cdf6bf6d4bf0707162801ba8ae53b19fec"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/memory_match.ogg",
+      "sha256": "f4e01dfe089ba4646cb55f6b4e12fbcdb0d394b8f69eda8af4c7902094249f5e"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/memory_mismatch.ogg",
+      "sha256": "53c5ebc830c911679c1e07ed42ccb6c6c4f97e7334a4b2768dd4d279dd1201b5"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/reward.ogg",
+      "sha256": "3312372aaa38f7af0ba6f2f14ca966619477d146e9582fa4b7ddba2bd7444d8e"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/save_success.ogg",
+      "sha256": "3c9504b7a898a46768b92c2876231bda9d805c80814b96094b99444b9a1a1f02"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/sleep.ogg",
+      "sha256": "ece994928b1b38299f6d2aa25de14c46ce0a27675dc7e11cba0ad57df4cb9a5d"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/transfer_success.ogg",
+      "sha256": "ec7054ab71cace2b6bed254fb781a72cdfb69f781a9785910094449440bb9c30"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/ui_back.ogg",
+      "sha256": "91975980d69fef31dc5b30210113257d236779e0afbeda60b4831b4b46d807de"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/ui_select.ogg",
+      "sha256": "319afab926f07498fdd74d685c8d2e0fff785486d8abae8cb5703e9b14500d33"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/ui_unavailable.ogg",
+      "sha256": "9b7adab2af1e24a04b6da7558acc810f0df9d64ff84316fa01030c122f7f3387"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/wake.ogg",
+      "sha256": "d25dbdab30c6831d730e049ae5de3265bf42426fd662157896ae86d4eb62f2bf"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-2026-11-20/wash.ogg",
+      "sha256": "74937bfe15c7aa0bd903875139befcfac00c0a0f251f97a8cca2a1482fee504e"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-hurdles-2026-11-22/hurdle_bull_collapse.ogg",
+      "sha256": "e8cd32c85cd77e5e03561af683da142abbc3739cb874b52bb72c3d456899ff95"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-hurdles-2026-11-22/hurdle_bull_hoof.ogg",
+      "sha256": "32bf26c55475f62428935f34bfa097e3a528f4de410e53b3244ab382e4b8d9bb"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-hurdles-2026-11-22/hurdle_cheese_roll.ogg",
+      "sha256": "99d0221920076b51ca5cfbae5e1ad622e88b769f13f68841ccb9f854c009c6e0"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-hurdles-2026-11-22/hurdle_crystal_fire.ogg",
+      "sha256": "8b59f0ee542252f796f94a3a221ff48f2932f7511d60c090365e86bcc56a4465"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-hurdles-2026-11-22/hurdle_crystal_warning.ogg",
+      "sha256": "c2a5086e09145383c2fbe3cb9874281dcc40f117ba5650088b6902189dccfc04"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-hurdles-2026-11-22/hurdle_geyser_burst.ogg",
+      "sha256": "8ddfa4a3bb2940463ac93c365f7f5e3cf9448f32165eb12a4fd43f0e58c3e546"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-hurdles-2026-11-22/hurdle_geyser_warning.ogg",
+      "sha256": "f8a322d981caaf792a2f6f788cc6d9cc64875966dd6b62f2bf556ec19e5f8cd9"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-hurdles-2026-11-22/hurdle_ice_impact.ogg",
+      "sha256": "8dcfd0064d9195d845067d093b9bf474329256a4177be89f46229edca7b42050"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-hurdles-2026-11-22/hurdle_ice_warning.ogg",
+      "sha256": "fba94aa8cc32d4ea9d5d97d7c16f5a55f56a4441665ceb9420c45a680f3cf4cc"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-hurdles-2026-11-22/hurdle_lightning.ogg",
+      "sha256": "937f529ec83ee7125283b65dd3e5f61dbc59deb7ee09acd50381c7fe54648ff3"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-hurdles-2026-11-22/hurdle_obstacle_smash.ogg",
+      "sha256": "544fe38e94d402d40bd0e24f63c08b4bc8f73633edb4ea3c13f41984a7934e9e"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-hurdles-2026-11-22/hurdle_phoenix_dive.ogg",
+      "sha256": "628b5d497ffb2b613dc7a9d21cc5edaffcc29d78ca9a846e576dbb58f177b42d"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-hurdles-2026-11-22/hurdle_phoenix_impact.ogg",
+      "sha256": "2545b7e20c1d45d759f87943f6ebce293ef0f7aada984f024541ceab0e33f165"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-hurdles-2026-11-22/hurdle_phoenix_warning.ogg",
+      "sha256": "cb6c791e441e333b1f0a03aaf6e63c8c0b13e56c9e6609c08a31bad3d149e4fb"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-hurdles-2026-11-22/hurdle_plant_snap.ogg",
+      "sha256": "8836f2503f663387d22a9be1601c6e9a1cc9158b7902412f76a1cd587908e79b"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-hurdles-2026-11-22/hurdle_raven.ogg",
+      "sha256": "7b2bf2aa6066a6f9a33182a395b80eba16c7bab6bee0de01aec394fc517321b8"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-hurdles-2026-11-22/hurdle_roots_grasp.ogg",
+      "sha256": "30cc8da85908a8334e02d08544519d1ec09be5d18832d77633f0d940bc7286e5"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-hurdles-2026-11-22/hurdle_roots_warning.ogg",
+      "sha256": "d508b319538274ba00883ed4e0fbafaeacfa7c97fc9becf3cb8a5f0e0b9dc2e1"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/amb_digital.ogg",
+      "sha256": "351198ec5e756914229d2c15e1ce00079e3132b19f5e5f9aaf04493541159603"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/amb_freshwater.ogg",
+      "sha256": "a8aa61c571a39e4e43f8e74a47a23869f1973828889d01372a612c6d6612197f"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/amb_grassland.ogg",
+      "sha256": "c0f529ce6caf74714596af01c224897ffcc29380add81ceaf5de1498a31449d1"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/amb_interior.ogg",
+      "sha256": "25ee358ce228f7b82ebde3b1ebf9d141c0045041d6a17c5a1cd8a5db8c3075e3"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/amb_surreal.ogg",
+      "sha256": "0c0170fc36ea7b883cefe430c49daacba704f8a7a3f8deedc6647d9040e69dd5"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/amb_underwater.ogg",
+      "sha256": "e28ab1c0de2eb524126a19a66f25dbd8aa8eb97a460dfbb522ebe6275899bd30"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/amb_volcanic.ogg",
+      "sha256": "1694408b287b6a3c8424403b2784a0313a87f18e999de7c2b25dfcee3b4239e8"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/amb_wetland.ogg",
+      "sha256": "5534e0f25029fb6d605a06b1bf9142916de1551d312687bc01075b4851b5f033"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_digital_1.ogg",
+      "sha256": "a27932b60e75f561d9d316633229155d2d22f497b52f0ca90ac7a136f05c0101"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_digital_2.ogg",
+      "sha256": "ac5098fe7149190578f9dae2cace5f262182677c8b29a9be80521b1d4a44e753"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_digital_3.ogg",
+      "sha256": "8fb0f2db4f8dadf633202d13eb1a7cc7aadb2058356569c60327a1ab0a490046"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_digital_4.ogg",
+      "sha256": "76274a9eac8ea29200828d1dd60ab1bf2bc78cd1cfe91b7cac7b1aaca180391b"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_grass_1.ogg",
+      "sha256": "fb023af50530a161530d6c3c5e86f51655934413e74bbc272a444ad127979868"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_grass_2.ogg",
+      "sha256": "5eadf7ac30df3430d4d1ee2d3ae168896007420a775a175e18aa456484506581"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_grass_3.ogg",
+      "sha256": "0a853d7ac8af60f8b7d76cbddd11a2c370638cc771b40793b46ee8a74b41063c"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_gravel_1.ogg",
+      "sha256": "68edf378e2ffe1532455734c986c70d9f87750af62d518d57df2387feeda2663"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_gravel_2.ogg",
+      "sha256": "4fedf6fe64f9883fb9e0349e0d1631f3be491f0b15bc768a706c0149ed26878a"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_gravel_3.ogg",
+      "sha256": "b082016c52fd8468e0baa18233e29655fca27e449367b8f07f4a720429334499"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_ice_1.ogg",
+      "sha256": "4f2e4c01e162e6e9557a2bc651dabe31f4e8ba63ba4330265d657926959f8091"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_ice_2.ogg",
+      "sha256": "d8f16fe792bc7dc5e223410278c3b62f0019902283ff98ac06c3b05cfe3d896f"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_ice_3.ogg",
+      "sha256": "cd095317bc52a531d49ca91f600db5aef8548996b2be062ccaacb8ac8a589dc1"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_ice_4.ogg",
+      "sha256": "09c51b91ba2b51eee99333a45863f2b432d5bf6292afafe8303726bddf497234"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_metal_1.ogg",
+      "sha256": "2e4f798e1cd45a974bb7360922fac609cd96e668ae3a1792daa391cdde9df107"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_metal_2.ogg",
+      "sha256": "7534a649a14613126b3d5c16530a5c9fbb3d03073dad1249143efb87cc7694a4"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_metal_3.ogg",
+      "sha256": "759615370b2ddf67b3558e50dc009e64676e56a292e751941852349d7367236c"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_metal_4.ogg",
+      "sha256": "0714e8b9297a0709180236126c350f13d1bac90dafdc2f4c8ce0c425ac5cc02e"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_mud_1.ogg",
+      "sha256": "70270597fdd54ab6eacdc2820bdae71de1d392e725cd604358e58e1336d24d77"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_mud_2.ogg",
+      "sha256": "e6b6d53134c34e7655b8e2916919331ca6b115147f7c8df363ffde0dbbc38fdd"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_mud_3.ogg",
+      "sha256": "2a9ff37182b6eae18a46f8dfc946416bf0df6dd6cebcba07218b4c6148e6e9fc"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_mud_4.ogg",
+      "sha256": "8317e7e37d4b9636f199b75e5613e520ef4b9b169cc5b1c7681f0e707aa4c61f"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_sand_1.ogg",
+      "sha256": "e37897407e0902daa888e7a698e6be34a336520a7e65beff0594964d8e17faf9"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_sand_2.ogg",
+      "sha256": "6280caeb06ce8e01e4469512b7346e88120bf7ea54565671998e1f748e02e508"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_sand_3.ogg",
+      "sha256": "ab21395cc7836c5d1893f059bae32eb2f691dfb27c996147f87827c6625c6536"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_shallow_water_1.ogg",
+      "sha256": "73c294c5cd237b02c801feb5cc5b67bc8e1df81a721caa5c77f520bf3fb60103"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_shallow_water_2.ogg",
+      "sha256": "b991f083be0750e162de1764530742da49eac5f2d6fe5928a9a0784263c4d917"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_shallow_water_3.ogg",
+      "sha256": "cbdbdd5b2e5a55a7a15e7cff1723333ec232d85283e6090398c9fb81bae7356d"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_shallow_water_4.ogg",
+      "sha256": "d7452617ab697408626a25c21970a84fb7df1f9cd07e970ada6056ab6d661567"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_snow_1.ogg",
+      "sha256": "e4a12115f932d5b52e85d0d6ef989fa58bec7d97920d02f9687739df5298b62a"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_snow_2.ogg",
+      "sha256": "4ad1e7047ec3c5a798aabb370efa80fe78d5c800b7156fdb5dd188d43d80bcb7"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_snow_3.ogg",
+      "sha256": "53917034cd0fe43d45ed9ecb1ed0013403c4cda3dd592c8cbaaa779c8806a04c"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_snow_4.ogg",
+      "sha256": "08d430897af8bd54d0b0be79d6dbc81852461f65cbab980c8eddc88661b9f1cf"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_soil_1.ogg",
+      "sha256": "671733cdbf3eca873e7a83c290e6458877201fa4dfed096f5213371d26c5aeb2"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_soil_2.ogg",
+      "sha256": "147ab0c0f7cf0e8fddc17078e73404ac77282b60000fc991a5b9db28071e83cf"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_soil_3.ogg",
+      "sha256": "37d206f69bca096c62070bc256ff890c67dfda238df82b4d3d0d3848472648f0"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_stone_1.ogg",
+      "sha256": "f4d1084aa154de5ceac2512cfc54ad98285f2d482459c64987bb9b8a2965ddcf"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_stone_2.ogg",
+      "sha256": "fb06a1cde4d9fb64cb6faa9104ec481720b857a64186b96e8134af3d890ef290"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_stone_3.ogg",
+      "sha256": "cf82d6a1364ec9034b756e2573935d577e07a92129ae201ff1cec38da6a65ec9"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_wood_1.ogg",
+      "sha256": "f2a6750002f8c4c87cfd8ae8d43ac9e5a7ec0f9592621edbb5e5cb2457c74f73"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_wood_2.ogg",
+      "sha256": "9b1f8aa4d5bcf0308dc3996bfe36f0f77a69c555c2729fa5314d6873c939ea23"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_wood_3.ogg",
+      "sha256": "7809247c44e978e81decdedc3905afa7eb0cf38636cd0cd4dcb07e0a863ec1ae"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-location-2026-11-20/step_wood_4.ogg",
+      "sha256": "3c07e2954bf65651cd495412de4a960f274a12a46b1428508156e94a50b3a238"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/balance_fall.ogg",
+      "sha256": "53f65f553e5c1ee8ea9b2506ea1aa6e7121847ea4a1c4e0752ea0a920116d073"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/balance_plate_heavy.ogg",
+      "sha256": "f34aaee6d00a1a30c1963ed0b4fef977ab7b4bcd7911efe5434fcc5cb7df5b2b"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/balance_plate_light.ogg",
+      "sha256": "064b9f5bc8ac49aa0b3feb4b2ec03c4658862265ac7873a18b57fa89e13fb11a"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/balance_slide.ogg",
+      "sha256": "24187fd7b1d1edd800aaf5155f6e69660e707de0956f250d7b9dd4c3295a0666"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/ball_catch.ogg",
+      "sha256": "37cca402e121b0000816e911037d6d871ab3d3622e4d8b2f7f3ddda5fa07a536"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/battle_block.ogg",
+      "sha256": "b1222c94785a4f925b34e3fe1af5a2c972b8c758a9c585094ce6aaac0608dd11"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/battle_dodge.ogg",
+      "sha256": "7acbfb0ee7e4482b26456fdf6d3383cac2824db3f8b4707a9ba5907ff6a9e65e"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/battle_hit.ogg",
+      "sha256": "2bcbc883107ed6abfc1a37cc98537ee4b4b9d1fa279169bb952c04d9eae61273"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/battle_knockout.ogg",
+      "sha256": "07080dc839168c3785631447c369d537d8d904576533322625ef6561c87290b8"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/battle_projectile.ogg",
+      "sha256": "1778062736564339e8c5580cc74f92f8514e6ab5b60819c0cb027e7e5e1a406d"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/battle_shield_break.ogg",
+      "sha256": "02fffbe2322b956d31627656e7dd56b95987938b6a913a896f1baab33d290d9c"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/battle_spell.ogg",
+      "sha256": "4a28b9e6939fa4860f54432f61db9ba9d8a698d52ee752f42015c9588e328d1b"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/battle_summon.ogg",
+      "sha256": "f2de4aa7cdfdd80da86668cd7bc0e7cc600e8f149507531bdd5255979290b84b"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/battle_swipe_heavy.ogg",
+      "sha256": "bc81c41bcd1d25ab58bf4a54d7144737f57caf0e9d5e90cf2be76badd997a4ef"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/battle_swipe_light.ogg",
+      "sha256": "8a0d948071ca6b2940cc68e947a7d6129570e56ee012764ef2ca19b9bd408e92"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/boulder_key_ready.ogg",
+      "sha256": "3c66fcaa049c63dd2739846db13add7093940c1bb426d387ae9a593ca6f9fc32"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/boulder_roll.ogg",
+      "sha256": "b8c5e189411ab33dc83a1246b9b73a121e11cd7087047dc7a1bb06fce23cbea6"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/boulder_slip.ogg",
+      "sha256": "f65adc9173437ef776dd0ac24627ffbd4bb1eaaf4fca68730e35a46918fb68cb"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/countdown_tick.ogg",
+      "sha256": "2da2f9308b9cc45396afe1ed76d543923f7c40e1464478dcece20f6154563a67"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/dance_combo.ogg",
+      "sha256": "48455735c5f6ca08416f89227378952e6a7da110cd8b7e73f4b01b2ce13f3ab1"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/dance_hold_release.ogg",
+      "sha256": "000a8675190a69cde743497ae86a41bda1dac60e8ddf12065c2191e0a43a04cd"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/dance_hold_start.ogg",
+      "sha256": "eae0022ca5c6e75b5f791ea69443128b58a5296c2c4ead6e52b45f3027355fef"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/dance_miss.ogg",
+      "sha256": "bf2729d4f2a99d4dff680ec13aa2ee747df73bcbb5acead73ea6e339a0a8cd66"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/dance_tap.ogg",
+      "sha256": "a7b203ed25c35872c014d5ea790b75e998279f62509e2633613785990d0c6aee"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/game_pause.ogg",
+      "sha256": "2ca41610a7280fbcfd1828d9729161b596b4fc5b02946cb366c4cf2cab415d18"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/game_resume.ogg",
+      "sha256": "34ab983e8ca971cf3e72ca4ab2c383b527e19f0ac69b7db6a63b20f05c50043f"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/inventory_open.ogg",
+      "sha256": "ec8dca6722fbfa02721c316cc689ab0c0bd29d80d6136280f95bce362cf911ac"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/level_up.ogg",
+      "sha256": "f97536378b312d24770de574e4190b3329ee7292475f23863453c8c7ba8ff041"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/location_transition.ogg",
+      "sha256": "0d635703fbba1e69b117022b8c4bd398e2251f855b100395e042f8c1b5d9aed9"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/memory_hint.ogg",
+      "sha256": "3381b579b5c56e4519e0c5db19a4fb9ba5d16c3c8d4b72c42eaab438935f2968"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/memory_shuffle.ogg",
+      "sha256": "b8cc6f051147fd7878464bc6a554b0f6e69b54b829268aed685bfabec87ac9ee"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/memory_swap.ogg",
+      "sha256": "462de07a0f65b58d9541eb59296086afe82a83a5a39b44b769336de261258978"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/record_broken.ogg",
+      "sha256": "0bde03e8331c5176a4232a3b4406cc6f0ac8410a75337f1cba796cef9dc6bbed"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/round_end.ogg",
+      "sha256": "3db55ca7744a46e5a7687ffd323ce9e65786a9e4eb9e62fee0cdbc2d15f85308"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/runner_streak.ogg",
+      "sha256": "f93249e433feab994e0be99f275956c4e1c2b879fef3760853f0c59e86e41ab8"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/start_go.ogg",
+      "sha256": "c4f6ca2ccebc054ecef2840669be3071b7879cb00ccae82744d56cf37e460862"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/strength_charge.ogg",
+      "sha256": "9278f233927d1692d3d0b904e3c907164c49790dc4b771be3baecafbd2f9847f"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/strength_cosmic_burst.ogg",
+      "sha256": "2621b7404a214a6a7bbb1e5d7a85042e61aa2e89b4ab6f0148f74d75980308c2"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/strength_ground_burst.ogg",
+      "sha256": "395a09c8378d436ea104c7054f02c87b7dfa6ca1bd5768620095e6eebf8a85e3"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/strength_impact.ogg",
+      "sha256": "1f308e21432279b6b65edd1cdc0f799b68d28096cc9eb2dd993f6377d4f49af6"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/strength_swing.ogg",
+      "sha256": "600d7daafa3cd13d082579b50153c0be4cb20471490c78acb5bcae6d99cbd015"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/treatment_patch.ogg",
+      "sha256": "6b1b579e4281b99ee554f9f45144190680e7cd338edcdde533c41210c6ee1b7e"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/ui_adjustment_tick.ogg",
+      "sha256": "6a7e29c620d4836c5826317905250ed1bd6c151195a0bdbda8424a58c58ffa62"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/ui_analysis_ready.ogg",
+      "sha256": "2198124ee4e26671b88105c2b9f7c19aa13adf61c8fe9bd087bc330401e44130"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/ui_card_reveal.ogg",
+      "sha256": "8134987a0b2c5b1760ce9ef60bf963b64fa1ccdd6cc9cf02e886cd04e495ca5e"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/ui_destructive_confirm.ogg",
+      "sha256": "9889be3803a6c4f0f652e8d70218a78cc46bbe7b139ba13a644a3b3e75710794"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/ui_focus.ogg",
+      "sha256": "ce6b09d6a38991367946ce8f97d3be087fa1425cb7d79fcf23cb9bbb20705497"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/ui_folder_close.ogg",
+      "sha256": "4a5e2166a38e2a947c619648540931e9f7fd4c95917738605e07419722f57ab5"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/ui_folder_open.ogg",
+      "sha256": "9f3e6e1988878d27b074137193978bc6db8a61ee72393300c96e3c957581e95e"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/ui_item_pickup.ogg",
+      "sha256": "bfa21bed022050f3813676260f48ae41ec71f5f7c340195309160e93f886dabf"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/ui_item_place.ogg",
+      "sha256": "f79b88ec7cdbc56c94b28c1f76342b2e3a698aea77fcdc381f3d5987bad568fe"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/ui_notification.ogg",
+      "sha256": "601cb8597faec833cb19714926b03ce6f9beec02832a5379f3e231d2fc37422d"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/ui_operation_error.ogg",
+      "sha256": "a732874e17f59ead02144c8e5ab68365d3b008c4395ec8734efaaa8ec9323302"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/ui_panel_open.ogg",
+      "sha256": "b8b99e3506e18ce74bcae63e3427de2088e18f62d9b1ee85ffe393ba63c3a6ef"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/ui_toggle_off.ogg",
+      "sha256": "04d002bf5cc8b9a9aea1b5223afffdf30a3fe108846b544df24f8802d2f9db84"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/ui_toggle_on.ogg",
+      "sha256": "d29d3485c79fd25e79d85ac8de8b9128455c3e7745d91b6f8931f679006abfec"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/ui_undo.ogg",
+      "sha256": "ee8031f9b90ace9e58d4993cf633fba86dbfcbf2ca6508726c4ef169fa653601"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/ui_unlock.ogg",
+      "sha256": "a43278a4dea1218dba99269b799de961ab2ac7ed3648267faed6382260555cfb"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/ui_warning.ogg",
+      "sha256": "2d7d9262b15216b8d5a6dacffaf39ce1eefa31f0510aa3de3bf2c11964c28a5f"
+    },
+    {
+      "path": "assets/sounds/elevenlabs-ui-games-2026-11-20/xp_tick.ogg",
+      "sha256": "73279a3dec9cb21abd1a132004867b8251e90a61ef24e157f7aa1e2c88675939"
+    },
+    {
+      "path": "assets/ui/sounds/book_cover_close.mp3",
+      "sha256": "39ee3b3fce7ed6561a004acd6f98f10ac9d618d3d2d5b29d0d6a5a045befe5f5"
+    },
+    {
+      "path": "assets/ui/sounds/turning_page_1.mp3",
+      "sha256": "6692ad5bdef8ba508362333a29889ee66f841c27917d5a132819c88ee9e83b9c"
+    },
+    {
+      "path": "assets/ui/sounds/turning_page_3.mp3",
+      "sha256": "60bd92cccc0da5f57f9851ec7663cd1240c116ccacc94546f36c476166f89ac4"
+    }
+  ]
+}

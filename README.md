@@ -140,3 +140,11 @@ The existing Classroom Settings service stores these records in separate `lore_c
 ## Aru — The First Newborn revised edition
 
 The author-approved third revision is published as `aru-first-newborn-revised`. The previous edition retains `stories-p01889` and every original passage anchor, so existing notes and clips stay with the text they quote. The current edition appears in Stories; the previous edition is labeled in Drafts and links to it. The exact approved manuscript and its hash are in `site/aru/`. Editorial plans, reviews, explanatory cuts and the lore reserve remain in `sources/aru-first-newborn-revised/`; they are working material rather than newly established world history. The ending preserves room for Part Two.
+
+## Audio throughout the reading archive — November 22, 2026
+
+Location readings and wiki topics include native audio players for their shared music, ambience and floor material, with selectable footstep variations. All 106 Atlas assignments use exact location-art topic and reading IDs. The homepage includes Soft Circuit; thirteen game-audio topics connect title, care, training, games, interface sounds and feedback. Four Era Zero song performances link to their existing backstories, settings and full arrangement players.
+
+The committed inventory covers 244 prepared game audio files plus four song performances (248 clips in 217 entries). Eighteen Tactical Hurdles effects are marked as previews; reserved effects and mood variants retain their status. The complete sound library remains a searchable index with links back to relevant lore.
+
+`tools/build_sound_connections.py` creates editorial reference readings before wiki indexing, then produces `site/sounds/connections.json` after the wiki build. It never rewrites existing source paragraphs. `sources/game-audio-inventory.json` records the source paths and checksums used for coverage. Audio is user-initiated, loads on demand, stops on navigation or when the page is hidden, and coordinates with DBA passage playback. Automated coverage and player checks are in `tests/audio-connections.test.mjs` and `tests/sound-library.test.mjs`.

@@ -46815,6 +46815,305 @@
           "precision": "Placement window; exact stage uncertain"
         }
       ]
+    },
+    {
+      "id": "reference-audio-title",
+      "title": "Title screen — sounds & music",
+      "kind": "Reference",
+      "era": [],
+      "timeLabel": "Game audio reference",
+      "timeOrder": 99999,
+      "status": "audio reference",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Audio",
+        "Title screen"
+      ],
+      "source": {
+        "title": "Cyber Pet game audio catalog",
+        "url": ""
+      },
+      "summary": "Soft Circuit is the gentle electronic idle music used on the title screen.",
+      "wordCount": 48,
+      "connections": [],
+      "chronology": []
+    },
+    {
+      "id": "reference-audio-places",
+      "title": "Location soundscapes — sounds & music",
+      "kind": "Reference",
+      "era": [],
+      "timeLabel": "Game audio reference",
+      "timeOrder": 99999,
+      "status": "audio reference",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Audio",
+        "Location soundscapes"
+      ],
+      "source": {
+        "title": "Cyber Pet game audio catalog",
+        "url": ""
+      },
+      "summary": "Shared music and environmental loops assigned to Atlas places. These are production sound choices for the game.",
+      "wordCount": 52,
+      "connections": [],
+      "chronology": []
+    },
+    {
+      "id": "reference-audio-floors",
+      "title": "Walking & floor materials — sounds & music",
+      "kind": "Reference",
+      "era": [],
+      "timeLabel": "Game audio reference",
+      "timeOrder": 99999,
+      "status": "audio reference",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Audio",
+        "Walking & floor materials"
+      ],
+      "source": {
+        "title": "Cyber Pet game audio catalog",
+        "url": ""
+      },
+      "summary": "Footsteps follow floor material, independently of a place’s music, weather or ambience.",
+      "wordCount": 49,
+      "connections": [],
+      "chronology": []
+    },
+    {
+      "id": "reference-audio-care",
+      "title": "Care, feeding & remedies — sounds & music",
+      "kind": "Reference",
+      "era": [],
+      "timeLabel": "Game audio reference",
+      "timeOrder": 99999,
+      "status": "audio reference",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Audio",
+        "Care, feeding & remedies"
+      ],
+      "source": {
+        "title": "Cyber Pet game audio catalog",
+        "url": ""
+      },
+      "summary": "Sound cues for meals, washing, rest, treatment and completed care.",
+      "wordCount": 47,
+      "connections": [],
+      "chronology": []
+    },
+    {
+      "id": "reference-audio-running",
+      "title": "Running & Hurdles — sounds & music",
+      "kind": "Reference",
+      "era": [],
+      "timeLabel": "Game audio reference",
+      "timeOrder": 99999,
+      "status": "audio reference",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Audio",
+        "Running & Hurdles"
+      ],
+      "source": {
+        "title": "Cyber Pet game audio catalog",
+        "url": ""
+      },
+      "summary": "Running music, jumps, landings, course events and obstacle sounds. New Tactical obstacle clips are marked as previews.",
+      "wordCount": 53,
+      "connections": [],
+      "chronology": []
+    },
+    {
+      "id": "reference-audio-strength",
+      "title": "Strength training — sounds & music",
+      "kind": "Reference",
+      "era": [],
+      "timeLabel": "Game audio reference",
+      "timeOrder": 99999,
+      "status": "audio reference",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Audio",
+        "Strength training"
+      ],
+      "source": {
+        "title": "Cyber Pet game audio catalog",
+        "url": ""
+      },
+      "summary": "Strength music, charge and impact cues, material breaks and boulder training sounds.",
+      "wordCount": 47,
+      "connections": [],
+      "chronology": []
+    },
+    {
+      "id": "reference-audio-memory",
+      "title": "Memory & intelligence — sounds & music",
+      "kind": "Reference",
+      "era": [],
+      "timeLabel": "Game audio reference",
+      "timeOrder": 99999,
+      "status": "audio reference",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Audio",
+        "Memory & intelligence"
+      ],
+      "source": {
+        "title": "Cyber Pet game audio catalog",
+        "url": ""
+      },
+      "summary": "Card turns, matching, hints and board changes for memory activities.",
+      "wordCount": 46,
+      "connections": [],
+      "chronology": []
+    },
+    {
+      "id": "reference-audio-dance",
+      "title": "Dance & charisma — sounds & music",
+      "kind": "Reference",
+      "era": [],
+      "timeLabel": "Game audio reference",
+      "timeOrder": 99999,
+      "status": "audio reference",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Audio",
+        "Dance & charisma"
+      ],
+      "source": {
+        "title": "Cyber Pet game audio catalog",
+        "url": ""
+      },
+      "summary": "Dance and party music, timing cues, sustained notes and combo feedback.",
+      "wordCount": 47,
+      "connections": [],
+      "chronology": []
+    },
+    {
+      "id": "reference-audio-battle",
+      "title": "Battles & magic — sounds & music",
+      "kind": "Reference",
+      "era": [],
+      "timeLabel": "Game audio reference",
+      "timeOrder": 99999,
+      "status": "audio reference",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Audio",
+        "Battles & magic"
+      ],
+      "source": {
+        "title": "Cyber Pet game audio catalog",
+        "url": ""
+      },
+      "summary": "Attack, spell, summon, defence and impact sounds used by combat activities.",
+      "wordCount": 47,
+      "connections": [],
+      "chronology": []
+    },
+    {
+      "id": "reference-audio-interface",
+      "title": "Menus, rewards & navigation — sounds & music",
+      "kind": "Reference",
+      "era": [],
+      "timeLabel": "Game audio reference",
+      "timeOrder": 99999,
+      "status": "audio reference",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Audio",
+        "Menus, rewards & navigation"
+      ],
+      "source": {
+        "title": "Cyber Pet game audio catalog",
+        "url": ""
+      },
+      "summary": "Button, folder, inventory, save, achievement and navigation feedback.",
+      "wordCount": 45,
+      "connections": [],
+      "chronology": []
+    },
+    {
+      "id": "reference-audio-feedback",
+      "title": "Training encouragement — sounds & music",
+      "kind": "Reference",
+      "era": [],
+      "timeLabel": "Game audio reference",
+      "timeOrder": 99999,
+      "status": "audio reference",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Audio",
+        "Training encouragement"
+      ],
+      "source": {
+        "title": "Cyber Pet game audio catalog",
+        "url": ""
+      },
+      "summary": "The existing nonstudent announcer and crowd clips used for training feedback.",
+      "wordCount": 46,
+      "connections": [],
+      "chronology": []
+    },
+    {
+      "id": "reference-audio-play",
+      "title": "Balance & ball play — sounds & music",
+      "kind": "Reference",
+      "era": [],
+      "timeLabel": "Game audio reference",
+      "timeOrder": 99999,
+      "status": "audio reference",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Audio",
+        "Balance & ball play"
+      ],
+      "source": {
+        "title": "Cyber Pet game audio catalog",
+        "url": ""
+      },
+      "summary": "Balance training, moving weights, ball throws, bounces and catches.",
+      "wordCount": 46,
+      "connections": [],
+      "chronology": []
+    },
+    {
+      "id": "reference-audio-songs",
+      "title": "Era Zero songs — sounds & music",
+      "kind": "Reference",
+      "era": [],
+      "timeLabel": "Game audio reference",
+      "timeOrder": 99999,
+      "status": "audio reference",
+      "characters": [],
+      "places": [],
+      "topics": [
+        "Audio",
+        "Era Zero songs"
+      ],
+      "source": {
+        "title": "Cyber Pet game audio catalog",
+        "url": ""
+      },
+      "summary": "DBA performances connected to their backstories, singers and locations. The full player includes other arrangements and individual voices.",
+      "wordCount": 54,
+      "connections": [],
+      "chronology": []
     }
   ],
   "sources": [
@@ -46966,7 +47265,7 @@
     "Language": 119,
     "Locations": 206,
     "People": 100,
-    "Reference": 59,
+    "Reference": 72,
     "Remedies": 34,
     "Ribbons": 189,
     "Song": 4,
