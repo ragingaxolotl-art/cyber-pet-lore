@@ -1,0 +1,1893 @@
+[
+  {
+    "name": "Glitch Fever",
+    "family": "infection",
+    "asset": "glitch_fever",
+    "effect": "heat",
+    "id": "glitch_fever",
+    "trademark": false,
+    "location_name": "Any location with this category",
+    "corruption": null,
+    "treatment": "Use the infection treatment listed in Care; cleaning supports recovery.",
+    "visual": "The original detailed heat wisps rise slowly from the body, with animated pixel flames.",
+    "description": "A randomly selected infection condition. It uses the category’s existing penalties and treatment.",
+    "story_hook": "No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition",
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Crystal Bloom",
+    "family": "infection",
+    "asset": "infection_crystal_rash",
+    "effect": "crystal",
+    "id": "crystal_bloom",
+    "trademark": false,
+    "location_name": "Any location with this category",
+    "corruption": null,
+    "treatment": "Use the infection treatment listed in Care; cleaning supports recovery.",
+    "visual": "The original crystalline clusters animate on visible body pixels.",
+    "description": "A randomly selected infection condition. It uses the category’s existing penalties and treatment.",
+    "story_hook": "No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition",
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Mosswire",
+    "family": "parasites",
+    "asset": "parasite_moss_crown",
+    "effect": "moss",
+    "id": "mosswire",
+    "trademark": false,
+    "location_name": "Any location with this category",
+    "corruption": null,
+    "treatment": "Use the parasite treatment listed in Care; cleaning supports recovery but does not replace treatment.",
+    "visual": "The original moss crown follows the visible head contour and gently breathes.",
+    "description": "A randomly selected parasites condition. It uses the category’s existing penalties and treatment.",
+    "story_hook": "No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition",
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Sporefan",
+    "family": "parasites",
+    "asset": "parasite_spore_fan",
+    "effect": "spores",
+    "id": "sporefan",
+    "trademark": false,
+    "location_name": "Any location with this category",
+    "corruption": null,
+    "treatment": "Use the parasite treatment listed in Care; cleaning supports recovery but does not replace treatment.",
+    "visual": "The original fungal fan clings near the head and plays its authored sprite animation.",
+    "description": "A randomly selected parasites condition. It uses the category’s existing penalties and treatment.",
+    "story_hook": "No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition",
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Static Mites",
+    "family": "parasites",
+    "asset": "static_mites",
+    "effect": "mites",
+    "id": "static_mites",
+    "trademark": false,
+    "location_name": "Any location with this category",
+    "corruption": null,
+    "treatment": "Use the parasite treatment listed in Care; cleaning supports recovery but does not replace treatment.",
+    "visual": "Separate detailed mites crawl on independent continuous body paths, each with its own animated gait and timing.",
+    "description": "A randomly selected parasites condition. It uses the category’s existing penalties and treatment.",
+    "story_hook": "No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition",
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Signal Churn",
+    "family": "digestive",
+    "asset": "queasy_bubbles",
+    "effect": "bubbles",
+    "id": "signal_churn",
+    "trademark": false,
+    "location_name": "Any location with this category",
+    "corruption": null,
+    "treatment": "Use the digestive treatment listed in Care and sensible portions.",
+    "visual": "The existing green bubble sprites rise from staggered horizontal starting points across the pet’s middle, drift gently apart, and pop into brief rim fragments above it.",
+    "description": "A randomly selected digestive condition. It uses the category’s existing penalties and treatment.",
+    "story_hook": "No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition",
+    "preview_note": "3.2-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "The original queasy bubbles animate beside the body.",
+        "preview": {
+          "animation": "previews/signal_churn.gif",
+          "still": "previews/signal_churn-still.png",
+          "sheet": "previews/signal_churn.png"
+        },
+        "appearance_anchor": "illness-signal_churn-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "14772b100c38c5d3191f96540a78ca354c6e645550a9f8a9b9cda8cf1fd71ca0",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Sprite + effect",
+    "severity_note": "Mild / moderate / severe: 4 / 5 / 6 staggered bubbles.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/signal_churn.gif",
+      "still": "previews/review-2026-11-22/signal_churn-still.png",
+      "sheet": "previews/review-2026-11-22/signal_churn.png",
+      "stages": [
+        "previews/review-2026-11-22/signal_churn-1.png",
+        "previews/review-2026-11-22/signal_churn-2.png",
+        "previews/review-2026-11-22/signal_churn-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Buffer Bloat",
+    "family": "digestive",
+    "asset": "queasy_bubbles",
+    "effect": "buffer_queue",
+    "id": "buffer_bloat",
+    "trademark": false,
+    "location_name": "Any location with this category",
+    "corruption": null,
+    "treatment": "Use the digestive treatment listed in Care and sensible portions.",
+    "visual": "Three PixelLab data-packet sprites radiate from the center of the visible pet in staggered directions and fade outward.",
+    "description": "A randomly selected digestive condition. It uses the category’s existing penalties and treatment.",
+    "story_hook": "No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition",
+    "preview_note": "3.8-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "Flat signal packets crowd a bent channel, bulge its rails and squeeze through the outlet one at a time.",
+        "preview": {
+          "animation": "previews/buffer_bloat.gif",
+          "still": "previews/buffer_bloat-still.png",
+          "sheet": "previews/buffer_bloat.png"
+        },
+        "appearance_anchor": "illness-buffer_bloat-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "6fd756755c1d64cf7685f9854cea995301353e13950f8cae1423b5c1474634fa",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Sprite + effect",
+    "severity_note": "Mild / moderate / severe: 8 / 10 / 12 radiating packets.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/buffer_bloat.gif",
+      "still": "previews/review-2026-11-22/buffer_bloat-still.png",
+      "sheet": "previews/review-2026-11-22/buffer_bloat.png",
+      "stages": [
+        "previews/review-2026-11-22/buffer_bloat-1.png",
+        "previews/review-2026-11-22/buffer_bloat-2.png",
+        "previews/review-2026-11-22/buffer_bloat-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Bitrot",
+    "family": "chronic",
+    "asset": "bitrot_patch",
+    "effect": "fracture",
+    "id": "bitrot",
+    "trademark": false,
+    "location_name": "Any location with this category",
+    "corruption": null,
+    "treatment": "Use targeted chronic treatment listed in Care; rest alone does not cure it.",
+    "visual": "Mottled rust-like patches grow outward on the actual body over 75 seconds. Transparent artwork stays clear; growth never resets while the episode continues.",
+    "description": "A randomly selected chronic condition. It uses the category’s existing penalties and treatment.",
+    "story_hook": "No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition",
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Phase Scarring",
+    "family": "chronic",
+    "asset": "phase_drift",
+    "effect": "echo",
+    "id": "phase_scarring",
+    "trademark": false,
+    "location_name": "Any location with this category",
+    "corruption": null,
+    "treatment": "Use targeted chronic treatment listed in Care; rest alone does not cure it.",
+    "visual": "Three staggered afterimages break into irregular triangular shards of the actual pet texture. The separated pieces burst outward in varied directions, turn independently and fade, like jagged broken glass.",
+    "description": "A randomly selected chronic condition. It uses the category’s existing penalties and treatment.",
+    "story_hook": "No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition",
+    "preview_note": "2.2-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "The distinctive original ghost concept remains: translucent copies of the actual pet drift outward in different directions.",
+        "preview": {
+          "animation": "previews/phase_scarring.gif",
+          "still": "previews/phase_scarring-still.png",
+          "sheet": "previews/phase_scarring.png"
+        },
+        "appearance_anchor": "illness-phase_scarring-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "6589bd408d37f884a036632f29f27d9cf5aa3d3e041c7feb674a886a451fa22e",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Effect",
+    "severity_note": "Mild / moderate / severe: fragment waves repeat every 3.6 / 2.2 / 1.2 seconds.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/phase_scarring.gif",
+      "still": "previews/review-2026-11-22/phase_scarring-still.png",
+      "sheet": "previews/review-2026-11-22/phase_scarring.png",
+      "stages": [
+        "previews/review-2026-11-22/phase_scarring-1.png",
+        "previews/review-2026-11-22/phase_scarring-2.png",
+        "previews/review-2026-11-22/phase_scarring-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Seam Bruise",
+    "family": "injury",
+    "asset": "injury_bruise",
+    "effect": "fracture",
+    "id": "seam_bruise",
+    "trademark": false,
+    "location_name": "Any location with this category",
+    "corruption": null,
+    "treatment": "Use injury supplies and the recovery time shown in Care.",
+    "visual": "A feathered translucent purple-brown bruise lies on the body, with very slow capillary shading. The character remains visible underneath.",
+    "description": "A randomly selected injury condition. It uses the category’s existing penalties and treatment.",
+    "story_hook": "No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition",
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Signal Sprain",
+    "family": "injury",
+    "asset": "injury_bruise",
+    "effect": "strained_connection",
+    "id": "signal_sprain",
+    "trademark": false,
+    "location_name": "Any location with this category",
+    "corruption": null,
+    "treatment": "Use injury supplies and the recovery time shown in Care.",
+    "visual": "A jagged exclamation-mark emote appears above the pet while mirrored halves of one radio-wave sprite expand outward to its left and right.",
+    "description": "A randomly selected injury condition. It uses the category’s existing penalties and treatment.",
+    "story_hook": "No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition",
+    "preview_note": "3-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "A kinked signal tendon stretches between fixed contacts and recoils while a bright pulse travels along the strained connection.",
+        "preview": {
+          "animation": "previews/signal_sprain.gif",
+          "still": "previews/signal_sprain-still.png",
+          "sheet": "previews/signal_sprain.png"
+        },
+        "appearance_anchor": "illness-signal_sprain-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "4e619b69427fdb8c6cd0401c7d88598ee70badb83218c4c028a18ab40bab4b10",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Sprite + effect",
+    "severity_note": "Mild / moderate / severe: 3 / 4 / 5 expanding pairs of radio waves.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/signal_sprain.gif",
+      "still": "previews/review-2026-11-22/signal_sprain-still.png",
+      "sheet": "previews/review-2026-11-22/signal_sprain.png",
+      "stages": [
+        "previews/review-2026-11-22/signal_sprain-1.png",
+        "previews/review-2026-11-22/signal_sprain-2.png",
+        "previews/review-2026-11-22/signal_sprain-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Muscle Fatigue",
+    "family": "fatigue",
+    "asset": "fatigue_droplets",
+    "effect": "droplets",
+    "id": "muscle_fatigue",
+    "trademark": false,
+    "location_name": "Any location with this category",
+    "corruption": null,
+    "treatment": "Rest and recovery time help; avoid repeatedly exhausting the affected skill.",
+    "visual": "The original sweat artwork appears above the pet, offset to the right or mirrored to the left. Staggered clusters drip downward onto the upper body, fade and repeat.",
+    "description": "A randomly selected fatigue condition. It uses the category’s existing penalties and treatment.",
+    "story_hook": "No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition",
+    "preview_note": "1.8-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "The original heavy sweat droplets animate beside the tired pet.",
+        "preview": {
+          "animation": "previews/muscle_fatigue.gif",
+          "still": "previews/muscle_fatigue-still.png",
+          "sheet": "previews/muscle_fatigue.png"
+        },
+        "appearance_anchor": "illness-muscle_fatigue-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "d37fb036f2a59832b47db63d237163edfa5c6bcfbf746dcdb44bb758ae9d2276",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Sprite + effect",
+    "severity_note": "Mild / moderate / severe: 1 / 2 / 3 staggered drip clusters.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/muscle_fatigue.gif",
+      "still": "previews/review-2026-11-22/muscle_fatigue-still.png",
+      "sheet": "previews/review-2026-11-22/muscle_fatigue.png",
+      "stages": [
+        "previews/review-2026-11-22/muscle_fatigue-1.png",
+        "previews/review-2026-11-22/muscle_fatigue-2.png",
+        "previews/review-2026-11-22/muscle_fatigue-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Mental Fatigue",
+    "family": "fatigue",
+    "asset": "confused_swirl",
+    "effect": "unfinished_thought",
+    "id": "mental_fatigue",
+    "trademark": false,
+    "location_name": "Any location with this category",
+    "corruption": null,
+    "treatment": "Rest and recovery time help; avoid repeatedly exhausting the affected skill.",
+    "visual": "A large curled storm cloud stays centered above the head, with a tight continuous six-second orbit and small lightning bolts. Soft local lightning pulses brighten the cloud; position and velocity join smoothly around the full circle.",
+    "description": "A randomly selected fatigue condition. It uses the category’s existing penalties and treatment.",
+    "story_hook": "No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition",
+    "preview_note": "6-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "A three-part thought tries to assemble above the head; its last tile sags and the idea slowly falls apart.",
+        "preview": {
+          "animation": "previews/mental_fatigue.gif",
+          "still": "previews/mental_fatigue-still.png",
+          "sheet": "previews/mental_fatigue.png"
+        },
+        "appearance_anchor": "illness-mental_fatigue-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "79d941aa2f7853edeb936e149152aefc33d562226cf22208c8ffa00947eac375",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Sprite + effect",
+    "severity_note": "The centered storm grows larger with severity; its continuous orbit lasts six seconds.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/mental_fatigue.gif",
+      "still": "previews/review-2026-11-22/mental_fatigue-still.png",
+      "sheet": "previews/review-2026-11-22/mental_fatigue.png",
+      "stages": [
+        "previews/review-2026-11-22/mental_fatigue-1.png",
+        "previews/review-2026-11-22/mental_fatigue-2.png",
+        "previews/review-2026-11-22/mental_fatigue-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Signal Flicker",
+    "family": "stress",
+    "asset": "stress_tangle",
+    "effect": "flicker",
+    "id": "signal_flicker",
+    "trademark": false,
+    "location_name": "Any location with this category",
+    "corruption": null,
+    "treatment": "Use calm care, rest and the stress treatment listed in Care.",
+    "visual": "The original tangled signal mark breathes beside the pet; cause-specific body flicker remains separate and bounded.",
+    "description": "A randomly selected stress condition. It uses the category’s existing penalties and treatment.",
+    "story_hook": "No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition",
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Echo Fright",
+    "family": "stress",
+    "asset": "phase_drift",
+    "effect": "inward_alarm",
+    "id": "echo_fright",
+    "trademark": false,
+    "location_name": "Any location with this category",
+    "corruption": null,
+    "treatment": "Use calm care, rest and the stress treatment listed in Care.",
+    "visual": "Bright warm-colored afterimages drift outward and briefly become bundled Blue Cap or Meep artwork for 0.28 seconds before resuming their fade. Reduced motion holds warm pet echoes without visitor flashes.",
+    "description": "A randomly selected stress condition. It uses the category’s existing penalties and treatment.",
+    "story_hook": "No fixed location storyline; ordinary cases may appear wherever the category roll succeeds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: ordinary condition",
+    "preview_note": "7.2-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "Angular sound fronts approach from alternating sides and break apart near the character.",
+        "preview": {
+          "animation": "previews/echo_fright.gif",
+          "still": "previews/echo_fright-still.png",
+          "sheet": "previews/echo_fright.png"
+        },
+        "appearance_anchor": "illness-echo_fright-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "6b51a71e8c4e6baefcf619c6d5ced625c159e110e01f1133a38d11a95ddba4fc",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Sprite + effect",
+    "severity_note": "Mild / moderate / severe: departing echoes cycle every 4.8 / 3.6 / 3 seconds; each visitor glimpse lasts 0.28 seconds.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/echo_fright.gif",
+      "still": "previews/review-2026-11-22/echo_fright-still.png",
+      "sheet": "previews/review-2026-11-22/echo_fright.png",
+      "stages": [
+        "previews/review-2026-11-22/echo_fright-1.png",
+        "previews/review-2026-11-22/echo_fright-2.png",
+        "previews/review-2026-11-22/echo_fright-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Reply Echo",
+    "family": "stress",
+    "asset": "phase_drift",
+    "effect": "reply_fragments",
+    "location": "atlas_001",
+    "description": "Deleted replies recur in the pet’s signal, mirroring the board’s reconstructed messages.",
+    "story_hook": "A reply fragment could lead to a contributor whose record was erased.",
+    "id": "trademark_001",
+    "trademark": true,
+    "location_name": "Cacheboard, the Unintended Board",
+    "corruption": 4,
+    "treatment": "Use calm care, rest and the stress treatment listed in Care.",
+    "visual": "Afterimages keep floating outward. Periodically the main pet disappears while six copies scatter for 0.85 seconds, return in 0.18 seconds, and merge back. Events recur every 10, 6, or 3.8 seconds by severity; reduced motion never hides the pet.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Established Era −3 location. Production details are an expanded reconstruction.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.152,
+      "digestive": 0.214,
+      "chronic": 0.276,
+      "injury": 0.338,
+      "fatigue": 0.4,
+      "stress": 0.5
+    },
+    "preview_note": "12-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "Broken reply fragments leave, wait, and return with missing text strokes before fading.",
+        "preview": {
+          "animation": "previews/trademark_001.gif",
+          "still": "previews/trademark_001-still.png",
+          "sheet": "previews/trademark_001.png"
+        },
+        "appearance_anchor": "illness-trademark_001-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "f8dffd1754bc7d8d7b4d52de8b8594e595dc4b3959fb95be39c4fe01b0ca3ad8",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Effect",
+    "severity_note": "Mild / moderate / severe: scatter-and-return events recur every 10 / 6 / 3.8 seconds. Return is faster than departure.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/trademark_001.gif",
+      "still": "previews/review-2026-11-22/trademark_001-still.png",
+      "sheet": "previews/review-2026-11-22/trademark_001.png",
+      "stages": [
+        "previews/review-2026-11-22/trademark_001-1.png",
+        "previews/review-2026-11-22/trademark_001-2.png",
+        "previews/review-2026-11-22/trademark_001-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Orison Dissonance",
+    "family": "stress",
+    "asset": "confused_swirl",
+    "effect": "civic_voices",
+    "location": "atlas_006",
+    "description": "Overlapping civic voices fall out of time around the pet.",
+    "story_hook": "A future gathering could reconcile competing versions of a shared promise.",
+    "id": "trademark_006",
+    "trademark": true,
+    "location_name": "The Commons and the Orison Chamber",
+    "corruption": 4,
+    "treatment": "Use calm care, rest and the stress treatment listed in Care.",
+    "visual": "The upper quarter of the visible main body waves strongly left and right, including narrow antennae above it. The deformation tapers to exactly zero at the quarter line; the lower three quarters remain unchanged.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: The Commons is established canon. The multi-Shelter chamber is story-established in All the Names Between.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.152,
+      "digestive": 0.214,
+      "chronic": 0.276,
+      "injury": 0.338,
+      "fatigue": 0.4,
+      "stress": 0.5
+    },
+    "preview_note": "3-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "Three civic voice traces cross a shared staff in independent, conflicting rhythms.",
+        "preview": {
+          "animation": "previews/trademark_006.gif",
+          "still": "previews/trademark_006-still.png",
+          "sheet": "previews/trademark_006.png"
+        },
+        "appearance_anchor": "illness-trademark_006-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "b321e54c2ee981623cae4dd0ab53350f30cc41bf1d0b9a5e6313548bb44dad94",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Effect",
+    "severity_note": "Higher severity increases the upper-quarter wave amplitude; the lower three quarters remain unchanged.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/trademark_006.gif",
+      "still": "previews/review-2026-11-22/trademark_006-still.png",
+      "sheet": "previews/review-2026-11-22/trademark_006.png",
+      "stages": [
+        "previews/review-2026-11-22/trademark_006-1.png",
+        "previews/review-2026-11-22/trademark_006-2.png",
+        "previews/review-2026-11-22/trademark_006-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Pumpwire Leech",
+    "family": "parasites",
+    "asset": "pumpwire_leech_v2",
+    "effect": "pumpwire_flow",
+    "location": "atlas_007",
+    "description": "Residual wet machinery carries a filament that follows the forty-seventh pump pulse.",
+    "story_hook": "Tracing its pulse could reveal a surviving maintenance route.",
+    "id": "trademark_007",
+    "trademark": true,
+    "location_name": "Sublevel and Pump Forty-Seven",
+    "corruption": 5,
+    "treatment": "Use the parasite treatment listed in Care; cleaning supports recovery but does not replace treatment.",
+    "visual": "A large original leech latches onto the body. Its eye and sucker sit in front on opaque character pixels while its free body wiggles slowly behind.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Story-established in The Green Lights Below.",
+    "risks": {
+      "infection": 0.45,
+      "parasites": 0.5,
+      "digestive": 0.1,
+      "chronic": 0.17,
+      "injury": 0.24,
+      "fatigue": 0.31,
+      "stress": 0.38
+    },
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Shelter Afterimage",
+    "family": "chronic",
+    "asset": "phase_drift",
+    "effect": "missing_room",
+    "location": "atlas_008",
+    "description": "The missing partitions leave the pet’s outline briefly searching for a room that is gone.",
+    "story_hook": "A future rescue could distinguish shelter memories from navigable rooms.",
+    "id": "trademark_008",
+    "trademark": true,
+    "location_name": "Shelter Orison, the Vanishing Shelter",
+    "corruption": 4,
+    "treatment": "Use targeted chronic treatment listed in Care; rest alone does not cure it.",
+    "visual": "Opaque Blue Cap and Meep visitors emerge through a temporary door at the pet, linger nearby, and disappear through a separate exit door. Mild, moderate and severe show up to 1, 3 and 5 visitors, lingering for 4, 8 and 14 seconds. Doorway wipes preserve solid character colors; reduced motion holds the visitors and doors still.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Story-established. Its internal geography is only partly recoverable.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.152,
+      "digestive": 0.214,
+      "chronic": 0.5,
+      "injury": 0.4,
+      "fatigue": 0.338,
+      "stress": 0.276
+    },
+    "preview_note": "13-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "A remembered shelter outline tries to rebuild its missing room, sliding a doorway partition around the visitor.",
+        "preview": {
+          "animation": "previews/trademark_008.gif",
+          "still": "previews/trademark_008-still.png",
+          "sheet": "previews/trademark_008.png"
+        },
+        "appearance_anchor": "illness-trademark_008-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "fe54690cf6f4a849b032d176665d3cd19cb2e43ac172b508ace15de168f5f890",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Sprite + effect",
+    "severity_note": "Mild / moderate / severe: up to 1 / 3 / 5 visitors linger for 4 / 8 / 14 seconds.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/trademark_008.gif",
+      "still": "previews/review-2026-11-22/trademark_008-still.png",
+      "sheet": "previews/review-2026-11-22/trademark_008.png",
+      "stages": [
+        "previews/review-2026-11-22/trademark_008-1.png",
+        "previews/review-2026-11-22/trademark_008-2.png",
+        "previews/review-2026-11-22/trademark_008-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Warm Copy Drift",
+    "family": "chronic",
+    "asset": "phase_drift",
+    "effect": "warm_impression",
+    "location": "atlas_011",
+    "description": "Layered persons and rooms impress slightly displaced copies on a visitor.",
+    "story_hook": "A future encounter could ask which copy remembers an unfinished kindness.",
+    "id": "trademark_011",
+    "trademark": true,
+    "location_name": "The Warm Copy Garden",
+    "corruption": 4,
+    "treatment": "Use targeted chronic treatment listed in Care; rest alone does not cure it.",
+    "visual": "A bright white printer-like scan line sweeps downward across the character, with softly fading edges. It is clipped to the character silhouette and crosses the full sprite canvas every 3.8 seconds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Story-established, with uncertain ontology.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.152,
+      "digestive": 0.214,
+      "chronic": 0.5,
+      "injury": 0.276,
+      "fatigue": 0.338,
+      "stress": 0.4
+    },
+    "preview_note": "3.8-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "Narrow warm impressions of the actual character peel away from separate body strips.",
+        "preview": {
+          "animation": "previews/trademark_011.gif",
+          "still": "previews/trademark_011-still.png",
+          "sheet": "previews/trademark_011.png"
+        },
+        "appearance_anchor": "illness-trademark_011-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "f1e1b840db6ff581013f447842557fdfe72d16d415cf74c21806393afd71343f",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Effect",
+    "severity_note": "The white scan crosses the pet every 3.8 seconds. The stages share this visual.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/trademark_011.gif",
+      "still": "previews/review-2026-11-22/trademark_011-still.png",
+      "sheet": "previews/review-2026-11-22/trademark_011.png",
+      "stages": [
+        "previews/review-2026-11-22/trademark_011-1.png",
+        "previews/review-2026-11-22/trademark_011-2.png",
+        "previews/review-2026-11-22/trademark_011-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Many-Forms Snare",
+    "family": "injury",
+    "asset": "injury_bruise",
+    "effect": "district_snare",
+    "location": "atlas_016",
+    "description": "Misaligned district seams catch a passing pet at their joins.",
+    "story_hook": "A civic repair route could reconnect two districts without erasing either.",
+    "id": "trademark_016",
+    "trademark": true,
+    "location_name": "The Last City of Many Forms",
+    "corruption": 4,
+    "treatment": "Use injury supplies and the recovery time shown in Care.",
+    "visual": "The whole character uses a consistent one-to-one RGB palette remap: (R,G,B) becomes (1-G,B,1-R). Identical source colors always receive identical replacements; black becomes magenta. Shape and transparency remain unchanged.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Established Era Three location, possibly several places merged in memory.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.152,
+      "digestive": 0.214,
+      "chronic": 0.276,
+      "injury": 0.5,
+      "fatigue": 0.338,
+      "stress": 0.4
+    },
+    "preview_note": "Static palette example.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "Different district polygons interlock at mismatched contacts, stretching against one another near the lower body.",
+        "preview": {
+          "animation": "previews/trademark_016.gif",
+          "still": "previews/trademark_016-still.png",
+          "sheet": "previews/trademark_016.png"
+        },
+        "appearance_anchor": "illness-trademark_016-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "a0a1508ab0278c1f620b04a3ab0d7409d335e154898afa65f224a944f2dbcedc",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Effect",
+    "severity_note": "All stages share the same stable color mapping; the effect is intentionally static.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/trademark_016.gif",
+      "still": "previews/review-2026-11-22/trademark_016-still.png",
+      "sheet": "previews/review-2026-11-22/trademark_016.png",
+      "stages": [
+        "previews/review-2026-11-22/trademark_016-1.png",
+        "previews/review-2026-11-22/trademark_016-2.png",
+        "previews/review-2026-11-22/trademark_016-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Return-Signal Fever",
+    "family": "infection",
+    "asset": "glitch_fever",
+    "effect": "return_signal",
+    "location": "atlas_020",
+    "description": "Repeated transit signals build a hot, unstable rhythm in the pet’s signal.",
+    "story_hook": "Following the repeated call could locate a stranded relay.",
+    "id": "trademark_020",
+    "trademark": true,
+    "location_name": "The Underway of Returning Signals",
+    "corruption": 4,
+    "treatment": "Use the infection treatment listed in Care; cleaning supports recovery.",
+    "visual": "Bright pulses leave the torso and return; each impact sends an orange heat ripple through the actual body. Mild, moderate and severe emit 1, 2 and 3 staggered pulses per six-second cycle.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed Era Three transit location, derived from dormant transit corridors becoming dangerous underways and from Corridor/Relay history.",
+    "risks": {
+      "infection": 0.5,
+      "parasites": 0.1,
+      "digestive": 0.152,
+      "chronic": 0.214,
+      "injury": 0.276,
+      "fatigue": 0.338,
+      "stress": 0.4
+    },
+    "preview_note": "6-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "Relay calls climb a small signal mast and return as hotter downward pulses.",
+        "preview": {
+          "animation": "previews/trademark_020.gif",
+          "still": "previews/trademark_020-still.png",
+          "sheet": "previews/trademark_020.png"
+        },
+        "appearance_anchor": "illness-trademark_020-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "67f305a59f05816d163152363fc3b7885002408e7c12f0e6023266503b04c244",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Effect",
+    "severity_note": "Mild / moderate / severe: 1 / 2 / 3 staggered returning pulses per six-second cycle.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/trademark_020.gif",
+      "still": "previews/review-2026-11-22/trademark_020-still.png",
+      "sheet": "previews/review-2026-11-22/trademark_020.png",
+      "stages": [
+        "previews/review-2026-11-22/trademark_020-1.png",
+        "previews/review-2026-11-22/trademark_020-2.png",
+        "previews/review-2026-11-22/trademark_020-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Sixfold Churn",
+    "family": "digestive",
+    "asset": "confused_swirl",
+    "effect": "six_chambers",
+    "location": "atlas_021",
+    "description": "Six borrowed environmental rhythms arrive in the wrong order and unsettle digestion.",
+    "story_hook": "A garden steward could ask visitors to restore the order of the six traditions.",
+    "id": "trademark_021",
+    "trademark": true,
+    "location_name": "The Folded Garden of Six Traditions",
+    "corruption": 4,
+    "treatment": "Use the digestive treatment listed in Care and sensible portions.",
+    "visual": "Two, four or six extra body parts are sampled from the current character and attached around its outline as severity rises. Extra faces, arms and feet overlap the living body, with a slow connected flex, forming a merged creature.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed Era Two–Three location derived from the World Bloom traditions and the Folding of Worlds.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.4,
+      "digestive": 0.5,
+      "chronic": 0.152,
+      "injury": 0.214,
+      "fatigue": 0.276,
+      "stress": 0.338
+    },
+    "preview_note": "5-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "Six stationary chambers contract in a deliberately broken sequence instead of orbiting the pet.",
+        "preview": {
+          "animation": "previews/trademark_021.gif",
+          "still": "previews/trademark_021-still.png",
+          "sheet": "previews/trademark_021.png"
+        },
+        "appearance_anchor": "illness-trademark_021-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "5680c85024d8c91ac86b4bf676840934d7872a4eb4e3800a878a29ea81605975",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Effect",
+    "severity_note": "Mild / moderate / severe: 2 / 4 / 6 attached body pieces.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/trademark_021.gif",
+      "still": "previews/review-2026-11-22/trademark_021-still.png",
+      "sheet": "previews/review-2026-11-22/trademark_021.png",
+      "stages": [
+        "previews/review-2026-11-22/trademark_021-1.png",
+        "previews/review-2026-11-22/trademark_021-2.png",
+        "previews/review-2026-11-22/trademark_021-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Tide Repeat",
+    "family": "stress",
+    "asset": "phase_drift",
+    "effect": "repeated_tide",
+    "location": "atlas_023",
+    "description": "A wave that has already passed leaves a second outline behind the pet.",
+    "story_hook": "The repeated tide could expose a message absent from the first shoreline.",
+    "id": "trademark_023",
+    "trademark": true,
+    "location_name": "The Repeated Beach",
+    "corruption": 4,
+    "treatment": "Use calm care, rest and the stress treatment listed in Care.",
+    "visual": "Broad filled water ribbons roll in a pronounced up-and-down wave across the feet, and the actual character distorts vertically with the same wavelength, direction and four-second clock. A second crest follows behind with pale foam marks. Wave and body amplitude increase with severity; reduced motion freezes both together.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed game-background location derived from recurrence, Last Loops, and the game interface’s translation of deeper processes.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.4,
+      "digestive": 0.152,
+      "chronic": 0.214,
+      "injury": 0.276,
+      "fatigue": 0.338,
+      "stress": 0.5
+    },
+    "preview_note": "4-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "A traveling water crest passes the feet, followed by a delayed second wave with small foam grains.",
+        "preview": {
+          "animation": "previews/trademark_023.gif",
+          "still": "previews/trademark_023-still.png",
+          "sheet": "previews/trademark_023.png"
+        },
+        "appearance_anchor": "illness-trademark_023-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "79f424ab168db328b021f953caa1eee756184e1d3536ae63b32f3f53ab4e696c",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Effect",
+    "severity_note": "Higher severity increases both water height and body distortion; they share one four-second clock.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/trademark_023.gif",
+      "still": "previews/review-2026-11-22/trademark_023-still.png",
+      "sheet": "previews/review-2026-11-22/trademark_023.png",
+      "stages": [
+        "previews/review-2026-11-22/trademark_023-1.png",
+        "previews/review-2026-11-22/trademark_023-2.png",
+        "previews/review-2026-11-22/trademark_023-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Memory Reedling",
+    "family": "parasites",
+    "asset": "memory_reedling_v2",
+    "effect": "reed_beads",
+    "location": "atlas_025",
+    "description": "Marsh filaments root in discarded memory fragments and cling to visitors.",
+    "story_hook": "A reedling could carry a recoverable fragment to an abandoned archive bed.",
+    "id": "trademark_025",
+    "trademark": true,
+    "location_name": "The Wet Memory Marsh",
+    "corruption": 4,
+    "treatment": "Use the parasite treatment listed in Care; cleaning supports recovery but does not replace treatment.",
+    "visual": "Original hollow reeds grow from a body anchor. Beads climb three stalk paths and split into escaping memory fragments.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed location derived from ecological preservation, sleeping archives, visit history, and the game’s wetland/parasite environment logic.",
+    "risks": {
+      "infection": 0.4,
+      "parasites": 0.5,
+      "digestive": 0.1,
+      "chronic": 0.152,
+      "injury": 0.214,
+      "fatigue": 0.276,
+      "stress": 0.338
+    },
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Coral Bloom",
+    "family": "infection",
+    "asset": "coral_polyp_branch",
+    "effect": "coral_polyps",
+    "location": "atlas_030",
+    "description": "Living coral instructions spread across the old route network as luminous surface growth.",
+    "story_hook": "A reef guide could use the bloom pattern to recover lost route arrows.",
+    "id": "trademark_030",
+    "trademark": true,
+    "location_name": "The Coral Data Labyrinth",
+    "corruption": 4,
+    "treatment": "Use the infection treatment listed in Care; cleaning supports recovery.",
+    "visual": "Separate original coral colonies grow from small to full size over 45 seconds. Polyps animate and shed individual angular grains with continuous rotation.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
+    "risks": {
+      "infection": 0.5,
+      "parasites": 0.4,
+      "digestive": 0.1,
+      "chronic": 0.152,
+      "injury": 0.214,
+      "fatigue": 0.276,
+      "stress": 0.338
+    },
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Doorwake Drift",
+    "family": "stress",
+    "asset": "phase_drift",
+    "effect": "shore_doors",
+    "location": "atlas_032",
+    "description": "Competing shore doors pull the pet’s outline toward incompatible destinations.",
+    "story_hook": "A future door survey could identify a shore that has not yet been mapped.",
+    "id": "trademark_032",
+    "trademark": true,
+    "location_name": "The Inland Sea of Doors",
+    "corruption": 4,
+    "treatment": "Use calm care, rest and the stress treatment listed in Care.",
+    "visual": "Two linked doors trap the character in a continuous walking loop. As its actual pixels enter one doorway, they emerge from the opposite doorway, with an alternating foot stride and no full-body disappearance. Gameplay position, size and action stay unchanged. Mild, moderate and severe loops last 8, 6 and 4 seconds; reduced motion freezes the crossing.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.152,
+      "digestive": 0.214,
+      "chronic": 0.276,
+      "injury": 0.4,
+      "fatigue": 0.338,
+      "stress": 0.5
+    },
+    "preview_note": "6-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "Two leaning shore doors pull unresolved threads from the body toward opposing destinations.",
+        "preview": {
+          "animation": "previews/trademark_032.gif",
+          "still": "previews/trademark_032-still.png",
+          "sheet": "previews/trademark_032.png"
+        },
+        "appearance_anchor": "illness-trademark_032-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "ad858c64ffb5adbe02f40ecdf2a78d78f788ab31fcf510c8b8e01171ee9dd912",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      },
+      {
+        "id": "earlier-stretch",
+        "label": "Earlier reviewed version — stretching doors",
+        "visual": "Two opposing doors stretched the actual pet horizontally, held it under tension, then let it recover. This was replaced by the linked-door walking loop.",
+        "preview": {
+          "animation": "history/2026-11-22-before/doorwake-stretch.png",
+          "still": "history/2026-11-22-before/doorwake-stretch.png"
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Effect",
+    "severity_note": "Mild / moderate / severe: the linked-door walking loop lasts 8 / 6 / 4 seconds. Actual game position stays unchanged.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/trademark_032.gif",
+      "still": "previews/review-2026-11-22/trademark_032-still.png",
+      "sheet": "previews/review-2026-11-22/trademark_032.png",
+      "stages": [
+        "previews/review-2026-11-22/trademark_032-1.png",
+        "previews/review-2026-11-22/trademark_032-2.png",
+        "previews/review-2026-11-22/trademark_032-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Chronofrost",
+    "family": "chronic",
+    "asset": "infection_crystal_rash",
+    "effect": "chronofrost_history",
+    "location": "atlas_041",
+    "description": "Out-of-order glacial layers leave frost-like chronological scars in the signal.",
+    "story_hook": "A recovered layer could contradict the order of an archived event.",
+    "id": "trademark_041",
+    "trademark": true,
+    "location_name": "The Glacial Memory Fjord",
+    "corruption": 4,
+    "treatment": "Use targeted chronic treatment listed in Care; rest alone does not cure it.",
+    "visual": "Frost bands hold real earlier character frames at different delays, producing chronological layers on the body.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
+    "risks": {
+      "infection": 0.338,
+      "parasites": 0.4,
+      "digestive": 0.1,
+      "chronic": 0.5,
+      "injury": 0.152,
+      "fatigue": 0.214,
+      "stress": 0.276
+    },
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Season-Turn Churn",
+    "family": "digestive",
+    "asset": "confused_swirl",
+    "effect": "broken_seasons",
+    "location": "atlas_050",
+    "description": "Broken seasons impose mismatched growth and rest rhythms on digestion.",
+    "story_hook": "A communal harvest could reconnect adjoining seasonal plots.",
+    "id": "trademark_050",
+    "trademark": true,
+    "location_name": "The Patchwork Prairie of Broken Seasons",
+    "corruption": 4,
+    "treatment": "Use the digestive treatment listed in Care and sensible portions.",
+    "visual": "Sprouts, a tumbling autumn leaf, dry husks and frost appear in the wrong seasonal order. The leaf uses a continuous full-turn rotation.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.4,
+      "digestive": 0.5,
+      "chronic": 0.152,
+      "injury": 0.214,
+      "fatigue": 0.276,
+      "stress": 0.338
+    },
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Borrowed-Moon Languor",
+    "family": "fatigue",
+    "asset": "confused_swirl",
+    "effect": "borrowed_moons",
+    "location": "atlas_054",
+    "description": "Several moon rhythms demand rest at different times.",
+    "story_hook": "A future moon festival could reveal who first borrowed the orchard’s light.",
+    "id": "trademark_054",
+    "trademark": true,
+    "location_name": "The Orchard of Borrowed Moons",
+    "corruption": 4,
+    "treatment": "Rest and recovery time help; avoid repeatedly exhausting the affected skill.",
+    "visual": "Three large crescents tug on different body columns. The head and body droop out of sync while the feet stay anchored, then recover in a continuous eight-second cycle. Higher severity deepens the droop.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.152,
+      "digestive": 0.214,
+      "chronic": 0.276,
+      "injury": 0.338,
+      "fatigue": 0.5,
+      "stress": 0.4
+    },
+    "preview_note": "8-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "Three suspended crescents change phase on independent clocks and shed slow sleep-light ticks.",
+        "preview": {
+          "animation": "previews/trademark_054.gif",
+          "still": "previews/trademark_054-still.png",
+          "sheet": "previews/trademark_054.png"
+        },
+        "appearance_anchor": "illness-trademark_054-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "3e2d8988b3fbc35e30f0666ca208b02a750fe606186c7845d1e8bc49d49d8a3e",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Effect",
+    "severity_note": "Mild / moderate / severe: maximum body-column droop is 19.5% / 25% / 30.5%; the moons have offset phases in an eight-second loop.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/trademark_054.gif",
+      "still": "previews/review-2026-11-22/trademark_054-still.png",
+      "sheet": "previews/review-2026-11-22/trademark_054.png",
+      "stages": [
+        "previews/review-2026-11-22/trademark_054-1.png",
+        "previews/review-2026-11-22/trademark_054-2.png",
+        "previews/review-2026-11-22/trademark_054-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Stepwell Slip",
+    "family": "injury",
+    "asset": "injury_bruise",
+    "effect": "stepwell_grip",
+    "location": "atlas_055",
+    "description": "Sudden wet-to-dry changes make a stair’s remembered grip disagree with its surface.",
+    "story_hook": "Reservoir keepers could mark the safe stair sequence before the next monsoon.",
+    "id": "trademark_055",
+    "trademark": true,
+    "location_name": "The Monsoon Stepwell City",
+    "corruption": 4,
+    "treatment": "Use injury supplies and the recovery time shown in Care.",
+    "visual": "A wet tread slips away from its remembered stair, shedding droplets beneath the feet.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
+    "risks": {
+      "infection": 0.338,
+      "parasites": 0.4,
+      "digestive": 0.1,
+      "chronic": 0.152,
+      "injury": 0.5,
+      "fatigue": 0.214,
+      "stress": 0.276
+    },
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Unfinished Outline",
+    "family": "chronic",
+    "asset": "injury_bruise",
+    "effect": "unfinished_edges",
+    "location": "atlas_058",
+    "description": "An unfinished room leaves a small gap in the pet’s rendered outline.",
+    "story_hook": "A curator could ask whether completing a room would erase its residents’ intentions.",
+    "id": "trademark_058",
+    "trademark": true,
+    "location_name": "The Museum of Unfinished Rooms",
+    "corruption": 4,
+    "treatment": "Use targeted chronic treatment listed in Care; rest alone does not cure it.",
+    "visual": "Actual edge pixels disappear into incomplete construction strokes that repeatedly fail to finish the outline.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.152,
+      "digestive": 0.214,
+      "chronic": 0.5,
+      "injury": 0.276,
+      "fatigue": 0.338,
+      "stress": 0.4
+    },
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Dawnlock",
+    "family": "fatigue",
+    "asset": "confused_swirl",
+    "effect": "suspended_dawn",
+    "location": "atlas_059",
+    "description": "Paused dawn keeps the pet’s waking rhythm suspended.",
+    "story_hook": "A future light study could find the one reflection still advancing.",
+    "id": "trademark_059",
+    "trademark": true,
+    "location_name": "The Ice Cave of Paused Dawn",
+    "corruption": 5,
+    "treatment": "Rest and recovery time help; avoid repeatedly exhausting the affected skill.",
+    "visual": "Dawnlight climbs through the actual character, stalls halfway with a warm lower half and cool upper half, then breaks into rising rays. The stalled phase lasts 2, 4 or 7 seconds; complete cycles last 7, 9 or 12 seconds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.17,
+      "digestive": 0.24,
+      "chronic": 0.31,
+      "injury": 0.38,
+      "fatigue": 0.5,
+      "stress": 0.45
+    },
+    "preview_note": "9-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "A half sun stays pinned to a fixed horizon while detached rays escape upward.",
+        "preview": {
+          "animation": "previews/trademark_059.gif",
+          "still": "previews/trademark_059-still.png",
+          "sheet": "previews/trademark_059.png"
+        },
+        "appearance_anchor": "illness-trademark_059-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "60b11abad747461ccb08d7eb522fad9be5ea0618a0893d3a6ca37e1cf5d2cb8c",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Effect",
+    "severity_note": "Mild / moderate / severe: dawn stalls for 2 / 4 / 7 seconds, then breaks into 6 / 8 / 10 rising rays.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/trademark_059.gif",
+      "still": "previews/review-2026-11-22/trademark_059-still.png",
+      "sheet": "previews/review-2026-11-22/trademark_059.png",
+      "stages": [
+        "previews/review-2026-11-22/trademark_059-1.png",
+        "previews/review-2026-11-22/trademark_059-2.png",
+        "previews/review-2026-11-22/trademark_059-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Skyseam Shear",
+    "family": "injury",
+    "asset": "injury_bruise",
+    "effect": "skyseam_ribbons",
+    "location": "atlas_061",
+    "description": "A passing boundary seam briefly pulls adjacent surfaces in different directions.",
+    "story_hook": "Migrating guides could chart the safe moment to cross.",
+    "id": "trademark_061",
+    "trademark": true,
+    "location_name": "The Skyfold Boundary",
+    "corruption": 4,
+    "treatment": "Use injury supplies and the recovery time shown in Care.",
+    "visual": "A jagged seam splits the actual character image. Its upper and lower sections slide in opposite directions, expose a clear gap, hold, and reconnect over six seconds. Severity widens the separation.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.152,
+      "digestive": 0.214,
+      "chronic": 0.276,
+      "injury": 0.5,
+      "fatigue": 0.338,
+      "stress": 0.4
+    },
+    "preview_note": "6-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "Two translucent sky strips slide in opposite directions across a visibly torn join.",
+        "preview": {
+          "animation": "previews/trademark_061.gif",
+          "still": "previews/trademark_061-still.png",
+          "sheet": "previews/trademark_061.png"
+        },
+        "appearance_anchor": "illness-trademark_061-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "9f608b0037508823ab0ecf0fc0260264427a462e527c87b33ef2f3392985bd57",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Effect",
+    "severity_note": "Higher severity widens the jagged split and displacement. Sections separate, hold and reconnect over six seconds.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/trademark_061.gif",
+      "still": "previews/review-2026-11-22/trademark_061-still.png",
+      "sheet": "previews/review-2026-11-22/trademark_061.png",
+      "stages": [
+        "previews/review-2026-11-22/trademark_061-1.png",
+        "previews/review-2026-11-22/trademark_061-2.png",
+        "previews/review-2026-11-22/trademark_061-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Misrestore Syndrome",
+    "family": "chronic",
+    "asset": "phase_drift",
+    "effect": "misrestore_patches",
+    "location": "atlas_062",
+    "description": "The valley restores a slightly wrong version of the visitor’s outline.",
+    "story_hook": "A future restoration task could compare the comforting copy with the surviving original.",
+    "id": "trademark_062",
+    "trademark": true,
+    "location_name": "The Valley That Restores Wrong",
+    "corruption": 5,
+    "treatment": "Use targeted chronic treatment listed in Care; rest alone does not cure it.",
+    "visual": "Local body patches reconstruct from the wrong portions of the actual character and retry.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.17,
+      "digestive": 0.24,
+      "chronic": 0.5,
+      "injury": 0.31,
+      "fatigue": 0.38,
+      "stress": 0.45
+    },
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Distance Debt",
+    "family": "fatigue",
+    "asset": "phase_drift",
+    "effect": "distance_footprints",
+    "location": "atlas_063",
+    "description": "Ordinary-looking steps spend effort across missing stretches of distance.",
+    "story_hook": "A future expedition could recover the units lost from an old route measure.",
+    "id": "trademark_063",
+    "trademark": true,
+    "location_name": "The Plain of Missing Distance",
+    "corruption": 5,
+    "treatment": "Rest and recovery time help; avoid repeatedly exhausting the affected skill.",
+    "visual": "Actual movement leaves alternating foot traces at earlier positions. They wait, catch up to the living feet, and fade. Standing still creates no new trail.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.45,
+      "digestive": 0.17,
+      "chronic": 0.24,
+      "injury": 0.31,
+      "fatigue": 0.5,
+      "stress": 0.38
+    },
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Deferred Reflection",
+    "family": "stress",
+    "asset": "phase_drift",
+    "effect": "delayed_reflection",
+    "location": "atlas_064",
+    "description": "A reflection arrives late and continues a gesture after the pet stops.",
+    "story_hook": "A river artist could ask whose delayed gesture is still waiting to be seen.",
+    "id": "trademark_064",
+    "trademark": true,
+    "location_name": "The River of Deferred Reflections",
+    "corruption": 4,
+    "treatment": "Use calm care, rest and the stress treatment listed in Care.",
+    "visual": "A reflection below the pet replays actual earlier frames after a two-second delay.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
+    "risks": {
+      "infection": 0.338,
+      "parasites": 0.4,
+      "digestive": 0.1,
+      "chronic": 0.152,
+      "injury": 0.214,
+      "fatigue": 0.276,
+      "stress": 0.5
+    },
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Stormstatic Fever",
+    "family": "infection",
+    "asset": "glitch_fever",
+    "effect": "electrical_veins",
+    "location": "atlas_065",
+    "description": "Boundary lightning leaves a persistent hot static pattern.",
+    "story_hook": "Orchard crews could trace a recurring pulse to a failing storm marker.",
+    "id": "trademark_065",
+    "trademark": true,
+    "location_name": "The Stormwall Orchard",
+    "corruption": 4,
+    "treatment": "Use the infection treatment listed in Care; cleaning supports recovery.",
+    "visual": "Electrical veins carry traveling pulses across the body. Three body-anchored hot spots release short local sparks.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
+    "risks": {
+      "infection": 0.5,
+      "parasites": 0.4,
+      "digestive": 0.1,
+      "chronic": 0.152,
+      "injury": 0.214,
+      "fatigue": 0.338,
+      "stress": 0.276
+    },
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Worldscar Abrasion",
+    "family": "injury",
+    "asset": "injury_bruise",
+    "effect": "mosaic_abrasion",
+    "location": "atlas_066",
+    "description": "Historical seams rub against one another and scuff a crossing visitor.",
+    "story_hook": "A repair story could preserve the mosaic’s histories while making a safe path.",
+    "id": "trademark_066",
+    "trademark": true,
+    "location_name": "The Mosaic Worldscar",
+    "corruption": 4,
+    "treatment": "Use injury supplies and the recovery time shown in Care.",
+    "visual": "Historical mosaic seams and tiny changing scuffs form a translucent abrasion clipped to the body.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.152,
+      "digestive": 0.214,
+      "chronic": 0.276,
+      "injury": 0.5,
+      "fatigue": 0.338,
+      "stress": 0.4
+    },
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Gravity Split",
+    "family": "stress",
+    "asset": "confused_swirl",
+    "effect": "conflicting_gravity",
+    "location": "atlas_073",
+    "description": "Borrowed gravity gives the pet several competing senses of down.",
+    "story_hook": "A future room puzzle could return a borrowed direction to its owner.",
+    "id": "trademark_073",
+    "trademark": true,
+    "location_name": "The Room of Borrowed Gravity",
+    "corruption": 4,
+    "treatment": "Use calm care, rest and the stress treatment listed in Care.",
+    "visual": "Four competing gravity directions stretch attached body regions upward, downward and sideways with different timing. The body stays connected, with small arrows marking the pulling directions. Stronger illness increases the stretch; the loop lasts eight seconds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.152,
+      "digestive": 0.214,
+      "chronic": 0.276,
+      "injury": 0.338,
+      "fatigue": 0.4,
+      "stress": 0.5
+    },
+    "preview_note": "8-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "Separate grains accelerate toward four competing directions of down and settle against temporary ledges.",
+        "preview": {
+          "animation": "previews/trademark_073.gif",
+          "still": "previews/trademark_073-still.png",
+          "sheet": "previews/trademark_073.png"
+        },
+        "appearance_anchor": "illness-trademark_073-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "1af3aa544b073f32b871c05800670aab188fd66cde04cd06af9bbdcf98873dc0",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Effect",
+    "severity_note": "Higher severity strengthens all four competing pulls; the continuous cycle lasts eight seconds.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/trademark_073.gif",
+      "still": "previews/review-2026-11-22/trademark_073-still.png",
+      "sheet": "previews/review-2026-11-22/trademark_073.png",
+      "stages": [
+        "previews/review-2026-11-22/trademark_073-1.png",
+        "previews/review-2026-11-22/trademark_073-2.png",
+        "previews/review-2026-11-22/trademark_073-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Threshold Rash",
+    "family": "infection",
+    "asset": "infection_crystal_rash",
+    "effect": "threshold_doors",
+    "location": "atlas_074",
+    "description": "Conflicting door destinations leave small geometric threshold marks.",
+    "story_hook": "A door ledger could connect matching marks to a missing room.",
+    "id": "trademark_074",
+    "trademark": true,
+    "location_name": "The Door Archive",
+    "corruption": 4,
+    "treatment": "Use the infection treatment listed in Care; cleaning supports recovery.",
+    "visual": "Small hinged doors open on the body, each showing an incompatible geometric interior.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.",
+    "risks": {
+      "infection": 0.5,
+      "parasites": 0.1,
+      "digestive": 0.152,
+      "chronic": 0.214,
+      "injury": 0.276,
+      "fatigue": 0.338,
+      "stress": 0.4
+    },
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Mapfold Strain",
+    "family": "fatigue",
+    "asset": "phase_drift",
+    "effect": "folded_scale",
+    "location": "atlas_079",
+    "description": "A cramped map route asks the pet to follow more than one scale at once.",
+    "story_hook": "A mapmaker’s marginal correction could reveal a hidden passage.",
+    "id": "trademark_079",
+    "trademark": true,
+    "location_name": "The Mapmaker’s Crawlspace",
+    "corruption": 4,
+    "treatment": "Rest and recovery time help; avoid repeatedly exhausting the affected skill.",
+    "visual": "The actual body compresses into shaded accordion pleats, holds its folded shape, then unfolds over eight seconds. Mild, moderate and severe use 4, 6 and 8 pleats with 32%, 46% and 60% peak width compression.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.152,
+      "digestive": 0.214,
+      "chronic": 0.276,
+      "injury": 0.338,
+      "fatigue": 0.5,
+      "stress": 0.4
+    },
+    "preview_note": "8-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "An accordion-fold route expands while its ruler compresses, asking the pet to follow incompatible scales.",
+        "preview": {
+          "animation": "previews/trademark_079.gif",
+          "still": "previews/trademark_079-still.png",
+          "sheet": "previews/trademark_079.png"
+        },
+        "appearance_anchor": "illness-trademark_079-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "44debf192d0baccd32b0e54ace112d53650af3eef4ef8a15cd48015bb13c1648",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Effect",
+    "severity_note": "Mild / moderate / severe: 4 / 6 / 8 pleats and 32% / 46% / 60% peak width compression.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/trademark_079.gif",
+      "still": "previews/review-2026-11-22/trademark_079-still.png",
+      "sheet": "previews/review-2026-11-22/trademark_079.png",
+      "stages": [
+        "previews/review-2026-11-22/trademark_079-1.png",
+        "previews/review-2026-11-22/trademark_079-2.png",
+        "previews/review-2026-11-22/trademark_079-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Floor-Echo Fracture",
+    "family": "injury",
+    "asset": "injury_bruise",
+    "effect": "stepped_body_fracture",
+    "location": "atlas_095",
+    "description": "Half-restored floors meet at incompatible heights and bruise a visitor.",
+    "story_hook": "A future restoration route could recover the palace’s original floor order.",
+    "id": "trademark_095",
+    "trademark": true,
+    "location_name": "The Half-Restored Palace of Floors",
+    "corruption": 5,
+    "treatment": "Use injury supplies and the recovery time shown in Care.",
+    "visual": "Narrow lower-body slices are displaced to different heights along a stepped fracture, then settle independently.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.17,
+      "digestive": 0.24,
+      "chronic": 0.31,
+      "injury": 0.5,
+      "fatigue": 0.38,
+      "stress": 0.45
+    },
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Season Mismatch",
+    "family": "digestive",
+    "asset": "confused_swirl",
+    "effect": "split_seasons",
+    "location": "atlas_096",
+    "description": "Adjacent rooms disagree about the body’s seasonal rhythm.",
+    "story_hook": "A future household story could reconcile rooms without forcing a single season.",
+    "id": "trademark_096",
+    "trademark": true,
+    "location_name": "The Rooms of Mismatched Seasons",
+    "corruption": 4,
+    "treatment": "Use the digestive treatment listed in Care and sensible portions.",
+    "visual": "Adjacent cold and hot room tiles send frost and warm grains in opposing directions across their shared wall.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.152,
+      "digestive": 0.5,
+      "chronic": 0.214,
+      "injury": 0.276,
+      "fatigue": 0.338,
+      "stress": 0.4
+    },
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  },
+  {
+    "name": "Beacon Recursion",
+    "family": "stress",
+    "asset": "phase_drift",
+    "effect": "recursive_beacon",
+    "location": "atlas_100",
+    "description": "The lighthouse repeats the pet’s signal at receding angles.",
+    "story_hook": "A future signal puzzle could distinguish a real distress call from its copies.",
+    "id": "trademark_100",
+    "trademark": true,
+    "location_name": "The Recursive Lighthouse",
+    "corruption": 5,
+    "treatment": "Use calm care, rest and the stress treatment listed in Care.",
+    "visual": "A beam emitted from the body reveals a smaller copy of the current pet, whose beam reveals another smaller copy. Mild, moderate and severe create 2, 3 and 4 successive copies. The sequence builds, holds and fades over six seconds.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.17,
+      "digestive": 0.24,
+      "chronic": 0.31,
+      "injury": 0.38,
+      "fatigue": 0.45,
+      "stress": 0.5
+    },
+    "preview_note": "6-second repeating native preview on PIP. Reduced motion shows a still image.",
+    "visual_history": [
+      {
+        "id": "published-before-20261122",
+        "label": "Earlier published example",
+        "visual": "Four receding lighthouse wedges repeat the signal at offset angles. Their rotation is continuous and completes full turns without snapping back.",
+        "preview": {
+          "animation": "previews/trademark_100.gif",
+          "still": "previews/trademark_100-still.png",
+          "sheet": "previews/trademark_100.png"
+        },
+        "appearance_anchor": "illness-trademark_100-appearance",
+        "frame_metadata": {
+          "columns": 12,
+          "rows": 8,
+          "frames": 96,
+          "frame_width": 320,
+          "frame_height": 270,
+          "sample_seconds": 0.25,
+          "preview_seconds": 24,
+          "loops": false,
+          "sha256": "8351c9678585d710d6f45036880d7052b9fd98dfff3196240b49e896b921236e",
+          "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+        }
+      }
+    ],
+    "visual_revision": "2026-11-22",
+    "visual_kind": "Effect",
+    "severity_note": "Mild / moderate / severe: 2 / 3 / 4 progressively smaller copies, each emitting the next beam.",
+    "preview": {
+      "animation": "previews/review-2026-11-22/trademark_100.gif",
+      "still": "previews/review-2026-11-22/trademark_100-still.png",
+      "sheet": "previews/review-2026-11-22/trademark_100.png",
+      "stages": [
+        "previews/review-2026-11-22/trademark_100-1.png",
+        "previews/review-2026-11-22/trademark_100-2.png",
+        "previews/review-2026-11-22/trademark_100-3.png"
+      ]
+    }
+  },
+  {
+    "name": "Cartographic Moss",
+    "family": "parasites",
+    "asset": "parasite_moss_crown",
+    "effect": "living_contours",
+    "location": "atlas_101",
+    "description": "Tiny garden roots follow the map’s paths and cling like living contour lines.",
+    "story_hook": "A gardener could read the growth to find a path omitted from the map.",
+    "id": "trademark_101",
+    "trademark": true,
+    "location_name": "The Garden Inside the Map",
+    "corruption": 4,
+    "treatment": "Use the parasite treatment listed in Care; cleaning supports recovery but does not replace treatment.",
+    "visual": "Living contour paths grow across the body, with tiny leaf marks appearing along their routes.",
+    "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed; independent of the story archive.",
+    "risks": {
+      "infection": 0.1,
+      "parasites": 0.5,
+      "digestive": 0.152,
+      "chronic": 0.214,
+      "injury": 0.276,
+      "fatigue": 0.338,
+      "stress": 0.4
+    },
+    "preview_note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+  }
+]
