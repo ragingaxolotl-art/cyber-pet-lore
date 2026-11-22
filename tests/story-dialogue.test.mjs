@@ -56,6 +56,6 @@ test('standalone chapter buttons use the same paragraph anchors and performances
     const page = pages.get(chapter);
     assert.ok(page.includes('data-dialogue-reading="' + id + '"'));
     assert.ok(page.includes('id="block-' + blockId + '"'));
-    assert.ok(page.includes('src="../story-dialogue.mjs"'));
+    assert.match(page,/src="\.\.\/story-dialogue\.mjs(?:\?[^"]*)?"/);
   }
 });

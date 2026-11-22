@@ -2,7 +2,7 @@ import {noteButton,mountWorkspaceBar} from './workspace-ui.mjs';
 import {renderHavenProfile} from './haven-profile-view.mjs?v=20261109-haven-stories';
 const $=id=>document.getElementById(id),svg=$('atlas'),scene=$('scene');
 const NS='http://www.w3.org/2000/svg',colors=['#86c8ed','#c7a9eb','#b6d7a0','#e6b38b','#9cdace','#d3bd90','#e8e3ca','#aeb9d0'];
-let stage=0;
+let stage=0,comparisonStage=-5;
 let routeLookup=new Map(),routesByHaven=new Map();
 let data,lookup,childrenByParent=new Map(),havenNodes=[],systemLayer,systemLinks,systemSignature=null,selected=null,view=[0,0,2000,1450];const pointers=new Map();let gesture=null,moved=false;
 function el(tag,attrs,parent=scene){const n=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs))n.setAttribute(k,v);parent.append(n);return n;}
@@ -88,7 +88,7 @@ const purposes={
 };
 function details(n){
  let controls=$('atlas-notebook-controls');if(!controls){controls=document.createElement('section');controls.id='atlas-notebook-controls';$('detail').append(controls);}controls.replaceChildren();
- if(n){controls.append(noteButton(()=>({kind:'map',id:n.id,title:n.name||n.code||n.id,href:'shelter-atlas.html',stage,era:[-3]}),'Note on this stage'));const label=document.createElement('label');label.textContent='Compare with stage ';const select=document.createElement('select');for(let t=-5;t<=7;t++)select.add(new Option(String(t),String(t)));select.value=String(stage===-5?0:-5);label.append(select);const result=document.createElement('p');const compare=()=>{const t=Number(select.value),systems=n.kind==='shelter'?childrenByParent.get(n.id)||[]:n.kind==='system'?[n]:[];const at=time=>({formed:systems.filter(s=>time>=s.born).length,lost:systems.filter(s=>s.lostAt!==null&&time>=s.lostAt).length});const a=at(t),b=at(stage);result.textContent=`Stage ${t}: ${a.formed} systems established, ${a.lost} lost. Stage ${stage}: ${b.formed} established, ${b.lost} lost. These are systems, not persons.`;};select.onchange=compare;compare();controls.append(label,result);}
+ if(n){controls.append(noteButton(()=>({kind:'map',id:n.id,title:n.name||n.code||n.id,href:'shelter-atlas.html',stage,era:[-3]}),'Note on this stage'));const label=document.createElement('label');label.textContent='Compare with stage ';const select=document.createElement('select');for(let t=-5;t<=7;t++)select.add(new Option(String(t),String(t)));select.value=String(comparisonStage);label.append(select);const result=document.createElement('p');const compare=()=>{const t=Number(select.value);comparisonStage=t;const systems=n.kind==='shelter'?childrenByParent.get(n.id)||[]:n.kind==='system'?[n]:[];const at=time=>({formed:systems.filter(s=>time>=s.born).length,lost:systems.filter(s=>s.lostAt!==null&&time>=s.lostAt).length});const a=at(t),b=at(stage);result.textContent=`Stage ${t}: ${a.formed} systems established, ${a.lost} lost. Stage ${stage}: ${b.formed} established, ${b.lost} lost. These are systems, not persons.`;};select.onchange=compare;compare();controls.append(label,result);}
 
  if(!data)return;
  $('detail-title').textContent=n?(n.name||(n.kind==='system'?'System '+n.code:'Haven '+(n.code||''))):'The Connected Expanse';

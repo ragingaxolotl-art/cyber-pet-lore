@@ -1,6 +1,6 @@
 import {renderRealHistory} from './era-three-history.mjs';
-import {mountArticleNotes} from './article-notes.mjs';
-import {loadWiki,appendWiki,topicsInText} from './wiki-links.mjs';
+import {mountArticleNotes} from './article-notes.mjs?v=workspace-20261122';
+import {loadWiki,appendWiki,topicsInText} from './wiki-links.mjs?v=workspace-20261122';
 const node=(tag,text,cls)=>{const el=document.createElement(tag);if(text!==undefined){if(['p','h4','li'].includes(tag))appendWiki(el,text);else el.textContent=text;}if(cls)el.className=cls;return el;};
 const link=(label,href)=>{const el=node('a',label);el.href=href;return el;};
 const eraLabel=n=>'Era '+String(n).replace('-','−');

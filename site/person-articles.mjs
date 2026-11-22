@@ -1,4 +1,4 @@
-import {appendWiki} from './wiki-links.mjs?v=profiles-1';
+import {appendWiki} from './wiki-links.mjs?v=workspace-20261122';
 const node=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;};
 const link=(text,href)=>{const e=node('a',text);e.href=href;return e;};
 export function renderBiography(parent,topic){

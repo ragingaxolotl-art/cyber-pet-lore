@@ -1,4 +1,4 @@
-import {highlightIntervals} from './records.mjs';
+import {highlightIntervals} from './records.mjs?v=workspace-20261122';
 
 // Decorate text nodes in place: existing anchors and their full hit areas survive,
 // even when a selection starts or ends in the middle of a linked name.

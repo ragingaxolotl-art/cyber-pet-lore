@@ -47,3 +47,9 @@ remains open until its implementation and required validation are complete.
 - No production reader notes or backup code were accessed for testing. Live authenticated restore across devices remains unverified.
 - Browser access was checked again: Work settings disable local browser use. Mobile 390px/200% zoom, keyboard interaction and rendered layout remain unverified.
 - Archived early-language source files retain their original hashes. They and preserved previews intentionally do not acquire the new navigation.
+
+### Integrated release checks
+
+Current main through `c56bd5d` was merged, preserving the newer translator meanings, Dance announcers and illness visual revisions. The combined build indexes 1,758 resources and 44,180 passages. All explicit local HTML page and asset links resolve. Entry scripts and schema-related imports carry a consistent release query so cached older modules cannot mix with notebook v2.
+
+Final integrated automated suite before publication: **237 tests passed, 0 failed**. Rendering, mobile network timing and live authenticated cross-device restoration remain explicitly unverified.

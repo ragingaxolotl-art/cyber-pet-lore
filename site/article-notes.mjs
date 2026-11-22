@@ -3,7 +3,7 @@ import {resolveArticleHighlights} from './article-anchors.mjs';
 import {getNotebookStore} from './notebook-store.mjs';
 import {mountComments} from './comments.mjs';
 import {attachTagSuggestions} from './tag-suggestions.mjs';
-import {STORAGE_KEY,emptyState,validateState,mergeStates} from './records.mjs';
+import {STORAGE_KEY,emptyState,validateState,mergeStates} from './records.mjs?v=workspace-20261122';
 import {paintHighlights} from './highlight-dom.mjs';
 
 export function textKey(text){let a=2166136261,b=5381;for(const c of text){a=Math.imul(a^c.codePointAt(0),16777619);b=Math.imul(b,33)^c.codePointAt(0);}return (a>>>0).toString(36)+'-'+(b>>>0).toString(36);}

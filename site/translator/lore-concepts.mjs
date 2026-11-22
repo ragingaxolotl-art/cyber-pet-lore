@@ -1,7 +1,7 @@
 import {getNotebookStore} from '../notebook-store.mjs';
-import {STORAGE_KEY,emptyState,validateState,mergeStates} from '../records.mjs';
+import {STORAGE_KEY,emptyState,validateState,mergeStates} from '../records.mjs?v=workspace-20261122';
 import {mergeConceptQueues} from '../concept-records.mjs';
-import {CloudBackup} from '../cloud-backup.mjs';
+import {CloudBackup} from '../cloud-backup.mjs?v=workspace-20261122';
 import {emptyQueue,validateQueue,INTAKE_KEY} from './concept_intake.mjs';
 
 // Keep the valid proposal in memory before attempting either persistence layer.

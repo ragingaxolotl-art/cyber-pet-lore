@@ -1,5 +1,5 @@
 import {restoreArtifact} from './workspace-artifacts.mjs';
-import {STORAGE_KEY} from './records.mjs';
+import {STORAGE_KEY} from './records.mjs?v=workspace-20261122';
 import {getNotebookStore,MIGRATION_KEY} from './notebook-store.mjs';
 import {notebookRows,filterNotebook} from './notebook-view.mjs';
 import {openNoteEditor,mountWorkspaceBar,downloadNotebook,noteButton} from './workspace-ui.mjs';

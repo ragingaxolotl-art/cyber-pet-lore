@@ -1,4 +1,4 @@
-import {validateState} from './records.mjs';
+import {validateState} from './records.mjs?v=workspace-20261122';
 export const BACKUP_URL='https://cyber-pet-classroom-settings.ragingaxolotl.chatgpt.site/lore-backups';
 export const SESSION_KEY='cyber-pet-lore.backup-session.v1';
 export class CloudBackup{

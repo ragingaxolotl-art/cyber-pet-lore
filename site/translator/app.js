@@ -7,7 +7,7 @@ import {readWordChoices,updateWordChoice} from './dictionary_word_choices.mjs?v=
 import {dictionaryClausePlan,recognizedClausePredicate} from './dictionary_clauses.mjs?v=contextual-width-2';
 import {mountDictionaryClause} from './dictionary_clause_controls.mjs?v=contextual-width-2';
 import {compactChordMidi} from './compact_chords.mjs?v=contextual-width-2';
-import {mountSongEditor} from './song_editor.mjs?v=contextual-width-2';
+import {mountSongEditor} from './song_editor.mjs?v=workspace-20261122';
 import {needsWholeReading,scoreSongText} from './song_lines.mjs?v=contextual-width-2';
 import {informationPassagePlan} from './information_passage.mjs?v=contextual-width-2';
 import {faultCorrectionPlan} from './fault_correction.mjs?v=contextual-width-2';
@@ -64,7 +64,7 @@ import {helpCareReading,parseSentenceDisjunction,composeSentenceDisjunction,clau
 import{svgFromFormal,midiFromFormal,createBundle,verifyBundle,soundPlanFromFormal}from'./engine.mjs?v=contextual-width-2';
 import{analyzeEnglish}from'./english.mjs?v=contextual-width-2';
 const safePreference={getItem(key){try{return localStorage.getItem(key)}catch{return null}},setItem(key,value){try{localStorage.setItem(key,value)}catch{}}};
-import {attachLoreSaves} from './lore-concepts.mjs';
+import {attachLoreSaves} from './lore-concepts.mjs?v=workspace-20261122';
 import{encodeName,estimatePhonemes,notesForName,midiFromName,PHONEMES}from'./names.mjs?v=1.15.0';
 import{visemePlanFromFormal,visemeFrameAt,visemeFileFromFormal,EYE_EXPRESSIONS}from'./visemes.mjs?v=contextual-width-2';
 import{recognitionForTarget}from'./recognition.mjs?v=1.15.0';

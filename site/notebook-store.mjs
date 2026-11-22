@@ -1,7 +1,7 @@
-import {STORAGE_KEY,emptyState,validateState,mergeStates} from './records.mjs';
+import {STORAGE_KEY,emptyState,validateState,mergeStates} from './records.mjs?v=workspace-20261122';
 import {blankReading,editReading,editCell,projectReading,readingCells} from './note-revisions.mjs';
 import {editWorkspace,mergeWorkspaces} from './workspace-records.mjs';
-import {CloudBackup,SESSION_KEY} from './cloud-backup.mjs';
+import {CloudBackup,SESSION_KEY} from './cloud-backup.mjs?v=workspace-20261122';
 export const MIGRATION_KEY=STORAGE_KEY+'.before-workspace-v2';
 const copy=value=>structuredClone(value);
 export class NotebookStore{
