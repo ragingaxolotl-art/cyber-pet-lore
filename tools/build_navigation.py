@@ -47,7 +47,14 @@ def build():
         if 'chronology.css' not in changed:changed=changed.replace('</head>',f'<link rel="stylesheet" href="{prefix}chronology.css"></head>',1)
         if 'navigation.mjs' not in changed:changed=changed.replace('</body>',f'<script type="module" src="{prefix}navigation.mjs"></script></body>',1)
         if 'workspace-shell.mjs' not in changed:changed=changed.replace('</body>',f'<script type="module" src="{prefix}workspace-shell.mjs"></script></body>',1)
-        changed=re.sub(r'(src="(?!https?:)[^"?]+\.(?:mjs|js))(?:\?[^"]*)?"',r'\1?v=workspace-20261122"',changed)
+        def cache_script(match):
+            source=match[1][len('src="'):]
+            # The vendored translator publishes its own release tags. Replacing
+            # those with the older workspace tag can load stale translator code.
+            if relative.parts[0]=='translator' and not source.startswith('../') and match[2]:
+                return match[0]
+            return match[1]+'?v=workspace-20261122"'
+        changed=re.sub(r'(src="(?!https?:)[^"?]+\.(?:mjs|js))(\?[^"]*)?"',cache_script,changed)
         if changed!=path.read_text():path.write_text(changed)
         count+=1
     print(f'Shared dropdown navigation: {count} pages')
