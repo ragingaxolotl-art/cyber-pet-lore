@@ -1,6 +1,6 @@
 # DBA translator in Lore
 
-Vendored browser release from https://github.com/ragingaxolotl-art/era-zero-translator at `62a0be56408896439c01a4f806b448345cc17778`.
+Vendored browser release from https://github.com/ragingaxolotl-art/era-zero-translator at `69634291b4737ebdd1bd6c587d1000f2cdbe6ff5`.
 The dictionary, story composer and music decoder match the upstream release. Lore integration adds navigation and shared proposal persistence in app.js, index.html, styles.css, and lore-concepts.mjs. Preserve these integration changes when updating the upstream release. No personal proposals or saves are included.
 
 November 22: preserves future/ability/negation scopes, independently decodes the approved love reading, distinguishes composed from verified score meanings, and repairs the small-screen definition flow. Canonical vocabulary and music profiles are unchanged. Broader English coverage and general recorded-audio recovery remain unfinished.
@@ -18,3 +18,5 @@ November 22 physical holding: hold/holds/held/holding reuse the exact physical h
 November 22 physical width: wide/narrow extend the existing contextual physical-adjective profile. Earlier eight norms and their sounds are preserved. Ten selected physical adjective senses now have dictionary discovery routes and readable explanations. Width requires an explicit physical choice; quantitative, figurative and noun-modifier readings remain separate.
 
 November 22 partial word flow: incomplete word sounds are an opt-in disclosure, missing-word help stays visible, and restrictive only is not a phonemic noun. Explicit quoted names remain names. Both Lore asset tags are refreshed for this release.
+
+November 22 adjective groups: the existing music now independently recovers two through eight contextual physical descriptions joined by sequence, and, either form of or, or a condition. Each member retains its own bearer, dimension, standard, runtime and scopes. Results show the interpreted sentence with longer meaning details collapsed. Existing sounds remain unchanged; nested/mixed-predicate groups and general microphone decoding remain unfinished. The shared navigation builder preserves translator release cache tags alongside Lore's mobile navigation and backup integration.
