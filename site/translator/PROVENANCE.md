@@ -1,6 +1,6 @@
 # DBA translator in Lore
 
-Vendored browser release from https://github.com/ragingaxolotl-art/era-zero-translator at `d7b7a5fbc8de002ebdf92e58ced54d984aacb8fa`.
+Vendored browser release from https://github.com/ragingaxolotl-art/era-zero-translator at `13a84f3c1e0e2d70736e8d9ba6fab5db3b198157`.
 The dictionary, story composer and music decoder match the upstream release. Lore integration adds navigation and shared proposal persistence in app.js, index.html, styles.css, and lore-concepts.mjs. Preserve these integration changes when updating the upstream release. No personal proposals or saves are included.
 
 November 22: preserves future/ability/negation scopes, independently decodes the approved love reading, distinguishes composed from verified score meanings, and repairs the small-screen definition flow. Canonical vocabulary and music profiles are unchanged. Broader English coverage and general recorded-audio recovery remain unfinished.
@@ -12,3 +12,5 @@ November 22 information-operation update: the existing erasure structure now wor
 November 22 copy and retrieval update: adds two explicitly reviewed compounds for a distinct stored information copy and mental retrieval of a latent target representation. Earlier roots and compounds are preserved. Ambiguous senses ask for clarification. Commands use the complete object parser, including names and pronouns.
 
 November 22 sentence diagnostics: existing verb/adjective meanings no longer become unrelated-word pickers when the sentence structure is unsupported. Missing words retain the builder, explicit personal meanings remain usable, and unsupported sentences have a readable explanation. Musical definitions and formats are unchanged.
+
+November 22 physical holding: hold/holds/held/holding reuse the exact physical holding foundation already nested in release and drop, including code 76. No new compound or sound is introduced. Figurative/ambiguous objects retain a meaning choice.
