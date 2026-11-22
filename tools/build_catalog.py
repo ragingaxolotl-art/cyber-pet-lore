@@ -212,3 +212,11 @@ runpy.run_path(str(ROOT/"tools/build_shelter_atlas.py"))
 
 # Compile reviewed dialogue with the same translator used by the reading site.
 subprocess.run(['node', str(ROOT/'tools/build_story_dialogue.mjs')], check=True)
+
+from build_search import build as build_search
+build_search()
+from build_navigation import build as build_navigation
+build_navigation()
+
+from build_publication import build as build_publication
+build_publication()

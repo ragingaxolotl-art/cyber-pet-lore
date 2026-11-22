@@ -52,5 +52,5 @@ arrangement.addEventListener('change',()=>{
 choice.addEventListener('change',()=>{history.replaceState(null,'','#song='+songs[Number(choice.value)].folder);loadSong();});
 mode.addEventListener('change',()=>loadAudio(player.currentTime,!player.paused));
 player.addEventListener('timeupdate',updateMeanings);player.addEventListener('seeked',updateMeanings);player.addEventListener('error',()=>{$('status').textContent='Audio could not load. Try reloading, or use a download link.';});
-function selectFromHash(){const id=new URLSearchParams(location.hash.slice(1)).get('song');const index=songs.findIndex(s=>s.folder===id);choice.value=String(index<0?0:index);loadSong();}
+function selectFromHash(){const id=new URLSearchParams(location.hash.slice(1)).get('song');const index=songs.findIndex(s=>s.folder===id),params=new URLSearchParams(location.search),requestedIndex=Number(params.get('song'));choice.value=String(index>=0?index:params.has('song')&&Number.isInteger(requestedIndex)&&requestedIndex>=0&&requestedIndex<songs.length?requestedIndex:0);loadSong();const voice=params.get('voice');if(voice&&[...mode.options].some(o=>o.value===voice)){mode.value=voice;loadAudio(Math.max(0,Number(params.get('time'))||0));}}
 window.addEventListener('hashchange',selectFromHash);selectFromHash();

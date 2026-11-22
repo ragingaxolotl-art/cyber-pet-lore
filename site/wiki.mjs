@@ -1,13 +1,13 @@
 import {mountAudioConnections} from './audio-connections.mjs';
 import {stopAudio} from './audio-playback.mjs';
 import {renderConnectedTerms} from './wiki-related.mjs';
-import {renderBiography} from './person-articles.mjs';
+import {renderBiography} from './person-articles.mjs?v=workspace-20261122';
 import {renderLocationIllnesses} from './location-illnesses.mjs';
-import {mountArticleNotes} from './article-notes.mjs';
+import {mountArticleNotes} from './article-notes.mjs?v=workspace-20261122';
 import {renderProfile,renderLifeTimeline,renderContinuityNotes} from './profiles.mjs';
 import {renderLocationArt} from './location-art.mjs';
 import {renderProfileMedia} from './profile-media.mjs';
-import {loadWiki,appendWiki} from './wiki-links.mjs?v=profiles-1';
+import {loadWiki,appendWiki} from './wiki-links.mjs?v=workspace-20261122';
 const node=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;};
 const link=(text,href)=>{const a=node('a',text);a.href=href;return a;};
 let data, renderedTopic;

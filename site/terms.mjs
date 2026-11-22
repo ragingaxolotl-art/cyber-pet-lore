@@ -1,5 +1,5 @@
-import {mountArticleNotes} from './article-notes.mjs';
-import {loadWiki} from './wiki-links.mjs?v=terms-1';
+import {mountArticleNotes} from './article-notes.mjs?v=workspace-20261122';
+import {loadWiki} from './wiki-links.mjs?v=workspace-20261122';
 const el=(tag,text)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;return n;};
 const anchor=(text,href)=>{const n=el('a',text);n.href=href;return n;};
 const $=id=>document.getElementById(id);let data,topics,page=0;const pageSize=40;

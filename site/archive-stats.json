@@ -1,0 +1,18 @@
+{
+  "readings": 832,
+  "topics": 675,
+  "passages": 44288,
+  "collections": {
+    "Draft": 28,
+    "Illnesses": 47,
+    "Language": 119,
+    "Locations": 206,
+    "People": 100,
+    "Reference": 72,
+    "Remedies": 34,
+    "Ribbons": 189,
+    "Song": 4,
+    "Story": 15,
+    "Timeline": 18
+  }
+}

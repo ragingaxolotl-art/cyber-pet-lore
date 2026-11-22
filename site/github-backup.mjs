@@ -1,4 +1,4 @@
-import {validateState} from './records.mjs';
+import {validateState} from './records.mjs?v=workspace-20261122';
 export const REPOSITORY='ragingaxolotl-art/cyber-pet-lore-backup';
 const BASE='https://api.github.com/repos/'+REPOSITORY;
 export function encodeBackup(state){const bytes=new TextEncoder().encode(JSON.stringify(validateState(state)));if(bytes.length>900000)throw Error('Backup exceeds 900 KB. Download a reading backup instead.');let text='';for(const byte of bytes)text+=String.fromCharCode(byte);return btoa(text);}

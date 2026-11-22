@@ -64,7 +64,7 @@ import {helpCareReading,parseSentenceDisjunction,composeSentenceDisjunction,clau
 import{svgFromFormal,midiFromFormal,createBundle,verifyBundle,soundPlanFromFormal}from'./engine.mjs?v=partial-word-flow-1';
 import{analyzeEnglish}from'./english.mjs?v=partial-word-flow-2';
 const safePreference={getItem(key){try{return localStorage.getItem(key)}catch{return null}},setItem(key,value){try{localStorage.setItem(key,value)}catch{}}};
-import {attachLoreSaves} from './lore-concepts.mjs';
+import {attachLoreSaves} from './lore-concepts.mjs?v=workspace-20261122';
 import{encodeName,estimatePhonemes,notesForName,midiFromName,PHONEMES}from'./names.mjs?v=1.15.0';
 import{visemePlanFromFormal,visemeFrameAt,visemeFileFromFormal,EYE_EXPRESSIONS}from'./visemes.mjs?v=partial-word-flow-1';
 import{recognitionForTarget}from'./recognition.mjs?v=1.15.0';

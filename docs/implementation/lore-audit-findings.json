@@ -1,0 +1,267 @@
+[
+  {
+    "id": "F01",
+    "priority": "High",
+    "title": "Search makes existing material look absent",
+    "evidence": "The main library starts with kind=Story and searches title, summary, status, eras, people, places and topics. It never searches reading blocks. Reproduction: “haven” finds 0 default Story results and 19 all-collection metadata results; the full title “The Answer That Arrived Sideways” finds 0 and 1 respectively. “The question grew another edge” appears in the prose but returns 0 even across all metadata. “Vell” and “sound library” also return 0.",
+    "impact": "Readers must know the archive’s filing system before they can find content. A proposed story is easy to mistake for an unpublished story.",
+    "recommendation": "Make the primary search global across readings, passage text, named entities, tools, sound titles and the user’s own notes. Show grouped results with snippets and explicit status badges. Keep a visible “Search within this collection” option. Preserve Story/Draft distinctions without hiding proposed stories by default.",
+    "acceptance": "All five Haven titles are found from a fresh visit; an exact prose phrase opens its paragraph; Vell finds the marginalia; Sound library opens the tool. Search results distinguish drafts, interpretations and approved material.",
+    "files": [
+      "site/app.js:17",
+      "site/app.js:58",
+      "site/terms.mjs:6",
+      "site/wiki.mjs:12"
+    ]
+  },
+  {
+    "id": "F02",
+    "priority": "High",
+    "title": "Shared notes exist, but coverage is uneven",
+    "evidence": "The reader and article-notes module share cyber-pet-lore.reading.v1. Connections, Terms, the timeline and illness directory mount article notes. Atlas, sound cards, song player, standalone Haven chapters, plans and several reference pages do not mount that same note component. Public/private feedback forms on many of these pages use a different service.",
+    "impact": "A reader can annotate a story but not an exact Haven stage or sound moment. A comment box can look like a replacement for their private notebook even though it serves another purpose.",
+    "recommendation": "Use one notebook component on all primary surfaces. Add typed targets for passages, entities, map snapshots, audio time ranges and tool artifacts. Keep discussion/feedback explicitly separate. Reuse existing records and stable IDs; avoid silently creating a second annotation for the same story passage.",
+    "acceptance": "A note written from a Haven chapter appears on the same passage in the library; map notes retain node and stage; audio notes retain clip and time; every note appears in My notebook and in an exported backup.",
+    "files": [
+      "site/article-notes.mjs:1",
+      "site/wiki.mjs:39",
+      "site/terms.mjs:9",
+      "site/timeline.mjs:27",
+      "site/shelter-atlas.mjs:85",
+      "site/sounds/sounds.mjs:1",
+      "site/comments-auto.mjs:1"
+    ]
+  },
+  {
+    "id": "F03",
+    "priority": "High",
+    "title": "Conflicting reading snapshots can discard an independent edit",
+    "evidence": "mergeStates selects the newer whole reading record by updatedAt. An executable reproduction merges a snapshot containing a new note with a later snapshot containing only a changed reading position: the resulting note is empty. This demonstrates merge semantics; it is not evidence that a particular user has lost data.",
+    "impact": "As more tools share the notebook, independent edits from multiple tabs or devices can overwrite one another even when they concern different fields.",
+    "recommendation": "Move to per-note and per-field revision metadata, explicit deletion tombstones, and preserved conflict copies. Separate reading-position updates from authored notes. Retain a recoverable pre-migration backup and support old exports.",
+    "acceptance": "Two devices add different highlights to one reading and both survive; note versus scroll updates both survive; simultaneous edits to one note retain both versions for review; deleting a note does not resurrect it during a later sync.",
+    "files": [
+      "site/records.mjs:32",
+      "site/app.js:239"
+    ]
+  },
+  {
+    "id": "F04",
+    "priority": "High",
+    "title": "Article notes share browser storage but do not initiate cloud backup",
+    "evidence": "article-notes.mjs persists to localStorage and offers a JSON download, but does not import CloudBackup or enqueue a cloud save. The reader’s storage event handler merges browser changes without invoking its cloud queue. Article edits therefore join a later main-reader save/export, but do not themselves guarantee an online save.",
+    "impact": "The user can leave Connections or Terms after seeing “Saved in this browser” and assume the same backup behavior as the main reader. A common notebook requires a common persistence lifecycle, not just a common key.",
+    "recommendation": "Centralize local persistence, revision merges, retry state and cloud scheduling behind a shared notebook store. Display separate “Saved on this device”, “Waiting to sync” and “Backed up” states in each surface, with a real timestamp.",
+    "acceptance": "While unlocked, create a note on Connections and close only after a confirmed online save; restore it on a separate test client. Cover offline recovery, session expiry and a failed write without making a false success claim.",
+    "files": [
+      "site/article-notes.mjs:14",
+      "site/app.js:238",
+      "site/app.js:247",
+      "site/cloud-backup.mjs:1"
+    ]
+  },
+  {
+    "id": "F05",
+    "priority": "High",
+    "title": "Useful annotation targets are rejected by the current schema",
+    "evidence": "safeArticleHref accepts wiki.html, terms.html, timeline.html and illnesses/index.html. Direct tests reject shelter-atlas.html, sounds/index.html, songs/index.html and ribbons/studio/index.html. The validator only persists reading-shaped records and an optional conceptQueue.",
+    "impact": "Simply attaching the current widget to another page would not produce a valid portable backup with a working return link.",
+    "recommendation": "Introduce an explicit target registry and versioned schema before extending the UI. Keep validated routes and allowlisted origins. Map old reading IDs directly; assign stable IDs to new media and tool resources. Update both browser and server validation before claiming backup support.",
+    "acceptance": "Every supported target round-trips through validation, local export/import and server backup; invalid destinations are rejected; old v1 reading exports retain all quotes, notes, tags and clip numbers.",
+    "files": [
+      "site/records.mjs:3",
+      "site/records.mjs:7",
+      "site/cloud-backup.mjs:1"
+    ]
+  },
+  {
+    "id": "F06",
+    "priority": "High",
+    "title": "The notebook is a long list with little retrieval support",
+    "evidence": "renderNotebook sorts highlights by createdAt and offers a Clips-only checkbox. It does not offer text search, date range, era/type filters, pinned notes or unresolved-question status. Whole-reading notes are placed under an additional disclosure.",
+    "impact": "A growing collection becomes difficult to use as a writing/research notebook even when the underlying notes are saved correctly.",
+    "recommendation": "Add notebook search over quotations and notes, tags, target type, era, story/Haven and updated date; offer saved collections and pinned questions. Keep whole-page notes directly discoverable. Allow “Related notes” beside the currently selected entity.",
+    "acceptance": "Find a note by words in its comment, not just its quoted passage; filter one Haven across stories/map stages; show all untagged notes; reopening a note returns to the exact target and visibly explains an outdated anchor.",
+    "files": [
+      "site/app.js:193",
+      "site/index.html"
+    ]
+  },
+  {
+    "id": "F07",
+    "priority": "High",
+    "title": "Navigation changes between major sections",
+    "evidence": "A complete static inventory found 267 HTML files; 162 have the shared navigation markup. The other 105 include archival variants and major destinations such as Haven stories, songs, the translator, ribbons, chronology and development articles. Absence of this markup is not proof a page has no links, but their navigation models differ.",
+    "impact": "Readers feel they have left the lore book and may not know whether notes or saved work follow them.",
+    "recommendation": "Adopt one shell for primary destinations with Search, Library, World, Create and My notebook; add breadcrumbs and a clear return to the originating passage. Keep archival variants visibly labeled. A full single-page rewrite is unnecessary: a shared multi-page shell can deliver the same continuity.",
+    "acceptance": "Each primary destination exposes Search, My notebook, save state and a return path. Mobile and keyboard users can reach these without opening a tool-specific menu.",
+    "files": [
+      "tools/build_navigation.py:1",
+      "site/haven-stories/index.html",
+      "site/songs/index.html",
+      "site/translator/index.html",
+      "site/chronology.html"
+    ]
+  },
+  {
+    "id": "F08",
+    "priority": "Medium",
+    "title": "Recently added is an incomplete manual feed",
+    "evidence": "creation-log.json has seven entries, ending November 9. The audited main commit adds the sound library on November 20. Personal log entries live in cyber-pet-creation-log-v1, outside the reading backup.",
+    "impact": "The feature intended to reveal new work no longer reliably answers what is new; personal creation records need a separate export.",
+    "recommendation": "Maintain an editorial release manifest as part of each publish, with created/updated dates, sequence, content IDs and a short user-facing description. Separate creation order from fictional chronology. Include personal log records in the unified notebook export or clearly expose them as a separate export category.",
+    "acceptance": "A published addition cannot omit its release entry without a build warning; Newest shows sound-library work; edits do not masquerade as newly created stories; personal log records survive notebook migration.",
+    "files": [
+      "site/creation-log.json",
+      "site/creation-log.mjs:1",
+      ".github/workflows/pages.yml"
+    ]
+  },
+  {
+    "id": "F09",
+    "priority": "High",
+    "title": "Mobile reading removes chapter navigation",
+    "evidence": "style.css hides .reader-outline below 1150px and provides no replacement chapter picker in the main reader markup. Below 760px the note column moves after the long story and #reader-save is hidden. Several secondary controls use 9–12px text. These are code observations, not rendered device measurements.",
+    "impact": "A phone reader can lose their chapter-navigation aid and may have to traverse an entire story to reach margin notes or assess save state.",
+    "recommendation": "Replace the hidden outline with a compact chapter/section picker; provide a persistent Notes button and accessible save-state indicator; review small controls at 200% zoom and narrow widths. Keep annotations collapsible without losing the reading position.",
+    "acceptance": "On a 390px-wide viewport and at 200% zoom, reach any chapter and its notes without scrolling through the whole story; no horizontal overflow; complete highlight/edit/return with touch and keyboard. Verify actual rendered controls before declaring this fixed.",
+    "files": [
+      "site/style.css:3",
+      "site/style.css:4",
+      "site/index.html"
+    ]
+  },
+  {
+    "id": "F10",
+    "priority": "Medium",
+    "title": "Initial reading waits on the full Connections payload",
+    "evidence": "init awaits loadWiki before fetching catalog.json. The uncompressed repository payloads are 4,534,123 bytes for wiki.json and 1,379,188 bytes for catalog.json. The atlas JSON is 6,954,568 bytes. These are raw sizes, not compressed transfer sizes or measured load times.",
+    "impact": "A reader cannot start browsing until a large secondary knowledge index has been fetched and parsed. The atlas also loads all reconstruction data before showing its view.",
+    "recommendation": "Load the lightweight catalog first and enrich links after the reader opens. Split a small alias/search index from article bodies; load article data and map detail by need. Cache immutable hashed resources and invalidate them by build version.",
+    "acceptance": "With Connections delayed or unavailable, the library and story still open. Measure cold and warm mobile loads under a documented network profile; confirm smaller transferred/parsed initial data without losing deep links.",
+    "files": [
+      "site/app.js:240",
+      "site/wiki-links.mjs:2",
+      "site/shelter-atlas.mjs:154"
+    ]
+  },
+  {
+    "id": "F11",
+    "priority": "Medium",
+    "title": "Article highlights are tied to the full paragraph wording",
+    "evidence": "article-notes generates block IDs from the tag name and all paragraph text. A one-word edit changes textKey, so existing highlights will no longer paint on that paragraph. Stored quotes remain in the notebook. Story paragraphs already use more stable source IDs and quote checks.",
+    "impact": "Correcting an authored article can leave a saved annotation detached, even if its quoted words still exist.",
+    "recommendation": "Give authored article fields stable IDs and revisions. Preserve exact-quote checks; offer an explicitly reviewed reattachment or an “Older version” view when text moves. Do not silently guess a new anchor.",
+    "acceptance": "Editing unrelated wording outside a selected quote preserves or explicitly reconciles that highlight; removed quotations remain readable with an outdated-target label and original revision.",
+    "files": [
+      "site/article-notes.mjs:6",
+      "site/article-notes.mjs:69",
+      "site/highlight-dom.mjs",
+      "site/records.mjs"
+    ]
+  },
+  {
+    "id": "F12",
+    "priority": "Medium",
+    "title": "Filter state and return paths are only partly linkable",
+    "evidence": "The main hash router supports readings, notebook, place and character routes. Search text, collection, era, sort and pagination live in controls/memory rather than a complete URL state. The library Reset action clears several filters but does not reset kind or sort.",
+    "impact": "Sharing or reloading a useful search does not reliably reproduce it. Reset may still leave the user within the collection that caused the empty result.",
+    "recommendation": "Serialize search and filters into the URL, preserve the preceding results when returning from a reading, and make reset behavior explicit: “Clear filters” versus “Search all lore”.",
+    "acceptance": "Copy a filtered search URL into a fresh session and obtain the same result set; browser Back restores query, sort and page; a no-results message can expand to all lore in one step.",
+    "files": [
+      "site/app.js:216",
+      "site/app.js:232",
+      "site/app.js:233"
+    ]
+  },
+  {
+    "id": "F13",
+    "priority": "Medium",
+    "title": "Story presentation and reader views still create two destinations",
+    "evidence": "Haven collection “Read and annotate” links open the reader, but story-title links and chapter presentation links open standalone pages. Those pages expose discussion forms rather than the same highlight UI. Similar dual presentation exists for Custodian chapters. Existing source editions and their notes are intentionally separate.",
+    "impact": "A reader can reach the same prose through a path where their private highlights are invisible, repeating the confusion already reported in this conversation.",
+    "recommendation": "Make the reader the default destination for titles and chapter links. Preserve standalone pages as presentation/export views, with prominent annotation links to exact chapter anchors. If inline annotations are added there, map to the same canonical reading and block IDs; never merge distinct manuscript editions automatically.",
+    "acceptance": "A mark made on a chapter is visible when opening the same edition in the main reader; chapter-title links open the corresponding chapter; earlier drafts retain their original annotations and labels.",
+    "files": [
+      "tools/build_haven_stories.py",
+      "site/haven-stories/index.html",
+      "site/custodian/index.html"
+    ]
+  },
+  {
+    "id": "F14",
+    "priority": "Medium",
+    "title": "Atlas views cannot yet be saved as notebook evidence",
+    "evidence": "The atlas persists selected node and stage in its URL and exposes dossiers. It uses a separate tiny-system preference. There is no note target or saved comparison for the displayed snapshot. SVG dots use pointer interaction; named dropdown and child buttons provide an alternative hierarchy.",
+    "impact": "A writer cannot attach “this prolonged fragmentation might matter” to the exact Haven and stage or collect comparisons inside the notebook.",
+    "recommendation": "Add “Note this Haven at this stage”, “Compare stages” and a searchable name/code list. Save node ID, stage and data revision as structured context; show a compact snapshot description. Retain the galaxy view and the existing hierarchy buttons rather than making every tiny dot a tab stop.",
+    "acceptance": "A note restores the selected node and stage, not merely the map homepage; unnamed systems can be found by three-character code; a keyboard-only user can reach a system and its dossier; compare two stages without losing either selection.",
+    "files": [
+      "site/shelter-atlas.mjs:24",
+      "site/shelter-atlas.mjs:85",
+      "site/shelter-atlas.mjs:117",
+      "site/shelter-atlas.css:1"
+    ]
+  },
+  {
+    "id": "F15",
+    "priority": "Medium",
+    "title": "Tool saves are not one portable workspace",
+    "evidence": "Translator concept proposals already enter Lore’s conceptQueue and can use cloud backup. Song lines use era-zero-song-v2:*; word choices use era-zero-sentence-word-choices-v1; ribbon drafts use cyberpath.ribbon-studio.v1. The main reading validator does not export those separate stores. Local compound definitions also have their own storage workflow.",
+    "impact": "“Save” has different meanings depending on the tool. Sharing a notebook will not automatically back up compositions or ribbon designs.",
+    "recommendation": "Distinguish notes from editable artifacts, but expose both through one workspace and backup manifest. Register tool artifact types, versions and export adapters. Store a note’s reference to a design/sound rather than embedding unbounded binary media in every note.",
+    "acceptance": "Export/import a workspace with notes, a translation proposal, song lines and a ribbon recipe; all restore in their correct tools. State clearly which audio/media are links versus included files and what happens if an asset is unavailable.",
+    "files": [
+      "site/translator/lore-concepts.mjs",
+      "site/translator/song_storage.mjs",
+      "site/translator/dictionary_word_choices.mjs",
+      "site/ribbons/studio/studio.mjs:12",
+      "site/records.mjs"
+    ]
+  },
+  {
+    "id": "F16",
+    "priority": "Medium",
+    "title": "Backup scale and visibility need an explicit design",
+    "evidence": "The cloud client refuses payloads over 900,000 bytes; browser import accepts up to 15 MB. Main reader writes serialize the whole state, including on notes/position changes. README and the UI describe an online notebook accessible to anyone holding the shared code, not individual user accounts.",
+    "impact": "Adding media and more tools may outgrow a backup that still works for small reading notes. The phrase “private” alone does not explain who can access the shared online notebook.",
+    "recommendation": "Show storage usage and local/online coverage; keep large media in an asset store and export manifest; debounce writes without losing pending edits. Describe the shared-code access model clearly. Separate author workspace notes, visitor-local notes and moderated public feedback; do not silently sync one category into another.",
+    "acceptance": "Near-limit backups show a useful preflight warning and still export locally; large artifacts remain recoverable; every save indicator identifies local versus online state; no private-note content appears in public comments or search indexes.",
+    "files": [
+      "site/cloud-backup.mjs:8",
+      "site/app.js:26",
+      "site/app.js:239",
+      "site/index.html",
+      "README.md"
+    ]
+  },
+  {
+    "id": "F17",
+    "priority": "Medium",
+    "title": "Navigation labels assume prior knowledge of the archive",
+    "evidence": "Primary labels include Connections, Timeline, Era · period · stage, The Catalistym, Shelter atlas, Terms & unexplained lore and Plans & possibilities. Several offer overlapping routes into the same history, but new visitors receive no task-oriented starting path.",
+    "impact": "A returning author may navigate by project terms; a new reader is more likely to ask for a story, an explanation, a character or a map.",
+    "recommendation": "Offer four entry choices: Read a story, Understand the world, Explore the map, Continue my work. Group related views under a topic hub, with plain descriptions. Give each reading a compact “Where this fits” card that links era, place, related people and status without crowding the opening.",
+    "acceptance": "A newcomer can locate a Haven story and its map without knowing “Catalistym”; a returning writer resumes the last passage and sees recent additions; topic hubs differentiate canon, proposed history, fiction and interpretation.",
+    "files": [
+      "site/index.html",
+      "tools/build_navigation.py",
+      "site/catalistym.html"
+    ]
+  },
+  {
+    "id": "F18",
+    "priority": "Low",
+    "title": "Documentation and generated artifacts need maintenance checks",
+    "evidence": "README’s opening census still says 485 readings and 14 primary stories; the current catalog has 819 readings and 15 Story entries. The untouched checkout passed 184/185 tests: six generated dialogue MIDI values differed. Running the documented build produced 185/185 passing tests, and the live dialogue JSON equals the rebuilt output. The live songs page also differs from the checked-in page through generated song data.",
+    "impact": "Contributors may confuse stale repository output with a live defect or use outdated coverage figures when planning changes.",
+    "recommendation": "Generate public collection counts from catalog data and document build-first verification. Check deterministic generated output in CI or clearly treat it as a deployment artifact. Keep audit evidence tied to the source commit and deployed files.",
+    "acceptance": "A fresh documented build/test succeeds; generated changes are explainable; collection counts in user-facing documentation match the catalog; CI distinguishes stale outputs from functional failures.",
+    "files": [
+      "README.md",
+      ".github/workflows/pages.yml",
+      "tests/story-dialogue.test.mjs",
+      "tools/build_catalog.py:211"
+    ]
+  }
+]
