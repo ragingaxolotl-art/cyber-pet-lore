@@ -1,0 +1,56 @@
+[
+  {
+    "id": "trademark_050",
+    "number": 29,
+    "name": "Season-Turn Churn",
+    "frames": 240,
+    "caption": "Body seasons arrive in the wrong order",
+    "visual": "Seasons pass through the actual body in the wrong order: sprouts grow from the skin, frost spreads over them, autumn leaves dry and tumble away, and summer husks shed grains. Each transition fades smoothly before the next begins.",
+    "stages": "Mild / moderate / severe: the full seasonal cycle lasts 16 / 12 / 10 seconds. Coverage spreads across more of the body, with 3 / 4 / 5 attached stems."
+  },
+  {
+    "id": "trademark_055",
+    "number": 31,
+    "name": "Stepwell Slip",
+    "frames": 120,
+    "caption": "A sliding foot tilts PIP, then PIP recovers",
+    "visual": "One foot visibly slides across a wet tread while the actual body tilts and squashes, holds its lost footing, then catches itself. A short spray of droplets follows the slipping foot. Facing reverses the entire movement; actual game position and action stay unchanged.",
+    "stages": "Mild / moderate / severe: slips repeat every 8 / 6 / 4 seconds, with 8% / 14% / 20% body squash and progressively stronger lean and foot displacement."
+  },
+  {
+    "id": "trademark_064",
+    "number": 37,
+    "name": "Deferred Reflection",
+    "frames": 200,
+    "caption": "A clear reflection holds, then catches up",
+    "visual": "A large, clear reflection beneath the pet holds a real earlier pose while the living pet continues moving. It then catches up through the recorded frames in 0.7 seconds. The reflection uses the character’s actual artwork and facing; it never invents a substitute pose.",
+    "stages": "Mild / moderate / severe: the reflection holds for 1.25 / 2 / 3 seconds in a 4 / 5 / 6 second cycle, and becomes larger and more opaque. Reduced motion shows the current reflected pose."
+  },
+  {
+    "id": "trademark_065",
+    "number": 38,
+    "name": "Stormstatic Fever",
+    "frames": 80,
+    "caption": "Charge travels through PIP and sparks out",
+    "visual": "Bold electrical veins run from the torso toward the antenna and limbs. A bright charge travels along them, gathers at their ends, then releases branching sparks with a small local twitch. The pet stays visible throughout.",
+    "stages": "Mild / moderate / severe: 1 / 2 / 3 body paths carry charge, with discharges every 6 / 4 / 3 seconds."
+  },
+  {
+    "id": "trademark_066",
+    "number": 39,
+    "name": "Worldscar Abrasion",
+    "frames": 240,
+    "caption": "Ragged terrain patches scrape and shed",
+    "visual": "Irregular patches of sand, moss and stone appear embedded in the actual body. Their ragged rims scrape and shed tiny rotating grains while a moving boundary exposes a different terrain layer underneath. The patches remain clipped to the character silhouette.",
+    "stages": "Mild / moderate / severe: 2 / 3 / 4 larger terrain patches spread across the body. Their layers change in a continuous 12-second cycle; grains shed at staggered intervals."
+  },
+  {
+    "id": "trademark_096",
+    "number": 44,
+    "name": "Season Mismatch",
+    "frames": 120,
+    "caption": "One side freezes while the other wilts",
+    "visual": "Conflicting weather affects different body regions at the same time: branching frost covers one side while the other warms, droops and sheds dry leaves. Translucent steam curls rise along their shared boundary. The cold and hot sides follow the character’s facing.",
+    "stages": "Higher severity spreads the conflicting weather over more of the body, deepens the warm-side wilt, and adds more frost marks and steam curls. The shared cycle lasts six seconds."
+  }
+]
