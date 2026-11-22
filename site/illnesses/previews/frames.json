@@ -587,14 +587,14 @@
     "sample_seconds": 0.25,
     "preview_seconds": 26,
     "loops": false,
-    "sheet": "previews/review-2026-11-22-followup/trademark_064.png",
+    "sheet": "previews/2026-11-22-reflection-swap/trademark_064.png",
     "animation": {
-      "path": "previews/review-2026-11-22-followup/trademark_064.gif",
+      "path": "previews/2026-11-22-reflection-swap/trademark_064.gif",
       "frames": 200,
       "sample_seconds": 0.05,
       "loops": true
     },
-    "sha256": "ca453fbdd7f4d4a920bb63445a418697b9abf50eef84ecf5809a2a3790b46efd",
+    "sha256": "0479fb11a1cf94e8da5fb692ef84410c0262a92c7b7ef7ea4d561c97e561152f",
     "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "trademark_065": {
