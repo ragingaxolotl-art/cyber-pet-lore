@@ -20,8 +20,8 @@ export function validateWorkspace(w){
  return result;
 }
 export function mergeWorkspaces(a,b){a=validateWorkspace(a);b=validateWorkspace(b);for(const collection of ['notes','artifacts'])for(const [id,cell] of Object.entries(b[collection]))a[collection][id]=a[collection][id]?mergeCells(a[collection][id],cell):cell;return a;}
-export function editWorkspace(w,collection,id,value,at=Date.now()){
+export function editWorkspace(w,collection,id,value,at=Date.now(),writer){
  if(!['notes','artifacts'].includes(collection))throw Error('Unknown workspace collection');
- const result=validateWorkspace(w||emptyWorkspace());value=(collection==='notes'?validateWorkspaceNote:validateArtifact)(value);result[collection][id]=editCell(result[collection][id]||seedCell(null),value,at);return validateWorkspace(result);
+ const result=validateWorkspace(w||emptyWorkspace());value=(collection==='notes'?validateWorkspaceNote:validateArtifact)(value);result[collection][id]=editCell(result[collection][id]||seedCell(null),value,at,writer);return validateWorkspace(result);
 }
 export function workspaceItems(workspace,collection='notes'){return Object.entries(workspace?.[collection]||{}).map(([id,cell])=>({id,cell,value:cellValue(cell)})).filter(x=>x.value!==null);}

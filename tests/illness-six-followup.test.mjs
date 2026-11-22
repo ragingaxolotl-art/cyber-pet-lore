@@ -9,12 +9,12 @@ const before=read('illnesses/history/2026-11-22-followup-before/directory.json')
 const manifest=read('illnesses/review-2026-11-22-followup.json');
 const collection=read('content/reference-illnesses.json');
 test('six follow-up effects expose current animation, all severity stages and retained older examples',()=>{
- const revised=rows.filter(r=>r.visual_revision==='2026-11-22-followup');
+ const revised=rows.filter(r=>manifest.ids.includes(r.id));
  assert.equal(revised.length,6);
  assert.equal(rows.filter(r=>r.visual_revision).length,28);
  for(const r of revised){
   assert.equal(r.visual_kind,'Effect');assert.equal(r.preview.stages.length,3);
-  assert.ok(r.severity_note);assert.equal(r.visual_history.length,1);
+  assert.ok(r.severity_note);assert.ok(r.visual_history.length>=1);
   const page=read('content/illness-'+r.id+'.json');
   assert.equal(page.blocks[0].referenceArt.src,'illnesses/'+r.preview.animation);
   assert.ok(page.blocks.some(b=>b.text==='Appearance: '+r.visual));

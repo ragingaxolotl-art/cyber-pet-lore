@@ -23,7 +23,7 @@ with tempfile.TemporaryDirectory(prefix='lore-navigation-cache-') as directory:
  print(json.dumps({'first':first,'second':second}))
 `],{cwd:new URL('..',import.meta.url),encoding:'utf8'}));
  assert.deepEqual(result.second,result.first);
- assert.match(result.second['index.html'],/app\.js\?v=workspace-20261122/);
+ assert.match(result.second['index.html'],/app\.js\?v=workspace-20261122-mobile"/);
  assert.match(result.second['translator/index.html'],/app\.js\?v=lore-translator-new-release/);
  assert.match(result.second['translator/compound-builder.html'],/compound-builder\.mjs\?v=lore-translator-new-release/);
  for(const page of Object.values(result.second))assert.match(page,/workspace-shell\.mjs\?v=workspace-20261122/);

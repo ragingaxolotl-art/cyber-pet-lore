@@ -1605,7 +1605,7 @@
     "location_name": "The River of Deferred Reflections",
     "corruption": 4,
     "treatment": "Use calm care, rest and the stress treatment listed in Care.",
-    "visual": "A large, clear reflection beneath the pet holds a real earlier pose while the living pet continues moving. It then catches up through the recorded frames in 0.7 seconds. The reflection uses the character’s actual artwork and facing; it never invents a substitute pose.",
+    "visual": "The upright pet takes on a translucent blue reflection appearance, while the upside-down image below becomes solid and keeps the original character colors. The solid lower image holds a real earlier pose, then catches up through recorded frames in 0.7 seconds. Both use the character’s actual artwork and facing.",
     "status": "New gameplay lore; future hook is hypothetical. Location status remains: Proposed.",
     "risks": {
       "infection": 0.338,
@@ -1640,21 +1640,40 @@
           "sha256": "b9d83e3869dc99d11b8c225e2361920520bd934ae946697fa11dc21619908e29",
           "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
         }
+      },
+      {
+        "id": "before-reflection-swap",
+        "label": "Earlier version — solid upright pet, translucent reflection",
+        "visual": "A large, clear reflection beneath the pet holds a real earlier pose while the living pet continues moving. It then catches up through the recorded frames in 0.7 seconds. The reflection uses the character’s actual artwork and facing; it never invents a substitute pose.",
+        "preview": {
+          "animation": "previews/review-2026-11-22-followup/trademark_064.gif",
+          "still": "previews/review-2026-11-22-followup/trademark_064-still.png",
+          "sheet": "previews/review-2026-11-22-followup/trademark_064.png"
+        },
+        "appearance_anchor": "illness-trademark_064-appearance-reviewed-2026-11-22-followup",
+        "preserved_blocks": [
+          {
+            "id": "illness-trademark_064-severity",
+            "text": "Mild / moderate / severe: the reflection holds for 1.25 / 2 / 3 seconds in a 4 / 5 / 6 second cycle, and becomes larger and more opaque. Reduced motion shows the current reflected pose.",
+            "style": "NORMAL_TEXT"
+          }
+        ]
       }
     ],
-    "visual_revision": "2026-11-22-followup",
+    "visual_revision": "2026-11-22-reflection-swap",
     "visual_kind": "Effect",
-    "severity_note": "Mild / moderate / severe: the reflection holds for 1.25 / 2 / 3 seconds in a 4 / 5 / 6 second cycle, and becomes larger and more opaque. Reduced motion shows the current reflected pose.",
+    "severity_note": "Mild / moderate / severe: the solid lower image holds for 1.25 / 2 / 3 seconds in a 4 / 5 / 6 second cycle and becomes larger. The upright image fades to 70% / 62% / 54% opacity. Reduced motion holds a fixed presentation.",
     "preview": {
-      "animation": "previews/review-2026-11-22-followup/trademark_064.gif",
-      "still": "previews/review-2026-11-22-followup/trademark_064-still.png",
-      "sheet": "previews/review-2026-11-22-followup/trademark_064.png",
+      "animation": "previews/2026-11-22-reflection-swap/trademark_064.gif",
+      "still": "previews/2026-11-22-reflection-swap/trademark_064-still.png",
+      "sheet": "previews/2026-11-22-reflection-swap/trademark_064.png",
       "stages": [
-        "previews/review-2026-11-22-followup/trademark_064-1.png",
-        "previews/review-2026-11-22-followup/trademark_064-2.png",
-        "previews/review-2026-11-22-followup/trademark_064-3.png"
+        "previews/2026-11-22-reflection-swap/trademark_064-1.png",
+        "previews/2026-11-22-reflection-swap/trademark_064-2.png",
+        "previews/2026-11-22-reflection-swap/trademark_064-3.png"
       ]
-    }
+    },
+    "severity_revision": "2026-11-22-reflection-swap"
   },
   {
     "name": "Stormstatic Fever",

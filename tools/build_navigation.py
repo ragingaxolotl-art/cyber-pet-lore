@@ -53,7 +53,7 @@ def build():
             # those with the older workspace tag can load stale translator code.
             if relative.parts[0]=='translator' and not source.startswith('../') and match[2]:
                 return match[0]
-            return match[1]+'?v=workspace-20261122"'
+            return match[1]+('?v=workspace-20261122-mobile"' if source.endswith('app.js') else '?v=workspace-20261122"')
         changed=re.sub(r'(src="(?!https?:)[^"?]+\.(?:mjs|js))(\?[^"]*)?"',cache_script,changed)
         if changed!=path.read_text():path.write_text(changed)
         count+=1

@@ -55,3 +55,15 @@ Current main through `c56bd5d` was merged, preserving the newer translator meani
 Final integrated automated suite before publication: **237 tests passed, 0 failed**. Rendering, mobile network timing and live authenticated cross-device restoration remain explicitly unverified.
 
 The subsequent six-illness update `6d1fda3` was also merged. Final pre-publication suite: **240 passed, 0 failed**; regenerated search now contains 44,288 passages.
+
+### HTTP integration and first successful publication
+
+GitHub Pages run `45079128898` succeeded on attempt 2. Attempt 1 passed the build and tests but failed to discover its just-uploaded Pages artifact; the artifact was confirmed present before retrying.
+
+`tools/check_notebook_service.mjs <service checkout>` starts an isolated HTTP server using the deployed handler, an in-memory database and temporary test authentication. It passed restore across two independent notebook clients, typed map records, ribbon artifacts, competing note edits, deletion tombstones and expired-session recovery. It does not access production reader records. Each NotebookStore now owns a distinct writer identity; its regression is included in the **241 passing website tests**. Actual browser interactions and live production authenticated restore remain unverified.
+
+The replacement browser tool was attempted after the environment change. Setup failed with `Trusted RPC service is not configured: browser`; no browser instance was established.
+
+The live index, reader, notebook, search index, shared workspace modules and Haven chapter route were downloaded over verified HTTPS and matched the published commit. Pages runs `45080288571` and `45080454273` also succeeded. A final static review kept mobile note jumps within the reading route and made outdated quotations explicit in the reader as well as reference articles.
+
+After incorporating `db3c2bf`, the complete website suite passed **243 tests**. The isolated HTTP check additionally round-tripped text, entity, map, audio interval, artifact-version and page targets. The SSD workspace was fast-forwarded with its untracked audit files preserved; the final published head is synchronized as part of handoff.
