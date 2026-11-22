@@ -1,0 +1,956 @@
+{
+  "revision": "2026-11-22",
+  "reviewed_ids": [
+    "signal_churn",
+    "buffer_bloat",
+    "phase_scarring",
+    "signal_sprain",
+    "muscle_fatigue",
+    "mental_fatigue",
+    "echo_fright",
+    "trademark_001",
+    "trademark_006",
+    "trademark_008",
+    "trademark_011",
+    "trademark_016",
+    "trademark_020",
+    "trademark_021",
+    "trademark_023",
+    "trademark_032",
+    "trademark_054",
+    "trademark_059",
+    "trademark_061",
+    "trademark_073",
+    "trademark_079",
+    "trademark_100"
+  ],
+  "current_media": [
+    {
+      "path": "illnesses/previews/review-2026-11-22/buffer_bloat-1.png",
+      "bytes": 14871,
+      "sha256": "587b51f7ca9ab0510f406f47566f9264a860733120823d0e43cf14b24b0b9efd"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/buffer_bloat-2.png",
+      "bytes": 16463,
+      "sha256": "2778a952bc6989d9d054e340d951545ab641dd283f703c114e81e935005aa9a7"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/buffer_bloat-3.png",
+      "bytes": 18979,
+      "sha256": "79f9bba692f22678780430df6dc14664c1cf42852746eaad747fc36c0640accd"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/buffer_bloat-still.png",
+      "bytes": 16463,
+      "sha256": "2778a952bc6989d9d054e340d951545ab641dd283f703c114e81e935005aa9a7"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/buffer_bloat.gif",
+      "bytes": 488175,
+      "sha256": "2a42f6b591c71b63a3564c4eec59be06e8bac21d1ff8da0657f2c3f1c337b011"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/buffer_bloat.png",
+      "bytes": 973557,
+      "sha256": "06bdb40cbad8c0ac58e478ed7c3c02b252a91d7b8cd804e8ca34e851df534214"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/echo_fright-1.png",
+      "bytes": 18761,
+      "sha256": "9326061163f5cf175ee4967b771d2ed4b71fca8a9ec9933930b8e2a759266d6f"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/echo_fright-2.png",
+      "bytes": 18750,
+      "sha256": "ee31e6ec7e3edb126ba49d21257e478a39534f4484ba6955b293528b04bcc12b"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/echo_fright-3.png",
+      "bytes": 18750,
+      "sha256": "ee31e6ec7e3edb126ba49d21257e478a39534f4484ba6955b293528b04bcc12b"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/echo_fright-still.png",
+      "bytes": 18750,
+      "sha256": "ee31e6ec7e3edb126ba49d21257e478a39534f4484ba6955b293528b04bcc12b"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/echo_fright.gif",
+      "bytes": 1253521,
+      "sha256": "c4a2b1d0bec670d5f194005e1100b1f8eea3a6d4d3db6904fcb0a005ac57c768"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/echo_fright.png",
+      "bytes": 1728432,
+      "sha256": "07ec47b29a4c7942a3767a88c26d99a54111f46266cc7d494a991180f9568f03"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/mental_fatigue-1.png",
+      "bytes": 13951,
+      "sha256": "d3017fe3fa27bff114d652c7fb7caae2da28d3f5c63cb09325d4dd8454b1fbaa"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/mental_fatigue-2.png",
+      "bytes": 14155,
+      "sha256": "a38a123413b31544fbac087253b30dbdcaf8ad774a01f4de9baa43921e970c2d"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/mental_fatigue-3.png",
+      "bytes": 14185,
+      "sha256": "f91fcafd9e1cfa2946daa589b0106e87483f5de2de45d1c9750e22c7fe2f7426"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/mental_fatigue-still.png",
+      "bytes": 14155,
+      "sha256": "a38a123413b31544fbac087253b30dbdcaf8ad774a01f4de9baa43921e970c2d"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/mental_fatigue.gif",
+      "bytes": 719442,
+      "sha256": "99cbd37230a6257c3ef282ad6ac57b155d1b91b3c72fd7c442f5b4b3882b042b"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/mental_fatigue.png",
+      "bytes": 534009,
+      "sha256": "995388ba2daa824e67d446346811360f828a1e03248db9930ba356d5a9986dff"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/muscle_fatigue-1.png",
+      "bytes": 10410,
+      "sha256": "898f68a661e9cd6fee6fd1c01f7a05b28e732c6e4fe8bbf29d9b28f8accb9d5f"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/muscle_fatigue-2.png",
+      "bytes": 10674,
+      "sha256": "ab0e1c2e119957c241ad8623877731ede0eebf063e0800671c352f34278d6270"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/muscle_fatigue-3.png",
+      "bytes": 11387,
+      "sha256": "115836c69bdb63b1f6a3467a4a8c37e3bfe76b56e13ac69b82f5461bce7600ec"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/muscle_fatigue-still.png",
+      "bytes": 10674,
+      "sha256": "ab0e1c2e119957c241ad8623877731ede0eebf063e0800671c352f34278d6270"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/muscle_fatigue.gif",
+      "bytes": 166714,
+      "sha256": "d071eab1d335c9aefa680124f6a6f2b99e4bdc101def3f908d79771e99c9511f"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/muscle_fatigue.png",
+      "bytes": 292165,
+      "sha256": "1dcaa4e33ad8f46ffe3221aeb143abb0a0eedba873d54bdf108439fb119764c3"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/phase_scarring-1.png",
+      "bytes": 26027,
+      "sha256": "f2d3b740db0c2cf7ad8d89df7ac53dcfd75705a1ad475c72930399a31558f3fc"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/phase_scarring-2.png",
+      "bytes": 27112,
+      "sha256": "33f1c9c11ef2a53f17886908492b17b8616a65b72b752811bbdf03ab90e6f2da"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/phase_scarring-3.png",
+      "bytes": 27170,
+      "sha256": "e86ef589eb909af5ae280e6294670d1b1a65d44a156ceee5869d04c94b0b8434"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/phase_scarring-still.png",
+      "bytes": 27112,
+      "sha256": "33f1c9c11ef2a53f17886908492b17b8616a65b72b752811bbdf03ab90e6f2da"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/phase_scarring.gif",
+      "bytes": 505676,
+      "sha256": "dc081f3e8c4097323582194305f9ab14341bcc5182bc51763b748683efdea31a"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/phase_scarring.png",
+      "bytes": 2435294,
+      "sha256": "1a1a21f2525a0135c9ccd1a91374ebc574c04631ef463d46b45ec1caf2e5b3e7"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/signal_churn-1.png",
+      "bytes": 10624,
+      "sha256": "a88a088198700e1e0b46001a84fb4405045876807ccf13cf7783ed5995711196"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/signal_churn-2.png",
+      "bytes": 10858,
+      "sha256": "f7ba02dc8a2b35d9f9314451503de63aa840f1546b2af9218b6f053756182c0a"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/signal_churn-3.png",
+      "bytes": 11045,
+      "sha256": "3dff53f1a79944686b91b111bcdd1a85b2f7ae9e0e09d9df0107ce9aaa89c559"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/signal_churn-still.png",
+      "bytes": 10858,
+      "sha256": "f7ba02dc8a2b35d9f9314451503de63aa840f1546b2af9218b6f053756182c0a"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/signal_churn.gif",
+      "bytes": 288654,
+      "sha256": "37d836dee834cbd2e1be57ad39e6b08d06412e865c17d5056a2da92dac0f5e61"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/signal_churn.png",
+      "bytes": 284726,
+      "sha256": "222e493f259f8348debbefd361bd4dba854c4d727bbd3d0b2c7b9c9d80b71859"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/signal_sprain-1.png",
+      "bytes": 19928,
+      "sha256": "50ccf297b019e788d1dda9948fac143d3fbf79ce04a4096fae7941e854f5dc43"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/signal_sprain-2.png",
+      "bytes": 23487,
+      "sha256": "f513077895ab0de91cd664339034a50505fb45c19ba2477e2bdb6d8f68561e09"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/signal_sprain-3.png",
+      "bytes": 25327,
+      "sha256": "98250bccbcae16adf7c8dea60887abf61aad3afc2f56a6ecce611d5d8cf9ce19"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/signal_sprain-still.png",
+      "bytes": 23487,
+      "sha256": "f513077895ab0de91cd664339034a50505fb45c19ba2477e2bdb6d8f68561e09"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/signal_sprain.gif",
+      "bytes": 605064,
+      "sha256": "819418c494f165f594717860ceb0047ea7bf249641055789b53056da4f3ec447"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/signal_sprain.png",
+      "bytes": 548946,
+      "sha256": "34d4b84666bf9c63e0f8ce6ab7eae927b79a07e3c30bedea9d006a570a3bf5fe"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_001-1.png",
+      "bytes": 18666,
+      "sha256": "805d7e563d03bfee4f7b59c22967bf8135697ad2c2be716561ab8732c3f6ef5b"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_001-2.png",
+      "bytes": 18877,
+      "sha256": "3a6b496e8a9b8ed0d319faf3dfc6737ff93f3aa92ad95dc061fd485f6cffe3c3"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_001-3.png",
+      "bytes": 18877,
+      "sha256": "3a6b496e8a9b8ed0d319faf3dfc6737ff93f3aa92ad95dc061fd485f6cffe3c3"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_001-still.png",
+      "bytes": 18877,
+      "sha256": "3a6b496e8a9b8ed0d319faf3dfc6737ff93f3aa92ad95dc061fd485f6cffe3c3"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_001.gif",
+      "bytes": 2417269,
+      "sha256": "9107f4c22714a01e1a43976d791cc29efba8c1614f8795ca5e48485087d249b5"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_001.png",
+      "bytes": 1939369,
+      "sha256": "bd7a08084b8905df510d2af9593bb4e452f681ae1c1c4702046e83d043b17480"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_006-1.png",
+      "bytes": 10273,
+      "sha256": "13dffa3c059ea444258a05a0a24e2b3c6c2fb0740768828d814488c38debea0d"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_006-2.png",
+      "bytes": 10275,
+      "sha256": "b3d772f748cd6c66f3a70bc52a2c8fc43648347e8c75b679e58431d267afec07"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_006-3.png",
+      "bytes": 10323,
+      "sha256": "7d35f422c045204c8c38958faa6c1b9613da6de93dbad2f595f67897bebd45ce"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_006-still.png",
+      "bytes": 10275,
+      "sha256": "b3d772f748cd6c66f3a70bc52a2c8fc43648347e8c75b679e58431d267afec07"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_006.gif",
+      "bytes": 262717,
+      "sha256": "351fdc66a9661b6e7b866d73fae77509a4d4200fc89d4ed82c6fbed96260721f"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_006.png",
+      "bytes": 419547,
+      "sha256": "f5bc857be5f625a4beec7a44d2723dc27b796d97f460d4f803416a480e3f3926"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_008-1.png",
+      "bytes": 9321,
+      "sha256": "27d93538e9f68efde7f70ad81534c1594b642b9909c5bb744fa6f350c21bc916"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_008-2.png",
+      "bytes": 9957,
+      "sha256": "0187031613e056e7641a0c78d9c4dd798ff7114471c51172a8d009b13b3c8fee"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_008-3.png",
+      "bytes": 10599,
+      "sha256": "bb545f923c50b1691bfe5bc5ec658dbe584fd60bfc33eafa825601eb76cee023"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_008-still.png",
+      "bytes": 9957,
+      "sha256": "0187031613e056e7641a0c78d9c4dd798ff7114471c51172a8d009b13b3c8fee"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_008.gif",
+      "bytes": 1163908,
+      "sha256": "5c875b7bcc89c2f8fc14fc50e18cec6443c4284b0c5cdeff9ad685221ecb934f"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_008.png",
+      "bytes": 232275,
+      "sha256": "74cd075e18d04c8d2549e848945d3fcd2aa4c550718e07bb6edf224ba42fc9fd"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_011-1.png",
+      "bytes": 10055,
+      "sha256": "755c4503077c46ce7e9a29b5e1ba360fd9795450d96959e6ce42fc08510ba0ed"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_011-2.png",
+      "bytes": 10055,
+      "sha256": "755c4503077c46ce7e9a29b5e1ba360fd9795450d96959e6ce42fc08510ba0ed"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_011-3.png",
+      "bytes": 10055,
+      "sha256": "755c4503077c46ce7e9a29b5e1ba360fd9795450d96959e6ce42fc08510ba0ed"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_011-still.png",
+      "bytes": 10055,
+      "sha256": "755c4503077c46ce7e9a29b5e1ba360fd9795450d96959e6ce42fc08510ba0ed"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_011.gif",
+      "bytes": 254881,
+      "sha256": "2cec0749038743ce7961492b85b85c382f8cc3afc75bc06ebe239b90ab534d2f"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_011.png",
+      "bytes": 256557,
+      "sha256": "16f81d20b287b1977ba17cd5f64ac3ba37d066b6247359868ffa212f6f1567a6"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_016-1.png",
+      "bytes": 10450,
+      "sha256": "e0bcb720cae2a5b3331318704a959d2ef05c080b1c6c363b20784056876f3dba"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_016-2.png",
+      "bytes": 10450,
+      "sha256": "e0bcb720cae2a5b3331318704a959d2ef05c080b1c6c363b20784056876f3dba"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_016-3.png",
+      "bytes": 10450,
+      "sha256": "e0bcb720cae2a5b3331318704a959d2ef05c080b1c6c363b20784056876f3dba"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_016-still.png",
+      "bytes": 10450,
+      "sha256": "e0bcb720cae2a5b3331318704a959d2ef05c080b1c6c363b20784056876f3dba"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_016.gif",
+      "bytes": 4870,
+      "sha256": "c58a0365d6ebc5bad411be3bd33b9322b6ccc71a9b6cc4882b742673a9fb2e74"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_016.png",
+      "bytes": 179247,
+      "sha256": "88e618bc5a8d5ec52898db318933c84adfaada9f38818f19455128c872eb3e27"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_020-1.png",
+      "bytes": 16310,
+      "sha256": "f21eabab266175e3691b5171a1a380017e604e65fc4b24f5b27b26ffc9c25bfc"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_020-2.png",
+      "bytes": 16481,
+      "sha256": "63394850470d11c27dfb4c342145d7842e910f95f0e93e2b81295999ee2c2248"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_020-3.png",
+      "bytes": 16705,
+      "sha256": "f64eb62b223b3ca085af536acdaa61de22ab9666003a8f07c0a6370e9eda31f9"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_020-still.png",
+      "bytes": 16481,
+      "sha256": "63394850470d11c27dfb4c342145d7842e910f95f0e93e2b81295999ee2c2248"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_020.gif",
+      "bytes": 544114,
+      "sha256": "4a44e9feb5bc002822ecbb972ceeaac5838ee4870a9e74221226977143febc24"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_020.png",
+      "bytes": 459212,
+      "sha256": "d2f039fdaca3d20ad0797a28adda5a2ab167a4934b3dec065771486f49c18216"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_021-1.png",
+      "bytes": 9540,
+      "sha256": "63432d177739dac45a7480925ef94c93febfe42775b1be54fc912d6c0355396e"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_021-2.png",
+      "bytes": 10842,
+      "sha256": "1cf76fd52033def655b5348c4fe07c2ed89534fab720651368134967fb79e30b"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_021-3.png",
+      "bytes": 11038,
+      "sha256": "e5dba48ec7c9f72ea8be1980cfc393cb482b77eafc20fc60c09342e7d6236e56"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_021-still.png",
+      "bytes": 10842,
+      "sha256": "1cf76fd52033def655b5348c4fe07c2ed89534fab720651368134967fb79e30b"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_021.gif",
+      "bytes": 473779,
+      "sha256": "d121100892391202931aad157d78ad83e73debfbc58a08f176a29c592b9f56a9"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_021.png",
+      "bytes": 422574,
+      "sha256": "c79b5551442252472541bfc51597f627ba3835bc633fe2651ff39cc244ec8d69"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_023-1.png",
+      "bytes": 13305,
+      "sha256": "2e31910fc4e9d7a9cbaca567ae359a2216987def6b36d9381ce84ff1601c0cf9"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_023-2.png",
+      "bytes": 13742,
+      "sha256": "44e7fd2ed21c48733cb206712d70088a1016e7c892cd21b6dbcd6cbc3eed4001"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_023-3.png",
+      "bytes": 14432,
+      "sha256": "ecee741eddc6a73dc9c6828b3b9f549ecc785d37e95c4662258ecb0138dc5e1a"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_023-still.png",
+      "bytes": 13742,
+      "sha256": "44e7fd2ed21c48733cb206712d70088a1016e7c892cd21b6dbcd6cbc3eed4001"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_023.gif",
+      "bytes": 512433,
+      "sha256": "c2e33a3aa4b7a39f80ebf06ee12ac1da5700d8d27e03e57f0d6f5500176dc815"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_023.png",
+      "bytes": 1212855,
+      "sha256": "e1e0693f86fb81034272e8098af449a966451f0426b4f00dfe355a3029f628aa"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_032-1.png",
+      "bytes": 9928,
+      "sha256": "26814f0f312ddc4480d87d3cc3a2263454b47e416c74f391a86e72e527c06976"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_032-2.png",
+      "bytes": 10161,
+      "sha256": "08962c0dd7cef87548be824faa864bfb7636130aa5d30e0003e7942bb9182faf"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_032-3.png",
+      "bytes": 9809,
+      "sha256": "e7064673c26bf0e7eb7398a32bc213e3561ef08970b78d845ddbe9eb02e5fdab"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_032-still.png",
+      "bytes": 10161,
+      "sha256": "08962c0dd7cef87548be824faa864bfb7636130aa5d30e0003e7942bb9182faf"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_032.gif",
+      "bytes": 515395,
+      "sha256": "34cdd2ae0a1e76045ca144a0dba1950834cf86b55ef5f6071b0d7181b2b8b9e5"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_032.png",
+      "bytes": 901772,
+      "sha256": "efff0db82e5f5490d672636efff6c5e1867ccfef90673e26eec8e056993e7e71"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_054-1.png",
+      "bytes": 10188,
+      "sha256": "b889fcf6f99ca8db587c09d1c756b614c8100d6780560db6363d03609dc6b2bc"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_054-2.png",
+      "bytes": 10026,
+      "sha256": "f01b7175bc722deaa19f0229bb8960ded1f457782dea6838a409a57f1a2aa014"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_054-3.png",
+      "bytes": 10025,
+      "sha256": "d40b0bf865b914831045e60da60c1f591be4b4d1d67f2cfaf343f6d5b3341061"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_054-still.png",
+      "bytes": 10026,
+      "sha256": "f01b7175bc722deaa19f0229bb8960ded1f457782dea6838a409a57f1a2aa014"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_054.gif",
+      "bytes": 718266,
+      "sha256": "49445ddc629daa9fdb2884b9a3498dd88c8e8945027b69881ee71dc231911295"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_054.png",
+      "bytes": 928742,
+      "sha256": "1d877ad0dcd962b83d79f0e098a5c72d3d84a8dda37722f4a4c364b228bda5e4"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_059-1.png",
+      "bytes": 9810,
+      "sha256": "59d0c01d3901f073c712733ad9b62f8af5b864cd971c34d4948bbd7433e3f088"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_059-2.png",
+      "bytes": 9835,
+      "sha256": "cc899c6ee036d7494210e06dcb74a34ad713aa046adbe4f1269c7b54e910c429"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_059-3.png",
+      "bytes": 9866,
+      "sha256": "dd49e6aa8533bb53ea0d0b56a6b7e653f9de6fee8d7341f64d223b27893290e5"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_059-still.png",
+      "bytes": 9835,
+      "sha256": "cc899c6ee036d7494210e06dcb74a34ad713aa046adbe4f1269c7b54e910c429"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_059.gif",
+      "bytes": 398695,
+      "sha256": "45cf21253efdca8dddc3a96125b9437c6578a53ecd65bbb7b759cbf78e4b6eba"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_059.png",
+      "bytes": 457567,
+      "sha256": "73373ab37f9aebc7e1f31674554707f2477302fdd915d01ee2319c0227f5f91d"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_061-1.png",
+      "bytes": 10241,
+      "sha256": "7f7ca2e72f1d2db8c3dea3b1f7ed34fdb7b8780950269d86d9db68526f8dbeb5"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_061-2.png",
+      "bytes": 10364,
+      "sha256": "d6bc4494d2886aab676cfbe3025e724f5d2db9181b23391558aa4e807ac052de"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_061-3.png",
+      "bytes": 10195,
+      "sha256": "7241cbd8abcc144f7299d43252d66d381b4dc03769685e507d660283a0480fe1"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_061-still.png",
+      "bytes": 10364,
+      "sha256": "d6bc4494d2886aab676cfbe3025e724f5d2db9181b23391558aa4e807ac052de"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_061.gif",
+      "bytes": 339228,
+      "sha256": "86ab439a47c594aaa90e1dac760348af2b221bf6622c7a7975394c500bb9677e"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_061.png",
+      "bytes": 706933,
+      "sha256": "318cc075e9140783ba5081ea9dcc6e1a8160839defaa7383b51600e7fffdd217"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_073-1.png",
+      "bytes": 14004,
+      "sha256": "9db226d460558453bf964ffbd0f9d22976cbb83513d0972c3427144028ab3cbf"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_073-2.png",
+      "bytes": 15214,
+      "sha256": "fed64a97eb86804fcb8f27e1a51fa77f793e40e7b4b27585950ee798bbef8faf"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_073-3.png",
+      "bytes": 16318,
+      "sha256": "59b58e66679999b3065e06a9cfd13bee0cbe34a18ca47d488be789a7ffa7df54"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_073-still.png",
+      "bytes": 15214,
+      "sha256": "fed64a97eb86804fcb8f27e1a51fa77f793e40e7b4b27585950ee798bbef8faf"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_073.gif",
+      "bytes": 947709,
+      "sha256": "444bd31e230a9cd8861e92abac4fe633c042842141301dee51ceec8fe9a07c47"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_073.png",
+      "bytes": 1265444,
+      "sha256": "26dd3769081029dcbd7c0dba9a775d5eb0e8b340f1831607209237afc2f77239"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_079-1.png",
+      "bytes": 9507,
+      "sha256": "d093e0588fcb94c1407207136821506b21c2ea6bf2aa4e5e465a853d70dc2145"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_079-2.png",
+      "bytes": 8011,
+      "sha256": "21bff08994589f71634818e5a090887d704f2dd4604894da347263fc87e9490f"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_079-3.png",
+      "bytes": 6525,
+      "sha256": "66275f9b3820db76a0f6fc551bfd72f11b49825b0471829d681d30990b0db4fc"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_079-still.png",
+      "bytes": 8011,
+      "sha256": "21bff08994589f71634818e5a090887d704f2dd4604894da347263fc87e9490f"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_079.gif",
+      "bytes": 459128,
+      "sha256": "e9ff3057b2d8b30d7be65586252860814185b3949947edba76f1bf502c97827d"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_079.png",
+      "bytes": 682735,
+      "sha256": "54a1e4cfc473b4dd7c0a9312a900a7c0ffc5b8f4ef99c152425996125e54e96c"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_100-1.png",
+      "bytes": 12356,
+      "sha256": "655dc10eb16200bc1eeccf4120c679a5fafd64b71b04707a3313c9cde6b1fe59"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_100-2.png",
+      "bytes": 12635,
+      "sha256": "71ae9715e898a1c1e545a44aa397d76696cef7d8e3f7ceb806cdbd72920269df"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_100-3.png",
+      "bytes": 12710,
+      "sha256": "9e0239360d1a979f4a4ceed1e421fb7ee76e8f44caa21e48836b0974bce9bddd"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_100-still.png",
+      "bytes": 12635,
+      "sha256": "71ae9715e898a1c1e545a44aa397d76696cef7d8e3f7ceb806cdbd72920269df"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_100.gif",
+      "bytes": 330022,
+      "sha256": "9ba97053823d1f3657c1fe667560b9e2603c10f768cd0ec831446421d9b550f5"
+    },
+    {
+      "path": "illnesses/previews/review-2026-11-22/trademark_100.png",
+      "bytes": 321064,
+      "sha256": "25061a897c5a28855252159d42b758a855916187aa57c134648f2f5f87cbb0a7"
+    }
+  ],
+  "earlier_media": [
+    {
+      "path": "illnesses/previews/signal_churn.gif",
+      "sha256": "7703b61b82018b9a7932585e148dabeafa37979f1a6f87b6d8e096b7ae12a804"
+    },
+    {
+      "path": "illnesses/previews/signal_churn-still.png",
+      "sha256": "9d46c992586d55fec1c8e6ac892c5c7066a4c97dc005ed1526c16920a3859bda"
+    },
+    {
+      "path": "illnesses/previews/signal_churn.png",
+      "sha256": "14772b100c38c5d3191f96540a78ca354c6e645550a9f8a9b9cda8cf1fd71ca0"
+    },
+    {
+      "path": "illnesses/previews/buffer_bloat.gif",
+      "sha256": "f2adffc946ff73392224be9a1a8270dd5a919d460b5b0740c3109b09c6101932"
+    },
+    {
+      "path": "illnesses/previews/buffer_bloat-still.png",
+      "sha256": "69c6909d6ea5ae724d64bb522eaf6a12c2a8ead5ff945784576ca95b6e107530"
+    },
+    {
+      "path": "illnesses/previews/buffer_bloat.png",
+      "sha256": "6fd756755c1d64cf7685f9854cea995301353e13950f8cae1423b5c1474634fa"
+    },
+    {
+      "path": "illnesses/previews/phase_scarring.gif",
+      "sha256": "a9c96d2d76bfa51593007f21fc5db16f3604a7eaa19e4edb144802d5f647bf27"
+    },
+    {
+      "path": "illnesses/previews/phase_scarring-still.png",
+      "sha256": "7fa58dea7e091f148c04fe8f99be0c411320e31c9ae4c221e8180c53fd84558c"
+    },
+    {
+      "path": "illnesses/previews/phase_scarring.png",
+      "sha256": "6589bd408d37f884a036632f29f27d9cf5aa3d3e041c7feb674a886a451fa22e"
+    },
+    {
+      "path": "illnesses/previews/signal_sprain.gif",
+      "sha256": "24144fed66bdc03a53fc34d7236b9c4a792d5f81298c1e6b2b6a6fb84d2a6d24"
+    },
+    {
+      "path": "illnesses/previews/signal_sprain-still.png",
+      "sha256": "201b05c7393ccacf810f629c85f3f702017366db1b2e3c5874b6c8b1c8c4df65"
+    },
+    {
+      "path": "illnesses/previews/signal_sprain.png",
+      "sha256": "4e619b69427fdb8c6cd0401c7d88598ee70badb83218c4c028a18ab40bab4b10"
+    },
+    {
+      "path": "illnesses/previews/muscle_fatigue.gif",
+      "sha256": "24e2384ef03f3b2961a250d3d078ab8b40fcc2fd5beed113418a90faae6d2e11"
+    },
+    {
+      "path": "illnesses/previews/muscle_fatigue-still.png",
+      "sha256": "4b8a18acaf59a0cff3baa3941e1a41bd374e5c52b184c6863f7058d0a1629034"
+    },
+    {
+      "path": "illnesses/previews/muscle_fatigue.png",
+      "sha256": "d37fb036f2a59832b47db63d237163edfa5c6bcfbf746dcdb44bb758ae9d2276"
+    },
+    {
+      "path": "illnesses/previews/mental_fatigue.gif",
+      "sha256": "7aabfcb08927910c7bcc9181f81abd3c8d9a7b51c575e79a5dfe2790516a2ef7"
+    },
+    {
+      "path": "illnesses/previews/mental_fatigue-still.png",
+      "sha256": "e29f4b9cdb0f11e52fa4091d74dd0842594454c5f2fbdd9ebb0d22cc35fcd585"
+    },
+    {
+      "path": "illnesses/previews/mental_fatigue.png",
+      "sha256": "79d941aa2f7853edeb936e149152aefc33d562226cf22208c8ffa00947eac375"
+    },
+    {
+      "path": "illnesses/previews/echo_fright.gif",
+      "sha256": "5e8124189fd9b089943ba3b663e78e52f42ea2a7eccd8fb1b3801dd6a607c849"
+    },
+    {
+      "path": "illnesses/previews/echo_fright-still.png",
+      "sha256": "e05b055c1b63872eeebd3d829eee759cd8485c7b00c68c057aeece3b0e4de7a9"
+    },
+    {
+      "path": "illnesses/previews/echo_fright.png",
+      "sha256": "6b51a71e8c4e6baefcf619c6d5ced625c159e110e01f1133a38d11a95ddba4fc"
+    },
+    {
+      "path": "illnesses/previews/trademark_001.gif",
+      "sha256": "02161d0a27cfa3d0e7bc4401f3ae28c62e6eaab10657077b17c2e137b9f64a57"
+    },
+    {
+      "path": "illnesses/previews/trademark_001-still.png",
+      "sha256": "aaed52f47aea58c9113c27bc01f74fbe8fcda1097de321dfdb3af70493677b8b"
+    },
+    {
+      "path": "illnesses/previews/trademark_001.png",
+      "sha256": "f8dffd1754bc7d8d7b4d52de8b8594e595dc4b3959fb95be39c4fe01b0ca3ad8"
+    },
+    {
+      "path": "illnesses/previews/trademark_006.gif",
+      "sha256": "1694e3cd0d19831234517ce793096edd934810b5a9650488f7efeb9d982905cf"
+    },
+    {
+      "path": "illnesses/previews/trademark_006-still.png",
+      "sha256": "0839b6fa02abf10333a8663b1b8d57cf3c1e3df69f469794193a22c73c299f1e"
+    },
+    {
+      "path": "illnesses/previews/trademark_006.png",
+      "sha256": "b321e54c2ee981623cae4dd0ab53350f30cc41bf1d0b9a5e6313548bb44dad94"
+    },
+    {
+      "path": "illnesses/previews/trademark_008.gif",
+      "sha256": "a105bca3e73bd321a80592a715f8d3e2d52b306f24eaac60323cfa8cd61b591f"
+    },
+    {
+      "path": "illnesses/previews/trademark_008-still.png",
+      "sha256": "1cfaafe5239c3a0b048ff22a8a825463e4dc67f19aaf69519090ba1c5d7a3939"
+    },
+    {
+      "path": "illnesses/previews/trademark_008.png",
+      "sha256": "fe54690cf6f4a849b032d176665d3cd19cb2e43ac172b508ace15de168f5f890"
+    },
+    {
+      "path": "illnesses/previews/trademark_011.gif",
+      "sha256": "8c5e03ea8b1360d02b6a8a0b1a7f3b6fde5c53bd4bd176fee77b5f1d740b4c3e"
+    },
+    {
+      "path": "illnesses/previews/trademark_011-still.png",
+      "sha256": "756c4a9f7b52340af628e4ea1bf819e5bae86d6bbf91d53c3939cb07f43d0855"
+    },
+    {
+      "path": "illnesses/previews/trademark_011.png",
+      "sha256": "f1e1b840db6ff581013f447842557fdfe72d16d415cf74c21806393afd71343f"
+    },
+    {
+      "path": "illnesses/previews/trademark_016.gif",
+      "sha256": "6be8691615cd90ea4b8397fba41312e544977306d7115650a4a2acf65e9147c3"
+    },
+    {
+      "path": "illnesses/previews/trademark_016-still.png",
+      "sha256": "02583f8975c6072d735977405e1499280dbefaa9e49eab531ff3380c0ea73989"
+    },
+    {
+      "path": "illnesses/previews/trademark_016.png",
+      "sha256": "a0a1508ab0278c1f620b04a3ab0d7409d335e154898afa65f224a944f2dbcedc"
+    },
+    {
+      "path": "illnesses/previews/trademark_020.gif",
+      "sha256": "5707875e40c74b9057e13f1439a76ea966c4abf00471bd219ec781c0abe8594d"
+    },
+    {
+      "path": "illnesses/previews/trademark_020-still.png",
+      "sha256": "16c9fcd60477988a9cd15936a111908c48ea1ac9f08654577e57baadfb6be7d6"
+    },
+    {
+      "path": "illnesses/previews/trademark_020.png",
+      "sha256": "67f305a59f05816d163152363fc3b7885002408e7c12f0e6023266503b04c244"
+    },
+    {
+      "path": "illnesses/previews/trademark_021.gif",
+      "sha256": "7f46187bcf5b96f11871fc731d1e1f97adc2ffeadeb4c37eaf8af876449afbb9"
+    },
+    {
+      "path": "illnesses/previews/trademark_021-still.png",
+      "sha256": "a0e564a164477e15097c735dec23b83f7c19f35a44dc865241de2dc61e931f5a"
+    },
+    {
+      "path": "illnesses/previews/trademark_021.png",
+      "sha256": "5680c85024d8c91ac86b4bf676840934d7872a4eb4e3800a878a29ea81605975"
+    },
+    {
+      "path": "illnesses/previews/trademark_023.gif",
+      "sha256": "e7c24dc3e398e654cba5d76b5c04bfd201ea21e658209c6b4158993a1e29c3b4"
+    },
+    {
+      "path": "illnesses/previews/trademark_023-still.png",
+      "sha256": "f05a64672064bf1307a71dc9053fd889b83e3e078322681352fb1f5b022b9086"
+    },
+    {
+      "path": "illnesses/previews/trademark_023.png",
+      "sha256": "79f424ab168db328b021f953caa1eee756184e1d3536ae63b32f3f53ab4e696c"
+    },
+    {
+      "path": "illnesses/previews/trademark_032.gif",
+      "sha256": "0615f0f2ad0fe5cc585cd302619bef7f0a0ae53ee4ea699b855ac9064c9dcf4d"
+    },
+    {
+      "path": "illnesses/previews/trademark_032-still.png",
+      "sha256": "b4e0623c2589c24158b7e056cb9a99e5b8b63fd875c3c12beb3af1b941f571f9"
+    },
+    {
+      "path": "illnesses/previews/trademark_032.png",
+      "sha256": "ad858c64ffb5adbe02f40ecdf2a78d78f788ab31fcf510c8b8e01171ee9dd912"
+    },
+    {
+      "path": "illnesses/previews/trademark_054.gif",
+      "sha256": "0a0bcd77deed153942cb618d96c7201cbdc4f1eb3159ec6f9558f27cbbe901d3"
+    },
+    {
+      "path": "illnesses/previews/trademark_054-still.png",
+      "sha256": "8b35d33e310be74021d37bfb61e7b088ac19f08c11ebbc9e19ebca00192ce539"
+    },
+    {
+      "path": "illnesses/previews/trademark_054.png",
+      "sha256": "3e2d8988b3fbc35e30f0666ca208b02a750fe606186c7845d1e8bc49d49d8a3e"
+    },
+    {
+      "path": "illnesses/previews/trademark_059.gif",
+      "sha256": "d3cda4025d1ae985d1b2098c337217f7d618d7a83fdee7457c5f0ae8c8a31305"
+    },
+    {
+      "path": "illnesses/previews/trademark_059-still.png",
+      "sha256": "cb7a65e094349e36751901b857584e2da99125cdce04800a87ea8230d6f0bf4d"
+    },
+    {
+      "path": "illnesses/previews/trademark_059.png",
+      "sha256": "60b11abad747461ccb08d7eb522fad9be5ea0618a0893d3a6ca37e1cf5d2cb8c"
+    },
+    {
+      "path": "illnesses/previews/trademark_061.gif",
+      "sha256": "7b3acd971e9bc6b4ba7b9149ab3bcf8b200187f1b2e12b510194377be30ee038"
+    },
+    {
+      "path": "illnesses/previews/trademark_061-still.png",
+      "sha256": "619aad2ffa0dccbf01bd20067d7369ba3569bc2347ccb2e3fbadbd4cc80d856f"
+    },
+    {
+      "path": "illnesses/previews/trademark_061.png",
+      "sha256": "9f608b0037508823ab0ecf0fc0260264427a462e527c87b33ef2f3392985bd57"
+    },
+    {
+      "path": "illnesses/previews/trademark_073.gif",
+      "sha256": "c328313a18618ae313186559e525f028df93886f2d03a3ff395467de0b3cb87a"
+    },
+    {
+      "path": "illnesses/previews/trademark_073-still.png",
+      "sha256": "1a02fbd3b4bfc016b37707000e534a51c42337fbc77249d256037c817860d6c3"
+    },
+    {
+      "path": "illnesses/previews/trademark_073.png",
+      "sha256": "1af3aa544b073f32b871c05800670aab188fd66cde04cd06af9bbdcf98873dc0"
+    },
+    {
+      "path": "illnesses/previews/trademark_079.gif",
+      "sha256": "ddf4273872d7efc98cb72042918a0c17e889106da5a76b08b6d28a77b055a030"
+    },
+    {
+      "path": "illnesses/previews/trademark_079-still.png",
+      "sha256": "036db0d2483f13e1121dd402180df2e4e62ca33fffa323866566119c8943c7ad"
+    },
+    {
+      "path": "illnesses/previews/trademark_079.png",
+      "sha256": "44debf192d0baccd32b0e54ace112d53650af3eef4ef8a15cd48015bb13c1648"
+    },
+    {
+      "path": "illnesses/previews/trademark_100.gif",
+      "sha256": "571e2ad1cd3b55e5e012f3bd50d05bb6ac7daed8960c1b1b69d3300ecdf352b0"
+    },
+    {
+      "path": "illnesses/previews/trademark_100-still.png",
+      "sha256": "a2148265c6a9c64d50e6e4a27ec467d93922ed1bee00a31e8aa49653ff010dbe"
+    },
+    {
+      "path": "illnesses/previews/trademark_100.png",
+      "sha256": "8351c9678585d710d6f45036880d7052b9fd98dfff3196240b49e896b921236e"
+    }
+  ],
+  "note": "Current native PIP presentations with all three severity stills. Original examples and appearance anchors are preserved on their own pages. No game deployment is implied."
+}

@@ -60,28 +60,42 @@
     "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
   },
   "signal_churn": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "14772b100c38c5d3191f96540a78ca354c6e645550a9f8a9b9cda8cf1fd71ca0",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/signal_churn.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/signal_churn.gif",
+      "frames": 64,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "222e493f259f8348debbefd361bd4dba854c4d727bbd3d0b2c7b9c9d80b71859",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "buffer_bloat": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "6fd756755c1d64cf7685f9854cea995301353e13950f8cae1423b5c1474634fa",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/buffer_bloat.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/buffer_bloat.gif",
+      "frames": 76,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "06bdb40cbad8c0ac58e478ed7c3c02b252a91d7b8cd804e8ca34e851df534214",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "bitrot": {
     "columns": 12,
@@ -96,16 +110,23 @@
     "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
   },
   "phase_scarring": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "6589bd408d37f884a036632f29f27d9cf5aa3d3e041c7feb674a886a451fa22e",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/phase_scarring.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/phase_scarring.gif",
+      "frames": 44,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "1a1a21f2525a0135c9ccd1a91374ebc574c04631ef463d46b45ec1caf2e5b3e7",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "seam_bruise": {
     "columns": 12,
@@ -120,40 +141,61 @@
     "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
   },
   "signal_sprain": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "4e619b69427fdb8c6cd0401c7d88598ee70badb83218c4c028a18ab40bab4b10",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/signal_sprain.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/signal_sprain.gif",
+      "frames": 60,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "34d4b84666bf9c63e0f8ce6ab7eae927b79a07e3c30bedea9d006a570a3bf5fe",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "muscle_fatigue": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "d37fb036f2a59832b47db63d237163edfa5c6bcfbf746dcdb44bb758ae9d2276",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/muscle_fatigue.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/muscle_fatigue.gif",
+      "frames": 36,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "1dcaa4e33ad8f46ffe3221aeb143abb0a0eedba873d54bdf108439fb119764c3",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "mental_fatigue": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "79d941aa2f7853edeb936e149152aefc33d562226cf22208c8ffa00947eac375",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/mental_fatigue.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/mental_fatigue.gif",
+      "frames": 120,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "995388ba2daa824e67d446346811360f828a1e03248db9930ba356d5a9986dff",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "signal_flicker": {
     "columns": 12,
@@ -168,40 +210,61 @@
     "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
   },
   "echo_fright": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "6b51a71e8c4e6baefcf619c6d5ced625c159e110e01f1133a38d11a95ddba4fc",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/echo_fright.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/echo_fright.gif",
+      "frames": 144,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "07ec47b29a4c7942a3767a88c26d99a54111f46266cc7d494a991180f9568f03",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "trademark_001": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "f8dffd1754bc7d8d7b4d52de8b8594e595dc4b3959fb95be39c4fe01b0ca3ad8",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/trademark_001.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/trademark_001.gif",
+      "frames": 240,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "bd7a08084b8905df510d2af9593bb4e452f681ae1c1c4702046e83d043b17480",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "trademark_006": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "b321e54c2ee981623cae4dd0ab53350f30cc41bf1d0b9a5e6313548bb44dad94",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/trademark_006.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/trademark_006.gif",
+      "frames": 60,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "f5bc857be5f625a4beec7a44d2723dc27b796d97f460d4f803416a480e3f3926",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "trademark_007": {
     "columns": 12,
@@ -216,76 +279,118 @@
     "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
   },
   "trademark_008": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "fe54690cf6f4a849b032d176665d3cd19cb2e43ac172b508ace15de168f5f890",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/trademark_008.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/trademark_008.gif",
+      "frames": 260,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "74cd075e18d04c8d2549e848945d3fcd2aa4c550718e07bb6edf224ba42fc9fd",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "trademark_011": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "f1e1b840db6ff581013f447842557fdfe72d16d415cf74c21806393afd71343f",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/trademark_011.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/trademark_011.gif",
+      "frames": 76,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "16f81d20b287b1977ba17cd5f64ac3ba37d066b6247359868ffa212f6f1567a6",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "trademark_016": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "a0a1508ab0278c1f620b04a3ab0d7409d335e154898afa65f224a944f2dbcedc",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/trademark_016.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/trademark_016.gif",
+      "frames": 1,
+      "sample_seconds": 0.05,
+      "loops": false
+    },
+    "sha256": "88e618bc5a8d5ec52898db318933c84adfaada9f38818f19455128c872eb3e27",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "trademark_020": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "67f305a59f05816d163152363fc3b7885002408e7c12f0e6023266503b04c244",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/trademark_020.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/trademark_020.gif",
+      "frames": 120,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "d2f039fdaca3d20ad0797a28adda5a2ab167a4934b3dec065771486f49c18216",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "trademark_021": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "5680c85024d8c91ac86b4bf676840934d7872a4eb4e3800a878a29ea81605975",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/trademark_021.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/trademark_021.gif",
+      "frames": 100,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "c79b5551442252472541bfc51597f627ba3835bc633fe2651ff39cc244ec8d69",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "trademark_023": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "79f424ab168db328b021f953caa1eee756184e1d3536ae63b32f3f53ab4e696c",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/trademark_023.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/trademark_023.gif",
+      "frames": 80,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "e1e0693f86fb81034272e8098af449a966451f0426b4f00dfe355a3029f628aa",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "trademark_025": {
     "columns": 12,
@@ -312,16 +417,23 @@
     "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
   },
   "trademark_032": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "ad858c64ffb5adbe02f40ecdf2a78d78f788ab31fcf510c8b8e01171ee9dd912",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/trademark_032.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/trademark_032.gif",
+      "frames": 120,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "efff0db82e5f5490d672636efff6c5e1867ccfef90673e26eec8e056993e7e71",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "trademark_041": {
     "columns": 12,
@@ -348,16 +460,23 @@
     "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
   },
   "trademark_054": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "3e2d8988b3fbc35e30f0666ca208b02a750fe606186c7845d1e8bc49d49d8a3e",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/trademark_054.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/trademark_054.gif",
+      "frames": 160,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "1d877ad0dcd962b83d79f0e098a5c72d3d84a8dda37722f4a4c364b228bda5e4",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "trademark_055": {
     "columns": 12,
@@ -384,28 +503,42 @@
     "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
   },
   "trademark_059": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "60b11abad747461ccb08d7eb522fad9be5ea0618a0893d3a6ca37e1cf5d2cb8c",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/trademark_059.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/trademark_059.gif",
+      "frames": 180,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "73373ab37f9aebc7e1f31674554707f2477302fdd915d01ee2319c0227f5f91d",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "trademark_061": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "9f608b0037508823ab0ecf0fc0260264427a462e527c87b33ef2f3392985bd57",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/trademark_061.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/trademark_061.gif",
+      "frames": 120,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "318cc075e9140783ba5081ea9dcc6e1a8160839defaa7383b51600e7fffdd217",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "trademark_062": {
     "columns": 12,
@@ -468,16 +601,23 @@
     "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
   },
   "trademark_073": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "1af3aa544b073f32b871c05800670aab188fd66cde04cd06af9bbdcf98873dc0",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/trademark_073.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/trademark_073.gif",
+      "frames": 160,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "26dd3769081029dcbd7c0dba9a775d5eb0e8b340f1831607209237afc2f77239",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "trademark_074": {
     "columns": 12,
@@ -492,16 +632,23 @@
     "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
   },
   "trademark_079": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "44debf192d0baccd32b0e54ace112d53650af3eef4ef8a15cd48015bb13c1648",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/trademark_079.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/trademark_079.gif",
+      "frames": 160,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "54a1e4cfc473b4dd7c0a9312a900a7c0ffc5b8f4ef99c152425996125e54e96c",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "trademark_095": {
     "columns": 12,
@@ -528,16 +675,23 @@
     "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
   },
   "trademark_100": {
-    "columns": 12,
+    "columns": 13,
     "rows": 8,
-    "frames": 96,
+    "frames": 104,
     "frame_width": 320,
     "frame_height": 270,
     "sample_seconds": 0.25,
-    "preview_seconds": 24,
+    "preview_seconds": 26,
     "loops": false,
-    "sha256": "8351c9678585d710d6f45036880d7052b9fd98dfff3196240b49e896b921236e",
-    "note": "24-second native Godot demonstration on anonymous sample artwork. Plays once to avoid an artificial loop reset; reload or replay to view again."
+    "sheet": "previews/review-2026-11-22/trademark_100.png",
+    "animation": {
+      "path": "previews/review-2026-11-22/trademark_100.gif",
+      "frames": 120,
+      "sample_seconds": 0.05,
+      "loops": true
+    },
+    "sha256": "25061a897c5a28855252159d42b758a855916187aa57c134648f2f5f87cbb0a7",
+    "note": "Frame sheet: 26 seconds at four frames per second. The separate animated preview shows a complete repeating cycle at 20 frames per second; the palette example is static."
   },
   "trademark_101": {
     "columns": 12,
