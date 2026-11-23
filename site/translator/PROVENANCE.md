@@ -1,6 +1,6 @@
 # DBA translator in Lore
 
-Vendored browser release from https://github.com/ragingaxolotl-art/era-zero-translator at `26eec4d390510c716ffeeec9ca017f57c705dac4`.
+Vendored browser release from https://github.com/ragingaxolotl-art/era-zero-translator at `639f0f4c1ace316370e1f81e797f7d383293e357`.
 The dictionary, story composer and music decoder match the upstream release. Lore integration adds navigation and shared proposal persistence in app.js, index.html, styles.css, and lore-concepts.mjs; song_editor.mjs also preserves the selected arrangement on this device. Preserve these integration changes when updating the upstream release. No personal proposals or saves are included.
 
 November 22: preserves future/ability/negation scopes, independently decodes the approved love reading, distinguishes composed from verified score meanings, and repairs the small-screen definition flow. Canonical vocabulary and music profiles are unchanged. Broader English coverage and general recorded-audio recovery remain unfinished.
@@ -32,3 +32,5 @@ November 22 closing: the physical closing transition reuses the exact closed sta
 November 22 passage layout: the long story interpretation is available under keyboard-accessible Meaning details, while readiness, Play and Add to song remain outside. This changes presentation only. The source report records 278 core checks, eight release gates, 131 independently recovered message pairs, preserved earlier meanings and sounds, and browser evidence. Lore passes 270 integration tests. General translator completion remains open.
 
 November 22 contextual states: keep/stay/remain now accept the ten existing physical adjectives as their specified state. This reuses the existing meanings and exact story-property music; no dictionary entry, norm or frame is added. Physical-dimension and private-homonym choices remain explicit. Earlier sounds are preserved. Degree, comparisons, duration, multiple state complements and general microphone recovery remain unfinished.
+
+November 23 information storage: save/store reuse a completed retention commitment, built from the existing stored-information root and bounded actualization, before adding its productive actor. Stored reuses the exact DAT:000 state as a predicate, noun description and keep/stay/remain condition. Information-versus-other choices and private homonyms remain explicit. Nested stored descriptions require before/after phase when deleted. The earlier meanings and performances remain preserved; destination/version complements, saved-result adjectives, passive/perfect events and general microphone decoding remain unfinished.
