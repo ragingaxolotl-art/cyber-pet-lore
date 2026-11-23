@@ -1,7 +1,7 @@
 # DBA translator in Lore
 
-Vendored browser release from https://github.com/ragingaxolotl-art/era-zero-translator at `08ef635edf95dfacd40039f9b43c495a9d3441e6`.
-The dictionary, story composer and music decoder match the upstream release. Lore integration adds navigation and shared proposal persistence in app.js, index.html, styles.css, and lore-concepts.mjs. Preserve these integration changes when updating the upstream release. No personal proposals or saves are included.
+Vendored browser release from https://github.com/ragingaxolotl-art/era-zero-translator at `d624a5c72feed65c8e3e9b77866b3fc63e9667db`.
+The dictionary, story composer and music decoder match the upstream release. Lore integration adds navigation and shared proposal persistence in app.js, index.html, styles.css, and lore-concepts.mjs; song_editor.mjs also preserves the selected arrangement on this device. Preserve these integration changes when updating the upstream release. No personal proposals or saves are included.
 
 November 22: preserves future/ability/negation scopes, independently decodes the approved love reading, distinguishes composed from verified score meanings, and repairs the small-screen definition flow. Canonical vocabulary and music profiles are unchanged. Broader English coverage and general recorded-audio recovery remain unfinished.
 
@@ -26,3 +26,7 @@ November 22 placement: put/place now reuse caused physical displacement and comp
 November 22 container actions: fill and empty reuse physical displacement plus the existing full/empty states and transition structure. The actor changes the container’s contents; the container is not treated as the moved object. Existing adjective meanings and sounds are preserved. Before/after phase must be explicit when a container changes from empty or full. Contents, quantities, passive/perfect forms and general microphone decoding remain unfinished.
 
 November 22 contextual modifiers: the ten existing physical adjectives now attach to subjects, objects, alternatives and placement destinations in supported story sentences. Existing norm frames bind the same numbered participant inside the story property; no new roots, compounds or musical markers are introduced. Physical dimensions and saved-word homonyms retain focused meaning choices. Earlier adjective and group sounds are preserved. Degree, comparisons, contextual keep/stay complements, other sentence profiles and general microphone decoding remain unfinished.
+
+November 22 closing: the physical closing transition reuses the exact closed state, then caused closing reuses that transition. Close/shut forms preserve state versus event, caused versus uncaused meaning, scope, runtime and tense ambiguity. Software or other nonphysical readings remain separate. Before/after phase guidance protects changing closure descriptions. Existing closed-state sounds and other definitions are preserved; no new root is added. Additional complements, passive/perfect event grammar and general microphone decoding remain unfinished.
+
+November 22 passage layout: the long story interpretation is available under keyboard-accessible Meaning details, while readiness, Play and Add to song remain outside. This changes presentation only. The source report records 278 core checks, eight release gates, 131 independently recovered message pairs, preserved earlier meanings and sounds, and browser evidence. Lore passes 270 integration tests. General translator completion remains open.
