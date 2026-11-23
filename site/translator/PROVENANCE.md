@@ -1,6 +1,6 @@
 # DBA translator in Lore
 
-Vendored browser release from https://github.com/ragingaxolotl-art/era-zero-translator at `d624a5c72feed65c8e3e9b77866b3fc63e9667db`.
+Vendored browser release from https://github.com/ragingaxolotl-art/era-zero-translator at `26eec4d390510c716ffeeec9ca017f57c705dac4`.
 The dictionary, story composer and music decoder match the upstream release. Lore integration adds navigation and shared proposal persistence in app.js, index.html, styles.css, and lore-concepts.mjs; song_editor.mjs also preserves the selected arrangement on this device. Preserve these integration changes when updating the upstream release. No personal proposals or saves are included.
 
 November 22: preserves future/ability/negation scopes, independently decodes the approved love reading, distinguishes composed from verified score meanings, and repairs the small-screen definition flow. Canonical vocabulary and music profiles are unchanged. Broader English coverage and general recorded-audio recovery remain unfinished.
@@ -30,3 +30,5 @@ November 22 contextual modifiers: the ten existing physical adjectives now attac
 November 22 closing: the physical closing transition reuses the exact closed state, then caused closing reuses that transition. Close/shut forms preserve state versus event, caused versus uncaused meaning, scope, runtime and tense ambiguity. Software or other nonphysical readings remain separate. Before/after phase guidance protects changing closure descriptions. Existing closed-state sounds and other definitions are preserved; no new root is added. Additional complements, passive/perfect event grammar and general microphone decoding remain unfinished.
 
 November 22 passage layout: the long story interpretation is available under keyboard-accessible Meaning details, while readiness, Play and Add to song remain outside. This changes presentation only. The source report records 278 core checks, eight release gates, 131 independently recovered message pairs, preserved earlier meanings and sounds, and browser evidence. Lore passes 270 integration tests. General translator completion remains open.
+
+November 22 contextual states: keep/stay/remain now accept the ten existing physical adjectives as their specified state. This reuses the existing meanings and exact story-property music; no dictionary entry, norm or frame is added. Physical-dimension and private-homonym choices remain explicit. Earlier sounds are preserved. Degree, comparisons, duration, multiple state complements and general microphone recovery remain unfinished.

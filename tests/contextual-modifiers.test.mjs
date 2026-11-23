@@ -35,10 +35,10 @@ test('modifiers bind separate placement roles and a later pronoun preserves iden
  assert.deepEqual(followHeard.events[0].arguments[1].properties,[{contextual_norm:'rough'},{contextual_norm:'wide'}]);
  assert.equal(followHeard.events[1].arguments[1].entity,1);assert.deepEqual(followHeard.events[1].arguments[1].properties,[]);
 });
-test('physical dimensions are explicit and unsupported degree/complements stay unresolved',()=>{
+test('physical dimensions are explicit and unsupported degree stays unresolved',()=>{
  for(const text of ['The wide idea fell.','Nora lifted the light board.']){
   const question=storyReading(text,authority).question;assert(question);
   assert.equal(storyReading(text,authority,{answers:{[question.key]:'other'}}),null);
  }
- for(const text of ['Nora lifted the very wide board.','Nora lifted the wider board.','The board stayed wide.'])assert.equal(storyReading(text,authority),null);
+ for(const text of ['Nora lifted the very wide board.','Nora lifted the wider board.'])assert.equal(storyReading(text,authority),null);
 });
