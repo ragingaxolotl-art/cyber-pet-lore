@@ -29,7 +29,7 @@ test('other storage meanings and unsupported complements remain unresolved',asyn
     const plan=storyReading(text,authority);assert(plan?.question,text);
     assert.equal(storyReading(text,authority,{answers:{[plan.question.key]:'other'}}),null);
   }
-  for(const text of ['Nora saved the file to the folder.','Nora has saved the file.','The file was saved by Nora.','Nora saved Nora.']){
+  for(const text of ['Nora saved the file to the folder.','Nora has saved the file.','The file has been saved by Nora.','Nora saved Nora.']){
     assert.equal(await scoreSongText(text,authority,()=>{throw Error('No unrelated fallback');}),null,text);
   }
 });

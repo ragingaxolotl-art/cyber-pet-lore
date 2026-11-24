@@ -39,5 +39,5 @@ test('closure phase guidance and explicit before-clause preserve the intended re
  const heard=decodeStoryMidi((await scoreStory(before,authority)).midi,authority.atoms);
  assert.equal(heard.events[1].predicate,cause);assert.equal(heard.events[0].arguments[0].entity,heard.events[1].arguments[1].entity);
  assert.deepEqual(heard.relations,[{kind:'before',events:[0,1]}]);
- for(const text of ['Nora closed the gate with a lever.','The gate was closed by Nora.','Nora has closed the gate.'])assert.equal(storyReading(text,authority),null);
+ for(const text of ['Nora closed the gate with a lever.','The gate has been closed by Nora.','Nora has closed the gate.'])assert.equal(storyReading(text,authority),null);
 });
