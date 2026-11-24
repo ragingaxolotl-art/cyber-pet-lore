@@ -1,6 +1,6 @@
 # DBA translator in Lore
 
-Vendored browser release from https://github.com/ragingaxolotl-art/era-zero-translator at `094df973b319b61827b8af5bdd9482ee80cd5f7d`.
+Vendored browser release from https://github.com/ragingaxolotl-art/era-zero-translator at `eee03f81d059ce8cd9131bb1c25ab11c78b1d10e`.
 The dictionary, story composer and music decoder match the upstream release. Lore integration adds navigation and shared proposal persistence in app.js, index.html, styles.css, and lore-concepts.mjs; song_editor.mjs also preserves the selected arrangement on this device. Preserve these integration changes when updating the upstream release. No personal proposals or saves are included.
 
 November 22: preserves future/ability/negation scopes, independently decodes the approved love reading, distinguishes composed from verified score meanings, and repairs the small-screen definition flow. Canonical vocabulary and music profiles are unchanged. Broader English coverage and general recorded-audio recovery remain unfinished.
@@ -46,3 +46,7 @@ November 23 explicit-agent passives: 31 reviewed participles reuse existing tran
 November 23 passive verification: upstream passes 286 clean implementation checks, eight release gates, 588 focused independent melody/chord pairs and eight further combinations. The 24 pinned earlier active/state performances remain exact. Lore passes 304 integration tests. Each local site passes 24 layouts, 16 independently recovered exports, six alternative-meaning checks, nine unsupported-input checks, three keyboard disclosures, 24 stale-result checks and eight song-line removals. Dictionary inventory and musical frames are unchanged.
 
 November 23 ordinary time: failed story sentences now recognize yesterday/today/tomorrow and now before object/command parsing. Existing accepted readings and names stay exact. New modal dates ask whether time constrains the action/state or the ability/possibility/need; nested modal and linked/quantified date attachment remains explicit unfinished work. Neutral references, descriptions, runtime 0/1/2 and existing musical frames are reused.
+
+November 23 ordinary quantifiers: every/each, no, and not every common-noun subjects reuse existing class references and all/none scopes. Direct negative ambiguity has two explicit readings; neutral reference labels, verb/adjective meanings and runtime 0/1/2 remain intact. Earlier time/name parsing takes precedence, preserving names such as Every in dated actions. New restricted subjects, linked/bound-reference clauses, quantified date attachment, cardinal/object quantifiers and broader grammar remain open.
+
+Quantified indefinite items remain unresolved until shared-versus-per-member binding can be represented. This includes indefinite objects, destinations, alternatives and user-supplied referents; the existing named/definite-item reading is preserved.
