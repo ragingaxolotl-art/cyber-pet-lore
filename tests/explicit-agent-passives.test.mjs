@@ -12,7 +12,7 @@ for(const runtime of [0,1,2])test('passives preserve actor, patient and ordered 
  for(const bytes of [midi,expandChordMidi(compactChordMidi(midi,authority.atoms),authority.atoms)]){
   const meaning=decodeStoryMidi(bytes,authority.atoms),event=meaning.events[0];
   assert.equal(event.predicate,copy);assert.deepEqual(event.arguments.map(a=>[a.role,a.entity]),[['actor',1],['target',0]]);
-  assert.deepEqual(meaning.entities[0].identity.phonemes,['F','AY','L']);assert.deepEqual(meaning.entities[1].identity.phonemes,['N','AO','R','AE']);
+  assert.deepEqual(meaning.entities[0].identity.phonemes,['F','IH','L']);assert.deepEqual(meaning.entities[1].identity.phonemes,['N','AO','R','AE']);
   assert.deepEqual(event.scopes,['time_after_speech','negation']);assert.equal(meaning.runtime_state,runtime);
  }
 });
