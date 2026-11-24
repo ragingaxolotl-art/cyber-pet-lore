@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 concurrency:
@@ -25,8 +26,23 @@ jobs:
       - run: npm test
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
+        id: pages-upload
         with:
+          name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
           path: site
+      - name: Wait for uploaded Pages artifact
+        uses: actions/github-script@v8
+        env:
+          PAGES_ARTIFACT_NAME: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+          PAGES_ARTIFACT_ID: ${{ steps.pages-upload.outputs.artifact_id }}
+        with:
+          script: |
+            const waitForArtifact = require('./.github/scripts/wait-for-pages-artifact.cjs');
+            await waitForArtifact({github, context, core,
+              name: process.env.PAGES_ARTIFACT_NAME,
+              artifactId: process.env.PAGES_ARTIFACT_ID});
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
