@@ -1,6 +1,6 @@
 # DBA translator in Lore
 
-Vendored browser release from https://github.com/ragingaxolotl-art/era-zero-translator at `356cb60c8109c7e1b54fe1d0d752ba1584bacae1`.
+Vendored browser release from https://github.com/ragingaxolotl-art/era-zero-translator at `ca141fc63e7a0cce19c1185109861124ca104cee`.
 The dictionary, story composer and music decoder match the upstream release. Lore integration adds navigation and shared proposal persistence in app.js, index.html, styles.css, and lore-concepts.mjs; song_editor.mjs also preserves the selected arrangement on this device. Preserve these integration changes when updating the upstream release. No personal proposals or saves are included.
 
 November 22: preserves future/ability/negation scopes, independently decodes the approved love reading, distinguishes composed from verified score meanings, and repairs the small-screen definition flow. Canonical vocabulary and music profiles are unchanged. Broader English coverage and general recorded-audio recovery remain unfinished.
@@ -42,3 +42,5 @@ November 23 ordinary comparisons: hotter/colder reuse thermodynamic-temperature 
 November 23 comparison verification: upstream passes 285 full implementation checks and eight release gates; Lore passes 298 integration tests. The complete Lore browser check passes 21 layouts, 14 independently recovered melody/chord exports and all tested alternative-meaning, unsupported-input and stale-input cases. The final style repair keeps interpretation cards stationary on hover. Semantic runtime remains identical to the fully tested implementation. General English and physical microphone recovery remain open.
 
 November 23 explicit-agent passives: 31 reviewed participles reuse existing transitive roles and music. Surface mention order preserves referent identities; canonical role order keeps actor/cause/experiencer distinct from the affected or perceived participant. Existing state readings, private meanings, scope, runtime and before/after guards remain intact. Ambiguous by-nouns retain a participant-versus-location choice. Agent omission, perfect/get-passives, quantified patients and unsupported complements remain open.
+
+November 23 passive verification: upstream passes 286 clean implementation checks, eight release gates, 588 focused independent melody/chord pairs and eight further combinations. The 24 pinned earlier active/state performances remain exact. Lore passes 304 integration tests. Each local site passes 24 layouts, 16 independently recovered exports, six alternative-meaning checks, nine unsupported-input checks, three keyboard disclosures, 24 stale-result checks and eight song-line removals. Dictionary inventory and musical frames are unchanged.
