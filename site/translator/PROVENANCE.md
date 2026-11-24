@@ -1,6 +1,6 @@
 # DBA translator in Lore
 
-Vendored browser release from https://github.com/ragingaxolotl-art/era-zero-translator at `b6ea3e11c7ae84696752a37767ea6ca7c50ae291`.
+Vendored browser release from https://github.com/ragingaxolotl-art/era-zero-translator at `e408e31bcb3caac100c0644e3a3308882ecee410`.
 The dictionary, story composer and music decoder match the upstream release. Lore integration adds navigation and shared proposal persistence in app.js, index.html, styles.css, and lore-concepts.mjs; song_editor.mjs also preserves the selected arrangement on this device. Preserve these integration changes when updating the upstream release. No personal proposals or saves are included.
 
 November 22: preserves future/ability/negation scopes, independently decodes the approved love reading, distinguishes composed from verified score meanings, and repairs the small-screen definition flow. Canonical vocabulary and music profiles are unchanged. Broader English coverage and general recorded-audio recovery remain unfinished.
@@ -50,3 +50,5 @@ November 23 ordinary time: failed story sentences now recognize yesterday/today/
 November 23 ordinary quantifiers: every/each, no, and not every common-noun subjects reuse existing class references and all/none scopes. Direct negative ambiguity has two explicit readings; neutral reference labels, verb/adjective meanings and runtime 0/1/2 remain intact. Earlier time/name parsing takes precedence, preserving names such as Every in dated actions. New restricted subjects, linked/bound-reference clauses, quantified date attachment, cardinal/object quantifiers and broader grammar remain open.
 
 Quantified indefinite items remain unresolved until shared-versus-per-member binding can be represented. This includes indefinite objects, destinations, alternatives and user-supplied referents; the existing named/definite-item reading is preserved.
+
+November 23 grammar-gap guidance: unavailable simple quantity, degree and continuation sentences explain their missing grammar without inventing verb/adjective definitions for grammatical words or nouns. Genuine unknown predicates remain unresolved. No new whole-sentence meaning or music is asserted. This integration is under validation and is not yet published.
